@@ -59,20 +59,12 @@ export function calculateLevel(totalXP) {
 }
 
 /**
- * Títol del nivell per mostrar a la UI
+ * Títol del nivell — ara ve del tema actiu.
+ * Aquesta funció accepta el tema com a paràmetre opcional
+ * per compatibilitat amb codi que encara no usa ThemeContext.
  */
-export function getLevelTitle(level) {
-  const titles = {
-    1:  'Recluta',
-    2:  'Observador',
-    3:  'Analista',
-    4:  'Explorador',
-    5:  'Científic',
-    6:  'Investigador',
-    7:  'Astrofísic',
-    8:  'Cosmòleg',
-    9:  'Teòric',
-    10: 'Mestre de l\'Univers'
-  }
-  return titles[Math.min(level, 10)] || 'Llegenda Còsmica'
+export function getLevelTitle(level, levelTitles = {}) {
+  return levelTitles[String(level)]
+    || levelTitles[String(Math.min(level, 10))]
+    || `Nivell ${level}`
 }

@@ -1,40 +1,18 @@
-/**
- * Welcome.jsx
- *
- * Pantalla de primer cop. Apareix una sola vegada.
- * Presenta la narrativa i el concepte de l'Acadèmia.
- * Marca firstTime = false al storage i redirigeix a Home.
- */
-
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useTheme } from '../context/ThemeContext'
 import storage from '../storage/storageProvider'
 import styles from './Welcome.module.css'
 
-const SLIDES = [
-  {
-    emoji: '🌌',
-    title: 'Benvingut a l\'Acadèmia Còsmica',
-    text: 'El coneixement de l\'univers s\'ha fragmentat. La teva missió és reconstruir-lo peça a peça.'
-  },
-  {
-    emoji: '🧑‍🚀',
-    title: 'Pensa com un científic',
-    text: 'No memoritzaràs dades. Aprendràs a observar, predir i entendre. Cada lliçó és una missió.'
-  },
-  {
-    emoji: '⭐',
-    title: 'Guanya XP i insígnies',
-    text: 'La teva confiança importa. Encertar amb seguretat et dona bonus. Equivocar-te amb seguretat, penalitza. Pensa bé abans de respondre.'
-  }
-]
-
 export default function Welcome() {
   const navigate  = useNavigate()
-  const [slide, setSlide] = useState(0)
+  const { theme } = useTheme()
+  const [slide, setSlide]   = useState(0)
   const [exiting, setExiting] = useState(false)
 
-  const isLast = slide === SLIDES.length - 1
+  const slides = theme.welcome.slides
+  const isLast = slide === slides.length - 1
+  const current = slides[slide]
 
   const handleNext = () => {
     if (!isLast) {
@@ -46,13 +24,10 @@ export default function Welcome() {
     }
   }
 
-  const current = SLIDES[slide]
-
   return (
     <div className={`${styles.screen} ${exiting ? styles.exiting : ''}`}>
-      {/* Indicadors de pàgina */}
       <div className={styles.dots}>
-        {SLIDES.map((_, i) => (
+        {slides.map((_, i) => (
           <div key={i} className={`${styles.dot} ${i === slide ? styles.dotActive : ''}`} />
         ))}
       </div>
@@ -65,15 +40,12 @@ export default function Welcome() {
 
       <div className={styles.footer}>
         <button className={styles.nextBtn} onClick={handleNext}>
-          {isLast ? '🚀 Iniciar missió' : 'Continua →'}
+          {isLast ? `🚀 Iniciar ${theme.missionWord.toLowerCase()}` : 'Continua →'}
         </button>
         {!isLast && (
           <button
             className={styles.skipBtn}
-            onClick={() => {
-              storage.set('firstTime', false)
-              navigate('/')
-            }}
+            onClick={() => { storage.set('firstTime', false); navigate('/') }}
           >
             Saltar
           </button>

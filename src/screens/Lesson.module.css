@@ -309,3 +309,101 @@
   color: var(--color-text-faint);
   margin: var(--space-2) 0 0;
 }
+
+/* Línia del temps */
+.timeline {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+
+.timelineLabel {
+  font-size: var(--text-xs);
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  margin-bottom: var(--space-5);
+}
+
+.timelineEvent {
+  display: grid;
+  grid-template-columns: 60px 16px 1fr;
+  gap: 0 var(--space-3);
+  margin-bottom: var(--space-4);
+  align-items: start;
+}
+
+.timelineEvent:last-child { margin-bottom: 0; }
+
+.timelineYear {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  color: var(--color-accent);
+  text-align: right;
+  padding-top: 2px;
+  line-height: 1.2;
+}
+
+.timelineDot {
+  width: 10px;
+  height: 10px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  margin-top: 3px;
+  position: relative;
+  flex-shrink: 0;
+  justify-self: center;
+}
+
+.timelineDot::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: calc(100% + var(--space-4) + 6px);
+  background: var(--color-border);
+}
+
+.timelineEvent:last-child .timelineDot::after { display: none; }
+
+.timelineContent { padding-bottom: var(--space-1); }
+
+.timelineTitle {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.timelineText {
+  font-size: var(--text-xs);
+  color: var(--color-text-dim);
+  line-height: 1.5;
+}
+
+/* Cita */
+.quote {
+  border-left: 3px solid var(--color-accent);
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-surface);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.quoteText {
+  font-size: var(--text-base);
+  color: var(--color-text);
+  font-style: italic;
+  line-height: 1.7;
+  margin: 0 0 var(--space-2);
+}
+
+.quoteAuthor {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  font-style: normal;
+  display: block;
+}

@@ -1,37 +1,35 @@
 /**
  * useProgress.js
- * 
- * Hook central que gestiona tot l'estat de l'usuari:
- * XP, mòduls completats, lliçons completades, insígnies.
- * 
- * Es sincronitza automàticament amb storage en cada canvi.
+ *
+ * Hook central que gestiona tot l'estat de l'usuari.
+ * Actualitzat per suportar itineraris: el progrés de cada itinerari
+ * es guarda de forma independent sota la clau moduleId + itineraryId.
  */
 
 import { useState, useCallback } from 'react'
 import storage from '../storage/storageProvider'
 
-// Estat inicial d'un usuari nou
 const DEFAULT_STATE = {
   xp: 0,
   level: 1,
-  completedLessons: [],    // ['module-01_lesson-01', ...]
-  completedModules: [],    // ['module-01', ...]
-  unlockedModules: ['module-01-copernicus'], // El primer sempre obert
-  badges: [],              // ['badge-challenger', ...]
+  completedLessons: [],
+  completedModules: [],
+  completedItineraries: [], // ['module-02-history__chronological', ...]
+  unlockedModules: ['module-01-copernicus'],
+  badges: [],
   navigationState: {
     currentModuleId: null,
+    currentItineraryId: null, // NOU
     currentLessonId: null,
     currentStep: 0
   }
 }
 
 export function useProgress() {
-  const [state, setState] = useState(() => {
-    // Carrega l'estat desat o usa el de per defecte
-    return storage.get('progress', DEFAULT_STATE)
-  })
+  const [state, setState] = useState(() =>
+    storage.get('progress', DEFAULT_STATE)
+  )
 
-  // Funció interna per actualitzar i persistir
   const update = useCallback((updater) => {
     setState(prev => {
       const next = typeof updater === 'function' ? updater(prev) : { ...prev, ...updater }
@@ -40,20 +38,24 @@ export function useProgress() {
     })
   }, [])
 
-  // --- Accions públiques ---
-
   const addXP = useCallback((amount) => {
     update(prev => {
       const newXP = prev.xp + amount
-      const newLevel = Math.floor(newXP / 100) + 1 // Cada 100 XP = 1 nivell
+      const newLevel = Math.floor(newXP / 100) + 1
       return { ...prev, xp: newXP, level: newLevel }
     })
   }, [update])
 
-  const completeLesson = useCallback((moduleId, lessonId) => {
-    const key = `${moduleId}_${lessonId}`
+  // Clau única per lliçó dins d'un itinerari
+  const lessonKey = (moduleId, itineraryId, lessonId) =>
+    itineraryId
+      ? `${moduleId}__${itineraryId}__${lessonId}`
+      : `${moduleId}__${lessonId}`
+
+  const completeLesson = useCallback((moduleId, lessonId, itineraryId = null) => {
+    const key = lessonKey(moduleId, itineraryId, lessonId)
     update(prev => {
-      if (prev.completedLessons.includes(key)) return prev // Ja completada
+      if (prev.completedLessons.includes(key)) return prev
       return { ...prev, completedLessons: [...prev.completedLessons, key] }
     })
   }, [update])
@@ -62,6 +64,14 @@ export function useProgress() {
     update(prev => {
       if (prev.completedModules.includes(moduleId)) return prev
       return { ...prev, completedModules: [...prev.completedModules, moduleId] }
+    })
+  }, [update])
+
+  const completeItinerary = useCallback((moduleId, itineraryId) => {
+    const key = `${moduleId}__${itineraryId}`
+    update(prev => {
+      if ((prev.completedItineraries || []).includes(key)) return prev
+      return { ...prev, completedItineraries: [...(prev.completedItineraries || []), key] }
     })
   }, [update])
 
@@ -86,9 +96,14 @@ export function useProgress() {
     }))
   }, [update])
 
-  const isLessonCompleted = useCallback((moduleId, lessonId) => {
-    return state.completedLessons.includes(`${moduleId}_${lessonId}`)
+  const isLessonCompleted = useCallback((moduleId, lessonId, itineraryId = null) => {
+    const key = lessonKey(moduleId, itineraryId, lessonId)
+    return state.completedLessons.includes(key)
   }, [state.completedLessons])
+
+  const isItineraryCompleted = useCallback((moduleId, itineraryId) => {
+    return (state.completedItineraries || []).includes(`${moduleId}__${itineraryId}`)
+  }, [state.completedItineraries])
 
   const isModuleUnlocked = useCallback((moduleId) => {
     return state.unlockedModules.includes(moduleId)
@@ -104,10 +119,12 @@ export function useProgress() {
     addXP,
     completeLesson,
     completeModule,
+    completeItinerary,
     unlockModule,
     earnBadge,
     setNavigationState,
     isLessonCompleted,
+    isItineraryCompleted,
     isModuleUnlocked,
     resetAll
   }
