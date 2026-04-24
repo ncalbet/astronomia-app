@@ -1,0 +1,209 @@
+.sim {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.playBtn {
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-4);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  min-width: 80px;
+}
+
+.playBtn:hover { background: #6a95ff; }
+
+.speedGroup {
+  display: flex;
+  gap: var(--space-1);
+}
+
+.speedBtn {
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-dim);
+  border-radius: var(--radius-sm);
+  padding: var(--space-1) var(--space-3);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.speedBtn.active {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  background: rgba(76, 125, 255, 0.1);
+}
+
+.resetBtn {
+  background: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-dim);
+  border-radius: var(--radius-sm);
+  padding: var(--space-1) var(--space-3);
+  font-size: var(--text-base);
+  cursor: pointer;
+  transition: var(--transition);
+  margin-left: auto;
+}
+
+.resetBtn:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+/* Toggle de vista */
+.viewToggle {
+  display: flex;
+  background: var(--color-surface-2);
+  border-radius: var(--radius-md);
+  padding: 3px;
+  gap: 3px;
+}
+
+.viewBtn {
+  flex: 1;
+  padding: var(--space-2) var(--space-3);
+  border: none;
+  background: transparent;
+  color: var(--color-text-faint);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  border-radius: calc(var(--radius-md) - 3px);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.viewBtn.viewActive {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+/* Dia i estat */
+.dayCounter {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  color: var(--color-text-dim);
+  text-align: center;
+}
+
+.retroLabel { color: var(--color-danger); }
+.proLabel   { color: var(--color-success); }
+
+/* SVG espai */
+.svg {
+  width: 100%;
+  aspect-ratio: 1;
+  background: radial-gradient(ellipse at center, #0d1535 0%, #080c1a 100%);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  display: block;
+}
+
+/* Vista Terra */
+.earthView {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.earthSky {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(to bottom, #04080f, #0d1535);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+}
+
+.tracePoint {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: rgba(255, 153, 85, 0.6);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.marsDot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ff9955;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 8px rgba(255, 153, 85, 0.6);
+  transition: background 0.3s;
+  z-index: 2;
+}
+
+.marsDotRetro {
+  background: #ff6b6b;
+  box-shadow: 0 0 12px rgba(255, 107, 107, 0.8);
+}
+
+.skyLabel {
+  position: absolute;
+  bottom: var(--space-2);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: rgba(255,255,255,0.2);
+  white-space: nowrap;
+}
+
+.earthHint {
+  font-size: var(--text-xs);
+  color: var(--color-text-dim);
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+}
+
+/* Insight */
+.insight {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  background: rgba(76, 125, 255, 0.07);
+  border: 1px solid rgba(76, 125, 255, 0.2);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.insightIcon { font-size: 1.2rem; flex-shrink: 0; }
+
+.insight p {
+  font-size: var(--text-sm);
+  color: var(--color-text-dim);
+  margin: 0;
+  line-height: 1.6;
+}

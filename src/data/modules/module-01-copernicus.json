@@ -1,0 +1,150 @@
+{
+  "id": "module-01-copernicus",
+  "title": "La Revolució de Copèrnic",
+  "subtitle": "Missió 1 — Reconstrueix el primer gran fragment",
+  "phase": 1,
+  "unlockRequires": null,
+  "badge": "copernicus-complete",
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "El món que crèiem conèixer",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Ets un recluta de l'Acadèmia Còsmica. El coneixement de l'univers s'ha fragmentat. La teva missió: reconstruir-lo peça a peça."
+        },
+        {
+          "type": "key-idea",
+          "text": "Durant més de mil anys, tothom creia que la Terra era el centre de l'univers. El Sol, la Lluna i els planetes giraven al seu voltant."
+        },
+        {
+          "type": "expandable",
+          "label": "Vols entendre per què tothom ho creia?",
+          "content": "El model geocèntric no era estúpid, era lògic: sents la Terra immòbil, veus el Sol moure's. Aristòtil i Ptolemeu el van formalitzar amb matemàtiques complexes (epicicles) que funcionaven per predir posicions planetàries. Era un sistema sofisticat, no un error ingenu."
+        },
+        {
+          "type": "prediction",
+          "question": "Sense telescopi, mirant el cel nit rere nit, com creus que semblaria el moviment dels planetes?",
+          "hint": "Pensa en el que veuries realment, no en el que saps ara."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-01-01",
+          "style": "multiple-choice",
+          "question": "Quin seria el principal motiu per creure que la Terra és el centre?",
+          "options": [
+            "Perquè la Terra és el planeta més gran",
+            "Perquè el cel sembla girar al nostre voltant cada dia",
+            "Perquè els astrònoms antics tenien telescopis",
+            "Perquè la Bíblia ho deia explícitament"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "L'observació directa suggeria que tot girava al nostre voltant. Era la interpretació més natural de l'evidència visible, sense cap teoria prèvia.",
+          "feedbackWrong": "Pensa en l'observació directa: si estàs quiet i tot el cel sembla rotar, quina és la conclusió més lògica sense teoria prèvia?"
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "El problema que ningú volia veure",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El model funcionava... gairebé. Però hi havia anomalies que ningú podia explicar sense complicar-ho tot."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els planetes de vegades semblen anar enrere — moviment retrògrad. El model geocèntric necessitava complicacions matemàtiques creixents per explicar-ho."
+        },
+        {
+          "type": "expandable",
+          "label": "Quin és el moviment retrògrad exactament?",
+          "content": "Marte, per exemple, normalment es mou d'oest a est entre les estrelles. Però durant setmanes, sembla moure's a l'inrevés. Ptolemeu ho va explicar amb 'epicicles': cercles dins de cercles. Funcionava per predir, però era complex i artificiós."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-02-01",
+          "style": "true-false",
+          "question": "El moviment retrògrad dels planetes demostra que el model geocèntric era completament inútil.",
+          "correct": false,
+          "feedbackCorrect": "El model geocèntric podia predir el moviment retrògrad, simplement necessitava construccions matemàtiques complexes. No era inútil, era eficaç però cada cop menys elegant.",
+          "feedbackWrong": "Considera que els científics el van usar durant segles amb èxit predictiu. El problema no era que no funcionés, sinó que era artificiosament complicat."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-02-01",
+          "question": "Un model que prediu correctament els fenòmens però necessita hipòtesis cada cop més complexes per fer-ho: és un bon model científic?",
+          "options": [
+            "Sí, si prediu bé, és suficient — la complexitat és acceptable",
+            "No, un bon model ha de ser simple i coherent, no sols predictiu",
+            "Depèn: si no hi ha alternativa millor, cal acceptar-lo"
+          ],
+          "correct": 2,
+          "explanation": "La resposta més honesta és la tercera. Un científic prefereix models simples (navalla d'Occam), però si no hi ha alternativa millor, un model complex i funcional és millor que cap model. Copèrnic va oferir l'alternativa que faltava."
+        },
+        {
+          "type": "simulation",
+          "id": "sim-02-01",
+          "simulationType": "retrograde-motion",
+          "title": "Per què sembla que Mart va enrere?",
+          "context": "Observa Terra i Mart orbitant el Sol. Activa la simulació i canvia a 'Vista Terra' per veure com Mart sembla retrocedir quan la Terra l'adelanta."
+        }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "title": "Copèrnic i la gran aposta",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1543, Copèrnic publica una idea radical: i si la Terra és la que es mou? L'Acadèmia registra el moment en què el coneixement canvia de direcció."
+        },
+        {
+          "type": "key-idea",
+          "text": "Copèrnic va proposar que el Sol és al centre (model heliocèntric) i la Terra gira al seu voltant. Això explicava el moviment retrògrad de forma elegant i natural."
+        },
+        {
+          "type": "expandable",
+          "label": "Per què no tothom ho va acceptar de seguida?",
+          "content": "Perquè el model de Copèrnic tenia problemes reals: seguia usant cercles perfectes (menys precisos que els epicicles de Ptolemeu), no explicava per què no sentim la Terra moure's, i contradiia l'autoritat d'Aristòtil i l'Església. La ciència rarament triomfa ràpidament."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-03-01",
+          "style": "multiple-choice",
+          "question": "Quin avantatge principal tenia el model heliocèntric de Copèrnic?",
+          "options": [
+            "Era més precís per predir posicions planetàries",
+            "Explicava el moviment retrògrad de forma natural i simple",
+            "L'Església el va aprovar immediatament",
+            "Usava millors telescopis"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "El moviment retrògrad sorgeix naturalment quan la Terra (ràpida) adelanta Marte (lent) al voltant del Sol. No cal cap construcció matemàtica artificial.",
+          "feedbackWrong": "El model de Copèrnic era menys precís que Ptolemeu, no més. El seu valor era l'elegància conceptual, no la precisió numèrica."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-03-02",
+          "style": "detect-error",
+          "statement": "Copèrnic va revolucionar l'astronomia perquè el seu model era immediatament més precís que tots els anteriors.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és 'immediatament més precís'. El model de Copèrnic inicialment era menys precís que el de Ptolemeu perquè seguia usant cercles perfectes. Va ser Kepler, dècades després, qui va resoldre-ho amb el·lipses i va superar la precisió de Ptolemeu."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-03-01",
+          "question": "Si dos models expliquen els mateixos fenòmens però un és més simple i l'altre és més precís, quin hauria de preferir un científic?",
+          "options": [
+            "Sempre el més simple — la simplicitat és el criteri clau",
+            "Sempre el més precís — la precisió és el criteri clau",
+            "Depèn del context: per explorar idees, simplicitat; per fer prediccions, precisió"
+          ],
+          "correct": 2,
+          "explanation": "La ciència no té un criteri únic. La navalla d'Occam (preferir el simple) és una guia, no una llei. En la pràctica, Copèrnic va guanyar per simplicitat conceptual, però Ptolemeu era més precís fins que Kepler va unir ambdues virtuts."
+        }
+      ]
+    }
+  ]
+}
