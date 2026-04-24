@@ -1,0 +1,60 @@
+{
+  "id": "astronomy",
+  "appName": "Acadèmia Còsmica",
+  "shortName": "Còsmica",
+  "description": "Aprèn a pensar com un científic",
+  "userRole": "Recluta",
+  "missionWord": "Missió",
+  "moduleWord": "Mòdul",
+  "reflectionModeName": "Mode Científic",
+  "reflectionModeIcon": "🧠",
+  "reflectionModeIntro": "Amb el que has après fins ara, pren una decisió com ho faria un científic. No rebràs resposta immediata.",
+  "expandLabel": "Vols aprofundir?",
+  "colors": {
+    "accent":    "#4c7dff",
+    "accentDim": "#2a4db5",
+    "accentGlow":"rgba(76, 125, 255, 0.25)",
+    "bg":        "#0b0f1e",
+    "surface":   "#111827",
+    "surface2":  "#1a2340",
+    "border":    "#1e2d4a"
+  },
+  "levelTitles": {
+    "1":  "Recluta",
+    "2":  "Observador",
+    "3":  "Analista",
+    "4":  "Explorador",
+    "5":  "Científic",
+    "6":  "Investigador",
+    "7":  "Astrofísic",
+    "8":  "Cosmòleg",
+    "9":  "Teòric",
+    "10": "Mestre de l'Univers"
+  },
+  "welcome": {
+    "slides": [
+      {
+        "emoji": "🌌",
+        "title": "Benvingut a l'Acadèmia Còsmica",
+        "text": "El coneixement de l'univers s'ha fragmentat. La teva missió és reconstruir-lo peça a peça."
+      },
+      {
+        "emoji": "🧑‍🚀",
+        "title": "Pensa com un científic",
+        "text": "No memoritzaràs dades. Aprendràs a observar, predir i entendre. Cada lliçó és una missió."
+      },
+      {
+        "emoji": "⭐",
+        "title": "Guanya XP i insígnies",
+        "text": "La teva confiança importa. Encertar amb seguretat et dona bonus. Equivocar-te amb seguretat, penalitza."
+      }
+    ]
+  },
+  "narrative": {
+    "feedbackPrefix": "L'Acadèmia registra:",
+    "correctHigh":    "Anàlisi excel·lent. L'Acadèmia registra pensament científic sòlid.",
+    "correctNormal":  "Anàlisi correcta. Continues reconstruint el coneixement.",
+    "wrongHigh":      "Alerta. Alta seguretat amb hipòtesi incorrecta — el pitjor error d'un científic.",
+    "wrongNormal":    "Hipòtesi incorrecta. Revisa les dades i ajusta el model."
+  }
+}

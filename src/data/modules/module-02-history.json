@@ -1,0 +1,458 @@
+{
+  "id": "module-02-history",
+  "title": "Història de l'Astronomia",
+  "emoji": "🏛️",
+  "phase": 1,
+  "unlockRequires": "module-01-copernicus",
+  "itineraries": [
+    {
+      "id": "chronological",
+      "title": "Itinerari Cronològic",
+      "icon": "🕰️",
+      "description": "Segueix el fil del temps: de Babilònia fins a les ones gravitacionals",
+      "style": "Lineal · del passat al present",
+      "lessons": [
+        {
+          "id": "chron-01",
+          "title": "Els primers observadors (3000 aC – 300 aC)",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Molt abans dels telescopis, els humans ja cartografiaven el cel. Ho feien per sobreviure: per saber quan sembrar, quan migrar, quan preparar-se per les inundacions."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "3000 aC", "title": "Babilònia", "text": "Registren eclipsis i moviments planetaris amb una precisió sorprenent. Inventen el zodíac." },
+                { "year": "2500 aC", "title": "Stonehenge", "text": "Construcció alineada amb el solstici d'estiu. La funció exacta segueix debatent-se." },
+                { "year": "585 aC", "title": "Tales de Milet", "text": "Prediu un eclipsi solar. Primera predicció científica documentada de la història." },
+                { "year": "350 aC", "title": "Aristòtil", "text": "Argumenta que la Terra és esfèrica a partir d'observacions de l'ombra en eclipsis lunars." }
+              ]
+            },
+            {
+              "type": "key-idea",
+              "text": "Els primers astrònoms no separaven astronomia de religió ni de calendari. Observaven el cel per necessitat pràctica, no per curiositat abstracta. Però la seva meticulositat va crear la base de dades que els científics posteriors necessitaven."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chron-01-01",
+              "style": "multiple-choice",
+              "question": "Per quin motiu principalment els pobles antics observaven el cel?",
+              "options": [
+                "Per curiositat filosòfica sobre l'origen de l'univers",
+                "Per necessitats pràctiques: calendari, agricultura, navegació",
+                "Per motius religiosos exclusivament",
+                "Per competència entre civilitzacions"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'astronomia antiga neix de la necessitat, no de la filosofia. El calendari agrícola, les marees i la navegació depenien de conèixer el cel.",
+              "feedbackWrong": "Pensa en les necessitats bàsiques d'una civilització agrícola. Saber quan plourà o quan plantar és vida o mort."
+            }
+          ]
+        },
+        {
+          "id": "chron-02",
+          "title": "Grècia i Alexandria (300 aC – 150 dC)",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Els grecs van fer el salt de l'observació a la teoria. Van intentar no sols descriure el cel, sinó explicar-lo matemàticament."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "240 aC", "title": "Eratòstenes", "text": "Mesura la circumferència de la Terra amb un pal i l'ombra del sol. Error inferior al 2%." },
+                { "year": "190 aC", "title": "Hiparc", "text": "Catalogues de 850 estrelles. Descobreix la precessió dels equinoccis." },
+                { "year": "150 dC", "title": "Ptolemeu", "text": "L'Almagest: la síntesi definitiva del model geocèntric. Dominarà l'astronomia 1.400 anys." }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Com va mesurar Eratòstenes la Terra?",
+              "content": "Va saber que a Siena (actual Assuan), el sol il·luminava verticalment els pous al migdia del solstici. A Alexandria, al mateix moment, els objectes feien ombra. Mesurant l'angle de l'ombra (7,2°) i la distància entre les dues ciutats, va calcular la circumferència. El resultat: ~39.375 km. El valor real: 40.075 km. Fa 2.200 anys, sense tecnologia, amb un pal i geometria."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chron-02-01",
+              "style": "true-false",
+              "question": "Ptolemeu va ser el primer a proposar que la Terra era esfèrica.",
+              "correct": false,
+              "feedbackCorrect": "Correcte. Aristòtil ja ho havia argumentat uns 500 anys abans, i Eratòstenes fins i tot n'havia calculat la circumferència. Ptolemeu va sistematitzar el model geocèntric, no va descobrir l'esfericitat.",
+              "feedbackWrong": "Aristòtil ja havia argumentat l'esfericitat de la Terra uns 500 anys abans de Ptolemeu, i Eratòstenes n'havia mesurat la circumferència."
+            }
+          ]
+        },
+        {
+          "id": "chron-03",
+          "title": "Edat Mitjana i l'Islam (600 – 1400)",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "A Europa occidental, l'astronomia grega quasi desapareix. Però el coneixement sobreviu i s'expandeix en el món islàmic, que el preserva, tradueix i millora."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'astronomia islàmica medieval no és simplement una còpia dels grecs. Al-Battani va corregir les taules de Ptolemeu, Ibn al-Haytham va criticar el model geocèntric, i els observatoris de Bagdad i Samarcanda van produir mesures que Copèrnic posteriorment usaria."
+            },
+            {
+              "type": "quote",
+              "text": "Si veig més lluny és perquè estic assegut a les espatlles de gegants.",
+              "author": "Isaac Newton — referint-se, entre d'altres, als astrònoms islàmics medievals"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chron-03-01",
+              "style": "detect-error",
+              "statement": "Durant l'Edat Mitjana, l'astronomia va estar completament paralitzada fins al Renaixement.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és 'completament paralitzada'. A Europa occidental sí que hi va haver un estancament, però el món islàmic va viure un període d'or científic. Astrònoms com Al-Battani o Al-Biruni van fer contribucions decisives que posteriorment van alimentar la Revolució Científica europea."
+            }
+          ]
+        },
+        {
+          "id": "chron-04",
+          "title": "La Revolució Científica (1500 – 1700)",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "En menys de 200 anys, la visió de l'univers canvia radicalment. No és un canvi gradual: és una ruptura."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "1543", "title": "Copèrnic", "text": "Publica el model heliocèntric. Mor el mateix any." },
+                { "year": "1572", "title": "Brahe", "text": "Observa una supernova. Demostra que el cel 'perfecte' canvia." },
+                { "year": "1609", "title": "Kepler", "text": "Les òrbites són el·lipses, no cercles. Les tres lleis del moviment planetari." },
+                { "year": "1610", "title": "Galileu", "text": "Telescopi al cel: llunes de Júpiter, fases de Venus, taques solars." },
+                { "year": "1687", "title": "Newton", "text": "Principia Mathematica. La gravetat universal unifica el cel i la Terra." }
+              ]
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-chron-04-01",
+              "question": "Quin d'aquests descobriments creus que va ser el més decisiu per abandonar el model geocèntric?",
+              "options": [
+                "El model matemàtic de Copèrnic",
+                "Les llunes de Júpiter de Galileu",
+                "Les el·lipses de Kepler",
+                "La gravetat universal de Newton"
+              ],
+              "correct": 1,
+              "explanation": "Tot i que Copèrnic va proposar el model, les llunes de Júpiter van ser l'evidència observacional més immediata: demostraven que hi havia cossos que orbitaven quelcom que NO era la Terra. Copèrnic era teoria; Galileu era prova visible. Newton va posar-hi el marc matemàtic definitiu, però Galileu va fer el tall psicològic."
+            }
+          ]
+        },
+        {
+          "id": "chron-05",
+          "title": "Segle XIX: la nova astronomia (1800 – 1900)",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El segle XIX transforma l'astronomia d'una ciència de posicions i moviments a una ciència de matèria i energia. La clau: la llum."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'espectroscòpia permet analitzar la composició química de les estrelles sense anar-hi. El 1868, l'heli es descobreix al Sol 27 anys abans de trobar-lo a la Terra. Per primera vegada, sabem de què estan fets els estels."
+            },
+            {
+              "type": "expandable",
+              "label": "Com funciona l'espectroscòpia?",
+              "content": "Cada element químic absorbeix i emet llum a longituds d'ona específiques — com una empremta digital. Quan la llum d'una estrella passa per un prisma, apareixen línies fosques on els elements han absorbit. Comparant aquestes línies amb les dels elements al laboratori, podem saber exactament què hi ha a milers d'anys llum."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chron-05-01",
+              "style": "multiple-choice",
+              "question": "Quin concepte nou va transformar l'astronomia al segle XIX?",
+              "options": [
+                "El telescopi reflector de Newton",
+                "L'espectroscòpia — analitzar la llum de les estrelles",
+                "El càlcul de les distàncies per paral·laxi",
+                "La fotografia astronòmica"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "L'espectroscòpia va ser la revolució silenciosa del segle XIX. Va convertir l'astronomia en astrofísica: ja no sols sabíem on eren les estrelles, sinó de què estaven fetes.",
+              "feedbackWrong": "Tot i que el telescopi, la paral·laxi i la fotografia eren importants, cap va tenir l'impacte transformador de l'espectroscòpia, que va permetre conèixer la composició química de l'univers."
+            }
+          ]
+        },
+        {
+          "id": "chron-06",
+          "title": "Segle XX: l'univers s'expandeix (1900 – 1970)",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El segle XX comença amb dues revolucions simultànies que capgiren la física i l'astronomia: la relativitat i la mecànica quàntica."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "1905–1915", "title": "Einstein", "text": "Relativitat especial i general. L'espai-temps es corba. La llum es doblega per la gravetat." },
+                { "year": "1924", "title": "Hubble", "text": "La nebulosa d'Andròmeda és una galàxia separada. L'univers és immensament més gran del que pensàvem." },
+                { "year": "1929", "title": "Hubble", "text": "Les galàxies s'allunyen. L'univers s'expandeix. Implica que va tenir un inici." },
+                { "year": "1965", "title": "Penzias i Wilson", "text": "Descobreixen la radiació de fons de microones. Prova directa del Big Bang." }
+              ]
+            },
+            {
+              "type": "key-idea",
+              "text": "El descobriment que l'univers s'expandeix va ser tan desconcertant que Einstein, que les seves equacions ja ho predeien, havia afegit una 'constant cosmològica' per evitar-ho. Va dir que era el seu 'error més gran'. Fins i tot els millors científics resisteixen les implicacions del seu propi treball."
+            }
+          ]
+        },
+        {
+          "id": "chron-07",
+          "title": "Astronomia contemporània (1970 – avui)",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Les últimes dècades han portat descobertes que posen en qüestió el que entenem per 'univers visible'. La majoria del cosmos és, literalment, invisible."
+            },
+            {
+              "type": "key-idea",
+              "text": "La matèria i energia que podem observar representa només el 5% de l'univers. El 27% és matèria fosca (no emet llum però té gravetat). El 68% és energia fosca (accelera l'expansió de l'univers). No sabem què és cap dels dos."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "1990", "title": "Telescopi Hubble", "text": "Imatges sense l'atmosfera terrestre. Revela la profunditat i la bellesa de l'univers." },
+                { "year": "1998", "title": "Energia fosca", "text": "L'expansió de l'univers s'accelera. Cal una força desconeguda que s'oposi a la gravetat." },
+                { "year": "2015", "title": "Ones gravitacionals", "text": "LIGO detecta la fusió de dos forats negres. Einstein ho havia predit 100 anys abans." },
+                { "year": "2019", "title": "Primer forat negre fotografiat", "text": "L'Event Horizon Telescope captura la primera imatge real d'un forat negre (M87*)." },
+                { "year": "2022", "title": "Telescopi James Webb", "text": "Imatges de les primeres galàxies de l'univers, a 13.000 milions d'anys llum." }
+              ]
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-chron-07-01",
+              "question": "Si el 95% de l'univers és invisible i desconegut, quin impacte té això en el mètode científic?",
+              "options": [
+                "Demostra que el mètode científic té límits fonamentals insuperables",
+                "És un problema temporal: amb millors instruments ho descobrirem tot",
+                "El mètode científic segueix sent vàlid — simplement expandim el que sabem que no sabem"
+              ],
+              "correct": 2,
+              "explanation": "La tercera opció reflecteix millor l'actitud científica. Reconèixer la ignorància no és una derrota — és el punt de partida. La matèria i energia fosca no invaliden la física; són el proper capítol. La ciència avança precisament identificant amb precisió el que no entén."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thematic",
+      "title": "Itinerari per Preguntes",
+      "icon": "🔭",
+      "description": "Les grans preguntes que la humanitat ha intentat respondre al llarg dels segles",
+      "style": "Temàtic · del simple al profund",
+      "lessons": [
+        {
+          "id": "them-01",
+          "title": "\"On som?\" — El lloc de la Terra a l'univers",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant mil·lennis, la resposta semblava òbvia: al centre. Cada nova resposta ens ha anat desplaçant cap a posicions cada cop més perifèriques."
+            },
+            {
+              "type": "key-idea",
+              "text": "La història de l'astronomia és, en part, la història d'un descentrament progressiu: primer la Terra no és el centre del sistema solar, després el Sol no és el centre de la galàxia, després la Via Làctia no és la galàxia central, finalment no hi ha cap centre."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "350 aC", "title": "Aristòtil", "text": "Terra al centre. L'univers té esferes concèntriques perfectes." },
+                { "year": "1543", "title": "Copèrnic", "text": "El Sol al centre. La Terra orbita." },
+                { "year": "1920", "title": "Shapley", "text": "El Sol no és al centre de la Via Làctia, sinó al braç d'una espiral." },
+                { "year": "1924", "title": "Hubble", "text": "La Via Làctia és una galàxia entre milions. No hi ha centre privilegiat." },
+                { "year": "1929", "title": "Hubble", "text": "L'univers s'expandeix des de tots els punts alhora. No hi ha centre." }
+              ]
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-them-01-01",
+              "question": "Cada vegada que la ciència ens ha desplaçat del centre, ha generat resistència. Per quin motiu creus que és tan difícil acceptar que no som especials cosmològicament?",
+              "options": [
+                "Per raons religioses i culturals — el centre implica importància",
+                "Perquè les proves eren febles i la resistència era racional",
+                "Perquè el cervell humà té un biaix cognitiu cap a l'egocentrisme"
+              ],
+              "correct": 2,
+              "explanation": "Les tres raons hi juguen, però la més fonamental és la cognitiva. El cervell humà construeix la realitat des de la perspectiva pròpia — és un avantatge evolutiu, però genera biaixos profunds. La ciència és, entre altres coses, un sistema dissenyat per corregir aquests biaixos sistemàticament."
+            }
+          ]
+        },
+        {
+          "id": "them-02",
+          "title": "\"Com es mouen?\" — Del cercle a l'el·lipse",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant 2.000 anys, tothom va assumir que els cossos celestes es movien en cercles perfectes. Era una creença filosòfica disfressada de ciència."
+            },
+            {
+              "type": "key-idea",
+              "text": "El cercle era perfecte per definició filosòfica (Plató, Aristòtil). Per tant els cossos celestes, que eren perfectes, havien de moure's en cercles. Quan les observacions no quadraven, s'afegien cercles dins de cercles (epicicles) en lloc de qüestionar la premissa."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què Kepler va ser tan revolucionari?",
+              "content": "Kepler tenia les dades observacionals de Tycho Brahe — les més precises de l'època, fetes sense telescopi. Quan intentava fer quadrar l'òrbita de Mart amb un cercle, hi havia un error de 8 minuts d'arc. Podria haver ignorat aquest error petit, però va confiar en les dades. Anys de càlculs després, va descobrir que les òrbites eren el·lipses. Un error de 8 minuts va capgirar 2.000 anys de filosofia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-them-02-01",
+              "style": "multiple-choice",
+              "question": "Per quin motiu els astrònoms grecs insistien que les òrbites eren cercles perfectes?",
+              "options": [
+                "Perquè les observacions de l'època ho confirmaven clarament",
+                "Per una premissa filosòfica: els cossos celestes eren perfectes i el cercle era la forma perfecta",
+                "Perquè no tenien matemàtiques per descriure el·lipses",
+                "Perquè Ptolemeu ho havia demostrat matemàticament"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Era una creença filosòfica prèvia a l'observació. Les observacions es forçaven a quadrar amb la teoria, en lloc de deixar que la teoria sorgís de les observacions. Kepler va fer el contrari.",
+              "feedbackWrong": "Les matemàtiques per a el·lipses existien (cònica d'Apol·loni). El problema era filosòfic, no matemàtic."
+            }
+          ]
+        },
+        {
+          "id": "them-03",
+          "title": "\"Per què es mouen?\" — De les esferes a la gravetat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Descriure el moviment és una cosa. Explicar-ne la causa és una altra. Aquesta pregunta va trigar 2.000 anys a tenir resposta."
+            },
+            {
+              "type": "key-idea",
+              "text": "Aristòtil creia que els cossos celestes es movien perquè estaven encastats en esferes de cristall que giraven. Newton va entendre que no calia cap suport: la gravetat actua a distància, sense contacte. Una idea tan estranya que el propi Newton la trobava inquietant."
+            },
+            {
+              "type": "quote",
+              "text": "No formulo hipòtesis. Tot el que no es dedueix dels fenòmens és una hipòtesi, i les hipòtesis no tenen lloc en la filosofia experimental.",
+              "author": "Isaac Newton — sobre la naturalesa de la gravetat, que descrivia però no explicava"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-them-03-01",
+              "style": "detect-error",
+              "statement": "Newton va explicar completament la naturalesa de la gravetat: és una força d'atracció entre masses.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és 'completament'. Newton va descriure matemàticament com funciona la gravetat amb una precisió extraordinària, però mai va explicar per qué la massa atreu massa ni com actua a distància sense contacte. Va ser Einstein, amb la relativitat general, qui va donar una explicació física: la massa corba l'espai-temps."
+            }
+          ]
+        },
+        {
+          "id": "them-04",
+          "title": "\"De què estan fets?\" — La química de les estrelles",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant segles, les estrelles semblaven inaccessibles per a la química. Com podries saber de quins elements estan fetes sense poder-hi anar?"
+            },
+            {
+              "type": "key-idea",
+              "text": "La resposta va arribar el 1814 amb Fraunhofer i l'espectroscòpia. La llum de cada element té una signatura única de línies espectrals. Analitzant la llum solar, podem llegir la composició química del Sol com si fos una etiqueta d'ingredients."
+            },
+            {
+              "type": "expandable",
+              "label": "El descobriment de l'heli — un element trobat primer al Sol",
+              "content": "El 1868, durant un eclipsi solar, l'astrònom Norman Lockyer va observar una línia espectral que no corresponia a cap element conegut. Va proposar que era un element nou i el va anomenar heli (del grec Helios, Sol). 27 anys després, el 1895, William Ramsay va aïllar l'heli a la Terra. És l'únic element que es va descobrir a l'espai abans que al nostre planeta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-them-04-01",
+              "style": "multiple-choice",
+              "question": "L'espectroscòpia va revelar que les estrelles estan fetes principalment de:",
+              "options": [
+                "Ferro i níquel, com el nucli de la Terra",
+                "Hidrogen i heli, els elements més simples",
+                "Oxigen i carboni, els elements de la vida",
+                "Una barreja igual de tots els elements"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. El 98% de la massa visible de l'univers és hidrogen i heli — els elements més simples, formats poc després del Big Bang. Els elements pesants com el carboni, l'oxigen o el ferro es forgen a l'interior de les estrelles.",
+              "feedbackWrong": "L'espectroscòpia va revelar que l'univers és sorprenentment simple en composició: dominat per hidrogen i heli, els elements primordials del Big Bang."
+            }
+          ]
+        },
+        {
+          "id": "them-05",
+          "title": "\"Com va néixer?\" — Del cosmos estàtic al Big Bang",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La idea que l'univers pogués tenir un inici era profundament incòmoda. Fins i tot Einstein va modificar les seves equacions per evitar-la."
+            },
+            {
+              "type": "key-idea",
+              "text": "El 1929, Hubble va observar que totes les galàxies s'allunyen de nosaltres, i les més llunyanes ho fan més ràpid. Extrapolant enrere, tot hauria estat junt en un punt d'altíssima densitat. El Big Bang no és una explosió en l'espai: és l'expansió de l'espai mateix."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què el Big Bang no és una 'explosió'?",
+              "content": "Una explosió convencional ocorre en un punt de l'espai i s'expandeix cap enfora. El Big Bang és diferent: l'espai mateix va créixer. No va passar en cap lloc concret perquè el 'lloc' no existia abans. Preguntar 'on va passar el Big Bang' és com preguntar 'al nord del Pol Nord'. La pregunta no té sentit geogràfic perquè la geometria no s'aplica fora de l'espai-temps."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-them-05-01",
+              "question": "Si l'univers va tenir un inici, és legítim preguntar 'i abans del Big Bang, què hi havia?'",
+              "options": [
+                "Sí, és una pregunta científica vàlida que la física ha de respondre",
+                "No, és una pregunta sense sentit: el temps va néixer amb el Big Bang",
+                "És una pregunta filosòfica, no científica, i per tant fora de l'abast de la física"
+              ],
+              "correct": 1,
+              "explanation": "Segons la relativitat general, l'espai i el temps van néixer junts amb el Big Bang. Preguntar 'abans' implica temps, però el temps no existia. No és evasió: és que la pregunta conté una premissa incorrecta. Dit això, alguns models cosmològics (univers cíclic, multivers) sí que exploren l'abans, però com a especulació matemàtica, no com a ciència establerta."
+            }
+          ]
+        },
+        {
+          "id": "them-06",
+          "title": "\"Què no veiem?\" — L'univers invisible",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La pregunta final és la més desconcertant: tot el que hem après fins ara — estrelles, galàxies, planetes — representa menys del 5% del que hi ha. La resta és desconeguda."
+            },
+            {
+              "type": "key-idea",
+              "text": "La matèria fosca va ser postulada per explicar per què les galàxies giren massa ràpid per la matèria visible que contenen. L'energia fosca va ser postulada quan es va descobrir que l'expansió de l'univers s'accelera en lloc de frenar. Tots dos noms inclouen 'fosca' perquè no sabem quasi res d'ells."
+            },
+            {
+              "type": "expandable",
+              "label": "Com sabem que existeix quelcom que no podem veure?",
+              "content": "Per les seves efectes gravitacionals. La matèria fosca no emet llum, però doblega l'espai i afecta el moviment de les galàxies. Com un vent invisible que mou els arbres: no veus el vent, però inferexies la seva existència pel moviment. Amb l'energia fosca, l'evidència és l'acceleració de l'expansió: alguna cosa ha d'estar impulsant-la, i no és res del que coneixem."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-them-06-01",
+              "style": "multiple-choice",
+              "question": "Si no podem detectar directament la matèria fosca, com sabem que existeix?",
+              "options": [
+                "Per simulacions per ordinador que la prediuen teòricament",
+                "Pels seus efectes gravitacionals sobre la matèria visible",
+                "Per mesures directes amb detectors subterranis",
+                "Perquè les equacions d'Einstein la requereixen"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'evidència és indirecta però sòlida: les galàxies giren massa ràpid per la massa visible que contenen, les lents gravitacionals mostren massa invisible, i les simulacions de formació de galàxies requereixen matèria fosca per quadrar amb el que observem.",
+              "feedbackWrong": "La matèria fosca no ha estat detectada directament malgrat nombrosos intents. L'evidència prové exclusivament dels seus efectes gravitacionals sobre la matèria visible."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-them-06-01",
+              "question": "Que el 95% de l'univers sigui desconegut, és una derrota de la ciència o un èxit?",
+              "options": [
+                "Una derrota: portem segles estudiant el cosmos i no entenem la major part",
+                "Un èxit: hem estat prou precisos per identificar el que no sabem",
+                "Ni l'una ni l'altra: simplement és l'estat actual del coneixement"
+              ],
+              "correct": 1,
+              "explanation": "Identificar amb precisió la teva pròpia ignorància és un dels èxits més grans del mètode científic. Fa 100 anys no sabíem ni que la matèria fosca existia. Ara sabem que hi ha alguna cosa, que representa el 27% del contingut de l'univers, i tenim mètodes per buscar-la. El desconeixement quantificat és coneixement."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

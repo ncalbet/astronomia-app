@@ -1,0 +1,60 @@
+{
+  "id": "philosophy",
+  "appName": "L'Escola d'Atenes",
+  "shortName": "Atenes",
+  "description": "Aprèn a pensar, argumentar i qüestionar",
+  "userRole": "Aprenent",
+  "missionWord": "Dilema",
+  "moduleWord": "Corrent",
+  "reflectionModeName": "Mode Socràtic",
+  "reflectionModeIcon": "🏛️",
+  "reflectionModeIntro": "Amb els arguments que has vist fins ara, pren una postura. El mestre Sòcrates t'interrogarà al final.",
+  "expandLabel": "Vols explorar més a fons?",
+  "colors": {
+    "accent":    "#8B5CF6",
+    "accentDim": "#6D28D9",
+    "accentGlow":"rgba(139, 92, 246, 0.25)",
+    "bg":        "#0f0d18",
+    "surface":   "#161426",
+    "surface2":  "#1e1a35",
+    "border":    "#2d2850"
+  },
+  "levelTitles": {
+    "1":  "Novici",
+    "2":  "Pensador",
+    "3":  "Dialèctic",
+    "4":  "Sofista",
+    "5":  "Filòsof",
+    "6":  "Retòric",
+    "7":  "Epicuri",
+    "8":  "Estoic",
+    "9":  "Acadèmic",
+    "10": "Mestre de la Saviesa"
+  },
+  "welcome": {
+    "slides": [
+      {
+        "emoji": "🏛️",
+        "title": "Benvingut a l'Escola d'Atenes",
+        "text": "El pensament humà ha generat preguntes sense resposta fàcil. La teva missió és aprendre a pensar-les bé."
+      },
+      {
+        "emoji": "🤔",
+        "title": "Filosofia no és memoritzar",
+        "text": "No aprendràs qui va dir què. Aprendràs a argumentar, detectar fal·làcies i construir postures defensables."
+      },
+      {
+        "emoji": "⭐",
+        "title": "La confiança és clau",
+        "text": "Un filòsof que afirma amb seguretat quelcom fals és pitjor que un que dubta. Pensa bé abans de respondre."
+      }
+    ]
+  },
+  "narrative": {
+    "feedbackPrefix": "El mestre registra:",
+    "correctHigh":    "Argument sòlid. El teu raonament és coherent i defensable.",
+    "correctNormal":  "Correcte. Continues construint el teu pensament crític.",
+    "wrongHigh":      "Atenció. Afirmar amb convicció quelcom erroni és el vici que Sòcrates més criticava.",
+    "wrongNormal":    "Argument feble. Revisa les premisses i torna a intentar-ho."
+  }
+}

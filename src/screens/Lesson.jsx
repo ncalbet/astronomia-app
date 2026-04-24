@@ -1,16 +1,13 @@
 /**
- * Lesson.jsx (Bloc 2)
- *
+ * Lesson.jsx
  * Renderitzador dinàmic de lliçons per blocs.
- * Nou al Bloc 2:
- *   - ExerciseBlock amb confiança i feedback narratiu
- *   - ScientificModeBlock amb resposta diferida
- *   - DeferredFeedbackPanel al final de la lliçó
+ * Suporta mòduls amb i sense itineraris.
  */
 
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
+import { useTheme } from '../context/ThemeContext'
 import { loadModule } from '../data/moduleRegistry'
 import { XP_VALUES } from '../engine/xpEngine'
 import ExerciseBlock from '../components/exercises/ExerciseBlock'
@@ -18,8 +15,6 @@ import ScientificModeBlock from '../components/exercises/ScientificModeBlock'
 import DeferredFeedbackPanel from '../components/exercises/DeferredFeedbackPanel'
 import SimulationBlock from '../components/simulations/SimulationBlock'
 import styles from './Lesson.module.css'
-
-// ── Blocs de contingut ───────────────────────────────────────────────────────
 
 function NarrativeBlock({ block }) {
   return (
@@ -65,7 +60,32 @@ function PredictionBlock({ block }) {
   )
 }
 
-// ── Renderitzador de blocs ────────────────────────────────────────────────────
+function TimelineBlock({ block }) {
+  return (
+    <div className={styles.timeline}>
+      <div className={styles.timelineLabel}>📅 Línia del temps</div>
+      {block.events.map((ev, i) => (
+        <div key={i} className={styles.timelineEvent}>
+          <div className={styles.timelineYear}>{ev.year}</div>
+          <div className={styles.timelineDot} />
+          <div className={styles.timelineContent}>
+            <div className={styles.timelineTitle}>{ev.title}</div>
+            {ev.text && <div className={styles.timelineText}>{ev.text}</div>}
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function QuoteBlock({ block }) {
+  return (
+    <div className={styles.quote}>
+      <blockquote className={styles.quoteText}>"{block.text}"</blockquote>
+      {block.author && <cite className={styles.quoteAuthor}>— {block.author}</cite>}
+    </div>
+  )
+}
 
 function BlockRenderer({ block, onExpand, onAnswer, onDefer }) {
   switch (block.type) {
@@ -76,32 +96,34 @@ function BlockRenderer({ block, onExpand, onAnswer, onDefer }) {
     case 'exercise':        return <ExerciseBlock block={block} onAnswer={onAnswer} />
     case 'scientific-mode': return <ScientificModeBlock block={block} onDefer={onDefer} />
     case 'simulation':      return <SimulationBlock block={block} />
+    case 'timeline':        return <TimelineBlock block={block} />
+    case 'quote':           return <QuoteBlock block={block} />
     default: return null
   }
 }
 
-// ── Pantalla principal ────────────────────────────────────────────────────────
-
 export default function Lesson() {
-  const navigate = useNavigate()
-  const {
-    navigationState, setNavigationState,
-    addXP, completeLesson, checkBadges
-  } = useApp()
+  const navigate  = useNavigate()
+  const { navigationState, setNavigationState, addXP, completeLesson, completeItinerary, completeModule, checkBadges } = useApp()
+  const { theme } = useTheme()
 
   const [moduleData, setModuleData]      = useState(null)
   const [loading, setLoading]            = useState(true)
   const [deferredDecisions, setDeferred] = useState([])
 
-  const { currentModuleId, currentLessonId } = navigationState
+  const { currentModuleId, currentItineraryId, currentLessonId } = navigationState
 
   useEffect(() => {
     if (!currentModuleId) { navigate('/modules'); return }
     loadModule(currentModuleId)
       .then(data => {
         setModuleData(data)
-        if (!navigationState.currentLessonId) {
-          setNavigationState({ currentLessonId: data.lessons[0].id })
+        // Determina les lliçons actives (amb o sense itinerari)
+        const lessons = currentItineraryId
+          ? data.itineraries?.find(it => it.id === currentItineraryId)?.lessons || []
+          : data.lessons || []
+        if (!navigationState.currentLessonId && lessons.length > 0) {
+          setNavigationState({ currentLessonId: lessons[0].id })
         }
         setLoading(false)
       })
@@ -109,13 +131,17 @@ export default function Lesson() {
   }, [currentModuleId])
 
   if (loading || !moduleData) {
-    return <div className={styles.loading}>Carregant missió...</div>
+    return <div className={styles.loading}>Carregant {theme.missionWord.toLowerCase()}...</div>
   }
 
-  const currentLesson = moduleData.lessons.find(l => l.id === currentLessonId)
-    || moduleData.lessons[0]
-  const currentIndex  = moduleData.lessons.indexOf(currentLesson)
-  const isLast        = currentIndex === moduleData.lessons.length - 1
+  // Determina les lliçons actives
+  const lessons = currentItineraryId
+    ? moduleData.itineraries?.find(it => it.id === currentItineraryId)?.lessons || []
+    : moduleData.lessons || []
+
+  const currentLesson = lessons.find(l => l.id === currentLessonId) || lessons[0]
+  const currentIndex  = lessons.indexOf(currentLesson)
+  const isLast        = currentIndex === lessons.length - 1
 
   const scientificBlocks = currentLesson.blocks.filter(b => b.type === 'scientific-mode')
   const hasScientific    = scientificBlocks.length > 0
@@ -132,28 +158,43 @@ export default function Lesson() {
   }
 
   const handleNext = () => {
-    completeLesson(currentModuleId, currentLesson.id)
+    completeLesson(currentModuleId, currentLesson.id, currentItineraryId)
     addXP(XP_VALUES.COMPLETE_LESSON)
     checkBadges({ type: 'lesson_complete' })
+
     if (isLast) {
-      checkBadges({ type: 'module_complete', data: { moduleId: currentModuleId } })
+      // Si té itinerari, completa l'itinerari; si no, completa el mòdul
+      if (currentItineraryId) {
+        completeItinerary(currentModuleId, currentItineraryId)
+      } else {
+        completeModule(currentModuleId)
+        checkBadges({ type: 'module_complete', data: { moduleId: currentModuleId } })
+      }
       navigate('/results')
     } else {
-      const next = moduleData.lessons[currentIndex + 1]
+      const next = lessons[currentIndex + 1]
       setDeferred([])
       setNavigationState({ currentLessonId: next.id, currentStep: 0 })
     }
   }
 
+  // Botó de tornar: si té itinerari torna al selector, si no al mapa
+  const handleBack = () => {
+    if (currentItineraryId) navigate('/itinerary')
+    else navigate('/modules')
+  }
+
   return (
     <div className={styles.screen}>
       <header className={styles.header}>
-        <button className={styles.back} onClick={() => navigate('/modules')}>← Missions</button>
+        <button className={styles.back} onClick={handleBack}>
+          ← {currentItineraryId ? 'Itineraris' : `${theme.missionWord}s`}
+        </button>
         <div className={styles.progress}>
           <div className={styles.progressFill}
-            style={{ width: `${((currentIndex + 1) / moduleData.lessons.length) * 100}%` }} />
+            style={{ width: `${((currentIndex + 1) / lessons.length) * 100}%` }} />
         </div>
-        <span className={styles.progressLabel}>{currentIndex + 1}/{moduleData.lessons.length}</span>
+        <span className={styles.progressLabel}>{currentIndex + 1}/{lessons.length}</span>
       </header>
 
       <div className={styles.lessonTitle}>
@@ -178,7 +219,7 @@ export default function Lesson() {
 
       <div className={styles.footer}>
         <button className={styles.nextBtn} onClick={handleNext} disabled={!allCommitted}>
-          {isLast ? '🎉 Completar missió' : 'Següent lliçó →'}
+          {isLast ? `🎉 Completar ${currentItineraryId ? 'itinerari' : theme.missionWord.toLowerCase()}` : 'Següent lliçó →'}
         </button>
         {hasScientific && !allCommitted && (
           <p className={styles.footerHint}>Confirma la teva hipòtesi per continuar</p>

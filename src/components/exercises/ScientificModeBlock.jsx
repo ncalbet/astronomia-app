@@ -1,26 +1,18 @@
 /**
  * ScientificModeBlock.jsx
  *
- * Exercici especial: l'usuari tria una teoria/hipòtesi
- * però NO rep resposta immediata.
- * El feedback es revela al final de la lliçó (DeferredFeedbackPanel).
- *
- * Props:
- *   block       → dades del bloc (question, options, correct, explanation)
- *   onDefer     → callback({ blockId, selected, correct }) per registrar la decisió
+ * Exercici de reflexió sense resposta immediata.
+ * El nom, icona i intro venen del tema actiu.
  */
 
 import { useState } from 'react'
+import { useTheme } from '../../context/ThemeContext'
 import styles from './ScientificModeBlock.module.css'
 
 export default function ScientificModeBlock({ block, onDefer }) {
-  const [selected, setSelected] = useState(null)
+  const [selected, setSelected]   = useState(null)
   const [committed, setCommitted] = useState(false)
-
-  const handleSelect = (index) => {
-    if (committed) return
-    setSelected(index)
-  }
+  const { theme } = useTheme()
 
   const handleCommit = () => {
     if (selected === null || committed) return
@@ -32,15 +24,11 @@ export default function ScientificModeBlock({ block, onDefer }) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.label}>
-        <span className={styles.icon}>🧠</span>
-        Mode Científic
+        <span className={styles.icon}>{theme.reflectionModeIcon}</span>
+        {theme.reflectionModeName}
       </div>
 
-      <p className={styles.intro}>
-        Amb el que has après fins ara, pren una decisió com ho faria un científic.
-        No rebràs resposta immediata.
-      </p>
-
+      <p className={styles.intro}>{theme.reflectionModeIntro}</p>
       <p className={styles.question}>{block.question}</p>
 
       <div className={styles.options}>
@@ -50,7 +38,7 @@ export default function ScientificModeBlock({ block, onDefer }) {
             className={`${styles.option}
               ${selected === i ? styles.selected : ''}
               ${committed ? styles.committed : ''}`}
-            onClick={() => handleSelect(i)}
+            onClick={() => { if (!committed) setSelected(i) }}
             disabled={committed}
           >
             {opt}
@@ -66,7 +54,7 @@ export default function ScientificModeBlock({ block, onDefer }) {
 
       {committed && (
         <div className={styles.pending}>
-          🔬 Hipòtesi registrada. El veredicte arriba al final de la lliçó.
+          🔬 Decisió registrada. El veredicte arriba al final de la lliçó.
         </div>
       )}
     </div>
