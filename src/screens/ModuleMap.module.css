@@ -1,0 +1,104 @@
+.screen {
+  min-height: 100dvh;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-5) var(--space-10);
+}
+
+.header {
+  margin-bottom: var(--space-8);
+}
+
+.back {
+  background: none;
+  border: none;
+  color: var(--color-accent);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: var(--space-4);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+}
+
+.subtitle {
+  color: var(--color-text-dim);
+  font-size: var(--text-sm);
+}
+
+.moduleList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.moduleCard {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+
+.moduleCard:not(.locked):hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-2px);
+}
+
+.locked {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.completed {
+  border-color: var(--color-success);
+}
+
+.moduleEmoji {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.moduleInfo {
+  flex: 1;
+}
+
+.moduleName {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+
+.moduleMeta {
+  font-size: var(--text-xs);
+  color: var(--color-text-dim);
+}
+
+.completedBadge {
+  width: 28px;
+  height: 28px;
+  background: var(--color-success);
+  color: #0b0f1e;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: var(--text-sm);
+  flex-shrink: 0;
+}
