@@ -1,0 +1,322 @@
+{
+  "id": "module-05-birding",
+  "title": "Introducció a l'Ornitologia",
+  "emoji": "🐦",
+  "phase": 1,
+  "unlockRequires": "module-01-copernicus",
+  "itineraries": [
+    {
+      "id": "practical",
+      "title": "Comença a veure ocells",
+      "icon": "🔭",
+      "description": "Tot el que necessites per sortir al camp i começar a identificar ocells a Catalunya",
+      "style": "Pràctic · del sofà al camp",
+      "lessons": [
+        {
+          "id": "bird-01",
+          "title": "Per qué val la pena fixar-se en els ocells?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hi ha una activitat que pots fer a qualsevol lloc i en qualsevol moment, que no requereix equipament car, que connecta amb la natura i que, un cop aprens a fer-la, transforma completament la manera de percebre el teu entorn. S'anomena observació d'ocells."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els ocells estan per tot arreu — al balcó, al parc, al bosc, a la platja. La majoria de gent no els veu perquè no ha après a mirar. No és qüestió de talent ni de coneixements previs: és qüestió d'aprendre quatre principis bàsics i practicar-los."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué els ocells i no altres animals?",
+              "content": "Els ocells són el grup de vertebrats més accessible per observar: són diürns (a diferència dels mamífers, que sovint són nocturns), abundants, visibles i sonors. A Catalunya hi ha registrades més de 500 espècies. Fins i tot en una ciutat mitjana pots observar 20-30 espècies sense sortir del barri. A més, els ocells són excel·lents indicadors de la salut dels ecosistemes — aprendre a observar-los és aprendre a llegir el paisatge."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-01-01",
+              "style": "multiple-choice",
+              "question": "Quin equipament mínim necessites per començar a observar ocells?",
+              "options": [
+                "Prismàtics professionals, guia de camp i gravadora de so",
+                "Res — els ulls i les orelles són suficients per començar",
+                "Una càmera fotogràfica amb teleobjectiu",
+                "Un telèscop de camp i trípode"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Els ulls i les orelles són tot el que necessites per començar. Els prismàtics ajuden, però no són imprescindibles al principi. Molts ornitòlegs experimentats diuen que aprendre a escoltar és més important que aprendre a veure — i per escoltar no cal cap equipament.",
+              "feedbackWrong": "L'equipament ajuda, però no és la porta d'entrada. Moltes de les millors observacions es fan simplement parant-se i prestant atenció. Començar sense prismàtics t'obliga a fixar-te en la silueta, el moviment i el cant — que són les claus reals de la identificació."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-01-02",
+              "style": "true-false",
+              "question": "Per observar ocells a Catalunya cal anar a espais naturals protegits o zones rurals lluny de la ciutat.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Alguns dels millors llocs per observar ocells a Catalunya són espais urbans i periurbans: parcs de Barcelona, el delta del Llobregat (a tocar de l'aeroport), el riu Besòs o qualsevol jardí amb arbres. La diversitat és menor que en espais naturals, però l'accessibilitat és màxima — perfecte per començar.",
+              "feedbackWrong": "Els espais urbans i periurbans de Catalunya acullen desenes d'espècies fàcilment observables. El Parc de la Ciutadella, el Turó de la Rovira o qualsevol riu amb vegetació de ribera ofereixen observacions excel·lents sense sortir de la ciutat."
+            }
+          ]
+        },
+        {
+          "id": "bird-02",
+          "title": "Com mirar un ocell",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La primera reacció de tothom quan veu un ocell desconegut és fixar-se en el color. És un error. El color és el darrer pas d'una seqüència d'observació que comença per la silueta i el comportament."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'ordre correcte d'observació és: mida i silueta → tipus de vol i moviment → comportament i hàbitat → detalls de color i marques. Els dos primers passos et diuen el grup. El tercer et dona el context. El quart confirma l'espècie. Un ocell que s'escapa ràpid t'haurà donat la mida i la silueta — amb prou per saber si és un pardal, un falcó o una garsa."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la silueta és més fiable que el color?",
+              "content": "El color d'un ocell canvia en funció de la llum, l'angle, la distància i l'edat de l'individu. La silueta no canvia. Un corb sempre té la cua en forma de diamant, una oreneta sempre té la cua bifurcada, un bernat pescaire sempre vola amb el coll replegat en S. Aprendre les siluetes bàsiques de cada família és la inversió més rendible que pots fer com a observador principiant."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-02-01",
+              "style": "multiple-choice",
+              "question": "Veus un ocell gran que vola en cercles sense batre les ales, amb les plomes de les puntes de les ales separades com dits. Quin grup és, sense veure'n els colors?",
+              "options": [
+                "Una gavina gran",
+                "Un rapinyaire — probablement un voltors o àguila",
+                "Una cigonya o ocell de la mateixa família",
+                "Impossible saber-ho sense veure els colors"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. Les plomes primàries separades com dits i el vol planer en cercles (aprofitant tèrmiques) és la signatura dels rapinyaires grans. Les gavines volen diferent i baten les ales més. Les cigonyes volen amb el coll estès. La silueta i el tipus de vol t'han donat el grup sense veure cap color.",
+              "feedbackWrong": "La clau és el tipus de vol i la silueta de les ales. Les plomes primàries separades com dits i el vol planer llarg sense batre les ales és característic dels rapinyaires grans. Cada grup d'ocells té una 'imatge de cerca' que es reconeix amb pràctica."
+            },
+            {
+              "type": "prediction",
+              "question": "La propera vegada que vegis un ocell volant, intenta descriure'l sense mencionar colors. Quines paraules uses?",
+              "hint": "Pensa en la forma de les ales, la cua, com bat les ales, si plana, com de gran és respecte d'altres ocells que coneixes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-02-02",
+              "style": "multiple-choice",
+              "question": "Un ocell petit es mou molt ràpid entre les branques d'un arbust, sempre prop del terra, i és molt difícil de veure sencer. Quin comportament t'orienta sobre el grup?",
+              "options": [
+                "És un ocell marí perdut terra endins",
+                "Probablement és un ocell insectívor de sotabosc — família dels mosquiters o tallarols",
+                "Deu ser un ocell jove que encara no sap volar bé",
+                "El comportament no diu res sense veure l'espècie"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "El comportament és una pista excel·lent. Els ocells que es mouen ràpidament entre la vegetació densa prop del terra solen ser insectívors de sotabosc — mosquiters, tallarols, pit-roigs. El seu estil de vida (buscar insectes amagats) determina com es mouen. El comportament sovint identifica el grup abans que qualsevol detall visual.",
+              "feedbackWrong": "El comportament és una de les pistes més valuoses. Com es mou un ocell, on s'alimenta i com reacciona al perill revela el seu grup funcional. Un ocell que es mou nerviós entre arbustos baixos és quasi sempre un insectívor de sotabosc — la seva morfologia i comportament estan adaptats a aquest nínxol."
+            }
+          ]
+        },
+        {
+          "id": "bird-03",
+          "title": "Com escoltar un ocell",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Diuen els ornitòlegs experimentats que escolten el doble del que veuen. En un bosc dens, la majoria d'ocells es senten molt abans de veure's — i alguns quasi mai es veuen. Aprendre a escoltar multiplica el que observes."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els ocells produeixen dos tipus de sons: el cant (complex, sovint musical, usat principalment per marcar territori i atreure parella en època reproductora) i les crides (curtes, simples, usades per mantenir el contacte, alertar de depredadors o coordinar el grup). Les crides es senten tot l'any; el cant, principalment de febrer a juny."
+            },
+            {
+              "type": "expandable",
+              "label": "Com entrenar l'oïda sense sortir de casa",
+              "content": "Les millors apps per aprendre els cants dels ocells són Merlin Bird ID (Cornell Lab, gratuïta) i Xeno-canto (base de dades de sons, gratuïta). La tècnica és simple: escolta el cant d'una espècie que veus regularment al teu entorn, cinc vegades seguides. L'endemà, escolta-la de nou. En una setmana, reconeixeràs el cant automàticament. Comença per cinc espècies comunes i ves ampliant. La merla, el pardal, la mallerenga carbonera, el pit-roig i el colom són bons punts de partida perquè els trobaràs cada dia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-03-01",
+              "style": "multiple-choice",
+              "question": "Sents un cant complex i melodiós, amb moltes variacions, a les 5 del matí a la primavera. Quin és l'ocell més probable a Catalunya?",
+              "options": [
+                "El pardal comú — és el més abundant",
+                "La merla — les mascles canten intensament a l'alba durant la primavera",
+                "L'estornell — fa sons molt variats",
+                "El pit-roig — canta molt en solitari"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "La merla és el cantaire de l'alba per excel·lència a Catalunya. El seu cant és ric, fluid i variat — el mascle canta des d'un punt elevat al capvespre i a l'alba, especialment de febrer a juny. És un dels sons més reconeixibles dels espais urbans i periurbans catalans.",
+              "feedbackWrong": "La merla (Turdus merula) és el cantaire de l'alba per excel·lència als espais urbans i periurbans catalans. El seu cant és fluid, melodiós i variat — molt diferent del xerric del pardal o del reclam nasal de l'estornell."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-03-02",
+              "style": "true-false",
+              "question": "Els ocells canten principalment per comunicar-se amb els humans i anunciar la seva presència.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El cant dels ocells té funcions específiques dins la seva pròpia espècie: marcar i defensar el territori enfront d'altres mascles de la mateixa espècie, i atreure i mantenir la parella. Els humans som espectadors accidentals d'una comunicació que no va dirigida a nosaltres.",
+              "feedbackWrong": "El cant és comunicació intraspecífica — entre individus de la mateixa espècie. Un mascle de merla que canta des d'un arbre alt envia un missatge als seus veïns: 'aquest territori és meu'. Els humans escoltem, però no som els destinataris del missatge."
+            }
+          ]
+        },
+        {
+          "id": "bird-04",
+          "title": "On i quan sortir a Catalunya",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Catalunya és un dels llocs d'Europa amb més diversitat d'ocells — la seva posició geogràfica, la varietat de climes i la diversitat d'hàbitats fan que sigui un punt clau tant per a espècies residents com per a milions d'ocells migradors."
+            },
+            {
+              "type": "key-idea",
+              "text": "La millor hora per observar ocells és les dues primeres hores després de l'alba — quan l'activitat és màxima, el cant és més intens i la llum és lateral i càlida. La pitjor hora és el migdia. La millor estació per al cant és la primavera (febrer-juny). La millor per a varietat d'espècies és la tardor, quan passen els migradors."
+            },
+            {
+              "type": "expandable",
+              "label": "Els quatre hàbitats principals a Catalunya i les seves espècies",
+              "content": "Urbà i periurbà: pardal, colom, estornell, merla, gavià argentat, falciot negre (estiu). Perfecte per començar sense desplaçaments. Bosc i alzinar: mallerenga carbonera, pit-roig, pinsà comú, tudó, picot garser gros. Busca boscos amb arbres grans i sotabosc divers. Camps i espais oberts: cogullada, alosa, perdiu roja, xoriguer comú, abellerol (estiu). Millor a primera hora del matí. Aiguamolls i zones humides: martinet blanc, bernat pescaire, ànec coll-verd, polla d'aigua, blauet. El delta de l'Ebre i els aiguamolls de l'Empordà són els millors de Catalunya."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "Febrer–Abril", "title": "Primavera primerenca", "text": "Comença el cant territorial. Arriben les primeres orenetes i falciots. Època ideal per aprendre cants." },
+                { "year": "Maig–Juny", "title": "Primavera plena", "text": "Màxima activitat reproductora. Cants a ple rendiment. Nius actius." },
+                { "year": "Juliol–Agost", "title": "Estiu", "text": "Els ocells adults muden el plomatge. Menys cant. Els joves de l'any aprenen a volar." },
+                { "year": "Setembre–Novembre", "title": "Tardor", "text": "Migració postnupcial. Màxima diversitat d'espècies. Els migradors passen cap al sud." },
+                { "year": "Desembre–Gener", "title": "Hivern", "text": "Arriben espècies del nord. Menys diversitat però grups grans i fàcils d'observar." }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-04-01",
+              "style": "multiple-choice",
+              "question": "Vols fer la teva primera sortida ornitològica a Catalunya. És un dissabte de març. Quin pla és millor?",
+              "options": [
+                "Sortir a les 11h a un bosc de muntanya alta per veure la màxima varietat",
+                "Sortir a les 7h a un parc urbà o espai periurbà proper, amb calma i sense pressa",
+                "Sortir a les 16h al delta de l'Ebre, que té la màxima diversitat de Catalunya",
+                "Esperar a l'estiu quan fa bon temps i hi ha més ocells actius"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Perfecte. Març és excel·lent — el cant ha arrencat, els migradors comencen a arribar i el temps és suportable. L'hora d'alba és clau: les primeres dues hores són les d'activitat màxima. Un espai proper redueix la logística i permet anar-hi sovint, que és la clau per progressar. El delta és fantàstic, però per a una primera sortida la proximitat és prioritat.",
+              "feedbackWrong": "Les primeres sortides han de maximitzar l'èxit per generar l'enganxada. Sortir a l'alba, a un lloc proper i en primavera primerenca combina les tres condicions òptimes: màxima activitat dels ocells, cant intens per aprendre espècies i logística senzilla per repetir l'experiència."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bird-04-01",
+              "question": "Catalunya perd hàbitats naturals cada any per urbanització i agricultura intensiva. Com creus que afecta això la diversitat d'ocells?",
+              "options": [
+                "Poc — els ocells s'adapten i les espècies urbanes compensen les pèrdues rurals",
+                "Molt — les espècies especialistes d'hàbitat desapareixen i les generalistes dominen, reduint la diversitat real",
+                "Depèn de l'espècie: algunes guanyen i d'altres perden, però l'equilibri es manté"
+              ],
+              "correct": 1,
+              "explanation": "La pèrdua d'hàbitat genera una 'homogeneïtzació biòtica': les espècies adaptables (pardals, coloms, gavines, estornells) proliferen mentre les especialistes (aus de camps de cereals, rapinyaires forestals, ocells de zones humides) declinen. El resultat és que hi ha ocells per tot arreu però cada cop menys diversitat real. Catalunya ha perdut més del 50% de les poblacions d'aus agrícoles en 30 anys."
+            }
+          ]
+        },
+        {
+          "id": "bird-05",
+          "title": "Els ocells que ja coneixes",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quasi tothom reconeix un colom o un pardal. Però probablement no saps per qué el pardal és pardal, com distingir un martinet blanc d'un bernat pescaire, o per qué les orenetes volen tan baix abans de ploure. Aquí aprendrem les dotze espècies més comunes de Catalunya de veritat."
+            },
+            {
+              "type": "key-idea",
+              "text": "Identificar bé dotze espècies molt comunes és infinitament més útil que conèixer superficialment cinquanta. Quan saps realment com és una merla — el seu cant, el seu comportament, com es mou, quan és present — tens una base sòlida des de la qual tot el que veus nou es pot comparar i aprendre."
+            },
+            {
+              "type": "expandable",
+              "label": "Les dotze espècies: guia ràpida",
+              "content": "URBANES: Pardal comú (Passer domesticus) — el mascle té capell castany i baveta negra; la femella és marronosa sense marques. Sempre en grups, mai sol. Colom roquer (Columba livia) — el 'colom de plaça'; molt variable en color però sempre amb el cos compacte i el vol ràpid i rectilini. Estornell vulgar (Sturnus vulgaris) — negre amb reflexos metàl·lics i taques blanques a l'hivern; vola en estols compactes molt espectaculars. Merla (Turdus merula) — mascle negre amb bec groc, femella marronosa; salta pel terra girant el cap. Gavià argentat (Larus michahellis) — el gavià comú català; gran, blanc i gris, amb bec groc i taca vermella. BOSC: Pit-roig (Erithacus rubecula) — petita, amb el pit i la cara taronja viva; molt confiada. Mallerenga carbonera (Parus major) — ventre groc, cap negre i blanc, línia negra al ventre. Pinsà comú (Fringilla coelebs) — mascle amb cap gris-blau i pit rosat; femella discreta. CAMPS: Oreneta vulgar (Hirundo rustica) — cua llarga bifurcada, dors blau metàl·lic, gola vermella. Present d'abril a setembre. Cogullada vulgar (Galerida cristata) — marronosa amb cresta erigida; al terra de camps i vores de camí. AIGUAMOLLS: Martinet blanc (Egretta garzetta) — totalment blanc, potes negres amb dits grocs, bec negre. Bernat pescaire (Ardea cinerea) — gran, gris, amb el coll replegat en S en vol; el 'garsa' dels estanys."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-05-01",
+              "style": "multiple-choice",
+              "question": "Veus un ocell blanc gran al marge d'un riu. Té les potes negres amb els dits grocs i el bec negre i punxegut. Quin és?",
+              "options": [
+                "Bernat pescaire — el gran cénit gris dels rius",
+                "Martinet blanc — blanc pur, potes negres amb dits grocs",
+                "Gavià argentat — el gavià comú de Catalunya",
+                "Cigonya blanca — gran i amb el bec vermell"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. Les potes negres amb dits groguencs i el bec negre és la combinació diagnòstica del martinet blanc. El bernat pescaire és gris, no blanc. El gavià té el bec groc amb taca vermella. La cigonya té el bec vermell llarg i és molt més gran. Els dits grocs sobre potes negres és el caràcter clau.",
+              "feedbackWrong": "La combinació de blanc pur + potes negres + dits grocs + bec negre punxegut és específica del martinet blanc (Egretta garzetta). El bernat pescaire és gris; el gavià té bec groc; la cigonya té bec vermell i és molt més gran."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-05-02",
+              "style": "multiple-choice",
+              "question": "A quin hàbitat trobaràs més probablement una cogullada vulgar?",
+              "options": [
+                "En boscos densos de muntanya",
+                "A la vora del mar i platges",
+                "En camps oberts, vores de camí i zones àrides",
+                "A parcs urbans amb molts arbres"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "La cogullada és un ocell de terra oberta — camps de cereals, erms, vores de camins rurals i zones amb vegetació escassa. La cresta erigida i el color terra fan que sigui gairebé invisible quan està quieta al terra. És una espècie que ha patit molt per la intensificació agrícola.",
+              "feedbackWrong": "La cogullada (Galerida cristata) és un ocell especialista de zones obertes i àrides. La seva morfologia (color terra, cresta, potes fortes per caminar) revela el seu hàbitat: mai la trobaràs en boscos densos ni en zones molt humides."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-05-03",
+              "style": "true-false",
+              "question": "Les orenetes volen baix abans de ploure perquè preveuen el temps meteorològic.",
+              "correct": false,
+              "feedbackCorrect": "Fals — o millor dit, és una simplificació. Les orenetes volen baix perquè els insectes dels quals s'alimenten volen baix quan la pressió atmosfèrica baixa (condició associada a la pluja imminent). Les orenetes no preveuen el temps: segueixen els insectes. El resultat és el mateix, però el mecanisme és diferent — i entendre el mecanisme és el que importa.",
+              "feedbackWrong": "Les orenetes no 'preveuen' el temps en cap sentit meteorològic. El que fan és seguir els insectes: quan la pressió baixa abans de ploure, els insectes volen més a prop del terra, i les orenetes els segueixen. La correlació entre orenetes baixes i pluja és real, però el mecanisme és l'alimentació, no la predicció."
+            }
+          ]
+        },
+        {
+          "id": "bird-06",
+          "title": "El primer dia al camp",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Ara ja tens els fonaments. L'últim pas és sortir — i saber com aprofitar al màxim les primeres sortides, que determinaran si l'afició s'enganxa o no."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les primeres sortides no han de ser expedicions ambicioses. Han de ser curtes, properes, sense pressió d'identificar moltes espècies, i amb l'objectiu d'observar bé dos o tres ocells coneguts. L'èxit no es mesura per la llista d'espècies — es mesura per la qualitat de l'observació."
+            },
+            {
+              "type": "expandable",
+              "label": "Les eines bàsiques — gratuïtes i senzilles",
+              "content": "Merlin Bird ID (Cornell Lab, gratuïta): la millor app per a principiants. Té identificació per foto, per so en temps real i guies per zona geogràfica. Funciona molt bé a Catalunya. Xeno-canto (web i app, gratuïta): base de dades de sons d'ocells de tot el món. Per aprendre els cants de les espècies que t'interessen. eBird (Cornell Lab, gratuïta): per apuntar les teves observacions i veure on han vist altres observadors les espècies que busques. És la base de dades ornitològica col·laborativa més gran del món. ICO — Institut Català d'Ornitologia (ico.cat): per a dades específiques de Catalunya, atlas d'ocells i activitats locals."
+            },
+            {
+              "type": "expandable",
+              "label": "Ètica bàsica de l'observador",
+              "content": "L'ocell sempre és prioritat. Si el teu comportament altera el seu comportament natural (s'allunya, s'amaga, abandona el niu), estàs massa a prop. Mai t'aproximis a nius actius — la presència humana pot fer que els pares abandonin els polls. No reprodueixis cants en altaveu per atreure ocells: és una pràctica que estressa els animals i pot interferir en la reproducció. Respecta les propietats privades i els espais protegits. Comparteix les observacions a eBird — les teves dades contribueixen a la ciència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bird-06-01",
+              "style": "multiple-choice",
+              "question": "Fas la teva primera sortida i en dues hores veus 5 espècies que ja coneixes i una que no aconsegueixes identificar. Com valores la sortida?",
+              "options": [
+                "Malament — amb tot el que he après, hauria d'haver identificat més espècies",
+                "Bé — 5 espècies conegudes ben observades i una nova per identificar és un èxit real",
+                "Regular — caldria haver anat a un lloc amb més diversitat"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Cinc espècies ben observades — amb temps, sense pressa, anotant comportaments — és una sortida excel·lent. L'espècie desconeguda és un regal: tens una observació per investigar a casa i un motiu per tornar. L'ornitologia no es mesura per llistes llargues sinó per la qualitat de l'atenció que hi poses.",
+              "feedbackWrong": "L'ornitologia de camp es mesura per la qualitat de les observacions, no per la quantitat d'espècies. Un ornitòleg experimentat pot passar una hora observant una sola espècie i considerar-ho un èxit. Les primeres sortides haurien de construir hàbits d'observació bona, no pressió per identificar-ho tot."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bird-06-01",
+              "question": "L'observació d'ocells per part de milers d'aficionats genera dades que els científics usen per estudiar poblacions i migracions. Creus que les dades d'aficionats són fiables per a la ciència?",
+              "options": [
+                "No — sense formació científica, les identificacions errònies contaminen les dades",
+                "Sí — la quantitat de dades compensa els errors individuals i permet detectar tendències",
+                "Depèn: les dades de presència/absència sí, però no les de quantitat ni comportament"
+              ],
+              "correct": 1,
+              "explanation": "La ciència ciutadana en ornitologia (eBird té més de 100 milions d'observacions) ha demostrat ser enormement valuosa. Els errors individuals existeixen, però es detecten estadísticament quan hi ha moltes observacions del mateix lloc i espècie. Les tendències poblacionals, les rutes migratòries i els canvis en les dates d'arribada s'han documentat gràcies a dades d'aficionats que cap equip científic podria recollir sol. La quantitat i la distribució geogràfica fan les dades robustes malgrat els errors."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

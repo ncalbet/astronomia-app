@@ -1,0 +1,303 @@
+{
+  "id": "module-03-peace",
+  "title": "Pau, Conflicte i Guerra",
+  "emoji": "🕊️",
+  "phase": 1,
+  "unlockRequires": "module-01-copernicus",
+  "itineraries": [
+    {
+      "id": "conceptual",
+      "title": "Itinerari Conceptual",
+      "icon": "🔍",
+      "description": "Els conceptes fonamentals per entendre qualsevol conflicte — i per què la guerra no és mai una solució",
+      "style": "Conceptual · del simple al profund",
+      "lessons": [
+        {
+          "id": "peace-01",
+          "title": "El conflicte és necessari",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan sentim la paraula 'conflicte', pensem en quelcom negatiu que cal evitar. Però aquesta intuïció és, precisament, un dels errors de pensament que més patim col·lectivament."
+            },
+            {
+              "type": "key-idea",
+              "text": "El conflicte no és el problema — és una condició natural de qualsevol societat on conviuen persones amb interessos, valors i necessitats diverses. El problema no és el conflicte en si, sinó com el gestionem."
+            },
+            {
+              "type": "expandable",
+              "label": "Lederach i la transformació del conflicte",
+              "content": "John Paul Lederach, un dels grans teòrics de la construcció de pau, proposa no 'resoldre' els conflictes sinó 'transformar-los'. La resolució implica eliminar el conflicte; la transformació implica canviar la relació entre les parts de forma que el conflicte pugui expressar-se sense violència. Un conflicte transformat és una societat que ha après a gestionar les seves tensions de forma constructiva."
+            },
+            {
+              "type": "prediction",
+              "question": "Pensa en un conflicte proper — laboral, familiar, social. Si hagués desaparegut sense ser abordat, hauria millorat la situació o hauria empitjorat?",
+              "hint": "Els conflictes no resolts no desapareixen — es transformen en altra cosa."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-peace-01-01",
+              "style": "multiple-choice",
+              "question": "Segons Lederach, quin és l'objectiu d'una bona gestió del conflicte?",
+              "options": [
+                "Eliminar el conflicte per arribar a la pau",
+                "Transformar la relació entre les parts perquè el conflicte s'expressi sense violència",
+                "Trobar un guanyador i un perdedor de forma justa",
+                "Arribar a un compromís on tothom cedeix per igual"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Lederach distingeix entre resolució (eliminar) i transformació (canviar la naturalesa). Un conflicte transformat no ha desaparegut — ha canviat la forma en què les parts s'hi relacionen.",
+              "feedbackWrong": "Lederach critica precisament l'objectiu d'eliminar el conflicte. La transformació és un procés diferent: no busca que el conflicte desaparegui, sinó que canviï la seva expressió."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-peace-01-01",
+              "question": "Una societat sense conflictes seria una societat millor?",
+              "options": [
+                "Sí — els conflictes causen sofriment i divisió",
+                "No — els conflictes són el motor del canvi social i la democràcia els necessita",
+                "Depèn del tipus de conflicte: alguns són necessaris, d'altres no"
+              ],
+              "correct": 1,
+              "explanation": "Una societat sense conflictes seria, per definició, una societat sense diversitat d'interessos ni de valors — és a dir, una societat totalitària o homogènia fins a l'estancament. La democràcia funciona precisament canalitzant els conflictes a través d'institucions. Eliminar el conflicte és eliminar la pluralitat."
+            }
+          ]
+        },
+        {
+          "id": "peace-02",
+          "title": "El que demanes vs. el que necessites",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Una de les trampes més comunes en qualsevol negociació — des d'una disputa familiar fins a un procés de pau — és confondre la posició amb l'interès. Les parts s'encallen en el que diuen que volen i obliden el que realment necessiten."
+            },
+            {
+              "type": "key-idea",
+              "text": "La distinció entre posicions i interessos, desenvolupada per Fisher i Ury al llibre 'Getting to Yes' (1981), és un dels principis més poderosos de la negociació: les posicions són el que declares públicament; els interessos són les necessitats, por i desigs que hi ha darrere. Negociar des dels interessos obre solucions que les posicions tanquen."
+            },
+            {
+              "type": "expandable",
+              "label": "L'exemple clàssic de la taronja",
+              "content": "Dues germanes discuteixen per una taronja. La mare la talla per la meitat — solució justa, diria tothom. Però si hagués preguntat per què cada una la volia, hauria descobert que una volia el suc per beure i l'altra la pell per fer un pastís. Haguessin pogut tenir la taronja sencera cadascuna. Les posicions eren 'vull la taronja'; els interessos eren completament compatibles. Això passa constantment en conflictes polítics i armats."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-peace-02-01",
+              "style": "multiple-choice",
+              "question": "En els Acords d'Oslo (1993), Israel i l'OLP van negociar territorialment però no van abordar els interessos de fons. Quin va ser el resultat a llarg termini?",
+              "options": [
+                "Una pau estable que ha durat fins avui",
+                "Acords que van col·lapsar perquè no resolien les necessitats bàsiques de cap de les parts",
+                "Un èxit parcial que va resoldre el conflicte militar però no el polític",
+                "Un model que altres conflictes han replicat amb èxit"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Oslo va ser un acord de posicions, no d'interessos. Va evitar preguntes fonamentals com Jerusalem, els refugiats palestins o els assentaments israelians. El resultat: un marc que va col·lapsar perquè cap de les parts veia els seus interessos reals coberts.",
+              "feedbackWrong": "Oslo és un cas d'estudi sobre els límits de la negociació de posicions. Va crear un marc formal que no abordava les necessitats de fons — i per això va fracassar a llarg termini."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-peace-02-01",
+              "question": "En un conflicte armat, les parts sovint declaren objectius incompatibles ('volem tot el territori'). Creus que sempre hi ha interessos de fons compatibles?",
+              "options": [
+                "Sí — darrere de tota posició hi ha interessos que es poden negociar",
+                "No — alguns conflictes tenen interessos genuïnament incompatibles",
+                "Depèn: els interessos materials es poden negociar, els identitaris rarament"
+              ],
+              "correct": 2,
+              "explanation": "La distinció és fonamental. Els interessos materials (territori, recursos, seguretat) sovint es poden negociar amb creativitat. Els interessos identitaris (reconeixement, dignitat, pertinença) són molt més difícils perquè no es divideixen — no pots tenir 'mig reconeixement'. Els conflictes més difícils de resoldre combinen tots dos tipus, com el cas israelopalestí o el conflicte a Irlanda del Nord."
+            }
+          ]
+        },
+        {
+          "id": "peace-03",
+          "title": "La pau que no es veu",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan acaba una guerra, tendim a pensar que ha arribat la pau. Però sovint el que arriba és simplement l'absència de bales — i això no és el mateix."
+            },
+            {
+              "type": "key-idea",
+              "text": "Johan Galtung, el fundador dels estudis de pau com a disciplina acadèmica, va distingir entre pau negativa (absència de violència directa — les bales no volen) i pau positiva (absència de violència estructural i cultural — les condicions que causen sofriment han desaparegut). La majoria de 'paus' que celebrem són pau negativa."
+            },
+            {
+              "type": "expandable",
+              "label": "El triangle de la violència de Galtung",
+              "content": "Galtung descriu tres tipus de violència interconnectats. La violència directa és visible: guerres, assassinats, tortures. La violència estructural és invisible però mata: pobresa sistèmica, discriminació institucional, manca d'accés a salut o educació. La violència cultural justifica les altres dues: ideologies, religions o normes socials que fan acceptable la violència directa o estructural. Una pau real ha d'atacar els tres vèrtexs del triangle, no sols aturar les bales."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-peace-03-01",
+              "style": "detect-error",
+              "statement": "Quan s'acaba una guerra i es firma un alto el foc, s'ha assolit la pau.",
+              "isCorrect": false,
+              "feedbackExplanation": "Un alto el foc és pau negativa: les bales paren, però les causes del conflicte segueixen intactes. La pau positiva requereix transformar les estructures que van generar el conflicte — desigualtat, exclusió, manca de representació política. Sense això, la violència directa torna. Molts conflictes 'resolts' han recaigut per exactament aquesta raó."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-peace-03-02",
+              "style": "multiple-choice",
+              "question": "La violència estructural de Galtung inclou:",
+              "options": [
+                "Guerres civils i conflictes armats entre estats",
+                "Tortures i crims de guerra comesos durant un conflicte",
+                "Pobresa sistèmica, discriminació institucional i desigualtat d'accés a drets",
+                "Propaganda i desinformació durant un conflicte"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La violència estructural no requereix cap actor que la cometi deliberadament — és el resultat de sistemes i institucions que produeixen sofriment de forma sistemàtica. Una persona que mor per manca d'accés a atenció mèdica és víctima de violència estructural.",
+              "feedbackWrong": "La violència estructural és precisament la que no té un autor clar i identificable. No és un acte — és un sistema. Galtung la va identificar com la forma de violència que mata més persones globalment, molt per sobre de les guerres."
+            }
+          ]
+        },
+        {
+          "id": "peace-04",
+          "title": "Qui para la guerra — i com",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Els conflictes armats del segle XXI no s'assemblen als que van inspirar el dret internacional humanitari. Les regles del joc han canviat, i els instruments per aturar-los no sempre han sabut adaptar-se."
+            },
+            {
+              "type": "key-idea",
+              "text": "La mutació dels conflictes armats contemporanis té quatre característiques principals: actors no estatals com a protagonistes (milícies, grups terroristes, empreses militars privades), guerres híbrides que combinen violència física amb ciberataques i desinformació, conflictes prolongats sense resolució clara, i internacionalització que fa impossible la neutralitat de tercers."
+            },
+            {
+              "type": "expandable",
+              "label": "El cas d'Ucraïna: totes les contradiccions alhora",
+              "content": "El conflicte a Ucraïna (2022-) il·lustra la mutació dels conflictes contemporanis: és una guerra d'estats (Rússia vs. Ucraïna) però amb dimensions de guerra híbrida (ciberataques, desinformació, guerra econòmica). Té actors internacionals implicats sense ser formalment bel·ligerants (OTAN, UE). Té objectius declarats incompatibles per les dues parts. I planteja la pregunta fonamental: quan tothom hi perd econòmicament, humanitàriament i geopolíticament, com s'atura? Qui mediarà entre parts que es neguen a seure a la mateixa taula? Ucraïna demostra que els instruments clàssics de mediació (ONU, diplomàcia bilateral) mostren els seus límits quan els actors internacionals estan alineats amb una de les parts."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-peace-04-01",
+              "style": "multiple-choice",
+              "question": "Per qué la mediació internacional és especialment difícil en conflictes com el d'Ucraïna?",
+              "options": [
+                "Perquè cap país té prou poder militar per imposar un alto el foc",
+                "Perquè els possibles mediadors estan alineats amb una de les parts, perdent la neutralitat",
+                "Perquè el dret internacional no preveu conflictes entre estats grans",
+                "Perquè les organitzacions internacionals com l'ONU no tenen competències en aquest tipus de conflicte"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La mediació requereix que les parts confiïn en el mediador. Quan els potencials mediadors (UE, EUA, Xina) estan percebuts com a parcials, la mediació es bloqueja. Ucraïna no té un 'Noruega d'Oslo' disponible — un actor amb credibilitat de neutralitat acceptada per ambdues parts.",
+              "feedbackWrong": "El problema central no és jurídic ni militar — és polític. La mediació requereix confiança en el mediador, i en el conflicte d'Ucraïna, tots els actors internacionals amb prou pes estan percebuts com a parcials per una o ambdues parts."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-peace-04-01",
+              "question": "Quan tothom perd en una guerra — econòmicament, humanitàriament, geopolíticament — per qué les guerres continuen?",
+              "options": [
+                "Perquè els líders que decideixen no són els que pateixen les conseqüències",
+                "Perquè hi ha actors (indústria armamentista, faccions internes) que guanyen amb la guerra",
+                "Perquè la lògica de la guerra té una dinàmica pròpia difícil d'aturar un cop iniciada",
+                "Totes tres raons operen simultàniament"
+              ],
+              "correct": 3,
+              "explanation": "Les guerres persisteixen per una combinació de factors: la dissociació entre qui decideix i qui pateix, l'existència d'actors amb interessos en la continuació del conflicte, i la dinàmica pròpia de la guerra (escalada, lògica de seguretat, por a mostrar debilitat). Cap factor sol explica la persistència de les guerres — és la seva combinació el que les fa tan difícils d'aturar. Aquesta és precisament la raó per la qual la prevenció és infinitament més eficaç que la resolució."
+            }
+          ]
+        },
+        {
+          "id": "peace-05",
+          "title": "Justícia sense venjança",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan acaba una guerra, apareix una pregunta que divideix profundament les societats: que fem amb els responsables dels crims? La resposta intuïtiva és el càstig. Però la justícia transicional proposa quelcom més complex."
+            },
+            {
+              "type": "key-idea",
+              "text": "La justícia transicional és el conjunt de mecanismes que una societat posa en marxa per fer front al llegat de violacions massives de drets humans. Té quatre pilars: veritat (saber el que va passar), justícia (responsabilitat dels perpetradors), reparació (compensació a les víctimes) i garanties de no repetició (reformes estructurals per evitar que torni a passar). Cap pilar és suficient sol."
+            },
+            {
+              "type": "expandable",
+              "label": "Colòmbia i les FARC: el cas més complex de l'era moderna",
+              "content": "L'Acord de Pau de Colòmbia (2016) entre el govern i les FARC és el procés de justícia transicional més elaborat mai negociat. Va crear la Jurisdicció Especial per a la Pau (JEP), un sistema judicial específic que ofereix penes alternatives (restricció de llibertat i treballs de reparació) a canvi de veritat completa i reconeixement de responsabilitats. No és impunitat — és una forma diferent de justícia que prioritza la veritat i la reparació sobre el càstig. El cas colombià demostra que la justícia transicional requereix equilibri impossible: prou justícia perquè les víctimes se sentin reconegudes, prou flexibilitat perquè els combatents s'incorporin a la vida civil."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-peace-05-01",
+              "style": "true-false",
+              "question": "La justícia transicional implica necessàriament amnistia i impunitat per als responsables dels crims de guerra.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. La justícia transicional no és impunitat — és un sistema alternatiu de justícia que adapta les respostes al context específic d'una transició. Pot incloure tribunals especials, comissions de veritat, reparacions i reformes institucionals. El que sovint redueix o elimina és el càstig penal convencional, però a canvi exigeix veritat, reconeixement i reparació.",
+              "feedbackWrong": "La justícia transicional no és sinònim d'impunitat. El cas colombià, per exemple, exigeix als responsables revelar la veritat completa, demanar perdó públic i participar en treballs de reparació. El que canvia no és la responsabilitat, sinó la forma de respondre-hi."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-peace-05-01",
+              "question": "Un líder responsable de crims de guerra accepta negociar la pau a canvi de no ser jutjat. Acceptes l'acord?",
+              "options": [
+                "No — la justícia no es negocia; els criminals de guerra han de ser jutjats sempre",
+                "Sí — salvar vides futures és prioritari sobre el càstig dels culpables",
+                "Depèn: cal avaluar el cost humà de continuar el conflicte vs. el cost moral d'una pau imperfecta"
+              ],
+              "correct": 2,
+              "explanation": "Aquest és el dilema central de la justícia transicional i no té resposta única. La posició maximalista (justícia sempre) pot perpetuar conflictes i costar milers de vides. La posició pragmàtica (pau a qualsevol cost) pot generar impunitat que alimenta futurs conflictes. La majoria de processos de pau reals han optat per solucions intermèdies que cap part considera perfectes — perquè la pau imperfecta sol ser millor que la guerra perfecta."
+            }
+          ]
+        },
+        {
+          "id": "peace-06",
+          "title": "Reconciliació: el concepte més mal entès",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Reconciliació és probablement la paraula més usada i més mal entesa en qualsevol procés de pau. Sovint s'interpreta com perdó obligatori, oblit del passat o normalització forçada. No és cap de les tres coses."
+            },
+            {
+              "type": "key-idea",
+              "text": "Per Lederach, la reconciliació no és un estat final sinó un procés continu que implica la construcció d'una relació nova entre parts que han estat en conflicte. No requereix que les víctimes perdonin, ni que oblidin, ni que es facin amigues dels perpetradors. Requereix que puguin conviure en un marc de drets compartits."
+            },
+            {
+              "type": "quote",
+              "text": "La reconciliació és el lloc on es troben la veritat, la misericòrdia, la justícia i la pau.",
+              "author": "John Paul Lederach, 'The Moral Imagination' (2005)"
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la reconciliació és diferent en conflictes interns i internacionals",
+              "content": "En un conflicte intern (Colòmbia, Sud-àfrica, Rwanda), les parts han de continuar convivint en el mateix territori i construir un estat compartit. La reconciliació és una necessitat pràctica: sense ella, el conflicte recau. En un conflicte internacional (Ucraïna), la reconciliació pren una forma diferent: no és convivència en el mateix espai, sinó la construcció d'un marc de relacions internacionals que faci impossible la repetició. El que no canvia és el principi: la reconciliació no és possible sense veritat i reconeixement previ."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-peace-06-01",
+              "style": "multiple-choice",
+              "question": "Segons Lederach, quin és el requisit previ indispensable per a la reconciliació?",
+              "options": [
+                "El perdó de les víctimes als perpetradors",
+                "El càstig penal dels responsables dels crims",
+                "La veritat i el reconeixement del que va passar",
+                "El pas del temps suficient perquè les ferides cicatritzin"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "La veritat i el reconeixement són el punt de partida sense el qual la reconciliació no pot avançar. No es pot construir una relació nova sobre la negació del passat. Lederach subratlla que no es pot saltar directament a la reconciliació sense passar per la veritat — és com voler curar una ferida sense netejar-la.",
+              "feedbackWrong": "Lederach és explícit en que ni el perdó ni el càstig ni el temps son suficients per si sols. La veritat i el reconeixement — que el que va passar va passar i qui ho va fer ho reconeix — és el fonament sense el qual tot el resta és superficial."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-peace-06-02",
+              "style": "detect-error",
+              "statement": "La reconciliació implica que les víctimes han de perdonar els perpetradors per poder passar pàgina i construir pau.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquest és exactament el malentès que Lederach i altres teòrics combaten. La reconciliació no exigeix perdó — el perdó és un acte personal que ningú pot imposar. El que sí requereix és un marc de convivència basat en el reconeixement de la veritat i el respecte als drets de tothom. Les víctimes poden participar en processos de reconciliació sense perdonar, i sense que se les forci a fer-ho."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-peace-06-01",
+              "question": "Han passat 10 anys des d'una guerra civil. Les generacions que van viure el conflicte comencen a desaparèixer. Sense veritat oficial reconeguda, és possible la reconciliació?",
+              "options": [
+                "Sí — el pas del temps és el millor mecanisme de reconciliació",
+                "No — sense veritat reconeguda, el conflicte segueix latent i pot reactivar-se",
+                "Parcialment — les noves generacions poden construir pau sense necessitat de revisar el passat"
+              ],
+              "correct": 1,
+              "explanation": "L'experiència comparada (Espanya post-franquisme, Rwanda, Balcans) demostra que el temps sol no reconcilia — sovint consolida narratives contradictòries que les noves generacions hereten. Sense veritat oficial reconeguda, el conflicte roman com una ferida tancada en fals que pot reobrir-se. Les societats que han evitat revisar el passat sovint veuen com els seus fills i néts reediten les mateixes fractures, sovint de forma més violenta."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

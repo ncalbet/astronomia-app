@@ -1,9 +1,7 @@
 /**
- * useProgress.js
- *
- * Hook central que gestiona tot l'estat de l'usuari.
- * Actualitzat per suportar itineraris: el progrés de cada itinerari
- * es guarda de forma independent sota la clau moduleId + itineraryId.
+ * useProgress.js — versió corregida
+ * Ara fa merge segur entre l'estat del storage i el DEFAULT_STATE
+ * per garantir que camps nous existeixin en usuaris antics.
  */
 
 import { useState, useCallback } from 'react'
@@ -14,21 +12,40 @@ const DEFAULT_STATE = {
   level: 1,
   completedLessons: [],
   completedModules: [],
-  completedItineraries: [], // ['module-02-history__chronological', ...]
+  completedItineraries: [],
   unlockedModules: ['module-01-copernicus'],
   badges: [],
   navigationState: {
     currentModuleId: null,
-    currentItineraryId: null, // NOU
+    currentItineraryId: null,
     currentLessonId: null,
     currentStep: 0
   }
 }
 
+// Merge segur: garanteix que tots els camps del DEFAULT_STATE existeixin
+function mergeWithDefaults(saved) {
+  return {
+    ...DEFAULT_STATE,
+    ...saved,
+    // Arrays: usa el valor desat si existeix, sinó el default
+    completedLessons:     saved.completedLessons     || DEFAULT_STATE.completedLessons,
+    completedModules:     saved.completedModules      || DEFAULT_STATE.completedModules,
+    completedItineraries: saved.completedItineraries  || DEFAULT_STATE.completedItineraries,
+    unlockedModules:      saved.unlockedModules        || DEFAULT_STATE.unlockedModules,
+    badges:               saved.badges                 || DEFAULT_STATE.badges,
+    navigationState: {
+      ...DEFAULT_STATE.navigationState,
+      ...(saved.navigationState || {})
+    }
+  }
+}
+
 export function useProgress() {
-  const [state, setState] = useState(() =>
-    storage.get('progress', DEFAULT_STATE)
-  )
+  const [state, setState] = useState(() => {
+    const saved = storage.get('progress', null)
+    return saved ? mergeWithDefaults(saved) : DEFAULT_STATE
+  })
 
   const update = useCallback((updater) => {
     setState(prev => {
@@ -39,6 +56,7 @@ export function useProgress() {
   }, [])
 
   const addXP = useCallback((amount) => {
+    if (!amount || amount === 0) return
     update(prev => {
       const newXP = prev.xp + amount
       const newLevel = Math.floor(newXP / 100) + 1
@@ -46,11 +64,8 @@ export function useProgress() {
     })
   }, [update])
 
-  // Clau única per lliçó dins d'un itinerari
   const lessonKey = (moduleId, itineraryId, lessonId) =>
-    itineraryId
-      ? `${moduleId}__${itineraryId}__${lessonId}`
-      : `${moduleId}__${lessonId}`
+    itineraryId ? `${moduleId}__${itineraryId}__${lessonId}` : `${moduleId}__${lessonId}`
 
   const completeLesson = useCallback((moduleId, lessonId, itineraryId = null) => {
     const key = lessonKey(moduleId, itineraryId, lessonId)
@@ -96,18 +111,17 @@ export function useProgress() {
     }))
   }, [update])
 
-  const isLessonCompleted = useCallback((moduleId, lessonId, itineraryId = null) => {
-    const key = lessonKey(moduleId, itineraryId, lessonId)
-    return state.completedLessons.includes(key)
-  }, [state.completedLessons])
+  const isLessonCompleted = useCallback((moduleId, lessonId, itineraryId = null) =>
+    state.completedLessons.includes(lessonKey(moduleId, itineraryId, lessonId)),
+  [state.completedLessons])
 
-  const isItineraryCompleted = useCallback((moduleId, itineraryId) => {
-    return (state.completedItineraries || []).includes(`${moduleId}__${itineraryId}`)
-  }, [state.completedItineraries])
+  const isItineraryCompleted = useCallback((moduleId, itineraryId) =>
+    (state.completedItineraries || []).includes(`${moduleId}__${itineraryId}`),
+  [state.completedItineraries])
 
-  const isModuleUnlocked = useCallback((moduleId) => {
-    return state.unlockedModules.includes(moduleId)
-  }, [state.unlockedModules])
+  const isModuleUnlocked = useCallback((moduleId) =>
+    state.unlockedModules.includes(moduleId),
+  [state.unlockedModules])
 
   const resetAll = useCallback(() => {
     storage.clearAll()
@@ -116,16 +130,8 @@ export function useProgress() {
 
   return {
     ...state,
-    addXP,
-    completeLesson,
-    completeModule,
-    completeItinerary,
-    unlockModule,
-    earnBadge,
-    setNavigationState,
-    isLessonCompleted,
-    isItineraryCompleted,
-    isModuleUnlocked,
-    resetAll
+    addXP, completeLesson, completeModule, completeItinerary,
+    unlockModule, earnBadge, setNavigationState,
+    isLessonCompleted, isItineraryCompleted, isModuleUnlocked, resetAll
   }
 }

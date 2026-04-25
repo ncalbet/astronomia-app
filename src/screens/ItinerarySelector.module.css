@@ -139,3 +139,14 @@
   font-style: italic;
   margin: 0;
 }
+
+.loading {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  color: var(--color-text-dim);
+  font-size: var(--text-lg);
+}
