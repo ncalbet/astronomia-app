@@ -1,0 +1,358 @@
+{
+  "id": "module-04-philosophy",
+  "title": "Filosofia de la Ciència",
+  "emoji": "🔬",
+  "phase": 1,
+  "unlockRequires": "module-01-copernicus",
+  "itineraries": [
+    {
+      "id": "conceptual",
+      "title": "Com funciona la ciència realment",
+      "icon": "🧪",
+      "description": "Els mecanismes del pensament científic — i per què la ciència és la millor eina que tenim per entendre la realitat",
+      "style": "Conceptual · del simple al profund",
+      "lessons": [
+        {
+          "id": "phil-01",
+          "title": "Quan una idea és científica?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Tothom diu 'la ciència ho ha demostrat' o 'no és científic'. Però poques persones poden explicar exactament què fa que una idea sigui científica i una altra no. Aquesta distinció és fonamental."
+            },
+            {
+              "type": "key-idea",
+              "text": "Karl Popper va proposar el criteri de falsabilitat: una idea és científica si és possible imaginar una observació o experiment que la podria demostrar falsa. La ciència no prova que les coses són certes — descarta el que és fals. El que no es pot refutar no és ciència."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué 'no es pot provar que sigui fals' no és un avantatge",
+              "content": "La frase 'ningú ha pogut demostrar que estigui equivocat' sona com una fortalesa. Per Popper és exactament el contrari: si cap observació possible podria refutar una idea, la idea no ens diu res sobre la realitat. Les religions, la metafísica i moltes pseudociències funcionen així — expliquen qualsevol cosa que passi, perquè no hi ha res que les pugui contradir. La ciència, en canvi, s'arrisca: fa prediccions concretes que podrien ser falses. Quan no ho són, la teoria guanya credibilitat."
+            },
+            {
+              "type": "prediction",
+              "question": "Pensa en aquesta afirmació: 'Hi ha forces invisibles que influeixen en el nostre destí, però que la ciència no pot mesurar'. És una afirmació científica?",
+              "hint": "Pensa en el criteri de Popper: hi ha alguna observació que podria demostrar que és falsa?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-phil-01-01",
+              "style": "multiple-choice",
+              "question": "Quina d'aquestes afirmacions és falsable i per tant científica?",
+              "options": [
+                "L'univers va ser creat per una força superior que transcendeix la matèria",
+                "Els éssers humans som essencialment bons per naturalesa",
+                "Els objectes pesants cauen més ràpid que els lleugers en absència d'aire",
+                "Tot el que passa té un significat que no sempre podem comprendre"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. Aquesta afirmació fa una predicció concreta que es pot testar: deixa caure un objecte pesat i un de lleuger en el buit i mira si arriben alhora. Galileu va fer exactament això — i la predicció aristotèlica va resultar falsa. Les altres opcions no fan prediccions concretes que es puguin refutar.",
+              "feedbackWrong": "La clau és si es pot imaginar un experiment que la demostri falsa. Les afirmacions sobre forces transcendents, la bondat humana o el significat de les coses no fan prediccions concretes i observables."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-phil-01-02",
+              "style": "true-false",
+              "question": "Segons Popper, quan una teoria científica supera molts experiments sense ser refutada, queda demostrada com a veritat definitiva.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. Per Popper, cap teoria científica és mai 'provada' definitivament — simplement sobreviu als intents de refutació. La teoria de la gravetat de Newton va sobreviure 200 anys d'experiments fins que Einstein va mostrar els seus límits. Tota teoria científica és provisional: la millor explicació disponible fins que aparegui una de millor.",
+              "feedbackWrong": "Popper és explícit: la ciència no prova, descarta. Una teoria pot haver superat mil experiments i seguir sent provisional. Newton va semblar definitiu durant dos segles — Einstein el va superar. Tota teoria científica és la millor explicació disponible, no la veritat final."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-phil-01-01",
+              "question": "Una teoria que ho explica absolutament tot — qualsevol cosa que passi — és una teoria millor o pitjor?",
+              "options": [
+                "Millor — com més coses explica, més poderosa és",
+                "Pitjor — si ho explica tot, no exclou res i per tant no és falsable",
+                "Depèn de la disciplina: en ciències naturals cal falsabilitat, en humanitats no"
+              ],
+              "correct": 1,
+              "explanation": "Una teoria que ho explica tot no és una teoria poderosa — és una teoria buida. Si qualsevol resultat possible és compatible amb la teoria, la teoria no ens diu res sobre el món. L'astrologia és un exemple: sempre troba una explicació per a qualsevol cosa que passi. El poder predictiu real ve de les teories que s'arrisquen a fer prediccions concretes que podrien ser falses."
+            }
+          ]
+        },
+        {
+          "id": "phil-02",
+          "title": "Com canvia la ciència?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Tendim a imaginar la ciència com un edifici que es construeix maó a maó, afegint coneixement progressivament. Thomas Kuhn va demostrar que la realitat és molt més dramàtica i interessant."
+            },
+            {
+              "type": "key-idea",
+              "text": "Kuhn va distingir entre ciència normal (resoldre trencaclosques dins d'un paradigma acceptat) i revolucions científiques (moments en que el paradigma sencer és substituït per un de nou). Els canvis grans de la ciència no són acumulatius — són ruptures. I quan el paradigma canvia, tota la manera de veure el món canvia amb ell."
+            },
+            {
+              "type": "expandable",
+              "label": "Què és un paradigma científic?",
+              "content": "Un paradigma és el marc conceptual compartit per una comunitat científica: les preguntes que val la pena fer, els mètodes acceptables, els supòsits de base. La física newtoniana era un paradigma: definia com es pensava sobre el moviment, la gravetat i l'espai. Einstein no va afegir coses al paradigma newtonià — el va substituir per un de nou on l'espai i el temps ja no eren absoluts. Els científics que treballen dins d'un paradigma sovint no veuen les seves limitacions fins que algú de fora (o un outsider intern) les qüestiona."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1543",
+                  "title": "Revolució copernicana",
+                  "text": "De geocèntric a heliocèntric. El canvi triga 150 anys a ser acceptat."
+                },
+                {
+                  "year": "1687",
+                  "title": "Paradigma newtonià",
+                  "text": "La mecànica clàssica domina la física durant 200 anys."
+                },
+                {
+                  "year": "1905",
+                  "title": "Revolució relativista",
+                  "text": "Einstein trenca amb el paradigma newtonià. L'espai i el temps són relatius."
+                },
+                {
+                  "year": "1920s",
+                  "title": "Mecànica quàntica",
+                  "text": "Segon trencament: el comportament subatòmic és radicalment diferent del macroscòpic."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-phil-02-01",
+              "style": "multiple-choice",
+              "question": "Quan Kuhn diu que el canvi de paradigma és una 'revolució', vol dir que:",
+              "options": [
+                "Els científics antics eren ignorants i els nous més intel·ligents",
+                "La nova teoria és simplement una versió millorada de l'anterior",
+                "El marc conceptual sencer canvia — no s'afegeix a l'anterior sinó que el substitueix",
+                "El canvi és ràpid i acceptat immediatament per la comunitat científica"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Kuhn insisteix que les revolucions científiques no són acumulatives — no afegeixen peces al puzzle existent, substitueixen el puzzle sencer. Els conceptes clau canvien de significat. 'Massa' per a Newton i 'massa' per a Einstein no són el mateix concepte.",
+              "feedbackWrong": "Kuhn és explícit que les revolucions científiques no són millores incrementals ni victòries de la intel·ligència sobre la ignorància. Són canvis de marc total — el que abans semblava una bona pregunta pot deixar de tenir sentit en el nou paradigma."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-phil-02-01",
+              "question": "Si els paradigmes científics es substitueixen uns als altres, vol dir que cap teoria científica és realment fiable?",
+              "options": [
+                "Sí — si Newton va ser superat, Einstein també ho serà, i no podem confiar en cap teoria",
+                "No — que una teoria sigui substituïda no significa que fos inútil; era la millor explicació disponible",
+                "Depèn de la teoria: les de ciències naturals canvien, les de matemàtiques no"
+              ],
+              "correct": 1,
+              "explanation": "La física newtoniana va ser 'superada' per Einstein, però seguim usant-la per calcular trajectòries de satèl·lits, construir ponts i enviar sondes espacials. No era falsa — era una aproximació excel·lent dins del seu rang de validesa. Que una teoria sigui provisional no la fa inútil. La ciència progressa construint models cada cop millors, no descobrint veritats absolutes."
+            }
+          ]
+        },
+        {
+          "id": "phil-03",
+          "title": "Per qué els científics resisteixen les noves idees?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si la ciència funciona tan bé, per qué triguen tant a acceptar-se les grans descobertes? Per qué Copèrnic va trigar 150 anys, per qué la deriva continental va ser ridiculitzada, per qué el descobriment que les úlceres les causa un bacteri va costar una dècada d'esforços?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Imre Lakatos va proposar que els científics treballen dins de 'programes d'investigació': un nucli dur d'assumpcions que es protegeixen modificant hipòtesis perifèriques. Quan un experiment contradiu la teoria, els científics no abandonen el nucli — afegeixen hipòtesis addicionals per protegir-lo. Això és racional a curt termini, però pot retardar revolucions necessàries."
+            },
+            {
+              "type": "expandable",
+              "label": "El cas de Barry Marshall i les úlceres — la resistència com a cas d'estudi",
+              "content": "El 1982, Barry Marshall i Robin Warren van proposar que la majoria d'úlceres gàstriques les causava el bacteri Helicobacter pylori, no l'estrès ni l'àcid. La comunitat mèdica ho va rebutjar durant anys — el paradigma deia que l'estómac era massa àcid per a qualsevol bacteri. Marshall, desesperant-se, va beure un cultiu de H. pylori, va desenvolupar gastritis i es va curar amb antibiòtics. El 2005 va guanyar el Nobel. La resistència no era irrazonable: el paradigma existent era molt sòlid i la nova idea semblava impossible. Però va retardar un tractament que hauria evitat sofriment a milions de persones."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-phil-03-01",
+              "style": "multiple-choice",
+              "question": "Alfred Wegener va proposar la deriva continental el 1912 — la idea que els continents es mouen. Va ser rebutjada durant 50 anys. Per quin motiu principal?",
+              "options": [
+                "Wegener no era geòleg de formació i la comunitat científica el va desacreditar personalment",
+                "No hi havia cap mecanisme físic conegut que expliqués com els continents podien moure's",
+                "Les seves proves eren insuficients i basades en semblances superficials",
+                "L'Església catòlica va oposar-se a la teoria"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les proves de Wegener eren sòlides: els continents encaixen com un trencaclosques, les mateixes espècies fòssils apareixen a continents separats, les formacions geològiques coincideixen. Però no podia explicar el mecanisme. Sense saber per qué els continents es mouen, la teoria semblava màgia. Quan es va descobrir la tectònica de plaques als anys 60, tot va encaixar.",
+              "feedbackWrong": "El problema principal no era personal ni religiós — era científic. Les proves eren bones però faltava el mecanisme explicatiu. Sense saber com és possible que els continents es moguin, la teoria semblava violar lleis físiques conegudes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-phil-03-02",
+              "style": "true-false",
+              "question": "La resistència de la comunitat científica a noves idees és sempre un obstacle que frena el progrés.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. La resistència té una funció: evita que la ciència adopti cada nova idea sense prou evidència. Si cada teoria nova s'acceptés immediatament, la ciència seria inestable i poc fiable. El problema no és la resistència en si — és quan és excessiva o dura massa temps davant d'evidència aclaparadora.",
+              "feedbackWrong": "La resistència científica és un mecanisme de qualitat, no un obstacle pur. Filtrar les noves idees és el que fa que la ciència sigui fiable. El problema és quan la resistència es manté malgrat evidència sòlida — i Lakatos explica per qué passa."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-phil-03-01",
+              "question": "Si un científic afirma que el seu descobriment és cert però que la comunitat científica el rebutja per enveja o por al canvi, com hauries de valorar la seva afirmació?",
+              "options": [
+                "Donar-li el benefici del dubte — la història mostra que els genis sovint van contra corrent",
+                "Rebutjar-la — si la comunitat científica no l'accepta, és que no té prou proves",
+                "Avaluar les proves concretes, independentment de qui les defensa o qui les rebutja"
+              ],
+              "correct": 2,
+              "explanation": "La història de la ciència mostra casos reals de genis rebutjats (Wegener, Marshall, Semmelweis). Però per cada cas real, hi ha cents de pseudocientífics que usen exactament el mateix argument per justificar teories sense fonament. La clau no és qui defensa la idea ni qui la rebutja — és la qualitat de les proves. Avaluar les proves de forma independent de l'autoritat és el cor del pensament científic."
+            }
+          ]
+        },
+        {
+          "id": "phil-04",
+          "title": "Hi ha un sol mètode científic?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "A l'escola ens ensenyen 'el mètode científic' com si fos una recepta fixa: observació, hipòtesi, experiment, conclusió. Però si mirem la història real de la ciència, la cosa és molt més desordenada i creativa."
+            },
+            {
+              "type": "key-idea",
+              "text": "Paul Feyerabend va observar que les grans descobertes científiques sovint no han seguit cap mètode establert. Darwin va formular l'evolució sense experiments controlats. Einstein va arribar a la relativitat amb experiments mentals. La ciència real usa tots els recursos disponibles — inclosos la intuïció, l'analogia i fins i tot la sort. El mètode científic és una descripció idealitzada, no un manual."
+            },
+            {
+              "type": "expandable",
+              "label": "Feyerabend i l'anarquisme metodològic — la idea útil sense el radicalisme",
+              "content": "Feyerabend va arribar a dir que 'tot s'hi val' en ciència — una postura radical que molts rebutgen. Però el nucli de la seva crítica és útil: la ciència ha progressat quan els científics han trencat les regles metodològiques del seu temps. Galileu va usar arguments retòrics, no sols experiments. Darwin va barrejar observació naturalista amb especulació. El que importa no és seguir un procediment fix sinó produir coneixement que superi els tests de la comunitat científica. La creativitat metodològica no és un defecte — és una condició del progrés."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-phil-04-01",
+              "style": "multiple-choice",
+              "question": "Einstein va arribar a la teoria de la relativitat principalment a través de:",
+              "options": [
+                "Experiments de laboratori amb partícules a alta velocitat",
+                "Anàlisi estadística de grans conjunts de dades astronòmiques",
+                "Experiments mentals — imaginar situacions hipotètiques i raonar sobre elles",
+                "Col·laboració amb un equip de físics experimentals"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Einstein va imaginar situacions com 'viatjar al costat d'un raig de llum' i va raonar sobre les seves implicacions. No hi havia cap laboratori capaç de testar directament les seves idees el 1905. La teoria va ser confirmada experimentalment anys després. Seguir el 'mètode científic' estàndard hauria fet impossible la relativitat.",
+              "feedbackWrong": "La relativitat va néixer d'experiments mentals — Gedankenexperiment en alemany. Einstein es preguntava 'si viatgés al costat d'un raig de llum, qué veuria?' i raonar sobre la resposta el va portar a reformular la física. No hi havia equipament experimental disponible per testar-ho directament."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-phil-04-01",
+              "question": "Si no hi ha un únic mètode científic vàlid, com distingim la ciència de la no-ciència?",
+              "options": [
+                "No es pot distingir — la frontera entre ciència i no-ciència és arbitrària",
+                "Pel procés de revisió per parells i la comunitat científica que valida el coneixement",
+                "Per la combinació de falsabilitat, reproducibilitat i consens de la comunitat experta"
+              ],
+              "correct": 2,
+              "explanation": "Que no hi hagi un únic mètode no significa que tot sigui igual. La ciència es distingeix per un conjunt de criteris: les idees han de fer prediccions falsables, els resultats han de poder reproduir-se, i la comunitat experta ha de poder revisar i criticar el treball. Cap criteri sol és suficient, però la seva combinació crea un sistema robust d'autoregulació. L'absència de mètode únic és una fortalesa — permet adaptar-se a cada disciplina — no una debilitat."
+            }
+          ]
+        },
+        {
+          "id": "phil-05",
+          "title": "Com distingim ciència de pseudociència?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Vivim en un temps de desinformació abundant. Fake news, teories de conspiració, pseudociències — tothom diu tenir 'proves'. Aprendre a distingir el coneixement sòlid del fals no és un luxe intel·lectual: és una habilitat de supervivència."
+            },
+            {
+              "type": "key-idea",
+              "text": "La pseudociència imita l'aparença de la ciència — usa terminologia tècnica, cita 'estudis', apel·la a experts — però no compleix els criteris fonamentals: no fa prediccions falsables, no accepta la refutació, i no sotmet les seves afirmacions a la revisió crítica de la comunitat experta. Reconèixer aquests patrons és més útil que memoritzar quines coses són falses."
+            },
+            {
+              "type": "expandable",
+              "label": "Els cinc patrons de la pseudociència",
+              "content": "1. Immunitat a la refutació: qualsevol evidència en contra s'explica com a 'conspiració' o 'ignorància'. 2. Apel·lació a la natura o a la tradició: 'és natural, per tant és bo' o 'ho feien els antics'. 3. Terminologia científica sense contingut: usar paraules com 'quàntic', 'freqüències' o 'toxines' sense definició precisa. 4. Testimonis personals com a prova principal: 'a mi em va funcionar' no és evidència científica. 5. Persecució de l'establiment: la teoria és certa però els poderosos l'amaguen. Aquests patrons apareixen en l'homeopatia, l'astrologia, els chemtrails, la terra plana i moltes altres pseudociències."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-phil-05-01",
+              "style": "multiple-choice",
+              "question": "La teoria dels chemtrails afirma que els rastres blancs dels avions contenen substàncies químiques escampades deliberadament. Quin és el principal problema epistemològic d'aquesta teoria?",
+              "options": [
+                "No hi ha cap evidència de químics als rastres dels avions",
+                "Qualsevol evidència en contra s'interpreta com a prova de la conspiració, fent la teoria irrefutable",
+                "Els seus defensors no han estudiat química ni aviació",
+                "Les autoritats han demostrat científicament que és falsa"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El problema central no és l'absència de proves — és que la teoria és immune a qualsevol refutació. Si els experts diuen que és vapor d'aigua, formen part de la conspiració. Si un estudi ho desmenteix, l'han finançat els mateixos que escampen els químics. Una teoria que ho explica tot i que cap evidència pot contradir no és científica — és una creença.",
+              "feedbackWrong": "El problema epistemològic principal no és l'evidència sinó l'estructura de la teoria. Una teoria científica ha d'especificar quina observació la refutaria. Els chemtrails no ho fan: qualsevol prova en contra és incorporada com a evidència de la conspiració. Això la fa irrefutable — i per tant, no científica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-phil-05-02",
+              "style": "detect-error",
+              "statement": "L'homeopatia és científicament vàlida perquè moltes persones afirmen haver-se curat amb ella i no hi ha proves que sigui perillosa.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha dos errors. Primer, els testimonis personals no són evidència científica: sense grup control, no podem saber si la millora es deuria al tractament, al temps, o a l'efecte placebo. Segon, l'absència de perill no implica eficàcia. Els estudis controlats d'homeopatia no mostren efectes superiors al placebo. La pregunta científica no és 'fa mal?' sinó 'funciona millor que no fer res?' — i la resposta és no."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-phil-05-01",
+              "question": "Un amic et diu: 'Vaig prendre un suplement natural i em vaig curar. Per a mi és una prova que funciona.' Com respons?",
+              "options": [
+                "Té raó — la seva experiència personal és evidència vàlida per a ell",
+                "S'equivoca completament — l'experiència personal no prova res",
+                "La seva experiència és real però insuficient: sense grup control no podem saber la causa de la millora"
+              ],
+              "correct": 2,
+              "explanation": "La postura científica no nega l'experiència del teu amic — la pren seriosament però reconeix els seus límits. La millora és real. El que no sabem és la causa: podria ser el suplement, l'efecte placebo, la recuperació natural, o altres canvis simultanis. Per saber si el suplement és la causa, necessitem estudis controlats on un grup pren el suplement i un altre (idèntic en tot) pren un placebo. Sense això, no podem atribuir la millora a cap causa concreta."
+            }
+          ]
+        },
+        {
+          "id": "phil-06",
+          "title": "Què no pot respondre la ciència?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La ciència és l'eina més poderosa que tenim per entendre la realitat. Però entendre els seus límits és tan important com entendre les seves capacitats. No tot és una pregunta científica."
+            },
+            {
+              "type": "key-idea",
+              "text": "La ciència respon preguntes sobre com funciona el món: mecanismes, causes, prediccions. No respon preguntes sobre el que hauria de ser: valors, significat, bellesa, justícia. Confondre els dos tipus de preguntes genera errors en ambdues direccions: pseudociències que pretenen que la ciència avala els seus valors, i anticienticisme que rebutja la ciència perquè no respon les seves preguntes existencials."
+            },
+            {
+              "type": "expandable",
+              "label": "La distinció és i l'és: Hume i la falàcia naturalista",
+              "content": "David Hume va identificar que no podem derivar conclusions sobre el que hauria de ser (valors) a partir de descripcions del que és (fets). La ciència pot dir-nos que els humans som agressius per naturalesa — no pot dir-nos si hem de ser agressius. Pot dir-nos que el cervell processa el dolor de certa manera — no pot dir-nos si el sofriment és dolent ni quant val una vida. Aquestes preguntes pertanyen a l'ètica, la filosofia i la política — disciplines que la ciència informa però no substitueix."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-phil-06-01",
+              "style": "multiple-choice",
+              "question": "Quina d'aquestes preguntes pot respondre la ciència?",
+              "options": [
+                "És just que les persones riques paguin més impostos que les pobres?",
+                "Quina concentració de CO₂ a l'atmosfera provoca un augment de temperatura de 2°C?",
+                "Té valor la vida humana per sobre del benestar animal?",
+                "Quina és la música més bella de la història?"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Aquesta és una pregunta empírica: podem mesurar la concentració de CO₂ i la temperatura i establir la relació causal. Les altres preguntes impliquen valors (justícia fiscal, valor de la vida, bellesa) que la ciència informa però no pot respondre per si sola. Quina política climàtica adoptar és una decisió política i ètica — la ciència ens dona les dades, no la resposta.",
+              "feedbackWrong": "La distinció clau és entre preguntes sobre com és el món (científiques) i preguntes sobre com hauria de ser el món (ètiques, polítiques, estètiques). La ciència pot informar les segones però no substituir-les."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-phil-06-02",
+              "style": "detect-error",
+              "statement": "Com que la ciència no pot respondre preguntes sobre el sentit de la vida o els valors morals, és limitada i menys útil del que sembla.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és interpretar els límits com a debilitat. La ciència és extraordinàriament poderosa dins del seu domini: explicar mecanismes, fer prediccions, permetre tecnologia. Que no respongui preguntes de valor no la limita — és que aquelles preguntes corresponen a altres disciplines. Un martell no és 'limitat' perquè no serveix per serrar fusta. Reconèixer el domini propi de cada eina és saviesa, no crítica."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-phil-06-01",
+              "question": "Ara que has après com funciona la ciència realment, creus que confiem massa, poc, o adequadament en ella com a societat?",
+              "options": [
+                "Massa — la ciència s'ha convertit en una nova religió que no qüestionem prou",
+                "Poc — el negacionisme científic i les fake news mostren que la gent no valora prou el coneixement científic",
+                "De forma desigual — confiem cegament en alguns aspectes i la rebutgem injustificadament en d'altres"
+              ],
+              "correct": 2,
+              "explanation": "La tercera opció descriu amb més precisió la realitat complexa. Moltes persones accepten sense qüestionar afirmacions pseudocientífiques que reforcen les seves creences prèvies, mentre rebutgen consens científics sòlids que les qüestionen. Però també hi ha qui idealitza la ciència com a autoritat absoluta, oblidant que és un procés humà, provisional i autocorrectiu. La relació sana amb la ciència és crítica i informada: ni fe cega ni rebuig."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

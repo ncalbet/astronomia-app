@@ -1,6 +1,9 @@
 const UNLOCK_MAP = {
-  'module-01-copernicus': ['module-02-history'],
-  'module-02-history':    []
+  'module-01-copernicus': ['module-02-history','module-03-peace','module-04-philosophy','module-05-birding'],
+  'module-02-history':    [],
+  'module-03-peace':      [],
+  'module-04-philosophy': [],
+  'module-05-birding':    []
 }
 
 export function getUnlocksForModule(completedModuleId) {

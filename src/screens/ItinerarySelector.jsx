@@ -1,11 +1,3 @@
-/**
- * ItinerarySelector.jsx
- *
- * Pantalla de selecció d'itinerari quan un mòdul en té més d'un.
- * Mostra cada itinerari amb la seva descripció i estat de progrés.
- * L'usuari tria i es carrega el flux de lliçons corresponent.
- */
-
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
@@ -20,26 +12,39 @@ export default function ItinerarySelector() {
 
   const [moduleData, setModuleData] = useState(null)
   const [loading, setLoading]       = useState(true)
+  const [error, setError]           = useState(null)
 
   const { currentModuleId } = navigationState
 
   useEffect(() => {
     if (!currentModuleId) { navigate('/modules'); return }
+
+    setLoading(true)
     loadModule(currentModuleId)
       .then(data => { setModuleData(data); setLoading(false) })
-      .catch(() => navigate('/modules'))
+      .catch(() => { setError('No s\'ha pogut carregar el mòdul.'); setLoading(false) })
   }, [currentModuleId])
 
-  if (loading || !moduleData) {
-    return <div className={styles.loading}>Carregant...</div>
+  if (loading) {
+    return (
+      <div className={styles.loading}>
+        <span>⏳</span>
+        <p>Carregant...</p>
+      </div>
+    )
+  }
+
+  if (error || !moduleData) {
+    return (
+      <div className={styles.loading}>
+        <p style={{ color: 'var(--color-danger)' }}>{error}</p>
+        <button onClick={() => navigate('/modules')}>Tornar</button>
+      </div>
+    )
   }
 
   const handleSelect = (itineraryId) => {
-    setNavigationState({
-      currentItineraryId: itineraryId,
-      currentLessonId: null,
-      currentStep: 0
-    })
+    setNavigationState({ currentItineraryId: itineraryId, currentLessonId: null, currentStep: 0 })
     navigate('/lesson')
   }
 
