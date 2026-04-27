@@ -40,6 +40,8 @@ export default function ScientificModeBlock({ block, onDefer }) {
               ${committed ? styles.committed : ''}`}
             onClick={() => { if (!committed) setSelected(i) }}
             disabled={committed}
+            aria-label={`Hipòtesi ${i + 1}: ${opt}`}
+            aria-pressed={selected === i}
           >
             {opt}
           </button>

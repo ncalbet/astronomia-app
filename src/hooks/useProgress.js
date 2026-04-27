@@ -13,7 +13,7 @@ const DEFAULT_STATE = {
   completedLessons: [],
   completedModules: [],
   completedItineraries: [],
-  unlockedModules: ['module-01-copernicus'],
+  unlockedModules: ['module-01-copernicus','module-02-history','module-03-peace','module-04-philosophy','module-05-birding'],
   badges: [],
   navigationState: {
     currentModuleId: null,
@@ -123,6 +123,34 @@ export function useProgress() {
     state.unlockedModules.includes(moduleId),
   [state.unlockedModules])
 
+
+  const repeatModule = useCallback((moduleId, xpToSubtract = 0) => {
+    update(prev => {
+      // Elimina lliçons completades d'aquest mòdul
+      const completedLessons = prev.completedLessons.filter(
+        key => !key.startsWith(moduleId + '__')
+      )
+      // Elimina itineraris completats d'aquest mòdul
+      const completedItineraries = (prev.completedItineraries || []).filter(
+        key => !key.startsWith(moduleId + '__')
+      )
+      // Elimina el mòdul de completats
+      const completedModules = prev.completedModules.filter(id => id !== moduleId)
+      // Resta l'XP del mòdul (mínim 0)
+      const newXP = Math.max(0, prev.xp - xpToSubtract)
+      const newLevel = Math.floor(newXP / 100) + 1
+
+      return {
+        ...prev,
+        completedLessons,
+        completedItineraries,
+        completedModules,
+        xp: newXP,
+        level: newLevel
+      }
+    })
+  }, [update])
+
   const resetAll = useCallback(() => {
     storage.clearAll()
     setState(DEFAULT_STATE)
@@ -132,6 +160,6 @@ export function useProgress() {
     ...state,
     addXP, completeLesson, completeModule, completeItinerary,
     unlockModule, earnBadge, setNavigationState,
-    isLessonCompleted, isItineraryCompleted, isModuleUnlocked, resetAll
+    isLessonCompleted, isItineraryCompleted, isModuleUnlocked, resetAll, repeatModule
   }
 }

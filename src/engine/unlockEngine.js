@@ -1,19 +1,11 @@
-const UNLOCK_MAP = {
-  'module-01-copernicus': ['module-02-history','module-03-peace','module-04-philosophy','module-05-birding'],
-  'module-02-history':    [],
-  'module-03-peace':      [],
-  'module-04-philosophy': [],
-  'module-05-birding':    []
-}
+// Tots els mòduls estan oberts des del principi.
+// El mapa UNLOCK_MAP queda per si en el futur es volen afegir prerequisits.
+const UNLOCK_MAP = {}
 
 export function getUnlocksForModule(completedModuleId) {
   return UNLOCK_MAP[completedModuleId] || []
 }
 
 export function canUnlockModule(moduleId, completedModules) {
-  const unlockedBy = Object.entries(UNLOCK_MAP)
-    .filter(([, unlocks]) => unlocks.includes(moduleId))
-    .map(([source]) => source)
-  if (unlockedBy.length === 0) return true
-  return unlockedBy.some(m => completedModules.includes(m))
+  return true // sempre accessible
 }

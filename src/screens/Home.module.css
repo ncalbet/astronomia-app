@@ -9,10 +9,7 @@
   gap: var(--space-6);
 }
 
-.header {
-  text-align: center;
-  padding-top: var(--space-6);
-}
+.header { text-align: center; padding-top: var(--space-6); }
 
 .logo {
   font-size: 3rem;
@@ -28,12 +25,9 @@
   margin-bottom: var(--space-2);
 }
 
-.subtitle {
-  color: var(--color-text-dim);
-  font-size: var(--text-sm);
-}
+.subtitle { color: var(--color-text-dim); font-size: var(--text-sm); margin: 0; }
 
-/* Targeta de perfil */
+/* Targeta perfil */
 .profileCard {
   width: 100%;
   background: var(--color-surface);
@@ -65,24 +59,14 @@
   color: var(--color-text);
 }
 
-.xpBadge {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
+.xpBadge { display: flex; flex-direction: column; align-items: flex-end; }
 .xpValue {
   font-family: var(--font-display);
   font-size: var(--text-2xl);
   color: var(--color-xp);
   font-weight: 800;
 }
-
-.xpLabel {
-  font-size: var(--text-xs);
-  color: var(--color-text-faint);
-  text-transform: uppercase;
-}
+.xpLabel { font-size: var(--text-xs); color: var(--color-text-faint); text-transform: uppercase; }
 
 .xpBarTrack {
   width: 100%;
@@ -100,19 +84,10 @@
   transition: width 0.5s ease;
 }
 
-.xpHint {
-  font-size: var(--text-xs);
-  color: var(--color-text-faint);
-  text-align: right;
-}
+.xpHint { font-size: var(--text-xs); color: var(--color-text-faint); text-align: right; }
 
 /* Botons */
-.actions {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
-}
+.actions { width: 100%; display: flex; flex-direction: column; gap: var(--space-3); }
 
 .btn {
   width: 100%;
@@ -124,7 +99,6 @@
   border: none;
   cursor: pointer;
   transition: var(--transition);
-  letter-spacing: 0.02em;
 }
 
 .btnPrimary {
@@ -132,25 +106,23 @@
   color: white;
   box-shadow: 0 4px 20px var(--color-accent-glow);
 }
-.btnPrimary:hover {
-  background: #6a95ff;
-  transform: translateY(-1px);
-  box-shadow: 0 6px 24px var(--color-accent-glow);
-}
+.btnPrimary:hover { background: #6a95ff; transform: translateY(-1px); }
 
 .btnGhost {
   background: var(--color-surface);
   color: var(--color-text-dim);
   border: 1px solid var(--color-border);
 }
-.btnGhost:hover {
-  border-color: var(--color-accent);
-  color: var(--color-accent);
-}
+.btnGhost:hover { border-color: var(--color-accent); color: var(--color-accent); }
 
 /* Insígnies */
-.badgesSection {
-  width: 100%;
+.badgesSection { width: 100%; }
+
+.badgesHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
 }
 
 .sectionTitle {
@@ -159,22 +131,136 @@
   color: var(--color-text-dim);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-bottom: var(--space-3);
+}
+
+.badgeCount {
+  background: var(--color-surface-2);
+  color: var(--color-text-faint);
+  font-size: var(--text-xs);
+  border-radius: var(--radius-full);
+  padding: 1px var(--space-2);
+  font-family: var(--font-display);
 }
 
 .badgeList {
   display: flex;
-  gap: var(--space-3);
+  flex-wrap: wrap;
+  gap: var(--space-2);
 }
 
+/* Targeta d'insígnia */
 .badge {
-  width: 48px;
-  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-3);
+  cursor: pointer;
+  transition: var(--transition);
+  min-width: 72px;
+}
+
+.badge:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+
+.badgeEmoji { font-size: 1.6rem; }
+
+.badgeName {
+  font-size: 9px;
+  color: var(--color-text-faint);
+  text-align: center;
+  line-height: 1.2;
+  max-width: 64px;
+}
+
+/* Raritat */
+.badge.common   { border-color: var(--color-border); }
+.badge.uncommon { border-color: rgba(76,125,255,0.4); }
+.badge.rare     { border-color: rgba(139,92,246,0.5); }
+.badge.epic     { border-color: var(--color-xp); box-shadow: 0 0 12px rgba(255,209,102,0.2); }
+
+/* Popup d'insígnia */
+.badgeOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(4px);
+  z-index: 50;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  padding: var(--space-5);
+  animation: fadeIn 0.2s ease;
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.badgePopup {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8) var(--space-6);
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes popIn {
+  from { transform: scale(0.85); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+.badgePopupEmoji { font-size: 4rem; }
+
+.badgePopupName {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  color: var(--color-text);
+}
+
+.badgePopupDesc {
+  font-size: var(--text-sm);
+  color: var(--color-text-dim);
+  line-height: 1.6;
+}
+
+.badgePopupRarity {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 3px var(--space-3);
+  border-radius: var(--radius-full);
+}
+
+.badgePopupRarity.common   { background: var(--color-surface-2); color: var(--color-text-faint); }
+.badgePopupRarity.uncommon { background: rgba(76,125,255,0.1);   color: var(--color-accent); }
+.badgePopupRarity.rare     { background: rgba(139,92,246,0.1);   color: #a78bfa; }
+.badgePopupRarity.epic     { background: rgba(255,209,102,0.1);  color: var(--color-xp); }
+
+.badgePopupClose {
+  margin-top: var(--space-2);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-dim);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-5);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.badgePopupClose:hover { border-color: var(--color-accent); color: var(--color-accent); }

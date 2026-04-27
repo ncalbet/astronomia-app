@@ -25,7 +25,7 @@
 
 @keyframes pulse {
   0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.1); }
+  50%       { transform: scale(1.1); }
 }
 
 .title {
@@ -42,7 +42,6 @@
   margin: 0;
 }
 
-/* Stats */
 .statsCard {
   width: 100%;
   background: var(--color-surface);
@@ -55,10 +54,7 @@
   box-shadow: var(--shadow-card);
 }
 
-.stat {
-  text-align: center;
-  flex: 1;
-}
+.stat { text-align: center; flex: 1; }
 
 .statValue {
   font-family: var(--font-display);
@@ -81,10 +77,7 @@
   background: var(--color-border);
 }
 
-/* XP Bar */
-.xpSection {
-  width: 100%;
-}
+.xpSection { width: 100%; }
 
 .xpBarTrack {
   width: 100%;
@@ -109,8 +102,16 @@
   margin: 0;
 }
 
-/* Botó */
-.continueBtn {
+/* Botons de navegació */
+.actions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+}
+
+.primaryBtn {
   width: 100%;
   padding: var(--space-4);
   background: var(--color-accent);
@@ -123,10 +124,27 @@
   cursor: pointer;
   transition: var(--transition);
   box-shadow: 0 4px 20px var(--color-accent-glow);
-  margin-top: var(--space-4);
 }
 
-.continueBtn:hover {
+.primaryBtn:hover {
   background: #6a95ff;
   transform: translateY(-2px);
+}
+
+.secondaryBtn {
+  width: 100%;
+  padding: var(--space-3);
+  background: transparent;
+  color: var(--color-text-dim);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.secondaryBtn:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
