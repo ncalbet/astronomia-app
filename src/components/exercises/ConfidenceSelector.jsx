@@ -24,6 +24,7 @@ export default function ConfidenceSelector({ onSelect }) {
             key={value}
             className={styles.option}
             onClick={() => onSelect(value)}
+            aria-label={`Confiança: ${label}`}
           >
             <span className={styles.emoji}>{emoji}</span>
             <span className={styles.label}>{label}</span>

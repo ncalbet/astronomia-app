@@ -48,6 +48,7 @@ export function AppProvider({ children }) {
     <AppContext.Provider value={{
       ...progress,
       earnBadge: earnBadgeWithNotification,
+      repeatModule: progress.repeatModule,
       checkBadges,
       pendingBadge,
       clearPendingBadge,

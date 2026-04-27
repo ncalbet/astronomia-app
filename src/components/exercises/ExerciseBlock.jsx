@@ -63,7 +63,7 @@ export default function ExerciseBlock({ block, onAnswer }) {
     : boolOptions
 
   return (
-    <div className={styles.exercise}>
+    <div className={styles.exercise} role="group" aria-label="Exercici">
       <div className={styles.label}>🧪 Exercici</div>
 
       {block.style === 'detect-error'
@@ -86,6 +86,8 @@ export default function ExerciseBlock({ block, onAnswer }) {
                 ${answered && isSelected && !isRight ? styles.wrong : ''}`}
               onClick={() => handleAnswer(value)}
               disabled={answered}
+              aria-label={`Opció: ${label}${answered && isRight ? ' (correcta)' : answered && isSelected && !isRight ? ' (incorrecta)' : ''}`}
+              aria-pressed={isSelected}
             >
               {label}
             </button>
