@@ -1,0 +1,19 @@
+Ara genero el JSON complet. Faré un mòdul de 6 lliçons amb arc narratiu progressiu: des de per què Grècia importa fins als grans moments de la polis, la democràcia, la guerra i el llegat. Nivell divulgatiu però amb profunditat real, pensant que vindran mòduls posteriors més especialitzats.Aquí tens el mòdul complet. Un resum del que conté:
+
+**Arc narratiu de les 6 lliçons:**
+1. **Per què els grecs encara ens importen** — context, cronologia, i la pregunta de per qué aquí i no a Egipte o Pèrsia
+2. **La polis: la invenció de la política** — Aristòtil, comparació amb els imperis orientals, i el debat sobre si la democràcia atenesa era "real"
+3. **La democràcia en acció** — com funcionava realment (sorteig, ostracisme, Ekklesia), i el dilema experts vs. democràcia directa
+4. **Esparta: l'altra Grècia** — el model alternatiu, els hilotes, i el debat col·lectivisme vs. individualisme
+5. **Guerres i crisi** — Tucídides, la Guerra del Peloponès, "la trampa de Tucídides" i si la història prediu el futur
+6. **El llegat grec** — la ruta del coneixement (àrabs → Europa), la misconception del "geni innat" i una reflexió final
+
+**Estadístiques del mòdul:**
+- 6 lliçons · 10 exercicis · 5 modes científics · 2 debats · 2 reflexions · 2 timelines
+- Connexió explícita amb el mòdul de Pau, Conflicte i Guerra
+
+**Per integrar-lo** (tal com marca el protocol):
+- Afegir entrada a `moduleRegistry.js`
+- Afegir a `MODULE_META` i `MODULE_XP` de `ModuleMap.jsx` (suggereixo ~180-200 XP)
+- Afegir `"module-08-grecia"` a `unlockedModules` de `useProgress.js`
+- Incrementar `DATA_VERSION` a 5

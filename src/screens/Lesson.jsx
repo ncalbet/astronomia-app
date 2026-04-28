@@ -255,6 +255,7 @@ export default function Lesson() {
         <span className={styles.progressLabel}>{currentIndex + 1}/{lessons.length}</span>
       </header>
 
+      <div className={styles.lessonContent} key={currentLesson.id}>
       <div className={styles.lessonTitle}>
         <h2>{currentLesson.title}</h2>
       </div>
@@ -274,6 +275,8 @@ export default function Lesson() {
           <DeferredFeedbackPanel decisions={deferredDecisions} />
         )}
       </div>
+
+      </div>{/* fi lessonContent */}
 
       <div className={styles.footer}>
         <button className={styles.nextBtn} onClick={handleNext} disabled={!allCommitted}>

@@ -447,3 +447,19 @@
 }
 
 .errorBtn:hover { border-color: var(--color-accent); }
+
+/* Transició entre lliçons */
+.lessonContent {
+  animation: lessonIn 0.35s ease forwards;
+}
+
+@keyframes lessonIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
