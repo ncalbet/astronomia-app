@@ -14,6 +14,11 @@ import ExerciseBlock from '../components/exercises/ExerciseBlock'
 import ScientificModeBlock from '../components/exercises/ScientificModeBlock'
 import DeferredFeedbackPanel from '../components/exercises/DeferredFeedbackPanel'
 import SimulationBlock from '../components/simulations/SimulationBlock'
+import DebateBlock from '../components/blocks/DebateBlock'
+import ReflectionBlock from '../components/blocks/ReflectionBlock'
+import ConnectionBlock from '../components/blocks/ConnectionBlock'
+import ComparisonBlock from '../components/blocks/ComparisonBlock'
+import MisconceptionBlock from '../components/blocks/MisconceptionBlock'
 import styles from './Lesson.module.css'
 
 // ── Blocs de contingut ──────────────────────────────────────────────────────
@@ -98,6 +103,11 @@ function BlockRenderer({ block, onExpand, onAnswer, onDefer }) {
     case 'exercise':        return <ExerciseBlock block={block} onAnswer={onAnswer} />
     case 'scientific-mode': return <ScientificModeBlock block={block} onDefer={onDefer} />
     case 'simulation':      return <SimulationBlock block={block} />
+    case 'debate':          return <DebateBlock block={block} />
+    case 'reflection':      return <ReflectionBlock block={block} />
+    case 'connection':      return <ConnectionBlock block={block} />
+    case 'comparison':      return <ComparisonBlock block={block} />
+    case 'misconception':   return <MisconceptionBlock block={block} />
     case 'timeline':        return <TimelineBlock block={block} />
     case 'quote':           return <QuoteBlock block={block} />
     default: return null

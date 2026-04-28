@@ -13,7 +13,7 @@ const DEFAULT_STATE = {
   completedLessons: [],
   completedModules: [],
   completedItineraries: [],
-  unlockedModules: ['module-01-copernicus','module-02-history','module-03-peace','module-04-philosophy','module-05-birding'],
+  unlockedModules: ['module-01-copernicus','module-02-history','module-03-peace','module-04-philosophy','module-05-birding','module-06-chemistry','module-07-particles'],
   badges: [],
   navigationState: {
     currentModuleId: null,

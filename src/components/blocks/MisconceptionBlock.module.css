@@ -1,0 +1,92 @@
+.wrapper {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.label {
+  font-size: var(--text-xs);
+  color: var(--color-warning);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+/* Creença errònia */
+.belief {
+  background: rgba(255, 107, 107, 0.06);
+  border: 1px solid rgba(255, 107, 107, 0.2);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+
+.beliefLabel {
+  font-size: var(--text-xs);
+  color: var(--color-danger);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-2);
+}
+
+.beliefText {
+  font-size: var(--text-sm);
+  color: var(--color-text-dim);
+  font-style: italic;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.arrow {
+  text-align: center;
+  color: var(--color-text-faint);
+  font-size: var(--text-lg);
+}
+
+/* Realitat */
+.reality {
+  background: rgba(61, 220, 132, 0.06);
+  border: 1px solid rgba(61, 220, 132, 0.2);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+
+.realityLabel {
+  font-size: var(--text-xs);
+  color: var(--color-success);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-2);
+}
+
+.realityText {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Per qué es confon */
+.why {
+  background: var(--color-surface-2);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+
+.whyLabel {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-2);
+}
+
+.whyText {
+  font-size: var(--text-sm);
+  color: var(--color-text-dim);
+  margin: 0;
+  line-height: 1.6;
+}

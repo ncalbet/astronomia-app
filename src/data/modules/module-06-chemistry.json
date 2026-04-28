@@ -1,0 +1,550 @@
+{
+  "id": "module-06-chemistry",
+  "title": "Química Fonamental",
+  "emoji": "⚗️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "structure",
+      "title": "De què està fet tot?",
+      "icon": "🔬",
+      "description": "L'estructura de la matèria des de zero — per entendre per qué les coses són com són",
+      "style": "Conceptual · de l'àtom a la reacció",
+      "lessons": [
+        {
+          "id": "chem-s-01",
+          "title": "L'àtom: la unitat mínima",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Tot el que existeix — l'aire que respires, el metall de la cadira, l'aigua, el teu cos — està fet de la mateixa cosa: àtoms. La pregunta és com ho sabem, si mai n'hem vist cap."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un àtom és la unitat mínima d'un element químic que conserva les seves propietats. És tan petit que un gram d'hidrogen conté aproximadament 600.000 milions de bilions d'àtoms. No es pot veure, però els seus efectes sí."
+            },
+            {
+              "type": "expandable",
+              "label": "Com sabem que els àtoms existeixen si no els podem veure?",
+              "content": "La prova no va arribar de cop. Al segle XIX, John Dalton va observar que els elements sempre es combinen en proporcions fixes de massa — si l'aigua sempre és 8 parts d'oxigen per 1 d'hidrogen, hi ha d'haver unitats discretes. El 1905, Einstein va explicar el moviment brownià (partícules de pol·len que es mouen aleatòriament en aigua) com el resultat de col·lisions amb molècules invisibles. Avui, amb microscopis de força atòmica, podem fins i tot 'veure' àtoms individuals com a protuberàncies en una superfície. La ciència no va veure l'àtom — va deduir la seva existència a partir d'efectes observables, i finalment va construir instruments per visualitzar-lo."
+            },
+            {
+              "type": "key-idea",
+              "text": "Dins l'àtom hi ha tres partícules: protons (càrrega positiva) i neutrons (sense càrrega) al nucli, i electrons (càrrega negativa) que orbiten al voltant. El nombre de protons defineix l'element — tots els àtoms amb 6 protons són carboni, tots els que en tenen 8 són oxigen, sense excepcions."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-s-01-01",
+              "style": "multiple-choice",
+              "question": "Dos àtoms tenen el mateix nombre de protons però diferent nombre de neutrons. Quin és el seu element?",
+              "options": [
+                "Són elements diferents perquè la massa és diferent",
+                "Són el mateix element — el nombre de protons defineix l'element",
+                "Depèn del nombre d'electrons",
+                "No es pot saber sense conèixer la seva massa"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Àtoms del mateix element però amb diferent nombre de neutrons s'anomenen isòtops. El carboni-12 i el carboni-14 són tots dos carboni — tenen 6 protons cadascun — però diferent nombre de neutrons. El carboni-14 és radioactiu i s'usa per datar materials arqueològics.",
+              "feedbackWrong": "El nombre de protons és l'identitat de l'element — no canvia. Àtoms del mateix element amb diferent nombre de neutrons s'anomenen isòtops. Tenir masses diferents no els fa elements diferents."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-s-01-02",
+              "style": "true-false",
+              "question": "L'àtom és majoritàriament espai buit.",
+              "correct": true,
+              "feedbackCorrect": "Correcte. Si el nucli d'un àtom fos de la mida d'una pilota de tennis al centre d'un estadi de futbol, els electrons orbitarien a les grades. Tot el que hi ha entremig és espai buit. La matèria sòlida sembla sòlida perquè les forces electromagnètiques entre àtoms resisteixen la compressió — no perquè estigui 'plena'.",
+              "feedbackWrong": "L'àtom és gairebé tot espai buit. El nucli ocupa una fracció minúscula del volum total. La sensació de solidesa de la matèria prové de les forces electromagnètiques, no de la 'plenitud' dels àtoms."
+            }
+          ]
+        },
+        {
+          "id": "chem-s-02",
+          "title": "La taula periòdica com a mapa",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La taula periòdica sembla un mapa incomprensible de símbols i números. Però és una de les creacions intel·lectuals més elegants de la ciència — un sistema que va predir l'existència d'elements abans que es descobrissin."
+            },
+            {
+              "type": "key-idea",
+              "text": "La taula periòdica organitza els elements per nombre de protons (número atòmic) i per propietats químiques similars. Els elements d'una mateixa columna (grup) es comporten de manera semblant perquè tenen el mateix nombre d'electrons a la capa exterior — i són aquests electrons els que determinen com reacciona un element."
+            },
+            {
+              "type": "expandable",
+              "label": "Mendeleev i els elements que no existien encara",
+              "content": "El 1869, Dmitri Mendeleev va ordenar els 63 elements coneguts per massa atòmica i va observar patrons repetits en les seves propietats. Quan ordenava els elements, hi havia buits — llocs on les propietats no encaixaven. En lloc d'ignorar-los, Mendeleev va fer quelcom audaç: va declarar que hi havia d'haver elements desconeguts que omplien aquells buits, i va predir les seves propietats amb precisió. Va anomenar-los eka-alumini, eka-bor i eka-silici. El 1875 es va descobrir el gal·li — les seves propietats coincidien gairebé exactament amb la predicció d'eka-alumini. El 1886 va aparèixer el germani, idèntic a l'eka-silici predit. No era màgia: era la lògica del sistema. La taula periòdica era tan consistent que els seus buits eren prediccions científiques."
+            },
+            {
+              "type": "quote",
+              "text": "Vaig veure en somnis una taula on tots els elements van quedar col·locats en el lloc que els corresponia.",
+              "author": "Dmitri Mendeleev — tot i que la llegenda del somni és probablement exagerada, il·lustra la intensitat del seu treball"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-s-02-01",
+              "style": "multiple-choice",
+              "question": "Per qué els elements de la mateixa columna de la taula periòdica es comporten de manera similar?",
+              "options": [
+                "Perquè tenen la mateixa massa atòmica",
+                "Perquè tenen el mateix nombre de protons",
+                "Perquè tenen el mateix nombre d'electrons a la capa exterior",
+                "Perquè van ser descoberts en la mateixa època"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Els electrons de la capa exterior — anomenats electrons de valència — són els que participen en les reaccions químiques. El sodi (Na) i el potassi (K) reaccionen de forma similar amb l'aigua perquè tots dos tenen un sol electró de valència. La columna de la taula periòdica és, essencialment, una classificació per comportament químic.",
+              "feedbackWrong": "La clau és la capa exterior d'electrons. Són els electrons de valència els que determinen com reacciona un element — no la massa ni el nombre total de protons. Per això elements de la mateixa columna tenen propietats similars malgrat ser molt diferents en massa."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-chem-s-02-01",
+              "question": "Mendeleev va deixar buits a la taula i va predir elements desconeguts. Quin tipus de pensament il·lustra això?",
+              "options": [
+                "Pensament inductiu: observa patrons i n'extreu una llei general",
+                "Pensament deductiu: aplica una llei coneguda per predir casos específics",
+                "Pensament abdductiu: proposa la millor explicació per a dades incompletes"
+              ],
+              "correct": 0,
+              "explanation": "Mendeleev va observar patrons repetits en les propietats dels elements i va inferir una llei general (la periodicitat). Després va usar aquesta llei per fer prediccions concretes — que és pensament deductiu aplicat sobre una base inductiva. En la pràctica, els grans descobriments científics combinen els tres tipus de raonament. El que fa excepcional Mendeleev és que va tenir el coratge de confiar en el patró per sobre del coneixement existent."
+            }
+          ]
+        },
+        {
+          "id": "chem-s-03",
+          "title": "Per qué els àtoms s'uneixen",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si tot és àtoms, per qué no estan tots separats? Per qué el ferro és sòlid, l'aigua líquida i l'oxigen gas? La resposta és que els àtoms s'uneixen — i la forma com ho fan determina totes les propietats dels materials."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els àtoms s'uneixen per formar molècules a través d'enllaços químics. La força que els manté units és electromagnètica: els electrons de la capa exterior es comparteixen o es transfereixen entre àtoms per assolir una configuració més estable. Els dos tipus principals són l'enllaç covalent (comparteixen electrons) i l'iònic (un cedeix electrons a l'altre)."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué els àtoms volen ser 'estables'?",
+              "content": "Els gasos nobles (heli, neó, argó) gairebé no reaccionen amb res. Per qué? Perquè ja tenen la capa exterior d'electrons completa — 8 electrons (o 2 en el cas de l'heli). Tots els altres elements tendeixen a guanyar, perdre o compartir electrons per arribar a aquesta configuració de 8 electrons exteriors, anomenada regla de l'octet. El sodi té 1 electró exterior i el clor en té 7. El sodi cedeix el seu al clor, tots dos queden amb 8, i es forma clorur de sodi — sal de cuina. L'estabilitat no és una preferència conscient: és simplement que la configuració de 8 electrons externs és la d'energia mínima."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-s-03-01",
+              "style": "multiple-choice",
+              "question": "En l'enllaç covalent de la molècula d'aigua (H₂O), qué passa amb els electrons?",
+              "options": [
+                "L'oxigen cedeix electrons als dos àtoms d'hidrogen",
+                "Els àtoms d'hidrogen cedeixen electrons a l'oxigen",
+                "L'oxigen i l'hidrogen comparteixen parells d'electrons",
+                "No hi ha transferència d'electrons — és un enllaç purament mecànic"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. En l'enllaç covalent els electrons es comparteixen — no es cedeixen completament. L'oxigen comparteix un parell d'electrons amb cada hidrogen. Això permet a tots dos àtoms tenir la capa exterior més completa sense cedir ni rebre electrons del tot. La compartició no és equitativa: l'oxigen atrau els electrons més fort (és més electronegatiu), cosa que dona a l'aigua propietats especials.",
+              "feedbackWrong": "En l'enllaç covalent no hi ha transferència completa — els electrons es comparteixen. Si hi hagués transferència completa seria un enllaç iònic. La compartició d'electrons és el que manté units els dos àtoms d'hidrogen amb l'oxigen en la molècula d'aigua."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-s-03-02",
+              "style": "true-false",
+              "question": "La sal de cuina (NaCl) és una molècula formada per un àtom de sodi i un de clor units per un enllaç covalent.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La sal és un compost iònic, no covalent. El sodi cedeix un electró al clor — no el comparteix. El resultat són ions amb càrregues oposades (Na⁺ i Cl⁻) que s'atrauen electrostàticament. Per això la sal no forma molècules individuals sinó una xarxa cristal·lina tridimensional d'ions alternats — que és per qué és sòlida i cristal·lina.",
+              "feedbackWrong": "La sal no té enllaç covalent sinó iònic. El sodi cedeix completament el seu electró exterior al clor. Això crea ions de càrregues oposades que s'atrauen formant una xarxa cristal·lina. En l'enllaç covalent, com a l'aigua, els electrons es comparteixen en lloc de cedir-se."
+            }
+          ]
+        },
+        {
+          "id": "chem-s-04",
+          "title": "Molècules i propietats",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Per qué l'aigua bull a 100°C i l'alcohol a 78°C? Per qué el diamant és el material més dur i el grafit és tan tou que s'usa als llapis? Tots dos són carboni pur. La resposta és que les propietats dels materials depenen de com estan organitzats els àtoms, no sols de quins àtoms els componen."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les propietats macroscòpiques dels materials (punt de fusió, duresa, conductivitat, solubilitat) emergeixen de l'estructura molecular. La mateixa substància pot tenir propietats completament diferents segons com estan disposats els seus àtoms — com el diamant i el grafit, que tots dos són carboni però amb estructures cristal·lines radicalment diferents."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el diamant és dur i el grafit és tou si tots dos són carboni?",
+              "content": "En el diamant, cada àtom de carboni forma 4 enllaços covalents forts amb 4 veïns en una xarxa tridimensional rígida. Per trencar el diamant cal trencar molts d'aquests enllaços forts simultàniament — d'aquí la duresa excepcional. En el grafit, els àtoms de carboni formen capes planes on cada àtom té 3 veïns. Les capes s'uneixen entre si per forces molt febles. Quan escrius amb un llapis, les capes de grafit llisquen i queden al paper. El mateix element, disposat diferent, dona materials amb propietats oposades. Aquesta diferència s'anomena al·lotropia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-s-04-01",
+              "style": "multiple-choice",
+              "question": "L'alcohol etílic bull a 78°C i l'aigua a 100°C, tot i que les molècules d'alcohol són més grans i pesades. Per qué l'aigua bull a temperatura més alta?",
+              "options": [
+                "Perquè l'aigua té més àtoms per molècula",
+                "Perquè les molècules d'aigua formen ponts d'hidrogen entre si, que requereixen més energia per trencar",
+                "Perquè l'oxigen és més pesant que el carboni",
+                "Perquè l'alcohol té menys densitat que l'aigua"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les molècules d'aigua formen ponts d'hidrogen — una atracció especial entre la càrrega negativa de l'oxigen d'una molècula i la càrrega positiva de l'hidrogen d'una altra. Aquests ponts no són tan forts com els enllaços covalents, però n'hi ha molts i cal molta energia per trencar-los tots. Per això l'aigua té un punt d'ebullició sorprenentment alt per a una molècula tan petita.",
+              "feedbackWrong": "La mida i massa de la molècula no ho expliquen tot. L'clau és el tipus d'interaccions entre molècules. L'aigua forma ponts d'hidrogen — forces intermoleculars especials — que mantenen les molècules molt unides. L'alcohol en forma menys. Per separar les molècules d'aigua (bullir) cal trencar més d'aquests ponts, per tant cal més temperatura."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-chem-s-04-01",
+              "question": "Si les propietats dels materials depenen de com estan organitzats els àtoms, és teòricament possible crear nous materials amb propietats a mida dissenyant la seva estructura atòmica?",
+              "options": [
+                "No — les propietats dels materials estan fixades per la naturalesa i no es poden dissenyar",
+                "Sí — i és el que fa la nanotecnologia i la ciència de materials avui dia",
+                "Parcialment — podem modificar propietats existents però no crear-ne de radicalment noves"
+              ],
+              "correct": 1,
+              "explanation": "La nanotecnologia i la ciència de materials fan exactament això: dissenyar estructures atòmiques i moleculars per obtenir propietats específiques. El grafè (una sola capa de grafit) és més resistent que l'acer i conductor de l'electricitat. Els semiconductors dels xips electrònics són silici amb impureses controlades per tenir propietats elèctriques precises. Els materials de les bateries de liti es dissenyen àtom a àtom. Entendre la relació entre estructura i propietats és la base d'una de les disciplines científiques de més futur."
+            }
+          ]
+        },
+        {
+          "id": "chem-s-05",
+          "title": "Reaccions químiques",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La fusta crema, el ferro s'oxida, el pa es cou, els medicaments actuen. Tot això són reaccions químiques — processos en els quals les substàncies es transformen en d'altres de noves. La pregunta és: qué és el que realment canvia?"
+            },
+            {
+              "type": "key-idea",
+              "text": "En una reacció química, els àtoms es reorganitzen — es trenquen alguns enllaços i se'n formen de nous. El nombre i tipus d'àtoms no canvia: es conserven. El que canvia és com estan connectats. Per tant, una reacció química és un rearanjament d'àtoms, no una creació ni destrucció de matèria."
+            },
+            {
+              "type": "expandable",
+              "label": "Lavoisier i la conservació de la massa",
+              "content": "Al segle XVIII, Antoine Lavoisier va demostrar experimentalment que en una reacció química la massa total es conserva. Va pesar substàncies abans i després de reaccionar en recipients tancats i sempre obtenia el mateix resultat. Aquesta observació — 'res es crea ni es destrueix, tot es transforma' — va eliminar d'un cop teories com el flogist (una substància imaginària que suposadament s'alliberava en la combustió). Lavoisier va ser guillotinat durant la Revolució Francesa el 1794. El jutge va dir: 'La República no necessita científics.' Poc temps després, el matemàtic Lagrange va comentar: 'Només va caldre un moment per tallar aquell cap, i potser un segle no serà suficient per produir-ne un d'igual.'"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-s-05-01",
+              "style": "multiple-choice",
+              "question": "Cremes 10 grams de fusta en un recipient tancat. Quant pesen les cendres i els gasos produïts junts?",
+              "options": [
+                "Menys de 10 grams — la fusta perd massa en cremar",
+                "Exactament 10 grams — la massa es conserva",
+                "Més de 10 grams — la combustió absorbeix oxigen de l'aire",
+                "Depèn de la temperatura de la combustió"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte — però amb un matís important. Si el recipient és tancat, la massa total (cendres + gasos) és exactament 10 grams. Si és obert, les cendres pesaran menys que la fusta original perquè part del carboni s'ha combinat amb l'oxigen de l'aire per formar CO₂ que s'escapa — però si comptessis també el CO₂ i l'aigua evaporada, la suma seria els mateixos 10 grams més l'oxigen consumit.",
+              "feedbackWrong": "La conservació de la massa és una llei fonamental. En un sistema tancat, la massa total abans i després d'una reacció és sempre la mateixa. Els àtoms es reorganitzen però no desapareixen ni apareixen de nou."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-s-05-02",
+              "style": "detect-error",
+              "statement": "En la combustió de la fusta, la matèria desapareix i es converteix en energia, per això les cendres pesen menys que la fusta original.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha dos errors. Primer, la matèria no desapareix — els àtoms de carboni i hidrogen de la fusta es combinen amb l'oxigen de l'aire i formen CO₂ i vapor d'aigua que s'escapen. Segon, l'energia alliberada prové dels enllaços químics que es trenquen i se'n formen de nous, no de la 'conversió' de matèria. La diferència de massa entre la fusta i les cendres s'explica completament pels gasos que escapen — si els reculls tots, la massa es conserva."
+            }
+          ]
+        },
+        {
+          "id": "chem-s-06",
+          "title": "Àcids, bases i pH",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El vinagre és àcid, el lleixiu és bàsic, la sang és neutra. El pH apareix als xampús, a les piscines, als anàlisis de sang. És un dels conceptes de química que més sovint apareix en la vida quotidiana — i dels menys entesos."
+            },
+            {
+              "type": "key-idea",
+              "text": "El pH mesura la concentració d'ions d'hidrogen (H⁺) en una solució. Va de 0 a 14: valors inferiors a 7 indiquen acidesa, 7 és neutre i valors superiors a 7 indiquen basicitat (o alcalinitat). L'escala és logarítmica — un pH de 5 és 10 vegades més àcid que un pH de 6, i 100 vegades més àcid que un pH de 7."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué l'escala és logarítmica i qué implica",
+              "content": "La concentració d'ions H⁺ varia en ordres de magnitud enormes entre substàncies quotidianes — de l'àcid clorhídric concentrat a la llejivada. Usar una escala lineal seria impràctic: hauries d'escriure números com 0,0000001 mol/L. Sørensen va proposar el 1909 usar el logaritme negatiu d'aquesta concentració — el que avui és el pH. Implicació pràctica: la sang humana ha de mantenir-se entre pH 7,35 i 7,45. Una variació d'una unitat de pH significa que la concentració d'H⁺ s'ha multiplicat per 10. Fora d'aquest rang estret, les proteïnes del cos es desnaturalitzen i els enzims deixen de funcionar — cosa que pot ser mortal en hores."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-s-06-01",
+              "style": "multiple-choice",
+              "question": "El suc de llimó té un pH d'aproximadament 2 i el cafè té un pH d'aproximadament 5. Quantes vegades és més àcid el suc de llimó?",
+              "options": [
+                "3 vegades més àcid",
+                "10 vegades més àcid",
+                "100 vegades més àcid",
+                "1.000 vegades més àcid"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Correcte. Com que l'escala és logarítmica, cada unitat de pH representa un factor de 10. Entre pH 2 i pH 5 hi ha 3 unitats — per tant 10³ = 1.000 vegades. El suc de llimó té 1.000 vegades més concentració d'ions H⁺ que el cafè. Això explica per qué petites variacions de pH en sistemes biològics (com la sang) poden tenir efectes enormes.",
+              "feedbackWrong": "L'escala de pH és logarítmica, no lineal. Cada unitat de diferència representa un factor de 10. Entre pH 2 i pH 5 hi ha 3 unitats de diferència — per tant 10 × 10 × 10 = 1.000 vegades. No és una diferència de 3 vegades sinó de mil vegades."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-chem-s-06-01",
+              "question": "Molts productes de cosmètica i alimentació anuncien que 'respecten el pH de la pell' (pH 5,5) o que són 'alcalins'. Creus que aquests arguments de màrqueting estan ben fonamentats científicament?",
+              "options": [
+                "Sí — el pH és un factor real i important per a la salut de la pell",
+                "No — el pH és un concepte tècnic usat com a màrqueting sense base real",
+                "Depèn: el pH de la pell és real i rellevant, però moltes afirmacions exageren o tergiversen la ciència"
+              ],
+              "correct": 2,
+              "explanation": "La pell té efectivament un pH lleugerament àcid (5,5) que ajuda a mantenir la barrera protectora i la microbiota cutània. Un sabó molt alcalí pot alterar temporalment aquest pH. Fins aquí la ciència. El problema és quan el màrqueting extrapola: no tot el que 'respecta el pH' és millor que alternatives, i 'alcalí' s'usa sovint sense rigor (l'aigua alcalina, per exemple, no canvia el pH de la sang ni tindria sentit que ho fes). Reconèixer quan un concepte científic real s'usa de forma exagerada o tergiversada és una habilitat de pensament crític essencial."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phenomena",
+      "title": "Per qué passa això?",
+      "icon": "🔍",
+      "description": "Els mateixos conceptes vistos des dels fenòmens quotidians cap a l'explicació molecular",
+      "style": "Fenomenològic · del visible a l'invisible",
+      "lessons": [
+        {
+          "id": "chem-p-01",
+          "title": "Per qué el ferro s'oxida i l'or no",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El ferro d'un cotxe abandonat es converteix en rovell en pocs anys. L'or d'una corona egípcia de 3.000 anys continua brillant. Tots dos són metalls. Per qué un es degrada i l'altre no?"
+            },
+            {
+              "type": "key-idea",
+              "text": "L'oxidació és una reacció química on un element perd electrons — habitualment cedint-los a l'oxigen. El ferro s'oxida fàcilment perquè els seus electrons exteriors es cedeixen amb facilitat a l'oxigen de l'aire en presència d'humitat. L'or té una configuració electrònica que el fa extremadament poc reactiu — els seus electrons estan molt ben lligats i no es cedeixen fàcilment."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el rovell és dolent i l'òxid d'alumini no",
+              "content": "Quan el ferro s'oxida, forma òxid de ferro (Fe₂O₃) — el rovell — que és porós i s'esquerda. Això exposa nova superfície de ferro a l'oxigen, i el procés continua fins que tot el ferro s'ha oxidat. En canvi, quan l'alumini s'oxida, forma una capa d'òxid d'alumini (Al₂O₃) fina, dura i adherent que protegeix el metall de sota. Per això l'alumini 'no es rovella' malgrat oxidar-se contínuament. Les llaunes de beguda, les finestres d'alumini i els avions aprofiten aquesta propietat. L'anoditzat que veiem en molts productes d'alumini és simplement un procés per engruixir i endurir artificialment aquesta capa protectora d'òxid."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-p-01-01",
+              "style": "multiple-choice",
+              "question": "Per qué la presència d'humitat accelera l'oxidació del ferro?",
+              "options": [
+                "Perquè l'aigua reacciona directament amb el ferro per formar rovell",
+                "Perquè l'aigua actua com a medi conductor que facilita la transferència d'electrons entre el ferro i l'oxigen",
+                "Perquè l'humitat augmenta la temperatura del ferro",
+                "Perquè l'oxigen és més soluble en aigua que en aire sec"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'oxidació del ferro és en realitat un procés electroquímic — transferència d'electrons. L'aigua actua com a electròlit, un medi que permet que els electrons viatgin entre zones anòdiques (on el ferro s'oxida) i catòdiques (on l'oxigen es redueix). Sense humitat, el procés és molt lent. Per això els cotxes s'oxiden molt més ràpidament en climes humits o costaners (on l'aigua salada és encara millor electròlit).",
+              "feedbackWrong": "L'aigua no reacciona directament amb el ferro per formar rovell — actua com a intermediari electroquímic. La transferència d'electrons entre ferro i oxigen necessita un medi conductor, i l'aigua (especialment si conté ions com la sal) ho facilita enormement. Sense humitat, el ferro s'oxida molt lentament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-p-01-02",
+              "style": "true-false",
+              "question": "L'alumini no s'oxida, per això s'usa en avions i llaunes.",
+              "correct": false,
+              "feedbackCorrect": "Fals. L'alumini s'oxida constantment i molt ràpidament — de fet, és més reactiu que el ferro. La diferència és que l'òxid d'alumini forma una capa protectora fina i adherent que impedeix que l'oxidació continuï. El ferro s'usa malgrat oxidar-se perquè el seu òxid és porós i no protegeix. L'alumini s'usa precisament perquè el seu òxid sí que protegeix.",
+              "feedbackWrong": "L'alumini s'oxida — i molt ràpidament. La diferència clau és el tipus d'òxid que forma. L'òxid d'alumini és una capa protectora; l'òxid de ferro (rovell) és porós i deixa passar més oxigen. El comportament macroscòpic oposat (un 'es rovella', l'altre no) sorgeix de la diferència microscòpica en les propietats de l'òxid format."
+            }
+          ]
+        },
+        {
+          "id": "chem-p-02",
+          "title": "Per qué el sabó neteja",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El sabó existeix des de fa 5.000 anys. Els romans el fabricaven amb greix animal i cendres. Durant mil·lennis, la gent sabia que funcionava però no per qué. La resposta és una de les més elegants de la química."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les molècules de sabó tenen dues parts amb propietats oposades: una cua llarga que repel·l l'aigua (hidrofòbica) i un cap que l'atrau (hidrofílic). Quan el sabó entra en contacte amb greix i aigua, les cues s'introdueixen al greix i els caps s'orienten cap a l'aigua. El resultat és una micela — una esfera on el greix queda atrapat a l'interior i l'exterior és compatible amb l'aigua. Quan aclareixes, l'aigua s'emporta les miceles amb el greix dins."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué l'aigua sola no neteja el greix",
+              "content": "L'aigua i el greix no es barregen perquè les molècules d'aigua s'atrauen fortament entre elles (per ponts d'hidrogen) i exclouen les molècules de greix, que no poden formar aquests ponts. Aquesta propietat s'anomena tensió superficial — l'aigua 'prefereix' estar junta abans que dissoldre el greix. El sabó resol el problema perquè la seva cua hidrofòbica és compatible amb el greix i el seu cap hidrofílic és compatible amb l'aigua. Actua com a pont molecular entre dos mons incompatibles. Els detergents moderns funcionen amb el mateix principi però amb molècules sintètiques dissenyades per ser més efectives a temperatures baixes o en aigua dura."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-p-02-01",
+              "style": "multiple-choice",
+              "question": "Per qué el sabó perd eficàcia en 'aigua dura' (amb molts minerals dissolts)?",
+              "options": [
+                "Perquè els minerals augmenten la temperatura de l'aigua",
+                "Perquè els ions de calci i magnesi reaccionen amb el sabó i formen sals insolubles",
+                "Perquè l'aigua dura és més densa i el sabó no pot circular bé",
+                "Perquè els minerals absorbeixen la brutícia abans que el sabó"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Els ions Ca²⁺ i Mg²⁺ de l'aigua dura reaccionen amb les molècules de sabó i formen sals insolubles — la 'escuma de calç' que queda als lavabos i banyeres. Aquestes sals precipiten i el sabó perd la seva estructura de micela. Per això els detergents moderns inclouen agents seqüestrants que capturen els ions de calci i magnesi i els impedeixen reaccionar amb el detergent.",
+              "feedbackWrong": "El problema és químic, no físic. Els ions de calci i magnesi dissolts reaccionen amb les molècules de sabó, precipitant sals insolubles. El resultat és aquell residual blanquinós als lavabos i la reducció de l'eficàcia netejadora del sabó."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-chem-p-02-01",
+              "question": "Sabent que el sabó forma miceles que atrapen el greix, per qué creus que rentar-se les mans durant 20 segons és més eficaç que fer-ho durant 5 segons?",
+              "options": [
+                "Perquè el sabó necessita temps per activar-se químicament",
+                "Perquè el fregament mecànic i el temps permeten que es formin més miceles i que atrapin més microorganismes",
+                "Perquè 20 segons és el temps mínim per matar bacteris per contacte químic"
+              ],
+              "correct": 1,
+              "explanation": "El sabó no 'mata' els bacteris directament — els atrapa en miceles i els elimina per arrossegament mecànic. El fregament físic durant suficient temps permet que les molècules de sabó formin miceles al voltant dels microorganismes i dels greixos de la pell on s'adhereixen. Un rentat curt no dona prou temps ni prou agitació mecànica per formar i dissoldre totes les miceles necessàries. El protocol de 20 segons no és arbitrari — és el temps empíricament comprovat per reduir significativament la càrrega microbiana de les mans."
+            }
+          ]
+        },
+        {
+          "id": "chem-p-03",
+          "title": "Per qué el gel flota",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Posa un glaçó en un got d'aigua. Flota. Sembla obvi. Però és un dels fenòmens físics més excepcionals i importants de la natura — i si no fos així, la vida tal com la coneixem no existiria."
+            },
+            {
+              "type": "key-idea",
+              "text": "Gairebé tots els materials sòlids són més densos que els seus equivalents líquids — i s'enfonsen. L'aigua és una excepció: el gel és menys dens que l'aigua líquida. Quan l'aigua es congela, les molècules s'organitzen en una xarxa cristal·lina hexagonal que ocupa més espai que en estat líquid — per això el gel és menys dens i flota."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué és tan important que el gel floti",
+              "content": "Si el gel s'enfonsés, els llacs i oceans es conglaçarien des del fons cap amunt. Sense una capa de gel flotant que aïllés la superfície, els cossos d'aigua es conglaçarien completament en hiverns freds — i els organismes aquàtics no podrien sobreviure. La capa de gel que flota actua com a aïllant tèrmic que manté l'aigua líquida per sota, on la vida pot continuar. A més, l'expansió de l'aigua en congelar-se és el que trenca les canonades en hivern, el que erosiona les roques per criofractura, i el que va ajudar a modelar molts paisatges durant les glaciacions. Una propietat aparentment trivial d'una molècula petita té conseqüències enormes a escala planetària."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-p-03-01",
+              "style": "multiple-choice",
+              "question": "Per qué les molècules d'aigua formen una xarxa hexagonal en congelar-se, ocupant més espai que en estat líquid?",
+              "options": [
+                "Perquè en refredar-se les molècules es fan més grans",
+                "Perquè els ponts d'hidrogen obliguen les molècules a mantenir distàncies i angles fixos en la xarxa cristal·lina",
+                "Perquè l'oxigen s'expandeix a baixa temperatura",
+                "Perquè el fred augmenta la repulsió entre molècules"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. En estat líquid, les molècules d'aigua formen i trenquen ponts d'hidrogen contínuament i poden estar relativament juntes. En congelar-se, els ponts d'hidrogen es fixen en una geometria hexagonal rígida que manté les molècules a distàncies i angles específics — resultant en una estructura més oberta i menys densa que el líquid. És l'especificitat dels ponts d'hidrogen la que crea aquesta anomalia.",
+              "feedbackWrong": "Les molècules no canvien de mida. La clau és la rigidesa dels ponts d'hidrogen. En el gel, cada molècula d'aigua forma 4 ponts d'hidrogen en una geometria tetràedrica fixa. Aquesta estructura cristal·lina és més espaiada que el desordre del líquid — per això el gel ocupa més volum i flota."
+            }
+          ]
+        },
+        {
+          "id": "chem-p-04",
+          "title": "Per qué el foc crema",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El foc fascina els humans des de fa 400.000 anys. Durant la major part d'aquest temps, ningú sabia exactament qué era. Fins al segle XVIII es creia que era un element — com l'aire, l'aigua o la terra. La veritat és alhora més prosaica i més fascinant."
+            },
+            {
+              "type": "key-idea",
+              "text": "El foc no és una substància sinó un procés — una reacció química exotèrmica de combustió on un combustible reacciona amb l'oxigen alliberant energia en forma de calor i llum. El que veiem com a flama és el gas calent incandescent produït per la reacció. Per cremar, calen tres elements simultàniament: combustible, oxigen i temperatura suficient (triangle del foc)."
+            },
+            {
+              "type": "expandable",
+              "label": "La teoria del flogist i per qué era errònia",
+              "content": "Al segle XVII i XVIII, la teoria del flogist explicava la combustió com l'alliberament d'una substància hipotètica — el flogist — continguda en tots els materials combustibles. Quan un material cremava, alliberava el seu flogist a l'aire. El problema: els metalls pesen més després de calcinar-se, no menys. Si haguessin perdut flogist, haurien de pesar menys. Els defensors van proposar que el flogist tenia 'massa negativa'. Lavoisier va ser qui va demostrar definitivament que la combustió és una reacció amb l'oxigen, pesant cuidadosament les substàncies en sistemes tancats. El flogist era una teoria consistent internament però incorrecta — i resistia la refutació afegint hipòtesis ad hoc (massa negativa). Un exemple perfecte de pseudociència que semblava ciència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-p-04-01",
+              "style": "multiple-choice",
+              "question": "Per qué apagar una espelma bufant funciona?",
+              "options": [
+                "Perquè el CO₂ de l'alè elimina l'oxigen al voltant de la flama",
+                "Perquè el buf refreda els gasos per sota de la temperatura d'ignició",
+                "Perquè el buf elimina el combustible gasós que alimenta la flama",
+                "Perquè la humitat de l'alè apaga la flama"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. Quan bufes, el flux d'aire refreda ràpidament els gasos calents de la flama per sota de la temperatura d'ignició de la cera. Sense temperatura suficient, la reacció de combustió no pot mantenir-se malgrat haver-hi combustible i oxigen. El buf no elimina l'oxigen (n'afegeix) ni el combustible (la cera segueix evaporant-se). L'acció mecànica de refredar és el mecanisme real.",
+              "feedbackWrong": "El buf en realitat aporta més oxigen a la flama. El que fa és refredar bruscament els gasos calents per sota de la temperatura d'ignició. Sense temperatura suficient (el tercer vèrtex del triangle del foc), la reacció s'atura malgrat la presència de combustible i oxigen."
+            }
+          ]
+        },
+        {
+          "id": "chem-p-05",
+          "title": "Per qué els medicaments funcionen",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Prens una pastilla i el mal de cap desapareix. Una altra pastilla mata una infecció bacteriana. Com pot un compost químic saber on ha d'anar i qué ha de fer dins del cos?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Els medicaments funcionen per complementarietat molecular — s'uneixen específicament a proteïnes (receptors, enzims) gràcies a la seva forma tridimensional i distribució de càrregues. És com una clau i un pany: la molècula del medicament encaixa en un lloc específic d'una proteïna i modifica la seva activitat. La selectivitat (que actuï on ha d'actuar i no en altres llocs) depèn de com de ben dissenyada estigui la 'clau'."
+            },
+            {
+              "type": "expandable",
+              "label": "L'aspirina i el descobriment accidental de com funciona",
+              "content": "L'àcid acetilsalicílic (aspirina) s'usa des del 1899, però el seu mecanisme d'acció no es va descobrir fins al 1971 — 72 anys després. John Vane va descobrir que l'aspirina inhibeix un enzim (la ciclooxigenasa, COX) que produeix prostaglandines, les molècules responsables de la inflamació i el dolor. Vane va guanyar el Nobel el 1982. L'anècdota il·lustra quelcom important: molts medicaments es van descobrir per observació empírica o accident, i dècades després es va entendre per qué funcionaven. La salicina de l'escorça del salze era usada com a analgèsic des de l'antiguitat egípcia. La humanitat va usar medicaments durant segles sense entendre'n la química — i avui el disseny de fàrmacs es fa a l'inrevés: primer s'entén el mecanisme molecular, després es dissenya la molècula."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-p-05-01",
+              "style": "multiple-choice",
+              "question": "Els antibiòtics maten bacteris però no cèl·lules humanes. Per qué?",
+              "options": [
+                "Perquè els antibiòtics detecten la diferència entre cèl·lules sanes i malaltes",
+                "Perquè els bacteris i les cèl·lules humanes tenen estructures i proteïnes prou diferents per permetre selectivitat",
+                "Perquè els antibiòtics s'eliminen immediatament en contacte amb cèl·lules humanes",
+                "Perquè el sistema immunitari protegeix les cèl·lules humanes dels antibiòtics"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Els antibiòtics aprofiten diferències estructurals entre bacteris i cèl·lules humanes. Per exemple, molts antibiòtics inhibeixen la síntesi de la paret cel·lular bacteriana — que les cèl·lules humanes no tenen. Altres bloquegen ribosomes bacterians que són prou diferents dels humans per permetre selectivitat. Quan un antibiòtic no és prou selectiu, apareixen els efectes secundaris — dany a cèl·lules humanes o a la microbiota intestinal.",
+              "feedbackWrong": "La selectivitat prové de les diferències estructurals entre bacteris i cèl·lules humanes. Els bacteris procariotes (sense nucli) tenen estructures absents en les cèl·lules eucariotes humanes — com la paret cel·lular de peptidoglicà. Els antibiòtics apunten a aquestes diferències per matar bacteris sense (idealment) danyar les nostres cèl·lules."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-chem-p-05-01",
+              "question": "Sabent que els medicaments funcionen per complementarietat molecular, qué creus que implica la resistència bacteriana als antibiòtics?",
+              "options": [
+                "Els bacteris aprenen a evitar els antibiòtics per adaptació conscient",
+                "Mutacions aleatòries canvien les proteïnes diana dels bacteris, fent que l'antibiòtic ja no encaixi bé",
+                "Els antibiòtics perden potència química amb el temps d'ús"
+              ],
+              "correct": 1,
+              "explanation": "La resistència és evolució per selecció natural, no adaptació conscient. Mutacions aleatòries en bacteris poden canviar lleugerament la forma del lloc d'unió de l'antibiòtic — si el canvi fa que l'antibiòtic ja no 'encaixi', aquell bacteri sobreviu i es reprodueix. La seva descendència hereta la resistència. L'ús excessiu d'antibiòtics accelera aquest procés: elimina els sensibles i dona avantatge als resistents. La comprensió molecular de com funcionen els antibiòtics és exactament el que permet dissenyar nous fàrmacs que superin les resistències."
+            }
+          ]
+        },
+        {
+          "id": "chem-p-06",
+          "title": "Per qué els plàstics no es degraden",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Una ampolla de plàstic pot trigar 450 anys a degradar-se. La matèria orgànica natural es descompon en setmanes o mesos. Qué fa que el plàstic sigui tan persistent — i és possible crear plàstics que no ho siguin?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Els plàstics són polímers — cadenes llargues de molècules (monòmers) unides per enllaços covalents forts. Aquestes cadenes llargues no existeixen a la natura en aquesta forma, i els microorganismes no han evolucionat els enzims necessaris per trencar-les eficientment. A més, molts plàstics contenen additius que els fan encara més resistents a la degradació química i biològica."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la natura no degrada el plàstic — i quan comença a fer-ho",
+              "content": "La biodegradació requereix organismes amb els enzims adequats per trencar els enllaços químics específics d'un material. La cel·lulosa (fusta, paper) i les proteïnes (carn) es degraden ràpidament perquè bacteris i fongs han evolucionat durant milions d'anys per aprofitar-les com a font d'energia. El polietilè (la majoria de bosses de plàstic) existeix des de fa menys de 100 anys — no hi ha hagut temps evolutiu per a que apareguin organismes especialitzats. Però ja s'han descobert alguns: el 2016 es va identificar Ideonella sakaiensis, un bacteri que pot digerir PET (el plàstic de les ampolles d'aigua) usant dos enzims específics. El 2018 es va millorar accidentalment un d'aquests enzims en el laboratori, i ara es treballa en versions industrialment útils. La solució al plàstic pot venir de la biologia molecular."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-chem-p-06-01",
+              "style": "multiple-choice",
+              "question": "Els plàstics 'biodegradables' que veiem al supermercat es degraden realment igual que la matèria orgànica?",
+              "options": [
+                "Sí — estan dissenyats per degradar-se completament en pocs mesos a qualsevol condició",
+                "Depèn: alguns necessiten condicions específiques (temperatura, humitat, microorganismes) que no existeixen en un abocador ordinari",
+                "No — cap plàstic és realment biodegradable, és tot màrqueting"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. La majoria de plàstics etiquetats com a 'biodegradables' o 'compostables' necessiten condicions específiques — temperatures altes, humitat controlada, microorganismes específics — que sovint només existeixen en instal·lacions industrials de compostatge. En un abocador ordinari o a l'oceà, es degraden molt lentament o es fragmenten en microplàstics. L'etiqueta 'biodegradable' sense especificar les condicions és, sovint, màrqueting verd.",
+              "feedbackWrong": "La realitat dels plàstics 'biodegradables' és més complexa. Molts es degraden adequadament només en condicions específiques (compostatdors industrials a alta temperatura). En condicions normals — abocadors, natura — es comporten de forma similar als plàstics convencionals, o es fragmenten en microplàstics. Cal llegir les especificacions."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-chem-p-06-01",
+              "question": "Sabent que els plàstics es resistents perquè no existien a la natura fins fa poc, quin enfocament creus que és més prometedor per solucionar el problema de la contaminació plàstica?",
+              "options": [
+                "Dissenyar plàstics nous amb estructures moleculars que els microorganismes puguin degradar",
+                "Accelerar l'evolució de microorganismes que degradin els plàstics existents",
+                "Substituir tots els plàstics per materials naturals com el vidre, el paper o el metall"
+              ],
+              "correct": 0,
+              "explanation": "Les tres opcions s'exploren activament, però el disseny de nous plàstics biodegradables té l'avantatge de ser proactiu — prevenir el problema en lloc de remediar-lo. La bioenginyeria d'enzims degradadors (com la PETasa millorada) és prometedora però lenta i cara d'escalar. La substitució total per materials naturals té un cost energètic i ambiental propi — el vidre i el metall requereixen molta energia per produir-se. La solució real serà probablement una combinació: plàstics de nova generació dissenyats per ser biodegradables en condicions reals, combinats amb millors sistemes de recollida i reciclatge."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
