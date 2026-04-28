@@ -150,3 +150,79 @@
   color: var(--color-text-dim);
   font-size: var(--text-lg);
 }
+
+/* Progrés per itinerari */
+.progressWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.progressMeta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--color-text-dim);
+}
+
+.percentTag {
+  background: rgba(76, 125, 255, 0.1);
+  color: var(--color-accent);
+  border: 1px solid rgba(76, 125, 255, 0.2);
+  border-radius: var(--radius-full);
+  padding: 1px var(--space-2);
+  font-family: var(--font-display);
+  font-size: 10px;
+}
+
+.progressTrack {
+  width: 100%;
+  height: 4px;
+  background: var(--color-surface-2);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-accent), #6a95ff);
+  border-radius: var(--radius-full);
+  transition: width 0.5s ease;
+}
+
+.progressDone {
+  background: linear-gradient(90deg, var(--color-success), #5ef0a0);
+}
+
+/* Progrés global del mòdul */
+.globalProgress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  width: 100%;
+  max-width: 280px;
+}
+
+.globalProgressBar {
+  width: 100%;
+  height: 4px;
+  background: var(--color-surface-2);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.globalProgressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-success));
+  border-radius: var(--radius-full);
+  transition: width 0.6s ease;
+}
+
+.globalProgressLabel {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+}
