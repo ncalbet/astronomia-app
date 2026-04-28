@@ -11,7 +11,9 @@ const MODULE_META = {
   'module-02-history':    { title: 'Història de l\'Astronomia',    emoji: '🏛️' },
   'module-03-peace':      { title: 'Pau, Conflicte i Guerra',      emoji: '🕊️' },
   'module-04-philosophy': { title: 'Filosofia de la Ciència',      emoji: '🔬' },
-  'module-05-birding':    { title: 'Introducció a l\'Ornitologia', emoji: '🐦' }
+  'module-05-birding':    { title: 'Introducció a l\'Ornitologia', emoji: '🐦' },
+  'module-06-chemistry':  { title: 'Química Fonamental',          emoji: '⚗️' },
+  'module-07-particles':   { title: 'Física de Partícules',         emoji: '⚛️' }
 }
 
 // XP estimat per mòdul (per restar en repetir)
@@ -20,7 +22,9 @@ const MODULE_XP = {
   'module-02-history':    384,
   'module-03-peace':      244,
   'module-04-philosophy': 268,
-  'module-05-birding':    238
+  'module-05-birding':    238,
+  'module-06-chemistry':  420,
+  'module-07-particles':   380
 }
 
 function ModuleCard({ id, onSelect, onRepeat, loadingId, completedModules,

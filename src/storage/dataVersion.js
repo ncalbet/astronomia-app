@@ -13,7 +13,7 @@
 
 import storage from './storageProvider'
 
-export const DATA_VERSION = 2  // ← incrementa aquí quan canviïs DEFAULT_STATE
+export const DATA_VERSION = 4  // v4: afegit module-07-particles  // ← incrementa aquí quan canviïs DEFAULT_STATE
 
 const VERSION_KEY = 'data_version'
 

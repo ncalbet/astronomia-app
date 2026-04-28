@@ -1,0 +1,650 @@
+{
+  "id": "module-07-particles",
+  "title": "Física de Partícules",
+  "emoji": "⚛️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "inside",
+      "title": "Qui hi ha aquí dins?",
+      "icon": "🔬",
+      "description": "L'estructura de la matèria des dels àtoms fins als blocs més fonamentals de l'univers",
+      "style": "Divulgatiu · del familiar a l'inimaginable",
+      "lessons": [
+        {
+          "id": "part-01",
+          "title": "Dins de l'àtom: el nucli i els seus secrets",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "A la química vam aprendre que l'àtom és la unitat mínima d'un element. Però l'àtom no és indivisible — dins hi ha un nucli, i dins el nucli hi ha més coses. La física de partícules és el viatge cap a l'interior d'aquest interior."
+            },
+            {
+              "type": "key-idea",
+              "text": "El nucli de l'àtom conté protons i neutrons, mantinguts junts per la força nuclear forta — la força més intensa de la natura. Però protons i neutrons tampoc són indivisibles: estan formats per partícules més petites anomenades quarks. La física de partícules estudia aquests constituents fonamentals i les forces que actuen entre ells."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el nucli no explota sol",
+              "content": "El nucli conté protons que tenen càrrega positiva. Càrregues iguals es repel·leixen — i a distàncies tan curtes, la repulsió electromagnètica és enorme. Per qué el nucli no es desfà instantàniament? Perquè la força nuclear forta, que actua entre quarks i per tant entre protons i neutrons, és aproximadament 100 vegades més intensa que la força electromagnètica a distàncies molt curtes. Però té un rang d'acció minúscul — només funciona a distàncies de l'ordre del femtometre (10⁻¹⁵ metres). Per això els nuclis molt grans (com l'urani) són inestables: els protons dels extrems oposats ja no se 'senten' prou per la força forta però sí per la repulsió electromagnètica."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1897",
+                  "title": "Thomson descobreix l'electró",
+                  "text": "Primera partícula subatòmica identificada. L'àtom no és indivisible."
+                },
+                {
+                  "year": "1911",
+                  "title": "Rutherford descobreix el nucli",
+                  "text": "Bombardeja làmines d'or amb partícules alfa. La majoria passen, però algunes reboten — hi ha un nucli dens al centre."
+                },
+                {
+                  "year": "1932",
+                  "title": "Chadwick descobreix el neutró",
+                  "text": "El nucli conté protons i una partícula sense càrrega: el neutró."
+                },
+                {
+                  "year": "1964",
+                  "title": "Gell-Mann proposa els quarks",
+                  "text": "Protons i neutrons no són fonamentals — estan formats per quarks."
+                },
+                {
+                  "year": "1968",
+                  "title": "Prova experimental dels quarks",
+                  "text": "Experiments al SLAC (Stanford) confirmen que hi ha estructura dins del protó."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-part-01-01",
+              "style": "multiple-choice",
+              "question": "Rutherford va bombardejar una làmina d'or molt prima amb partícules alfa. La majoria passaven rectes, però unes poques rebotaven. Qué va concloure?",
+              "options": [
+                "Que l'àtom era una esfera sòlida i uniforme",
+                "Que l'àtom tenia un nucli petit i dens al centre, amb molt d'espai buit al voltant",
+                "Que les partícules alfa eren massa grans per travessar l'or",
+                "Que l'or era un material especialment dens"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Si l'àtom fos sòlid i uniforme, totes les partícules rebotarien igual. El fet que la majoria passessin sense desviar-se indica que l'àtom és majoritàriament espai buit. El fet que algunes rebotessin violentament indica que hi ha una concentració de massa i càrrega en un punt petit: el nucli. Rutherford va dir que era com disparar canonades contra paper de seda i que de tant en tant la canonada rebotera.",
+              "feedbackWrong": "La clau és el patró: la majoria passen (espai buit) però algunes reboten (nucli dens). Si l'àtom fos sòlid, cap passaria. Si fos buit, cap rebotaria. La combinació dels dos resultats revela una estructura: molt d'espai buit amb un nucli petit i dens al centre."
+            }
+          ]
+        },
+        {
+          "id": "part-02",
+          "title": "Els quarks: els blocs fonamentals",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si els àtoms estan formats per protons, neutrons i electrons, i els protons i neutrons estan formats per quarks, la pregunta és inevitable: els quarks estan formats per alguna cosa més? Fins on arriba la capa de nines russes?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Els quarks i els electrons semblen ser partícules veritablement fonamentals — sense estructura interna detectable amb cap instrument actual. Hi ha sis tipus de quarks (up, down, strange, charm, bottom, top) i els protons i neutrons estan formats per combinacions de quarks up i down. Un protó = 2 quarks up + 1 quark down. Un neutró = 1 quark up + 2 quarks down."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué no podem veure un quark sol",
+              "content": "Els quarks mai s'observen aïllats — sempre apareixen en grups de dos o tres. Quan intentes separar dos quarks, la força entre ells augmenta com si estiguessin units per una goma elàstica. Si li poses prou energia, la 'goma' es trenca — però en lloc d'alliberar un quark lliure, l'energia es converteix en un nou parell de quarks. És com intentar aïllar un pol d'un imant tallant-lo: sempre obtens dos imants nous amb els dos pols. Aquesta propietat s'anomena confinament de quarks i és una de les conseqüències més curioses de la força nuclear forta."
+            },
+            {
+              "type": "expandable",
+              "label": "L'anècdota del nom 'quark'",
+              "content": "Murray Gell-Mann, que va proposar l'existència dels quarks el 1964, va triar el nom d'un vers absurd de la novel·la 'Finnegans Wake' de James Joyce: 'Three quarks for Muster Mark!' — on 'quark' semblava un so sense significat. Gell-Mann havia pensat el nom abans de trobar el vers, i quan el va llegir li va semblar perfecte: una paraula estranya per a una cosa estranya. El seu col·lega George Zweig va proposar el mateix concepte simultàniament i els va anomenar 'aces' — però el nom de Gell-Mann va guanyar. La física de partícules té una llarga tradició de noms extravagants: quarks 'charm', 'strange', 'top', 'bottom'... noms que reflecteixen la sorpresa dels físics davant les propietats que descobrien."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-part-02-01",
+              "style": "multiple-choice",
+              "question": "Un protó té càrrega elèctrica positiva (+1). Sabent que un protó = 2 quarks up + 1 quark down, i que la càrrega ha de sumar +1, quines han de ser les càrregues dels quarks?",
+              "options": [
+                "Quark up = +1, quark down = -1",
+                "Quark up = +2/3, quark down = -1/3",
+                "Quark up = +1/2, quark down = -1/2",
+                "Quark up = +1/3, quark down = +1/3"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. 2 × (+2/3) + 1 × (-1/3) = 4/3 - 1/3 = 3/3 = +1. Els quarks tenen càrregues fraccionàries — quelcom que mai s'havia observat abans i que inicialment va fer que molts físics dubtesin de la teoria. Verificació pel neutró: 1 × (+2/3) + 2 × (-1/3) = 2/3 - 2/3 = 0. El neutró és elèctricament neutre, com ha de ser.",
+              "feedbackWrong": "Prova de calcular: si el protó té càrrega +1 i és 2 quarks up + 1 quark down, les càrregues han de sumar +1. Amb càrregues fraccionàries +2/3 per al quark up i -1/3 per al quark down: 2×(+2/3) + 1×(-1/3) = +4/3 - 1/3 = +1. Les càrregues fraccionàries dels quarks van ser una de les prediccions més audaces de la teoria."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-part-02-02",
+              "style": "true-false",
+              "question": "Si tenim prou energia, podem separar un quark d'un protó i observar-lo sol en un detector.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El confinament de quarks impedeix que mai s'observi un quark aïllat. Quan es posa energia per separar quarks, l'energia es converteix en nous parells de quarks — mai en un quark lliure. Tots els experiments al LHC i altres acceleradors confirmen el confinament: mai s'ha detectat un quark individual. Curiosament, a temperatures i densitats extremament altes (com en els primers instants del Big Bang) els quarks podrien existir lliures — un estat anomenat plasma de quarks i gluons.",
+              "feedbackWrong": "El confinament de quarks és una propietat fonamental: els quarks no es poden aïllar. Posar-hi energia per separar-los no allibera quarks individuals sinó que crea nous parells de quarks. Tots els intents experimentals ho confirmen: mai s'ha observat un quark sol."
+            }
+          ]
+        },
+        {
+          "id": "part-03",
+          "title": "El Model Estàndard: el mapa de tot",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La física de partícules ha identificat tots els constituents fonamentals de la matèria i les forces que actuen entre ells. El resultat és el Model Estàndard — una de les teories més precises i ben verificades de tota la ciència. I alhora, una teoria que tothom sap que és incompleta."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Model Estàndard classifica totes les partícules fonamentals conegudes en dos grups: fermions (els constituents de la matèria: quarks i lèptons, com l'electró i el neutrí) i bosons (els portadors de les forces: el fotó per a la força electromagnètica, els bosons W i Z per a la força feble, i el gluó per a la força forta). El bosó de Higgs és un cas especial — no porta cap força sinó que dona massa a les altres partícules."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el Model Estàndard és extraordinàriament precís",
+              "content": "El moment magnètic de l'electró — una propietat de com l'electró interacciona amb camps magnètics — s'ha mesurat experimentalment amb una precisió de 12 decimals: 1,00115965218059. El Model Estàndard prediu 1,00115965218128. La diferència és de menys d'una part en un bilió. Per fer-se una idea de la precisió: és com mesurar la distància entre Barcelona i Nova York amb un error inferior a l'amplada d'un cabell humà. Cap altra teoria científica en cap àmbit ha assolit mai una precisió comparable. I malgrat això, sabem que el Model Estàndard és incomplet."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-part-03-01",
+              "style": "multiple-choice",
+              "question": "En el Model Estàndard, qué és un bosó?",
+              "options": [
+                "Una partícula que forma la matèria, com els quarks",
+                "Una partícula portadora d'una força fonamental",
+                "Una partícula amb massa molt gran",
+                "Una partícula formada per tres quarks"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. Els bosons són les partícules que 'transmeten' les forces. El fotó transmet la força electromagnètica — quan dos electrons es repel·leixen, intercanvien fotons virtuals. Els gluons transmeten la força forta entre quarks. Els bosons W i Z transmeten la força feble. Aquesta visió de les forces com a intercanvi de partícules és un dels conceptes més revolucionaris de la física moderna.",
+              "feedbackWrong": "Els bosons no formen la matèria — la transmeten. Són les partícules portadores de les forces fonamentals. La distinció entre fermions (matèria) i bosons (forces) és una de les classifications fonamentals del Model Estàndard."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-part-03-01",
+              "question": "El Model Estàndard és extraordinàriament precís però sabem que és incomplet (no inclou la gravetat, no explica la matèria fosca). Cal substituir-lo per una teoria nova o cal ampliar-lo?",
+              "options": [
+                "Substituir-lo — una teoria incompleta no és vàlida i cal una teoria totalment nova",
+                "Ampliar-lo — és massa precís per ser incorrecte; probablement és una aproximació d'una teoria més completa",
+                "Mantenir-lo tal qual — si funciona, no cal canviar-lo"
+              ],
+              "correct": 1,
+              "explanation": "La física de partícules ha après la lliçó de Newton: una teoria pot ser extraordinàriament precisa dins del seu domini i alhora ser una aproximació d'una teoria més completa. La mecànica newtoniana no era 'falsa' — era correcta dins del seu rang de validesa. El Model Estàndard és probablement el mateix: una aproximació excel·lent d'una teoria més fonamental que inclogui la gravetat i expliqui la matèria fosca. Els físics busquen aquesta teoria — teoria de supercordes, gravetat quàntica de llaços — però sense èxit experimental fins ara."
+            }
+          ]
+        },
+        {
+          "id": "part-04",
+          "title": "L'antimatèria: el mirall de la matèria",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan Paul Dirac va combinar la mecànica quàntica amb la relativitat especial el 1928, les seves equacions tenien dues solucions. Una descriva l'electró. L'altra descriva quelcom mai vist: una partícula idèntica a l'electró però amb càrrega positiva. Dirac va trigar anys a acceptar el que les seves equacions li deien."
+            },
+            {
+              "type": "key-idea",
+              "text": "Cada partícula de matèria té una antipartícula corresponent amb la mateixa massa però càrregues oposades. L'antipartícula de l'electró és el positró (+). L'antipartícula del protó és l'antiprotó (-). Quan matèria i antimatèria es troben, s'aniquilen mútuament i es converteixen completament en energia (fotons). És la conversió matèria-energia més completa possible."
+            },
+            {
+              "type": "expandable",
+              "label": "Anderson i el descobriment accidental del positró",
+              "content": "El 1932, Carl Anderson estudiava rajos còsmics amb una cambra de boira (un detector que visualitza partícules). Va observar una traça idèntica a la de l'electró però que es corbia en la direcció equivocada en un camp magnètic. Inicialment va pensar que era un electró movent-se en la direcció contrària. Però l'anàlisi detallada mostrava que havia de ser una partícula nova: el positró, l'antielectró predit per Dirac. Anderson va guanyar el Nobel el 1936, als 31 anys. No buscava antimatèria — la va trobar perquè observava amb cura i no descartava els resultats inesperats. Dirac va rebre el Nobel el 1933 per la predicció teòrica — un any abans que Anderson trobés la prova experimental."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué existim: el problema de l'antimatèria",
+              "content": "El Big Bang hauria d'haver creat quantitats iguals de matèria i antimatèria. Si fos així, tot s'hauria aniquilat i l'univers seria pur buit d'energia — cap àtom, cap estrella, cap galàxia, cap nosaltres. Però existim, per tant hi ha d'haver hagut una lleugera asimetria: per cada 10.000 milions de partícules d'antimatèria, hi hauria 10.000 milions i 1 de matèria. Després de l'aniquilació, aquell 'u' de matèria de més va sobreviure i va formar tot el que veiem. L'origen d'aquesta asimetria — anomenada violació CP — és un dels misteris oberts més importants de la física. Literalment no sabem per qué existim."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-part-04-01",
+              "style": "multiple-choice",
+              "question": "Un electró i un positró es troben. Qué passa?",
+              "options": [
+                "Es combinen per formar un àtom d'hidrogen",
+                "Es repel·leixen perquè tenen masses iguals",
+                "S'aniquilen i produeixen dos fotons d'alta energia",
+                "El positró absorbeix l'electró i desapareix"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. L'aniquilació matèria-antimatèria converteix tota la massa en energia via E=mc². Dos fotons (rajos gamma) surten en direccions oposades per conservar el moment lineal. Aquesta reacció és la base de la tomografia per emissió de positrons (PET scan) — els positrons emesos per un isòtop radioactiu s'aniquilen amb electrons del teixit i els dos fotons resultants permeten reconstruir una imatge tridimensional.",
+              "feedbackWrong": "Quan matèria i antimatèria es troben, s'aniquilen mútuament. Tota la massa dels dos es converteix completament en energia (fotons). És la conversió més eficient possible — molt superior a la fusió nuclear, que només converteix una fracció de la massa en energia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-part-04-02",
+              "style": "true-false",
+              "question": "L'antimatèria és una idea teòrica — mai s'ha produït ni observat experimentalment.",
+              "correct": false,
+              "feedbackCorrect": "Fals. L'antimatèria s'observa i es produeix regularment. El positró es va descobrir el 1932 en rajos còsmics. El CERN produeix i estudia antimatèria contínuament — l'experiment ALPHA ha creat i mantingut àtoms d'antihidrogen durant minuts. La PET scan mèdica usa positrons. La producció massiva d'antimatèria és extrem mament costosa energèticament (per això no és una 'font d'energia'), però la seva existència és un fet experimental ben establert.",
+              "feedbackWrong": "L'antimatèria és real i experimental. Va ser observada per primera vegada el 1932 (positró). Avui el CERN la produeix i estudia en experiments dedicats. La PET scan mèdica funciona gràcies als positrons. El que és difícil és produir-la en grans quantitats — però no és una abstracció teòrica."
+            }
+          ]
+        },
+        {
+          "id": "part-05",
+          "title": "El bosó de Higgs: per qué les coses pesen",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 4 de juliol de 2012, dos experiments independents al CERN van anunciar simultàniament el descobriment d'una partícula nova. Peter Higgs, que l'havia predit 48 anys abans, plorava a la sala. Era el descobriment científic experimental més important del segle XXI fins aquell moment."
+            },
+            {
+              "type": "key-idea",
+              "text": "El camp de Higgs és un camp que permea tot l'univers. Les partícules fonamentals que interaccionen amb aquest camp adquireixen massa — com si es movissin en un medi viscós. Les que no hi interaccionen (com el fotó) no tenen massa i viatgen a la velocitat de la llum. El bosó de Higgs és l'excitació d'aquest camp — la 'partícula' que en certifica l'existència."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué va trigar 48 anys trobar-lo",
+              "content": "Peter Higgs va publicar la seva proposta el 1964. Per confirmar-la experimentalment, calia crear bosons de Higgs en un col·lisionador de partícules — i el bosó de Higgs és molt massiu (125 vegades la massa del protó) i es desintegra gairebé instantàniament en altres partícules. Calia un accelerador prou potent. El LHC (Large Hadron Collider) al CERN, amb 27 quilòmetres de circumferència sota la frontera franco-suïssa, va trigar dècades en planificar-se, construir-se i posar-se en marxa. El cost total: uns 6.000 milions de francs suïssos. Quan finalment el bosó va aparèixer en les dades, ho va fer com una petita protuberància estadística en un gràfic — res espectacular visualment, però d'una importància extraordinària. Higgs i Englert van rebre el Nobel el 2013, l'any després del descobriment."
+            },
+            {
+              "type": "quote",
+              "text": "És increïble pensar que alguna cosa que vaig escriure el 1964 en una tarda pugui ser verificada 50 anys després per un instrument d'aquesta magnitud.",
+              "author": "Peter Higgs, 2012"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-part-05-01",
+              "style": "multiple-choice",
+              "question": "Sense el camp de Higgs, qué passaria amb les partícules fonamentals?",
+              "options": [
+                "Totes tindrien la mateixa massa",
+                "No tindrien massa i viatjarien a la velocitat de la llum",
+                "Desapareixerien immediatament",
+                "Es convertirien en antimatèria"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. Sense el camp de Higgs, les partícules que ara tenen massa (electrons, quarks) no en tindrien i viatjarien a la velocitat de la llum. Els àtoms no podrien formar-se — electrons que viatgen a la velocitat de la llum no poden quedar lligats a un nucli. Cap estructura estable seria possible: cap molècula, cap estrella, cap planeta. El camp de Higgs és literalment el que permet que la matèria tingui estructura.",
+              "feedbackWrong": "Sense massa, les partícules viatjarien a la velocitat de la llum — com fan els fotons, que no interaccionen amb el camp de Higgs. Sense massa, no hi hauria àtoms estables, ni molècules, ni matèria estructurada. El camp de Higgs és la condició que fa possible l'existència de tot el que coneixem."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-part-05-02",
+              "style": "detect-error",
+              "statement": "El bosó de Higgs és la partícula que crea la gravetat i fa que els objectes caiguin quan els soltes.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha dos errors. Primer, el bosó de Higgs no crea la gravetat — dona massa a les partícules, però la gravetat és una força diferent (no inclosa al Model Estàndard). Segon, la gravetat depèn de la massa però no és el mateix fenomen que la massa. El camp de Higgs explica per qué les partícules tenen massa; la gravetat és la curvatura de l'espai-temps causada per aquesta massa (teoria de la relativitat general d'Einstein). Són dos fenòmens relacionats però conceptualment diferents."
+            }
+          ]
+        },
+        {
+          "id": "part-06",
+          "title": "Sabem molt sobre el 5% de l'univers",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hem parlat d'àtoms, quarks, bosons, antimatèria i el camp de Higgs. Tot aquest coneixement extraordinari — les teories més precises de la història de la ciència — descriu únicament el 5% del contingut de l'univers. El 95% restant és desconegut."
+            },
+            {
+              "type": "key-idea",
+              "text": "La composició de l'univers observable és aproximadament: 5% matèria ordinària (tot el que coneixem: àtoms, partícules, llum), 27% matèria fosca (no emet llum, però té gravetat — detectada pels seus efectes però mai directament), i 68% energia fosca (causa l'acceleració de l'expansió de l'univers — no sabem gairebé res d'ella). El Model Estàndard, amb tota la seva precisió, descriu exclusivament aquell 5%."
+            },
+            {
+              "type": "expandable",
+              "label": "Com sabem que el 95% existeix si no el podem veure?",
+              "content": "La matèria fosca es detecta per efectes gravitacionals: les galàxies giren massa ràpid per la matèria visible que contenen — hi ha d'haver més massa invisible que les manté juntes. Les lents gravitacionals (la llum que es doblega al passar per camps gravitatoris) mostren massa en llocs on no hi ha res visible. Simulacions de formació de galàxies sense matèria fosca no reprodueixen l'univers que observem. L'energia fosca es va postular el 1998 quan es va descobrir que l'expansió de l'univers s'accelera en lloc de frenar — alguna cosa ha d'estar empenyent les galàxies cap enfora. Sabem que existeixen per eliminació i efectes indirectes — com Pauli va postular el neutrí abans de detectar-lo directament."
+            },
+            {
+              "type": "expandable",
+              "label": "El que hem aconseguit amb el 5% que coneixem",
+              "content": "Amb el coneixement d'aquell 5% hem: enviat persones a la Lluna i sondes a fora del sistema solar, creat internet i tots els dispositius digitals (basats en física quàntica de semiconductors), fet tomografies i ressonàncies magnètiques que salven milions de vides, descobert l'estructura de l'ADN i editat gens, generat energia nuclear (fusió i fissió), construït làsers, GPS, i tot el que fa funcionar el món modern. La física de partícules ha produït tecnologies que han transformat la civilització — i tot això amb una comprensió d'un vintè del total. Imagina el que podria passar si entenguessis el 95% restant."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-part-06-01",
+              "style": "multiple-choice",
+              "question": "Quina és la proporció aproximada de matèria ordinària (àtoms i partícules que coneixem) en el contingut total de l'univers?",
+              "options": [
+                "Aproximadament el 50% — la meitat és coneguda",
+                "Aproximadament el 27% — gairebé un terç",
+                "Aproximadament el 5% — una vintena part",
+                "Aproximadament el 0,1% — una part minúscula"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. Tot el que podem observar directament — estrelles, planetes, gas, pols, fotons, neutrins — representa al voltant del 5% del contingut total de l'univers. El 27% és matèria fosca i el 68% és energia fosca. Tota la física que coneixem, tota la química, tota la biologia, totes les tecnologies — descrivim aquell 5%. No és motiu de desànim sinó d'astorement: hem après tantíssim sobre tan poc.",
+              "feedbackWrong": "La matèria ordinària — tot el que és fet d'àtoms, tot el que podem observar directament — és aproximadament el 5% del contingut de l'univers. El 95% restant és matèria fosca (27%) i energia fosca (68%), de les quals sabem molt poc. És una de les revelacions més humiliants i fascinants de la cosmologia moderna."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-part-06-02",
+              "style": "true-false",
+              "question": "El fet que no entenguem el 95% de l'univers invalida el coneixement científic que tenim sobre el 5% restant.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El coneixement científic no funciona per tot o res. Conèixer bé una part no queda invalidat per desconèixer la resta. La mecànica newtoniana segueix sent vàlida per calcular òrbites de satèl·lits malgrat que la relativitat general la supera en casos extrems. El Model Estàndard segueix sent extraordinàriament precís per al 5% que descriu. La ignorància del 95% és un repte obert, no una refutació del 5% conegut.",
+              "feedbackWrong": "El coneixement científic és modular i progressiu. Que no entenguem el 95% no fa menys vàlid el que sabem del 5% — el coneixem amb una precisió extraordinària. La ignorància d'una part no invalida el coneixement d'una altra. És com dir que no entendre la física de forats negres invalida la química del cotidià."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-part-06-01",
+              "question": "Hem aconseguit transformar la civilització humana amb coneixement del 5% de l'univers. Creus que entendre el 95% restant (matèria i energia fosca) canviaria el món de forma comparable o superior?",
+              "options": [
+                "Superior — el 95% és molt més gran; entendre-ho canviaria tot radicalment",
+                "Comparable — cada gran descobriment ha tingut impactes similars en la història",
+                "Impossible de saber — no podem predir les aplicacions d'un coneixement que no tenim"
+              ],
+              "correct": 2,
+              "explanation": "La tercera opció és la més honesta epistemològicament. Quan Maxwell va descriure les equacions de l'electromagnetisme al segle XIX, ningú preveia internet, la ràdio o els telèfons mòbils. Quan Einstein va publicar la relativitat especial, ningú imaginava el GPS ni les centrals nuclears. La història de la ciència mostra que les aplicacions del coneixement fonamental són impossibles de predir. Podria ser que entendre la matèria fosca no tingui aplicació tecnològica directa, o podria obrir una nova era tecnològica que ara ni imaginem. La incertesa és part honesta de la resposta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forces",
+      "title": "Quines forces ho mantenen tot junt?",
+      "icon": "🌌",
+      "description": "Les quatre forces fonamentals de la natura i com actuen — des de l'interior del nucli fins a l'escala de l'univers",
+      "style": "Divulgatiu · de lo més petit a lo més gran",
+      "lessons": [
+        {
+          "id": "force-01",
+          "title": "Per qué hi ha forces?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Agafes una pedra i la soltes. Cau. Acostes dues piles i s'atrauen. Encens una espelma i crema. Tot això són manifestacions de forces. Però per qué hi ha forces? I per qué n'hi ha exactament quatre de fonamentals?"
+            },
+            {
+              "type": "key-idea",
+              "text": "La física moderna entén les forces no com a 'empentes invisibles' sinó com a intercanvis de partícules. Quan dos electrons es repel·leixen, no és que hi hagi una força màgica entre ells — és que intercanvien fotons virtuals. Les forces fonamentals de la natura són quatre: gravitatòria, electromagnètica, nuclear forta i nuclear feble. Cadascuna té una partícula portadora (bosó) i actua en un rang diferent."
+            },
+            {
+              "type": "expandable",
+              "label": "Què és un fotó virtual i com transmet la força",
+              "content": "Un fotó 'real' és el que veiem com a llum. Un fotó 'virtual' és diferent: és una fluctuació quàntica que existeix durant un temps brevíssim (permès pel principi d'incertesa de Heisenberg) i transmet la força electromagnètica entre partícules amb càrrega. No viola la conservació d'energia perquè existeix massa poc temps per ser detectat directament. Aquesta imatge d'intercanvi de partícules virtuals és el cor de la teoria quàntica de camps — la descripció més fonamental de les forces que tenim."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-force-01-01",
+              "style": "multiple-choice",
+              "question": "Quantes forces fonamentals coneixem a la natura?",
+              "options": [
+                "Dues: gravetat i electromagnetisme",
+                "Tres: gravetat, electromagnetisme i força nuclear",
+                "Quatre: gravitatòria, electromagnètica, nuclear forta i nuclear feble",
+                "Cinc: les quatre conegudes més l'energia fosca"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. Quatre forces fonamentals, cadascuna amb el seu bosó portador i el seu rang d'acció. La gravitatòria (gravitó, hipotètic) actua a distàncies infinites però és la més feble. L'electromagnètica (fotó) també actua a distàncies infinites. La forta (gluons) només dins del nucli. La feble (bosons W i Z) és la responsable de la radioactivitat beta.",
+              "feedbackWrong": "Quatre forces fonamentals: gravitatòria, electromagnètica, nuclear forta i nuclear feble. L'energia fosca no és una força fonamental en el sentit del Model Estàndard — és una propietat de l'espai-temps o un camp desconegut. La força nuclear 'feble' i 'forta' es van identificar al segle XX quan es va estudiar el nucli atòmic."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-force-01-02",
+              "style": "multiple-choice",
+              "question": "Quin és el bosó portador de la força electromagnètica?",
+              "options": [
+                "El gluó",
+                "El bosó W",
+                "El fotó",
+                "El gravitó"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "El fotó. La llum visible, els rajos X, les ones de ràdio i la força que manté els electrons lligats al nucli són totes manifestacions de la mateixa força electromagnètica, transmesa per fotons. Quan encens una llum, emets fotons reals. Quan dos electrons es repel·leixen, intercanvien fotons virtuals. Dues cares de la mateixa moneda.",
+              "feedbackWrong": "El bosó portador de la força electromagnètica és el fotó. El gluó porta la força forta. Els bosons W i Z porten la força feble. El gravitó és la partícula hipotètica portadora de la gravetat — mai detectada directament."
+            }
+          ]
+        },
+        {
+          "id": "force-02",
+          "title": "La força electromagnètica: la força del dia a dia",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La gravetat manté els planetes en òrbita i els fa caure els objectes. Però gairebé tot el que experimentes directament en la vida quotidiana — la llum, el calor, la química, l'electricitat, el fet que les cadires siguin sòlides — és força electromagnètica."
+            },
+            {
+              "type": "key-idea",
+              "text": "La força electromagnètica actua entre partícules amb càrrega elèctrica. És milions de bilions de bilions de vegades més forta que la gravetat a escala subatòmica. La raó per la qual no ho notem macroscòpicament és que la matèria ordinària és elèctricament neutra — té les mateixes càrregues positives i negatives i es cancel·len. Però a escala atòmica és dominant."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la cadira és sòlida si l'àtom és quasi buit",
+              "content": "Si els àtoms són quasi espai buit, per qué no travesses la cadira quan t'hi asseus? La resposta és la força electromagnètica. Quan els electrons exteriors dels teus àtoms s'acosten als electrons exteriors dels àtoms de la cadira, les seves càrregues negatives es repel·leixen violentament. No hi ha contacte real — hi ha repulsió electromagnètica que es manifesta com a 'solidesa'. Literalment mai toques res: el que sents com a tacte és la força de repulsió entre electrons. La solidesa és una il·lusió electromagnètica."
+            },
+            {
+              "type": "expandable",
+              "label": "La unificació electromagnètica de Maxwell",
+              "content": "Fins al segle XIX, l'electricitat i el magnetisme semblaven forces completament separades. El 1865, James Clerk Maxwell va publicar les seves famoses equacions i va demostrar que eren dues manifestacions de la mateixa força — l'electromagnetisme. De passada, va descobrir que la llum era una ona electromagnètica. Va ser la primera gran unificació de forces de la física moderna. Einstein va unificar l'electricitat i el magnetisme en el context de la relativitat especial — una càrrega elèctrica en moviment crea un camp magnètic, i un camp magnètic és simplement electricitat vista des d'un altre sistema de referència. La recerca de la unificació de les quatre forces és el gran projecte pendent de la física teòrica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-force-02-01",
+              "style": "detect-error",
+              "statement": "La gravetat és molt més forta que la força electromagnètica, per això és la força dominant en la nostra experiència quotidiana.",
+              "isCorrect": false,
+              "feedbackExplanation": "És exactament al revés. La força electromagnètica és aproximadament 10³⁶ vegades més forta que la gravetat a escala subatòmica — un u seguit de 36 zeros. La gravetat sembla dominant en la nostra experiència perquè actua entre totes les masses sense cancel·lar-se, i la Terra és enormement massiva. La força electromagnètica és intrínsecament molt més forta, però en la matèria macroscòpica les càrregues positives i negatives s'equilibren i la força neta és quasi zero."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-force-02-01",
+              "question": "Maxwell va unificar electricitat i magnetisme demostrant que eren la mateixa força. Els físics busquen unificar les quatre forces en una sola. Creus que és possible que totes les forces siguin manifestacions d'una sola força fonamental?",
+              "options": [
+                "Sí — la simetria de la natura suggereix que ha d'haver-hi una unitat fonamental",
+                "No — les quatre forces són tan diferents que és improbable que tinguin un origen comú",
+                "Possible però imprevisible — la història de la ciència mostra que les unificacions sempre han sorprès"
+              ],
+              "correct": 2,
+              "explanation": "La tercera opció és la més epistemològicament honesta. Ningú esperava que electricitat i magnetisme fossin la mateixa cosa fins que Maxwell ho va demostrar. Ningú esperava que la força feble i l'electromagnètica s'unifiquessin — i ho van fer (teoria electrodèbil, Nobel 1979). La unificació de la força forta amb l'electrodèbil (Gran Teoria Unificada) és plausible però sense confirmació experimental. Incloure la gravetat és el repte màxim — fins ara sense èxit. La història suggereix que la unificació és possible, però la forma que prendrà és impredictible."
+            }
+          ]
+        },
+        {
+          "id": "force-03",
+          "title": "La força nuclear forta: el que manté el nucli unit",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El nucli atòmic conté protons amb càrrega positiva comprimits en un espai minúscul. Per la força electromagnètica, haurien d'explotar instantàniament. No ho fan. Per qué? Perquè hi ha una força ancora més intensa que els manté junts: la força nuclear forta."
+            },
+            {
+              "type": "key-idea",
+              "text": "La força nuclear forta és la força més intensa de la natura — aproximadament 100 vegades més forta que la electromagnètica a distàncies curtes. Actua entre quarks a través dels gluons, i per extensió manté units els protons i neutrons al nucli. Però el seu rang d'acció és extremadament curt: uns 10⁻¹⁵ metres (un femtometre). Fora d'aquest rang, desapareix completament."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la força forta genera energia nuclear",
+              "content": "Quan protons i neutrons s'uneixen per formar un nucli, alliberen energia — l'energia d'enllaç nuclear. Per separar-los cal posar-hi energia. Quan un nucli pesat (com l'urani) es trenca en dos (fissió), els fragments resultants estan més fortament lligats que l'original — i la diferència d'energia s'allibera. Quan dos nuclis lleugers (com l'hidrogen) es fusionen per formar un de més gran (fusió), passa el mateix. Les centrals nuclears usen la fissió. El Sol i les estrelles funcionen per fusió. En tots dos casos, és la força nuclear forta la que defineix quanta energia queda lliure. La famosa equació E=mc² de Einstein descriu la relació entre la massa que 'desapareix' i l'energia que s'allibera."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-force-03-01",
+              "style": "multiple-choice",
+              "question": "Per qué els nuclis molt grans (com el d'urani amb 92 protons) són inestables i radioactius?",
+              "options": [
+                "Perquè tenen massa electrons que desestabilitzen el nucli",
+                "Perquè la força forta té rang curt i no pot mantenir units protons que estan massa lluny entre si",
+                "Perquè els neutrons extra fan el nucli massa pesant",
+                "Perquè l'urani és un element artificial que no existeix a la natura"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La força forta actua efectivament entre protons i neutrons veïns immediats — el seu rang és de l'ordre d'un femtometre. En nuclis grans, els protons dels extrems oposats no es 'senten' per la força forta però sí es repel·leixen per la força electromagnètica, que actua a qualsevol distància. Quan la repulsió electromagnètica supera la cohesió de la força forta, el nucli és inestable i es desintegra. L'urani existeix a la natura però és inestable i decau radioactivament.",
+              "feedbackWrong": "La clau és el rang d'acció. La força forta manté units els protons veïns, però en nuclis molt grans els protons allunyats ja no es 'noten' per la força forta (rang curt) mentre que sí es repel·leixen electromagnèticament (rang infinit). Quan la repulsió guanya, el nucli és radioactiu."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-force-03-02",
+              "style": "true-false",
+              "question": "El Sol genera energia per fissió nuclear — trencant àtoms pesants com l'urani.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El Sol funciona per fusió nuclear — unint àtoms lleugers. Al nucli solar, les temperatures i pressions extremes forcen nuclis d'hidrogen a fusionar-se i formar heli, alliberant energia. La fissió (trencar àtoms pesants) és el principi de les centrals nuclears i les bombes atòmiques. La fusió (unir àtoms lleugers) és el principi de les estrelles i les bombes d'hidrogen. La fusió allibera molta més energia per gram de combustible i no genera residus radioactius de llarga durada — per això la fusió controlada és el 'sant grial' de l'energia del futur.",
+              "feedbackWrong": "El Sol usa fusió, no fissió. Fusiona hidrogen per formar heli. La fissió trenca àtoms pesants (urani, plutoni) i és el que fan les centrals nuclears actuals. La fusió és el que fan les estrelles — i la humanitat porta dècades intentant replicar-la en reactors de fusió controlada."
+            }
+          ]
+        },
+        {
+          "id": "force-04",
+          "title": "La força nuclear feble i la radioactivitat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La força nuclear feble és la menys intuïtiva de les quatre. No manté res unit — al contrari, és responsable de la desintegració de partícules. Sense ella, el Sol no brillaria, no hi hauria carboni al cos, i la Terra no tindria calor interna."
+            },
+            {
+              "type": "key-idea",
+              "text": "La força feble és responsable d'un tipus de radioactivitat (desintegració beta) on un neutró es transforma en un protó, un electró i un antineutrí. És l'única força capaç de canviar el tipus de quark — transformar un quark down en un quark up. Els seus bosons portadors (W⁺, W⁻ i Z⁰) són molt massius, cosa que explica el seu rang d'acció extremadament curt i la seva 'feblesa' aparent."
+            },
+            {
+              "type": "expandable",
+              "label": "Pauli i el neutrí: postular l'indetectable per salvar una llei",
+              "content": "El 1930, els físics estudiaven la desintegració beta i observaven que l'energia no es conservava — els electrons emesos tenien menys energia de la que hauria d'haver. Wolfgang Pauli va fer una aposta audaç: en lloc d'acceptar que la conservació d'energia es violava, va postular que hi havia una partícula nova, invisible i sense càrrega, que s'emportava l'energia que faltava. Va escriure en una carta: 'He fet una cosa terrible. He postulat una partícula que no es pot detectar mai.' La va anomenar 'neutrina' (Fermi la va rebatejar neutrí). Vint-i-sis anys després, el 1956, Reines i Cowan van detectar neutrins per primera vegada en un experiment al costat d'un reactor nuclear. Pauli va rebre el telegrama de la confirmació i va plorar. Va guanyar el Nobel el 1945 — per una altra descoberta, no pel neutrí, que tardaria 11 anys més a confirmar-se."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-force-04-01",
+              "style": "multiple-choice",
+              "question": "La desintegració beta transforma un neutró en un protó. A nivell de quarks, qué passa exactament?",
+              "options": [
+                "Un quark up es converteix en un quark down via la força feble",
+                "Un quark down es converteix en un quark up via la força feble",
+                "L'electró abandona el nucli per la força electromagnètica",
+                "La força forta trenca el neutró en les seves parts"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. El neutró té 1 quark up i 2 quarks down. El protó té 2 quarks up i 1 quark down. La desintegració beta transforma un quark down en un quark up via la força feble (un bosó W⁻). El resultat és un protó (1 quark down canviat a up), un electró i un antineutrí electrònic. La força feble és l'única força que pot canviar la 'sabor' d'un quark.",
+              "feedbackWrong": "Recorda la composició: neutró = 1 up + 2 down; protó = 2 up + 1 down. Per passar de neutró a protó, cal canviar un quark down per un quark up. Això ho fa la força feble via un bosó W⁻. La força forta mai canvia el tipus de quark — només els manté units."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-force-04-02",
+              "style": "true-false",
+              "question": "La radioactivitat és un fenomen artificial creat per humans en reactors nuclears i no existia a la natura abans del segle XX.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La radioactivitat és un fenomen completament natural. L'urani, el radi, el tori i molts altres elements han estat radioactius des de la formació de la Terra fa 4.500 milions d'anys. La calor interna de la Terra (que manté el nucli fos i permet la tectònica de plaques) prové en gran part de la desintegració radioactiva natural d'elements pesants. El carboni-14, usat per datar materials arqueològics, es produeix contínuament a l'atmosfera per rajos còsmics. Becquerel va descobrir la radioactivitat el 1896 estudiant minerals naturals d'urani.",
+              "feedbackWrong": "La radioactivitat és totalment natural. La Terra és radioactiva des del seu origen. Becquerel la va descobrir el 1896 en minerals naturals. El calor intern de la Terra, la datació per carboni-14, i molts processos geològics i bioquímics impliquen radioactivitat natural. Els humans han après a controlar-la i ampliar-la, però no l'han inventada."
+            }
+          ]
+        },
+        {
+          "id": "force-05",
+          "title": "La gravetat: la força que no encaixa",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La gravetat és la força que tothom coneix i la primera que la humanitat va intentar descriure matemàticament. I paradoxalment, és la força que menys entenem a nivell fonamental — la que no s'ha pogut integrar al Model Estàndard."
+            },
+            {
+              "type": "key-idea",
+              "text": "La gravetat, descrita per la relativitat general d'Einstein, no és una força en el sentit tradicional — és la curvatura de l'espai-temps causada per la massa i l'energia. Els objectes no 'cauen' cap a la Terra perquè una força els empeny: segueixen el camí més recte possible en un espai-temps corbat per la massa de la Terra. Malgrat ser la força dominant a gran escala (governa planetes, estrelles i galàxies), és 10³⁶ vegades més feble que l'electromagnètica a escala subatòmica."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la gravetat no encaixa al Model Estàndard",
+              "content": "El Model Estàndard és una teoria quàntica de camps — descriu forces com a intercanvi de partícules en un espai-temps pla. La gravetat, tal com la descriu Einstein, és la geometria de l'espai-temps mateix. Intentar quantitzar la gravetat (crear una teoria quàntica de la gravetat) produeix infinits matemàtics que no es poden eliminar — el que els físics anomenen una teoria no renormalitzable. La partícula hipotètica portadora de la gravetat és el gravitó, mai detectat. Unir la mecànica quàntica i la relativitat general en una teoria coherent és el problema central de la física teòrica. Les teories de supercordes i la gravetat quàntica de llaços són els intents principals, però cap ha produït prediccions testables confirmades."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-force-05-01",
+              "style": "multiple-choice",
+              "question": "Segons la relativitat general, per qué la Lluna orbita la Terra?",
+              "options": [
+                "Perquè la Terra emet gravitons que atrauen la Lluna",
+                "Perquè la Lluna segueix el camí més recte possible en un espai-temps corbat per la massa de la Terra",
+                "Perquè la força gravitatòria entre les dues masses les manté unides com una corda invisible",
+                "Perquè la velocitat de la Lluna equilibra exactament la força d'atracció terrestre"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. En la relativitat general, la gravetat no és una força sinó la geometria de l'espai-temps. La massa de la Terra corba l'espai-temps al seu voltant, i la Lluna segueix la trajectòria més recta possible (una geodèsica) en aquest espai corbat — que resulta ser una òrbita el·líptica. La imatge newtoniana de la 'força' d'atracció és una molt bona aproximació per a velocitats baixes i camps gravitatoris febles, però no és la descripció fonamental.",
+              "feedbackWrong": "La relativitat general descriu la gravetat com a curvatura de l'espai-temps, no com a força d'atracció. La Lluna no és 'atreta' per la Terra — segueix el camí més recte possible en un espai-temps que la massa de la Terra ha corbat. El resultat orbital és el mateix que prediria Newton, però la descripció fonamental és molt diferent."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-force-05-01",
+              "question": "La gravetat no s'ha pogut integrar al Model Estàndard malgrat dècades d'intents. Qué implica això?",
+              "options": [
+                "Que el Model Estàndard és incorrecte i cal descartar-lo",
+                "Que la relativitat general és incorrecta i cal substituir-la",
+                "Que tenim dues teories excel·lents cadascuna en el seu domini, però que la teoria unificada que les inclogui no s'ha trobat encara"
+              ],
+              "correct": 2,
+              "explanation": "Cap de les dues teories és 'incorrecta' en el seu domini de validesa. El Model Estàndard descriu les partícules i tres forces amb precisió extraordinària. La relativitat general descriu la gravetat i la cosmologia amb precisió extraordinària. El problema apareix quan intentes aplicar les dues simultàniament — en situacions de densitat i temperatura extremes com el Big Bang o l'interior dels forats negres. La cerca d'una teoria que unifiqui les dues és el repte més important de la física teòrica actual, però el fet de no haver-la trobat no invalida cap de les dues."
+            }
+          ]
+        },
+        {
+          "id": "force-06",
+          "title": "La gran unificació: el somni pendent",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Maxwell va unificar electricitat i magnetisme. Glashow, Salam i Weinberg van unificar l'electromagnetisme i la força feble en una sola teoria electrodèbil. El somni és anar més lluny: unificar totes les forces en una sola teoria fonamental. Portem dècades intentant-ho."
+            },
+            {
+              "type": "key-idea",
+              "text": "La idea que totes les forces poden ser manifestacions d'una sola força fonamental — que divergien en les condicions extremes del Big Bang — s'anomena Gran Unificació. La unificació electrodèbil és un fet experimental confirmat. La unificació amb la força forta (Gran Teoria Unificada o GUT) és plausible però sense confirmació. Incloure la gravetat (Teoria del Tot) és el repte màxim — sense solució fins ara."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1865",
+                  "title": "Maxwell unifica electricitat i magnetisme",
+                  "text": "Dues forces aparentment separades resulten ser la mateixa."
+                },
+                {
+                  "year": "1967-68",
+                  "title": "Unificació electrodèbil",
+                  "text": "Glashow, Salam i Weinberg demostren que electromagnetisme i força feble són la mateixa força a altes energies. Nobel 1979."
+                },
+                {
+                  "year": "1970s",
+                  "title": "Gran Teoria Unificada (GUT)",
+                  "text": "Propostes per unificar les tres forces no-gravitatòries. Prediu la desintegració del protó — no confirmada experimentalment."
+                },
+                {
+                  "year": "1984-2016",
+                  "title": "Teoria de cordes / Supercordes",
+                  "text": "Intents d'incloure la gravetat. Matemàticament elegant. Sense prediccions testables confirmades."
+                },
+                {
+                  "year": "Pendent",
+                  "title": "Teoria del Tot",
+                  "text": "La unificació de les quatre forces en una sola teoria. El gran repte obert de la física."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la teoria de cordes és tan controvertida",
+              "content": "La teoria de cordes proposa que les partícules fonamentals no són punts sinó cordes unidimensionals que vibren en 10 o 11 dimensions (la majoria de les quals estan 'compactificades' i no les percebem). Matemàticament és extraordinàriament elegant i inclou naturalment un gravitó. El problema: prediu un nombre astronòmic de possibles universos (el 'paisatge' de 10⁵⁰⁰ universos) i no ha produït cap predicció específica que no es pugui explicar d'una altra manera. Alguns físics la consideren la candidata més prometedora a una Teoria del Tot. Altres posen en dubte que sigui ciència en sentit estricte si no fa prediccions falsables úniques. El debat sobre la seva naturalesa científica és un exemple perfecte dels temes del mòdul de Filosofia de la Ciència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-force-06-01",
+              "style": "multiple-choice",
+              "question": "La unificació electrodèbil va predir l'existència dels bosons W i Z abans de detectar-los. Van ser trobats al CERN el 1983. Qué il·lustra aquest episodi?",
+              "options": [
+                "Que la física teòrica és sempre anterior a la física experimental",
+                "Que una teoria pot fer prediccions falsables concretes que la validen quan es confirmen",
+                "Que el CERN és necessari per a qualsevol descobriment en física",
+                "Que les unificacions de forces sempre funcionen si es busquen prou"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La teoria electrodèbil va predir no sols l'existència dels bosons W i Z sinó les seves masses aproximades i propietats. Quan es van trobar exactament on i com la teoria deia, va ser una confirmació extraordinària. Aquest és el patró ideal en ciència: una teoria fa prediccions concretes i específiques que podrien ser falses, i l'experiment les confirma. Glashow, Salam i Weinberg ja havien rebut el Nobel el 1979, quatre anys abans de la confirmació experimental.",
+              "feedbackWrong": "La clau és la falsabilitat i la confirmació. La teoria va fer prediccions concretes (masses i propietats dels bosons W i Z) que podrien haver resultat incorrectes. Quan l'experiment les va confirmar, la teoria va guanyar enorme credibilitat. Aquest és el procés ideal de validació científica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-force-06-02",
+              "style": "true-false",
+              "question": "Una Teoria del Tot que unifiqués les quatre forces fonamentals ho explicaria absolutament tot sobre la natura.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Una Teoria del Tot en el sentit de la física de partícules unificaria les quatre forces fonamentals i descriuria les partícules elementals. Però no 'ho explicaria tot': no diria res directament sobre la consciència, l'evolució biològica, l'economia, o la majoria de fenòmens complexos. Com deia el físic Philip Anderson: 'Més no és diferent.' Els fenòmens emergents a nivells d'organització superior (química, biologia, psicologia) segueixen les lleis de la física però no es redueixen trivialmente a elles. Una Teoria del Tot seria un triomf enorme però no l'última paraula sobre la realitat.",
+              "feedbackWrong": "Una Teoria del Tot unificaria les forces fonamentals — un assoliment enorme — però no explicaria directament fenòmens complexos emergents. La biologia, la consciència, la societat, són fenòmens que segueixen les lleis de la física però no es poden 'llegir' directament des d'elles. Com deia Anderson: 'Més no és diferent.' Cada nivell d'organització té les seves pròpies lleis emergents."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-force-06-01",
+              "question": "Portem dècades buscant la Teoria del Tot sense trobar-la. Creus que el problema és que no existeix, que no tenim prou matemàtiques, o que no hem fet els experiments adequats?",
+              "options": [
+                "No existeix — potser la natura no té una estructura unificada i les quatre forces són irreductiblement separades",
+                "Falta matemàtica — la teoria existeix però necessita eines matemàtiques que encara no hem inventat",
+                "Falten experiments — el LHC i instruments similars no arriben a les energies on es manifesta la unificació"
+              ],
+              "correct": 2,
+              "explanation": "Les tres hipòtesis es debaten activament entre físics. La tercera és la més operacionalment útil: la unificació de les forces, si existeix, es manifestaria a energies enormement superiors a les que podem assolir amb acceleradors actuals (energies de Planck, 10¹⁹ GeV, enfront dels 10⁴ GeV del LHC). La primera hipòtesi és filosòficament legítima però difícil de comprovar. La segona és plausible: Newton no hauria pogut formular la relativitat sense el càlcul que va inventar; potser ens falten eines matemàtiques equivalents. Cap físic pot respondre amb certesa — és un dels interrogants oberts més profunds de la ciència."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
