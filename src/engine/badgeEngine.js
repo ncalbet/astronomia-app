@@ -47,6 +47,13 @@ export const BADGES = {
     description: 'Has completat el mòdul de Copèrnic',
     emoji: '☀️',
     rarity: 'epic'
+  },
+  'constancia': {
+    id: 'constancia',
+    name: 'Constància',
+    description: 'Has fet sessió de repàs 7 dies seguits',
+    emoji: '🔥',
+    rarity: 'rare'
   }
 }
 
@@ -72,6 +79,10 @@ export function checkNewBadges(progress, event) {
 
   if (event.type === 'module_complete') {
     check('copernicus-complete', event.data.moduleId === 'module-01-copernicus')
+  }
+
+  if (event.type === 'sr_review_done') {
+    check('constancia', (progress.srStreak || 0) >= 7)
   }
 
   if (event.type === 'expand_box') {

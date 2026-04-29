@@ -4,6 +4,7 @@ import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
 import { calculateLevel } from '../engine/xpEngine'
 import { BADGES } from '../engine/badgeEngine'
+import { countDueToday } from '../engine/spacedRepetitionEngine'
 import styles from './Home.module.css'
 
 function BadgeDetail({ badgeId, onClose }) {
@@ -29,6 +30,8 @@ export default function Home() {
   const { xp, badges, navigationState } = useApp()
   const { theme } = useTheme()
   const [selectedBadge, setSelectedBadge] = useState(null)
+  const { srData } = useApp()
+  const dueCount = countDueToday(srData)
 
   const { level, xpInLevel, xpForNext, progress } = calculateLevel(xp)
   const levelTitle = theme.levelTitles[String(level)]
@@ -67,6 +70,15 @@ export default function Home() {
       </div>
 
       <div className={styles.actions}>
+        {dueCount > 0 && (
+          <button
+            className={`${styles.btn} ${styles.btnReview}`}
+            onClick={() => navigate('/review')}
+          >
+            🔁 Repàs diari
+            <span className={styles.reviewBadge}>{dueCount}</span>
+          </button>
+        )}
         {hasActiveSession && (
           <button className={`${styles.btn} ${styles.btnPrimary}`} onClick={() => navigate('/lesson')}>
             🚀 Continua la {theme.missionWord.toLowerCase()}

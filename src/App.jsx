@@ -9,6 +9,7 @@ import ModuleMap from './screens/ModuleMap'
 import ItinerarySelector from './screens/ItinerarySelector'
 import Lesson from './screens/Lesson'
 import Results from './screens/Results'
+import ReviewSession from './screens/ReviewSession'
 import './styles/global.css'
 
 function InnerApp() {
@@ -27,6 +28,7 @@ function InnerApp() {
         <Route path="/itinerary"  element={<PageTransition><ItinerarySelector /></PageTransition>} />
         <Route path="/lesson"     element={<PageTransition><Lesson /></PageTransition>} />
         <Route path="/results"    element={<PageTransition><Results /></PageTransition>} />
+        <Route path="/review"     element={<PageTransition><ReviewSession /></PageTransition>} />
         <Route path="*"           element={<Navigate to="/" replace />} />
       </Routes>
     </>

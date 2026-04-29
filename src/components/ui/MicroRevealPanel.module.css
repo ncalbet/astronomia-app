@@ -1,0 +1,91 @@
+.panel {
+  background: linear-gradient(135deg, rgba(245,166,35,0.1), rgba(245,166,35,0.04));
+  border: 1px solid rgba(245, 166, 35, 0.35);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4) var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  animation: fadeIn 0.35s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.header {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+}
+
+.icon { font-size: 1.1rem; flex-shrink: 0; padding-top: 2px; }
+
+.headerText { flex: 1; }
+
+.title {
+  font-size: var(--text-xs);
+  color: var(--color-warning);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.chosen {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.question {
+  font-size: var(--text-sm);
+  color: var(--color-text-dim);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.btns {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.btn {
+  flex: 1;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 1px solid;
+}
+
+.btnKeep {
+  background: rgba(76,125,255,0.08);
+  border-color: rgba(76,125,255,0.3);
+  color: var(--color-accent);
+}
+.btnKeep:hover { background: rgba(76,125,255,0.15); }
+
+.btnChange {
+  background: rgba(245,166,35,0.08);
+  border-color: rgba(245,166,35,0.3);
+  color: var(--color-warning);
+}
+.btnChange:hover { background: rgba(245,166,35,0.15); }
+
+/* Estat post-resposta */
+.responded {
+  font-size: var(--text-sm);
+  color: var(--color-text-dim);
+  font-style: italic;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface-2);
+  border-radius: var(--radius-md);
+  animation: fadeIn 0.3s ease;
+  border-left: 3px solid var(--color-warning);
+}

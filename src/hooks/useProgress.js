@@ -15,6 +15,9 @@ const DEFAULT_STATE = {
   completedItineraries: [],
   unlockedModules: ['module-01-copernicus','module-02-history','module-03-peace','module-04-philosophy','module-05-birding','module-06-chemistry','module-07-particles'],
   badges: [],
+  srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }
+  srStreak: 0,           // Dies consecutius de sessió de repàs
+  srLastReviewDate: null, // Data de l'última sessió (YYYY-MM-DD)
   navigationState: {
     currentModuleId: null,
     currentItineraryId: null,
@@ -34,6 +37,9 @@ function mergeWithDefaults(saved) {
     completedItineraries: saved.completedItineraries  || DEFAULT_STATE.completedItineraries,
     unlockedModules:      saved.unlockedModules        || DEFAULT_STATE.unlockedModules,
     badges:               saved.badges                 || DEFAULT_STATE.badges,
+    srData:               saved.srData                 || DEFAULT_STATE.srData,
+    srStreak:             saved.srStreak               ?? DEFAULT_STATE.srStreak,
+    srLastReviewDate:     saved.srLastReviewDate        || DEFAULT_STATE.srLastReviewDate,
     navigationState: {
       ...DEFAULT_STATE.navigationState,
       ...(saved.navigationState || {})
@@ -151,6 +157,25 @@ export function useProgress() {
     })
   }, [update])
 
+  const updateSrData = useCallback((blockId, newState) => {
+    update(prev => ({
+      ...prev,
+      srData: { ...prev.srData, [blockId]: newState }
+    }))
+  }, [update])
+
+  const updateSrStreak = useCallback(() => {
+    const today = new Date().toISOString().split('T')[0]
+    update(prev => {
+      if (prev.srLastReviewDate === today) return prev // ja fet avui
+      const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0]
+      const newStreak = prev.srLastReviewDate === yesterday
+        ? (prev.srStreak || 0) + 1
+        : 1
+      return { ...prev, srStreak: newStreak, srLastReviewDate: today }
+    })
+  }, [update])
+
   const resetAll = useCallback(() => {
     storage.clearAll()
     setState(DEFAULT_STATE)
@@ -160,6 +185,7 @@ export function useProgress() {
     ...state,
     addXP, completeLesson, completeModule, completeItinerary,
     unlockModule, earnBadge, setNavigationState,
-    isLessonCompleted, isItineraryCompleted, isModuleUnlocked, resetAll, repeatModule
+    isLessonCompleted, isItineraryCompleted, isModuleUnlocked, resetAll, repeatModule,
+    updateSrData, updateSrStreak
   }
 }

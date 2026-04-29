@@ -7,6 +7,7 @@ import { useState } from 'react'
 import { useTheme } from '../../context/ThemeContext'
 import ConfidenceSelector from './ConfidenceSelector'
 import { calculateAnswerXP } from '../../engine/xpEngine'
+import { computeQuality, calculateNextReview } from '../../engine/spacedRepetitionEngine'
 import styles from './ExerciseBlock.module.css'
 
 function buildNarrativeFeedback(correct, confidence, text, narrative) {
@@ -26,7 +27,7 @@ function XPToast({ amount }) {
   )
 }
 
-export default function ExerciseBlock({ block, onAnswer }) {
+export default function ExerciseBlock({ block, onAnswer, onSrUpdate }) {
   const [selected, setSelected]     = useState(null)
   const [answered, setAnswered]     = useState(false)
   const [confidence, setConfidence] = useState(null)
@@ -49,7 +50,12 @@ export default function ExerciseBlock({ block, onAnswer }) {
     const xp = calculateAnswerXP(correct, 1, level)
     setXpEarned(xp)
     setShowFeedback(true)
-    onAnswer?.(correct, xp)
+    onAnswer?.(correct, xp, level)
+    // Actualitzar SM-2 si el bloc té id
+    if (block.id && onSrUpdate) {
+      const quality  = computeQuality(correct, level)
+      onSrUpdate(block.id, quality)
+    }
   }
 
   const correctRef = block.style === 'detect-error' ? block.isCorrect : block.correct

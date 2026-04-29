@@ -10,9 +10,12 @@ import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
 import { loadModule } from '../data/moduleRegistry'
 import { XP_VALUES } from '../engine/xpEngine'
+import { calculateNextReview } from '../engine/spacedRepetitionEngine'
 import ExerciseBlock from '../components/exercises/ExerciseBlock'
 import ScientificModeBlock from '../components/exercises/ScientificModeBlock'
 import DeferredFeedbackPanel from '../components/exercises/DeferredFeedbackPanel'
+import LessonReinforcementPanel from '../components/ui/LessonReinforcementPanel'
+import MicroRevealPanel from '../components/ui/MicroRevealPanel'
 import SimulationBlock from '../components/simulations/SimulationBlock'
 import DebateBlock from '../components/blocks/DebateBlock'
 import ReflectionBlock from '../components/blocks/ReflectionBlock'
@@ -41,7 +44,7 @@ function KeyIdeaBlock({ block }) {
   )
 }
 
-function ExpandableBlock({ block, onExpand }) {
+function ExpandableBlock({ block, onExpand, isOptional }) {
   const [open, setOpen] = useState(false)
   return (
     <div className={styles.expandable}>
@@ -50,7 +53,12 @@ function ExpandableBlock({ block, onExpand }) {
         onClick={() => { if (!open) onExpand?.(); setOpen(v => !v) }}
       >
         <span>📦 {block.label}</span>
-        <span>{open ? '▲' : '▼'}</span>
+        <div className={styles.expandableRight}>
+          {isOptional && !open && (
+            <span className={styles.optionalTag}>opcional</span>
+          )}
+          <span>{open ? '▲' : '▼'}</span>
+        </div>
       </button>
       {open && <div className={styles.expandableContent}>{block.content}</div>}
     </div>
@@ -94,13 +102,13 @@ function QuoteBlock({ block }) {
   )
 }
 
-function BlockRenderer({ block, onExpand, onAnswer, onDefer }) {
+function BlockRenderer({ block, onExpand, onAnswer, onDefer, isOptional, onSrUpdate }) {
   switch (block.type) {
     case 'narrative':       return <NarrativeBlock block={block} />
     case 'key-idea':        return <KeyIdeaBlock block={block} />
-    case 'expandable':      return <ExpandableBlock block={block} onExpand={onExpand} />
+    case 'expandable':      return <ExpandableBlock block={block} onExpand={onExpand} isOptional={isOptional} />
     case 'prediction':      return <PredictionBlock block={block} />
-    case 'exercise':        return <ExerciseBlock block={block} onAnswer={onAnswer} />
+    case 'exercise':        return <ExerciseBlock block={block} onAnswer={onAnswer} onSrUpdate={onSrUpdate} />
     case 'scientific-mode': return <ScientificModeBlock block={block} onDefer={onDefer} />
     case 'simulation':      return <SimulationBlock block={block} />
     case 'debate':          return <DebateBlock block={block} />
@@ -119,13 +127,17 @@ function BlockRenderer({ block, onExpand, onAnswer, onDefer }) {
 export default function Lesson() {
   const navigate  = useNavigate()
   const { navigationState, setNavigationState, addXP, completeLesson,
-          completeItinerary, completeModule, checkBadges } = useApp()
+          completeItinerary, completeModule, checkBadges, updateSrData, srData } = useApp()
   const { theme } = useTheme()
 
   const [moduleData, setModuleData]      = useState(null)
   const [loading, setLoading]            = useState(true)
   const [error, setError]                = useState(null)
   const [deferredDecisions, setDeferred] = useState([])
+  const [lessonPerformance, setLessonPerformance] = useState({
+    lowConfidenceErrors: 0,
+    highConfidenceCorrects: 0
+  })
   const mountedRef = useRef(true)  // evita setState en component desmuntat
 
   const { currentModuleId, currentItineraryId, currentLessonId } = navigationState
@@ -166,9 +178,10 @@ export default function Lesson() {
       })
   }, [currentModuleId, currentItineraryId]) // escolta canvis d'itinerari també
 
-  // Reinicia decisions diferides quan canvia la lliçó
+  // Reinicia decisions diferides i performance quan canvia la lliçó
   useEffect(() => {
     setDeferred([])
+    setLessonPerformance({ lowConfidenceErrors: 0, highConfidenceCorrects: 0 })
   }, [currentLessonId])
 
   if (loading) {
@@ -208,7 +221,28 @@ export default function Lesson() {
   const hasScientific    = scientificBlocks.length > 0
   const allCommitted     = !hasScientific || deferredDecisions.length >= scientificBlocks.length
 
-  const handleAnswer = (_correct, xp) => { if (xp) addXP(xp) }
+  const handleSrUpdate = (blockId, quality) => {
+    const current = srData?.[blockId]
+    const next    = calculateNextReview(quality, current)
+    updateSrData(blockId, next)
+  }
+
+  const handleAnswer = (correct, xp, confidence) => {
+    if (xp) addXP(xp)
+    // Tracking per al panell de reforç
+    if (!correct && confidence === 1) {
+      setLessonPerformance(prev => ({
+        ...prev,
+        lowConfidenceErrors: prev.lowConfidenceErrors + 1
+      }))
+    }
+    if (correct && confidence === 3) {
+      setLessonPerformance(prev => ({
+        ...prev,
+        highConfidenceCorrects: prev.highConfidenceCorrects + 1
+      }))
+    }
+  }
 
   const handleDefer = (decision) => {
     setDeferred(prev => {
@@ -261,15 +295,41 @@ export default function Lesson() {
       </div>
 
       <div className={styles.blocks}>
-        {currentLesson.blocks.map((block, i) => (
-          <BlockRenderer
-            key={`${currentLesson.id}-${i}`}
-            block={block}
-            onExpand={() => addXP(XP_VALUES.EXPAND_BOX)}
-            onAnswer={handleAnswer}
-            onDefer={handleDefer}
-          />
-        ))}
+        {currentLesson.blocks.map((block, i) => {
+          // Comprova si algun scientific-mode té revealAfterBlockId = aquest bloc
+          const triggeringSci = currentLesson.blocks.find(
+            b => b.type === 'scientific-mode' &&
+                 b.revealAfterBlockId === block.id
+          )
+          const decision = triggeringSci
+            ? deferredDecisions.find(d => d.blockId === triggeringSci.id)
+            : null
+
+          return (
+            <div key={`${currentLesson.id}-${i}`}>
+              <BlockRenderer
+                block={block}
+                onExpand={() => addXP(XP_VALUES.EXPAND_BOX)}
+                onAnswer={handleAnswer}
+                onDefer={handleDefer}
+                isOptional={lessonPerformance.highConfidenceCorrects >= 2}
+                onSrUpdate={handleSrUpdate}
+              />
+              {/* MicroRevealPanel: apareix just sota el bloc disparador */}
+              {decision && (
+                <MicroRevealPanel
+                  sciBlock={triggeringSci}
+                  selectedOption={decision.selected}
+                  onRespond={() => {}} // metacognitiu, sense efecte en estat
+                />
+              )}
+            </div>
+          )
+        })}
+
+        {lessonPerformance.lowConfidenceErrors >= 2 && (
+          <LessonReinforcementPanel blocks={currentLesson.blocks} />
+        )}
 
         {hasScientific && allCommitted && deferredDecisions.length > 0 && (
           <DeferredFeedbackPanel decisions={deferredDecisions} />
