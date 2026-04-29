@@ -264,3 +264,31 @@
 }
 
 .badgePopupClose:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+/* Botó de repàs diari */
+.btnReview {
+  background: linear-gradient(135deg, rgba(245,166,35,0.15), rgba(245,166,35,0.05));
+  color: var(--color-warning);
+  border: 1px solid rgba(245, 166, 35, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+}
+.btnReview:hover {
+  background: rgba(245,166,35,0.2);
+  border-color: var(--color-warning);
+  transform: translateY(-1px);
+}
+
+.reviewBadge {
+  background: var(--color-warning);
+  color: #0b0f1e;
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  padding: 2px var(--space-2);
+  min-width: 20px;
+  text-align: center;
+}
