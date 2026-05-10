@@ -1,0 +1,442 @@
+{
+  "id": "module-28-piketty",
+  "title": "Piketty: El Capital, la Desigualtat i el Futur",
+  "emoji": "📊",
+  "phase": 2,
+  "unlockRequires": "module-22-economia-historia",
+  "lessons": [
+    {
+      "id": "pik-01",
+      "title": "Per qué Piketty va sacsejar el món econòmic",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La primavera del 2014, un economista francès de 42 anys va publicar en anglès un llibre de 700 pàgines ple de gràfics i dades sobre distribució de la riquesa. La majoria de bestsellers d'economia son accessibles, optimistes i plens d'anècdotes. El de Thomas Piketty era dens, tècnic i profundament pessimista sobre la direcció del capitalisme. I va vendre un milió de còpies en un any, va ser el tema de portada del Financial Times, The Economist i New York Times simultàniament, i va generar la controvèrsia intel·lectual més intensa en economia des de Keynes. La raó: Piketty havia fet el que ningú havia fet abans — havia recopilat dades sistemàtiques sobre la distribució de la riquesa durant dos segles i vuit països, i el que mostraven era inequívoc i incòmode."
+        },
+        {
+          "type": "prediction",
+          "question": "Piketty va publicar 700 pàgines de dades sobre desigualtat i es va convertir en bestseller mundial. Qué creus que explica que un llibre tan tècnic i dens connectés amb tanta gent? Quin moment históric el va fer tan rellevant?",
+          "hint": "Pensa en el context del 2014: la crisi financera del 2008 encara recent, el moviment Occupy Wall Street, el discurs del 'nosaltres som el 99%'."
+        },
+        {
+          "type": "key-idea",
+          "text": "La contribució central de Piketty no és simplement la fórmula r > g, sinó la construcció d'una base empírica sense precedents sobre la distribució de la riquesa en el capitalisme modern, que demostra que la reducció de la desigualtat del segle XX va ser una excepció histórica causada per factors excepcionals (guerres, crisis, polítiques redistributives), i que la tendència estructural del capitalisme és la concentració creixent."
+        },
+        {
+          "type": "misconception",
+          "belief": "Piketty és un economista marxista que proposa abolir el capitalisme i la propietat privada.",
+          "reality": "Piketty s'identifica explícitament com a socialdemòcrata, no marxista. Les seves propostes (impost progressiu al capital, herència universal, representació dels treballadors a les empreses) son compatibles amb la propietat privada i els mercats. El seu model de referència son les democràcies escandinaves dels anys 60-70, no cap experiència comunista.",
+          "why": "El títol 'El Capital al Segle XXI' és una referència deliberada a Marx, però el contingut és molt diferent. L'etiqueta 'marxista' ha estat usada pels seus crítics de dreta per desqualificar-lo sense analitzar les seves propostes concretes."
+        },
+        {
+          "type": "expandable",
+          "label": "Com Piketty va construir les seves dades: el World Inequality Database",
+          "content": "Una de les contribucions metodológiques més importants de Piketty (amb Emmanuel Saez, Gabriel Zucman, Tony Atkinson i molts col·laboradors) va ser la creació del World Inequality Database (WID.world): una base de dades que combina les declaracions fiscals, els registres de successió i les enquestes d'ingressos de desenes de països durant dècades o fins i tot segles. Abans de Piketty, el coneixement sobre la distribució de la riquesa es basava principalment en enquestes a les llars, que son notòriament dolentes per capturar les rendes i patrimonis de l'1% més ric (que no responen o subestimen). Usant les declaracions fiscals i els registres de successió — que reflectixen dades reals i no respostes voluntàries — Piketty i els seus col·laboradors van poder reconstruir les participacions dels decils superiors en la riquesa i la renda de forma molt més acurada que mai. Aquesta base metodológica va ser una revolució en la mesura de la desigualtat i ha generat una onada de recerca empírica posterior."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "2001",
+              "title": "Primers articles sobre les rendes altes a França",
+              "text": "Piketty publica els seus primers resultats sobre les rendes de l'1% més ric a França usant dades fiscals. Estableix la metodologia que usarà en tota la seva obra."
+            },
+            {
+              "year": "2003",
+              "title": "Saez i Piketty: les rendes altes als EUA",
+              "text": "Article seminal sobre l'evolució de les rendes de l'1% als EUA des del 1913. Documenta el 'U' de la desigualtat: alta als anys 20, baixa als 50-70, alta de nou des dels 80."
+            },
+            {
+              "year": "2013",
+              "title": "El Capital al Segle XXI (en francès)",
+              "text": "Publicació en França. Passa relativament desapercebut."
+            },
+            {
+              "year": "2014",
+              "title": "Traducció anglesa i explosió global",
+              "text": "Traducció de Arthur Goldhammer. Bestseller immediat. La controvèrsia sobre les dades del Financial Times i la resposta de Piketty."
+            },
+            {
+              "year": "2019",
+              "title": "Capital e Ideologia",
+              "text": "Obra més ambiciosa i explícitament política: analitza com les ideologies han justificat la desigualtat al llarg de la história i proposa alternatives concretes."
+            },
+            {
+              "year": "2021",
+              "title": "Una Breu História de la Igualtat",
+              "text": "Obra sintètica i optimista: argumenta que la tendència de llarg termini de la história és cap a la igualtat, malgrat les tensions."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-01-01",
+          "style": "multiple-choice",
+          "question": "Per qué les dades fiscals i de successió que usa Piketty son superiors a les enquestes de llars per mesurar la desigualtat en la part superior de la distribució?",
+          "options": [
+            "Perquè les dades fiscals son més detallades i permeten desglossaments geogràfics i sectorials que les enquestes no permeten",
+            "Perquè les enquestes de llars infravaloren sistemàticament les rendes i patrimonis dels grups més rics, que no responen o subestimen, mentre les declaracions fiscals capturan els seus ingressos reals (sota amenaça legal)",
+            "Perquè les dades fiscals estan disponibles per a períodes histórics molt més llargs que les enquestes modernes",
+            "Perquè les dades fiscals eliminen els biaixos de selecció de les enquestes, que sobrerepresenten les llars amb membres en edat laboral"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Les enquestes de llars patixen un problema conegut per la part alta de la distribució: les famílies molt riques tendixen a no respondre (non-response bias), a subestimar els seus patrimonis i rendes, o simplement a no ser prou nombroses en la mostra per a una estimació precisa del top 1% i el top 0,1%. Les declaracions fiscals, en canvi, son obligatòries i estan verificades per l'administració tributària — les rendes declarades son molt més fiables per als grups rics que les respostes voluntàries a enquestes. Combinar dades fiscals per al top de la distribució amb enquestes per als decils inferiors (la metodologia de Piketty) dona una imatge molt més completa i precisa de la distribució real.",
+          "feedbackWrong": "La raó principal és la cobertura dels grups rics: les enquestes de llars infravaloren sistemàticament les rendes i patrimonis del top 1% i 0,1% per non-response bias i subestimació. Les declaracions fiscals son obligatòries i fiscalitzades, capturant les rendes reals dels grups rics de forma molt més precisa. La disponibilitat histórica (opció C) és un avantatge addicional però no el principal."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-pik-01-01",
+          "question": "El Financial Times va publicar el 2014 que les dades de Piketty tenien errors i inconsistències. Piketty va respondre refutant la majoria de crítiques. Com hauria de tractar un lector informat una controvèrsia com aquesta sobre les dades empíriques d'un argument important?",
+          "options": [
+            "Confiar en el Financial Times: és un publicació de referència i la seva crítica ha de ser correcta",
+            "Confiar en Piketty: el FT tenia un biaix ideológic en atacar un llibre que qüestionava el statu quo de la desigualtat",
+            "Llegir la controvèrsia en detall, distingir entre errors reals (que Piketty va reconèixer parcialment) i crítiques infundades (que va refutar), i avaluar si els errors canvien les conclusions principals"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és l'argument d'autoritat: el FT és fiable. Però el FT va cometre errors en la seva crítica i va exagerar alguns problemes de les dades. La posició B és l'argument del biaix: tota crítica a Piketty és ideológica. Però el biaix ideológic no fa que les crítiques empíriques siguin automàticament incorrectes. La posició C és el procediment científic adequat: examinar les crítiques en detall, distingir les que son vàlides de les que no, i avaluar si els errors reals canvien les conclusions principals. En el cas Piketty-FT: Chris Giles (el periodista del FT) va identificar alguns errors genuïns en les dades britàniques, que Piketty va reconèixer parcialment. Però les conclusions principals del llibre (la tendència de llarg termini cap a la concentració, la U en la desigualtat del segle XX) no van canviar quan els errors es corregien. Aprendre a distingir entre 'hi ha errors' i 'les conclusions son incorrectes' és una habilitat fonamental del pensament crític en ciències socials."
+        }
+      ]
+    },
+    {
+      "id": "pik-02",
+      "title": "r > g: la mecànica de la concentració",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Imagina dos germans que hereten cada un 100.000€ el 2000. El primer, Pere, posa els diners en una cartera diversificada d'accions i bons que rendeix un 5% anual. El segon, Maria, treballa i estalvia un 10% del seu sou de 30.000€ anuals (3.000€ l'any). El 2024, Pere té uns 320.000€ (el capital s'ha triplicat als interessos compostos). Maria ha estalviat uns 72.000€ (24 anys × 3.000€). La diferència ha crescut enormement, no perquè Pere hagi treballat més sinó perquè el capital rendeix a una taxa (r) superior a la que creix l'economia i els salaris (g). Multiplica aquesta dinàmica per generacions i per patrimonis de milions en lloc de cent mil, i tens la mecànica de la concentració que Piketty descriu."
+        },
+        {
+          "type": "prediction",
+          "question": "Imagina dos germans que hereten 100.000€ cada un. Un els inverteix (r=5% anual) i l'altre treballa i estalvia 3.000€ l'any. Quin creus que tindrà més patrimoni als 65 anys? I qué diu aixó sobre la relació entre treball i capital en el capitalisme modern?",
+          "hint": "Fes el càlcul mental: 24 anys d'interessos compostos al 5% vs. 24 anys × 3.000€."
+        },
+        {
+          "type": "key-idea",
+          "text": "La fórmula r > g captura la mecànica central de la concentració de la riquesa en el capitalisme: quan la rendibilitat del capital (r) supera el creixement econòmic (g), els patrimonis creixen proporcionalment més ràpid que l'economia, de manera que la part de la riquesa total en mans dels tenidors de capital augmenta de forma tendencial i inexorable. No és una llei física — es pot contrarestar amb impostos i redistribució — però és la tendència del capitalisme sense intervenció."
+        },
+        {
+          "type": "quote",
+          "text": "Quan la taxa de rendiment del capital supera la taxa de creixement de la producció i la renda, el capitalisme genera automàticament desigualtats arbitràries i insostenibles que minen radicalment els valors meritocràtics en els que es funden les societats democràtiques.",
+          "author": "Thomas Piketty, El Capital al Segle XXI (2013)"
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué r > g és la norma histórica i els 'trenta gloriosos' van ser l'excepció",
+          "content": "Piketty va documentar que r ha estat sistemàticament entre el 4 i el 5% anual durant la major part de la história capitalista, mentre g ha estat entre el 1 i el 2% en les economies madures. Però hi va haver un període d'excepció: aproximadament del 1913 al 1980, la desigualtat va disminuir a la majoria dels països avançats. Piketty argumenta que no va ser el triomf de les forces del bé sobre la desigualtat — va ser el resultat de factors excepcionals: (1) Les dues Guerres Mundials van destruir una proporció enorme del capital acumulat (especialment el capital financer i immobiliari dels rics). (2) La Gran Depressió va reduir els rendiments del capital. (3) Les polítiques redistrubutives del New Deal, els Trenta Gloriosos i l'Estat del Benestar van comprimir la distribució. (4) Els impostos sobre la riquesa i les successions molt alts (fins al 90% als EUA en alguns períodes) van limitar l'acumulació hereditària. Quan tots aquests factors van desaparèixer o s'afebliren (especialment des dels anys 80), la tendència de r > g va reprendre la seva marxa."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-02-01",
+          "style": "multiple-choice",
+          "question": "Piketty argumenta que el creixement econòmic alt (g elevat) pot contrarestar la tendència a la concentració. Quin és l'escenari en que g és alt i per tant la desigualtat tendeix a disminuir?",
+          "options": [
+            "Quan l'economia creix per innovació tecnológica, ja que els guanys de la tecnologia es distribuïxen àmpliament entre la població",
+            "Quan g s'aproxima o supera r, cosa que passa principalment en economies en ràpid procés de convergència (com la Xina als anys 90-2000) o en períodes de reconstrucció post-guerra",
+            "Quan els bancs centrals mantenen els tipus d'interès baixos, reduint r i fent que s'aproximi a g",
+            "Quan el creixement demogràfic és alt, generant una classe treballadora jove que capta una major part de la renda total"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La condició per a la igualació o inversió de r > g és que g s'elevi fins a nivells propers o superiors a r. Históricament, aixó ha passat principalment en dos contextos: (1) Economies en ràpida convergència (catch-up growth) com la Xina, Corea o el Japó post-guerra, on el creixement era del 7-10% anual — molt superior a la rendibilitat del capital. En aquells contextos, la classe treballadora i les empreses noves podien créixer ràpidament sense que la concentració augmentés. (2) Períodes de reconstrucció post-devastació on l'activitat econòmica calia reconstruir des de baix. El problema: les economies madures i riques (Europa, EUA, Japó actual) tendixen a g del 1-2%, molt per sota de r. Que g pugui augmentar de forma estructural i sostinguda en economies madures és molt difícil.",
+          "feedbackWrong": "La condició per contrarestar r > g és que g s'elevi fins a nivells propers a r. Históricament, això ha passat en economies de convergència ràpida (Xina, Corea del Sud) on el creixement era molt alt durant períodes de catch-up tecnológic. Les economies madures tendixen estructuralment a g baix (1-2%), massa per sota de r (4-5%) per contrarestar la concentració sense polítiques redistributives."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-02-02",
+          "style": "detect-error",
+          "statement": "La fórmula r > g de Piketty implica que la desigualtat sempre augmenta en el capitalisme i que cap política pot revertir la tendència a la concentració.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació sobreinterreta Piketty. Ell no diu que la concentració sigui inevitable ni irreversible — diu que és la tendència del capitalisme quan r > g i no hi ha polítiques que ho contraresteixin. De fet, el seu argument principal és que el segle XX va demostrar que la desigualtat pot ser reduïda per forces polítiques i institucionals (guerres, crisis, polítiques fiscals redistributives). I les seves propostes polítiques (impost global al capital, impost progressiu sobre la renda i les successions molt alts) estan destinades precisament a contrarestar la tendència r > g. Piketty no és un determinista: argumenta que la distribució de la riquesa és sempre el resultat d'una interacció entre forces econòmiques i forces polítiques, i que les forces polítiques poden i han canviat históricament la distribució."
+        },
+        {
+          "type": "comparison",
+          "title": "Períodes de baixa i alta desigualtat: factors explicatius",
+          "labelA": "1914-1980: Reducció de la desigualtat",
+          "labelB": "1980-avui: Augment de la desigualtat",
+          "items": [
+            {
+              "label": "Destrucció del capital",
+              "a": "Guerres mundials destruïxen capital físic i financer dels rics",
+              "b": "Pau relativa; el capital s'acumula sense interrupcions"
+            },
+            {
+              "label": "Política fiscal",
+              "a": "Tipus marginals molt alts (fins al 90% als EUA); impostos de successió alts",
+              "b": "Reducció dels tipus marginals des dels anys 80; erosió dels impostos de successió"
+            },
+            {
+              "label": "Poder sindical",
+              "a": "Alta sindicalització; negociació col·lectiva forta; creixement dels salaris",
+              "b": "Baixa sindicalització; erosió del poder negociador dels treballadors"
+            },
+            {
+              "label": "Creixement econòmic (g)",
+              "a": "Creixement alt post-guerra (3-5%); g proper a r",
+              "b": "Creixement lent (1-2% en economies madures); r molt superior a g"
+            },
+            {
+              "label": "Globalització del capital",
+              "a": "Controls de capital (Bretton Woods); dificultat d'evasió fiscal",
+              "b": "Capital lliure; paradisos fiscals; erosió de la base impositiva"
+            }
+          ]
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-pik-02-01",
+          "question": "Alguns crítics de Piketty (com Matthew Rognlie) han argumentat que gran part de l'augment de la ràtio capital/ingressos que documenta Piketty és degut a l'augment dels preus immobiliaris, no al capital 'productiu' (maquinaria, empreses). Si aixó és cert, quines implicacions té per a les conclusions de Piketty?",
+          "options": [
+            "Cap implicació: si el patrimoni immobiliari creix de forma similar al capital productiu, la dinàmica r > g s'aplica igualment",
+            "Implicacions importants: si la concentració és principalment immobiliaria, les causes son en la regulació urbanística que crea escassetat artificial d'habitatge i no en la dinàmica inherent del capitalisme financer",
+            "Implicacions importants però parcials: la crítica de Rognlie és rellevant però fins i tot centrant-nos sols en el capital financer i empresarial (excloent l'immobiliari), la concentració és significativa i creixent"
+          ],
+          "correct": 2,
+          "explanation": "La posició A ignoraria una crítica empírica significant. La posició B és la que han defensat economistes liberals com Tyler Cowen: si la concentració és principalment immobiliaria, la solució no és un impost global al capital (proposta de Piketty) sinó desregular el planejament urbanístic per augmentar l'oferta d'habitatge i reduir els preus. Implicaria que el capitalisme financer no és el problema principal — és la regulació urbanística. La posició C és la que els col·laboradors de Piketty (especialment Zucman) defensen: la crítica de Rognlie és parcialment vàlida, però quan s'analitzen els actius financers i empresarials (excloent l'immobiliari), la concentració en l'1% i el 0,1% continua sent enorme i creixent. L'immobiliari explica part de l'augment de la ràtio capital/ingressos, però no elimina la dinàmica de concentració del capital productiu que Piketty documenta."
+        }
+      ]
+    },
+    {
+      "id": "pik-03",
+      "title": "La societat patrimonial: quan l'herència torna a dominar",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "A les novel·les de Jane Austen i Honoré de Balzac (principis del segle XIX), el camí per prosperar no era treballar dur sinó heretar o casar-se bé. El personatge de Rastignac a 'El Pare Goriot' ho aprèn brutalment: no importa quant treballi un advocat o metge, mai no podrà acumular la riquesa d'un hereu de patent. Piketty argumenta que la societat en que viurem al segle XXI si no fem res s'assemblarà molt a la de les novel·les de Balzac: una 'societat patrimonial' on l'herència i la rendibilitat del capital acumulat son molt més determinants per a la posició social que el treball i l'esforç individuals."
+        },
+        {
+          "type": "prediction",
+          "question": "A les novel·les de Balzac, el personatge de Rastignac aprèn que mai no podrà acumular amb el treball la riquesa d'un hereu. Creus que aquesta observació del 1835 és més o menys certa avui? Quin és l'impacte de l'herència en les possibilitats vitals d'algú del teu entorn?",
+          "hint": "Pensa en com l'accés a una entrada per a un pis, a una xarxa de contactes, a una educació privada, a un capital inicial per a un negoci, varia entre persones que coneixes."
+        },
+        {
+          "type": "key-idea",
+          "text": "Piketty argumenta que si les tendències actuals continuen sense polítiques redistributives, el segle XXI serà una 'societat patrimonial' similar a la del segle XIX: on la posició social la determina principalment l'origen familiar i l'herència, i no el mèrit o l'esforç individual. Seria la fi efectiva de la meritocracia com a ideal i com a realitat."
+        },
+        {
+          "type": "expandable",
+          "label": "El retorn del 'rentier': quan viure de rendes torna a ser possible",
+          "content": "Piketty usa el terme 'rentier' (rendista) per descriure algú que viu principalment de les rendes del seu capital (dividends, lloguers, interessos) sense necessitat de treballar. Al segle XIX, la classe rendista era predominant entre les elits. Al segle XX, la destrucció del capital per les guerres i els impostos alts va fer desaparèixer la rendabilitat suficient per a una vida de rendes per a la majoria. Piketty documenta que al segle XXI, els rendiments del capital (especialment per als patrimonis de més de 10 milions d'euros) son molt superiors al creixement dels salaris. Amb una taxa de rendiment del 5% i un patrimoni de 5 milions d'euros, tens uns ingressos anuals de 250.000€ sense treballar — molt per sobre del sou d'un director general mig. Per als patrimonis de 100 milions o 1.000 milions, la rendabilitat és fins i tot superior (accés a gestors patrimonials d'élite, inversions inaccessibles als petits inversors). El 'rentier' del segle XXI és tan dominant com el del XIX — simplement porta samarreta en lloc de frac."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-03-01",
+          "style": "multiple-choice",
+          "question": "Piketty descriu la 'societat meritocràtica extrema' com una nova forma de justificació de la desigualtat pròpia del segle XXI. En qué consisteix i per qué la considera problemàtica?",
+          "options": [
+            "En que les elits del segle XXI creuen que han guanyat la seva riquesa per mèrit propi i que per tant mereixen tot el que tenen, ignorant el rol de l'herència i la sort",
+            "En que la meritocracia ha creat una societat on tothom pot prosperar si és prou intel·ligent i treballador, eliminant la necessitat de redistribució",
+            "En que les institucions educatives seleccionen els més aptes per als llocs de poder, creant una élite genuïnament meritocràtica que justifica la seva posició dominant",
+            "En que la competència meritocràtica ha substituït l'herència com a font principal de la posició social en les economies avançades"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. Piketty (i el filòsof Michael Sandel amb arguments similars) argumenta que la ideologia meritocràtica del segle XXI és una forma de justificació de la desigualtat particularment poderosa i particularment enganyosa. Les élites actuals (executius, financers, tecnólegs) creuen genuïnament haver guanyat la seva posició per mèrit — educació excel·lent, treball dur, talent. Ignorant que l'accés a aquella educació excel·lent estava condicionat per l'origen familiar, que el talent no s'extreu del no-res, que la sort de néixer en el moment i lloc adequat és enorme. El resultat: una élite que no sols és rica sinó que creu que mereix ser rica, sense cap sentiment de deute o responsabilitat cap als que no han tingut les mateixes oportunitats. Sandel ('La Tirania del Mèrit') i Piketty coincidixen que aquest 'meritocracia extrema' és una justificació ideológica de la desigualtat, no una descripció empírica de la realitat.",
+          "feedbackWrong": "La crítica de Piketty a la 'meritocracia extrema' no és que la meritocracia sigui possible o desitjable — és que la ideologia mèritocràtica de les élites contemporànies és una justificació de la desigualtat que ignora el rol determinant de l'herència i la sort en la seva posició. La creença que 'he guanyat tot el que tinc' és tant més perillosa com convençuda és."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-03-02",
+          "style": "true-false",
+          "question": "Piketty argumenta que la desigualtat de riquesa és sempre més gran que la de renda, i que la seva reducció requereix necessàriament un impost directe sobre el patrimoni, no sols sobre la renda.",
+          "correct": true,
+          "feedbackCorrect": "Cert. Un dels arguments centrals de Piketty és que la desigualtat de riquesa és sistemàticament i molt més gran que la de renda (als EUA, el Gini de riquesa és ~0,87 vs. ~0,49 per a la renda). I que els impostos sobre la renda, per molt progressius que siguin, no poden abordar la desigualtat de riquesa per una raó simple: la major part dels ingressos de les famílies ultra-riques no és renda laboral (salaris) sinó rendiment del capital (dividends, plusvàlues), que sovint tributa a taxes preferencials o es difereix indefinidament. Un impost directe sobre el patrimoni net (deduint els deutes) és l'únic instrument que ataca directament la concentració de la riquesa, independentment de si genera rendes visibles o no. Piketty proposa un impost progressiu global sobre el patrimoni net amb taxes moderades (0,1% per sota de 1 milió d'euros fins al 2% o més per damunt de 10 milions).",
+          "feedbackWrong": "Cert. Piketty argumenta que la desigualtat de riquesa és molt major que la de renda, i que els impostos sobre la renda no l'aborden adequadament perquè els ultra-rics obtenen els seus ingressos principalment del rendiment del capital (que tributa poc o es difereix). L'impost directe sobre el patrimoni net és l'instrument específicament dissenyat per atacar la concentració patrimonial."
+        },
+        {
+          "type": "debate",
+          "question": "Piketty argumenta que el retorn a la 'societat patrimonial' és una amenaça per a la democràcia i la meritocracia. Però alguns economistes (com Gregory Mankiw) defensen que la riquesa hereditaria és el resultat legítim de l'estalvi i la prudència de generacions, i que gravar-la és injust. Com valores moralment l'herència?",
+          "positionA": {
+            "label": "L'herència és un dret legítim i ha de ser respectada",
+            "argument": "Les persones treballen, estalvien i invertixen en part per poder transmetre riquesa als seus fills. Gravar fortament l'herència viola el dret de les persones a disposar dels fruits del seu treball i priva als fills dels recursos que els permetrien prosperar. A més, les famílies que acumulen riquesa fan una contribució productiva a l'economia que beneficia tots."
+          },
+          "positionB": {
+            "label": "L'herència és la negació de la meritocracia i ha de ser limitada",
+            "argument": "En una societat que diu creure en la igualtat d'oportunitats i el mèrit, l'herència massiva és un contrasentit: dona als fills dels rics un avantatge de partida enorme que no han guanyat. John Stuart Mill i John Rawls van argumentar que la transmissió de riquesa entre generacions és el principal obstacle a la igualtat d'oportunitats real. Limitar l'herència no viola la llibertat dels vius — regula com la riquesa es distribueix entre els vius del futur."
+          },
+          "reflection": "Andrew Carnegie va dir que 'l'home que mor ric mor deshonrat', i va donar quasi tota la seva fortuna. Warren Buffett ha dit que deixar riquesa immensa als fills és 'donar-los un xec d'aliment vitalici'. Creus que la filantropia voluntaria és una alternativa adequada a la redistribució via impostos?",
+          "context": "El debat moral sobre l'herència és un dels més antics de la filosofia política. Locke la defensava; Mill la limitaria dràsticament; Rawls la voldria compatible amb la igualtat d'oportunitats. A la pràctica, països com Suècia han eliminat l'impost de successions; França el manté alt; els EUA l'han reduït dràsticament. El debat continua."
+        }
+      ]
+    },
+    {
+      "id": "pik-04",
+      "title": "Capital e Ideologia: per qué les societats accepten la desigualtat",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Per qué una societat altament desigual no es revolta? Per qué la majoria — que es beneficiaria de la redistribució — vota governs que la fan menys probable? Piketty va dedicar el seu segon gran llibre, 'Capital e Ideologia' (2019), a aquesta pregunta. La seva resposta: les societats desiguals generen ideologies que justifiquen la desigualtat com a natural, necessària o merescuda. I la clau de la política és quin discurs ideológic és capaç de construir una coalició majoritaria entre els que es beneficiarien de la redistribució. Piketty es fa explícitament polític en una forma que el seu primer llibre evitava."
+        },
+        {
+          "type": "key-idea",
+          "text": "En 'Capital e Ideologia', Piketty argumenta que tota societat desigual es construeix sobre una ideologia que justifica la seva desigualtat com a justa o necessària — i que la política progressista ha fracassat en les últimes dècades per abandonar el seu programa redistributiu en favor d'un 'socialisme educatiu' que beneficia principalment les classes educades i aliena les classes treballadores menys formades."
+        },
+        {
+          "type": "expandable",
+          "label": "El 'Brahmin Left' i el 'Merchant Right': per qué els partits d'esquerra han perdut les classes treballadores",
+          "content": "Una de les anàlisis més agudes de 'Capital e Ideologia' és el que Piketty anomena la transformació de la 'cleavage política' (divisió política) als països avançats. Als anys 50-70, el clivatge polític principal era de classe: els rics votaven la dreta i els pobres votaven l'esquerra. Desde els anys 90-2000, el clivatge ha canviat: l'esquerra és ara el partit de les 'Brahmin' (terme que pren en préstec del sistema de castes hinduista) — les classes educades, urbanes i cosmopolites —, mentre la dreta és el partit dels 'Merchant' (les classes empresarials i riques sense capital educatiu). Les classes treballadores sense educació universitaria s'han quedat sense un partit que representi els seus interessos econòmics i han virat cap al populisme d'identitat. Piketty diagnostica que l'esquerra ha prioritzat la diversitat cultural, l'obertura global i l'educació (que beneficia les classes ja educades) sobre la redistribució econòmica (que beneficiaria les classes treballadores). El resultat és Trump, Brexit i el populisme europeu."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-04-01",
+          "style": "multiple-choice",
+          "question": "Piketty argumenta que el creixement del vot populista i autoritari (Trump, Brexit, Le Pen) entre les classes treballadores és en part una conseqüència del fracàs dels partits d'esquerra. Quin fracàs concret identifica?",
+          "options": [
+            "Que els partits d'esquerra han abandonat el suport als sindicats i als drets laborals, deixant les classes treballadores sense representació",
+            "Que els partits d'esquerra s'han convertit en partits de les classes educades que prioritzen la globalització, la diversitat cultural i l'educació per sobre de la redistribució econòmica que beneficiaria les classes treballadores menys formades",
+            "Que els partits d'esquerra han perdut contacte amb les comunitats locals per centrar-se massa en la política nacional i europea",
+            "Que els partits d'esquerra han acceptat el consens neoliberal sobre la gestió macroeconòmica, fent-se indistingibles dels partits de centre-dreta"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'argument de Piketty és sofisticat: no és simplement que l'esquerra hagi abandonat les polítiques laborals (opció A, que també té cert suport) sinó que ha canviat la seva base social i ideológica. L'esquerra ha passat de representar les classes treballadores (baixa educació, ingressos baixos, identitat de classe) a representar les classes educades (alta educació, ingressos mitjos-alts, identitat cosmopolita). Quan prioritza la globalització, la lliure circulació de persones i el multiculturalisme, defensa interessos de les classes educades cosmopolites però aliena les classes treballadores que veuen en la globalització la precarització dels seus llocs de treball. La redistribució econòmica (augment del salari mínim, progressivitat fiscal, inversió pública) seguiria tenint suport popular, però l'esquerra l'ha subordinat a altres agendes.",
+          "feedbackWrong": "Piketty identifica un canvi de base social de l'esquerra, no simplement un abandó de polítiques laborals. L'esquerra s'ha convertit en el partit de les classes educades (Brahmin Left), que prioritzen les seves preocupacions (diversitat, globalització, medi ambient, educació universitaria) per sobre dels interessos econòmics de les classes treballadores. La redistribució econòmica, que hauria pogut unir les classes baixes i mitges, ha estat substituïda per una agenda de la identitat i del cosmopolitisme."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-04-02",
+          "style": "detect-error",
+          "statement": "En 'Capital e Ideologia', Piketty argumenta que les ideologies que justifiquen la desigualtat son sempre falses i que la gent que les accepta és víctima de manipulació o ignorància.",
+          "isCorrect": false,
+          "feedbackExplanation": "Piketty no argumenta que totes les ideologies que justifiquen la desigualtat son falses ni que els qui les accepten son víctimes d'ignorància. El seu argument és molt més matisat: les ideologies son construccions socials que reflectixen els interessos dels grups dominants però que també responen a preocupacions legítimes (l'estabilitat, la llibertat, l'incentiu a la inversió). La seva crítica no és que les ideologies conservadores o liberals siguin 'falses' sinó que son insuficients: no expliquen per qué la distribució actual de la riquesa és justa, sols donen raons per no canviar-la. Piketty creu que les alternatives redistributives podrien ser majoria si s'expliquessin bé — no que els qui s'oposen a la redistribució siguin irracionals o manipulats. La perspectiva de Piketty és empírica i política, no una teoria de la manipulació de masses."
+        },
+        {
+          "type": "debate",
+          "question": "Piketty argumenta que la divisió política esquerra-dreta ha passat de ser una divisió de classe (rics vs. pobres) a ser una divisió educativa (classes educades vs. classes sense educació universitaria). Si és correcte, quines implicacions té per a la política redistributiva: és possible construir una majoria redistributiva en un context de vot identitari?",
+          "positionA": {
+            "label": "Cal tornar a la política de classe",
+            "argument": "La solució és que els partits progressistes tornin a prioritzar la redistribució econòmica per damunt de les guerres culturals. Un programa creïble de salari mínim alt, habitatge assequible, sanitat universal i impostos progressius pot reconstruir la coalició de classes treballadores i classes mitjes que va fer possible l'Estat del Benestar. La identitat cultural és una distracció de l'agenda econòmica."
+          },
+          "positionB": {
+            "label": "Cal una nova síntesi identitat-redistribució",
+            "argument": "Ignorar les preocupacions identitàries (migracio, diversitat, reconeixement cultural) en favor de la 'pura' política de classe és impossible i indesitjable. La política progressista ha d'integrar la redistribució econòmica amb el reconeixement de la diversitat. El repte és construir una coalició que parli de redistribució amb un llenguatge accessible a les classes treballadores sense abandonar les lluites per la igualtat de gènere, racial i cultural."
+          },
+          "reflection": "Pensa en els moviments polítics recents que has observat: quin creus que ha aconseguit millor combinar redistribució econòmica amb reconeixement cultural? I quin creus que ha fallat en aquesta síntesi?",
+          "context": "El debat sobre com reconstruir la coalició redistributiva en l'era del populisme és central en la política progressista contemporanea. Autors com Nancy Fraser ('Capitalisme Progressiu'), Bernie Sanders i Jeremy Corbyn (programes redistributius radicals) i E. Warren (capitalisme corregit) representen estratègies molt diferentes."
+        }
+      ]
+    },
+    {
+      "id": "pik-05",
+      "title": "Les propostes de Piketty: l'impost global al capital i més",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Piketty no és simplement un diagnosticador de la malaltia — proposa remeis concrets. La seva proposta estrella, l'impost global progressiu al capital, ha estat molt discutida i ha generat tant entusiasme com crítica. Però en el seu segon gran llibre ('Capital e Ideologia') les propostes s'han expandit i concretat: una herència universal (75.000€ per a tots els joves quan arriben als 25 anys), una reforma fiscal radical (tipus marginals del 90% per sobre de 10 vegades la renda mediana), i una democratització del govern de les empreses (representació dels treballadors en els consells). Piketty no pretèn donar receptes finals — vol demostrar que les alternatives al statu quo existixen i son factibles."
+        },
+        {
+          "type": "prediction",
+          "question": "Piketty proposa un impost global al capital. Sap que és políticament molt difícil. Per qué creus que un economista rigorós dedica temps a propostes que ell mateix reconeix com a inviables a curt termini? Creus que té utilitat acadèmica o política defensar ideals 'utòpics'?",
+          "hint": "Pensa en la história: qüestions considerades 'utòpiques' (el sufragi femení, l'abolició de l'esclavitud, l'Estat del Benestar) s'han implementat eventualment. Qué les va fer possibles?"
+        },
+        {
+          "type": "key-idea",
+          "text": "Les propostes de Piketty se centren en tres eixos: (1) un impost progressiu global sobre el patrimoni net que limiti l'acumulació hereditaria; (2) una 'dotació universal a la majoria d'edat' que doni capital inicial a tothom en arribar als 25 anys; (3) una reforma del govern de les empreses per democratitzar la presa de decisions. Les tres propostes estan dissenyades per actuar sobre r > g des d'angles diferents."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Desigualtat: Causes, Efectes i Redistribució",
+          "moduleEmoji": "⚖️",
+          "concept": "Les eines de redistribució i el diagnòstic de Piketty",
+          "text": "El mòdul de desigualtat va analitzar els instruments de redistribució (impostos progressius, transferències, serveis universals). Les propostes de Piketty van un pas més lluny: argumenta que els instruments existents son insuficients per abordar la desigualtat de riquesa (no de renda) i que cal un impost directe sobre el patrimoni net. Comparar les dues anàlisis t'ajuda a veure la diferència entre reformar el sistema existent i canviar la seva lògica."
+        },
+        {
+          "type": "expandable",
+          "label": "L'herència universal: donar capital a tothom als 25 anys",
+          "content": "Una de les propostes més innovadores de 'Capital e Ideologia' és la 'dotació universal a la majoria d'edat': tothom rebria una suma equivalent al 60% del patrimoni mitjà (uns 120.000€ a França actual) quan arriba als 25 anys, finançada per un impost progressiu sobre les herències i el patrimoni. La idea no és completament nova: Thomas Paine l'havia proposat el 1797 (un repartiment de terra per a tots els ciutadans en arribar a l'edat adulta). L'argument: el jove de 25 anys amb una família rica pot heretar capital suficient per comprar un habitatge, invertir en un negoci o finançar una formació cara. El jove de família pobra arriba als 25 sense cap capital i haurà d'endeutar-se per qualsevol d'aquestes inversions. La 'dotació universal' iguala les condicions de partida sense prescriure com el capital ha de ser usat. Els crítics: seria molt cara de finançar (requereix impostos sobre el patrimoni molt alts), podria ser malgastada, i planteja qüestions de justícia intergeneracional (qui paga pels que van rebre la dotació 20 anys enrere?)."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-05-01",
+          "style": "multiple-choice",
+          "question": "Piketty proposa un impost global al capital progressiu (del 0,1% fins al 2% o més sobre el patrimoni net). Per qué és fonamental que sigui 'global' i no simplement nacional?",
+          "options": [
+            "Perquè un impost nacional al capital és inconstitucional en molts països, mentre que un tractat internacional el faria legal",
+            "Perquè sense coordinació internacional, els capitals fugiran als països sense impost (paradisos fiscals), buidant la base imposable de qualsevol país que actuï sol",
+            "Perquè un impost global permetria recaptar molt més que els impostos nacionals i finançar la dotació universal a escala planetaria",
+            "Perquè la desigualtat global (entre països) és major que la nacional, i sols un impost global pot abordar-la adequadament"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La mobilitat del capital és el principal obstacle a qualsevol impost sobre el patrimoni: si un sol país implementa un impost alt sobre la riquesa, els capitals (que son molt mòbils en l'era digital) simplement es desplacen a jurisdiccions sense impost. France va experimentar aixó amb el seu ISF (impost sobre la solidaritat sobre la fortuna): va generar fugida de capitals cap a Bèlgica i Suïssa. Piketty és conscient que la seva proposta requereix un nivell de coordinació internacional (un registre global de patrimonis, intercanvi automàtic d'informació fiscal) que avui no existeix però que considera políticament assolible, especialment en el marc de la UE. El mínim global d'impost de societats del 15% (aprovat per 140 països el 2021) mostra que la coordinació fiscal internacional és possible, tot i que difícil.",
+          "feedbackWrong": "La raó fonamental és la mobilitat del capital: sense coordinació internacional, qualsevol país que actuï sol veurà els seus capitals fugir als paradisos fiscals. No és una qüestió legal ni de recaptació global — és una qüestió de base impositiva. La globalització del capital ha creat una competència a la baixa en impostos que sols pot aturar-se amb coordinació internacional."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-05-02",
+          "style": "detect-error",
+          "statement": "Piketty proposa abolir la propietat privada i el mercat, substituïnt el capitalisme per un sistema de propietat col·lectiva gestionada per l'Estat.",
+          "isCorrect": false,
+          "feedbackExplanation": "Aquesta és una de les malinterpretacions més freqüents de Piketty. Ell no proposa abolir la propietat privada ni substituir el mercat — el títol 'El Capital al Segle XXI' és una referència a Marx, no un programa marxista. Les seves propostes son reformes del capitalisme: impostos progressius sobre la renda i el patrimoni, herència universal, representació dels treballadors als consells d'empresa. Totes son compatibles amb la propietat privada i els mercats. Piketty es situa en una tradició socialdemòcrata, no marxista. El seu model de referència son les societats escandinaves dels anys 60-70 (alta igualtat, mercats competitius, Estat del Benestar fort), no l'URSS ni cap forma de planificació central. En 'Capital e Ideologia' defensa explícitament el que anomena 'socialisme participatiu': propietat privada per als béns de consum i les petites empreses, però límits a la concentració del capital productiu i una representació dels treballadors que comparteixi el control de les grans empreses."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-pik-05-01",
+          "question": "La proposta de Piketty d'un impost global al capital és reconeguda per ell mateix com políticament molt difícil d'implementar a curt termini. Creus que les propostes de política econòmica que son 'correctes' però políticament inviables a curt termini tenen alguna utilitat?",
+          "options": [
+            "No: les propostes han de ser políticament factibles per ser útils. Una proposta que ningú pot implementar és simplement una fantasia acadèmica",
+            "Sí: les propostes 'utòpiques' del present devenen a vegades polítiques del futur quan les condicions polítiques canvien. Moltes idees que eren 'impossibles' (vot femení, abolició de l'esclavitud, Estat del Benestar) es van implementar eventualment",
+            "Parcialment: les propostes inviables a curt termini son útils com a ideals orientadors que marquen la direcció, però cal complementar-les amb propostes de transició realistes i incrementals"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és el pragmatisme pur: sols val allò implementable ara. Porta a acceptar com a límit immutable el que és políticament possible avui, ignorant que les possibilitats polítiques canvien. La posició B és l'utopisme: fins i tot les idees impossibles tenen valor perquè formen el futur. Té suport históric fort (moltes 'utopies' del passat son realitats presents), però el risc és que serveixi d'excusa per evitar el treball messy de la política incremental. La posició C és la que els millors estrategs de la política econòmica defensen: cal tenir un nord (l'ideal de llarg termini que orienta la direcció) i alhora propostes de transició assequibles (el que es pot fer ara). Piketty és valuós com a nord — demostra que hi ha alternatives al statu quo i on podrien portar. El treball polític de com arribar-hi és un projecte diferent que altres han de fer. La combinació d'idealisme i pragmatisme és la que ha generat els canvis polítics duradors de la história."
+        }
+      ]
+    },
+    {
+      "id": "pik-06",
+      "title": "Una Breu História de la Igualtat: l'optimisme de Piketty",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2021, Piketty va publicar una obra molt diferent de les anteriors: 'Una Breu História de la Igualtat'. Mentre les seves obres anteriors documentaven la concentració de la riquesa i advertien del retorn de la desigualtat, aquest nou llibre tenia un to sorprenentment optimista. L'argument: si mirem els últims dos-cents anys en lloc dels darrers quaranta, la tendència dominant no és la concentració sinó l'expansió dels drets, la igualtat davant la llei, l'accés a l'educació i la salut, i la reducció de la pobresa extrema. La igualtat progressa — desigualment, amb retrocessos, però progressa. L'advertència segueix vigent, però el diagnòstic complet és menys pessimista del que els seus lectors podrien pensar."
+        },
+        {
+          "type": "key-idea",
+          "text": "En 'Una Breu História de la Igualtat', Piketty argumenta que la tendència de llarg termini dels dos darrers segles no és la concentració sinó l'expansió de la igualtat: en drets polítics (democràcia, sufragi universal), en drets socials (educació i sanitat públiques), en drets econòmics (reducció de la pobresa extrema, augment dels salaris reals). La batalla per la igualtat és permanent i mai no està guanyada definitivamente, però l'arc de la história s'inclina cap a ella."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "De Smith a Piketty: Les Idees que van Canviar l'Economia",
+          "moduleEmoji": "📚",
+          "concept": "Piketty en la trajectoria del pensament econòmic",
+          "text": "Has estudiat Piketty en profunditat. Ara tanca el cercle: en el mòdul d'história del pensament econòmic, vas veure Piketty com el punt final d'una trajectoria de Smith a Marx a Keynes. Piketty incorpora les dades empíriques de Marx (la tendència a la concentració), el reformisme institucional de Keynes (l'Estat pot i ha d'intervenir) i la metodologia científica de la tradició neoclàssica (dades, rigor, verificació). És una síntesi, no una ruptura."
+        },
+        {
+          "type": "quote",
+          "text": "La história de la igualtat és una história de lluites, revoltes i moviments socials que han forçat les societats a avançar. Mai ha sigut un regal automàtic del progrés.",
+          "author": "Thomas Piketty, Una Breu História de la Igualtat (2021)"
+        },
+        {
+          "type": "expandable",
+          "label": "Les tres onades d'igualació del segle XX",
+          "content": "Piketty identifica tres grans onades d'igualació en la história moderna. Primera onada: la igualtat política. El sufragi universal (per als homes primer, per a les dones al llarg del segle XX), l'abolició de l'esclavitud, la descolonització. El món de 1900 era dominat per imperis colonials i governs oligàrquics. El de 2000, per democràcies imperfectes però reals a la majoria dels països. Segona onada: la igualtat educativa i sanitaria. L'accés a l'educació primària i secundaria, la reducció de la mortalitat infantil, l'extensió de la sanitat pública. La proporció de la humanitat amb accès a educació bàsica ha passat del 10-20% el 1900 a quasi el 100% avui. Tercera onada: la igualtat econòmica parcial. L'Estat del Benestar, la progressivitat fiscal, la reducció de la pobresa extrema global (de més del 80% el 1820 a menys del 10% avui). Cada onada ha estat el producte de lluites polítiques, no de forces automàtiques del mercat o de la tecnología. La lliçó per al present: la batalla per la igualtat és política, no técnica."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-06-01",
+          "style": "multiple-choice",
+          "question": "En 'Una Breu História de la Igualtat', Piketty argumenta que el progrés cap a la igualtat és el resultat de lluites polítiques, no de forces automàtiques del mercat o el creixement econòmic. Quin exemple históric il·lustra millor aquest argument?",
+          "options": [
+            "La Revolució Industrial, que va generar creixement econòmic que eventualment es va traduir en millors salaris per als treballadors",
+            "El sufragi femení, el New Deal o l'Estat del Benestar escandinau: avenços que van requerir moviments polítics actius i lluites contra les forces establertes, no simplement el creixement econòmic",
+            "La reducció de la pobresa extrema a la Xina, que va ser el resultat de la integració en el mercat global sense necessitat de redistribució interna",
+            "La difusió tecnológica d'internet, que ha democratitzat l'accés a la informació i el coneixement sense intervenció política"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Piketty usa exemples com el sufragi femení (que va requerir dècades de mobilització contra una resistència enorme), el New Deal (que va requerir la pressió del moviment obrer i el canvi polític de Roosevelt), i l'Estat del Benestar escandinau (producte de la negociació col·lectiva i els governs socialdemòcrates) per il·lustrar que els avenços cap a la igualtat no son automàtics ni inevitables — son el resultat de lluites polítiques que van guanyar contra les forces que s'hi oposaven. La lliçó: el progrés cap a la igualtat requereix un projecte polític actiu, no simplement esperar que el creixement econòmic el generi de forma natural.",
+          "feedbackWrong": "Piketty argumenta que els avenços cap a la igualtat son el resultat de lluites polítiques actives, no de forces automàtiques del mercat. Els exemples que il·lustren millor el seu argument son aquells on la resistència al canvi era forta i el canvi va requerir mobilització política explícita: moviment sufragista, moviment obrer, moviment per els drets civils. El creixement econòmic per si sol rarament ha generat igualtat sense pressió política."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pik-06-02",
+          "style": "true-false",
+          "question": "En 'Una Breu História de la Igualtat', Piketty abandona la seva preocupació per la desigualtat econòmica creixent i adopta una posició optimista que considera que els problemes actuals de concentració son menors.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Piketty no abandona la seva preocupació per la desigualtat creixent — simplement la posa en un context históric de llarg termini. La seva posició és que la tendència de dos segles és cap a la igualtat (en drets, educació, salut), però que la desigualtat econòmica creixent des dels anys 80 és un retrocés seriós en una d'aquelles dimensions que cal combatre activament. El missatge és alhora optimista (la igualtat ha progressat i pot progressar més) i urgent (les tendències actuals de concentració de la riquesa amenacen els avenços aconseguits). L'optimisme históric de llarg termini coexisteix amb la preocupació política de curt-mig termini.",
+          "feedbackWrong": "Piketty no abandona les seves preocupacions — les contextualitza. El missatge de 'Una Breu História de la Igualtat' no és que tot va bé, sinó que la igualtat ha progressat de forma real i que pot continuar progressant si hi ha un projecte polític adequat. La preocupació per la concentració creixent des dels anys 80 continua present, però ara en el context d'una tendència de llarg termini que és, en conjunt, cap a la igualtat."
+        },
+        {
+          "type": "reflection",
+          "question": "Has recorregut l'obra de Piketty des de les dades sobre la concentració fins a les propostes redistributives i l'optimisme de llarg termini. Quin aspecte del seu treball creus que és més valuós i quin és el més discutible? I creus que el seu diagnòstic sobre el fracàs de l'esquerra educada per representar les classes treballadores s'aplica al context polític del teu país?",
+          "prompt": "Pensa en el context polític que coneixes. Quin party o moviment político creus que s'aproxima més al que Piketty descriu com l'esquerra necessaria — la que combina redistribució econòmica real amb inclusió cultural? I quines coalicions polítiques creus que son realistas avui per avançar cap a una distribució de la riquesa menys concentrada?"
+        }
+      ]
+    }
+  ]
+}

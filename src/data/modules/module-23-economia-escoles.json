@@ -1,0 +1,377 @@
+{
+  "id": "module-23-economia-escoles",
+  "title": "Les Escoles en Conflicte: Liberals, Keynesians i Marxistes",
+  "emoji": "🔄",
+  "phase": 2,
+  "unlockRequires": "module-22-economia-historia",
+  "lessons": [
+    {
+      "id": "esc-01",
+      "title": "Per qué les escoles econòmiques no desapareixen: la persistència del desacord",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "En qualsevol altra disciplina científica madura, les teories refutades desapareixen. En economia, les mateixes teories ressorgeixen en formes lleugerament modificades cada vint o trenta anys. El keynesianisme va ser declarat mort pels neoliberals als anys 80; va ressorgir el 2008. El monetarisme de Friedman va triomfar als anys 80; va quedar en dubte quan les polítiques monetàries es van revelar insuficients el 2008. La teoria del lliure comerç absolut com a benefici per a tothom va guanyar el consens dels anys 90; va quedar qüestionada pel 'shock xinès' dels 2000 i el populisme dels 2010. Per qué les teories no moren definitivament en economia? La resposta revela quelcom fonamental sobre la naturalesa de la disciplina."
+        },
+        {
+          "type": "prediction",
+          "question": "En física, les teories equivocades s'abandonen quan les proves les refuten. En economia, les mateixes teories ressorgixen cada 20-30 anys. Qué creus que fa que les teories econòmiques siguin tan resistents a la refutació empírica?",
+          "hint": "Pensa en la diferència entre la física (on l'objecte d'estudi no llegeix les teories sobre ell) i l'economia (on els actors canvien de comportament quan canvien les polítiques)."
+        },
+        {
+          "type": "key-idea",
+          "text": "Les escoles econòmiques persisteixen perquè combinen afirmacions empíriques (verificables però difícils de testar) amb compromisos normatius (valors sobre la llibertat, la igualtat, l'eficiència) que no es poden refutar empíricament. Una teoria que falla empíricament pot sobreviure si el seu nucle de valors continua ressonant amb grups socials poderosos que la financien i promouen."
+        },
+        {
+          "type": "expandable",
+          "label": "El problema dels valors amagats: per qué l'economia no pot ser neutral",
+          "content": "Tota teoria econòmica amaga compromisos de valor que no s'anuncien com a tals. Quan un economista neoclàssic diu que un mercat és 'eficient', implícitament accepta que la distribució de la riquesa existent és legítima (perquè l'eficiència es mesura respecte a les preferències dels individus, ponderades per la seva riquesa). Quan un keynesià diu que cal 'estabilitzar l'economia', prioritza implícitament l'ocupació sobre la estabilitat de preus (un valor que els creditors prefereixen per sobre dels deutors). Quan un economista marxista parla de 'plusvàlua', assumeix que tot el valor és producte del treball (una premissa filosòfica, no empírica). El filòsof de l'economia Hausman i el premi Nobel Sen han argumentat que l'economia no pot separar-se de l'ètica: triar quines variables mesurar, quines externalitats comptar, quins horitzons temporals usar i quines distribucions son acceptables son decisions normatives incrustades en cada model."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-01-01",
+          "style": "multiple-choice",
+          "question": "Dos economistes tenen les mateixes dades sobre l'efecte d'una reducció de l'impost de societats i arriben a conclusions oposades. Un diu que estimula la inversió i el creixement; l'altre, que augmenta la desigualtat sense benefici net. Com és possible que ambdós siguin rigorosos?",
+          "options": [
+            "Impossible: amb les mateixes dades, un anàlisi rigorós ha d'arribar a la mateixa conclusió",
+            "Perquè usen models amb supòsits normatius i metodologies d'estimació diferentes que reflecteixen prioritats de valor distintes sobre eficiència, distribució i horitzons temporals",
+            "Perquè un d'ells ha comès un error de càlcul que no ha identificat",
+            "Perquè les dades econòmiques son inherentment ambigues i cap anàlisi pot ser rigorós"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. En economia, les dades rarament parlen soles. La interpretació depèn del model usat (quines variables s'inclouen, quins supòsits sobre el comportament dels agents), de la metodologia d'estimació (que pot generar resultats molt diferents de les mateixes dades), i dels criteris de benestar usats (si la reducció de la desigualtat val menys o més que el creixement agregat del PIB). Dos economistes rigorosos amb les mateixes dades poden arribar a conclusions oposades perquè fan eleccions metodològiques i normatives diferentes. Reconèixer això no és relativisme — és honestitat sobre la naturalesa de la disciplina.",
+          "feedbackWrong": "En economia, conclusions oposades de les mateixes dades no impliquen que un d'ells s'equivoqui necessàriament. Los models econòmics incorporen supòsits (sobre comportament dels agents, sobre causalitat, sobre que variables son rellevants) i criteris de benestar (eficiència vs. distribució, curt vs. llarg termini) que els economistes rigorosos poden triar de forma diferent. La discrepància és sovint sobre els supòsits i els valors del model, no sobre les dades en si."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-01-02",
+          "style": "true-false",
+          "question": "El consens entre economistes professionals garanteix que una política econòmica és la correcta, ja que reflecteix el millor coneixement científic disponible.",
+          "correct": false,
+          "feedbackCorrect": "Fals. El consens entre economistes és útil com a indicador però no garanteix la correcció. Primer, els economistes professionals son un grup socialment i culturalment homogeni (la major part formats en un petit nombre d'universitats d'elit, majoritàriament anglosaxones) que pot tenir biaixos sistemàtics. Segon, el consens s'ha equivocat de forma costosa en moments clau: el consens sobre la liberalització financera als anys 90 va contribuir a la crisi del 2008; el consens sobre els baixos multiplicadors fiscals va portar a polítiques d'austeritat excessivament severes a Europa. Tercer, el consens reflecteix parcialment l'accés al finançament i als premis i reconeixements, que estan distribuïts de forma no neutral. El consens científic ha de pesar-se però no ha de substituit el judici crític.",
+          "feedbackWrong": "El consens econòmic s'ha equivocat de forma important en moments clau (liberalització financera, multiplicadors fiscals). No és que el consens no tingui valor — té molt — però no garanteix la correcció. La homogeneïtat de la formació dels economistes professionals, el finançament selectiu de la recerca i la dificultat de fer experiments controlats fan que el consens econòmic hagi de tractar-se amb esperit crític, no com a veritat científica definitiva."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-esc-01-01",
+          "question": "Si les escoles econòmiques combinen afirmacions empíriques i compromisos de valor, i si els economistes professionals son un grup homogeni amb biaixos sistemàtics, com pot un no-economista avaluar les recomanacions de política econòmica que rebi?",
+          "options": [
+            "No pot: cal confiar en els experts perquè l'economia és massa complexa per a un no-especialista",
+            "Pot aprendre les eines bàsiques i aplicar pensament crític: identificar els supòsits del model, preguntar qui es beneficia de cada política, comparar les prediccions amb l'evidència histórica",
+            "Pot ignorar els economistes i confiar en el sentit comú: l'economia és en última instància sentit comú aplicat"
+          ],
+          "correct": 1,
+          "explanation": "La posició A és el tecnocratisme: deixa-ho als experts. Té el risc de cedir el poder de decisió democràtica a un grup professional amb biaixos propis. La posició C és el populisme epistemòlogic: el sentit comú és suficient. Té el risc de caure en fal·làcies econòmiques bàsiques (el mercantilisme, la fal·làcia de la composició, ignorar les externalitats) que la teoria econòmica ha demostrat ser equivocades. La posició B és la més equilibrada i és la que justifica l'educació econòmica per a tots els ciutadans: no per convertir-los en economistes, sinó per donar-los les eines per fer les preguntes adequades. Les preguntes clau que un ciutadà crític hauria de fer davant qualsevol recomanació de política econòmica: Quins supòsits fa el model? Qui es beneficia i qui perd amb aquesta política? Quina és l'evidència empírica? Quines altres polítiques s'han provat i amb quins resultats? Hi ha conflicte d'interessos en qui fa la recomanació? Amb aquestes preguntes, un no-economista pot avaluar de forma crítica i informada les recomanacions polítiques que rebi."
+        }
+      ]
+    },
+    {
+      "id": "esc-02",
+      "title": "L'escola neoclàssica: el paradigma dominant",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La immensa majoria dels economistes formats en les universitats del món en les darreres cinc dècades han après el mateix programa bàsic: l'equilibri general, la maximització de la utilitat, els mercats competitius, l'eficiència paretiana. Aquest programa — l'economia neoclàssica — és tan dominant que sovint no s'anuncia com una 'escola' sinó simplement com 'l'economia'. Però va tenir uns orígens històrics concrets (Jevons, Menger i Walras als anys 1870), uns supòsits específics (agents racionals, mercats en equilibri, informació perfecta) i unes limitacions ben documentades. Entendre el paradigma dominant és el primer pas per avaluar les seves alternatives."
+        },
+        {
+          "type": "prediction",
+          "question": "L'economia neoclàssica usa el supòsit de 'l'homo economicus' — un agent perfectament racional que maximitza la seva utilitat. Tots sabem que no som així. Per qué creus que l'economia acadèmica ha mantingut aquest supòsit irrealista durant tant de temps?",
+          "hint": "Pensa en els avantatges matemàtics i predictius d'un supòsit simple encara que sigui fals, vs. la complexitat de modelar la irracionalitat humana."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'escola neoclàssica és el paradigma dominant de l'economia acadèmica: estudia com agents racionals que maximitzen la utilitat prenen decisions en mercats que tendeixen a l'equilibri. Té un rigor matemàtic enorme i ha generat moltes eines útils. Les seves limitacions principals: els supòsits de racionalitat i equilibri que rarament es compleixen en la realitat, i la dificultat d'incorporar la distribució, el poder i les institucions en els seus models."
+        },
+        {
+          "type": "quote",
+          "text": "Els economistes s'han posat tasques massa fàcils si en èpoques turbulentes sols ens diuen que quan la tempesta passi, el mar estarà tranquil.",
+          "author": "John Maynard Keynes — adaptació per descriure el mainstream neoclàssic davant la crisi del 2008"
+        },
+        {
+          "type": "misconception",
+          "belief": "L'economia neoclàssica és l'única econòmia científica, mentre que les escoles alternatives (marxisme, institucionalisme, postkeynesianisme) son ideologies polítiques disfressades de ciència.",
+          "reality": "L'economia neoclàssica té els seus propis supòsits normatius incorporats (la sobirania del consumidor, l'eficiència de Pareto, la legitimitat de la distribució de mercat existent) que no son neutrals ni objectius. Totes les escoles econòmiques combinen anàlisi i valors. La diferència és que el mainstream els fa menys visibles presentant-los com a 'ciència'.",
+          "why": "El domini acadèmic i institucional de l'economia neoclàssica fa que els seus supòsits semblin naturals i les seves conclusions semblin objectives, quan son tan normatives com les de les escoles alternatives."
+        },
+        {
+          "type": "expandable",
+          "label": "L'eficiència de Pareto i els seus límits",
+          "content": "El criteri d'eficiència de Pareto diu que una situació econòmica és 'eficient' si no és possible millorar el benestar d'algú sense empitjorar el d'algú altre. Un mercat perfectament competitiu arriba a un equilibri que és eficient en el sentit de Pareto. Però el criteri de Pareto té una limitació fonamental: és compatible amb distribucions extremadament desiguals. Una situació on una persona té tot i la resta no té res pot ser 'eficient de Pareto' si no és possible donar-ne a la resta sense treure-li a l'una. El criteri ignora completament la distribució. Per avaluar si una distribució és justa o desitjable, cal un criteri normatiu addicional que la teoria neoclàssica bàsica no proporciona. El filòsof John Rawls va argumentar que el criteri correcte no és Pareto sinó el màxim del mínima (maximitzar el benestar del pitjor situat), que donaria resultats molt més redistributius."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-02-01",
+          "style": "multiple-choice",
+          "question": "L'economia neoclàssica assumeix que els agents son 'racionals', maximitzen la seva utilitat, i que els mercats tendeixen a l'equilibri. Per qué és tan útil treballar amb supòsits que sabem que son irreals?",
+          "options": [
+            "No és útil: els models amb supòsits irreals no generen prediccions útils i haurien de ser abandonats",
+            "Perquè els supòsits simplificats son 'bones aproximacions' que permeten fer prediccions útils en molts contextos, com la física usa 'esferes en el buit' per fer prediccions en contextos reals",
+            "Perquè els supòsits de racionalitat son en realitat correctes: els humans, en conjunt i al llarg del temps, actuen de forma aproximadament racional",
+            "Perquè faciliten el tractament matemàtic i l'elegància formal, que son objectius en si mateixos de la teoria econòmica"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Milton Friedman va defensar el 'instrumentalisme metodològic': no cal que els supòsits siguin realistes si el model fa prediccions útils. La física newtoniania suposa 'esferes en el buit' (sense fricció, sense resistència de l'aire) i és útilíssima per a la majoria d'aplicacions pràctiques malgrat que cap esfera real es comporta així. De forma similar, l'homo economicus 'perfectament racional' pot ser una bona aproximació per a molts fenòmens de mercat agregats (com el consumidor representatiu o l'empresa que maximitza beneficis en un sector competitiu) malgrat que cap individu real es comporti exactament així. El problema ve quan s'apliquen supòsits de racionalitat en contextos on les desviacions son sistemàtiques i importants (mercats financers, decisions de salut, comportament electoral).",
+          "feedbackWrong": "L'argument per usar supòsits simplificats malgrat saber que son irreals és instrumental: si el model genera prediccions útils, els supòsits serveixen com a bones aproximacions, no com a descripcions literals de la realitat. És el 'instrumentalisme metodológic' de Friedman. El problema es produeix quan els supòsits son tan distants de la realitat en el context analitzat que les prediccions del model fallen sistemàticament."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-02-02",
+          "style": "detect-error",
+          "statement": "L'escola neoclàssica és la teoria econòmica objectiva i científica, mentre que les altres escoles (marxisme, institucionalisme) son ideologies disfressades de ciència.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació reprodueix un biaix de confirmació molt comú entre els defensors del mainstream econòmic. L'escola neoclàssica té els seus propis compromisos normatius incorporats: la sobirania del consumidor (les preferències individuals son inqüestionables), el mercats com a asignadors legítims (la distribució de mercat és el punt de partida), l'eficiència de Pareto com a criteri de benestar (que ignora la distribució), i la tendència a l'equilibri (que marginalitza el conflicte i el poder). Cap d'aquests compromisos és 'neutral' o 'objectiu' — son eleccions metodològiques i normatives que avantagen certes preguntes i certes polítiques per sobre d'altres. Totes les escoles econòmiques combinen anàlisi empírica i compromisos normatius — la diferència no és que una sigui 'ciència' i les altres 'ideologia', sinó que cada escola fa visibles unes dimensions de la realitat i n'invisibilitza d'altres."
+        },
+        {
+          "type": "debate",
+          "question": "La crisi del 2008 va mostrar que molts models neoclàssics usats per gestionar el risc financer eren defectuosos: assumien mercats eficients i distribucions normals quan la realitat mostrava 'cues grasses' i crisis sistèmiques. Creus que la professió econòmica ha après prou d'aquesta fallida?",
+          "positionA": {
+            "label": "La professió ha après suficient",
+            "argument": "Des del 2008, l'economia ha integrat elements d'economia del comportament, models d'inestabilitat financera (Minsky), i ha augmentat l'atenció als factors macroprudencials. El FMI va reconèixer els errors sobre els multiplicadors. La regulació financera s'ha millorat. L'economia és una ciència que aprèn, no d'un cop, sinó gradualment."
+          },
+          "positionB": {
+            "label": "La professió no ha canviat prou",
+            "argument": "El core dels programes de doctorat en economia segueix bàsicament igual que el 2007. Els models DSGE que van fallar el 2008 s'han millorat lleument però no reemplaçat. Les mateixes institucions (FMI, BCE, bancs centrals) que van fallar segueixen dominades pels mateixos paradigmes. Les veus crítiques (postkeynesians, institucionalistes) segueixen marginades del corrent principal."
+          },
+          "reflection": "Quin canvi creus que seria més important fer en la manera com s'ensenya l'economia per preparar millor els seus estudiants per als problemes reals?",
+          "context": "La crisi del 2008 va generar un debat intens sobre la reforma de l'ensenyament de l'economia. El moviment 'Rethinking Economics' i la 'CORE Economics' (l'iniciativa de crear un nou manual introductori d'economia que inclogui desigualtat, sostenibilitat i comportament) son exemples de respostes dins de la professió."
+        }
+      ]
+    },
+    {
+      "id": "esc-03",
+      "title": "L'escola austríaca: la tradició de Mises i Hayek",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Viena, principis del segle XX. Un grup d'economistes — Carl Menger, Ludwig von Mises, Friedrich Hayek — van desenvolupar una tradició econòmica que divergia radicalment de l'economia matemàtica que es construïa simultàniament a Cambridge i París. On els neoclàssics buscaven equilbri i optimació matemàtica, els austríacs emfasitzaven la subjectivitat del valor, la ignorància inevitable dels agents econòmics, el rol del temps i de la incertesa, i la impossibilitat de la planificació central. La seva influència va ser marginal durant dècades — però Hayek va guanyar el Nobel el 1974 i va influir directament en Thatcher. Avui, l'escola austríaca és la tradició intel·lectual del libertarisme economic."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'escola austríaca es distingeix per tres contribucions: la teoria subjectiva del valor (el valor no és una propietat objectiva dels béns sinó una avaluació subjectiva de l'individu), la crítica al socialisme (Mises va argumentar que la planificació central era impossible per manca d'informació de preus), i la teoria dels cicles econòmics (el crèdit barat crea bombolles que inevitablement esclaten). La seva metodologia rebutja l'econometria i prefereix el raonament deductiu a priori (la 'praxeologia')."
+        },
+        {
+          "type": "expandable",
+          "label": "El debat sobre el càlcul socialista: la gran controvèrsia del segle XX",
+          "content": "Al 1920, Ludwig von Mises va publicar un article que va generar un dels debats més importants de l'economia del segle XX: 'El càlcul econòmic en la comunitat socialista'. L'argument: en una economia socialista sense propietat privada dels mitjans de producció, no hi pot haver preus de mercat per al capital. Sense preus del capital, els planificadors no poden calcular quin és l'ús més eficient dels recursos. La planificació racional és impossible. L'economista socialista Oskar Lange va respondre: els planificadors podien simular els preus de mercat establint preus per prova i error. L'economia planificada soviètica va demostrar que Mises tenia raó en els seus aspectes essencials: sense preus de mercat, l'assignació eficient és extremadament difícil. Però el debat no estava tancat: les economies mixtes i els mercats regulats suggerians que la dicotomia mercat pur/planificació total era falsa. L'economia moderna de la informació (IA, Big Data) ha reobert la pregunta sobre si la tecnologia moderna pot fer viable alguna forma de planificació que Mises considerava impossible."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-03-01",
+          "style": "multiple-choice",
+          "question": "La teoria austríaca dels cicles econòmics atribueix les recessiones principalment a quin factor?",
+          "options": [
+            "La insuficiència de demanda agregada causada per un excés d'estalvi del sector privat",
+            "El crèdit excessivament barat (tipos baixos) que genera inversions insostenibles que inevitablement col·lapsen quan els tipus pugen o la bombolla es pinxa",
+            "Les polítiques fiscals imprudents dels governs que acumulen deute excessiu",
+            "Les disrupcions tecnològiques que destruixen sectors sencers de l'economia"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La teoria austríaca dels cicles (Mises-Hayek) argumenta que les ressions son el purgament inevitable de les males inversions (malinvestment) creades durant el boom artificial. Quan els bancs centrals mantenen tipus d'interès per sota del nivell 'natural', el crèdit és massa barat i els emprenedors fan inversions que no serien rendibles amb uns tipus d'interès que reflectissin correctament la preferència temporal dels estalviadors. Quan els tipus pugen o la liquiditat s'assexi, les inversions artificials col·lapsen. La recessió és, per als austríacs, necessàia i beneficiosa: purga les males inversions del boom. La implicació política: no cal estimular l'economia en recessió — cal deixar que el mercat elimini les inversions insostenibles.",
+          "feedbackWrong": "L'explicació austríaca dels cicles no se centra en la demanda insuficient (resposta keynesiana) sinó en les males inversions generades pel crèdit barat. Quan els bancs centrals mantenen tipus artificialmente baixos, es fan inversions que no serien rendibles amb tipus 'naturals'. El boom artificial acaba en recessió quan la insostenibilitat es revela. La implicació política austríaca: no estimular en recessió (que prolongaria les males inversions) sinó deixar que el mercat les elimini."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-03-02",
+          "style": "true-false",
+          "question": "L'escola austríaca rebutja l'ús de models matemàtics i estadística econòmica perquè considera que l'economia humana no és susceptible de quantificació formal.",
+          "correct": true,
+          "feedbackCorrect": "Cert. La 'praxeologia' — la metodologia proposada per Ludwig von Mises — argumenta que les lleis econòmiques son deductibles a priori de l'axioma de l'acció humana (que els humans actuen de forma orientada a objectius), sense necessitat de validació estadística. Per als austríacs, l'econometria no pot establir relacions causals en economia perquè les condicions econòmiques no es poden repetir de forma controlada (cada observació és única). Hayek va ser especialment crític de l'ús de models matemàtics en economia, argumentant que creaven una 'pretensió de coneixement' sobre sistemes massa complexos per ser modelitzats formalment. Aquesta posició metodológica és un dels aspectes de l'escola austríaca que la separa més profundament de la mainstream econòmica.",
+          "feedbackWrong": "Cert — i és un dels aspectes més distintius de l'escola austríaca. La seva metodologia praxeológica de Mises argumenta que les lleis econòmiques son deductibles a priori, sense necessitat d'estadística. Hayek va ser explícitament crític de la modelització matemàtica en economia, argumentant que creava una il·lusió de precisió sobre sistemes inherentment complexos i canviants. Aquesta posició els separa radicalment de la mainstream econòmica."
+        },
+        {
+          "type": "debate",
+          "question": "L'escola austríaca argumenta que tota intervenció estatal en l'economia (regulació, subvencions, banca central) genera distorsions que acaben en crisis. L'experiència del New Deal, l'Estat del benestar escandinau i les polítiques post-2008 suggereixen que la intervenció pot estabilitzar. Quin és el teu judici sobre la crítica austríaca a la intervenció estatal?",
+          "positionA": {
+            "label": "La crítica austríaca és fonamentalment correcta",
+            "argument": "Les intervencions generen efectes no desitjats que els seus defensors no anticipen. El crèdit barat dels anys 2000 (política de la Fed) va generar la bombolla immobiliàra. Els subsidis agrícoles generen sobreproducció i destrueixen mercats als països en desenvolupament. Cada intervenció genera demanda de noves intervencions per corregir els seus efectes. La simplicitat del mercat lliure és superior a la complexitat impredictible de la intervenció."
+          },
+          "positionB": {
+            "label": "La crítica austríaca sobreestima els mercats",
+            "argument": "Els austríacs confien en un mercat lliure que no existeix sense un Estat fort que faci complir els contractes, defineixi els drets de propietat i gestioni les externalitats. La crisi del 2008 va ser causada per la desregulació financera, no per l'excés de regulació. Els Períodes sense intervenció estatal (el segle XIX) van tenir crisis recurrents molt pitjors que les de l'era keynesiana. L'Estat no és la causa de totes les crisis — és sovint la solució."
+          },
+          "reflection": "La tensió entre la crítica austríaca i la defensa keynesiana de la intervenció és en última instancia una tensió entre la fe en els mercats i la fe en la capacitat de l'Estat per millorar-los. Quina de les dues creus que és més justificada per l'evidència histórica?",
+          "context": "L'escola austríaca té una influència desproporcionada sobre el moviment libertari i conservador als EUA (el Tea Party, part del moviment Republican), i ha influït en la política del Banc Central dels anys 80-90. La seva crítica al QE post-2008 com a 'creació artificial de bombolles' ha resultat parcialment profètica amb la inflació del 2021-22."
+        }
+      ]
+    },
+    {
+      "id": "esc-04",
+      "title": "L'escola institucionalista i el poder en l'economia",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1899, Thorstein Veblen, un economista americà d'origen noruec, va publicar 'La Teoria de la Classe Ociosa'. Argumentava que el consum visible (comprar béns costosos per demostrar estatus, no per la seva utilitat funcional) era el motor de gran part de la demanda econòmica. Les dames ocioses de la classe alta americana no compraven roba cara perquè els fes calor millor — la compraven per demostrar que els seus marits podien permetre's el luxe. 'Consum conspicu', en va dir. Cent anys després, la indústria del luxe és un dels sectors més dinàmics de l'economia global, i la idea de Veblen que la motivació del consum no és sols la utilitat funcional sinó el reconeixement social és el fonament de bona part del màrqueting modern."
+        },
+        {
+          "type": "prediction",
+          "question": "Veblen va observar que les dames de la classe alta americana compraven roba cara no per la seva utilitat sinó per demostrar l'estatus del seu marit. Creus que el 'consum conspicu' és menys present avui que al 1899, o s'ha simplement transformat en noves formes?",
+          "hint": "Pensa en els smartphones d'última generació, els cotxes de luxe, les marques de roba visible, les vacances a llocs exclusius. Qué demostren?"
+        },
+        {
+          "type": "key-idea",
+          "text": "L'escola institucionalista (Veblen, Commons, Galbraith, Polanyi, Acemoglu i Robinson en versions modernes) argumenta que l'economia no pot entendre's sense les institucions — les regles formals i informals que estructuren les interaccions econòmiques — i sense el poder — la capacitat d'alguns actors d'influir en les regles del joc al seu favor. Les institucions no son simplement el marc neutral del mercat sinó el resultat de lluites de poder que reflecteixen interessos de classe."
+        },
+        {
+          "type": "quote",
+          "text": "Digueu-me qui finança una teoria econòmica i us diré a qui beneficia.",
+          "author": "Joan Robinson, economista postkeynesiana (1903-1983)"
+        },
+        {
+          "type": "expandable",
+          "label": "Acemoglu i Robinson: per qué fracassen les nacions",
+          "content": "El 2012, Daron Acemoglu i James Robinson van publicar 'Per qué fracassen les nacions', potser el llibre d'economia política més influent de la dècada. La tesi central: la diferència entre països rics i pobres no es determina principalment per la geografia, la cultura o els recursos naturals, sinó per les institucions polítiques i econòmiques. Les institucions 'inclusives' (que distribuïen el poder i les oportunitats entre molta gent, com les de les democràcies liberals) generen prosperitat. Les institucions 'extractives' (que concentren el poder en una elit que extreu riquesa de la majoria) generen pobresa. I les institucions son persistents perquè les elits que se'n beneficien les defensen activament. La implicació: no hi ha 'receptes tècniques' de política econòmica que funcionin en tots els contextos — el que importa és el canvi institucional, que és un procés polític, no tècnic."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-04-01",
+          "style": "multiple-choice",
+          "question": "Karl Polanyi va argumentar que els mercats no son naturals ni espontanis sinó que son creacions deliberades de l'Estat. Qué volia dir exactament?",
+          "options": [
+            "Que tots els mercats son il·legítims perquè han estat imposats per l'Estat als treballadors",
+            "Que les condicions que fan possible un mercat (drets de propietat, contractes executables, moneda, infraestructura) son el resultat de decisions polítiques i legals, no del 'lliure joc' espontani de les forces naturals",
+            "Que els governs planifiquen secretament tots els preus de mercat per garantir la seva estabilitat",
+            "Que els mercats no existirien sense la regulació activa de l'Estat en tot moment"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'argument de Polanyi a 'La Gran Transformació' (1944) és que l'economia de mercat moderna no sorgeix espontàniament de la naturalesa humana sinó que va ser construïda deliberadament per l'Estat a través d'una llarga sèrie de decisions legislatives i polítiques: la creació dels drets de propietat moderns (les enclosures que van destruir els comuns i van crear el proletariat), la creació de mercats laborals (el treball com a mercaderia), el sistema monetari, i la infraestructura que fa el comerç possible. Un mercat 'lliure' requereix un Estat fort que el faci funcionar. La idea que l'Estat i el mercat son oposats és falsa: el mercat modern és una creació de l'Estat.",
+          "feedbackWrong": "L'argument de Polanyi no és sobre la il·legitimitat dels mercats ni sobre la planificació dels preus. És sobre l'origen institucional del mercat: els mercats moderns (amb drets de propietat clars, contractes executables per la justícia, moneda estable, infraestructura de comunicació) son creacions deliberades de l'Estat, no el resultat espontani de la naturalesa humana. La ficció del 'mercat natural' sense Estat és, per a Polanyi, una mistificació ideológica."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-04-02",
+          "style": "detect-error",
+          "statement": "L'escola institucionalista argumenta que les institucions son simplement regles neutrals del joc que permeten als mercats funcionar de forma eficient, sense reflectir cap relació de poder o interès de classe.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació descriu el contrari del que argumenta l'escola institucionalista. La contribució central de l'institucionalisme (de Veblen a Acemoglu) és precisament que les institucions no son neutres — son el resultat de lluites de poder i reflecteixen els interessos dels grups socials amb més capacitat d'influir en el disseny de les regles. Les institucions extractives (que concentren el poder i la riquesa en una elit) son instituïdes i mantingudes per les elits que se'n beneficien. Les institucions inclusives (que distribuïxen el poder i les oportunitats) son el resultat de lluites polítiques de grups que han aconseguit desafiar les elits. Les regles del mercat (drets de propietat, lleis laborals, regulació financera) no son tècnicament 'neutres' — reflecteixen quin grup ha tingut més poder en el moment en que es van dissenyar."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-esc-04-01",
+          "question": "L'institucionalisme argumenta que les institucions (incloent les lleis, els contractes, les normes) son producte de relacions de poder i reflecteixen els interessos dels poderosos. Si és cert, quin espai queda per a la reforma institucional progressiva dins del sistema existent?",
+          "options": [
+            "Cap espai: si les institucions reflecteixen el poder, sol el canvi radical del sistema pot generar institucions genuïnament igualitàries",
+            "Molt espai: la história mostra que les institucions canvien gradualment per la pressió de grups que desafien les elits (moviment obrer, moviment per els drets civils, moviment feminista)",
+            "Espai limitat: les reformes incrementals son possibles però tendiran a ser reabsorbides i domesticades per les elits si no van acompanyades d'un canvi en l'estructura del poder"
+          ],
+          "correct": 1,
+          "explanation": "La posició A és el pessimisme revolucionari: les institucions son tan capturades pels poderosos que sols la ruptura radical pot canviar-les. Té suport en alguns casos (la Revolució Francesa, la Revolució Russa) però ignora els nombrosos casos de reforma gradual exitosa. La posició C és el reformisme limitat: els canvis institucionals son possibles però la tendència és a ser reabsorbits. Té suport en la història de com moltes reformes laborals van ser revertides quan les correlacions de força canviaven. La posició B és la que la história comparativa suporta millor: hi ha nombrosos exemples d'institucions que han canviat substancialment per la pressió organitzada de grups que han construït poder polític suficient. El vot femení, els drets laborals, la regulació antimonopoli dels principis del XX, els sistemes de Seguretat Social — totes son reformes institucionals majors que han canviat la distribució del poder i la riquesa. El punt clau de l'institucionalisme no és que el canvi sigui impossible sinó que és sempre un procés polític (de construcció de poder i coalicions) i no simplement tècnic (de 'millors polítiques')."
+        }
+      ]
+    },
+    {
+      "id": "esc-05",
+      "title": "L'economia postkeynesiana i la teoria monetària moderna",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2019, la senadora americana Alexandria Ocasio-Cortez va mencionar la Teoria Monetaria Moderna (TMM) en una entrevista i va desencadenar un torrent de respostes furioses d'economistes de tota l'espectre polític. Larry Summers va dir que era 'una de les idees econòmiques més perilloses dels darrers anys'. Paul Krugman va dir que era parcialment correcta però mal aplicada. Ben Bernanke la va criticar. Però la TMM no havia sortit del no-res: tenia arrels en Keynes, en Abba Lerner i en la tradició postkeynesiana de Minsky i Davidson. El seu moment de popularitat va coincidir amb un entorn de tipus propers a zero on les polítiques convencionals semblaven exhaurides."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'economia postkeynesiana i la Teoria Monetaria Moderna (TMM) comparteixen el focus en la demanda efectiva, la incertesa radical (el futur és genuïnament desconegut, no simplement probable), la naturalesa endògena dels diners (els bancs comercials creen diners quan fan préstecs), i el rol actiu de l'Estat en garantir l'ocupació plena. La TMM afegeix que els governs emissors de moneda pròpia no estan pressupostàriament restringits de la mateixa forma que les llars o les empreses."
+        },
+        {
+          "type": "expandable",
+          "label": "La incertesa radical de Keynes vs. el risc calculable dels neoclàssics",
+          "content": "Keynes feia una distinció que els seus successors neoclàssics (els 'keynesians bastarditzats', en paraules de Joan Robinson) van oblidar: la diferència entre risc i incertesa. El risc és quan no saps el resultat però saps la distribució de probabilitats (com llançar un dau). La incertesa és quan no saps ni quins resultats son possibles ni quines probabilitats els corresponen. La majoria de les decisions empresarials importants involucren incertesa genuïna, no risc calculable. Quan un empresari decideix construir una nova fàbrica, no pot calcular la probabilitat de tots els esdeveniments futurs rellevants — hi ha massa variables desconegudes. Les decisions en condicions d'incertesa genuïna s'han de basar en 'animals spirits' (confiança, optimisme, conventions socials) que son inherentment volàtils i propensos als canvis sobtats d'humor. Quan la confiança s'enfonsa, la inversió s'atura sense que les polítiques de tipus d'interès puguin fer-hi gran cosa. Aquesta és la base de la critica postkeynesiana als models de bancs centrals que suposen que els agents calculen racionalment en condicions de risc."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-05-01",
+          "style": "multiple-choice",
+          "question": "La Teoria Monetaria Moderna afirma que per a un govern que emet la seva pròpia moneda, la restricció pressupostaria no és el dèficit sinó la inflació. Quina és la implicació de política econòmica d'aquesta afirmació?",
+          "options": [
+            "Que els governs poden gastar sense límit perquè poden crear diners il·limitadament sense consequències",
+            "Que el veritable límit de la despesa pública no és el finançament (que un govern sobirà sempre pot obtenir creant diners) sinó la capacitat real de l'economia: si es gasta per sobre de la capacitat productiva real, el resultat és inflació",
+            "Que els bancs centrals haurien de finançar directament tota la despesa dels governs eliminant el mercat de deute públic",
+            "Que els impostos son innecessaris perquè el govern pot finançar-se creant diners"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La TMM no diu que un govern pugui gastar sense límit — diu que el límit no és financer (un govern sobirà sempre pot crear la seva moneda per pagar deutes en la seva moneda) sinó real: la capacitat productiva de l'economia. Si l'economia opera a ple empreu i l'Estat gasta més, la demanda addicional genera inflació perquè no hi ha capacitat real per satisfer-la. Si l'economia opera amb capacitat ociosa (atur, fàbriques parades), pot gastar més sense inflació. La implicació política: en lloc de preguntar 'com paguem això?' (sempre hi ha resposta per a un govern sobirà), la pregunta rellevant és '¿l'economia té capacitat real per produir el que volem gastar?' Si sí, no hi ha perill inflacionari. Si no, cal finansar la despesa nova retallant altra despesa o augmentant impostos per extreure demanda privada.",
+          "feedbackWrong": "La TMM no elimina els límits de la despesa pública — els redefineix. El límit no és el finançament monetari (sempre disponible per a un govern sobirà) sinó la capacitat real de l'economia: gastar per sobre de la capacitat productiva real genera inflació. Els impostos seguien sent necessaris en la TMM, però la seva funció principal no és finançar la despesa (que el govern pot fer igualment) sinó reduir la demanda privada per crear espai per a la demanda pública sense inflació."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-05-02",
+          "style": "detect-error",
+          "statement": "La Teoria Monetaria Moderna és una teoria radical i nova, sense precedents en el pensament econòmic anterior.",
+          "isCorrect": false,
+          "feedbackExplanation": "La TMM no és ni completament nova ni sense precedents. Té arrels en múltiples tradicions anteriors: la 'finança funcional' d'Abba Lerner (1943), que ja argumentava que el pressupost públic hauria de ser gestionat pels seus efectes sobre l'economia i no per principis de 'prudència' comptable; la tradició postkeynesiana de Hyman Minsky sobre la inestabilitat financera; la teoria cartalista de la moneda (la moneda com a creació de l'Estat, no del mercat), que remunta al seu origen al treball de Georg Friedrich Knapp (1905); i elements del pensament de Keynes sobre la naturalesa endògena dels diners. La TMM ha sistematitzat i popularitzat idees que existien en la literatura econòmica heterodoxa des de fa dècades. El que sí és relativament nou és la seva popularitat pública i la seva influència en el debat de política fiscal als EUA en els darrers anys."
+        },
+        {
+          "type": "debate",
+          "question": "La TMM proposa un 'Job Guarantee' (garantia de feina): l'Estat oferiria un treball a un salari mínim a tothom que el volgués, actuant com a 'empleador d'últim recurs'. Seria una eina efectiva per eliminar l'atur involuntari, o generaria ineficiències i inflació insostenibles?",
+          "positionA": {
+            "label": "El Job Guarantee és una política sensata",
+            "argument": "Eliminar l'atur involuntari és un objectiu legítim i tècnicament assolible. El Job Guarantee estableix un pis de salari i condicions que el mercat ha de superar per atreure treballadors. Elimina el patiment humà de l'atur. I com que l'Estat contracta en recessió i acomia en expansió (quan el sector privat absorbeix els treballadors), és automàticament anticíclic. L'experiència de programes similars (el NREGA a l'Índia) mostra resultats positius."
+          },
+          "positionB": {
+            "label": "El Job Guarantee generaria ineficiències insostenibles",
+            "argument": "Un Estat que garanteix feina a tothom a qualsevol cost crea incentius per a la ineficiència: les empreses privades no podran competir amb un empleador que no ha de rendir beneficis. El salari de reserva que fixa el Job Guarantee pot fer pujar tots els salaris de l'economia de forma inflacionaria. I la capacitat de l'Estat per gestionar milions de treballadors de forma productiva és empíricament dubtosa."
+          },
+          "reflection": "La pandèmia va veure una versió limitada del Job Guarantee via els ERTOs i les ajudes directes a empreses per mantenir l'ocupació. Quins efectes van tenir? Aprens alguna cosa sobre la viabilitat del Job Guarantee del seu funcionament?",
+          "context": "El Job Guarantee és la proposta de política econòmica central de la TMM, defensada per Stephanie Kelton (autora de 'El mite del dèficit') i Pavlina Tcherneva. Ha tingut influència en propostes com el Green New Deal als EUA, que incloïa elements d'aquest concepte."
+        }
+      ]
+    },
+    {
+      "id": "esc-06",
+      "title": "L'economia feminista i l'economia ecológica: fronteres crítiques",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1995, les Nacions Unides van publicar una estadística que va sacsejar el món del benestar: si es comptabilitzàs el treball de cura no remunerat (cuinar, netejar, cuidar infants i gent gran, gestionar la llar) al preu de mercat dels serveis equivalents, el seu valor equivaldria entre el 10 i el 50% del PIB de la majoria de països. I aquell treball era realitzat en una proporció de 3 a 1 per dones. L'economia dominant no comptava aquell treball — no apareixia al PIB. L'economia feminista va fer la pregunta incòmoda: per qué l'economia 'oficial' es construïa sobre el treball no pagat de les dones com si fos un recurs il·limitat i gratuït?"
+        },
+        {
+          "type": "prediction",
+          "question": "L'economia ecologica argumenta que el creixement indefinit és incompatible amb els límits del planeta. Però sense creixement, com es paguen les pensions, el deute públic i els serveis socials que depenen d'una economia en expansió? Creus que hi ha una sortida a aquesta contradicció?",
+          "hint": "Pensa en la diferència entre creixement del PIB (que inclou moltes activitats destructives) i creixement del benestar real (que podria augmentar sense destrucció ecologica)."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'economia feminista i l'economia ecológica son dues crítiques fonamentals a l'economia dominant que qüestionen els seus fonaments: l'economia feminista demostra que l'economia formal es construeix sobre el treball de cura no remunerat (majoritàriament femení) que no compta als models convencionals. L'economia ecológica demostra que l'economia humana es construeix sobre serveis ecosistèmics (l'estabilitat del clima, la biodiversitat, la fertilitat del sòl) que tampoc compten als models convencionals."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Desigualtat: Causes, Efectes i Redistribució",
+          "moduleEmoji": "⚖️",
+          "concept": "Economia feminista i mesura del benestar",
+          "text": "L'economia feminista que has vist en aquesta lliçó connecta directament amb el debat sobre la mesura del benestar del mòdul de desigualtat: si el treball de cura no remunerat no compta al PIB, les estadístiques de desigualtat subestimen sistemàticament la càrrega que suporten les dones de classe baixa. Una economia que mesura bé el benestar ha d'incloure el treball de cura."
+        },
+        {
+          "type": "expandable",
+          "label": "Kate Raworth i l'Economia de la Rosquilla: un marc alternatiu",
+          "content": "L'economista Kate Raworth va proposar el 2017 un marc conceptual que intenta integrar les crítiques feminista i ecológica: l'Economia de la Rosquilla. La rosquilla té dos límits: un llindar social intern (el mínim que tothom necessita per viure amb dignitat: aliment, habitatge, salut, educació, ingressos, veu política, connexions socials) i un sostre ecológic extern (els límits planetaris que no podem superar: emissiones de CO₂, biodiversitat, cicle de nitrogen, ús de l'aigua). L'objectiu de l'economia hauria de ser mantenir la humanitat en l'espai interior de la rosquilla: per sobre del llindar social i per sota del sostre ecológic. Cap dels dos límits és opcional, i els models de creixement indefinit tendixen a superar el sostre ecológic sense garantir el llindar social per a tothom. El marc ha tingut una influència creixent: Amsterdam va adoptar-lo com a marc de planificació urbana el 2020."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-06-01",
+          "style": "multiple-choice",
+          "question": "L'economia feminista argumenta que el PIB infravalora sistemàticament el treball de les dones. Quin és el mecanisme concret d'aquesta infravaloració?",
+          "options": [
+            "Que les empreses paguen a les dones menys que als homes per la mateixa feina, i com que el PIB es calcula amb preus de mercat, el treball femení apareix amb menys valor",
+            "Que el treball de cura no remunerat (cuidar fills i persones grans, gestionar la llar) no s'inclou al PIB malgrat generar benestar real i ser la condició que fa possible tot el treball remunerat",
+            "Que les estadístiques del PIB son calculades per homes que inconscientemente exclouen sectors dominats per dones",
+            "Que les professions femenines (infermeria, educació) estan sistematicamente subvalorades als mercats de treball, cosa que fa que el PIB infravalori la seva contribució"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El mecanisme principal d'infravaloració no és de preus de mercat sinó d'inclusió: el PIB mesura el valor de la producció de béns i serveis que s'intercanvien en el mercat. El treball de cura no remunerat — cuidar fills, cuinar, netejar, cuidar persones grans — no s'intercanvia en el mercat i per tant no apareix al PIB. Però aquest treball és la condició de possibilitat de tot el treball remunerat: sense qui cuidi els infants i les persones grans, cap treballador pot anar a la feina. L'economia feminista ha calculat que si es valora al preu de mercat dels serveis equivalents (guarderies, serveis domèstics), el treball de cura no remunerat representa entre el 10 i el 50% del PIB de la majoria de països — i és realitzat desproporcionadament per dones.",
+          "feedbackWrong": "El problema principal no és la bretxa salarial (que és un problema real però diferent) sinó la invisibilitat: el treball de cura no remunerat no apareix al PIB perquè no passa pel mercat. I com que el PIB és la mesura principal de l'activitat econòmica, el treball de cura — i qui el fa, principalment dones — és invisible per a l'economia oficial. L'economia feminista ha demostrat que aquesta invisibilitat no és un accident sinó una elecció metodológica amb conseqüències polítiques."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-esc-06-02",
+          "style": "detect-error",
+          "statement": "L'economia ecológica simplement afegeix el medi ambient com un factor més a considerar en el model econòmic estàndard, sense qüestionar els fonaments de l'economia neoclàssica.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'economia ecológica no és simplement 'economia verda' que afegeix el medi ambient als models existents. La seva crítica és més fonamental: l'economia neoclàssica tracta el capital natural (ecosistemes, recursos, capacitat d'absorció de carboni) com si fos substituïble per capital creat per l'home (tecnologia, maquinaria). L'economia ecológica argumenta que aquesta substituïbilitat és falsa per a molts béns ecosistèmics: no pots substituir la biodiversitat o el clima estable amb màquines. Això implica que el creixement econòmic indefinit (que suposa que sempre hi ha substituts tecnológics per als recursos esgotats) pot no ser viable, i que l'objectiu de maximitzar el PIB és incoherent com a objectiu de política econòmica quan el planeta opera ja a la seva capacitat. Aquesta és una crítica als fonaments del model, no una extensió."
+        },
+        {
+          "type": "reflection",
+          "question": "Has recorregut les principals escoles econòmiques: neoclàssica, austríaca, keynesiana, postkeynesiana, institucionalista, feminista i ecológica. Cada escola fa visibles dimensions de la realitat econòmica que les altres ignoren o marginalitzen. Quin creus que és l'element més important que l'economia dominant invisibilitza i que hauria d'incorporar amb més urgència? I quin economista o escola creus que planteja les preguntes més rellevants per als problemes del teu temps?",
+          "prompt": "No has de triar una sola escola — les millors anàlisis combinen elements de diverses tradicions. Pensa en els problemes economics que creus que son més urgents (desigualtat, clima, treball, habitatge) i en quina escola proporciona les millors eines per abordar-los."
+        }
+      ]
+    }
+  ]
+}

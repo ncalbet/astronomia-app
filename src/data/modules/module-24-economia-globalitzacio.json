@@ -1,0 +1,430 @@
+{
+  "id": "module-24-economia-globalitzacio",
+  "title": "Globalització i el Capitalisme del Segle XXI",
+  "emoji": "🌐",
+  "phase": 2,
+  "unlockRequires": "module-22-economia-historia",
+  "lessons": [
+    {
+      "id": "glo-01",
+      "title": "Què és la globalització i quantes vegades ha passat",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1913, el món estava més globalitzat del que no tornaria a estar fins als anys 80. Les finances britàniques finançaven ferrocarrils argentins. Els treballadors italians emigraven en massa als EUA. El comerç mundial com a percentatge del PIB global era quasi tan alt com avui. Llavors van arribar la Primera Guerra Mundial, el proteccionisme dels anys 20, la Gran Depressió i la Segona Guerra Mundial. En trenta anys, la primera globalització havia col·lapsat completament. La lliçó: la globalització no és un destí inevitable ni irreversible. És un procés que requereix condicions polítiques específiques per funcionar i que pot desfer-se ràpidament quan les condicions canvien."
+        },
+        {
+          "type": "prediction",
+          "question": "El 1913, el món estava tan globalitzat com avui. Trenta anys després, la globalització havia col·lapsat completament per guerres i proteccionisme. Creus que la globalització actual podria col·lapsar de forma similar? Quins son els senyals d'advertència que veus?",
+          "hint": "Pensa en les tensions EUA-Xina, en el Brexit, en el COVID i les disrupcions de les cadenes de subministrament, en el populisme."
+        },
+        {
+          "type": "key-idea",
+          "text": "La globalització és la intensificació de les connexions econòmiques, financeres, culturals i polítiques entre països. La historia moderna n'ha tingut almenys dues onades: la primera (1870-1914) i la segona (1945 i especialment 1990-avui). Cap de les dues era inevitable: totes dues van ser producte de decisions polítiques concretes sobre aranzel, capital i migració."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1870-1914",
+              "title": "Primera globalització",
+              "text": "Comerç lliure britànic, patró or, migració massiva cap a les Amèriques. Inversions colonials. Interconnexió financera sense precedents."
+            },
+            {
+              "year": "1914-1945",
+              "title": "Desglobalització",
+              "text": "Guerres mundials, proteccionisme (Smoot-Hawley, 1930), controls de capital, desintegració del sistema financer internacional."
+            },
+            {
+              "year": "1945-1973",
+              "title": "Globalització gestionada (Bretton Woods)",
+              "text": "Comerç creixent però capitals controlats. FMI, Banc Mundial, GATT. El compromís entre mercat i Estat del benestar."
+            },
+            {
+              "year": "1973-1990",
+              "title": "Liberalització financera progressiva",
+              "text": "Fi de Bretton Woods, liberalització dels mercats de capitals, auge del neoliberalisme."
+            },
+            {
+              "year": "1990-2008",
+              "title": "Hiperglobalització",
+              "text": "Caiguda del Mur de Berlín, entrada de la Xina a l'OMC, cadenes de valor globals, internet. El pic de la globalització."
+            },
+            {
+              "year": "2008-avui",
+              "title": "Slowbalisation i reversió parcial",
+              "text": "Crisi financera, populisme, COVID, guerra a Ucraïna, tensions EUA-Xina. El comerç creix menys; les cadenes de subministrament es reorganitzen."
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "El trilema de Rodrik: per qué no pots tenir-ho tot alhora",
+          "content": "L'economista Dani Rodrik va formular el 2011 el que ha anomenat el 'trilema de la globalització': hi ha tres objectius que no es poden assolir simultàniament tots tres: integració econòmica global profunda (mercats completament oberts), sobirania democràtica nacional (els governs electes poden triar les seves polítiques econòmiques), i l'Estat nació (els estats individuals com a unitat política). Pots tenir dos dels tres però no tots tres. Si vols integració global profunda i sobirania democràtica, necessites un govern mundial (sacrifiques l'Estat nació). Si vols integració global profunda i l'Estat nació, has d'acceptar que els governs nacionals no poden regular el capital ni el treball (sacrifiques la sobirania democràtica efectiva). Si vols sobirania democràtica i l'Estat nació, has de limitar la integració global (com Bretton Woods, que controlava els moviments de capital). El trilema explica la tensió central de la política econòmica des dels anys 90: la hiperglobalització ha erosionat la sobirania democràtica dels estats nació, i la reacció populista és el reflex polític d'aquesta erosió."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-01-01",
+          "style": "multiple-choice",
+          "question": "El sistema de Bretton Woods (1944-1971) permetia el comerç internacional creixent però mantenia controls sobre els moviments de capital. Per qué aquest disseny va ser deliberadament triat per seus arquitectes (Keynes i White)?",
+          "options": [
+            "Perquè la tecnologia de la comunicació no permetia transferències de capital ràpides entre països",
+            "Perquè els capitals lliures erosionaven la capacitat dels governs de mantenir tipus de canvi estables i polítiques econòmiques nacionals autònomes, generant les crisis de la dècada dels 30",
+            "Perquè els EUA volien mantenir el monopoli del capital financer internacional per garantir el domini del dòlar",
+            "Perquè el capital lliure afavoria els països pobres en detriment dels rics, i els països rics volien limitar-ne el flux"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Keynes i Harry Dexter White, els arquitectes de Bretton Woods, havien viscut les crisis dels anys 30, quan els moviments especulatius de capital havien forçat governs a defensar les seves monedes pujant els tipus d'interès en plena depressió, aprofundint la crisi. El lliure moviment de capitals elimina l'autonomia de la política econòmica nacional: si els capitals poden fugir lliurement, el govern no pot mantenir tipus d'interès inferiors als que el mercat internacional exigeix sense patir fugides de capital. Bretton Woods va triar conscientemente limitar els moviments de capital per preservar l'espai de política econòmica nacional. La liberalització dels anys 70-80 va invertir aquesta prioritat.",
+          "feedbackWrong": "La decisió de controlar els moviments de capital a Bretton Woods va ser deliberada i basada en la lliçó dels anys 30: el capital especulatiu lliure erosionava l'autonomia de la política econòmica nacional i forçava els governs a polítiques pro-cícliques en crisis. Keynes creia que els moviments de capital especulatiu eren destabilitzadors i que calia controlar-los per preservar la sobirania democràtica sobre la política econòmica."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-01-02",
+          "style": "detect-error",
+          "statement": "La globalització econòmica és un procés natural i inevitable impulsat per la tecnologia, que cap govern no pot ni ha d'intentar limitar.",
+          "isCorrect": false,
+          "feedbackExplanation": "Dues afirmacions problemàtiques. Primer, la globalització no és 'natural ni inevitable' — és el producte de decisions polítiques concretes sobre aranzels, regulació del capital, tractats comercials i normes migratòries. La desglobalització del 1914-1945 va demostrar que el procés pot revertir-se ràpidament. La tecnologia facilita la globalització però no la determina — les decisions polítiques sobre com regular el comerç i el capital son igualment determinants. Segon, dir que 'cap govern no hauria d'intentar limitar-la' és un judici normatiu molt fort, no una afirmació empírica. El trilemma de Rodrik mostra que la integració global profunda és incompatible amb la sobirania democràtica plena. Si una societat vol poder triar les seves polítiques econòmiques de forma autònoma, ha d'acceptar limitacions a la integració global."
+        },
+        {
+          "type": "debate",
+          "question": "La primera globalització (1870-1914) va col·lapsar el 1914 per causes polítiques. La segona globalització actual mostra signes de desacceleració (Brexit, Trump, COVID, tensió EUA-Xina). Creus que la globalització actual és sostenible, o estem al principi d'una nova desglobalització?",
+          "positionA": {
+            "label": "La globalització és estructuralment reversible",
+            "argument": "La história mostra que la globalització no és irreversible. Les forces polítiques que l'han desafiat (populisme, proteccionisme, nacionalisme econòmic) son similars a les dels anys 20-30. La concentració dels guanys en pocs i la distribució dels costos en molts crea inevitablement una backlash política. Les cadenes de valor globals mostren fragilitat (COVID, crisis dels xips). Ens dirigim vers una 'slowbalisation' o fins i tot una desglobalització parcial."
+          },
+          "positionB": {
+            "label": "La globalització és massa profunda per revertir-se",
+            "argument": "La interconnexió actual és molt més profunda que la del 1913: les cadenes de valor globals integren les economies de forma que seria enormement costós desfer. La digitalització és inherentment global. Les grans economies (EUA, UE, Xina, Índia) son massa interdependents per trencar els vincles econòmics sense un cost prohibitiu. La 'desglobalització' actual és una reorganització, no un col·lapse."
+          },
+          "reflection": "Les tensions geopolítiques EUA-Xina i la guerra a Ucraïna han accelerat el que alguns anomenen 'friendshoring' (reorganitzar les cadenes de subministrament entre aliats geopolítics). Creus que la geopolítica acabarà fragmentant l'economia global?",
+          "context": "El debat sobre la sostenibilitat de la globalització és un dels més actius de l'economia política internacional. Dani Rodrik ('La Paradoxa de la Globalització') i Richard Baldwin ('The Great Convergence') representen visions molt diferentes sobre la seva trajectòria futura."
+        }
+      ]
+    },
+    {
+      "id": "glo-02",
+      "title": "Cadenes de valor globals: el món interconnectat i fràgil",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Un iPhone Apple es dissenya a Califòrnia, usa xips fabricats a Taiwan (TSMC), un processador ARM dissenyat al Regne Unit, memòria coreana (Samsung), vidre americà (Corning), terres rares xineses, i s'assembla a les fàbriques de Foxconn a la Xina. El preu de venda és uns 1.000€. Apple rep uns 350€ de marge brut. Foxconn, que fa la part més intensiva en treball, rep uns 8€ per telèfon. La distribució del valor al llarg d'una cadena global revela qui captura la riquesa de la globalització i qui se'n beneficia menys."
+        },
+        {
+          "type": "key-idea",
+          "text": "Les cadenes de valor globals (CVG) son el tret definitiu de la globalització contemporània: la producció d'un sol bé es fragmenta en múltiples etapes repartides en molts països, cada un especialitzat en la tasca on té avantatge comparatiu. Les CVG han estat el motor del creixement de les economies emergents però han concentrat el valor afegit alt (disseny, marca, tecnologia) als països rics i el valor afegit baix (manufactura, assemblatge) als països de salaris baixos."
+        },
+        {
+          "type": "expandable",
+          "label": "El somriure de la cadena de valor: per qué el disseny i la marca valen més que la fàbrica",
+          "content": "L'economista Shih Stan va proposar la imatge del 'somriure de la cadena de valor': si es dibuixa el valor afegit per etapes en la producció d'un bé, la forma resultant és un somriure. A l'esquerra del somriure (pre-producció): recerca, disseny, propietat intel·lectual, marca — activitats d'alt valor afegit dominades pels països rics. Al centre (producció): manufactura, assemblatge — activitats de baix valor afegit, desplaçades als països de salaris baixos. A la dreta (post-producció): màrqueting, distribució, servei postvenda, gestió de plataforma — de nou, alt valor afegit als països rics. Apple, Nike i IKEA son exemples perfectes del somriure: la seva major part del valor és al disseny, la marca i la distribució, no a la manufactura. La Xina, que fabrica la majoria dels productes d'aquestes empreses, rep una fracció petita del valor final. La implicació per al desenvolupament econòmic: pujar de posició en les cadenes de valor (des del centre al braç dret o esquerra del somriure) requereix acumular capacitats d'innovació, branding i distribució, que son molt més difícils d'adquirir que la manufactura."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-02-01",
+          "style": "multiple-choice",
+          "question": "La pandèmia del COVID-19 va revelar la vulnerabilitat de les cadenes de valor globals. Quina lliçó principal n'han extret moltes empreses i governs?",
+          "options": [
+            "Que cal eliminar completament les cadenes de valor globals i retornar a la producció nacional per a tots els béns estratègics",
+            "Que cal diversificar les fonts de subministrament i mantenir estocs de seguretat per als components crítics, reduint la dependència de proveïdors únics i regions específiques",
+            "Que la globalització era un error i que el proteccionisme era la política correcta des del principi",
+            "Que les cadenes de valor globals son essencialment sòlides i que la pandèmia era un xoc excepcional que no canvia el model bàsic"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La crisi del COVID va revelar la fragilitat del model 'just-in-time' (zero estocs, proveïdors únics, optimitzat per l'eficiència) quan es produïxen disrupcions en punts crítics de la cadena. La resposta dominant no ha estat la desglobalització total sinó la 'resiliència': diversificar fonts de subministrament (reduir la dependència d'un sol país per a components crítics), mantenir alguns estocs de seguretat, reduir la longitud de les cadenes per als béns més estratègics (semiconductors, medicaments, equipament mèdic), i afavorir el 'friendshoring' (relocalitzar producció en aliats geopolítics). La lògica ja no és maximitzar l'eficiència a qualsevol cost sinó optimitzar entre eficiència i resiliència.",
+          "feedbackWrong": "La conclusió dominant no va ser la desglobalització total ni la confirmació de la solidesa del model. Va ser la necessitat de 'resiliència': diversificar proveïdors, mantenir estocs de seguretat per als components crítics i reduir la dependència de punts únics de fallida. El model canvia de l'optimització pura de l'eficiència a l'optimització entre eficiència i resiliència."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-02-02",
+          "style": "true-false",
+          "question": "El comerç internacional modern es mesura principalment en termes de béns finals (cotxes acabats, roba, electrònica), igual que al segle XIX.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Una de les característiques definitives de la globalització contemporània és que una proporció creixent del comerç internacional son béns intermedis (components, peces, materials processats) que formen part de les cadenes de valor globals. Richard Baldwin ha argumentat que la globalització del segle XX va ser sobre comerç de béns finals (fàbriques nacionals que exportaven productes acabats). La globalització del segle XXI és sobre la fragmentació de la producció: un cotxe pot cruzar diverses fronteres en forma de components abans de ser ensamblat com a producte final. Aproximadament el 70% del comerç mundial actual inclou béns intermedis o serveis de cadena de valor. Mesurar el comerç en béns finals exagera els desequilibris bilaterals (el dèficit comercial dels EUA amb la Xina és molt menor si es mesura en valor afegit nacional, no en valor final dels productes).",
+          "feedbackWrong": "El comerç modern és dominat per béns intermedis (components, materials, serveis) que circulen entre les etapes de les cadenes de valor globals, no per béns finals. Aproximadament el 70% del comerç mundial actual inclou béns intermedis. Quan els EUA diuen tenir un dèficit comercial enorme amb la Xina, part d'aquell 'dèficit' reflecteix components d'altres països que han passat per la Xina per ser assemblats."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-glo-02-01",
+          "question": "Les cadenes de valor globals han permès a molts països en desenvolupament créixer ràpidament integrant-se com a productors de manufactura barata. Però el 'somriure de la cadena de valor' mostra que el valor afegit alt continua concentrat als països rics. Pot un país en desenvolupament escalar des de la manufactura baixa al disseny i la innovació, o la estructura de les CVG perpetua la jerarquia global?",
+          "options": [
+            "Pot escalar: la Corea del Sud, Taiwan i la Xina han demostrat que la industrialització via CVG pot portar a la tecnologia punta",
+            "Les CVG perpetuen la jerarquia: les empreses líder dels països rics controlen la propietat intel·lectual, les marques i les plataformes, i bloquejen l'escal dels proveïdors",
+            "Depèn de la política industrial: sense un Estat que protegeixi i promogui sectors estratègics (com va fer Corea del Sud o Xina), les forces de mercat soles tendixen a fixar els països en les posicions de baix valor afegit"
+          ],
+          "correct": 2,
+          "explanation": "La posició A té evidència empírica: Corea del Sud (Samsung, Hyundai, SK Hynix) i Taiwan (TSMC, ASUS, Acer) van escalar des de la manufactura d'imitació fins a la innovació de frontera tecnológica. La Xina avança ràpidament en sectors com la IA, les renovables i els vehicles elèctrics. La posició B té evidència diferent: molts països que s'han integrat en CVG com a manufacturadors de baix cost (Bangla Desh en tèxtil, molts africans en manufactura lleugera) no han aconseguit escalar després de dècades. Les empreses líder protegeixen activament la seva posició al cim del somriure via patents, marques i control de plataformes. La posició C és la que la literatura sobre política industrial comparativa (Alice Amsden, Ha-Joon Chang, Mariana Mazzucato) defensa amb més força: l'escal en les CVG no és automàtic i requereix política industrial activa — protecció temporal de sectors emergents, inversió pública en R+D, formació de capital humà, i a vegades la violació deliberada de les normes de propietat intel·lectual (com va fer Japó als anys 60 o Corea als 70). Sense política industrial, les forces de mercat tendixen a mantenir els països en les posicions on ja tenen avantatge comparatiu, que al principi és la manufactura intensiva en treball."
+        }
+      ]
+    },
+    {
+      "id": "glo-03",
+      "title": "El capitalisme financer: quan els diners fan diners",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1980, el sector financer dels EUA representava el 4% dels beneficis empresarials totals del país. El 2007, representava el 40%. En aquells vint-i-set anys, el sector financer havia crescut fins a ser deu vegades més gran relativament. No havia crescut perquè finançàs deu vegades més inversió productiva — havia crescut perquè creava productes financers que compraven i venien altres productes financers, generant comissions en cada transacció. L'economista lord Adair Turner va dir que molt del sector financer modern no era 'socialment útil'. Era l'apogeu del que alguns anomenen 'financiarització': el capital fent diners sense passar per la producció real."
+        },
+        {
+          "type": "prediction",
+          "question": "El 1980, el sector financer dels EUA representava el 4% dels beneficis empresarials totals. El 2007, representava el 40%. Qué creus que explica aquest creixement descomunal? I creus que genera un valor real per a l'economia o simplement extreu valor del sector productiu?",
+          "hint": "Pensa en la diferència entre el sector financer que finança la inversió productiva (inversió real) i el que simplement compra i ven actius financers existents (circulació de riquesa existent)."
+        },
+        {
+          "type": "key-idea",
+          "text": "La financiarització és el procés pel qual el sector financer (bancs, asseguradores, mercats de capitals, hedge funds) ha crescut enormement en mida, beneficis i influència política en relació a l'economia real. Ha tingut conseqüències profundes: ha reorientat les empreses des de la inversió a llarg termini cap a la maximització del valor per als accionistes a curt termini, ha concentrat la riquesa en els tenidors d'actius financers i ha augmentat la fragilitat del sistema econòmic."
+        },
+        {
+          "type": "misconception",
+          "belief": "El sector financer gran és signe d'una economia desenvolupada i sofisticada que assigna eficientment el capital.",
+          "reality": "A partir d'un cert tamany, el creixement del sector financer pot ser contraproduent per a l'economia real: desvia talent humà altament qualificat cap a activitats de redistribució (no creació) de riquesa, genera inestabilitat sistèmica i orienta les empreses cap a la maximització del valor borsàtil a curt termini en lloc de la inversió productiva a llarg termini.",
+          "why": "El sector financer ha construït una narrativa de la seva pròpia necessitat i sofisticació que ha sigut acceptada acríticament pels reguladors i economistes, fins que la crisi del 2008 va revelar quanta d'aquella activitat era socialment destructiva."
+        },
+        {
+          "type": "expandable",
+          "label": "El valor per a l'accionista: com una idea va canviar el capitalisme",
+          "content": "Fins als anys 70, les grans corporaciones americanes eren gestionades per directius professionals que equilibraven els interessos dels accionistes, els treballadors, els clients i les comunitats. El 1970, Milton Friedman va publicar un article al New York Times que va canviar aquesta cultura: l'única responsabilitat social de l'empresa és augmentar els seus beneficis. Als anys 80, la doctrina del 'shareholder value' (valor per a l'accionista) es va imposar a les grans corporaciones: directors executius avaluats i compensats principalment per la cotització borsàtil a curt termini; recompra massiva de les pròpies accions per pujar el valor (buybacks); externalització, retallades i deslocalitzacions per augmentar el marge a curt termini; reducció de la inversió a llarg termini. El resultat: beneficis empresarials rècord i salaris estancats; empreses menys capaces d'innovació a llarg termini però molt eficients en distribuir valor als seus accionistes. El 2019, la Business Roundtable (associació de grans empreses americanes) va redefinir formalment el propòsit de l'empresa per incloure tots els grups d'interès (stakeholders), no sols els accionistes — un reconeixement que el model shareholder value havia anat massa lluny."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-03-01",
+          "style": "multiple-choice",
+          "question": "La financiarització ha reorientat les decisions de les grans corporaciones. Quin efecte concret ha tingut sobre la inversió productiva a llarg termini?",
+          "options": [
+            "Ha augmentat la inversió productiva perquè les empreses cotitzades en borsa accedixen al capital a menor cost",
+            "Ha reduït la inversió productiva perquè la pressió per maximitzar beneficis a curt termini incentiva les recompres d'accions i les retallades en comptes de la inversió en R+D i capacitat productiva",
+            "No ha tingut efecte sobre la inversió productiva perquè els mercats de capitals allocen eficientment el capital on genera major retorn",
+            "Ha desplaçat la inversió productiva cap a les empreses no cotitzades (private equity) que no estan subjectes a la pressió dels mercats públics"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'evidència empírica mostra que les grans corporaciones americanes i britàniques han augmentat massivament les recompres de les pròpies accions (buybacks) i els dividends mentre reduïen la inversió en R+D i capacitat productiva com a proporció dels seus beneficis. Als EUA, els buybacks van superar el bilió de dòlars anuals en els anys previs a la pandèmia. La lògica: els CEOs compensats amb opcions d'accions maximitzen el valor de les seves opcions pujant la cotització via buybacks, que és molt més segur i ràpid que invertir en projetes d'innovació a llarg termini amb incertesa alta. El resultat agregat és una reducció de la inversió empresarial privada que explicaria part del feble creixement de la productivitat als països avançats des dels anys 2000.",
+          "feedbackWrong": "L'evidència empírica mostra l'invers: la financiarització ha reduït la inversió productiva a llarg termini. La pressió per maximitzar beneficis a curt termini incentiva els buybacks i els dividends (que pugen la cotització immediatament) sobre la inversió en R+D i capacitat productiva (que generen retorns incerts i lents). El feble creixement de la productivitat als països avançats des dels anys 2000 s'associa parcialment a aquesta reorientació de les prioritats empresarials."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-03-02",
+          "style": "detect-error",
+          "statement": "El creixement del sector financer en les darreres dècades reflecteix principalment la seva major eficiència en allocar el capital cap als usos més productius de l'economia.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és molt discutible. Si el sector financer allocava el capital de forma més eficient, esperaríem veure un augment del creixement de la productivitat i de la inversió productiva. El contrari s'ha observat: el sector financer ha crescut enormement mentre el creixement de la productivitat als països avançats s'ha alentit i la inversió productiva com a percentatge del PIB ha disminuït. Lord Adair Turner (ex-regulador financer britànic) va argumentar que gran part del creixement financer modern no és 'socialment útil': crea instruments financers complexos que es compren i venen entre actors financers sense afegir valor a l'economia real, generant comissions i beneficis per al sector financer però no necessàriament allocant millor el capital. La crisi del 2008, causada en part per instruments financers que no allocaven eficientment el risc sinó que el concentraven i amagaven, n'és la prova més evident."
+        },
+        {
+          "type": "debate",
+          "question": "La doctrina del 'shareholder value' (l'empresa ha de maximitzar el valor per als accionistes) va ser proposada per Friedman el 1970 i va dominar el capitalisme anglossaxó durant cinquanta anys. La Business Roundtable la va abandonar formalment el 2019. Creus que el capitalisme de stakeholders (que inclou treballadors, comunitats i medi ambient) és una millora real o és simplement un canvi d'imatge?",
+          "positionA": {
+            "label": "És una millora real i necessària",
+            "argument": "El shareholder value ha generat desigualtat creixent, infrainversió productiva i destrucció de capital social i ecológic. Incorporar els interessos dels treballadors, les comunitats i el medi ambient en el govern de les empreses és la resposta necessària a les externalitats que el capitalisme pur de mercat no incorpora. Empreses com Patagonia (que ha cedit la propietat a una fundació mediambiental) demostren que hi ha models alternatius viables."
+          },
+          "positionB": {
+            "label": "És principalment un canvi d'imatge",
+            "argument": "Mentre els CEOs siguin compensats principalment amb opcions d'accions lligades a la cotització borsàtil, els seus incentius seguiran sent maximitzar el shareholder value. El 'capitalisme de stakeholders' sense canvis en els mecanismes de govern corporatiu (estructura de la remuneració, representació dels treballadors en els consells) és una declaració de relaciones públiques, no un canvi real. Les mateixes empreses que van signar la declaració de la Business Roundtable han continuat fent recompres massives d'accions."
+          },
+          "reflection": "Alemanya té legalment la representació dels treballadors en els consells d'administració de les grans empreses (co-determinació o Mitbestimmung). Les empreses alemanyes han mantingut generalment una visió a més llarg termini i una distribució més equitativa. És la co-determinació un model transferible?",
+          "context": "El debat sobre el propòsit de l'empresa és un dels més importants de la política econòmica contemporània. Colin Mayer ('Prosperity'), Rebecca Henderson ('Reinventing Capitalism in a World on Fire') i Mariana Mazzucato ('The Value of Everything') representen posicions que van des de la reforma del govern corporatiu fins a una revisió més profunda del model capitalista."
+        }
+      ]
+    },
+    {
+      "id": "glo-04",
+      "title": "Els gigants tecnològics: plataformes, monopolis i poder al segle XXI",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2023, les cinc empreses més valuoses del món (Apple, Microsoft, Alphabet/Google, Amazon, Nvidia) eren totes americanes i totes tecnológiques. Juntes, valien més que els PIBs de la majoria de països. Per comparació, el 1980 les cinc empreses més valuoses eren tres petrolieres, un banc i IBM. El capital és el que sempre ha estat, però el tipus de capital que domina ha canviat radicalment: d'actius físics (pous de petroli, fàbriques) a actius intangibles (algoritmes, dades, patents, xarxes d'usuaris, marques). Aquesta transformació ha canviat profundament la naturalesa del capitalisme."
+        },
+        {
+          "type": "key-idea",
+          "text": "El capitalisme del segle XXI es caracteritza per la dominació dels actius intangibles (dades, algoritmes, propietat intel·lectual, efectes de xarxa) sobre els tangibles (maquinaria, fàbriques, recursos naturals). Els actius intangibles tendixen a generar economies d'escala sense límit i efectes de xarxa que concentren el mercat en pocs actors dominants, generant estructures de mercat molt menys competitives que les que assumia l'economia clàssica."
+        },
+        {
+          "type": "expandable",
+          "label": "Els efectes de xarxa: per qué el guanyador s'ho emporta quasi tot",
+          "content": "Un efecte de xarxa existeix quan el valor d'un producte o servei per a un usuari augmenta a mesura que augmenta el nombre d'altres usuaris. El telèfon és l'exemple clàssic: un sol telèfon al món val zero (no pots trucar a ningú); dos telèfons valen poc; un milió de telèfons valen molt. Facebook (ara Meta) és l'exemple contemporani: té valor per a tu principalment perquè els teus amics ja hi son. Quan les plataformes digitals tenen forts efectes de xarxa, tendixen a ser guanyador-s'ho-emporta-tot: el primer actor que assoleix una massa crítica d'usuaris és gairebé impossible de desplaçar perquè canviar de plataforma significa perdre la xarxa d'usuaris. Els efectes de xarxa, combinats amb els costos marginals propers a zero de la tecnologia digital, expliquen per qué Google, Facebook, Amazon i Apple dominen els seus mercats de forma quasi-monopolística malgrat no ser els millors productes tècnics en tots els casos."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-04-01",
+          "style": "multiple-choice",
+          "question": "Les dades s'han descrit com 'el petroli del segle XXI'. Quin aspecte concret fa que les dades siguin un actiu econòmic tan valuós per a les grans plataformes?",
+          "options": [
+            "Que les dades, com el petroli, s'esgoten amb l'ús i per tant son escasses i valuoses",
+            "Que les dades permeten entrenar models d'IA i personalitzar serveis de forma que genera avantatges competitius sostenibles: qui té més dades pot oferir serveis millors que generen més usuaris que generen més dades",
+            "Que les dades son difícils de recollir i per tant les empreses que les posseïxen poden cobrar preus alts als que les volen comprar",
+            "Que les dades, com el petroli, requerixen grans inversions d'infraestructura (servidors, centres de dades) que son una barrera d'entrada per als competidors"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. A diferència del petroli, les dades no s'esgoten amb l'ús — es poden usar infinitament sense consumir-se. El que les fa valuoses és el cicle de retroalimentació que generen: més dades permeten entrenar millors models d'IA i personalitzar millor els serveis, cosa que atrau més usuaris, que generen més dades. Google, Amazon i Netflix han construït avantatges competitius sostenibles parcialment basats en tenir molt més dades que qualsevol competidor potencial. Però l'analogia amb el petroli és imperfecta: les dades es poden usar per múltiples propòsits simultàniament (no hi ha rivalitat), la seva qualitat importa molt més que la quantitat pura, i la seva vida útil és limitada (les dades velles no son tan útils per entrenar models actuals).",
+          "feedbackWrong": "El valor econòmic de les dades ve principalment del cicle de retroalimentació: dades → millors models/serveis → més usuaris → més dades. No és l'escassetat ni el cost de recollida el que les fa valuoses, sinó la seva capacitat de generar avantatges competitius creixents a través del machine learning. Amazon sap qué compres, quan i per qué, i usa aquesta informació per fer millors recomanacions i per competir amb els seus propis venedors."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-04-02",
+          "style": "true-false",
+          "question": "Les grans plataformes tecnológiques (Google, Amazon, Facebook) son monopolis en el sentit econòmic clàssic perquè cobren preus molt alts als seus usuaris finals.",
+          "correct": false,
+          "feedbackCorrect": "Fals. El monopoli clàssic cobra preus per sobre del mercat competitiu. Les grans plataformes tecnológiques oferixen els seus serveis principals als usuaris finals de forma gratuïta (Google Search, Facebook, Gmail, WhatsApp). El seu model de negoci no és cobrar als usuaris finals sinó vendre l'atenció i les dades dels usuaris als anunciants. Aquí sí hi ha poder monopolístic: Google cobra preus per publicitat digital que son molt superiors als que cobraria en un mercat competitiu, i la seva quota de mercat li permet fer-ho. La regulació antimonopoli clàssica, dissenyada per a temps en que els monopolis cobraven preus alts als consumidors, s'adapta difícilment a plataformes que son 'gratuïtes' per als usuaris però molt rendibles via la publicitat.",
+          "feedbackWrong": "Les plataformes tecnológiques no cobren preus alts als usuaris finals — son gratuïtes. El seu poder monopolístic no es manifesta en preus alts als consumidors sinó en preus alts als anunciants (que paguen per accedir als usuaris captius), en les condicions imposades als venedors de les seves plataformes (Amazon cobra comissions altes als seus venedors), i en la seva capacitat d'eliminar competidors comprant-los o copiant-los. La regulació antimonopoli ha hagut d'adaptar-se a un model de mercat per al qual no estava dissenyada."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-glo-04-01",
+          "question": "Les grans plataformes tecnológiques (Google, Amazon, Meta, Apple, Microsoft) son americanes i cada cop més amenaçades per les xineses (Alibaba, Tencent, ByteDance/TikTok). La competència tecnológica EUA-Xina s'assembla a la competència industrial del passat, o és qualitativament diferent?",
+          "options": [
+            "És essencialment la mateixa competència industrial de sempre, simplement en sectors nous. La Xina fa el que Japó i Corea van fer: imita i aprèn fins que innova",
+            "És qualitativament diferent perquè les plataformes digitals son infraestructures de poder i vigilància, no simplement béns econòmics: qui controla les plataformes pot influir en l'opinió pública, la política i la seguretat global",
+            "Depèn de la tecnologia específica: en IA aplicada a productes de consum (semblant a la competència industrial clàssica); en IA per a infraestructures critiques i seguretat nacional, qualitativament diferent i amb implicacions geopolítiques úniques"
+          ],
+          "correct": 2,
+          "explanation": "La posició A captura elements reals: la Xina ha seguit un patró de 'catch-up' tecnológic similar (protecció del mercat intern, inversió estatal massiva en R+D, adquisició de tecnologia via jointventures) al que van fer Japó i Corea del Sud. En molts sectors (vehicles elèctrics, panells solars, IA aplicada a comerç electrònic), la competència és de naturalesa similar a la industrial clàssica. La posició B és la perspectiva de seguretat nacional que ha dominat la política dels governs occidentals: les plataformes de xarxes socials (TikTok) i les infraestructures de telecomunicació (Huawei/5G) no son simplement béns econòmics — son potencialment instruments d'influència i vigilancia. La posició C és la que permet la distinció analítica més útil: cal separar la competència econòmica tecnológica ordinaria (qui fa millors processadors o vehicles elèctrics, on la lògica comercial domina) de la competència en infraestructures digitals crítiques (xarxes 5G, plataformes de comunicació de massa, sistemes d'IA per a defensa), on la lògica geopolítica i de seguretat nacional justifica un tractament diferent."
+        }
+      ]
+    },
+    {
+      "id": "glo-05",
+      "title": "Paradisos fiscals i evasió: el capitalisme global sense regles",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2016, una filtració de documents del despatx de advocats panamanys Mossack Fonseca va revelar com milions de persones riques i empreses de tot el món usaven empreses pantalla a paradisos fiscals per ocultar riquesa i evitar impostos. Els Panama Papers van revelar caps d'Estat, celebrities i criminals tots usant el mateix sistema. Però el que les filtracions van mostrar no era simplement frau fiscal individual — era un sistema dissenyat i mantingut legalment per jurisdiccions senceres (les Illes Caiman, Luxemburg, Irlanda, els Països Baixos, Delaware als EUA) per atreure capital estranger oferint opacitat i impostos baixos o zero."
+        },
+        {
+          "type": "prediction",
+          "question": "Els paradisos fiscals son completament legals. Grans empreses com Apple i Google els usen sistemàticament. Si un accionista t'hagués de justificar per qué la seva empresa paga impostos quan pot no fer-ho legalment, qué creus que diria? I tu, qué li respondries?",
+          "hint": "Pensa en la diferència entre els deures legals i els morals d'una empresa, i en qui paga quan les grans empreses no ho fan."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els paradisos fiscals no son simplement llocs on els rics amaguen diners il·legalment: son jurisdiccions que han construït deliberadament models de negoci basats en oferir serveis financers i legals a capitals i empreses que volen minimitzar la seva càrrega fiscal i legal. Representen una competència a la baixa en impostos i regulació que erosiona la base fiscal de tots els governs i finança principalment les elits globals."
+        },
+        {
+          "type": "quote",
+          "text": "Els rics del món occidental paguen menys impostos sobre el seu patrimoni que les classes mitges. No és un error del sistema — és el disseny del sistema.",
+          "author": "Gabriel Zucman, La Riquesa Oculta de les Nacions (2015)"
+        },
+        {
+          "type": "expandable",
+          "label": "Com les multinacionals eviten pagar impostos legalment: el 'Double Irish' i similars",
+          "content": "Les grans corporaciones no necessiten recórrer als Panama Papers per evitar impostos — ho fan de forma completament legal a través de l'ingenieria fiscal. El 'Double Irish' (usat per Apple, Google i moltes altres fins que la UE el va prohibir el 2014) funcionava aproximadament així: una empresa irlandesa (A) tenia la llicència de la propietat intel·lectual. Una altra empresa irlandesa (B) gestionava les operacions europees i pagava royalties enormes a A per usar la propietat intel·lectual. A era resident fiscal als Bermudes (zero impostos). Resultat: tots els beneficis europeus s'evaporaven en forma de royalties cap a un paradís fiscal. Apple va arribar a tenir una filial 'resident a cap país' a efectes fiscals. La Comissió Europea va multar Apple amb 13.000 milions per ajudes d'Estat il·legals d'Irlanda. Apple va guanyar el cas en primera instancia. La complexitat il·lustra com el sistema fiscal internacional (dissenyat als anys 20 i 30 per a un món de fàbriques nacionals) és completament inadequat per a l'era de la propietat intel·lectual i les plataformes digitals."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-05-01",
+          "style": "multiple-choice",
+          "question": "L'OCDE va impulsar el 2021 un acord entre 140 països per establir un mínim global d'impost de societats del 15%. Quin és el problema principal d'un mínim global del 15% com a solució al problema dels paradisos fiscals?",
+          "options": [
+            "Que el 15% és massa alt i desincentiva la inversió empresarial i la creació d'ocupació",
+            "Que el 15% és molt baix comparar amb els tipus efectius que paguen les petites i mitjanes empreses nacionals (sovint 20-30%), i que les regles d'implementació permeten tantes excepcions que l'impacte real és limitat",
+            "Que cap país sobirà no pot ser forçat a aplicar-lo i per tant l'acord és purament decoratiu",
+            "Que el mínim global elimina la competència fiscal beneficiosa entre jurisdiccions que era la base de l'eficiència econòmica internacional"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'acord de mínim global del 15% és un pas important però té limitacions serioses. Primer, el 15% és molt per sota del tipus de societats que paguen les empreses nacionals petites i mitjanes a la majoria de països (25-30%), creant una asimetria que afavoreix les multinacionals. Segon, les regles d'implementació (el 'Pillar 2' de l'OCDE) permeten nombroses exempcions i deduccions que reduixen el tipus efectiu molt per sota del 15% en molts casos. Tercer, alguns paradisos fiscals (els Emirats Àrabs, Bahrain) no han signat l'acord. Quart, les normes per determinar 'on' s'ha de pagar l'impost (el problema del 'Pillar 1', la tributació de l'economia digital) seguia pendent d'acord final. L'acord ha avançat però la distància entre el 15% formal i el tipus efectiu real per a les grans multinacionals seguix sent enorme.",
+          "feedbackWrong": "El problema principal no és la coacció o la competència fiscal — és que el 15% és molt baix comparat amb el que paguen les empreses nacionals, i que les regles d'implementació permeten tantes excepcions que l'impacte real és molt menor del que el titular suggereix. Les empreses nacionals petites i mittanes paguen el doble o el triple del mínim global acordat per a les multinacionals."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-05-02",
+          "style": "detect-error",
+          "statement": "Els paradisos fiscals son un problema principalment per als països pobres, que perden recaptació fiscal que necessiten urgentment. Els països rics no en son significativament afectats.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és incorrecta. Els paradisos fiscals afecten molt significativament els països rics. Gabriel Zucman, en 'La Riquesa Oculta de les Nacions', ha estimat que aproximadament el 8% de la riquesa financera global de les llars (uns 8 bilions de dòlars) és en paradisos fiscals, privant els governs de tot el món d'unes 200.000 milions de dòlars anuals en recaptació fiscal. La major part d'aquesta riquesa pertany a residents de països rics (europeus i nord-americans). A més, l'erosió de la base fiscal de societats a través de l'enginyeria fiscal de les multinacionals és un problema especialment agut als EUA i Europa, on les grans tecnológiques (que en general paguen molt poc en impostos de societats en relació als seus beneficis europeus) generen la major part del seu negoci. La competència fiscal a la baixa afecta tots els països — els rics potser proporcionalment menys en termes relatius, però en termes absoluts perden enormes quantitats."
+        },
+        {
+          "type": "reflection",
+          "question": "Els paradisos fiscals son legals en el marc del dret internacional actual. Però erosionen la base fiscal de tots els governs i permeten que els rics paguin taxes efectives inferiors als treballadors. Creus que és moralment acceptable usar legalment els paradisos fiscals? I creus que la diferència entre evasió fiscal (il·legal) i optimització fiscal (legal) és moralment rellevant?",
+          "prompt": "Pensa en la distinció entre legalitat i moralitat. Un comportament pot ser legal i moralment questionable? En economia, on és la línia?"
+        }
+      ]
+    },
+    {
+      "id": "glo-06",
+      "title": "El futur del capitalisme: alternatives, reformes i incerteses",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2020, la pandèmia va forçar els governs del món a gastar bilions en temps de setmanes, els bancs centrals van crear diners a una escala sense precedents, i les fronteres que semblaven inviolables del 'consens de Washington' (dèficits, deute, intervencionisme) van caure amb sorprenent facilitat. Quan l'alternativa era el col·lapse econòmic, resultava que el que 'no es podia fer' era perfectament factible. La pandèmia va mostrar que el capitalisme contemporani és molt més flexible del que suggeria la retórica neoliberal. I va obrir la pregunta: si els governs poden mobilitzar recursos d'aquesta escala per una pandèmia, per qué no per al canvi climàtic, la desigualtat o la pobresa?"
+        },
+        {
+          "type": "key-idea",
+          "text": "El capitalisme contemporani no és un sistema fix i homogeni sinó un conjunt de formes diverses (capitalisme nòrdic, capitalisme anglosaxó, capitalisme d'Estat xinès, capitalisme renà alemany) que mostren que hi ha marges considerables de variació en com es pot organitzar una economia de mercat. El debat sobre el futur del capitalisme no és sols entre capitalisme i alternatives radicals, sinó entre les seves diverses formes possibles."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Les Escoles en Conflicte: Liberals, Keynesians i Marxistes",
+          "moduleEmoji": "🔄",
+          "concept": "Les varietats del capitalisme i les escoles de pensament",
+          "text": "Les varietats del capitalisme que has comparat en aquesta lliçó (liberal, coordinat, d'Estat) no son simplement models institucionals — cada una té les seves pròpies teories econòmiques de suport. El capitalisme anglosaxó s'inspira en l'economia neoclàssica i l'escola austríaca; el coordinat alemany s'acompanya d'institucionalisme; el d'Estat xinès té elements keinesians i marxistes. El mòdul sobre les escoles t'ajuda a veure les bases teòriques de cada model."
+        },
+        {
+          "type": "comparison",
+          "title": "Varietats del capitalisme: quatre models",
+          "labelA": "Capitalisme liberal de mercat (EUA, UK)",
+          "labelB": "Capitalisme coordinat (Alemanya, Escandinàvia)",
+          "items": [
+            {
+              "label": "Relació empreses-sindicats",
+              "a": "Adversarial; baixa sindicalització; salari individual",
+              "b": "Cooperativa; co-determinació; negociació sectorial"
+            },
+            {
+              "label": "Sistema financer",
+              "a": "Mercat de capitals dominant; finançament via borsa",
+              "b": "Banca relacional; finançament a llarg termini via bancs"
+            },
+            {
+              "label": "Formació professional",
+              "a": "Universitaria generalista; mobilitat alta",
+              "b": "Sistema dual (universitat + formació professional); estabilitat"
+            },
+            {
+              "label": "Estat del benestar",
+              "a": "Residual; orientat als més pobres",
+              "b": "Universal; orienta a tothom"
+            },
+            {
+              "label": "Innovació",
+              "a": "Radical (noves indústries, disrupció)",
+              "b": "Incremental (millora de productes existents, qualitat)"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-06-01",
+          "style": "multiple-choice",
+          "question": "El capitalisme d'Estat xinès combina propietat privada, mercats i un Estat que intervé fortament per orientar la inversió cap als sectors estratègics prioritzats. Per als defensors de l'economia de mercat pura, quin és el principal problema d'aquest model?",
+          "options": [
+            "Que és moralment incorrecte perquè limita la llibertat individual dels emprenedors xinesos",
+            "Que l'assignació política del capital genera ineficiències i sobreinversió en sectors prioritzats políticament però no necessàriament econòmicament rendibles, creant desequilibris i males inversions que s'acumulen fins a una crisi",
+            "Que la Xina ha demostrat que el seu model és inferior al lliure mercat perquè ha crescut menys ràpidament que els EUA en les darreres dècades",
+            "Que el model és inestable perquè depèn de la voluntat política del govern i és susceptible a canvis arbitraris"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La crítica econòmica principal al capitalisme d'Estat no és moral sinó d'eficiència: quan la inversió és dirigida per l'Estat per raons polítiques (sectors estratègics, creació d'ocupació, presència en tecnologies clau) en lloc dels senyals de preu del mercat, es poden crear excesos de capacitat i males inversions que s'acumulen. La Xina ha tingut episodis de sobreinversió en acer, ciment i habitatge que han generat problemes de deute. Però els defensors del model (Ha-Joon Chang, Mariana Mazzucato) argumenten que el capitalisme d'Estat xinès és el que ha permès a la Xina escalar ràpidament en les cadenes de valor i dominar sectors estratègics com les renovables — una cosa que els mercats sols no haurien aconseguit a la mateixa velocitat.",
+          "feedbackWrong": "La Xina ha crescut molt ràpidament — la crítica no es basa en el seu creixement passat. La crítica econòmica és sobre la qualitat de la inversió: si l'Estat dirigeix el capital per raons polítiques, pot crear sobreinversió en sectors específics i males inversions que generen problemes de deute i ineficiència. Però la Xina ha demostrat alhora que la política industrial activa pot accelerar el desenvolupament tecnológic — el debat sobre els avantatges i límits del capitalisme d'Estat seguix obert."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-glo-06-02",
+          "style": "detect-error",
+          "statement": "El capitalisme és un sistema econòmic homogeni que funciona de la mateixa manera a tots els països, de manera que les polítiques econòmiques exitoses en un context son sempre transferibles a d'altres.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació ignora la literatura sobre les 'varietats del capitalisme' (Peter Hall i David Soskice, 2001), que mostra empíricament que existixen formes molt diferentes d'organitzar una economia de mercat: des del capitalisme liberal de mercat anglosaxó fins al capitalisme coordinat alemany o escandinau, passant pel capitalisme d'Estat asiàtic. Cada varietat té les seves pròpies institucions, normes culturals, sistemes de formació professional, estructures financeres i sistemes de relacions laborals que son complementaris entre si. Una política que funciona en un context institucional pot fallar en un altre perquè les institucions complementàries que la fan funcionar no existeixen. La lliçó per a la política econòmica de desenvolupament: els 'paquets' de polítiques (receptes) exportats des dels països rics cap als pobres (el 'Consens de Washington') han fallat freqüentment perquè ignoraven les condicions institucionals locals necessàries per a la seva implementació."
+        },
+        {
+          "type": "debate",
+          "question": "Davant dels reptes del canvi climàtic, la desigualtat creixent, la concentració monopolística de les plataformes digitals i la inestabilitat financera recurrent, creus que el capitalisme necessita una reforma profunda, una transformació radical, o que és fonamentalment el millor sistema possible amb ajustos menors?",
+          "positionA": {
+            "label": "Reforma profunda, no transformació radical",
+            "argument": "El capitalisme ha generat la major reducció de la pobresa de la historia humana i continua sent el sistema econòmic més capaç d'innovació i adaptació. Els seus problemes actuals (desigualtat, externalitats climàtiques, monopolis digitals) son fallides de mercat identificables que poden corregir-se amb regulació, impostos i Estat del benestar millors. La história dels règims que van intentar superar el capitalisme radicalment és una historia de fracàs i patiment."
+          },
+          "positionB": {
+            "label": "Cal una transformació més profunda",
+            "argument": "Les fallides del capitalisme (desigualtat creixent, canvi climàtic, inestabilitat financera recurrent) no son accidents corregibles sinó característiques estructurals del sistema. La lògica de l'acumulació privada de capital és incompatible amb la sostenibilitat ecológica i amb la democràcia política real a llarg termini. Cal no simplement regular el capitalisme sinó reinventar la propietat, el govern de les empreses i la distribució de la riquesa."
+          },
+          "reflection": "Pensa en les propostes concretes que has après en aquest bloc d'economia: impost global al capital, renda bàsica universal, co-determinació, empreses de propietat cooperativa, economia de plataforma pública. Quines combines per construir el model econòmic que creus que seria millor?",
+          "context": "El debat sobre el futur del capitalisme és el central de la política econòmica del nostre temps. Des del 'capitalisme conscient' de John Mackey fins al 'capitalisme democratitzat' de Marjorie Kelly, passant per la 'economia de rosquilla' de Raworth i la 'missió econòmica' de Mazzucato, hi ha una proliferació de propostes de reforma que van molt més lluny del consens neoliberal dels anys 90 però que no proposen el retorn al socialisme del segle XX."
+        }
+      ]
+    }
+  ]
+}

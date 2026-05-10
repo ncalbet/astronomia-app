@@ -1,0 +1,451 @@
+{
+  "id": "module-19-economia-mon",
+  "title": "Economia: Les Eines per Llegir el Món",
+  "emoji": "📈",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "eco-01",
+      "title": "Per què l'economia t'afecta vulguis o no",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Cada matí, quan et lleves, l'economia ja ha pres decisions per tu. El preu del cafè que compres, el tipus d'interès de la hipoteca que pagues o de la que voldries pagar, el salari que cobres, el cost de l'electricitat, la probabilitat que et facin fora de la feina — tot és el resultat de decisions econòmiques preses per milions de persones, empreses i governs. I tanmateix, la majoria de la gent arriba a la vida adulta sense que ningú li hagi explicat com funciona aquest sistema. L'economia no és una ciència per a experts en trajes: és la descripció del terreny on vius."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'economia és l'estudi de com les persones i les societats prenen decisions sobre recursos escassos. No és una ciència exacta amb respostes definitives — és un conjunt d'eines conceptuals per entendre per què els preus pugen, per què hi ha atur, per què uns països són rics i d'altres pobres, i per què les crisis financeres esclaten quan menys s'esperen."
+        },
+        {
+          "type": "prediction",
+          "question": "Quan el banc central puja els tipus d'interès, la vida et costa més cara o menys cara? Per qué creus que ho fa?",
+          "hint": "Pensa en qui demana diners prestats i a quin preu. I pensa en per qué algú voldria que els préstecs fossin més cars."
+        },
+        {
+          "type": "misconception",
+          "belief": "L'economia és una ciència exacta que els experts entenen completament i que té respostes objectives als seus problemes.",
+          "reality": "L'economia és una ciència social on els experts discrepan profundament sobre les causes i les solucions de gairebé tots els problemes importants. L'any 2008, gairebé cap economista va predir la crisi financera global. Els mateixos fets econòmics solen tenir explicacions radicalment diferents segons l'escola de pensament. L'economia combina rigor matemàtic amb judicis de valor que depenen de la ideologia.",
+          "why": "La imatge de l'economista com a científic objectiu és cultivada pels propis economistes i pels poders polítics que volen presentar les seves decisions com a 'tècniques' i no com a opcions polítiques. Però en economia, triar sempre és un acte polític."
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué l'economia no és una ciència com la física",
+          "content": "En física, si deixes caure una pedra, sempre caurà. En economia, si puges el salari mínim, potser crea ocupació (perquè augmenta la demanda), potser la destrueix (perquè encareix el treball), o potser no fa gairebé res (perquè el mercat laboral no és competitiu). Depèn del context, del moment i de les expectatives dels actors. El problema fonamental és que l'objecte d'estudi de l'economia — els éssers humans — canvia de comportament quan sap que és observat i quan canvien les normes del joc. Els electrons no llegeixen els articles sobre física quàntica i no canvien de comportament. Les empreses sí llegeixen els informes dels economistes i ajusten les seves decisions. Això fa que l'economia sigui estructuralment diferent de les ciències naturals."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-01-01",
+          "style": "multiple-choice",
+          "question": "Quan els economistes diuen que l'economia estudia l'assignació de 'recursos escassos', a qué es refereixen amb 'escassos'?",
+          "options": [
+            "Que el món té pocs recursos naturals i que s'acabaran aviat",
+            "Que qualsevol recurs que tingui un cost d'oportunitat (usar-lo per a una cosa significa no poder usar-lo per una altra) és 'escàs' en sentit econòmic",
+            "Que els recursos estan mal distribuïts i que alguns països en tenen massa i d'altres massa pocs",
+            "Que els recursos naturals com el petroli o l'aigua estan en perill d'extinció immediata"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. En economia, 'escàs' no significa 'poc abundant' sinó 'que té un cost d'oportunitat': si uses el teu temps en una cosa, no pots usar-lo en una altra. Si un govern gasta diners en sanitat, no pot gastar-los en educació. Si una empresa usa una fàbrica per produir cotxes, no pot usar-la per produir camions. Fins i tot l'aire és 'escàs' en sentit econòmic si el seu ús com a abocador de contaminació impedeix usar-lo com a aire net. L'escassetat econòmica és la condició que fa necessari triar.",
+          "feedbackWrong": "En economia, 'escàs' té un significat tècnic específic: qualsevol cosa que tingui un cost d'oportunitat és 'escassa'. El temps, els diners, l'atenció, l'espai — tot és escàs perquè usar-ho en una cosa implica no poder usar-ho en una altra. No és una afirmació sobre l'abundància física del món sinó sobre la naturalesa de les decisions humanes."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-01-02",
+          "style": "true-false",
+          "question": "Els economistes generalment estan d'acord sobre les causes i les solucions dels principals problemes econòmics, com ara la inflació o l'atur.",
+          "correct": false,
+          "feedbackCorrect": "Fals. El desacord entre economistes sobre les causes i les solucions és la norma, no l'excepció, en els temes importants. Com respondre a una crisi? Amb estímul fiscal (Keynes) o amb austeritat (escola austríaca)? Puja el salari mínim crea o destrueix ocupació? Els economistes discrepan. La política monetària és efectiva per controlar la inflació? Depèn de l'escola. La imatge de consens dels economistes és en part una construcció mediàtica i política. En els temes on hi ha consens (el lliure comerç genera guanys agregats; la hiperinflació és dolenta), solen ser temes tècnics, no els grans debats de política econòmica.",
+          "feedbackWrong": "Al contrari — el desacord entre economistes és proverbial. L'expresident Harry Truman demanava un economista 'de una sola mà' perquè els seus assessors sempre li deien 'per un costat... però per l'altre costat'. Les grans polítiques econòmiques (austeritat vs. estímul, tipus d'interès alts vs. baixos) generen debats intensos entre economistes de primera línia que arriben a conclusions oposades amb les mateixes dades."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-eco-01-01",
+          "question": "Si l'economia no és una ciència exacta i els experts discrepan profundament, per qué hauries de prendre's seriosament les recomanacions dels economistes?",
+          "options": [
+            "No hauries: si no hi ha consens científic, les opinions dels economistes no valen més que les de qualsevol altra persona",
+            "Sí hauries: tot i el desacord, els economistes tenen eines analítiques i coneixement empíric que milloren la comprensió dels fenòmens econòmics, fins i tot sense arribar a certeses absolutes",
+            "Depèn del tema: en qüestions tècniques (com calcular la inflació) els economistes aporten coneixement valuable; en qüestions de valors (com distribuir la riquesa) la seva opinió no val més que la de cap altre ciutadà"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és el nihilisme epistemòlogic: si no hi ha certesa absoluta, tot val igual. Però és una conclusió massa radical — la meteorologia tampoc és exacta però és millor que endevinar. La posició B és la defensa professional dels economistes: el desacord no invalida l'expertesa. Però pot portar a acceptar acríticament recomanacions que reflecteixen valors ideològics específics disfressats de 'ciència'. La posició C és la distinció crucial que el filòsof de l'economia Alexander Rosenberg i d'altres han defensat: les qüestions 'positives' (com funcionen les coses) i les qüestions 'normatives' (com haurien de ser) es barregen constantment en economia. Un economista pot dir-te amb rigor 'si puges l'IVA, la recaptació pujarà X%' (positiu, verificable). Però si et diu 'hauríem de pujar l'IVA', ja és una opinió política que incorpora valors sobre qui ha de pagar els costos de l'Estat. La distinció és fonamental per ser un consumidor crític del coneixement econòmic."
+        }
+      ]
+    },
+    {
+      "id": "eco-02",
+      "title": "Preus, mercats i la mà invisible",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1989, quan el Mur de Berlín va caure i els ciutadans d'Alemanya de l'Est van entrar als supermercats d'Alemanya de l'Oest per primera vegada, molts van quedar aclaparats. No per l'abundància en si mateixa — sinó per la manera en que estava organitzada. A l'Est, l'Estat decidia quant de cada producte es produïa i a quin preu es venia. A l'Oest, milions de decisions individuals de compradors i venedors, sense cap coordinació central, produïen un sistema d'una complexitat i varietat que cap planificador central no hauria pogut generar. Adam Smith havia descrit aquest fenomen el 1776 com la 'mà invisible' del mercat. Dos segles després, la caiguda del Mur va ser la seva demostració més espectacular."
+        },
+        {
+          "type": "prediction",
+          "question": "Adam Smith va argumentar que quan el flequer fa el pa no ho fa per altruisme sinó per guanyar diners — i tanmateix el resultat és que tu tens pa per dinar. Com és possible que l'egoisme individual generi benestar col·lectiu? En quins casos creus que no funciona?",
+          "hint": "Pensa en els casos on l'interès individual i el col·lectiu coincideixen naturalment, i en els on divergeixen."
+        },
+        {
+          "type": "key-idea",
+          "text": "Un preu de mercat no és simplement un número — és un senyal que condensa i transmet informació dispersa entre milions de persones que no es coneixen. Quan el preu del petroli puja, sense que ningú ho ordeni, els consumidors comencen a estalviar energia i els productors busquen nous jaciments. El mercat coordina decisions descentralitzades d'una forma que cap planificador central podria imitar."
+        },
+        {
+          "type": "expandable",
+          "label": "Friedrich Hayek i el problema del coneixement: per qué la planificació central és tan difícil",
+          "content": "El 1945, l'economista Friedrich Hayek va publicar un article que molts consideren el més important de l'economia del segle XX: 'The Use of Knowledge in Society'. L'argument central era deceptivament simple: el coneixement que necessita una economia per funcionar no existeix en cap ment ni en cap institució central — està dispersat entre milions de persones, en forma de coneixement local, tàcit i canviant. El pagès sap quina és la millor collita per al seu camp aquell any; el comerciant sap quin és el producte que els seus clients demanen aquesta setmana; l'artesà sap quines eines li calen i quines sobren. Cap planificador central pot tenir accés a tota aquesta informació. El mercat, a través del sistema de preus, recull i transmet aquesta informació dispersa de forma descentralitzada i contínua. Era un argument potent contra la planificació central soviètica — i va resultar ser correcte en aspectes importants. Però Hayek no va anticipar les falles de mercat, les externalitats i les desigualtats que els mercats no corregeixen per si sols."
+        },
+        {
+          "type": "comparison",
+          "title": "Mercat vs. planificació central: virtuts i límits",
+          "labelA": "Mercat",
+          "labelB": "Planificació central",
+          "items": [
+            {
+              "label": "Coordinació",
+              "a": "Descentralitzada: milions de decisions individuals",
+              "b": "Centralitzada: decisions d'una autoritat"
+            },
+            {
+              "label": "Informació",
+              "a": "Usa coneixement dispersat via preus",
+              "b": "Limitat al coneixement que l'autoritat pot reunir"
+            },
+            {
+              "label": "Incentius",
+              "a": "Forts: el benefici premi l'eficiència",
+              "b": "Febles: el gestor estatal no es beneficia de l'eficiència"
+            },
+            {
+              "label": "Fallides",
+              "a": "Monopolis, externalitats, béns públics, desigualtat",
+              "b": "Manca d'informació, burocràcia, absència d'innovació"
+            },
+            {
+              "label": "Resultat históric",
+              "a": "Major creixement agregat, però amb desigualtats i crisis",
+              "b": "Fracàs en producció de béns de consum; relatiu èxit en alguns sectors estratègics"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-02-01",
+          "style": "multiple-choice",
+          "question": "Quan un huracà destrueix la collita de taronges de Florida, el preu del suc de taronja puja arreu del món sense que ningú ho ordeni. Quin mecanisme económic explica aquesta coordinació automàtica?",
+          "options": [
+            "Les empreses es posen d'acord per aprofitar-se de la situació i pujar els preus de forma coordinada",
+            "El sistema de preus transmet la informació sobre l'escassetat als compradors i venedors, que ajusten les seves decisions sense necessitat de coordinació central",
+            "El govern regula els preus per reflectir les condicions de mercat i evitar la especulació",
+            "Els consumidors, en saber que hi ha escassetat, demanen més producte, cosa que fa pujar el preu"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Aquest és l'exemple clàssic de Hayek sobre el poder informatiu dels preus. Quan el suc de taronja s'encareix, cap consumidor necessita saber que hi ha hagut un huracà a Florida: simplement veu que el preu ha pujat i decideix comprar menys o substituir-lo. Cap productor de zones no afectades necessita saber per qué hi ha demanda addicional: simplement veu que el preu puja i decideix augmentar la producció. El preu condensa i transmet tota la informació rellevant sense que ningú la hagi de centralitzar ni comunicar explícitament.",
+          "feedbackWrong": "El mecanisme és el sistema de preus com a transmissor d'informació descentralitzada. Cap actor individual necessita conèixer la causa de l'escassetat — simplement reacciona al preu. El preu puja perquè hi ha menys oferta; els consumidors en veient el preu alt compren menys; els productors veient el preu alt produeixen més. Tot sense coordinació explícita. Això és el que Hayek va anomenar l'ordre espontani del mercat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-02-02",
+          "style": "detect-error",
+          "statement": "Adam Smith va argumentar que els mercats lliures sempre produeixen els millors resultats possibles per a la societat, i que qualsevol intervenció de l'Estat en l'economia és contraproduent.",
+          "isCorrect": false,
+          "feedbackExplanation": "La imatge de Smith com a defensor del laissez-faire absolut és una simplificació que el propi Smith no reconeixeria. A 'La Riquesa de les Nacions' (1776), Smith defensava els mercats com a mecanisme d'assignació eficient, però reconeixia explícitament múltiples excepcions: els monopolis (que Smith odiava profundament i considerava el principal enemic dels mercats lliures), la defensa nacional, l'educació pública i diverses infraestructures. A més, la 'mà invisible' apareix literalment dues vegades al text de Smith — no és el concepte central que se li atribueix. I a 'La Teoria dels Sentiments Morals' (la seva altra gran obra), Smith emfatitzava la simpatia i les normes morals com a fonament de la vida social, no simplement l'interès propi."
+        },
+        {
+          "type": "debate",
+          "question": "Els mercats assignen recursos de forma eficient però generen desigualtats. L'Estat pot redistribuir però tendeix a la ineficiència. Quin equilibri entre mercat i Estat creus que és el correcte?",
+          "positionA": {
+            "label": "Prioritat al mercat",
+            "argument": "Els mercats generen riquesa que l'Estat redistribueix però no crea. Com més gran és el sector públic, menys eficient és l'economia, menys incentius hi ha per innovar i menys riquesa es genera per redistribuir. La millor política de redistribució és el creixement econòmic."
+          },
+          "positionB": {
+            "label": "Prioritat a la redistribució",
+            "argument": "Un mercat sense redistribució genera desigualtat creixent que, en arribar a cert punt, destrueix les condicions del propi mercat: els pobres no poden consumir, la mobilitat social desapareix, i la democràcia es corromp per la concentració del poder econòmic. La redistribució no és un fre al mercat — és la condició de la seva sostenibilitat."
+          },
+          "reflection": "Quin país o model econòmic concret creus que ha trobat el millor equilibri? Per qué?",
+          "context": "El debat mercat-Estat és la divisió fonamental de la política econòmica del segle XX i XXI. Els models nòrdics, el model anglosaxó i els models asiàtics representen posicions molt diverses en aquest espectre."
+        }
+      ]
+    },
+    {
+      "id": "eco-03",
+      "title": "Inflació: quan els diners perden valor",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Alemanya, novembre del 1923. Un pa costa 200.000 milions de marcs. La gent va amb carretons plens de bitllets per comprar menjar. Les fàbriques paguen els treballadors dues vegades al dia perquè si esperaven fins al vespre, el sou del matí ja no valia res. Les dones emportaven a cremar bitllets en lloc de llenya perquè era més barat. La hiperinflació alemanya va destruir els estalvis de la classe mitjana i va crear les condicions de desesperació econòmica que van facilitar l'ascens del nazisme. La inflació no és simplement un inconvenient econòmic: pot destruir societats."
+        },
+        {
+          "type": "prediction",
+          "question": "El 1923 a Alemanya, la gent portava carretons plens de bitllets per comprar pa perquè la moneda havia perdut tot el valor. Com creus que pot una societat arribar a destruir el valor de la seva pròpia moneda? I per qué no ho eviten els governs?",
+          "hint": "Pensa en qui es beneficia a curt termini d'imprimir molts diners (el govern que paga deutes) i qui paga el cost (els estalviadors)."
+        },
+        {
+          "type": "key-idea",
+          "text": "La inflació és l'augment general i sostingut del nivell de preus — equivalent a dir que el poder adquisitiu dels diners disminueix. Una inflació moderada (2-3%) és considerada saludable pels bancs centrals moderns; una inflació alta o la hiperinflació pot ser devastadora. La deflació (preus en caiguda) sembla bona però pot ser igual o més perillosa."
+        },
+        {
+          "type": "quote",
+          "text": "La inflació és l'única forma de tributació que es pot imposar sense cap legislació.",
+          "author": "Milton Friedman, economista, Premi Nobel 1976"
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué la deflació pot ser pitjor que la inflació",
+          "content": "La deflació — quan els preus cauen de forma generalitzada — sembla a primer cop d'ull bona per als consumidors: tot és més barat. Però genera una trampa perversa: si els preus baixaran demà, per qué comprar avui? Els consumidors esperen. Les empreses veuen caure les vendes i retallen la producció. Acomiadador treballadors. Els treballadors acomiadats consumeixen menys. Les empreses veuen caure més les vendes. Els preus baixen més. El cicle s'autoalimenta en un espiral deflacionari. El Japó va patir una trampa deflacionista durant els anys 90 i 2000, de la qual gairebé no va poder sortir. La Gran Depressió dels anys 30 als EUA va tenir un fort component deflacionari. Per paradoxal que sembli, una certa inflació moderada és preferible a la deflació."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-03-01",
+          "style": "multiple-choice",
+          "question": "Si la inflació és del 5% anual i el teu sou puja un 2%, quina és la conseqüència real per al teu poder adquisitiu?",
+          "options": [
+            "El teu poder adquisitiu ha augmentat un 2%, perquè cobres més",
+            "El teu poder adquisitiu ha disminuït un 3%, perquè els preus han pujat més que el teu sou",
+            "El teu poder adquisitiu no ha canviat perquè tant el teu sou com els preus han pujat",
+            "El teu poder adquisitiu ha disminuït un 5%, perquè la inflació sempre redueix el poder adquisitiu"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El que importa no és el sou nominal (el número en euros) sinó el sou real (quant pots comprar amb ell). Si els preus pugen un 5% i el teu sou puja un 2%, pots comprar un 3% menys que l'any anterior. El teu sou nominal ha pujat però el teu sou real ha baixat. Aquesta distinció entre valor nominal i valor real és fonamental en economia: molts debats sobre salaris, pensions o deute es confonen perquè no es fa la distinció.",
+          "feedbackWrong": "Cal distingir entre valor nominal (el número en euros) i valor real (el poder de compra). Si la inflació és del 5% i el teu sou puja el 2%, els preus han pujat més que els teus ingressos: pots comprar menys que abans. El teu poder adquisitiu real ha caigut un 3% (5% - 2%). Cobrar 'més' no significa necessàriament poder comprar 'més'."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-03-02",
+          "style": "multiple-choice",
+          "question": "Qui es veu beneficiat i qui es veu perjudicat per una inflació inesperada i alta?",
+          "options": [
+            "Beneficiats: els que tenen estalvis en efectiu. Perjudicats: els que tenen deutes",
+            "Beneficiats: els que tenen deutes a tipus fix. Perjudicats: els creditors i els que tenen estalvis en efectiu",
+            "Beneficiats: els pensionistes. Perjudicats: els treballadors joves",
+            "Tothom es veu perjudicat igual per la inflació, perquè tots paguem preus més alts"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La inflació és una redistribució silenciosa de riquesa dels creditors als deutors. Si tens una hipoteca a tipus fix de 200.000€ i la inflació és alta, el valor real del que deus disminueix — el teu deute val menys en termes de poder adquisitiu. Però el teu creditor (el banc) rep de tornada diners que valen menys del que va prestar. Per als estalviadors amb diners en efectiu o en comptes a baixa rendibilitat, la inflació erosiona el valor real dels seus estalvis. Per als que deuen diners a tipus fix (hipoteques, préstecs), la inflació alleugereix la càrrega real del deute.",
+          "feedbackWrong": "La inflació redistribueix riquesa de forma asimètrica. Els deutors a tipus fix surten beneficiats: la inflació redueix el valor real del que deuen. Els creditors i els estalviadors surten perjudicats: reben de tornada diners que valen menys. És per això que els episodis d'alta inflació tendeixen a beneficiar els governs (que solen ser grans deutors) i a perjudicar els estalviadors de classe mitjana."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-eco-03-01",
+          "question": "El Banc Central Europeu té com a objectiu una inflació del 2% anual. Per qué un 2% i no un 0%? Per qué no buscar la màxima estabilitat dels preus possible?",
+          "options": [
+            "Perquè una inflació del 0% és impossible de mantenir i l'objectiu del 2% és simplement un marge de seguretat tècnic",
+            "Perquè una inflació moderada positiva lubrica l'economia: facilita l'ajust de salaris reals sense baixades nominals, dóna marge als bancs centrals per estimular i evita la trampa deflacionista",
+            "Perquè una inflació del 2% beneficia els governs deutors i els bancs centrals han negociat aquest objectiu amb els governs per facilitar el finançament de l'Estat"
+          ],
+          "correct": 1,
+          "explanation": "La posició A és parcialment certa (la inflació exactament zero és molt difícil de gestionar) però no és la raó principal. La posició C recull una sospita legítima però simplifica: els bancs centrals independents han adoptat l'objectiu del 2% per raons analítiques, no per pressió política directa. La posició B és la raó tècnica principal: una inflació moderada positiva té tres avantatges. Primer, lubrica el mercat laboral: quan cal reduir el cost real del treball en una empresa en dificultats, és molt més fàcil no pujar els salaris nominals (amb inflació del 2%, els salaris reals baixen 2% sense que ningú es senti 'retallat') que retallar-los explícitament, cosa que genera resistència enorme. Segon, dóna marge al banc central: si la inflació és del 0% i cal estimular l'economia, el banc central no pot baixar els tipus d'interès reals per sota del 0% sense problemes (la trampa de la liquiditat). Amb inflació del 2%, els tipus reals poden ser negatius sense que els nominals ho siguin. Tercer, evita la deflació, que com hem vist és molt perillosa."
+        }
+      ]
+    },
+    {
+      "id": "eco-04",
+      "title": "PIB, creixement i el que no mesura",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1968, el senador Robert Kennedy va pronunciar un discurs que hauria sorprès qualsevol economista de l'època: 'El PIB mesura tot, excepte el que fa que la vida valgui la pena.' Kennedy enumerava el que el PIB compta: la publicitat del tabac, les presons, la destrucció de boscos, la producció d'armament nuclear. I el que no compta: la salut dels fills, la qualitat de l'educació, la bellesa de la poesia, la intel·ligència dels nostres debats públics. Cinquanta anys després, el debat sobre si el PIB és la millor mesura del progrés és un dels més vius de l'economia i la política."
+        },
+        {
+          "type": "key-idea",
+          "text": "El PIB (Producte Interior Brut) mesura el valor total dels béns i serveis produïts en un país en un any. És la mesura econòmica més usada del món — i una de les més criticades: no distingeix entre activitats que milloren o degraden el benestar, no compta el treball no remunerat, i no mesura la distribució de la riquesa ni la sostenibilitat."
+        },
+        {
+          "type": "expandable",
+          "label": "Les paradoxes del PIB: quan el mal notícia és bona per a l'economia",
+          "content": "El PIB té paradoxes que revelen els seus límits. Un terratrèmol que destrueix una ciutat fa pujar el PIB: la reconstrucció genera activitat econòmica. Un divorci fa pujar el PIB: calen dos habitatges, dos cotxes, dos advocats. Una malaltia fa pujar el PIB: genera despesa sanitària. Un bosc net i sa no apareix al PIB — però tallar-lo sí (genera fusta i activitat). Una mare que cuida els seus fills no apareix al PIB — però si paga una cuidadora, sí. L'economista Diane Coyle ha descrit el PIB com 'un concepte del segle XX per a una economia del segle XX' — va ser creat el 1934 per Simon Kuznets per mesurar la recuperació de la Gran Depressió i la capacitat productiva per a la Segona Guerra Mundial. Per a aquells objectius, era perfecte. Com a mesura del benestar humà en el segle XXI, és clarament insuficient."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-04-01",
+          "style": "multiple-choice",
+          "question": "Un país A té un PIB per capita de 30.000€ amb una distribució molt desigual (el 10% més ric concentra el 70% de la riquesa). Un país B té un PIB per capita de 25.000€ amb una distribució molt igualitària. Quin país probablement té un benestar mitjà per habitant més alt?",
+          "options": [
+            "El país A, perquè el seu PIB per capita és més alt i per tant la riquesa disponible per distribuir és major",
+            "El país B, perquè la distribució igualitària significa que la majoria de la gent viu millor que la majoria al país A, tot i el PIB per capita menor",
+            "Impossible de saber sense més informació sobre les polítiques socials de cada país",
+            "Són equivalents: el PIB per capita mesura exactament el nivell de vida mitjà"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El PIB per capita és una mitjana aritmètica que amaga la distribució. Si el 10% de la població té el 70% de la riquesa, la majoria de la gent viu molt per sota de la mitjana. En el país A, si el 10% ric té 210.000€ per capita i el 90% restant uns 6.700€, la majoria de la gent viu molt pitjor que al país B amb 25.000€ distribuïts de forma igualitària. Per això les comparacions de benestar entre països no es poden fer simplement comparant el PIB per capita — cal tenir en compte l'índex de Gini (que mesura la desigualtat) i altres indicadors.",
+          "feedbackWrong": "El PIB per capita és una mitjana que pot amagar distribucions molt desiguals. En el país A, si la riquesa es concentra molt, la majoria de la gent viu per sota de la mitjana. Al país B, amb distribució igualitària, la majoria viu a prop de la mitjana. La comparació de benestar entre països exigeix mirar la distribució, no sols la mitjana."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-04-02",
+          "style": "detect-error",
+          "statement": "El creixement del PIB és sempre positiu per a una societat, ja que significa que s'està produint més riquesa que pot ser distribuïda per millorar el benestar de tothom.",
+          "isCorrect": false,
+          "feedbackExplanation": "Hi ha diversos problemes amb aquesta afirmació. Primer, el creixement del PIB no garanteix millora de benestar per a tothom: si el creixement va íntegrament als més rics (el que els economistes anomenen 'creixement no inclusiu'), la majoria no en beneficia. Segon, el creixement pot produir externalitats negatives (contaminació, exhauriment de recursos naturals, canvi climàtic) que redueixen el benestar a llarg termini i que el PIB no compta. Tercer, hi ha un debat sobre si el creixement indefinit és possible o desitjable en un planeta amb recursos finits — l'economia del decreixement (Serge Latouche, Kate Raworth) qüestiona que el creixement del PIB sigui l'objectiu correcte. El creixement pot ser positiu però no és 'sempre' positiu ni automàticament distribuït."
+        },
+        {
+          "type": "reflection",
+          "question": "Si no el PIB, qué mesuraries per determinar si un país va bé? Quins tres indicadors creus que capturarien millor el benestar real d'una societat?",
+          "prompt": "Pensa en el que realment importa per a una vida bona: salut, relacions, seguretat, llibertat, medi ambient... Quins d'aquests es podrien mesurar de forma rigorosa?"
+        }
+      ]
+    },
+    {
+      "id": "eco-05",
+      "title": "Tipus d'interès i bancs centrals: qui controla els diners",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 16 de setembre del 1992, George Soros va apostar 10.000 milions de dòlars contra la lliura esterlina britànica. El Banc d'Anglaterra va gastar 27.000 milions de reserves intentant defensar el valor de la seva moneda. Va perdre. La lliura va ser expulsada del Sistema Monetari Europeu i va devaluar un 15%. Soros va guanyar 1.100 milions en un sol dia. 'El dia que vaig trencar el Banc d'Anglaterra', el va cridar la premsa. L'episodi va mostrar quelcom que els governs preferien no reconèixer: en certs moments, fins i tot un banc central amb reserves immenses pot ser depassat per la pressió dels mercats financers globals. El poder dels diners no és sempre on sembla."
+        },
+        {
+          "type": "prediction",
+          "question": "El 1992, George Soros va apostar contra la lliura esterlina i va forçar el Banc d'Anglaterra a devaluar la moneda, guanyant 1.100 milions en un sol dia. Com creus que és possible que un sol especulador pugui vèncer un banc central amb reserves de milers de milions?",
+          "hint": "Pensa en la diferència entre les reserves del banc central i el volum total dels mercats de divises globals."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els bancs centrals (el BCE a Europa, la Fed als EUA) controlen el preu dels diners a curt termini — el tipus d'interès — com a instrument principal per gestionar la inflació i el creixement. Quan pugen els tipus, el crèdit s'encareix, les persones i les empreses s'endeutent menys, la demanda cau i la inflació es modera. Quan els baixen, passa l'invers. És una eina poderosa però de doble tall."
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué els bancs centrals són independents dels governs (i per qué alguns ho qüestionen)",
+          "content": "Des dels anys 80-90, la majoria dels bancs centrals dels països avançats es van fer formalment independents dels governs: els seus directius no podien ser acomiadats per raons polítiques i el govern no podia ordenar-los baixar els tipus o imprimir diners per finançar la despesa pública. La justificació era sòlida: els governs tendeixen a voler tipus baixos i estímul monetari (perquè fa crecer l'economia a curt termini i guanya eleccions) fins i tot quan és inflacionari a llarg termini. Un banc central independent pot prendre la decisió impopular de pujar els tipus quan cal, sense pressió electoral. L'evidència empírica mostrava que els països amb bancs centrals independents tenien menys inflació. Però la independència té crítics: els bancs centrals prenen decisions de distribució enormes (qui rep el crèdit barat, qui queda exclòs) sense rendició de comptes democràtica. I la crisi del 2008 i la pandèmia van mostrar que en emergències, la separació entre política fiscal i monetària era artificial."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-05-01",
+          "style": "multiple-choice",
+          "question": "Quan el Banc Central Europeu puja els tipus d'interès per controlar la inflació, quins grups de la societat es veuen més perjudicats?",
+          "options": [
+            "Els rics, perquè els seus actius financers perden valor quan els tipus pugen",
+            "Les persones amb hipoteques a tipus variable i les empreses que necessiten crèdit per invertir o per pagar nòmines",
+            "Els pensionistes, perquè les seves pensions perden valor real quan la inflació és alta",
+            "Els exportadors, perquè el tipus de canvi s'aprecia i els seus productes es fan menys competitius"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La pujada de tipus d'interès té efectes distribucionals molt concrets. Les persones amb hipoteques a tipus variable veuen augmentar la seva quota mensual immediatament — una família amb una hipoteca de 200.000€ a Euribor + 1% pot veure la seva quota pujar centenars d'euros al mes quan l'Euribor passa de l'1% al 4%. Les empreses que necessiten crèdit (les petites i mitjanes especialment) veuen encarir-se el seu finançament. Els grans tenidors d'actius financers (rics) en realitat es beneficien de tipus alts (els seus dipòsits i bons rendeixen més). La pujada de tipus no afecta igual a tothom — és una redistribució del deute cap a l'estalvi.",
+          "feedbackWrong": "La pujada de tipus afecta de forma molt desigual. Els que s'endeutaron a tipus variable (hipoteques, préstecs empresarials) paguen més immediatament. Els estalviadors (que solen tenir més patrimoni) es beneficien de tipus més alts. Les decisions dels bancs centrals sobre tipus d'interès no són tècniques neutrals — redistribueixen entre deutors i creditors, entre petites empreses i grans corporacions, entre propietaris i llogaters."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-05-02",
+          "style": "true-false",
+          "question": "Quan un banc central 'imprimeix diners' (creació monetària quantitativa o QE), els diners nous es distribueixen directament als ciutadans per estimular el consum.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La creació monetària quantitativa (Quantitative Easing o QE) funciona d'una manera molt diferent de 'repartir diners'. El banc central compra actius financers (principalment bons de l'Estat o actius de deute privat) als bancs comercials, injectant reserves al sistema financer. L'objectiu és baixar els tipus d'interès a llarg termini i estimular el crèdit. Els diners nous arriben primer als bancs i als mercats financers, no directament als ciutadans. Això ha generat una crítica important: el QE tendeix a inflat el preu dels actius financers (borsa, immobiliària) que es concentren en mans dels rics, augmentant la desigualtat patrimonial. La idea del 'helicopter money' (distribució directa als ciutadans) és una proposta alternativa que alguns economistes han defensat però que rarament s'ha implementat.",
+          "feedbackWrong": "El QE no distribueix diners directament als ciutadans. Els diners nous injectats pel banc central van als bancs comercials a través de la compra d'actius financers. L'efecte sobre l'economia real arriba indirectament, via el crèdit bancari i la reducció dels tipus a llarg termini. Aquesta indirecta ha generat la crítica que el QE beneficia principalment els tenidors d'actius financers (rics) en lloc de la majoria de la població."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-eco-05-01",
+          "question": "Els bancs centrals poden controlar la inflació pujant els tipus d'interès, però a costa de generar atur i recessió. Sempre que baixen la inflació, causen patiment econòmic real a milions de persones. Qui hauria de prendre aquesta decisió — tecnòcrates independents o polítics electes?",
+          "options": [
+            "Tecnòcrates independents: les decisions monetàries requereixen coneixement tècnic i han d'estar aïllades de la pressió electoral a curt termini",
+            "Polítics electes: les decisions sobre distribució del dolor econòmic (qui pateix la recessió antiinflacionista) són decisions de valors que requereixen legitimitat democràtica",
+            "Un model híbrid: els objectius (quanta inflació és acceptable) els han de decidir els polítics electes; els instruments per assolir-los, els tecnòcrates independents"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és l'argument tradicional per la independència del banc central: la política monetària requereix prendre decisions impopulars a curt termini (pujar tipus, generar recessió) que cap polític electe tindrà el coratge de prendre si implica perdre les properes eleccions. Hi ha evidència empírica que els bancs centrals independents aconsegueixen menys inflació. La posició B és la crítica democràtica: decidir que pujar els tipus fins a crear atur del 10% per baixar la inflació del 8% al 2% és una decisió de valors enormes — qui pateix (els treballadors que perden la feina) vs. qui es beneficia (els creditors i els estalviadors). Aquesta decisió hauria de tenir legitimitat democràtica. La posició C és la solució institucional que alguns economistes (com Olivier Blanchard) han proposat: separar la decisió sobre l'objectiu (que el debat democràtic hauria de determinar) de la decisió sobre els instruments (que els tècnics poden gestionar millor). Però a la pràctica, la línia entre objectiu i instrument és borrosa."
+        }
+      ]
+    },
+    {
+      "id": "eco-06",
+      "title": "Les crisis financeres: per qué es repeteixen",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El setembre del 2008, el banc d'inversions Lehman Brothers va declarar la fallida més gran de la història dels EUA. En poques setmanes, el sistema financer global estava al vora del col·lapse total. Els governs van injectar bilions de dòlars per salvar bancs que dies abans deien ser completament sòlids. Milions de persones van perdre les seves cases, les seves feines i els seus estalvis. El que havia causat la crisi no era cap desastre natural ni cap guerra: era un sistema financer que havia construït una cadena d'apostes sobre apostes sobre apostes en habitatges, amb tanta complexitat que ni els propis banquers entenien exactament on estava el risc. I el pitjor: cap d'ells havia anat a la presó. Deu anys més tard, molts dels mateixos instruments financers tornaven a circular."
+        },
+        {
+          "type": "key-idea",
+          "text": "Les crisis financeres no són accidents aleatoris — segueixen patrons recognoscibles: expansió del crèdit, inflament de preus d'actius, eufòria especulativa, col·lapse sobtat de la confiança i contracció violenta. L'historiador econòmic Charles Kindleberger va documentar cinc segles d'aquest cicle. El problema és que cada generació creu que 'aquesta vegada és diferent'."
+        },
+        {
+          "type": "misconception",
+          "belief": "Les crisis financeres son imprevisibles accidents causats per factors externs inesperats.",
+          "reality": "Les crisis financeres seguixen patrons recognoscibles documentats durant cinc segles: expansió del crèdit, eufòria especulativa, sobreendeutament, col·lapse de la confiança. Hyman Minsky va demostrar que les crisis no son accidents externs sinó el producte de l'estabilitat mateixa: quan tot va bé, els actors prenen més risc fins que el sistema es fa insostenible.",
+          "why": "La narrativa del 'accident imprevisible' convenç als responsables perquè els eximeix de responsabilitat per no haver regulat o alertat a temps."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Macroeconomia: Com Funcionen els Estats i les Crisis",
+          "moduleEmoji": "🏦",
+          "concept": "Les crisis financeres i la política macroeconomica",
+          "text": "Les crisis financeres que has analitzat en aquesta lliçó son el punt de partida del mòdul de macroeconomia. Allà aprofundiràs en els instruments que els governs i els bancs centrals usen per gestionar-les: la política fiscal (despesa i impostos) i la monetaria (tipus d'interès i creació de diners). Les crisis no son accidents — son el producte de les mateixes forces que generen el creixement."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1637",
+              "title": "La bombolla de les tulipes (Holanda)",
+              "text": "Els bulbs de tulipa es venen a preus equivalents a una casa. Quan la bombolla esclata, els preus s'enfonsen un 99% en dies."
+            },
+            {
+              "year": "1929",
+              "title": "El Crac del 29 (EUA)",
+              "text": "La borsa de Nova York perd el 90% del seu valor en tres anys. La Gran Depressió: atur del 25%, milers de bancs tancats."
+            },
+            {
+              "year": "1997-98",
+              "title": "Crisi asiàtica i russa",
+              "text": "Sortida massiva de capitals dels mercats emergents. Tailàndia, Indonèsia, Corea del Sud, Rússia."
+            },
+            {
+              "year": "2000-01",
+              "title": "Bombolla puntocom",
+              "text": "Les empreses d'internet sense beneficis valen bilions. Quan esclata, la borsa perd el 78% en dos anys."
+            },
+            {
+              "year": "2007-09",
+              "title": "Crisi financera global",
+              "text": "La bombolla immobiliària als EUA col·lapsa el sistema financer global. La pitjor crisi des del 1929."
+            },
+            {
+              "year": "2010-15",
+              "title": "Crisi del deute sobirà europeu",
+              "text": "Grècia, Irlanda, Portugal, Espanya i Itàlia en crisi de deute. Austeritat severa i recessió."
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "El model Minsky: per qué l'estabilitat genera inestabilitat",
+          "content": "L'economista Hyman Minsky va desenvolupar una teoria que explica per qué les crisis financeres es repeteixen amb una regularitat inquietant. El seu argument central: l'estabilitat econòmica genera inestabilitat. En períodes de bonança, les empreses i els inversors prenen progressivament més risc: primer, préstecs que poden pagar amb els ingressos corrents (finances cobertes); després, préstecs que poden pagar els interessos però no el principal (finances especulatives); finalment, préstecs que no poden pagar ni els interessos sense vendre actius (finances Ponzi). El sistema es fa progressivament més fràgil. Quan arriba el 'moment Minsky' — un petit xoc que fa que algú hagi de vendre actius — els preus cauen, tots necessiten vendre alhora, i el col·lapse s'autopropaga. La lliçó de Minsky, ignorada durant dècades, va ser bruscament redescoberta el 2008: la estabilitat mateixa és destabilitzadora."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-06-01",
+          "style": "multiple-choice",
+          "question": "Quin mecanisme explica per qué les bombolles financeres s'inflen fins a esclatar en lloc d'aturar-se a temps?",
+          "options": [
+            "La ignorància dels inversors, que no entenen els actius en els quals inverteixen",
+            "La lògica especulativa racional: mentre els preus pugen, té sentit comprar fins i tot a preus irracionals, esperant vendre a algú que pagui més (la 'teoria del boig més gran')",
+            "La manipulació deliberada dels mercats per part de grans inversors que inflen els preus artificialment per vendre al màxim",
+            "La manca de regulació, que permetria als governs aturar les bombolles si tinguessin els instruments adequats"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La paradoxa de les bombolles és que pot ser completament racional participar-hi fins i tot sabent que és una bombolla. Si el preu d'un actiu puja un 30% anual i el tipus d'interès és del 3%, és racional comprar — sempre que puguis vendre abans que esclati. El problema és la 'teoria del boig més gran': tothom espera que hi haurà algú més boig que pagarà un preu encara més alt. Keynes ho va descriure com el concurs de bellesa: no votes la candidata que et sembla més bonica sinó la que creus que els altres votaran. John Maynard Keynes va escriure: 'Els mercats poden romandre irracionals més temps del que tu pots romandre solvent.' La crisi arriba quan de sobte no hi ha cap boig més gran disposat a pagar més.",
+          "feedbackWrong": "La dinàmica de les bombolles no és simplement ignorància ni manipulació — és una lògica especulativa que pot ser perfectament racional a nivell individual tot i ser destructiva a nivell col·lectiu. La 'teoria del boig més gran' explica per qué inversors sofisticats compren actius que saben que estan sobrevaluats: perquè creuen que podran vendre a algú que pagui encara més. Quan tots intenten vendre alhora, la bombolla esclata."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-06-02",
+          "style": "detect-error",
+          "statement": "La crisi financera del 2008 va ser causada principalment per la manca de regulació dels bancs, i des d'aleshores les reformes regulatòries han eliminat el risc d'una crisi similar en el futur.",
+          "isCorrect": false,
+          "feedbackExplanation": "Dues afirmacions problemàtiques. Primera: la manca de regulació va ser un factor important, però no l'únic. Els incentius perversos dins els bancs (bonificacions per vendes a curt termini sense responsabilitat per pèrdues futures), les agències de rating que donaven AAA a productes tòxics (conflicte d'interessos), i la complexitat dels instruments financers que feia impossible avaluar el risc real van ser igualment determinants. Segona: les reformes post-2008 (Basilea III, Dodd-Frank als EUA) van millorar la situació però estan lluny d'eliminar el risc de crisi. Els mateixos instruments que van causar la crisi han tornat en formes lleugerament modificades. Molts economistes (Raghuram Rajan, Nouriel Roubini) adverteixen regularment que el sistema segueix sent fràgil. L'afirmació que el risc ha estat 'eliminat' és injustificadament optimista."
+        },
+        {
+          "type": "debate",
+          "question": "Quan un gran banc fa fallida, els governs solen rescatar-lo amb diners públics ('too big to fail') per evitar que el col·lapse s'estengui a l'economia real. Però el rescat crea 'risc moral': els bancs saben que seran salvats i per tant prenen més risc. Com hauria de respondre l'Estat a la fallida d'un gran banc?",
+          "positionA": {
+            "label": "Rescatar sempre els bancs sistèmics",
+            "argument": "Un gran banc sistèmic que cau arrossega l'economia real: empreses que no poden pagar els seus treballadors, particulars que perden els estalvis, cadenes de pagament que es col·lapsen. El cost social del no-rescat (com va demostrar Lehman Brothers) supera el cost del rescat. El risc moral és real però gestionable amb regulació posterior."
+          },
+          "positionB": {
+            "label": "Deixar caure els bancs i salvar els estalviadors",
+            "argument": "Rescatar els bancs socialitza les pèrdues (les paga el contribuent) i privatitza els guanys (els cobren els accionistes i directius en els anys bons). El risc moral que crea fa el sistema més fràgil a llarg termini. L'alternativa és salvar els dipòsits individuals (els estalviadors) però deixar caure les institucions i els seus creditors i accionistes."
+          },
+          "reflection": "La crisi del 2008 va ser causada en part per la certesa dels banquers que seria rescatats. Quin sistema d'incentius canviaria aquesta certesa sense generar el caos d'un col·lapse sistèmic?",
+          "context": "El debat sobre el 'too big to fail' és un dels més vius de la reforma financera. Alguns països (com Islàndia el 2008) van optar per deixar caure els seus bancs i fer pagar als creditors estrangers — i es van recuperar relativament ràpid. Grècia va optar per l'austeritat per pagar els deutes dels seus bancs — amb conseqüències devastadores per a la població."
+        }
+      ]
+    }
+  ]
+}

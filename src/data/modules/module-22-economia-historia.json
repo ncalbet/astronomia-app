@@ -1,0 +1,440 @@
+{
+  "id": "module-22-economia-historia",
+  "title": "De Smith a Piketty: Les Idees que van Canviar l'Economia",
+  "emoji": "📚",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "hpe-01",
+      "title": "Per qué les idees econòmiques importen (i per a qui)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "John Maynard Keynes va escriure el 1936 una frase que s'ha convertit en una de les més citades de l'economia: 'Les idees dels economistes i dels filòsofs polítics, tant quan són correctes com quan s'equivoquen, són més poderoses del que generalment es creu. De fet, el món està governat per poc més que això. Els homes pràctics, que creuen estar completament lliures de qualsevol influència intel·lectual, solen ser esclaus d'algun economista difunt.' Quan un polític defensa la necessitat de reduir el dèficit, hereta sense saber-ho idees de Ricardo. Quan un altre defensa l'estímul fiscal en crisi, hereta Keynes. Les idees econòmiques no són neutres — determinen qui paga i qui cobra, qui treballa i qui descansa, qui viu bé i qui malament."
+        },
+        {
+          "type": "key-idea",
+          "text": "La história del pensament econòmic és la história de les grans preguntes sobre la riquesa, la pobresa i la justícia: d'on ve la riquesa? Com es distribueix? Quin és el paper de l'Estat? El mercat genera prosperitat o explotació? Cada escola de pensament ha donat respostes radicalment diferents — i cadascuna ha tingut un impacte enorme en les polítiques concretes que han determinat la vida de milions de persones."
+        },
+        {
+          "type": "prediction",
+          "question": "Imagina que ets assessor econòmic d'un govern que ha d'afrontar una crisi amb atur creixent. Qué li recomanaries fer: augmentar la despesa pública per estimular l'economia, o retallar per reduir el dèficit i recuperar la confiança dels mercats? Per qué?",
+          "hint": "No hi ha una resposta 'correcta' universal — les dues polítiques han estat defensades per economistes brillants en èpoques i contextos diferents."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1776",
+              "title": "Adam Smith: 'La Riquesa de les Nacions'",
+              "text": "La fundació de l'economia moderna. La mà invisible, la divisió del treball, el mercat com a coordinador eficient."
+            },
+            {
+              "year": "1817",
+              "title": "David Ricardo: teoria del valor i el comerç",
+              "text": "La llei de la renda, la teoria del valor-treball, el principi de l'avantatge comparatiu en el comerç internacional."
+            },
+            {
+              "year": "1848",
+              "title": "Karl Marx: 'El Manifest Comunista' i 'El Capital' (1867)",
+              "text": "La lluita de classes, la plusvàlua, la crisi inevitable del capitalisme. La crítica més influent del sistema econòmic modern."
+            },
+            {
+              "year": "1890",
+              "title": "Alfred Marshall: la síntesi neoclàssica",
+              "text": "L'oferta i la demanda, l'elasticitat, l'equilibri parcial. La microeconomia moderna."
+            },
+            {
+              "year": "1936",
+              "title": "John Maynard Keynes: 'La Teoria General'",
+              "text": "La demanda agregada, el multiplicador fiscal, el rol actiu de l'Estat en les crisis. La revolució keynesiana."
+            },
+            {
+              "year": "1944-74",
+              "title": "Hayek, Friedman i el contraatac liberal",
+              "text": "La crítica a la planificació, el monetarisme, la crítica a l'Estat del benestar. La base intelectual del thatcherisme i el reaganisme."
+            },
+            {
+              "year": "2013",
+              "title": "Thomas Piketty: 'El Capital al Segle XXI'",
+              "text": "Les dades sobre desigualtat a llarg termini. La tendència estructural del capitalisme a concentrar la riquesa. El debat sobre l'impost global al capital."
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué l'economia té 'escoles' i no un consens com la física",
+          "content": "En física, hi ha debats oberts però el consens sobre les lleis fonamentals és ampli. En economia, coexisteixen escoles que arriben a conclusions oposades sobre els mateixos fenòmens. Per qué? Tres raons principals. Primera: els valors. L'economia no pot separar completament l'anàlisi positiva ('com funciona') de la normativa ('com hauria de ser'). Les conclusions depenen parcialment de si priortes l'eficiència o la igualtat, la llibertat individual o la seguretat col·lectiva. Segona: la complexitat. L'economia és un sistema adaptatiu complex on les persones canvien de comportament en resposta a les polítiques — impossible de controlar experimentalment com la física. Tercera: els interessos. Les teories econòmiques favorables als rics o als pobres, als creditors o als deutors, als treballadors o als empresaris, reben finançament desigual per a la seva difusió. Les idees econòmiques no circulen en un buit de poder."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-01-01",
+          "style": "multiple-choice",
+          "question": "Keynes va dir que els 'homes pràctics' que creuen no tenir influències intel·lectuals 'solen ser esclaus d'algun economista difunt'. Qué volia dir exactament?",
+          "options": [
+            "Que els polítics i empresaris llegeixen massa economia acadèmica sense adonar-se'n",
+            "Que les decisions econòmiques pràctiques sempre s'inspiren en teories elaborades prèviament, tot i que els actors no ho sàpiguen o no ho reconeguin",
+            "Que l'economia acadèmica és inútil per als problemes pràctics del món real",
+            "Que els economistes morts han tingut més influència que els vius perquè les seves idees han tingut temps de demostrar-se"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La frase de Keynes apunta a quelcom profund: les idees teòriques penetren gradualment en la cultura i en el sentit comú, de manera que quan un polític defensa 'el sentit comú' econòmic, sovint està repetint sense saber-ho les conclusions d'un economista del passat. Quan un ministre diu 'l'Estat no pot gastar més del que ingressa, com qualsevol família', hereta una analogia que Ricardo hauria reconegut (i que Keynes hauria impugnat). Quan un empresari diu 'la competència lliure genera el millor resultat per a tothom', hereta Smith sense saber-ho. Les idees econòmiques formen el terra invisible sobre el qual es prenen les decisions 'pràctiques'.",
+          "feedbackWrong": "Keynes apuntava a la influència invisible de les idees teòriques sobre les decisions pràctiques. Els polítics que creuen decidir 'pragmàticament' solen estar aplicant teoria econòmica que han absorbit sense saber-ho. La ideologia dominant és la teoria que ha triomfat fins al punt de semblar sentit comú."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-01-02",
+          "style": "detect-error",
+          "statement": "Adam Smith va ser el fundador de l'economia de mercat lliure i va defensar que l'Estat mai hauria d'intervenir en l'economia.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és una simplificació que el propi Smith no reconeixeria. Smith va defensar els mercats com a mecanisme eficient d'assignació en molts contextos, però no va defensar el laissez-faire absolut. A 'La Riquesa de les Nacions' reconeixia explícitament la necessitat de l'Estat en la defensa, la justícia, les infraestructures públiques i l'educació. Odiava els monopolis (molts dels quals eren creats o protegits per l'Estat, però la solució era la competència, no l'absència d'Estat). I a 'La Teoria dels Sentiments Morals', la seva primera gran obra, emfasitzava la simpatia i les normes morals com a base de la societat. El 'Smith' del laissez-faire radical és en gran part una construcció posterior dels seus seguidors del segle XIX."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-hpe-01-01",
+          "question": "Les idees econòmiques dominants en cada época tendeixen a afavorir els interessos dels grups socials més poderosos d'aquella época. Creus que les idees econòmiques estan determinades pels interessos de classe, o les idees bones acaben triomfant independentment de qui les patrocini?",
+          "options": [
+            "Les idees estan determinades pels interessos: les teories que afavoreixen els poderosos reben finançament i difusió; les que els desafien, no",
+            "Les bones idees triomfen: a llarg termini, les teories que millor expliquen la realitat s'imposen independentment dels interessos",
+            "Les dues forces actuen alhora: els interessos determinen quines idees reben atenció inicial, però la seva supervivència a llarg termini depèn del seu poder explicatiu"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la tesi marxista clàssica: la superestructura ideològica reflecteix l'estructura econòmica de classe. Té evidència a favor: el pensament econòmic neoliberal dels anys 70-80 va rebre finançament massiu de fundacions i empreses que es beneficiaven de les seves conclusions. La posició B és la defensa de l'autonomia de les idees: el keynesianisme va triomfar als anys 30-40 no perquè afavorís cap classe en particular (afavoria els treballadors i penalitzava els creditors) sinó perquè explicava la Gran Depressió millor que les alternatives disponibles. La posició C és la que la sociologia del coneixement tendeix a defensar: les dues forces actuen en tensió. Els interessos determinen quines idees entren en el debat públic i quin finançament reben per a la seva elaboració i difusió. Però les idees que no serveixen per explicar la realitat acaben sent abandonades, independentment del seu finançament. La crisi del 2008 va erosionar la credibilitat del pensament econòmic dominant, malgrat el seu finançament massiu."
+        }
+      ]
+    },
+    {
+      "id": "hpe-02",
+      "title": "Adam Smith: la mà invisible i els seus malentesos",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Adam Smith era fill d'un funcionari de duanes, va estudiar filosofia moral a Glasgow i Oxford, i va passar molts anys com a tutor d'un noble escocès viatjant per Europa. A Toulouse, avorrida, va començar a escriure un llibre per entretenir-se. Va trigar dotze anys a acabar-lo. El 1776 — l'any de la Declaració d'Independència americana — va publicar 'Investigació sobre la Naturalesa i les Causes de la Riquesa de les Nacions'. Tenia 53 anys. El llibre va ser un èxit immediat i va canviar la manera com el món entenia l'economia. Però el que Smith va escriure és considerablement més complex i matisat que el que els seus seguidors i detractors li han atribuït."
+        },
+        {
+          "type": "prediction",
+          "question": "Adam Smith va escriure el 1776 que la riquesa ve de la divisió del treball i els mercats lliures. En aquell mateix any, James Watt perfeccionava la màquina de vapor. Creus que Smith hauria escrit un llibre diferent si hagués vist la Revolució Industrial? O les seves idees eren aplicables independentment de la tecnologia?",
+          "hint": "Pensa en si la teoria de Smith sobre els mercats i la divisió del treball depèn del tipus de tecnologia disponible o si és universal."
+        },
+        {
+          "type": "key-idea",
+          "text": "Adam Smith va identificar tres mecanismes que expliquen la creació de riquesa: la divisió del treball (especialització que augmenta la productivitat), l'intercanvi en mercats (que permet que cadascú produeixi el que fa millor), i la competència (que força l'eficiència i beneficia el consumidor). La 'mà invisible' del mercat — la idea que l'interès propi, coordinat pel mercat, pot generar benestar col·lectiu — és la seva contribució més citada i més mal entesa."
+        },
+        {
+          "type": "misconception",
+          "belief": "Adam Smith era un defensor del capitalisme sense restriccions que s'oposava a qualsevol forma d'intervenció de l'Estat.",
+          "reality": "Smith va dedicar una part important de 'La Riquesa de les Nacions' a criticar els monopolis empresarials, les corporacions privilegiades i els comerciants que s'aliaven amb l'Estat per beneficiar-se a costa dels consumidors. El seu objectiu no era defensar els empresaris sinó la competència. Hauria estat profundament crític del capitalisme monopolístic del segle XXI.",
+          "why": "La seva obra va ser apropiada pels defensors del laissez-faire ignorant selectivament les seves crítiques als monopolis i la seva defensa de la regulació en casos específics."
+        },
+        {
+          "type": "expandable",
+          "label": "La divisió del treball: l'exemple de la fàbrica d'agulles",
+          "content": "En el primer capítol de 'La Riquesa de les Nacions', Smith descriu una fàbrica d'agulles com a exemple de la divisió del treball. Un home sol, fent tot el procés de fabricació d'una agulla, produiria potser 20 agulles al dia. Però si deu homes es divideixen el procés en 18 operacions especialitzades, produiran 48.000 agulles al dia — 4.800 per treballador. La divisió del treball i l'especialització multipliquen la productivitat de forma extraordinària. Però Smith també va reconèixer el perill: el treballador que fa tota la vida la mateixa operació repetitiva 'no té ocasió d'exercitar la seva comprensió' i es torna 'tan estúpid i ignorant com és possible que sigui una criatura humana'. Smith, el gran defensor del mercat, va ser el primer a diagnosticar l'alienació del treball repetitiu — un problema que Marx desenvoluparia molt més tard."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-02-01",
+          "style": "multiple-choice",
+          "question": "Quan Smith parla de la 'mà invisible' del mercat, quin fenomen descriu exactament?",
+          "options": [
+            "Una força sobrenatural o divina que guia els mercats cap al bé comú",
+            "El mecanisme pel qual l'interès propi de cada individu, coordinat pel sistema de preus, pot generar resultats positius per al conjunt de la societat sense que ningú ho planifiqui",
+            "El paper ocult dels grans monopolis que manipulen els preus en el seu benefici",
+            "La regulació invisible de l'Estat que manté els mercats en equilibri"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La 'mà invisible' és la descripció d'un mecanisme d'ordre espontani: quan el flequer fa el pa no és per altruisme ni per patriotisme, sinó perquè en vol guanyar diners. Però en fer-ho, satisfà una necessitat dels consumidors. La persecució de l'interès propi, coordinada pel mercat (els preus que transmeten informació sobre on hi ha demanda i on hi ha escassetat), pot generar un ordre social beneficiós sense intenció explícita. Smith no deia que el mercat sempre genera el millor resultat — deia que en molts casos, la coordinació descentralitzada de l'interès propi produeix millors resultats que la coordinació centralitzada intencional.",
+          "feedbackWrong": "La 'mà invisible' no té cap connotació sobrenatural ni conspirativa. Descriu un mecanisme social concret: la coordinació descentralitzada de milions de decisions individuals a través del sistema de preus, que pot generar ordre social beneficiós sense planificació conscient. És un dels conceptes més importants i més malentesos de tota l'economia."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-02-02",
+          "style": "true-false",
+          "question": "Smith va escriure que la principal font de la riquesa de les nacions era l'acumulació de metalls preciosos (or i plata), una tesi que va heretar dels seus predecessors mercantilistes.",
+          "correct": false,
+          "feedbackCorrect": "Fals — i precisament la ruptura amb aquesta idea va ser una de les principals aportacions de Smith. El mercantilisme (la teoria dominant abans de Smith) creia que la riquesa d'una nació es mesurava per les reserves d'or i plata, i per tant calia exportar molt i importar poc per acumular metalls preciosos. Smith va argumentar que la riquesa real era la capacitat productiva d'una economia — la quantitat de béns i serveis que podia produir — i que el comerç internacional mutuament beneficiós (on tots dos partners guanyen) era molt millor que l'acumulació mercantilist. Va ser una revolució conceptual: de la riquesa com a acumulació estàtica a la riquesa com a flux productiu.",
+          "feedbackWrong": "Smith va fer exactament el contrari: va trencar amb el mercantilisme, que identificava la riquesa amb l'or i la plata. Va argumentar que la riquesa real era la capacitat productiva — la quantitat de béns que un país podia produir — i que el comerç internacional beneficiava tots dos partners, no sols l'exportador. Va ser una de les ruptures conceptuals més importants de la história del pensament econòmic."
+        },
+        {
+          "type": "debate",
+          "question": "Smith va observar que quan dos comerciants es troben, la seva conversa 'rarament acaba sense una conspiració contra el públic o algun pla per pujar els preus'. Smith, el gran defensor del mercat, era profundament desconfiat dels empresaris. Creus que els mercats lliures beneficien principalment els consumidors o els productors poderosos?",
+          "positionA": {
+            "label": "Beneficien els consumidors",
+            "argument": "La competència força els productors a oferir els millors productes al menor preu possible per no perdre clients. Un mercat competitiu trasllada els guanys de l'eficiència als consumidors. L'evidència histórica és clara: els mercats han generat una reducció massiva dels preus dels béns bàsics i un augment sense precedents del nivell de vida."
+          },
+          "positionB": {
+            "label": "Beneficien els productors poderosos",
+            "argument": "Els mercats reals no són competitius de la manera que descriuen els manuals. Les empreses grans creen barreres d'entrada, concentren el poder de mercat, exerceixen pressió sobre els reguladors i s'apropien dels guanys de la productivitat. Smith tenia raó en la seva desconfiança: els mercats lliures tendeixen a la concentració, no a la competència perfecta."
+          },
+          "reflection": "Pots pensar en mercats concrets on la competència beneficia clarament els consumidors, i d'altres on el poder de mercat afavoreix clarament els productors?",
+          "context": "El debat sobre el poder de mercat i la concentració empresarial ha tornat amb força al segle XXI, amb la discussió sobre el poder monopolístic de les grans tecnològiques (Google, Amazon, Meta) i la concentració en sectors com la banca, la farmàcia o l'alimentació."
+        }
+      ]
+    },
+    {
+      "id": "hpe-03",
+      "title": "Marx: la crítica al capitalisme que no va envellir",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1848, dos joves alemanys exiliats a Brussel·les van escriure un text de quaranta pàgines que acabaria sent el document polític més influent del segle XX: 'El Manifest Comunista'. Karl Marx tenia 30 anys; Friedrich Engels, 27. El primer paràgraf comença: 'Un espectre s'esmenta per Europa — l'espectre del comunisme.' Cent setanta anys després, el comunisme com a sistema polític ha fracassat estrepitosament a gairebé tot arreu on s'ha aplicat. I tanmateix, les eines d'anàlisi de Marx — la llita de classes, l'alienació, la tendència a la concentració del capital, la crisi com a característica estructural del capitalisme — continuen essent indispensables per a molts economistes i sociòlegs contemporanis que no es consideren marxistes."
+        },
+        {
+          "type": "prediction",
+          "question": "Marx va escriure que el capitalisme generava inevitablement crisi i concentració del capital, i que els treballadors acabarien rebel·lant-se. Les crisi han passat. La concentració ha augmentat. Però la rebel·lió proletaria als països industrialitzats avançats no ha arribat. Qué creus que va errar en la seva predicció?",
+          "hint": "Pensa en per qué els treballadors d'Europa i Nord-Amèrica del segle XX van triar la socialdemocracia en lloc de la revolució."
+        },
+        {
+          "type": "key-idea",
+          "text": "Marx va fer dues contribucions intel·lectuals que sobreviuen independentment del fracàs del comunisme soviètic: una anàlisi del capitalisme que identificava les seves tendències internes (concentració del capital, crisi recurrents, alienació del treball) i una metodologia (el materialisme históric) que analitza les institucions socials en relació amb les seves bases econòmiques. Molts dels seus diagnòstics han demostrat ser encertats; moltes de les seves prescripcions, desastroses."
+        },
+        {
+          "type": "expandable",
+          "label": "La teoria de la plusvàlua: d'on ve el benefici empresarial per a Marx",
+          "content": "La teoria central de 'El Capital' (1867) és la teoria de la plusvàlua. Marx partia de la teoria del valor-treball de Ricardo: el valor d'un producte prové del treball incorporat en la seva producció. El treball és l'única font de valor nou. Però els treballadors no cobren el valor complet del que produeixen — cobren un salari que cobreix la seva subsistència (el 'valor de la força de treball'), i treballen hores addicionals el valor de les quals va al capitalista (la 'plusvàlua'). El benefici capitalista és, per Marx, treball no pagat. La crítica té una força moral poderosa. El problema principal és la premissa: la teoria del valor-treball ha estat abandonada per la majoria dels economistes moderns, que expliquen els preus per la utilitat marginal i l'oferta i la demanda, no per les hores de treball incorporades. Però la pregunta de fons de Marx — d'on ve el benefici del capital? — segueix essent rellevant."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-03-01",
+          "style": "multiple-choice",
+          "question": "Quin dels diagnòstics de Marx sobre el capitalisme ha demostrat ser més encertat a la llum de l'evidència histórica posterior?",
+          "options": [
+            "La predicció que el capitalisme col·lapsaria per una revolució del proletariat a les societats industrialitzades avançades",
+            "La tendència del capitalisme a la concentració del capital i a les crisis recurrents de sobreproducció",
+            "La teoria que el valor dels béns prové exclusivament del treball incorporat en la seva producció",
+            "La predicció que l'Estat capitalista desapareixeria gradualment a mesura que el capitalisme madurés"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Les prediccions de Marx sobre la revolució proletària als països industrialitzats avançats van fracassar (les revolucions comunistes van triomfar als països agraris: Rússia, Xina, Cuba). La teoria del valor-treball ha estat abandonada. Però la tendència a la concentració del capital (les empreses grans absorbeixen les petites, el capital es concentra en menys mans) i la recurrència de les crisis (crac del 29, crisi del 2008) han demostrat ser diagnòstics força precisos. Thomas Piketty, en 'El Capital al Segle XXI' (2013), va proporcionar dades empíriques massives que confirmen la tendència de Marx a la concentració: quan la rendibilitat del capital supera el creixement econòmic, la desigualtat augmenta inevitablement.",
+          "feedbackWrong": "Les prediccions revolucionàries de Marx van fracassar i la teoria del valor-treball ha estat abandonada. Però el seu diagnòstic sobre la tendència a la concentració del capital i les crisi recurrents ha estat confirmat per l'evidència histórica. El capitalisme del segle XXI — amb la seva concentració empresarial creixent i les seves crisis financeres recurrents — és en molts sentits el que Marx havia descrit, tot i que per raons parcialmente diferents de les que ell argumentava."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-03-02",
+          "style": "detect-error",
+          "statement": "El comunisme soviètic va fracassar perquè va aplicar fidelment les idees de Marx, demostrant que les seves teories eren incorrectes.",
+          "isCorrect": false,
+          "feedbackExplanation": "Hi ha almenys dues inexactituds. Primer, el comunisme soviètic va divergir de Marx en aspectes fonamentals: Marx preveia la revolució als països industrialitzats avançats, no a Rússia agrícola; Marx esperava que l'Estat s'anés 'extinsin' progressivament, mentre que l'URSS va crear un Estat totalitari poderós; Marx no va dissenyar mai un model d'economia planificada centralitzada detallat. Lenin i Stalin van crear el comunisme soviètic a partir de Marx, però amb moltes reinterpretacions i addicions pròpies. Segon, el fracàs del comunisme soviètic no 'demostra' que totes les idees de Marx siguin incorrectes: la seva anàlisi del capitalisme pot ser valuosa independent de si el model soviètic era la solució adequada als problemes que ell diagnosticava."
+        },
+        {
+          "type": "reflection",
+          "question": "Marx va dir: 'Els filòsofs s'han limitat a interpretar el món de diverses maneres; del que es tracta és de transformar-lo.' Creus que el coneixement econòmic (o qualsevol coneixement social) té una responsabilitat de canvi, o hauria de limitar-se a descriure i explicar? Pot ser una ciència social neutral?",
+          "prompt": "Pensa en la diferència entre descriure com funciona l'economia i argumentar com hauria de funcionar. ¿És possible fer el primer sense fer el segon implícitament?"
+        }
+      ]
+    },
+    {
+      "id": "hpe-04",
+      "title": "Keynes: quan l'Estat havia de salvar el capitalisme de si mateix",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "L'any 1930, amb el món en plena Gran Depressió, John Maynard Keynes va publicar un assaig titulat 'Perspectives Econòmiques per als Nostres Néts'. Hi argumentava que en un segle, el problema econòmic fonamental — la subsistència — estaria resolt, i la humanitat hauria de preocupar-se de com viure bé amb abundància. Mentrestant, el 25% de la força laboral dels EUA estava a l'atur i centenars de milers morien de fam. La distància entre la visió a llarg termini de Keynes i la catàstrofe del present va generar la seva resposta més famosa: 'A llarg termini, tots morts.' Era una defensa de la política econòmica activa en el present, no de l'esperança en una solució espontània futura. Keynes va ser l'economista que va convèncer els governs que podien i haurien d'intervenir activament en les crisis."
+        },
+        {
+          "type": "prediction",
+          "question": "Keynes va dir que 'a llarg termini tots morts'. Creia que la política econòmica havia d'actuar en el present sense esperar que el mercat es correigís sol. Però les polítiques de curt termini creen deutes que paguen les generacions futures. Qui tenia raó: Keynes o els seus crítics que demanaven paciència?",
+          "hint": "Pensa en la diferència entre una crisi de demanda (on l'economia pot quedar atrapada indefinidament) i un ajust normal (on el mercat es corregeix en temps raonables)."
+        },
+        {
+          "type": "key-idea",
+          "text": "La revolució keynesiana va canviar la manera com els governs entenen la seva responsabilitat econòmica: en una crisi de demanda (quan les persones i les empreses deixen de gastar), el mercat no es corregeix sol de forma ràpida; l'Estat ha d'injectar demanda (via despesa pública o baixada d'impostos) per evitar una espiral recessiva. La idea que el dèficit públic pot ser una eina de política econòmica, no simplement un error de gestió, va ser la contribució keynesiana més polèmica."
+        },
+        {
+          "type": "quote",
+          "text": "A llarg termini, tots morts. Els economistes es fixen tasques massa fàcils i massa inútils si en les estacions turbulentes sols ens poden dir que quan la tempesta hagi passat, l'oceà estarà planer de nou.",
+          "author": "John Maynard Keynes, A Tract on Monetary Reform (1923)"
+        },
+        {
+          "type": "expandable",
+          "label": "La paradoxa de l'estalvi: quan el que és bo per a un és dolent per a tots",
+          "content": "Un dels arguments més contraintuïtius de Keynes és la 'paradoxa de l'estalvi'. En una crisi, cada família individual actua racionalment estalviant més i gastant menys per protegir-se. Però si totes les famílies fan el mateix simultàniament, la demanda total cau, les empreses venen menys, acomiadament treballadors, els treballadors acomiadats estalvien i gasten menys, i el cicle s'autopropaga. El que és racional per a cada individu és destructiu per al conjunt: és una fal·làcia de composició (el que és vàlid per a la part no és necessàriament vàlid per al tot). La solució de Keynes: quan el sector privat entra en mode d'estalvi massiu, el sector públic ha de compensar gastant més, fins i tot a dèficit. L'Estat actuaria com la 'demanda de darrer recurs', igual que el banc central actua com el 'prestador de darrer recurs'."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-04-01",
+          "style": "multiple-choice",
+          "question": "Keynes va proposar que, en una crisi econòmica severa, el govern podria contractar treballadors per excavar forats i tornar-los a tapar, i que això seria econòmicament útil. Quin principi econòmic il·lustrava amb aquest exemple aparentment absurd?",
+          "options": [
+            "Que qualsevol feina, per inútil que sigui, és millor que l'atur des del punt de vista social",
+            "Que l'injecció de demanda per part del govern (sigui quin sigui el projecte) activa el multiplicador fiscal i genera activitat econòmica que s'estén per l'economia",
+            "Que els governs haurien d'invertir en infraestructures inútils per evitar malbaratar diners en projectes massa útils que podrien competir amb el sector privat",
+            "Que el problema de la Gran Depressió era purament psicològic i que qualsevol acció del govern, fins i tot absurda, restauraria la confiança"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'exemple dels forats era provocatiu per il·lustrar el principi del multiplicador fiscal: quan el govern injecta diners en l'economia (fins i tot per projectes poc productius), els treballadors contractats cobren un salari que gasten en béns i serveis, generant ingressos per als comerciants que els venen, que al seu torn gasten, generant nous ingressos... El multiplicador keynesià diu que un euro de despesa pública genera més d'un euro d'activitat econòmica total, si hi ha recursos ociosos (aturats, fàbriques parades). Evidentment, Keynes preferia invertir en infraestructures útils — l'exemple dels forats era per demostrar que fins i tot la despesa inútil era millor que la inacció en una crisi de demanda severa.",
+          "feedbackWrong": "L'exemple dels forats il·lustrava el principi del multiplicador fiscal: qualsevol injecció de demanda per part del govern activa un cicle de gasto-ingrés-gasto que amplifica l'efecte inicial. Keynes preferia projectes útils, però usava l'exemple absurd per argumentar que fins i tot la despesa inútil era millor que la deflació en una crisi de demanda severa, perquè posava gent a treballar i diners en circulació."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-04-02",
+          "style": "detect-error",
+          "statement": "Keynes va defensar que els governs haurien d'augmentar sempre la despesa pública i mai no hauries de preocupar-se pel dèficit ni pel deute públic.",
+          "isCorrect": false,
+          "feedbackExplanation": "Keynes no va defensar el dèficit permanent ni la indiferència al deute. Va defensar el dèficit fiscal com a eina anticíclica: gastar per damunt dels ingressos en períodes de recessió i estalviar (generar superàvit) en períodes d'expansió, de manera que el pressupost s'equilibri al llarg del cicle econòmic. La seva proposta era el 'pressupost equilibrat al llarg del cicle', no el dèficit permanent. El problema va ser que molts governs van adoptar la part keynesiana (gastar en crisi) sense adoptar-ne l'altra (estalviar en bonança). Keynes tampoc va dir que el deute fos irrellevant — va argumentar que en certes condicions (recessió severa, tipus d'interès baixos) el cost del deute era inferior al benefici de l'activació econòmica."
+        },
+        {
+          "type": "comparison",
+          "title": "Clàssics vs. Keynesians: dues visions de la crisi",
+          "labelA": "Economia clàssica (pre-Keynes)",
+          "labelB": "Keynesianisme",
+          "items": [
+            {
+              "label": "Causa de la crisi",
+              "a": "Distorsions de mercat (regulació excessiva, salaris rígids)",
+              "b": "Insuficiència de demanda agregada (el sector privat no gasta prou)"
+            },
+            {
+              "label": "Mecanisme de recuperació",
+              "a": "El mercat es corregeix sol si no s'interfere: els salaris i preus baixen fins a restaurar l'equilibri",
+              "b": "El mercat pot quedar atrapat en equilibris de baix nivell; cal estímul extern"
+            },
+            {
+              "label": "Rol de l'Estat",
+              "a": "Passiu: no interferir, equilibrar el pressupost",
+              "b": "Actiu: compensar la insuficiència de demanda privada amb despesa pública"
+            },
+            {
+              "label": "Visió del dèficit",
+              "a": "Sempre negatiu: l'Estat no pot gastar més del que ingressa",
+              "b": "Eina anticíclica: útil en crisi, a reduir en bonança"
+            }
+          ]
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-hpe-04-01",
+          "question": "La teoria keynesiana va triomfar als anys 30-70 i va ser substituïda pel liberalisme econòmic als anys 80. Però les grans crisis del 2008 i la pandèmia van veure un retorn massiu de les polítiques keynesianes. Creus que les teories econòmiques triomfen quan s'ajusten a la realitat, o quan s'ajusten als interessos dels poderosos de cada moment?",
+          "options": [
+            "S'ajusten a la realitat: el keynesianisme va triomfar als 30 perquè explicava la Gran Depressió; el liberalisme als 80 perquè explicava l'estancament inflacionari; i el neo-keynesianisme al 2008 perquè la crisi requeria estímul",
+            "S'ajusten als interessos: el keynesianisme va triomfar quan els treballadors eren poderosos políticament; el liberalisme quan el capital va recuperar el poder als 70-80; el retorn keynesià al 2008 va ser per salvar els bancs, no per principis",
+            "Les dues forces actuen: les teories han de tenir poder explicatiu per sobreviure, però quin problema volen explicar i quines solucions proposen depèn parcialment de quins grups les promouen"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és l'historia 'whig' del progrés científic: les millors idees guanyen perquè expliquen millor la realitat. Té suport: el keynesianisme va triomfar als 30 perquè la teoria clàssica no podia explicar la persistència de la Gran Depressió. La posició B és la crítica política: l'auge del neoliberalisme als 80 va coincidir amb l'augment del poder del capital sobre el treball, i les seves polítiques van afavorir sistemàticament els creditors sobre els deutors, les corporacions sobre els treballadors. La posició C és la que les historió dels de l'economia (com Philip Mirowski) defensen: les dues forces coexisteixen. Les teories necessiten algun poder explicatiu per ser creïbles, però la seva difusió, el seu finançament i la seva traducció en política depèn dels interessos que serveixen. El keynesianisme del 2008 va ser 'keynesianisme per als bancs' (salvar el sistema financer) sense el keynesianisme per als treballadors (estimular els salaris i la demanda) — un retorn selectiu que reflectia els interessos dominants del moment."
+        }
+      ]
+    },
+    {
+      "id": "hpe-05",
+      "title": "Hayek i Friedman: el contraatac liberal",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1944, mentre Keynes era a l'apogeu de la seva influència, un professor d'economia de la London School of Economics va publicar un petit llibre que gairebé ningú va prendre seriosament en el seu moment: 'El Camí de la Servilitud', de Friedrich Hayek. El llibre argumentava que la planificació econòmica portava inevitablement al totalitarisme — que no hi havia mitja via entre el mercat lliure i la dictadura. Era una tesi que semblava extrema en 1944, quan el liberalisme de mercat havia produït la Gran Depressió i calia l'Estat per sortir-ne. Trenta anys més tard, quan la inflació i l'atur coexistien en les economies occidentals, la tesi de Hayek — i la dels seus col·legues com Milton Friedman — semblava molt més plausible. Els anys 80 van ser els seus."
+        },
+        {
+          "type": "prediction",
+          "question": "Hayek va argumentar el 1944 que la planificació econòmica porta inevitablement al totalitarisme. L'Estat del benestar escandinau, que combina una extensa planificació social amb democràcies sòlides, semblaria refutar-lo. Com creus que Hayek hauria respost a l'argument escandinau?",
+          "hint": "Pensa en la distinció que Hayek feia entre la planificació de la producció (que creia perillosa) i la provisió de xarxes de seguretat (que acceptava parcialment)."
+        },
+        {
+          "type": "key-idea",
+          "text": "Hayek i Friedman van construir la crítica liberal a l'Estat del benestar keynesià sobre dos arguments: el problema del coneixement (l'Estat no pot tenir la informació dispersa que necessita per planificar eficientment) i el problema dels incentius (la intervenció de l'Estat distorsiona els incentius i genera efectes no desitjats). Van influir directament en les polítiques de Thatcher i Reagan als anys 80."
+        },
+        {
+          "type": "expandable",
+          "label": "Milton Friedman i el 'helicopter money': la proposta radical que va ser mal entesa",
+          "content": "Milton Friedman és conegut principalment per dos arguments: que la inflació és 'sempre i en tot lloc un fenomen monetari' (controlant la massa monetària, es controla la inflació), i que les empreses no deuen cap responsabilitat social als seus treballadors, comunitats o medi ambient — la seva única responsabilitat és maximitzar el benefici per als accionistes. Però Friedman va fer una proposta que la dreta del seu temps va trobar xocant: la Renda Bàsica Universal (via l'impost negatiu sobre la renda). Argumentava que era més eficient i menys burocràtica que el sistema de subsidis específics. Era una proposta radicalment diferent de l'Estat del benestar keynesià però amb efectes redistributius similars. La seva adopció pel moviment de la Renda Bàsica al segle XXI il·lustra com les idees econòmiques viatgen i es transformen."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-05-01",
+          "style": "multiple-choice",
+          "question": "L'argument central de Hayek contra la planificació central era el 'problema del coneixement'. En qué consistia?",
+          "options": [
+            "Que els planificadors centrals eren massa poc intel·ligents o massa corruptes per gestionar bé l'economia",
+            "Que el coneixement necessari per a la coordinació econòmica és dispersat, local i tàcit, i cap autoritat central no pot reunir-lo ni processar-lo de forma eficient",
+            "Que la planificació central requeria computadores que en el seu temps no existien, però que amb tecnologia moderna seria viable",
+            "Que els governs no tenien els incentius correctes per planificar bé perquè no assumien les pèrdues dels seus errors"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'argument de Hayek no era sobre la capacitat intel·lectual dels planificadors ni sobre la tecnologia disponible — era sobre la naturalesa del coneixement econòmic. El pagès que sap quin camp necessita adob i quin no; el comerciant que sap quins productes demanen els seus clients aquesta setmana; l'artesà que sap quin material funciona millor per a cada peça — tot aquest coneixement és local, tàcit (no explícit), canviant i dispersat entre milions de persones. Cap planificador central, per intel·ligent que sigui i per potent que sigui el seu sistema de computació, pot reunir i processar tot aquest coneixement. El mercat, via els preus, ho fa de forma descentralitzada i contínua.",
+          "feedbackWrong": "L'argument de Hayek no era sobre capacitats humanes o tecnologia — era sobre l'estructura del coneixement. El coneixement econòmic rellevant és local, tàcit i dispersat de manera que no pot ser centralitzat. Els preus del mercat fan quelcom que cap sistema centralitzat pot fer: agregar i transmetre milions de bits d'informació dispersa de forma contínua i descentralitzada."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-05-02",
+          "style": "detect-error",
+          "statement": "Hayek va defensar un laissez-faire absolut sense cap rol per a l'Estat, incloent l'eliminació de tota regulació financera, seguretat social i serveis públics.",
+          "isCorrect": false,
+          "feedbackExplanation": "Com amb Smith, la imatge de Hayek com a defensor del laissez-faire absolut és una caricatura. Hayek va defensar un estat mínim però no inexistent: reconeixia la necessitat d'un sistema legal i judicial per fer complir els contractes i els drets de propietat, un sistema de seguretat social mínim per als més vulnerables (per evitar que la misèria extrema portés al totalitarisme), i algunes regulacions específiques on els mercats fallaven. La seva crítica era a la 'planificació central' i a l'Estat del benestar extensiu, no a tota forma d'intervenció estatal. En 'El Camí de la Servilitud', explícitament diu que la competència i el mercat necessiten un marc legal per funcionar, i que l'Estat ha de proveir-lo."
+        },
+        {
+          "type": "debate",
+          "question": "Hayek va argumentar que la planificació econòmica porta inevitablement al totalitarisme ('El Camí de la Servilitud', 1944). L'evidència histórica posterior (l'Estat del benestar nòrdic, que combina mercats i planificació extensiva sense totalitarisme) sembla refutar-ho. Creus que la llibertat econòmica i la llibertat política estan inevitablement lligades?",
+          "positionA": {
+            "label": "Estan lligades: no hi ha mitja via",
+            "argument": "La llibertat econòmica (propietat privada, mercat lliure) és la base material de la llibertat política: qui depèn de l'Estat per a la seva subsistència no pot oposar-se a l'Estat. L'expansió de l'Estat en l'economia crea dependència política. L'evidència: tots els règims totalitaris del segle XX van eliminar la propietat privada i van planificar l'economia."
+          },
+          "positionB": {
+            "label": "Poden separar-se: el model nòrdic ho demostra",
+            "argument": "Dinamarca, Suècia i Noruega combinen mercats privats, sindicats forts, Estat del benestar extensiu i democràcies sòlides. Xile sota Pinochet va implementar les polítiques de Friedman amb una dictadura. La llibertat econòmica de mercat no garanteix la llibertat política, i l'Estat del benestar no porta al totalitarisme."
+          },
+          "reflection": "On traçaries la línia entre l'intervenció estatal 'saludable' per a la democràcia i la que la posa en risc?",
+          "context": "El debat Hayek-Keynes sobre el rol de l'Estat és una de les línies de fractura polítiques fonamentals del món contemporani. La pandèmia i el canvi climàtic han revifat la pregunta sobre quin és el rol adequat de l'Estat en l'economia."
+        }
+      ]
+    },
+    {
+      "id": "hpe-06",
+      "title": "Piketty i el debat sobre la desigualtat: el gran problema del segle XXI",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2013, un economista francès de 42 anys va publicar un llibre de 700 pàgines ple de dades i gràfics sobre la desigualtat econòmica als darrers 250 anys. El títol jugava intencionadament amb Marx: 'El Capital al Segle XXI', de Thomas Piketty. Ningú esperava que es convertís en un best-seller mundial. Va vendre un milió de còpies en un any. El motiu no era l'estil literari (era un llibre acadèmic) sinó el moment: les dades de Piketty mostraven que la desigualtat als EUA i Europa havia tornat als nivells de la Belle Époque d'abans de la Primera Guerra Mundial. I proposava una causa: quan la rendibilitat del capital (r) supera el creixement econòmic (g), la riquesa es concentra inevitablement. r > g. La fórmula va entrar al vocabulari dels debats polítics globals."
+        },
+        {
+          "type": "prediction",
+          "question": "Piketty diu que la reducció de la desigualtat del segle XX va ser una excepció causada per guerres i polítiques excepcionals. Si té raó, qué creus que caldria per reproduir aquella reducció sense les guerres? Quines forces polítiques podrien generar una redistribució similar?",
+          "hint": "Pensa en les coalicions polítiques que van fer possible l'Estat del Benestar als anys 40-70 i en si avui hi ha forces socials equivalents."
+        },
+        {
+          "type": "key-idea",
+          "text": "Piketty va aportar dades histórica massives que mostraven que la reducció de la desigualtat del segle XX (1914-1980) va ser una excepció causada per les guerres, les crisis i les polítiques redistributives, no la norma del capitalisme. La norma del capitalisme, quan r > g, és la concentració creixent de la riquesa. La seva solució proposada — un impost global al capital — és políticament difícil però conceptualment coherent."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Piketty: El Capital, la Desigualtat i el Futur",
+          "moduleEmoji": "📊",
+          "concept": "Piketty com a culminació d'una tradició",
+          "text": "Has vist en síntesi la trajectòria del pensament econòmic de Smith a Piketty. El mòdul dedicat específicament a Piketty aprofundeix en la seva metodologia (la base de dades histórica sobre riquesa), la seva teoria (r > g i la societat patrimonial), les seves propostes (impost global al capital, herència universal) i el debat sobre la política progressista al segle XXI."
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué la desigualtat importa (i per a qui)",
+          "content": "La desigualtat econòmica no és simplement un problema moral de justícia distributiva — és un problema econòmic, social i polític. Econòmicament: la alta desigualtat redueix la demanda agregada (els rics estalvien una proporció alta dels seus ingressos; els pobres gasten tot el que guanyen), frena la mobilitat social (els rics poden invertir en l'educació i les connexions dels seus fills d'una manera que els pobres no poden), i concentra la innovació en productes i serveis per als rics. Socialment: la desigualtat alta correlaciona amb menys confiança social, més criminalitat i pitjors resultats de salut (Richard Wilkinson i Kate Pickett, 'The Spirit Level'). Políticament: la concentració de riquesa es tradueix en concentració de poder polític, erosionant la democràcia (Larry Bartels, 'Unequal Democracy'). La desigualtat no és simplement injusta — és contraproduent per al funcionament de la societat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-06-01",
+          "style": "multiple-choice",
+          "question": "Qué significa exactament la fórmula r > g de Piketty, i per qué implica concentració creixent de la riquesa?",
+          "options": [
+            "Que la rendibilitat del capital (r) supera el creixement econòmic (g), de manera que els qui tenen capital s'enriqueixen més ràpidament que el creixement global de la riquesa",
+            "Que els rics (r) sempre creixeran més ràpidament que la gent corrent (g), independentment de les polítiques redistributives",
+            "Que el risc (r) és sempre superior als guanys (g) en el capitalisme, cosa que genera cicles de crisi inevitables",
+            "Que la regulació (r) hauria de ser superior al creixement (g) per compensar les tendències concentradores del capitalisme"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. La lògica de r > g és senzilla però poderosa: si la rendibilitat del capital (el que guanyes per tenir actius: borsa, immobiliària, empreses) és sistemàticament superior al creixement de l'economia en general (el que creix la riquesa de tothom), els qui ja tenen capital s'enriqueixen proporcionalment més que els qui viuen del treball. Amb el temps, la part de la riquesa total en mans de qui té capital augmenta inexorablement. Piketty va mostrar que durant la major part de la história del capitalisme (s. XIX i principis XX, i de nou des dels 80), r (al voltant del 4-5%) ha superat g (1-2% en economies madures), generant concentració creixent.",
+          "feedbackWrong": "r > g significa que la rendibilitat del capital supera el creixement econòmic. Quan és així, els qui ja tenen capital (accions, propietats, empreses) s'enriqueixen més ràpidament que el conjunt de l'economia. Amb el pas del temps, la part de la riquesa total que pertany als capitalistes augmenta respecte a la que pertany als treballadors. És una tendència estructural, no un resultat d'eleccions individuals."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-hpe-06-02",
+          "style": "detect-error",
+          "statement": "Piketty va demostrar que la desigualtat econòmica augmenta de forma inevitable i permanent en totes les societats capitalistes, sense excepció possible.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és més determinista del que Piketty argumentava. Piketty va mostrar que r > g és la tendència central del capitalisme quan no hi ha forces que la contrarin — però va identificar tres grans factors que han reduït la desigualtat históricament: les guerres (que destruïen capital físic i forçaven impostos per finançar-les), les crisis (que feien caure el valor dels actius), i les polítiques redistributives (impostos progressius sobre la renda i el capital, Estat del benestar). El seu argument era que sense polítiques redistributives actives, la tendència natural és la concentració. No era un determinisme irremeiable sinó una advertència: si no s'actua políticament, la concentració augmenta. La solució que proposava (impost global al capital) era precisament per contrarestar la tendència, no per adaptar-s'hi."
+        },
+        {
+          "type": "reflection",
+          "question": "Has recorregut el pensament econòmic de Smith a Piketty. Quin economista o quina idea t'ha semblat més rellevant per entendre l'economia del teu temps? I quin creus que té el diagnòstic més encertat sobre els principals problemes econòmics actuals?",
+          "prompt": "No cal triar un sol economista — pots combinar diagnòstics de diversos. Pensa en els problemes econòmics que veus al teu voltant: desigualtat, preus de l'habitatge, canvi climàtic, automatització... Quin marc teòric t'ajuda més a entendre'ls?"
+        }
+      ]
+    }
+  ]
+}

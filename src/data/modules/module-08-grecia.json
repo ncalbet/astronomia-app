@@ -1,0 +1,500 @@
+{
+  "id": "module-08-grecia",
+  "title": "L'Invent dels Grecs",
+  "emoji": "🏛️",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "gre-01",
+      "title": "Per què els grecs encara ens importen",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Imagina que estàs a punt de votar en unes eleccions, llegint un article d'opinió, veient un judici per televisió o debatent sobre si una guerra és justa. En tots aquests moments, estàs fent servir eines inventades fa 2.500 anys en una petita península mediterrània. Els grecs no van inventar la roda ni l'escriptura — però van inventar alguna cosa potser més poderosa: la manera de pensar sobre el món i d'organitzar la vida en comú."
+        },
+        {
+          "type": "prediction",
+          "question": "Quina creus que és la contribució grega més important que encara fem servir avui?",
+          "hint": "Pensa més enllà dels edificis i les escultures. Pensa en formes d'organitzar la societat o de buscar el coneixement."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els grecs van inventar la política, la filosofia, el teatre, la historiografia i la democràcia com a projectes conscients: per primera vegada, els humans van intentar pensar sistemàticament sobre com viure junts i com entendre el món."
+        },
+        {
+          "type": "misconception",
+          "belief": "La Grècia antiga era un país unificat amb una cultura homogènia, com Egipte o Pèrsia.",
+          "reality": "Grècia no era un estat sinó una constel·lació de centenars de ciutats-estat independents (poleis) que sovint estaven en guerra entre elles. Atenès i Esparta eren tan diferents com pot ser-ho una democràcia liberal d'una dictadura militar. La unitat era cultural i lingüística, no política.",
+          "why": "El cinema i la divulgació tendeixen a presentar 'els grecs' com un bloc, però les guerres entre poleis van ser constants i ferotges."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "~1200 aC",
+              "title": "Col·lapse de l'Edat del Bronze",
+              "text": "La civilització micènica, predecessor dels grecs clàssics, s'esfondra misteriosament. Segueix una 'edat fosca' de 400 anys."
+            },
+            {
+              "year": "~800 aC",
+              "title": "Renaixement grec i primeres poleis",
+              "text": "Les ciutats-estat comencen a organitzar-se. Homer composa (o recull) la Ilíada i l'Odissea."
+            },
+            {
+              "year": "508 aC",
+              "title": "Reforma democràtica de Clístenes a Atenes",
+              "text": "El primer sistema de govern basat en la participació ciutadana de la història."
+            },
+            {
+              "year": "490-479 aC",
+              "title": "Guerres Mèdiques contra Pèrsia",
+              "text": "Maratona, les Termòpiles, Salamina. Grècia resisteix l'imperi més poderós del món."
+            },
+            {
+              "year": "461-429 aC",
+              "title": "El Segle de Pèricles",
+              "text": "Apogeu d'Atenes: el Partenó, Sòcrates, Èsquil, Heròdot. La democràcia en el seu moment àlgid."
+            },
+            {
+              "year": "431-404 aC",
+              "title": "Guerra del Peloponès",
+              "text": "Atenes contra Esparta. La guerra civil que va destruir el món clàssic grec des de dins."
+            },
+            {
+              "year": "336-323 aC",
+              "title": "Alexandre el Gran",
+              "text": "Macedònia conquista Pèrsia i arriba fins a l'Índia. La cultura grega s'estén per tot el món conegut."
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "L'Edat Fosca grega: quan tot es va perdre i com es va recuperar",
+          "content": "Cap al 1200 aC, la sofisticada civilització micènica va col·lapsar en menys d'una generació. Els palaus van ser destruïts, l'escriptura (el lineal B) va desaparèixer, el comerç va cessar i la població va caure en picat. Durant 400 anys, Grècia va viure en pobles petits sense escriptura ni arquitectura monumental. Quan el renaixement va arribar cap al 800 aC, va adoptar un alfabet nou (basat en el fenici) i va reconstruir tot des de zero — però amb una novetat crucial: ara els centres de poder no eren palaus monàrquics sinó comunitats de ciutadans. Potser el col·lapse va ser una condició per a la democràcia."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-01-01",
+          "style": "multiple-choice",
+          "question": "Per qué és incorrecte parlar de 'Grècia' com d'un estat unificat durant l'època clàssica?",
+          "options": [
+            "Perquè els grecs no tenien un nom comú per a ells mateixos",
+            "Perquè era una constel·lació de ciutats-estat independents, sovint en guerra entre elles",
+            "Perquè estaven sota domini persa durant la major part del període clàssic",
+            "Perquè només Atenes tenia un govern establert"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Les poleis eren entitats polítiques sobiranes i geloses de la seva independència. La unitat era cultural (llengua, religió, jocs olímpics) però no política. Atenes i Esparta van ser aliades per necessitat davant Pèrsia, però rivals mortals la major part del temps.",
+          "feedbackWrong": "Els grecs es reconeixien com a 'hel·lens' i tenien consciència d'identitat compartida, però aquesta identitat no es traduïa en unitat política. Cada polis era sobirana i decidia les seves guerres i aliances de forma independent."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-gre-01-01",
+          "question": "Per qué creus que precisament a Grècia, i no a Egipte o a la Mesopotàmia (civilitzacions molt més antigues i poderoses), va néixer la democràcia i la filosofia racional?",
+          "options": [
+            "Per la genialitat innata del poble grec — hi ha cultures naturalment més intel·ligents",
+            "Per la fragmentació política: centenars de ciutats competint van generar diversitat d'idees i impossibilitat d'un poder únic que les controlés",
+            "Per la influència de la geografia: el mar Mediterrani facilitava el contacte amb moltes cultures i tradicions"
+          ],
+          "correct": 1,
+          "explanation": "La resposta A és la que els propis grecs tendien a donar-se — però els historiadors moderns la rebutgen. La resposta C és parcialment vàlida: el contacte amb Egipte, Pèrsia i el Pròxim Orient va ser crucial. Però la clau més profunda sembla ser la B: la fragmentació. En un imperi centralitzat com Egipte o Pèrsia, el poder establert podia suprimir el pensament heterodox. A Grècia, si una polis perseguia un pensador, podia marxar a una altra. La competència entre ciutats va crear un espai de llibertat intel·lectual que els grans imperis no podien permetre. No va ser genialitat innata: va ser estructura política."
+        }
+      ]
+    },
+    {
+      "id": "gre-02",
+      "title": "La polis: la invenció de la política",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La paraula 'política' ve del grec 'polis', que significa ciutat. Però una polis no era simplement una ciutat — era una comunitat d'iguals que es governava a si mateixa. Aristòtil va dir que 'l'home és un animal polític', i ho volia dir literalment: un ésser humà que vivia fora de la polis — sense lleis, sense debat, sense comunitat — no era del tot humà. Ni per sobre ni per sota: era una bèstia o un déu."
+        },
+        {
+          "type": "key-idea",
+          "text": "La polis grega va inventar la idea que els afers públics (ta politika) podien i havien de ser debatuts i decidits pels propis ciutadans, no imposats per un rei o un sacerdot. Aquesta idea sembla òbvia avui — però durant milers d'anys d'història humana no ho havia estat gens."
+        },
+        {
+          "type": "comparison",
+          "title": "La polis grega vs. els grans imperis de l'antiguitat",
+          "labelA": "Polis grega",
+          "labelB": "Imperis orientals (Pèrsia, Egipte)",
+          "items": [
+            {
+              "label": "Escala",
+              "a": "Petita (Atenes: ~300.000 hab. tot inclòs)",
+              "b": "Immensa (Pèrsia: 50 milions de persones)"
+            },
+            {
+              "label": "Legitimitat del poder",
+              "a": "El debat públic i el vot (en democràcies)",
+              "b": "El rei com a representant diví o fill dels déus"
+            },
+            {
+              "label": "Participació ciutadana",
+              "a": "Obligació: el bon ciutadà participa",
+              "b": "Obediència: el bon súbdit obeeix"
+            },
+            {
+              "label": "Relació amb la llei",
+              "a": "La llei és de tots i es pot reformar",
+              "b": "La llei és voluntat del rei"
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "Qui era 'ciutadà' a la polis? (La cara fosca de la democràcia grega)",
+          "content": "La democràcia atenesa era real — però excloent. Només eren ciutadans els homes adults nascuts a Atenes de pare i mare atenesos. Quedaven exclosos: les dones (estimat el 50% de la població lliure), els esclaus (entre el 30 i el 40% de la població total), els metecs (estrangers residents, entre ells molts comerciants i artesans indispensables per a l'economia). Sòcrates va poder ser jutjat i executat pels seus conciutadans. Però Aspàsia, la companya de Pèricles i una de les dones més intel·ligents d'Atenes, mai va poder votar. La democràcia grega va ser el primer experiment de govern popular — però 'el poble' era una minoria selecta."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-02-01",
+          "style": "multiple-choice",
+          "question": "Aristòtil va afirmar que l'home és un 'animal polític' (zoon politikon). Qué volia dir exactament?",
+          "options": [
+            "Que els humans som naturalment maquiavèl·lics i busquem el poder",
+            "Que la naturalesa humana es realitza plenament en la vida en comunitat política, no en solitari",
+            "Que la política és l'activitat més noble i superior a qualsevol altra",
+            "Que tots els humans tendim naturalment a crear partits polítics"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Per Aristòtil, viure en comunitat política (la polis) no era una elecció sinó una necessitat natural. Un humà que visqués al marge de la polis seria, per definició, o una bèstia salvatge (per sota de la humanitat) o un déu que no necessita els altres (per sobre). La vida social i política era el que ens feia humans.",
+          "feedbackWrong": "Aristòtil no volia dir que els humans siguin oportunistes o ambiciosos (aixó seria Maquiavel, 1.800 anys més tard). La seva idea era que la vida humana plena és inherentment social i política: necessitem els altres per ser el que som."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-02-02",
+          "style": "true-false",
+          "question": "La democràcia atenesa incloïa el dret de vot per a tots els habitants d'Atenes, incloses dones i esclaus.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La democràcia atenesa era exclusiva: votaven únicament els homes adults nascuts d'Atenes de pare i mare atenesos. Les dones, els esclaus (que podien ser un terç de la població) i els estrangers residents quedaven totalment exclosos. La participació democràtica era un privilegi de minoria.",
+          "feedbackWrong": "Al contrari — la democràcia atenesa era molt exclusiva. Tot i ser un avenç revolucionari per als seus estàndards, excloïa les dones, els esclaus i els estrangers. 'El poble' (demos) que governava representava probablement menys del 15% de la població total d'Àtica."
+        },
+        {
+          "type": "debate",
+          "question": "La democràcia atenesa excloïa dones, esclaus i estrangers. Mereix el nom de 'democràcia' o hauria de considerar-se una oligarquia?",
+          "positionA": {
+            "label": "Sí és democràcia",
+            "argument": "Tota democràcia real és imperfecta i incompleta. Les democràcies modernes van tardar fins al segle XX a reconèixer el vot femení. El que importa és el principi: que el poder no resideix en un rei o una casta sinó en una comunitat de ciutadans. Atenès va inventar aquest principi."
+          },
+          "positionB": {
+            "label": "No és democràcia real",
+            "argument": "Si el 85% de la població no té veu, el sistema s'assembla més a una oligarquia d'homes propietaris que a una democràcia. Cridar-li democràcia és una cortesia histórica. I el fet que els atenencs toleressín l'esclavitud mentre parlaven de llibertat és una contradicció fonamental que no es pot ignorar."
+          },
+          "reflection": "Quan jutgem institucions del passat, usem els valors del present o els estàndards de la seva época?",
+          "context": "Historiadors com Josiah Ober defensen que el model atenès va ser genuïnament revolucionari en el seu context. Altres, com Ellen Wood, subratllen que la democràcia atenesa es va construir sobre l'esclavitud i que no es pot separar l'una de l'altra."
+        }
+      ]
+    },
+    {
+      "id": "gre-03",
+      "title": "La democràcia en acció: com funcionava realment",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 415 aC, els atenesos van prendre una de les decisions més catastròfiques de la seva història: enviar una flota immensa a conquerir Sicília. La decisió la va prendre l'assemblea — milers de ciutadans votant a mà alçada a la colina de la Pnix. L'estrateg Nícies va intentar dissuadir-los descrivint els riscos; l'assemblea va votar que sí, però va augmentar els recursos per fer la campanya encara més ambiciosa. L'expedició va ser un desastre total: 40.000 homes morts o capturats. Tucídides, que ho va viure, es va preguntar si la democràcia podia prendre bones decisions en temps de crisi."
+        },
+        {
+          "type": "key-idea",
+          "text": "La democràcia atenesa funcionava per participació directa, no representativa: els ciutadans no elegien representants sinó que votaven ells mateixos les lleis i les decisions de guerra i pau. Qualsevol ciutadà podia parlar a l'assemblea. Els càrrecs de govern s'elegien per sorteig — no per elecció — per evitar que els rics i els eloquents monopolitzessin el poder."
+        },
+        {
+          "type": "expandable",
+          "label": "L'ostracisme: quan la democràcia expulsava els seus millors homes",
+          "content": "Una vegada a l'any, els atenesos podien votar per expulsar qualsevol ciutadà de la ciutat durant deu anys, sense judici ni acusació concreta. Cada votant escrivia un nom en un fragment de ceràmica (òstrakon, d'on ve 'ostracisme'). Si el mateix nom apareixia en 6.000 o més fragments, aquell home havia de marxar. Van ser ostracitzats alguns dels polítics més influents d'Atenes, inclòs Temístocles, l'arquitecte de la victòria naval contra Pèrsia. La raó: quan algú acumulava massa poder o influència, la democràcia el treia del joc preventivament. Era un mecanisme anti-tirànic — però també un instrument de vendettas polítiques."
+        },
+        {
+          "type": "misconception",
+          "belief": "La democràcia directa atenesa era caòtica i ineficient perquè tots parlaven alhora i ningú sabia el que feia.",
+          "reality": "La democràcia atenesa tenia una estructura sofisticada: l'Ekklesia (assemblea general) prenia decisions; la Boulé (consell de 500, elegit per sorteig) preparava l'agenda i supervisava l'execució; els tribunals populars (Heliaia) resolien conflictes. El sistema funcionava amb regles de torn, temps de paraula i procediments formals. No era caos — era complexitat organitzada.",
+          "why": "Tendim a imaginar que la participació massiva és sinònim de desordre, però els atenesos van dedicar enorme energia a dissenyar procediments que fessin funcionar la participació col·lectiva."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-03-01",
+          "style": "multiple-choice",
+          "question": "Per qué els atenesos elegien la majoria dels càrrecs de govern per sorteig i no per votació?",
+          "options": [
+            "Perquè no sabien organitzar eleccions amb prou eficiència",
+            "Per evitar que l'eloqüència i la riquesa determinéssin qui governava, garantint una rotació real entre ciutadans",
+            "Perquè creien que els déus guiaven el sorteig cap al millor candidat",
+            "Perquè els càrrecs eren tan penosos que ningú es presentava voluntàriament"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Per als atenesos, les eleccions competitives afavorien naturalment els rics i els oradors brillants. El sorteig garantia que qualsevol ciutadà, independent de la seva riquesa o oratòria, pogués governar. Era un mecanisme conscient d'igualtat política. Aristòtil fins i tot deia que el sorteig era la marca de la democràcia, mentre que les eleccions eren la marca de l'oligarquia.",
+          "feedbackWrong": "El sorteig era una decisió filosòfica, no una limitació pràctica. Els atenesos tenien molt clar per qué ho feien: les eleccions creen aristocràcies d'oratòria i riquesa. El sorteig és l'únic mecanisme que garanteix igualtat real de participació."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-03-02",
+          "style": "detect-error",
+          "statement": "L'ostracisme atenès era un procediment judicial on un ciutadà acusat d'un delicte podia ser expulsat de la ciutat durant deu anys si el jurat el declarava culpable.",
+          "isCorrect": false,
+          "feedbackExplanation": "Hi ha dos errors. Primer, l'ostracisme no era un procediment judicial: no calia cap acusació ni delicte concret. Era un vot preventiu de l'assemblea. Segon, no hi havia jurat ni judici: qualsevol ciutadà podia ser ostracitzat simplement per tenir massa influència o per ser percebut com una amenaça potencial per a la democràcia. Era un mecanisme de profilaxi política, no de justícia penal."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-gre-03-01",
+          "question": "La democràcia directa atenesa permetia que milers de ciutadans sense formació específica votessin decisions estratègiques de guerra, finances i política exterior. Creus que una democràcia directa pot prendre millors decisions que una representativa amb experts?",
+          "options": [
+            "No: les decisions complexes requereixen experts, i la massa sense formació tendeix a l'error i a la demagogia",
+            "Sí: la participació directa genera més compromís i legitimitat, i la saviesa col·lectiva supera la dels experts individuals",
+            "Depèn del tipus de decisió: algunes requereixen expertise tècnic, d'altres requereixen judici de valors on tots tenen veu legítima"
+          ],
+          "correct": 2,
+          "explanation": "Tucídides (qui va escriure sobre el desastre de Sicília) tendia cap a la posició A, i molts filòsofs polítics moderns comparteixen la seva desconfiança. Però investigacions recents en ciència política (com la de Hélène Landemore) mostren que la diversitat cognitiva de grans grups pot superar la d'experts individuals en problemes complexos — el que s'anomena 'saviesa de multituds'. La posició C sembla la més sòlida: les decisions tècniques (quants vaixells construir, quin medicament aprovar) es beneficien d'expertise; les decisions de valors (anar a la guerra, com distribuir la riquesa) no tênen una resposta 'experta' objectiva i el judici de tots els afectats és legítim. El problema d'Atenes va ser aplicar el mateix mecanisme a tots dos tipus de decisions sense distinció."
+        }
+      ]
+    },
+    {
+      "id": "gre-04",
+      "title": "Esparta: l'altra Grècia",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Les Termòpiles, 480 aC. Tres-cents espartans aguanten el pas contra l'exèrcit més gran que el món grec havia vist mai. La imatge és famosa. Però el que l'èpica heroica no conta és el sistema que va produir aquells soldats: un estat que separava els nens dels seus pares als set anys, que els educava durant vint anys en la brutalitat i la resistència, i que mantenia en esclavitud una població sencera (els hilotes) per alliberar els seus ciutadans per a la guerra. Esparta va ser l'invent oposat al d'Atenes — i els atenesos l'admiraven i la temien alhora."
+        },
+        {
+          "type": "key-idea",
+          "text": "Esparta va ser el gran experiment alternatiu al model atenès: una societat organitzada totalment al voltant de la guerra i la disciplina col·lectiva, on l'individu es dissolia en la comunitat. No va produir filòsofs ni dramaturgs, però durant segles va ser la potència militar dominant de Grècia."
+        },
+        {
+          "type": "comparison",
+          "title": "Atenes vs. Esparta: dos models de civilització",
+          "labelA": "Atenes",
+          "labelB": "Esparta",
+          "items": [
+            {
+              "label": "Sistema polític",
+              "a": "Democràcia directa (per als ciutadans)",
+              "b": "Oligarquia mixta: dos reis + efor + assemblea"
+            },
+            {
+              "label": "Educació",
+              "a": "Música, filosofia, retòrica, atletisme",
+              "b": "Agoge: entrenament militar des dels 7 anys"
+            },
+            {
+              "label": "Rol de la dona",
+              "a": "Reclosa a l'esfera domèstica (oikos)",
+              "b": "Educació física, vot en alguns afers, més llibertat pública"
+            },
+            {
+              "label": "Economia",
+              "a": "Comerç, artesania, imperi marítim",
+              "b": "Agricultura sobre els hilotes; espartans prohibits de comerciar"
+            },
+            {
+              "label": "Llegat cultural",
+              "a": "Filosofia, teatre, història, arquitectura",
+              "b": "Disciplina militar; el concepte de 'lacònic' (concís)"
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "Els hilotes: l'esclavitud col·lectiva que feia possible Esparta",
+          "content": "Els hilotes eren els habitants originals de Lacònia i Messènia, conquistats pels espartans fa segles. No eren esclaus individuals sinó una població sencera reduïda a servilisme col·lectiu: treballaven les terres dels espartans i lliuraven la meitat de la collita. En nombre superaven els espartans en una proporció d'entre 7 a 1 i 10 a 1. Per mantenir-los sota control, l'Estat espartà declarava formalment la guerra als hilotes cada any, permetent als joves espartans matar-los sense conseqüències legals. La 'krypteia' — una mena de caça nocturna dels hilotes com a prova d'iniciació — era una institució oficial. El terror era el fonament de tot el sistema. Paradoxalment, la 'llibertat' espartana dels ciutadans es comprava al preu de l'esclavitud total d'altri."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-04-01",
+          "style": "multiple-choice",
+          "question": "L'agoge era el sistema educatiu espartà. Quin era el seu objectiu principal?",
+          "options": [
+            "Formar ciutadans cultivats que poguessin participar en el debat democràtic",
+            "Forjar soldats disciplinats i lleials a l'Estat des de la infància, dissolent els lligams familiars",
+            "Transmetre els coneixements filosòfics i científics de les generacions anteriors",
+            "Preparar els joves per al comerç i la gestió econòmica de la polis"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'agoge separava els nens dels seus pares als 7 anys i els sotmetia a un entrenament de vint anys basat en la resistència física, la disciplina, la camaraderia militar i la lleialtat a l'Estat per sobre de la família. No es buscava l'individu brillant sinó el guerrer fiable. L'agoge produïa excel·lents soldats però suprimia deliberadament la individualitat.",
+          "feedbackWrong": "L'agoge era l'oposat de l'educació atenesa. No es buscava el ciutadà reflexiu o el filòsof, sinó el guerrer suprem. La filosofia, la música i la retòrica eren pròpies d'Atenes; Esparta les considerava luxes que feblien l'esperit."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-04-02",
+          "style": "true-false",
+          "question": "Les dones espartanes tenien menys llibertat i drets que les dones ateneses.",
+          "correct": false,
+          "feedbackCorrect": "Fals, és al revés. Les dones espartanes rebien educació física, podien sortir de casa, participaven en competicions atlètiques i tenien veu en alguns afers domèstics i econòmics. Les dones ateneses, en canvi, estaven confinades a l'esfera domèstica (l'oikos), no podien aparèixer en públic sense escorta i tenien una vida social pràcticament nul·la. La paradoxa és que la democràtica Atenes oprimia més les dones que la militarista Esparta.",
+          "feedbackWrong": "Sorprenentment, les dones espartanes tenien considerablement més llibertat que les ateneses. Rebien educació física, gestionaven els béns familiars quan els homes eren a la guerra, i participaven en la vida pública d'una forma impensable a Atenes. Plató, atenès, admirava la situació de les dones espartanes."
+        },
+        {
+          "type": "debate",
+          "question": "Esparta va subordinar l'individu a la comunitat per assolir excel·lència col·lectiva. Atenes va prioritzar la llibertat individual i la creativitat. Quin model et sembla preferible?",
+          "positionA": {
+            "label": "El model espartà",
+            "argument": "Una comunitat cohesionada i disciplinada pot assolir coses que els individus aïllats no poden. La llibertat sense responsabilitat col·lectiva genera desigualtat i decadència. Esparta va durar 700 anys; Atenes, en el seu moment de glòria democràtica, menys d'un segle."
+          },
+          "positionB": {
+            "label": "El model atenès",
+            "argument": "Tot el que va produir Grècia i que encara ens importa — filosofia, ciència, teatre, democràcia — va sortir d'Atenes i de les poleis obertes, no d'Esparta. La llibertat individual és la condició de la creació. Esparta va durar molt però no va crear gairebé res."
+          },
+          "reflection": "Pots pensar en equivalents moderns d'aquest debat?",
+          "context": "El debat entre col·lectivisme i individualisme no va acabar amb Grècia. El segle XX va ser en bona part un camp de batalla entre versions extremes d'aquests dos models."
+        }
+      ]
+    },
+    {
+      "id": "gre-05",
+      "title": "Guerres i crisi: quan el món grec s'esfondra",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 431 aC, Atenes i Esparta van iniciar una guerra que duraria vint-i-set anys i destruiria el món grec clàssic. Tucídides, l'historiador que la va viure i en part protagonitzar, la va descriure com 'la guerra més gran que havia afectat els grecs'. No s'equivocava. Però el que el fa fascinant per als lectors del segle XXI és que no la va escriure com una crònica heroica, sinó com una anàlisi freda del poder, la por i la irracionalitat humana. La seva obra és el primer text de ciència política de la història."
+        },
+        {
+          "type": "key-idea",
+          "text": "La Guerra del Peloponès (431-404 aC) va enfrontar l'Atenes democràtica i el seu imperi marítim contra l'Esparta espartana i la lliga del Peloponès. Va acabar amb la derrota d'Atenes i va obrir una crisi de la qual Grècia no es va recuperar mai com a potència autònoma."
+        },
+        {
+          "type": "expandable",
+          "label": "El 'Diàleg dels Melians': la primera formulació del dilema entre poder i justícia",
+          "content": "El 416 aC, Atenes va enviar una delegació a l'illa de Melos per exigir la seva rendició o la seva destrucció. Els melians van apel·lar a la justícia i als déus. Els atenesos van respondre amb fredor: 'Els poderosos fan el que poden; els febles pateixen el que han de patir.' Melos es va negar. Atenes la va destruir: va matar tots els homes adults i va vendre les dones i els nens com a esclaus. Tucídides va incloure aquest episodi al seu relat sense judici moral explícit — però la seva situació, just abans de l'expedició a Sicília que va ser un desastre, és eloqüent. L'imperialisme atenès va sembrar la seva pròpia destrucció."
+        },
+        {
+          "type": "quote",
+          "text": "La causa real de la guerra, tot i que menys declarada obertament, crec que va ser el creixement del poder atenès i l'alarma que va causar a Esparta.",
+          "author": "Tucídides, Història de la Guerra del Peloponès"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-05-01",
+          "style": "multiple-choice",
+          "question": "Tucídides va identificar la 'causa real' de la Guerra del Peloponès. Quina va ser?",
+          "options": [
+            "Un insult diplomàtic d'Atenes al rei d'Esparta en un banquet",
+            "El creixement del poder atenès i la por que va generar a Esparta",
+            "Un conflicte comercial per les rutes marítimes de la Mediterrània",
+            "La rivalitat personal entre Pèricles i el rei espartà Arquidàm"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Tucídides va establir una distinció clàssica entre les causes 'declarades' (incidents concrets, disputes sobre aliades) i la causa 'real': la por que el creixement del poder atenès va generar a Esparta. Aquesta anàlisi és la primera formulació del que avui s'anomena 'la trampa de Tucídides': quan una potència ascendent amenaça una potència establerta, la guerra és probable. L'analogia amb la rivalitat EUA-Xina és citada constantment per analistes contemporanis.",
+          "feedbackWrong": "Tucídides va ser el primer a distingir entre causes superficials (incidents concretes, disputes diplomàtiques) i causes estructurals. La seva resposta és sorprenentment moderna: no va buscar el 'culpable' sinó la dinàmica de poder subjacent. La causa que ell identifica és el creixement del poder atenès i la por que va generar."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-05-02",
+          "style": "detect-error",
+          "statement": "La plaga d'Atenes del 430 aC va ser un episodi menor que va afectar alguns barris pobres de la ciutat, però que Pèricles va gestionar bé i que no va tenir conseqüències polítiques significatives.",
+          "isCorrect": false,
+          "feedbackExplanation": "Gairebé tot és fals. La plaga d'Atenes va ser devastadora: va matar entre un quart i un terç de la població d'Àtica, inclòs el propi Pèricles el 429 aC. Va afectar totes les classes socials (Tucídides la va contreure i sobreviure). Va tenir conseqüències polítiques enormes: va debilitar irreversiblement Atenes en plena guerra, va desestabilitzar el lideratge polític i va generar una crisi moral i religiosa profunda. La mort de Pèricles va obrir pas a demagogs menys prudents que el van substituir."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Pau, Conflicte i Guerra",
+          "moduleEmoji": "🕊️",
+          "concept": "Les causes estructurals de la guerra",
+          "text": "Tucídides va formular fa 2.400 anys la mateixa distinció entre causes immediates i causes profundes que els teòrics moderns del conflicte apliquen avui. La 'trampa de Tucídides' — la tensió entre una potència ascendent i una establerta — és una de les anàlisis més citades en les relacions internacionals del segle XXI."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-gre-05-01",
+          "question": "Tucídides va afirmar que escrivia per als qui volguessin 'entendre clarament els esdeveniments passats i, per la naturalesa humana, els futurs semblants o anàlegs'. Creus que la història pot realment predir el futur?",
+          "options": [
+            "Sí: la naturalesa humana és constant, i els patrons de poder i conflicte es repeteixen amb prou regularitat per fer prediccions fiables",
+            "No: cada situació històrica és única, i usar analogies del passat per predir el futur és una fal·làcia perillosa",
+            "Parcialment: la història identifica patrons i tendències, però no permet prediccions precises — és una eina de comprensió, no de profecia"
+          ],
+          "correct": 2,
+          "explanation": "La posició de Tucídides és la A, i té una part de raó: alguns patrons (la por davant el poder ascendent, la tendència a subestimar els costos de la guerra) semblen repetir-se. Però la posició B té també força: el nazisme no era 'predit' per cap patró antic, i les armes nuclears van canviar radicalment la lògica de la guerra. La posició C és la que defensarien la majoria d'historiadors actuals: la història és una caixa d'eines conceptuals (trampes de Tucídides, dilemes del presoner, espirals d'acció-reacció) que ajuden a comprendre situacions noves, però mai substitueix l'anàlisi concreta de cada cas. L'analogia mal aplicada pot ser més perillosa que la ignorància."
+        }
+      ]
+    },
+    {
+      "id": "gre-06",
+      "title": "El llegat grec: el que vam heretar (i el que no)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 323 aC, Alexandre el Gran va morir a Babilònia als 32 anys. En dotze anys havia conquerit l'imperi persa, Egipte, la Bactriana i havia arribat fins a la frontera de l'Índia. Però la seva conquesta va fer alguna cosa potser més duradora que la victòria militar: va estendre la cultura grega per tot el món conegut. El grec va ser la llengua de comunicació de l'Orient Mediterrani durant segles. El Nou Testament va ser escrit en grec. La filosofia grega va ser conservada pels àrabs i retornada a Europa al segle XII. Sense els grecs, potser no hi hauria Renaixement. Sense el Renaixement, potser no hi hauria ciència moderna."
+        },
+        {
+          "type": "key-idea",
+          "text": "El llegat grec no és un museu de coses mortes. És el substrat invisible de la civilització occidental: la democràcia representativa, el mètode científic, la filosofia com a disciplina, el teatre, la historiografia, els Jocs Olímpics, la noció que la llei ha de valer per a tothom. Tot això té arrels directes a la Grècia del segle V aC."
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué el grec va sobreviure gràcies als àrabs",
+          "content": "Quan l'Imperi Romà d'Occident va caure el 476 dC i Europa va entrar en l'Edat Mitjana, gran part del coneixement grec es va perdre o va quedar inaccessible. Però al món islàmic, a partir del segle VIII, el califa abbàssida al-Mansur va promoure la traducció massiva de textos grecs a l'àrab: Aristòtil, Euclides, Ptolomeu, Hipòcrates, Galè. Aquests textos van ser comentats, ampliats i transmesos per pensadors com Avicenna i Averrois. Quan Europa va redescobrir Aristòtil al segle XII (a través de l'àrab), ho va fer gràcies a la custòdia islàmica. El llegat grec va viatjar de Grècia a Roma, de Roma a Bizanci i als àrabs, dels àrabs a l'Europa medieval. Va ser un relleu de civilitzacions."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "323 aC",
+              "title": "Mort d'Alexandre: comença l'Hel·lenisme",
+              "text": "La cultura grega s'estén per Orient. Alexandria d'Egipte es converteix en el gran centre intel·lectual del món."
+            },
+            {
+              "year": "146 aC",
+              "title": "Roma conquista Grècia",
+              "text": "Però el vençut venç el vencedor culturalment. Horaci escriurà: 'Grecia capta ferum victorem cepit' (Grècia, capturada, va capturar el seu ferotge conqueridor)."
+            },
+            {
+              "year": "529 dC",
+              "title": "Justinià tanca l'Acadèmia de Plató",
+              "text": "Fi oficial de la filosofia pagana grega. Però els textos sobreviuen a Bizanci i al món islàmic."
+            },
+            {
+              "year": "Segles VIII-IX",
+              "title": "Traducció grega a l'àrab a Bagdad",
+              "text": "El moviment de traducció abbàssida salva i amplia el llegat científic i filosòfic grec."
+            },
+            {
+              "year": "Segles XII-XIII",
+              "title": "Redescoberta d'Aristòtil a Europa",
+              "text": "A través de traduccions de l'àrab al llatí. Tomàs d'Aquino sintetitza Aristòtil i el cristianisme."
+            },
+            {
+              "year": "Segles XIV-XVI",
+              "title": "Renaixement",
+              "text": "Tornada directa als textos grecs originals. Plató, Tucídides, Arquimedes rellegits en el grec original."
+            }
+          ]
+        },
+        {
+          "type": "misconception",
+          "belief": "Els grecs van inventar la democràcia i el pensament racional gràcies a la seva superioritat cultural innata sobre altres civilitzacions.",
+          "reality": "Els grecs van aprendre matemàtiques dels babilonis, geometria i medicina dels egipcis, astronomia dels caldeus. El que van fer, que sí va ser revolucionari, és sistematitzar, qüestionar i combinar aquestes tradicions en un context polític fragmentat que permetia el debat lliure. La genialitat grega va ser metodològica i institucional, no ètnica o racial.",
+          "why": "El relat del 'miracle grec' com a sorgiment espontani d'una cultura superior va ser construït parcialment pels propis grecs i amplificat per l'Europa del XIX per legitimar el colonialisme."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-06-01",
+          "style": "multiple-choice",
+          "question": "Com va arribar el coneixement filosòfic i científic grec a l'Europa medieval?",
+          "options": [
+            "Es va transmetre ininterrompudament a través de les universitats romanes i carolíngies",
+            "Va ser preservat a Bizanci i al món islàmic, i va tornar a Europa a través de traduccions de l'àrab al llatí",
+            "Monjos irlandesos el van copiar i preservar als monestirs durant l'Edat Fosca",
+            "Els croats el van recuperar directament de Grècia durant les Croades"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La ruta del llegat grec va ser: Grècia → Roma → Bizanci + àrabs → Europa medieval (via traducció de l'àrab al llatí, especialment a Toledo i Sicília al segles XII-XIII). Aristòtil va ser redescubert per l'Europa cristiana gràcies als comentaris d'Averrois (Ibn Rushd) i Avicenna (Ibn Sina). Sense la custòdia islàmica, molt del pensament grec s'hauria perdut per sempre.",
+          "feedbackWrong": "La transmissió del llegat grec no va ser ni directa ni contínua a Europa. Quan l'Imperi Romà d'Occident va caure, gran part del coneixement grec va desaparèixer d'Europa occidental. Va ser el món islàmic (especialment Bagdad i l'Espanya andalusa) qui el va preservar, ampliar i retornar a Europa medieval."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-gre-06-02",
+          "style": "true-false",
+          "question": "Els grecs van inventar el coneixement matemàtic i mèdic que van sistematitzar, sense dependre de cap tradició anterior.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Els grecs van aprendre matemàtiques dels babilonis (el teorema de Pitàgores era conegut a Babilònia mil anys abans de Pitàgores), geometria i medicina dels egipcis, i astronomia dels caldeus. El que va ser genuïnament grec és la sistematització, el qüestionament i la integració d'aquest coneixement en una tradició de debat racional. No van crear de zero — van transformar el que van aprendre.",
+          "feedbackWrong": "En realitat, els grecs van ser grans sintetitzadors d'un coneixement que venía de civilitzacions molt anteriors. Tales de Milet va estudiar a Egipte. Pitàgores va viatjar per tot el Mediterrani. El 'miracle grec' va ser la sistematització i el qüestionament, no la creació ex nihilo."
+        },
+        {
+          "type": "reflection",
+          "question": "Del que has après en aquest mòdul, quin element de la Grècia antiga et sembla més rellevant per entendre el món d'avui? I quin et sembla que ha estat sobrevaluado o que presenta ombres importants?",
+          "prompt": "No hi ha resposta correcta. Intenta identificar un element que genuïnament et sembli vigent i un que et generi dubtes o reserves."
+        },
+        {
+          "type": "key-idea",
+          "text": "Grècia no és un model a imitar — és un mirall on examinar les nostres pròpies contradiccions: la democràcia que exclou, la llibertat que depèn de l'esclavitud, la racionalitat que justifica l'imperialisme. Entendre els grecs és entendre millor el present."
+        }
+      ]
+    }
+  ]
+}

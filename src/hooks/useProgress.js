@@ -13,7 +13,29 @@ const DEFAULT_STATE = {
   completedLessons: [],
   completedModules: [],
   completedItineraries: [],
-  unlockedModules: ['module-01-copernicus','module-02-history','module-03-peace','module-04-philosophy','module-05-birding','module-06-chemistry','module-07-particles'],
+  unlockedModules: [
+    'module-01-copernicus','module-02-history','module-03-peace','module-04-philosophy',
+    'module-05-birding','module-06-chemistry','module-07-particles',
+    // Bloc: Historia Antiga
+    'module-08-grecia','module-09-roma',
+    'module-10-republic-crisis','module-11-augustus','module-12-pax-romana','module-13-fall',
+    'module-14-egipte',
+    'module-15-egipte-origins','module-16-egipte-imperi','module-17-egipte-religio','module-18-egipte-fi',
+    // Bloc: Música
+    'module-08-musica-classica','module-09-historia-rock',
+    // Bloc: Ciències i Arts
+    'module-10-neurociencia','module-12-historia-ciencia','module-13-historia-tecnologia','module-11-pintura',
+    // Bloc: Política Moderna i Drets Humans
+    'module-14-revolucio-francesa',
+    'module-15-fonaments-drets-humans','module-16-sistema-internacional-drets-humans',
+    'module-17-justicia-internacional','module-18-casos-drets-humans',
+    'module-19-actors-no-estatals','module-20-fronteres-drets-humans',
+    // Bloc: Economia
+    'module-19-economia-mon','module-22-economia-historia','module-25-economia-micro',
+    'module-20-economia-macro','module-21-economia-desigualtat',
+    'module-23-economia-escoles','module-24-economia-globalitzacio','module-28-piketty',
+    'module-26-economia-comportament','module-27-economia-jocs',
+  ],
   badges: [],
   srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }
   srStreak: 0,           // Dies consecutius de sessió de repàs

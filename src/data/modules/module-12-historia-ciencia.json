@@ -1,0 +1,648 @@
+{
+  "id": "module-12-historia-ciencia",
+  "title": "Història de la Ciència",
+  "emoji": "🔭",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "ciencia-origins",
+      "title": "De la Filosofia Natural a la Ciència Moderna",
+      "icon": "🏛️",
+      "description": "Com els humans van aprendre a preguntar: del pensament grec a la revolució científica",
+      "style": "Cronològic · dels grecs a Newton",
+      "lessons": [
+        {
+          "id": "hc-01",
+          "title": "Els grecs i la pregunta per la naturalesa",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Cap al 585 aC, Tales de Milet va predir un eclipsi de sol. No era màgia ni revelació divina — era càlcul basat en l'observació sistemàtica de patrons astronòmics. Va ser la primera vegada documentada que un ésser humà va usar el raonament natural per predir un fenomen natural. Aquell moment no va canviar el món immediatament. Però va plantar una llavor: que el món té una lògica accessible a la ment humana, sense necessitat de la intervenció dels déus per explicar-lo."
+            },
+            {
+              "type": "key-idea",
+              "text": "La filosofia natural grega (segles VI-IV aC) va fer la pregunta fonamental de tota la ciència: qué hi ha darrere de l'aparença canviant del món? Les respostes van ser molt diverses — l'aigua, el foc, els àtoms, les formes matemàtiques — però la pregunta mateixa era nova i va canviar la historia del pensament humà."
+            },
+            {
+              "type": "expandable",
+              "label": "Demòcrit i els àtoms: la teoria correcta descartada per 2.000 anys",
+              "content": "Al segle V aC, Demòcrit va proposar que tota la matèria estava composta de partícules indivisibles i eternes — àtoms (del grec 'a-tomos', 'no divisible'). El buit entre els àtoms era real. Aristòtil la va rebutjar: el buit era, per a ell, impossible. Durant dos mil anys, Aristòtil va guanyar. Quan Dalton va proposar la teoria atòmica el 1808, estava recuperant una intuïció grega correcta que havia estat enterrada per l'autoritat d'Aristòtil durant vint segles. La lliçó: en la ciència, l'autoritat i la veritat no sempre coincideixen."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "La ciència com a tradició de preguntes",
+              "text": "Al mòdul de Filosofia de la Ciència vam veure que la ciència no avança per acumulació lineal de fets sinó per canvis de paradigma (Kuhn). La teoria atòmica de Demòcrit era conceptualment correcta però va ser descartada per un paradigma dominant (l'aristotèlic) amb més autoritat cultural. La veritat científica no guanya automàticament — necessita un context cultural que la pugui rebre."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "~585 aC",
+                  "title": "Tales prediu un eclipsi",
+                  "text": "Primera predicció natural documentada."
+                },
+                {
+                  "year": "~450 aC",
+                  "title": "Demòcrit — teoria atòmica",
+                  "text": "Tota la matèria és àtoms i buit. Descartada per Aristòtil. Correcta."
+                },
+                {
+                  "year": "~350 aC",
+                  "title": "Aristòtil — sistema del món",
+                  "text": "Quatre elements, causes finals, Terra al centre. Dominant durant 2.000 anys."
+                },
+                {
+                  "year": "~240 aC",
+                  "title": "Eratòstenes mesura la Terra",
+                  "text": "Usa l'angle de l'ombra per calcular la circumferència terrestre. Error menor del 2%."
+                },
+                {
+                  "year": "~150 dC",
+                  "title": "Ptolemeu — Almagest",
+                  "text": "Sistema geocèntric amb epicicles. Precís per predir posicions planetàries. Dominant fins al 1543."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-hc-01-01",
+              "style": "multiple-choice",
+              "question": "Eratòstenes va calcular la circumferència de la Terra al segle III aC amb un error de menys del 2%. Quin mètode va usar?",
+              "options": [
+                "Va mesurar el temps que tardava un vaixell a circumnavegar la Terra seguint les costes del Mediterrani",
+                "Va usar la diferència d'angle de l'ombra del sol en dos ciutats a la mateixa meridiana en el mateix moment",
+                "Va calcular la mida de l'ombra de la Terra sobre la lluna durant un eclipsi lunar",
+                "Va triangular la posició de les estrelles des de diversos punts de l'Egipte"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Eratòstenes sabia que a Syene el sol il·luminava verticalment el fons d'un pou al solstici d'estiu. Al mateix moment a Alexandria, els objectes projectaven una ombra amb un angle de 7,2 graus. Si els raigs del sol son paral·lels, aquell angle és la diferència en la curvatura de la Terra entre les dues ciutats. Coneixent la distància entre elles, va calcular la circumferència completa. Era geometria elemental aplicada amb intel·ligència extraordinària.",
+              "feedbackWrong": "El mètode era elegant i simple: comparar l'angle de l'ombra solar en dos punts de la mateixa meridiana el mateix dia. La diferència d'angle reflecteix la curvatura de la Terra. Geometria i observació — res més."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-hc-01-02",
+              "style": "detect-error",
+              "statement": "Durant l'Edat Mitjana europea, la ciència grega va ser completament perduda i oblidada fins que va ser redescoberta durant el Renaixement.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta. La ciència grega no va ser perduda — va ser preservada, traduïda i expandida pels savis islàmics durant els segles VIII-XIII. Al-Khwarizmi va fonamentar l'àlgebra. Ibn al-Haytham va crear l'òptica moderna. Ibn Sina va sistematitzar la medicina. La transmissió del coneixement grec a Europa va passar principalment per la traducció al llatí de textos àrabs, especialment a l'Escola de Traductors de Toledo. La narrativa de 'l'Edat Fosca' que oblida la ciència és una simplificació eurocèntrica que ignora cinc segles de producció científica islàmica."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-hc-01-01",
+              "question": "Els grecs van desenvolupar el pensament racional i la filosofia natural sense el mètode experimental modern. Podem considerar que feien 'ciència' en el sentit actual del terme?",
+              "options": [
+                "Sí: el pensament racional i sistemàtic sobre la natura és l'essència de la ciència, independentment dels mètodes específics",
+                "No: sense experimentació controlada i falsabilitat, el pensament grec era filosofia, no ciència",
+                "Parcialment: alguns elements eren científics (observació, càlcul, predicció) però mancava el component experimental sistemàtic que defineix la ciència moderna"
+              ],
+              "correct": 2,
+              "explanation": "La distinció és important però no absoluta. Els grecs feien observació sistemàtica, construcció de models predictius i en alguns casos experimentació rudimentària (Arquimedes). Però mancava el component que Bacon i Galileu van sistematitzar al segle XVII: l'experiment controlat com a àrbitre entre teories, la mesura quantitativa precisa i la falsabilitat. Aristòtil argumentava principalment per raó deductiva — si el raonament era correcte, el resultat havia de ser cert sense necessitat de comprovar-ho. Aquesta diferència va generar 2.000 anys d'errors preservats per autoritat."
+            }
+          ]
+        },
+        {
+          "id": "hc-02",
+          "title": "La Revolució Científica: el món com a màquina",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1610, Galileu va apuntar un telescopi cap al cel i va veure alguna cosa que no hauria d'existir si Aristòtil tenia raó: llunes orbitant Júpiter. Si hi havia cossos celestes que no orbitaven la Terra, el sistema geocèntric tenia un problema seriós. Va ser condemnat per la Inquisició, va abjurar públicament, i va continuar treballant en secret. Quan va morir el 1642, el mateix any que va néixer Newton, la revolució científica estava en marxa i ja no l'aturaria ningú."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Revolució Científica (c. 1543–1687) va canviar la manera d'entendre el coneixement de la natura: de l'autoritat dels textos antics a l'observació i l'experiment; de les causes finals (per a qué) a les causes eficients (com). Va ser la transformació intel·lectual més profunda de la historia occidental moderna."
+            },
+            {
+              "type": "expandable",
+              "label": "Newton i la síntesi: quan la poma i la lluna van resultar ser el mateix",
+              "content": "La historia de la poma de Newton és probablement apòcrifa, però el que Newton va entendre és real: la força que fa caure una poma és la mateixa que manté la lluna en òrbita. Que quelcom tan gran com la lluna i quelcom tan petit com una poma obeïssin la mateixa llei matemàtica hauria semblat absurd a Aristòtil. Newton va unificar el cel i la terra en un sol sistema d'equacions. La seva 'Principia Mathematica' (1687) va establir les lleis del moviment i la gravitació universal suficients per descriure gairebé tot el moviment visible durant 230 anys — fins a Einstein."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-hc-02-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el conflicte central que va enfrontar Galileu amb l'Església catòlica?",
+              "options": [
+                "Perquè va publicar experiments sobre la caiguda de cossos que contravenien la física d'Aristòtil",
+                "Perquè va defensar el sistema heliocèntric de Copèrnic, que contradeia certes interpretacions bíbliques i el sistema ptolemaic oficial",
+                "Perquè va construir telescopis i els va vendre a potències estrangeres",
+                "Perquè va negar l'existència de Déu en els seus escrits científics"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El conflicte era específicament astronòmic: el sistema heliocèntric contradeia certs passatges bíblics interpretats literalment. Galileu va ser condemnat el 1633 per 'vehement sospita d'heretgia'. Va viure els últims anys en arrest domiciliari, on va escriure la seva obra mecànica més important.",
+              "feedbackWrong": "La condemna de Galileu era específicament per defensar el sistema heliocèntric de Copèrnic en el seu 'Diàleg sobre els dos sistemes principals del món' (1632), no per la mecànica ni per ateisme."
+            },
+            {
+              "type": "debate",
+              "question": "El conflicte de Galileu és un exemple de la incompatibilitat entre ciència i religió, o d'un conflicte institucional i polític específic?",
+              "positionA": {
+                "label": "Incompatibilitat estructural",
+                "argument": "La ciència construeix coneixement per observació i revisió; la religió per revelació i autoritat. Quan les dues es contradiuen, el sistema religiós ha de reprimir el científic per preservar la seva autoritat. La Inquisició no va ser un abús excepcional sinó el funcionament lògic d'un sistema que no podia permetre que l'observació empírica qüestionés la revelació."
+              },
+              "positionB": {
+                "label": "Conflicte institucional específic",
+                "argument": "Newton va escriure més sobre teologia que sobre física. Copèrnic era canonge. Mendel era monjo. El conflicte de Galileu va tenir causes específiques: interpretació bíblica literal, orgull institucional, rivalitats personals. La narrativa 'ciència contra religió' és una construcció del segle XIX (Draper, White) que la historiografia actual ha desacreditat."
+              },
+              "reflection": "La historia de la ciència és plena de científics religiosos i de conflictes entre descobertes i dogmes. Com convius amb les dues coses alhora?",
+              "context": "El papa Joan Pau II va rehabilitar Galileu formalment el 1992 — 359 anys després de la seva condemna. L'Observatori Vaticà és avui una institució científica respectada."
+            }
+          ]
+        },
+        {
+          "id": "hc-03",
+          "title": "Darwin i la revolució de la vida",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Charles Darwin va passar cinc anys a bord del Beagle observant la vida en tota la seva diversitat. Va tornar el 1836 amb una pregunta que el va obsessionar durant vint anys: per qué les espècies de les illes Galápagos s'assemblaven a les del continent però eren clarament diferents? La resposta que va anar construint era tan senzilla que es preguntava per qué ningú l'havia pensada abans — i tan radical que va trigar vint anys a publicar-la."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'evolució per selecció natural (Darwin, 1859) és la idea científica més important de la biologia. Explica la diversitat de la vida sense necessitat de disseny ni propòsit: variació aleatòria + selecció per adaptació + temps = tota la complexitat biològica que observem."
+            },
+            {
+              "type": "misconception",
+              "belief": "Darwin va dir que els humans descendim dels micos.",
+              "reality": "Darwin va proposar que els humans i els simis actuals compartim un avantpassat comú — que ja no existeix. No descendim dels micos actuals; som com cosins que compartim un avi comú. La distinció importa: no som micos evolucionats sinó branques d'un arbre evolutiu que comparteix arrels amb els simis però que ha evolucionat independentment durant milions d'anys.",
+              "why": "La simplificació 'descendim dels micos' va ser usada des del principi per critics religiosos per ridiculitzar Darwin. La versió correcta (avantpassat comú) és menys provocadora però científicament precisa."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué Darwin va esperar 20 anys per publicar",
+              "content": "Darwin va tenir la teoria formulada cap al 1838 — vint anys abans de publicar. Per qué va esperar? Sabia que seria controvertida i volia proves aclaparadores. I el 1858 va rebre una carta d'Alfred Russel Wallace exposant exactament la mateixa teoria — el que el va forçar a publicar. La co-presentació de Darwin i Wallace a la Linnean Society el 1858 va ser la presentació oficial. Darwin és avui el nom associat a l'evolució, però Wallace va arribar a la mateixa idea de manera independent. La ciència no sempre premia el qui pensa primer sinó el qui publica i té la xarxa de contactes adequada."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-hc-03-01",
+              "style": "multiple-choice",
+              "question": "Quin mecanisme central proposa Darwin per explicar com evolucionen les espècies?",
+              "options": [
+                "La transmissió hereditària de les característiques adquirides durant la vida de l'individu",
+                "La selecció natural: els individus amb variants favorables reproduïen més, transmetent aquelles variants",
+                "La mutació dirigida: els organismes generen variants específicament adaptades als reptes ambientals",
+                "L'equilibri puntuat: les espècies canvien ràpidament en moments de crisi ambiental extrema"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La selecció natural té tres components: variació (els individus varien en els seus trets), heretabilitat (aquells trets es transmeten als descendents) i selecció diferencial (els individus amb trets més favorables deixan més descendents). Sense disseny, sense propòsit — el resultat acumulat al llarg de milions de generacions és tota la complexitat de la vida.",
+              "feedbackWrong": "El lamarckisme (transmissió de característiques adquirides) va ser la teoria rival que Darwin va superar. Les mutacions dirigides no existeixen: les mutacions son aleatòries i la selecció les filtra. El mecanisme central de Darwin és la selecció natural: variació aleatòria + filtratge per adaptació + temps."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-hc-03-01",
+              "question": "L'evolució per selecció natural ha estat usada per justificar el 'darwinisme social' (la desigualtat social com a resultat 'natural'). És aquesta una aplicació legítima de la teoria de Darwin?",
+              "options": [
+                "Sí: si la selecció natural opera en la natura, és lògic que operi també en les societats humanes",
+                "No: el darwinisme social és una fal·làcia naturalista — que quelcom existeixi en la natura no implica que sigui desitjable en la societat",
+                "Parcialment: Darwin descriu mecanismes reals però les conclusions polítiques depenen de valors addicionals que la ciència no pot proporcionar"
+              ],
+              "correct": 1,
+              "explanation": "El darwinisme social és un exemple clàssic de fal·làcia naturalista: la inferència il·legítima d'un 'hauria de ser' a partir d'un 'és'. Que la selecció natural operi en la natura no implica que la competència social sense restriccions sigui desitjable. Primer, perquè l'evolució no té propòsit moral. Segon, perquè la cooperació és tan 'natural' com la competència: l'evolució ha seleccionat moltes formes d'altruisme en espècies socials. Darwin va ser molt cautelós sobre les implicacions socials de la seva teoria. El 'darwinisme social' va ser principalment una construcció de Herbert Spencer, no de Darwin."
+            }
+          ]
+        },
+        {
+          "id": "hc-04",
+          "title": "Einstein i la física del segle XX",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1905, un funcionari de patents de Berna de 26 anys va publicar quatre articles científics en el mateix any. Un proposava la relativitat especial — que el temps i l'espai no son absoluts sinó relatius a l'observador. Un altre contenia l'equació E=mc². Cap d'ells havia passat per cap laboratori. Tots eren construccions matemàtiques d'un home que pensava en trens i llums. Era el 'any miraculós' d'Albert Einstein."
+            },
+            {
+              "type": "key-idea",
+              "text": "La física del segle XX va descobrir que el món a escales molt petites (mecànica quàntica) i molt grans o ràpides (relativitat) no s'assembla en res al món del sentit comú. La realitat és fonamentalment estranya, i la física és la pràctica de superar les nostres intuïcions."
+            },
+            {
+              "type": "expandable",
+              "label": "La mecànica quàntica i el gat de Schrödinger",
+              "content": "La mecànica quàntica va descobrir que les partícules subatòmiques no tenen propietats definides fins que son mesurades: estan en 'superposició' de múltiples estats possibles simultàniament. Schrödinger va proposar el seu famós gat com a reducció a l'absurd: un gat en una caixa amb un mecanisme letal basat en una desintegració radioactiva aleatòria estaria viu i mort alhora fins que s'obri la caixa. Einstein mai va acceptar-ho: 'Déu no juga als daus'. Bohr li va respondre: 'Einstein, deixa de dir-li a Déu el que ha de fer'. La mecànica quàntica és la teoria científica més precisament validada de la historia — i segueix sense tenir una interpretació filosòfica consensuada."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "El problema de la realitat i la mesura",
+              "text": "Al mòdul de Filosofia de la Ciència vam explorar el realisme científic: si les teories descriuen la realitat o simplement la prediuen. La mecànica quàntica porta aquesta pregunta al límit: una teoria que prediu amb precisió extraordinària però que implica que la realitat no té propietats definides fins que s'observen. Bohr era instrumentalista: la teoria simplement funciona. Einstein era realista: si implica quelcom absurd, la teoria és incompleta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-hc-04-01",
+              "style": "multiple-choice",
+              "question": "Qué implica el principi d'incertesa de Heisenberg?",
+              "options": [
+                "Que els nostres instruments de mesura son massa imprecisos per mesurar simultàniament posició i moment d'una partícula",
+                "Que hi ha un límit fonamental (no instrumental) a la precisió simultània de parells de propietats conjugades com posició i moment",
+                "Que les partícules subatòmiques es mouen de manera aleatòria i imprevisible",
+                "Que l'observador sempre afecta el que observa, fent la física subatòmica inherentment subjectiva"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El principi d'incertesa no és sobre la qualitat dels instruments sinó sobre la natura de la realitat: no existeix un estat en que una partícula tingui simultàniament posició i moment perfectament definits. Quanta més precisió en la posició, menys en el moment, i viceversa. Aquesta indeterminació és una propietat fonamental, no un efecte de la nostra ignorància tecnològica.",
+              "feedbackWrong": "L'incertesa de Heisenberg no és sobre els instruments. És sobre una propietat fonamental de la realitat: els parells de variables conjugades no poden tenir valors simultàniament definits. No és que no els coneguem — és que no existeixen fins que son mesurats."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-hc-04-02",
+              "style": "true-false",
+              "question": "La teoria de la relativitat d'Einstein va demostrar que la física de Newton era incorrecta i va invalidar totes les seves prediccions.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La relativitat no va invalidar la física de Newton — la va englobar com a cas especial vàlid a velocitats molt menors que la de la llum. Totes les prediccions de Newton continuen sent correctes i suficients per a la majoria d'aplicacions pràctiques. La relativitat va ampliar el marc — va mostrar que les lleis de Newton eren una aproximació excel·lent que fallava en casos extrems. Quan Einstein va derivar les lleis de Newton com a cas límit de la relativitat, va ser la confirmació que la nova teoria incloïa la vella.",
+              "feedbackWrong": "La relativitat no va 'demostrar que Newton estava malament'. Va mostrar que era una aproximació excel·lent vàlida per a la majoria de situacions. Aquesta és la manera en que la ciència avança: no rebutjant les teories anteriors sinó englobant-les com a casos especials d'una teoria més general."
+            }
+          ]
+        },
+        {
+          "id": "hc-05",
+          "title": "La ciència del segle XX: de l'àtom al genoma",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 25 d'abril de 1953, Francis Crick va entrar al pub Eagle de Cambridge i va anunciar als clients que ell i James Watson havien descobert el secret de la vida. La doble hèlix de l'ADN que havien construït, basant-se en gran part en les dades de raigs X de Rosalind Franklin, era l'estructura que porta la informació hereditària de tots els éssers vius. Va ser el moment en que la biologia va deixar de ser descriptiva i va passar a ser molecular."
+            },
+            {
+              "type": "key-idea",
+              "text": "El segle XX va ser el segle de la física (relativitat, quàntica) i de la biologia molecular (ADN, evolució molecular, genòmica). Les dues revolucions van compartir un tret: van revelar que la realitat a escales no visibles és radicalment diferent del que la intuïció suggeria — i que aquella realitat oculta és el fonament de tot el que veiem."
+            },
+            {
+              "type": "expandable",
+              "label": "Rosalind Franklin i la foto 51",
+              "content": "Rosalind Franklin era una cristal·lògrafa de raigs X que treballava a King's College de Londres. El 1952 va obtenir la 'Foto 51' — la imatge de difracció de l'ADN que mostrava clarament la seva estructura helicoïdal. Maurice Wilkins va mostrar la foto a Watson sense el coneixement ni el permís de Franklin. Watson i Crick la van usar per construir el seu model. Franklin no va ser citada en l'article original. Va morir de càncer el 1958, als 37 anys, quatre anys abans que Watson, Crick i Wilkins rebessin el Nobel (el premi no es concedeix pòstumament). El debat sobre si Franklin hauria hagut de compartir el premi és un dels casos més estudiats d'invisibilitat femenina en la historia de la ciència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-hc-05-01",
+              "style": "multiple-choice",
+              "question": "El Projecte Genoma Humà (1990–2003) va seqüenciar el genoma humà. Quin va ser el descobriment més sorprenent?",
+              "options": [
+                "Que conté aproximadament 100.000 gens, confirmant les estimacions prèvies",
+                "Que conté només uns 20.000-25.000 gens, similar al del cuc C. elegans, molt menys del que s'esperava",
+                "Que el 99,9% del DNA humà és idèntic entre tots els humans",
+                "Que els humans compartim el 98,7% del DNA amb els ximpanzés"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. S'esperaven 100.000 gens o més, però la seqüenciació va revelar uns 20.000-25.000 — similar al del nematode C. elegans. Allò que ens fa humans no és simplement la quantitat de gens sinó la regulació de la seva expressió i les interaccions entre ells. La simplificació 'un gen = una característica' va resultar ser dramàticament incorrecta.",
+              "feedbackWrong": "El nombre de gens humans va resultar ser sorprenentment baix: uns 20.000-25.000, similar al de molts organismes molt més simples. S'esperaven 100.000 o més. El descobriment va obligar a repensar completament la relació entre gens i complexitat biològica."
+            },
+            {
+              "type": "reflection",
+              "question": "La física quàntica i la biologia molecular han revelat que la realitat a escales molt petites és radicalment diferent del que veiem a escala humana. Canvia quelcom en la teva manera de veure el món saber que cada cèl·lula del teu cos conté la informació completa per construir un ésser humà?",
+              "prompt": "No és una pregunta científica sinó filosòfica. La ciència descriu — tu decideixes qué significa."
+            }
+          ]
+        },
+        {
+          "id": "hc-06",
+          "title": "Com funciona la ciència realment",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La imatge popular del científic és un individu solitari que fa experiments brillants i descobreix la veritat. La realitat és molt diferent: la ciència moderna és una activitat social, col·lectiva, institucionalitzada, finançada per governs i empreses, publicada en revistes amb peer review i influïda per factors culturals i econòmics. Entendre com funciona realment la ciència és tan important com entendre els seus continguts."
+            },
+            {
+              "type": "key-idea",
+              "text": "La ciència no és simplement el mètode científic aplicat per individus racionals. És una institució social amb normes, incentius, biaixos i mecanismes de correcció. Les seves fortaleses (peer review, replicació, consens) i les seves debilitats (biaix de publicació, crisi de replicació, finançament interessat) son propietats de la ciència com a pràctica social."
+            },
+            {
+              "type": "expandable",
+              "label": "La crisi de replicació: quan la ciència no es pot repetir",
+              "content": "El 2015, un estudi publicat a Science va intentar replicar 100 estudis de psicologia publicats en revistes de prestigi. Només el 39% va obtenir resultats similars als originals. Les causes son múltiples: el biaix de publicació (les revistes publiquen resultats positius i ignoren els negatius), la pressió per publicar ('publish or perish'), i de vegades, frau. La crisi no significa que la ciència no funciona — significa que els mecanismes de control de qualitat han de millorar. La ciència és el millor sistema de producció de coneixement que tenim precisament perquè pot identificar i corregir els seus propis errors."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-hc-06-01",
+              "style": "multiple-choice",
+              "question": "Qué és el 'peer review' i quin paper té en el sistema científic?",
+              "options": [
+                "Un sistema en que els científics avaluen públicament els treballs dels seus col·legues en conferències",
+                "El procés pel qual un article és avaluat anònimament per experts del camp abans de ser publicat",
+                "Un mecanisme de finançament on els científics avaluen les sol·licituds de subvenció",
+                "El sistema de citacions que mesura l'impacte d'una publicació"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El peer review és el mecanisme central de control de qualitat: un article és enviat anònimament a dos o tres experts que avaluen la metodologia, les dades i les conclusions. Poden acceptar, rebutjar o demanar revisions. És imperfecte però és el millor sistema disponible per filtrar resultats de baixa qualitat.",
+              "feedbackWrong": "El peer review és el procés d'avaluació anònima per experts abans de la publicació — el filtre de qualitat de la ciència. No és debat públic, ni finançament, ni citació."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-hc-06-01",
+              "question": "Si el finançament privat representa una part creixent de la recerca científica, quin impacte té sobre la independència i la fiabilitat de la ciència?",
+              "options": [
+                "Cap: els científics segueixen el mètode científic independentment de qui els financia",
+                "Total i invalidant: tota la ciència financiada privadament és infiable",
+                "Real i mesurable però no total: genera biaixos documentats però la ciència té mecanismes parcials de correcció"
+              ],
+              "correct": 2,
+              "explanation": "La recerca metaanalítica és clara: els estudis finançats per la indústria farmacèutica mostren resultats favorables al producte del finançador en una proporció significativament major que els estudis independents. El mateix patró s'observa en recerca energètica i alimentària. Però la conclusió 'tota la ciència privada és infiable' és excessiva: molts estudis finançats privadament son rigorosos. La resposta sana és: cal saber qui finança cada estudi, considerar-ho en l'avaluació, i prioritzar estudis independents i metaanàlisis que agreguen múltiples fonts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ciencia-societat",
+      "title": "Ciència, Poder i Societat",
+      "icon": "⚡",
+      "description": "Com el coneixement científic transforma la societat — i com la societat transforma la ciència",
+      "style": "Temàtic · ciència, poder i canvi social",
+      "lessons": [
+        {
+          "id": "rev-01",
+          "title": "La ciència islàmica: el coneixement que Europa va oblidar que devia",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al segle IX, el califa abbàssida Al-Ma'mun va fundar a Bagdad la Casa de la Saviesa: una institució on savis de totes les tradicions — àrabs, perses, indis, cristians, jueus — treballaven plegats en la traducció i l'expansió del coneixement. Durant cinc segles, el món islàmic va ser el centre global de la producció científica. L'algebra, l'algoritme, l'alquímia, l'alcohol — paraules que usen el prefix 'al' àrab perquè van entrar a les llengues europees des de l'àrab."
+            },
+            {
+              "type": "key-idea",
+              "text": "La ciència islàmica medieval (segles VIII-XIII) no va ser simplement una 'transmissió' del coneixement grec: el va expandir i va crear camps nous. Ibn al-Haytham va fundar l'òptica moderna. Al-Biruni va mesurar el radi de la Terra. Ibn Sina va escriure el 'Cànon de Medicina', manual universitari a Europa fins al segle XVII."
+            },
+            {
+              "type": "expandable",
+              "label": "Ibn al-Haytham i l'origen de l'òptica",
+              "content": "Ibn al-Haytham (965-1040) va refutar la teoria grega que la visió funcionava perquè els ulls emetien raigs que 'tocaven' els objectes. Usant experiments amb cambres obscures i mesures quantitatives, va demostrar que la llum viatjava dels objectes als ulls. Va escriure el 'Kitab al-Manazir' (Llibre d'Òptica), traduït al llatí al segle XII i que va influir directament en Roger Bacon i tota la tradició òptica europea. El seu mètode — hipòtesi, experiment, mesura, conclusió — anticipa en quatre segles el que Galileu sistematitzaria a Europa."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rev-01-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el mecanisme principal pel qual el coneixement científic islàmic va arribar a l'Europa medieval?",
+              "options": [
+                "Les croades, que van permetre als cavallers europeus accedir a biblioteques islàmiques a Terra Santa",
+                "L'Escola de Traductors de Toledo i altres centres, on textos àrabs van ser traduïts al llatí durant els segles XI-XIII",
+                "Els mercaders venecians i genovesos, que van crear xarxes de comerç de manuscrits",
+                "Els monjos benedictins, que van viatjar sistemàticament a Egipte i Síria per copiar textos"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'Escola de Traductors de Toledo va ser el canal principal: traductors com Gerard de Cremona van traduir al llatí centenars d'obres científiques àrabs. Toledo, sota domini cristià però amb comunitats àrab i jueva importants, va ser el lloc on tres cultures van col·laborar en la transmissió del coneixement. Sense Toledo, el Renaixement científic europeu hauria tingut molt menys material per treballar.",
+              "feedbackWrong": "El canal principal va ser la traducció sistemàtica a la Península Ibèrica — especialment a Toledo — on la convivència de comunitats àrab, jueva i cristiana va crear les condicions per a una transmissió massiva de coneixement científic cap a Europa."
+            },
+            {
+              "type": "debate",
+              "question": "L'atribució dels orígens de la ciència moderna gairebé exclusivament a la tradició europea occidental és un biaix a corregir, o reflecteix una distinció real en el tipus de contribucions?",
+              "positionA": {
+                "label": "Biaix a corregir",
+                "argument": "La ciència islàmica, índia, xinesa i africana va fer contribucions fonamentals que la narrativa eurocèntrica ha invisibilitzat. Ibn al-Haytham va usar el mètode experimental segles abans que Galileu. La numeració indo-àrab és el fonament de les matemàtiques modernes. Reconèixer aquests fets no rebaixa la ciència europea — la posa en context com un capítol d'una historia global."
+              },
+              "positionB": {
+                "label": "Distinció real amb matisos",
+                "argument": "La Revolució Científica europea del XVII va produir quelcom específic: un sistema institucionalitzat basat en la falsabilitat, la publicació oberta i la revisió col·lectiva. Reconèixer les contribucions islàmiques no requereix negar que Europa va fer quelcom particular a partir del XVII. La questió no és qui 'va inventar la ciència' sinó com diverses tradicions van contribuir a un projecte global."
+              },
+              "reflection": "Importa qui va 'inventar' la ciència? O importa més entendre com el coneixement circula entre cultures?",
+              "context": "La historiografia ha revisat profundament en les últimes dècades la narrativa eurocèntrica. Autors com George Saliba i Jim al-Khalili han documentat les contribucions islàmiques extensament."
+            }
+          ]
+        },
+        {
+          "id": "rev-02",
+          "title": "Les dones en la ciència: exclusió i resistència",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "En 1903, Marie Curie va guanyar el Nobel de Física — la primera persona que el guanyava dues vegades. Quan va ser proposada per a l'Acadèmia Francesa de Ciències el 1911, va ser rebutjada per un vot. Mai va ser admesa. La seva filla Irène va guanyar el Nobel de Química el 1935. Tres generacions de científiques excepcionals en una familia — en un context que posava obstacles sistemàtics a les dones durant tota aquella època."
+            },
+            {
+              "type": "key-idea",
+              "text": "La infrarepresentació de les dones en la historia de la ciència no reflecteix una manca de talent sinó l'efecte acumulat de barreres estructurals: exclusió formal de les universitats, negació del crèdit per contribucions reals, invisibilització biogràfica pòstuma. Corregir el registre históric no és política — és precisió factual."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1903",
+                  "title": "Marie Curie — Nobel de Física",
+                  "text": "Primera dona Nobel. Descobridora del poloni i el radi. Exclosa de l'Acadèmia Francesa."
+                },
+                {
+                  "year": "1958",
+                  "title": "Rosalind Franklin mor als 37 anys",
+                  "text": "Les seves dades van ser fonamentals per a la doble hèlix. No va rebre el Nobel."
+                },
+                {
+                  "year": "1963",
+                  "title": "Maria Goeppert Mayer — Nobel de Física",
+                  "text": "Havia treballat durant anys sense salari perquè les universitats no contractaven dones casades."
+                },
+                {
+                  "year": "1974",
+                  "title": "Jocelyn Bell Burnell descobreix els pulsars",
+                  "text": "El Nobel va al seu director de tesi. Bell Burnell no el rep."
+                },
+                {
+                  "year": "2020",
+                  "title": "Doudna i Charpentier — Nobel de Química",
+                  "text": "Per CRISPR-Cas9. El primer Nobel de Química donat exclusivament a dones."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Les 'computadores' de Harvard: les dones que van catalogar l'univers",
+              "content": "Entre 1885 i 1930, l'Observatori de Harvard va emplear desenes de dones per classificar fotografies d'estrelles — feina considerada 'mecànica' i pagada a 25 centaus l'hora. Les van anomenar 'computadores'. Entre elles, Henrietta Swan Leavitt va descobrir la relació entre la lluminositat i el període de les cefeides — la que va permetre mesurar les distàncies cosmològiques i va fer possible que Hubble demostrés l'expansió de l'univers. Cecilia Payne va descobrir que les estrelles estan composades principalment d'hidrogen i heli. El director de l'observatori les havia contractat perquè eren 'capaces però barates'. Accidentalment, havia creat un dels grups científics més productius de la historia de l'astronomia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rev-02-01",
+              "style": "multiple-choice",
+              "question": "Quin concepte descriu el fenomen pel qual les contribucions científiques de les dones son atribuïdes als seus col·legues masculins?",
+              "options": [
+                "L'efecte Matildes, documentat per la historiadora Margaret Rossiter basant-se en el terme de Matilda Joslyn Gage",
+                "El biaix de confirmació: els revisors ignoren les contribucions femenines per confirmar expectatives prèvies",
+                "L'efecte Pigmalió: les científiques internalitzen les expectatives baixes dels seus mentors",
+                "La síndrome de la impostora: les científiques subestimen les seves pròpies contribucions"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. L'efecte Matildes (terme de Margaret Rossiter, 1993) descriu el patró sistemàtic pel qual les contribucions científiques de les dones son negades o atribuïdes a homes. Franklin-Watson/Crick, Bell Burnell-Hewish, Lise Meitner-Hahn (fissió nuclear), Nettie Stevens-Edmund Wilson (cromosomes sexuals) son casos documentats del mateix patró estructural.",
+              "feedbackWrong": "L'efecte Matildes és el terme específic per a l'atribució de mèrit científic masculí per contribucions femenines — un fenomen estructural, no un mecanisme psicològic individual."
+            }
+          ]
+        },
+        {
+          "id": "rev-03",
+          "title": "La ciència i el colonialisme",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan les potències europees van colonitzar Àfrica, Àsia i Amèrica, van portar una epistemologia: la convicció que el coneixement científic occidental era el coneixement vàlid, i que els sabers locals eren superstició. Al mateix temps, van extraure espècimens, plantes i coneixements que van incorporar als seus arxius i museus sense reconeixement ni compensació als seus custodis originals."
+            },
+            {
+              "type": "key-idea",
+              "text": "La ciència moderna va créixer en paral·lel amb el colonialisme i en molts casos va ser un instrument seu: classificació racial, mesura de crànis (frenologia), botànica d'explotació. Però els pobles colonitzats tenien tradicions de coneixement sofisticades que van ser sistemàticament invisibilitzades. Reconèixer això no relativitza la ciència — la fa més honesta sobre la seva pròpia historia."
+            },
+            {
+              "type": "expandable",
+              "label": "La bioprospecció i el coneixement indígena",
+              "content": "La quinina — el tractament de la malària durant segles — prové de l'escorça de l'arbre quina, que els pobles andins usaven molt abans que els europeus arribessin. Els europeus van documentar i comercialitzar la planta sense compensació. El mateix patró es repeteix amb el curare (relaxant muscular en cirurgia), la vincristina (quimioteràpia del càncer), l'artemisina (tractament de la malària moderna). El coneixement indígena va guiar la recerca farmacèutica en molts casos — però els drets de patent van a les empreses occidentals, no a les comunitats que el van generar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rev-03-01",
+              "style": "multiple-choice",
+              "question": "Qué va ser la frenologia i per qué és un exemple de 'ciència' al servei de la ideologia racista?",
+              "options": [
+                "L'estudi de les expressions facials per deduir el caràcter moral",
+                "La mesura i classificació de les formes del crani per deduir capacitats intel·lectuals, usada per justificar jerarquies racials",
+                "La teoria que les races humanes tenien orígens evolutius separats",
+                "L'estudi estadístic de diferències de QI entre grups ètnics"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La frenologia (principis del XIX) proposava que la forma del crani reflectia les capacitats mentals. Va ser usada per 'demostrar' la inferioritat de les races no europees — mesurant cranis i atribuint diferències de mida a diferències de capacitat. Era ciència de laboratori, publicada en revistes, feta per professors universitaris, i usada per justificar l'esclavitud. Avui sabem que no tenia cap base vàlida. Recordatori: el prestigi institucional de la ciència no garanteix que no sigui usada per legitimar ideologies.",
+              "feedbackWrong": "La frenologia era específicament la mesura de les protuberàncies del crani per deduir capacitats mentals i morals — usada sistemàticament per justificar la superioritat racial europea. Era ciència de l'època, no pseudociència marginal."
+            },
+            {
+              "type": "debate",
+              "question": "Els museus d'Europa contenen milions d'objectes obtinguts durant el colonialisme. Han de ser retornats?",
+              "positionA": {
+                "label": "Retorn obligatori",
+                "argument": "Els objectes van ser obtinguts en condicions de dominació. Quedar-se'ls és perpetuar el robatori. El retorn és una qüestió de justícia. Els objectes sagrats i les restes humanes pertanyen a les comunitats que els generen per raons de dignitat que superen qualsevol argument sobre l'accés públic al coneixement."
+              },
+              "positionB": {
+                "label": "El dilema de la conservació",
+                "argument": "Molts objectes no podrien haver estat preservats sense les condicions dels museus europeus. El retorn massiu a països amb infraestructura limitada pot posar en risc la conservació. El principi d'universalitat dels museus — que el patrimoni sigui accessible a tots — té un valor real. Hi ha espai per a acords de retorn selectiu, préstecs a llarg termini i digitalització."
+              },
+              "reflection": "Pots estar a favor del retorn i reconèixer alhora els reptes de conservació, o la qüestió moral és clara?",
+              "context": "Grècia reclama els marbres del Partenó des dels anys 80. Alemanya i França han anunciat polítiques de retorn actives des del 2021. El Regne Unit i els EUA son els més reticents."
+            }
+          ]
+        },
+        {
+          "id": "rev-04",
+          "title": "El canvi climàtic: quan la ciència ha de canviar el món",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1958, Charles David Keeling va instal·lar un monitor de CO₂ a l'Observatori de Mauna Loa, Hawaii. Des d'aquell any, la 'Corba de Keeling' ha mesurat l'augment constant del CO₂ atmosfèric. En 1958 era de 315 ppm. En 2023, de 424 ppm. La corba puja sense aturar-se, any rere any, com una prova aclaparadora en temps real d'un fenomen que cap altra dada aïllada podria mostrar amb aquella contundència."
+            },
+            {
+              "type": "key-idea",
+              "text": "El canvi climàtic antropogènic és el cas en que la ciència ha produït el consens més sòlid de la seva historia sobre un fenomen amb implicacions polítiques i econòmiques enormes. La dificultat no és científica sinó política: com traduir un consens científic en acció col·lectiva quan els costos son immediats i els beneficis, difusos i futurs."
+            },
+            {
+              "type": "expandable",
+              "label": "La desinformació climàtica: com les empreses van aprendre dels tabaquers",
+              "content": "A partir dels anys 80, les principals empreses petroleres sabien — per la seva pròpia recerca interna — que la crema de combustibles fòssils escalfaria el planeta. Exxon tenia models climàtics precisos el 1982. La resposta va ser finançar campanyes de dubte: no negar el canvi climàtic obertament sinó sembrar incertesa sobre el consens científic, finançar científics dissidents i promoure la idea que el debat era 'obert'. Era la mateixa estratègia que les tabaqueres havien usat dècades abans — i que la industria del petroli els va comprar literalment. El resultat: trenta anys de retard en l'acció climàtica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rev-04-01",
+              "style": "multiple-choice",
+              "question": "Quin percentatge de les publicacions científiques revisades per iguals sobre el canvi climàtic atribueix l'escalfament a l'activitat humana?",
+              "options": [
+                "Al voltant del 60%: hi ha un debat científic real i significatiu",
+                "Al voltant del 80%: la majoria accepta l'origen humà, però una minoria dissent",
+                "Al voltant del 97-99%: el consens és pràcticament universal entre els investigadors actius",
+                "El 100%: no hi ha cap publicació que qüestioni l'origen humà"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Múltiples estudis han trobat que entre el 97% i el 99,9% de les publicacions revisades per iguals atribueixen l'escalfament a l'activitat humana. El 'debat científic' que apareix als mitjans no reflecteix el debat real entre climatòlegs: és principalment una construcció de campanyes de desinformació financiades per indústries amb interessos en retardar la regulació.",
+              "feedbackWrong": "El consens és dels més sòlids de la historia de la ciència: entre el 97% i el 99,9%. La percepció de 'debat obert' és el resultat de dècades de campanyes de desinformació que van aprendre la tàctica de les tabaqueres."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rev-04-01",
+              "question": "Si la ciència ha produït un consens aclaparador sobre el canvi climàtic des dels anys 90, per qué l'acció política global ha estat tan lenta?",
+              "options": [
+                "Perquè el públic no entén la ciència i necessita millor comunicació científica",
+                "Perquè els interessos econòmics a curt termini dels actors poderosos superen la lògica de l'evidència, i la transició energètica redistribuiria el poder i la riquesa globals",
+                "Perquè els governs esperen solucions tecnològiques que arribin sense necessitat de canvis en els sistemes econòmics"
+              ],
+              "correct": 1,
+              "explanation": "La comunicació científica és un factor, però la causa més potent és la distribució del poder i les rendes. Les empreses de combustibles fòssils representen alguns dels actius més grans del món. Una transició ràpida els faria 'actius estancats'. Això representa una redistribució de riquesa i poder d'una escala sense precedent. Els actors afectats tenen incentius molt potents per retardar la transició i recursos per influir en la política democràtica. La manca d'acció no és principalment un problema d'ignorància — és un problema de poder polític i redistribució econòmica."
+            }
+          ]
+        },
+        {
+          "id": "rev-05",
+          "title": "La intel·ligència artificial: la ciència que es fa a si mateixa",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El novembre de 2022, OpenAI va llançar ChatGPT. En cinc dies tenia un milió d'usuaris. En dos mesos, cent milions — la adopció tecnològica més ràpida de la historia. Però la tecnologia que ho va fer possible no va néixer el 2022: va néixer el 1943 (xarxes neuronals), va madurar als anys 80-90 (retropropagació), va tenir la seva revolució silenciosa el 2012 (deep learning) i va arribar a la consciència pública el 2022. Com gairebé totes les revolucions tecnològiques, va semblar sobtada però es va preparar durant dècades."
+            },
+            {
+              "type": "key-idea",
+              "text": "La intel·ligència artificial és el camp que creix més ràpidament i que planteja les preguntes més profundes sobre el coneixement, la creativitat i el treball. No és simplement una eina nova — és una tecnologia que podria redefinir la relació entre humans i producció de coneixement."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Neurociència Bàsica",
+              "moduleEmoji": "🧠",
+              "concept": "Xarxes neuronals artificials vs. cervell biològic",
+              "text": "Al mòdul de Neurociència vam veure com el cervell processa informació a través de xarxes de neurones connectades per sinapsis. Les xarxes neuronals artificials van ser inspirades en aquesta arquitectura — però son radicalment simplificades. Un cervell humà té 86.000 milions de neurones; els models de IA més grans tienen milers de milions de 'paràmetres' però son arquitectures molt menys complexes. Les semblances son superficials i les diferències fonamentals. Però algunes capacitats emergents dels models grans son sorprenentment similars a les humanes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rev-05-01",
+              "style": "multiple-choice",
+              "question": "Qué és el 'problema de l'alineació' en intel·ligència artificial?",
+              "options": [
+                "El problema de fer que els sistemes de IA funcionin de manera consistent en diversos idiomes",
+                "El repte de garantir que els sistemes de IA avançats persegueixin objectius coherents amb els valors humans",
+                "La dificultat tècnica d'alinear les prediccions dels models amb les dades experimentals reals",
+                "El problema de coordinar estàndards tècnics entre les diverses empreses de IA"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El problema d'alineació és el repte de garantir que sistemes de IA cada cop més potents persegueixin objectius veritablement coherents amb els valors i interessos humans. Un sistema optimitzat per a un objectiu parcialment especificat pot trobar solucions que satisfacin l'objectiu literal però violentin la intenció real. A mesura que els sistemes es fan més autònoms, garantir que els seus objectius siguin els que realment volem és un dels reptes científics i filosòfics més importants del camp.",
+              "feedbackWrong": "El problema d'alineació és filosòfic i d'enginyeria: com garantir que sistemes de IA potents persegueixin objectius veritablement coherents amb els valors humans. Especificar exactament el que volem és molt més difícil del que sembla."
+            },
+            {
+              "type": "reflection",
+              "question": "Has recorregut la historia de la ciència des dels grecs fins a la intel·ligència artificial. Quin moment o figura et sembla que ha tingut l'impacte més transformador en la manera de viure dels éssers humans?",
+              "prompt": "La resposta no ha de ser la 'correcta' sinó la que genuïnament creus."
+            }
+          ]
+        },
+        {
+          "id": "rev-06",
+          "title": "Ciència, pau i vida: el coneixement que construeix",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1970, Norman Borlaug va rebre el Nobel de la Pau — no el de Ciència. Era agrònom. El seu treball en el desenvolupament de varietats de blat d'alt rendiment durant els anys 60 va evitar, según les estimacions, entre 500 milions i un bilió de morts per fam. Va ser l'única persona que ha rebut el Nobel de la Pau per un descobriment científic. El Comité Nobel va entendre quelcom important: la ciència al servei de la vida és, en el sentit més directe, un instrument de pau."
+            },
+            {
+              "type": "key-idea",
+              "text": "La ciència ha estat instrument de destrucció (armes, colonialisme, raciologia) i instrument de pau (vacunes, revolució verda, energies renovables). El que determina quin és el cas no és la ciència en si mateixa sinó qui la controla, qui la finança i amb quins valors s'aplica. La ciència és una eina — la seva direcció moral depèn dels humans que la fan servir."
+            },
+            {
+              "type": "expandable",
+              "label": "L'eradicació de la verola: la ciència com a cooperació global",
+              "content": "El 1967, l'OMS va llançar el programa d'eradicació de la verola — una malaltia que havia matat 300 milions de persones al segle XX. La campanya va requerir la col·laboració de 73 països, inclosos els dos bàndols de la Guerra Freda: els EUA i la URSS van cooperar en l'eradicació tot i estar en plena tensió nuclear. L'últim cas natural es va registrar el 1977 a Somàlia. El 1980, l'OMS va declarar-la eradicada. Va ser la primera malaltia humana eradicada de la historia, i un dels exemples més clars que la cooperació científica internacional pot superar les divisions polítiques quan hi ha voluntat col·lectiva."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rev-06-01",
+              "style": "multiple-choice",
+              "question": "La 'Revolució Verda' dels anys 60-70 va augmentar enormement la producció d'aliments. Quina va ser la seva principal crítica?",
+              "options": [
+                "Que les noves varietats eren genèticament modificades i potencialment perilloses per a la salut",
+                "Que va augmentar la dependència dels agricultors de les grans corporacions i va reduir la biodiversitat agrícola i la sobirania alimentària local",
+                "Que va ser dissenyada exclusivament per als mercats del nord global",
+                "Que la seva dependència de l'energia nuclear per a fertilitzants creava riscos de proliferació"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les crítiques son múltiples i serioses: les noves varietats d'alt rendiment requerien grans quantitats d'inputs (fertilitzants, pesticides) que els agricultors havien de comprar a corporacions, generant dependència i deute. La monocultura va reduir dràsticament la biodiversitat agrícola. L'impacte mediambiental (contaminació d'aigues, degradació del sòl) era enorme. I els beneficis van anar principalment als agricultors que ja tenien terra i accés al crèdit.",
+              "feedbackWrong": "Les llavors no eren transgèniques en el sentit modern. La Revolució Verda sí que es va aplicar al sud global (Índia, Pakistan, Mèxic). La crítica principal era d'economia política: va generar dependència de les corporacions d'inputs i va tenir efectes ambientals negatius importants."
+            },
+            {
+              "type": "debate",
+              "question": "La ciència hauria de ser neutral — simplement produir coneixement — o té una responsabilitat ètica sobre les aplicacions del que genera?",
+              "positionA": {
+                "label": "La ciència ha de ser neutral",
+                "argument": "La responsabilitat del científic és produir coneixement fiable. Les decisions sobre com usar-lo son polítiques — no científiques. Quan els científics entren en advocacy polític, comprometen la seva credibilitat com a generadors de coneixement neutral. La separació entre fer ciència i dir com usar-la protegeix la integritat del coneixement."
+              },
+              "positionB": {
+                "label": "La ciència té responsabilitat ètica",
+                "argument": "La idea de ciència 'neutral' és una ficció: les decisions sobre qué investigar estan sempre carregades de valors. Oppenheimer i molts físics del Projecte Manhattan van aprendre que la ciència no pot desvincular-se de les seves aplicacions. Els científics saben millor que ningú les implicacions del seu treball — i la neutralitat davant d'aplicacions destructives és una forma de complicitat per omissió."
+              },
+              "reflection": "Si fossis científic i el teu descobriment tingués aplicacions tant beneficioses com potencialment destructives, qué faries?",
+              "context": "La majoria de codis ètics científics actuals inclouen consideracions sobre les implicacions del treball — reconeixent que la neutralitat total no és possible ni desitjable."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "id": "module-10-republic-crisis",
+  "title": "La República que es va Suïcidar",
+  "emoji": "🗡️",
+  "phase": 2,
+  "unlockRequires": "module-09-roma",
+  "lessons": [
+    {
+      "id": "rc-01",
+      "title": "El sistema que funcionava (i per qué va deixar de fer-ho)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Durant quatre segles, la República romana va ser una de les invencions polítiques més duradores de la història. No era una democràcia — era una oligarquia sofisticada amb mecanismes de contenció del poder extraordinàriament eficaços. Però cap sistema polític és immune als canvis que ell mateix genera. Les conquestes que van fer Roma rica van crear les condicions exactes que van destruir la República: terra concentrada en mans de pocs, un proletariat urbà sense feina i, sobretot, exèrcits de professionals lleials al seu general, no a l'Estat. La República no va ser destruïda per enemies externs. Es va destruir a si mateixa."
+        },
+        {
+          "type": "prediction",
+          "question": "Una república que ha funcionat quatre segles de sobte entra en crisi terminal. Quin creus que és el factor que, quan apareix, fa inevitable la caiguda d'un sistema polític que semblava sòlid?",
+          "hint": "Pensa en la diferència entre les regles escrites i les forces reals que les sostenen."
+        },
+        {
+          "type": "key-idea",
+          "text": "La República romana va funcionar mentre els soldats eren pagesos amb terra que tornaven a casa després de les campanyes. Quan les guerres de conquesta van crear un proletariat sense terra i exèrcits professionals, el sistema va perdre el seu fonament social: el citoyen-soldat que no necessitava el general per sobreviure."
+        },
+        {
+          "type": "expandable",
+          "label": "El mos maiorum: el conservadorisme com a religió política romana",
+          "content": "Els romans tenien un concepte clau per entendre la seva política: el mos maiorum, literalment 'el costum dels avantpassats'. No era una constitució escrita — era un conjunt de normes no codificades sobre com s'havia de comportar un magistrat, un senador, un general. El mos maiorum prohibia, per exemple, que un general entràs a Roma amb el seu exèrcit (el Rubicó era el límit simbòlic). Prohibia que una persona acumulàs més d'un càrrec alhora. Prohibia que el mateix home fos cònsol dues vegades seguides. Quan Sila i Cèsar van trencar el mos maiorum, no van trencar una llei escrita — van trencar un acord tàcit sobre les regles del joc que havia fet funcionar el sistema. La fragilitat del mos maiorum era que depenia de la voluntat dels actors, no de sancions formals. Quan els actors van decidir que els seus interessos valien més que les regles, res podia aturar-los."
+        },
+        {
+          "type": "misconception",
+          "belief": "La República romana va caure perquè els romans del segle I aC eren moralment més corruptes i decadents que els dels segles anteriors.",
+          "reality": "Aquesta era la teoria dels propis romans conservadors (com Sal·lusti i Ciceró), però els historiadors moderns la rebutgen. La crisi no va ser de caràcter moral sinó d'estructura social: les conquestes van generar una desigualtat extrema i unes forces militars (els exèrcits professionals) que el sistema republicà no estava dissenyat per controlar. Culpar la 'corrupció moral' és confondre el símptoma amb la causa.",
+          "why": "Els romans tenien una tendència a explicar les crisis polítiques com a declivi moral — era la seva manera de processar canvis estructurals que no entenien del tot. Aquesta narrativa va ser adoptada per molts historiadors posteriors sense prou crítica."
+        },
+        {
+          "type": "quote",
+          "text": "Roma va ser gran mentre va tenir por. Quan va deixar de tenir por, va deixar de ser gran.",
+          "author": "Sal·lusti, La conjuració de Catilina, segle I aC"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-01-01",
+          "style": "multiple-choice",
+          "question": "Quin canvi estructural va ser el més decisiu per desestabilitzar la República romana al segle II-I aC?",
+          "options": [
+            "La introducció de religions orientals que van corroure els valors tradicionals romans",
+            "La professionalització dels exèrcits, que creava soldats lleials al general i no a l'Estat",
+            "L'augment de la influència grega, que va introduir idees filosòfiques subversives",
+            "La creixent riquesa dels comerciants, que va desplaçar el poder del Senat aristocràtic"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'exèrcit romà tradicional era de pagesos-soldats que combatien una temporada i tornaven als seus camps. Quan Gai Mari va reformar l'exèrcit el 107 aC, obrint-lo als proletaris sense terra i equipant-los a càrrec del general, va crear involuntàriament l'instrument de la destrucció republicana: soldats que devien tot al seu general (la paga, l'equipament, la terra al final del servei) i que seguirien les seves ordres per sobre de les de l'Estat. Sila, Cèsar i August van aprofitar exactament aquest instrument.",
+          "feedbackWrong": "Les influències culturals i econòmiques van tenir el seu paper, però el canvi estructural decisiu va ser militar. La reforma de Mari va crear exèrcits professionals lligats personalment al seu comandant. Quan Sila va marchar sobre Roma el 88 aC, les seves legions el van seguir — una cosa impensable als exèrcits de pagesos-soldats del segle anterior."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-01-02",
+          "style": "detect-error",
+          "statement": "El mos maiorum era el conjunt de lleis escrites que regulaven el comportament dels magistrats romans, similars a una constitució formal que els tribunals podien fer complir.",
+          "isCorrect": false,
+          "feedbackExplanation": "El error fonamental és 'lleis escrites' i 'constitució formal'. El mos maiorum era exactament l'invers: un conjunt de normes no codificades, no escrites, basades en el precedent i el costum dels avantpassats. No hi havia un tribunal que pogués sancionar formalment la seva violació. La seva força derivava del consens social i de la pressió dels parells, no de cap mecanisme legal coercitiu. Aquesta feblesa estructural va ser decisiva: quan Sila i Cèsar van decidir ignorar-lo, no hi havia cap mecanisme formal per aturar-los."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-rc-01-01",
+          "question": "La República romana va col·lapsar parcialment perquè les seves normes no estaven codificades formalment. Creus que una constitució escrita i rígida hauria salvat la República?",
+          "options": [
+            "Sí: les normes escrites amb sancions formals creen una rigidesa que protegeix el sistema dels actors que volen subvertir-lo",
+            "No: quan un general controla les legions i la massa, cap paper pot aturar-lo — la força sempre pot superar la llei",
+            "Parcialment: una constitució escrita és necessària però no suficient — cal que hi hagi actors disposats a defensar-la amb força si cal"
+          ],
+          "correct": 2,
+          "explanation": "La posició A ignora que moltes repúbliques amb constitucions escrites han col·lapsat igualment (Weimar, 1933). La posició B és cínica però té una part de veritat que el propi cas romà confirma: Sila, que havia violat totes les normes, va decidir voluntàriament retirar-se — i ningú podia obligar-lo. La posició C és la que la ciència política moderna tendeix a defensar: les constitucions escrites estableixen punts focals de coordinació (tothom sap quines regles s'han trencat i pot coordinar la resistència), però el seu poder depèn que hi hagi actors disposats a pagar el cost de defensar-les. La República romana va mancar d'actors disposats a morir per les normes quan Sila va marchar sobre Roma el 88 aC. Les seves legions es van rendir sense lluitar."
+        }
+      ]
+    },
+    {
+      "id": "rc-02",
+      "title": "Els Gracs: reforma o revolució",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 133 aC, Tiberi Grac, un aristòcrata jove amb connexions a les millors famílies de Roma, va pujar a la tribuna de l'assemblea popular i va proposar quelcom senzill i explosiu: aplicar una llei que ja existia des de feia dos segles però que ningú havia gosat fer complir. La llei limitava la quantitat de terra pública que qualsevol individu podia ocupar. Durant generacions, els grans terratinents l'havien ignorat i s'havien apoderat de centenars d'hectàrees de terra que legalment eren del poble romà. Tiberi volia redistribuir-la als pagesos empobrits. Sis mesos després, un grup de senadors el va matar a bastonades a la mateixa tribuna."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els Gracs van ser el primer intent seriós de resoldre la crisi de desigualtat que amenaçava la República. El seu assassinat va establir un precedent ominós: la violència política dins Roma era possible, i les elits la usarien per protegir els seus interessos."
+        },
+        {
+          "type": "expandable",
+          "label": "La reforma agrària de Tiberi: per qué era tan amenaçant per al Senat",
+          "content": "La llei Licínia-Sextia (367 aC) limitava a 500 iugera (uns 125 hectàrees) la terra pública que qualsevol ciutadà podia ocupar. La realitat al 133 aC era que les grans famílies senatorials n'ocupaven milers, sovint sense cap títol legal, simplement per la força del costum i de la seva influència. La reforma de Tiberi no era revolucionària en teoria — simplement aplicava una llei existent. Però en la pràctica, redistribuïa una riquesa immensa de les elits als pobres. Els senadors no s'oposaven només per interessos econòmics: veien en la reforma una amenaça al principi oligàrquic que fonamentava la República. Si l'assemblea popular podia redistribuir la terra, qui podia garantir que no redistribuís tot el poder? El fantasma de la 'tirania popular' (el que ells anomenaven demagogia) els paralitzava de por."
+        },
+        {
+          "type": "quote",
+          "text": "Les bèsties salvatges que erren per Itàlia tenen cadascuna el seu cau i el seu lloc de repòs. Però els homes que lluiten i moren per Itàlia no tenen res més que l'aire i la llum.",
+          "author": "Tiberi Grac, discurs a l'assemblea popular, 133 aC (recollit per Plutarc)"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-02-01",
+          "style": "multiple-choice",
+          "question": "Per qué va ser tan significatiu l'assassinat de Tiberi Grac el 133 aC per a la história de la República?",
+          "options": [
+            "Perquè va ser el primer cop que un magistrat en exercici era assassinat a Roma, trencant el tabú de la violència política interna",
+            "Perquè va provocar una guerra civil immediata entre els partidaris dels Gracs i el Senat",
+            "Perquè va demostrar que la reforma agrària era impossible a Roma i va tancar el debat per generacions",
+            "Perquè va ser l'excusa que van usar els generals per marxar sobre Roma per primera vegada"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. L'assassinat de Tiberi va trencar un tabú fonamental: fins aleshores, la violència política a Roma es resolia per mecanismes legals (processos, exilis, multes) o es projectava cap a l'exterior (guerres). Matar un tribú de la plebs en exercici — un magistrat inviolable per llei — va ser un xoc enorme. Ciceró, dècades més tard, encara el citava com el moment en que la República va començar a morir. Va establir el precedent que la violència era una eina política legítima dins Roma.",
+          "feedbackWrong": "L'impacte principal no va ser immediat sinó simbòlic i de precedent: va ser la primera vegada en segles que la violència política era usada obertament contra un magistrat romà en exercici. Ciceró el considerava l'inici de la crisi republicana. No va provocar guerra civil immediata, però va obrir la porta a tota la violència posterior."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-02-02",
+          "style": "true-false",
+          "question": "Gai Grac, el germà de Tiberi, va aprendre de l'error del seu germà i va evitar les reformes agràries, centrant-se en reformes menys conflictives.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Gai Grac va anar molt més lluny que el seu germà: no només va renovar les reformes agràries sinó que va afegir lleis sobre el preu del blat per als pobres urbans, reformes judicials (traient el control dels tribunals al Senat), i fins i tot una proposta per estendre la ciutadania als aliats itàlics. Va construir una coalició política molt més àmplia que la de Tiberi. El 121 aC, el Senat va declarar un estat d'emergència (senatus consultum ultimum, un precedent ominós) i Gai va morir en els enfrontaments que van seguir, potser suïcidant-se per evitar la captura. Tres mil dels seus partidaris van ser executats.",
+          "feedbackWrong": "Al contrari — Gai va ampliar considerablement l'agenda reformista del seu germà. Va ser un polític més sofisticat i va construir coalicions més àmplies. El seu assassinat efectiu (i la massacre dels seus partidaris) va ser molt més gran en escala que el de Tiberi."
+        },
+        {
+          "type": "debate",
+          "question": "Els Gracs volien reformar el sistema per salvar-lo. Les elits senatoriales van assassinar-los per preservar-lo. Qui tenia raó sobre el futur de la República?",
+          "positionA": {
+            "label": "Els Gracs tenien raó",
+            "argument": "Sense redistribució de la riquesa i sense resoldre la crisi del proletariat sense terra, la República estava condemnada. Els Gracs van diagnosticar correctament el problema. Si les seves reformes s'haguessin implementat, potser la República hauria sobreviscut. Les elits, en matar-los, van destruir la última oportunitat de reforma pacífica."
+          },
+          "positionB": {
+            "label": "El Senat tenia raó en la seva por (si no en els seus mètodes)",
+            "argument": "Les reformes dels Gracs eren desestabilitzadores: usaven l'assemblea popular per circumvenir el Senat i creaven precedents de populisme que van obrir la porta a Sila, Cèsar i August. El problema no era si les reformes eren justes, sinó que el mètode — mobilitzar les masses contra les institucions — era el mateix que usarien els futurs homes forts."
+          },
+          "reflection": "És possible reformar un sistema profundament desigual sense desestabilitzar-lo? O la desestabilització és inevitable?",
+          "context": "Historiadors com Mary Beard veuen els Gracs com reformadors genuïns víctimes de la intransigència oligàrquica. Altres, com Ronald Syme, subratllen que les seves tècniques de mobilització popular van crear els instruments de la dictadura futura."
+        }
+      ]
+    },
+    {
+      "id": "rc-03",
+      "title": "Sila: el primer home que va marchar sobre Roma",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 88 aC, Luci Corneli Sila, cònsol de Roma i general victoriós, va rebre una notícia que el va enfollar: l'assemblea popular havia transferit el comandament de la guerra contra Mitridates del Pont — que li corresponia a ell — al seu rival, el vell general Mari. Sila va fer una cosa que cap romà havia fet mai: va convocar les seves sis legions, els va explicar la situació, i els va preguntar si el seguirien. El van seguir. Sila va marchar sobre Roma. Els soldats del govern van fugir. En un cap de setmana, Sila va conquerir la capital de l'imperi més poderós del món amb sis legions i zero resistència. La República mai no es va recuperar d'aquell precedent."
+        },
+        {
+          "type": "prediction",
+          "question": "Sila va conquerir Roma per la força i es va convertir en dictador. Però després va renunciar voluntàriament al poder i es va retirar a cultivar el seu jardí. Per qué creus que ho va fer?",
+          "hint": "Pensa en la diferència entre voler el poder i voler el que el poder permet aconseguir."
+        },
+        {
+          "type": "key-idea",
+          "text": "Sila va ser el primer a demostrar que un general amb legions lleials podia conquistar Roma per la força. Va trencar l'últim tabú de la República. Paradoxalment, va usar aquest poder per restaurar les institucions republicanes conservadores — i després es va retirar voluntàriament. El precedent que va deixar el va aprofitar Cèsar per fer exactament el contrari."
+        },
+        {
+          "type": "expandable",
+          "label": "Les proscripcions de Sila: el terror com a eina de govern",
+          "content": "Quan Sila va prendre el poder el 82 aC com a dictador, va introduir una innovació aterradora: les llistes de proscripció. Eren llistes públiques d'homes condemnats a mort sense judici. Qualsevol que matàs un proscrit rebia una recompensa; qualsevol que l'amagàs era executat. Els béns dels proscrits eren confiscats i subhastats. Es calcula que unes 1.500 persones de l'ordre equestriana i 40 senadors van ser assassinats. Però el terror tenia una lògica: Sila volia eliminar físicament els seus rivals polítics i enriquir els seus seguidors amb les confiscacions. Un jove aristòcrata que va escapar per poc de les llistes de Sila s'anomenava Gai Juli Cèsar — que havia estat nomenat sacerdot per Mari i era cunyat d'un dels enemics de Sila."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-03-01",
+          "style": "multiple-choice",
+          "question": "Quin va ser el precedent més perillós que va establir la marxa de Sila sobre Roma el 88 aC?",
+          "options": [
+            "Que era possible usar l'exèrcit per resoldre disputes polítiques internes a Roma",
+            "Que el Senat podia ser dissolt per la força militar en temps de crisi",
+            "Que els generals podien ignorar les decisions dels cònsols en temps de guerra",
+            "Que la figura del dictador podia ser usada per reformar la constitució republicana"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. El precedent era devastador: un general podia usar les seves legions per resoldre una disputa política a Roma. Cèsar ho va entendre perfectament — quan va creuar el Rubicó el 49 aC, estava seguint el camí que Sila havia traçat. I August va aprendre de tots dos: va mantenir sempre el control de les legions mentre aparentava respectar les institucions civils. La marxa de Sila va demostrar que el poder real no residia al Senat ni a l'assemblea, sinó a qui controlava l'exèrcit.",
+          "feedbackWrong": "El precedent clau no era institucional sinó existencial: per primera vegada, un general havia usat les seves tropes per prendre Roma per la força. Això va demostrar que el poder militar podia superar qualsevol poder civil. Cèsar i August van aprendre la lliçó — cadascun a la seva manera."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-03-02",
+          "style": "true-false",
+          "question": "Sila va usar el poder de dictador per abolir la República i instaurar una monarquia personal hereditària.",
+          "correct": false,
+          "feedbackCorrect": "Fals — i aquí rau la paradoxa de Sila. Va usar el poder de dictador per fer exactament el contrari: va enfortir el Senat, va limitar els poders dels tribuns de la plebs (el càrrec que els Gracs i els populars usaven per circumvenir el Senat), va establir un ordre successori clar per als càrrecs i va restaurar el que ell entenia com la República tradicional. I el 79 aC, simplement va renunciar al poder i es va retirar a la seva vil·la a fer de jardiner. Va morir d'una malaltia l'any següent. Sila era un conservador, no un rei en potència. Però el precedent que va deixar el van aprofitar homes amb ambicions molt menys conservadores.",
+          "feedbackWrong": "La paradoxa de Sila és que va ser un dictador conservador: va prendre el poder per la força però per restaurar el poder del Senat i les institucions aristocràtiques tradicionals. I va renunciar voluntàriament. Plutarc el compara amb Cíncinnat. Però el precedent de la marxa sobre Roma el van aprofitar Cèsar i August per finalitats molt diferents."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-rc-03-01",
+          "question": "Sila va prendre el poder per la força, va reformar les institucions a la seva manera i va renunciar voluntàriament. Creus que la seva retirada va ser un acte de principis republicans genuïns o un càlcul polític racional?",
+          "options": [
+            "Va ser un acte de principis: Sila creia genuïnament en la República i va respectar els seus límits un cop va assolir els seus objectius",
+            "Va ser un càlcul: sabia que mantenir el poder indefinidament era impossible sense institucionalitzar-lo, i la retirada li assegurava una mort natural i una llegenda positiva",
+            "No importa la motivació: el que compta és l'acte, i la retirada va tenir efectes estabilitzadors independentment de les intencions de Sila"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la que defensa la tradició romana conservadora (i alguns biògrafs moderns): Sila com el darrer romà autèntic. La posició B és la interpretació cínica que s'ajusta bé a la psicologia d'un home que havia ordenat milers d'assassinats. Però la posició C fa la pregunta filosòfica correcta: en política, importa la intenció o l'efecte? Machiavel·li hauria dit que la retirada de Sila va ser un error de càlcul — perquè va permetre que els seus enemics es reorganitzessin i va donar a Cèsar el precedent sense el cost. Els historiadors moderns tendeixen a la C: la motivació de Sila és irrecuperable, però l'efecte de la seva retirada va ser, paradoxalment, demostrar que la dictadura podia ser temporal — cosa que va fer-la menys aterradora per a les elits romanes quan Cèsar la va anunciar."
+        }
+      ]
+    },
+    {
+      "id": "rc-04",
+      "title": "Cèsar: el geni que no va saber llegir el moment",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Gai Juli Cèsar és probablement la figura més debatuda de tota la história romana. Va ser un militar genial, un orador brillant, un escriptor elegant, un polític d'una habilitat extraordinària. Va conquerir la Gàl·lia en vuit anys, va escriure els comentaris d'aquelles guerres amb una prosa que encara s'estudia avui, i va creuar el Rubicó amb una sola legió contra l'exèrcit del Senat. Però va cometre un error que no cometria August: no va entendre que els romans podien acceptar la dictadura si anava disfressada de República. Cèsar va voler la corona sense la màscara. I això el va matar."
+        },
+        {
+          "type": "prediction",
+          "question": "Cèsar era el polític més hàbil de Roma, havia guanyat guerres impossibles i tenia el suport popular. I tanmateix va ser assassinat per homes que havia perdonat. Quin error creus que va cometre?",
+          "hint": "Pensa en la diferència entre tenir el poder i semblar que el tens legítimament."
+        },
+        {
+          "type": "key-idea",
+          "text": "Cèsar va concentrar tots els poders però va refusar mantenir les formes republicanes que els romans necessitaven per acceptar psicològicament la seva situació. Va ser l'home que va destruir la República sense crear-ne un substitut estable. August, el seu hereu, va aprendre la lliçó i va inventar el Principat."
+        },
+        {
+          "type": "quote",
+          "text": "El que va destruir Cèsar va ser la impaciència. Havia aconseguit tot el que volia — i no va poder esperar.",
+          "author": "Ciceró, Cartes als amics, 44 aC"
+        },
+        {
+          "type": "expandable",
+          "label": "El Rubicó: per qué creuar un riu petit va ser l'acte més gran de la história romana",
+          "content": "El Rubicó era un rierol insignificant al nord d'Itàlia que marcava el límit entre la província de la Gàl·lia Cisalpina i Itàlia pròpia. La llei romana prohibia que un general creués aquesta frontera amb les seves tropes: era el que separava el comandament militar de l'autoritat civil. El gener del 49 aC, Cèsar va aturar les seves tropes a la riba nord. Va meditar tota la nit. A l'alba, va donar l'ordre d'avançar, pronunciant suposadament la frase 'alea iacta est' (la sort està tirada). Era una declaració de guerra civil. El Senat havia exigit que llicenciàs les seves tropes; ell en tenia tretze legions. Va triar les armes. Pompeu i el Senat van fugir d'Itàlia sense combatre. Cèsar va entrar a Roma en tres setmanes. La República havia acabat, tot i que no ho sabria fins als Idus de Març del 44."
+        },
+        {
+          "type": "comparison",
+          "title": "Sila vs. Cèsar: dos homes que van conquerar Roma",
+          "labelA": "Sila (88-79 aC)",
+          "labelB": "Cèsar (49-44 aC)",
+          "items": [
+            {
+              "label": "Objectiu polític",
+              "a": "Restaurar el poder del Senat aristocràtic",
+              "b": "Concentrar el poder en la seva persona indefinidament"
+            },
+            {
+              "label": "Tractament dels enemics",
+              "a": "Proscripcions massives i execucions",
+              "b": "Clemència sistemàtica (una novetat)"
+            },
+            {
+              "label": "Relació amb les formes republicanes",
+              "a": "Les va restaurar i enfortir",
+              "b": "Les va conservar nominalment però les va buidar"
+            },
+            {
+              "label": "Final",
+              "a": "Retirada voluntària; mort natural",
+              "b": "Assassinat al Senat pels 'Llibertadors'"
+            },
+            {
+              "label": "Lliçó per a August",
+              "a": "La dictadura pot ser temporal i acceptable",
+              "b": "La corona sense màscara és inacceptable per als romans"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-04-01",
+          "style": "multiple-choice",
+          "question": "La política de clemència de Cèsar cap als seus enemics vençuts va ser considerada pels seus partidaris com una virtut. Però els seus assassins eren homes que havia perdonat. Qué revela aquest fet?",
+          "options": [
+            "Que la clemència era hipòcrita i Cèsar en realitat planificava eliminar els seus enemics més tard",
+            "Que la clemència, tot i ser políticament generosa, no va crear lleialtat genuïna perquè els perdonats se sentien humiliats i en deute",
+            "Que Brut i Cassi eren homes d'una ingratitud excepcional, atípics entre els romans",
+            "Que Cèsar hauria d'haver eliminat físicament tots els seus rivals per garantir la seva seguretat"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La clemència de Cèsar era genuïna i políticament intel·ligent en teoria — evitava crear nous enemics i presentava una imatge de magnanimitat. Però tenia un problema psicològic profund: el perdonat deu la vida al perdonador i sap que el seu estatus depèn de la seva gràcia. Això no crea aliats — crea homes que es senten degradats i que necessiten afirmar la seva dignitat. Brut i Cassi no van matar Cèsar per ingratitud sinó perquè ser perdonats per ell implicava acceptar que ell tenia dret a decidir sobre les seves vides. Per a aristòcrates republicans, això era insuportable.",
+          "feedbackWrong": "La paradoxa de la clemència de Cèsar és una de les més analitzades de la història política. No va ser hipocresía ni ingratitud excepcional dels assassins. Va ser una dinàmica psicològica profunda: el perdonat es converteix en deudor del perdonador, i per a homes que valoraven la seva dignitat (dignitas) per sobre de tot, això era intolerable. La clemència de Cèsar va crear enemics íntims precisament entre els que havia beneficiat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-04-02",
+          "style": "detect-error",
+          "statement": "L'assassinat de Cèsar el 44 aC va ser planificat per un grup de senadors populars i reformistes que volien continuar les seves reformes socials però sense la seva dictadura personal.",
+          "isCorrect": false,
+          "feedbackExplanation": "Dos errors fonamentals. Primer, els assassins de Cèsar no eren reformistes populars — eren majoritàriament conservadors republicanss (optimates) que volien restaurar el poder del Senat. Brut i Cassi eren representants de la noblesa senatorial tradicional, ideològicament oposats a les reformes populars de Cèsar. Segon, no volien continuar les seves reformes — volien revertir-les i restaurar la República aristocràtica. La ironia és que, en matar el dictador, van generar les guerres civils que van produir un poder personal molt més absolut: el d'August."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-rc-04-01",
+          "question": "Si Cèsar no hagués estat assassinat i hagués governat fins a la mort natural, creus que hauria pogut crear un sistema polític estable diferent de la República i de l'Imperi augusteu?",
+          "options": [
+            "Sí: Cèsar tenia el talent i la visió per crear una monarquia constitucional innovadora que hauria pogut institucionalitzar-se",
+            "No: la seva falta de respecte per les formes republicanes el feia inacceptable per a les elits, i hauria estat assassinat tard o d'hora",
+            "És impossible de saber: el contrafactual depèn de masses variables (la seva salut, les seves decisions futures, la resposta de les elits) per ser informatiu"
+          ],
+          "correct": 1,
+          "explanation": "La posició C és epistemologicament còmoda però massa evasiva — el contrafactual és una eina legítima si s'usa amb cura. La posició A és defensada per alguns biògrafs entusiastes de Cèsar (com Adrian Goldsworthy o Philip Freeman), que subratllen la seva flexibilitat intel·lectual i la seva capacitat d'innovació. Però la posició B és la que la majoria d'historiadors moderns troben més plausible: el problema de Cèsar no era personal sinó estructural. Les elits senatoriales romans tenien una identitat construïda sobre el mos maiorum i la República. Qualsevol sistema que no respectés les formes republicans generaria resistència violenta. August va sobreviure seixanta anys en el poder precissament perquè va aprendre d'exactament aquest error de Cèsar: mai va demanar el títol de rei, mai va abolir formalment el Senat, sempre va mantenir la ficció que la República continuava."
+        }
+      ]
+    },
+    {
+      "id": "rc-05",
+      "title": "Les guerres civils: divuit anys de caos",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 15 de març del 44 aC, quan els assassins van sortir del Senat amb les mans ensangonades, devien creure que havien salvat la República. En realitat, havien disparat el tret de sortida de divuit anys de guerres civils que devastarien el món mediterrani. Marc Antoni, el general de Cèsar, i Octavi, el seu nebot adoptiu de dinou anys, es van repartir inicialment el llegat — i posteriorment es van enfrontar en una guerra que duraria fins a la batalla d'Àccium (31 aC). Quan va acabar, la República estava morta per sempre. I el jove malaltís que tothom havia subestimat era l'home més poderós del món."
+        },
+        {
+          "type": "key-idea",
+          "text": "Les guerres civils posteriors a l'assassinat de Cèsar (44-31 aC) van ser el preu que Roma va pagar per la seva incapacitat per resoldre la crisi republicana per via política. Van acabar amb la destrucció física de la major part de les elits republicanes i la concentració de tot el poder en les mans d'un sol home."
+        },
+        {
+          "type": "expandable",
+          "label": "Les proscripcions del Segon Triumvirat: quan Ciceró va perdre la vida i les mans",
+          "content": "El 43 aC, Antoni, Octavi i Lèpid van formar el Segon Triumvirat i van reiniciar les proscripcions. Van confeccionar llistes d'enemics polítics condemnats a mort. Antoni va insistir en incloure Ciceró, l'home que l'havia atacat ferotgement amb els seus Filipiques. Octavi va resistir inicialment — deia admirar Ciceró — però finalment va cedir. Ciceró tenia 63 anys i fugia en llitera quan els soldats d'Antoni el van atrapar. Va treure el cap per la cortina i va dir als soldats: 'Aquí, soldat'. Li van tallar el cap i les mans. Antoni va ordenar que les mans fossin exposades al Fòrum, als Rostra on Ciceró havia pronunciat els seus discursos. La seva muller Fúlvia, se diu, va clavar una agulla d'or a la llengua del cap tallat. La República literalment emmudia."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-05-01",
+          "style": "multiple-choice",
+          "question": "Per qué Octavi, que admirava Ciceró, va acceptar la seva proscripció a canvi d'Antoni?",
+          "options": [
+            "Perquè va descobrir que Ciceró havia participat en la conspiració per assassinar Cèsar",
+            "Perquè necessitava l'aliança d'Antoni més del que necessitava la vida de Ciceró — va sacrificar un home per guanyar una guerra",
+            "Perquè Ciceró havia atacat públicament Octavi en els seus últims discursos",
+            "Perquè Octavi volia eliminar tots els supervivents republicans que poguessin liderar una resistència futura"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Octavi tenia dinou anys i necessitava desesperadament l'aliança amb Antoni i les seves legions per sobreviure. La vida de Ciceró era el preu que Antoni exigia. Octavi va calcular fríament: sense Antoni, moria; amb Antoni, podia guanyar. Va sacrificar Ciceró. Anys després, se li va atribuir el comentari que Ciceró 'havia estat un gran home que havia estimat la seva pàtria'. La frigedat del càlcul d'Octavi en aquest moment ens diu molt sobre com havia après a pensar la política.",
+          "feedbackWrong": "La raó va ser estrictament de càlcul de poder. Octavi necessitava el triumvirat amb Antoni per sobreviure políticament i militarment. Antoni volia Ciceró mort per les Filipiques. El jove Octavi va cedir perquè no tenia alternativa si volia continuar en el joc. Era una transacció brutal: la vida d'un home per l'aliança que li permetria conquerir el món."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-05-02",
+          "style": "true-false",
+          "question": "La batalla d'Àccium (31 aC) va ser una gran batalla terrestre en la qual les legions d'Octavi van derrotar les de Marc Antoni en combat obert.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Àccium va ser una batalla naval a les costes d'Epir (Grècia actual). La flota d'Octavi, comandada pel seu almirall Agripa, va enfrontar la flota d'Antoni i Cleopatra. El moment decisiu va ser la fuga de Cleopatra amb les seves naus, que Antoni va seguir abandonant la resta de la seva flota. El resultat va ser menys una victòria militar que un col·lapse de la moral i la lleialtat de les forces d'Antoni. Les seves legions terrestres, que no havien combatut, es van rendir a Octavi dies després. Antoni i Cleopatra es van suïcidar el 30 aC a Alexandria.",
+          "feedbackWrong": "Àccium va ser una batalla naval, no terrestre — i va ser guanyada menys per habilitat militar que per la fuga de Cleopatra i el subsegüent col·lapse moral de les forces d'Antoni. Les grans legions terrestres d'Antoni mai van combatre: es van rendir pacíficament a Octavi quan van veure que el seu general havia fugit. Va ser una victòria decisiva però poc heroica."
+        },
+        {
+          "type": "reflection",
+          "question": "Les guerres civils romanes del 44-31 aC van ser viscudes per la gent del moment com una catàstrofe sense fi. Pensant en el que has après: quin moment concret de la crisi republicana creus que va ser el punt de no retorn, a partir del qual la caiguda de la República era inevitable?",
+          "prompt": "No hi ha una resposta única — els historiadors debaten si va ser els Gracs, Sila, Cèsar o fins i tot el sistema de partida. Busca el teu propi argument."
+        }
+      ]
+    },
+    {
+      "id": "rc-06",
+      "title": "Per qué la República no va poder salvar-se",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Ciceró, l'home que va dedicar la seva vida i finalment la seva mort a defensar la República, va fer-se una pregunta en els seus últims anys que no va saber respondre: ¿per qué una República que havia funcionat quatre-cents anys, que havia creat les lleis i les institucions més sofisticades del món antic, no havia pogut resistir la pressió d'un sol home? La pregunta té una resposta incòmoda: perquè potser la República no tenia prou defensors disposats a pagar el preu real de defensar-la. Molts la admiraven. Pocs van morir per ella."
+        },
+        {
+          "type": "key-idea",
+          "text": "La República romana va caure per una combinació de factors estructurals (desigualtat, exèrcits professionals, escala imperial) i d'agència individual (la voluntat de poder de generals concrets). Cap dels dos nivells explica la caiguda sense l'altre: les condicions van fer possible la crisi, però van ser les decisions individuals les que la van consumar."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "August: Com s'Inventa un Règim",
+          "moduleEmoji": "🏺",
+          "concept": "La lliçó que August va aprendre de Cèsar",
+          "text": "Tot el que Cèsar va fer malament — ignorar les formes republicans, acumular títols visibles, no mantenir la ficció — August ho va corregir sistemàticament. Entendre la crisi de la República és entendre per qué el Principat va ser possible i per qué va funcionar."
+        },
+        {
+          "type": "expandable",
+          "label": "Ciceró: el gran defensor de la República que no va poder salvar-la",
+          "content": "Marc Tul·li Ciceró (106-43 aC) és potser la figura més tràgica de la crisi republicana. Va ser l'intel·lectual més brillant del seu temps, el millor orador de Roma, un estadista que havia salvat la República de la conspiració de Catilina el 63 aC. Però davant Cèsar i August, el seu talent va ser insuficient. Va fluctuar entre aliances, va subestimar Octavi ('el jove de qui cal fer-se'n gràcia, donar-li honors, i després desfer-se'n', va escriure en una carta privada el 43 aC — pocs mesos abans que Octavi acceptàs la seva proscripció). La cita il·lustra el drama de Ciceró: en política va ser un tàctic brillant però va perdre sempre contra els qui jugaven a llarg termini. Les seves Filipiques contra Antoni van ser obres mestres de l'oratòria. I el van matar."
+        },
+        {
+          "type": "misconception",
+          "belief": "Si els republicans com Ciceró i Brut haguessin estat més valents i decidits, haurien pogut salvar la República contra Cèsar i August.",
+          "reality": "El problema no era de coratge individual sinó d'estructura de poder. August controlava les legions, la riquesa de les provincias i l'herència simbòlica de Cèsar. Cap coalició de senadors podia competir amb això sense el seu propi exèrcit lleial. La República va caure perquè el poder real s'havia desplaçat irreversiblement dels civils als militars — i els republicans eren, per definició, civils.",
+          "why": "La narrativa del 'heroi que hauria pogut canviar la história si hagués estat més valent' és psicologicament atractiva però historiogràficament ingènua. Els individus actuen dins estructures de poder que limiten les seves opcions."
+        },
+        {
+          "type": "quote",
+          "text": "En el principi van ser els Gracs. Quan Tiberi Grac va ser assassinat, per primera vegada a Roma la sang ciutadana va tenyir el Fòrum.",
+          "author": "Plutarc, Vides Paral·leles, segle II dC"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-06-01",
+          "style": "multiple-choice",
+          "question": "Polybius, historiador grec que va viure a Roma al segle II aC, va teoritzar que les repúbliques seguien un cicle: monarquia → aristocràcia → democràcia → decadència → monarquia de nou. Com s'aplicaria aquesta teoria a la crisi republicana romana?",
+          "options": [
+            "Perfectament: Roma va seguir exactament el cicle de Polibius, confirmat per l'evidència empírica",
+            "Parcialment: identifica correctament la tendència cap a la concentració de poder, però no explica per qué va trigar 400 anys ni per qué va passar quan va passar",
+            "No s'aplica: la crisi romana va ser un accident contingent provocat per uns pocs individus ambiciosos, no un procés estructural"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La teoria de Polibius (anacyclosis) té valor diagnòstic: identifica la tendència de les repúbliques a degradar-se quan les elits deixen de servir al bé comú. Però és massa esquemàtica per explicar el quan i el per qué d'una crisi concreta. La República romana va durar quatre-cents anys perquè tenia mecanismes eficaços de contenció. Va caure quan una combinació específica de factors (conquestes que generaven desigualtat i exèrcits professionals) va sobrepassar la capacitat d'aquells mecanismes. Polibius descriu el patró però no els mecanismes concrets.",
+          "feedbackWrong": "La teoria de Polibius no és ni perfectament predictiva ni del tot irrellevant. És un marc analític que captura tendències reals (les repúbliques tenen pressions cap a la concentració de poder) sense explicar els mecanismes ni la temporalitat concrets. Com totes les grans teories polítiques, és una guia de lectura, no una llei determinista."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rc-06-02",
+          "style": "detect-error",
+          "statement": "La crisi de la República romana va ser essencialment un problema de caràcter moral: els romans del segle I aC havien perdut les virtuts cíviques que havien fet gran els seus avantpassats, i per això el sistema va col·lapsar.",
+          "isCorrect": false,
+          "feedbackExplanation": "Aquesta és la tesi conservadora que els propis romans (Sal·lusti, Ciceró, Titus Livi) van defensar — però els historiadors moderns la consideren insuficient com a explicació causal. El problema no va ser de caràcter moral sinó d'estructura: les conquestes van generar desigualtat extrema i exèrcits professionals lleials als generals, no a l'Estat. Fins i tot homes de gran virtut cívica (com el propi Ciceró o Brut) van ser incapaços de canviar el curs dels esdeveniments perquè el poder real s'havia desplaçat a les legions. Culpar la 'decadència moral' és confondre el símptoma amb la causa estructural."
+        },
+        {
+          "type": "debate",
+          "question": "La caiguda de la República romana va ser inevitable donades les condicions estructurals, o hauria pogut evitar-se si els actors clau haguessin pres decisions diferents?",
+          "positionA": {
+            "label": "Era inevitable",
+            "argument": "Una República dissenyada per a una ciutat-estat no podia governar un imperi. Les conquestes van crear desigualtat i exèrcits professionals que cap institució republicana estava preparada per gestionar. Amb o sense Cèsar, amb o sense Sila, algun general hauria fet el mateix. Les condicions estructurals feien inevitable alguna forma de poder personal."
+          },
+          "positionB": {
+            "label": "Hauria pogut evitar-se",
+            "argument": "Les estructures no determinen completament els resultats — els individus prenen decisions que canvien el curs de la història. Si els Gracs haguessin triomfat i la desigualtat s'hagués reduït, si el Senat hagués acceptat la reforma militar de Mari amb garanties institucionals, si Cèsar hagués acceptat les formes republicanes com va fer August... En cada moment hi havia camins alternatius. La inevitabilitat és una narrativa a posteriori."
+          },
+          "reflection": "On valores el pes relatiu de les estructures i les decisions individuals en els grans canvis historials?",
+          "context": "Aquest és un dels debats fonamentals de la teoria de la historia: determinisme estructural (Marx, Braudel) vs. història dels individus (Carlyle, Nietzsche). La historiografia romana és un dels camps de batalla clàssics d'aquesta discussió."
+        }
+      ]
+    }
+  ]
+}

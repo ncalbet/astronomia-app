@@ -1,0 +1,631 @@
+{
+  "id": "module-13-historia-tecnologia",
+  "title": "Història de la Tecnologia",
+  "emoji": "⚙️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "tech-eines",
+      "title": "Les Eines que Ens Van Fer Humans",
+      "icon": "🔧",
+      "description": "De la pedra tallada a la impremta: com la tecnologia ha redistribuït el poder",
+      "style": "Cronològic · de la prehistòria al segle XVIII",
+      "lessons": [
+        {
+          "id": "tec-01",
+          "title": "La primera tecnologia: l'eina que va canviar el cervell",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Fa 3,3 milions d'anys, a l'actual Kenya, algú va agafar una pedra i la va colpejar contra una altra de manera deliberada per crear una vora tallant. No era un Homo sapiens — eren 330.000 anys abans que existís la nostra espècie. Aquella pedra tallada és l'objecte tecnològic més antic que coneixem. I suggereix quelcom que la ciència continua debatent: va ser la tecnologia la que va crear el cervell humà, o el cervell humà el que va crear la tecnologia?"
+            },
+            {
+              "type": "key-idea",
+              "text": "La tecnologia no és un fenomen modern — és constitutiva de l'ésser humà. Des de les primeres eines de pedra fins als processadors de silici, la relació entre humans i tecnologia és de co-evolució: les eines ens transformen tant com nosaltres les transformem a elles. Entendre la historia de la tecnologia és entendre la historia de com hem esdevingut el que som."
+            },
+            {
+              "type": "expandable",
+              "label": "El foc: la primera tecnologia de xarxa",
+              "content": "El control del foc (fa aproximadament 1 milió d'anys) va ser la primera tecnologia que no simplement va ampliar les capacitats físiques sinó que va reorganitzar la vida social. El foc va permetre cuinar — el que va reduir el temps i l'energia necessaris per a la digestió i va alliberar energia per al cervell. Va permetre llum artificial — estenent les hores de vida social. Va crear un punt de trobada: el foc de camp és el primer espai social tecnològicament mediat de la historia. L'antropòleg Richard Wrangham argumenta que sense el foc i la cuina, el cervell humà de la mida actual seria metabòlicament impossible."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "3,3 milions aC",
+                  "title": "Primeres eines de pedra",
+                  "text": "Kenya. Anteriors al gènere Homo. La tecnologia precede l'espècie."
+                },
+                {
+                  "year": "~1 milió aC",
+                  "title": "Control del foc",
+                  "text": "Cuina, llum, calor. Reorganització de la vida social."
+                },
+                {
+                  "year": "~10.000 aC",
+                  "title": "Revolució neolítica",
+                  "text": "Agricultura i ramaderia. La tecnologia més transformadora fins a la Revolució Industrial."
+                },
+                {
+                  "year": "~3.500 aC",
+                  "title": "La roda i l'escriptura",
+                  "text": "Mesopotàmia. Dues tecnologies que canvien el transport i la memòria col·lectiva."
+                },
+                {
+                  "year": "~1455",
+                  "title": "La impremta de Gutenberg",
+                  "text": "Ruptura del monopoli eclesiàstic sobre el coneixement escrit."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-tec-01-01",
+              "style": "multiple-choice",
+              "question": "La Revolució Neolítica (adopció de l'agricultura fa ~10.000 anys) és presentada com un gran progrés. Quin aspecte contradiu la narrativa del 'progrés lineal'?",
+              "options": [
+                "Que l'agricultura va ser adoptada primer per les societats més pobres",
+                "Que les poblacions agrícoles inicials mostraven pitjor salut i major mortalitat infantil que els caçadors-recol·lectors del mateix període",
+                "Que la revolució neolítica va ser principalment una invenció femenina que els homes van apropiar-se",
+                "Que l'agricultura va reduir inicialment la diversitat alimentària però va augmentar la longevitat"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les restes esquelètiques de les primeres poblacions agrícoles mostren menor estatura, major incidència de càries, malalties per deficiència i major mortalitat infantil que els caçadors-recol·lectors contemporanis. L'agricultura va permetre sostenir poblacions molt majors a expenses del benestar individual. Jared Diamond la va anomenar 'el pitjor error en la historia de la raça humana' — una exageració, però que captura una tensió real entre progrés col·lectiu i benestar individual.",
+              "feedbackWrong": "L'evidència paleopatològica mostra que les primeres poblacions agrícoles tenien pitjor salut individual: menor estatura, més càries, deficiències nutricionals, major mortalitat infantil. L'agricultura va permetre sostenir poblacions majors, no individus més sans. És un dels exemples més clars que 'progrés tecnològic' i 'millora del benestar individual' no son la mateixa cosa."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-tec-01-01",
+              "question": "La tecnologia ha estat sovint presentada com a 'neutral' — una eina que pot ser usada per al bé o per al mal. Creus que la tecnologia és realment neutral?",
+              "options": [
+                "Sí: una pedra tallada pot matar o tallar llenya. La tecnologia no té valors intrínsecs",
+                "No: cada tecnologia incorpora els valors i les relacions de poder del context en que va ser dissenyada, i tendeix a reproduir-los",
+                "Parcialment: cap tecnologia és completament neutral perquè totes son dissenyades per algú amb interessos específics, però les seves conseqüències poden superar les intencions del disseny"
+              ],
+              "correct": 2,
+              "explanation": "La resposta matisada és la més defensable. El filòsof Langdon Winner va argumentar que els artefactes tenen 'política': els ponts de Robert Moses a Long Island eren deliberadament baixos per impedir el pas dels autobusos i excloure la població negra de les platges. Els algorismes de reconeixement facial eren menys precisos per a persones negres perquè els conjunts d'entrenament eren majoritàriament blancs. Cap d'aquests 'errors' era neutre. Però afirmar que tota tecnologia és completament determinada pels seus valors de disseny ignora que les tecnologies son usades en contextos imprevistos per als seus creadors: Internet va ser dissenyada per la defensa americana i s'ha convertit en l'eina de democratització de la informació més gran de la historia. La tensió entre les intencions del disseny i els usos reals és el cor de la sociologia de la tecnologia."
+            }
+          ]
+        },
+        {
+          "id": "tec-02",
+          "title": "L'escriptura i la impremta: tecnologies de la memòria",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Cap al 3.400 aC, a Uruk (actual Iraq), un comerciant va gravar en una tauleta d'argila un registre de transaccions: quantes ampolles d'oli, quants sacs de gra. L'escriptura va néixer per registrar deutes, no per expressar l'ànima. Cinc mil anys després, Gutenberg va publicar la seva Bíblia. Entre els dos esdeveniments, la tecnologia de la memòria col·lectiva va transformar completament la manera en que els humans organitzaven el coneixement, el poder i la identitat."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'escriptura i la impremta son tecnologies de la memòria: amplien la capacitat humana d'emmagatzemar i transmetre informació molt més enllà dels límits del cervell individual. Però no son neutrals: cada sistema redistribueix qui té accés al coneixement i, per tant, al poder."
+            },
+            {
+              "type": "expandable",
+              "label": "Gutenberg i la Reforma Protestant: com la impremta va canviar la política",
+              "content": "Johannes Gutenberg va imprimir la seva Bíblia cap al 1455. En cinquanta anys, hi havia impremtes a totes les ciutats importants d'Europa. El 1517, Martí Luter va clavar les seves 95 tesis. Sense la impremta, haurien estat un document local. Amb la impremta, en quatre setmanes circulaven per tota Alemanya; en dos mesos, per tota Europa. La Reforma Protestant no hauria estat possible sense la impremta. Era la primera crisi de desinformació de la historia moderna: pamflets, contrapamflets, rumors i notícies falses circulant a una velocitat que les institucions eclesiàstiques no van poder controlar."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Música Clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "La partitura com a tecnologia de transmissió musical",
+              "text": "Al mòdul de música clàssica vam veure com Bach va poder influir en Mozart i Beethoven malgrat haver mort dècades abans. Allò que va fer possible aquella transmissió és una tecnologia: la partitura impresa. Sense la impremta musical, la música occidental no hauria pogut construir la tradició acumulativa que coneixem. La partitura és la memòria col·lectiva de la tradició musical — i és tecnologia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-tec-02-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser l'impacte social més profund de la impremta de Gutenberg?",
+              "options": [
+                "Va democratitzar immediatament l'alfabetització: en cinquanta anys, la majoria de la població europea sabia llegir",
+                "Va trencar el monopoli eclesiàstic sobre la producció i el control del coneixement escrit, redistribuint el poder cultural i religiós",
+                "Va crear la primera indústria europea de masses, generant ocupació i creixement econòmic sense precedents",
+                "Va estandarditzar les llengues europees, eliminant els dialectes locals i creant identitats nacionals"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Abans de la impremta, produir un llibre requeria mesos de treball de copistes monàstics. La impremta va trencar aquest monopoli: de cop, qualsevol amb accés a una impremta podia produir i distribuir idees a escala. La Reforma, la Revolució Científica i la Il·lustració van ser possibles en part perquè la impremta havia redistribuït el poder de la paraula escrita.",
+              "feedbackWrong": "L'alfabetització massiva va trigar segles, no dècades. L'impacte central va ser polític i epistèmic: la ruptura del monopoli sobre el coneixement escrit que les institucions eclesiàstiques havien tingut durant mil anys."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-tec-02-02",
+              "style": "true-false",
+              "question": "L'escriptura va ser inventada de manera independent en diverses cultures sense relació entre elles, el que suggereix que era una innovació 'inevitable' donades certes condicions socials.",
+              "correct": true,
+              "feedbackCorrect": "Cert. L'escriptura va ser inventada de manera independent almenys quatre vegades: la cuneïforme sumèria (~3400 aC), els jeroglífics egipcis (~3200 aC), els caràcters xinesos (~1200 aC) i l'escriptura maya (~300 aC). Cada sistema va emergir en societats amb agricultura intensiva, excedent alimentari i la necessitat de registrar transaccions. Suggereix que l'escriptura és la resposta 'inevitable' a determinades condicions socials més que un invent de geni únic.",
+              "feedbackWrong": "L'escriptura sí que va ser inventada de manera independent múltiples vegades, en cultures sense contacte conegut. Això suggereix que era una resposta a condicions socials específiques (complexitat administrativa, excedent) més que un accident de geni individual."
+            }
+          ]
+        },
+        {
+          "id": "tec-03",
+          "title": "La màquina de vapor i la Revolució Industrial",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1784, James Watt va patentar la seva millora de la màquina de vapor. En vint anys, les seves màquines bomben mines i fan funcionar telers. En cinquanta, transformen completament la geografia econòmica del món. La Revolució Industrial és el punt d'inflexió més brusc de la historia econòmica: en menys de cent anys, les societats agràries mil·lenàries van ser substituïdes per societats industrials i capitalistes. Cap generació anterior havia viscut un canvi tan ràpid."
+            },
+            {
+              "type": "key-idea",
+              "text": "La màquina de vapor no va ser simplement una eina nova — va ser una nova relació entre els humans i l'energia. Per primera vegada, la producció humana es va desacoblar de les limitacions del cos humà i animal. Les conseqüències — econòmiques, socials, ecològiques — van ser tan profundes que continuem vivint-les."
+            },
+            {
+              "type": "expandable",
+              "label": "El ludisme: quan els treballadors van destruir les màquines",
+              "content": "Entre 1811 i 1816, un moviment de treballadors tèxtils anglesos — els luddites — van organitzar la destrucció sistemàtica de maquinària industrial. No eren ignorants ni antitecnologia per principi: eren artesans qualificats que veien com les màquines feien obsoletes les seves habilitats i reduïen els seus salaris. El moviment va ser reprimit militarment. Avui el terme 'luddita' s'usa com a insult. Però la pregunta que plantejaven era legítima: qui s'apropia dels beneficis de la tecnologia? Si una màquina augmenta la productivitat deu vegades, qui guanya aquella productivitat addicional — el propietari de la màquina o el treballador que la màquina ha substituït?"
+            },
+            {
+              "type": "debate",
+              "question": "La Revolució Industrial va millorar o empitjorar la vida de la majoria de la gent en el curt termini?",
+              "positionA": {
+                "label": "Va millorar les condicions",
+                "argument": "La industrialització va crear ocupació massiva per a poblacions rurals sense terres. Va generar riquesa que va elevar el nivell de vida material al llarg d'unes dècades. Va permetre productes que eren inaccessibles a preus assequibles. El creixement econòmic generat va finançar eventualment la sanitat, l'educació i les infraestructures que van transformar la vida de les classes populars."
+              },
+              "positionB": {
+                "label": "Va empitjorar les condicions immediates",
+                "argument": "Les condicions de la classe treballadora industrial de principis del XIX eren en molts casos pitjors que les dels camperols preindustrials: jornades de 14-16 hores, treball infantil des dels 5 anys, habitatge insalubre, accidents industrials sense compensació. L'esperança de vida en les ciutats industrials va caure. El creixement de la riquesa global va coexistir durant dècades amb l'empobriment absolut de qui el generava."
+              },
+              "reflection": "La pregunta 'va millorar o empitjorar' depèn de qui mires, durant quant temps i qué comptabilítzes. Quin marc de referència uses?",
+              "context": "Els historiadors econòmics continuen debatent el 'pessimisme vs. optimisme' de la Revolució Industrial. L'evidència és complexa i canvia significativament en funció del país, la dècada i el sector."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-tec-03-01",
+              "style": "multiple-choice",
+              "question": "Per quina raó la Revolució Industrial va sorgir primer a Anglaterra?",
+              "options": [
+                "Perquè Anglaterra tenia els científics més avançats del món",
+                "Per la combinació de carbó accessible, sistema financer desenvolupat, protecció de patents, comerç colonial i mà d'obra disponible del camp",
+                "Perquè el protestantisme anglès promovia els valors de l'esforç i l'acumulació",
+                "Perquè Anglaterra era l'únic país que havia eliminat les restriccions feudals"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La historiografia apunta a una combinació de factors estructurals: carbó accessible i barat; un mercat financer (Banc d'Anglaterra, 1694) que permetia finançar la inversió; un sistema de patents que incentivava la innovació; l'imperi colonial que proporcionava matèries primeres i mercats; i salaris relativament alts que incentivaven la substitució del treball humà per màquines. Cap factor sol explica l'emergència industrial anglesa.",
+              "feedbackWrong": "La superioritat científica no era determinant (França tenia una tradició comparable). L'argument protestant ha estat molt criticat. La combinació de factors estructurals — carbó, finances, patents, comerç colonial, mà d'obra — és l'explicació més sòlida."
+            }
+          ]
+        },
+        {
+          "id": "tec-04",
+          "title": "L'electricitat i la comunicació: el món connectat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1844, Samuel Morse va enviar el primer missatge telegràfic entre Washington i Baltimore: 'What hath God wrought'. Era la primera vegada en la historia que la informació podia viatjar més ràpidament que el cos humà. Fins aquell moment, les notícies viatjaven a la velocitat del transport físic. De cop, un missatge podia arribar de Nova York a Londres en hores. El món va encongir-se de manera que cap generació anterior havia experimentat."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'electricitat va transformar el segle XIX-XX en dos sentits simultanis: com a força motriu (motors elèctrics) i com a vehicle de la informació (telègraf, telèfon, ràdio, televisió). La seva combinació va crear per primera vegada la possibilitat d'una comunicació global en temps real."
+            },
+            {
+              "type": "expandable",
+              "label": "Tesla vs. Edison: la guerra dels corrents i el que oculta",
+              "content": "La 'guerra dels corrents' (anys 1880-90) entre Thomas Edison (corrent continu, DC) i Nikola Tesla/George Westinghouse (corrent altern, AC) és un dels episodis més contats de la historia de la tecnologia. Edison va electrocutar elefants públicament per demostrar que el corrent altern era perillós. Tesla va guanyar: el corrent altern és el que alimenta avui totes les llars. Però la historia omiteix quelcom: la 'guerra dels corrents' no era principalment sobre física sinó sobre patents i qui controlaria la distribució de l'electricitat. Tesla va morir sol i sense diners tot i ser l'inventor de moltes de les tecnologies que van fer ric Edison. La historia de la tecnologia és inseparable de la historia de qui en controla els beneficis."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-tec-04-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser l'impacte del telègraf en la percepció humana del temps i l'espai?",
+              "options": [
+                "Va crear per primera vegada la necessitat de zones horàries estandarditzades, ja que fins aleshores cada ciutat tenia el seu propi temps solar local",
+                "Va permetre la sincronització dels rellotges de ferrocarril, l'única aplicació pràctica rellevant",
+                "Va fer possible la transmissió de veu en temps real, precedint el telèfon en deu anys",
+                "Va demostrar que la informació podia viatjar sense suport físic, inspirant directament Maxwell"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. Abans del telègraf, cada ciutat usava el seu propi temps solar local. Quan el ferrocarril i el telègraf van connectar ciutats distants en temps real, la diversitat de temps locals va crear caos en els horaris. El resultat va ser l'establiment de zones horàries estandarditzades (EUA, 1883; internacionalment, 1884). El telègraf va forçar literalment la humanitat a sincronitzar el temps.",
+              "feedbackWrong": "El telègraf no transmetia veu. La inspiració de Maxwell venia de la física, no directament del telègraf. El seu impacte clau va ser crear la necessitat d'estandarditzar el temps: quan pots enviar un missatge instantàniament entre dues ciutats, el fet que tinguin temps locals lleugerament diferents es torna un problema pràctic urgent."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història del Rock",
+              "moduleEmoji": "🎸",
+              "concept": "La ràdio i la difusió massiva de la música popular",
+              "text": "Al mòdul d'Història del Rock vam veure com el blues afroamericà va arribar als joves britànics a través dels discos de vinil. Però la ràdio va ser el primer canal de difusió massiva. La tecnologia de la ràdio (Marconi, 1895; primera emissió comercial, 1920) va fer possible que una peça musical s'escoltés simultàniament per milions de persones. Sense la ràdio, el jazz, el blues i el rock and roll no haurien pogut crear els mercats massius que van canviar la cultura del segle XX."
+            }
+          ]
+        },
+        {
+          "id": "tec-05",
+          "title": "L'ordinador i Internet: la tercera revolució",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1969, ARPANET va enviar el primer missatge entre dos ordinadors — de la UCLA a Stanford. El missatge era 'lo' (el sistema va caure després de les dues primeres lletres de 'login'). Era el principi d'Internet. Trenta anys després, la meitat de la humanitat estava connectada. Cinquanta anys després, Internet era la infraestructura bàsica del comerç, la política, la cultura i la comunicació globals. Cap tecnologia en la historia ha assolit una escala global tan ràpidament."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'ordinador i Internet son la tercera gran revolució tecnològica (després de l'agricultura i la industrialització) perquè externalitzen funcions cognitives: memòria, càlcul, comunicació, cerca. Per primera vegada, la tecnologia entra en el territori que fins ara era exclusivament humà: el pensament."
+            },
+            {
+              "type": "expandable",
+              "label": "Ada Lovelace: la computació un segle avançada",
+              "content": "El 1843, Ada Lovelace — filla de Lord Byron, matemàtica autodidacta — va publicar notes sobre la 'Màquina Analítica' de Charles Babbage que contenien el primer algoritme de la historia. Lovelace va veure el que Babbage no havia vist: que aquella màquina no era simplement una calculadora sinó un dispositiu de propòsit general que podia manipular qualsevol símbol. Va escriure: 'La màquina analítica no té cap pretensió d'originar res. Pot fer el que sabem com dir-li que faci'. Un segle abans que Turing, Lovelace va formular tant les possibilitats com els límits de la computació."
+            },
+            {
+              "type": "misconception",
+              "belief": "Tim Berners-Lee va inventar Internet.",
+              "reality": "Tim Berners-Lee va inventar la World Wide Web (1991) — el sistema d'hipertext que permet navegar per pàgines web. Internet (la xarxa de xarxes que connecta ordinadors) existia des dels anys 70 com a ARPANET. La Web és una aplicació que funciona sobre Internet, no Internet mateixa. Berners-Lee va crear una interfície que va fer Internet accessible a persones no tècniques — i en aquest sentit sí que va transformar-la de manera fonamental.",
+              "why": "La confusió és comprensible perquè per a la majoria d'usuaris 'Internet' i 'web' son la mateixa experiència. Però la distinció és important per entendre com funciona la infraestructura i qui la controla."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-tec-05-01",
+              "style": "multiple-choice",
+              "question": "Internet va ser inicialment finançada per ARPA (Departament de Defensa dels EUA). Com es reconcilia aquest origen militar amb el seu caràcter actual com a infraestructura civil global?",
+              "options": [
+                "No es reconcilia: Internet continua essent una infraestructura militar americana disfressada de xarxa civil",
+                "L'origen militar va donar a Internet un disseny descentralitzat i robust que resultà ideal per a usos civils, però els usos actuals son producte d'actors civils que van adoptar i transformar la tecnologia",
+                "Internet va ser completament redissenyada per actors civils als anys 90 i no té cap continuïtat tècnica amb ARPANET",
+                "L'origen militar explica per qué es va desenvolupar primer als EUA, però el seu disseny sempre va estar orientat a usos civils"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. ARPANET va ser dissenyada per ser una xarxa descentralitzada i resistent — una propietat útil en un context de guerra nuclear però igualment valuosa per a una xarxa civil. La transició va implicar decisions tècniques (TCP/IP, 1983), institucionals (obertura civil, 1991) i culturals (la Web de Berners-Lee, 1991). La tecnologia va ser adoptada i radicalment transformada per actors civils — però les decisions de disseny originals van continuar tenint efectes.",
+              "feedbackWrong": "Internet sí que té continuïtat tècnica amb ARPANET. Però no és simplement una xarxa militar: els actors civils van transformar-la de maneres que els seus creadors militars no van preveure ni controlar."
+            }
+          ]
+        },
+        {
+          "id": "tec-06",
+          "title": "La tecnologia i el medi ambient: el preu del progrés",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1950, la concentració de CO₂ atmosfèric era de 310 ppm — ja per sobre dels 280 ppm preindustrials. El 2023, és de 424 ppm. En set dècades, la tecnologia industrial ha canviat la composició de l'atmosfera de manera que no té precedent en els últims 800.000 anys. No és la primera vegada que la tecnologia humana afecta el medi ambient — la deforestació neolítica, la caça dels megafauna pleistocens. Però mai a aquesta escala ni a aquesta velocitat."
+            },
+            {
+              "type": "key-idea",
+              "text": "Tota tecnologia té un cost ecològic. La pregunta no és si la tecnologia afecta el medi ambient sinó en quina mesura, sobre qui recau aquell cost i si la tecnologia pot generar les solucions als problemes que ha creat. L'Antropocè és la conseqüència de dues revolucions tecnològiques: l'agricultura i la industrialització."
+            },
+            {
+              "type": "expandable",
+              "label": "El DDT i Rachel Carson: quan la ciència va denunciar la ciència",
+              "content": "El DDT va ser presentat als anys 40-50 com un miracle: eliminava mosquits portadors de malària i plagues agrícoles. Paul Müller va rebre el Nobel el 1948. El 1962, Rachel Carson va publicar 'Primavera Silenciosa': un llibre que mostrava que el DDT s'acumulava en la cadena tròfica i causava la mort massiva d'ocells i altres espècies. Va ser atacada brutalment per la indústria química i per científics que la van acusar de ser una histèrica sense credencials (era zoòloga, no química). Va tenir raó. El DDT va ser prohibit als EUA el 1972. 'Primavera Silenciosa' va iniciar el moviment ecologista modern."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-tec-06-01",
+              "style": "multiple-choice",
+              "question": "Qué és el concepte d''Antropocè'?",
+              "options": [
+                "L'era en que els humans han creat tecnologia suficient per abandonar la Terra",
+                "L'era geològica en que l'activitat humana ha esdevingut la força dominant que modela els sistemes físics, químics i biològics de la Terra",
+                "El període en que la població humana ha superat la capacitat de càrrega sostenible del planeta",
+                "L'era en que la tecnologia digital ha creat una 'segona natura' virtual"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'Antropocè (terme proposat pel químic Paul Crutzen el 2000) descriu l'era geològica en que l'activitat humana — deforestació, canvi climàtic, extinció massiva, contaminació dels oceans — ha tingut un impacte comparable o superior a les forces geològiques naturals. L'any d'inici és debatut: alguns proposen el 1950 (inici de la 'gran acceleració'); altres, la Revolució Industrial.",
+              "feedbackWrong": "L'Antropocè no és sobre colonització espacial ni sobre digitalització. És sobre l'impacte de l'activitat humana en els sistemes físics i biològics de la Terra a escala geològica: canvi climàtic, extinció massiva, alteració dels cicles biogeoquímics."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-tec-06-01",
+              "question": "Creus que la tecnologia que ha creat els problemes ecològics actuals pot ser la mateixa via per resoldre'ls?",
+              "options": [
+                "Sí: les energies renovables, la captura de carboni i les tecnologies verdes poden resoldre els problemes sense canvis en el sistema econòmic",
+                "No: els problemes ecològics son el resultat del creixement il·limitat inherent al capitalisme industrial, i cap tecnologia pot resoldre'ls sense canviar el sistema",
+                "Parcialment: la tecnologia és necessària però no suficient — sense canvis en els patrons de consum, la distribució del poder i els incentius econòmics, les tecnologies verdes no s'implantaran a l'escala i velocitat necessàries"
+              ],
+              "correct": 2,
+              "explanation": "Les tecnologies verdes (solar, eòlica, bateries) han demostrat ser viables i en molts casos ja competitives en cost. Però la seva adopció enfronta obstacles que no son tecnològics: interessos de la indústria dels combustibles fòssils, subvencions que afavoreixen el sistema existent, manca de finançament per a la transició en països empobrits, i la lentitud dels processos polítics. L'argument 'tecnofixació' ha demostrat ser insuficient: la eficiència energètica ha millorat des dels anys 70 però el consum total d'energia ha continuat creixent (Paradoxa de Jevons). La solució requereix tecnologia + política + canvi cultural simultàniament."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech-poder",
+      "title": "Tecnologia, Poder i Societat",
+      "icon": "🌐",
+      "description": "Qui controla la tecnologia, qui en paga el preu i qui en decideix el futur",
+      "style": "Temàtic · tecnologia, desigualtat i democràcia",
+      "lessons": [
+        {
+          "id": "pod-01",
+          "title": "La tecnologia de la medicina: salvar vides, distribuir-les desigualment",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1854, John Snow va cartografiar els casos de còlera a Londres i va traçar-los fins a una bomba d'aigua al carrer Broad Street. Sense microscopi, sense bacteriologia, va identificar la font de l'epidèmia per raonament epidemiològic. Va ser el naixement de la salut pública moderna. La lliçó que va donar — que les malalties tenen causes ambientals i socials, no simplement biològiques individuals — continua essent la més important i la menys seguida de la medicina moderna."
+            },
+            {
+              "type": "key-idea",
+              "text": "La medicina moderna ha produït les millores en l'esperança de vida més grans de la historia humana. Però els seus beneficis es distribueixen de manera profundament desigual: la geografia, la classe social i la raça determinen a quina medicina tens accés. La tecnologia mèdica no és neutral — és un mirall de les desigualtats socials que no pot resoldre sola."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1796",
+                  "title": "Jenner — primera vacuna",
+                  "text": "Vacuna contra la verola. Inici de la immunologia preventiva."
+                },
+                {
+                  "year": "1854",
+                  "title": "Snow — epidemiologia moderna",
+                  "text": "Mapa del còlera de Londres. Naixement de la salut pública basada en dades."
+                },
+                {
+                  "year": "1928",
+                  "title": "Fleming — penicil·lina",
+                  "text": "Per accident. Els antibiòtics salvarien centenars de milions de vides."
+                },
+                {
+                  "year": "1953",
+                  "title": "Doble hèlix de l'ADN",
+                  "text": "Fonament de la biologia molecular. Via cap a la medicina genètica."
+                },
+                {
+                  "year": "2020",
+                  "title": "Vacunes ARNm contra la COVID-19",
+                  "text": "Desenvolupades en menys d'un any. La velocitat de la biotecnologia moderna."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "La resistència antimicrobiana: la propera pandèmia silenciosa",
+              "content": "Alexander Fleming va descobrir la penicil·lina el 1928 per accident. L'ús massiu i freqüentment innecessari d'antibiòtics en medicina humana i, especialment, en ramaderia industrial, ha accelerat l'evolució de bacteris resistents. L'OMS estima que, sense acció, les infeccions resistents als antibiòtics podrien matar 10 milions de persones anuals el 2050 — més que el càncer avui. La resistència antimicrobiana no és un problema tecnològic (els antibiòtics existents podrien durar més amb bon ús) sinó un problema de governança i incentius: les empreses farmacèutiques tenen poc incentiu per développar nous antibiòtics (s'usen poc per preservar-ne l'eficàcia) i molt per vendre els actuals sense restriccions."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-pod-01-01",
+              "style": "multiple-choice",
+              "question": "Durant la pandèmia de COVID-19, els països de renda alta van vacunar el 70% de la seva població mentre els de renda baixa vacunaven menys del 10% al final de 2021. Quin mecanisme principal va causar aquesta desigualtat?",
+              "options": [
+                "La manca de capacitat logística dels països pobres per refrigerar i distribuir les vacunes",
+                "Els acords de compra anticipada bilaterals entre governs rics i fabricants de vacunes, que van garantir el subministrament per als rics abans que cap dosi estigués disponible per als pobres",
+                "La decisió de l'OMS de prioritzar els països on la mortalitat per COVID era major",
+                "La negativa dels governs de renda baixa a pagar els preus de mercat"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Els governs dels EUA, la UE i el Regne Unit van signar acords de compra anticipada amb Pfizer, Moderna i AstraZeneca mesos abans que les vacunes estiguessin aprovades — garantint-se el subministrament prioritari. Quan les vacunes van estar disponibles, la capacitat de producció estava pràcticament compromesa amb els països rics. El mecanisme COVAX va quedar sistemàticament subordinat als acords bilaterals. La desigualtat no va ser un accident del sistema — va ser el seu resultat previsible.",
+              "feedbackWrong": "La logística era un factor, però no el principal. Els acords de compra anticipada bilaterals van crear la desigualtat estructural: els governs rics van pagar per avançat per garantir-se l'accés exclusiu. Va ser una decisió política i econòmica, no una limitació logística."
+            },
+            {
+              "type": "debate",
+              "question": "Les patents farmacèutiques son necessàries per incentivar la innovació mèdica, o son una barrera injusta a l'accés a la salut?",
+              "positionA": {
+                "label": "Les patents son necessàries",
+                "argument": "Desenvolupar un nou medicament costa entre 1.000 i 2.500 milions de dòlars i deu-quinze anys. Sense la garantia de recuperar aquella inversió mitjançant l'exclusivitat comercial, les empreses no tindrien incentius. Les patents duren 20 anys i permeten l'entrada de genèrics un cop expirades. L'alternativa — investigació exclusivament pública — no ha demostrat ser suficientment productiva per reemplaçar la innovació privada."
+              },
+              "positionB": {
+                "label": "Les patents son una barrera injusta",
+                "argument": "La major part de la recerca bàsica que fa possible els nous medicaments és finançada públicament (universitats, NIH). Les empreses inverteixen principalment en les fases finals i en màrqueting. La patent converteix un bé produït parcialment amb diners públics en un monopoli privat. Les conseqüències: preus inaccessibles per a la majoria del món i prioritat per a malalties de rics sobre malalties de pobres."
+              },
+              "reflection": "Les vacunes de la COVID van ser desenvolupades amb finançament públic massiu. Hauria hagut de ser diferent la seva distribució?",
+              "context": "Índia i Sud-àfrica van proposar una suspensió temporal de les patents de les vacunes a l'OMC el 2020. La proposta va ser bloquejada pels EUA, la UE i el Regne Unit. El 2022, un acord limitat es va assolir."
+            }
+          ]
+        },
+        {
+          "id": "pod-02",
+          "title": "Les plataformes digitals: el nou poder privat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2023, Meta tenia 3.900 milions d'usuaris mensuals actius — més de la meitat de la humanitat. Google processava 8.500 milions de cerques diàries. Amazon tenia el 38% del comerç electrònic americà. Tres empreses privades controlaven una porció de la comunicació, la informació i el comerç globals sense precedent. Cap govern democràtic havia acumulat mai un poder comparable sobre la vida quotidiana de tanta gent."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les plataformes digitals han creat una nova forma de poder privat: el control de les infraestructures de comunicació que milers de milions de persones usen diàriament. Aquest poder no va ser escollit democràticament, no és regulat de manera equivalent al seu impacte, i opera amb una opacitat que cap institució pública comparable hauria de poder tenir."
+            },
+            {
+              "type": "expandable",
+              "label": "L'economia de l'atenció: per qué el teu cervell és el producte",
+              "content": "Les plataformes digitals gratuïtes no son gratuïtes: el producte que venen als anunciants és l'atenció dels usuaris. Per maximitzar-la, els algorismes optimitzen per al contingut que genera la major resposta emocional — que sovint és contingut outraged, polaritzant o sensacionalista. Frances Haugen va revelar el 2021 que Facebook sabia que Instagram perjudicava la salut mental de les adolescents però va prioritzar el creixement. La investigació de Tristan Harris documenta com les tècniques de disseny persuasiu (notificacions, scroll infinit, likes) estan deliberadament dissenyades per crear hàbits de dependència similars als que estudia la psicologia de l'addicció."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Neurociència Bàsica",
+              "moduleEmoji": "🧠",
+              "concept": "El disseny persuasiu i el sistema dopaminèrgic",
+              "text": "Al mòdul de Neurociència vam veure que la dopamina no és el neurotransmissor del plaer sinó de l'anticipació i la recerca. Les notificacions de les xarxes socials funcionen exactament sobre aquest mecanisme: creen una expectativa de recompensa variable (potser hi ha un like, potser no) que el sistema dopaminèrgic processa de la mateixa manera que una màquina escurabutxaques. Les recompenses variables i imprevisibles son les més potents per crear hàbits — i els dissenyadors de plataformes ho saben i ho utilitzen deliberadament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-pod-02-01",
+              "style": "multiple-choice",
+              "question": "Qué és el model de negoci de les plataformes digitals gratuïtes com Google i Facebook?",
+              "options": [
+                "Son gratuïtes per raons altruistes: els seus fundadors creuen en l'accés universal a la informació",
+                "Venen l'atenció dels usuaris als anunciants: l'usuari no és el client sinó el producte, i el disseny optimitza per a maximitzar el temps d'ús",
+                "Son gratuïtes perquè el cost marginal de servir un usuari addicional és pràcticament zero",
+                "Es financen per subscripcions premium que subsidien l'accés gratuït per a la majoria"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El model és publicitat basada en dades: les plataformes recullen dades massives sobre el comportament dels usuaris i les venen als anunciants per permetre publicitat hipersegmentada. L'usuari no paga amb diners sinó amb dades i atenció. El disseny no optimitza per al benestar de l'usuari sinó per al temps d'ús. Jaron Lanier va resumir-ho: 'Si el producte és gratuït, el producte ets tu'.",
+              "feedbackWrong": "Les plataformes no son altruistes ni son simplement economies d'escala. El seu model és vendre l'atenció dels usuaris als anunciants — el que requereix maximitzar el temps que els usuaris hi passen."
+            }
+          ]
+        },
+        {
+          "id": "pod-03",
+          "title": "Automatització i treball: qui guanya quan les màquines treballen",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2013, dos economistes d'Oxford van estimar que el 47% dels treballs americans estaven en risc alt d'automatització. L'estudi va generar onades d'alarma. Deu anys després, l'atur americà estava en mínims històrics. Qui tenia raó? Potser tots dos: les màquines han eliminat molts treballs i n'han creat d'altres, però la distribució de guanys i pèrdues no ha estat equitativa. Com sempre en la historia de la tecnologia."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'automatització no és nova — ha estat una força constant de la historia econòmica. El que canvia amb la IA i la robòtica actual és el tipus de treballs afectats: per primera vegada, la substitució s'estén als treballs cognitius rutinaris i, potencialment, a moltes formes de treball creatiu i professional."
+            },
+            {
+              "type": "expandable",
+              "label": "La Paradoxa de Moravec: per qué els robots fan bé el que els humans fan malament",
+              "content": "Hans Moravec va observar als anys 80 quelcom contraintuïtiu: les tasques que els humans troben fàcils (caminar, reconèixer cares) son extraordinàriament difícils per als robots, mentre que les tasques que els humans troben difícils (càlcul matemàtic, diagnosi mèdica per imatge) son relativament fàcils per als ordinadors. La raó és evolutiva: les capacitats 'fàcils' son el resultat de centenars de milions d'anys d'evolució. Les capacitats 'difícils' son recents i no estan biològicament optimitzades. La paradoxa implica que l'automatització no substitueix els treballs 'menys qualificats' primer: substitueix els més formalitzables. Per això un radiòleg pot ser automatitzat abans que un llanter."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-pod-03-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el resultat de la mecanització agrícola del segle XX — un paral·lel históric rellevant per entendre l'automatització actual?",
+              "options": [
+                "Va generar desocupació permanent massiva que els governs van haver de gestionar amb programes de renda bàsica",
+                "Va eliminar treball agrícola però va generar desplaçament cap a nous sectors, creant treball net a llarg termini però amb costos importants per a les generacions afectades",
+                "Va demostrar que la tecnologia sempre crea més treball del que destrueix, sense costos de transició significatius",
+                "Va ser parcialment revertida per moviments polítics que van aconseguir preservar el treball manual en l'agricultura"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La mecanització agrícola va eliminar milers de treballs i va generar desplaçament massiu de treballadors. El resultat no va ser desocupació permanent sinó migració cap a nous sectors (manufactura, serveis) i creació neta de llocs de treball amb el temps. Però el procés va ser dolorós per a les generacions afectades, i els nous treballs no eren necessàriament accessibles sense reentrenament. Aquesta és l'estructura que es repeteix: la tecnologia crea neta de treball a llarg termini però destrueix treball específic a curt termini.",
+              "feedbackWrong": "El resultat va ser creació neta de treball a llarg termini, però el procés va ser dolorós: el desplaçament va ser real i els costos de transició van recaure sobre els treballadors directament afectats. Ni desocupació permanent ni transició sense costos."
+            },
+            {
+              "type": "debate",
+              "question": "Si la IA i la robòtica automatitzen una part significant del treball, la renda bàsica universal (RBU) és una resposta política adequada?",
+              "positionA": {
+                "label": "La RBU és necessària",
+                "argument": "Si la tecnologia augmenta la productivitat però concentra els guanys en els propietaris del capital, cal un mecanisme que desacobli els ingressos del treball assalariat. La RBU assegura la supervivència de tots, permet als humans dedicar-se a activitats no automatitzables (cura, creació, comunitat) i dona poder de negociació als treballadors. Els pilots a Finlàndia, Kenya i Stockton mostren resultats positius."
+              },
+              "positionB": {
+                "label": "La RBU és insuficient o contraproduent",
+                "argument": "La RBU pot ser usada com a pretext per desmantellar els serveis públics existents substituint-los per una transferència monetària insuficient. No resol el problema del significat i la identitat que proporciona el treball. I potser l'automatització no eliminarà tant treball com es tem: la historia mostra que cada revolució tecnológica ha creat nous treballs imprevisibles."
+              },
+              "reflection": "La pregunta del treball és una pregunta sobre la dignitat i el significat, no només sobre els ingressos. Qué et donaria a tu el treball si no fos necessari per sobreviure?",
+              "context": "El debat sobre la RBU és actiu en economia política i filosofia. L'evidència dels pilots existents és positiva però limitada en escala i durada."
+            }
+          ]
+        },
+        {
+          "id": "pod-04",
+          "title": "Tecnologies de la vigilància: el panòptic digital",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1787, Jeremy Bentham va dissenyar el Panòptic: una presó circular on un vigilant central podia observar tots els presos sense ser vist. L'efecte buscant era la interiorització de la vigilància: els presos havien de comportar-se com si fossin observats en tot moment. El 2013, Edward Snowden va revelar que la NSA americana vigilava les comunicacions de centenars de milions de persones arreu del món. El panòptic de Bentham havia esdevingut global i digital."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les tecnologies digitals han creat capacitats de vigilància sense precedent: reconeixement facial en temps real, anàlisi de metadades, perfils de comportament. Aquestes capacitats son usades tant per estats autoritaris per reprimir dissidents com per empreses democràtiques per maximitzar ingressos publicitaris. La diferència de grau és enorme; la diferència de principi, menys."
+            },
+            {
+              "type": "expandable",
+              "label": "El crèdit social xinès: quan la vigilància es converteix en govern",
+              "content": "El Sistema de Crèdit Social de la Xina (sovint mal descrit als mitjans occidentals) és un conjunt de sistemes — alguns governamentals, molts privats — que assignen puntuacions basades en el comportament. Les baixes puntuacions poden restringir l'accés a viatges, préstecs o educació. La versió més extrema — un sistema centralitzat i omniscient — no existeix exactament com es descriu popularment, però els components existeixen. La qüestió que planteja és universal: fins a quin punt les societats democràtiques estan ja usant dades per a la 'governança conductual' sense trucar-ho 'crèdit social'?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-pod-04-01",
+              "style": "multiple-choice",
+              "question": "El reconeixement facial en espais públics genera preocupació de drets humans. Quina és la preocupació central?",
+              "options": [
+                "Que el reconeixement facial és poc precís i pot identificar erròniament persones innocents",
+                "Que permet la vigilància massiva i el seguiment de persones sense supervisió democràtica, amenaçant la llibertat d'associació i expressió",
+                "Que la tecnologia és cara i els recursos haurien de dedicar-se a policia de proximitat",
+                "Que la privadesa de les dades biomètriques pot ser vulnerada per hackers"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La preocupació central no és simplement la precisió sinó la capacitat de vigilància massiva que crea: si saps que la teva cara pot ser reconeguda en qualsevol espai públic, la teva llibertat de moviment, expressió i associació queda implícitament restringida — fins i tot si mai ets interrogat. L'efecte fred sobre la llibertat és el problema estructural.",
+              "feedbackWrong": "La precisió és una preocupació real però secundària. El problema principal és estructural: la possibilitat de vigilància massiva i contínua que pot condicionar la llibertat d'expressió i associació de tota la població."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Pau, Conflicte i Guerra",
+              "moduleEmoji": "🕊️",
+              "concept": "La vigilància com a eina de control social",
+              "text": "Al mòdul de Pau, Conflicte i Guerra vam veure com els règims autoritaris usen el control de la informació com a instrument de dominació. Les tecnologies de vigilància digital amplien exponencialment aquesta capacitat: permeten identificar, seguir i anticipar el comportament de dissidents amb una precisió que els règims del segle XX no podien ni imaginar. Però la mateixa tecnologia és usada per governs democràtics en nom de la seguretat. La frontera entre seguretat legítima i control social il·legítim és un dels debats polítics més urgents del nostre temps."
+            }
+          ]
+        },
+        {
+          "id": "pod-05",
+          "title": "Tecnologies verdes: la transició energètica com a projecte polític",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2022, per primera vegada en la historia, la capacitat de generació elèctrica renovable (solar + eòlica) instal·lada globalment va superar la de les centrals de carbó. El cost de la solar fotovoltaica havia caigut un 99% des del 1976. Una tecnologia que el 2000 era un luxe per a satèl·lits s'havia convertit en la font d'electricitat més barata de la historia. La transició energètica havia deixat de ser una qüestió de valors per convertir-se en una qüestió d'economia."
+            },
+            {
+              "type": "key-idea",
+              "text": "La transició energètica és el projecte tecnològic, econòmic i polític més gran de la historia humana: substituir en poques dècades el sistema energètic basat en combustibles fòssils que ha alimentat la civilització industrial per dos segles. Les tecnologies existeixen. Els obstacles son polítics, econòmics i de justícia distributiva — no tecnològics."
+            },
+            {
+              "type": "expandable",
+              "label": "El cobalt del Congo i la justícia de la transició",
+              "content": "Les bateries de liti que fan possibles els cotxes elèctrics necessiten cobalt. El 70% del cobalt mundial prové de la República Democràtica del Congo. La meitat del cobalt congolès prové de mines artesanals on treballen, segons Global Witness, fins a 40.000 nens. La transició energètica que ha de salvar el planeta per als fills dels consumidors de cotxes elèctrics es construeix parcialment sobre el treball infantil dels fills dels miners del Congo. Una transició justa hauria de ser una condició, no un objectiu secundari."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-pod-05-01",
+              "style": "multiple-choice",
+              "question": "Si les tecnologies renovables son ja més barates que els combustibles fòssils, per qué la transició energètica no s'accelera automàticament per la lògica del mercat?",
+              "options": [
+                "Perquè les empreses energètiques no conèixen les dades de costos reals i continuen invertint en fòssils per inèrcia",
+                "Perquè els mercats energètics estan distorsionats per subvencions als fòssils, actius existents, contractes a llarg termini i poder polític de la indústria establerta",
+                "Perquè les renovables no poden proporcionar energia de base fiable sense una combinació amb fòssils",
+                "Perquè la demanda d'energia continua creixent i les renovables no escalen suficientment ràpid"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Els mercats energètics no funcionen com a mercats perfectament competitius: els combustibles fòssils reben subvencions globals de 5,9 bilions de dòlars anuals (FMI, 2022, incloent costos externs). Les centrals existents estan amortitzades i generen electricitat a cost marginal baix. Les xarxes de distribució estan dissenyades per a la generació centralitzada. I les empreses del sector fòssil tenen recursos per influir en les regulacions. La transició lenta no és un problema tecnològic — és un problema de poder i incentius econòmics.",
+              "feedbackWrong": "La resposta sobre la fiabilitat ha quedat superada: l'emmagatzematge en bateries i les xarxes intel·ligents permeten sistemes majoritàriament renovables. La transició lenta és principalment un problema de poder polític i incentius econòmics, no de capacitat tecnològica."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-pod-05-01",
+              "question": "La corba d'aprenentatge de la solar fotovoltaica ha reduït el cost un 99% des del 1976. Quin mecanisme principal explica aquesta caiguda?",
+              "options": [
+                "El descobriment de nous jaciments de silici que han reduït el cost de la matèria primera",
+                "Les subvencions governamentals massives que han subsidiat la producció solar durant dècades",
+                "L'aprenentatge acumulat i les economies d'escala: cada duplicació de la producció global ha reduït el cost unitari un ~20%, i la producció s'ha multiplicat per milions",
+                "Les millores en l'eficiència de conversió dels panells, del 5% al 25% en cinquanta anys"
+              ],
+              "correct": 2,
+              "explanation": "La caiguda del cost de la solar fotovoltaica és el millor exemple contemporani de la corba d'aprenentatge tecnològic (llei de Wright): cada duplicació de la capacitat global instal·lada ha reduït el cost un ~20%. Quan la producció es multiplica per milions, l'efecte acumulat és una reducció del 99%. Les millores en eficiència i les subvencions han contribuït, però el motor principal és l'aprenentatge industrial acumulat — millorar els processos de fabricació a mesura que la indústria creix. La implicació important: la solar continuarà baixant de cost mentre la producció creixi."
+            }
+          ]
+        },
+        {
+          "id": "pod-06",
+          "title": "Tecnologia i democràcia: el doble tall",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La Primavera Àrab (2010-12) va generar la narrativa de les 'revolucions de Twitter': moviments populars que usaven les xarxes socials per organitzar-se contra règims autoritaris. Era una narrativa atractiva. Deu anys després, les mateixes plataformes van ser usades per coordinar l'assalt al Capitoli americà, difondre desinformació sobre vacunes i organitzar neteges ètniques a Myanmar. La tecnologia no tenia bàndol. El mateix canal que organitzava la resistència organitzava el poder."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les tecnologies digitals han ampliat tant les possibilitats de la democràcia (accés a la informació, organització política, escrutini del poder) com les amenaces (desinformació, polarització algorítmica, vigilància, manipulació electoral). La tecnologia no és democràtica ni autoritària per naturalesa — és una infraestructura que amplifica les forces socials i polítiques que la usen."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-pod-06-01",
+              "style": "multiple-choice",
+              "question": "Qué va mostrar l'experiment de Facebook sobre el contagi emocional publicat a PNAS el 2014?",
+              "options": [
+                "Que els usuaris de Facebook mostraven major felicitat que els no-usuaris",
+                "Que Facebook podia modificar l'estat emocional de 700.000 usuaris manipulant el contingut del seu fil sense el seu coneixement ni consentiment",
+                "Que el contingut emocional es difon més ràpidament que el racional a les xarxes socials",
+                "Que els usuaris podien detectar quan el seu fil havia estat manipulat"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Facebook va modificar el contingut del fil de 700.000 usuaris — alguns veient contingut positiu, d'altres negatiu — per veure si afectava el seu estat emocional. Va funcionar: el contagi emocional era real. L'experiment era èticament problemàtic perquè va manipular deliberadament l'estat emocional de centenars de milers de persones sense el seu consentiment. Va demostrar que Facebook tenia la capacitat i la voluntat de manipular emocions a escala.",
+              "feedbackWrong": "L'experiment va demostrar que Facebook podia i volia manipular l'estat emocional dels usuaris sense el seu consentiment. El problema ètic era la manipulació deliberada a gran escala sense transparència."
+            },
+            {
+              "type": "debate",
+              "question": "Les plataformes digitals haurien de ser regulades com a serveis públics d'infraestructura o com a empreses privades de comunicació?",
+              "positionA": {
+                "label": "Regulació com a infraestructura",
+                "argument": "Quan el 60% de la humanitat obté informació principalment a través de Facebook o Google, aquestes plataformes son infraestructura de facto. Com l'electricitat o el telèfon, son massa essencials per ser deixades a la pura lògica del mercat. La regulació implicaria: obligació de servei universal, transparència algorítmica, separació de la gestió de la infraestructura i el contingut, i supervisió democràtica."
+              },
+              "positionB": {
+                "label": "Regulació com a empresa de comunicació",
+                "argument": "Regular plataformes com a serveis públics implicaria intervenció estatal en el contingut incompatible amb la llibertat d'expressió. Les plataformes son actors privats de comunicació com els diaris — poden ser regulades pels seus efectes (competència, privadesa) però no nationalitzades ni sotmeses a control de contingut estatal."
+              },
+              "reflection": "La regulació de les plataformes és una de les qüestions polítiques més urgents i menys resoltes del segle XXI. Quin model trobes més convincent?",
+              "context": "La UE (Acta de Serveis Digitals, 2022) ha adoptat un model de regulació per danys. Els EUA estan en debat permanent. La Xina regula les plataformes com a instruments de control estatal. Cap model ha demostrat ser completament satisfactori."
+            },
+            {
+              "type": "reflection",
+              "question": "Has recorregut la historia de la tecnologia des de les primeres eines de pedra fins a les plataformes digitals. Quina tecnologia creus que ha tingut l'impacte més transformador en les relacions de poder? I quina tecnologia actual et sembla que té el potencial de canviar més profundament el món en les properes dècades?",
+              "prompt": "Les dues preguntes son obertes. Però tenir-ne una resposta pròpia és el primer pas per participar en les decisions sobre el futur tecnològic."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
