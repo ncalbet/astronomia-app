@@ -1,0 +1,744 @@
+{
+  "id": "module-14-revolucio-francesa",
+  "title": "La Revolució Francesa",
+  "emoji": "🗽",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "rf-idees",
+      "title": "La Batalla de les Idees",
+      "icon": "📜",
+      "description": "Les idees que van fer possible la Revolució — i les que va generar",
+      "style": "Conceptual · de la Il·lustració al liberalisme modern",
+      "lessons": [
+        {
+          "id": "rf-01",
+          "title": "La Il·lustració: les idees que van armar la Revolució",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1748, el baró de Montesquieu va publicar 'L'Esperit de les Lleis'. El 1762, Jean-Jacques Rousseau va publicar 'El Contracte Social'. El 1762 mateix, Voltaire va defensar públicament Calas, un protestant executat injustament. El 1776, els EUA van declarar la independència citant Locke. Dues dècades de filosofia política van crear un vocabulari nou — llibertat, igualtat, sobirania popular, drets naturals — que el 1789 va deixar de ser filosofia i va passar a ser política. Les idees van precedir la Revolució en quaranta anys. La Revolució va ser, en part, la il·lustració fent-se política real."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Il·lustració no va causar la Revolució Francesa en el sentit mecànic. Però va crear el vocabulari amb el qual els revolucionaris van pensar, justificar i debatre el que feien. Sense Locke, Rousseau i Montesquieu, la Revolució hauria pogut ser una revolta; amb ells, va tenir la pretensió de ser una refundació."
+            },
+            {
+              "type": "expandable",
+              "label": "Locke, Rousseau i Montesquieu: tres idees que van canviar la política",
+              "content": "John Locke (1689) va proposar que el poder polític deriva del consentiment dels governats i que els individus tenen drets naturals (vida, llibertat, propietat) que cap govern pot alienar legítimament. Si el govern viola aquests drets, el poble té dret a la rebel·lió. Rousseau (1762) va radicalitzar la idea: la sobirania pertany al poble de manera inalienable i no pot ser delegada de manera permanent. La 'voluntat general' no és la suma de voluntats individuals sinó el bé comú que la ciutadania ha de descobrir col·lectivament. Montesquieu (1748) va analitzar les formes de govern i va proposar la separació de poders (executiu, legislatiu, judicial) com a garantia de la llibertat. Els tres van ser citats i debatuts a l'Assemblea Nacional de 1789. Però les seves idees eren sovint contradictòries entre elles — i aquelles contradiccions es van convertir en les fractures de la Revolució."
+            },
+            {
+              "type": "prediction",
+              "question": "Si el poder polític deriva del consentiment del poble (Locke) i la sobirania és inalienable (Rousseau), qué passa quan el poble no és d'acord amb ell mateix? Qui decideix qué vol 'el poble'?",
+              "hint": "Pensa en com una assemblea de 600 persones pot representar una nació de 28 milions."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rf-01-01",
+              "style": "multiple-choice",
+              "question": "Quin element central de la filosofia de Rousseau va ser especialment problemàtic quan es va intentar aplicar políticament durant la Revolució?",
+              "options": [
+                "La idea que l'home és bo per naturalesa i corromput per la societat, que justificava suprimir les institucions socials existents",
+                "El concepte de 'voluntat general': una voluntat col·lectiva que no és la suma de voluntats individuals i que pot ser imposada als dissidents en nom del bé comú",
+                "La proposta de la separació de poders, que era impossible d'implementar en una monarquia constitucional",
+                "La teoria del contracte social, que implicava la dissolució de tots els contractes socials existents en el moment de la revolució"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La 'voluntat general' de Rousseau és una de les idees políticament més fèrtils i més perilloses de la modernitat. Si existeix una voluntat col·lectiva que transcendeix les voluntats individuals, qui la coneix i la representa? Robespierre va argumentar que el Comitè de Salvació Pública encarnat la voluntat general del poble francès — i que qui s'oposava no era un dissident sinó un enemic del poble que havia de ser eliminat. La idea d'una voluntat col·lectiva superior a la voluntat individual ha estat usada per legitimar el Terror del 1793-94, però també molts règims autoritaris posteriors.",
+              "feedbackWrong": "La idea de l'home bo per naturalesa era important però no va ser el concepte operativament més problemàtic. La separació de poders era de Montesquieu, no de Rousseau. El concepte que va generar més problemes pràctics i filosòfics va ser la 'voluntat general': la idea que hi ha un bé comú que transcendeix les preferències individuals i que pot ser imposat als dissidents."
+            },
+            {
+              "type": "comparison",
+              "title": "Locke vs. Rousseau: dues visions de la sobirania popular",
+              "labelA": "John Locke",
+              "labelB": "Jean-Jacques Rousseau",
+              "items": [
+                {
+                  "label": "Origen del poder",
+                  "a": "Consentiment dels governats, expressats a través de representants",
+                  "b": "Voluntat general del poble, inalienable i no delegable"
+                },
+                {
+                  "label": "Drets individuals",
+                  "a": "Drets naturals (vida, llibertat, propietat) que limiten el poder col·lectiu",
+                  "b": "L'individu es dissol parcialment en la comunitat; els drets deriven de la voluntat general"
+                },
+                {
+                  "label": "Representació",
+                  "a": "La democràcia representativa és legítima i necessària",
+                  "b": "La representació aliena la sobirania; el poble ha de governar directament"
+                },
+                {
+                  "label": "Dissidència",
+                  "a": "El dret a dissentir és fonamental; la majoria no pot imposar-se il·limitadament",
+                  "b": "Qui s'oposa a la voluntat general s'oposa al bé comú — i pot ser 'forçat a ser lliure'"
+                },
+                {
+                  "label": "Herència política",
+                  "a": "Liberalisme clàssic, constitucionalisme, drets humans",
+                  "b": "Democràcia radical, republicanisme, però també possibles derives totalitàries"
+                }
+              ]
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rf-01-01",
+              "question": "La Il·lustració va proclamar que la raó humana era suficient per organitzar la societat justa sense necessitat de tradició, religió ni autoritat heredada. La Revolució Francesa va ser el primer gran experiment d'aplicar aquesta premissa. Qué creus que va demostrar sobre la validesa de la premissa?",
+              "options": [
+                "Va demostrar que la premissa era correcta: la Revolució va crear les bases de la democràcia moderna i els drets humans, tot i les dificultats del procés",
+                "Va demostrar que la premissa era incorrecta: sense tradició i religió com a límits, la raó degenera en fanatisme i violència (Burke tenia raó)",
+                "Va demostrar que la premissa era parcialment correcta: la raó pot organitzar institucions polítiques millors, però sense mecanismes d'institucionalització del conflicte, degenera en violència"
+              ],
+              "correct": 2,
+              "explanation": "La Revolució Francesa és el cas d'estudi definitiu del debat entre racionalisme polític i conservadorisme. Edmund Burke va publicar les seves 'Reflexions sobre la Revolució a França' el 1790, anticipant amb notable precisió el Terror que vendria: quan es destrueixen les institucions heredades sense substituir-les per institucions noves legítimes i estables, el resultat no és la llibertat sinó l'anomia i la violència. Thomas Paine li va respondre des del racionalisme: les institucions velles no mereixien respecte simplement per ser velles si eren injustes. Tots dos tenien raó en part. La Revolució va crear idees i institucions fonamentals per a la modernitat política (drets humans, sobirania popular, separació de poders). Però també va demostrar que la destrucció de l'ordre existent sense la construcció simultània d'institucions noves legitimades genera un buit de poder que la violència omple. El problema no era la raó sinó la idea que la raó sola, sense institucions, és suficient."
+            }
+          ]
+        },
+        {
+          "id": "rf-02",
+          "title": "Llibertat, igualtat, fraternitat: tres paraules, tres tensions",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La divisa de la Revolució Francesa — 'Llibertat, Igualtat, Fraternitat' — és potser la frase política més influent de la historia moderna. Apareix en constitucions de tot el món, en declarations de drets humans, en discursos polítics de totes les tendències. Però els seus tres elements no son simplement complementaris: son sovint contradictoris. La llibertat i la igualtat es tensionen constantment. La fraternitat — la solidaritat comunitaria — pot entrar en conflicte amb ambdues. Entendre la Revolució Francesa és entendre aquelles tensions en acció."
+            },
+            {
+              "type": "key-idea",
+              "text": "La tensió entre llibertat i igualtat és la contradicció central de la política moderna. La llibertat plena permet que els avantatges es perpetuïn i s'acumulin, generant desigualtat. La igualtat plena requereix limitar les llibertats individuals per redistribuir. Tota la política dels últims dos segles és, en part, la negociació d'aquell equilibri."
+            },
+            {
+              "type": "expandable",
+              "label": "'Fraternitat': la paraula oblidada de la divisa",
+              "content": "Mentre 'llibertat' i 'igualtat' han generat corrents polítiques robustes (liberalisme i socialisme respectivament), 'fraternitat' ha quedat sovint en l'oblit o ha estat reduïda a retòrica. Però per als revolucionaris, la fraternitat era essencial: era el vincle de solidaritat entre ciutadans que feia possible que la llibertat i la igualtat fossin compatibles. Sense fraternitat — sense el sentiment de pertànyer a una comunitat on el benestar de l'altre importa — la llibertat es converteix en individualisme agressiu i la igualtat, en igualació forçada. La fraternitat republicana intentava crear una identitat ciutadana que superés les divisions de classe, regió i religió. Va fracassar en gran mesura — però la pregunta que plantejava (com crear solidaritat en societats diverses i desiguals) no ha tingut resposta satisfactòria des de llavors."
+            },
+            {
+              "type": "quote",
+              "text": "La llibertat consisteix a poder fer tot allò que no perjudica als altres.",
+              "author": "Declaració dels Drets de l'Home i del Ciutadà, article 4, 1789"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rf-02-01",
+              "style": "multiple-choice",
+              "question": "La Declaració dels Drets de l'Home i del Ciutadà de 1789 va proclamar que 'els homes neixen i romanen lliures i iguals en drets'. Quina contradicció fonamental no va resoldre aquella declaració?",
+              "options": [
+                "Que la declaració no especificava quins eren exactament els 'drets naturals', deixant la seva interpretació oberta a l'arbitri del govern",
+                "Que les dones, els esclaus de les colònies, els pobres sense propietat i els no-cristians quedaven exclosos de la ciutadania plena que la declaració proclamava universal",
+                "Que la declaració contradeia el dret romà sobre el qual es basava el sistema jurídic francès i era per tant inaplicable als tribunals",
+                "Que els drets declarats eren individuals i no reconeixien els drets col·lectius de les corporacions i gremis que estructuraven la societat preindustrial"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La Declaració proclamava drets 'universals' per a tots els homes, però en la pràctica excloïa sistemàticament: les dones (Olympe de Gouges va escriure la 'Declaració dels Drets de la Dona i la Ciutadana' el 1791, va ser guillotinada el 1793), els esclaus de les colònies (Saint-Domingue/Haiti va haver de rebel·lar-se el 1791 per obtenir els drets que la declaració prometia), els pobres sense propietat (el sufragi censatari excloïa la majoria), i els no-catòlics en alguns contextos. La universalitat era un principi — la seva aplicació, una negociació política que va trigar segles.",
+              "feedbackWrong": "Les contradiccions jurídiques i els drets col·lectius eren debats reals però secundaris. La contradicció fonamental era més simple i més escandalosa: una declaració de drets 'universals' que en la pràctica excloïa les dones, els esclaus de les colònies i la majoria dels pobres de la ciutadania plena que proclamava universal."
+            },
+            {
+              "type": "debate",
+              "question": "La Revolució Francesa va proclamar drets universals però va mantenir l'esclavitud a les colònies fins al 1794 (i la va restablir el 1802). Aquesta contradicció invalida la seva herència moral, o la lluita per la universalitat dels drets és valuosa malgrat les seves aplicacions parcials?",
+              "positionA": {
+                "label": "La contradicció invalida la pretensió",
+                "argument": "Una declaració de drets universals que exclou sistemàticament les dones, els esclaus i els pobres no és una declaració universal sinó un privilegi de classe revestit de retòrica universal. La Revolució va usar el llenguatge de la llibertat per consolidar el poder de la burgesia propietària sobre els seus propis súbdits colonials. Reconèixer la herència de la Revolució sense reconèixer aquesta hipocresía estructural és perpetuar-la."
+              },
+              "positionB": {
+                "label": "La lluita és valuosa malgrat les limitacions",
+                "argument": "Totes les declaracions de drets han tingut aplicació parcial en el seu moment: la Declaració d'Independència americana va ser escrita per propietaris d'esclaus. Els drets que proclamen acaben sent reclams que les excloses usen per exigir la seva inclusió. Les esclaves de Saint-Domingue van usar el vocabulari de la Revolució per justificar la seva pròpia rebel·lió. Els drets proclamats, fins i tot hipocritament, creen un estàndard que els exclosos poden invocar."
+              },
+              "reflection": "El vocabulari dels drets humans del segle XVIII va ser escrit per homes blancs propietaris. El segle XX va ser en gran part la historia dels exclosos usant aquell vocabulari per exigir la seva inclusió. Qué diu això sobre la relació entre les idees i els seus autors?",
+              "context": "Haiti va ser la primera república negra del món (1804) i el primer país que va abolir l'esclavitud de manera definitiva — usant el vocabulari de la Revolució Francesa contra els propis francesos que l'havien proclamat. França va reconèixer la independència d'Haiti el 1825 a canvi d'una indemnització enorme que Haiti va trigar 122 anys a pagar."
+            }
+          ]
+        },
+        {
+          "id": "rf-03",
+          "title": "El Terror: quan la virtut vol imposar-se",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Entre setembre de 1793 i juliol de 1794, el Comitè de Salvació Pública presidit per Maximilien Robespierre va enviar a la guillotina aproximadament 17.000 persones en procediments judicials sumaris, i en va matar unes 23.000 més per execució sumària o en presó. Entre les víctimes hi havia aristòcrates, sacerdots, moderats, extremistes, antics aliats de Robespierre i, al final, el propi Robespierre. El Terror no va ser una aberració accidental de la Revolució — va ser el resultat de la lògica de certes idees revolucionàries portades al límit."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Terror de 1793-94 és el moment en que la Revolució va devorar els seus propis fills. La seva causa no va ser simplement la violència o la por (tot i que ambdues hi van contribuir) sinó la lògica de la 'virtut republicana': la idea que la república requereix ciutadans virtuosos, que la virtut pot ser imposada, i que qui s'hi oposa és un enemic del poble que ha de ser eliminat."
+            },
+            {
+              "type": "expandable",
+              "label": "Robespierre: l'Incorruptible i la lògica del Terror",
+              "content": "Maximilien Robespierre era conegut com 'l'Incorruptible' — i ho era literalment. Vivía austerament, no acceptava suborns, creia genuïnament en la república i en la igualtat. No era un sàdic ni un tirà en el sentit convencional. Era algú que creia que la república era una causa tan sagrada que qualsevol sacrifici era justificat per salvar-la. La seva lògica era: la República requereix virtut cívica. La virtut cívica es pot imposar per la llei i la por. Els que no son virtuosos son enemics de la República. Els enemics de la República han de ser eliminats per salvar-la. Cada pas d'aquell raonament semblava seguir del precedent. El resultat final era el Terror. Hannah Arendt va veure en Robespierre el prototip d'un tipus de revolucionari que reapareixeria al segle XX: el que, en nom de la humanitat abstracta, destrueix els humans concrets que no encaixen en el seu projecte."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Les conseqüències no previstes de les teories",
+              "text": "Al mòdul de Filosofia de la Ciència vam veure com les teories científiques generen conseqüències que els seus autors no havien previst. El mateix passa amb les teories polítiques: Rousseau mai va imaginar que la seva 'voluntat general' seria invocada per justificar el Terror. Locke mai va imaginar que el dret a la propietat seria usat per excloure dels drets polítics els qui no en tenien. Les idees políiques, com les teories científiques, operan en contextos que transformen el seu significat d'maneres que els autors no controlen."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rf-03-01",
+              "style": "multiple-choice",
+              "question": "La Llei dels Sospitosos de setembre de 1793 va permetre detenir qualsevol persona considerada 'sospitosa' de ser enemiga de la República. Quin principi jurídic fonamental va violer?",
+              "options": [
+                "El principi de separació de poders: la llei donava al poder executiu la capacitat de detenir sense ordre judicial",
+                "La presumpció d'innocència i el dret a un judici just: la sospita sense proves específiques era suficient per a la detenció i l'execució",
+                "El principi de proporcionalitat: les penes establertes (mort) eren desproporcionades respecte als delictes tipificats",
+                "El principi de no retroactivitat: la llei aplicava a actes comesos abans de la seva promulgació"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La Llei dels Sospitosos va invertir la presumpció d'innocència: no calia demostrar que algú havia fet alguna cosa contra la República, sinó que era suficient que es pogués 'sospitar' que no era suficientment republicà. La categoria de 'sospitós' era tan àmplia i vaga que qualsevol podia ser-ho. És un exemple paradigmàtic de com les garanties jurídiques individuals — que la Il·lustració havia proclamat fonamentals — van ser les primeres víctimes d'una revolució que havia nascut per defensar-les.",
+              "feedbackWrong": "Tots els principis esmentats van ser violats en algun grau. Però el nucli jurídic central de la Llei dels Sospitosos era la inversió de la presumpció d'innocència: la 'sospita' sense proves específiques era suficient per a la detenció i, sovint, per a l'execució. Era la negació exacta del principi que 'un és innocent fins que es demostri culpable'."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rf-03-02",
+              "style": "detect-error",
+              "statement": "El Terror de 1793-94 va ser una reacció defensiva i necessària de la República davant d'amenaces exteriors reals (guerra amb Àustria i Prússia) i interiors (la revolta de la Vendée). Sense el Terror, la Revolució hauria estat esclafada.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació conté elements reals però és una simplificació que justifica el Terror de manera excessiva. Les amenaces exteriors i interiors eren reals: la coalició d'Àustria i Prússia havia envaït França i la revolta de la Vendée era brutal. Però el Terror va anar molt més allà de les mesures defensives militarment necessàries: va executar moderats republicans que no s'oposaven a la República sinó a la seva versió jacobina, va eliminar rivals polítics legítims, i va s'intensificar fins i tot quan les amenaces militars estaven sent derrotades (les victòries militars franceses de finals de 1793 no van aturar el Terror). A més, els règims de la Vendée van ser reprimits amb una violència que molts historians consideren genocida, independent de la necessitat defensiva immediata. La justificació del Terror com a necessitat defensiva és parcialment l'argument que el propi Robespierre feia — i que els seus contemporanis van acabar rebutjant el 9 Thermidor."
+            }
+          ]
+        },
+        {
+          "id": "rf-04",
+          "title": "Burke contra Paine: el debat que defineix la política moderna",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El novembre de 1790, Edmund Burke va publicar les 'Reflexions sobre la Revolució a França' — un atac virulent contra la Revolució des de posicions conservadores. El març de 1791, Thomas Paine va publicar 'Els Drets de l'Home' — una defensa appassionada de la Revolució i un contraatac al conservadorisme de Burke. Els dos textos van establir les posicions bàsiques del debat polític dels dos segles següents. Burke i Paine no estaven simplement debatent sobre la Revolució Francesa: estaven debatent sobre la natura del canvi polític, la relació entre raó i tradició, i qui té dret a qué."
+            },
+            {
+              "type": "key-idea",
+              "text": "El debat Burke-Paine és el debat fundacional de la política moderna. D'un costat, el conservadorisme: les institucions existents contenen saviesa acumulada que la raó abstracta no pot reemplaçar; el canvi gradual és superior a la ruptura revolucionaria. De l'altre, el radicalisme il·lustrat: les institucions injustes no mereixen respecte per la seva antiguitat; la raó pot dissenyar institucions millors."
+            },
+            {
+              "type": "expandable",
+              "label": "L'argument de Burke: per qué la tradició és saviesa acumulada",
+              "content": "Edmund Burke no era simplement un defensor del privilegi aristocràtic. El seu argument era més sofisticat: les institucions que han sobreviscut al llarg del temps han demostrat que funcionen en alguna mesura — que han resolt problemes reals de coordinació social. La seva complexitat opaca conté saviesa pràctica acumulada que cap intel·lectual pot inventar de zero. Quan les destrueixes en nom d'un pla racional, no saps el que perds fins que les has perdut. Burke havia donat suport a la Revolució Americana (1776) perquè reivindicava drets tradicionals anglesos enfront d'un poder arbitrari. La francesa li semblava diferent: no reivindicava drets existents sinó pretenia construir una societat de zero a partir de principis abstractes. Era, va dir, com intentar construir un edifici destruint els seus fonaments mentre es viu."
+            },
+            {
+              "type": "expandable",
+              "label": "L'argument de Paine: per qué la raó supera la tradició",
+              "content": "Thomas Paine, el panfletista americà que havia escrit 'Sentit Comú' per impulsar la Independència americana, respongué Burke amb una contundència que va fer de 'Els Drets de l'Home' el text polític de major circulació del segle XVIII. El seu argument central: que les institucions velles siguin velles no les fa justes. L'esclavitud és antiga. El dret diví dels reis és antic. La tortura judicial és antiga. L'antiguitat no confereix legitimitat moral. Cada generació té el dret (i el deure) d'organitzar les seves pròpies institucions políticament. Cap generació pot vincular les següents a les institucions que va crear — això seria, va escriure, 'el govern dels morts sobre els vius'. La igualtat natural dels éssers humans és la base de tots els drets polítics, i cap institució construïda sobre la desigualtat hereditaria pot ser legítima."
+            },
+            {
+              "type": "comparison",
+              "title": "Burke vs. Paine: conservadorisme vs. radicalisme il·lustrat",
+              "labelA": "Edmund Burke (conservador)",
+              "labelB": "Thomas Paine (radical il·lustrat)",
+              "items": [
+                {
+                  "label": "Font de la legitimitat",
+                  "a": "Tradició, costum, institucions heredades que han demostrat funcionar",
+                  "b": "Raó natural i drets universals inherents a tots els éssers humans"
+                },
+                {
+                  "label": "Canvi polític",
+                  "a": "Gradual, reformista, respectuós de les institucions existents",
+                  "b": "Pot ser radical i rupturista si les institucions existents son fonamentalment injustes"
+                },
+                {
+                  "label": "La Revolució",
+                  "a": "Un experiment racional perillós que destrueix saviesa acumulada irreemplaçable",
+                  "b": "La resposta legítima d'un poble a institucions injustes que no es poden reformar des de dins"
+                },
+                {
+                  "label": "El poble",
+                  "a": "Necessita institucions estables i guia; la 'sobirania popular' pot derivar en tirania de la massa",
+                  "b": "Té el dret innat d'autogovernarse; la sobirania popular és l'única font legítima de poder"
+                },
+                {
+                  "label": "Herència",
+                  "a": "Conservadorisme modern, Tocqueville, prudència política",
+                  "b": "Liberalisme democràtic, socialisme, republicanisme"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rf-04-01",
+              "style": "multiple-choice",
+              "question": "Burke va criticar la Revolució Francesa però havia donat suport a la Revolució Americana. Quin argument usava per distingir els dos casos?",
+              "options": [
+                "Que la Revolució Americana era menys violenta i per tant moralment superior a la francesa",
+                "Que els americans reivindicaven drets tradicionals anglesos concrets, mentre que els francesos pretenien construir una societat de zero a partir de principis abstractes universals",
+                "Que els Pares Fundadors americans eren propietaris respectables mentre que els líders de la Revolució Francesa eren aventurers sense arrels",
+                "Que la Revolució Americana tenia el suport de la majoria de la població mentre que la francesa era el projecte d'una minoria radical"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'argument de Burke era que la legitimitat prové de la reivindicació de drets reals existents — i els americans reivindicaven els drets tradicionals dels súbdits anglesos que la corona havia violat. Era una revolució conservadora en el sentit profund: preservava drets existents. La Revolució Francesa, en canvi, pretenia demolir totes les institucions existents i construir una societat nova a partir de principis racionals abstractes ('llibertat', 'igualtat') sense fonament en cap tradició existent. Per a Burke, aquesta era la diferència entre una reforma legítima i un experiment racional perillós.",
+              "feedbackWrong": "Burke no distingia pels fundadors personals ni per la proporció de suport popular. La distinció era filosòfica: els americans reivindicaven drets existents heretats de la tradició anglesa; els francesos pretenien construir drets nous a partir de principis abstractes. Per a Burke, el primer era reforma legítima; el segon, construcció utòpica perillosa."
+            },
+            {
+              "type": "debate",
+              "question": "En el debat Burke-Paine, quina posició trobes més convincent: que el canvi polític ha de ser gradual i respectuós de les institucions existents (Burke), o que la injustícia de les institucions pot justificar la seva destrucció i substitució (Paine)?",
+              "positionA": {
+                "label": "Burke: el canvi gradual és superior",
+                "argument": "La historia del segle XX ha validat Burke de manera dolorosa: les revolucions que han intentat construir societats noves de zero (Rússia 1917, Xina 1949, Cambodia 1975) han produït catàstrofes. Les democràcies més estables i equitatives del món (Escandinàvia, els Países Baixos) han crescut per reforma gradual, no per ruptura revolucionaria. La prudència política no és conservadorisme moral — és reconèixer que les societats complexes no es poden redissenyar com un algoritme."
+              },
+              "positionB": {
+                "label": "Paine: la injustícia no prescriu",
+                "argument": "El gradualisme de Burke seria acceptable si les institucions injustes deixessin cap via per a la reforma interna. Però l'esclavitud, l'apartheid, el colonialisme no es van acabar per reforma gradual des de dins — van acabar per ruptura, resistència, i en molts casos revolució. Demanar als oprimits que esperin el canvi gradual és demanar-los que acceptin la seva opressió mentre els que es beneficien de les institucions injustes controlen el ritme de la reforma."
+              },
+              "reflection": "La teva resposta depèn probablement de quina sigui la teva posició en les institucions existents. Qui tendeix a preferir el canvi gradual i qui la ruptura?",
+              "context": "El debat Burke-Paine es reprodueix en cada generació amb nous noms i nous contextos. En el moviment pels drets civils americans, Martin Luther King Jr. va haver de respondre exactament el mateix argument dels 'moderats blancs' que demanaven paciència i gradualisme en una 'Carta des de la Presó de Birmingham' (1963) que ressona directament Paine."
+            }
+          ]
+        },
+        {
+          "id": "rf-05",
+          "title": "Les Dones de la Revolució: la meitat exclosa",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 5 d'octubre de 1789, milers de dones de París van marxar fins a Versalles per exigir pa i el retorn del rei a París. No eren un grup marginal — eren la força que va forçar la família reial a abandonar Versalles. Sense les dones de París, la Revolució hauria tingut una geografia diferent. I tanmateix, quan la Revolució va definir la ciutadania, les dones van quedar-ne excloses. Olympe de Gouges va escriure la 'Declaració dels Drets de la Dona i la Ciutadana' el 1791. El 1793, la Convenció va prohibir els clubs polítics femenins. El 1793, la pròpia Olympe de Gouges va ser guillotinada."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Revolució Francesa va proclamar la igualtat universal i va excloure sistemàticament les dones de la ciutadania política. Aquesta contradicció no va ser un accident: va ser el resultat d'una ideologia republicana que assignava als homes la política pública i a les dones la virtut domèstica. L'exclusió de les dones no era una limitació pràctica sinó un principi teòric — el que el fa especialment revelador."
+            },
+            {
+              "type": "expandable",
+              "label": "Olympe de Gouges: la Declaració dels Drets de la Dona",
+              "content": "Marie Gouze, que escrivia sota el nom d'Olympe de Gouges, era una autodidacta de Montauban que havia escrit obres de teatre i pamflets polítics. La seva 'Declaració dels Drets de la Dona i la Ciutadana' (1791) era deliberadament paral·lela a la Declaració de 1789 — article per article, substituint 'l'home' per 'la dona i l'home'. El seu primer article: 'La dona neix i romàn lliure i igual a l'home en drets'. Va demanar el sufragi femení, la igualtat en el matrimoni i en la herència, i el dret de les dones a participar en la vida política. Va escriure la frase que se li atribueix sovint: 'La dona té el dret de pujar al cadafal; ha de tenir igualment el dret de pujar a la tribuna'. Va ser guillotinada el novembre de 1793, acusada de girondina i de 'haver oblidat les virtuts del seu sexe'. Tenia 45 anys."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Ciència",
+              "moduleEmoji": "🔭",
+              "concept": "L'exclusió estructural de les dones del coneixement i el poder",
+              "text": "Al mòdul d'Història de la Ciència vam veure com les dones van ser sistemàticament excloses de les institucions científiques i com les seves contribucions van ser invisibilitzades o apropiades. La Revolució Francesa mostra el mateix patró en política: les dones van participar activament en la Revolució (les marxes d'octubre, els clubs polítics, la corresponència política) i van ser excloses sistemàticament de les seves institucions formals. L'exclusió no era ignorància sinó política deliberada basada en una teoria de la diferència sexual que assignava rols separats."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rf-05-01",
+              "style": "multiple-choice",
+              "question": "Quin argument teòric usaven els revolucionaris per excloure les dones de la ciutadania, tot i proclamar la igualtat universal?",
+              "options": [
+                "Que les dones no tenien el nivell d'educació suficient per exercir els drets polítics de manera responsable — un problema que es resoldria amb l'educació",
+                "Que les dones pertanyien a l'esfera privada (la família, la virtut domèstica) mentre que la política era l'esfera pública dels homes — una distinció de natura, no de circumstàncies",
+                "Que l'extensió immediata del sufragi a les dones donaria avantatge a l'Església catòlica, que tenia major influència sobre les dones que sobre els homes",
+                "Que la Constitució es basava en el dret romà, que no reconeixia la capacitat jurídica plena de les dones, i canviar-ho requeria una reforma jurídica prèvia"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'argument dominant no era pràctic sinó teòric: la distinció entre les esferes pública i privada. Rousseau, ironicament, n'era el principal articulador: al 'Emili' (1762) havia definit la dona ideal (Sofia) com a complementària a l'home (Emili) però radicalment diferent — orientada a la virtut privada i la cura de la família, no a la política pública. La república necessitava mares virtuoses que creessin ciutadans virtuosos, però les mares no podien ser elles mateixes ciutadanes. La contradicció era explícita i conscient — i va ser defensada amb arguments filosòfics, no simplement amb prejudicis no articulats.",
+              "feedbackWrong": "L'argument de l'educació era usat però no era el central — implicaria que el sufragi femení era una qüestió de temps i circumstàncies. L'argument de la influència eclesiàstica va ser usat al segle XIX però no era el dominant el 1789. El dret romà era un context, no una justificació filosòfica. El nucli de l'exclusió era teòric: la distinció entre esfera pública (masculina, política) i esfera privada (femenina, domèstica) — una distinció que la teoria republicana de l'època considerava natural i necessària."
+            },
+            {
+              "type": "reflection",
+              "question": "Olympe de Gouges va ser guillotinada parcialment per demanar els mateixos drets que la Revolució proclamava universals. Hi ha alguna reivindicació que avui ens sembli tan òbvia com ens semblava òbvia als revolucionaris l'exclusió de les dones, i que les generacions futures trobaran igual d'injustificable?",
+              "prompt": "No hi ha resposta correcta — però la pregunta és incòmoda de manera productiva."
+            }
+          ]
+        },
+        {
+          "id": "rf-06",
+          "title": "L'herència de la Revolució: el món que va crear",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1815, després de Waterloo i la derrota final de Napoleó, les potències europees van intentar restaurar l'Antic Règim. Van fracassar. No perquè la Revolució hagués triomfat militarment sinó perquè havia canviat el que la gent creia que tenia dret a exigir. El codi napoleònic havia difós per tot Europa la igualtat davant la llei. Les idees de sobirania popular, drets individuals i constitucions escrites s'havien convertit en el vocabulari inevitable de la política. No es podia desfar allò que havia canviat les ments."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Revolució Francesa va crear el vocabulari i el marc conceptual de la política moderna: dreta i esquerra (termes que neixen literalment a l'Assemblea Nacional de 1789), sobirania popular, drets humans, estat-nació, constitucionalisme, separació d'Església i Estat, igualtat davant la llei. Tota la política dels segles XIX i XX és impensable sense la Revolució Francesa — fins i tot la política que la critica."
+            },
+            {
+              "type": "expandable",
+              "label": "Dreta i esquerra: la geografia política neix a l'Assemblea Nacional",
+              "content": "Els termes 'dreta' i 'esquerra' en política neixen literalment de la disposició dels escons a l'Assemblea Nacional de 1789: els que donaven suport al rei i a l'ordre existent s'asseien a la dreta del president; els que demanaven canvis radicals, a l'esquerra. La geografia física de l'assemblea va crear una metàfora que ha estructurat la política mundial durant dos segles. Tot i que el contingut específic de 'dreta' i 'esquerra' ha canviat enormement (la dreta del 1789 defensava l'Església i l'aristocràcia; la d'avui, sovint el mercat lliure), la distinció fonamental — entre els que volen preservar les estructures existents i els que volen canviar-les — continua operant. Cada vegada que uses els termes 'dreta' i 'esquerra', estàs usant un vocabulari creat a Versalles el juliol de 1789."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1789",
+                  "title": "Declaració dels Drets de l'Home",
+                  "text": "El vocabulari dels drets humans moderns. 'Llibertat, Igualtat, Fraternitat'."
+                },
+                {
+                  "year": "1791",
+                  "title": "Declaració dels Drets de la Dona (Olympe de Gouges)",
+                  "text": "La primera reivindicació feminista moderna en forma de declaració política."
+                },
+                {
+                  "year": "1794",
+                  "title": "Abolició de l'esclavitud (primer intent)",
+                  "text": "La Convenció aboleix l'esclavitud a les colònies. Restablerta per Napoleó el 1802."
+                },
+                {
+                  "year": "1804",
+                  "title": "Codi Napoleònic",
+                  "text": "Igualtat davant la llei, fi dels privilegis hereditaris. Difós per tota Europa."
+                },
+                {
+                  "year": "1804",
+                  "title": "Independència d'Haiti",
+                  "text": "Primera república negra. Usa el vocabulari de la Revolució Francesa contra França."
+                },
+                {
+                  "year": "1848",
+                  "title": "Primavera dels Pobles",
+                  "text": "Revolucions per tota Europa inspirades en el model i el vocabulari de 1789."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rf-06-01",
+              "style": "multiple-choice",
+              "question": "La separació entre Església i Estat — la laïcitat — va ser un dels principis més radicals de la Revolució. Per quina raó era tan conflictiva en el context de la França de 1789?",
+              "options": [
+                "Perquè la majoria de la població francesa era protestant i l'Església catòlica era percebuda com una institució estrangera",
+                "Perquè l'Església catòlica era la primera propietària de terres de França, tenia el control del registre civil i de l'educació, i rebia impostos (el delme) de tota la població",
+                "Perquè el papa havia declarat que tots els catòlics que donessin suport a la Revolució serien excomunicats, posant en conflicte la lleialtat religiosa i la política",
+                "Perquè la Constitució Civil del Clergat de 1790 va crear una Església francesa independent de Roma, violant els acords concordataris anteriors"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'Església catòlica francesa era una potència econòmica i social de primer ordre: posseïa entre el 6 i el 10% de les terres del país (i les millors terres), controlava els registres de naixement, matrimoni i mort, tenia el monopoli de l'educació formal, i rebia el delme (un impost del 10%) de tota la producció agrícola. Quan l'Assemblea Nacional va nacionalitzar els béns eclesiàstics el novembre de 1789, no estava simplement separant les esferes religiosa i política — estava transferint el major actiu patrimonial del país. La Constitució Civil del Clergat de 1790 va fer els sacerdots funcionaris de l'Estat. La resistència eclesiàstica va ser una de les causes de la Guerra de la Vendée.",
+              "feedbackWrong": "La França de 1789 era aclaparadorament catòlica. El papa va tenir reaccions complexes. La Constitució Civil va ser un factor important però secundari. La raó principal del conflicte era econòmica i de poder: l'Església era la primera propietària de terres del país i controlava institucions civils fonamentals com el registre civil i l'educació."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rf-06-01",
+              "question": "La Revolució Francesa va proclamar principis universals (drets humans, igualtat davant la llei) que van ser aplicats de manera parcial i contradictòria. El seu llegat és, en definitiva, positiu o negatiu per a la humanitat?",
+              "options": [
+                "Positiu: els principis que va proclamar han estat el motor de la lluita per la igualtat dels darrers dos segles, independentment de les seves aplicacions inicials imperfectes",
+                "Negatiu: va crear el model del nacionalisme, el Terror i la política ideològica radical que ha generat més morts al segle XX que cap altre fenomen",
+                "Ambivalent: va crear simultàniament els principis dels drets humans i els instruments del seu abús; el que se'n deriva depèn de quines parts de la seva herència s'activen"
+              ],
+              "correct": 2,
+              "explanation": "L'ambivalència és la resposta intel·lectualment més honesta. La Revolució va crear el vocabulari i les institucions dels drets humans moderns — i va crear el model del Terror, del nacionalisme etnocèntric i de la política ideològica que creu tenir la veritat i pot imposar-la. Les revolucions del segle XX (russa, xinesa, cambogiana) van invocar explícitament la Revolució Francesa com a model — i van reproduir la seva lògica del Terror a escales molt majors. Però els moviments pels drets civils, la descolonització, el feminisme i la lluita contra l'apartheid també van invocar els seus principis. La Revolució no 'va causar' ni el bé ni el mal que vindrien — va crear un arsenal simbòlic i conceptual que els actors posteriors van usar per a propòsits molt divergents. El seu llegat no es pot jutjar sense triar quina part de la seva herència es considera central."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rf-context",
+      "title": "La Revolució en Context",
+      "icon": "⚖️",
+      "description": "Els fets clau, les causes i les conseqüències que expliquen per qué va passar i com va canviar el món",
+      "style": "Contextual · causes, fets i llegat",
+      "lessons": [
+        {
+          "id": "ctx-01",
+          "title": "Per qué el 1789? Les causes d'una revolució",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Les revolucions no passen simplement perquè les idees son convincents. Passen quan les idees coincideixen amb una crisi estructural que fa insostenible l'ordre existent. El 1789, França tenia les dues coses: les idees de la Il·lustració i una crisi fiscal, social i política de proporcions excepcionals. La pregunta no és per qué hi va haver revolució — la pregunta és per qué va tardar tant a arribar."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Revolució Francesa va tenir causes múltiples que es van combinar de manera explosiva: una crisi fiscal de l'Estat (agravada per la guerra dels Set Anys i el suport a la Revolució Americana), una crisi agrícola (les males collites de 1788), una crisi política (la resistència dels privilegiats a les reformes fiscals), i un context cultural (la Il·lustració) que proporcionava el vocabulari per articular el malestar com a demanda de drets."
+            },
+            {
+              "type": "expandable",
+              "label": "La crisi fiscal: per qué un rei absolutista va haver de convocar els Estats Generals",
+              "content": "Lluís XVI va convocar els Estats Generals el maig de 1789 per primera vegada des de 1614 perquè estava literalment en bancarrota. Les guerres (els Set Anys, el suport a la Revolució Americana) havien disparat el deute fins al punt que França dedicava el 50% dels seus ingressos al servei del deute. Quan va intentar imposar noves taxes als privilegiats (noblesa i clergat), aquests van bloquejar les reformes a través dels parlaments regionals. La paradoxa: l'absolutisme francès era massa dèbil per forçar les classes privilegiades a pagar impostos. Va haver de demanar permís — i al demanar-lo, va obrir la caixa de Pandora. Els Estats Generals convocats per recaptar diners es van transformar en una Assemblea Constituent que va redactar una constitució. La crisi fiscal va generar la crisi política que va generar la Revolució."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ctx-01-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el detonant immediat de la presa de la Bastilla el 14 de juliol de 1789?",
+              "options": [
+                "La publicació de la Declaració dels Drets de l'Home per l'Assemblea Nacional, que va generar celebracions que van degenerar en disturbis",
+                "L'acomiadament del ministre Necker i la concentració de tropes reials a París, que va ser interpretada com una preparació per dissoldre l'Assemblea per la força",
+                "L'augment brusc del preu del pa degut a la mala collita de 1788, que va portar la població famolenca als carrers",
+                "La descoberta d'un complot aristòcrata per assassinar els líders de l'Assemblea Nacional i restaurar l'absolutisme"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El 11 de juliol, Lluís XVI va acomiadar Necker, el ministre popular de finances, i va concentrar tropes a l'entorn de París. La població parisenca va interpretar-ho com una preparació per dissoldre l'Assemblea Nacional per la força. El 14 de juliol, la multitud va assaltar la Bastilla — una fortalesa-presó que simbolitzava el poder arbitrari reial — en part per alliberar els presos (eren set, tots criminals ordinaris) però sobretot per apoderar-se de les armes i la pólvora que hi havia. La Bastilla com a símbol del despotisme va pesar molt més que la seva realitat funcional.",
+              "feedbackWrong": "El preu del pa era un factor de fons molt important però no el detonant immediat del 14 de juliol. La Declaració va venir després. No hi havia cap complot documentat d'aquella naturalesa. El detonant immediat va ser la combinació de l'acomiadament de Necker i la concentració de tropes — senyals interpretats com a preludi d'un cop d'estat reial contra l'Assemblea."
+            },
+            {
+              "type": "misconception",
+              "belief": "La Revolució Francesa va ser una revolució popular del poble pobre contra la monarquia i l'aristocràcia.",
+              "reality": "La Revolució va ser iniciada i liderada principalment per la burgesia (advocats, funcionaris, comerciants) que volia accés al poder polític del qual estava exclosa malgrat la seva creixent riquesa i influència. El poble pobre va participar de manera crucial (les marxes de les dones, les insurreccions urbanes) però amb demandes sovint diferents: pa, preus justos, control local. La Revolució va ser una aliança tensa entre la burgesia que volia drets polítics i el poble menut que volia pa i justícia distributiva — aliança que el Terror en part va reflectir i en part va destruir.",
+              "why": "La narrativa simplificada del 'poble contra els privilegiats' és atractiva però amaga la complexitat de classe de la Revolució. La burgesia no era el 'poble' — era una classe que volia substituir una elit per una altra, amb accés al poder abans reservat a la noblesa de sang."
+            },
+            {
+              "type": "debate",
+              "question": "La Revolució Francesa era inevitable donades les condicions de la França de finals del XVIII, o podria haver-se evitat amb reformes oportunes?",
+              "positionA": {
+                "label": "Era inevitable",
+                "argument": "La combinació de crisi fiscal irresoluble, resistència dels privilegiats a qualsevol reforma fiscal, il·lustració que havia creat expectatives polítiques noves, i crisi agrícola que posava la supervivència en joc era massa explosiva. L'Antic Règim no tenia la capacitat de reformar-se des de dins perquè els qui s'haurien de reformar (la noblesa, el clergat) eren els que bloquejarien qualsevol reforma fiscal. La crisi estructural era massa profunda per ser resolta per la voluntat política d'un monarca."
+              },
+              "positionB": {
+                "label": "Podria haver-se evitat",
+                "argument": "Turgot (ministre de Lluís XVI el 1774-76) va proposar reformes fiscals que, de haver-se implementat, haurien pogut estabilitzar les finances de l'Estat sense crisi constitucional. Van ser bloquejades per la noblesa — però si Lluís XVI hagués tingut la determinació de Frederic el Gran de Prússia, podria haver-les forçat. Les revolucions no son mai absolutament inevitables: son el resultat de decisions (i indecisions) humanes en contextos d'alta pressió."
+              },
+              "reflection": "Les revolucions mai semblen inevitables a qui les viu fins que ja han passat. La 'inevitabilitat' és sovint una narrativa retrospectiva. Quin pes donar a l'estructura i quin a la decisió individual?",
+              "context": "L'historiador Alexis de Tocqueville, que va estudiar tant la Revolució Francesa com la democràcia americana, va observar que les revolucions no passen quan les condicions son les pitjors sinó quan comencen a millorar i les expectatives creixen més ràpid que les millores reals."
+            }
+          ]
+        },
+        {
+          "id": "ctx-02",
+          "title": "De la Monarquia a la República: el procés constituent",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Entre juny de 1789 i setembre de 1792 — tres anys — França va passar de monarquia absoluta a monarquia constitucional a república. Va ser un procés no planificat, en que cada etapa era el resultat de la crisi de l'anterior. Ningú al juny de 1789 pretenia abolir la monarquia; gairebé ningú al setembre de 1792 podia imaginar que l'havien preservada. La Revolució no va seguir un pla — va seguir la lògica de la crisi."
+            },
+            {
+              "type": "key-idea",
+              "text": "La radicalització de la Revolució Francesa no va ser el resultat d'un pla revolucionari sinó d'una dinàmica en que cada crisi requeria mesures més extremes que generaven noves crisis. La fugida de Lluís XVI a Varennes (1791), la guerra exterior, la traïció percebuda del rei — cada episodi va empènyer la Revolució cap a posicions que cap dels actors inicials havia previst ni desitjat."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "Juny 1789",
+                  "title": "L'Assemblea Nacional i el Jurament de la Pilota",
+                  "text": "Els diputats del Tercer Estat es proclamen Assemblea Nacional i juren no separar-se fins a donar una constitució a França."
+                },
+                {
+                  "year": "Juliol 1789",
+                  "title": "Presa de la Bastilla",
+                  "text": "14 de juliol. El símbol de l'absolutisme cau. La Revolució té data de naixement."
+                },
+                {
+                  "year": "Agost 1789",
+                  "title": "Nit del 4 d'agost i Declaració de Drets",
+                  "text": "La noblesa renuncia als seus privilegis feudals. Declaració dels Drets de l'Home i del Ciutadà."
+                },
+                {
+                  "year": "Juny 1791",
+                  "title": "Fugida a Varennes",
+                  "text": "Lluís XVI intenta fugir de França. Capturat. La seva legitimitat queda destruïda."
+                },
+                {
+                  "year": "Setembre 1792",
+                  "title": "Proclamació de la República",
+                  "text": "Abolició de la monarquia. Inici de la Primera República Francesa."
+                },
+                {
+                  "year": "Gener 1793",
+                  "title": "Execució de Lluís XVI",
+                  "text": "El rei és guillotinat. La ruptura amb l'ordre monàrquic europeu és definitiva."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ctx-02-01",
+              "style": "multiple-choice",
+              "question": "La fugida de Lluís XVI a Varennes el juny de 1791 va ser un punt d'inflexió decisiu. Per qué va tenir un impacte tan gran en la dinàmica revolucionaria?",
+              "options": [
+                "Perquè va demostrar que el rei havia estat en contacte amb les potències estrangeres (Àustria i Prússia) per organitzar una invasió de França",
+                "Perquè va destruir la credibilitat de Lluís XVI com a monarca constitucional lleial a la Revolució, transformant la seva imatge de 'rei dels francesos' a traïdor i futur enemic",
+                "Perquè la captura del rei a la frontera va donar als revolucionaris l'excusa legal que necessitaven per proclamar immediatament la república",
+                "Perquè la fugida va generar una crisi de successió, ja que el fill de Lluís XVI era menor d'edat i incapaç de regnar"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La fugida de Varennes va ser política i psicològicament devastadora per a la monarquia constitucional. Fins aleshores, molts revolucionaris moderats (els feuillants) creien genuïnament que Lluís XVI podia ser un rei constitucional lleial. La fugida — i sobretot la carta que el rei va deixar denunciant la Constitució de 1791 — va demostrar que havia acceptat la constitució per necessitat, no per convicció. Va transformar el debat de 'quin sistema constitucional?' a 'es pot confiar en aquest rei?' — i la resposta va anar decantant-se cap al no, amb conseqüències que van portar a la república i, finalment, a la guillotina.",
+              "feedbackWrong": "Les connexions amb Àustria eren sospitades però la fugida per si sola no va 'demostrar' un complot militar específic. La república no va ser proclamada immediatament (va trigar fins al setembre de 1792). No hi havia crisi de successió en el sentit dinàstic. L'impacte decisiu de Varennes va ser psicopolític: va destruir la credibilitat de Lluís XVI com a monarca constitucional lleial."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ctx-02-01",
+              "question": "La Revolució Francesa va radicalitzar-se progressivament del 1789 al 1793-94. Quin factor creus que va tenir més pes en aquella radicalització?",
+              "options": [
+                "La lògica interna de les idees revolucionàries: la Revolució havia de radicalitzar-se per ser coherent amb els seus propis principis d'igualtat i sobirania popular",
+                "Les amenaces exteriors i interiors: la guerra amb les potències europees i les contrarrevolucions internes van forçar mesures d'emergència que van crear la dinàmica del Terror",
+                "La competència entre faccions revolucionàries pel poder: la radicalització va ser el resultat de la lluita entre girondins, jacobins i sans-culottes, cadascun empenyent cap a posicions més extremes per eliminar els rivals"
+              ],
+              "correct": 2,
+              "explanation": "La resposta multicausal és la més defensable, però la competència entre faccions és el factor que millor explica el ritme i la forma específica de la radicalització. Les idees revolucionàries no tenien una lògica necessàriament radical (Locke era perfectament compatible amb una monarquia constitucional moderada). Les amenaces exteriors eren reals però van ser gestionades de manera diferent per diferents faccions — no van determinar unívocament el Terror. El que va generar la dinàmica de radicalització va ser la competència política interna: per guanyar contra els rivals, cada facció necessitava superar la radicalitat de l'anterior. Els girondins van ser superats pels jacobins perquè els jacobins eren més igualitaristes; els jacobins moderats van ser superats per Robespierre perquè era 'l'Incorruptible'; el propi Robespierre va ser destruït per Termidor. Cada etapa de la radicalització va ser el resultat de la competència de poder entre faccions que usaven les amenaces exteriors i les idees com a armes en aquella competència."
+            }
+          ]
+        },
+        {
+          "id": "ctx-03",
+          "title": "Napoleó: la Revolució en un home?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 18 Brumari de l'any VIII (9 de novembre de 1799), el general Napoleó Bonaparte va dissoldre el Directori en un cop d'estat i es va proclamar Primer Cònsol de França. Cinc anys després, es va coronar Emperador. El paradoxe napoleònic és dels més fascinants de la historia moderna: un home que va dir que era el fill de la Revolució i la va difondre per Europa — però que va restaurar la monarquia, va restablir l'esclavitud a les colònies i va convertir França en un règim autoritari personal. Va ser la Revolució que es coronava a si mateixa o la seva traïció?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Napoleó va ser simultàniament el liquidador de la Revolució (com a forma política: va acabar amb la república) i el seu màxim difusor (com a contingut: el Codi Napoleònic, la fi dels privilegis hereditaris, la igualtat davant la llei es van difondre per tota Europa gràcies a les seves conquestes). El paradoxe napoleònic és irresoluble: va destruir i va propagar la Revolució alhora."
+            },
+            {
+              "type": "expandable",
+              "label": "El Codi Napoleònic: la Revolució en forma de llei",
+              "content": "El Codi Civil Napoleònic (1804) va ser l'obra jurídica més influential des del Dret Romà. Va codificar els principis revolucionaris en forma de llei: igualtat davant la llei, fi dels privilegis hereditaris, llibertat de contracte, propietat privada garantida, separació de l'Església i el registre civil. Va ser adoptat o va influir directament en els sistemes jurídics de tot Europa, Amèrica Llatina i parts d'Àfrica. Quan les tropes de Napoleó van entrar als territoris alemanys, italians, espanyols i polonesos, van portar el Codi — i amb ell, la destrucció dels privilegis feudals i l'establiment de la igualtat jurídica formal. Molts dels eixos de la modernitat política (el cadastre, el registre civil, el dret de propietat codificat) arriben a l'Europa continental a través de Napoleó. L'emperador va destruir la república però va difondre les idees que l'havien feta possible."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ctx-03-01",
+              "style": "multiple-choice",
+              "question": "Hegel va escriure que havia vist Napoleó a Jena el 1806 i havia vist 'l'esperit del món a cavall'. Qué volia dir?",
+              "options": [
+                "Que Napoleó era la personificació de la violència irracional que havia destruït l'ordre racional de la Il·lustració",
+                "Que Napoleó representava el moment en que la idea de llibertat i la força històrica es fusionaven en un individu que portava el canvi de la historia cap endavant, independentment de les seves intencions personals",
+                "Que l'exèrcit de Napoleó era superior tècnicament a tots els exèrcits europeus i representava el triomf de la ciència i la raó sobre la tradició militar feudal",
+                "Que Hegel creia que Napoleó era un déu o una força sobrenatural més que un ésser humà ordinari"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Hegel veia en Napoleó la manifestació de l'Esperit Absolut en la historia: no un individu excepcional per les seves qualitats personals sinó un instrument de la lògica de la historia. Napoleó portava — independentment de les seves intencions — els principis de la Revolució (igualtat, codificació jurídica racional, fi del feudalisme) a tots els pobles que conquerís. Era el vehicle de la 'raó en la historia'. La ironia que Hegel no va poder veure completament era que aquell 'esperit del món' restabliria l'esclavitud a les colònies i coronaria un nou emperador.",
+              "feedbackWrong": "Hegel no estava parlant de violència irracional ni de superioritat tècnica ni de divinitat. Estava expressant la seva filosofia de la historia: els individus excepcionals que canvien el curs de la historia son els 'instruments' de la Lògica de l'Esperit — forces que porten cap endavant el moviment de la llibertat en la historia, independentment de les seves intencions conscients."
+            },
+            {
+              "type": "debate",
+              "question": "Napoleó va difondre els principis de la Revolució per Europa però ho va fer a través de la conquesta militar. Va ser un liberador o un conqueridor?",
+              "positionA": {
+                "label": "Conqueridor imperial",
+                "argument": "Independentment del contingut del Codi Napoleònic, la conquesta és conquesta. Els pobles d'Europa (alemanys, italians, espanyols, polonesos) no van demanar ser 'alliberats' pel dret francès. La imposició de la 'llibertat' per la força militar és una contradicció en els termes. El nacionalisme que va generar la resistència a Napoleó — i que va marcar la política europea del segle XIX — va ser una resposta a la humiliació de la conquesta, no una reacció irracional al progrés."
+              },
+              "positionB": {
+                "label": "Vehicle de la modernitat",
+                "argument": "Sense Napoleó, l'Europa feudal hauria trigat dècades o generacions a abolir els privilegis hereditaris, codificar el dret civil, i establir l'igualtat jurídica formal. Les elits feudals no van renunciar voluntàriament als seus privilegis — van haver de ser forçades. Que la força vingués de l'exterior no invalida el contingut de les reformes. L'alternativa a la conquesta napoleònica per a molts territoris no era la democràcia local sinó la persistència del feudalisme."
+              },
+              "reflection": "Pot la llibertat ser imposada per la força? I si el resultat és l'alliberament real de persones oprimides, canvia el judici moral sobre la imposició?",
+              "context": "El debat sobre Napoleó com a liberador o conqueridor es reprodueix en les discussions sobre la intervenció humanitària, la responsabilitat de protegir i la democratització per la força militar en el context contemporani."
+            }
+          ]
+        },
+        {
+          "id": "ctx-04",
+          "title": "La Revolució i el món: Haiti, Amèrica Llatina, Europa",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 22 d'agost de 1791, els esclaus de la part francesa de Saint-Domingue van iniciar una revolta que va durar tretze anys. Van derrotar successivament les tropes colonials franceses, les britàniques (que van intentar aprofitar el caos) i les de Napoleó. El 1804 van proclamar la República d'Haiti — la primera república negra del món i la primera nació fundada per una revolta d'esclaus. Van usar el vocabulari de la Revolució Francesa — llibertat, igualtat, drets naturals — per justificar una lluita que els propis francesos s'havien negat a aplicar als seus esclaus. Era la Revolució Francesa contra si mateixa."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Revolució Francesa va tenir un impacte global que els seus protagonistes no van preveure. A Amèrica Llatina, va inspirar els moviments d'independència. A Europa, va generar onades revolucionàries (1830, 1848). A les colònies, va crear el vocabulari que els esclaus i els colonitzats van usar per reivindicar la seva pròpia llibertat — sovint contra la pròpia França. Les idees revolucionàries van resultar ser incontrolables."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Pau, Conflicte i Guerra",
+              "moduleEmoji": "🕊️",
+              "concept": "La Revolució com a model de violència política legítima",
+              "text": "Al mòdul de Pau, Conflicte i Guerra vam explorar com les narratives de legitimitat de la violència política es construeixen i es transmeten. La Revolució Francesa va crear un model global: la violència popular contra un ordre injust pot ser legítima si es fa en nom dels drets del poble. Aquell model ha estat invocat en contextos radicalment diversos — des de la independència d'Haiti fins a les revolucions del segle XX. El problema és que el model no especifica qui és 'el poble' ni quines violències son legítimes — deixant-ho obert a interpretacions molt diverses."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ctx-04-01",
+              "style": "multiple-choice",
+              "question": "France va exigir a Haiti el 1825 una indemnització de 150 milions de francs a canvi de reconèixer la seva independència. Qué justificava França per exigir aquella compensació?",
+              "options": [
+                "El cost militar de les campanyes napoleòniques que Haiti havia derrotat, que France considerava un deute de guerra legítim",
+                "La compensació als antics propietaris d'esclaus francesos per la pèrdua de la seva 'propietat' — és a dir, dels esclaus alliberats per la revolució d'Haiti",
+                "El cost de les infraestructures que França havia construït a Saint-Domingue durant el període colonial i que Haiti heretava",
+                "Una penalització per la declaració unilateral d'independència que violava els tractats colonials existents entre França i Saint-Domingue"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La indemnització que França va exigir a Haiti — i que Haiti va haver de pagar durant 122 anys, fins al 1947 — era per compensar els antics propietaris d'esclaus francesos per la pèrdua de la seva 'propietat': els esclaus que s'havien alliberat. Era, en el sentit més literal, una factura per la llibertat: Haiti va haver de pagar a França per haver tingut l'audàcia d'aplicar els mateixos principis de la Revolució Francesa que França havia proclamat. El deute va condemnar Haiti a una pobresa estructural que els economistes han estimat en centenars de bilions de dòlars en termes actuals. França va reconèixer formalment la 'responsabilitat moral' (no legal) d'aquell deute el 2021.",
+              "feedbackWrong": "No era una deute de guerra ni un cost d'infraestructures ni una penalització per la declaració d'independència. Era, explícitament, una compensació als propietaris d'esclaus francesos per la 'propietat' perduda — és a dir, pels esclaus alliberats. Era la factura legal de la llibertat."
+            },
+            {
+              "type": "reflection",
+              "question": "La Revolució Francesa va proclamar que 'els homes neixen i romanen lliures i iguals en drets' — i els esclaus d'Haiti van usar aquelles mateixes paraules per justificar la seva rebel·lió. Però França els va cobrar per la seva llibertat durant més d'un segle. Qué diu aquest episodi sobre la relació entre les idees universals i els interessos particulars dels qui les proclamen?",
+              "prompt": "No és una pregunta retòrica: és la pregunta central de la política moderna."
+            }
+          ]
+        },
+        {
+          "id": "ctx-05",
+          "title": "La Contrarrevolució: les idees que van néixer en resposta",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La Revolució Francesa no va generar simplement liberals i republicans. Va generar el seu propi contrari: el conservadorisme modern, el tradicionalisme catòlic, el nacionalisme romàntic, i — a llarg termini — les primeres formulacions del socialisme. Sense la Revolució Francesa, no existirien ni el marxisme ni el conservadorisme en el seu format modern. La Revolució va crear el mapa polític del món contemporani."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Revolució Francesa va generar per reacció els corrents polítics que s'hi van oposar: el conservadorisme (Burke, Maistre), el catolicisme polític modern (Lamennais), el socialisme utòpic (Saint-Simon, Fourier, que van heretar la passió per la igualtat però van rebutjar el liberalisme burgès) i el nacionalisme romàntic (Herder, Fichte). La política moderna és la Revolució i les seves respostes."
+            },
+            {
+              "type": "expandable",
+              "label": "Joseph de Maistre: el reaccionarisme com a filosofia",
+              "content": "On Burke era prudent i pragmàtic, Joseph de Maistre era radical i absolutista. Va escriure que 'tota constitució escrita és nul·la' perquè la constitució d'una nació no és un document sinó el resultat de segles de tradició, cultura i provvidència divina. La Revolució era el càstig de Déu per la supèrbia de la raó il·lustrada. El botxí — l'instrument de la violència legítima de l'Estat — era per a De Maistre una figura sagrada, l'únic que podia mantenir l'ordre social. El papa havia de tenir autoritat suprema sobre tots els reis. De Maistre és important no perquè les seves idees específiques hagin triomfat sinó perquè va formular la primera filosofia política sistemàticament antimoderna: una crítica de la raó, de la igualtat i dels drets individuals que prefigura corrents del segle XX."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ctx-05-01",
+              "style": "multiple-choice",
+              "question": "El socialisme utòpic de Saint-Simon i Fourier va néixer parcialment com a resposta a la Revolució Francesa. Quin era el seu principal punt de crítica al resultat de la Revolució?",
+              "options": [
+                "Que la Revolució havia estat massa violenta i radical, i que el canvi social havia de ser pacífic i gradual per ser legítim",
+                "Que la Revolució havia proclamat la igualtat formal (davant la llei) però havia deixat intacta o havia aprofundit la desigualtat real (econòmica), substituint l'aristocràcia de sang per una aristocràcia de propietat",
+                "Que la Revolució havia destruït les institucions religioses que eren el fonament de la solidaritat social, generant un individualisme atomitzat i destructiu",
+                "Que la Revolució havia estat insuficientment radical en abolir la monarquia, i que l'únic sistema legítim era l'anarquia sense cap forma d'autoritat central"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La crítica socialista a la Revolució liberal era precisa: la igualtat davant la llei era real però insuficient si no anava acompanyada d'igualtat econòmica. La burgesia havia reemplaçat la noblesa com a classe dominant — amb la diferència que la seva dominació estava basada en la propietat i el capital en lloc del naixement. L'obrer lliure que venia la seva força de treball en el mercat no era fonamentalment diferent del serf que treballava la terra del senyor, argumentaven — simplement la seva sujecció era econòmica en lloc de jurídica. Saint-Simon volia una societat organitzada per tècnics i industrials per al bé col·lectiu. Fourier volia comunitats utòpiques voluntàries (falansteries). Marx, dues generacions més tard, radicalizaria la crítica.",
+              "feedbackWrong": "La crítica socialista no era principalment sobre la violència (tot i que alguns socialistes eren pacifistes) ni sobre la religió (De Maistre era el crític religiós) ni sobre el radicalisme insuficient en el sentit anarquista. La crítica central era sobre l'economia: la Revolució havia creat igualtat jurídica formal sense tocar l'estructura de la propietat i el capital, perpetuant la desigualtat real sota una nova forma."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ctx-05-01",
+              "question": "El conservadorisme modern, el liberalisme, el socialisme i el nacionalisme son els quatre grans corrents polítics del món modern, i tots quatre van néixer o van prendre la seva forma definitiva en resposta a la Revolució Francesa. Qué diu això sobre la relació entre els esdeveniments histories i les idees polítiques?",
+              "options": [
+                "Que les idees polítiques son simplement racionalitzacions dels interessos de classe dels qui les formulen, sense valor propi independent",
+                "Que els grans esdeveniments histories no creen idees de zero sinó que catalitzen la formulació sistemàtica d'idees que estaven latents en els debats anteriors",
+                "Que la política moderna és essencialment la repetició dels mateixos debats de 1789 amb noms i contexts canviats"
+              ],
+              "correct": 1,
+              "explanation": "La relació entre esdeveniments i idees és dialèctica, no de causalitat simple. La Revolució Francesa no va 'inventar' el conservadorisme ni el socialisme — Burke tenia predecessors i Saint-Simon no va néixer del res. Però sí va crear el context d'urgència política que va forçar la sistematització d'intuïcions que existien de manera difusa. Burke havia defès posicions 'conservadores' abans de la Revolució, però la Revolució va forçar-lo a articular-les com a filosofia política coherent. El socialisme utòpic va néixer de la constatació que la igualtat formal de la Revolució era insuficient. El nacionalisme romàntic va néixer de la resistència als principis universalistes de la Revolució. La idea que les idees son simplement racionalitzacions d'interessos (Marx) és parcial: els ideòlegs creuen genuïnament en les seves idees — però els contextos histórics determinen quines idees es formulen, per qui i amb quina urgència."
+            }
+          ]
+        },
+        {
+          "id": "ctx-06",
+          "title": "La Revolució avui: qué hem heretat i qué hem de continuar resolent",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1989 — exactament dos-cents anys després de la Revolució — van caure el mur de Berlín i els règims comunistes de l'Europa de l'Est. Molts van veure en aquell any la victòria definitiva dels principis de 1789. Francis Fukuyama va proclamar el 'fi de la historia': el liberalisme democràtic havia triomfat sobre totes les alternatives. Trenta anys després, el liberalisme democràtic enfronta les seves pròpies crisis. Les preguntes de 1789 — qui té drets?, qui és el poble?, fins on arriba la llibertat?, com compatibilitzar-la amb la igualtat? — no han rebut resposta definitiva. Seguim vivint-les."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Revolució Francesa no és simplement historia — és el marc en el qual la política moderna continua operant. Les seves tensions (llibertat vs. igualtat, raó vs. tradició, universalisme vs. particularisme, individu vs. comunitat) no han estat resoltes sinó renegociades en cada context. Cada generació hereta la Revolució i ha de decidir qué fa amb ella."
+            },
+            {
+              "type": "expandable",
+              "label": "La laïcitat francesa avui: quan el principi de 1789 es fa debat del XXI",
+              "content": "El principi de laïcitat (separació de l'Estat i la religió) va néixer de la Revolució Francesa com a garantia de la neutralitat de l'espai públic davant la dominació de l'Església catòlica. Dos segles després, el mateix principi s'aplica a debats sobre el vel islàmic a les escoles públiques, els símbols religiosos als espais públics i l'ensenyament religiós. El que el 1789 era un principi progressista (alliberar els ciutadans del poder eclesiàstic) genera avui debates sobre si és un principi que discrimina específicament les minories musulmanes. El principi no ha canviat — ha canviat el context en el qual s'aplica. Això és la herència de la Revolució en acció: principis que van néixer en un context concret han de ser reinterpretats en contextos radicalment diferent, sense que ningú sàpiga amb certesa qué hauria fet Robespierre amb el vel islàmic."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ctx-06-01",
+              "style": "multiple-choice",
+              "question": "Quin dels debats polítics actuals és una continuació més directa de les tensions no resoltes de la Revolució Francesa?",
+              "options": [
+                "El debat sobre el canvi climàtic: fins a quin punt l'Estat pot limitar la llibertat econòmica individual per protegir els béns comuns",
+                "El debat sobre la immigració: fins a quin punt els principis d'igualtat i drets humans s'apliquen als no-ciutadans",
+                "El debat sobre la regulació de la IA: com garantir que les tecnologies noves beneficiïn la col·lectivitat i no només els seus propietaris",
+                "Tots tres son continuacions directes de tensions de la Revolució Francesa"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exacte. Els tres debats son continuacions directes de tensions establertes el 1789. El canvi climàtic: la tensió entre llibertat econòmica (Locke: dret de propietat) i bé comú (Rousseau: voluntat general). La immigració: la tensió entre universalisme (els drets son de tot ésser humà) i particularisme (la ciutadania és un estatus específic). La regulació de la IA: la tensió entre llibertat d'innovació i igualtat en els beneficis del progrés. La Revolució no va resoldre cap d'aquestes tensions — va crear el vocabulari amb el qual les debatim.",
+              "feedbackWrong": "Tots tres debats son continuació de tensions de la Revolució. La Revolució no va resoldre la tensió entre llibertat individual i bé col·lectiu, entre universalisme i particularisme, ni entre llibertat econòmica i igualtat distributiva. Seguim usant el vocabulari de 1789 per debatre problemes que 1789 no va resoldre."
+            },
+            {
+              "type": "debate",
+              "question": "La Revolució Francesa és la mare de la democràcia liberal moderna o és igualment la mare del totalitarisme del segle XX?",
+              "positionA": {
+                "label": "Mare de la democràcia liberal",
+                "argument": "La Declaració dels Drets de l'Home, la sobirania popular, la separació de poders, la igualtat davant la llei, la laïcitat — tots els pilars de la democràcia liberal moderna deriven directament de la Revolució. El Terror va ser una aberració específica d'un moment de crisi extrema, no la lògica necessària de la Revolució. Les democràcies europees actuals son el millor llegat possible de 1789."
+              },
+              "positionB": {
+                "label": "Mare també del totalitarisme",
+                "argument": "El Terror no va ser una aberració sinó la lògica de la 'voluntat general' de Rousseau portada a la pràctica. Stalin, Hitler i Mao van invocar explícitament la Revolució Francesa i van reproduir la seva lògica: un avantgarda que encarna la voluntat del poble pot eliminar els enemics del poble en nom d'un futur millor. El totalitarisme del segle XX no va caure del cel — va créixer de la filosofia política de la Revolució, especialment de Rousseau."
+              },
+              "reflection": "Una mateixa font pot generar herències contradictòries. Qué diu això sobre la relació entre les idees i les seves conseqüències?",
+              "context": "Hannah Arendt, en 'Sobre la Revolució' (1963), va analitzar la diferència entre la Revolució Americana i la Francesa: la primera va fundar la llibertat sobre les institucions; la segona va posar la llibertat al servei de la necessitat (el pa, la misèria), el que va generar la dinàmica del Terror. El debat continua obert entre historiadors i filòsofs polítics."
+            },
+            {
+              "type": "reflection",
+              "question": "Has recorregut les idees, els fets i les conseqüències de la Revolució Francesa. Quin element d'aquest recorregut ha canviat o matisat la manera com pensaves sobre la Revolució? I quin principi de 1789 creus que segueix sent el més urgent de continuar construint?",
+              "prompt": "No cal ser revolucionari ni conservador per tenir una posició. Però tenir-ne una, i saber per qué, és part del llegat de la Revolució."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

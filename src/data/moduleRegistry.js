@@ -1,11 +1,50 @@
 export const MODULE_REGISTRY = [
-  { id: 'module-01-copernicus',  phase: 1, order: 1, file: () => import('./modules/module-01-copernicus.json') },
-  { id: 'module-02-history',     phase: 1, order: 2, file: () => import('./modules/module-02-history.json') },
-  { id: 'module-03-peace',       phase: 1, order: 3, file: () => import('./modules/module-03-peace.json') },
-  { id: 'module-04-philosophy',  phase: 1, order: 4, file: () => import('./modules/module-04-philosophy.json') },
-  { id: 'module-05-birding',     phase: 1, order: 5, file: () => import('./modules/module-05-birding.json') },
-  { id: 'module-06-chemistry',   phase: 1, order: 6, file: () => import('./modules/module-06-chemistry.json') },
-  { id: 'module-07-particles',   phase: 1, order: 7, file: () => import('./modules/module-07-particles.json') }
+  { id: 'module-01-copernicus',       phase: 1, order:  1, file: () => import('./modules/module-01-copernicus.json') },
+  { id: 'module-02-history',          phase: 1, order:  2, file: () => import('./modules/module-02-history.json') },
+  { id: 'module-03-peace',            phase: 1, order:  3, file: () => import('./modules/module-03-peace.json') },
+  { id: 'module-04-philosophy',       phase: 1, order:  4, file: () => import('./modules/module-04-philosophy.json') },
+  { id: 'module-05-birding',          phase: 1, order:  5, file: () => import('./modules/module-05-birding.json') },
+  { id: 'module-06-chemistry',        phase: 1, order:  6, file: () => import('./modules/module-06-chemistry.json') },
+  { id: 'module-07-particles',        phase: 1, order:  7, file: () => import('./modules/module-07-particles.json') },
+  // — Bloc: Historia Antiga —
+  { id: 'module-08-grecia',           phase: 1, order:  8, file: () => import('./modules/module-08-grecia.json') },
+  { id: 'module-09-roma',             phase: 1, order:  9, file: () => import('./modules/module-09-roma.json') },
+  { id: 'module-10-republic-crisis',  phase: 2, order: 10, file: () => import('./modules/module-10-republic-crisis.json') },
+  { id: 'module-11-augustus',         phase: 2, order: 11, file: () => import('./modules/module-11-augustus.json') },
+  { id: 'module-12-pax-romana',       phase: 2, order: 12, file: () => import('./modules/module-12-pax-romana.json') },
+  { id: 'module-13-fall',             phase: 2, order: 13, file: () => import('./modules/module-13-fall.json') },
+  { id: 'module-14-egipte',           phase: 1, order: 14, file: () => import('./modules/module-14-egipte.json') },
+  { id: 'module-15-egipte-origins',   phase: 2, order: 15, file: () => import('./modules/module-15-egipte-origins.json') },
+  { id: 'module-16-egipte-imperi',    phase: 2, order: 16, file: () => import('./modules/module-16-egipte-imperi.json') },
+  { id: 'module-17-egipte-religio',   phase: 2, order: 17, file: () => import('./modules/module-17-egipte-religio.json') },
+  { id: 'module-18-egipte-fi',        phase: 2, order: 18, file: () => import('./modules/module-18-egipte-fi.json') },
+  // — Bloc: Música —
+  { id: 'module-08-musica-classica',  phase: 1, order: 19, file: () => import('./modules/module-08-musica-classica.json') },
+  { id: 'module-09-historia-rock',    phase: 1, order: 20, file: () => import('./modules/module-09-historia-rock.json') },
+  // — Bloc: Ciències i Arts —
+  { id: 'module-10-neurociencia',       phase: 1, order: 21, file: () => import('./modules/module-10-neurociencia.json') },
+  { id: 'module-12-historia-ciencia',   phase: 1, order: 22, file: () => import('./modules/module-12-historia-ciencia.json') },
+  { id: 'module-13-historia-tecnologia',phase: 1, order: 23, file: () => import('./modules/module-13-historia-tecnologia.json') },
+  { id: 'module-11-pintura',            phase: 1, order: 24, file: () => import('./modules/module-11-pintura.json') },
+  // — Bloc: Política Moderna i Drets Humans —
+  { id: 'module-14-revolucio-francesa',              phase: 1, order: 25, file: () => import('./modules/module-14-revolucio-francesa.json') },
+  { id: 'module-15-fonaments-drets-humans',          phase: 1, order: 26, file: () => import('./modules/module-15-fonaments-drets-humans.json') },
+  { id: 'module-16-sistema-internacional-drets-humans', phase: 2, order: 27, file: () => import('./modules/module-16-sistema-internacional-drets-humans.json') },
+  { id: 'module-17-justicia-internacional',          phase: 2, order: 28, file: () => import('./modules/module-17-justicia-internacional.json') },
+  { id: 'module-18-casos-drets-humans',              phase: 2, order: 29, file: () => import('./modules/module-18-casos-drets-humans.json') },
+  { id: 'module-19-actors-no-estatals',              phase: 2, order: 30, file: () => import('./modules/module-19-actors-no-estatals.json') },
+  { id: 'module-20-fronteres-drets-humans',          phase: 2, order: 31, file: () => import('./modules/module-20-fronteres-drets-humans.json') },
+  // — Bloc: Economia —
+  { id: 'module-19-economia-mon',        phase: 1, order: 32, file: () => import('./modules/module-19-economia-mon.json') },
+  { id: 'module-22-economia-historia',   phase: 1, order: 33, file: () => import('./modules/module-22-economia-historia.json') },
+  { id: 'module-25-economia-micro',      phase: 1, order: 34, file: () => import('./modules/module-25-economia-micro.json') },
+  { id: 'module-20-economia-macro',      phase: 2, order: 35, file: () => import('./modules/module-20-economia-macro.json') },
+  { id: 'module-21-economia-desigualtat',phase: 2, order: 36, file: () => import('./modules/module-21-economia-desigualtat.json') },
+  { id: 'module-23-economia-escoles',    phase: 2, order: 37, file: () => import('./modules/module-23-economia-escoles.json') },
+  { id: 'module-24-economia-globalitzacio', phase: 2, order: 38, file: () => import('./modules/module-24-economia-globalitzacio.json') },
+  { id: 'module-28-piketty',             phase: 2, order: 39, file: () => import('./modules/module-28-piketty.json') },
+  { id: 'module-26-economia-comportament', phase: 2, order: 40, file: () => import('./modules/module-26-economia-comportament.json') },
+  { id: 'module-27-economia-jocs',       phase: 2, order: 41, file: () => import('./modules/module-27-economia-jocs.json') },
 ]
 
 export async function loadModule(moduleId) {

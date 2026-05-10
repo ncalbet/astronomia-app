@@ -1,0 +1,442 @@
+{
+  "id": "module-21-economia-desigualtat",
+  "title": "Desigualtat: Causes, Efectes i el Debat sobre la Redistribució",
+  "emoji": "⚖️",
+  "phase": 2,
+  "unlockRequires": "module-19-economia-mon",
+  "lessons": [
+    {
+      "id": "des-01",
+      "title": "Com mesurem la desigualtat (i per qué importa com ho fem)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1912, l'estadístic italià Corrado Gini va publicar un article on proposava una forma matemàtica de mesurar la desigualtat en una societat. El coeficient de Gini va entre 0 (igualtat perfecta: tothom guanya el mateix) i 1 (desigualtat perfecta: una persona té tot). Els EUA avui tenen un Gini al voltant de 0,41; Suècia, al voltant de 0,27; Sud-Àfrica, al voltant de 0,63. Però el Gini amaga tanta informació com en revela: dos països amb el mateix Gini poden tenir distribucions molt diferents (un pot tenir una classe mitjana gran amb extrems moderats; l'altre, una classe baixa immensa amb una elit petita però riquíssima). I el debat sobre si la desigualtat que mesurem és la rellevant per al benestar és un dels més actius de l'economia contemporània."
+        },
+        {
+          "type": "prediction",
+          "question": "Si mesures la desigualtat d'un país i el resultat és 0,35 en el coeficient de Gini, saps si aquell país és just? Qué no et diu el Gini que seria important saber?",
+          "hint": "Pensa en la diferència entre la distribució de la renda (fluxos anuals) i la distribució de la riquesa (patrimoni acumulat). I en si importa el nivell absolut o el relatiu."
+        },
+        {
+          "type": "key-idea",
+          "text": "La desigualtat econòmica té múltiples dimensions que les estadístiques estàndard capturen de forma imperfecta: la desigualtat de renda (fluxos anuals de salaris i beneficis), la desigualtat de riquesa (estocs acumulats de patrimoni), la desigualtat d'oportunitats (igualtat de condicions de partida), i la desigualtat de poder (qui influeix en les decisions col·lectives). Cadascuna té causes, efectes i solucions parcialment diferents."
+        },
+        {
+          "type": "quote",
+          "text": "Una societat en que el fill d'un repartidor de correu no pot arribar a ser metge no és una meritocracia. És una oligarquia hereditària disfressada de meritocracia.",
+          "author": "Michael Sandel, La Tirania del Mèrit (2020)"
+        },
+        {
+          "type": "expandable",
+          "label": "Renda vs. riquesa: dos tipus de desigualtat molt diferent",
+          "content": "La confusió entre desigualtat de renda i desigualtat de riquesa és freqüent però important. La renda és el que guanyes en un any (salari, dividends, lloguers). La riquesa és el que acumules al llarg de la vida (casa, accions, estalvis, herències). La desigualtat de riquesa és sistemàticament molt més gran que la de renda: als EUA, l'1% més ric concentra el 38% de la riquesa total però 'sols' el 20% de la renda. Per qué? Perquè la riquesa s'acumula de forma exponencial (els interessos compostos fan que qui ja té molt acumuli proporcionalment molt més), i perquè l'herència la transmet entre generacions. Un metge que guanya 200.000€ a l'any té una renda alta però és molt menys ric que un hereu de patrimoni industrial de 10 milions d'euros que viu dels seus dividends. La política redistributiva que ignora la riquesa i se centra sols en la renda ataca una part menor del problema."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-01-01",
+          "style": "multiple-choice",
+          "question": "Dos països A i B tenen el mateix PIB per capita i el mateix coeficient de Gini. El país A té una classe mitjana gran amb uns pocs molt rics i uns pocs molt pobres. El país B té una classe treballadora precària molt gran, una classe alta molt petita però molt rica, i gairebé sense classe mitjana. Quin dels dos té probablement un millor benestar per a la majoria?",
+          "options": [
+            "Són idèntics: el mateix PIB per capita i el mateix Gini garanteix el mateix nivell de benestar",
+            "El país A: la distribució de classe mitjana àmplia distribueix millor el benestar que la polarització del país B, malgrat el mateix Gini",
+            "El país B: tenir una classe alta molt rica genera més innovació i inversió que beneficia tothom via el creixement",
+            "Impossible de saber sense informació addicional sobre les polítiques socials"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El coeficient de Gini resumeix la distribució en un sol número però amaga la forma de la distribució. Dos països poden tenir el mateix Gini amb distribucions molt diferents: una forma de 'diamant' (classe mitjana gran) vs. una forma de 'rellotge de sorra' (poca classe mitjana, molta gent pobra i una elit petita molt rica). La forma diamant sol associar-se a més mobilitat social, més consum de massa que sostè l'economia, i més cohesió social. La forma rellotge de sorra genera més polarització política, menys mobilitat i menys consum intern. El Gini no captura la forma de la distribució — és una limitació important de la mesura.",
+          "feedbackWrong": "El coeficient de Gini no captura la forma de la distribució. Dos països amb el mateix Gini poden tenir distribucions molt diferents: una classe mitjana àmplia vs. una polarització extrema. La forma de la distribució importa molt per al benestar, la mobilitat social i la cohesió política, més del que el Gini sol pot mostrar."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-01-02",
+          "style": "detect-error",
+          "statement": "Als països més rics, la desigualtat de renda ha augmentat en les darreres dècades, però la desigualtat global (entre tots els habitants del món) ha disminuït gràcies al creixement dels països emergents.",
+          "isCorrect": true,
+          "feedbackCorrect": "Cert. Aquesta és una de les paradoxes més importants de la globalització: la desigualtat dins dels països rics ha augmentat (els salaris dels treballadors poc qualificats han estancat mentre els dels altament qualificats han crescut, i els beneficis del capital han crescut molt per sobre dels salaris). Però la desigualtat global (entre tots els habitants del planeta) ha disminuït perquè centenars de milions de persones a la Xina, l'Índia i d'altres economies emergents han sortit de la pobresa extrema i s'han incorporat a la classe mitjana global. Branko Milanovic ha documentat extensament aquest fenomen: el 'elefant de la globalització' — la corba que mostra que els que més han guanyat en la globalització han estat les classes mitjanes dels països emergents i l'1% més ric dels països rics, mentre les classes treballadores dels països avançats han guanyat molt poc.",
+          "feedbackWrong": "L'afirmació és essencialment correcta. La globalització ha tingut efectes molt asimètrics: ha reduït la pobresa extrema global (especialment a la Xina i l'Índia) mentre ha augmentat la desigualtat interna als països avançats. Branko Milanovic ha documentat aquest patró amb dades detallades en el que ha anomenat l'elefant de la globalització."
+        },
+        {
+          "type": "comparison",
+          "title": "Desigualtat de renda vs. desigualtat de riquesa als EUA (2023)",
+          "labelA": "Desigualtat de renda",
+          "labelB": "Desigualtat de riquesa",
+          "items": [
+            {
+              "label": "Share de l'1% més ric",
+              "a": "~20% de la renda total",
+              "b": "~38% de la riquesa total"
+            },
+            {
+              "label": "Share del 50% inferior",
+              "a": "~12% de la renda total",
+              "b": "~2,5% de la riquesa total"
+            },
+            {
+              "label": "Tendència des del 1980",
+              "a": "Augment significatiu",
+              "b": "Augment molt més pronunciat"
+            },
+            {
+              "label": "Principal font de desigualtat",
+              "a": "Diferències salarials i capital humà",
+              "b": "Herències, rendiment del capital, propietat immobiliària"
+            },
+            {
+              "label": "Coeficient de Gini",
+              "a": "~0,49 (alta per a un país ric)",
+              "b": "~0,87 (extremadament alta)"
+            }
+          ]
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-des-01-01",
+          "question": "Els països nòrdics (Suècia, Dinamarca, Noruega) combinen mercats oberts, empreses privades i una redistribució fiscal intensa, i resulten tenir tant baixa desigualtat com alta prosperitat. Quin és el factor principal que explica el seu èxit, que altres països no han pogut replicar?",
+          "options": [
+            "La cultura homogènia i la confiança social alta que facilita la cooperació i els sistemes de benestar universals",
+            "Les institucions laborals (negociació col·lectiva centralitzada, alta sindicalització) que distribueixen els guanys de la productivitat de forma àmplia",
+            "La combinació de múltiples factors (cultura, institucions, mida petita, riquesa natural) que fa el model difícil de replicar exactament però del qual es poden extreure lliçons parcials"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és l'argument culturalista: els nòrdics cooperen perquè tenen una cultura homogènia de confiança. Té suport empíric (la confiança social és molt alta als nòrdics) però és parcialment circular (la confiança és també un producte de les institucions, no sols la seva causa) i implica que el model és intransferible a societats més diverses. La posició B és l'argument institucionalista: les institucions laborals nòrdiques (sindicats forts, negociació col·lectiva centralitzada, polítiques actives del mercat laboral) distribueixen els guanys de la productivitat de forma molt més àmplia que els mercats desregulats. Té suport fort: Finlàndia va adoptar el model nòrdic amb una cultura diferent de Suècia i va obtenir resultats similars. La posició C és la que els politòlegs i economistes comparatius tendeixen a defensar: el model nòrdic és el resultat de múltiples factors que s'alimenten mútuament (institucions laborals, política fiscal, cultura de confiança, Estat del benestar universal que manté la mobilitat, dimensions petites que faciliten la cohesió). Cap factor únic explica tot, però el que sí es pot transferir és el disseny institucional (negociació col·lectiva, universalitat de l'Estat del benestar, inversió en formació) independentment de la cultura específica."
+        }
+      ]
+    },
+    {
+      "id": "des-02",
+      "title": "Causes de la desigualtat creixent: tecnologia, globalització i política",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Des del 1980, la desigualtat als EUA i a molts països europeus ha augmentat de forma sostinguda. El sou d'un CEO americà que el 1980 equivalia a 40 vegades el salari mitjà de la seva empresa, el 2023 equivalia a 350 vegades. El 1970, un treballador sense estudis universitaris als EUA podia permetre's comprar una casa, sustentar una família i estalviar per a la jubilació. El 2023, gairebé no podia pagar el lloguer. Qué ha canviat? Economists, sociòlegs i politòlegs discrepan: la tecnologia que prima les habilitats cognitives? La globalització que deprimeix els salaris de la manufactura? Les polítiques que han afeblit els sindicats i retallat impostos als rics? O simplement el que diu Piketty, que r > g és la norma del capitalisme?"
+        },
+        {
+          "type": "prediction",
+          "question": "Des del 1980, la desigualtat als EUA ha augmentat enormement. Però el mateix ha passat en menor mesura a Escandinàvia, que ha patit la mateixa tecnologia i la mateixa globalització. Si les forces econòmiques son les mateixes, per qué els resultats son tan diferents?",
+          "hint": "Pensa en el que diferencia als EUA d'Escandinàvia: institutions laborals, polítiques fiscals, Estat del benestar, poder sindical."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'augment de la desigualtat als països avançats des del 1980 té causes múltiples que es reforcen mútuament: el canvi tecnològic que prima les habilitats cognitives (skill-biased technical change), la globalització que exerceix pressió a la baixa sobre els salaris poc qualificats, l'erosió del poder sindical, les polítiques fiscals que han reduït la progressivitat, i la dinàmica de r > g de Piketty que concentra el capital. Separar la contribució relativa de cada factor és un dels reptes més difícils de l'economia empírica contemporània."
+        },
+        {
+          "type": "expandable",
+          "label": "El canvi tecnològic esbiaixat per habilitats: per qué la tecnologia no beneficia tothom igual",
+          "content": "La teoria del 'skill-biased technical change' (SBTC) argumenta que les tecnologies dels darrers quaranta anys (ordinadors, robots, intel·ligència artificial) augmenten la productivitat dels treballadors qualificats però substitueixen els poc qualificats. Un economista amb un ordinador és molt més productiu; un obrer de cadena de muntatge en una fàbrica automatitzada, menys necessari. El resultat és l'augment de la prima salarial per als qualificats i l'estancament o caiguda dels salaris dels poc qualificats. Però la SBTC no explica tot: els salaris dels directors executius i dels financers han crescut molt per sobre dels quals prediu la teoria basada en habilitats. Daron Acemoglu ha argumentat que les tecnologies actuals no son neutrals — hi ha una elecció sobre quin tipus de treball substitueixen, i les eleccions tecnològiques de les empreses estan influenciades pels incentius fiscals i regulatoris que les fan. La tecnologia no determina la desigualtat de forma inevitable — les polítiques que envolta el seu desplegament importa molt."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-02-01",
+          "style": "multiple-choice",
+          "question": "El 'efecte del mercat guanyador' (winner-take-all markets) s'ha intensificat amb la digitalització. En qué consisteix i com contribueix a la desigualtat?",
+          "options": [
+            "En que les empreses més grans guanyen tots els contractes públics, excloent les petites del mercat",
+            "En que en mercats on el producte millor pot arribar a tothom a cost marginal zero (música, programari, plataformes), un sol actor dominant pot capturar quasi tota la demanda global, generant riqueses extremes per als guanyadors i deixant molt poc per als altres",
+            "En que els treballadors més productius s'emporten tots els augments salarials, deixant la resta sense pujades",
+            "En que els mercats financers premien desproporcionadament les empreses que guanyen quota de mercat, independentment dels seus beneficis"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. En l'era digital, molts mercats s'han convertit en 'winner-take-all' o 'winner-take-most'. Quan el cost de distribuir un producte digital (una cançó, un programari, una plataforma) a un usuari addicional és pràcticament zero, el millor producte pot capturar quasi tota la demanda global. Spotify pot tenir 600 milions d'usuaris amb gairebé els mateixos costos que 60 milions. Google pot servir el 90% de les cerques mundials. Això genera riqueses extraordinàries per als pocs guanyadors (i concentra aquestes riqueses en uns pocs individus i empreses) mentre els competidors, que podrien ser gairebé tan bons, reben molt poc. El resultat és una distribució molt més desigual de la riquesa que en mercats tradicionals on els costos de distribució physical limitaven la mida de qualsevol empresa.",
+          "feedbackWrong": "Els mercats 'winner-take-all' es refereixen a la dinàmica de les plataformes digitals i els béns amb cost marginal zero: quan el millor producte pot arribar a tothom al mateix cost, els guanyadors capturan quasi tot el mercat. Spotify, Google, Netflix — un sol actor dominant que captura la majoria de la demanda global, generant riqueses extraordinàries per als pocs al capdamunt mentre els competidors rebren molt poc malgrat ser quasi tan bons."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-02-02",
+          "style": "detect-error",
+          "statement": "La desigualtat als EUA ha augmentat principalment perquè els treballadors poc qualificats han perdut productivitat en les darreres dècades, de manera que els seus salaris més baixos reflecteixen simplement el seu menor valor econòmic.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és econòmicament incorrecta. La productivitat dels treballadors americans (incloent els poc qualificats) ha augmentat substancialment des del 1980 — aproximadament un 75% en termes reals. Però els salaris mitjos reals dels treballadors del percentil 50 i inferiors han crescut molt menys o s'han estancat. Això implica que hi ha hagut una 'desconnexió' entre productivitat i salaris: els guanys de productivitat s'han distribuït de forma molt desigual, anant de forma desproporcionada als beneficis empresarials i als salaris dels executius. Les causes d'aquesta desconnexió inclouen: l'erosió del poder sindical (que redueix la capacitat dels treballadors de capturar guanys de productivitat), les polítiques fiscals favorables al capital, i les dinàmiques de concentració empresarial. No és que els treballadors valguin menys — és que el seu poder de negociació ha disminuït."
+        },
+        {
+          "type": "quote",
+          "text": "El problema no és que la desigualtat sigui dolenta en si mateixa. El problema és que en el punt actual, als EUA, la desigualtat és tan extrema que perjudica el creixement econòmic, la mobilitat social i la democràcia.",
+          "author": "Joseph Stiglitz, El Preu de la Desigualtat (2012)"
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-des-02-01",
+          "question": "La desigualtat als EUA ha augmentat molt més que als països nòrdics malgrat que tots han experimentat el mateix canvi tecnològic i la mateixa globalització. Qué diu aquest fet sobre el rol de les polítiques vs. les forces econòmiques en la determinació de la desigualtat?",
+          "options": [
+            "Que les polítiques son el factor principal: la desigualtat és essencialment una opció política, no el resultat inevitable de forces econòmiques",
+            "Que les forces econòmiques son el factor principal: els nòrdics podrien tenir la mateixa desigualtat que els EUA però les dades estadístiques la amaguen",
+            "Que les polítiques poden modular les forces econòmiques però no eliminar-les: la tecnologia i la globalització creen pressió vers la desigualtat, però les institucions i polítiques determinen quanta d'aquesta pressió es tradueix en desigualtat real"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la lectura progressista: la desigualtat és fonamentalment una opció política, i els països que volen pot tenir menys desigualtat. Hi ha suport empíric fort: els nòrdics, el Canadà i molts europeus han mantingut desigualtat baixa malgrat les mateixes forces tecnològiques i globals. La posició B és difícilment defensable empíricament: les dades nòrdiques son robustes i el seu model ha estat extensivament analitzat. La posició C és la síntesi que l'evidència comparativa suporta millor: els EUA i Suècia han experimentat les mateixes forces (digitalització, globalització), però les institucions laborals sueques (sindicats forts, negociació centralitzada), les polítiques fiscals més progressives i l'Estat del benestar universal han fet que menys de la pressió tecnológica es traduís en desigualtat de resultats. Les forces econòmiques creen la presió; les institucions i polítiques determinen quant d'aquesta pressió arriba als individus en forma de desigualtat. La desigualtat no és 'inevitable' — però tampoc és arbitrària."
+        }
+      ]
+    },
+    {
+      "id": "des-03",
+      "title": "Mobilitat social: el somni americà i la seva realitat",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 'somni americà' diu que qualsevol persona, sigui quin sigui el seu origen familiar, pot pujar socialment si treballa prou dur. Raj Chetty, un economista de Harvard, va decidir mesurar si era cert usant les dades fiscals de desenes de milions d'americans. Va descobrir quelcom sorprenent: la probabilitat que un nen nascut en el 20% més pobre de la distribució de renda arribi al 20% més ric depèn molt de on ha nascut geogràficament. A Salt Lake City, Utah, és del 11%. A Charlotte, Carolina del Nord, és del 4%. I la mobilitat intergeneracional als EUA és sistemàticament inferior a la d'altres països rics, inclosos molts països europeus. El país que s'identifica amb la mobilitat social és, empíricament, menys mòbil que molts dels seus rivals."
+        },
+        {
+          "type": "prediction",
+          "question": "Un nen que neix a Salt Lake City té el triple de probabilitats d'arribar a la classe alta que un que neix a Charlotte. Tots dos son ciutadans dels EUA, el país del 'somni americà'. Qué creus que explica diferències tan grans de mobilitat entre ciutats del mateix país?",
+          "hint": "Pensa en el que diferencia les dues ciutats: segregació residencial, qualitat de les escoles, xarxes de suport social, oportunitats econòmiques locals."
+        },
+        {
+          "type": "key-idea",
+          "text": "La mobilitat social intergeneracional — la probabilitat que un fill tingui un estatus socioeconòmic diferent (millor o pitjor) del dels seus pares — és una de les mesures més importants de si una societat és justa. Paradoxalment, els EUA, que s'identifiquen amb el somni americà, tenen menys mobilitat intergeneracional que la majoria de països europeus avançats."
+        },
+        {
+          "type": "misconception",
+          "belief": "Els EUA son el país amb major mobilitat social del món desenvolupat, confirmant el 'somni americà'.",
+          "reality": "Els EUA son un dels països amb menor mobilitat social intergeneracional entre els països rics, sistemàticament per darrere de Dinamarca, Noruega, Canadà i molts altres europeus. La probabilitat de sortir de la pobresa si hi neixes és molt menor als EUA que a la majoria de països europeus.",
+          "why": "El mite de la mobilitat americana és molt anterior a les dades sistemàtiques sobre mobilitat intergeneracional. S'ha mantingut com a narrativa identitaria nacional malgrat que les evidències empíriques la contradiuen de forma sostinguda."
+        },
+        {
+          "type": "expandable",
+          "label": "La corba del gran Gatsby: la relació entre desigualtat i mobilitat",
+          "content": "L'economista Miles Corak va descobrir una relació empírica notable que l'economista Paul Krugman va batejar com la 'corba del gran Gatsby': els països amb major desigualtat tendeixen a tenir menor mobilitat social intergeneracional. Els EUA, Regne Unit i Itàlia estan al quadrant d'alta desigualtat / baixa mobilitat. Dinamarca, Suècia i Noruega estan al quadrant de baixa desigualtat / alta mobilitat. La relació és intuïtiva: en una societat molt desigual, les famílies riques poden invertir molt més en l'educació, la salut i les connexions socials dels seus fills. La distància entre els punts de partida és tan gran que és molt difícil que els fills dels pobres arribin al punt de partida dels rics, per molt que treballin. La mobilitat social no és simplement una qüestió de mèrit individual — és una funció de l'estructura de la societat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-03-01",
+          "style": "multiple-choice",
+          "question": "L'estudi de Raj Chetty va mostrar que la mobilitat social als EUA varia enormement per zones geogràfiques. Quin factor es correlaciona més fortament amb alta mobilitat en una zona?",
+          "options": [
+            "La presència de grans empreses tecnològiques que creen llocs de treball ben pagats accessibles a tothom",
+            "La barreja racial i socioeconòmica dels barris i les escoles, la qualitat de l'educació pública i la presència de famílies biparentals estables",
+            "El clima favorable que atrau inversions i emprenedors que creen oportunitats per a tothom",
+            "La presència d'universitats d'elit que permeten als fills de famílies pobres accedir a la millor educació"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Chetty i els seus col·laboradors van identificar cinc factors associats a zones d'alta mobilitat: menor segregació residencial i escolar (barris socialment mixtes on els nens de famílies pobres interaccionen amb els de famílies riques), millor qualitat de les escoles primàries i secundàries, menor delinqüència, major presència de famílies biparentals estables (no com a judici moral sinó com a correlat de xarxes de suport social), i major capital social (associacionisme, confiança). La presència d'universitats d'elit ajuda però és menys determinant que la qualitat de l'educació bàsica. La segregació residencial és el factor que més consistentment prediu la baixa mobilitat.",
+          "feedbackWrong": "Els factors que Chetty va identificar no son principalment econòmics en el sentit de la presència de grans empreses o universitats d'elit. Son factors socials i educatius: integració dels barris (absència de segregació), qualitat de l'educació pública bàsica i capital social. La segregació residencial i escolar és el factor que més consistentment es correlaciona amb baixa mobilitat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-03-02",
+          "style": "true-false",
+          "question": "Els països amb major igualtat d'ingressos tendeixen a tenir major mobilitat social intergeneracional, segons l'evidència empírica comparativa.",
+          "correct": true,
+          "feedbackCorrect": "Cert. Aquesta és la 'corba del gran Gatsby' de Miles Corak: la correlació empírica entre igualtat (baix coeficient de Gini) i mobilitat intergeneracional (baixa correlació entre la renda dels pares i la dels fills). Dinamarca, Finlàndia, Noruega i Suècia estan al quadrant de baixa desigualtat / alta mobilitat. EUA, Regne Unit i Itàlia al quadrant de desigualtat alta / mobilitat baixa. La interpretació causal és plausible: quan hi ha molta desigualtat, les famílies riques poden invertir molt en els seus fills (escoles privades, tutors, xarxes de connexions) cosa que fa que la posició social sigui molt determinada per la família d'origen. Quan la desigualtat és baixa, la distància entre el punt de partida dels fills de famílies pobres i el dels fills de famílies riques és menor, i la meritocracia funciona millor.",
+          "feedbackWrong": "La correlació és real i ben documentada. La corba del gran Gatsby mostra que els països amb major igualtat (Escandinàvia) tendeixen a tenir major mobilitat social. El país del 'somni americà', els EUA, és un dels menys mòbils socialment entre els països rics — precisament perquè la seva alta desigualtat crea barreres estructurals a la mobilitat."
+        },
+        {
+          "type": "debate",
+          "question": "Una societat mèritocràtica diu recompensar el talent i l'esforç individuals. Però si el punt de partida depèn de la família on has nascut, és la meritocracia una ficció que legitima la desigualtat hereditària? O la meritocracia, malgrat les seves imperfeccions, és el millor sistema possible per assignar oportunitats?",
+          "positionA": {
+            "label": "La meritocracia és una ficció legitimadora",
+            "argument": "En una societat molt desigual, el mèrit individual no es mesura en condicions iguals. Un nen ric rep millor educació, millors connexions i més recursos econòmics per explorar el seu talent. Quan arriba als 25 anys i ha 'triomfat', no és cert que hagi triomfat sols pel seu mèrit. La meritocracia legitima els resultats com si fossin mèrit quan en realitat reflecteixen origen familiar. Michael Sandel ('La Tirania del Mèrit') argumenta que la ideologia mèritocràtica genera arrogància en els guanyadors i humiliació en els perdedors."
+          },
+          "positionB": {
+            "label": "La meritocracia imperfecta és millor que les alternatives",
+            "argument": "Cap sistema d'assignació d'oportunitats és perfecte. L'alternativa a la meritocracia — assignar per família (aristocràcia), per connexions (clientelisme) o per sorteig aleatori — és pitjor per a la innovació, l'eficiència i la justícia. La solució no és abandonar la meritocracia sinó igualar les condicions de partida: millor educació pública, xarxes de suport social universals. Meritocracia + igualtat d'oportunitats és l'ideal, no la meritocracia per si sola."
+          },
+          "reflection": "El filòsof John Rawls va proposar el 'vel d'ignorància': imagina que has de dissenyar la societat sense saber en quina posició neixes. Quina distribució de riquesa i oportunitats triaries? Canviaria la teva resposta si sabessis que tens un 50% de probabilitats de néixer en el 20% més pobre?",
+          "context": "El debat sobre la meritocracia ha revifat intensament als anys 2010-2020 amb llibres com 'La Tirania del Mèrit' de Michael Sandel (2020) i 'The Meritocracy Trap' de Daniel Markovits (2019), que argumenten que la meritocracia moderna genera noves formes d'aristocràcia basada en el capital educatiu."
+        }
+      ]
+    },
+    {
+      "id": "des-04",
+      "title": "Redistribució: eines, límits i debats",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1950, als EUA, el tipus marginal màxim de l'impost sobre la renda era del 91%. Els rics pagaven quasi tot el que guanyaven per sobre d'un llindar. El país estava en plena expansió econòmica, la classe mitjana creixia i la desigualtat era mínima comparada amb avui. El 2023, el tipus màxim federal és del 37%. La desigualtat és la més alta des dels anys 20. Coincidència o causalitat? L'augment dels tipus dels anys 50 va matar la innovació o va facilitar la classe mitjana? La reducció dels 80 va alliberar el creixement o va concentrar la riquesa? El debat sobre la imposició òptima és un dels més intensos i valuosos de l'economia aplicada."
+        },
+        {
+          "type": "prediction",
+          "question": "El 1950 als EUA el tipus marginal màxim de l'impost era del 91% i l'economia creixia ràpidament. El 2023 és del 37% i el creixement és menor. Qué diu aquest fet sobre la relació entre impostos i creixement? Creus que hi ha una relació causal?",
+          "hint": "Pensa en la diferència entre correlació i causalitat, i en tots els altres factors que van canviar entre el 1950 i el 2023 (la guerra freda, la globalització, la tecnologia, els sindicats)."
+        },
+        {
+          "type": "key-idea",
+          "text": "La redistribució econòmica es fa principalment via tres instruments: els impostos progressius (qui guanya més paga proporcionalment més), les transferències socials (prestacions d'atur, pensions, ajudes a famílies pobres) i els serveis públics universals (sanitat, educació). Cada instrument té avantatges, límits i efectes sobre els incentius que generen debat econòmic intens."
+        },
+        {
+          "type": "expandable",
+          "label": "La corba de Laffer i la desgravació fiscal: el límit de la imposició",
+          "content": "El 1974, l'economista Arthur Laffer va dibuixar en un tovalló de restaurant una corba que tindria un impacte polític immens. La idea: si el tipus impositiu és 0%, la recaptació és zero (no hi ha impost). Si el tipus és 100%, la recaptació també és zero (ningú treballa si li agafen tot). Algú al mig hi ha un tipus màxim que maximitza la recaptació. Si el tipus actual és superior al màxim, una rebaixa fiscal augmentaria la recaptació perquè la gent treballaria i invertia més. Reagan i Thatcher van usar la corba de Laffer per justificar les seves rebaixes fiscals als rics als anys 80. El problema econòmic és que ningú sap on és el punt màxim de la corba. La evidència empírica de les rebaixes fiscals de Reagan suggereix que els tipus eren probablement per sota del màxim de la corba — les rebaixes van reduir la recaptació i van augmentar el dèficit en lloc d'augmentar-la. Però el principi de la corba és vàlid: en algun punt, impostos excessivament alts desincentiven l'activitat. El debat és empíric: on és aquell punt, i els tipus actuals estan per sobre o per sota d'ell?"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-04-01",
+          "style": "multiple-choice",
+          "question": "La Renda Bàsica Universal (RBU) proposa donar a tots els ciutadans una renda incondicional, independentment dels seus ingressos. Quin és l'argument econòmic principal a favor?",
+          "options": [
+            "Que elimina la necessitat de treballar per a qui no vol, creant una societat d'oci i creativitat",
+            "Que elimina les trampes de la pobresa dels sistemes de subsidis condicionals, simplifica la burocràcia del benestar i dóna poder de negociació als treballadors davant els empresaris",
+            "Que és la forma més eficient de redistribuir la riquesa perquè els rics paguaran la RBU dels pobres via impostos",
+            "Que garanteix que ningú treballarà per sous de misèria perquè tothom té un ingrés mínim garantit"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Els arguments econòmics principals a favor de la RBU no son sobre l'oci sinó sobre l'eficiència i el poder de negociació. Primer, la 'trampa de la pobresa': molts sistemes de subsidis actuals penalitzen el treball — quan una persona pobra comença a treballar, perd els subsidis, de manera que l'incentiu net de treballar és baix o negatiu. Una RBU incondicional no desincentiva el treball perquè no es perd al treballar. Segon, simplifica enormement la burocràcia del benestar (un sol pagament universal en lloc de desenes de programes específics). Tercer, dóna poder de negociació als treballadors: si pots rebutjar un treball terrible sense quedar sense res, els empresaris hauran d'oferir millors condicions. Milton Friedman defensava una versió de la RBU (l'impost negatiu sobre la renda) per raons d'eficiència.",
+          "feedbackWrong": "Els arguments econòmics a favor de la RBU no son principalment sobre l'oci. Son sobre les trampes d'incentius dels sistemes actuals de subsidis (que desincentiven el treball dels pobres al condicionar-hi els ajuts), la simplificació de la burocràcia del benestar i el poder de negociació que dóna als treballadors. Friedman, un liberal de mercat, defensava una versió de la RBU per raons d'eficiència."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-04-02",
+          "style": "detect-error",
+          "statement": "L'impost sobre successions (herències) és econòmicament ineficient perquè desincentiva l'estalvi i la inversió: si els rics saben que l'Estat agafarà la seva riquesa en morir, no treballaran ni invertiran tant.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'argument és parcialment incorrecte. Des d'un punt de vista econòmic, l'impost sobre successions és en realitat un dels impostos menys distorsionadors per a la conducta econòmica productiva. Les persones no treballen i inverteixen principalment per deixar una herència — treballen i inverteixen per consumir i per seguretat pròpia. L'argument que la por a pagar l'impost sobre successions reduirà l'esforç del pare durant la seva vida és empíricament dèbil: la major part de l'acumulació de capital es fa per motius de consum i seguretat pròpia, no de llegat. L'impost sobre successions té problemes pràctics reals (valoració d'actius il·líquids com empreses familiars, evasió via planificació fiscal) però l'argument de la desincentivació de la productivitat és el més feble dels que es fan contra ell."
+        },
+        {
+          "type": "comparison",
+          "title": "Instruments de redistribució: avantatges i límits",
+          "labelA": "Impostos progressius sobre la renda",
+          "labelB": "Impost sobre la riquesa / successions",
+          "items": [
+            {
+              "label": "Què grava",
+              "a": "Els fluxos anuals de renda (salaris, beneficis)",
+              "b": "Els estocs de riquesa acumulada (patrimoni)"
+            },
+            {
+              "label": "Efecte sobre desigualtat",
+              "a": "Redueix la desigualtat de renda; no ataca la de riquesa",
+              "b": "Ataca directament la concentració patrimonial i les herències"
+            },
+            {
+              "label": "Problemes principals",
+              "a": "Evasió via paradisos fiscals; desincentius a certs tipus de treball",
+              "b": "Valoració difícil d'actius il·líquids; evasió via estructures legals"
+            },
+            {
+              "label": "Exemple real",
+              "a": "Tipus marginals del 50-60% als nòrdics",
+              "b": "Impost sobre successions alt a França; molt baix o inexistent als EUA estatals"
+            }
+          ]
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-des-04-01",
+          "question": "Piketty i els seus col·laboradors (Saez, Zucman) proposen un impost global progressiu sobre la riquesa net (del 1 al 2% anual per a grans patrimonis) per finançar la redistribució i limitar la concentració. Els crítics diuen que destruiria el capital productiu i és impossible de implementar. Com avalues la proposta?",
+          "options": [
+            "És desitjable i factible: la coordinació fiscal internacional és possible com ho ha demostrat el mínim global d'impost de societats del 15%",
+            "És desitjable en teoria però impracticable: l'evasió via paradisos fiscals faria que recaptés molt poc mentre destruïa el capital productiu que no pot escapar",
+            "Depèn del disseny: un impost sobre la riquesa ben dissenyat (amb coordinació internacional, exempcions per a capital productiu, taxes moderades) podria ser viable; un mal dissenyat seria contraproduent"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és optimista: el mínim global del 15% per a societats (aprovat per 140 països el 2021) demostra que la coordinació fiscal internacional és possible. La implementació va ser imperfecta (molts paradisos fiscals van trobar exempcions) però va ser un pas real. La posició B és la crítica dels economistes de mercat: sense coordinació total, l'impost sobre la riquesa impulsa l'evasió cap a jurisdiccions sense impost. L'experiència de França amb el seu ISF (impost sobre la solidaritat sobre la fortuna) — que va generar una fuga de capitals cap a Bèlgica i que Macron va abolir el 2017 — és citada com a evidència d'aquesta vulnerabilitat. La posició C integra les dues: el problema no és si l'impost és desitjable (Piketty ha demostrat empíricament que la concentració de riquesa és un problema estructural del capitalisme) sinó si és implementable sense generar desincentius o evasió massius. El disseny importa enormement: taxes moderades (1-2%), coordinació internacional, exempcions per a capital invertit productivament i mecanismes anti-evasió podrien fer-ho viable. La proposta de Piketty és una contribució important al debat sobre les eines de redistribució del segle XXI, independentment de si s'implementa exactament com ell la proposa."
+        }
+      ]
+    },
+    {
+      "id": "des-05",
+      "title": "Pobresa: definicions, causes i polítiques",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1964, el president Lyndon Johnson va declarar la 'guerra a la pobresa' als EUA. Va crear el Medicaid, el Food Stamps, el Head Start. Cinquanta anys i bilions de dòlars més tard, la taxa de pobresa als EUA era gairebé la mateixa que al 1964. Els crítics conservadors deien que les polítiques de benestar havien creat dependència i desincentivat el treball. Els defensors progressistes deien que les polítiques havien estat insuficients o mal dissenyades. Ambdues parts tenien part de raó. I la definició de pobresa que usaven — un llindar de renda absolut fixat el 1963 sense actualitzar per la inflació real dels costos de vida — feia la pregunta gairebé irrespondible."
+        },
+        {
+          "type": "key-idea",
+          "text": "La pobresa pot mesurar-se de dues formes radicalment diferents: la pobresa absoluta (un llindar fix d'ingressos per cobrir les necessitats bàsiques) i la pobresa relativa (un percentatge de la renda mediana del país). Les dues mesures responen a preguntes diferents i generen conclusions polítiques molt diverses. Un país pot tenir tothom per sobre de la pobresa absoluta i tanmateix tenir una alta taxa de pobresa relativa."
+        },
+        {
+          "type": "expandable",
+          "label": "La trampa de la pobresa i el cercle viciós de la desigualtat",
+          "content": "La 'trampa de la pobresa' descriu el conjunt de mecanismes que dificulten sortir de la pobresa un cop s'hi és: manca de capital per a inversions bàsiques (educació, habitatge de qualitat, salut preventiva), costos fixos de subsistència que consumeixen tots els ingressos disponibles, sistemes de subsidis que penalitzen l'increment d'ingressos, i limitacions cognitives causades per la privació material (Mullainathan i Shafir, 'Escassetat', 2013). Un dels descobriments més importants de l'economia del desenvolupament dels darrers anys és que moltes de les decisions 'irracionals' de les persones pobres (no estalviar, no usar serveis preventius, prendre crèdit car) son en realitat respostes racionals a una situació de privació que absorbeix tota la 'amplada de banda' cognitiva. La pobresa no és principalment una qüestió de caràcter o decisions individuals — és una trampa sistèmica que requereix intervencions sistèmiques."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-05-01",
+          "style": "multiple-choice",
+          "question": "Quin tipus de política anti-pobresa ha demostrat resultats empírics més robustos en els assajos controlats aleatoris (RCTs) dels darrers vint anys?",
+          "options": [
+            "Les polítiques d'educació moral i treball dur que canvien les actituds de les persones en situació de pobresa",
+            "Les transferències directes en efectiu sense condicions, que permeten a les llars pobres decidir com satisfer les seves necessitats prioritàries",
+            "Les polítiques de microcrèdit que donen accés al capital als pobres per crear petites empreses",
+            "Les polítiques de formació laboral que ensenyen habilitats professionals a les persones aturades"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La recerca empírica en economia del desenvolupament dels darrers vint anys (molt associada al treball de Banerjee, Duflo i Kremer, Nobels 2019) ha mostrat que les transferències directes en efectiu sense condicions son una de les intervencions anti-pobresa més eficaces i de millor relació cost-efectivitat. Contra la intuïció que els pobres malbaraten les transferències en alcohol o béns de luxe, els estudis troben consistentment que gasten els diners en aliments, educació i salut. L'organització GiveDirectly (que fa transferències directes a famílies kenianes) ha demostrat resultats sòlids i duradors. Les polítiques de microcrèdit, per contra, han tingut resultats molt més mixtos del que la narrativa popular sobre el Grameen Bank suggeria.",
+          "feedbackWrong": "La recerca empírica en economia del desenvolupament — especialment els assajos controlats aleatoris (RCTs) de Banerjee, Duflo i Kremer (Nobels 2019) — ha mostrat que les transferències directes en efectiu son sovint les intervencions més eficaces. Els pobres usen els diners rebuts principalment en necessitats bàsiques (aliments, educació, salut), no en béns de luxe o alcohol. El microcrèdit, malgrat la seva popularitat, ha tingut resultats empírics més febles."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-05-02",
+          "style": "detect-error",
+          "statement": "La pobresa als països avançats és principalment el resultat de decisions individuals incorrectes i falta de motivació per treballar, no de factors estructurals.",
+          "isCorrect": false,
+          "feedbackExplanation": "Aquesta és l'explicació individualista de la pobresa, que té suport en alguns contextos però és insuficient com a explicació general. L'evidència empírica mostra que els factors estructurals son determinants importants: la zona on vas néixer (Chetty va mostrar que determina substancialment la mobilitat social), la qualitat de l'educació rebuda, l'accés a xarxes socials de suport, les condicions del mercat laboral local, les polítiques de l'habitatge que determinen el preu del lloguer, i les condicions de la feina disponible (molts pobres treballen a jornada completa però amb salaris insuficients). La recerca de Mullainathan i Shafir sobre 'escassetat' mostra que la privació material afecta les capacitats cognitives de forma mesurable, creant un cicle que no és principalment una qüestió de 'motivació'. Explicar la pobresa com a resultat de decisions individuals sense reconèixer els factors estructurals és incomplet i pot derivar en polítiques ineficaces."
+        },
+        {
+          "type": "reflection",
+          "question": "La lluita contra la pobresa als països rics és diferent de la lluita contra la pobresa extrema als països en desenvolupament. Quin creus que és el principal obstacle per eliminar la pobresa relativa als països europeus? I qué faries tu si fossis responsable de política social?",
+          "prompt": "Pensa en la trampa de la pobresa, els desincentius dels sistemes de subsidis, el rol de l'educació, l'habitatge, la sanitat i les xarxes socials. Quin element creus que és el més important i el més negligit per les polítiques actuals?"
+        }
+      ]
+    },
+    {
+      "id": "des-06",
+      "title": "Creixement i sostenibilitat: podem créixer per sempre?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1972, un grup d'investigadors del MIT va publicar un informe per al Club de Roma titulat 'Els Límits del Creixement'. Usant models informàtics, predeia que si el creixement econòmic i demogràfic global continuava al ritme actual, els límits dels recursos planetaris causarien un col·lapse civilitzatori al segle XXI. L'informe va generar una controvèrsia enorme. Cinquanta anys després, el debat sobre els límits del creixement s'ha reinventant amb el canvi climàtic al centre. I una nova escola — el decreixement — argumenta que no sols és impossible créixer indefinidament sinó que no és desitjable intentar-ho."
+        },
+        {
+          "type": "prediction",
+          "question": "El moviment del decreixement proposa reduir deliberadament la producció i el consum als països rics. Creus que seria possible convèncer la majoria de la població d'un país ric de viure amb menys per raons ecologiques? Quines condicions farien possible o impossible aquest canvi?",
+          "hint": "Pensa en les experiències de restricció voluntària que has vist (confinaments del COVID, crisi energètica del 2022) i en com la gent ha reaccionat."
+        },
+        {
+          "type": "key-idea",
+          "text": "El creixement econòmic ha estat la gran força de millora del benestar humà en els darrers dos segles. Però el creixement actual depèn de l'ús de recursos naturals (especialment combustibles fòssils) que son finits i que generen externalitats (canvi climàtic) que amenacen el benestar futur. La pregunta de si el creixement pot 'desacoblar-se' de l'ús de recursos és una de les més importants de l'economia contemporània."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Macroeconomia: Com Funcionen els Estats i les Crisis",
+          "moduleEmoji": "🏦",
+          "concept": "Desigualtat, crisi climàtica i macroeconomia",
+          "text": "La crisi climàtica i la desigualtat s'alimenten mútuament a escala global: els més pobres son els més vulnerables als efectes del canvi climàtic i els que menys han contribuït a les emissions. Les polítiques climàtiques mal dissenyades (com un impost al carboni sense redistribució) poden augmentar la desigualtat. La macroeconomia del mòdul anterior proporciona les eines per entendre com dissenyar polítiques que abordin tots dos problemes alhora."
+        },
+        {
+          "type": "expandable",
+          "label": "El debat sobre el decreixement: impossible o imprescindible?",
+          "content": "El moviment del decreixement (degrowth, en anglès) argumenta que la solució a la crisi ecològica no és el 'creixement verd' (créixer usant menys recursos) sinó la reducció deliberada de la producció i el consum en els països rics, redistribuint riquesa en lloc de créixer. Els seus representants (Serge Latouche, Jason Hickel, Giorgos Kallis) argumenten que el desacoblament del creixement i l'ús de recursos que defensen els optimistes tecnòlogics (més PIB amb menys carboni) és insuficient en la velocitat i l'escala necessàries per evitar el col·lapse climàtic. Els seus crítics (inclosos molts economistes ecologistes) argumenten que el decreixement als països rics causaria una caiguda de l'ocupació i del benestar que faria políticament impossible la transició ecològica: si la gent ha de triar entre perdre la feina i el canvi climàtic futur, triarà la feina. La discussió sobre el decreixement és en el fons una discussió sobre si el sistema capitalista és compatible amb la sostenibilitat ecològica, o si requereix una transformació més radical."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-06-01",
+          "style": "multiple-choice",
+          "question": "El 'desacoblament' entre creixement econòmic i emissions de CO₂ s'ha produït parcialment en alguns països avançats (el PIB ha crescut mentre les emissions han disminuït). Quin és el principal límit d'aquesta tendència?",
+          "options": [
+            "Que els països avançats han externalitzat les seves emissions als països en desenvolupament via la importació de béns que emeten CO₂ en la seva producció",
+            "Que el desacoblament és temporal: quan els tipus d'interès baixen i l'economia creix ràpidament, les emissions sempre pugen de nou",
+            "Que el desacoblament no és real: les estadístiques d'emissions nacionals estan manipulades pels governs per semblar millors del que son",
+            "Que el desacoblament és suficient per a les metes del 1,5°C de l'Acord de París si s'estén a tots els països"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. El desacoblament que s'observa en molts països europeus és en part real (energies renovables, eficiència energètica, desindustrialització) i en part il·lusori: les emissions 'produïdes' al territori nacional han baixat, però les emissions 'consumides' (les generades per produir els béns que importem de la Xina, Índia i d'altres) han augmentat. Si s'inclou la petjada de carboni del consum (no sols la de la producció), el desacoblament dels països rics és molt menys impressionant. És el que els economistes anomenen 'carbon leakage' (fuga de carboni): les polítiques climàtiques nacionals desvien la producció intensiva en carboni cap a països sense regulació, sense reduir realment les emissions globals.",
+          "feedbackWrong": "El principal límit del desacoblament observat als països rics és que part de les seves emissions s'han 'exportat' via la importació de béns produïts en països amb menys regulació climàtica. Si mesures les emissions pel consum en lloc de per la producció, el desacoblament europeu és molt menys impressionant. Les polítiques climàtiques nacionals sense coordinació internacional generen 'carbon leakage'."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-des-06-02",
+          "style": "true-false",
+          "question": "El creixement econòmic i la protecció del medi ambient son necessàriament contradictoris: sempre que creix el PIB, augmenta la degradació ambiental.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La 'corba ambiental de Kuznets' (hipòtesi) suggereix que la relació entre renda i degradació ambiental te forma d'U invertida: en les primeres etapes del creixement, la contaminació augmenta; però a partir d'un cert llindar de riquesa, les societats riques inverteixen més en protecció ambiental i la qualitat de l'aire i l'aigua millora. Hi ha evidència d'aquest patró per a alguns contaminants locals (diòxid de sofre, matèries particulades en algunes ciutats). Però no s'aplica als contaminants globals (CO₂): les emissions globals han continuat augmentant amb la riquesa global. La relació no és necessàriament antagònica per a tot tipus de degradació, però tampoc és automàticament harmònica. El creixement pot ser més o menys sostenible segons les tecnologies i polítiques que l'acompanyen.",
+          "feedbackWrong": "La relació no és necessàriament de contradicció total. La 'corba de Kuznets ambiental' mostra que per a alguns tipus de contaminació local, els països rics acaben invertint en protecció ambiental a mesura que creixen. Però per als contaminants globals (CO₂), la relació ha estat positiva (més creixement = més emissions) fins ara. La clau és si el creixement pot desacoblar-se de les externalitats negatives via tecnologia i política pública."
+        },
+        {
+          "type": "debate",
+          "question": "El moviment del decreixement proposa reduir deliberadament la producció i el consum als països rics per viure dins dels límits planetaris. Els defensors del 'creixement verd' diuen que la tecnologia pot permetre créixer sense destruir el planeta. Quin creus que és el camí correcte?",
+          "positionA": {
+            "label": "Cal el decreixement",
+            "argument": "El desacoblament del creixement i la destrucció ambiental no ha funcionat a l'escala i velocitat necessàries. Mentre el sistema capitalista necessiti créixer per funcionar (pagar deutes, mantenir l'ocupació, generar retorns als inversors), les polítiques climàtiques seran sempre insuficients. Cal reduir la producció i el consum als països rics, redistribuir riquesa en lloc de crear-ne de nova, i redissenyar els sistemes econòmics al voltant del benestar, no del creixement."
+          },
+          "positionB": {
+            "label": "El creixement verd és possible i necessari",
+            "argument": "El decreixement als països rics causaria una recessió que destruiria l'ocupació i faria políticament inviable la transició ecològica. El camí realista és la innovació tecnològica (renovables, vehicles elèctrics, captura de carboni) combinada amb la política de preus del carboni. L'evidència que el desacoblament és possible existeix: les emissions del UK han baixat mentre el PIB ha crescut. Cal accelerar, no frenar."
+          },
+          "reflection": "Quin model de vida creus que és compatible amb la sostenibilitat ecologica i amb el benestar humà? Creus que viure 'millor però menys' és possible sense sacrificis inacceptables?",
+          "context": "El debat creixement/decreixement és un dels més fonamentals de l'economia política del segle XXI. Kate Raworth ('Economia de la Rosquilla') proposa un marc que combina un llindar social mínim (ningú sota) amb un sostre ecològic màxim (ningú damunt), com a alternativa tant al creixement il·limitat com al decreixement."
+        }
+      ]
+    }
+  ]
+}

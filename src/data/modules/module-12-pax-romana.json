@@ -1,0 +1,410 @@
+{
+  "id": "module-12-pax-romana",
+  "title": "Viure a Roma: Dins l'Imperi",
+  "emoji": "🏟️",
+  "phase": 2,
+  "unlockRequires": "module-09-roma",
+  "lessons": [
+    {
+      "id": "pax-01",
+      "title": "La ciutat de Roma: un milió de persones sense ascensor",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Al segle I dC, Roma tenia aproximadament un milió d'habitants. Era la major concentració humana del món occidental — no tornaria a tenir-ne tants fins a Londres el 1800. Però no t'imagines Londres. Imagina una massa densa, sorollosa, olorosa i verticalment apilada de blocs de pisos (insulae) de sis o set plantes, sense ascensor, on milers de persones s'amunteguen en habitacions minúscules. Al carrer, un enrenou permanent de vens, artesans, prostitutes, filòsofs ambulants, esclavs en missió, soldats de guàrdia, i una munió de gent que viu al carrer perquè no pot pagar ni el pitjor pis. Roma era magnífica. I Roma era terrible."
+        },
+        {
+          "type": "prediction",
+          "question": "Roma té un milió d'habitants, sense ascensor, sense neveres, sense transport públic modern. Com creus que l'Estat romà gestionava l'alimentació, l'ordre i el benestar d'una massa urbana tan gran sense els instruments moderns?",
+          "hint": "Pensa en el que pot fer l'Estat quan el seu principal problema és evitar la revolta, no maximitzar el benestar."
+        },
+        {
+          "type": "key-idea",
+          "text": "La Roma imperial era una societat de contrastos extrems: uns pocs mil·lenaris vivien en vil·les luxoses amb esclaus, jardins i banquets de dos-cents plats; la gran majoria subsistia en habitacions llogades als pisos superiors de les insulae, sense cuina ni calefacció, dependent del pa i el circ que l'Estat distribuïa per mantenir la pau social."
+        },
+        {
+          "type": "misconception",
+          "belief": "La vida a la Roma imperial era miseràble per a la majoria per manca d'infraestructures sanitàries.",
+          "reality": "Roma tenia aqüeductes que portaven 1 milió de metres cúbics d'aigua diaris, clavegueres funcionals, termes gratuïtes i hospitals militars. La qualitat de vida urbana romana no va ser superada a Europa fins al segle XIX. La misèria era real però les infraestructures eren excepcionals per al seu temps.",
+          "why": "La imatge de Roma com a lloc brut prové de la comparació amb el present, no amb el que va venir després: l'Europa medieval, on molts avenços romans van desaparèixer durant segles."
+        },
+        {
+          "type": "expandable",
+          "label": "Les insulae: la vida als pisos de Roma",
+          "content": "Les insulae (literalment 'illes', perquè estaven envoltades de carrers) eren els blocs de pisos de la Roma imperial. Podien tenir entre quatre i set plantes. Els pisos baixos, amb accés a l'aqüeducte i més lluny del risc d'incendi, eren els més cars i els ocupaven els relativament rics. A mesura que pujaves, els pisos eren més barats, més petits i més perillosos (en cas d'incendi, la fuga era impossible des del sisè pis). Els residents dels pisos alts no tenien accés a aigua corrent (havien de baixar a les fonts públiques), no tenien lavabos (usaven orinals que buidaven per la finestra — era il·legal però universal), no tenien cuina (el risc d'incendi era prohibitiu — menjaven als termopolis del carrer, l'equivalent romà del menjar ràpid). L'esperança de vida en una insul·la del Subura (el barri popular de Roma) era notablement inferior a la d'una vil·la de l'Aventí."
+        },
+        {
+          "type": "misconception",
+          "belief": "Tots els romans que vivien a la gran Roma gaudia dels beneficis de la civilització romana: aqüeductes, termes, calçades.",
+          "reality": "Els beneficis de la civilització romana eren molt desigualment distribuïts. L'aqüeducte portava aigua a les fonts públiques, als banys de les cases riques i a les termes — però no als pisos de les insulae. Les termes eren gratuïtes o quasi per a tothom, però no compensaven la manca d'higiene domèstica. La desigualtat de la Roma imperial era brutal: els 0,1% més rics vivien millor que qualsevol persona del món antic; el 70-80% de la població subsistia en condicions molt dures.",
+          "why": "Tendim a projectar els beneficis globals de la civilització romana sobre tota la població, quan en realitat molts d'aquests beneficis eren accessibles principalment per a les classes altes."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-01-01",
+          "style": "multiple-choice",
+          "question": "Quin era el propòsit principal de la distribució gratuïta de blat (frumentatio) i dels espectacles públics (ludi) que l'Estat romà oferia a la plebs urbana?",
+          "options": [
+            "Era un acte de generositat dels emperadors, que estimaven genuïnament el poble",
+            "Era un mecanisme de control social: alimentar i entretenir la massa urbana per prevenir revoltes i inestabilitat política",
+            "Era una mesura econòmica per estimular el comerç del gra i l'activitat dels circs i anfiteatres",
+            "Era una tradició religiosa que calia mantenir per no ofendre els déus protectors de Roma"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La fórmula 'panem et circenses' (pa i circ), encunyada pel satíric Juvenal, descriu perfectament la funció política de la distribució de béns i espectacles: mantenir la plebs urbana satisfeta i entretinguda per evitar que la seva energia es canalitzàs cap a la revolta política. Els emperadors eren molt conscients de la funció política dels espectacles — Trajà va organitzar jocs de 123 dies consecutius per celebrar la conquesta de Dàcia. El circ i l'amfiteatre eren instruments de govern.",
+          "feedbackWrong": "La generositat dels emperadors era instrumental, no sentimental. La fórmula 'panem et circenses' de Juvenal descriu el mecanisme amb cínica precisió: si la plebs té menjar i espectacles, no té temps ni energia per a la política. El Colosseu no va ser construït per amor a l'espectacle sinó com a instrument de legitimació i de control de la massa urbana."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-01-02",
+          "style": "true-false",
+          "question": "Les termes públiques romanes eren instal·lacions de luxe reservades a l'aristocràcia i als ciutadans rics.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Les termes grans (les termes de Caracal·la o de Dioclecià podien acollir milers de persones alhora) eren accessibles a tota la població — l'entrada era gratuïta o costava una fracció mínima. Era un dels pocs espais on totes les classes socials (excepte els esclaus) es barrejaven físicament, tot i que en zones separades. Les termes tenien piscines fredes (frigidarium), tèbies (tepidarium) i calentes (caldarium), sales de massatge, biblioteques, i espais de conversa. Eren el centre social de la vida urbana romana per a totes les classes.",
+          "feedbackWrong": "Al contrari — les termes eren un dels espais més democràtics de la Roma imperial. L'entrada era gratuïta o gairebé, i eren accessibles a pràcticament tothom (excepte els esclaus). Era un dels pocs llocs on un serraller i un senador podien seure en piscines adjacents. Naturalment, les termes privades de les vil·les aristocràtiques eren molt més luxoses — però les públiques eren per a tothom."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-pax-01-01",
+          "question": "La distribució gratuïta de blat a Roma urbana (la 'frumentatio') beneficiava fins a 200.000 famílies. Sense ella, la concentració urbana d'un milió de persones hauria estat impossible. Creus que una distribució estatal massiva de béns bàsics és compatible amb una societat dinàmica, o genera dependència i desmobilització?",
+          "options": [
+            "Genera dependència inevitablement: quan l'Estat proveeix béns bàsics sense contrapartida, la iniciativa individual desapareix",
+            "És compatible i necessària: sense un mínim garantit, la desigualtat extrema genera inestabilitat que destrueix el dinamisme econòmic",
+            "Depèn del disseny: una distribució universal de béns bàsics pot coexistir amb el dinamisme si preserva els incentius per a l'activitat productiva"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la crítica liberal clàssica a la redistribució estatal — però el cas romà la complica: Roma va ser enormement dinàmica econòmicament i militarment durant segles mentre distribuïa blat. La posició B és la defensa keynesiana — la demanda sostinguda per la distribució estatal estimula l'activitat econòmica. La posició C és la que permet integrar les evidències: el que importa és el disseny. La frumentatio romana era una distribució de subsistència mínima que permetia als beneficiaris treballar i comerciar al mercat — no era un substitut complet de l'activitat econòmica. El debat modern sobre la renda bàsica universal reprèn exactament aquest problema en termes contemporanis."
+        }
+      ]
+    },
+    {
+      "id": "pax-02",
+      "title": "L'esclavitud: el fonament invisible de Roma",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Quan Ciceró escrivia les seves Filipiques sobre la llibertat republicana, tenia a casa seva uns vint esclaus personals. Quan Sèneca escrivia sobre la igualtat de tots els éssers humans, ho feia en una vil·la que funcionava amb centenars d'esclaus. Quan l'Estat romà construïa les seves magnífiques calçades i aqüeductes, ho feia en bona part amb treball esclau. L'esclavitud no era una anomalia de la civilització romana — era el seu fonament econòmic i social. I, a diferència d'Esparta, no era un sistema que els romans ocultaven o del qual se sentien incòmodes: era simplement la normalitat."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'esclavitud romana era un sistema massiu i central: entre un quart i un terç de la població de l'Imperi era esclava. No era un sistema marginal o residual, sinó el fonament de l'economia agrícola, domèstica i minera. Sense l'esclavitud, la Pax Romana hauria estat impossible en les seves dimensions conegudes."
+        },
+        {
+          "type": "expandable",
+          "label": "La revolta d'Espàrtac: por i control en el sistema esclavista",
+          "content": "El 73 aC, un esclau gladiador de Tràcia anomenat Espàrtac va fugir d'una escola de gladiadors a Càpua amb setanta companys. En dos anys, el seu exèrcit havia crescut fins a 70.000 o 120.000 persones (les fonts varien) i havia derrotat en combat vàries armées romanes. Durant dos anys, Espàrtac va controlar el sud d'Itàlia i va posar en joc la pròpia supervivència de la República. Finalment, Marc Licini Cras el va derrotar el 71 aC. 6.000 dels seus seguidors van ser crucificats al llarg de la via Àpia entre Càpua i Roma — un advertiment visible a qualsevol esclau que passés. El terror de la resposta romana revela l'angoixa d'un sistema que depenia del control d'una massa d'esclaus que podien, en tot moment, convertir la seva força en resistència."
+        },
+        {
+          "type": "comparison",
+          "title": "Tipus d'esclau a la Roma imperial: una jerarquia dins la servitud",
+          "labelA": "Esclau domèstic qualificat",
+          "labelB": "Esclau de mines o galeres",
+          "items": [
+            {
+              "label": "Feina",
+              "a": "Secretari, mestre, cuiner, metge, actor, comptable",
+              "b": "Treball físic extrem en condicions letals"
+            },
+            {
+              "label": "Esperança de vida",
+              "a": "Similar a la d'un home lliure de classe baixa",
+              "b": "Molt reduïda: 3-5 anys a les mines de plata"
+            },
+            {
+              "label": "Possibilitat d'alliberació",
+              "a": "Alta: el manumissió era freqüent i socialment valorada",
+              "b": "Pràcticament nul·la"
+            },
+            {
+              "label": "Relació amb el propietari",
+              "a": "Sovint propera i personal; alguns esclaus gaudien de confiança gran",
+              "b": "Anònima i instrumental"
+            },
+            {
+              "label": "Capacitat d'acumular béns",
+              "a": "El peculium: podien tenir estalvis propis i comprar la llibertat",
+              "b": "Cap"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-02-01",
+          "style": "multiple-choice",
+          "question": "Quin factor distingia principalment l'esclavitud romana de l'esclavitud del sud dels EUA al segle XIX?",
+          "options": [
+            "A Roma, l'esclavitud no era hereditària per llei, i els fills d'esclaves lliures eren automàticament lliures",
+            "Roma tenia un sistema relativament fluid d'alliberació (manumissió) i els libertos podien assolir la ciutadania i, en generacions posteriors, posicions socials molt altes",
+            "L'esclavitud romana era menys cruel perquè els amos tenien interès econòmic a mantenir els seus esclaus sans i productius",
+            "A Roma, els esclaus podien votar i participar en algunes formes d'assemblea popular"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Una de les diferències crucials entre l'esclavitud romana i la del sud nord-americà era la permeabilitat del sistema: la manumissió (alliberació formal) era freqüent i socialment valorada a Roma. Els libertos (esclaus alliberats) obtenien la ciutadania romana i podien, ells o els seus fills, ascendir socialment de forma significativa. Alguns libertos imperials van arribar a tenir riqueses i influència enormes. L'esclavitud nord-americana, en canvi, estava lligada a la raça i era estructuralment impermeable.",
+          "feedbackWrong": "Les diferències principals no eren de crueltat (l'esclavitud romana podia ser brutal, especialment a les mines) sinó de permeabilitat del sistema. La manumissió freqüent i la possibilitat d'ascens social dels libertos creaven una dinàmica diferent. Però és important no romancitzar l'esclavitud romana: era un sistema de dominació violenta, i la crudeltat cap als esclaus era legal i freqüent."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-02-02",
+          "style": "detect-error",
+          "statement": "Sèneca, el filòsof estoic, va ser un crític consistent de l'esclavitud i va defensar la seva abolició basant-se en la igualtat natural de tots els éssers humans.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és 'va defensar la seva abolició'. Sèneca va escriure que tots els éssers humans compartien la mateixa naturalesa racional i que els esclaus mereixien ser tractats amb humanitat — un pensament avançat per al seu temps. Però mai no va demanar l'abolició de l'esclavitud. Va tenir centenars d'esclaus a casa seva, va acceptar el sistema com a part de l'ordre natural, i la seva posició era de millora del tracte, no d'eliminació de la institució. Cap pensador romà de qui tinguem registre va demanar l'abolició de l'esclavitud. La crítica al sistema en si no va arribar fins al cristianisme — i fins i tot aleshores va ser molt lenta i parcial."
+        },
+        {
+          "type": "debate",
+          "question": "Cap pensador romà va proposar l'abolició de l'esclavitud, tot i que alguns (Sèneca, els estoics) van defensar el tractament humà dels esclaus. Diu quelcom fonamental sobre els límits del pensament moral d'una época que fins i tot els seus millors filòsofs no podien imaginar la fi d'una institució que avui considerem monstruosa?",
+          "positionA": {
+            "label": "Els límits morals d'una época són insuperables",
+            "argument": "Cap persona, per brillant que sigui, pot superar completament el marc conceptual de la seva época. L'esclavitud era tan fonamental per a l'economia i la cultura romanes que era invisible com a problema moral — com l'aire que es respira. Jutjar Sèneca per no haver abolit l'esclavitud és anacronístic. Ens cal preguntar: quines de les nostres 'normalitats' seran vistes com a monstruoses per generacions futures?"
+          },
+          "positionB": {
+            "label": "Sempre hi ha excepcions morals que il·luminen",
+            "argument": "Hi va haver veus que van qüestionar l'esclavitud (alguns cínics, alguns primers cristians). El fet que no fossin escoltades no significa que fos impossible pensar-ho. I la diferència entre 'tractar humanament els esclaus' i 'abolir l'esclavitud' és una diferència enorme que Sèneca podia haver creuat — però no ho va voler o no ho va gosar."
+          },
+          "reflection": "Quines institucions o pràctiques actuals creus que generacions futures jutjaran com nosaltres jutgem l'esclavitud romana?",
+          "context": "Peter Singer, filòsof contemporani, argumenta que la nostra relació amb els animals serà jutjada per les generacions futures de la mateixa manera que jutgem l'esclavitud. Altres assenyalen les condicions de treball en les cadenes de subministrament globals o el tractament dels migrants."
+        }
+      ]
+    },
+    {
+      "id": "pax-03",
+      "title": "Dones a Roma: entre la invisibilitat i el poder real",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Agripina la Menor va fer enverinar el seu marit, l'emperador Claudi, el 54 dC per posar el seu fill Neró en el tron. Ho va aconseguir. Durant un temps, va ser de facto la dona més poderosa del món: apareixia a les monedes, rebia ambaixades, es reunia amb els consellers imperials. Fins que Neró, cansat de la tutela materna, la va fer assassinar el 59 dC. Agripina és un exemple extrem — però il·lustra una realitat paradoxal: les dones romanes no tenien cap dret polític formal, però en les esferes on tenien accés (la família, la cort imperial, les xarxes de patronatge) podien exercir un poder real i significatiu."
+        },
+        {
+          "type": "prediction",
+          "question": "En una societat on les dones no podien votar ni tenir càrrecs públics, com creus que algunes dones van aconseguir exercir poder polític real? Quins mecanismes indirectes estaven disponibles?",
+          "hint": "Pensa en les relacions familiars, les xarxes de patronatge i el control del patrimoni."
+        },
+        {
+          "type": "key-idea",
+          "text": "Les dones romanes de l'elit vivien en una paradoxa: formalment excluïdes de la política, l'exèrcit i la majoria de les magistratures, tenien en la pràctica una llibertat social i econòmica notable comparada amb moltes altres cultures antigues — podien heretar, gestionar patrimonis, divorciar-se i, a través de les seves xarxes familiars, exercir una influència política real."
+        },
+        {
+          "type": "quote",
+          "text": "Una dona que governa un home que governa un imperi és, en la pràctica, qui governa l'imperi.",
+          "author": "Atribuït a diversos autors antics sobre Lívia i Agripina"
+        },
+        {
+          "type": "expandable",
+          "label": "El divorci i el matrimoni romà: menys permanent del que es pensa",
+          "content": "El matrimoni romà de l'era imperial (especialment el matrimoni 'sine manu', sense transferència de tutela) permetia a les dones mantenir el control del seu propi patrimoni i del dot. El divorci era relativament fàcil i socialment acceptable — bastava amb la declaració de voluntat d'una de les parts. Cèsar, Pompeu i August van divorciar-se diverses vegades per conveniència política. Les dones de l'aristocràcia podien divorciar-se igualment. Lívia, la muller d'August, havia estat casada i estava embarassada quan August la va prendre per muller — el seu primer marit va haver de divorciar-se. La flexibilitat del matrimoni romà contrastava amb la rigidesa que el dret canònic posterior imposaria al matrimoni cristià medieval."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-03-01",
+          "style": "multiple-choice",
+          "question": "Quina diferència important hi havia entre la situació legal de les dones romanes i la de les dones ateneses?",
+          "options": [
+            "Les dones romanes podien votar en algunes assemblees populars, mentre que les ateneses estaven completament excloses",
+            "Les dones romanes podien heretar béns, gestionar patrimonis i divorciar-se amb relativa facilitat; les ateneses tenien molt menys control sobre el seu patrimoni i vida",
+            "Les dones romanes podien exercir càrrecs religiosos públics, mentre que les ateneses estaven excloses de qualsevol funció pública",
+            "La situació era pràcticament idèntica en les dues cultures: excloïa les dones de la vida pública en ambdós casos"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La comparació és sorprenent: les dones de l'Atenes 'democràtica' tenien menys llibertat econòmica i social que les de la Roma imperial. Les dones romanes de l'elit podien heretar, gestionar grans patrimonis, iniciar el divorci i circular per la vida social amb una llibertat impensable per a una dona atenesa. Naturalment, les dones romanes de classe baixa tenien molt menys marge. I cap dona podia votar o ocupar magistratures en cap de les dues cultures.",
+          "feedbackWrong": "La diferència era notable. Les dones romanes, especialment les de l'elit, tenien una llibertat econòmica i social significativament major que les ateneses. Podien heretar, gestionar patrimonis propis (en el matrimoni 'sine manu'), iniciar el divorci i participar activament en les xarxes socials. La paradoxa és que la 'democràtica' Atenes oprimia més les dones que la Roma monàrquica."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-03-02",
+          "style": "true-false",
+          "question": "Agripina la Menor va ser l'única dona de la história romana que va exercir poder polític real, perquè la seva posició com a mare d'emperador era un cas excepcional sense precedents ni paral·lels.",
+          "correct": false,
+          "feedbackCorrect": "Fals. El poder polític informal de les dones de la família imperial era freqüent i reconegut, tot i que mai institucionalitzat. Lívia (muller d'August) va exercir una enorme influència durant dècades i va ser divinitzada. Agripina la Major (mare de Calígula) va ser una força política fins al seu exili i mort. Plotina (muller de Trajà) va tenir un paper en la designació d'Adrià com a successor. Julia Domna (muller de Septimi Sever) va participar activament en el govern. El cas d'Agripina la Menor va ser extrem en la seva visibilitat pública, però el poder femení informal a la cort imperial era una constant, no una excepció.",
+          "feedbackWrong": "El poder femení informal a la cort imperial era estructural, no excepcional. Diverses dones de la família imperial van exercir influència política real: Lívia, Agripina la Gran, Plotina, Julia Domna, Julia Maesa. El cas d'Agripina la Menor va ser excepcional per la seva visibilitat i audàcia, però es movia en una tradició de poder femení informal que era característica de la cort romana."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-pax-03-01",
+          "question": "Les dones romanes de l'elit tenien una llibertat econòmica i social notable, però cap dret polític formal. Les dones del poble tenien ni l'un ni l'altre. Creus que la llibertat econòmica sense llibertat política és un progrés real, o és una il·lusió de llibertat que serveix per legitimar un sistema d'exclusió?",
+          "options": [
+            "És un progrés real: la llibertat econòmica és la base material de la independència personal i val molt independentment de la llibertat política formal",
+            "És una il·lusió: sense drets polítics, la llibertat econòmica depèn de la tolerància dels que manen i pot ser revocada en qualsevol moment",
+            "Depèn de la distribució: si la llibertat econòmica és accessible a totes les dones (no només a l'elit), és un progrés real; si és un privilegi de classe, és una il·lusió que divideix les dones"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és el fonament del feminisme liberal: l'autonomia econòmica és la condició material de la llibertat, i cal valorar-la independentment dels drets polítics formals. Hi ha evidència a favor: les dones romanes amb patrimoni propi podien resistir matrimonis no desitjats, sustentar-se soles i participar en la vida pública informal. La posició B és la crítica feminista radical: una llibertat que depèn de la benevolència del poder masculí (i que es pot revocar com va demostrar August amb la seva legislació moral) no és llibertat genuïna. La posició C integra una variable decisiva que sovint s'oblida: la classe. La relativa llibertat de les dones de l'elit romana no es traduïa en llibertat per a les dones del poble, les esclaves o les liberta. Un feminisme honest ha de preguntar: llibertat per a qui exactament?"
+        }
+      ]
+    },
+    {
+      "id": "pax-04",
+      "title": "Religions a Roma: el pluralisme que va topar amb el monoteisme",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La religió romana tradicional era politeista, pragmàtica i tolerant fins a un punt que sorprèn els lectors moderns: quan Roma conquistava un poble, generalment adoptava els seus déus al panteó romà o els identificava amb divinitats romanes equivalents (interpretatio romana). Els déus estrangers eren benvinguts. El culte a Isis d'Egipte, el de Mitra de Pèrsia, el de Cibele d'Anatolia — tots tenien temples a Roma al segle I dC. En aquest context de pluralisme religiós, dues religions van ser l'excepció conflictiva: el judaisme i el cristianisme. Per raons diferents, tots dos es van negar al sincretisme — i van pagar un preu alt per aquest refús."
+        },
+        {
+          "type": "prediction",
+          "question": "Roma era famosa per tolerar totes les religions dels pobles que conquistava, incorporant els seus déus al panteó romà. Però va perseguir els cristians durant segles. Quin creus que és el motiu real d'aquesta excepció?",
+          "hint": "Pensa en la diferència entre les creences privades i els actes públics de lleialtat política."
+        },
+        {
+          "type": "key-idea",
+          "text": "La tolerància religiosa romana no era un valor filosòfic sinó una política pragmàtica: si els déus locals eren lleials a Roma, Roma era lleial als déus locals. El conflicte amb el judaisme i el cristianisme va sorgir no del contingut de les seves creences sinó del seu monoteisme exclusiu, que impedia participar en el culte imperial — l'acte de lleialtat política fonamental de l'Imperi."
+        },
+        {
+          "type": "expandable",
+          "label": "El culte imperial: quan la religió és política i la política és religió",
+          "content": "Des d'August, els emperadors morts eren divinitzats pel Senat. Alguns emperadors en vida, especialment a Orient, eren objecte de culte. El culte imperial no era (per a la majoria dels romans cultes) una creença literal que l'emperador fos un déu — era un acte de lleialtat política expressat en el llenguatge religiós de l'època. Sacrificar davant la imatge de l'emperador era equivalent a jurar lleialtat a la bandera en les democràcies modernes. Per als politeistes, afegir una deïtat més al panteó no era cap problema. Per als jueus i els cristians, que creien en un sol Déu al qual no es podia afegir cap rival, era teolòlgicament impossible. El refús d'aquest acte simbòlic era interpretat per Roma com a traïció política. D'aquí venien les persecucions: no per les creences, sinó per la negativa a l'acte d'adhesió imperial."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-04-01",
+          "style": "multiple-choice",
+          "question": "Per qué Roma va perseguir els cristians al segle I i II dC si era generalment tolerant amb les religions estrangeres?",
+          "options": [
+            "Perquè el cristianisme predica la violència i la subversió de l'ordre romà en els seus textos sagrats",
+            "Perquè el monoteisme cristià impedia participar en el culte imperial, l'acte de lleialtat política fonamental, i es percebia com a desleialtat política",
+            "Perquè els cristians es negaven a pagar impostos a l'Estat romà invocant la seva religió",
+            "Perquè els emperadors romans eren personalment irreligiosos i veien totes les religions com una amenaça a la seva autoritat"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Roma no perseguia creences — perseguia actes. El refús cristià de sacrificar davant la imatge de l'emperador era interpretat com a desleialtat política, no com a dissidència religiosa. La majoria de les persecucions romanes als cristians van ser locals i irregulars fins al segle III; les persecucions sistemàtiques (Deci, Dioclecià) van ser relativament tardanes. I quan Constantí va fer del cristianisme la religió tolerada (313 dC), va ser en part perquè va entendre que una religió tan ben organitzada podia ser un instrument de cohesió imperial, no una amenaça.",
+          "feedbackWrong": "La clau no era el contingut de les creences cristianes sinó la conseqüència pràctica del monoteisme: els cristians no podien participar en el culte imperial sense negar el seu Déu. Per a Roma, el culte imperial era l'equivalent de l'adhesió política — no una qüestió de fe profunda. El refús era políticament inacceptable, independentment de la 'bondat' o 'maldat' de la religió en qüestió."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-04-02",
+          "style": "detect-error",
+          "statement": "La Roma imperial va ser una societat profundament religiosa on la creença en els déus olímpics era universal i sincera entre totes les classes socials.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació exagera la uniformitat i la sinceritat de la creença religiosa romana. Les fonts mostren que entre les classes cultes hi havia un escepticisme considerable respecte als mites olímpics. Ciceró, en els seus escrits filosòfics privats, era clarament escèptic sobre la religió popular. Lucreci (epicuri) argumentava obertament que els déus no intervenien en els afers humans. La religió romana oficial era molt més un conjunt de pràctiques rituals i actes de pietat cívica que una fe profunda en el contingut literal dels mites. La diversitat de creences a Roma era enorme: filòsofs estoics, epicuris, neoplatònics, misteris orfics, cultes orientals i ateisme pràctic coexistien."
+        },
+        {
+          "type": "debate",
+          "question": "L'Imperi Romà va ser tolerant amb la diversitat religiosa fins que el monoteisme va posar en qüestió el fonament de la lleialtat política. La Unió Europea moderna demana als seus membres acceptar uns valors comuns (drets humans, democràcia, estat de dret) com a condició d'adhesió. Hi ha una analogia legítima entre el 'culte imperial' romà i els 'valors europeus' contemporanis?",
+          "positionA": {
+            "label": "L'analogia és vàlida",
+            "argument": "Tota comunitat política necessita un mínim de valors compartits que funcionin com a 'culte' de la pertinença. Roma va usar el ritual imperial; la UE usa els drets humans i la democràcia. Demanar adhesió a aquests valors com a condició de pertinença no és diferent en principi del que feia Roma. Els que es neguen a acceptar els valors liberals europeus se'n desmarquen de la mateixa manera que els cristians es desmarcaven de Roma."
+          },
+          "positionB": {
+            "label": "L'analogia és falsa i perillosa",
+            "argument": "El culte imperial romà era un acte de lleialtat a una persona i un poder. Els valors europeus inclouen precisament la llibertat de consciència i de religió que Roma negava. Comparar l'adhesió als drets humans amb la submissió a un culte imperial confon el contingut dels valors amb la funció de cohesió que compleixen."
+          },
+          "reflection": "Tota societat necessita alguna forma de 'valors compartits' per a la cohesió. On és la línia entre valors fonamentals legítims i imposició ideològica?",
+          "context": "El politòleg Jan-Werner Müller ha escrit sobre el problema de la 'democràcia militant' — fins a quin punt una democràcia pot excloure els que no en comparteixen els valors sense trair els seus propis principis."
+        }
+      ]
+    },
+    {
+      "id": "pax-05",
+      "title": "L'exèrcit: la màquina que feia funcionar tot",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La legió romana no era simplement un exèrcit. Era, al mateix temps, una força de construcció d'infraestructures (les legions construïen les seves pròpies calçades, ponts i campaments), un cos d'enginyers, un servei d'ordre públic a les fronteres, i un vehicle d'integració cultural: un jove gal que servia vint-i-cinc anys a la legió sortia legalment com a ciutadà romà, parlant llatí i coneixent el dret romà. La legió era, en certa manera, la institució romanitzadora per excel·lència — i el vehicle principal per exportar la civilització romana a les fronteres."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'exèrcit romà era molt més que una força militar: era una institució total que produïa ciutadans romans, construïa infraestructures, administrava territoris fronterers i garantia la Pax Romana. La seva eficàcia no venia únicament de la tàctica sinó de la combinació de disciplina, logística superior i integració cultural."
+        },
+        {
+          "type": "expandable",
+          "label": "La vida quotidiana d'un legionari: vint-i-cinc anys de servei",
+          "content": "Un legionari del segle I dC servia vint-i-cinc anys. Durant aquest temps, marxava una mitjana de 30 quilòmetres diaris en campanya, portant uns 40 kg d'equipament (armadura, armes, eines de construcció, provisions). Cobrava uns 900 sesterços anuals (en temps de Domicià, pujaria a 1.200) — suficient per una vida modesta però no per l'estalvi. No podia casar-se legalment durant el servei, tot i que molts mantenien relacions amb dones locals als campaments. A la retirada, rebia un lot de terres o una paga en metàl·lic i la ciutadania romana si no la tenia. Aprenia llatí, dret romà i les tècniques de construcció militars. El campament permanent (castra) es convertia sovint en el nucli urbà d'una nova ciutat — York, Londres, Colònia, Viena, Budapest van néixer o van créixer al voltant de campaments legionaris."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-05-01",
+          "style": "multiple-choice",
+          "question": "Per qué l'exèrcit romà va ser un vehicle d'integració cultural i romanització tan efectiu?",
+          "options": [
+            "Perquè els legionaris duien sacerdots romans que convertien forçosament les poblacions locals a la religió romana",
+            "Perquè el servei militar llarg, el llatí comú, el dret romà i la ciutadania al final del servei creaven romans a partir de bàrbars sense necessitat de coerció cultural explícita",
+            "Perquè les legions destruïen sistemàticament les cultures locals i els seus llocs sagrats per eliminar qualsevol referent d'identitat alternativa",
+            "Perquè els soldats bàrbars eren obligats a canviar de nom i adoptar una identitat romana formal en incorporar-se a les legions"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La romanització per via militar era orgànica i funcionalment motivada: un auxiliar no romà tenia poderosos incentius materials per aprendre llatí (per comunicar-se amb els oficials i els companys), per conèixer el dret romà (per resoldre els seus conflictes legals) i per interioritzar la cultura romana (per pujar en la jerarquia). Vint-i-cinc anys de vida en comú amb romans de totes les províncias, seguint el mateix calendari de festivals, les mateixes pràctiques religioses i la mateixa disciplina, produïen una assimilació cultural profunda sense necessitat de coerció explícita.",
+          "feedbackWrong": "La romanització militar no era coercitiva en el seu contingut cultural: no es destruïen els cultes locals ni s'imposava el canvi de nom. La clau era la creació d'incentius positius: el llatí era necessari per progressar, el dret romà per resoldre conflictes, la ciutadania era el premi final. La romanització era el producte del llarg servei en una institució total, no d'una imposició explícita."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-05-02",
+          "style": "true-false",
+          "question": "Les legions romanes estaven formades exclusivament per ciutadans romans, i els no-ciutadans de les províncias no podien servir a l'exèrcit romà.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Les legions propiament dites requerien la ciutadania romana, però els cossos auxiliars (auxilia) estaven formats per no-ciutadans de les províncias i les fronteres. Els auxiliars servien vint-i-cinc anys i rebien la ciutadania en ser llicenciats. Alguns cossos especialitzats (arquers siris, cavallers numidis, foners balears) eren valorats precisament per les seves habilitats específiques. A mesura que l'Imperi avançava, la distinció entre legions i auxiliars es va anar difuminant, i molts 'bàrbars' van acabar sent els oficials més eficaços de l'exèrcit.",
+          "feedbackWrong": "L'exèrcit romà era molt més inclusiu del que suggereix la imatge popular. Les legions requerien la ciutadania, però els auxilia (que podien ser tan nombrosos com les legions) estaven oberts als no-ciutadans. I la ciutadania al final del servei significava que l'exèrcit era un dels principals vehicles d'extensió de la ciutadania romana per tot l'Imperi."
+        },
+        {
+          "type": "reflection",
+          "question": "La romanització via exèrcit va convertir celtes, germànics, siris i africans en 'romans' al llarg de generacions. Penses que una identitat adquirida per integració institucional (llengua, dret, pràctiques culturals) és tan 'autèntica' com una identitat d'origen? Qué et diu sobre el concepte contemporani de nació i identitat nacional?",
+          "prompt": "Pensa en casos contemporanis d'integració cultural i identitat adquirida. No hi ha resposta correcta."
+        }
+      ]
+    },
+    {
+      "id": "pax-06",
+      "title": "La crisi del segle III: quan tot s'esquerda",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 235 dC, un militar de rang humil d'origen traci anomenat Maximí va assassinar l'emperador Alexandre Sever i va ser proclamat emperador per les seves tropes. Va ser el primer d'una llarga sèrie: en els cinquanta anys que van seguir, l'Imperi va tenir vint-i-sis emperadors reconeguts pel Senat, la majoria assassinats pels seus propis soldats. L'Imperi es va fragmentar en tres estats separats. La moneda es va devaluar catastròficament. El comerç va col·lapsar. Epidèmies devastadores van recórrer el mediterrani. Les invasions bàrbares i perses van penetrar fins al cor de l'Imperi. En aquells cinquanta anys, el món romà va viure el que el segle XX va aprendre a conèixer com a 'col·lapse de sistema'."
+        },
+        {
+          "type": "prediction",
+          "question": "En 50 anys, Roma passa de 26 emperadors (la majoria assassinats), a epidèmies devastadores, invasions simultànies per totes les fronteres i hiperinflació. Creus que un col·lapse d'aquesta magnitud és degut a factors estructurals inevitables, o a una mala cadena de decisions individuals?",
+          "hint": "Pensa en si el sistema augusteu tenia les eines per gestionar crisis d'aquesta escala, o si la seva pròpia estructura les feia inevitables."
+        },
+        {
+          "type": "key-idea",
+          "text": "La crisi del segle III (235-284 dC) va ser la primera amenaça existencial real de l'Imperi Romà: va combinar crisi política (anarquia militar), econòmica (hiperinflació, col·lapse del comerç), sanitària (la plaga de Ciprià) i militar (invasions simultànies per diverses fronteres). L'Imperi va sobreviure — però profundament transformat."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "La Llarga Caiguda: Com Mor un Imperi",
+          "moduleEmoji": "🌅",
+          "concept": "La crisi del segle III com a punt d'inflexió",
+          "text": "La crisi del segle III no va ser el final de Roma, però va ser el punt en que el model augusteu va deixar de ser viable. Dioclecià i Constantí van haver de reinventar l'Estat romà de dalt a baix. Entendre la vida de la Pax Romana és entendre el contrast amb el que va venir: un món molt diferent i molt menys confortable."
+        },
+        {
+          "type": "expandable",
+          "label": "La plaga de Ciprià: quan una pandèmia canvia la historia",
+          "content": "Entre el 249 i el 262 dC, una epidèmia de causa desconeguda (possiblement filovirosi, potser virus d'Ebola o varicel·la hemorràgica) va recórrer l'Imperi. En el seu pic, matava fins a 5.000 persones diàries a Roma. Va durar quinze anys amb interrupcions. L'impacte demogràfic va ser devastador: algunes zones van perdre un terç de la població. L'impacte econòmic va ser proporcional: menys braços per cultivar, menys soldats per defensar les fronteres, menys comerciants per mantenir el comerç. L'impacte religiós va ser potser el més durador: el cristianisme va créixer espectacularment durant la plaga, perquè mentre els pagans fugien dels malalts (com aconsellava la medicina del moment), els cristians els cuidaven. La diferència en mortalitat era visible — i la solidaritat cristiana feia proselitisme."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-06-01",
+          "style": "multiple-choice",
+          "question": "Per qué l'anarquia militar del segle III va ser tan difícil de resoldre per als emperadors?",
+          "options": [
+            "Perquè el Senat havia perdut tota autoritat i no podia sancionar cap candidat imperial legítim",
+            "Perquè l'exèrcit era l'únic que donava i treia emperadors, però cap general no tenia prou control sobre tot l'exèrcit per assegurar la seva posició",
+            "Perquè les invasions bàrbares impedien als emperadors tornar a Roma per establir la seva autoritat política",
+            "Perquè la devaluació de la moneda impedia pagar les legions i mantenir la seva lleialtat"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La trampa de la crisi del segle III era estructural: el poder depenia de la lleialtat de l'exèrcit, però l'exèrcit estava fragmentat en múltiples cossos (legions del Rin, del Danubi, de Síria, d'Egipte) amb interessos i leialitats locals. Un general que guanyava el suport de les seves legions podia ser proclamat emperador — però les legions d'un altre front proclamaven el seu propi candidat. Cap no tenia el control suficient per imposar-se de manera duradora. L'assassinat era la solució natural de la contradicció, i generava un nou cicle.",
+          "feedbackWrong": "El problema era la fragmentació del poder militar: l'exèrcit era la font del poder imperial, però estava dividit en múltiples cossos amb interessos divergents. Això creava una espiral inestable: cada general tenia incentius per reclamar el tron, i cap tenia els instruments per consolidar-lo de manera duradora sense eliminar tots els rivals — una tasca impossible."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-pax-06-02",
+          "style": "detect-error",
+          "statement": "La crisi del segle III va acabar amb la caiguda definitiva de l'Imperi Romà, que va ser substituït per múltiples regnes bàrbars independents en el territori que havia controlat.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és confondre la crisi del segle III (235-284 dC) amb la caiguda de l'Imperi. La crisi va ser gravíssima però l'Imperi en va sortir: l'emperador Il·liric Aurelià (270-275 dC) va reunificar el territori fragmentat i va reconstruir les fronteres. Dioclecià (284-305 dC) va reformar l'administració, l'exèrcit i la fiscalitat, estabilitzant l'Imperi per un segle més. L'Imperi Romà d'Occident no va 'caure' fins al 476 dC, i l'Oriental va sobreviure fins al 1453. La crisi del segle III va ser una quasi-mort, no la mort."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-pax-06-01",
+          "question": "La crisi del segle III va combinar factors polítics, econòmics, sanitaris i militars simultàniament. Quan múltiples crisis coincideixen i s'alimenten mútuament, creus que hi ha un punt de no-retorn a partir del qual el col·lapse és inevitable, o els sistemes complexos sempre poden recuperar-se si hi ha la intervenció adequada?",
+          "options": [
+            "Hi ha un punt de no-retorn: quan les crisis es retroalimenten en bucle, cap intervenció individual pot trencar el cicle",
+            "Els sistemes complexos sempre poden recuperar-se: la história demostra que fins i tot les crisis més greus poden ser revertides amb lideratge i reformes adequades",
+            "Depèn de la velocitat i la simultaneïtat: crisis ràpides i simultànies no donen temps als mecanismes d'adaptació, mentre que crisis lentes i seqüencials permeten la resposta"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és temptadora però excessivament determinista: l'Imperi Romà va sobreviure la crisi del segle III, que semblava un col·lapse total. La posició B és massa optimista: alguns sistemes no es recuperen (la República romana no va sobreviure les guerres civils). La posició C és la que els historiadors de les civilitzacions (com Bryan Ward-Perkins o Peter Heather) tendeixen a defensar: la velocitat i la simultaneïtat de les crisis són variables decisives. L'Imperi va sobreviure el segle III perquè les crisis, tot i ser simultànies, van ser prou lentes per permetre respostes parcials (Aurelià, Dioclecià). El col·lapse del segle V va ser diferent: la pressió dels huns va generar moviments de pobles simultanis en múltiples fronteres que van sobrepassar la capacitat de resposta del sistema en un temps molt breu."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "id": "module-15-fonaments-drets-humans",
+  "title": "Fonaments Filosòfics dels Drets Humans",
+  "emoji": "🌍",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "fdh-historia",
+      "title": "La Historia d'una Idea",
+      "icon": "📜",
+      "description": "De la Magna Carta a la Declaració Universal: com va néixer la idea dels drets humans",
+      "style": "Cronològic · dels orígens a 1948",
+      "lessons": [
+        {
+          "id": "fdh-01",
+          "title": "Abans dels drets humans: llei natural i dignitat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La idea que els éssers humans tenen drets que cap poder pot legítimament violar és moderna — en la seva forma jurídica actual, no té ni cent anys. Però la intuïció que hi ha quelcom en la persona humana que mereix respecte incondicional és molt més antiga. Els estoics grecs i romans, els teòlegs medievals, els juristes del dret natural — tots van intentar articular una idea que la modernitat finalment va traduir en un sistema jurídic global. Entendre d'on venen els drets humans és entendre per qué son el que son — i per qué son tan fràgils."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els drets humans moderns tenen tres fonts filosòfiques principals: la tradició del dret natural (hi ha una llei moral anterior i superior a la llei positiva), el contractualisme (els individus tenen drets anteriors a l'Estat que cap pacte social pot alienar), i la idea de dignitat humana (tot ésser humà té un valor intrínsec que ha de ser respectat independentment de qualsevol utilitat). Les tres tradicions es combinen en la Declaració Universal de 1948."
+            },
+            {
+              "type": "expandable",
+              "label": "Els estoics i la igualtat natural: la primera formulació universal",
+              "content": "Els filòsofs estoics grecs i romans (Zenó, Ciceró, Marc Aureli) van ser els primers a formular de manera sistemàtica la idea que tots els éssers humans comparteixen una natura racional comuna que els fa fonamentalment iguals — independentment de la seva condició social, origen o ciutadania. Ciceró va escriure que hi ha una 'llei veritable' — recta ratio — que és universal, immutable i aplicable a tots els éssers racionals. L'estoïcisme va influir directament en el dret romà (que va desenvolupar el 'ius gentium', un dret aplicable a tots els pobles) i a través seu en tota la tradició jurídica occidental. Quan la Declaració Universal de 1948 diu que tots els éssers humans 'neixen lliures i iguals en dignitat i drets', est usant un vocabulari que prové en línia directa dels estoics, passant per Ciceró, Tomàs d'Aquino i Locke."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "~300 aC",
+                  "title": "Estoïcisme: igualtat natural de tots els éssers racionals",
+                  "text": "Zenó de Cítion. La raó com a fonament de la igualtat humana universal."
+                },
+                {
+                  "year": "~50 aC",
+                  "title": "Ciceró: 'De Re Publica' i la llei natural",
+                  "text": "Una llei recta, universal i immutable anterior a tota llei positiva."
+                },
+                {
+                  "year": "~1265",
+                  "title": "Tomàs d'Aquino: dret natural i llei divina",
+                  "text": "Síntesi cristiana del dret natural. La llei humana ha d'estar subordinada a la llei natural."
+                },
+                {
+                  "year": "1215",
+                  "title": "Magna Carta",
+                  "text": "Primer límit jurídic documentat al poder reial. Habeas corpus en germen."
+                },
+                {
+                  "year": "1532–1542",
+                  "title": "Francisco de Vitoria: drets dels pobles indígenes",
+                  "text": "Els indígenes americans tenen drets naturals que els conqueridors no poden violar."
+                },
+                {
+                  "year": "1689",
+                  "title": "Locke: 'Dos tractats sobre el govern civil'",
+                  "text": "Drets naturals (vida, llibertat, propietat) anteriors a l'Estat. Dret a la rebel·lió."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fdh-01-01",
+              "style": "multiple-choice",
+              "question": "Francisco de Vitoria, teòleg de Salamanca del segle XVI, va ser un dels primers a aplicar el dret natural als pobles indígenes americans. Quin argument central va usar?",
+              "options": [
+                "Que els indígenes eren cristians potencials i per tant gaudien de la protecció de l'Església catòlica abans de la seva conversió",
+                "Que els indígenes eren éssers racionals i per tant subjectes del dret natural, que els conferia drets sobre les seves terres i persones que els conqueridors no podien legítimament violar",
+                "Que la conquesta d'Amèrica era legítima perquè els indígenes vivien en un estat de natura sense dret ni govern, i per tant la Corona podia imposar ordre",
+                "Que els tractats signats entre la Corona espanyola i els caps indígenes creaven obligacions jurídiques que Espanya estava incomplint"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Vitoria va usar el dret natural escolàstic per arribar a una conclusió radical: els indígenes americans eren éssers racionals i per tant subjectes del ius gentium, el dret de gents aplicable a tots els pobles. Tenien domini legítim sobre les seves terres i persones. La conquesta no podia ser justificada simplement per la seva condició de pagans. Era un argument revolucionari en el context de l'expansió colonial — i va ser majoritàriament ignorat a la pràctica. Però va establir un precedent intel·lectual important: els drets naturals s'apliquen a tots els éssers humans, no sols als cristians o als europeus.",
+              "feedbackWrong": "Vitoria no basava l'argument en la potencialitat cristiana ni en els tractats ni en la manca de govern. El seu argument era filosòficament més fonamental: la racionalitat és el criteri per ser subjecte del dret natural, i els indígenes eren clarament racionals. Per tant tenien drets anteriors a la conquesta que aquesta no podia legítimament negar."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "La Revolució Francesa",
+              "moduleEmoji": "🗽",
+              "concept": "Del dret natural als drets declarats",
+              "text": "Al mòdul de la Revolució Francesa vam veure com la Il·lustració va transformar el dret natural filosòfic en drets polítics declarats. La Declaració dels Drets de l'Home de 1789 va fer el que Locke havia pensat: va traduir drets naturals abstractes en llei positiva invocable. El salt de 'tots els humans tenen drets per natura' (filosofia) a 'tots els ciutadans tenen drets garantits per l'Estat' (dret positiu) és el salt que la Revolució Francesa va fer — i que la Declaració Universal de 1948 va intentar fer a escala global."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fdh-01-01",
+              "question": "El dret natural afirma que hi ha una llei moral anterior i superior a la llei positiva (la llei dels Estats). Si és així, qui determina el contingut d'aquesta llei natural?",
+              "options": [
+                "La raó humana universal: tot ésser racional pot descobrir la llei natural per raonament",
+                "La revelació divina: la llei natural és la llei de Déu, i només la teologia pot determinar el seu contingut",
+                "El consens intercultural: la llei natural és el conjunt de normes que totes les cultures comparteixen, descobertes per comparació etnogràfica"
+              ],
+              "correct": 0,
+              "explanation": "La tradició dominant del dret natural secular (Grotius, Locke, Kant) defensa que la raó humana pot descobrir la llei natural independentment de la revelació religiosa. Grotius va escriure que el dret natural seria vàlid 'fins i tot si Déu no existís' — una afirmació escandalosa en el seu temps però fonamental per a la laïcització del dret internacional. Però la resposta 'la raó' genera un problema immediat: les raons de persones i cultures diverses no han convergit en les mateixes conclusions sobre molts continguts morals. El consens intercultural (opció c) és atractiu però empíricament limitat: hi ha molt pocs principis realment universals en totes les cultures documentades. La solució de Kant — el principi de la dignitat humana com a imperatiu categòric derivat de la raó pura — és la que ha tingut major influència en el dret internacional dels drets humans modern. Però no resol el problema de fons: la raó sola no ha generat un consens sobre el contingut específic dels drets en molts àmbits disputats."
+            }
+          ]
+        },
+        {
+          "id": "fdh-02",
+          "title": "Del dret natural als drets positius: les grans declaracions",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1776, la Declaració d'Independència americana va escriure que 'tots els homes son creats iguals i dotats pel seu Creador de certs drets inalienables'. El 1789, la Declaració francesa va proclamar que 'el principi de tota sobirania resideix essencialment en la nació'. El 1948, la Declaració Universal va intentar sintetitzar les dues tradicions en un document aplicable a tota la humanitat. En tres textos — escrits per tres revolucions en tres contextos molt diferents — es pot llegir l'evolució de com Occident ha pensat els drets humans."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les grans declaracions de drets del segle XVIII-XX no son simplement textos jurídics — son manifestos filosòfics sobre la naturalesa dels éssers humans i la funció legítima del poder. Cada declaració respon al context polític que la va generar — i porta les marques d'aquell context en el que inclou i en el que exclou."
+            },
+            {
+              "type": "comparison",
+              "title": "Les tres grans declaracions de drets",
+              "labelA": "Declaració americana (1776) i Carta de Drets (1791)",
+              "labelB": "Declaració Universal de Drets Humans (1948)",
+              "items": [
+                {
+                  "label": "Fonament filosòfic",
+                  "a": "Drets naturals donats pel Creador; tradició anglesa de drets consuetudinaris",
+                  "b": "Dignitat inherent a tots els membres de la família humana; síntesi secular"
+                },
+                {
+                  "label": "Tipus de drets",
+                  "a": "Principalment civils i polítics (llibertat, propietat, judici just)",
+                  "b": "Civils, polítics, econòmics, socials i culturals (visió integral)"
+                },
+                {
+                  "label": "Subjecte",
+                  "a": "Ciutadans (homes, propietaris, blancs en la pràctica inicial)",
+                  "b": "Tota persona humana sense cap distinció"
+                },
+                {
+                  "label": "Obligat",
+                  "a": "L'Estat nacional enfront dels seus ciutadans",
+                  "b": "Tots els Estats enfront de totes les persones"
+                },
+                {
+                  "label": "Mecanisme de garantia",
+                  "a": "Constitució nacional, tribunals, separació de poders",
+                  "b": "Sistema internacional de supervisió (ONU, tractats, tribunals)"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Eleanor Roosevelt i la redacció de la DUDH: el miracle polític de 1948",
+              "content": "La Declaració Universal de Drets Humans va ser adoptada el 10 de desembre de 1948 per 48 vots a favor, 0 en contra i 8 abstencions (URSS i bloc soviètic, Sud-àfrica, Aràbia Saudita). Va ser redactada en un context de Guerra Freda naixent, descolonització incompleta i memòria fresca de la Shoah. Eleanor Roosevelt, vídua del president i delegada americana a l'ONU, va presidir la comissió de redacció. El filòsof libanès Charles Malik, el jurista xinès Peng Chun Chang i el canadenc John Humphrey van ser els altres arquitectes principals. Chang va insistir que el text havia d'evitar el vocabulari exclusivament occidental cristià i incorporar perspectives confucianes. Malik, filòsof format a Alemanya, va insistir en la primacia de la persona sobre l'Estat. Roosevelt va gestionar les tensions entre els EUA (drets civils i polítics) i la URSS (drets econòmics i socials). El resultat va ser un text deliberadament ambigu en molts punts — i per tant capaç d'obtenir consens. L'ambigüitat no va ser un defecte sinó una condició de possibilitat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fdh-02-01",
+              "style": "multiple-choice",
+              "question": "La Declaració Universal de 1948 és tècnicament una resolució de l'Assemblea General de l'ONU, no un tractat vinculant. Per qué té, malgrat això, tanta importància jurídica i política?",
+              "options": [
+                "Perquè el Consell de Seguretat de l'ONU la va ratificar posteriorment amb caràcter vinculant, convertint-la en dret internacional obligatori",
+                "Perquè ha estat incorporada directament en les constitucions de la majoria dels estats membres de l'ONU com a dret intern",
+                "Perquè el seu contingut ha passat a formar part del dret internacional consuetudinari, és el fonament dels tractats vinculants posteriors, i és invocada de manera consistent per tribunals nacionals i internacionals",
+                "Perquè els estats que la van votar van assumir automàticament obligacions jurídiques equivalents a un tractat en virtut del principi d'estoppel"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La DUDH no és jurídicament vinculant per si mateixa com a tractat — però la seva importància jurídica és enorme per tres raons. Primera, molts dels seus articles han passat a ser dret consuetudinari internacional, vinculant per tots els estats independentment de si han ratificat tractats específics. Segona, va ser la base per als dos Pactes Internacionals de 1966 (drets civils i polítics; drets econòmics, socials i culturals), que sí que son vinculants. Tercera, és invocada de manera consistent per tribunals constitucionals, tribunals internacionals i mecanismes de supervisió de l'ONU com a estàndard de referència. La seva força real no prové de la seva vinculatorietat formal sinó de la seva autoritat moral i del sistema que ha generat.",
+              "feedbackWrong": "El Consell de Seguretat no la va ratificar posteriorment. No ha estat incorporada directament com a dret intern per la majoria dels estats. L'estoppel no opera d'aquesta manera en dret internacional. La seva importància jurídica real prové de la combinació de la seva incorporació al dret consuetudinari, el seu rol com a base dels tractats vinculants posteriors, i la seva invocació consistent pels tribunals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fdh-02-02",
+              "style": "detect-error",
+              "statement": "La Declaració Universal de Drets Humans de 1948 va ser adoptada per unanimitat per tots els membres de les Nacions Unides, reflectint un consens global sense fissures sobre els principis dels drets humans.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta en dos punts importants. Primer, la DUDH va ser adoptada per 48 vots a favor però amb 8 abstencions significatives: la URSS i el bloc soviètic (Bielorússia, Txecoslovàquia, Polònia, Ucraïna, Iugoslàvia), Sud-àfrica (apartheid) i Aràbia Saudita (incompatibilitat amb la sharia en alguns articles). No hi va haver vots en contra perquè les abstencions eren la forma politicament menys costosa de no votar a favor. Segon, el consens no era sense fissures: les abstencions soviètiques reflectien una crítica real al text (consideraven que prioritzava els drets individuals sobre els col·lectius i els civils sobre els econòmics), la de Sud-àfrica reflectia el rebuig de la igualtat racial, i la de l'Aràbia Saudita reflectia objeccions específiques a l'article sobre el dret a canviar de religió. L'adopció va ser un èxit polític notable — però no un consens sense fissures."
+            }
+          ]
+        },
+        {
+          "id": "fdh-03",
+          "title": "La Shoah i 1948: quan el 'mai més' es va fer llei",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 20 de novembre de 1945, va obrir-se el Tribunal de Nuremberg. Per primera vegada en la historia, dirigents d'un Estat eren jutjats per crims comesos sota el cobrament de la llei del seu propi Estat. La defensa dels acusats era sòlida des d'un punt de vista del dret positiu: havien actuat conforme a les lleis alemanyes vigents. Els jutges van respondre invocant una llei superior: la llei natural, els principis de la humanitat, la consciència de la humanitat. Estaven creant dret mentre el jutjaven. I en fer-ho, van establir que el dret intern d'un Estat no pot ser paraigua d'immunitat per a crims contra la humanitat."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Declaració Universal de 1948 és inseparable de la Shoah. No és simplement que la Shoah la va motivar — és que la Shoah va demostrar que el sistema estatal de protecció de drets era radicalment insuficient: quan l'Estat mateix és el perseguidor, cap institució interna protegeix. La DUDH va néixer de la convicció que cal un sistema de protecció internacional per damunt dels estats."
+            },
+            {
+              "type": "expandable",
+              "label": "Raphael Lemkin i la invenció del mot 'genocidi'",
+              "content": "Raphael Lemkin era un jurista polonès d'origen jueu que havia intentat des dels anys 30 que la comunitat internacional criminalitzés el que ell anomenava la 'destrucció de grups nacionals'. Havia fugit de Polònia el 1939 i havia perdut 49 familiars a la Shoah. El 1944, al seu llibre 'Axis Rule in Occupied Europe', va encunyar el terme 'genocidi' (del grec 'genos', raça/tribu, i el llatí 'caedere', matar). El 1948, va ser un dels artífexs de la Convenció per a la Prevenció i la Sanció del Delicte de Genocidi — el primer tractat de drets humans vinculant de la historia, adoptat un dia abans de la DUDH. Lemkin va treballar fins a l'esgotament per aconseguir que la convenció fos ratificada per prou estats. Va morir de cor el 1959, amb escassos recursos econòmics, habitualment ignorat. La seva persistència individual va crear una de les normes jurídiques internacionals més importants del segle XX."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Pau, Conflicte i Guerra",
+              "moduleEmoji": "🕊️",
+              "concept": "La violència d'Estat i les seves conseqüències jurídiques",
+              "text": "Al mòdul de Pau, Conflicte i Guerra vam explorar com els conflictes armats generen dinàmiques de deshumanització i atrocitat. Nuremberg va ser la primera resposta jurídica sistemàtica a aquella dinàmica: va establir que cap ordre d'un superior jeràrquic exempta de responsabilitat individual per crims contra la humanitat. Va crear el principi que la 'raó d'Estat' no pot ser paraigua d'immunitat per a crims massius. Aquell principi — la responsabilitat penal individual per crims internacionals — és la base del sistema de justícia penal internacional que existeix avui."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fdh-03-01",
+              "style": "multiple-choice",
+              "question": "El Tribunal de Nuremberg va ser criticat per alguns juristes per aplicar dret 'ex post facto' — punir actes que no eren formalment criminalitzats com a crims internacionals en el moment en que es van cometre. Com van respondre els defensors del tribunal?",
+              "options": [
+                "Que Alemanya havia signat tractats internacionals previs que criminalitzaven els actes en qüestió, de manera que no hi havia retroactivitat",
+                "Que el principi de no retroactivitat s'aplica a la llei penal ordinària però no a crims de tal magnitud, que la consciència de la humanitat havia considerat sempre il·lícits fins i tot sense codificació formal",
+                "Que els acusats eren membres del govern d'un Estat agresor vençut i per tant estaven subjectes al poder punitiu dels estats vencedors sense limitació jurídica",
+                "Que el tribunal actuava com a legislador internacional amb la capacitat de crear dret nou aplicable retroactivament en cas de crimes d'una gravetat excepcional"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La resposta estàndard dels defensors del tribunal (i la que ha tingut major influència jurídica posterior) era que certes normes — la prohibició del genocidi, la prohibició de la guerra d'agressió, la prohibició de la tortura sistemàtica — formen part del dret natural o del dret consuetudinari internacional de tal manera que la seva criminalitat no depèn de la seva codificació formal. Era el mateix argument del dret natural: hi ha una llei superior a la llei positiva. El problema és que aquell argument és filosòficament convincent però jurídicament circular: qui determina el contingut de la 'consciència de la humanitat'? La resposta pràctica va ser: el tribunal guanyador. La crítica de vae victis ('ai dels vençuts') a Nuremberg no és completament infundada — però tampoc esgota la qüestió.",
+              "feedbackWrong": "Alemanya no havia signat tractats específics que criminalitzessin tots els actes jutjats. L'argument del 'poder punitiu dels vençuts' era el dels crítics (vae victis), no dels defensors. La capacitat legislativa retroactiva no era el fonament formal del tribunal. L'argument central dels defensors era el dret natural i consuetudinari: les normes violades eren suficientment fonamentals per ser considerades vinculants independentment de la seva codificació formal."
+            },
+            {
+              "type": "debate",
+              "question": "Nuremberg va establir que els individus poden ser responsables penalment per crims comesos en nom de l'Estat. El principi 'només seguia ordres' no eximeix de responsabilitat. Creus que aquest principi és just i aplicable universalment?",
+              "positionA": {
+                "label": "El principi és just i necessari",
+                "argument": "Si els individus no son personalment responsables dels crims que cometen per ordre dels seus superiors, cap sistema de justícia penal internacional és possible. La cadena de responsabilitat s'esgota sempre en 'seguia ordres'. A més, el principi té un efecte dissuasori important: si els soldats i funcionaris saben que seran responsables personalment, tenen un incentiu per desobeir ordres il·lícites. La responsabilitat individual és la única que el dret penal pot gestionar."
+              },
+              "positionB": {
+                "label": "El principi és problemàtic en la pràctica",
+                "argument": "La desobediència d'ordres en contextos militars autoritaris té un cost real i sovint fatal per al desobedient. Exigir heroisme moral com a estàndard jurídic universal és injust en contextos on la no-obediència implica la mort pròpia o de la família. A més, Nuremberg va aplicar el principi selectivament: els bombardejos de Dresden i Hiroshima, que molts juristes considerarien crims de guerra, no van ser jutjats perquè els responsables eren dels estats vencedors. La 'justícia dels vencedors' contamina el principi."
+              },
+              "reflection": "La tensió entre la pressió situacional (ordres, por, jerarquia) i la responsabilitat moral individual és el tema central de la psicologia social del mal. Stanley Milgram va demostrar experimentalment que la majoria de persones ordinàries obeiran ordres d'autoritat fins a infligir dolor sever. Qui és responsable — l'individu o el sistema?",
+              "context": "El principi de Nuremberg 'seguir ordres no eximeix' ha estat incorporat a l'Estatut de Roma del Tribunal Penal Internacional (art. 33) amb una matisació important: l'exempció per ordres superiors és possible si l'individu no sabia que l'ordre era il·lícita i l'ordre no era manifestament il·lícita."
+            }
+          ]
+        },
+        {
+          "id": "fdh-04",
+          "title": "Les generacions dels drets humans",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1979, el jurista txec Karel Vasak va proposar una classificació dels drets humans en tres generacions, cadascuna associada a un dels valors de la Revolució Francesa: llibertat (drets civils i polítics), igualtat (drets econòmics, socials i culturals) i fraternitat (drets de solidaritat: dret al desenvolupament, al medi ambient sa, a la pau). La metàfora generacional ha estat molt criticada però continua estructurant els debats sobre els drets humans. Entendre la classificació és entendre les tensions polítiques que amaga."
+            },
+            {
+              "type": "key-idea",
+              "text": "La distinció entre 'generacions' de drets humans no és simplement acadèmica — reflecteix el debat polític de la Guerra Freda: l'Occident capitalista prioritzava els drets civils i polítics (primera generació); el bloc soviètic, els drets econòmics i socials (segona generació). La tercera generació va ser un intent dels països del Sud Global de posar al centre el dret al desenvolupament i al medi ambient. La jerarquia entre generacions és una jerarquia política, no filosòfica."
+            },
+            {
+              "type": "comparison",
+              "title": "Les tres generacions de drets humans",
+              "labelA": "Primera generació (civils i polítics)",
+              "labelB": "Segona generació (econòmics, socials i culturals)",
+              "items": [
+                {
+                  "label": "Contingut típic",
+                  "a": "Llibertat d'expressió, de reunió, sufragi, judici just, prohibició de la tortura",
+                  "b": "Dret al treball, a l'educació, a la salut, a l'habitatge, a la seguretat social"
+                },
+                {
+                  "label": "Origen polític",
+                  "a": "Tradició liberal occidental; Revolució Francesa i Americana",
+                  "b": "Tradició socialista i socialdemòcrata; moviments obrers del XIX-XX"
+                },
+                {
+                  "label": "Naturalesa de l'obligació",
+                  "a": "Principalment negativa: l'Estat s'ha d'abstenir d'interferir",
+                  "b": "Principalment positiva: l'Estat ha d'actuar i proporcionar recursos"
+                },
+                {
+                  "label": "Posició en la Guerra Freda",
+                  "a": "Prioritzats per Occident; instrument de crítica als règims comunistes",
+                  "b": "Prioritzats per la URSS; instrument de crítica al capitalisme occidental"
+                },
+                {
+                  "label": "Exigibilitat judicial",
+                  "a": "Alta: tribunals constitucionals i internacionals els apliquen directament",
+                  "b": "Debatuda: molts sistemes consideren que son 'programàtics', no directament exigibles"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "La distinció entre drets 'negatius' i 'positius': una simplificació útil però falsa",
+              "content": "La distinció clàssica entre drets negatius (que simplement exigeixen que l'Estat no actuï — no mati, no censuri, no empresoni injustament) i drets positius (que exigeixen que l'Estat actuï — proporcioni educació, sanitat, habitatge) sembla clara en teoria però es desintegra en la pràctica. Protegir el dret a un judici just requereix tribunals, jutges, advocats de defensa, presons adequades — tot allò és caríssim i requereix acció estatal massiva. Protegir el dret a la propietat privada requereix policies, tribunals i un sistema de registres. Els drets civils i polítics 'negatius' son immensament cars. I a l'inrevés: el dret a l'educació o a la salut podria ser parcialment garantit per prohibicions (prohibir que les escoles discriminin, prohibir que els hospitals neguïn atenció d'emergència) — obligacions negatives. La distinció és analíticament útil però no justifica tractar els drets econòmics i socials com a menys 'reals' que els civils i polítics."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fdh-04-01",
+              "style": "multiple-choice",
+              "question": "Durant la Guerra Freda, els EUA criticaven la URSS per violar els drets civils i polítics; la URSS criticava els EUA per ignorar els drets econòmics i socials. Quin és el problema de fons que aquest debat il·lustra?",
+              "options": [
+                "Que els drets humans son un instrument de política exterior i no un estàndard objectiu, i per tant no son aplicables de manera neutral",
+                "Que existeix una jerarquia objectiva entre els drets humans en la qual els drets civils i polítics son fonamentalment superiors als econòmics i socials",
+                "Que els drets humans son indivisibles però la seva realització pràctica és graduable, i les dues superpotències els usaven selectivament per atacar-se mútuament mentre ignoraven les seves pròpies violacions",
+                "Que el sistema de drets humans de l'ONU no és aplicable als estats membres del Consell de Seguretat perquè disposen de dret de vet"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La paradoxa de la Guerra Freda en matèria de drets humans era la seva instrumentalització selectiva: els EUA invocaven les violacions soviètiques dels drets civils ignorant la segregació racial americana, la persecució dels comunistes i el suport a dictadures aliades. La URSS invocava la pobresa i la desigualtat americanes ignorant el Gulag, la censura i l'opressió dels dissidents. La Conferència Mundial de Drets Humans de Viena (1993) va declarar formalment que els drets humans son 'universals, indivisibles, interdependents i interrelacionats' — rebutjant la jerarquia entre generacions. Però la tensió entre l'afirmació formal i la pràctica selectiva continua.",
+              "feedbackWrong": "L'instrumentalització política no implica que els drets siguin subjectius ni que no siguin aplicables. La jerarquia formal entre drets no ha estat establerta pel dret internacional — Viena 1993 va afirmar explícitament la seva indivisibilitat. El vet al Consell de Seguretat no exempta dels drets humans. El problema real era la instrumentalització selectiva dels drets com a arma de política exterior mentre cadascun ignorava les seves pròpies violacions."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fdh-04-01",
+              "question": "El dret a l'habitatge, a la salut i a l'educació son drets humans reconeguts internacionalment. Però la seva realització depèn de recursos econòmics que no tots els estats tenen. Implica això que el contingut dels drets humans varia en funció del nivell de desenvolupament econòmic d'un país?",
+              "options": [
+                "Sí: no té sentit exigir a un país pobre el mateix nivell de protecció del dret a la salut que a un país ric",
+                "No: els drets son universals i el seu contingut no pot variar en funció de la riquesa del país; si un país no pot garantir-los, ha de rebre ajuda internacional",
+                "Parcialment: el contingut mínim essencial dels drets es aplica a tots; la realització progressiva fins al màxim dels recursos disponibles és l'obligació estàndard, i la cooperació internacional és una obligació complementària"
+              ],
+              "correct": 2,
+              "explanation": "La solució del dret internacional és la doctrina de la 'realització progressiva' establerta al Pacte Internacional de Drets Econòmics, Socials i Culturals (1966): cada Estat ha d'adoptar mesures per a la realització progressiva dels drets fins al màxim dels recursos de que disposa. Però el Comitè de Drets Econòmics, Socials i Culturals de l'ONU ha elaborat la doctrina del 'contingut mínim essencial': hi ha un nucli de cada dret que ha de ser garantit per tots els estats independentment del nivell de recursos, i la impossibilitat de garantir-lo per manca de recursos ha de ser justificada i no simplement afirmada. A més, els estats rics tenen obligació de cooperació internacional per ajudar els estats pobres a realitzar els drets. La solució és, per tant, matisada: universalitat del contingut mínim + realització progressiva + cooperació internacional."
+            }
+          ]
+        },
+        {
+          "id": "fdh-05",
+          "title": "La dignitat humana com a fonament: Kant i les seves conseqüències",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Immanuel Kant va formular el que molts consideren el fonament filosòfic més sòlid dels drets humans en una frase: 'Actua de tal manera que tractis la humanitat, tant en la teva persona com en la de qualsevol altra, sempre com un fi en si mateixa i mai simplement com un mitjà'. Kant no estava parlant de drets humans — el terme no existia en el seu sentit modern. Però estava formulant el principi que el sistema de drets humans internacional fa servir com a fonament: la dignitat humana és inalienable, no instrumental, i ha de ser respectada independentment de qualsevol consideració d'utilitat."
+            },
+            {
+              "type": "key-idea",
+              "text": "La dignitat humana és avui el concepte central del dret internacional dels drets humans. El preàmbul de la DUDH hi fa referència directa. Però la dignitat és un concepte filosòficament complex: qué és exactament, d'on ve, qui la té i com es vulnera son qüestions que els filòsofs, els juristes i els teòlegs continuen debatent."
+            },
+            {
+              "type": "expandable",
+              "label": "Tres concepcions de la dignitat humana",
+              "content": "Hi ha almenys tres grans tradicions sobre el fonament de la dignitat humana. La tradició religiosa (judeocristiana, islàmica) fonament la dignitat en la creació de l'ésser humà a imatge de Déu o com a criatura especial del Creador — la dignitat és un do diví que cap poder humà pot negar. La tradició kantiana fonament la dignitat en la racionalitat i l'autonomia moral: l'ésser humà és digne perquè és capaç de donar-se a si mateix la seva pròpia llei moral — la seva dignitat no depèn de cap potència externa sinó de la seva pròpia natura racional. La tradició empiricista-humanista fonament la dignitat en la capacitat de patir i de tenir projectes vitals propis: la dignitat és el reconeixement que la vida i les experiències de cada persona li importen a ella mateixa d'una manera que ha de ser respectada. Cadascuna d'aquestes tradicions genera conclusions lleugerament diverses en casos límit: sobre animals no humans, sobre persones en coma permanent, sobre embrions. El sistema internacional de drets humans usa el terme 'dignitat' sense especificar quin dels tres fonaments adopta — cosa que li permet funcionar en contexts culturals i religiosos diversos."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fdh-05-01",
+              "style": "multiple-choice",
+              "question": "El Tribunal Constitucional alemany ha defensat un 'nucli dur' de dignitat humana que no pot ser ponderat ni restringit per cap altra consideració — ni la seguretat nacional, ni el benestar general. Quin és el problema filosòfic central d'aquest enfocament?",
+              "options": [
+                "Que la dignitat és massa vaga com a concepte jurídic per ser aplicable als casos concrets sense un contingut específic determinat democràticament",
+                "Que si la dignitat és absoluta i no ponderable, qualsevol invocació de 'dignitat' bloqueja el debat democràtic sobre el contingut dels drets — i qui determina qué viola la dignitat té un poder enorme",
+                "Que l'enfocament alemany és específicament cristià i per tant no aplicable en societats pluralistes amb tradicions religioses diverses",
+                "Que la dignitat no pot ser un concepte jurídic perquè és una noció moral subjectiva que no admet verificació empírica"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El problema de fonamentar els drets en la dignitat absoluta és que el concepte és suficientment vague per ser invocat en direccions oposades: els oponents de l'avortament argumenten que viola la dignitat del no-nat; els defensors de l'avortament argumenten que negar-lo viola la dignitat de la dona. Els oponents de l'eutanàsia argumenten que viola la dignitat de la vida; els defensors argumenten que imposar el patiment viola la dignitat de l'agonia. Quan la dignitat és absoluta i no ponderable, qui determina el seu contingut en casos disputats té un poder polític enorme — i aquella determinació sovint no és democràtica sinó judicial o doctrinal. El concepte és filosòficament poderós però jurídicament problemàtic precisament per la seva obertura interpretativa.",
+              "feedbackWrong": "La vaguetat és un problema però no el central — molts conceptes jurídics son vagues i funcionen. L'especificitat cristiana és un debat real però no el problema filosòfic principal. La subjectivitat no impedeix l'aplicació jurídica. El problema central és la dinàmica de poder que genera la invocació de la dignitat com a argument absolut no ponderable: qui determina el seu contingut en casos disputats té un poder enorme que no és democràticament controlat."
+            },
+            {
+              "type": "debate",
+              "question": "La dignitat humana és un valor objectiu que existeix independentment de si és reconegut, o és una construcció social i jurídica que existeix perquè les societats han decidit crear-la?",
+              "positionA": {
+                "label": "La dignitat és objectiva",
+                "argument": "Si la dignitat fos simplement una construcció social, les atrocitats del nazisme o de l'esclavitud no podrien ser condemnades com a moralment errònies — simplement serien construccions socials alternatives. Però el genocidi és objectivament malvat independentment de si la societat que el comet el considera acceptable. La dignitat humana és el reconeixement d'una realitat moral que existeix independentment del consens social — i que podem descobrir per raó, per revelació o per intuïció moral."
+              },
+              "positionB": {
+                "label": "La dignitat és una construcció",
+                "argument": "La historia dels drets humans és la historia de com el cercle de qui compta com a digne s'ha anat expandint: dels homes lliures grecs als ciutadans romans, als cristians, als homes propietaris, a les dones, als pobles colonitzats, a les persones amb discapacitat. La 'dignitat' de cada grup no va ser 'descoberta' — va ser construïda per lluites polítiques. Això no la fa menys real ni menys valuosa, però sí que implica que la seva expansió futura depèn de la política, no de la filosofia."
+              },
+              "reflection": "Les dues posicions no son completament incompatibles: una cosa pot ser alhora construïda (com a pràctica social) i real (com a valor moral). Qué implica cadascuna per a la pràctica dels drets humans?",
+              "context": "Richard Rorty, filòsof pragmatista, va argumentar que els drets humans no necessiten fonament filosòfic objectiu per funcionar: el que importa és expandir la capacitat d'empatia cap als qui pateixen. El fonament filosòfic és irrellevant per a la pràctica — el que compta és la solidaritat."
+            }
+          ]
+        },
+        {
+          "id": "fdh-06",
+          "title": "El dret a tenir drets: ciutadania i apatrídia",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hannah Arendt va escriure el 1951, en 'Els Orígens del Totalitarisme', una de les frases més importants de la filosofia política del segle XX: 'La calamitat dels que no tenen drets no és que estiguin privats de vida, llibertat i la recerca de la felicitat, sinó que ja no pertanyen a cap comunitat que vulgui garantir cap d'aquests drets'. Va anomenar-ho 'el dret a tenir drets'. Arendt havia vist com milions de refugiats i apàtrides europeus — els jueus, els armenis, els russos blancs — existien en un buit jurídic: ningú els havia d'exterminar perquè ja eren ningú."
+            },
+            {
+              "type": "key-idea",
+              "text": "La paradoxa dels drets humans que Arendt va identificar: els drets proclamats com a universals i inalienables han estat, en la pràctica, drets dels ciutadans dels estats-nació. Quan una persona perd la ciutadania o la seva ciutadania no és reconeguda, perd en la pràctica els seus drets — no perquè la filosofia ho permeti sinó perquè cap institució els garanteix. La solució no és filosòfica sinó política: cal construir institucions que garanteixin drets independentment de la ciutadania."
+            },
+            {
+              "type": "expandable",
+              "label": "L'apatrídia avui: 10 milions de persones sense Estat",
+              "content": "Avui hi ha aproximadament 10 milions de persones apàtrides al món — persones que no son reconegudes com a ciutadanes per cap Estat. Els Rohingya de Myanmar, els Bidun del Golf Pèrsic, les persones d'origen haitià a la República Dominicana, els fills de migrants indocumentats en molts països. L'apatrídia crea un cicle de vulnerabilitat: sense documentació, no pots accedir a educació ni salut ni treball formal ni viatjar legalment. L'ACNUR (l'Agència de l'ONU per als Refugiats) té el mandat de reduir i eliminar l'apatrídia. La Convenció sobre l'Estatut dels Apàtrides (1954) i la Convenció per a la Reducció de l'Apatrídia (1961) proporcionen el marc jurídic — però molts estats no les han ratificat. La paradoxa d'Arendt no s'ha resolt: ser persona humana no és suficient per tenir drets en la pràctica; cal ser reconeguda per un Estat."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Historia i Tecnologia",
+              "moduleEmoji": "⚙️",
+              "concept": "La tecnologia de la identitat i l'exclusió",
+              "text": "Al mòdul d'Historia de la Tecnologia vam veure com les tecnologies de vigilància i registre poden ser instruments d'exclusió. La documentació d'identitat — passaports, registres de naixement, documents nacionals — és una tecnologia política que determina qui és reconegut com a membre de la comunitat política. Les persones sense documents no existeixen en el sentit jurídic: no poden votar, contractar, accedir a serveis públics ni viatjar. La tecnologia del registre civil i la documentació d'identitat no és neutral — determina qui té drets en la pràctica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fdh-06-01",
+              "style": "multiple-choice",
+              "question": "Hannah Arendt va argumentar que el gran fracàs dels drets humans del segle XX va ser que eren drets dels ciutadans, no dels éssers humans. Quin és el millor argument per resoldre aquesta paradoxa?",
+              "options": [
+                "Crear un govern mundial que pogués garantir drets directament a tots els éssers humans independentment de la seva ciutadania nacional",
+                "Establir que tots els éssers humans tenen dret a la ciutadania d'algun Estat, i que cap Estat pot deixar una persona apàtrida ni privar-la arbitràriament de la ciutadania",
+                "Substituir el sistema d'estats-nació per un sistema de comunitats voluntàries on cada persona trii a quina pertany",
+                "Declarar que les organitzacions internacionals com l'ONU son l'Estat dels que no en tenen i garantitzen directament els seus drets"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La solució que el dret internacional ha anat construint (imperfectament) és la que correspon a l'opció b: establir el dret a la ciutadania com a dret humà fonamental. La Convenció sobre els Drets de l'Infant (1989) estableix el dret de tot infant a ser registrat i a tenir una nacionalitat. La Convenció per a la Reducció de l'Apatrídia (1961) estableix obligacions per als estats de concedir la ciutadania en determinades circumstàncies. El govern mundial (opció a) és filosòficament atractiu però políticament inviable i potencialment perillós (concentraria un poder enorme sense contrapesos). Les comunitats voluntàries (opció c) no resolen el problema de qui garanteix els drets dels que no troben cap comunitat que els vulgui. L'ONU com a 'Estat dels apàtrides' (opció d) no té la capacitat institucional ni el suport polític per funcionar.",
+              "feedbackWrong": "El govern mundial és el menys viable i potencialment el més perillós per la concentració de poder. Les comunitats voluntàries no resolen el problema fonamental. L'ONU no té capacitat per actuar com a Estat. La solució més viable és establir el dret a la ciutadania com a dret fonamental — obligant els estats a no crear ni mantenir l'apatrídia."
+            },
+            {
+              "type": "reflection",
+              "question": "Has recorregut les bases filosòfiques dels drets humans: el dret natural, les grans declaracions, la Shoah i Nuremberg, les generacions dels drets, la dignitat humana i la paradoxa de l'apatrídia. Quin fonament filosòfic dels drets humans trobes més convincent — i quin creus que és el més fràgil davant dels reptes actuals?",
+              "prompt": "No cal tenir certesa. Els drets humans son una idea en construcció permanent — i les teves intuïcions sobre el seu fonament son part d'aquella construcció."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fdh-debats",
+      "title": "Els Grans Debats Filosòfics",
+      "icon": "⚖️",
+      "description": "Universalisme vs. relativisme, drets individuals vs. col·lectius, i els límits dels drets",
+      "style": "Conceptual · debats filosòfics actuals",
+      "lessons": [
+        {
+          "id": "deb-01",
+          "title": "Universalisme vs. relativisme cultural: els drets humans per a tothom?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1948, quan la DUDH estava sent redactada, l'Associació Americana d'Antropologia va publicar una declaració posant en dubte que fos possible o desitjable una declaració de drets universals: 'El respecte a les diferències entre cultures és validat per la ciència empírica'. Era una posició honesta des d'un punt de vista acadèmic — i va ser àmpliament ignorada. Setanta-cinc anys després, el debat no s'ha tancat. El relativisme cultural és la posició intel·lectualment més incòmoda dels drets humans: no ve dels opressors sinó dels que defensen la diversitat cultural."
+            },
+            {
+              "type": "key-idea",
+              "text": "El debat entre universalisme i relativisme cultural en matèria de drets humans no és entre els qui respecten les cultures i els qui no: és entre dues maneres d'entendre la relació entre cultura, poder i moralitat. El relativisme defensa que no hi ha estàndard moral transcultural legítim. L'universalisme defensa que la dignitat humana transcendeix la cultura. Les dues posicions extremes son insostenibles; el debat és sobre on traçar la línia."
+            },
+            {
+              "type": "expandable",
+              "label": "La Declaració de Bangkok (1993): el relativisme asiàtic com a posició política",
+              "content": "El 1993, a la Conferència Regional Asiàtica prèvia a la Conferència Mundial de Drets Humans de Viena, els governs de Xina, Singapur, Malàisia i d'altres van adoptar la Declaració de Bangkok. Afirmava que els drets humans han de ser considerats 'en el context dels processos nacionals i regionals' i que 'el significat dels drets humans és indissociable del context específic de cada nació'. Invocaven els 'valors asiàtics' — col·lectivisme, harmonia social, prioritat del desenvolupament econòmic sobre les llibertats individuals — per justificar restriccions als drets polítics. La resposta crítica va ser contundent: els 'valors asiàtics' eren una construcció de governs autoritaris per justificar la repressió política, no una veritable tradició cultural popular. Mahathir Mohamad (Malàisia) i Lee Kuan Yew (Singapur) — els principals promotors de la idea — governaven sense oposició política real. El debat sobre els 'valors asiàtics' mostra que el relativisme cultural sovint és invocàt per governs, no per les cultures que diuen representar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-deb-01-01",
+              "style": "multiple-choice",
+              "question": "L'argument relativista cultural més sofisticat no és que 'la mutilació genital femenina és acceptable perquè és cultural', sinó que 'l'Occident no té autoritat moral per imposar els seus estàndards a cultures que no han participat en la seva creació'. Quin és el problema central d'aquest argument?",
+              "options": [
+                "Que la mutilació genital femenina causa danys físics objectius independentment del context cultural, i el dany físic és un estàndard transcultural",
+                "Que l'argument confon dos problemes distints: qui té autoritat per imposar estàndards (qüestió de poder) i si els estàndards son vàlids (qüestió de veritat moral)",
+                "Que les cultures no son entitats homogènies i les dones de les cultures que practiquen la mutilació genital sovint s'hi oposen, de manera que invocar 'la cultura' oculta el conflicte intern",
+                "Totes tres objeccions son rellevants i s'apliquen simultàniament"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exacte. L'argument relativista sofisticat enfronta les tres objeccions simultàniament. Primera, el dany físic objectiu: la mutilació genital causa patiment i danys documentats que no son relatius a la cultura (la nena que pateix les conseqüències pateix independentment del context cultural). Segona, la confusió poder/veritat: que Occident hagi creat els estàndards no implica que els estàndards siguin incorrectes — és la fal·làcia del gènesi. Tercera, la heterogeneïtat cultural: les cultures no parlen amb una sola veu, i sovint les veus que reivindiquen 'la tradició' son les que beneficien de les pràctiques, no les que en pateixen les conseqüències. El relativisme cultural en la seva forma extrema acaba protegint les jerarquies de poder internes de les cultures en nom de la diversitat.",
+              "feedbackWrong": "Les tres objeccions son rellevants i es reforcen mútuament. Cap d'elles és suficient per si sola per tancar el debat, però les tres juntes constitueixen un argument fort contra el relativisme cultural extrem aplicat a pràctiques que causen dany sistemàtic a membres vulnerables de la cultura."
+            },
+            {
+              "type": "debate",
+              "question": "Els drets humans son universals o son una imposició de valors occidentals sobre la resta del món?",
+              "positionA": {
+                "label": "Son universals",
+                "argument": "La prohibició de la tortura, el dret a no ser esclavitzat, la prohibició del genocidi — cap d'aquests principis és específicament occidental. Totes les cultures humanes documentades condemnen l'homicidi arbitrari i la crueltat injustificada. Les diferències culturals son reals però operen dins d'un marc de valors fonamentals compartits. A més, les víctimes de la tortura, la discriminació i l'opressió a tot el món invoquen els drets humans — no com un concepte imposat des de l'exterior sinó com un vocabulari que articula la seva pròpia experiència de la injustícia."
+              },
+              "positionB": {
+                "label": "Reflecteixen una perspectiva parcial",
+                "argument": "La DUDH va ser redactada principalment per occidentals en un context postcolonial en que la majoria dels països del Sud Global no tenien representació independent. Privilegia el dret a la propietat privada (de tradició liberal), la llibertat religiosa individual (de tradició protestant), i els drets civils i polítics sobre els econòmics i socials. Altres tradicions (confuciana, islàmica, africana comunitarista) prioritzarien el deure sobre el dret, la comunitat sobre l'individu, l'harmonia sobre la llibertat. Reconèixer-ho no implica acceptar qualsevol pràctica — implica construir el sistema de drets humans de manera genuïnament universal, no disfressant la perspectiva occidental d'universalitat."
+              },
+              "reflection": "Es pot ser universalista sense ser imperialista? Com construiries un sistema de drets humans genuïnament universal que no fos simplement l'exportació d'una tradició particular?",
+              "context": "Amartya Sen ha argumentat que els valors d'igualtat, tolerància i llibertat no son exclusivament occidentals: existeixen en la filosofia budista, en el pensament islàmic clàssic, en les tradicions africanes ubuntu. El problema no és la universalitat dels valors sinó la pretensió que una tradició particular n'és la dipositaria exclusiva."
+            }
+          ]
+        },
+        {
+          "id": "deb-02",
+          "title": "Drets individuals vs. drets col·lectius",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1992, el Canadà va reconèixer constitucionalment els drets dels pobles indígenes a l'autogovern i a la preservació de la seva cultura. Alguns grups indígenes van usar aquells drets col·lectius per restringir la llibertat de les dones de la seva comunitat de divorciar-se o de participar en certes cerimònies. Les dones van al·legar violació dels seus drets individuals. Qui tenia raó: la comunitat indígena que invocava el dret col·lectiu a la seva cultura, o les dones que invocaven els seus drets individuals? La pregunta no té resposta fàcil — i il·lustra una de les tensions més profundes dels drets humans."
+            },
+            {
+              "type": "key-idea",
+              "text": "El debat entre drets individuals i drets col·lectius no és entre els qui valoren la llibertat i els qui valoren la comunitat — és sobre quina relació ha d'existir entre els dos. La tradició liberal occidental ha privilegiat l'individu; les tradicions comunitaristes, l'entitat col·lectiva (la nació, el grup, la família). El sistema internacional de drets humans intenta acomodar tots dos — amb tensions reals en casos de conflicte."
+            },
+            {
+              "type": "expandable",
+              "label": "Els drets dels pobles indígenes: el cas paradigmàtic",
+              "content": "La Declaració de les Nacions Unides sobre els Drets dels Pobles Indígenes (2007) va reconèixer el dret a l'autodeterminació, a les terres ancestrals, a la preservació de la cultura, la llengua i les institucions pròpies. Va ser adoptada per 143 vots a favor i 4 en contra (Austràlia, Canadà, Nova Zelanda, EUA — tots quatre han canviat la seva posició des de llavors). El debat central era: com garantir drets col·lectius als pobles indígenes (que son essencials per a la seva supervivència com a cultures) sense crear un paraigua que permeti als líders d'aquells pobles violar els drets individuals dels seus membres? La Declaració no resol plenament aquest problema — estableix que els drets individuals no han de ser menyscabats pels drets col·lectius, però en molts casos concrets la tensió és real i no automàticament resolta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-deb-02-01",
+              "style": "multiple-choice",
+              "question": "Will Kymlicka, filòsof canadenc, va distingir entre 'proteccions externes' i 'restriccions internes' en el context dels drets col·lectius. Quina és la distinció i per qué és important?",
+              "options": [
+                "Les proteccions externes son els drets dels grups enfront d'altres grups o de l'Estat majoritari; les restriccions internes son les limitacions que el grup imposa als seus propis membres. Kymlicka defensa les primeres però no les segones.",
+                "Les proteccions externes son els drets garantits per tractats internacionals; les restriccions internes son les limitades pel dret constitucional de cada estat. Totes dues son legítimes si son proporcionals.",
+                "Les proteccions externes son els drets culturals (llengua, religió); les restriccions internes son els drets polítics (vot, representació). Les primeres son col·lectives; les segones, individuals.",
+                "Les proteccions externes son temporals (mesures d'acció positiva); les restriccions internes son permanents (drets estructurals). Les primeres son legítimes; les segones, problemàtiques."
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. La distinció de Kymlicka és molt influent en el debat sobre els drets col·lectius. Un grup minoritari pot legítimament exigir proteccions enfront del grup majoritari o de l'Estat (per exemple, el dret a usar la pròpia llengua, a tenir escoles en la pròpia llengua, a no ser discriminat per la pròpia cultura). Però si un grup usa els seus 'drets col·lectius' per restringir les opcions dels seus propis membres — per exemple, impedint a les dones divorciar-se o als joves abandonar la comunitat — això és una restricció interna que viola els drets individuals d'aquells membres. Kymlicka defensa el dret dels grups a protegir-se de l'exterior però no a oprimir els seus membres en nom de la cohesió cultural.",
+              "feedbackWrong": "La distinció de Kymlicka no és sobre tractats vs. constitucions, ni sobre cultura vs. política, ni sobre temporalitat. És sobre la direcció de la restricció: enfront de l'exterior (legítima) o enfront dels propis membres (problemàtica). És una distinció analítica poderosa per navegar el debat entre drets col·lectius i individuals."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-deb-02-01",
+              "question": "El dret a l'autodeterminació dels pobles — reconegut a la Carta de l'ONU i als Pactes de 1966 — és una de les normes de dret internacional més citades i menys aplicades. Per qué?",
+              "options": [
+                "Perquè el dret internacional no té mecanismes d'aplicació coercitiva i per tant cap norma és realment vinculant",
+                "Perquè el dret a l'autodeterminació entra en conflicte directe amb el principi d'integritat territorial dels estats, i el sistema internacional ha privilegiat sistemàticament el segon sobre el primer",
+                "Perquè el concepte de 'poble' és jurídivament indefinit i per tant no es pot determinar qui és titular del dret"
+              ],
+              "correct": 1,
+              "explanation": "La tensió entre autodeterminació i integritat territorial és el nucli del problema. El sistema internacional de l'ONU va ser construït sobre dos principis que son parcialment contradictoris: el dret dels pobles a l'autodeterminació (article 1 de la Carta) i la prohibició d'atentar contra la integritat territorial dels estats (article 2.4). En la pràctica, el sistema ha privilegiat consistentment la integritat territorial: les seccessions unilaterals son rarament reconegudes (Kosovo és l'excepció que confirma la regla, amb reconeixements dividits). La raó és sistèmica: els estats que componen l'ONU no tenen cap interès en reconèixer un dret que podria fragmentar-los. El dret a l'autodeterminació ha estat aplicat principalment en el context de la descolonització — on el 'poble' era els habitants d'un territori colonial — però no per als pobles sense estat dins d'estats reconeguts. La indefinició del concepte de 'poble' és real però secundària: el problema principal és el conflicte d'interessos dels actors que han de aplicar la norma."
+            }
+          ]
+        },
+        {
+          "id": "deb-03",
+          "title": "Els límits dels drets: quan els drets entren en conflicte",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2006, un diari danès va publicar caricatures del profeta Mahoma. Hi va haver protestes violentes en diversos països musulmans, morts, crema d'ambaixades. El debat que va seguir va enfrontar dos drets humans: la llibertat d'expressió i el dret a la pròpia dignitat religiosa i cultural. Ambdós estan reconeguts en instruments internacionals. Cap dels dos és absolut. La pregunta — on acaba la llibertat d'expressió i on comença la incitació a l'odi o la vulneració de la dignitat — no té resposta universalment acceptada. I és una pregunta que es fa cada dia en les decisions sobre la moderació de continguts a les xarxes socials."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els drets humans no son absoluts (excepte alguns, com la prohibició de la tortura). La majoria poden ser restringits en certes condicions. El dret internacional ha elaborat tres criteris per avaluar si una restricció és legítima: ha d'estar prevista per la llei (legalitat), ha de perseguir un objectiu legítim (legitimitat), i ha de ser proporcional i necessària en una societat democràtica (proporcionalitat). Quan dos drets entren en conflicte, la ponderació és inevitable."
+            },
+            {
+              "type": "expandable",
+              "label": "El test de proporcionalitat: com es pondera un dret",
+              "content": "Quan un dret pot ser restringit per protegir un altre bé (la seguretat pública, un altre dret, la moral pública), el dret internacional exigeix el test de proporcionalitat. En la seva forma més elaborada (desenvolupada pel Tribunal Europeu de Drets Humans i els tribunals constitucionals), el test té quatre passos: 1) La mesura restrictiva té un objectiu legítim? 2) La mesura és adequada per aconseguir aquell objectiu (hi ha una relació racional entre mitjà i fi)? 3) La mesura és necessària — no hi ha una mesura menys restrictiva que aconsegueixi el mateix objectiu? 4) La mesura és proporcionada en sentit estricte — el benefici que s'obté compensa el dret que es limita? El test és una eina poderosa però no elimina el judici de valor: qui decideix si un objectiu és 'legítim' o si una mesura és 'proporcional' exerceix inevitablement un poder normatiu."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-deb-03-01",
+              "style": "multiple-choice",
+              "question": "El Tribunal Europeu de Drets Humans ha mantingut la prohibició francesa del vel integral en espais públics (niqab) com a compatible amb el Conveni Europeu. Quin argument va usar?",
+              "options": [
+                "Que el vel integral és un símbol d'opressió de les dones i per tant viola el dret a la igualtat de gènere, que preval sobre la llibertat religiosa",
+                "Que la prohibició persegueix un objectiu legítim (viure junts en una societat de convivència que requereix la possibilitat de reconèixer el rostre) i que França tenia un marge d'apreciació suficient per prendre aquella decisió",
+                "Que el vel integral representa un risc de seguretat objectiu (impossibilitat d'identificació facial) que justifica la restricció de la llibertat religiosa",
+                "Que el vel integral no és una pràctica religiosa islàmica obligatòria sinó una tradició cultural, i per tant no gaudeix de protecció sota la llibertat religiosa"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. En el cas S.A.S. c. França (2014), el TEDH va acceptar l'argument francès de la 'vida en comú' (vivre ensemble) — la idea que la convivència en una societat democràtica requereix la possibilitat de veure el rostre dels interlocutors. El tribunal va reconèixer que era un argument discutible però va donar a França un ample 'marge d'apreciació' (la doctrina que permet als estats un cert espai de discrecionalitat en qüestions sensibles) per prendre la decisió. La decisió va ser criticada per molts juristes: el concepte de 'viure junts' com a objectiu que justifica la restricció de la llibertat religiosa és vague i potencialment il·limitat. Però va ser confirmada.",
+              "feedbackWrong": "El TEDH no va declarar el vel integral un símbol d'opressió (hagués conflictuat amb la llibertat de les dones de tribar-lo). No va usar l'argument de seguretat (es pot establir excepcions per a la identificació sense prohibició general). No va negar el caràcter religiós de la pràctica. L'argument central va ser el 'viure junts' i el marge d'apreciació nacional — dos conceptes tècnicament precisos però filosòficament discutibles."
+            },
+            {
+              "type": "debate",
+              "question": "La llibertat d'expressió protegeix el discurs d'odi (hate speech) o el discurs d'odi és un abús de la llibertat d'expressió que pot ser legítimament restringit?",
+              "positionA": {
+                "label": "La llibertat d'expressió protegeix el discurs d'odi",
+                "argument": "La llibertat d'expressió que sols protegeix el discurs agradable no protegeix res. Qualsevol restricció al 'discurs d'odi' requereix que algú determini qué és 'odi' — i aquell poder de determinació és extremadament susceptible d'abús per silenciar dissidents, minories i crítiques legítimes. La historia mostra que les lleis de 'discurs d'odi' son usades de manera desproporcionada contra les pròpies minories que pretenen protegir. La resposta al discurs d'odi ha de ser més discurs, no silenci."
+              },
+              "positionB": {
+                "label": "El discurs d'odi pot ser restringit",
+                "argument": "El discurs que incita a la violència o la discriminació contra grups vulnerables no contribueix al debat democràtic — el distorsiona i el silencia. Les persones objecte de discurs d'odi sistemàtic no participen en igualtat en l'espai públic. Protegir el discurs d'odi en nom de la llibertat crea, paradoxalment, menys llibertat efectiva per a les seves víctimes. La majoria de sistemes jurídics europeus (i el dret internacional) reconeixen que certes formes de discurs d'odi poden ser restringides compatiblement amb la llibertat d'expressió."
+              },
+              "reflection": "El sistema americà (Primera Esmena molt robusta, molt poques restriccions al discurs) i el sistema europeu (restriccions al discurs d'odi compatibles amb la llibertat d'expressió) son els dos models principals. Quin trobes més convincent i per qué?",
+              "context": "L'article 20 del Pacte Internacional de Drets Civils i Polítics exigeix que els estats prohibeixin legalment tota apologia de la discriminació o la incitació a la violència. Els EUA han formulat reserves a aquest article per incompatibilitat amb la Primera Esmena. El TEDH permet restriccions al discurs d'odi si superen el test de proporcionalitat."
+            }
+          ]
+        },
+        {
+          "id": "deb-04",
+          "title": "Qui té obligacions? Estat, empreses i individus",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2010, un accident a la plataforma petroliera Deepwater Horizon de BP va abocar 4,9 milions de barrils de petroli al Golf de Mèxic, destruint ecosistemes i comunitats pesqueres durant anys. El 2013, el derroc d'Rana Plaza a Bangladesh va matar 1.134 treballadors de la indústria tèxtil que produïen roba per a marques europees i americanes. En cap dels dos casos no es van aplicar directament les normes de drets humans als responsables privats. El dret internacional de drets humans tradicional obliga els estats, no les empreses. Però les empreses privades fan moltes de les coses que fan els estats — i a vegades les fan pitjor."
+            },
+            {
+              "type": "key-idea",
+              "text": "El sistema clàssic de drets humans assumia que l'Estat era el principal violador dels drets humans. En el segle XXI, les empreses transnacionals, les organitzacions armades no estatals i les plataformes digitals exerceixen poders que afecten drets humans a escala comparable o superior a molts estats. El repte és construir un sistema de responsabilitat que s'adapti a aquesta nova distribució del poder."
+            },
+            {
+              "type": "expandable",
+              "label": "Els Principis Rectors de l'ONU sobre Empreses i Drets Humans (2011)",
+              "content": "El 2011, el Consell de Drets Humans de l'ONU va adoptar per unanimitat els Principis Rectors sobre Empreses i Drets Humans, elaborats pel professor John Ruggie de Harvard. Estableixen un marc de 'protegir, respectar i remeiar': els estats han de protegir els drets humans enfront dels abusos de les empreses; les empreses han de respectar els drets humans; i les víctimes han d'accedir a recursos efectius. Els Principis Rectors no son un tractat vinculant — son soft law (dret tou). Però han tingut un impacte real: han generat polítiques d'empresa, lleis nacionals de diligència deguda (França, Alemanya, Holanda) i un debat sobre si s'hauria d'elaborar un tractat vinculant (un procés que continua a l'ONU). La gran limitació: sense obligatorietat formal, el compliment depèn de la voluntat de les empreses i dels estats — i sovint aquella voluntat és escassa."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-deb-04-01",
+              "style": "multiple-choice",
+              "question": "Per qué el sistema clàssic de drets humans estava centrat exclusivament en els estats com a obligats, i per qué aquell enfocament s'ha mostrat insuficient?",
+              "options": [
+                "Perquè els redactors de la DUDH no eren conscients de la existència de les empreses transnacionals ni del seu poder econòmic",
+                "Perquè el sistema es va construir en un context (post-1945) en que els estats eren els principals actors del poder internacional, i les vulneracions de drets humans eren principalment actes d'estat; però el poder econòmic de les corporacions i la seva capacitat d'afectar drets ha crescut fins a superar en molts contextos la dels estats",
+                "Perquè els estats membres de l'ONU van negociar deliberadament un sistema que exclogués les empreses per protegir els seus interessos econòmics",
+                "Perquè el dret internacional públic per definició no pot regular actors privats, que son subjectes del dret privat i no del públic"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El sistema de drets humans de 1948 va ser dissenyat en un context específic: les atrocitats de la Segona Guerra Mundial eren atrocitats d'estat (el règim nazi, el règim soviètic). Les empreses privades no eren actors d'aquella magnitud. En les dècades posteriors, la globalització econòmica va crear empreses transnacionals amb pressupostos superiors als PIB de molts estats, que operen en jurisdiccions on la capacitat regulatòria de l'Estat és feble, i que poden afectar drets humans (drets laborals, dret al medi ambient, dret a la informació) a escala massiva. El sistema jurídic no va evolucionar al ritme del canvi econòmic.",
+              "feedbackWrong": "Els redactors de la DUDH eren conscients de les empreses — Eléanor Roosevelt va treballar amb corporacions americanes. No hi va haver cap conspiració deliberada d'exclusió. El dret internacional sí que pot regular actors privats en certs contextos (dret penal internacional, dret del mar, dret dels refugiats). El factor explicatiu principal és estructural: el sistema es va construir per als principals actors de poder del moment (els estats), i no va anticipar l'escala del poder corporatiu global."
+            }
+          ]
+        },
+        {
+          "id": "deb-05",
+          "title": "Drets humans i religions: aliances i tensions",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1990, l'Organització de la Cooperació Islàmica va adoptar la Declaració del Caire sobre Drets Humans en l'Islam. Afirma que 'tots els drets i llibertats estipulats en la present Declaració estan subjectes a la xaria islàmica'. Alguns articles de la DUDH — la llibertat religiosa (incloent el dret de canviar de religió), la igualtat entre homes i dones en el matrimoni, la llibertat d'expressió sobre temes religiosos — entren en tensió directa amb interpretacions dominants de la sharia en molts contextos. Però la relació entre religions i drets humans no és simplement de conflicte — és també de convergència i d'aliança."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les religions i els drets humans comparteixen elements essencials (la dignitat humana, la justícia, la solidaritat) però entren en tensió en qüestions específiques (llibertat religiosa individual, igualtat de gènere, sexualitat, pena de mort). La relació no és de contradicció total ni de compatibilitat total — és d'aliança parcial i tensió selectiva que ha de ser gestionada cas per cas."
+            },
+            {
+              "type": "expandable",
+              "label": "El paper de les religions en la construcció dels drets humans",
+              "content": "La relació entre religions i drets humans no és simplement de tensió: les religions han estat actors fonamentals en la construcció del sistema de drets humans. El moviment abolicionista americà del XIX estava profundament arrelat en el protestantisme evangèlic. Martin Luther King Jr. usava el llenguatge bíblic per defensar els drets civils. La Teologia de l'Alliberament llatinoamericana va posar els drets econòmics dels pobres al centre de la seva missió. El moviment pels drets humans a Polònia va estar profundament vinculat al catolicisme i a Joan Pau II. Les ONG de tradició religiosa (Caritas, Islamic Relief, World Vision) son alguns dels actors humanitaris més grans del món. La narrativa que els drets humans son un projecte secular en oposició a la religió ignora una historia molt més complexa d'aliances, tensions i coevolució."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-deb-05-01",
+              "style": "multiple-choice",
+              "question": "La Declaració del Caire sobre Drets Humans en l'Islam (1990) ha estat criticada per condicionar tots els drets a la xaria. Quin és l'argument dels seus defensors?",
+              "options": [
+                "Que la xaria islàmica conté en si mateixa tots els drets reconeguts a la DUDH, de manera que la condició no implica cap restricció real",
+                "Que cada cultura té el dret a formular els drets humans en els seus propis termes, i la Declaració del Caire és la formulació islàmica dels mateixos principis universals",
+                "Que la Declaració del Caire no és un instrument de dret internacional vinculant i per tant no té efectes jurídics sobre els estats membres",
+                "Que la DUDH és ella mateixa el producte d'una visió cultural particular (occidental secular) i la Declaració del Caire ofereix una alternativa igualment vàlida"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'argument dels defensors de la Declaració del Caire és que la tradició islàmica conté els seus propis principis de dignitat, justícia i protecció de l'ésser humà — i que aquells principis no son inferiors als de la DUDH sinó simplement expressats en un vocabulari i un marc jurídic-moral diferent. La crítica a aquesta posició és que el 'vocabulari diferent' en qüestió genera conclusions concretes molt divergents en matèries com la llibertat de canviar de religió, la igualtat en el testimoni judicial, o l'estatus jurídic de les dones en el matrimoni i el divorci. La qüestió no és si la xaria conté valors positius (certament en conté) sinó si les seves interpretacions dominants son compatibles amb els estàndards internacionals en totes les matèries.",
+              "feedbackWrong": "L'argument que la xaria conté tots els drets de la DUDH és difícilment sostenible per als que coneixen el contingut d'ambdós sistemes. La manca de vinculatorietat jurídica és un fet però no és l'argument dels defensors. El paral·lelisme entre el biaix occidental de la DUDH i el biaix islàmic de la Declaració del Caire és un argument real, però no implica l'equivalència moral de tots dos sistemes en tots els seus continguts."
+            },
+            {
+              "type": "reflection",
+              "question": "Has explorat les bases filosòfiques dels drets humans — d'on venen, quines tensions contenen, qui obliga i qui és titular. Quin dels debats que hem vist creus que és el més urgent de resoldre per fer del sistema de drets humans un sistema genuïnament universal? I quin et sembla el menys resoluble?",
+              "prompt": "Els drets humans son un projecte inacabat. La filosofia que els fonamenta no és un cos de doctrina acabat sinó un debat en curs — i la teva posició en aquell debat és rellevant."
+            }
+          ]
+        },
+        {
+          "id": "deb-06",
+          "title": "El futur dels drets humans: reptes del segle XXI",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2022, Philip Alston — exrelator especial de l'ONU sobre extrema pobresa i drets humans — va publicar un article titulat 'The Parlous State of Poverty Eradication' (El Deplorable Estat de l'Eradicació de la Pobresa). Argumentava que el sistema de drets humans havia fracassat estructuralment en abordar la pobresa: havia produït informes, resolucions i recomanacions, però les desigualtats globals continuaven creixent. El sistema estava millor equipat per documentar violacions que per canviar les estructures que les generen. Era una autocrítica des de dins del sistema — i reflectia la pregunta que molts s'estan fent: en un món de crisi climàtica, IA, autoritarisme creixent i desigualtat extrema, és el sistema de drets humans actual suficient?"
+            },
+            {
+              "type": "key-idea",
+              "text": "El sistema internacional de drets humans enfronta al segle XXI reptes que el seu disseny de 1948 no va anticipar: la crisi climàtica com a amenaça als drets de les generacions futures, la intel·ligència artificial com a nova forma de control i discriminació, l'augment de l'autoritarisme que mina les institucions de supervisió, i la desigualtat extrema que buida de contingut els drets formalment reconeguts. El sistema necessita evolucionar — la pregunta és cap a on."
+            },
+            {
+              "type": "expandable",
+              "label": "El dret a un medi ambient sa: la tercera generació arriba als tribunals",
+              "content": "El 2021, el Tribunal Europeu de Drets Humans va dictar la sentència Duarte Aguilar c. Portugal en la qual sis joves portuguesos demanaven que els estats europeus havien violat els seus drets humans per la seva inacció climàtica. El 2024, el TEDH va dictar sentència en el cas Verein KlimaSeniorinnen Schweiz c. Suïssa, condemnant Suïssa per no adoptar mesures climàtiques suficients i declarant que la inacció climàtica viola el dret a la vida privada i familiar de l'article 8 del Conveni Europeu. Era la primera vegada que un tribunal internacional de drets humans condemnava un estat per inacció climàtica. El 2024, la Cort Internacional de Justícia va emetre una opinió consultiva afirmant que els estats tenen obligacions de drets humans en matèria de canvi climàtic. El dret a un medi ambient sa s'està construint cas per cas, sentència per sentència — el mateix camí que van seguir tots els drets humans al llarg de la historia."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Ciència",
+              "moduleEmoji": "🔭",
+              "concept": "El consens científic i les obligacions jurídiques",
+              "text": "Al mòdul d'Història de la Ciència vam veure com el consens científic sobre el canvi climàtic és pràcticament universal entre els investigadors del camp. Els tribunals de drets humans estan usant aquell consens com a base per establir obligacions jurídiques dels estats: si la ciència demostra que la inacció climàtica posa en risc el dret a la vida i a la salut, els estats que no actuen violen aquells drets. És un exemple fascinant de com el coneixement científic es tradueix en obligació jurídica — i de com els drets humans poden ser el vehicle per forçar l'acció política que la política convencional no aconsegueix."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-deb-06-01",
+              "style": "multiple-choice",
+              "question": "Els drets humans de les generacions futures — les persones que no han nascut encara però que viuran en el món que estem construint — son un concepte jurídic reconegut o una metàfora política?",
+              "options": [
+                "Son un concepte plenament reconegut: el Pacte Internacional de Drets Econòmics, Socials i Culturals inclou explícitament el dret al desenvolupament sostenible per a les generacions futures",
+                "Son principalment una metàfora política: les persones no nascudes no poden ser titulars de drets jurídics perquè no existeixen com a subjectes de dret",
+                "Son un concepte en construcció: alguns instruments jurídics els reconeixen de manera implícita, tribunals els estan invocant de manera creixent, i el debat teòric sobre si les generacions futures poden ser titulars de drets és actiu i obert"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Els drets de les generacions futures son un concepte en construcció que enfronta un problema filosòfic real: per tenir drets, en el sistema jurídic clàssic, cal existir com a subjecte. Les persones que no han nascut no existeixen. Però diversos instruments internacionals fan referència al 'desenvolupament sostenible' i a les 'necessitats de les generacions futures' (Declaració de Rio, 1992; Acord de París, 2015). Alguns tribunals estan usant la protecció de la infància actual — que viurà els efectes futurs del canvi climàtic — com a via per protegir interessos de llarg termini. El debat filosòfic sobre si els no-nascuts poden ser titulars de drets (i si sí, de quins) és actiu entre juristes i filòsofs. La resposta pràctica és la que els tribunals van construint sentència per sentència.",
+              "feedbackWrong": "El Pacte de 1966 no esmenta explícitament les generacions futures. Però dir que son simplement una metàfora política ignora el creixent reconeixement jurídic en instruments internacionals, decisions judicials i debat doctrinal. Son un concepte en construcció — ni plenament reconegut ni simplement metafòric."
+            },
+            {
+              "type": "debate",
+              "question": "El sistema internacional de drets humans — basat en tractats, comitès de supervisió i tribunals — ha demostrat ser efectiu per protegir els drets humans, o és principalment un sistema d'aspiracions formals amb poc impacte real?",
+              "positionA": {
+                "label": "El sistema és efectiu",
+                "argument": "El nombre de tractats de drets humans, el nombre de ratificacions, la jurisprudència dels tribunals internacionals i la influència dels mecanismes de l'ONU sobre les polítiques nacionals han crescut enormement des de 1948. Les sentències del TEDH han forçat canvis legislatius en desenes de països. Les recomanacions dels comitès de tractats influeixen en les constitucions i les polítiques nacionals. Les normes de drets humans han creat un estàndard global que, malgrat les seves limitacions, és infinitament millor que l'alternativa — la sobirania absoluta sense accountability internacional."
+              },
+              "positionB": {
+                "label": "El sistema és principalment simbòlic",
+                "argument": "Els principals violadors dels drets humans — Xina, Rússia, Aràbia Saudita — son membres de l'ONU i participen en els seus mecanismes sense canviar el seu comportament. El Consell de Drets Humans de l'ONU ha estat presidit per estats que violen sistemàticament els drets que haurien de protegir. Les sentències internacionals que no son executades voluntàriament pels estats no s'executen de cap altra manera. La distància entre les normes proclamades i la realitat viscuda és enorme per a centenars de milions de persones. El sistema documenta violacions amb gran sofisticació — però canviar les estructures que les generen requereix poder polític que el sistema no té."
+              },
+              "reflection": "Les dues posicions capturen aspectes reals del sistema. Quin pes donar a les aspiracions formals i quin a l'impacte real? I com milloraries el sistema si tinguessis poder per fer-ho?",
+              "context": "Oona Hathaway, jurista americana, va publicar el 2002 un estudi empíric que mostrava que els estats que ratifiquen tractats de drets humans sense mecanismes d'aplicació efectius no milloren el seu comportament — i a vegades l'empitjoren (la ratificació dona cobertura de legitimitat sense cost). Però estudis posteriors han mostrat que els tractats sí que milloren el comportament quan hi ha mecanismes de supervisió i societat civil activa que els monitora."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

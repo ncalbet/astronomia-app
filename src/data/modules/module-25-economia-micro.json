@@ -1,0 +1,376 @@
+{
+  "id": "module-25-economia-micro",
+  "title": "Com Prenem Decisions: Preus, Incentius i Mercats",
+  "emoji": "🧠",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "mic-01",
+      "title": "L'homo economicus i les seves limitacions",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "L'economia clàssica descriu un ésser humà extraordinari: l'homo economicus. Coneix perfectament totes les seves preferències. Té accés a tota la informació rellevant. Calcula amb precisió matemàtica quin és el curs d'acció que maximitza la seva utilitat. No es cansa, no s'enamora, no cedeix a la pressió dels amics, no li fa mandra fer el que cal. I decideix sempre perfectament, sense errors ni penediments. La bona notícia: aquest ésser no existeix. La mala notícia: durant dècades, bona part de la teoria econòmica estava construïda sobre el supòsit que sí que existia. Les implicacions d'abandonar aquest supòsit han estat revolucionàries — i molt divertides."
+        },
+        {
+          "type": "key-idea",
+          "text": "La microeconomia és l'estudi de com prenen decisions els individus, les llars i les empreses: com fixen els preus, com responen als incentius, com funcionen els mercats concrets. La microeconomia clàssica assumia que els actors eren racionals i ben informats. L'economia del comportament — la revolució dels darrers quaranta anys — ha documentat de forma sistemàtica totes les maneres en que som sistemàticament irracionals."
+        },
+        {
+          "type": "expandable",
+          "label": "El cost d'oportunitat: el concepte més important que no t'han ensenyat",
+          "content": "El cost d'oportunitat és el cost de la millor alternativa a la que renuncias quan prens una decisió. Si decideixes estudiar una hora més, el cost d'oportunitat no és el que et costa el llibre — és el que podries haver fet amb aquella hora (dormir, veure una sèrie, veure els amics). Si una empresa decideix usar una fàbrica per produir cotxes, el cost d'oportunitat és el benefici que hauria obtingut produint-hi camions. Si un govern gasta en sanitat, el cost d'oportunitat és el que hauria aconseguit gastant en educació. El cost d'oportunitat és sovint invisible — no apareix a cap factura — però és real i hauria d'influir en totes les decisions. Per exemple: té sentit quedar-se a casa estudiant quan els teus amics surten? Depèn del cost d'oportunitat real de sortir (suspendre l'examen, perdre la beca) vs. el cost d'oportunitat de no sortir (perdre la connexió social, acumular estrès). La resposta econòmica correcta no és 'sempre estudia' sinó 'compara tots els costos i beneficis reals, inclosos els que no es paguen amb diners'."
+        },
+        {
+          "type": "misconception",
+          "belief": "Una cosa gratis no té cap cost per al qui la rep.",
+          "reality": "Res no és realment gratis: si no té cost monetari, té cost d'oportunitat (el temps que has d'invertir per obtenir-la), cost d'atenció (has de processar la informació), o cost de privacitat (dónes dades a canvi). La frase dels economistes és 'There's no such thing as a free lunch' (no hi ha dinars gratuïts): sempre hi ha algú que paga, sempre hi ha un cost en algun lloc del sistema.",
+          "why": "La percepció del preu zero distorsiona les decisions de forma sistemàtica: la gent sobreutilitza els béns 'gratuïts' (llistes d'espera a la sanitat pública) i infrautilitza els que costen diners però valen molt (prevenció sanitària privada de baix cost)."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-01-01",
+          "style": "multiple-choice",
+          "question": "Tens un apartament de la teva propietat i et planteges llogar-lo per 1.000€/mes o viure-hi tu. Si decideixes viure-hi tu, quin és el cost real de viure a l'apartament?",
+          "options": [
+            "Zero, perquè l'apartament ja és teu i no has de pagar res",
+            "1.000€/mes, perquè és el cost d'oportunitat: els diners que podries guanyar llogant-lo",
+            "El cost de manteniment i les despeses comunals, perquè és l'únic que realment pagues",
+            "El preu original de l'apartament dividit pels anys d'ús esperat"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El cost econòmic real de viure al teu propi apartament inclou el cost d'oportunitat: 1.000€/mes que podries guanyar llogant-lo i que deixes de guanyar. Viure a l'apartament no és 'gratis' — té un cost d'oportunitat real. Un economista diria que el cost de viure-hi és com a mínim 1.000€/mes (el lloguer que podries cobrar), més les despeses de manteniment. Ignorar el cost d'oportunitat porta a decisions incorrectes: moltes persones creuen que viure a casa pròpia és 'gratis' comparar amb llogar, però si el preu de lloguer és alt, el cost d'oportunitat de no llogar-la pot superar el cost d'un lloguer alternatiu.",
+          "feedbackWrong": "El cost econòmic real inclou el cost d'oportunitat: els ingressos que renuncias per no llogar l'apartament. Viure al teu propi apartament no és gratuït — té un cost real de 1.000€/mes en oportunitats perdudes. Ignorar els costos d'oportunitat (que no apareixen a cap factura) és un dels errors de raonament econòmic més freqüents."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-01-02",
+          "style": "detect-error",
+          "statement": "Un govern que ofereix serveis públics gratuïts (sanitat, educació) elimina el cost econòmic d'aquests serveis per als ciutadans.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació confon 'gratuïtat' amb 'absència de cost'. Els serveis públics gratuïts no eliminen el cost econòmic — el redistribueixen i el transformen. El cost segueix existint en diverses formes: el cost fiscal (el paga el conjunt dels contribuents via impostos), el cost d'oportunitat del temps (les llistes d'espera tenen un cost real en temps perdut), i el cost d'eficiència (els béns gratuïts tendeixen a ser sobreutilitzats, generant cues i ineficiències). El servei públic pot ser la millor solució per a molts béns (sanitat, educació) per raons d'equitat i fallides de mercat — però no perquè no tingui cost, sinó perquè la forma com es paga (via impostos progressius) és socialment preferible a la forma del mercat privat."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mic-01-01",
+          "question": "L'economia clàssica assumeix que les persones prenen decisions racionals que maximitzen la seva utilitat. Però és obvi que les persones cometent errors, cedim a les temptacions i prenem decisions que no maximitzen el nostre benestar. Creus que l'economia hauria de basar-se en com la gent realment es comporta, o en com hauria de comportar-se si fos racional?",
+          "options": [
+            "En com hauria de comportar-se: els models normatius serveixen com a punt de referència per identificar quan i com ens equivoquem",
+            "En com realment es comporta: una ciència que no descriu la realitat és inútil per fer prediccions i dissenyar polítiques",
+            "En tots dos: necessitem models normatius (racionalitat) com a benchmark i models descriptius (economia del comportament) per entendre les desviacions"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la defensa de l'economia normativa: la racionalitat com a ideal de referència. Sense un benchmark de decisió òptima, no pots identificar ni mesurar els errors. La posició B és la crítica behaviorista: una ciència que suposa que la gent és racional quan sabem que no ho és sistemàticament produeix prediccions equivocades i polítiques fallides. La Gran Recessió del 2008 va ser parcialment causada per models financers que assumien racionalitat perfecta en mercats que clarament no eren racionals. La posició C és la síntesi que la majoria dels economistes acadèmics moderns defensen: els models de racionalitat serveixen com a cas base i punt de referència; l'economia del comportament documenta les desviacions sistemàtiques i les seves causes; les polítiques publiques han de tenir en compte les dues dimensions. Richard Thaler (Nobel 2017) va basar tota la seva carrera en aquesta síntesi: documentar les desviacions de la racionalitat i dissenyar 'nudges' (empentes suaus) que ajuden la gent a prendre millors decisions sense coerció."
+        }
+      ]
+    },
+    {
+      "id": "mic-02",
+      "title": "Oferta, demanda i preus: la dansa que governa els mercats",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2021, quan els xips semiconductors van escassejar globalment, els fabricants de cotxes van haver d'aturar les seves cadenes de producció. BMW, Ford i Toyota van perdre milions de vehicles de producció. Per a la teoria econòmica, era un exemple perfecte de la llei de l'oferta i la demanda en acció: quan l'oferta d'un producte crucial disminueix, tot el sistema que en depèn es paralitza. Però el que va fer especialment interessant la crisi dels xips va ser la seva causa: les fàbriques d'ordinadors i telèfons, anticipant la pandèmia, havien comprat tots els xips disponibles. Els fabricants de cotxes, que confien en el 'just-in-time' (zero estoc), es van trobar sense res. La crisi dels xips va ser una lliçó d'oferta, demanda, incentius i interdependència global."
+        },
+        {
+          "type": "prediction",
+          "question": "El govern imposa un preu màxim als lloguers per fer l'habitatge assequible. Sembla una bona idea. Qué creus que passarà a llarg termini amb el nombre d'habitatges disponibles per llogar? I a curt termini amb les persones que ja estaven llogant?",
+          "hint": "Pensa en els incentius dels propietaris quan el preu del lloguer cau per sota del que podrien obtenir en un ús alternatiu de la seva propietat."
+        },
+        {
+          "type": "key-idea",
+          "text": "La llei de l'oferta i la demanda descriu com el preu d'equilibri d'un producte es determina per la interacció entre el que els compradors volen pagar i el que els venedors volen cobrar. Quan la demanda puja o l'oferta baixa, el preu puja. Quan la demanda baixa o l'oferta puja, el preu baixa. El preu d'equilibri 'buida' el mercat — no sobra ni falta producte."
+        },
+        {
+          "type": "misconception",
+          "belief": "Si els preus baixen, la gent compra més — sempre. Per tant, abaixar els preus és sempre bo per als consumidors.",
+          "reality": "Abaixar els preus per sota del mercat genera escassetat: l'oferta disminueix (els venedors surten del mercat) i la demanda augmenta (el preu baix atrau més compradors). El resultat és cues, llistes d'espera i assignació per favoritisme o sort en lloc de preu. Aixó no vol dir que els controls de preus siguin sempre dolents — vol dir que cal entendre'n les conseqüències completes.",
+          "why": "L'efecte sobre la demanda (baix preu = més compradors) és visible i immediat. L'efecte sobre l'oferta (baix preu = menys venedors) és més lent i menys visible, cosa que fa que els controls de preus semblin eficaços a curt termini i els seus costos no siguin evidents fins més tard."
+        },
+        {
+          "type": "expandable",
+          "label": "L'elasticitat: per qué el preu de la insulina i el preu del vi no funcionen igual",
+          "content": "L'elasticitat de la demanda mesura com canvia la quantitat demandada quan canvia el preu. Un bé és 'elàstic' si un canvi de preu genera un gran canvi en la demanda (el vi de luxe: si puja molt el preu, la gent en compra molt menys). Un bé és 'inelàstic' si un canvi de preu genera poc canvi en la demanda (la insulina per a un diabètic: si puja el preu, el diabètic ha de seguir comprant-la igualment). L'elasticitat té implicacions enormes per a la política econòmica. Si vols reduir el consum de tabac via impostos, ha de ser molt alta perquè la demanda de tabac és relativament inelàstica (els fumadors addictes paguen el que calgui). Si vols recaptar impostos sense destruir activitat econòmica, és millor taxar béns inelàstics (béns bàsics, addictius, sense substituts) que elàstics. Les empreses farmacèutiques que cobren preus astronòmics per medicaments essencials aprofiten precisament la inelasticitat: el pacient no té alternativa."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-02-01",
+          "style": "multiple-choice",
+          "question": "El govern imposa un preu màxim per al lloguer d'habitatges per sota del preu de mercat per fer-los més assequibles. Quin és l'efecte esperat a llarg termini, segons la teoria econòmica?",
+          "options": [
+            "El nombre d'habitatges de lloguer augmenta perquè més gent pot pagar el lloguer i els propietaris volen aprofitar la major demanda",
+            "El nombre d'habitatges de lloguer disponibles disminueix perquè els propietaris tenen menys incentius per llogar o mantenir les propietats",
+            "El preu real del lloguer baixa per a tothom gràcies al control de preus, sense efectes secundaris significatius",
+            "El mercat s'equilibra automàticament al nou preu màxim sense cap distorsió"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Aquesta és la predicció estàndard de la teoria econòmica sobre els controls de preus per sota del mercat: si el preu màxim és inferior al preu d'equilibri, la quantitat oferta disminueix (els propietaris no volen llogar a preu baix, o destinen les propietats a altres usos: venda, turisme, ús propi) i la quantitat demandada augmenta (amb el lloguer barat, més gent el vol). El resultat és escassetat: menys habitatges de lloguer disponibles de les que es demanen. Llistes d'espera, mercat negre, deteriorament de la qualitat (els propietaris no inverteixen en manteniment si no poden pujar el preu). L'evidència empírica sobre el control de lloguers és mixta: a curt termini pot ajudar els inquilins actuals; a llarg termini tendeix a reduir l'oferta.",
+          "feedbackWrong": "La teoria econòmica prediu que un preu màxim per sota del mercat genera escassetat: l'oferta es redueix (els propietaris prefereixen altres usos per a les seves propietats) i la demanda augmenta (el lloguer barat atrau més demandants). El resultat és menys habitatges de lloguer disponibles, llistes d'espera i deteriorament de la qualitat. L'evidència empírica és més complexa que la predicció simple, però els efectes secundaris negatius a llarg termini estan ben documentats."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-02-02",
+          "style": "true-false",
+          "question": "Quan el preu d'un producte puja, la demanda sempre disminueix, sense excepcions.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Hi ha excepcions notables a la llei de la demanda. Els 'béns Giffen' (nomenats per Sir Robert Giffen) són béns inferiors tan bàsics que quan el seu preu puja, la gent és tan pobra que no pot permetre's els substituts i n'augmenta el consum. Exemple históric: si la patata puja de preu a Irlanda al segle XIX, els pobres no poden permetre's carn i compren més patates. Els 'béns Veblen' (béns de luxe) també poden tenir demanda creixent quan el preu puja: el seu valor ve precisament del seu preu alt (un Rolex a 100€ no seria desitjable; a 10.000€, sí). I les expectatives de preus futurs poden fer que una pujada de preu augmenti la demanda present (si creus que el preu de l'habitatge seguirà pujant, una pujada et fa voler comprar ara, no esperar).",
+          "feedbackWrong": "La llei de la demanda (quan el preu puja, la demanda baixa) té excepcions documentades. Els béns Giffen (béns bàsics inferiors molt barats) i els béns Veblen (luxes on el preu alt és part del valor) mostren relacions de demanda-preu positives. Les expectatives de preus futurs també poden invertir la relació a curt termini. La llei de la demanda és una tendència general robusta, no una llei física sense excepcions."
+        },
+        {
+          "type": "debate",
+          "question": "El preu de l'habitatge en moltes ciutats ha augmentat molt per sobre dels salaris. La solució del mercat (construir més) xoca amb les objeccions de residents actuals que no volen construcció addicional al seu barri. Creus que el mercat de l'habitatge ha de ser regulat de forma diferent a d'altres mercats?",
+          "positionA": {
+            "label": "El mercat ha de funcionar lliurement",
+            "argument": "La solució a la falta d'habitatge assequible és augmentar l'oferta: construir més, desregularitzar el planejament urbanístic, eliminar les barreres a la construcció. Quan l'oferta augmenta, els preus baixen. La regulació (control de lloguers, restriccions al planejament) redueix l'oferta i agreuja el problema."
+          },
+          "positionB": {
+            "label": "L'habitatge necessita regulació especial",
+            "argument": "L'habitatge no és un bé de mercat ordinari: és un dret bàsic, té externalitats de xarxa (els barris milloren amb la diversitat social), i la seva inelasticitat d'oferta fa que el mercat trigui dècades a ajustar-se. L'interès dels propietaris existents (que volen preus alts) domina políticament sobre l'interès dels sense-habitatge (que no voten on no viuen)."
+          },
+          "reflection": "La crisi de l'habitatge és un dels problemes socials més greus de moltes ciutats europees. Quin creus que és el factor principal que l'ha causat, i quina mesura concreta creus que seria més efectiva?",
+          "context": "El debat sobre l'habitatge és un dels més vius de la política urbana contemporània. Ciutats com Viena (70% d'habitatge públic o cooperatiu), Singapur (80% d'habitatge públic), i Tòquio (desregulació del planejament que ha mantingut els preus relatius estables) representen models molt diferents."
+        }
+      ]
+    },
+    {
+      "id": "mic-03",
+      "title": "Fallides de mercat: quan el mercat no funciona",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "L'any 2010, la plataforma petroliera Deepwater Horizon va explotar al Golf de Mèxic, causant el major vessament de petroli de la história dels EUA. BP, la companyia responsable, va pagar multes i indemnitzacions per molts milers de milions de dòlars. Però el dany ambiental — la destrucció d'ecosistemes, la mort de fauna marina, la contaminació de les platges — va ser molt superior al que BP va pagar. Qui va pagar la diferència? La societat, els pescadors locals, els ecosistemes, les generacions futures. El cas Deepwater Horizon és un exemple clàssic d'externalitat negativa: els costos reals d'una activitat no els paga qui l'exerceix sinó tercers que no van participar en la decisió."
+        },
+        {
+          "type": "key-idea",
+          "text": "Les fallides de mercat són situacions on el mercat no assigna els recursos de forma eficient sense intervenció. Les principals: les externalitats (costos o beneficis que recauen sobre tercers no involucrats en la transacció), els béns públics (que el mercat no proveeix adequadament), la informació asimètrica (quan una de les parts sap molt més que l'altra), i els monopolis (que limiten la competència i exploten el seu poder de mercat)."
+        },
+        {
+          "type": "quote",
+          "text": "No hi ha tal cosa com un dinar gratuït.",
+          "author": "Milton Friedman — dita popularitzada en economia per descriure el cost d'oportunitat"
+        },
+        {
+          "type": "expandable",
+          "label": "El mercat de les llimones: per qué l'assegurança mèdica privada és tan difícil",
+          "content": "El 1970, l'economista George Akerlof va publicar un article titulat 'The Market for Lemons' (el mercat dels cotxes defectuosos) que li va valer el Nobel trenta anys després. L'argument: en el mercat de cotxes de segona mà, el venedor sap si el cotxe té defectes ('lemon' en argot americà) però el comprador no. Per protegir-se, el comprador ofereix un preu baix (el promig entre un cotxe bo i un dolent). Però amb un preu baix, els venedors de cotxes bons surten del mercat (no els surt pagar). Queden els de cotxes dolents. El comprador, sabent que ha quedat sols els dolents, baixa el preu. Més venedors bons surten. El mercat col·lapsa. Akerlof va aplicar el mateix raonament a l'assegurança mèdica: les companyies no saben quina és la salut real del client (informació asimètrica). Si cobren el preu promig, els sans (que saben que no necessitaran gaire l'assegurança) no es subscriuen. Queden els malalts. Les primes pugen. Més sans surten. El mercat d'assegurança privada per a malalts crònics col·lapsa — i és per això que la majoria de sistemes sanitaris desenvolupats no el deixen completament a la iniciativa privada."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-03-01",
+          "style": "multiple-choice",
+          "question": "Un fabricant de cotxes instal·la sistemes de filtratge d'emissions que costen 500€ per vehicle però redueixen la contaminació de l'aire en un valor social estimat de 2.000€. Sense regulació, el fabricant instal·larà el filtre?",
+          "options": [
+            "Sí, perquè el benefici social (2.000€) supera el cost (500€), i el mercat sempre maximitza el benestar total",
+            "No, perquè el fabricant no rep els 2.000€ de benefici social — el rep la societat. El seu càlcul és: cost 500€, ingrés addicional 0€",
+            "Depèn de si els consumidors estan disposats a pagar 500€ més per un cotxe més net",
+            "Sí, si la regulació mediambiental ho exigeix, però no voluntàriament"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Aquesta és l'essència de les externalitats positives: el benefici recau sobre tercers (la societat que respira aire més net) però el cost el paga el fabricant. En absència de regulació, el fabricant fa el seu càlcul privat: cost 500€, ingrés addicional 0€. No instal·larà el filtre voluntàriament. El mercat, en aquest cas, produeix menys filtres dels que seria socialment òptim. La solució econòmica clàssica és 'internalitzar l'externalitat': o bé regular (obligar a instal·lar el filtre), o bé subvencionar (pagar al fabricant els 500€ del filtre), o bé taxar la contaminació (l'impost pigouvià) perquè el cost de contaminar sigui visible en el càlcul privat del fabricant.",
+          "feedbackWrong": "El fabricant fa el seu càlcul privat, no el social. El benefici dels 2.000€ de reducció de contaminació no entra al balanç de l'empresa — és un benefici extern que rep la societat. Sense incentiu econòmic privat, el mercat produeix menys de l'activitat socialment desitjable. Aquesta és la lògica de les externalitats positives i el motiu per regular o subvencionar certes activitats."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-03-02",
+          "style": "multiple-choice",
+          "question": "Quin d'aquests és un exemple de bé públic en sentit econòmic estricte?",
+          "options": [
+            "Un hospital públic finançat per l'Estat",
+            "La defensa nacional: una cop un país té un exèrcit, cap ciutadà pot ser exclòs de la seva protecció i el consum d'un ciutadà no redueix la protecció dels altres",
+            "Un parc municipal amb entrada gratuïta però que es pot tancar i restringir l'accés",
+            "Una autopista de peatge gestionada per una empresa privada"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Un bé públic en sentit econòmic estricte té dues característiques: no-exclusió (no pots excloure ningú del seu ús un cop el proveeixes) i no-rivalitat (el consum d'un no redueix el disponible per als altres). La defensa nacional compleix les dues: un cop tens un exèrcit, tota la ciutadania en rep la protecció independentment de si paga impostos, i el fet que tu estiguis protegit no redueix la protecció dels teus veïns. Un hospital públic és 'excloïble' (pots negar atenció a qui no és assegurat) i 'rival' (un llit ocupat és un llit menys per a un altre). El parc pot ser tancat (excloïble). L'autopista de peatge és excloïble (no pagues, no passes). Molts serveis que el govern proveeix no són 'béns públics' en el sentit econòmic estricte.",
+          "feedbackWrong": "Un bé públic en sentit econòmic requereix les dues condicions: no-exclusió (no pots excloure ningú) i no-rivalitat (el consum d'un no redueix el dels altres). La defensa nacional és l'exemple clàssic: un cop existeix, protegeix tots els ciutadans simultàniament i el fet que tu en reps la protecció no redueix la dels teus veïns. Molts serveis públics (hospitals, escoles, parcs tancables) no compleixen les dues condicions i no són 'béns públics' en sentit econòmic estricte."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mic-03-01",
+          "question": "El canvi climàtic és la fallida de mercat més gran de la história: les emissions de CO₂ són una externalitat negativa global. La solució econòmica estàndard és posar un preu al carboni (impost o mercat de drets d'emissió). Per qué creus que aquesta solució, que gairebé tots els economistes comparteixen, és tan difícil d'implementar políticament?",
+          "options": [
+            "Perquè els ciutadans no entenen la teoria econòmica de les externalitats i per tant no donen suport a la solució correcta",
+            "Perquè un impost al carboni pujaria els preus de l'energia i afectaria desproporcionadament les llars de renda baixa, generant resistència política legítima",
+            "Perquè els interessos de les indústries que emeten CO₂ (petroli, carbó, acer, ciment) tenen un poder polític que supera el de la majoria difusa que es beneficiaria de la reducció d'emissions"
+          ],
+          "correct": 2,
+          "explanation": "Les tres respostes capturen part de la realitat. La posició A subestima la intel·ligència ciutadana i sobrevalora el rol del coneixement tècnic: molta gent entén perfectament que pagar més per la gasolina els perjudica, independentment de si comprenen la teoria de les externalitats. La posició B captura una tensió real: els impostos al carboni solen ser regressius (els pobres gasten una proporció major de la seva renda en energia), i sense compensació via devolució de dividends o reducció d'altres impostos, generaran oposició legítima. Els Gilets Jaunes francesos el 2018 van ser en gran part una resposta a una taxa al combustible sense compensació redistributiva. La posició C és la que la ciència política (Mancur Olson, 'La Lògica de l'Acció Col·lectiva') considera el factor principal: els perjudicats per la taxa al carboni (indústries concretes amb interessos concentrats, organitzades i amb recursos per fer lobby) s'oposen amb molta intensitat; els beneficiaris (tota la humanitat present i futura) és un grup massa difús i massa gran per organitzar-se eficaçment. La desproporció entre interessos concentrats i interessos difusos explica per qué moltes polítiques econòmicament òptimes no s'implementen."
+        }
+      ]
+    },
+    {
+      "id": "mic-04",
+      "title": "Incentius: el motor de totes les decisions",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1990, el govern de l'Índia va introduir un programa per reduir la població de cobres verinoses a Delhi: pagava una recompensa per cada cobra morta que els ciutadans lliuressin. El resultat va ser immediat i inesperat: els emprenedors locals van començar a criar cobres per matar-les i cobrar la recompensa. Quan el govern va descobrir el frau i va cancel·lar el programa, els criadors van alliberar les cobres que ja no valia la pena tenir. La població de cobres de Delhi va augmentar per sobre dels nivells inicials. El 'efecte cobra' — el nom que l'economista alemany Horst Siebert va donar a aquest fenomen — descriu com les polítiques dissenyades per resoldre un problema el fan pitjor en ignorar els incentius que creen."
+        },
+        {
+          "type": "prediction",
+          "question": "El govern vol que els agricultors plantin menys cotxe per protegir el medi ambient. Dissenya un programa que paga als agricultors que redueixin la producció. A quin efecte pervers creus que podria portar aquest incentiu ben intencionat?",
+          "hint": "Pensa en l'efecte cobra: com podrien els agricultors optimitzar per rebre la subvenció sense complir l'objectiu real de reduir l'impacte ambiental?"
+        },
+        {
+          "type": "key-idea",
+          "text": "Els incentius — les recompenses i penalitzacions que influeixen sobre les decisions — són el mecanisme central de tota l'economia. El principi fonamental: canvia els incentius i canviaràs el comportament. El repte: els incentius sovint generen efectes no desitjats quan la gent troba formes d'obtenir la recompensa sense aconseguir el resultat que es volia."
+        },
+        {
+          "type": "expandable",
+          "label": "La llei de Goodhart: quan la mesura es converteix en l'objectiu",
+          "content": "L'economista Charles Goodhart va formular el 1975 una observació que s'ha convertit en una de les lleis informals més citades de les ciències socials: 'Quan una mesura es converteix en un objectiu, deixa de ser una bona mesura.' Exemples: si els hospitals es mesuren per temps d'espera, els gestionaran per reduir les estadístiques d'espera, no necessàriament per millorar la salut dels pacients (donant d'alta massa aviat, traspassant pacients a urgències). Si les escoles es mesuren pels resultats en tests estandarditzats, ensenyaran per als tests i no per a l'aprenentatge real. Si els policies es mesuren per nombre de detencions, faran detencions de poc valor per fer pujar les estadístiques. Si els banquers cobren bonificacions per volum de préstecs, faran préstecs de baix risc aparent però alt risc real. La llei de Goodhart és devastadora per a la gestió basada en indicadors: tot indicador és imperfecte, i quan es fa servir com a objectiu es distorsiona."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-04-01",
+          "style": "multiple-choice",
+          "question": "Un govern vol reduir la corrupció policial i introdueix un incentiu: els policies que detinguin i processin amb èxit corruptors reben un bonus salarial. Quins efectes no desitjats podria generar aquest incentiu?",
+          "options": [
+            "Cap: els incentius econòmics sempre generen el comportament desitjat si estan ben dissenyats",
+            "Els policies podrien concentrar-se en casos fàcils i visibles en lloc dels casos greus però difícils de provar, o fins i tot fabricar casos per cobrar el bonus",
+            "Els policies renuncies als bonuses per no semblar venal davant els seus col·legues",
+            "La corrupció desapareixeria ràpidament però el bonus seria massa car per al pressupost"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Quan un incentiu mesura un indicador proxy (nombre de detencions o processos) en lloc de l'objectiu real (reducció de la corrupció), els actors optimitzen per a l'indicador, no per a l'objectiu. Les perversions previsibles: concentrar-se en casos petits i fàcils de provar en lloc de grans casos complexos; fabricar o exagerar casos per cobrar el bonus; perseguir corrupció visible (que fa bones estadístiques) en lloc de la sistèmica i invisible. El disseny d'incentius és una de les tasques més complexes i importants de la política pública: cal anticipar com les persones optimitzaran per a l'incentiu i assegurar-se que l'optimització per l'incentiu coincideix amb l'objectiu real.",
+          "feedbackWrong": "Els incentius mal dissenyats solen generar comportaments que optimitzen per a la mesura usada sense aconseguir l'objectiu real. Un bonus per detencions incentiva les detencions, no la reducció de la corrupció. Les perversions previsibles inclouen casos fàcils en lloc de casos importants, i potencialment la fabricació d'evidència. El disseny d'incentius ha d'anticipar com les persones respondran a l'incentiu — no com idealment voldríem que responguessin."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-04-02",
+          "style": "true-false",
+          "question": "Els incentius monetaris sempre reforcen el comportament desitjat: pagar més per una tasca sempre fa que la gent la faci millor o en major quantitat.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Els incentius monetaris poden 'expulsar' (crowding out) la motivació intrínseca. L'exemple clàssic: un estudi d'Israel va mostrar que quan les guarderies van introduir una multa per recollir els fills tard, les recollides tardanes van augmentar. Per qué? Abans de la multa, els pares es sentien moralment obligats a ser puntuals per no abusar de les educadores. Amb la multa, la relació es monetitzava: tard pagaven, i la culpa moral desapareixia. La multa va substituir la norma social per un preu — i el preu era prou baix per ser acceptable. El mateix passa amb voluntaris: pagar poc als voluntaris pot destruir la seva motivació altruista sense proporcionar prou incentiu econòmic. O amb professionals creatius: un bonus per productivitat pot matar la creativitat si posa fora la motivació intrínseca.",
+          "feedbackWrong": "Els incentius monetaris no sempre reforcen el comportament desitjat. Poden 'expulsar' la motivació intrínseca: monetitzar una relació que era moral o altruista pot destruir la motivació original sense crear una motivació econòmica prou forta. L'estudi de les guarderies israelianes és l'exemple clàssic: la multa per arribar tard va augmentar les recollides tardanes perquè va substituir la norma moral (arribar puntual per respecte) per un preu (arribar tard pagant)."
+        },
+        {
+          "type": "reflection",
+          "question": "Pensa en un context de la teva vida (laboral, familiar, educatiu, social) on els incentius existents generen comportaments no desitjats o efectes perversos. Qué generaria l'efecte cobra o la llei de Goodhart en aquell context? Com redissenyaries els incentius per evitar-ho?",
+          "prompt": "Sigues específic: quins són els incentius actuals? Quin comportament generen? Quin comportament voldries generar? Com caldria canviar els incentius per alinear-los amb l'objectiu real?"
+        }
+      ]
+    },
+    {
+      "id": "mic-05",
+      "title": "Monopolis, competència i poder de mercat",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2021, els parlaments europeu i americà van convocar els directors executius de Google, Apple, Facebook i Amazon per respondre a acusacions d'abús de poder monopolístic. Amazon usava les dades dels seus venedors per crear productes propis competidors. Google afavoria els seus productes en els resultats de cerca. Apple cobrava un 30% de comissió a totes les aplicacions de la seva botiga. Facebook comprava competidors potencials (Instagram, WhatsApp) abans que poguessin créixer. El debat sobre el poder monopolístic de les grans tecnològiques és el de Smith i Marx actualitzat al segle XXI: quan els mercats tendeixen a la concentració, qui protegeix els consumidors i els competidors petits?"
+        },
+        {
+          "type": "key-idea",
+          "text": "Un monopoli és una situació de mercat on un sol productor domina i pot fixar preus per sobre dels costos sense perdre clients perquè no hi ha alternatives. El monopoli és ineficient (cobra més del que cobraria en competència i produeix menys) i injust (transfereix renda dels consumidors al monopolista). Però no tots els monopolis es creen igual: alguns sorgeixen de la innovació, d'altres de la complicitat amb l'Estat, i d'altres simplement de la mida dels mercats."
+        },
+        {
+          "type": "quote",
+          "text": "El poder dels monopolis és el gran enemic de la bona gestió.",
+          "author": "Adam Smith, La Riquesa de les Nacions (1776)"
+        },
+        {
+          "type": "expandable",
+          "label": "Els monopolis naturals: quan la competència és pitjor que el monopoli",
+          "content": "Un monopoli natural és un sector on una sola empresa pot proveir el servei a menor cost que diverses empreses en competència, per raons tècniques. Exemples: les xarxes elèctriques (tindries dues xarxes de cables paral·leles per tots els carrers?), les xarxes de gas, les xarxes ferroviàries, les xarxes d'aigüe. En aquests sectors, duplicar la infraestructura seria un malbaratament enorme, i per tant la competència no és viable. Però deixar un monopoli natural sense regulació és igualment problemàtic: el monopolista cobra el que vol perquè els clients no tenen alternativa. La solució és la regulació pública: l'Estat o bé gestiona el monopoli directament (empresa pública) o bé regula el monopoli privat (tarifes màximes, qualitat mínima). La discussió sobre si sectors com l'electricitat, l'aigua o les telecomunicacions han de ser públics o privats regulats és essencialment un debat sobre com gestionar els monopolis naturals."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-05-01",
+          "style": "multiple-choice",
+          "question": "Google controla el 90% del mercat global de cerca d'internet. Quin dels arguments següents justificaria considerar-ho un problema econòmic que requereix intervenció regulatòria?",
+          "options": [
+            "El fet que una empresa sigui molt gran i molt exitosa és intrínsecament dolent per a la competència i els consumidors",
+            "Si Google usa la seva posició dominant en la cerca per afavorir els seus propis productes (Google Maps, Google Shopping) sobre alternatives iguals o millors, perjudica als consumidors i impedeix la competència",
+            "Google ha arribat a la seva posició dominant per innovació i els consumidors la prefereixen lliurement, de manera que no hi ha cap problema de mercat",
+            "La regulació de les tecnològiques és impossible perquè operen globalment i cap govern individual pot controlar-les"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El problema econòmic no és la mida de Google per si sola — és l'abús de la posició dominant. Si Google usa el seu monopoli en la cerca (on pràcticament tots els usuaris comencen la seva navegació) per afavorir els seus propis productes en els resultats, pot destruir competitors que ofereixen serveis iguals o millors, no perquè Google sigui millor sinó perquè té el punt d'entrada. Això perjudica els consumidors (menys competència, pitjors alternatives) i el procés competitiu. La distinció legal i econòmica és crucial: ser gran no és il·legal; usar la grandesa per eliminar la competència, sí.",
+          "feedbackWrong": "El problema econòmic no és simplement la mida sinó el comportament: si una empresa dominant usa la seva posició per eliminar la competència en mercats adjacents (afavorint els seus productes en els resultats de cerca), perjudica als consumidors i a la innovació. Ser gran per èxit i innovació no és il·legal; usar la posició dominant per excloure competitors de forma anticoncurrencial, sí."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-05-02",
+          "style": "detect-error",
+          "statement": "En un mercat perfectament competitiu, les empreses obtenen grans beneficis a llarg termini gràcies a la seva eficiència i capacitat d'innovació.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és incorrecta des de la teoria econòmica estàndard. En un mercat perfectament competitiu a llarg termini, les empreses obtenen beneficis econòmics nuls (no comptables, sinó econòmics en el sentit de benefici per damunt del cost d'oportunitat del capital). Per qué? Perquè si una empresa obté grans beneficis, altres empreses entren al mercat atretes pel benefici, augmenten l'oferta, fan baixar els preus fins que el benefici es redueix a zero. La competència perfecta és destructora de beneficis: els preus s'igualen als costos marginals. Els grans beneficis sostenibles a llarg termini requereixen alguna forma de poder de mercat: patent, monopoli, avantatge de cost estructural, barrera d'entrada. Per això les empreses inverteixen en crear barreres a la competència."
+        },
+        {
+          "type": "debate",
+          "question": "Amazon, Google i Apple han aconseguit posicions dominants en gran mesura gràcies a la innovació i a la preferència dels consumidors. Trencar-les o regular-les agrement pot reduir la innovació i els beneficis que han aportat als consumidors. Com hauria de respondre la política pública al poder monopolístic de les grans tecnològiques?",
+          "positionA": {
+            "label": "Regular fortament o trencar-les",
+            "argument": "El poder monopolístic de les grans tecnològiques és comparable al de les grans empreses ferroviàries o petroleres del segle XIX que van requerir regulació antimonopoli. Sense intervenció, el seu poder de mercat destruirà la competència, controlarà els preus i permetrà l'abús. L'innovation de les grans plataformes és real però no justifica el monopoli: moltes innovacions (internet, GPS, la web) van ser inventades amb fons públics o en entorns no monopolístics."
+          },
+          "positionB": {
+            "label": "Deixar que el mercat evolucioni",
+            "argument": "Les posicions dominants en tecnologia rarament duren: Kodak, Nokia, MySpace i Yahoo eren dominants i van caure per la competència. Intervenir prematurament pot destruir innovació valiosa i afavorir regulatòriament els incumbents actuals contra possibles nous entrants. La millor regulació antimonopoli és facilitar la competència (portabilitat de dades, interoperabilitat) en lloc de trencar les empreses existents."
+          },
+          "reflection": "La UE ha imposat multimilers de multes a Google i ha aprovat el Digital Markets Act. Els EUA estan investigant Amazon i Apple. Creus que les respostes regulatòries actuals van en la direcció adequada?",
+          "context": "El debat sobre la regulació de les grans tecnològiques és un dels més vius de la política econòmica contemporània. Les posicions varien enormement: des de l'escola de Chicago (regulació mínima) fins a neo-brandeisians (com Lina Khan, directora de la FTC als EUA) que proposen un retorn a la regulació antimonopoli agressiva dels anys 30-40."
+        }
+      ]
+    },
+    {
+      "id": "mic-06",
+      "title": "El que l'economia no mesura: benestar, felicitat i límits del creixement",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El Bhutan, un petit regne als Himàlaies, va inventar el 1972 un índex alternatiu al PIB: la Felicitat Nacional Bruta (FNB). Mesura el benestar dels seus ciutadans en set dimensions: benestar econòmic, medi ambient, salut, educació, cultura, bon govern i ús del temps. Ha estat objecte de molta fascinació mediàtica i de molta crítica econòmica. Però la pregunta que planteja és genuïna i important: si el PIB mesura el que produïm, per qué no mesurem directament el que volem aconseguir — el benestar humà? I si comencem a mesurar el benestar, descobrirem coses molt incòmodes sobre el creixement econòmic."
+        },
+        {
+          "type": "prediction",
+          "question": "Robert Kennedy va dir el 1968 que el PIB mesura tot excepte el que fa que la vida valgui la pena. Si tu haguessis de dissenyar un indicador de progrés alternatiu al PIB, quins tres aspectes de la vida humana hi inclouries que el PIB ignora?",
+          "hint": "Pensa en el que et fa feliç a tu específicament, i en si aquells factors apareixen en cap estadística oficial del teu país."
+        },
+        {
+          "type": "key-idea",
+          "text": "La microeconomia assumeix que les preferències dels individus reflecteixen el seu benestar, i que satisfer-les maximitza la seva felicitat. Però la recerca en psicologia i economia del benestar ha mostrat tres anomalies importants: les persones s'adapten ràpidament als canvis (la roda hedònica), sobrevaloren el futur i subestimen el present, i les comparacions socials (no el nivell absolut sinó el relatiu) determinen molt el benestar subjectiu."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Com Prenem Decisions: Preus, Incentius i Mercats",
+          "moduleEmoji": "🧠",
+          "concept": "Els límits del creixement i la microeconomia del benestar",
+          "text": "La paradoxa d'Easterlin que has après en aquesta lliçó connecta la microeconomia de les decisions individuals amb les grans preguntes macroeconòmiques sobre el creixement. Si els individus s'adapten als augments de renda i el benestar no creix proporcionalment, quin és el sentit de maximitzar el PIB? L'economia del comportament (mòdul 26) aprofundeix en per qué prenem les decisions que prenem sobre el benestar propi."
+        },
+        {
+          "type": "expandable",
+          "label": "La paradoxa d'Easterlin: per qué els països rics no són necessàriament més feliços",
+          "content": "El 1974, l'economista Richard Easterlin va observar una paradoxa: dins d'un país, les persones més riques diuen ser més felices que les més pobres. Però entre països, els més rics no diuen ser significativament més feliços que els pobres a partir d'un cert llindar de renda. I en el temps, a mesura que els països enriquien, la felicitat reportada no augmentava proporcionalment. La paradoxa s'explica per la roda hedònica (ens adaptem als nous nivells d'ingressos i tornem al nivell de satisfacció base) i per la comparació social (el que importa no és quant guanyes sinó quant guanyes comparat amb els teus veïns). Guanyar un 30% més fa feliç mentre els teus veïns no guanyen el mateix — quan tothom guanya un 30% més, la satisfacció relativa no augmenta. La paradoxa d'Easterlin suggereix que el creixement econòmic indefinit no és la ruta cap a la felicitat col·lectiva, i que la desigualtat (que afecta la comparació social) pot ser més important per al benestar que el nivell absolut de renda."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-06-01",
+          "style": "multiple-choice",
+          "question": "Estudis en psicologia mostren que les persones s'adapten ràpidament als augments de renda i tornen al seu nivell base de satisfacció. Quin terme descriu aquest fenomen i quina implicació té per a la política econòmica?",
+          "options": [
+            "Utilitat marginal decreixent: cada euro addicional genera menys satisfacció que l'anterior, suggerint que la redistribució augmenta el benestar total",
+            "Roda hedònica: les persones retornen al seu nivell base de satisfacció després de canvis positius o negatius, suggerint que el creixement econòmic té efectes limitats sobre el benestar a llarg termini",
+            "Aversió a la pèrdua: les pèrdues fan més mal que els guanys equivalents fan bé, suggerint que cal protegir el nivell de vida existent més que augmentar-lo",
+            "Efecte de dotació: valorem més el que ja tenim que el que podríem tenir, suggerint resistència a qualsevol canvi en la distribució de la riquesa"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La roda hedònica (hedonic treadmill) descriu l'adaptació als canvis en les circumstàncies vitals: quan les coses milloren (augment de sou, casa nova, cotxe millor), el nivell de satisfacció puja temporalment però acaba tornant al punt base. I quan empitjoren, passa el contrari. Les implicacions per a la política econòmica són profundes: si el creixement econòmic no augmenta el benestar a llarg termini per la roda hedònica, potser la política pública hauria de prioritzar factors que generen benestar sostenible (salut, relacions socials, seguretat, igualtat) per sobre del creixement del PIB per capita.",
+          "feedbackWrong": "El fenomen descrit és la roda hedònica (hedonic treadmill): la tendència a adaptar-se als canvis en les circumstàncies i tornar al nivell base de satisfacció. Té implicacions importants per a la política econòmica: si el creixement no genera benestar sostenible per l'adaptació, potser cal prioritzar factors que els estudis mostren que sí generen benestar estable: salut, connexions socials, autonomia, seguretat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mic-06-02",
+          "style": "detect-error",
+          "statement": "Donat que els éssers humans preferim tenir més que menys, maximitzar la producció econòmica és sempre el millor objectiu per a una política pública que vulgui maximitzar el benestar.",
+          "isCorrect": false,
+          "feedbackExplanation": "Tres problemes amb l'afirmació. Primer, 'preferim tenir més que menys' és una simplificació: preferim tenir més de les coses que valorem, però la recerca mostra que sobre cert llindar de renda, els guanys addicionals de renda contribueixen poc al benestar subjectiu. Segon, el que producció econòmica (PIB) mesura no coincideix perfectament amb el que les persones valoren: el treball de cura no remunerat, la salut mental, la qualitat de les relacions, la bellesa del medi ambient no apareixen al PIB però contribuïen enormement al benestar. Tercer, maximitzar la producció pot ser incompatible amb la sostenibilitat ecològica: la producció que esgota recursos naturals irrecuperables perjudica el benestar de les generacions futures. La política pública hauria de maximitzar el benestar real, que pot coincidir amb la producció econòmica en alguns contextos i divergir-ne en d'altres."
+        },
+        {
+          "type": "reflection",
+          "question": "Has recorregut les eines bàsiques de la microeconomia: cost d'oportunitat, oferta i demanda, fallides de mercat, incentius, monopolis i els límits del creixement. Quin concepte creus que t'ha canviat més la manera de veure les decisions econòmiques de la teva vida quotidiana? I quin problema econòmic del teu entorn veus ara d'una manera diferent que abans?",
+          "prompt": "Pensa en decisions concretes: habitatge, feina, consum, temps lliure. Quin concepte d'aquest mòdul il·lumina millor les decisions que prens o que voldries prendre?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,767 @@
+{
+  "id": "module-08-musica-classica",
+  "title": "Història de la Música Clàssica",
+  "emoji": "🎼",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "musica-cronologic",
+      "title": "Del Barroc al Romanticisme",
+      "icon": "🕰️",
+      "description": "Un viatge cronològic per les grans èpoques de la música occidental",
+      "style": "Cronològic · del Barroc al segle XIX",
+      "lessons": [
+        {
+          "id": "mus-01",
+          "title": "Què és la música clàssica (i per a qui és)?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan sentim 'música clàssica', sovint imaginem una sala elegant amb gent ben vestida i un violinista al centre. Però aquesta imatge és una trampa. La música que avui anomenem 'clàssica' va néixer en tavernes, esglésies, palaus i places públiques — i va ser, en el seu moment, la música popular de la seva època."
+            },
+            {
+              "type": "key-idea",
+              "text": "El terme 'música clàssica' és una convenció moderna. Engloba gairebé 400 anys de música occidental culta, des del Barroc (1600) fins al segle XX. No és un estil, és una tradició."
+            },
+            {
+              "type": "misconception",
+              "belief": "La música clàssica sempre ha estat destinada a les elits i mai ha tingut res a veure amb el poble.",
+              "reality": "Moltes de les obres que avui considerem 'clàssiques' eren música de masses. Les òperes de Verdi omplien teatres populars. Les simfonies de Beethoven es componien per encàrrec, com avui es fa una banda sonora. Mozart tocava per a qualsevol que pagués.",
+              "why": "L'associació amb l'aristocràcia ve dels espais actuals de consum (sales de concerts formals, ràdio culta), no de l'origen de les obres."
+            },
+            {
+              "type": "prediction",
+              "question": "Si haguessis de dividir 400 anys de música occidental en grans èpoques, quins criteris faries servir? El so? La societat? La tecnologia dels instruments?",
+              "hint": "Pensa en com dividiríem la història de la pintura o de la literatura."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "~1600",
+                  "title": "Barroc",
+                  "text": "Neix l'òpera. El baix continu domina. Vivaldi, Bach, Händel."
+                },
+                {
+                  "year": "~1750",
+                  "title": "Classicisme",
+                  "text": "Ordre, claredat, forma sonata. Haydn, Mozart, primer Beethoven."
+                },
+                {
+                  "year": "~1820",
+                  "title": "Romanticisme",
+                  "text": "Emoció, nacionalisme, virtuosisme. Schubert, Chopin, Wagner, Brahms."
+                },
+                {
+                  "year": "~1890",
+                  "title": "Tardà i transició",
+                  "text": "Màhler, Bruckner, Debussy. El sistema tonal comença a esquerdar-se."
+                },
+                {
+                  "year": "~1910",
+                  "title": "Modernisme i avantguarda",
+                  "text": "Stravinsky, Schönberg. La ruptura amb la tonalitat. El segle XX comença."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mus-01-01",
+              "style": "multiple-choice",
+              "question": "Quina de les afirmacions següents descriu millor el que entenem per 'música clàssica'?",
+              "options": [
+                "Un estil musical concret amb unes regles harmòniques fixes i universals",
+                "Tota la música anterior a la invenció del fonògraf al segle XIX",
+                "Una convenció que agrupa gairebé 400 anys de tradició musical occidental culta",
+                "La música composta exclusivament per a orquestra simfònica"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. 'Música clàssica' és un paraigua ampli que cobreix el Barroc, el Classicisme, el Romanticisme i el Modernisme. No és un sol estil sinó una tradició amb moltes branques.",
+              "feedbackWrong": "El terme és més ampli del que sembla. No es refereix a un estil concret ni a un format (orquestra) ni a una època determinada per la tecnologia. És una convenció cultural que engloba gairebé quatre segles de música occidental."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-mus-01-01",
+              "question": "Per a comprendre millor una peça de música clàssica, quin factor creus que és més decisiu?",
+              "options": [
+                "Conèixer el context històric i social en què va ser composada",
+                "Tenir formació musical tècnica (solfège, harmonia, teoria)",
+                "L'experiència acumulada d'escolta activa sense formació prèvia"
+              ],
+              "correct": 2,
+              "explanation": "La recerca en psicologia de la música suggereix que l'escolta activa i repetida desenvolupa una intuïció musical profunda sense necessitat de teoria formal. El context històric enriqueix la comprensió, però no és requisit. La formació tècnica és una eina, no una porta d'entrada. Molts dels oients més sofisticats de música clàssica no llegeixen partitures — escolten amb atenció i curiositat. Això no vol dir que el context i la tècnica siguin irrellevants: enriqueixen enormement l'experiència. Però la porta d'entrada és sempre l'oïda, no el manual."
+            }
+          ]
+        },
+        {
+          "id": "mus-02",
+          "title": "El Barroc: l'ordre amagat rere l'ornament",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Imagina un rellotge de butxaca del segle XVII: per fora, relleu daurat i figures intrincades. Per dins, un mecanisme de precisió matemàtica. La música barroca és exactament això: riquesa ornamental a la superfície, i sota, una arquitectura rigorosa de tensions i resolucions."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Barroc (1600–1750) és l'era de la polifonia elaborada, el baix continu i el contrast com a eina expressiva. No és decoració arbitrària: cada ornament té una funció retòrica. La música barroca vol persuadir, com un discurs."
+            },
+            {
+              "type": "expandable",
+              "label": "Qué és el baix continu i per qué era tan important?",
+              "content": "El baix continu (o 'thorough bass') és una tècnica barroca on un instrument de baix (violoncel, fagot) toca la línia inferior mentre un instrument harmònic (clavicèmbal, orgue, llaüt) improvisa els acords a sobre, seguint xifres escrites. Era com un jazz chord chart del segle XVII: donava una base harmònica als músics i deixava espai per a la improvisació. Gairebé tota la música barroca el fa servir — és el que li dona aquella sensació de moviment constant i energia baixa."
+            },
+            {
+              "type": "comparison",
+              "title": "Renaixement vs. Barroc",
+              "labelA": "Renaixement (fins ~1600)",
+              "labelB": "Barroc (1600–1750)",
+              "items": [
+                {
+                  "label": "Textura",
+                  "a": "Polifonia equilibrada entre veus",
+                  "b": "Melodia dominant sobre baix continu"
+                },
+                {
+                  "label": "Expressió",
+                  "a": "Serena, equilibrada",
+                  "b": "Contrast dramàtic, passions exagerades"
+                },
+                {
+                  "label": "Forma",
+                  "a": "Misses, motets, madrigals",
+                  "b": "Òpera, concert, suite, fuga"
+                },
+                {
+                  "label": "Referents",
+                  "a": "Palestrina, Monteverdi (inicial)",
+                  "b": "Vivaldi, Bach, Händel, Purcell"
+                }
+              ]
+            },
+            {
+              "type": "quote",
+              "text": "La música ha de tenir llàgrimes i alegria alhora, i sempre ha de ser veritat.",
+              "author": "Claudio Monteverdi (1567–1643), considerat el pare de l'òpera"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mus-02-01",
+              "style": "multiple-choice",
+              "question": "Quina innovació musical va néixer al Barroc i va canviar radicalment la relació entre música i drama?",
+              "options": [
+                "La simfonia orquestral en quatre moviments",
+                "L'òpera, que combinava música, text i representació teatral",
+                "El quartet de corda com a format de cambra",
+                "La notació musical moderna amb pentagrama de cinc línies"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'òpera va néixer a Florència al voltant de 1600, impulsada per un grup d'intel·lectuals (la Camerata Fiorentina) que volien recrear el drama grec antic. Monteverdi va ser el primer gran mestre del gènere amb 'L'Orfeo' (1607).",
+              "feedbackWrong": "La simfonia i el quartet de corda pertanyen al Classicisme (segle XVIII). La notació amb pentagrama és anterior al Barroc. La gran innovació barroca que va transformar la relació música-drama va ser l'òpera."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mus-02-02",
+              "style": "true-false",
+              "question": "Johann Sebastian Bach era famós i reconegut arreu d'Europa durant la seva vida, com Händel o Vivaldi.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. Bach era molt respectat localment com a organista i compositor de música eclesiàstica, però mai va aconseguir la fama internacional de Händel. Va ser redescubert gairebé cent anys després de la seva mort gràcies a Felix Mendelssohn, que va dirigir 'La Passió segons Sant Mateu' el 1829.",
+              "feedbackWrong": "Sorprenentment, Bach no va ser un superstar de la seva època. Era conegut com a organista virtuós, però moltes de les seves obres no es van publicar en vida. La seva rehabilitació és una de les grans històries de la musicologia."
+            },
+            {
+              "type": "expandable",
+              "label": "La fuga: l'arquitectura del pensament musical",
+              "content": "Una fuga és una peça on un tema (anomenat 'subjecte') entra successivament en diverses veus i es combina amb ell mateix de maneres cada cop més complexes. No és un 'estil' sinó una tècnica compositiva: Bach la va dur al límit absolut. Escoltar una fuga ben construïda és com veure una catederal en construcció: cada peça encaixa amb les altres, cap nota és arbitrària. L'obra culminant és 'L'Art de la Fuga' de Bach, una col·lecció de fugues sobre un únic tema, que va deixar inacabada en morir."
+            }
+          ]
+        },
+        {
+          "id": "mus-03",
+          "title": "El Classicisme: quan menys és més",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al segle XVIII, Europa estava cansada de l'ornament barroc. La Il·lustració imposava la raó com a valor suprem. La música va respondre: menys ornament, més claredat. El resultat va ser una de les tradicions formals més sofisticades de la història de l'art — la forma sonata."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Classicisme (1750–1820) busca claredat, proporció i equilibri. La forma sonata —exposició, desenvolupament, recapitulació— és la seva gran invenció estructural. És música que pensa, no que decora."
+            },
+            {
+              "type": "expandable",
+              "label": "La forma sonata: un drama en tres actes",
+              "content": "La forma sonata no és una 'sonata' (que és un gènere) sinó una estructura que organitza un moviment musical en tres parts. L'exposició presenta dos temes contrastants en tonalitats diferentes. El desenvolupament els descompon, els combina, els porta a zones harmòniques inesperades — aquí és on la tensió creix. La recapitulació retorna els dos temes, però ara en la mateixa tonalitat: resolució. És exactament l'estructura dramàtica d'un conflicte: presentació → complicació → resolució. Haydn i Mozart la van codificar; Beethoven la va estirar fins al límit."
+            },
+            {
+              "type": "prediction",
+              "question": "Mozart va morir als 35 anys, havent compost més de 600 obres. Haydn va morir als 77 anys i va compost 104 simfonies. Per qué creus que Haydn és menys popular avui que Mozart, tot i ser tan prolífic?",
+              "hint": "Pensa en la narrativa biogràfica com a eina de màrqueting cultural."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mus-03-01",
+              "style": "multiple-choice",
+              "question": "Quin element distingeix principalment el Classicisme del Barroc en termes d'estètica musical?",
+              "options": [
+                "El Classicisme abandona la polifonia i adopta estructures monòdiques simples",
+                "El Classicisme rebutja la tonalitat major/menor i experimenta amb escales modals",
+                "El Classicisme cerca claredat estructural i equilibri formal, reduint l'ornamentació barroca",
+                "El Classicisme és el primer estil a usar instruments de vent en les composicions"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. El Classicisme no abandona la complexitat, la transforma: en lloc d'ornament i contrast dramàtic, cerca l'arquitectura transparent. Pots seguir la lògica de la música sense formació tècnica perquè els temes estan clarament presentats i la forma és equilibrada.",
+              "feedbackWrong": "El Classicisme no simplifica la música fins a l'extrema senzillesa ni abandona la tonalitat. La polifonia continua. El que canvia és l'estètica: menys ornamentació barroca, més claredat i proporció estructural. La Il·lustració influïa en la música com en les arts visuals."
+            },
+            {
+              "type": "debate",
+              "question": "Mozart vs. Beethoven: qui va ser el geni compositiu més gran del Classicisme?",
+              "positionA": {
+                "label": "Mozart",
+                "argument": "Mozart va compondre amb una facilitat i una perfecció que ningú ha igualat. Cada nota sembla inevitable, impossible d'haver estat d'una altra manera. Va dominar tots els gèneres — simfonia, òpera, música de cambra, concert — sense aparent esforç. Beethoven era un lluitador; Mozart era un regal de la natura."
+              },
+              "positionB": {
+                "label": "Beethoven",
+                "argument": "Beethoven va portar la música allà on Mozart no va poder arribar. Va expandir la simfonia, va transformar el quartet de corda, va inventar el lied simfònic. I ho va fer perdent l'oïda — una ironia tràgica que converteix la seva obra en un acte de voluntat humana extraordinari. Mozart excel·lia dins del sistema; Beethoven el va reinventar."
+              },
+              "reflection": "La teva resposta diu més sobre quins valors prioritzes en un artista (perfecció natural vs. superació personal) que sobre la música objectivament.",
+              "context": "Beethoven admirava profundament Mozart i va estudiar breument amb Haydn. No és una rivalitat — és una successió. Però el debat entre 'gràcia innata' i 'voluntat que triomfa sobre l'adversitat' és real i no té resposta correcta."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-mus-03-01",
+              "question": "Beethoven va compondre algunes de les seves obres més importants (Simfonia núm. 9, Missa Solemnis, últims quartets) quan ja era completament sord. Com creus que és possible?",
+              "options": [
+                "Visualitzava mentalment el so: un compositor expert 'escolta' amb l'imaginació, no amb les oïdes",
+                "Realment no estava completament sord — els biògrafs han exagerat la seva condició",
+                "Retreballava melodies antigues que recordava, sense crear material genuïnament nou"
+              ],
+              "correct": 0,
+              "explanation": "Un músic expert interioritza profundament el so: no necessita escoltar-lo físicament per imaginar-lo amb precisió. Beethoven tenia dècades d'experiència auditiva acumulada i un oïda interna excepcional. La neurociència musical confirma que els músics professionals activen les mateixes zones cerebrals quan 'imaginen' música que quan l'escolten realment. Pel que fa a la seva sordesa: era real i progressiva. Cap dels seus biògrafs seriosos ho ha posat en dubte. I les obres del seu últim període no eren reciclatge — eren composicions radicalment noves, més avançades que qualsevol cosa que havia escrit mentre podia escoltar."
+            }
+          ]
+        },
+        {
+          "id": "mus-04",
+          "title": "El Romanticisme: quan la música es va fer enorme",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al segle XIX, tot va créixer. Les orquestres van passar de 30 a 100 músics. Les simfonies van passar de 25 minuts a 90. La música ja no expressava 'passions ordenades' sinó el torrent desordenat de l'ànima humana. I els compositors es van convertir en herois romàntics — genis maleïts, enamorats tràgics, revolucionaris."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Romanticisme (1820–1900) posa l'emoció i l'expressió personal per sobre de la forma. La música vol narrar, pintar, declarar. Neix la música programàtica: obres que expliquen una història o evocan un paisatge sense paraules."
+            },
+            {
+              "type": "expandable",
+              "label": "El lied: la cançó que va canviar la literatura musical",
+              "content": "El lied (plural: lieder) és una cançó per a veu solista i piano sobre un poema literari. Schubert va compondre més de 600 en la seva curta vida (va morir als 31 anys). La novetat no era la cançó acompanyada — existia de sempre. La novetat era que el piano no acompanyava sinó que participava: creava l'atmosfera, anticipava l'emoció, comentava el text. En el famós lied 'Der Erlkönig' (El rei dels àlbers, sobre un poema de Goethe), el piano galopa durant tota la peça imitant el cavall, mentre la veu interpreta tres personatges. En sis minuts, és un drama complet."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1822",
+                  "title": "Schubert — Simfonia Inacabada",
+                  "text": "Dos moviments extraordinaris. Mai se sap per qué no la va acabar."
+                },
+                {
+                  "year": "1830",
+                  "title": "Berlioz — Simfonia Fantàstica",
+                  "text": "Primera gran obra de música programàtica. Narra una obsessió amorosa amb al·lucinacions."
+                },
+                {
+                  "year": "1849",
+                  "title": "Chopin mor de tuberculosi als 39 anys",
+                  "text": "Va redefinir el piano com a instrument solista. Mai va escriure una simfonia."
+                },
+                {
+                  "year": "1876",
+                  "title": "Wagner — L'Anell del Nibelung",
+                  "text": "Quinze hores de música en quatre òperes. El leitmotiv com a eina narrativa."
+                },
+                {
+                  "year": "1888",
+                  "title": "Brahms i Bruckner: l'últim gran debat",
+                  "text": "Dos bàndols: els que seguien el formalisme de Brahms i els wagnerians progressistes."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mus-04-01",
+              "style": "multiple-choice",
+              "question": "Qué és el 'leitmotiv', la tècnica que Wagner va elevar a sistema compositiu en les seves òperes?",
+              "options": [
+                "Un tema melòdic curt associat a un personatge, emoció o idea, que es repeteix i transforma al llarg de l'obra",
+                "Una tècnica vocal on el cantant alterna entre la veu de pit i la veu de cap sense transició",
+                "La pràctica de compondre la lletra i la música simultàniament, sense separació entre poeta i compositor",
+                "Un tipus d'acord disonant que crea tensió sense resoldre's fins al final de l'acte"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. El leitmotiv ('motiu conductor' en alemany) és una cèl·lula musical que el públic aprèn a associar amb un element dramàtic. Quan el tema de la mort sona, sabem que algú morirà. Quan sona el de l'amor, l'emoció és immediata. Wagner va construir obres de cinc hores sobre xarxes de desenes de leitmotive entrellaçats.",
+              "feedbackWrong": "El leitmotiv és un concepte compositiu, no vocal ni harmònic. És, essencialment, una etiqueta musical: un tema breu que identifica un personatge o idea i que es repeteix, varia i combina amb altres temes al llarg de l'obra. El cinema modern el fa servir constantment (el tema de Darth Vader, el de Indiana Jones)."
+            },
+            {
+              "type": "misconception",
+              "belief": "La música romàntica és sentimental i fàcil d'entendre — no té la complexitat intel·lectual del Barroc o el Classicisme.",
+              "reality": "El Romanticisme és harmònicament més complex que qualsevol període anterior. Wagner va portar la tonalitat als límits (l'acord de Tristany de 1865 es considera el punt de partida de l'harmonia moderna). Brahms escrivia contrapunt més sofisticat que molts barrocs. La densitat emocional no exclou la complexitat tècnica.",
+              "why": "L'emoció visible fa semblar la música 'fàcil'. Però sentir les emocions no és el mateix que comprendre l'arquitectura que les genera."
+            }
+          ]
+        },
+        {
+          "id": "mus-05",
+          "title": "El Nacionalisme i la perifèria que va canviar el centre",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al segle XIX, mentre Alemanya i Àustria dominaven la música culta, a Rússia, Bohèmia, Noruega i Espanya compositors joves feien una pregunta incòmoda: per qué hem d'escriure com Brahms? La resposta va ser una explosió de música nacional que va enriquir permanentment el repertori clàssic."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Nacionalisme musical (c. 1850–1920) és el moviment en què compositors de la 'perifèria' europea incorporen música folklòrica, llenguatge propi i temàtica nacional per crear un so inconfusiblement seu. Va ser una revolució estètica i política alhora."
+            },
+            {
+              "type": "expandable",
+              "label": "El Grup dels Cinc: Rússia contra l'acadèmia",
+              "content": "A Rússia, un grup de cinc compositors (Balakirev, Cui, Borodin, Mussorgsky i Rimsky-Korsakov) va decidir que la música russa havia de ser russa — no una còpia de l'escola alemanya. Cap d'ells era músic professional de formació: Borodin era químic, Mussorgsky era militar. Van compondre basant-se en la música folklòrica russa, en les escales modals, en les melodies de l'Església ortodoxa. El resultat va ser obres com 'Quadres d'una exposició' (Mussorgsky), 'El príncep Igor' (Borodin) o 'Sheherazade' (Rimsky-Korsakov) — obres que sonen a un lloc concret, no a l'academicisme universal."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mus-05-01",
+              "style": "multiple-choice",
+              "question": "Bedřich Smetana va compondre 'Má vlast' ('La meva pàtria'), un cicle de sis poemes simfònics. Quin objectiu compositiu primari guiava aquesta obra?",
+              "options": [
+                "Demostrar el seu domini de la forma sonata clàssica davant dels critics vienesos",
+                "Evocar paisatges, llegendes i el caràcter nacional de Bohèmia a través de la música orquestral",
+                "Crear un diàleg musical amb Wagner incorporant els seus leitmotiven en context eslau",
+                "Escriure una obra destinada exclusivament a l'ensenyament del piano als conservatoris"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. 'Má vlast' és l'exemple paradigmàtic del Nacionalisme musical: cada poema simfònic evoca un element de la identitat txeca — el riu Moldau, el guerrer Žižka, les planes de Bohèmia. L'obra es va convertir en un símbol nacional fins al punt que avui s'interpreta al festival de Praga per iniciar cada temporada.",
+              "feedbackWrong": "Smetana no buscava l'aprovació de Viena — al contrari, rebutjava l'academicisme germànic. La seva intenció era explícitament nacional: crear música que sonés a Bohèmia, que parlés de la identitat txeca en un moment de reivindicació nacional."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mus-05-02",
+              "style": "detect-error",
+              "statement": "El Nacionalisme musical va ser un moviment estrictament artístic, sense relació amb la política ni amb els moviments d'independència del segle XIX.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta. El Nacionalisme musical va estar profundament lligat a la política. Smetana va compondre mentre Bohèmia buscava autonomia de l'Imperi Austro-hongarès. Sibelius va ser considerat un símbol de resistència finlandesa contra la russificació. Bartók va recollir música folklòrica hongaresa com a acte de preservació cultural davant la germanització. La música era una eina de construcció identitaria nacional en un moment en què molts pobles lluitaven per reconeixement polític."
+            },
+            {
+              "type": "reflection",
+              "question": "La música folklòrica catalana, basca, gallega o valenciana va influir en compositors que vols reivindicar com a 'propis'? Quin preu paga una música en ser etiquetada com a 'nacional'?",
+              "prompt": "No cal que sàpigues noms concrets. Pensa en el mecanisme: quan una cultura reivindica un artista, qué guanya i qué perd?"
+            }
+          ]
+        },
+        {
+          "id": "mus-06",
+          "title": "La ruptura del segle XX: quan la música va perdre el terra",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 29 de maig de 1913, l'estrena de 'La Consagració de la Primavera' d'Igor Stravinsky a París va provocar un escàndol monumental. El públic va xiular, cridar i barallar-se als seients. Alguns defensaven la música; d'altres clamaven que era una broma de mal gust. No sabien que estaven assistint a la fi d'un món — i al naixement d'un altre."
+            },
+            {
+              "type": "key-idea",
+              "text": "El modernisme musical del segle XX va qüestionar els fonaments de tota la tradició anterior: la tonalitat, la melodia, el ritme regular, la consonància. No va ser un capritx: va ser una resposta estètica a un món que havia perdut la seva certesa."
+            },
+            {
+              "type": "expandable",
+              "label": "L'atonalisme: música sense casa harmònica",
+              "content": "En la música tonal (gairebé tota la música occidental fins a 1900), hi ha sempre una nota 'central' —la tònica— cap a la qual tendeix tot el moviment harmònic. Sentim les tensions com a inestables i les resolucions com a satisfactòries perquè el nostre oïda ha après a esperar-les. Arnold Schönberg va decidir eliminar la jerarquia: cap nota seria més important que les altres. Va crear el dodecafonisme: una tècnica en que les dotze notes de l'escala cromàtica s'usen totes en ordre fix abans de repetir-ne cap. El resultat sona 'rar' per al oïda occidental entrenada. Però no és arbitrari: és una altra lògica."
+            },
+            {
+              "type": "debate",
+              "question": "La música atonal i d'avantguarda del segle XX és una evolució legítima de la tradició clàssica, o una ruptura que va allunyar la música del seu públic de forma irreversible?",
+              "positionA": {
+                "label": "Evolució legítima",
+                "argument": "Cada gran canvi estètic de la història va ser rebut amb rebuig inicial. L'òpera, la simfonia, el Romanticisme — tots van escandalitzar en el seu moment. La música atonal és la conseqüència lògica d'un sistema tonal que s'havia esgotat. Els compositors del XX no van abandonar el públic: el públic no va voler fer l'esforç d'escoltar de manera nova."
+              },
+              "positionB": {
+                "label": "Ruptura amb cost real",
+                "argument": "Hi ha una diferència entre innovació i alienació. La música d'avantguarda del segle XX va ser rebutjada no per ignorància sinó perquè no satisfeia cap necessitat emocional natural. Un art que no pot comunicar amb el seu públic sense mediació acadèmica ha fallat en la seva funció essencial. El mercat de la música clàssica en viu s'ha contret dècada a dècada des dels anys 50, i l'avantguarda n'és parcialment responsable."
+              },
+              "reflection": "Podria ser que ambdues coses siguin certes simultàniament?",
+              "context": "La paradoxa és que avui la música 'difícil' té un públic fidelíssim i l'òpera és un espectacle de masses. El mercat de la música clàssica és complex i divers — no s'explica amb una sola narrativa."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mus-06-01",
+              "style": "multiple-choice",
+              "question": "Per quina raó 'La Consagració de la Primavera' de Stravinsky va provocar un escàndol tan gran en la seva estrena el 1913?",
+              "options": [
+                "Perquè Stravinsky va insultar públicament la família imperial russa a la partitura",
+                "Perquè combinava ritmes irregulars i canviants, dissonàncies extremes i una coreografia brutal que trencaven totes les convencions estètiques del moment",
+                "Perquè l'orquestra va tocar deliberadament malament com a protesta sindical",
+                "Perquè va ser la primera obra interpretada per una orquestra mixta amb dones"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La partitura era radical en múltiples dimensions alhora: rítmicament (compassos que canvien cada bar, síncopats violents), harmònicament (politonalitat, dissonàncies sense resolució) i dramàticament (una ofrena de sacrifici humà com a argument). El públic de 1913 no tenia cap marc de referència per processar-ho.",
+              "feedbackWrong": "L'escàndol era purament estètic i musical. La partitura de Stravinsky era tan radicalment diferent de tot el que s'havia escoltat fins aleshores — en ritme, harmonia i contingut dramàtic — que el públic no va saber com respondre-hi."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-mus-06-01",
+              "question": "La música tonal (amb jerarquia d'acords i tònica) és un sistema 'natural' que el cervell humà prefereix biològicament, o és una convenció cultural apresa?",
+              "options": [
+                "És biològicament natural: tots els sistemes musicals del món convergeixen en les mateixes relacions acústiques",
+                "És una convenció cultural: el cervell aprèn el que ha escoltat, i podria aprendre qualsevol altre sistema",
+                "Té una base acústica real (sèrie d'harmònics), però la preferència per la consonància és parcialment cultural"
+              ],
+              "correct": 2,
+              "explanation": "La resposta és deliberadament matisada. La sèrie d'harmònics — les freqüències que sonen naturalment quan vibra qualsevol corda o columna d'aire — conté les relacions que defineixen la consonància (octava, quinta, tercera). Això és física, no cultura. Però la preferència per la consonància sobre la dissonància, i la forma d'organitzar les notes en escales i acords, varien enormement entre cultures. La música índia, la turca, la javanesa o la pigmea fan servir sistemes molt diferents del sistema tonal occidental. I el cervell els processa igual de bé si hi ha estat exposat des de petit. La conclusió: hi ha una base física real, però la tonalitat occidental és una de les moltes possibles organitzacions d'aquesta base."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "musica-compositors",
+      "title": "Retrats: els compositors i les seves idees",
+      "icon": "🎭",
+      "description": "Sis compositors clau, les seves vides i el que van canviar per sempre",
+      "style": "Biogràfic · pensament i context",
+      "lessons": [
+        {
+          "id": "ret-01",
+          "title": "Bach: l'ordre com a revelació",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Johann Sebastian Bach va tenir 20 fills, va treballar tota la vida per esglésies luteranes, i mai va sortir d'Alemanya. No va ser famós en vida més que localment. I tanmateix, quan Beethoven era jove, el seu professor li va donar un únic consell: estudia Bach. Quan Mozart el va descobrir als 25 anys, va passar setmanes sense compondre, només estudiant les seves fugues. Qué tenia Bach que paralitzava els genis?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Bach no era un innovador en el sentit modern: no va inventar gèneres nous ni va trencar convencions. Va dur la tradició contrapuntística a la seva màxima perfecció. La seva música és un argument a favor de l'ordre com a forma de bellesa."
+            },
+            {
+              "type": "expandable",
+              "label": "El Clavecí Ben Temperat: un manifest tècnic i filosòfic",
+              "content": "El 1722, Bach va publicar el primer volum del 'Clavecí Ben Temperat': 24 preludis i fugues, una en cada tonalitat major i menor. El propòsit era pràctic: demostrar que el nou sistema d'afinació 'ben temperat' (que dividia l'octava en 12 semitons iguals) permetia tocar en totes les tonalitats. Però l'obra va ser molt més que una demostració tècnica: es va convertir en la Bíblia del compositor per als dos segles següents. Cada prelude i fuga té una personalitat diferent malgrat usar la mateixa tècnica. La unitat en la diversitat — l'ordre que no mata la llibertat — és el seu missatge implícit."
+            },
+            {
+              "type": "quote",
+              "text": "La meta i el fi últim de tota la música no hauria de ser res més que la glòria de Déu i la recreació de la ment.",
+              "author": "Johann Sebastian Bach (1685–1750)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ret-01-01",
+              "style": "multiple-choice",
+              "question": "Quin compositor va ser clau en el redescubriment de Bach al segle XIX, gairebé cent anys després de la seva mort?",
+              "options": [
+                "Ludwig van Beethoven, que va incloure temes de Bach en la seva última simfonia",
+                "Franz Liszt, que va transcriure les obres de Bach per a piano solista",
+                "Felix Mendelssohn, que va dirigir la primera interpretació moderna de 'La Passió segons Sant Mateu' el 1829",
+                "Johannes Brahms, que va editar i publicar les obres completes de Bach"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. El 1829, Mendelssohn tenia 20 anys i va dirigir la primera interpretació de 'La Passió segons Sant Mateu' des de la mort de Bach. L'obra portava dormida gairebé 80 anys. El concert va ser un triomf i va desencadenar una reivindicació sistemàtica de l'obra de Bach que continua fins avui.",
+              "feedbackWrong": "Va ser Felix Mendelssohn qui, el 1829, va dirigir 'La Passió segons Sant Mateu' després de dècades d'oblit. Liszt sí que va fer transcripcions de Bach, i Brahms va contribuir a l'edició de les seves obres, però el catalitzador del redescubriment va ser el concert de Mendelssohn."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ret-01-02",
+              "style": "true-false",
+              "question": "Bach va compondre totes les seves obres al llarg de la seva vida com a activitat creativa lliure i personal, sense encàrrecs ni obligacions institucionals.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Bach va treballar sempre per encàrrec i per obligació professional. Com a Kapellmeister (director musical) de diverses corts i esglésies, havia de compondre cantates setmanalment, música per a cerimònies, peces per a l'ensenyament dels seus fills i alumnes. La distinció moderna entre 'art lliure' i 'feina per encàrrec' no existia per a Bach — la seva genialitat es va desplegar completament dins de les obligacions del seu càrrec.",
+              "feedbackWrong": "Bach era bàsicament un funcionari de la música. Cada diumenge havia de tenir una cantata nova per al servei religiós. Les seves suites, concerts i preludis sovint tenien propòsits pràctics: ensenyar als seus fills, complaure un príncep, satisfer les necessitats litúrgiques. La idea del compositor com a artista lliure és una invenció romàntica posterior."
+            }
+          ]
+        },
+        {
+          "id": "ret-02",
+          "title": "Mozart: el prodigi i el mite",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Wolfgang Amadeus Mozart va fer el primer concert públic als 6 anys. Va compondre la seva primera simfonia als 8. Va morir als 35 amb un deute enorme i sense saber que seria considerat el compositor més perfecte de la història. La seva vida és tan dramàtica que és difícil separar el músic del mite — i el mite és, en gran part, una construcció posterior."
+            },
+            {
+              "type": "key-idea",
+              "text": "Mozart no era un geni que componia sense esforç. Els seus manuscrits mostren tachiages i correccions. El que tenia era una capacitat de processar mentalment música completa abans d'escriure-la — un tipus de memòria musical extraordinari, no una inspiració màgica."
+            },
+            {
+              "type": "misconception",
+              "belief": "Mozart componia les partitures ja perfectes al primer intent, directament sense esborranys ni correccions, com si les dictés una força superior.",
+              "reality": "Aquesta imatge prové d'una carta falsificada del segle XIX i de la pel·lícula 'Amadeus' (1984), que és una obra de ficció. Els manuscrits originals de Mozart mostren corrections, tachiages i reescriptures. Tenia, sí, una capacitat extraordinària per composar mentalment — però l'escriptura era un procés de treball, com per a qualsevol compositor.",
+              "why": "El mite del geni que crea sense esforç és culturalment seductor. Eximeix el públic de comprendre el treball que hi ha darrere, i eleva l'artista a una categoria quasi sobrenatural."
+            },
+            {
+              "type": "expandable",
+              "label": "Les òperes de Mozart: quan la música revela la psicologia",
+              "content": "Les grans òperes de Mozart — 'Don Giovanni', 'Le nozze di Figaro', 'Così fan tutte', 'La flauta màgica' — van ser revolucionàries perquè per primera vegada els personatges sonaven psicològicament reals. En el Barroc, els personatges tenien 'afectes' (una sola emoció per ària). Mozart va compondre personatges amb contradiccions: la Comtessa de 'Figaro' canta la seva tristesa alhora que s'adona que la seva actitud envers el marit no és innocent. La música revela el que les paraules amaguen. Aquesta tècnica no va ser superada fins a Wagner i Strauss."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ret-02-01",
+              "style": "multiple-choice",
+              "question": "Quin aspecte de les òperes de Mozart va representar una novetat psicològica respecte als seus predecessors barrocs?",
+              "options": [
+                "Va eliminar el recitatiu i va compondre les òperes com a música contínua sense diàleg parlat",
+                "Va compondre personatges amb emocions contradictòries i psicologia complexa, no simplement amb un afecte per ària",
+                "Va ser el primer a usar solistes femenines en papers protagonistes d'òpera",
+                "Va introduir l'orquestra simfònica completa en l'acompanyament operístic"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Abans de Mozart, l'estructura dominant era una emoció per ària: un personatge cantava la seva ira, després la seva tristesa, en àries separades. Mozart va superposar emocions: un personatge podia sentir amor, por i vergonya alhora, i la música ho expressava simultàniament. Aquesta complexitat psicològica és el que fa que les seves òperes siguin tan contemporànies.",
+              "feedbackWrong": "La innovació de Mozart no era formal (recitatiu, orquestració) sinó psicològica. Va dotar els personatges d'operístics d'una interioritat complexa que el Barroc no havia explorat. El 'Don Giovanni' o la Comtessa del 'Figaro' no es poden reduir a una sola emoció — i la música ho expressa."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ret-02-01",
+              "question": "La mort de Mozart als 35 anys i el fet que el seu Rèquiem quedés inacabat l'han convertit en un símbol romàntic del geni truncat. Creus que si hagués viscut fins als 70 anys seria avui tan venerat?",
+              "options": [
+                "Sí: la qualitat de la seva música és objectiva i independentment de la seva biografia",
+                "Probablement no: la mort jove és part integral del mite i del valor cultural que se li atorga",
+                "Depèn: hauria depès del que hagués compost en els seus anys madurs"
+              ],
+              "correct": 2,
+              "explanation": "La sociologia cultural de la fama pòstuma és complexa. La mort jove de Mozart, el misteri del Rèquiem inacabat, la llegenda de l'enterrament anònim — tots aquests elements han contribuït enormement al seu mite. Però la seva música és genuïnament extraordinària i hauria sobreviscut en qualsevol cas. El que és probable és que el to de la veneració fos diferent: Haydn va viure fins als 77 anys i és venerat, però amb una fredor academic que Mozart no té. La mort prematura afegeix intensitat emocional a la biografia, i la biografia afecta la recepció de l'obra. Però 'Don Giovanni' i la Simfonia núm. 40 haurien estat greatobres hagués mort a qualsevol edat."
+            }
+          ]
+        },
+        {
+          "id": "ret-03",
+          "title": "Beethoven: la voluntat contra el destí",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1802, Ludwig van Beethoven va escriure un document extraordinari que va amagar fins a la seva mort: el 'Testament de Heiligenstadt'. Hi confessava que feia temps que estava perdent l'oïda i que havia pensat en el suïcidi. Però havia decidit continuar vivint per l'art. 'Sembla impossible deixar el món fins que no hagi donat el que sento que duc a dins.' El que va donar al món, ja sord, és la prova que la voluntat humana pot superar qualsevol adversitat."
+            },
+            {
+              "type": "key-idea",
+              "text": "Beethoven va transformar la figura del compositor: de servidor (com Bach) o de prodigio (com Mozart) a artista autònom amb una veu pròpia irrenunciable. La seva obra és el primer gran exemple de música com a expressió de la subjectivitat individual."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1795",
+                  "title": "Primer concert públic a Viena",
+                  "text": "Ja reconegut com a pianista virtuós. Comença el període inicial, d'influència haydn-mozartiana."
+                },
+                {
+                  "year": "1800–1802",
+                  "title": "Crisi i decisió",
+                  "text": "La sordesa és ja evident. Testament de Heiligenstadt. Decisió de continuar."
+                },
+                {
+                  "year": "1803–1808",
+                  "title": "Període heroic",
+                  "text": "Simfonies 3ª (Heroica), 5ª, 6ª (Pastoral). Expansió radical de la forma."
+                },
+                {
+                  "year": "1815–1827",
+                  "title": "Últim període",
+                  "text": "Completament sord. Quartets finals, Missa Solemnis, Simfonia núm. 9. Música del futur."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "La Simfonia núm. 9: la major paradoxa de la música",
+              "content": "La Novena Simfonia de Beethoven (1824) és paradoxal en múltiples sentits. Beethoven era completament sord quan la va compondre i dirigir — en l'estrena, un músic el va haver de girar per veure els aplaudiments del públic, perquè ell no els podia sentir. Incorpora per primera vegada veus solistes i un cor en el quart moviment d'una simfonia — trencant una convenció de gènere. I el text que va triar — l''Ode a l'Alegria' de Schiller — és un himne a la fraternitat universal escrit per un home que vivia en aïllament social causat per la seva discapacitat. Avui és l'himne de la Unió Europea i sonà al mur de Berlin en caure el 1989."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ret-03-01",
+              "style": "detect-error",
+              "statement": "Beethoven va escriure la seva Simfonia núm. 9 de jove, quan estava en el seu millor moment físic i mental, i és per això que és la seva obra més optimista i grandiosa.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta en el punt factual clau. La Novena Simfonia és una obra del seu últim període, composada quan Beethoven estava completament sord i aïllat socialment. Va ser estrenada el 1824, tres anys abans de la seva mort. L'optimisme de l'obra —l''Ode a l'Alegria'— és, doncs, una afirmació de la voluntat contra les circumstàncies, no un reflex d'un estat anímic confortable. Aquesta informació canvia completament la lectura de l'obra."
+            },
+            {
+              "type": "reflection",
+              "question": "Beethoven va continuar composant malgrat la sordesa total. Quin obstacle personal has superat —o has decidit no deixar que t'aturi— que t'ha canviat la forma de veure el que ets capaç de fer?",
+              "prompt": "Aquesta és una pregunta per a tu, no per a la història de la música."
+            }
+          ]
+        },
+        {
+          "id": "ret-04",
+          "title": "Chopin: el piano com a veu interior",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Frédéric Chopin odiava els concerts en grans sales. Preferia tocar en salons íntims per a 30 persones. No li agradava l'exhibicionisme de Liszt, que electritzava multituds. Chopin volia una altra cosa: una conversa molt íntima entre ell, el piano i l'oient. Va inventar un nou idioma pianístic que és, fins avui, inimitable."
+            },
+            {
+              "type": "key-idea",
+              "text": "Chopin va escriure gairebé exclusivament per a piano sol. No va compondre cap simfonia, cap òpera, cap música de cambra important. Tota la seva energia creativa la va concentrar en un sol instrument — i el va transformar per sempre."
+            },
+            {
+              "type": "expandable",
+              "label": "El pedal del sostenuto i el 'rubato': les seves eines secretes",
+              "content": "Chopin va explotar el pedal de sustain del piano modern (que fa vibrar totes les cordes alhora, creant una aureola sonora) d'una manera que els seus predecessors no havien explorat. Creava harmonies que floten, sons que s'encavalguen. I va popularitzar el 'tempo rubato' ('temps robat' en italià): una llibertat rítmica on el pianista accelera i retarda de manera orgànica, com parla una persona que posa èmfasi en les paraules importants. El rubato de Chopin no és arbitrari: és una prosodia musical, com la entonació del discurs."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ret-04-01",
+              "style": "multiple-choice",
+              "question": "Chopin era polonès i va viure exiliat a París des dels 21 anys. Com es va reflectir el seu origen nacional a la seva música?",
+              "options": [
+                "No es va reflectir: Chopin considerava la música un art universal sense arrels nacionals",
+                "Va compondre les seves obres en polonès, no en la notació musical francesa estàndard",
+                "Va elevar danses i formes musicals poloneses —masurca, polonesa— a la categoria de música de concert",
+                "Va incorporar instruments folklòrics polonesos a les seves composicions per a piano"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La masurca i la polonesa eren danses populars poloneses. Chopin les va transformar en peces de concert: mantenint el ritme i el caràcter originals, però elaborant-les harmònicament i estructuralment fins a convertir-les en música d'alta complexitat. Va fer el que farien més tard Bartók amb la música hongaresa o Falla amb la flamenca: elevar allò folklòric sense folkloritzar-lo.",
+              "feedbackWrong": "Chopin era profundament polonès en el seu imaginari musical i polític. La manera com va incorporar la seva herència nacional va ser transformant les danses poloneses —masurca, polonesa— en formes de concert: mantenint-ne l'essència rítmica i emocional, però elaborant-les fins a convertir-les en música de cambra sofisticada."
+            },
+            {
+              "type": "quote",
+              "text": "Bach és com un astronaut. Handel és com un explorador. Mozart és com Déu.",
+              "author": "Frédéric Chopin (1810–1849)"
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ret-04-01",
+              "question": "Chopin va triar deliberadament no compondre simfonies ni òperes —els gèneres de màxim prestigi de la seva època. Creus que va ser una limitació o una decisió estratègica?",
+              "options": [
+                "Una limitació: el seu talent era específicament pianístic i no hauria tingut èxit en formats orquestrals",
+                "Una decisió estratègica: va concentrar-se on era inigualable per dominar completament un espai",
+                "Una qüestió de circumstàncies: vivia a París, on els salons eren el context cultural dominant"
+              ],
+              "correct": 1,
+              "explanation": "La resposta òptima considera la deliberació, no la limitació. Chopin havia estudiat contrapunt, harmonia i forma amb els millors mestres. Podia haver escrit simfonies — contemporanis seus sense el seu talent ho feien. El que tenia era una consciència molt clara del seu do específic: el seu idioma era el piano, la intimitat, la veu interior. Concentrar-se exclusivament en això no és una limitació sinó una elecció estètica i professional. Va ser el primer gran especialista de la música occidental: va demostrar que la profunditat absoluta en un format era preferible a l'amplitud mediocre en molts. La lliçó és universalment aplicable."
+            }
+          ]
+        },
+        {
+          "id": "ret-05",
+          "title": "Wagner: la música com a poder total",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Richard Wagner no era modest. Va construir un teatre propi a Bayreuth per representar les seves òperes en les condicions exactes que ell havia dissenyat. Va escriure els seus propis textos, va orquestrar ell mateix, va controlar la posada en escena. Va teoritzar que la seva obra era l'art total — la fusió definitiva de música, poesia, drama i teatre. Tenia raó que era innovador. Però la seva megalomanía i el seu antisemitisme van fer de la seva herència una de les més incòmodes de la música occidental."
+            },
+            {
+              "type": "key-idea",
+              "text": "Wagner va inventar el concepte de Gesamtkunstwerk ('obra d'art total'): la fusió de totes les arts en l'òpera. Va redefinir el rol de l'orquestra (de suport a protagonista), va crear el drama musical continu (sense aries separades) i va portar la tonalitat als seus límits absoluts."
+            },
+            {
+              "type": "expandable",
+              "label": "L'acord de Tristany: quan una nota va canviar la música per sempre",
+              "content": "En l'obertura de 'Tristany i Isolda' (1865), Wagner va escriure un acord que no es resolia de la manera esperada. L'oient espera la resolució —la tensió cau— però Wagner defria, defria, i defria. L'acord de Tristà (com s'anomena) és el símbol de la música moderna: una dissonància que no es vol resoldre, una tensió que es converteix en estat permanent. Els musicòlegs el consideren el punt d'inflexió cap a l'atonalisme: si pots deixar la tensió sense resoldre indefinidament, per qué necessites la tònica? La pregunta que va plantejar Tristany la va respondre Schönberg cinquanta anys després."
+            },
+            {
+              "type": "debate",
+              "question": "Cal separar l'obra de Wagner del seu antisemitisme i de l'ús que en va fer el nazisme?",
+              "positionA": {
+                "label": "Sí, l'obra és separable",
+                "argument": "La música de Wagner existeix independent de la seva biografia. Les seves òperes no inciten a la violència ni propaguen cap ideologia directament: els textos parlen de mites germànics medievals, amor i redempció. L'ús que Hitler en va fer és responsabilitat d'Hitler, no de Wagner. Condemnar la música per les opinions del seu autor és una forma de censura cultural que no s'aplica de manera consistent."
+              },
+              "positionB": {
+                "label": "No, no és separable",
+                "argument": "Wagner no era simplement un artista amb opinions privades incòmodes: va escriure assajos antisemites ('El judaisme en la música'), va exercir influència directa en cercles que van contribuir a crear el terreny cultural del nazisme, i Hitler el considerava el seu compositor 'profètic'. La consciència d'aquest context afecta inevitablement la recepció de l'obra. Ignorar-ho és una forma d'amnèsia moral."
+              },
+              "reflection": "La pregunta de fons: l'art pot ser moralment neutral?",
+              "context": "Israel va mantenir un boicot no oficial a Wagner fins a 2001 (i de facto molts anys més). Alguns directors israelians han renegat de dirigir-lo. Altres —incloent jueus— han argumentat que la censura no és la resposta. El debat continua obert."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ret-05-01",
+              "style": "multiple-choice",
+              "question": "Qué significa el terme 'Gesamtkunstwerk' que Wagner va usar per descriure el seu ideal operístic?",
+              "options": [
+                "Una obra composada col·lectivament per diversos compositors de manera anònima",
+                "Una obra d'art total que fon música, poesia, teatre i arts visuals en una experiència unificada",
+                "Una simfonia amb cant coral que segueix la forma de la tragèdia grega clàssica",
+                "Un sistema de composició basat en la sèrie de dotze tons, precursor de Schönberg"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. 'Gesamtkunstwerk' ('obra d'art total' en alemany) era el concepte wagnerià que argumentava que les arts no havien de ser separades: el text, la música, la dansa, l'arquitectura teatral i la llum havien d'integrar-se en una experiència única. Bayreuth va ser construït per realitzar físicament aquest ideal.",
+              "feedbackWrong": "El Gesamtkunstwerk no és una tècnica compositiva sinó un concepte estètic i filosòfic: la idea que les arts separades eren fragments d'un tot original que l'òpera havia de reunificar. Wagner va construir el Festspielhaus de Bayreuth per poder controlar tots els elements d'aquesta experiència integral."
+            }
+          ]
+        },
+        {
+          "id": "ret-06",
+          "title": "Mahler i Debussy: dos camins cap al futur",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al tombant del segle XX, dos compositors apuntaven en direccions oposades. Gustav Mahler prenia la simfonia romàntica i l'expandia fins a l'extrem: simfonies d'hora i mitja, per a centenars de músics, sobre la mort, l'eternitat i la naturalesa. Claude Debussy anava en l'altra direcció: dissolia els contorns, difuminava les harmonies, creava atmosferes que eren com aquarel·les sonores. Tots dos estaven dient adéu a un món — cada un a la seva manera."
+            },
+            {
+              "type": "comparison",
+              "title": "Mahler vs. Debussy: dues respostes al final del Romanticisme",
+              "labelA": "Gustav Mahler (1860–1911)",
+              "labelB": "Claude Debussy (1862–1918)",
+              "items": [
+                {
+                  "label": "Estètica",
+                  "a": "Grandiosa, tràgica, monumental",
+                  "b": "Subtil, atmosfèrica, impressionista"
+                },
+                {
+                  "label": "Format principal",
+                  "a": "Simfonia per a gran orquestra",
+                  "b": "Música de piano i orquestra de cambra"
+                },
+                {
+                  "label": "Influència harmònica",
+                  "a": "Expandeix la tonalitat romàntica fins al límit",
+                  "b": "Dissol la tonalitat amb modes i escales de tons sencers"
+                },
+                {
+                  "label": "Herència",
+                  "a": "Shostakovich, Britten, compositors del cinema",
+                  "b": "Ravel, Messiaen, jazz modern, música minimalista"
+                }
+              ]
+            },
+            {
+              "type": "key-idea",
+              "text": "Mahler i Debussy mostren que el 'final' del Romanticisme no va ser un moment sinó un procés: dos camins divergents cap a una modernitat que estava a punt d'explotar amb la Primera Guerra Mundial."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué Debussy odiava el mot 'impressionisme'",
+              "content": "Els crítics van etiquetar Debussy com a 'impressionista' per comparació amb la pintura de Monet i Renoir: imatges difuminades, atmosferes de llum, colors sonors. Debussy odiava l'etiqueta. Argumentava que la seva música no 'impressionava' en el sentit pictòric sinó que creava una realitat sonora pròpia — no una còpia de res visual. Tenia raó en un sentit important: la seva música no imita la pluja o la llum solar, les transforma en estructures harmòniques radicalment noves. El 'Preludi a la tarda d'un faune' (1894) no sona 'com' res anterior: és un territori propi."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ret-06-01",
+              "style": "multiple-choice",
+              "question": "Quina de les afirmacions sobre Mahler és correcta?",
+              "options": [
+                "Va ser reconegut i celebrat en vida com el gran renovador de la simfonia",
+                "Va ser un director d'orquestra mediocre que compensava amb les seves composicions",
+                "Va morir en vida sense que les seves simfonies es programessin habitualment; el seu redescubriment va ser pòstum",
+                "Va compondre les seves simfonies com a música programàtica, amb arguments literaris escrits al programa"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Mahler era famosíssim com a director d'orquestra i d'òpera (va dirigir l'Òpera de Viena), però les seves simfonies eren mal compreses i rarament programades. El gran renaixement de Mahler va ser als anys 60 del segle XX, impulsada per directors com Leonard Bernstein. Avui és un dels compositors més programats del repertori — però la seva fama pòstuma trigarà mig segle en arribar.",
+              "feedbackWrong": "Mahler, com Bach, és un exemple de reconeixement pòstum. En vida era venerat com a director —va transformar l'Òpera de Viena i el Metropolitan de Nova York— però les seves simfonies eren rarament tocades i poc apreciades. El seu renaixement va arribar als anys 60 del segle XX."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ret-06-01",
+              "question": "Si la música de Debussy va trenca les regles de l'harmonia tonal i la de Schönberg les va eliminar completament, per qué Debussy és molt més popular que Schönberg avui dia?",
+              "options": [
+                "Perquè Debussy era un millor compositor objectivament, amb més talent melòdic",
+                "Perquè trencar les regles gradualment és cognitivament assequible; eliminar-les del tot requereix un aprenentatge que la majoria del públic no fa",
+                "Perquè la música de Schönberg va ser deliberadament difícil per excloure el públic no especialitzat"
+              ],
+              "correct": 1,
+              "explanation": "La psicologia de la percepció musical ofereix una explicació clara. L'oïda humana busca patrons i expectatives: la tonalitat crea expectatives (tensió → resolució) que proporcionen plaer quan es compleixen o sorpresa quan es defrien. Debussy defria les expectatives però les reconeix: el seu oïda sap que hi ha un 'nord' harmònic tot i que el camí sigui sinuós. Schönberg elimina el nord: no hi ha tònica, no hi ha expectativa de resolució. L'oïda no entrenada no pot construir l'anticipació que genera plaer. Això no significa que la música de Schönberg sigui 'dolenta': significa que requereix un aprenentatge diferent. Però en un món on la majoria de la gent no fa aquest aprenentatge, la popularitat de Debussy vs. Schönberg és estadísticament previsible."
+            },
+            {
+              "type": "reflection",
+              "question": "Has completat un itinerari sobre sis dels compositors que més han influït en la música occidental. Quin d'ells t'ha despertat més curiositat per escoltar? Per qué?",
+              "prompt": "No cal que sigui el que 'hauries' de triar. La curiositat genuïna és l'únic punt de partida que funciona."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

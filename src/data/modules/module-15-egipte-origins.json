@@ -1,0 +1,416 @@
+{
+  "id": "module-15-egipte-origins",
+  "title": "El Naixement d'Egipte: Dels Pagesos als Faraons",
+  "emoji": "🌾",
+  "phase": 2,
+  "unlockRequires": "module-14-egipte",
+  "lessons": [
+    {
+      "id": "ori-01",
+      "title": "Abans dels faraons: el Neolític al Nil",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Fa deu mil anys, el Sàhara no era un desert. Era una sabana verda amb llacs, elefants, girafes i comunitats humanes que hi vivien de la cacera i la ramaderia. El procés gradual d'assecament climàtic que va transformar el Sàhara en desert va expulsar aquestes poblacions cap a les vores del Nil. Van arribar portant els seus ramats, les seves tècniques agrícoles incipients i les seves tradicions culturals. El que trobaven al Nil era un regal extraordinari: una franja de terra fèrtil en mig del desert, renovada cada any per la inundació. En poc temps, la concentració de pobles al voltant del Nil va crear les condicions per a quelcom que no havia existit mai: una civilització."
+        },
+        {
+          "type": "prediction",
+          "question": "Fa 6.000 anys, el Sàhara s'estava assecant i les poblacions que hi vivien es van desplaçar cap al Nil. Qué creus que passa quan moltes cultures molt diverses es concentren en un espai estret? Confluència creativa o conflicte?",
+          "hint": "Pensa en exemples contemporanis de confluència cultural — les grans ciutats d'immigrants, les cruïlles comercials."
+        },
+        {
+          "type": "key-idea",
+          "text": "Egipte no va néixer del no-res: va ser el producte de la confluència de diverses tradicions culturals africanes i mediterrànies que van convergir al voltant del Nil quan el Sàhara es va assecar. Les cultures predinàstiques (Badari, Naqada) van desenvolupar durant mil anys les institucions, l'art i les creences que el primer faraó va heretar i unificar."
+        },
+        {
+          "type": "quote",
+          "text": "El desert va crear Egipte: les poblacions que el desert va expulsar van trobar al Nil el lloc on construir la civilització.",
+          "author": "Sintesi historiogràfica moderna (Wilkinson, Kemp)"
+        },
+        {
+          "type": "expandable",
+          "label": "El verd Sàhara: quan el desert era una sabana",
+          "content": "Entre el 11000 i el 5000 aC, el que avui és el Sàhara era un territori molt més humit i habitable, conegut pels geòlegs com el 'Sàhara Verd' o Període Humit Africà. Les evidències són abundants: pintures rupestres al Tassili n'Ajjer (Algèria) que mostren hipopòtams, cocodrils, girafes i elefants on ara hi ha sorra; llits de rius secs; ossos d'animals de sabana en zones completament desertes. L'aridificació progressiva va ser el motor que va concentrar les poblacions al Nil. En certa manera, la civilització egípcia va ser un producte del canvi climàtic: sense l'assecament del Sàhara, no hi hauria hagut la concentració de population a la vora del Nil que va generar la primera gran civilització africana."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "~5500 aC",
+              "title": "Cultura Badari",
+              "text": "Primera cultura neolítica documentada al Nil. Ceràmica fina, objectes de coure, enterraments cuidats. Ja apareixen creences sobre l'altra vida."
+            },
+            {
+              "year": "~4000-3200 aC",
+              "title": "Cultura Naqada I, II i III",
+              "text": "Creixent complexitat social. Apareixen les primeres élites amb enterraments diferenciats. Comerç a llarga distància amb Mesopotàmia i el Llevant. Primers símbols proto-escrits."
+            },
+            {
+              "year": "~3200-3100 aC",
+              "title": "Període Predinàstic tardà",
+              "text": "Emergència de dos regnes: l'Alt Egipte (sud) i el Baix Egipte (delta). Competència i conflicte creixent. Els primers noms reials apareixen en objectes ceremonials."
+            },
+            {
+              "year": "~3100 aC",
+              "title": "Unificació: la Dinastia 0 i Narmer",
+              "text": "El rei Narmer (o Menes, o potser la mateixa persona) unifica els dos regnes. La Paleta de Narmer en és el testimoni iconogràfic."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-01-01",
+          "style": "multiple-choice",
+          "question": "Quin factor climàtic va ser determinant per a la concentració de poblacions al voltant del Nil que va fer possible la civilització egípcia?",
+          "options": [
+            "Un període d'inundacions del Nil excepcionalment altes que va crear nous terrenys fèrtils",
+            "L'aridificació progressiva del Sàhara que va expulsar les poblacions de la sabana cap a les ribes del Nil",
+            "Un refredament global que va fer del clima del Nil el més temperat de la regió",
+            "L'aparició de noves espècies de cereals al delta del Nil que van permetre l'agricultura intensiva"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'aridificació del Sàhara (el 'Sàhara Verd' es va anar assecant entre el 6000 i el 2500 aC) va ser el motor demogràfic que va concentrar les poblacions africanes al Nil. Les comunitats que vivien a la sabana sahariana van ser progressivament expulsades cap a les ribes del riu per la desertificació. Aquesta concentració va crear la massa crítica de població i la diversitat cultural que van fer possible la civilització. En certa manera, la civilització egípcia és un producte involuntari del canvi climàtic.",
+          "feedbackWrong": "El factor decisiu va ser l'assecament del Sàhara. Fa entre 6000 i 4000 anys, el Sàhara era una sabana habitable. L'aridificació progressiva va expulsar les seves poblacions cap al Nil, creant la concentració demogràfica i la diversitat cultural que van fer possible la civilització egípcia."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-01-02",
+          "style": "detect-error",
+          "statement": "La civilització egípcia va néixer de forma sobtada i sense precedents al voltant del 3100 aC, sense cap antecedent cultural significatiu en el territori del Nil.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és completament falsa. La civilització egípcia va tenir un llarg procés de gestació de més de dos mil anys. Les cultures Badari (5500 aC), Naqada I, II i III (4000-3200 aC) van desenvolupar progressivament la complexitat social, les creences religioses, les tècniques artesanals i els sistemes proto-escrits que el primer faraó va heretar. Quan Narmer va unificar Egipte al voltant del 3100 aC, no va crear quelcom de nou — va culminar un procés llarg de creixent complexitat. La 'sobtanesa' de la civilització egípcia és una il·lusió creada per la manca de fonts escrites per al període anterior."
+        },
+        {
+          "type": "misconception",
+          "belief": "Les primeres civilitzacions del Nil van ser fundades per poblacions vingudes de Mesopotàmia o el Pròxim Orient, que van portar la civilització a Àfrica.",
+          "reality": "La civilització egípcia va tenir arrels africanes autòctones. Les cultures Badari i Naqada van evolucionar localment al Nil a partir de tradicions africanes de la sabana sahariana. Hi va haver contactes i intercanvis amb Mesopotàmia (especialment a Naqada II), però no una 'colonització civilitzatòria'. L'escriptura, l'arquitectura monumental i les institucions polítiques egípcies van ser invencions locals, no importades.",
+          "why": "La teoria de la 'difusió' des de Mesopotàmia va ser popular al segle XIX i principis del XX, en part per raons ideològiques (dificultat d'acceptar que Àfrica havia generat una gran civilització de forma autònoma). L'arqueologia moderna ha demostrat la seva insuficiència."
+        }
+      ]
+    },
+    {
+      "id": "ori-02",
+      "title": "La Paleta de Narmer: llegir el primer document polític de la història",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1898, els arqueòlegs James Quibell i Frederick Green excavaven el temple d'Hieracòmpolis quan van trobar un objecte que canviaria la nostra comprensió dels orígens d'Egipte: una paleta de pissarra d'uns 63 centímetres d'alçada, decorada per les dues cares amb imatges. En una cara, un rei amb la corona blanca de l'Alt Egipte colpeja un enemic agenollat mentre Horus, representat com un falcó, aguanta un home lligat. A l'altra cara, el mateix rei, ara amb la corona roja del Baix Egipte, inspecciona els cossos decapitats dels seus enemics en processó. Al capdamunt, el nom del rei: Narmer. Era probablement el document iconogràfic més antic que narrava un acte de conquesta política. I narrava la unificació d'Egipte."
+        },
+        {
+          "type": "key-idea",
+          "text": "La Paleta de Narmer (c. 3100 aC) és un dels objectes més importants de la història humana: és el primer document que narra iconogràficament un acte de conquesta política i unificació estatal. Estableix en una sola imatge tots els elements visuals de la ideologia del poder faraònic que continuaran durant tres mil anys: el faraó gegantesc que derrota enemics petits, la doble corona, la legitimació divina per Horus."
+        },
+        {
+          "type": "expandable",
+          "label": "Com llegir la Paleta de Narmer: la gramàtica visual del poder egipci",
+          "content": "La Paleta de Narmer no és simplement una imatge — és un text visual que segueix una gramàtica iconogràfica precisa. Les convencions que estableix continuaran sense canvis essencials durant tres mil anys: (1) La mida indica la importància: el faraó és sempre el personatge més gran de la composició, independentment de la perspectiva real. (2) El faraó sempre apareix en posició dominant: de peu, atacant, inspeccionant — mai derrotat ni passiu. (3) Els enemics sempre apareixen petits, prostrats o morts. (4) Els déus legitimen l'acció del faraó: Horus (el falcó) apareix al costat del rei validant la seva conquesta. (5) Les dues corones simbolitzen la unitat dels dos regnes. Quan veus qualsevol relleu o pintura de temple egipci de qualsevol període, estàs llegint la mateixa gramàtica visual que es va establir a la Paleta de Narmer fa cinc mil anys."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-02-01",
+          "style": "multiple-choice",
+          "question": "Per qué el faraó apareix sempre representat com el personatge de major mida en l'art egipci, independentment de la perspectiva real?",
+          "options": [
+            "Per una limitació tècnica: els artistes egipcis no havien descobert la perspectiva i usaven la mida per organitzar la composició",
+            "Per una convenció ideològica: la mida representava la importància, no la posició física en l'espai",
+            "Per facilitar la identificació: en edificis grans i poc il·luminats, el personatge més gran era el més fàcil de reconèixer",
+            "Per influència mesopotàmica: els escribes egipcis van adoptar aquesta convenció del cilindre-segell babiloni"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'art egipci no aspirava a representar la realitat visual tal com l'ull la percep — aspirava a representar la realitat conceptual tal com la ment la comprèn. En la realitat conceptual egípcia, el faraó era l'ésser més important de l'univers, de manera que havia d'aparèixer com el més gran. Aquesta jerarquia de mida (la 'perspectiva jeràrquica') és una convenció deliberada i conscient, no una limitació tècnica. Els artistes egipcis eren perfectament capaços de representar la profunditat i la perspectiva quan volien — simplement triaven no fer-ho en les representacions oficials del poder.",
+          "feedbackWrong": "No era una limitació tècnica — era una elecció ideològica. L'art egipci representava la importància, no la posició física. La perspectiva jeràrquica (mida = importància) era una convenció conscient i deliberada que reflectia la cosmovisió egípcia: el faraó era el ser más important, per tant havia de ser el més gran. Els artistes egipcis podien representar la profunditat quan volien — ho triaven no fer en les representacions del poder."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-02-02",
+          "style": "true-false",
+          "question": "La Paleta de Narmer demostra de forma definitiva que Narmer va ser el primer faraó d'Egipte i l'unificador dels dos regnes.",
+          "correct": false,
+          "feedbackCorrect": "Fals, o almenys molt matisable. La Paleta de Narmer mostra Narmer amb les dues corones i dominant enemics del nord, cosa que suggereix un acte de conquesta o unificació. Però els historiadors debaten si Narmer va ser el primer faraó, si Menes (un nom mencionat en llistes reials posteriors) era la mateixa persona que Narmer, si va haver-hi faraons anteriors ('Dinastia 0') i si la 'unificació' va ser un procés gradual o un acte militar únic. La paleta és el testimoni iconogràfic més antic d'un rei amb les dues corones, però 'demostrar de forma definitiva' és exagerat — és el millor indici que tenim, no una prova concloent.",
+          "feedbackWrong": "La Paleta de Narmer és un indici poderós però no una prova definitiva. Els historiadors debaten si Narmer i Menes eren la mateixa persona, si va haver-hi reis anteriors i si la unificació va ser un procés gradual o un acte únic. La paleta ens mostra Narmer amb les dues corones, però la interpretació d'aquest fet és més complexa del que suggereix la narrativa simplificada."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-ori-02-01",
+          "question": "La Paleta de Narmer mostra la violència de la conquesta (enemics decapitats, rei colpejant presoners) com a acte legítim i sagrat. L'art del poder ha usat la violència com a element legitimador en moltes cultures. Creus que la representació de la violència del poder és un tret universal de les civilitzacions humanes o una opció cultural específica?",
+          "options": [
+            "És universal: tota civilització necessita demostrar la seva capacitat coercitiva per mantenir l'ordre, i l'art del poder sempre ho reflecteix",
+            "És una opció cultural: hi ha civilitzacions que han construït la legitimitat del poder sobre la benevolència, la saviesa o el consens, no sobre la violència",
+            "Depèn de les fases: les civilitzacions en fase de conquesta i consolidació usen la violència com a legitimació; les madures tendeixen a substituir-la per altres formes de legitimitat"
+          ],
+          "correct": 2,
+          "explanation": "La posició A té suport empíric: la majoria de les cultures antigues usen la representació de la victòria militar com a element central de la legitimació del poder (les esteles de victòria assíries, els arcs de triomf romans, les pintures de batalla dels reis europeus). La posició B és defensada per alguns antropòlegs que assenyalen cultures on el lideratge s'associa a la generositat, la saviesa o la mediació més que a la força. La posició C és la que els historiadors de les formes polítiques tendeixen a defensar: Egipte és un exemple perfecte — l'Imperi Antic usa molt la imatge de la violència conquistadora; el Regne Mitjà i el Nou afegeixen imatges de prosperitat, justícia i benestar; els períodes tardans, quan Egipte és cada cop menys poderós militarment, emfasitzen la pietat religiosa i la saviesa. La legitimació per la violència és prominent però no exclusiva, i tendeix a combinar-se amb altres formes a mesura que les civilitzacions maduren."
+        }
+      ]
+    },
+    {
+      "id": "ori-03",
+      "title": "L'Imperi Antic: l'edat de les piràmides",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Al voltant del 2560 aC, uns vint mil treballadors — no esclaus, com creia Heròdot, sinó artesans i pagesos pagats i alimentats per l'Estat — van acabar de col·locar la darrera pedra de la Gran Piràmide de Kheops a Gizeh. Era l'edifici més alt que cap ésser humà havia construït i que cap altre construiria durant els quatre mil anys següents. Però la piràmide no era simplement una tomba: era la prova material del poder absolut de l'Estat faraònic, capaç de mobilitzar, alimentar i organitzar desenes de milers de persones durant dècades per a un projecte que no tenia cap utilitat econòmica immediata. Era una declaració de poder en pedra que havia de durar per sempre. I gairebé ha complert la promesa."
+        },
+        {
+          "type": "prediction",
+          "question": "L'Egipte de l'Imperi Antic construïa les piràmides més grans del món. Però al voltant del 2181 aC, en menys d'una generació, l'Estat centralitzat va col·lapsar. Quin creus que és el factor que pot fer caure un poder que semblava inatacable des de fora?",
+          "hint": "Pensa en les fonts del poder faraònic: control de l'aigua, del gra, de la mà d'obra. Qué passa si una d'aquestes fonts falla?"
+        },
+        {
+          "type": "key-idea",
+          "text": "L'Imperi Antic (2686-2181 aC) va ser el període de màxima centralització del poder faraònic: el faraó era considerat un déu absolut, i l'Estat mobilitzava els recursos de tot el país per a projectes com les piràmides. Va acabar en un col·lapse polític sobtà — el Primer Període Intermedi — que va demostrar que fins i tot el poder diví tenia límits."
+        },
+        {
+          "type": "misconception",
+          "belief": "Les piràmides van ser construïdes per esclaus jueus, com mostra la Bíblia.",
+          "reality": "L'arqueologia ha demostrat que les piràmides van ser construïdes per treballadors egipcis lliures en règim de corvée, ben alimentats i cuidats mèdicament. La Bíblia no menciona les piràmides en cap moment. La identificació dels constructors com a esclaus jueus és un mite posterior sense base arqueològica.",
+          "why": "La narrativa bíblica de l'esclavitud d'Israel a Egipte s'ha superposat a les piràmides en la imaginació popular malgrat que cronològicament i arqueològicament no hi ha connexió documentada."
+        },
+        {
+          "type": "expandable",
+          "label": "Qui va construir les piràmides? (No eren esclaus)",
+          "content": "Heròdot va escriure que les piràmides les van construir cent mil esclaus durant vint anys. La imatge va fer fortuna i ha persistit fins avui en el cinema i la cultura popular. Però l'arqueologia moderna ha destruït completament aquest mite. El 1990, l'arqueòleg Zahi Hawass va descobrir el poble dels constructors de les piràmides, just al costat de Gizeh. Les excavacions van revelar: casernes ben organitzades, cuines que produïen grans quantitats de carn (bou, ovelles, cabres) — una dieta molt millor que la dels pagesos ordinaris —, una infermeria amb restes de cirurgia ortopèdica, i tombes dels treballadors amb inscripcions que mostren orguell per la seva feina ('Amics de Kheops', 'Borratxos de Menkaure'). Els constructors eren treballadors de rota obligatòria (una mena d'impost en treball) i artesans especialitzats ben alimentats, no esclaus. La distinció és important: l'esclavitud és coerció pura; la corvée egípcia era una obligació cívica dins un sistema de reciprocitat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-03-01",
+          "style": "multiple-choice",
+          "question": "Quin és el consens arqueològic actual sobre qui va construir les grans piràmides de Gizeh?",
+          "options": [
+            "Esclaus estrangers capturats en campanyes militars a Núbia i el Llevant",
+            "Treballadors egipcis que complien una obligació de treball rotatòria (corvée), ben alimentats i organitzats per l'Estat",
+            "Una classe sacerdotal especialitzada que tenia el coneixement tècnic secret de la construcció monumental",
+            "Treballadors voluntaris motivats per la creença religiosa que construir la tomba del faraó els garantia una part de la seva immortalitat"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El descobriment del poble dels constructors per Zahi Hawass el 1990 va canviar definitivament la nostra comprensió. Els treballadors eren egypticis que complien una obligació rotatòria de treball per a l'Estat (corvée), combinats amb artesans especialitzats permanents. Estaven ben alimentats (grans quantitats de carn, pa i cervesa), tenien atenció mèdica i se sentien orgullosos de la seva feina (com demostren les inscripcions a les seves tombes). El sistema era una forma d'impost en treball, no esclavitud. Els pagesos treballaven a les piràmides durant els mesos d'inundació del Nil, quan els camps eren inundats i no podien fer feines agrícoles.",
+          "feedbackWrong": "L'arqueologia ha desmuntat el mite dels esclaus constructors. Les excavacions del poble dels treballadors mostren una força laboral ben organitzada, ben alimentada i orgullosa del seu treball. El sistema egipci era de corvée — una obligació rotatòria de treball — no d'esclavitud. Els esclaus existien a Egipte però no eren el fonament de la construcció monumental."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-03-02",
+          "style": "detect-error",
+          "statement": "L'Imperi Antic va col·lapsar al voltant del 2181 aC principalment a causa d'una invasió estrangera que va destruir l'administració centralitzada faraònica.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és l'atribució del col·lapse a una invasió estrangera. El col·lapse de l'Imperi Antic (cap al 2181 aC, inici del Primer Període Intermedi) va ser causat per factors interns i ambientals: una sèrie de faraons febles i de curt regnat, el creixent poder dels nomarcas (governadors provincials) que van anar acumulant autonomia, i — críticament — una sèrie de sequeres catastròfiques causades per inundacions del Nil excepcionalment baixes durant diverses dècades. Sense la inundació adequada, no hi havia collita; sense collita, l'Estat no podia alimentar els treballadors ni pagar els soldats; sense recursos, l'autoritat central es desintegrava. No va haver-hi cap invasió estrangera significativa en aquest moment."
+        },
+        {
+          "type": "quote",
+          "text": "El país és tan empobrit que tothom ha deixat de pagar impostos. El gran i el petit diuen: vull morir. Els nens dels prínceps s'estavellen contra les parets. Els nobles estan afamats i ploren.",
+          "author": "Les Lamentacions d'Ipuwer, papir egipci del Primer Període Intermedi (c. 2100 aC)"
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-ori-03-01",
+          "question": "El col·lapse de l'Imperi Antic va ser en part causat per sequeres prolongades degudes a inundacions del Nil excepcionalment baixes. Fins a quin punt creus que les civilitzacions antigues eren vulnerables als canvis climàtics d'una manera que les modernes no ho som, o la vulnerabilitat climàtica és un tret permanent de totes les civilitzacions?",
+          "options": [
+            "Les antigues eren molt més vulnerables: la tecnologia moderna ens permet gestionar la variabilitat climàtica que hauria destruït qualsevol civilització antiga",
+            "La vulnerabilitat és permanent però ha canviat de forma: les civilitzacions modernes som menys vulnerables a la variabilitat local però més vulnerables al canvi climàtic global",
+            "Les modernes som igualment o més vulnerables: la nostra complexitat interconnectada fa que un col·lapse en una part del sistema pugui propagar-se globalment de forma que les civilitzacions antigues no podien experimentar"
+          ],
+          "correct": 1,
+          "explanation": "La posició A és parcialment certa: la tecnologia moderna d'irrigació, d'emmagatzematge i de distribució d'aliments ens protegeix de les variabilitats climàtiques locals que van destruir l'Imperi Antic. La posició C és la tesi del col·lapsòleg Joseph Tainter i d'altres: la complexitat de les societats modernes les fa més fràgils davant pertorbacions sistèmiques. La posició B integra les dues perspectives amb una distinció important: hem resolt la vulnerabilitat local (una sequera regional ja no destrueix un estat modern) però hem creat una vulnerabilitat global nova (el canvi climàtic antropogènic afecta el sistema planetari sencer de formes que cap civilització havia de gestionar). La paradoxa és que el nostre èxit en superar les limitacions climàtiques locals ha contribuït a crear el problema climàtic global."
+        }
+      ]
+    },
+    {
+      "id": "ori-04",
+      "title": "Els Períodes Intermedis: quan Egipte es trencava i es recomposava",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La história d'Egipte no és una línia recta de glòria contínua. Tres vegades el país es va fragmentar en unitats polítiques rivals, va perdre la seva administració centralitzada i va caure en períodes de guerra civil, fam i desordre. Els egipcis els anomenaven amb un terme que significa simplement 'temps de desordre'. Els historiadors moderns els anomenen Períodes Intermedis. Però el que és sorprenent no és que Egipte es trenqués — és que tres vegades es va recomposar. Cada reunificació va ser seguida d'un renaixement cultural i polític. La resiliència d'Egipte era tan característica com la seva grandesa."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els tres Períodes Intermedis (Primer: 2181-2055 aC; Segon: 1650-1550 aC; Tercer: 1069-664 aC) van ser crisis de desintegració política que van interrompre la continuïtat faraònica. Però van demostrar la resiliència de la civilització egípcia: cada vegada, Egipte es va reunificar i va produir un nou floresciment cultural."
+        },
+        {
+          "type": "expandable",
+          "label": "Els Hicsos: els 'invasors' que van modernitzar Egipte",
+          "content": "El Segon Període Intermedi (1650-1550 aC) és famós per la conquesta dels Hicsos, un poble d'origen semita del Llevant que va establir la seva capital a Avaris al delta del Nil i va governar el nord d'Egipte durant un segle. Les fonts egípcies posteriors els van presentar com a invasors brutals que van devastar el país. La realitat arqueològica és més complexa: els Hicsos van adoptar moltes pràctiques egípcies, van promoure el culte als déus locals i van governar amb una administració de tipus faraònic. Però van portar quelcom que va canviar Egipte per sempre: el carro de guerra (que Egipte no coneixia), l'arc compost (molt més potent que el simple), i noves espècies agrícoles com el granado i l'olivera. Quan els faraons de Tebas van expulsar els Hicsos i van fundar el Regne Nou (1550 aC), ho van fer usant les mateixes armes i tàctiques que havien après dels seus conqueridors. La humiliació de la conquesta va convertir Egipte en una potència militar que mai havia estat."
+        },
+        {
+          "type": "comparison",
+          "title": "Els tres Períodes Intermedis: causes i conseqüències",
+          "labelA": "Primer Període Intermedi (2181-2055 aC)",
+          "labelB": "Segon Període Intermedi (1650-1550 aC)",
+          "items": [
+            {
+              "label": "Causa principal",
+              "a": "Sequeres prolongades, feblesa dels faraons, autonomia dels nomarcas",
+              "b": "Conquesta dels Hicsos des del Llevant, fragmentació interna prèvia"
+            },
+            {
+              "label": "Caràcter",
+              "a": "Fragmentació interna en múltiples regnes rivals egipcis",
+              "b": "Coexistència de la dinastia Hicsos al nord i faraons egipcis a Tebas"
+            },
+            {
+              "label": "Reunificació",
+              "a": "Mentuhotep II des de Tebas (2055 aC): inici del Regne Mitjà",
+              "b": "Ahmosis I expulsa els Hicsos (1550 aC): inici del Regne Nou"
+            },
+            {
+              "label": "Llegat",
+              "a": "Nova literatura reflexiva; descentralització administrativa",
+              "b": "Egipte adopta el carro de guerra i es converteix en potència militar"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-04-01",
+          "style": "multiple-choice",
+          "question": "Quin va ser el llegat paradoxal de la conquesta dels Hicsos sobre la civilització egípcia?",
+          "options": [
+            "Va destruir permanentment la tradició cultural egípcia, que mai no es va recuperar completament",
+            "Va modernitzar l'exèrcit egipci amb noves tecnologies militars que van permetre la posterior expansió imperial del Regne Nou",
+            "Va introduir el monoteisme al pensament religiós egipci, preparant el terreny per a la reforma d'Akhenaton",
+            "Va forçat Egipte a obrir-se al comerç mediterrani, generant una prosperitat econòmica sense precedents"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La paradoxa dels Hicsos és un dels exemples més clars de com una derrota pot generar transformació positiva. Els Hicsos van portar el carro de guerra, l'arc compost i noves tàctiques militars que Egipte no coneixia. Quan Ahmosis I va expulsar els Hicsos el 1550 aC, ho va fer amb les seves pròpies armes. El Regne Nou que va seguir va ser la primera gran potència militar d'Egipte, capaç de conquerir Síria, Palestina i Núbia. Sense la humiliació dels Hicsos, probablement no hi hauria hagut un Tuthmosis III o un Ramsès II.",
+          "feedbackWrong": "El llegat principal dels Hicsos va ser militar i tecnològic. Van introduir el carro de guerra i l'arc compost, que Egipte va adoptar i amb els quals va construir el seu imperi del Regne Nou. La derrota davant els Hicsos va ser, paradoxalment, la condició per a la posterior glòria militar egípcia."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-04-02",
+          "style": "true-false",
+          "question": "Durant els Períodes Intermedis, la cultura i la civilització egípcia van desaparèixer completament, i quan el país es va reunificar va haver de reconstruir-ho tot des de zero.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Els Períodes Intermedis van ser períodes de desintegració política i de dificultats econòmiques, però la cultura egípcia va continuar. L'escriptura, la religió, l'art, l'arquitectura i les tradicions socials van persistir — de vegades amb adaptacions locals interessants. De fet, el Primer Període Intermedi va produir algunes de les obres literàries més originals de la literatura egípcia, com les 'Lamentacions d'Ipuwer' o el 'Diàleg d'un home amb la seva ànima'. La fractura era política, no civilitzatòria. Quan Egipte es reunificava, ho feia sobre una base cultural que havia continuat existint.",
+          "feedbackWrong": "La cultura egípcia va demostrar una resiliència notable durant els Períodes Intermedis. La desintegració era política — l'Estat centralitzat i la dinastia — però les tradicions culturals, religioses i artístiques van continuar. Alguns dels textos literaris més interessants d'Egipte van néixer precisament en aquests períodes de crisi, quan les certeses es posaven en qüestió."
+        },
+        {
+          "type": "debate",
+          "question": "Egipte va sobreviure tres Períodes Intermedis de col·lapse polític i es va reunificar cada vegada. Això demostra una resiliència excepcional — o simplement que les civilitzacions antigues amb forta identitat cultural tendeixen a persistir malgrat les crisis polítiques? La identitat cultural pot salvar una civilització d'un col·lapse polític?",
+          "positionA": {
+            "label": "La identitat cultural és la clau de la resiliència",
+            "argument": "Egipte va sobreviure perquè tenia una identitat cultural (llengua, religió, art, concepte de Maat) tan forta que transcendia qualsevol poder polític concret. Quan el poder es fragmentava, la cultura continuava. Quan apareixia un líder capaç de reunificar, tenia un substrat cultural comú sobre el qual construir. La identitat cultural és la infraestructura profunda que fa possible la resiliència política."
+          },
+          "positionB": {
+            "label": "La geografia va ser el factor decisiu",
+            "argument": "Egipte sempre es va reunificar perquè la seva geografia ho feia inevitable: un corredor estret al voltant del Nil, sense barreres internes significatives. Qualsevol poder que controlés el curs del riu podia dominar tot el país. La identitat cultural va ser important, però sense la geografia favorable la reunificació hauria estat molt més difícil o impossible."
+          },
+          "reflection": "Pots pensar en exemples contemporanis on una identitat cultural forta ha ajudat o dificultat la supervivència política d'un poble o una nació?",
+          "context": "El cas d'Egipte és freqüentment citat en els estudis sobre resiliència civilitzatòria. Samuel Huntington, en 'El xoc de civilitzacions', el cita com a exemple de civilització amb una identitat nuclear excepcionalment persistent."
+        }
+      ]
+    },
+    {
+      "id": "ori-05",
+      "title": "L'invent de l'escriptura egípcia: poder, memòria i cosmos",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Al voltant del 3200 aC, en una tomba reial d'Abidos, uns artesans van gravar en plaques d'ivori una sèrie de signes que representaven quantitats de béns i noms de llocs. No eren una poesia ni un relat — eren etiquetes de mercaderies i registres administratius. L'escriptura no va néixer de la necessitat poètica sinó de la necessitat burocràtica: l'Estat faraònic en formació necessitava comptar, registrar i controlar. El que va néixer com a sistema comptable va acabar sent el vehicle d'una de les literatures més riques i originals de l'antiguitat, i el suport de tota la cosmovisió religiosa egípcia."
+        },
+        {
+          "type": "prediction",
+          "question": "L'escriptura egípcia va néixer per registrar quantitats de gra i béns, no per escriure poesia. Qué creus que passa quan una tecnologia creada per a un propòsit pràctic es posa al servei de la religió, la literatura i el poder? Es transforma la tecnologia, la religió, o tots dos?",
+          "hint": "Pensa en exemples paral·lels: l'escriptura cuneïforme, la impremta, internet."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'escriptura jeroglífica egípcia va néixer de necessitats administratives però va adquirir ràpidament una dimensió sagrada: els jeroglífics eren 'les paraules dels déus' (medu netjer), creats per Thot, el déu de la saviesa i l'escriptura. Escriure no era simplement comunicar — era participar en l'ordre còsmic i donar permanència a les coses nomenades."
+        },
+        {
+          "type": "expandable",
+          "label": "Els tres sistemes d'escriptura egípcia i la seva evolució",
+          "content": "L'escriptura egípcia va evolucionar en tres formes paral·leles amb funcions diferents: (1) Els jeroglífics (medu netjer, 'paraules dels déus'): el sistema formal, monumentalment gravat als temples i tombes, usats durant tres mil anys fins al 394 dC. Eren un sistema complex de més de 700 signes (i fins a 6.000 en períodes tardans) que combinava logogrames, fonogrames i determinatius. (2) L'hieràtic: versió cursiva dels jeroglífics, escrita amb pinzell sobre papir per als textos literaris, religiosos i administratius d'ús quotidià. Molt més ràpid d'escriure. (3) El demòtic ('popular'): una versió encara més simplificada i cursiva, usada des del 650 aC per a documents legals, comercials i cartes. Apareix a la Pedra de Rosetta al costat dels jeroglífics i el grec. La coexistència de tres sistemes d'escriptura per a funcions diferents és un exemple de la sofisticació i la stratificació de la cultura egípcia."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-05-01",
+          "style": "multiple-choice",
+          "question": "Per quin motiu pràctic va néixer l'escriptura egípcia, segons les evidències arqueològiques més antigues?",
+          "options": [
+            "Per registrar els textos de les cerimònies religioses als temples del Nil",
+            "Per necessitats administratives: comptabilitat, registre de béns i identificació de propietaris",
+            "Per preservar la memòria dels faraons i les seves gestes militars",
+            "Per comunicar-se amb els déus a través d'oracles i plegàries escrites"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Les evidències escrites més antigues d'Egipte (les plaques d'ivori d'Abidos, c. 3200 aC) són etiquetes de mercaderies i registres administratius, no textos religiosos o literaris. L'escriptura va néixer de la necessitat de l'Estat en formació de comptar, registrar i distribuir béns. És el mateix origen que té l'escriptura cuneïforme a Mesopotàmia (on els primers textos also son registres comptables). La dimensió religiosa i literària va venir després, quan el sistema ja estava establert. L'escriptura és, en els seus orígens, una tecnologia de gestió, no una art.",
+          "feedbackWrong": "Les evidències arqueològiques mostren que l'escriptura egípcia va néixer de necessitats administratives molt prosaiques: comptar béns, identificar propietaris, registrar transaccions. Els primers textos no són poesia ni litúrgia — són etiquetes i inventaris. La dimensió sagrada i literària va arribar després, quan el sistema ja era funcional."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-05-02",
+          "style": "detect-error",
+          "statement": "Champollion va poder desxifrar els jeroglífics el 1822 perquè va descobrir que eren un sistema purament alfabètic, similar al grec, on cada símbol representava una lletra.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és 'purament alfabètic'. Champollion va desxifrar els jeroglífics demostrant que eren un sistema mixt, no purament alfabètic: combinaven fonogrames (signes que representen sons, alguns d'una consonant, d'altres de dues o tres), logogrames (signes que representen directament un objecte o concepte) i determinatius (signes sense pronunciació que especifiquen la categoria semàntica). La clau del desxiframent va ser identificar els noms reials en els cartutxos (els òvals que envoltaven els noms dels faraons a la Pedra de Rosetta) i comparar-los amb el text grec equivalent. La comparació va mostrar que alguns signes representaven sons — però no tots."
+        },
+        {
+          "type": "reflection",
+          "question": "L'escriptura egípcia va ser un instrument de poder durant tres mil anys: qui no sabia llegir estava exclòs de l'administració, el dret i els textos sagrats. Avui, l'analfabetisme digital (no saber usar les tecnologies de la informació) genera exclusions similars. Fins a quin punt creus que el control de les tecnologies de la informació és sempre un instrument de poder, independentment de l'época?",
+          "prompt": "Pensa en qui controla quines tecnologies de la informació avui i quins efectes té aquesta distribució sobre el poder social i econòmic."
+        }
+      ]
+    },
+    {
+      "id": "ori-06",
+      "title": "La societat egípcia: classes, treball i vida quotidiana",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Un dia típic en la vida d'un pagès egipci al Regne Mitjà: es llevava abans de l'alba, menjava pa de blat i cervesa (la cervesa era la beguda universal — l'aigua del Nil era perillosa sense bullir), anava als camps que cultivava per a si mateix i per a l'Estat, tornava a casa quan queia el sol, escoltava les notícies del nomarca local, i dormia en una casa de maó de fang d'una o dues habitacions. No tenia accés a cap text escrit (era analfabet, com el 95% de la població), però coneixia els mites dels déus i els rituals de les estacions millor que qualsevol escriba. La seva vida estava molt determinada per l'estructura social — però no era desesperada ni sense dignitat."
+        },
+        {
+          "type": "key-idea",
+          "text": "La societat egípcia era profundament jerarquitzada però no era una societat d'esclaus en el sentit romà: la gran majoria de la població eren pagesos lliures que treballaven terres pròpies i terres de l'Estat, amb obligacions de treball rotatòri (corvée). La mobilitat social existia — l'educació d'un fill com a escriba podia canviar radicalment l'estatus familiar."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "L'Invent dels Grecs",
+          "moduleEmoji": "🏛️",
+          "concept": "Egipte i Grècia: la transmissió del saber",
+          "text": "Tales de Milet va estudiar a Egipte. Pitàgores va viatjar per Egipte i la Mediterrània oriental. Els grecs van aprendre geometria, medicina i astronomia dels egipcis — i ho van sistematitzar i qüestionar. La civilització grega no va sorgir del no-res: va néixer en part de la digestió crítica del llegat egipci i mesopotàmic."
+        },
+        {
+          "type": "expandable",
+          "label": "La dona egípcia: una llibertat sorprenent per a l'antiguitat",
+          "content": "Les dones egípcies tenien un estatus legal sorprenentment avançat per als estàndards de l'antiguitat: podien posseir i heretar propietats, iniciar el divorci, portar casos als tribunals, fer contractes, exercir professions i fins i tot, en casos excepcionals, governar com a faraons (Hatshepsut, Nefertiti, Cleòpatra). El matrimoni egípci era un acord entre dues famílies, però les dones conservaven control sobre el seu dot en cas de divorci. En les representacions artístiques, les dones de l'elit apareixen al costat dels seus marits, no darrere — un contrast notable amb la Grècia clàssica. Naturalment, la major part del poder polític i religiós formal era masculí, i les dones de les classes baixes tenien molt menys marge. Però comparades amb les contemporànies gregues o romanes, les dones egípcies gaudien d'una llibertat legal notable."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-06-01",
+          "style": "multiple-choice",
+          "question": "Com es podia produir mobilitat social ascendent en la societat egípcia, que era fortament jerarquitzada?",
+          "options": [
+            "Mitjançant el matrimoni amb membres de famílies d'estatus superior, que era freqüent i socialment acceptat",
+            "Principalment a través de l'educació com a escriba, que donava accés a l'administració i a posicions de poder",
+            "A través del servei militar destacat, que podia proporcionar terra i títols als soldats de baix origen",
+            "No era possible: l'estatus social era completament heredittari i no hi havia cap via de mobilitat ascendent"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'educació com a escriba era la via principal de mobilitat social a Egipte. Un fill de pagès que aprenia a llegir i escriure a la 'casa de vida' (l'escola vinculada als temples) podia accedir a l'administració faraònica i amb el temps arribar a posicions de considerable influència. Hi ha textos egipcis que explícitament animen els joves a estudiar per evitar el treball dur. El visir Amenhotep, fill de Hapu, va néixer en una família modesta i va arribar a ser el funcionari més important d'Egipte sota Amenhotep III — un exemple paradigmàtic de mobilitat via l'escriptura.",
+          "feedbackWrong": "La via principal de mobilitat social ascendent a Egipte era l'educació com a escriba. El coneixement de l'escriptura obria les portes de l'administració faraònica, i des d'allà era possible una carrera que portava a posicions d'influència considerable. El servei militar i el matrimoni també podien contribuir, però l'escriptura era el vehicle más sistemàtic i documentat de mobilitat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ori-06-02",
+          "style": "true-false",
+          "question": "L'esclavitud va ser la base del sistema econòmic egipci, com ho era a la Roma clàssica, amb una gran proporció d'esclaus en la força de treball total.",
+          "correct": false,
+          "feedbackCorrect": "Fals. L'esclavitud existia a Egipte però no era la base del sistema econòmic, a diferència de la Roma clàssica. La gran majoria de la força de treball eren pagesos lliures (o semi-lliures en termes de les seves obligacions amb l'Estat) que treballaven terres pròpies i terres de l'Estat. Els esclaus eren principalment presos de guerra (especialment del Regne Nou en endavant) i eren una minoria de la força de treball. El sistema econòmic fonamental era la corvée (treball obligatori rotatòri per a l'Estat) i l'agricultura camperola, no l'esclavitud massiva.",
+          "feedbackWrong": "L'economia egípcia era molt diferent de la romana en aquest aspecte. Els pagesos lliures (amb obligacions de corvée per a l'Estat) eren la base de la força de treball, no els esclaus. L'esclavitud existia, especialment a partir del Regne Nou, però com a component secundari de l'economia, no com a fonament. La confusió ve de la imatge popular dels 'esclaus construint les piràmides' — que l'arqueologia moderna ha desmuntat."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-ori-06-01",
+          "question": "La societat egípcia era molt jerarquitzada però tenia mecanismes de mobilitat (l'educació dels escribes) i un sistema legal relativament equitatiu (les dones podien litigar, els pagesos tenien drets reconeguts). Creus que una societat pot ser alhora molt jerarquitzada i relativament justa, o la jerarquia estructural fa impossible la justícia real?",
+          "options": [
+            "No és compatible: tota jerarquia estructural implica una distribució desigual de poder que fa impossible la justícia real per als que estan a baix",
+            "Sí és compatible: la justícia no requereix igualtat sinó equitat — que cada persona rebi el que li correspon dins el seu rol. Una jerarquia estable amb regles clares pot ser percebuda com a justa",
+            "Depèn de la mobilitat: una jerarquia amb mobilitat real (ascendent i descendent) és compatible amb un sentiment de justícia; una jerarquia tancada i hereditària no ho és"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la crítica igualitarista radical: tota estructura jeràrquica implica dominació i, per tant, injustícia. Té força moral però pot ser massa abstracta per explicar per qué moltes societats jerarquitzades van ser percebudes com a 'justes' pels seus membres. La posició B és la defensa conservadora de l'ordre jeràrquic: la justícia és que cadascú rebi el que li correspon en funció del seu rol — una idea que Plató (una mica contemporani del Regne Nou tardà) defensaria. La posició C és la que molts sociòlegs i politòlegs moderns consideren més acurada empíricament: el que genera percepció de justícia no és l'igualtat sinó la mobilitat i la meritocracia. Una societat on els fills dels pobres poden ascendir si treballen prou és percebuda com a justa independentment de la seva desigualtat estructural. Egipte tenia mecanismes de mobilitat (l'escriba) que probablement contribuïen a la legitimació del sistema jeràrquic."
+        }
+      ]
+    }
+  ]
+}

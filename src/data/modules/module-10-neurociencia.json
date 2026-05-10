@@ -1,0 +1,842 @@
+{
+  "id": "module-10-neurociencia",
+  "title": "Neurociència Bàsica",
+  "emoji": "🧠",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "neuro-cervell",
+      "title": "Com Funciona el Cervell",
+      "icon": "⚡",
+      "description": "Del neuró a la consciència: l'arquitectura del que ets",
+      "style": "Estructural · de la cèl·lula al pensament",
+      "lessons": [
+        {
+          "id": "neu-01",
+          "title": "El cervell que no coneixes",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "En aquest moment, mentre llegeixes aquesta frase, cent mil milions de neurones estan disparant senyals elèctrics al teu cervell. Algunes d'elles estan processant les paraules. D'altres gestionen la teva postura. D'altres regulen el teu ritme cardíac. I unes quantes — ningú sap exactament quines — estan generant la sensació subjectiva de ser tu, llegint això, ara mateix. Aquest últim fet és el problema més difícil de la ciència."
+            },
+            {
+              "type": "key-idea",
+              "text": "El cervell humà és l'objecte més complex que coneixem a l'univers. Conté aproximadament 86.000 milions de neurones, cadascuna connectada a milers d'altres. El nombre de connexions possibles supera el nombre d'àtoms de l'univers observable. I tanmateix, pesa menys d'un quilo i mig i consumeix menys energia que una bombeta de 20 watts."
+            },
+            {
+              "type": "misconception",
+              "belief": "Humans only use 10% of their brain capacity, and the rest remains unused.",
+              "reality": "Usem el 100% del cervell — no necessàriament al mateix temps, però al llarg del dia pràcticament totes les regions s'activen. La neuroimatge funcional (fMRI) mostra que no hi ha cap zona que resti permanentment inactiva en cervells sans. El mite del 10% va néixer d'una mala interpretació de dades de principis del segle XX i va ser amplificat per la indústria de l'autoajuda.",
+              "why": "El mite és atractiu perquè implica que tenim un potencial enorme sense explotar. La realitat — que ja usem tot el que tenim — és menys venedora però molt més fascinant: el que fem amb el 100% ja és extraordinari."
+            },
+            {
+              "type": "prediction",
+              "question": "Si el cervell és tan complex, per qué és tan fàcil enganyar-lo? Pensa en il·lusions òptiques, errors de memòria o biaixos cognitius que hagis experimentat.",
+              "hint": "Potser la complexitat i la fiabilitat no van sempre juntes."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el cervell és tan car energèticament — i per qué això ho explica tot",
+              "content": "El cervell representa el 2% del pes corporal però consumeix el 20% de tota l'energia que el cos produeix. Aquest cost energètic enorme explica moltes de les seves peculiaritats: el cervell ha evolucionat per ser eficient, no per ser precís. Quan pot prendre una drecera cognitiva (un biaix, una heurística, una generalització ràpida), ho fa — perquè cada processament conscient i lent costa glucosa. Els 'errors' del cervell —biaixos cognitius, il·lusions, memòries falses— no són defectes del disseny: són el preu de l'eficiència energètica. Un cervell que processés tot amb igual rigor i atenció esgotaria el cos en hores."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-01-01",
+              "style": "multiple-choice",
+              "question": "Quants neurones té aproximadament el cervell humà adult?",
+              "options": [
+                "Un milió (10⁶)",
+                "Mil milions (10⁹)",
+                "86.000 milions (8,6 × 10¹⁰)",
+                "Un bilió (10¹²)"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. 86.000 milions de neurones — una xifra que va ser revisada a la baixa el 2009 (abans es creia que eren 100.000 milions) gràcies a mètodes de recompte més precisos. Però la xifra de connexions entre elles (les sinapsis) és molt més gran: s'estima en 100 bilions, 10¹⁴. És aquesta xarxa de connexions, no el nombre de neurones, el que genera la complexitat del pensament.",
+              "feedbackWrong": "La xifra correcta és aproximadament 86.000 milions de neurones. Però el número més impressionant no és el de neurones sinó el de connexions entre elles: unes 100 bilions de sinapsis. És la xarxa, no les unitats individuals, el que genera la complexitat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-01-02",
+              "style": "true-false",
+              "question": "El cervell adult és completament estàtic: un cop acabat el desenvolupament, no pot crear nous neurones ni modificar les seves connexions.",
+              "correct": false,
+              "feedbackCorrect": "Fals, i és una de les descobertes més importants de la neurociència dels últims trenta anys. El cervell adult conserva plasticitat neuronal: pot modificar la força de les connexions existents (potenciació a llarg termini), crear connexions noves i, en algunes regions com l'hipocamp, fins i tot generar nous neurones (neurogènesi adult). Aprendre quelcom nou, literalment, canvia l'estructura física del teu cervell.",
+              "feedbackWrong": "Aquesta era la creença dominant fins als anys 90, però ha estat completament revisada. La neuroplasticitat — la capacitat del cervell adult de modificar-se — és avui un dels camps més actius de la neurociència. Cada cop que aprens alguna cosa, el teu cervell canvia físicament: s'enforteixen connexions, se'n creen de noves, i en algunes zones fins i tot neixen nous neurones."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neu-01-01",
+              "question": "Si el cervell ha evolucionat per ser eficient energèticament (no per ser precís), quina implicació té això per a la fiabilitat del pensament humà?",
+              "options": [
+                "El pensament humà és fonamentalment poc fiable i hauria de ser substituït per raonament computacional sempre que sigui possible",
+                "La imprecisió és el preu de l'eficiència, però el pensament humà té compensacions evolutives (intuïció, creativitat) que el fan valuós malgrat els errors",
+                "La fiabilitat del pensament depèn del context: és alta per a decisions ràpides en entorns familiars, i baixa per a raonament abstracte sobre situacions noves"
+              ],
+              "correct": 2,
+              "explanation": "La neurociència cognitiva suggereix que el cervell té dos sistemes complementaris (popularitzats per Daniel Kahneman com a Sistema 1 i Sistema 2). El Sistema 1 és ràpid, automàtic i eficient energèticament — és excel·lent per a situacions familiars on les heurístiques funcionen bé. El Sistema 2 és lent, deliberat i costós — és necessari per al raonament abstracte complex. La fiabilitat no és una propietat absoluta del cervell sinó relativa al context: el cervell és extraordinàriament fiable per reconèixer cares, detectar moviment o llegir emocions (tasques evolutivament antigues), i significativament menys fiable per avaluar probabilitats, raons estadístiques o biaixos propis (tasques evolutivament recents). Confiar cegament en el propi pensament és ingenu; desconfiar-ne totalment és paralitzant. La metacognició — saber quan confiar en la intuïció i quan aplicar pensament lent — és la competència clau."
+            }
+          ]
+        },
+        {
+          "id": "neu-02",
+          "title": "El neuró: la unitat de tot el que penses",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Santiago Ramón y Cajal, metge aragonès del segle XIX, va passar anys dibuixant a mà el que veia al microscopi amb una paciència monumental. El que va descobrir va revolucionar la biologia: el cervell no és una massa contínua de teixit, sinó una xarxa de cèl·lules individuals separades per petits buits. Va guanyar el Nobel el 1906. Els seus dibuixos —fets sense ordinadors, sense fMRI, amb llapis i paper— continuen sent obres d'art científic insuperables."
+            },
+            {
+              "type": "key-idea",
+              "text": "El neuró és la unitat bàsica de processament del sistema nerviós. Té tres parts fonamentals: el cos cel·lular (soma), les dendrites (que reben senyals d'altres neurones) i l'axó (que envia senyals cap a altres neurones). La comunicació entre neurones passa per les sinapsis: petits buits on els senyals elèctrics es converteixen en químics i tornen a ser elèctrics."
+            },
+            {
+              "type": "expandable",
+              "label": "Com funciona una sinapsi: el miracle químic-elèctric",
+              "content": "Quan un senyal elèctric arriba al final d'un axó (el botó terminal), desencadena l'alliberament de molècules químiques anomenades neurotransmissors a la fissura sinàptica. Aquests neurotransmissors travessen el buit i s'uneixen a receptors específics a la dendrita de la neurona següent. Si prou neurotransmissors s'uneixen als receptors correctes, la neurona receptora genera el seu propi impuls elèctric i el propaga. Tot el pensament, tota l'emoció, tota la memòria és, al nivell més bàsic, aquesta dansa química-elèctrica repetida bilions de vegades per segon. Els fàrmacs psiquiàtrics (antidepressius, ansiolítics, antipsicòtics) actuen precisament aquí: modificant la disponibilitat o l'eficàcia dels neurotransmissors a les sinapsis."
+            },
+            {
+              "type": "comparison",
+              "title": "Principals neurotransmissors i la seva funció",
+              "labelA": "Neurotransmissor",
+              "labelB": "Funció principal i dèficit associat",
+              "items": [
+                {
+                  "label": "Dopamina",
+                  "a": "Motivació, recompensa, aprenentatge per reforç",
+                  "b": "Dèficit: Parkinson, anhedònia. Excés: alguns símptomes de psicosi"
+                },
+                {
+                  "label": "Serotonina",
+                  "a": "Regulació de l'estat d'ànim, son, gana",
+                  "b": "Dèficit associat (no causal) a la depressió. Els ISRS augmenten la seva disponibilitat"
+                },
+                {
+                  "label": "Glutamat",
+                  "a": "Principal neurotransmissor excitatori. Aprenentatge i memòria",
+                  "b": "Excés: excitotoxicitat (dany neuronal en ictus)"
+                },
+                {
+                  "label": "GABA",
+                  "a": "Principal neurotransmissor inhibitori. Redueix l'activitat neuronal",
+                  "b": "Dèficit: ansietat, convulsions. Les benzodiazepines potencien el GABA"
+                },
+                {
+                  "label": "Noradrenalina",
+                  "a": "Alerta, atenció, resposta a l'estrès",
+                  "b": "Implicada en l'TDAH i en la resposta de lluita-o-fugida"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-02-01",
+              "style": "multiple-choice",
+              "question": "Qué és una sinapsi en el context del sistema nerviós?",
+              "options": [
+                "La unió física entre dos neurones que permet el pas directe de corrent elèctric",
+                "L'espai entre dos neurones on la comunicació es produeix mitjançant neurotransmissors químics",
+                "El nucli del neuró on es processa la informació rebuda de les dendrites",
+                "La beina de mielina que cobreix l'axó i accelera la conducció del senyal elèctric"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La sinapsi és el punt de comunicació entre neurones, però no és un contacte físic directe: hi ha una fissura (la fissura sinàptica) d'uns 20-40 nanòmetres. La comunicació es produeix quan la neurona presinàptica allibera neurotransmissors que travessen la fissura i s'uneixen a receptors de la neurona postsinàptica. Aquesta conversió elèctric → químic → elèctric és el mecanisme bàsic de tot el processament neuronal.",
+              "feedbackWrong": "Les neurones no es toquen físicament en la majoria de les sinapsis. Hi ha una fissura entre elles, i la comunicació és química: la neurona que envia allibera neurotransmissors, que travessen la fissura i activen receptors a la neurona receptora, que llavors genera el seu propi senyal elèctric. La mielina és un element real però separat: cobreix l'axó i accelera la conducció, però no és la sinapsi."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-02-02",
+              "style": "detect-error",
+              "statement": "La dopamina és el neurotransmissor del plaer: quan fem alguna cosa agradable, el cervell allibera dopamina i sentim plaer.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és una simplificació incorrecta molt estesa. La dopamina no és el neurotransmissor 'del plaer' sinó de l'anticipació i la motivació. Les investigacions de Wolfram Schultz als anys 90 van mostrar que les neurones dopaminèrgiques s'activen quan s'espera una recompensa, no necessàriament quan s'obté. Si la recompensa és millor de l'esperada, la dopamina puja. Si és exactament l'esperada, no canvia gaire. Si no arriba, baixa. La dopamina codifica l'error de predicció de recompensa — és el motor de l'aprenentatge i la recerca, no del gaudi en si. El gaudi (el plaer hedònic) depèn més dels sistemes opioïdis endògens. Aquesta distinció té implicacions clíniques importants: en l'addicció, la dopamina impulsa el craving (la recerca) molt més que el plaer real de la substància."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "La reducció i els seus límits",
+              "text": "Podem descriure el pensament com a patrons d'activació neuronal, i els patrons com a interaccions de neurotransmissors, i les interaccions com a química, i la química com a física. Però en algun punt de la reducció, 'la sensació de sentir tristesa' desapareix de la descripció. Aquí és on la neurociència topa amb el problema abordat a Filosofia de la Ciència: el reduccionisme explica els mecanismes, però hi ha quelcom en l'experiència subjectiva que sembla resistir-se a ser reduït a parts. Això és el que els filòsofs anomenen el 'problema difícil de la consciència'."
+            }
+          ]
+        },
+        {
+          "id": "neu-03",
+          "title": "Memòria: com el cervell escriu i esborra",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1953, un jove anomenat Henry Molaison (conegut durant dècades com a 'HM' per protegir la seva privacitat) va ser operat per curar una epilèpsia severa. El cirurgià li va extirpar l'hipocamp bilateral. L'epilèpsia va millorar. Però Henry ja no podia formar cap record nou. Podia recordar tot el que havia passat abans de l'operació. Però cada dia, en despertar-se, creia que era el dia de l'operació. Va ser estudiat durant 55 anys. Va morir el 2008 sense saber que era el subjecte d'estudi més important de la història de la neurociència."
+            },
+            {
+              "type": "key-idea",
+              "text": "La memòria no és un arxiu. És un procés de reconstrucció activa. Cada vegada que 'recordes' alguna cosa, el teu cervell la torna a construir parcialment — i en fer-ho, la pot modificar. La memòria és més semblant a editar un document que a llegir-ne una còpia guardada."
+            },
+            {
+              "type": "expandable",
+              "label": "Els tipus de memòria: no n'hi ha una sola",
+              "content": "La neurociència distingeix diversos sistemes de memòria amb substrats cerebrals diferents. La memòria declarativa (explícita) guarda fets i esdeveniments conscients, i depèn de l'hipocamp: la memòria episòdica (records personals: 'on era jo el dia que...') i la memòria semàntica (fets generals: 'París és la capital de França'). La memòria no declarativa (implícita) guarda habilitats i hàbits sense consciència explícita, i depèn del cerebel i els ganglis basals: per això un pianista amb amnèsia (com HM) pot continuar aprenent peces noves tot i no recordar haver-les practicat. La memòria de treball (o memòria operativa) és el 'bloc de notes' temporal de la consciència, amb una capacitat famosament limitada: 7 ± 2 ítems segons Miller (1956), o potser menys, 4 ± 1, segons investigacions més recents."
+            },
+            {
+              "type": "misconception",
+              "belief": "Els records antics són més fiables que els recents perquè han tingut temps de 'consolidar-se' i ja no es poden modificar.",
+              "reality": "Els records antics poden ser igual de distorsionats que els recents — o més. Cada vegada que recordem quelcom, el record torna a un estat labil (modificable) durant unes hores (reconsolidació). Si durant aquest període rebem informació nova, interferències emocionals o simplement dormim malament, el record es pot modificar permanentment. Els records d'infància sovint incorporen imatges de fotografies, relats dels pares i reconstruccions imaginatives que se senten com a memòries directes.",
+              "why": "La consolidació de la memòria és real (els records es fan més estables amb el temps), però no els immunitza contra la distorsió. La reconsolidació — el procés pel qual un record torna a ser vulnerable cada vegada que s'activa — va ser descoberta als anys 2000 i va capgirar la comprensió prèvia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-03-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el descobriment clau que va proporcionar el cas de Henry Molaison (HM) per a la neurociència de la memòria?",
+              "options": [
+                "Que la memòria visual i la memòria verbal estan localitzades en hemisferis cerebrals oposats",
+                "Que l'hipocamp és essencial per a la formació de nous records declaratius, però no per a les memòries procedimentals ni per als records antics",
+                "Que l'extirpació de l'hipocamp provoca la pèrdua total de tota la memòria prèvia i la incapacitat de sentir emocions",
+                "Que la memòria a llarg termini es localitza exclusivament en el lòbul frontal del còrtex cerebral"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. HM va revelar la dissociació fonamental entre sistemes de memòria: sense hipocamp, no podia formar nous records episòdics ni semàntics (memòria declarativa), però continuava aprenent habilitats motores i perceptives sense ser-ne conscient (memòria procedimental). I els seus records anteriors a l'operació estaven intactes. Això va demostrar que l'hipocamp és el 'guardabarreres' de la formació de nous records conscients, però no és on s'emmagatzemen permanentment ni on viuen les habilitats.",
+              "feedbackWrong": "El cas de HM va ser revelador precisament per la dissociació que va mostrar: l'hipocamp és necessari per formar nous records conscients (declaratius), però no per a les memòries de habilitats (procedimentals) ni per als records antics ja consolidats. HM podia aprendre a tocar noves melodies al piano sense recordar haver practicat mai. Aquesta dissociació va provar que la memòria no és un sistema únic sinó múltiple."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-03-02",
+              "style": "true-false",
+              "question": "La memòria fotogràfica (la capacitat de recordar imatges amb precisió absoluta com si fossin fotografies) és una habilitat real que algunes persones posseeixen i que la ciència ha documentat àmpliament.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La 'memòria fotogràfica' com a capacitat de recordar imatges amb precisió absoluta no ha estat mai demostrada científicament en adults. El que existeix és la memòria eidètica —present en alguns nens i molt rara en adults— que permet retenir imatges amb detall inusual durant breus períodes, però que tampoc és 'fotogràfica' en el sentit d'una còpia exacta. La investigació de Elizabeth Loftus i altres ha demostrat repetidament que fins i tot les persones amb memòria excepcional fan errors de detall i incorporen informació post-hoc als seus records.",
+              "feedbackWrong": "Tot i que el concepte és molt popular, la memòria fotogràfica en adults no ha estat mai validada científicament. El que existeix és la memòria eidètica —rara en adults— i persones amb capacitats mnemotècniques extraordinàries (que usen tècniques, no una capacitat innata diferent). La investigadora Elizabeth Loftus ha dedicat dècades a documentar la distorsió de la memòria fins i tot en persones que creuen recordar amb precisió absoluta."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neu-03-01",
+              "question": "Si la memòria es reconstrueix cada vegada que la recordem i es pot modificar en el procés, quin valor probatori hauríem d'atorgar als testimonis oculars en processos judicials?",
+              "options": [
+                "Cap valor: la memòria és tan poc fiable que cap testimoni hauria de ser admès com a prova",
+                "Valor complet: la gent sap quan ha vist quelcom i no confon els seus propis records amb suggeriments externs",
+                "Valor parcial i contextual: útil com a indicatiu però no com a prova definitiva, especialment en condicions d'estrès elevat, pas del temps o suggestió prèvia"
+              ],
+              "correct": 2,
+              "explanation": "La recerca de la psicòloga Elizabeth Loftus és contundent: els testimonis oculars s'equivoquen amb una freqüència sorprenent, especialment en condicions d'estrès elevat (que paradoxalment genera la sensació subjectiva de recordar 'perfectament'), pas del temps, i exposició a informació post-event (preguntes suggestives, cobertura mediàtica, comentaris d'altres testimonis). Als EUA, l'anàlisi d'exonerats per proves d'ADN mostra que el 70% havien estat condemnats basant-se total o parcialment en testimonis oculars erronis. Això no significa que els testimonis mentinguin: creuen els seus records. Però el sistema legal tracta sovint la memòria com a gravació quan és reconstrucció. La solució no és eliminar el testimoni sinó entendre les seves condicions de fiabilitat i complementar-lo amb altres proves."
+            }
+          ]
+        },
+        {
+          "id": "neu-04",
+          "title": "Emocions: no el contrari de la raó",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Elliot era un home d'èxit: bon pare, bon marit, bon professional. El 1982, un tumor al còrtex prefrontal medial li va ser extirpat amb èxit. El tumor havia desaparegut. Però Elliot ja no podia prendre decisions. No perquè fos irracional — raonava perfectament. Era perquè havia perdut la capacitat de sentir. El neurocinetífic Antonio Damasio, que el va estudiar durant anys, va concloure una cosa que capgirava la psicologia occidental: sense emoció, no hi ha raó pràctica."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les emocions no són el contrari de la raó: són part del seu substrat. La hipòtesi del marcador somàtic de Damasio proposa que les emocions etiqueten les opcions amb senyals corporals (el 'pit encongit', el 'presentiment al ventre') que guien la presa de decisions. Sense aquestes etiquetes emocionals, el cervell no sap per on començar a raonar."
+            },
+            {
+              "type": "expandable",
+              "label": "L'amígdala: el detector d'amenaces que mai dorm",
+              "content": "L'amígdala és una estructura en forma d'ametlla situada al lòbul temporal, present als dos hemisferis. És el centre de processament de les emocions de por i amenaça, i és extraordinàriament ràpida: rep informació sensorial per una via 'curta' directa (tàlem → amígdala) que activa la resposta de por en milisegons, abans que el còrtex hagi processat conscientment l'estímul. Això explica per qué 'saltes' en veure una corda que sembla una serp abans de saber que és una corda. La via 'llarga' (tàlem → còrtex → amígdala) arriba 40 milisegons després i pot modular la resposta inicial. En persones amb PTSD (trastorn per estrès posttraumàtic), l'amígdala hiperactivada dispara respostes de por a estímuls que el còrtex reconeix com a innocus — però el senyal de l'amígdala arriba primer."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Pau, Conflicte i Guerra",
+              "moduleEmoji": "🕊️",
+              "concept": "La psicologia del conflicte i la deshumanització",
+              "text": "Al mòdul de Pau, Conflicte i Guerra vam explorar com els grups humans poden cometre atrocitats contra altres grups. La neurociència aporta un substrat: la deshumanització de l'enemic redueix l'activació de les zones cerebrals associades a l'empatia (còrtex prefrontal medial, ínsula) i activa zones associades al fàstic. No és una metàfora — és un canvi mesurable en l'activitat cerebral. Entendre el mecanisme no el justifica, però permet intervenir-hi."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-04-01",
+              "style": "multiple-choice",
+              "question": "Qué va demostrar el cas d'Elliot estudiat per Antonio Damasio sobre la relació entre emoció i raó?",
+              "options": [
+                "Que les emocions i la raó són sistemes completament independents que poden funcionar per separat sense afectar-se mútuament",
+                "Que la incapacitat de sentir emocions millora el raonament lògic en eliminar els biaixos emocionals",
+                "Que la capacitat de sentir emocions és necessària per a la presa de decisions pràctiques, tot i conservar intacta la capacitat de raonar lògicament",
+                "Que el còrtex prefrontal és l'única regió cerebral implicada en la presa de decisions racionals"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Elliot raonava perfectament en abstracte però no podia decidir res en la vida real — ni quin restaurant triar per dinar. Sense les 'etiquetes' emocionals que orienten les opcions, el raonament s'allarga infinitament sense arribar a cap conclusió. Damasio va concloure que l'emoció no distorsiona la raó: la fa possible. La idea il·lustrada d'una raó pura separada de l'emoció és, neurocientíficament, una ficció.",
+              "feedbackWrong": "El cas d'Elliot va demostrar exactament el contrari del que la tradició filosòfica occidental havia assumit: no que l'emoció distorsiona la raó, sinó que sense emoció la raó pràctica col·lapsa. Elliot argumentava perfectament en abstracte però era incapaç de decidir res en la vida real. Les emocions no contaminen la raó — la sustenten."
+            },
+            {
+              "type": "debate",
+              "question": "Si les emocions guien la raó (Damasio), hauríem de prendre decisions importants quan estem emocionalment activats, o esperar a calmar-nos?",
+              "positionA": {
+                "label": "Decidir en calma",
+                "argument": "L'activació emocional intensa (por, ira, eufòria) distorsiona el pes que donem a les opcions: amplifica els riscos percebuts o ignora les conseqüències negatives. Les decisions importants requereixen que les emocions estiguin presents (per orientar) però modulades (per no distorsionar). Esperar a la calma no elimina l'emoció — la calibra."
+              },
+              "positionB": {
+                "label": "L'emoció com a informació vàlida",
+                "argument": "Suprimir l'emoció per decidir 'racionalment' pot ser una forma d'autocensura que ignora informació rellevant. La por intensa davant d'una decisió pot estar indicant un risc real que el raonament conscient no ha processat encara. La intuïció emocional acumula experiència. Descartar-la sistemàticament en favor del raonament 'fred' no sempre produeix millors decisions."
+              },
+              "reflection": "Recorda una decisió important que hagis pres. Quin paper hi van jugar les emocions — t'hi van ajudar o t'hi van perjudicar?",
+              "context": "La recerca actual suggereix que la resposta òptima depèn del tipus de decisió: per a decisions complexes amb moltes variables (comprar un pis, triar parella), el raonament inconscient emocional pot ser superior al deliberat. Per a decisions simples i quantificables, el raonament deliberat guanya. La regla 'decideix amb el cap, no amb el cor' és massa simple."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-04-02",
+              "style": "detect-error",
+              "statement": "L'amígdala processa únicament la por. Altres emocions com l'alegria, la tristesa o la ira es processen en regions cerebrals completament separades i no impliquen l'amígdala.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta. L'amígdala és especialment sensible a la por i l'amenaça, però participa en el processament d'un rang ampli d'emocions, incloses les positives. S'activa davant estímuls emocionalment significatius en general — no sols els negatius. A més, la segregació emocional en regions cerebrals discretes és una simplificació: les emocions emergeixen de circuits distribuïts que impliquen múltiples estructures (amígdala, ínsula, còrtex cingulat anterior, còrtex prefrontal). La idea de 'centres emocionals' aïllats és una simplificació pedagògica útil però científicament imprecisa."
+            }
+          ]
+        },
+        {
+          "id": "neu-05",
+          "title": "Aprenentatge i plasticitat: el cervell que es construeix a si mateix",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1949, el psicòleg canadenc Donald Hebb va formular una idea que semblava obvia però que va resultar ser profundament correcta: 'Les neurones que s'activen juntes, es connecten'. Cada vegada que aprens alguna cosa, les neurones implicades en aquell aprenentatge enforteixen les seves connexions. Cada vegada que practiques, les connexions es fan més eficients. El cervell, literalment, es construeix a si mateix amb l'ús."
+            },
+            {
+              "type": "key-idea",
+              "text": "La neuroplasticitat és la capacitat del cervell de modificar la seva estructura i funció en resposta a l'experiència. No és una metàfora: aprendre quelcom nou crea connexions sinàptiques noves, enforteix les existents i, en algunes regions, fins i tot genera nous neurones. El cervell adult no és estàtic — és un òrgan en constant remodelació."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Música Clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "Per qué els músics tenen cervells estructuralment diferents",
+              "text": "Al mòdul de música clàssica vam veure com Beethoven va continuar composant completament sord gràcies a la seva 'oïda interna'. La neurociència explica per qué és possible: els músics professionals que comencen a estudiar de petits desenvolupen un còrtex auditiu significativament més gran i un cos callós (la connexió entre hemisferis) més gruixut. La representació cortical dels dits de la mà esquerra en un violinista ocupa el doble d'espai que en una persona sense formació musical. Tocar un instrument durant anys, literalment, redissenya el cervell."
+            },
+            {
+              "type": "expandable",
+              "label": "La mielina i la pràctica deliberada: per qué 10.000 hores no és tota la història",
+              "content": "La teoria de les 10.000 hores (popularitzada per Malcolm Gladwell a 'Outliers') suggeria que qualsevol pot arribar a ser expert en qualsevol cosa amb prou pràctica. La neurociència matisa: no és qualsevol pràctica, sinó la pràctica deliberada. El mecanisme subjacent és la mielinització: les connexions neuronals usades repetidament s'emboliquen amb mielina (un material gras que actua com a aïllant), cosa que accelera la velocitat de transmissió de senyals fins a 100 vegades. Com més mielina, més automatitzada i ràpida és l'habilitat. Però la mielinització respon a la pràctica que opera just al límit de la capacitat actual (el que el psicòleg Anders Ericsson anomenava 'deliberate practice'), no a la repetició confortable de l'aprenentatge ja assolit. Practicar el que ja saps bé consolida però no fa créixer."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-05-01",
+              "style": "multiple-choice",
+              "question": "Qué significa el principi de Hebb ('les neurones que s'activen juntes, es connecten') en termes d'aprenentatge pràctic?",
+              "options": [
+                "Que l'aprenentatge és més efectiu quan es produeix en grup que quan es fa individualment",
+                "Que repetir una associació (concepte-resposta, estímul-acció) enforteix la connexió neuronal subjacent i la fa més automàtica",
+                "Que les neurones actives durant el son consoliden únicament els aprenentatges emocionals, no els cognitius",
+                "Que el cervell aprèn millor quan rep estímuls de diverses modalitats sensorials simultàniament"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El principi de Hebb descriu el mecanisme bàsic de l'aprenentatge associatiu: quan dos neurones s'activen junts repetidament, la connexió sinàptica entre ells es reforça (potenciació a llarg termini). Això és el que fa que la pràctica consolidi habilitats: repetir l'activació conjunta de circuits neuronals específics els fa més eficients i automàtics. És el substrat neuronal de tot el que 'entrenes' — des d'un acord de guitarra fins a una resposta emocional.",
+              "feedbackWrong": "El principi de Hebb descriu el mecanisme bàsic de l'aprenentatge associatiu a nivell neuronal: quan dos neurones s'activen junts repetidament, la connexió entre ells s'enforteix. Aplicat a l'aprenentatge pràctic, significa que la repetició d'una associació (concepte-significat, moviment-resultat) reforça el circuit neuronal que la sustenta i la fa més automàtica i ràpida d'executar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-05-02",
+              "style": "true-false",
+              "question": "El son no té cap paper en la consolidació de la memòria: és simplement un estat de repòs on el cervell processa menys informació que durant la vigília.",
+              "correct": false,
+              "feedbackCorrect": "Fals, i és una de les àrees de recerca més actives de la neurociència actual. Durant el son — especialment durant les fases de son profund (ones lentes) i la fase REM — el cervell realitza una feina activa de consolidació de la memòria: reprodueix i reforça els patrons d'activació del dia, elimina connexions poc usades (poda sinàptica), i transfereix informació de l'hipocamp (memòria a curt termini) al còrtex (memòria a llarg termini). Estudiar tota la nit sense dormir redueix la retenció, no l'augmenta.",
+              "feedbackWrong": "El son és un dels moments de major activitat del cervell des del punt de vista de la consolidació de la memòria. Durant el son profund i el REM, el cervell reprodueix i reforça els patrons d'activació del dia, poda connexions poc usades i consolida els aprenentatges del dia en memòria a llarg termini. La privació de son perjudica l'aprenentatge de manera directa i mesurable."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neu-05-01",
+              "question": "Si el cervell és plàstic i es modifica amb l'experiència, és possible canviar patrons de pensament o comportament profundament arrelats en l'edat adulta?",
+              "options": [
+                "No: la plasticitat neuronal disminueix dràsticament amb l'edat i els patrons establerts en la infància són pràcticament irreversibles",
+                "Sí, completament: la plasticitat adulta és equivalent a la infantil i qualsevol patró pot canviar amb la intervenció adequada",
+                "Parcialment: la plasticitat adulta és real però reduïda; el canvi és possible però requereix més esforç, temps i condicions específiques que en la infància"
+              ],
+              "correct": 2,
+              "explanation": "La neurociència actual suporta una posició matisada. La plasticitat cerebral és màxima en la infància ('períodes crítics') però no desapareix en l'edat adulta: continua present, tot i que amb menor amplitud i major cost. Les intervencions terapèutiques efectives (teràpia cognitivo-conductual, mindfulness basat en evidència, exposició gradual) produeixen canvis mesurables en l'activitat i estructura cerebrals en adults. L'estudi de meditadors a llarg termini (Ricard, Davidson) mostra canvis estructurals significatius en regions associades a l'atenció i la regulació emocional. Però el canvi en l'adult requereix generalment més repeticions, condicions d'aprenentatge més específiques i períodes de temps més llargs que en la infància. La neuroplasticitat adulta és real — però no és màgia, i no és gratuïta."
+            }
+          ]
+        },
+        {
+          "id": "neu-06",
+          "title": "Consciència: el problema que la ciència no ha resolt",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Podem descriure exactament quines neurones s'activen quan veus el color vermell. Podem mesurar l'activitat elèctrica, els neurotransmissors implicats, les connexions que es reforcen. Però no podem explicar per qué hi ha quelcom que és 'com' veure el vermell — per qué hi ha una experiència subjectiva en absolut, i no simplement processament d'informació en la foscor. Aquesta pregunta — el 'problema difícil de la consciència' — és el límit actual de la neurociència."
+            },
+            {
+              "type": "key-idea",
+              "text": "El filòsof David Chalmers va distingir el 'problema fàcil' de la consciència (explicar els mecanismes del processament d'informació, l'atenció, el control del comportament) del 'problema difícil' (explicar per qué hi ha experiència subjectiva en absolut). La neurociència ha avançat enormement en el primer. El segon continua sense resposta."
+            },
+            {
+              "type": "expandable",
+              "label": "Les teories de la consciència: un camp de batalla científico-filosòfic",
+              "content": "Hi ha diverses teories competidores sobre la consciència, cadascuna amb suport empíric parcial. La Teoria de la Informació Integrada (IIT) de Giulio Tononi proposa que la consciència és una propietat de qualsevol sistema que integra informació de manera irreductible (mesurable amb el paràmetre 'phi'). La Teoria de l'Espai de Treball Global de Bernard Baars i Stanislas Dehaene proposa que la consciència emergeix quan la informació es 'difon' a un sistema global accessible a múltiples processos cerebrals. El Materialisme Eliminatiu (Churchland) argumenta que la 'consciència' com a concepte desapareixerà quan tinguem una neurociència prou completa — com van desaparèixer el 'flogist' o la 'força vital'. El Panpsiquisme (Chalmers, Goff) argumenta que la consciència és una propietat fonamental de la matèria, present en algun grau en tot sistema físic. Cap d'elles ha guanyat el debat."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "El problema difícil com a límit de la ciència empírica",
+              "text": "Al mòdul de Filosofia de la Ciència vam explorar els límits del mètode científic: qué pot i qué no pot respondre la ciència empírica. El problema difícil de la consciència és un cas paradigmàtic d'aquest límit: els experiments poden mesurar correlats neuronals de l'experiència, però la pregunta 'per qué hi ha experiència subjectiva en absolut' pot ser inabordable amb les eines actuals — o pot ser que mai sigui abordable per cap ciència empírica, si la pregunta és de naturalesa filosòfica i no empírica."
+            },
+            {
+              "type": "quote",
+              "text": "És possible que el misteri de la consciència sigui permanent: que la ment humana no sigui capaç de comprendre la seva pròpia naturalesa.",
+              "author": "Colin McGinn, filòsof, 1989"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neu-06-01",
+              "style": "multiple-choice",
+              "question": "Qué distingeix el 'problema difícil' de la consciència del 'problema fàcil', segons David Chalmers?",
+              "options": [
+                "El problema difícil és la complexitat del mapeig neuronal complet del cervell; el fàcil és entendre les funcions bàsiques com el reflex o la respiració",
+                "El problema fàcil és explicar els mecanismes funcionals del processament d'informació; el difícil és explicar per qué hi ha experiència subjectiva en absolut",
+                "El problema difícil és la diagnosi i tractament dels trastorns de la consciència (coma, estat vegetatiu); el fàcil és la mesura de l'activitat cerebral durant la vigília",
+                "El problema fàcil és la consciència en animals simples; el difícil és la consciència humana amb llenguatge i metacognició"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Chalmers va encunyar la distinció el 1995. Els 'problemes fàcils' (que no són senzills, però sí abordables científicament) inclouen: com el cervell integra la informació, com controla el comportament, com diferencia el son de la vigília. El 'problema difícil' és radicalment diferent: per qué qualsevol d'aquests processos va acompanyat d'experiència subjectiva? Per qué hi ha 'alguna cosa que és' ser un cervell que processa informació, en lloc de simplement processament en la foscor?",
+              "feedbackWrong": "La distinció de Chalmers és filosòfica, no de complexitat tècnica. Els 'problemes fàcils' (abordables científicament) inclouen totes les funcions del cervell: atenció, integració d'informació, control motor, memòria. El 'problema difícil' és d'una naturalesa diferent: per qué hi ha experiència subjectiva en absolut? Per qué no tot el processament passa en la 'foscor', sense que ningú experimenti res?"
+            },
+            {
+              "type": "debate",
+              "question": "La consciència és un producte del cervell que la ciència acabarà explicant completament, o hi ha alguna cosa en l'experiència subjectiva que sempre resistirà l'explicació científica?",
+              "positionA": {
+                "label": "La ciència acabarà explicant-ho",
+                "argument": "La història de la ciència és la història de misteris que semblaven inexplicables i van ser explicats: la vida (reduïda a química), l'herència (reduïda a ADN), el moviment dels astres (reduït a física newtoniana i relativista). La consciència sembla misteriosa ara perquè no tenim prou neurociència. Quan en tinguem, el misteri es dissoldrà com tots els anteriors. Declarar que alguna cosa és 'inexplicable en principi' és una capitulació intel·lectual prematura."
+              },
+              "positionB": {
+                "label": "Hi ha un límit irreductible",
+                "argument": "El problema difícil és diferent de tots els anteriors perquè involucra la perspectiva de primera persona — el 'com és' d'una experiència — que és inaccessible des de la tercera persona de la ciència objectiva. Explicar tots els mecanismes neuronals no tanca la bretxa: continua sent concebible un 'zombie filosòfic' (un ser idèntic neurològicament a tu però sense experiència subjectiva). Si és concebible, la identitat entre mecanisme neuronal i experiència subjectiva no és necessària — i la ciència no l'ha explicat."
+              },
+              "reflection": "La teva posició en aquest debat pot dir alguna cosa sobre els teus valors: confiances en la ciència, intuïcions sobre la irreductibilitat de l'experiència, o ambdues coses alhora.",
+              "context": "Francis Crick (co-descobridor del DNA) va dedicar els últims 20 anys de la seva vida a la neurociència de la consciència i va morir sense haver-la resolt. Alguns dels millors filòsofs i neurocientífics actuals continuen profundament en desacord sobre si el problema és empíric, filosòfic, o potser mal plantejat."
+            },
+            {
+              "type": "reflection",
+              "question": "Has recorregut la neurociència del neuró, la memòria, l'emoció, l'aprenentatge i la consciència. Quin concepte d'aquest mòdul canvia alguna cosa en la manera com et veus a tu mateix — com prens decisions, com recordes, com aprens?",
+              "prompt": "La neurociència no és un coneixement extern sobre 'el cervell': és un coneixement sobre tu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neuro-vida",
+      "title": "El Cervell a la Vida Quotidiana",
+      "icon": "🌍",
+      "description": "Biaixos, addicció, son, estrès i com el cervell modela la teva realitat",
+      "style": "Aplicat · del laboratori a la vida real",
+      "lessons": [
+        {
+          "id": "vida-01",
+          "title": "Biaixos cognitius: els errors sistemàtics del pensament",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1973, els psicòlegs Daniel Kahneman i Amos Tversky van publicar un article que va sacsejar l'economia, la medicina, el dret i la psicologia: els éssers humans no raonen estadísticament. Cometen errors sistemàtics i predictibles, no errors aleatoris. I ho fan fins i tot quan saben que estan cometent-los. Kahneman va guanyar el Nobel d'Economia el 2002 — sense ser economista. Va ser la primera vegada que el premi anava a algú que havia demostrat que els humans no es comporten com els models econòmics predien."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un biaix cognitiu és un patró sistemàtic de desviació del judici racional. No és un error aleatori sinó una tendència predictible que el cervell fa servir com a drecera. Tenim desenes de biaixos identificats. Tots tenim tots els biaixos. Saber-ho no els elimina — però permet compensar-los en decisions importants."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1972",
+                  "title": "Kahneman i Tversky — Heurística de disponibilitat",
+                  "text": "Sobreestimem la probabilitat d'esdeveniments que recordem fàcilment (accidents d'avió vs. cotxe)."
+                },
+                {
+                  "year": "1973",
+                  "title": "Biaix de representativitat",
+                  "text": "Jutgem la probabilitat per la semblança amb un prototip, ignorant les probabilitats base."
+                },
+                {
+                  "year": "1979",
+                  "title": "Teoria prospectiva (Prospect Theory)",
+                  "text": "Perdem més que guanyem: una pèrdua de 100€ dol més que una guany de 100€ alegra."
+                },
+                {
+                  "year": "1980",
+                  "title": "Biaix de confirmació (Wason)",
+                  "text": "Busquem informació que confirmi el que ja creiem i ignorem la que ho contradiu."
+                },
+                {
+                  "year": "2002",
+                  "title": "Nobel d'Economia per a Kahneman",
+                  "text": "La psicologia dels biaixos entra al mainstream econòmic i polític."
+                },
+                {
+                  "year": "2008",
+                  "title": "Nudge Theory (Thaler i Sunstein)",
+                  "text": "Els biaixos es poden usar per dissenyar entorns que guiïn cap a millors decisions sense prohibir res."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Els cinc biaixos que més afecten les decisions importants",
+              "content": "El biaix de confirmació ens fa buscar informació que confirmi el que ja creiem i ignorar la que ho contradiu — especialment perillós en decisions mèdiques, financeres i polítiques. El biaix d'ancoratge fa que la primera xifra que sentim influeixi desproporcionadament en les nostres estimacions posteriors (per això les negociacions sempre comencen amb una oferta alta). L'efecte de dotació (endowment effect) fa que valorem més el que ja posseïm que el que podríem aconseguir — explica per qué és tan difícil vendre accions a la baixa o abandonar projectes fallits. L'heurística de disponibilitat ens fa sobrestimar la probabilitat d'esdeveniments que recordem fàcilment (els accidents d'avió semblen més probables que els de cotxe malgrat que és al revés) perquè els accessibles a la memòria semblen més freqüents. El biaix del present fa que valorem el benefici immediat molt per sobre del futur — el substrat neuronal de la procrastinació i de per qué és tan difícil estalviar per a la jubilació."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-01-01",
+              "style": "multiple-choice",
+              "question": "Quin biaix cognitiu explica per qué la gent sobreestima el risc de morir en un accident d'avió i subestima el risc de morir en un accident de cotxe, tot i que les estadístiques indiquen el contrari?",
+              "options": [
+                "El biaix de confirmació: busquem notícies d'accidents d'avió perquè confirmen la nostra por preexistent",
+                "L'heurística de disponibilitat: els accidents d'avió són més dramàtics i mediàtics, per tant més fàcils de recordar, i el que és fàcil de recordar sembla més probable",
+                "El biaix d'ancoratge: la primera estadística d'accidents que vam sentir era d'aviació i ancora les nostres estimacions posteriors",
+                "L'efecte de dotació: valorem més la nostra vida quan estem en avió que quan estem en cotxe"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'heurística de disponibilitat (Kahneman i Tversky, 1973) proposa que estimem la probabilitat d'un esdeveniment per la facilitat amb que exemples vénen a la ment. Els accidents d'avió reben cobertura mediàtica massiva, generant imatges vívides i memorables. Els accidents de cotxe són estadísticament molt més freqüents però menys dramàtics i rarament fan portada. El cervell confon 'fàcil de recordar' amb 'freqüent' — i sobrestima el risc d'avió.",
+              "feedbackWrong": "El mecanisme és l'heurística de disponibilitat: el cervell usa la facilitat de recuperació d'un record com a indicador de la seva freqüència. Els accidents d'avió son dramàtics, reben cobertura mediàtica intensa i generen imatges vívides — per tant son fàcils de recordar. El que es recorda fàcilment sembla més probable. El cotxe mata molt més, però de manera dispersa i poc memorable."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-01-02",
+              "style": "detect-error",
+              "statement": "Els biaixos cognitius afecten principalment les persones poc educades o amb baix coeficient intel·lectual. Les persones intel·ligents i ben formades els superen gràcies a la seva capacitat de raonament.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta, i és un dels descobriments més incòmodes de la psicologia cognitiva. Els estudis de Kahneman, Tversky i molts altres mostren que la intel·ligència i la formació acadèmica no immunitzen contra la majoria de biaixos cognitius. De fet, en alguns casos les persones més intel·ligents fan servir la seva capacitat de raonament per justificar de manera més sofisticada les conclusions a les quals han arribat per biaix (el que s'anomena 'intel·ligència motivada' o myside bias). El que sí que ajuda parcialment és la formació específica en estadística i probabilitat, i l'exposició als noms dels biaixos — que permet identificar-los quan apareixen, tot i que no els elimina."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-vida-01-01",
+              "question": "Si sabem que tenim biaixos cognitius i no els podem eliminar completament, quina és la millor estratègia per prendre millors decisions?",
+              "options": [
+                "Confiar sempre en la intuïció: si els biaixos no es poden eliminar, el raonament deliberat és una il·lusió de control",
+                "Usar sempre algoritmes i sistemes de decisió quantificats: eliminen el factor humà i per tant els biaixos",
+                "Dissenyar processos de decisió que compensin els biaixos previsibles: diversitat de perspectives, llistes de verificació, separació temporal entre decisió i implementació"
+              ],
+              "correct": 2,
+              "explanation": "La recerca en presa de decisions organitzacional i mèdica apunta a una conclusió clara: no podem eliminar els biaixos, però podem dissenyar entorns i processos que compensin els seus efectes. Les llistes de verificació en cirurgia (Atul Gawande) redueixen errors no perquè els cirurgians no sàpiguen el que fan, sinó perquè formalitzen passos que el biaix de confiança pot fer ometre. La diversitat de perspectives en equips de decisió contrarresta el biaix de confirmació individual. L'espera entre la decisió i la implementació permet que l'activació emocional disminueixi. Els algoritmes ajuden en dominis ben definits i quantificables, però en contextos ambigus i canviants poden replicar els biaixos dels seus dissenyadors. La solució no és tecnològica ni purament racional: és processual i estructural."
+            }
+          ]
+        },
+        {
+          "id": "vida-02",
+          "title": "Addicció: quan el sistema de recompensa es gira contra tu",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La rata estava en una gàbia amb dues ampolletes d'aigua. Una contenia heroïna dissolta. L'altra, aigua normal. La rata va triar l'heroïna una vegada, dues, cent vegades, fins a morir d'una sobredosi. Durant trenta anys, aquest experiment va ser la 'prova' que les drogues creen addicció per si mateixes. Fins que Bruce Alexander va afegir un element: una gàbia gran, amb jocs, túnels, menjar abundant i altres rates. En el 'Parc de Rates', les rates tenien la mateixa heroïna disponible — i quasi cap la triava. L'addicció no era simplement química."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'addicció és una disfunció del sistema de recompensa dopaminèrgic que involucra aprenentatge, context, biologia i circumstàncies vitals. No és simplement una debilitat moral ni simplement una malaltia cerebral: és la intersecció complexa de neurobiologia i experiència vital. El context importa tant com la substància."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué és tan difícil deixar una addicció: la tolerància i la sensibilització",
+              "content": "Quan el cervell és exposat repetidament a una substància que augmenta la dopamina (drogues, però també comportaments com el joc o les xarxes socials), desenvolupa dos mecanismes complementaris. La tolerància: el cervell redueix la seva resposta a la substància (menys receptors, menys sensibilitat) per compensar l'excés. Necessites cada vegada més per aconseguir el mateix efecte. La sensibilització: simultàniament, els circuits associats al craving (la recerca de la substància) es fan més sensibles, no menys. Això crea la paradoxa de l'addicció: el plaer de la substància disminueix (tolerància) però el desig de buscar-la augmenta (sensibilització). Deixes de prendre-la perquè et faci sentir bé i comences a prendre-la per evitar sentir-te malament — o simplement perquè el craving és aclaparador."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'addicció és un problema de voluntat: les persones addictes simplement no volen prou deixar-ho.",
+              "reality": "L'addicció produeix canvis estructurals mesurats al còrtex prefrontal (la regió implicada en el control d'impulsos i la presa de decisions a llarg termini), reduint la seva capacitat de modular la recerca compulsiva. La voluntat no és una força independent del cervell: és una funció del còrtex prefrontal — que l'addicció danya. No és que la persona 'no vulgui' deixar-ho: és que el circuit cerebral que hauria d'inhibir la recerca de la substància funciona pitjor. El tractament efectiu reconstrueix aquella capacitat, no exigeix un esforç de voluntat heroic d'un cervell danyat.",
+              "why": "El model moral de l'addicció (debilitat, pecat, manca de caràcter) és culturalment dominant perquè simplifica i atribueix responsabilitat individual. El model neurobiològic és més complex i exigeix respostes de salut pública més costoses."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-02-01",
+              "style": "multiple-choice",
+              "question": "Qué va demostrar l'experiment del 'Parc de Rates' de Bruce Alexander sobre l'addicció?",
+              "options": [
+                "Que les rates genèticament modificades per tenir més receptors dopaminèrgics desenvolopen addicció amb major facilitat",
+                "Que la disponibilitat de la substància és el factor principal de l'addicció: si no hi ha accés, no hi ha addicció possible",
+                "Que el context ambiental i social té un paper determinant en el desenvolupament de l'addicció, més enllà de les propietats farmacològiques de la substància",
+                "Que l'heroïna en dosis baixes no crea addicció en rates si s'administra de manera gradual"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'experiment d'Alexander va mostrar que rates en entorns enriquits (amb estimulació, connexió social i llibertat de moviment) evitaven la heroïna disponible, mentre que rates en aïllament i entorns empobrits l'escollien fins a la mort. La implicació és profunda: la vulnerabilitat a l'addicció no és simplement una propietat de la substància ni de la biologia individual, sinó de la intersecció entre substància, cervell i circumstàncies vitals. Aplicat als humans: molts veterans del Vietnam van consumir heroïna intensivament a la guerra i van deixar-la en tornar a casa, sense tractament, quan van recuperar les seves connexions socials i la seva vida significativa.",
+              "feedbackWrong": "L'experiment va demostrar quelcom molt més important que la genètica o la dosificació: el context vital (estimulació, connexió social, llibertat) determinava si les rates triaven o evitaven la heroïna disponible. Rates en entorns empobrits i aïllades morien d'addicció. Rates en entorns rics i socialment connectats, amb la mateixa heroïna disponible, pràcticament no la tocaven."
+            },
+            {
+              "type": "debate",
+              "question": "Les addiccions haurien de ser tractades principalment com a malalties (model mèdic) o com a problemes de comportament que requereixen responsabilitat personal (model moral)?",
+              "positionA": {
+                "label": "Model mèdic",
+                "argument": "L'addicció produeix canvis neuronals documentats (reducció de receptors D2 de dopamina, alteració del còrtex prefrontal) que comprometen la capacitat de control. Tractar-la com a fallada moral no ajuda i genera vergonya que dificulta buscar tractament. Els tractaments eficaços (farmacològics i psicoterapèutics) funcionen sobre el cervell, no sobre el caràcter. La salut pública respon millor al model mèdic."
+              },
+              "positionB": {
+                "label": "Responsabilitat personal",
+                "argument": "Medicalitzar totalment l'addicció elimina l'agència de la persona i pot generar una narrativa de victimisme que dificulta la recuperació. Moltes persones superen addiccions sense tractament formal — a través de la decisió, el canvi de context i el suport social. El model mèdic pot crear dependència del sistema sanitari i reduir la percepció que el canvi és possible per voluntat pròpia."
+              },
+              "reflection": "Pot una cosa ser alhora una malaltia i una responsabilitat personal? Pensa en la diabetis tipus 2 o la hipertensió — que tenen components biològics i de comportament entrellaçats.",
+              "context": "La posició dominant en neurociència i psiquiatria actual és el 'model biopsicosocial': l'addicció involucra factors biològics (genètica, neurobiologia), psicològics (trauma, regulació emocional) i socials (entorn, relacions, accés a recursos). Cap dels dos models en la seva forma pura és suficient."
+            }
+          ]
+        },
+        {
+          "id": "vida-03",
+          "title": "Estrès: el sistema d'alarma que no sap quan parar",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El teu cos no distingeix entre un lleó que t'ataca i una reunió difícil al matí. En tots dos casos, l'hipotàlem activa el sistema nerviós simpàtic, les glàndules suprarenals bomben cortisol i adrenalina, el ritme cardíac s'accelera, els músculs es tensen i la digestió s'atura. En 40.000 anys d'evolució, la resposta d'estrès va ser dissenyada per durar minuts. En el món modern, de vegades dura anys."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'estrès agut és adaptatiu: millora temporalment el rendiment, la memòria i la resposta immune. L'estrès crònic és l'oposat: danys l'hipocamp (memòria), suprimeix el sistema immune, augmenta el risc cardiovascular i altera el còrtex prefrontal (presa de decisions). La mateixa resposta que et salva en una emergència et destrueix si mai s'apaga."
+            },
+            {
+              "type": "expandable",
+              "label": "El cortisol i l'hipocamp: per qué l'estrès crònic afecta la memòria",
+              "content": "L'hipocamp — la regió clau per a la formació de nous records — té una densitat inusualment alta de receptors de cortisol (l'hormona de l'estrès). Això té sentit evolutiu: en una situació de perill, vols que el cervell formi records vívids de les circumstàncies per evitar-les en el futur. Però l'exposició crònica al cortisol perjudica l'hipocamp: redueix la dendrització (complexitat de les connexions) dels seus neurones, inhibeix la neurogènesi (la creació de nous neurones) i en casos extrems pot reduir el seu volum. Persones amb PTSD i depressió major mostren hipocamps de menor volum que la població general. La bona notícia: la neurociència mostra que aquest dany és parcialment reversible amb l'eliminació de l'estrès crònic, l'exercici aeròbic i alguns tractaments psiquiàtrics."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-03-01",
+              "style": "multiple-choice",
+              "question": "Per qué la resposta d'estrès agut inclou la supressió temporal de la digestió i el sistema immune?",
+              "options": [
+                "Perquè el cortisol és tòxic per als òrgans digestius i el sistema immune en concentracions elevades",
+                "Perquè en una emergència, recursos energètics i circulatoris es redirigeixen als músculs i el cervell; la digestió i la immunitat poden esperar",
+                "Perquè el sistema nerviós parasimpàtic (que controla la digestió) i el simpàtic (que controla la resposta d'estrès) no poden ser actius simultàniament per raons anatòmiques",
+                "Perquè l'adrenalina bloqueja específicament els receptors dels òrgans digestius però no afecta cap altra funció orgànica"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La resposta d'estrès és una priorització energètica d'emergència: el cos redirigeix el flux sanguini i l'energia cap als sistemes que necessita per sobreviure immediatament (músculs esquelétics, cor, cervell) i 'apaga' temporalment els sistemes que no són urgents (digestió, reproducció, immunitat a llarg termini). En 30 segons davant d'un lleó, la immunitat no és la prioritat. El problema és que en estrès crònic, aquesta supressió continuada acaba comprometent la salut a llarg termini.",
+              "feedbackWrong": "La lògica és evolutiva i energètica: en una emergència, el cos redirigeix recursos cap als sistemes necessaris per sobreviure (músculs, cor, cervell) i desactiva temporalment els que no són urgents (digestió, immunitat, reproducció). No és toxicitat directa del cortisol ni una limitació anatòmica: és una priorització adaptativa que es torna problemàtica quan l'emergència no s'acaba mai."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-03-02",
+              "style": "true-false",
+              "question": "L'estrès sempre perjudica el rendiment cognitiu: qualsevol quantitat d'estrès empitjora la memòria, l'atenció i la presa de decisions.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La relació entre estrès i rendiment segueix la 'corba de Yerkes-Dodson' (1908): el rendiment és baix amb molt poc estrès (falta de motivació), augmenta amb estrès moderat (activació òptima) i cau amb estrès molt elevat (col·lapse cognitiu). L'estrès agut i moderat millora temporalment la memòria, l'atenció i la resposta immune. L'estrès que perjudica de manera consistent és el crònic, sostingut en el temps sense periods de recuperació. La diferència entre 'pressió activadora' i 'estrès destructiu' depèn de la intensitat, la durada i la percepció de control.",
+              "feedbackWrong": "La relació és en forma de U invertida (corba de Yerkes-Dodson): molt poc estrès genera poc rendiment (falta d'activació), estrès moderat genera rendiment òptim, i molt estrès genera col·lapse. L'estrès agut i moderat és adaptatiu i millora temporalment l'atenció i la memòria. El problema és l'estrès crònic, sostingut sense recuperació, que acaba danyant les mateixes estructures cerebrals que l'estrès agut activava."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-vida-03-01",
+              "question": "Si l'estrès crònic danya l'hipocamp i el còrtex prefrontal (les regions de la memòria i la presa de decisions), quina és la millor intervenció per reduir els seus efectes en persones en entorns d'alta pressió sostinguda?",
+              "options": [
+                "Eliminar totes les fonts d'estrès de l'entorn: és l'únic tractament eficaç perquè ataca la causa",
+                "Entrenar la resistència psicològica (resiliència) per tolerar nivells més alts d'estrès sense que afecti el rendiment",
+                "Combinació de reducció de l'estrès evitable, augment de la percepció de control, recuperació activa (son, exercici, connexió social) i, si cal, suport psicoterapèutic"
+              ],
+              "correct": 2,
+              "explanation": "La recerca en psicologia de la salut i neurociència apunta a una estratègia multidimensional. Eliminar totes les fonts d'estrès és sovint impossible i pot generar passivitat. Entrenar la resiliència és útil però pot degenerar en exigir que les persones suportin condicions insalubres — el que la psicòloga Christina Maslach va criticar com a 'individualitzar el problema del burnout'. La intervenció efectiva opera en múltiples nivells: reduir les fonts d'estrès evitables (disseny organitzacional, distribució de càrrega), augmentar la percepció de control i de significat (que modula la resposta fisiològica a l'estrès), assegurar períodes de recuperació real (son de qualitat, exercici aeròbic — que estimula la neurogènesi en l'hipocamp), i mantenir la connexió social (que regula el cortisol a través de l'oxitocina). La psicoteràpia (especialment la cognitivo-conductual i les basades en mindfulness) té suport empíric per a la reducció de l'estrès crònic amb correlats neuronals mesurables."
+            }
+          ]
+        },
+        {
+          "id": "vida-04",
+          "title": "Son: la funció que la ciència va trigar a prendre seriosament",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant dècades, la neurociència va tractar el son com un estat passiu — un temps mort necessari però poc interessant. L'any 2013, Maiken Nedergaard va publicar un descobriment que ho va canviar tot: el cervell dormit activa el sistema glimfàtic, que literalment neteja els residus metabòlics acumulats durant la vigília — incloses les proteïnes beta-amiloide i tau associades a l'Alzheimer. El son no és una pausa. És el sistema de manteniment del cervell."
+            },
+            {
+              "type": "key-idea",
+              "text": "El son és un estat d'activitat cerebral intensa i altament organitzada. Durant les seves fases, el cervell consolida la memòria, elimina residus metabòlics, regula les emocions, restaura la funció immune i prepara el còrtex prefrontal per al dia següent. La privació crònica de son és tan perjudicial per al cervell com l'alcohol — i és molt més comuna."
+            },
+            {
+              "type": "expandable",
+              "label": "Les fases del son i per a qué serveix cadascuna",
+              "content": "El son es divideix en cicles d'aproximadament 90 minuts, i cada cicle conté diverses fases. El son lleuger (N1-N2) és la transició entre vigília i son profund, on comença la reducció de l'activitat cerebral i la consolidació de procediments motors. El son profund o d'ones lentes (N3) és la fase de màxima restauració física i eliminació de residus cerebrals via el sistema glimfàtic; també és quan el sistema immune es reforça. El son REM (Rapid Eye Movement) és la fase del somniar vívid: el còrtex és actiu, el cos paralitzat (atònia muscular per evitar que actuem els somnis). Durant el REM, el cervell consolida la memòria emocional, integra experiències noves amb el coneixement existent i, curiosament, ho fa en absència de noradrenalina — l'hormona de l'estrès. Matthew Walker (neurocientífic de Berkeley) proposa que el REM és una forma de 'teràpia d'exposició' natural: el cervell reprocessa experiències emocionals en un context neuroquímic que no genera ansietat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-04-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el descobriment clau sobre el sistema glimfàtic i el son publicat el 2013 per Nedergaard?",
+              "options": [
+                "Que el son REM és la fase principal de consolidació de la memòria declarativa i que interrompre'l causa pèrdua permanent de records",
+                "Que el cervell dormit activa un sistema de neteja (glimfàtic) que elimina residus metabòlics, incloses proteïnes associades a l'Alzheimer",
+                "Que la privació de son d'una sola nit redueix permanentment la densitat de neurones en l'hipocamp",
+                "Que el sistema glimfàtic és actiu tant durant el son com durant la vigília, amb la mateixa eficàcia en tots dos estats"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Nedergaard va descobrir que durant el son, l'espai entre les cèl·lules cerebrals s'expandeix fins al 60%, permetent que el líquid cefaloraquidi flueixi i elimini els residus acumulats durant la vigília. Entre aquests residus hi ha la proteïna beta-amiloide, que s'acumula en les plaques associades a l'Alzheimer. La hipòtesi és que la privació crònica de son impedeix aquesta neteja i pot ser un factor de risc per a la demència a llarg termini. El descobriment va transformar la comprensió del son d'estat de 'repòs' a funció de manteniment actiu.",
+              "feedbackWrong": "El descobriment clau de Nedergaard va ser el sistema glimfàtic: durant el son, l'espai intercel·lular del cervell s'expandeix i permet l'eliminació de residus metabòlics (incloses proteïnes com la beta-amiloide associada a l'Alzheimer). Va canviar completament la comprensió de la funció del son: de 'pausa passiva' a 'sistema de manteniment actiu' del cervell."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-04-02",
+              "style": "detect-error",
+              "statement": "Dormir menys durant la setmana laboral i recuperar el son el cap de setmana ('deute de son') és una estratègia eficaç que permet als professionals actius mantenir el rendiment cognitiu sense perjudicis a llarg termini.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta. La recerca de Matthew Walker i altres mostra que el 'deute de son' no funciona com un compte bancari: no es pot acumular déficit i saldar-lo el cap de setmana sense cost. La privació aguda de son durant la setmana produeix dany cognitiu (reducció de l'atenció, la memòria i la regulació emocional) que el son recuperatori del cap de setmana millora parcialment però no reverteix del tot, especialment en termes de rendiment de l'atenció sostinguda. A llarg termini, el patró de privació crònica recurrent s'associa a risc cardiovascular augmentat, alteració metabòlica i, possiblement, risc de demència. Els subjectes en estudis de privació de son sovint subestimen significativament la seva deterioració funcional — creuen que funcionen bé quan els tests objectives mostren que no."
+            },
+            {
+              "type": "reflection",
+              "question": "Quantes hores dormes de manera habitual? I quantes creus que necessites? La neurociència del son suggereix que la majoria dels adults necessiten entre 7 i 9 hores — i que un terç dels adults als països occidentals dorm menys de 6.",
+              "prompt": "No és una pregunta de culpabilitat: és una invitació a reconsiderar si el son és una prioritat o un luxe en la teva vida quotidiana."
+            }
+          ]
+        },
+        {
+          "id": "vida-05",
+          "title": "Cervell social: som animals de connexió",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1938, Harvard va iniciar el que s'ha convertit en l'estudi longitudinal sobre felicitat humana més llarg de la historia: el Harvard Study of Adult Development. Durant 85 anys, han seguit la vida de 724 homes (i ara les seves famílies). La conclusió, presentada pel director Robert Waldinger el 2015 en una de les xerrades TED més vistes de la história, és sorprenentment simple: les relacions socials de qualitat protegeixen el cervell, la salut i la longevitat. No la riquesa. No la fama. Les relacions."
+            },
+            {
+              "type": "key-idea",
+              "text": "El cervell humà és un òrgan profundament social: ha evolucionat per operar en grups, i les connexions socials no són un luxe sinó una necessitat fisiològica. L'aïllament social produeix en el cervell una resposta similar al dolor físic. La solitud crònica és tan perjudicial per a la salut com fumar quinze cigarretes al dia."
+            },
+            {
+              "type": "expandable",
+              "label": "Les neurones mirall: l'empatia té un substrat neuronal",
+              "content": "Als anys 90, el neurocinetífic Giacomo Rizzolatti va descobrir accidentalment les neurones mirall en primats: cèl·lules que s'activen tant quan l'animal executa una acció com quan l'observa en un altre. En humans, hi ha sistemes similars (tot i que menys ben documentats): regions cerebrals que s'activen tant quan experimentem dolor com quan veiem altres persones patir. Això suggereix que l'empatia no és simplement una actitud o un valor moral: té un substrat neuronal que simula internament l'experiència de l'altre. La ficció — novel·les, cinema, teatre — podria funcionar com un entrenament de l'empatia: activa els mateixos circuits que es dispararien en experiències socials reals. La recerca de Raymond Mar (Universitat de York) mostra que les persones que llegeixen molta ficció literària puntuen més alt en tests d'empatia i teoria de la ment."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història del Rock",
+              "moduleEmoji": "🎸",
+              "concept": "Per qué els concerts en directe produeixen vinculació social",
+              "text": "Al mòdul d'Història del Rock vam veure com Woodstock va generar una experiència de comunitat extraordinàriament intensa entre 400.000 persones. La neurociència explica part del mecanisme: la música sincronitzada en grup activa l'alliberament d'oxitocina (l'hormona de la vinculació social), produeix sincronies de ritme cardíac entre els assistents, i l'experiència emocional compartida crea el que el psicòleg Emile Durkheim anomenava 'efervescència col·lectiva'. No és metàfora — és fisiologia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-05-01",
+              "style": "multiple-choice",
+              "question": "Qué va concloure l'Harvard Study of Adult Development sobre els factors que millor prediuen la salut i la felicitat a llarg termini?",
+              "options": [
+                "Els ingressos econòmics elevats i la seguretat financera, que redueixen l'estrès crònic i permeten accés a millor atenció mèdica",
+                "La qualitat de les relacions socials pròximes, que protegeix tant la salut mental com la física i la funció cognitiva en la vellesa",
+                "L'exercici físic regular i la dieta equilibrada, que superen tots els altres factors en la predicció de la longevitat",
+                "L'educació universitària i l'estimulació intel·lectual contínua, que construeixen 'reserva cognitiva' contra el deteriorament cerebral"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'estudi va mostrar que les relacions socials de qualitat (no el nombre de relacions, sinó la seva profunditat i fiabilitat) eren el predictor més consistent de salut, felicitat i longevitat, per davant dels ingressos, la professió, l'educació o l'estil de vida. Específicament, les persones en relacions d'alta satisfacció als 50 anys tenien la millor memòria i salut física als 80. L'aïllament social i la solitud, en canvi, eren tan perjudicials com el tabac i l'obesitat.",
+              "feedbackWrong": "La sorpresa de l'estudi (i la raó per la qual la seva conclusió va ressonar tant) és que no van ser els factors habituals — riquesa, exercici, educació — els millors predictors, sinó la qualitat de les relacions socials pròximes. Persones en relacions satisfactòries als 50 anys tenien millor memòria i salut física als 80 que persones amb millors ingressos o hàbits de salut però relacions superficials o conflictives."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-05-02",
+              "style": "true-false",
+              "question": "La solitud és simplement un estat emocional desagradable però sense efectes biològics mesurables en la salut física.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La solitud crònica produeix efectes biològics mesurables: augmenta els marcadors inflamatoris (IL-6, TNF-alfa), eleva el cortisol basal, altera el son, suprimeix la funció immune i augmenta el risc cardiovascular. La neurocientífica de la solitud John Cacioppo va documentar que les persones soles processen les amenaces socials amb major activació de l'amígdala i menor activació del còrtex prefrontal — el que les fa més reactives i defensives, cosa que al seu torn dificulta la formació de noves connexions socials. La solitud crea un cercle viciós neurobiològic.",
+              "feedbackWrong": "La solitud crònica té efectes biològics molt concrets i mesurables. Cacioppo va demostrar que augmenta els marcadors d'inflamació, eleva el cortisol, altera el patró de son i augmenta el risc cardiovascular. L'impacte és comparable en magnitud al tabaquisme. El cervell social no és una metàfora: les connexions socials regulen fisiologia bàsica — i la seva absència la desregula."
+            },
+            {
+              "type": "debate",
+              "question": "Les xarxes socials digitals (Instagram, TikTok, WhatsApp) satisfan les necessitats socials del cervell o les substitueixen de manera inadequada, augmentant la solitud real?",
+              "positionA": {
+                "label": "Les xarxes socials connecten",
+                "argument": "Les xarxes socials permeten mantenir connexions amb persones que d'altra manera es perdrien per la distància o el temps. Per a persones amb mobilitat reduïda, amb condicions de salut limitants, o en entorns socialment empobrits, les connexions digitals proporcionen suport real i documentable. La recerca mostra que l'ús passiu (scrolling) correlaciona negativament amb el benestar, però l'ús actiu (comunicació directa, creació de contingut) correlaciona positivament.",
+                "label": "Les xarxes socials connecten"
+              },
+              "positionB": {
+                "label": "Les xarxes amplien la solitud",
+                "argument": "Les xarxes socials ofereixen una versió empobrita de la connexió social: sense contacte físic (que allibera oxitocina), sense comunicació no verbal, amb pressió constant de presentació i comparació social. La recerca de Jean Twenge mostra que les generacions que han crescut amb smartphones mostren taxes de depressió i ansietat significativament majors. La quantitat de 'connexió' digital pot augmentar mentre la qualitat de la connexió real disminueix."
+              },
+              "reflection": "Com uses tu les xarxes socials: com a substitut de la connexió real o com a complement?",
+              "context": "La recerca sobre xarxes socials i benestar és activa i els resultats son mixtes. El context d'ús (actiu vs. passiu), l'edat, la vulnerabilitat prèvia i el tipus de plataforma modifiquen els efectes. No hi ha una resposta única."
+            }
+          ]
+        },
+        {
+          "id": "vida-06",
+          "title": "El cervell que aprèn: com usar la neurociència per aprendre millor",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Has passat per sis lliçons de neurociència. Però hi ha una pregunta que val la pena fer ara, quan el contingut és fresc: estàs aprenent de la manera que el teu cervell prefereix — o de la manera que et resulta més còmoda? Perquè sovint no és el mateix. La neurociència de l'aprenentatge ha identificat una sèrie de principis sobre com el cervell consolida el coneixement. I moltes de les estratègies que la gent usa instintivament (rellegir, subrallar, estudiar en marató) no hi figuren."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les estratègies d'aprenentatge més efectives neuralment no son les més còmodes. La recuperació activa (intentar recordar sense mirar), la pràctica espaçada (distribuir l'estudi en el temps), l'intercalació (barrejar temes) i l'elaboració (explicar amb les teves paraules) superen consistent ment la relectura i el subratllat en la retenció a llarg termini."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "L'evidència empírica contra la intuïció",
+              "text": "Al mòdul de Filosofia de la Ciència vam veure com les teories científiques contradiuen sovint el sentit comú — i com la resistència a abandonar les intuïcions familiars és un obstacle per a la comprensió. La neurociència de l'aprenentatge és un exemple perfecte: les estratègies que senten 'difícils' (recuperació activa, pràctica espaçada) són les més efectives. Les que senten 'fluides' i còmodes (rellegir, subrallar) generen il·lusió d'aprenentatge sense consolidació real. La fluïdesa subjectiva no és un bon indicador de l'aprenentatge real."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el test et fa aprendre: l'efecte de recuperació",
+              "content": "L'efecte de recuperació (testing effect o retrieval practice) és un dels descobriments més robustos de la psicologia cognitiva: el simple acte d'intentar recordar informació — encara que falleu parcialment — és molt més efectiu per a la retenció a llarg termini que tornar a llegir el mateix contingut. El mecanisme neuronal és la potenciació sinàptica: cada vegada que recuperes un record, les connexions neuronals implicades es refortifiquen. La recuperació és exercici per a la memòria. Llegir el mateix text per tercera vegada dona una sensació de familiaritat que es confon amb aprenentatge — però la familiaritat i la capacitat de recuperació son coses diferents. Els exercicis d'aquesta app estan dissenyats sobre aquest principi: no per avaluar sinó per consolidar."
+            },
+            {
+              "type": "comparison",
+              "title": "Estratègies d'estudi: efectives vs. populars",
+              "labelA": "Estratègia i eficàcia real",
+              "labelB": "Per qué es fa servir tot i ser poc efectiva",
+              "items": [
+                {
+                  "label": "Rellegir (baixa eficàcia)",
+                  "a": "Genera fluïdesa i familiaritat — que es confon amb aprenentatge",
+                  "b": "Còmoda, no requereix esforç cognitiu, dona sensació de progrés"
+                },
+                {
+                  "label": "Subrallar (baixa eficàcia)",
+                  "a": "Selecciona informació però no la processa en profunditat",
+                  "b": "Activa visualment, genera sensació d'organització"
+                },
+                {
+                  "label": "Recuperació activa (alta eficàcia)",
+                  "a": "Refortifica les connexions sinàptiques en cada intent de recuperació",
+                  "b": "Incòmoda (implica errors i incertesa), no dona sensació de fluïdesa"
+                },
+                {
+                  "label": "Pràctica espaçada (alta eficàcia)",
+                  "a": "Força el cervell a reconstruir els circuits en el moment d'oblit parcial",
+                  "b": "Sembla menys eficient que estudiar tot el dia d'un cop (cramming)"
+                },
+                {
+                  "label": "Elaboració (alta eficàcia)",
+                  "a": "Connecta el nou coneixement amb el que ja se sap, creant xarxes semàntiques",
+                  "b": "Requereix temps i esforç; sembla 'divagar' respecte al text original"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-06-01",
+              "style": "multiple-choice",
+              "question": "Per qué la recuperació activa (intentar recordar sense mirar el material) és neuralment més efectiva que la relectura per a la consolidació de la memòria a llarg termini?",
+              "options": [
+                "Perquè la relectura activa la memòria sensorial visual, que té menor capacitat que la memòria semàntica activada per la recuperació",
+                "Perquè cada acte de recuperació refortifica les connexions sinàptiques implicades, mentre la relectura dona familiaritat sense forçar la reconstrucció del record",
+                "Perquè la recuperació activa el son REM posterior, que és quan la consolidació real es produeix",
+                "Perquè la relectura inhibeix la noradrenalina, que és necessària per a la formació de noves memòries"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La recuperació activa força el cervell a reconstruir el record des de zero, refortificant les connexions sinàptiques en el procés (potenciació a llarg termini). La relectura, en canvi, genera familiaritat i fluïdesa perceptiva — que es confon subjectivament amb aprenentatge però no crea la mateixa consolidació. La desagradable sensació d'incertesa i esforç durant la recuperació activa és precisament el senyal que el cervell està fent la feina de consolidació.",
+              "feedbackWrong": "El mecanisme és sinàptic: recuperar un record des de zero activa i refortifica els circuits neuronals implicats (potenciació a llarg termini), d'una manera que la simple relectura no fa. La familiaritat generada per la relectura és real però diferent de la capacitat de recuperació: pots reconèixer quelcom quan ho veus sense ser capaç de recordar-ho quan no hi és. Per a un examen, una conversa o la vida real, necessites recuperació — no reconeixement."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-vida-06-02",
+              "style": "multiple-choice",
+              "question": "Qué és la 'pràctica espaçada' i per qué és superior a l'estudi intensiu en una sola sessió ('cramming') per a la retenció a llarg termini?",
+              "options": [
+                "Estudiar el mateix material en sessions curtes distribuïdes en el temps, aprofitant el moment d'oblit parcial per reforçar la consolidació",
+                "Alternar entre dos temes completament diferents cada cinc minuts per mantenir l'atenció i evitar la fatiga",
+                "Estudiar en grups on cada membre revisa una part diferent del material i l'explica als altres",
+                "Usar tècniques de memòria visual (mapes mentals, esquemes colorejats) en lloc de text lineal per activar més regions cerebrals"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. La pràctica espaçada (spaced practice o spaced repetition) consisteix a revisar el material en intervals creixents, just quan el record comença a esvair-se però abans de desaparèixer completament. En aquest punt d'oblit parcial, el cervell ha de reconstruir el record — i aquest esforç de reconstrucció és el que consolida la memòria a llarg termini. L'estudi en marató (cramming) funciona per a l'endemà però no per a tres setmanes després: les connexions no han tingut temps de consolidar-se.",
+              "feedbackWrong": "La pràctica espaçada és específicament la distribució de l'estudi del mateix material en el temps, aprofitant l'interval òptim d'oblit parcial. No és simplement alternar temes (tot i que la intercalació és una altra estratègia efectiva), ni treballar en grup, ni usar recursos visuals. La clau és el moment: estudiar just quan el record comença a desaparèixer, forçant la reconstrucció que consolida la connexió sinàptica."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-vida-06-01",
+              "question": "Hem vist que el sistema de confiança d'aquesta app (indicar quant segurs esteu de la resposta) entrena la metacognició. Per qué la metacognició — saber el que saps i el que no saps — és una habilitat cognitiva tan important?",
+              "options": [
+                "Perquè millora directament la velocitat de processament de la informació nova, accelerant l'aprenentatge",
+                "Perquè permet dirigir l'esforç d'estudi cap on és realment necessari, evitant la il·lusió de competència en àrees on en realitat no n'hi ha",
+                "Perquè activa el sistema dopaminèrgic de recompensa quan detectem els nostres errors, creant motivació addicional per millorar"
+              ],
+              "correct": 1,
+              "explanation": "La metacognició — la capacitat de monitoritzar i regular el propi procés cognitiu — és una de les habilitats que millor prediu el rendiment acadèmic i professional, per damunt del coeficient intel·lectual en molts contextos. El mecanisme és simple però poderós: si saps el que no saps, pots dirigir l'esforç d'estudi cap a aquelles àrees. Si no ho saps (el que David Dunning i Justin Kruger van documentar com a 'il·lusió de competència'), estudies el que ja saps bé i ignores els buits reals. L'efecte Dunning-Kruger — on les persones amb menys coneixement d'un domini sobreestimen la seva competència — és precisament una fallada de metacognició. El sistema de confiança d'aquesta app és una forma d'entrenament metacognitiu explícit: et força a avaluar el teu propi estat de certesa, que és la base per dirigir l'aprenentatge de manera eficient. Aprendre a aprendre és, des d'un punt de vista neuronal, aprendre a monitoritzar les pròpies connexions sinàptiques — i reconstruir les que estan dèbils."
+            },
+            {
+              "type": "reflection",
+              "question": "Has completat el mòdul de neurociència. Quin concepte d'aquest recorregut aplicaries avui mateix a la teva vida — a com aprens, decideixes, dorms, et relaciones o gestiones l'estrès?",
+              "prompt": "La neurociència no és coneixement per acumular. És coneixement per usar. La distància entre saber-ho i fer-ho és exactament el que el teu còrtex prefrontal ha de gestionar."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

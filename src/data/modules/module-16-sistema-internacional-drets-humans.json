@@ -1,0 +1,593 @@
+{
+  "id": "module-16-sistema-internacional-drets-humans",
+  "title": "El Sistema Internacional dels Drets Humans",
+  "emoji": "📜",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "sist-onu",
+      "title": "El Sistema de l'ONU",
+      "icon": "🏛️",
+      "description": "Tractats, comitès i mecanismes de supervisió de les Nacions Unides",
+      "style": "Institucional · arquitectura jurídica i mecanismes de control",
+      "lessons": [
+        {
+          "id": "onu-01",
+          "title": "L'arquitectura del sistema: com s'organitza tot",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El sistema internacional de drets humans de l'ONU és una construcció de set dècades que no va ser dissenyada de cop sinó acumulada capa per capa: un tractat aquí, un comitè allà, un procediment nou cada dècada. El resultat és un edifici impressionant en la seva ambició i laberíntic en la seva complexitat. Fins i tot els especialistes tenen dificultats per orientar-s'hi. Però darrere de la complexitat hi ha una lògica: els estats van accedir a crear mecanismes de supervisió internacional dels seus drets humans interns — quelcom que hauria semblat inimaginable el 1919. Entendre aquells mecanismes és entendre fins on arriba — i fins on no arriba — la protecció internacional dels drets humans."
+            },
+            {
+              "type": "key-idea",
+              "text": "El sistema de l'ONU en matèria de drets humans té dos pilars principals: el sistema de tractats (nou tractats bàsics, cadascun amb el seu comitè de supervisió) i el sistema basat en la Carta de l'ONU (el Consell de Drets Humans i els seus procediments especials). Els dos pilars funcionen en paral·lel, amb mandats i mecanismes parcialament solapats i sovint insuficients."
+            },
+            {
+              "type": "expandable",
+              "label": "Els nou tractats bàsics de drets humans de l'ONU",
+              "content": "El sistema de tractats de l'ONU comprèn nou instruments principals, cadascun amb el seu comitè d'experts independents: 1) el Pacte Internacional de Drets Civils i Polítics (PIDCP, 1966) i el seu Comitè de Drets Humans; 2) el Pacte Internacional de Drets Econòmics, Socials i Culturals (PIDESC, 1966) i el seu Comitè; 3) la Convenció sobre l'Eliminació de Totes les Formes de Discriminació Racial (CERD, 1965); 4) la Convenció sobre l'Eliminació de Totes les Formes de Discriminació contra la Dona (CEDAW, 1979); 5) la Convenció contra la Tortura (CAT, 1984); 6) la Convenció sobre els Drets de l'Infant (CRC, 1989) — el tractat de drets humans amb major nombre de ratificacions (196 estats, tots excepte els EUA); 7) la Convenció sobre els Treballadors Migrants (CMW, 1990); 8) la Convenció sobre els Drets de les Persones amb Discapacitat (CRPD, 2006); 9) la Convenció sobre les Desaparicions Forçades (CED, 2006). Cada tractat crea obligacions específiques per als estats que l'han ratificat i un mecanisme de supervisió — però la profunditat i l'efectivitat de la supervisió varien enormement."
+            },
+            {
+              "type": "comparison",
+              "title": "Els dos pilars del sistema de l'ONU",
+              "labelA": "Sistema de tractats",
+              "labelB": "Sistema basat en la Carta (Consell de DH)",
+              "items": [
+                {
+                  "label": "Base jurídica",
+                  "a": "Tractats voluntàriament ratificats pels estats",
+                  "b": "Carta de l'ONU, vinculant per a tots els membres"
+                },
+                {
+                  "label": "Cobertura",
+                  "a": "Sols els estats que han ratificat el tractat específic",
+                  "b": "Tots els 193 estats membres de l'ONU"
+                },
+                {
+                  "label": "Òrgan de supervisió",
+                  "a": "Comitès d'experts independents (per cada tractat)",
+                  "b": "Consell de Drets Humans (estats membres) + Procediments Especials"
+                },
+                {
+                  "label": "Mecanismes principals",
+                  "a": "Informes periòdics, comunicacions individuals, investigacions",
+                  "b": "Examen Periòdic Universal, Procediments Especials, mecanismes de resposta a crisi"
+                },
+                {
+                  "label": "Politització",
+                  "a": "Menor: experts independents",
+                  "b": "Major: estats que voten en bloc i defensen interessos"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-onu-01-01",
+              "style": "multiple-choice",
+              "question": "La Convenció sobre els Drets de l'Infant (1989) ha estat ratificada per 196 estats — tots els membres de l'ONU excepte els EUA. Per quina raó els EUA no han ratificat el tractat de drets humans amb major consens global?",
+              "options": [
+                "Perquè els EUA consideren que la Convenció viola la sobirania dels estats federats en matèria d'educació i justícia juvenil, àrees de competència estatal",
+                "Perquè la Convenció prohibeix la pena de mort per a menors d'edat, que alguns estats americans aplicaven en el moment de la negociació",
+                "Per una combinació de factors: resistència del Senat a tractats internacionals de drets humans en general, preocupació per la interferència en l'autoritat parental, i oposició a articles específics sobre drets reproductius",
+                "Perquè els EUA consideren que la seva legislació interna ja garanteix tots els drets de la Convenció i per tant la ratificació és innecessària"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La no-ratificació americana de la CRC és el resultat d'una combinació de factors. El Senat americà és institucionalment reticent a ratificar tractats internacionals de drets humans (ha ratificat molt pocs). Hi ha preocupació per articles que podrien interferir amb l'autoritat parental (article 13 sobre llibertat d'expressió dels infants, article 14 sobre llibertat de pensament i consciència). La oposició conservadora invoca sovint l'article 24 sobre salut reproductiva. I el sistema federal crea complexitats sobre qui garanteix els drets en jurisdiccions estatals. La no-ratificació americana no implica que els drets dels infants estiguin menys protegits als EUA que en altres països — implica que no hi ha supervisió internacional del compliment.",
+              "feedbackWrong": "La sobirania dels estats federats és una preocupació, però no la principal. La pena de mort per a menors va ser declarada inconstitucional pel Tribunal Suprem americà el 2005 (Roper v. Simmons), però no era el factor principal de no-ratificació. La raó 'els drets ja estan garantits' és usada però no és l'argument principal del bloc polític que bloqueja la ratificació. La combinació de factors és la resposta més precisa."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-onu-01-02",
+              "style": "true-false",
+              "question": "Un estat que ratifica un tractat de drets humans de l'ONU queda automàticament subjecte a totes les possibilitats de supervisió que el tractat preveu, sense possibilitat d'excloure cap mecanisme específic.",
+              "correct": false,
+              "feedbackWrong": "Fals. La majoria dels tractats de drets humans de l'ONU permeten als estats fer reserves (excloure l'aplicació d'articles específics), i molts dels mecanismes de supervisió més efectius (les comunicacions individuals, les investigacions, la supervisió d'altres estats) son opcionals: l'estat ha de fer una declaració expressa acceptant-los. Per exemple, el Comitè de Drets Humans del PIDCP pot rebre comunicacions individuals sols si l'estat ha ratificat el Protocol Facultatiu. La Convenció contra la Tortura permet les investigacions i les visites a centres de detenció sols si l'estat accepta l'article 20. El sistema de tractats és, en realitat, un sistema d'opt-in en molts dels seus mecanismes més potents.",
+              "feedbackCorrect": "Fals. La majoria dels tractats permeten reserves a articles específics i molts dels mecanismes de supervisió més efectius (comunicacions individuals, investigacions) son opcionals: l'estat ha d'acceptar-los expressament. El sistema té molts mecanismes d'opt-out que permeten als estats participar nominalment mentre eviten la supervisió més intrusiva."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-onu-01-01",
+              "question": "El sistema de tractats de l'ONU ha crescut fins a nou tractats principals amb els seus corresponents comitès, generant una proliferació d'obligacions d'informació per als estats. Quin és el principal problema estructural d'aquest creixement?",
+              "options": [
+                "Que els tractats contenen obligacions contradictòries que els estats no poden complir simultàniament",
+                "Que la proliferació de mecanismes de supervisió genera una càrrega administrativa enorme per als estats, especialment els de baixa capacitat administrativa, i una incoherència en les recomanacions dels diversos comitès que debilita el sistema en conjunt",
+                "Que el nombre de tractats ha superat la capacitat de l'ONU de finançar els comitès de supervisió, de manera que molts comitès funcionen amb recursos insuficients per complir el seu mandat"
+              ],
+              "correct": 1,
+              "explanation": "El problema principal és la coherència i la càrrega administrativa. Un estat que ha ratificat tots els tractats ha de presentar informes periòdics a nou comitès, cadascun amb la seva pròpia metodologia, calendari i prioritats. La càrrega és enorme per als estats amb alta capacitat administrativa — i simplement aclaparadora per als estats menys desenvolupats, que son precisament els que més necessiten el suport i la supervisió. A més, els nou comitès sovint fan recomanacions contradictòries o solapades sobre les mateixes qüestions, sense coordinar-se entre ells. L'ACNUR i els experts han proposat repetidament una reforma del sistema de tractats que permeti als estats presentar un informe unificat als nou comitès. La reforma ha progressat molt poc per resistència dels comitès que perdrien visibilitat i dels estats que beneficien de la fragmentació. La proliferació de mecanismes ha creat, paradoxalment, menys efectivitat global."
+            }
+          ]
+        },
+        {
+          "id": "onu-02",
+          "title": "Els comitès de tractats: com funciona la supervisió",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Cada quatre o cinc anys, un estat que ha ratificat el Pacte Internacional de Drets Civils i Polítics ha de presentar un informe al Comitè de Drets Humans de l'ONU explicant com compleix les seves obligacions. El Comitè llegeix l'informe, recull informació de la societat civil, fa preguntes a l'estat, celebra un diàleg a Ginebra o Nova York, i publica les seves 'Observacions Finals' — un document que conté els motius de preocupació i les recomanacions. L'estat hauria de tenir en compte les recomanacions. Sovint no ho fa. I el Comitè no té cap manera de forçar-lo. És aquest sistema suficient per canviar el comportament dels estats?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Els comitès de tractats son òrgans d'experts independents que supervisen el compliment dels tractats per part dels estats. El seu principal instrument és el diàleg constructiu: no sancionen ni condemnen, sinó que formulen recomanacions. La seva influència depèn de l'autoritat moral dels experts, de la pressió de la societat civil i dels mitjans, i de la voluntat política dels estats d'incorporar les recomanacions. No depèn de cap poder coercitiu."
+            },
+            {
+              "type": "expandable",
+              "label": "Les comunicacions individuals: quan un ciutadà demanda el seu Estat a Ginebra",
+              "content": "El mecanisme més potent dels comitès de tractats és el de comunicacions individuals (o queixes individuals): permet a una persona física que al·lega ser víctima d'una violació del tractat presentar una comunicació directament al comitè, sense necessitat que l'Estat en qüestió sigui part d'un procediment. Però hi ha condicions: l'estat ha d'haver acceptat expressament la competència del comitè per rebre comunicacions individuals (mitjançant un protocol facultatiu o una declaració específica), i la persona ha d'haver esgotat prèviament tots els recursos interns disponibles. El Comitè de Drets Humans ha rebut milers de comunicacions individuals al llarg de les seves dècades de funcionament i ha adoptat centenars de decisions que han constatatat violacions. Però les decisions no son jurídicament vinculants en el mateix sentit que les sentències d'un tribunal — son 'dictàmens' que l'estat hauria d'implementar. El compliment és variable: alguns estats (com el Regne Unit o el Canadà) solen implementar les decisions; d'altres (com els EUA, que no han acceptat el mecanisme, o Rússia, que ho va fer però sovint ignorava les decisions) no ho fan."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-onu-02-01",
+              "style": "multiple-choice",
+              "question": "El requisit d'esgotament previ dels recursos interns per poder presentar una comunicació individual a un comitè de tractats de l'ONU respon a quina lògica?",
+              "options": [
+                "Protegir els estats de queixes prematures quan els seus sistemes judicials interns podrien proporcionar el remei adequat, respectant la subsidiarietat del sistema internacional respecte als sistemes nacionals",
+                "Garantir que el comitè sol rep els casos més greus i ben documentats, filtrant les queixes frívolament presentades sense un procés judicial previ",
+                "Assegurar que les víctimes hagin intentat tots els mecanismes disponibles, de manera que el comitè pugui avaluar si el sistema judicial nacional funciona adequadament",
+                "Permetre que el comitè tingui informació completa sobre el cas, incloent les decisions judicials nacionals que li serviran de base per avaluar si hi ha hagut violació"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. El principi de subsidiarietat és el fonament del requisit d'esgotament: el sistema internacional de drets humans no és un sistema de primera instància sinó un sistema de control del funcionament dels sistemes nacionals. Si un estat té un sistema judicial que pot proporcionar remei a la violació, el principi de sobirania i el principi d'eficiència exigeixen que la víctima l'esgoti primer. El sistema internacional intervé quan el sistema nacional falla — no com a substitut sinó com a instància de control. El requisit té excepcions: si els recursos interns son ineficaços, excessivament lents o inaccessibles, el comitè pot acceptar la comunicació sense esgotament complet.",
+              "feedbackWrong": "El filtratge de queixes frívolles és un efecte secundari, no el fonament del requisit. L'avaluació del funcionament del sistema nacional és un element però no la lògica principal. La informació completa és un benefici pràctic però tampoc el fonament. La lògica central és la subsidiarietat: el sistema internacional respecta la primacia dels sistemes nacionals mentre conserva la seva funció de control de darrera instància."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Fonaments Filosòfics dels Drets Humans",
+              "moduleEmoji": "🌍",
+              "concept": "La paradoxa de la sobirania i la supervisió internacional",
+              "text": "Al mòdul de Fonaments Filosòfics vam veure la paradoxa d'Arendt: els drets proclamats universals son en la pràctica drets dels ciutadans d'estats concrets. El sistema de tractats intenta resoldre-la parcialment: crea una instància de supervisió internacional que pot protegir els individus quan l'Estat que hauria de protegir-los és el seu perseguidor. Però la tensió no desapareix: el sistema necessita la cooperació dels estats per funcionar — inclosos els estats que violen els drets. La sobirania estatal és alhora el problema (els estats violen drets) i la condició de funcionament del sistema (el sistema necessita els estats per implementar les seves decisions)."
+            }
+          ]
+        },
+        {
+          "id": "onu-03",
+          "title": "El Consell de Drets Humans i l'Examen Periòdic Universal",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2006, l'Assemblea General de l'ONU va crear el Consell de Drets Humans per substituir la desacreditada Comissió de Drets Humans. La Comissió havia estat presidida en diverses ocasions per estats com Líbia, Sudan i Cuba — estats amb greus problemes de drets humans que usaven la seva posició per bloquejar la supervisió. El Consell va introduir un mecanisme nou i ambiciós: l'Examen Periòdic Universal (EPU), que revisa el comportament en matèria de drets humans de tots i cadascun dels 193 estats membres de l'ONU cada quatre anys i mig, sense excepcions. Per primera vegada, els EUA, la Xina i Rússia havien d'explicar-se davant de la comunitat internacional."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'Examen Periòdic Universal (EPU) és el mecanisme de supervisió de drets humans de major cobertura en la historia: revisa tots els estats, sense excepció, cada quatre anys i mig. La seva fortalesa és la universalitat; la seva debilitat, la politització: els estats s'examinen mútuament i solen ser molt menys crítics dels seus aliats que dels seus adversaris."
+            },
+            {
+              "type": "expandable",
+              "label": "Com funciona l'Examen Periòdic Universal pas a pas",
+              "content": "L'EPU té tres fases. Primera, la preparació documental: l'estat examinat prepara un informe nacional; la Oficina de l'Alt Comissionat compila la informació dels organismes de tractats de l'ONU; i les ONG presenten els seus propis informes alternatius ('shadow reports'). Segona, l'examen a Ginebra: durant tres hores i mitja, els representants d'altres estats fan preguntes i recomanacions a l'estat examinat en grups de treball. Cada estat pot fer fins a dues o tres recomanacions. Tercera, l'adopció: l'estat examinat indica quines recomanacions 'accepta' i quines 'nota' (la formulació diplomàtica per a 'rebutja'). El resultat és un document amb centenars de recomanacions, algunes acceptades i d'altres 'notades'. El valor real de l'EPU no és el document final sinó el procés: força els estats a rendir comptes públicament, dona visibilitat a les ONG, i crea un registre documental que pot ser usat per a la incidència posterior. Les recomanacions no son vinculants però la pressió diplomàtica és real."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-onu-03-01",
+              "style": "multiple-choice",
+              "question": "Una de les crítiques principals al Consell de Drets Humans de l'ONU és que els estats que el composen voten en blocs polítics per protegir-se mútuament de la supervisió. Quin exemple concret il·lustra millor aquest problema?",
+              "options": [
+                "Que els EUA han vetat sistemàticament totes les resolucions sobre el conflicte israelopalestí, usant el seu pes polític per bloquejar qualsevol supervisió d'Israel",
+                "Que el Consell ha adoptat desproporcionadament més resolucions sobre Israel que sobre qualsevol altre país, reflectint el biaix del bloc àrab i d'altres grups enfront d'estats occidentals",
+                "Que Rússia va continuar sent membre del Consell fins al 2022 malgrat les seves violacions documentades a Txetxènia, Síria i Ucraïna, i va ser suspesa sols després de la invasió d'Ucraïna",
+                "Totes tres situacions il·lustren el problema de la politització del Consell des d'angles diferents"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exacte. Totes tres situacions il·lustren dimensions diferents del mateix problema de politització. El biaix enfront d'Israel (el país amb major nombre de resolucions específiques del Consell) reflecteix el pes del bloc àrab i d'estats en desenvolupament que usen el Consell per criticar aliat occidental. El vet americà en el Consell de Seguretat (tot i que tècnicament diferent del Consell de Drets Humans) il·lustra com les grans potències protegeixen els seus aliats. La presència de Rússia al Consell fins a la invasió d'Ucraïna mostra que la pertinença al Consell no exigeix un estàndard mínimament alt de comportament en drets humans. El sistema de blocs polítics perviu malgrat la reforma de 2006.",
+              "feedbackWrong": "Les tres situacions son exemples vàlids i complementaris del problema de la politització. Cap d'elles sola és suficient per il·lustrar la complexitat del problema — que té dimensions tant de protecció d'aliats (EUA/Israel) com de ús selectiu del Consell per atacar adversaris (biaix anti-Israel) com de presència de violadors seriosos als seus òrgans (Rússia)."
+            },
+            {
+              "type": "debate",
+              "question": "El Consell de Drets Humans hauria de tenir un criteri d'accés basat en el comportament de l'estat en matèria de drets humans, excloent els estats que violen sistemàticament els drets?",
+              "positionA": {
+                "label": "Sí: cal un criteri d'accés",
+                "argument": "Un Consell de Drets Humans que accepta estats que violen sistemàticament els drets que ha de supervisar perd la seva credibilitat moral. La presència de Líbia, Sudan, Rússia i d'altres al Consell ha estat usada per bloquejar resolucions legítimes i protegir aliats. Un criteri mínim de comportament en drets humans com a condició per ser membre no discrimina — aplica els estàndards que tots els membres han acceptat formalment."
+              },
+              "positionB": {
+                "label": "No: la universalitat és més important",
+                "argument": "Un Consell que exclou els seus membres viola el principi d'universalitat que fa que tots els estats hagin de rendir comptes. Si s'exclouen els violadors, el Consell es converteix en un club occidental que examina els altres però no és examinat. La supervisió dels estats amb pitjor comportament és precisament on el Consell és més necessari — i l'exclusió d'aquells estats eliminaria la seva influència sobre ells. A més, qui decideix quins estats son prou bons per pertànyer al Consell — i amb quins criteris — és una qüestió enormement política."
+              },
+              "reflection": "La mateixa tensió (universalitat vs. estàndards mínims d'accés) es planteja en moltes organitzacions internacionals. Com la resoldries en el context dels drets humans?",
+              "context": "L'Assemblea General pot suspendre un membre del Consell per 'violacions greus i sistemàtiques' dels drets humans per majoria de dos terços. Va usar aquest mecanisme per primera vegada amb Líbia el 2011 i amb Rússia el 2022 (per la invasió d'Ucraïna). En tots dos casos, va ser una reacció a situacions d'extrema gravetat, no un criteri sistemàtic d'accés."
+            }
+          ]
+        },
+        {
+          "id": "onu-04",
+          "title": "Els Procediments Especials: els rapporteurs i les seves visites",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2019, el Relator Especial de l'ONU sobre la tortura va visitar els centres de detenció d'immigrants a la frontera sud dels EUA i va concloure que les condicions constituïen 'tortura i tractes cruels, inhumans i degradants' en virtut del dret internacional. El govern americà va rebutjar les conclusions. No hi va haver cap sanció. Però l'informe va circular, va ser citat per ONG i per tribunals nacionals, i va contribuir a un debat públic que va generar pressió política. Sense poder d'execució, sense sancions, sense mecanisme coercitiu — però amb una autoritat moral que té efectes reals. Aquesta és la naturalesa dels Procediments Especials de l'ONU."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els Procediments Especials son experts independents designats pel Consell de Drets Humans per supervisar situacions específiques (per país) o temàtiques (tortura, llibertat d'expressió, dret a l'habitatge, etc.). Treballen a títol personal, sense remuneració, amb recursos molt limitats, i el seu principal instrument és la seva independència i autoritat moral. Constitueixen un dels elements més dinàmics i innovadors del sistema de drets humans de l'ONU."
+            },
+            {
+              "type": "expandable",
+              "label": "Els instruments dels Procediments Especials: visites, al·legacions i informes",
+              "content": "Els Procediments Especials disposen de tres instruments principals. Les visites als països: el Relator Especial sol·licita una 'invitació' a l'estat per visitar el país i examinar in situ la situació dels drets rellevants. Els estats poden acceptar o refusar (i molts refusen). Alguns estats han adoptat 'invitacions permanents' que comprometen a acceptar les visites de qualsevol Procediment Especial (el 2023, uns 120 estats tenien invitació permanent). Les al·legacions i els seguiments: els Relatores Especials reben informació de víctimes i ONG sobre casos de violació i envien comunicacions als governs sol·licitant informació i demanant-los que actuïn. El govern pot respondre o no. Les comunicacions s'han convertit en un instrument molt usat per les ONG que volen posar casos en l'agenda internacional. Els informes: cada Relator presenta dos informes anuals — un al Consell de Drets Humans i un a l'Assemblea General — on documenta les seves troballes i fa recomanacions. Els informes no son vinculants però son àmpliament citats i contribueixen al desenvolupament del dret internacional."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-onu-04-01",
+              "style": "multiple-choice",
+              "question": "Un estat pot negar l'accés al seu territori a un Relator Especial de l'ONU que sol·licita una visita. Quina és la norma i quines son les conseqüències pràctiques d'una negativa?",
+              "options": [
+                "La negativa és il·legal en virtut de la Carta de l'ONU i pot generar sancions del Consell de Seguretat",
+                "La negativa és legalment permesa perquè les visites dels Relatores Especials son voluntàries, però pot generar costos diplomàtics i reputacionals per a l'estat que les denega",
+                "La negativa és legalment permesa però el Consell de Drets Humans pot adoptar una resolució declarant l'estat en violació del seu deure de cooperació",
+                "La negativa implica que el Relator Especial pot presentar un informe sobre el país basat en fonts alternatives, que tindrà la mateixa validesa jurídica que si hagués visitat el país"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les visites dels Relatores Especials son voluntàries: l'estat ha d'emetre una invitació. La negativa no és il·legal en virtut del dret internacional — és una expressió de la sobirania estatal. Però genera costos: el Relator pot preparar un informe sobre el país basat en fonts alternatives (ONG, refugiats, documents públics), que pot ser críticament incisiu precisament per l'absència de cooperació. La negativa crida l'atenció sobre la situació que l'estat volia evitar que fos examinada. I crea un precedent de manca de cooperació que altres estats i institucions noten. La pressió no és coercitiva però és real — especialment per a estats que valoren la seva reputació internacional.",
+              "feedbackWrong": "La Carta de l'ONU no crea obligació de cooperar amb els Procediments Especials de manera que la negativa sigui sancionable pel Consell de Seguretat. El Consell de Drets Humans pot adoptar resolucions, però no sancions. La validesa jurídica dels informes no depèn de si hi va haver visita — tots els informes dels Relatores Especials tenen el mateix estatus formal. La conseqüència principal de la negativa és diplomàtica i reputacional, no jurídico-coercitiva."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-onu-04-02",
+              "style": "detect-error",
+              "statement": "Els Relatores Especials de l'ONU son funcionaris internacionals que treballen a temps complet per a l'ONU, reben un salari de l'organització i actuen en representació del Secretari General.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta en tots els punts essencials. Els Relatores Especials no son funcionaris de l'ONU — son experts independents que actuen a títol personal, no en representació de cap govern ni del Secretari General. Treballen pro bono (sense remuneració) — reben sols una compensació per les despeses de viatge i dietes quan fan visites oficials. Solen ser professors universitaris, juristes, ex-jutges o activistes que compatibilitzen el seu mandat amb la seva activitat professional ordinària. La seva independència és precisament el seu valor: no responen als estats membres ni al Secretariat de l'ONU. Aquesta independència és també la seva limitació: disposen de molt pocs recursos humans i materials per complir mandats molt amplis."
+            }
+          ]
+        },
+        {
+          "id": "onu-05",
+          "title": "L'Alt Comissionat per als Drets Humans: la veu de l'ONU",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El febrer de 2022, Michelle Bachelet, Alta Comissionada de l'ONU per als Drets Humans, va viatjar a la Xina i va visitar la província de Xinjiang — on el govern xinès havia construït el que molts governs i experts descriuen com un sistema de camps de detenció massius per als uigurs i altres minories musulmanes. El seu informe, publicat poc abans de deixar el càrrec, va constatar 'violacions greus' dels drets humans a Xinjiang però va evitar la paraula 'crims contra la humanitat' que molts experts demanaven. La visita i l'informe van ser criticats com a massa suaus pels defensors dels drets dels uigurs i com a intromissió per la Xina. Era un exemple perfecte de les limitacions i les tensions del càrrec d'Alt Comissionat."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'Alt Comissionat per als Drets Humans de l'ONU és el màxim responsable del sistema de drets humans de les Nacions Unides. Té el mandat de promoure i protegir els drets humans, però opera amb recursos molt limitats (un 3% del pressupost regular de l'ONU), i ha d'equilibrar permanentment la seva funció de defensa dels drets amb la necessitat de cooperació dels estats membres."
+            },
+            {
+              "type": "expandable",
+              "label": "La historia del càrrec: d'un somni de José Ayala Lasso al dilema Bachelet",
+              "content": "El càrrec d'Alt Comissionat va ser creat el 1993 — gairebé cinc dècades après de la DUDH — per una resolució de l'Assemblea General. El primer titular va ser el diplomàtic equatorià José Ayala Lasso, que va assumir el càrrec quatre mesos antes del genocidi de Rwanda i va ser criticat per la seva resposta. La seva successora, Mary Robinson (ex-presidenta d'Irlanda), va intentar donar al càrrec una veu pública més potent i va xocar amb els EUA per les seves crítiques al Camp de Guantànamo. Navi Pillay (Sud-àfrica) va ser crítica de Síria, Eritrea i d'altres. Zeid Ra'ad Al Hussein (Jordània) va ser el primer titular que va criticar obertament els EUA, la UE i Rússia, generant tensions que van forçar-lo a no renovar. Bachelet (Xile) va intentar un equilibri que va acabar sent criticat per tots els sectors. La tensió del càrrec és constitutiva: una persona que depèn dels estats per la seva designació i els seus recursos ha de criticar aquells mateixos estats per violacions de drets humans."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-onu-05-01",
+              "question": "L'Alt Comissionat per als Drets Humans és designat pel Secretari General de l'ONU i aprovat per l'Assemblea General. Quin impacte té aquest procés de designació sobre la independència del càrrec?",
+              "options": [
+                "Cap impacte: una vegada designat, l'Alt Comissionat és completament independent dels estats membres i pot criticar-los lliurement sense cap restricció",
+                "Impacte total: l'Alt Comissionat és un funcionari polític dels estats membres i no pot criticar-los de manera efectiva sense perdre el suport necessari per a la seva renovació",
+                "Impacte real però limitat: el procés de designació crea deutes polítics i incentius per a l'autocensura, però la credibilitat institucional del càrrec requereix un grau d'independència que els titulars poden exercir — a un cost personal i polític"
+              ],
+              "correct": 2,
+              "explanation": "La resposta matisada és la més precisa. L'Alt Comissionat no és un funcionari neutral — ha estat designat per un procés polític que crea deutes i incentius d'autocensura. Però tampoc és simplement un portaveu dels estats membres: la credibilitat del càrrec depèn de la seva capacitat de dir coses incòmodes. Els titulars que han exercit la independència amb major fortalesa (Zeid Ra'ad Al Hussein) han pagat un cost polític real: no han estat renovats. Els que han estat més cautelosos (Bachelet) han conservat el càrrec però han estat criticats per manca d'independència. La tensió és estructural i no té solució fàcil: el càrrec necessita la cooperació dels estats per funcionar i la necessitat de cooperació incentiva l'autocensura. Reformes com la selecció per concurs obert o el mandat no renovable (que elimina l'incentiu de no criticar per ser renovat) han estat proposades però no implementades."
+            }
+          ]
+        },
+        {
+          "id": "onu-06",
+          "title": "El sistema d'emergència: quan el sistema ha de respondre a crisis",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "L'abril de 1994, en 100 dies, entre 500.000 i 800.000 persones van ser assassinades a Rwanda. L'ONU tenia forces desplegades al país. El comandant d'aquelles forces, el general canadenc Roméo Dallaire, va enviar un fax a Nova York informant del pla de genocidi i demanant autorització per actuar. L'ONU li va dir que no actués. Quan el genocidi ja havia acabat, el Secretari General Kofi Annan va dir que l'ONU havia fallat. Deu anys després, les forces de l'ONU assistien passivament al massacre de Srebrenica a Bòsnia. La pregunta que es va plantejar era directa: de qué serveix un sistema de drets humans que no pot actuar quan es produeix el pitjor?"
+            },
+            {
+              "type": "key-idea",
+              "text": "El sistema de l'ONU no té mecanismes efectius per respondre a les grans crisis de drets humans en temps real. El Consell de Seguretat pot autoritzar intervencions, però el dret de vet dels cinc membres permanents (EUA, Rússia, Xina, França, Regne Unit) bloqueja sistemàticament les respostes a les crisis on algun d'ells té interessos. El resultat és una arquitectura de supervisió sofisticada que falla precisament quan els drets humans estan en joc de manera més urgent."
+            },
+            {
+              "type": "expandable",
+              "label": "La Responsabilitat de Protegir (R2P): una doctrina prometedora i problemàtica",
+              "content": "El 2005, la Cimera Mundial de l'ONU va adoptar el principi de la Responsabilitat de Protegir (R2P): cada estat té la responsabilitat de protegir la seva pròpria població del genocidi, els crims de guerra, la neteja ètnica i els crims contra la humanitat. Si un estat falla en aquella responsabilitat, la comunitat internacional té la responsabilitat d'intervenir — amb mitjans diplomàtics primer, i si cal amb la força militar, autoritzada pel Consell de Seguretat. La R2P va semblar un avenç fins al 2011, quan el Consell de Seguretat va autoritzar la intervenció a Líbia basant-se en la R2P. L'operació de l'OTAN va acabar amb el règim de Gaddafi però va produir un col·lapse estatal que continua fins avui. Rússia i Xina, que s'havien abstingut en la votació sobre Líbia, van concloure que la R2P era un paraigua per al canvi de règim occidental. Des de llavors han bloquejat sistemàticament qualsevol invocació de la R2P al Consell de Seguretat — inclosa Síria, on els crims contra la humanitat del règim Assad estan àmpliament documentats."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-onu-06-01",
+              "style": "multiple-choice",
+              "question": "El dret de vet dels cinc membres permanents del Consell de Seguretat ha bloquejat respostes internacionals a crisis greus de drets humans a Síria, Txetxènia i altres llocs. Quina reforma al Consell de Seguretat s'ha proposat amb més suport per abordar aquest problema?",
+              "options": [
+                "Eliminar completament el dret de vet i substituir-lo per decisions per majoria qualificada de dos terços",
+                "Crear un codi de conducta voluntari en virtut del qual els membres permanents es comprometrien a no usar el vet en casos de genocidi i crims contra la humanitat",
+                "Ampliar el nombre de membres permanents per incloure grans potències regionals (India, Brasil, Alemanya, Japó, un estat africà) que equilibrarien els actuals membres",
+                "Transferir al Consell de Drets Humans la competència per autoritzar intervencions humanitàries, eliminant el poder de vet del Consell de Seguretat en aquells casos"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El codi de conducta proposat per França i Mèxic (ACT Code of Conduct) és la proposta que ha obtingut major suport dins de les limitacions polítiques: demana als membres permanents que es comprometin voluntàriament a no usar el vet en situacions de genocidi i crims massius. L'any 2023, més de 100 estats havien donat suport a la proposta. Però és voluntària — cap RP l'ha signat formalment. L'eliminació del vet (opció a) requereix reforma de la Carta, que requereix l'aprovació de tots els membres permanents — que mai aprovaran l'eliminació del seu propi vet. L'ampliació del Consell (opció c) és una reforma en discussió però no abordaria el problema del vet dels actuals RP. La transferència al Consell de DH (opció d) no té suport polític i crearia problemes jurídics complexes.",
+              "feedbackWrong": "L'eliminació del vet requereix que els membres permanents aprovin una reforma de la Carta — quelcom que mai faran. L'ampliació del Consell és una discussió separada que no aborda el vet. La transferència de competències al Consell de DH no té suport. La proposta amb major traction política és el codi de conducta voluntari — imperfecte però políticament viable."
+            },
+            {
+              "type": "reflection",
+              "question": "Has recorregut l'arquitectura del sistema de l'ONU en matèria de drets humans: tractats, comitès, l'EPU, els Procediments Especials, l'Alt Comissionat i els mecanismes d'emergència. Quin element del sistema creus que funciona millor — i quin és el més urgent de reformar?",
+              "prompt": "No es tracta de ser optimista ni pessimista. Es tracta d'entendre les fortaleses reals i les limitacions reals d'un sistema imperfecte que és l'únic que existeix."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sist-regional",
+      "title": "Els Sistemes Regionals i el Dret Internacional Humanitari",
+      "icon": "🌐",
+      "description": "Europa, Amèrica, Àfrica i el dret dels conflictes armats",
+      "style": "Comparatiu · sistemes regionals i dret humanitari",
+      "lessons": [
+        {
+          "id": "reg-01",
+          "title": "El sistema europeu: el Tribunal Europeu de Drets Humans",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1950, el Consell d'Europa va adoptar el Conveni Europeu de Drets Humans. El 1959, va obrir el Tribunal Europeu de Drets Humans a Estrasburg. Des d'aleshores, el TEDH ha dictat més de 20.000 sentències — i ha ordenat als estats reformar les seves lleis, alliberar detinguts, pagar indemnitzacions i canviar pràctiques administratives. El sistema europeu és el més eficaç del món: les seves sentències son jurídicament vinculants i el mecanisme d'execució, malgrat les seves limitacions, genera una pressió real sobre els estats. És el sistema de drets humans que ha tingut major impacte en el comportament dels estats — i és el que pot servir de model per comprendre el que el sistema internacional no ha aconseguit."
+            },
+            {
+              "type": "key-idea",
+              "text": "El sistema europeu de drets humans és el més avançat del món en termes d'efectivitat: té un tribunal permanent amb jurisdicció obligatòria sobre tots els 46 estats membres del Consell d'Europa, dicta sentències vinculants, i té un mecanisme de seguiment de l'execució a càrrec del Comitè de Ministres. Les seves debilitats son el retard acumulat (prop de 70.000 casos pendents) i la manca de mecanismes coercitius quan els estats refusen executar les sentències."
+            },
+            {
+              "type": "expandable",
+              "label": "Com funciona el TEDH: del cas individual a la sentència vinculant",
+              "content": "Qualsevol persona que consideri que un dels 46 estats membres del Consell d'Europa ha violat els seus drets reconeguts al Conveni pot presentar una demanda al TEDH, sempre que hagi esgotat prèviament els recursos interns. El TEDH selecciona les demandes admissibles (la majoria son declarades inadmissibles per no complir els requisits formals o per ser manifestament mal fonamentades), les examina i, si detecta una violació, dicta una sentència. La sentència és vinculant per a l'estat i pot ordenar: el pagament d'una 'satisfacció equitativa' (indemnització) a la víctima, i/o la presa de mesures generals per evitar violacions similars en el futur (reforma legislativa, canvi de pràctica administrativa). El seguiment de l'execució és responsabilitat del Comitè de Ministres del Consell d'Europa, que pot pressionar políticament els estats que no executen. Si un estat refusa sistemàticament executar, el Comitè pot remetre el cas novament al TEDH (Article 46.4) — un mecanisme usat rarament. L'opció última és la suspensió o expulsió del Consell d'Europa, que va ser aplicada a Rússia el 2022."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-reg-01-01",
+              "style": "multiple-choice",
+              "question": "El TEDH usa la doctrina del 'marge d'apreciació' per deixar als estats un espai de discrecionalitat en la implementació dels drets del Conveni. Quin és el fonament d'aquesta doctrina i quins son els seus riscos?",
+              "options": [
+                "El marge d'apreciació reconeix que els estats democràtics son millors jutges que un tribunal internacional de les necessitats i els valors de la seva societat en qüestions sensibles; el risc és que s'usi per validar restriccions de drets que no resistirien un escrutini estricte",
+                "El marge d'apreciació és una tècnica processual per reduir la càrrega de treball del TEDH, deixant als tribunals nacionals la resolució de casos de menor gravetat; el risc és que qüestions importants quedin sense resposta internacional",
+                "El marge d'apreciació reflecteix la manca de consens entre els estats membres del Consell d'Europa sobre el contingut d'alguns drets; el risc és que consolidi diferències nacionals incompatibles amb la universalitat dels drets",
+                "El marge d'apreciació és una concessió als estats menys democràtics del Consell d'Europa per garantir la seva participació en el sistema; el risc és que premiï els estats amb menor protecció dels drets"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. El marge d'apreciació és una doctrina de deferència: el TEDH reconeix que els parlaments i tribunals nacionals, directament connectats a la seva societat, poden estar en millor posició que un tribunal internacional per avaluar certes qüestions sensibles (moralitat pública, seguretat nacional, organització del sistema educatiu). La doctrina és graduada: el marge és ampli en qüestions sensibles on no hi ha consens europeu (per exemple, la regulació de la prostitució o l'eutanàsia), i estret en qüestions on hi ha consens europeu o en restriccions a drets absoluts. El risc real és l'arbitrarietat: el TEDH no sempre és consistent en quins casos aplica el marge i en quins no, i el marge pot ser usat per validar restriccions que el tribunal no vol examinar de manera frontal.",
+              "feedbackWrong": "El marge d'apreciació no és una tècnica processual per reduir la càrrega de treball ni una concessió als estats menys democràtics. Té un fonament substantiu: el principi de subsidiarietat i el reconeixement de la millor posició dels actors nacionals per avaluar certes qüestions. Però la crítica central és la de l'opció a: el risc de validar restriccions de drets que no resistirien un escrutini estricte."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "La Revolució Francesa",
+              "moduleEmoji": "🗽",
+              "concept": "El Conveni Europeu com a hereu de la tradició revolucionaria",
+              "text": "Al mòdul de la Revolució Francesa vam veure com la Declaració dels Drets de l'Home de 1789 va crear el vocabulari polític modern. El Conveni Europeu de 1950 és el seu hereu directe: usa un vocabulari molt similar (llibertat, igualtat, no discriminació, judici just) però el dota d'un mecanisme d'aplicació efectiu que la Declaració de 1789 no tenia. La diferència entre proclamar drets (1789) i crear un tribunal que els aplica amb autoritat vinculant (1959) és la diferència entre una aspiració filosòfica i un sistema jurídic operatiu."
+            }
+          ]
+        },
+        {
+          "id": "reg-02",
+          "title": "El sistema interamericà: drets humans al sud del riu Bravo",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1973, la Comissió Interamericana de Drets Humans va rebre les primeres denúncies sobre desapareguts a Xile després del cop d'estat de Pinochet. Amb molt pocs recursos, va documentar les violacions i va enviar informes a l'Organització d'Estats Americans — que va ignorar-los o va minvar-los. No va tenir gairebé cap efecte immediat. Però les denúncies quedaven registrades, les víctimes eren nomenades, les organitzacions de familiars s'enfortien amb el reconeixement internacional. Trenta anys després, aquella documentació va ser essencial per als processos judicials nacionals que van jutjar els responsables. El sistema interamericà és lent, sovint ignorat pels governs, amb recursos escassos — i tanmateix ha canviat lleis i ha donat veu a víctimes que no en tenien."
+            },
+            {
+              "type": "key-idea",
+              "text": "El sistema interamericà de drets humans (Comissió Interamericana + Cort Interamericana de Drets Humans) és el segon sistema regional més desenvolupat del món. Opera en un context de democràcies fràgils, alts nivells de violència, impunitat estructural i estats amb capacitat institucional limitada. Les seves sentències son vinculants però el compliment és variable i la Cort té recursos molt menors que el TEDH."
+            },
+            {
+              "type": "expandable",
+              "label": "Les mesures provisionals: quan la Cort Interamericana salva vides",
+              "content": "Un dels instruments més efectius de la Cort Interamericana son les mesures provisionals: decisions d'emergència que ordenen a un estat protegir de manera immediata la vida o la integritat d'una persona o grup en situació de risc imminent. La Cort les pot adoptar d'urgència, fins i tot sense escoltar l'estat, quan la situació ho requereix. Han estat usades per protegir testimonis amenaçats, lidereses indígenes en risc de mort, presos en perill a les presons, defensors de drets humans sota amenaça. No totes s'executen — alguns governs les ignoren — però moltes han salvat vides documentades. Les mesures provisionals il·lustren el que el sistema internacional pot fer en el seu millor moment: una intervenció ràpida, concreta, centrada en la persona concreta en risc, que no requereix anys de procés judicial per tenir efecte."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-reg-02-01",
+              "style": "multiple-choice",
+              "question": "Una diferència clau entre el sistema europeu (TEDH) i el sistema interamericà (CIDH + Cort IDH) és que el sistema interamericà té una fase obligatòria davant de la Comissió Interamericana abans que el cas pugui arribar a la Cort. Quina és la justificació d'aquest filtre i quins problemes genera?",
+              "options": [
+                "La Comissió actua com a mediadora i pot aconseguir solucions amistoses que eviten el judici, generant remei per a les víctimes de manera més ràpida; el problema és que allarga el procés fins a deu o quinze anys en alguns casos",
+                "La Comissió garanteix que sols els casos de gravetat extrema arriben a la Cort, protegint-la d'un excés de casos; el problema és que exclou víctimes amb casos legítims però menys mediàtics",
+                "La Comissió permet que la societat civil participi en el procés; el problema és que els governs usen la fase de Comissió per dilatar i evitar arribar a la Cort",
+                "La Comissió és una instància política que pot pressionar els governs sense passar per un procés judicial formal; el problema és que manca d'independència per ser composta per representants dels estats"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. La Comissió Interamericana actua com a filtre i mediadora: pot aconseguir solucions amistoses entre la víctima i l'Estat sense necessitat de judici, i selecciona els casos que elevarà a la Cort. La solució amistosa és valuosa — molts casos s'han resolt amb indemnitzacions, canvis legislatius i reconeixements de responsabilitat. Però el procés és extraordinàriament lent: des de la presentació de la petició fins a la sentència de la Cort, pot passar una dècada o més. Moltes víctimes moren sense veure la resolució del seu cas. La lentitud és la crítica més consistent del sistema interamericà.",
+              "feedbackWrong": "El filtre de gravetat extrema no és la funció principal de la Comissió — tot i que en la pràctica té efectes de filtratge. La participació de la societat civil és important però no és la justificació formal de la fase de Comissió. La composició de la Comissió és d'experts independents, no de representants governamentals. El fonament del filtre de Comissió és la mediació i la possibilitat de solució amistosa."
+            },
+            {
+              "type": "debate",
+              "question": "El sistema interamericà de drets humans ha condemnat sovint els EUA per violacions dels drets humans (pena de mort, condicions de detenció, drets dels migrants). Els EUA no han ratificat la Convenció Americana i no reconeixen la jurisdicció de la Cort. És legítim que el sistema critiqui un estat que no ha acceptat la seva jurisdicció?",
+              "positionA": {
+                "label": "Sí: la sobirania no eximeix de la crítica",
+                "argument": "La Comissió Interamericana té jurisdicció sobre tots els membres de l'OEA, hagin o no ratificat la Convenció Americana. Els EUA son membre de l'OEA i han acceptat la Carta de l'OEA, que conté referències als drets humans. La crítica internacional dels drets humans no requereix l'acceptació de la jurisdicció d'un tribunal específic — simplement aplica estàndards que l'Estat ha acceptat en fòrums internacionals. Si un Estat pot evitar tota supervisió simplement no ratificant tractats, el sistema de supervisió perd sentit."
+              },
+              "positionB": {
+                "label": "La jurisdicció requereix consentiment",
+                "argument": "El dret internacional es basa en el consentiment dels estats. Un tribunal o comissió que examina un estat sense la seva acceptació de la jurisdicció viola el principi fonamental de la sobirania estatal. Els EUA poden ser criticats políticament per la seva falta de compromís amb el sistema interamericà — però no pot ser-los exigit que compleixin les decisions d'un sistema que no han acceptat. El consentiment és la base de la legitimitat del dret internacional."
+              },
+              "reflection": "La tensió entre sobirania i supervisió internacional és constitutiva del sistema de drets humans. Com la resoldries en el cas específic d'un país poderós que rebutja la supervisió?",
+              "context": "La Comissió Interamericana té jurisdicció sobre els EUA en virtut de la Carta de l'OEA. Ha publicat informes sobre Guantànamo, la pena de mort i els drets dels migrants als EUA. El govern americà ha ignorat la majoria d'aquells informes. La Cort IDH no té jurisdicció sobre els EUA perquè no han ratificat la Convenció Americana."
+            }
+          ]
+        },
+        {
+          "id": "reg-03",
+          "title": "El sistema africà i els sistemes asiàtic i àrab",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La Carta Africana dels Drets Humans i dels Pobles de 1981 és un document singular en la historia dels drets humans: per primera vegada, un instrument regional de drets humans reconeix explícitament els 'drets dels pobles' (autodeterminació, sobirania sobre els recursos naturals, dret al desenvolupament) i inclou el concepte de 'deure' — els individus no sols tenen drets sinó també deures enfront de la família, la comunitat i l'Estat. Era una resposta africana a les crítiques al model occidental de drets individuals. Trenta anys després, la Cort Africana dels Drets Humans i dels Pobles dicta sentències que cap estat africà executa. El contrast entre l'ambició del text i la realitat de l'aplicació és el problema central del sistema africà."
+            },
+            {
+              "type": "key-idea",
+              "text": "El sistema africà de drets humans (Comissió Africana + Cort Africana dels Drets Humans i dels Pobles) és el tercer sistema regional en el món, però el menys efectiu en termes de compliment: les sentències de la Cort Africana rarament son executades pels estats, i la Comissió Africana té recursos molt limitats i pressió política des dels governs de la Unió Africana. No hi ha sistema regional de drets humans plenament funcionant a l'Àsia ni al Pròxim Orient."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué no hi ha sistema regional de drets humans a Àsia",
+              "content": "Àsia és l'única gran regió del món sense un sistema regional de drets humans. A diferència d'Europa, Amèrica i Àfrica, no hi ha cap conveni regional de drets humans ni cap tribunal regional. Per qué? L'explicació és múltiple. Primer, la diversitat: Àsia conté gairebé la meitat de la població mundial, i la diversitat política, econòmica, cultural i religiosa entre els seus estats fa molt difícil acordar un estàndard comú. Segon, el poder de les grans potències: la Xina i l'Índia, que concentren la major part de la població asiàtica, no han tingut interès en crear mecanismes de supervisió que podrien examinar les seves pròpies pràctiques. Tercer, la manca d'una organització regional equivalent a l'Organització dels Estats Americans o la Unió Africana amb prou autoritat per crear un sistema de drets humans. L'ASEAN (Associació de Nacions del Sud-est Asiàtic) va crear una Comissió Intergovernamental de Drets Humans el 2009 — però té un mandat molt limitat, opera per consens i no pot examinar casos individuals. És més un fòrum de diàleg que un mecanisme de supervisió."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-reg-03-01",
+              "style": "multiple-choice",
+              "question": "La Carta Africana dels Drets Humans inclou el concepte de 'deures' dels individus enfront de la família, la comunitat i l'Estat. Quin debat filosòfic clau obre aquest element?",
+              "options": [
+                "Si els deures poden coexistir amb els drets sense que l'Estat usi els deures per restringir els drets individuals",
+                "Si els instruments de drets humans han d'incloure deures per ser acceptats per cultures no occidentals, o si la inclusió de deures dilueix la protecció individual",
+                "Si els deures col·lectius son jurídivament exigibles de la mateixa manera que els drets individuals, i si el seu incompliment pot generar responsabilitat de l'individu enfront de l'Estat",
+                "Totes tres qüestions son obertes i rellevants per al debat sobre els deures en la Carta Africana"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exacte. La incorporació de deures a la Carta Africana obre múltiples debats simultàniament. El debat sobre la coexistència de drets i deures: si un individu té el 'deure' d'enfortir la unitat nacional, pot l'Estat restrictar els seus drets en nom d'aquell deure? El debat sobre si la inclusió de deures és un enriquiment del sistema o una porta per a la restricció de drets individuals. I el debat sobre l'exigibilitat: els drets son invocables davant dels tribunals; els deures, en els sistemes jurídics occidentals, generalment no son exigibles de la mateixa manera. La Carta Africana és un document que planteja tots tres debats i no els resol — deixant-los oberts a la interpretació de la Comissió i la Cort Africanes, que no han elaborat plenament la doctrina dels deures.",
+              "feedbackWrong": "Les tres qüestions son rellevants i la resposta més precisa és que totes tres son obertes i debatudes. Cap d'elles sola capta la complexitat del debat sobre els deures en la Carta Africana."
+            }
+          ]
+        },
+        {
+          "id": "reg-04",
+          "title": "El Dret Internacional Humanitari: les regles de la guerra",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El juny de 1859, el banquer suís Henry Dunant va arribar per accident al camp de batalla de Solferino (nord d'Itàlia) hores després d'un combat en el qual havien mort 40.000 soldats i ferits. Va trobar milers de ferits abandonats sense atenció mèdica, morint de set i infecció. Va organitzar els civils locals per atendre els ferits — de tots dos bàndols, sense distinció. Va tornar a Ginebra horroritzat i va escriure 'Un Record de Solferino'. El 1863, va contribuir a fundar el Comitè Internacional de la Creu Roja. El 1864, es va signar el primer Conveni de Ginebra. Dunant, que havia arruïnat el seu negoci per l'experiència, va morir sol en un hospici el 1910. Vint anys abans havia rebut el primer Premi Nobel de la Pau."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Dret Internacional Humanitari (DIH), també conegut com a dret dels conflictes armats o dret de la guerra, és el conjunt de normes que limiten els mètodes i els mitjans de combat per reduir el patiment humà en temps de guerra. No intenta prohibir la guerra (és el dret internacional de la pau el que ho fa) sinó humanitzar-la. Els Convenis de Ginebra (1949) i els seus Protocols Addicionals (1977) en son la columna vertebral."
+            },
+            {
+              "type": "comparison",
+              "title": "Dret Internacional dels Drets Humans vs. Dret Internacional Humanitari",
+              "labelA": "Drets Humans (DIDH)",
+              "labelB": "Dret Humanitari (DIH)",
+              "items": [
+                {
+                  "label": "Àmbit d'aplicació",
+                  "a": "Principalment en temps de pau; s'aplica sempre",
+                  "b": "En conflictes armats (internacionals i no internacionals)"
+                },
+                {
+                  "label": "Obligats principals",
+                  "a": "Els estats enfront dels individus sota la seva jurisdicció",
+                  "b": "Les parts en el conflicte: estats i grups armats no estatals"
+                },
+                {
+                  "label": "Derogació",
+                  "a": "Alguns drets son derogables en emergències (amb condicions); altres son absoluts",
+                  "b": "No es pot derogar; s'aplica sempre en conflictes armats"
+                },
+                {
+                  "label": "Mecanisme de supervisió",
+                  "a": "Sistema ONU de tractats, tribunals regionals, Cort Internacional de Justícia",
+                  "b": "CICR (Comitè Internacional de la Creu Roja), tribunals penals internacionals"
+                },
+                {
+                  "label": "Principis bàsics",
+                  "a": "Universalitat, indivisibilitat, dignitat humana",
+                  "b": "Distinció, proporcionalitat, precaució, humanitat"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Els principis bàsics del DIH: distinció, proporcionalitat i precaució",
+              "content": "El DIH es basa en tres principis fonamentals que han de guiar totes les decisions militars. La distinció: les parts en el conflicte han de distingir sempre entre civils (que no poden ser atacats) i combatents (que poden ser atacats), i entre béns civils (hospitals, escoles, sistemes d'aigua) i objectius militars. La proporcionalitat: un atac que pot causar danys civils incidentals és il·lícit si aquells danys son excessius respecte a l'avantatge militar concret previst. La precaució: les parts han de prendre totes les mesures pràcticament possibles per evitar o minimitzar els danys civils — triar armes i mètodes que minimitzin els danys col·laterals, donar avís previ si és possible, etc. Aplicar aquests principis en la pràctica és extraordinàriament difícil i sovint disputat: qué és 'excessiu' en la proporcionalitat? Quin avantatge militar és suficient per justificar quants danys civils? El DIH no respon aquestes preguntes de manera automàtica — requereix judici en context i el respecte del judici militar no pot ser il·limitat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-reg-04-01",
+              "style": "multiple-choice",
+              "question": "El CICR (Comitè Internacional de la Creu Roja) té un rol únic en el sistema internacional: supervisa el compliment del DIH però ho fa de manera confidencial, sense publicar els seus informes sobre les visites als centres de detenció. Per quina raó opera d'aquesta manera?",
+              "options": [
+                "Perquè el CICR és una organització privada suïssa sense mandat internacional per publicar informes vinculants sobre comportament dels estats en conflictes armats",
+                "Perquè la confidencialitat és la condició que els estats i les parts en conflicte imposen per permetre l'accés del CICR als seus detinguts i zones de conflicte; sense confidencialitat, l'accés desapareixeria",
+                "Perquè el CICR considera que els informes públics son menys efectius que el diàleg privat per canviar el comportament de les parts en conflicte",
+                "Perquè el dret internacional humanitari prohibeix la publicació d'informació sobre les condicions de detenció per protegir la seguretat dels detinguts"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La confidencialitat del CICR és una condició operacional, no una preferència ideològica. Les parts en conflicte (governs i grups armats) permeten l'accés del CICR als seus detinguts, a les seves zones de conflicte i als seus responsables militars a canvi de la garantia que les troballes no seran publicades i usades contra ells en fòrums polítics o judicials. Si el CICR publiqués els seus informes, moltes parts en conflicte li negarien l'accés — i les víctimes perdrien el benefici de la seva presència. El CICR ha establert una excepció: pot fer declaracions públiques quan constata violacions greus i reiterades del DIH i la part responsable no respon als seus requeriments privats. Ha usat aquest mecanisme rarament — en casos com el conflicte de Gaza o les presons de Síria.",
+              "feedbackWrong": "El CICR no és simplement una organització privada sense mandat — té un reconeixement formal en els Convenis de Ginebra. La prohibició del dret internacional humanitari no és la raó. La confidencialitat com a preferència de comunicació és un factor secundari. La raó principal és operacional: la confidencialitat és la condició de l'accés, i l'accés és la condició per fer la seva feina."
+            }
+          ]
+        },
+        {
+          "id": "reg-05",
+          "title": "Els Convenis de Ginebra i la protecció en els conflictes armats",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Els quatre Convenis de Ginebra de 1949, adoptats poc després de la Segona Guerra Mundial, son els tractats de dret internacional amb el nombre de ratificacions més alt del món: 196 estats — la totalitat dels membres de l'ONU i alguns territoris no reconeguts. Ni el tractat de no-proliferació nuclear ni la Carta de l'ONU ni cap altre instrument internacional ha assolit una adhesió tan universal. El problema no és la ratificació — és el compliment: cada conflicte armat documentat inclou violacions greus dels Convenis. El gap entre la norma universal i la pràctica universal és el problema central del DIH."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els quatre Convenis de Ginebra protegeixen específicament: I) els ferits i malalts de les forces armades en campanya; II) els ferits, malalts i nàufrags de les forces armades en el mar; III) els presoners de guerra; IV) els civils en temps de guerra. L'article 3 comú a tots quatre — el 'Conveni en miniatura' — estableix les normes mínimes aplicables en conflictes armats no internacionals (guerres civils, conflictes amb grups armats)."
+            },
+            {
+              "type": "expandable",
+              "label": "L'article 3 comú: el mínimum humanitari en qualsevol conflicte",
+              "content": "L'article 3 comú als quatre Convenis de Ginebra és un dels textos més importants del dret internacional humanitari. Estableix les normes mínimes que han de respectar totes les parts en un conflicte armat no internacional — inclosos els grups armats no estatals (guerrilla, grups terroristes, milicias). Prohibeix: els actes de violència contra les persones que no participen en les hostilitats (inclosos combatents ferits o capturats), la presa d'ostatges, els atacs a la dignitat personal (tortura, tractes degradants), i les condemnes sense garanties judicials mínimes. Exigeix: atendre als ferits i malalts. No resol qui és 'combatent' o 'civil' (les categories poden ser disputades), no parla de les armes o els mètodes de combat, i no dóna al CICR un dret automàtic d'accés — sol li ofereix la possibilitat de presentar els seus serveis. Però estableix un llindar mínim que, si es respectés, reduiria dramàticament el patiment en els conflictes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-reg-05-01",
+              "style": "multiple-choice",
+              "question": "El Protocol Addicional I dels Convenis de Ginebra (1977) va introduir el principi de 'proporcionalitat' com a norma jurídica. Per qué la seva codificació va ser controvertida?",
+              "options": [
+                "Perquè alguns estats militarment poderosos consideraven que la proporcionalitat limitava excessivament la seva capacitat d'operacions militars eficients, especialment en guerres amb grups no estatals",
+                "Perquè el concepte de 'proporcionalitat' és intrínsecament vague i la seva inclusió com a norma jurídica obligava els tribunals internacionals a fer judicis sobre decisions militars que no podien avaluar adequadament",
+                "Perquè la proporcionalitat protegeix els civils de l'enemic però no els civils propis, generant una assimetria que molts estats consideraven injusta",
+                "Totes tres objeccions van ser plantejades durant la negociació del Protocol i contribueixen a explicar per qué alguns estats no l'han ratificat"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exacte. Les tres objeccions van ser plantejades durant la negociació del Protocol I i contribueixen a explicar per qué alguns estats militarment importants (els EUA, Israel, l'Índia, Pakistan, Iran) no l'han ratificat. La primera objecció (limitació de l'eficàcia militar) és la més consistent amb les resistències americanes e israelianes, que argumenten que el protocol afavoreix els grups armats no estatals que no el respecten però limita les forces regulars que sí que han de respectar-lo. La segona (vaquedat jurídica) és un problema real: els tribunals han hagut de elaborar la doctrina de la proporcionalitat cas per cas. La tercera (assimetria de la protecció) és menys central però va ser plantejada per alguns estats.",
+              "feedbackWrong": "Les tres objeccions son rellevants i van ser efectivament plantejades. La resposta més precisa és que totes tres contribueixen a explicar la no-ratificació de certs estats."
+            },
+            {
+              "type": "debate",
+              "question": "El DIH prohibeix atacar els civils però permet els danys civils incidentals (col·laterals) si son proporcionals a l'avantatge militar. És moralment acceptable que el dret internacional permeti matar civils innocents com a efecte col·lateral de les operacions militars?",
+              "positionA": {
+                "label": "El principi de proporcionalitat és moralment necessari",
+                "argument": "L'alternativa al principi de proporcionalitat no és una guerra sense civils morts sinó una guerra sense límits. Si el dret internacional prohibís qualsevol dany civil sense excepció, cap operació militar seria permesa — i els actors violents podrien operar amb total impunitat simplement posicionant-se entre civils. La proporcionalitat estableix un estàndard exigent (l'avantatge militar ha de ser 'concret i directe' i el dany civil no ha de ser 'excessiu') que limita la guerra sense eliminar la possibilitat de defensar-se. Es basa en la doctrina del doble efecte: una acció amb efectes tant beneficiosos (l'objectiu militar) com perjudicials (el dany civil) pot ser permesa si els efectes beneficiosos son proporcionals i l'efecte nociu no és l'intencionat."
+              },
+              "positionB": {
+                "label": "El principi és una racionalització de l'inacceptable",
+                "argument": "El principi de proporcionalitat permet que els militars calculin quants civils innocents és acceptable matar per aconseguir un objectiu militar — i que juristes i tribunals validin aquells càlculs. Quan un infant mort en un atac és comptabilitzat com a 'dany col·lateral acceptable', el dret internacional ha normalitzat l'inacceptable. La vida humana no hauria de ser objecte de càlculs de proporcionalitat. Si un objectiu militar no pot ser aconseguit sense matar civils, no hauria de ser atacat."
+              },
+              "reflection": "La tensió entre la necessitat militar i la protecció humanitaria és constitutiva del DIH. Quin pes donar a cada costat? I qui hauria de tenir l'última paraula — els militars, els juristes, o les víctimes?",
+              "context": "La Cort Penal Internacional i els tribunals ad hoc han condemnat casos de danys civils desproporcionats. Però el llindar de 'excessivitat' no ha estat precisament delimitat. En el conflicte de Gaza (2023-24), el debat sobre proporcionalitat ha estat central en les discussions jurídiques internacionals, amb posicions molt divergents entre experts."
+            }
+          ]
+        },
+        {
+          "id": "reg-06",
+          "title": "El Dret dels Refugiats: quan les fronteres decideixen qui viu",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 28 de juliol de 1951, la Convenció sobre l'Estatut dels Refugiats va ser signada a Ginebra. Havia nascut de la tragèdia dels refugiats jueus, armenis i russos que havien quedat sense Estat i sense protecció entre guerres — els que Hannah Arendt descrivia com a exemple de la paradoxa dels drets humans. La Convenció definia el refugiat, establia el principi de no-devolució (ningú no pot ser retornat a un país on corre risc de persecució) i creava un marc de protecció internacional. Setanta anys després, hi ha 110 milions de persones desplaçades al món — el nombre més alt des de la Segona Guerra Mundial. El sistema que va néixer per gestionar uns pocs milions de refugiats europeus enfronta una crisi d'escala que el seu disseny no va anticipar."
+            },
+            {
+              "type": "key-idea",
+              "text": "El dret internacional dels refugiats, articulat principalment en la Convenció de 1951 i el seu Protocol de 1967, estableix qui és un refugiat, quins drets li corresponen i quines obligacions té l'Estat d'acollida. El principi central és el de non-refoulement: cap refugiat pot ser retornat a un país on corre risc de persecució. És una norma de dret internacional consuetudinari, vinculant fins i tot per als estats que no han ratificat la Convenció."
+            },
+            {
+              "type": "expandable",
+              "label": "La definició de refugiat i les seves limitacions",
+              "content": "La Convenció de 1951 defineix el refugiat com la persona que, 'com a resultat de fundats temors de ser perseguida per motius de raça, religió, nacionalitat, pertinença a determinat grup social o opinions polítiques, es trobi fora del país de la seva nacionalitat i no pugui o, a causa d'aquells temors, no vulgui acollir-se a la protecció d'aquell país'. La definició té limitacions importants que el món actual ha posat en relleu. Primer, la persecució ha de ser per raons específiques (les cinc categories): les persones que fugen de la violència generalitzada (guerres civils, violència de bandes) o de la pobresa extrema no queden cobertes per la definició. Segon, ha de ser 'fundada' — el sistema d'asil requereix que cada persona demostri individualment que té risc de persecució, un procés costós en temps i recursos. Tercer, la definició va ser dissenyada per al context europeu post-Segona Guerra Mundial — no per als desplaçaments massius causats per conflictes, persecucions de grup i canvi climàtic del segle XXI."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-reg-06-01",
+              "style": "multiple-choice",
+              "question": "El principi de non-refoulement és considerat una norma de dret internacional consuetudinari, vinculant fins i tot per als estats que no han ratificat la Convenció de 1951. Qué implica aquesta afirmació en termes jurídics?",
+              "options": [
+                "Que el principi es pot invocar davant de qualsevol tribunal internacional contra qualsevol estat, independentment de si ha ratificat la Convenció",
+                "Que el principi forma part del dret internacional general — nascut de la pràctica consistent dels estats i de la convicció que és jurídicament obligatori — i és per tant vinculant per a tots els membres de la comunitat internacional",
+                "Que el principi ha estat codificat en tants tractats internacionals que és factual i pràcticament universal, tot i que formalment no vincula els no-ratificants",
+                "Que el principi és aplicat per la Cort Internacional de Justícia com a norma de jus cogens (dret imperatiu) que no admet derogació per cap tractat"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El dret internacional consuetudinari neix de dos elements: la pràctica general i consistent dels estats (usus) i la convicció que aquella pràctica és jurídicament obligatòria (opinio juris). Quan una norma compleix ambdós requisits, és vinculant per a tots els estats, inclosos els que no han ratificat cap tractat que la contingui. El non-refoulement és àmpliament considerat com a dret consuetudinari perquè ha estat acceptat de manera consistent pels estats, inclosos molts que no han ratificat la Convenció de 1951. L'ACNUR i la majoria dels experts de dret internacional la consideren norma consuetudinària. Alguns van més lluny i la consideren jus cogens (norma imperativa de la qual no es pot derogar), però aquella posició és més disputada.",
+              "feedbackWrong": "La vinculació consuetudinaria no implica automàticament que la Cort Internacional de Justícia tingui jurisdicció per aplicar-la en qualsevol cas — la CIJ necessita que els estats hagin acceptat la seva jurisdicció. No és simplement 'factual i pràcticament universal' — té fonament jurídic específic en la teoria del dret internacional consuetudinari. La resposta precisa és que el seu caràcter consuetudinari el fa vinculant per a tots els membres de la comunitat internacional com a norma de dret general."
+            },
+            {
+              "type": "reflection",
+              "question": "Has recorregut el sistema europeu, el sistema interamericà, el sistema africà, el Dret Internacional Humanitari i el dret dels refugiats. Quin d'aquests sistemes o mecanismes creus que ha tingut l'impacte real més gran en la protecció de les persones concretes? I quin creus que necessita reformes més urgents?",
+              "prompt": "No hi ha una resposta objectivament correcta — depèn de qué valors prioritzes i quin context consideres. Però tenir-ne una pròpia argumentada és l'objectiu d'aquest recorregut."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "id": "module-20-economia-macro",
+  "title": "Macroeconomia: Com Funcionen els Estats i les Crisis",
+  "emoji": "🏦",
+  "phase": 2,
+  "unlockRequires": "module-19-economia-mon",
+  "lessons": [
+    {
+      "id": "mac-01",
+      "title": "La demanda agregada: el motor de l'economia",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Imagina una economia simple: un forner, un sabater i un granger. El forner compra sabates al sabater i gra al granger. El sabater compra pa al forner i gra al granger. El granger compra pa al forner i sabates al sabater. Tothom gasta els seus ingressos en els productes dels altres. Ara imagina que el granger té por d'una mala collita i decideix estalviar: deixa de comprar sabates. El sabater perd ingressos i deixa de comprar pa. El forner perd ingressos i deixa de comprar gra. El granger ven menys gra. Ningú ha canviat les seves capacitats productives — el granger sap cultivar igual, el sabater fer sabates igual. Però tota l'economia s'ha contret perquè la demanda ha caigut. Aquesta és la intuïció central de la macroeconomia keynesiana."
+        },
+        {
+          "type": "prediction",
+          "question": "En temps de crisi, tothom estalvia per protegir-se. Però si tothom estalvia alhora, les empreses venen menys, acomiadament treballadors, i els treballadors acomiadats estalvien més. Creus que hi ha alguna forma d'escapar d'aquesta espiral sense que algú gasti?",
+          "hint": "Pensa en qui podria gastar quan el sector privat no vol: qui té la capacitat d'endeutar-se en massa quan tothom altre s'encongeix?"
+        },
+        {
+          "type": "key-idea",
+          "text": "La demanda agregada és la suma de tot el que gasten els actors d'una economia: les llars en consum (C), les empreses en inversió (I), el govern en despesa pública (G), i el sector exterior en exportacions netes (X-M). En una recessió, la demanda agregada cau i les empreses produeixen menys i acomiadament treballadors, tot i que la capacitat productiva de l'economia no ha canviat. La gran controvèrsia: ha de l'Estat compensar la caiguda de la demanda privada, o ha de deixar que el mercat s'ajusti sol?"
+        },
+        {
+          "type": "expandable",
+          "label": "El multiplicador fiscal: per qué un euro de despesa pública val més d'un euro",
+          "content": "El multiplicador fiscal és la idea que un euro de despesa pública genera més d'un euro d'activitat econòmica total. El mecanisme: el govern contracta constructors per fer una carretera (1€). Els constructors cobren i gasten en aliments, roba i lloguers (0,8€, suposant que estalvien 0,2€). Els comerciants de aliments, roba i lloguers reben aquells 0,8€ i en gasten 0,64€. I així successivament. Si el multiplicador és 1,5, un euro de despesa pública genera 1,5€ d'activitat econòmica. El valor del multiplicador és molt debatut: els keynesians el situen entre 1,2 i 1,8 en recessió; els crítics liberals argumenten que pot ser inferior a 1 si l'endeutament públic 'expulsa' (crowding out) la inversió privada. L'evidència empírica de les polítiques d'austeritat a Europa del Sud (2010-2015) va mostrar multiplicadors molt superiors als que el FMI havia estimat — un dels errors predictius més costosos de la macroeconomia recent."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-01-01",
+          "style": "multiple-choice",
+          "question": "Durant la Gran Recessió (2008-2012), molts governs europeus van implementar polítiques d'austeritat (retallades de despesa i augment d'impostos) per reduir el dèficit. Quina va ser la crítica keynesiana a aquestes polítiques?",
+          "options": [
+            "Que l'austeritat era moralment incorrecta perquè penalitzava els més pobres",
+            "Que retallar la despesa pública en plena recessió reduïa la demanda agregada i aprofundia la recessió, creant un cercle viciós on menys activitat econòmica generava menys ingressos fiscals i dèficit encara més alt",
+            "Que l'austeritat no funcionava perquè els governs no eren prou estrictes en la seva aplicació",
+            "Que el dèficit públic era irrelevant i que les polítiques d'austeritat eren innecessàries"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La crítica keynesiana a l'austeritat en recessió és la paradoxa del dèficit procíclic: quan l'economia es contreu, els ingressos fiscals cauen automàticament (menys activitat = menys impostos) i la despesa social augmenta (més atur = més subsidis). Si el govern retalla per compensar, redueix la demanda, l'activitat econòmica cau més, els ingressos cauen més, i el dèficit pot empitjorar en lloc de millorar. L'FMI va reconèixer el 2012 que havia subestimat els multiplicadors fiscals en les seves recomanacions d'austeritat a Grècia, Irlanda i Portugal, generant regressions molt més severes de les previstes.",
+          "feedbackWrong": "La crítica keynesiana a l'austeritat és tècnica, no simplement moral. En una recessió, quan la demanda privada cau, retallar la despesa pública és prociclíc: agreuja la contracció. Els multiplicadors fiscals en recessió poden ser superiors a 1, cosa que significa que un euro de retallada redueix el PIB en més d'un euro. L'evidència europea del 2010-2015 va confirmar en gran mesura aquesta predicció."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-01-02",
+          "style": "detect-error",
+          "statement": "La demanda agregada d'una economia és simplement la suma dels salaris de tots els treballadors, que determina quant pot gastar la població.",
+          "isCorrect": false,
+          "feedbackExplanation": "La demanda agregada no és simplement la suma dels salaris. La fórmula estàndard és DA = C + I + G + (X - M): consum de les llars (C), que inclou salaris però també riquesa i crèdit; inversió empresarial (I), que depèn de les expectatives i els tipus d'interès, no dels salaris; despesa pública (G); i exportacions netes (X-M). Les llars no gasten tots els seus ingressos (estalvien una part), i gasten també a crèdit (per sobre dels seus ingressos actuals). Les empreses inverteixen basant-se en les seves expectatives de demanda futura, no en els salaris presents. El sector públic gasta independentment dels ingressos corrents (pot tenir dèficit). I les exportacions depenen de la demanda estrangera i del tipus de canvi."
+        },
+        {
+          "type": "comparison",
+          "title": "Política fiscal expansiva vs. restrictiva",
+          "labelA": "Política fiscal expansiva",
+          "labelB": "Política fiscal restrictiva (austeritat)",
+          "items": [
+            {
+              "label": "Instruments",
+              "a": "Augment de la despesa pública, reducció d'impostos",
+              "b": "Retallades de despesa, augment d'impostos"
+            },
+            {
+              "label": "Efecte sobre la demanda",
+              "a": "Augmenta la demanda agregada",
+              "b": "Redueix la demanda agregada"
+            },
+            {
+              "label": "Efecte sobre el dèficit",
+              "a": "Augmenta el dèficit a curt termini",
+              "b": "Redueix el dèficit (si el multiplicador és baix)"
+            },
+            {
+              "label": "Quan s'usa",
+              "a": "En recessió, quan la demanda privada cau",
+              "b": "En expansió, per evitar sobreescalfament i inflació"
+            },
+            {
+              "label": "Risc principal",
+              "a": "Excés de deute públic, inflació si l'economia ja és plena",
+              "b": "Aprofundiment de la recessió si els multiplicadors són alts"
+            }
+          ]
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mac-01-01",
+          "question": "El debat austeritat vs. estímul és fonamentalment un debat sobre el valor del multiplicador fiscal: si és superior a 1, l'austeritat en recessió empitjora el dèficit; si és inferior a 1, el millora. Com es pot saber empíricament quin valor té el multiplicador?",
+          "options": [
+            "No es pot saber: l'economia no permet experiments controlats i sempre hi ha massa variables confusores",
+            "Comparant països que van aplicar austeritat amb els que no ho van fer durant la mateixa recessió, controlant per altres variables",
+            "Usant models matemàtics sofisticats que simulen tota l'economia i permeten estimar l'efecte de cada política"
+          ],
+          "correct": 1,
+          "explanation": "La posició A és excessivament pessimista: la ciència econòmica ha progressat molt en la identificació de relacions causals malgrat la impossibilitat d'experiments controlats. La posició C és la crítica a l'economica mainstream: els models DSGE (Dynamic Stochastic General Equilibrium) usats per fer política econòmica van fallar espectacularment el 2008 perquè assumien mercats perfectes i agents racionals. La posició B és l'enfocament de la 'revolució de la credibilitat' en economia: usar variació natural (diferències entre països, regions o moments en el temps que permeten comparacions quasi-experimentals) per identificar efectes causals. Els treballs d'Olivier Blanchard i Daniel Leigh (2013) van fer exactament això: van comparar les prediccions del FMI per als països d'austeritat amb els resultats reals, i van trobar que el multiplicador havia estat subestimat sistemàticament. Era evidència empírica directa, no simulació de model. La mesura del multiplicador segueix sent un dels problemes empírics centrals de la macroeconomia."
+        }
+      ]
+    },
+    {
+      "id": "mac-02",
+      "title": "Deute públic: la bomba de rellotgeria o l'eina necessària?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2010, dos economistes de Harvard, Carmen Reinhart i Kenneth Rogoff, van publicar un article que va tenir un impacte polític desproporcionat: quan el deute públic supera el 90% del PIB, el creixement econòmic cau dràsticament. L'article va ser citat per governs de tota Europa per justificar les polítiques d'austeritat. El 2013, un estudiant de postgrau, Thomas Herndon, va demanar les dades originals de Reinhart i Rogoff per a un treball d'assignatura. Va descobrir un error en un full d'Excel: cinc països havien quedat fora del càlcul per error. Quan es corregia l'error, la relació entre deute i creixement era molt més feble. La política econòmica de mig continent havia estat en part basada en un error de full de càlcul."
+        },
+        {
+          "type": "prediction",
+          "question": "Dos economistes de Harvard troben que quan el deute supera el 90% del PIB el creixement s'atura. Els governs europeus ho usen per justificar l'austeritat. Anys més tard, un estudiant de postgrau descobreix un error en el seu full de càlcul. Qué diu aquest episodi sobre com s'usa el coneixement econòmic en política?",
+          "hint": "Pensa en la diferència entre 'els experts diuen que...' i 'és cert que...'. Qui tenia interès en creure la tesi de Reinhart i Rogoff sense verificar-la?"
+        },
+        {
+          "type": "key-idea",
+          "text": "El deute públic és l'acumulació de tots els dèficits passats d'un govern. No és intrínsecament dolent ni bo — depèn del seu volum en relació al PIB, del tipus d'interès que paga, de la moneda en que es denomina, i de per a qué s'ha usat. Un govern que s'endeu per finançar infraestructures que augmenten la productivitat és molt diferent d'un que s'endeu per pagar despesa corrent ineficient."
+        },
+        {
+          "type": "quote",
+          "text": "El deute públic no és una transferència de càrrega a les generacions futures quan els creditors son els propis ciutadans: és simplement una redistribució dins de la mateixa generació.",
+          "author": "Paul Samuelson, Nobel d'Economia 1970"
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué els governs que emeten la seva pròpia moneda no poden fer fallida com una empresa",
+          "content": "Hi ha una diferència fonamental entre el deute d'un govern que emet la seva pròpia moneda (com els EUA amb el dòlar, el Japó amb el ien, o el Regne Unit amb la lliura) i el deute d'un govern que no la emet (com Grècia o Espanya, que usen l'euro però no el controlen). Els EUA no poden 'quedar-se sense dòlars' per pagar els seus deutes denominats en dòlars perquè la Reserva Federal pot crear dòlars. Poden tenir inflació si ho fan en excés, però no poden tecnicamente fer fallida en la seva pròpia moneda. Grècia, en canvi, no pot crear euros: si els inversors deixen de prestar-li, no pot pagar. Aquesta asimetria explica per qué el mercat demana tipus molt més alts a Grècia que als EUA o al Japó malgrat que el deute japonès és el 260% del PIB — molt superior al grec. La Teoria Monetària Moderna (TMM) ha fet d'aquesta observació la base d'una proposta de política fiscal molt més expansiva per als governs emissors de moneda pròpia, generant un debat molt viu entre economistes."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-02-01",
+          "style": "multiple-choice",
+          "question": "El Japó té un deute públic del 260% del PIB, molt superior al d'Espanya (115%) o Grècia (170%), però paga tipus d'interès molt més baixos sobre el seu deute. Quin és el factor principal que explica aquesta paradoxa?",
+          "options": [
+            "L'economia japonesa és molt més productiva que les mediterrànies i per tant genera més ingressos per pagar el deute",
+            "El Japó emet la seva pròpia moneda (el ien) i el seu banc central pot comprar deute japonès si cal, eliminant el risc de fallida tècnica; Espanya i Grècia no poden crear euros",
+            "Els inversors internacionals confien més en el Japó per raons culturals i històriques",
+            "El Japó té menys deute privat que els països mediterranis, cosa que compensa el seu deute públic alt"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La distinció és estructural: el Japó emet el ien i el Banc del Japó pot comprar deute japonès il·limitadament si cal (com ha fet durant dècades). Tecnicamente, el Japó no pot fer fallida en iens perquè pot crear iens. El risc és la inflació, no la insolvència. Espanya i Grècia usen l'euro però no el controlen — no poden demanar al BCE que compri il·limitadament el seu deute (tot i que el BCE va fer gestos en aquesta direcció amb el famós 'whatever it takes' de Draghi el 2012). La possibilitat de fallida tècnica (no tenir divises per pagar) és real per als països de la zona euro en crisi, cosa que fa pujar els seus tipus d'interès quan els inversors perden la confiança.",
+          "feedbackWrong": "La clau és l'emissió de moneda. El Japó pot crear iens, de manera que no pot quedar-se sense iens per pagar el seu deute en iens. El risc és la inflació, no la insolvència. Grècia i Espanya no poden crear euros, i si els inversors deixen de prestar-los, poden patir una crisi de liquiditat real. Aquesta asimetria explica per qué els mercats cobren primes de risc molt diferent a deutes similars en percentatge de PIB."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-02-02",
+          "style": "true-false",
+          "question": "El deute públic és una transferència de riquesa de la generació present a les generacions futures, que hauran de pagar el deute que hem contret.",
+          "correct": false,
+          "feedbackCorrect": "Fals, o molt matisable. La visió del deute com a 'fardell per a les generacions futures' és una intuïció poderosa però econòmicament inexacta en els casos en que el deute és intern (els creditors son els propis ciutadans del país). En aquest cas, les generacions futures que paguen els impostos per amortitzar el deute reben els mateixos diners com a tenidors dels bons (via herències o inversions). No hi ha transferència neta entre generacions — hi ha una redistribució dins de la mateixa generació (dels contribuents als tenidors de bons). El cas del deute extern (amb creditors estrangers) és diferent: allí sí hi ha una transferència real cap a l'exterior. I el cost real del deute sobre les generacions futures depèn de per a qué s'ha usat: un deute que finança infraestructures que augmenten la productivitat de les generacions futures és un regal, no un fardell.",
+          "feedbackWrong": "La intuïció del deute com a fardell intergeneracional és parcialment correcta però econòmicament matisable. Si el deute és intern (creditors nacionals), les generacions futures que paguen impostos per amortitzar-lo reben els mateixos diners com a tenidors de bons. No hi ha transferència neta intergeneracional. Si és extern, sí hi ha una transferència real. I l'impacte intergeneracional depèn crucialmente de per a qué s'usa el deute: si finança inversions que augmenten la productivitat futura, és un regal, no un fardell."
+        },
+        {
+          "type": "debate",
+          "question": "Alguns economistes (els defensors de la Teoria Monetària Moderna) argumenten que els governs emissors de moneda pròpia poden gastar molt més del que ingressen sense risc de fallida, limitats només per la inflació. Altres adverteixen que aquesta visió porta a la irresponsabilitat fiscal i a la inflació descontrolada. Qui té raó?",
+          "positionA": {
+            "label": "La TMM té raó en el seu diagnòstic",
+            "argument": "És un fet tècnic que els EUA, el Japó o el Regne Unit no poden fer fallida en la seva pròpia moneda. El límit real de la despesa pública no és el dèficit sinó la inflació. En una economia amb capacitat ociosa (atur, fàbriques parades), l'Estat pot finançar despesa útil sense inflació. La por al dèficit ha causat més dany que el dèficit mateix."
+          },
+          "positionB": {
+            "label": "La TMM és perillosa en la pràctica",
+            "argument": "Reconèixer que tècnicament un govern no pot fer fallida en la seva moneda no implica que pugui gastar il·limitadament. La inflació pot arribar molt abans del que els TMM preveuen. L'Argentina i el Zimbabwe van demostrar que la creació monetàrica sense ancoratge pot destruir l'economia. I la política és imperfecta: una teoria que diu 'podeu gastar més' serà usada per gastar sense mirar en qué."
+          },
+          "reflection": "La pandèmia va veure uns augments del deute públic sense precedents en temps de pau, amb inflació moderada durant dos anys i after amb un repunt inflacionari. Qué diu aquest episodi sobre el debat TMM vs. ortodòxia fiscal?",
+          "context": "La TMM (Stephanie Kelton, Warren Mosler) ha passat de ser marginal a tenir un impacte real en el debat de política econòmica als EUA des del 2019. Les polítiques fiscals expansives de la pandèmia (EUA, UK, UE) han estat interpretades com una validació parcial — o com un risc inflacionari realitzat — segons el punt de vista."
+        }
+      ]
+    },
+    {
+      "id": "mac-03",
+      "title": "Bancs centrals: el poder de crear diners",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 26 de juliol del 2012, Mario Draghi, president del Banc Central Europeu, va pronunciar tres paraules que van canviar el curs de la crisi de l'euro: 'whatever it takes' (el que calgui). Va afegir: 'i creieu-me, serà suficient.' En aquell moment, Espanya i Itàlia estaven al vora d'una crisi de deute sobirà que hagués pogut destruir la zona euro. El simple anunci — sense que el BCE comprés ni un sol bo — va fer caure els tipus d'interès espanyols i italians dràsticament. El mercat va decidir no apostar contra el BCE. Va ser la demostració que la credibilitat d'un banc central és en si mateixa un instrument de política monetària enormement poderós."
+        },
+        {
+          "type": "prediction",
+          "question": "El Banc Central Europeu és independent del govern perquè els polítics podrien voler baixar els tipus per guanyar eleccions encara que sigui inflacionari. Però el BCE pren decisions que afecten milions de persones sense que ningú el voti. Quin és el preu democràtic de la independència del banc central?",
+          "hint": "Pensa en qui decideix quanta inflació és acceptable, quant d'atur és tolerable, i si aquestes decisions son tècniques o polítiques."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els bancs centrals moderns tenen tres instruments principals: el tipus d'interès de referència (el preu dels préstecs a curt termini entre bancs), les operacions de mercat obert (compra i venda de bons per injectar o retirar liquiditat del sistema), i la comunicació (les expectatives que el banc central genera sobre la seva política futura). En els darrers quinze anys, la comunicació ha esdevingut tan important com els instruments tradicionals."
+        },
+        {
+          "type": "misconception",
+          "belief": "Els bancs centrals imprimeixen diners físics que circulen per l'economia quan fan QE (Quantitative Easing).",
+          "reality": "El QE no implica imprimir bitllets físics. El banc central crea reserves electròniques als comptes dels bancs comercials comprant actius financers. Aquests diners digitals no circulen directament per l'economia — van als mercats financers i hipotèticament al crèdit bancari. La 'impressió de diners' del QE és molt diferent de la hiperinflació alemanya del 1923, on es creaven diners directament per pagar despesa.",
+          "why": "La metàfora visual dels 'diners impresos' és intuïtivament poderosa però inexacta i ha alimentat pors inflacionàries desproporcionades sobre el QE en sectors de la població sense formació econòmica."
+        },
+        {
+          "type": "expandable",
+          "label": "Com els bancs comercials creen diners del no-res",
+          "content": "Un dels fets més sorprenents i menys coneguts de l'economia moderna és que la majoria dels diners en circulació no els crea el banc central sinó els bancs comercials, quan fan préstecs. Quan el teu banc t'aprova una hipoteca de 200.000€, no agafa 200.000€ de les reserves dels seus dipositants i te'ls dóna. Simplement crea un dipòsit de 200.000€ al teu nom, fent una entrada comptable. Acaba de crear 200.000€ nous que no existien. El banc central estableix les reserves mínimes que els bancs han de tenir, però en la pràctica la creació de diners la fan els bancs comercials en resposta a la demanda de crèdit dels seus clients. El Banc d'Anglaterra ho va reconèixer explícitament en un informe del 2014: 'En l'economia moderna, la major part dels diners prenen la forma de dipòsits bancaris. Però la manera com es creen aquests dipòsits sovint s'entén malament: la forma principal és quan els bancs fan préstecs.' Quan el préstec es paga, els diners desapareixen. El sistema financer literalment crea i destrueix diners."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-03-01",
+          "style": "multiple-choice",
+          "question": "Quan el Banc Central Europeu va comprar massivament bons de govern en el programa QE (Quantitative Easing), quin era l'objectiu principal d'aquesta política?",
+          "options": [
+            "Finançar directament la despesa dels governs europeus que tenien dèficit",
+            "Baixar els tipus d'interès a llarg termini i injectar liquiditat al sistema financer per estimular el crèdit i evitar la deflació",
+            "Reduir el deute públic dels países membres comprant-los i eliminant-los",
+            "Crear diners nous per distribuir-los directament als ciutadans europeus"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El QE funciona comprament bons de govern als bancs comercials: el BCE crea reserves bancàries (diners del banc central) i les intercanvia per bons de govern. L'efecte és múltiple: baixa els tipus d'interès a llarg termini (perquè la demanda de bons fa pujar el seu preu i baixar el rendiment), injecta liquiditat al sistema bancari (que en teoria ha de traduir-se en més crèdit a empreses i llars), i senyala que el banc central farà tot el necessari per evitar la deflació. El QE no finança directament els governs (els bons es compren als mercats secundaris, no en l'emissió) i no distribueix diners als ciutadans — la 'impressió de diners' arriba a l'economia de forma indirecta, via el sistema financer.",
+          "feedbackWrong": "El QE no finança directament els governs ni distribueix diners als ciutadans. Compra bons als mercats secundaris (de bancs i inversors que ja els tenien), injectant liquiditat al sistema financer. L'objectiu era baixar els tipus a llarg termini, estimular el crèdit i evitar la deflació, no monetitzar directament el dèficit públic — tot i que en la pràctica la distinció s'ha fet més borrosa."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-03-02",
+          "style": "detect-error",
+          "statement": "Els bancs comercials presten els diners que els seus dipositants han estalviat, actuant simplement com a intermediaris entre estalviadors i prestataris.",
+          "isCorrect": false,
+          "feedbackExplanation": "Aquesta és la visió de la 'intermediació financera' que apareix als manuals d'economia introductoria, però el Banc d'Anglaterra va reconèixer explícitament el 2014 que és incorrecta com a descripció del sistema bancari modern. Els bancs comercials no presten diners existents dels dipositants — creen diners nous quan fan préstecs, fent una entrada comptable que crea un dipòsit nou. La limitació real no és la quantitat de dipòsits sinó la regulació de reserves (que el banc central estableix), la demanda solvable de crèdit, i la rendibilitat esperada del préstec. El model d'intermediació és útil pedagogicament però descriu un sistema bancari de reserva completa que no existeix en cap economia moderna."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mac-03-01",
+          "question": "Des del 2008, els bancs centrals dels països avançats han creat quantitats massives de diners via QE per estimular l'economia, sense generar la hiperinflació que alguns temien. Però el 2021-22 va arribar la inflació. Quin és el llindar a partir del qual la creació monetària genera inflació?",
+          "options": [
+            "Hi ha un llindar fix: quan la massa monetària supera una certa relació amb el PIB, la inflació és inevitable",
+            "No hi ha un llindar fix: la inflació depèn de si la creació monetària genera demanda addicional en una economia que ja operava a plena capacitat o que tenia capacitat ociosa",
+            "La inflació sempre arriba amb retard: el QE del 2008-2019 va causar la inflació del 2021, simplement amb un desfasament de deu anys"
+          ],
+          "correct": 1,
+          "explanation": "La posició A és el monetarisme friedmanià clàssic ('la inflació és sempre i en tot lloc un fenomen monetari'): si la massa monetària creix més que la producció, els preus pugen. Tenia suport empíric en episodis d'hiperinflació on la creació monetària era massiva i sense frens. Però el QE del 2008-2019 va mostrar que crear reserves bancàries no genera inflació automàticament si la demanda de crèdit és feble i l'economia té capacitat ociosa. La posició C és una teoria del desfasament llarg que resulta difícil de verificar empíricament i que és massa conveniente. La posició B és el consens emergent: el que determina si la creació monetàrica genera inflació és si es tradueix en demanda addicional en una economia que ja opera a capacitat plena. El QE del 2008-2019 no va generar inflació perquè els diners creats van quedar atrapats en reserves bancàries i en actius financers, sense arribar à l'economia real amb suficient força. La inflació del 2021-22 va venir d'una combinació diferent: estímul fiscal directe als consumidors (els cheques de la pandèmia als EUA), xocs d'oferta (disrupcions en les cadenes de subministrament, energia cara per la guerra d'Ucraïna) i demanda reprimida alliberada alhora. No era simplement el QE amb desfasament."
+        }
+      ]
+    },
+    {
+      "id": "mac-04",
+      "title": "Atur i mercat laboral: no tot l'atur és igual",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2013, Espanya tenia una taxa d'atur del 26% — la més alta de la seva história i una de les més altes d'Europa. Al mateix temps, Alemanya tenia un atur del 5% i moltes empreses alemanyes no trobaven treballadors qualificats. Dos països de la mateixa zona monetària, amb la mateixa política monetària, amb resultat laborals radicalment oposats. La diferència no era simplement el cicle econòmic — era l'estructura del mercat laboral, el sistema educatiu, el model industrial i el sistema de negociació col·lectiva. L'atur no és un fenomen homogeni: les seves causes i solucions depenen de quin tipus d'atur és."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els economistes distingeixen tres tipus d'atur amb causes i solucions molt diferents: l'atur friccional (gent en transició entre feines, inevitable i no necessàriament negatiu), l'atur estructural (desajust entre les habilitats disponibles i les demandades per l'economia), i l'atur cíclic (causat per una caiguda de la demanda agregada en una recessió). Les polítiques adequades per a cada tipus són radicalment diferents."
+        },
+        {
+          "type": "expandable",
+          "label": "La taxa d'atur natural i per qué zero atur seria dolent",
+          "content": "En macroeconomia, la 'taxa d'atur natural' (o NAIRU, Non-Accelerating Inflation Rate of Unemployment) és el nivell d'atur compatible amb una inflació estable. Inclou l'atur friccional (gent entre feines) i estructural (desajusts de qualificació). L'atur natural als EUA s'estima entre el 4 i el 5%. Per qué zero atur seria problemàtic? Primer, perquè un cert atur friccional és el resultat de la mobilitat laboral — les persones deixen feines per trobar-ne de millors, i això és econòmicament desitjable. Segon, perquè un atur per sota del 'natural' genera inflació de salaris: quan tothom treballa i les empreses competeixen per treballadors escassos, els salaris pugen, els costos de producció pugen i els preus pugen. Per això els bancs centrals no volen atur zero — volen el mínim atur compatible amb la inflació estable. La xifra 'natural' ha estat molt debatuda: durant els anys 90, molts economistes deien que l'atur als EUA no podia baixar del 6% sense inflació. Va baixar al 4% sense inflació. Als anys 2010, deien que no podia baixar del 5%. Va arribar al 3,5%. Els models econòmics subestimen sistemàticament la flexibilitat del mercat laboral."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-04-01",
+          "style": "multiple-choice",
+          "question": "L'automatització i la intel·ligència artificial estan eliminant llocs de treball en molts sectors. Quin tipus d'atur genera principalment l'automatització i quina política pública és més adequada per abordar-lo?",
+          "options": [
+            "Atur cíclic, que es pot solucionar amb estímul fiscal per augmentar la demanda agregada",
+            "Atur estructural, que requereix polítiques de formació i reconversió professional per ajustar les habilitats dels treballadors a la nova demanda",
+            "Atur friccional, que es resol sol a mesura que els treballadors troben noves feines en el mercat",
+            "Atur voluntari, perquè els treballadors preferiran no treballar si les màquines fan la feina"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'automatització genera principalment atur estructural: el desajust entre les habilitats que els treballadors desplaçats per les màquines tenen (tasques rutinàries, físiques o cognitives) i les habilitats que l'economia demanda (creativitat, resolució de problemes complexos, habilitats socials, programació). L'estímul fiscal pot crear demanda en l'economia però no resol el problema si els treballadors desplaçats no tenen les habilitats per als nous llocs de treball. La solució adequada és la formació i la reconversió professional — però la recerca empírica mostra que els programes de reconversió sovint no funcionen bé per a treballadors adults en indústries en declivi. És un dels reptes de política pública més difícils del nostre temps.",
+          "feedbackWrong": "L'automatització crea atur estructural: el desajust entre les habilitats dels treballadors desplaçats i les habilitats que demana l'economia post-automatització. Les polítiques de demanda agregada (estímul fiscal) no resolen el desajust de qualificació. Cal formació, reconversió professional i potencialment protecció social per als qui no poden reconvertir-se. La recerca sobre l'efectivitat dels programes de reconversió és mixed — és un dels problemes de política pública més complexos i urgents."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-04-02",
+          "style": "true-false",
+          "question": "Un salari mínim alt sempre causa atur perquè encareix el cost del treball i les empreses contracten menys treballadors.",
+          "correct": false,
+          "feedbackCorrect": "Fals, o almenys molt més matisable del que suggereix la teoria simple. La predicció de la teoria estàndard (salari mínim alt = més atur) assumeix un mercat laboral perfectament competitiu. Però si el mercat laboral té elements de 'monopsoni' (els empresaris tenen poder de mercat sobre els treballadors, especialment en sectors o regions amb pocs empleadors), un salari mínim pot en realitat augmentar el salari i l'ocupació simultàniament, igual que un preu màxim en un monopoli pot augmentar la quantitat venuda. L'estudi clàssic de Card i Krueger (1994) — que va comparar restaurants de fast food a Nova Jersey (que va pujar el salari mínim) i Pennsylvania (que no el va pujar) — va trobar que l'augment del salari mínim no havia creat atur. Card va guanyar el Nobel el 2021 en part per aquest i altres treballs que van qüestionar les prediccions simples de la teoria laboral estàndard.",
+          "feedbackWrong": "La relació entre salari mínim i atur és molt més complexa que la predicció de la teoria simple. En mercats laborals amb poder de monopsoni (on els empresaris tenen poder de mercat sobre els treballadors), un salari mínim pot augmentar salaris i ocupació simultàniament. L'evidència empírica és mixta: alguns estudis troben efectes negatius en l'ocupació, especialment per als treballadors joves poc qualificats; altres no troben efectes significatius. David Card va guanyar el Nobel 2021 en part per desmuntar empíricament la predicció simple."
+        },
+        {
+          "type": "debate",
+          "question": "La intel·ligència artificial i l'automatització eliminaran milions de llocs de treball en les properes dècades. Alguns economistes diuen que sempre han sorgit noves feines per substituir les perdudes (com amb la Revolució Industrial). Altres adverteixen que aquesta vegada és diferent. Creus que l'economia generarà prou feines noves per als desplaçats per l'automatització?",
+          "positionA": {
+            "label": "L'economia s'adaptarà com sempre",
+            "argument": "La Revolució Industrial va eliminar milions de llocs de treball agrícoles i artesanals i en va crear molts més en les fàbriques. La informatització dels anys 80-90 va eliminar mecanògrafs i comptables i va crear programadors, analistes i dissenyadors. L'economia sempre ha trobat noves necessitats humanes que satisfer i noves formes de feina. La por a l'automatització és recurrent i sempre ha estat infundada a llarg termini."
+          },
+          "positionB": {
+            "label": "Aquesta vegada és diferent",
+            "argument": "Les automatitzacions anteriors substituïen el treball físic repetitiu però demanaven treball cognitiu. La IA substitueix el treball cognitiu de forma sense precedents. Si les màquines poden fer qualsevol tasca cognitiva millor que els humans, qué farà la majoria de la gent? La resposta 'sorgiràn feines noves' no és una garantia — és una fe basada en el passat que podria no aplicar-se a una transició tecnològica qualitativament diferent."
+          },
+          "reflection": "Qué creus que hauria de fer la política pública per preparar-se per als possibles efectes laborals de la IA? Quin model de protecció social seria adequat?",
+          "context": "El debat sobre l'impacte laboral de la IA és un dels més vius de l'economia contemporània. Economistes com Daron Acemoglu (MIT) han argumentat que la IA actual substitueix treball sense crear-ne prou de nou. Altres, com Erik Brynjolfsson, mantenen un optimisme més gran sobre la creació de noves feines."
+        }
+      ]
+    },
+    {
+      "id": "mac-05",
+      "title": "Comerç internacional: guanys, perdedors i el problema de la distribució",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2001, la Xina va entrar a l'Organització Mundial del Comerç. En els anys següents, les importacions xineses als EUA es van disparar. Els economistes dominants deien que el lliure comerç beneficia tots els països: els consumidors americans compraven béns més barats, i els treballadors americans podien concentrar-se en activitats on eren més productius. Però els economistes David Autor, David Dorn i Gordon Hanson van mesurar el que realment va passar en les regions americanes afectades per les importacions xineses: dècades de depressió econòmica, augment de la mortalitat per drogues i suïcidis, i... la victòria de Donald Trump el 2016 en aquells mateixos comtats. El 'shock xinès' va demostrar que el lliure comerç genera guanyadors i perdedors, i que els perdedors no es converteixen en guanyadors automàticament."
+        },
+        {
+          "type": "prediction",
+          "question": "El 2001 la Xina va entrar a l'OMC. Els economistes van dir que el lliure comerç beneficiaria tots dos països. Vint anys després, milers de factories americanes havien tancat i Donald Trump va guanyar les eleccions prometent aranzels. On van fallr les prediccions?",
+          "hint": "Pensa en la diferència entre els guanys agregats ('el país guanya') i la distribució d'aquells guanys ('qui guanya exactament')."
+        },
+        {
+          "type": "key-idea",
+          "text": "El comerç internacional genera guanys agregats (el país en conjunt pot consumir més) però genera perdedors específics (els sectors que competeixen amb les importacions). L'economia estàndard assumia que els guanyadors podien compensar els perdedors i que els desplaçats trobarien noves feines. L'evidència del 'shock xinès' va mostrar que en la pràctica aquesta redistribució rarament es produïa — i les conseqüències polítiques han estat enormes."
+        },
+        {
+          "type": "expandable",
+          "label": "L'avantatge comparatiu: per qué té sentit comerciar fins i tot si ets millor en tot",
+          "content": "El principi de l'avantatge comparatiu, formulat per David Ricardo el 1817, és un dels resultats més elegants i contra-intuïtius de l'economia. Diu que fins i tot si un país (o una persona) és absolutament millor que un altre en produir qualsevol bé, li convé especialitzar-se en el que fa relativament millor i comerciar. Exemple: un advocat que mecanografia el doble de ràpid que el seu assistent administratiu. Li convé escriure els seus propis documents o dedicar-se als casos legals i pagar l'assistent? Clarament, el seu avantatge comparatiu és el dret — el cost d'oportunitat de mecanografiar (perdre temps que podria usar en casos legals) és enorme. L'avantatge comparatiu explica per qué el comerç internacional beneficia tots els participants inclús si un és menys productiu en tot: cada país s'especialitza en el que fa relativament millor. El principi és matemàticament sòlid però les seves condicions d'aplicació (mercats competitius, mobilitat laboral, inexistència d'externalitats) rarament es compleixen plenament."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-05-01",
+          "style": "multiple-choice",
+          "question": "Si el comerç internacional genera guanys agregats per a un país, per qué hi ha tanta oposició política al lliure comerç?",
+          "options": [
+            "Perquè la gent no entén economia i creu equivocadament que el comerç perjudica els seus països",
+            "Perquè els guanys agregats es distribueixen de forma desigual: els consumidors guanyen una mica cadascú, però els treballadors dels sectors afectats perden molt i de forma concentrada, generant resistència política organitzada",
+            "Perquè els polítics usen el proteccionisme com a eina de campanya electoral sense creure realment en ell",
+            "Perquè el lliure comerç efectivament perjudica tots els treballadors en tots els països"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La lògica política del proteccionisme és la concentració dels perdedors vs. la dispersió dels guanyadors. Un treballador de l'acer que perd la feina per la competència xinesa és un perdedor visible, concentrat geogràficament i políticament organitzable. Un consumidor que paga 50€ menys per una rentadora xinesa és un guanyador difús, que ni sap que ha guanyat ni s'organitzarà políticament per defensar el lliure comerç. Mancur Olson ('La Lògica de l'Acció Col·lectiva') va teoritzar exactament aquest fenomen: els interessos concentrats s'organitzen fàcilment; els interessos difusos, no. Per això la política comercial tendeix al proteccionisme malgrat que l'economia diu que el lliure comerç és millor en agregat.",
+          "feedbackWrong": "No és una qüestió d'ignorància o de manipulació política. És una lògica de distribució de guanys i pèrdues: els perdedors del comerç (treballadors de sectors exposats) perden molt i de forma concentrada, i s'organitzen políticament. Els guanyadors (consumidors que paguen preus més baixos) guanyen poc cadascú i de forma dispersa, i no s'organitzen. El proteccionisme és la resposta política previsible a aquesta assimetria de la distribució dels efectes del comerç."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-05-02",
+          "style": "detect-error",
+          "statement": "Els aranzels (impostos sobre les importacions) els paga sempre l'empresa estrangera que exporta, sense cap cost per als consumidors del país importador.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és econòmicament incorrecta. Un aranzel el paga formalment l'importador (l'empresa que porta el bé al país), no l'exportador. I la càrrega real (l'incidència econòmica) es reparteix entre l'importador i el consumidor final en funció de les elasticitats de l'oferta i la demanda. Si la demanda és inelàstica (el consumidor ha de comprar el producte sigui quin sigui el preu), el consumidor absorbeix la major part de l'aranzel en forma de preu més alt. Si la demanda és molt elàstica (el consumidor pot fàcilment substituir el producte), el cost recau més sobre el productor estranger que ha de baixar el preu per competir. La guerra comercial EUA-Xina (2018-2020) va generar molta recerca empírica que mostrava que els consumidors americans van pagar la major part dels aranzels sobre productes xinesos, no les empreses xineses."
+        },
+        {
+          "type": "reflection",
+          "question": "La globalització ha tret de la pobresa centenars de milions de persones a la Xina, l'Índia i d'altres països emergents. Al mateix temps, ha contribuït a estancar els salaris i augmentar la desigualtat als països avançats. Com valores aquest balanç? Creus que és possible una globalització que distribueixi millor els seus guanys?",
+          "prompt": "Pensa en els actors concrets: un treballador xinès que ha sortit de la pobresa per la globalització, un treballador americà o europeu que ha perdut la seva feina per la competència, un consumidor que paga preus més baixos. Com pondera el benestar de cadascun?"
+        }
+      ]
+    },
+    {
+      "id": "mac-06",
+      "title": "Crisi climàtica i macroeconomia: el repte del segle",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 2006, l'economista Nicholas Stern va publicar un informe per al govern britànic sobre l'economia del canvi climàtic que va sacsejar el debat. La seva conclusió: el canvi climàtic és 'la fallida de mercat més gran de la história de la humanitat'. El cost d'actuar ara (transició energètica) era del 1% del PIB global anual. El cost de no actuar (dany climàtic) podia arribar al 20% del PIB global de forma permanent. Des d'una perspectiva purament econòmica de cost-benefici, actuar era òbviament millor. I tanmateix, vint anys més tard, les emissions globals seguien augmentant. L'economia del canvi climàtic és la prova definitiva del problema dels béns públics globals, els incentius perversos i la política de l'acció col·lectiva."
+        },
+        {
+          "type": "prediction",
+          "question": "El canvi climàtic és la externalitat negativa més gran de la história. Econòmicament, la solució és clara: posar un preu al carboni. Políticament, és gairebé impossible d'implementar a l'escala necessària. Qué creus que faria falta per trencar aquest bloqueig polític?",
+          "hint": "Pensa en qui es beneficia del statu quo (indústries fòssils, països exportadors de petroli), qui pateix els costos (generacions futures, països pobres) i per qué la matemàtica electoral no afavoreix les polítiques climàtiques."
+        },
+        {
+          "type": "key-idea",
+          "text": "El canvi climàtic és econòmicament una externalitat negativa global d'escala sense precedents: les emissions de CO₂ d'avui causen danys a tothom al llarg dels propers segles, però els que emeten no paguen el cost que causen. La solució econòmica estàndard — posar un preu al carboni — és àmpliament acceptada pels economistes però enormement difícil d'implementar políticament per la combinació d'interessos concentrats, problemes d'acció col·lectiva global i desigualtats distributives."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Desigualtat: Causes, Efectes i Redistribució",
+          "moduleEmoji": "⚖️",
+          "concept": "El canvi climàtic i la desigualtat global",
+          "text": "El canvi climàtic i la desigualtat son els dos grans reptes macroeconomics del segle XXI i estan profundament connectats: els països pobres son els més vulnerables als efectes climàtics malgrat ser els que menys hi han contribuït. El mòdul de desigualtat aprofundeix en com les externalitats climàtiques i la distribució de la riquesa s'alimenten mútuament."
+        },
+        {
+          "type": "expandable",
+          "label": "El problema de la descompte intertemporal: per qué les generacions futures no voten",
+          "content": "Un dels problemes econòmics centrals del canvi climàtic és la taxa de descompte intertemporal: quant val avui un dany que ocorrerà d'aquí cent anys? Si uses una taxa de descompte del 5% (la típica en finances privades), un dany d'un milió d'euros d'aquí cent anys val avui uns 7.600€ — gairebé res. Amb aquesta lògica, mai no val la pena invertir molt per prevenir danys futurs. Stern va usar una taxa de descompte molt baixa (1,4%), argumentant que les vides futures no valen menys que les presents. Els seus crítics (com William Nordhaus, Nobel 2018) argumentaven que era massa baixa i exagerava el valor actual dels danys futurs. El debat és en part tècnic (quin tipus d'interès és el correcte?) i en part filosòfic (¿han de tenir el mateix pes moral les generacions futures que les presents?). I les generacions futures, que seran les més afectades pel canvi climàtic, no voten les decisions presents."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-06-01",
+          "style": "multiple-choice",
+          "question": "Per qué és tan difícil implementar un acord internacional efectiu per reduir emissions de CO₂, malgrat que tots els països es beneficiarien d'una reducció global?",
+          "options": [
+            "Perquè els científics no han pogut convèncer els polítics que el canvi climàtic és real i causat per les emissions humanes",
+            "Perquè el clima és un bé públic global: un país que redueix les seves emissions suporta el cost però el benefici el reben tots, creant incentius per a defeccions i el problema del 'passatger de franc'",
+            "Perquè els acords internacionals requereixen unanimitat i sempre hi ha un país que veta qualsevol proposta",
+            "Perquè les tecnologies renovables no estan prou avançades per substituir els combustibles fòssils a un cost raonable"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El clima és un bé públic global: si tothom redueix emissions, tothom es beneficia independentment de si ha contribuït a la reducció o no. Això crea el problema del 'passatger de franc' a escala global: cada país té incentius per deixar que els altres redueixin emissions (suportant el cost de la transició energètica) mentre ell continua emetent i es beneficia gratuïtament de la reducció global. Si tots els països pensen igual, ningú redueix. El dilema és una versió del dilema del presoner a escala internacional: la solució col·lectivament racional (tots reduïm) és diferent de la suma de les solucions individualment racionals (cada país prefereix que els altres redueixin mentre ell no ho fa).",
+          "feedbackWrong": "El problema no és científic ni tecnològic — és d'incentius i acció col·lectiva. El clima és un bé públic global, i els béns públics globals pateixen el problema del 'passatger de franc': cada actor té incentius per beneficiar-se de les accions dels altres sense contribuir al cost. A escala internacional, sense un govern mundial que pugui imposar la cooperació, el dilema és estructuralment difícil de resoldre."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mac-06-02",
+          "style": "multiple-choice",
+          "question": "Un impost al carboni que eleva el preu de l'energia és regressiu: representa una proporció més gran de la renda de les llars pobres que de les riques. Com es podria dissenyar per ser alhora efectiu ambientalment i progressiu distributivament?",
+          "options": [
+            "Reduint el tipus de l'impost per fer-lo menys regressiu, tot i que això redueixi el seu efecte sobre les emissions",
+            "Usant els ingressos de l'impost per fer transferències iguals per capita a tots els ciutadans (dividend del carboni), que beneficien proporcionalment més les llars de renda baixa",
+            "Exemptant les llars de renda baixa del pagament de l'impost mitjançant controls administratius",
+            "Aplicant l'impost només a les grans empreses i no als consumidors finals"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El 'dividend del carboni' (Carbon Dividend) és la proposta que han defensat molts economistes (inclòs un grup d'economistes de tots els espectres polítics que va publicar un manifest el 2019 signat per 3.500 economistes, inclosos 27 premis Nobel): es taxa el carboni i es distribueix tot l'ingrès de l'impost a parts iguals per capita. Com les llars pobres emeten menys carboni que les riques (consumixen menys), i el dividend és igual per a tothom, les llars de renda baixa reben en dividends més del que paguen en impost net. El resultat: l'impost és ambientalment efectiu (encara el carboni), progressiu distributivament (beneficia les llars pobres) i políticament potencialment acceptable (la majoria de la gent rep un xec).",
+          "feedbackWrong": "La solució és el 'dividend del carboni': recaptar l'impost i distribuir-lo a parts iguals per capita. Com les llars pobres emeten menys i el dividend és igual per a tothom, les llars pobres reben en dividends més del que paguen en impost addicional. La proposat combina efectivitat ambiental, equitat distributiva i (en teoria) viabilitat política."
+        },
+        {
+          "type": "debate",
+          "question": "La transició energètica requereix inversions massives en renovables, transport elèctric i eficiència energètica. Alguns economistes (com Mariana Mazzucato) argumenten que l'Estat ha de liderar aquesta inversió com va liderar la missió lunar. Altres defensen que el sector privat ho farà si els preus del carboni envien el senyal correcte. Quin model prefereixes?",
+          "positionA": {
+            "label": "L'Estat ha de liderar la transició",
+            "argument": "Les transicions tecnològiques de gran escala (ferrocarril, internet, energia nuclear) han requerit lideratge estatal. El sector privat no invertirà prou en transicions d'alt risc, horitzó llarg i externalitats positives enormes. L'Estat ha de crear mercats (via regulació i inversió pública) que el sector privat pot després omplir. La missió lunar és el model: objectiu clar, recursos públics massius, creació d'industries noves."
+          },
+          "positionB": {
+            "label": "El preu del carboni i el mercat ho faran",
+            "argument": "L'Estat és sistemàticament dolent per triar tecnologies guanyadores: ha finançat moltes fallides costoses (certs programes nuclears, alguns projectes de bio-combustible). La solució és donar el senyal de preu correcte (taxa al carboni alta) i deixar que el mercat trobi les solucions més eficients. La transició energètica no necessita que el govern triï entre eòlica, solar, nuclear o hidrogen — necessita que el carboni sigui car i el mercat ja s'organitzarà."
+          },
+          "reflection": "La Xina lidera la producció de panells solars i bateries, amb un fort rol estatal en el sector. Els EUA han invertit 370.000 milions en energia neta via l'Inflation Reduction Act. La UE té el Green Deal. Quin model creus que és més efectiu?",
+          "context": "El debat sobre el rol de l'Estat en la transició energètica és un dels més vius de la política econòmica contemporània. Mariana Mazzucato ('L'Estat Emprenedor'), la Teoria Monetaria Moderna i els defensors de les polítiques industrials verdes representen un retorn de la política industrial que el consens neoliberal havia abandonat als anys 80."
+        }
+      ]
+    }
+  ]
+}

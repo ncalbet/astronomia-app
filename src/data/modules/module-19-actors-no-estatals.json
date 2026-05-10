@@ -1,0 +1,581 @@
+{
+  "id": "module-19-actors-no-estatals",
+  "title": "Drets Humans i Actors No Estatals",
+  "emoji": "💼",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "empreses-drets",
+      "title": "Empreses i Drets Humans",
+      "icon": "🏭",
+      "description": "Quan el poder econòmic privat afecta els drets de les persones",
+      "style": "Conceptual i pràctic · del soft law a la diligència deguda",
+      "lessons": [
+        {
+          "id": "emp-01",
+          "title": "Per qué les empreses importen en drets humans",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1984, una fuga de gas a la planta de la Union Carbide a Bhopal (Índia) va matar entre 3.800 i 16.000 persones — les estimacions varien enormement. Fins a 500.000 persones van quedar afectades per la intoxicació. La Union Carbide era una empresa americana. El desastre va ocórrer a l'Índia. Les víctimes eren ciutadans indis. El govern indi va acordar una indemnització de 470 milions de dòlars amb la Union Carbide el 1989 — menys de 1.000 dòlars per víctima morta. Els directius de la companyia mai van ser jutjats als EUA. El director executiu de la Union Carbide a l'Índia va ser condemnat per negligència per un tribunal indi el 2010 — vint-i-sis anys després del desastre — a dos anys de presó. Bhopal és el cas que millor il·lustra per qué les empreses transnacionals necessiten un marc de responsabilitat en drets humans."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les empreses transnacionals operen en un espai de responsabilitat difusa: son prou poderoses per afectar els drets de milions de persones però el sistema clàssic de drets humans sols obliga els estats. El resultat és un buit de responsabilitat — les empreses no son subjectes directes de les obligacions de drets humans internacionals, i els estats on operen sovint tenen poc incentiu o capacitat per regular-les. Construir un marc de responsabilitat empresarial en drets humans és un dels reptes jurídics i polítics més urgents del sistema internacional."
+            },
+            {
+              "type": "expandable",
+              "label": "La cadena de subministrament com a espai de vulneració de drets",
+              "content": "Les grans empreses transnacionals rarament produeixen directament — externalitzen la producció a proveïdors, subproveïdors i sub-subproveïdors en cadenes que poden tenir deu o més nivells. Cada nivell afegeix distància jurídica entre la marca final i les condicions de producció. Una empresa de roba pot tenir la seva seu a Europa, la producció principal a Bangladesh, el cotó a l'Uzbekistan (on fins fa poc es feia servir treball forçat en la collita), i els botons a Vietnam. Quan un treballador de Bangladesh mor per la caiguda d'un edifici que allotjava una fàbrica subcontractada, la marca europea pot al·legar que no tenia relació directa amb aquell edifici, aquell subcontractista, o aquell treballador. La construcció de la responsabilitat al llarg de la cadena de subministrament és el problema central del dret empresarial en matèria de drets humans."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Tecnologia",
+              "moduleEmoji": "⚙️",
+              "concept": "La globalització econòmica i la redistribució del risc",
+              "text": "Al mòdul d'Història de la Tecnologia vam veure com la globalització econòmica ha creat empreses transnacionals amb pressupostos superiors al PIB de molts estats. La cadena de subministrament global és el mecanisme que permet a les empreses ubicar la producció allà on els costos (inclosos els costos de cumpliment de les normes laborals i ambientals) son menors. La redistribució geogràfica de la producció és alhora una estratègia de reducció de costos i una estratègia de reducció de la responsabilitat jurídica. Entendre la lògica econòmica és essencial per entendre per qué el marc de responsabilitat empresarial és tan difícil de construir."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1984",
+                  "title": "Desastre de Bhopal",
+                  "text": "Union Carbide. Milers de morts. Indemnització insuficient. Impunitat dels directius."
+                },
+                {
+                  "year": "1995",
+                  "title": "Shell al Delta del Níger i la mort de Ken Saro-Wiwa",
+                  "text": "L'activista Ogoni és executat per oposar-se a la devastació ambiental de Shell. Pressió internacional sense resposta."
+                },
+                {
+                  "year": "2000",
+                  "title": "Pacte Mundial de l'ONU (Global Compact)",
+                  "text": "Iniciativa voluntària per a empreses. Deu principis en drets humans, treball, medi ambient i anticorrupció. Criticat per manca de mecanismes de verificació."
+                },
+                {
+                  "year": "2011",
+                  "title": "Principis Rectors de l'ONU sobre Empreses i Drets Humans",
+                  "text": "Marc 'protegir, respectar, remeiar' de John Ruggie. Estàndard internacional de referència."
+                },
+                {
+                  "year": "2013",
+                  "title": "Col·lapse de Rana Plaza, Bangladesh",
+                  "text": "1.134 treballadors morts. Roba per a marques europees i americanes. Inicia el debat sobre la diligència deguda obligatòria."
+                },
+                {
+                  "year": "2017-2024",
+                  "title": "Lleis nacionals de diligència deguda",
+                  "text": "França (2017), Holanda (2021), Alemanya (2023), Directiva europea (2024). Obligació legal, no voluntària."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-emp-01-01",
+              "style": "multiple-choice",
+              "question": "Per qué el Pacte Mundial de l'ONU (Global Compact, 2000) ha estat criticat com a 'bluewashing' — rentar la imatge de les empreses amb el prestigi de l'ONU sense responsabilitat real?",
+              "options": [
+                "Perquè els deu principis del Pacte son massa vagues i genèrics per generar obligacions concretes mesurables",
+                "Perquè l'adhesió al Pacte és voluntària, no hi ha mecanisme de verificació independent del compliment dels principis, i les empreses que violen els principis rarament son excloses del Pacte",
+                "Perquè el Pacte sols s'aplica a les grans empreses transnacionals i exclou les pimes que son les principals violadores dels drets laborals a nivell global",
+                "Perquè el Pacte va ser dissenyat per empreses per a empreses i no va comptar amb la participació de les organitzacions de víctimes i de la societat civil en la seva elaboració"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La crítica central al Global Compact és la seva manca de mecanismes de verificació i execució. Qualsevol empresa pot adherir-se al Pacte (pagant una quota) i usar el logotip de l'ONU en la seva comunicació, sense que hi hagi una verificació independent de si compleix els deu principis. Les empreses que violen els principis rarament son excloses — el mecanisme d'exclusió ('communicating on progress' — informar anualment del progrés) ha exclòs empreses per no presentar els informes, no per violar els principis. El resultat és que el Global Compact ha estat usat per empreses amb registres preocupants de drets humans per milllorar la seva imatge sense canviar substancialment el seu comportament.",
+              "feedbackWrong": "Els principis son prou específics en moltes àrees. El Pacte no exclou les pimes. La participació de la societat civil en la seva elaboració va ser limitada però no és la crítica principal. La raó central de la crítica és la manca de mecanismes de verificació i execució que converteixen el Pacte en un instrument de màrqueting més que en un de responsabilitat real."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-emp-01-01",
+              "question": "Si les empreses son les principals responsables de certes violacions de drets humans (en les seves cadenes de subministrament, en les seves operacions extractives, en el seu impacte ambiental), qui hauria de regular-les — els estats on tenen la seu, els estats on operen, o una instància internacional?",
+              "options": [
+                "Els estats on tienen la seu: son els que tienen la capacitat jurídica i econòmica per regular les seves empreses i poden fer-ho aplicant la legislació nacional extraterritorialment",
+                "Els estats on operen: son els que tienen la jurisdicció territorial sobre les activitats i els que millor conèixen les condicions locals",
+                "Una instància internacional: els estats individualment no tenen incentius per regular estrictament les seves empreses (que generaran ocupació i ingressos fiscals en el país on operin en lloc del propi si la regulació és massa estricta), i sols una regulació global pot evitar la 'cursa cap al fons' en matèria de protecció de drets"
+              ],
+              "correct": 0,
+              "explanation": "La resposta de la regulació des dels estats d'origen (on l'empresa té la seu) és la que ha demostrat major eficàcia pràctica. Molts estats on les empreses operen (especialment els de renda baixa) tienen poc incentiu i poca capacitat per regular les empreses transnacionals que generen inversió estrangera directa — la 'cursa cap al fons' és real. Les instàncies internacionals no tienen poder coercitiu sobre les empreses. Les lleis d'aplicació extraterritorial dels estats d'origen (la llei francesa de diligència deguda, la llei alemanya, la directiva europea) han demostrat que es pot regular la cadena global de subministrament des dels estats on les empreses tienen la seu, obligant-les a verificar les condicions de drets humans al llarg de tota la cadena. El Tractat vinculant sobre empreses i drets humans que es negocia a l'ONU des del 2014 intenta crear una instància internacional — però el seu progrés és molt lent per la resistència dels estats occidentals on es concentren les grans corporacions transnacionals."
+            }
+          ]
+        },
+        {
+          "id": "emp-02",
+          "title": "Els Principis Rectors de l'ONU: el marc 'protegir, respectar, remeiar'",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2005, el Secretari General de l'ONU Kofi Annan va nomenar John Ruggie, professor de Harvard, com a Representant Especial per a les Empreses i els Drets Humans. Ruggie va passar sis anys consultant governs, empreses, ONG, sindicats i comunitats afectades per tot el món. Va llegir milers de casos de violacions de drets humans per empreses. I va concloure que el problema central no era la manca de normes sinó la 'bretxa de governança': la distància entre les obligacions dels estats i la realitat de com operaven les empreses globals. El 2011, el Consell de Drets Humans de l'ONU va adoptar per unanimitat els Principis Rectors que Ruggie havia elaborat — un fet polític notable en si mateix."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els Principis Rectors de l'ONU sobre Empreses i Drets Humans (2011) estableixen un marc de tres pilars: l'obligació dels estats de protegir els drets humans davant dels abusos de tercers (incloses les empreses) — primer pilar; la responsabilitat de les empreses de respectar els drets humans — segon pilar; i l'accés de les víctimes a remei efectiu — tercer pilar. Son el principal estàndard de referència internacional en la matèria, tot i no ser jurídicament vinculants."
+            },
+            {
+              "type": "comparison",
+              "title": "El marc dels Principis Rectors: tres pilars",
+              "labelA": "Primer pilar: Protegir (estats)",
+              "labelB": "Segon pilar: Respectar (empreses) i Tercer pilar: Remeiar",
+              "items": [
+                {
+                  "label": "Titular de l'obligació",
+                  "a": "Els estats: obligació jurídica de protegir els drets humans davant dels abusos d'actors privats",
+                  "b": "Les empreses: responsabilitat (no obligació jurídica en el soft law) de respectar els drets humans. Tots: remei efectiu per a les víctimes"
+                },
+                {
+                  "label": "Contingut principal",
+                  "a": "Regular les empreses, investigar els abusos, proporcionar remei judicial i no judicial",
+                  "b": "Diligència deguda en drets humans: identificar, prevenir, mitigar i retre comptes dels impactes. Remei: mecanismes de queixa efectius"
+                },
+                {
+                  "label": "Caràcter jurídic",
+                  "a": "L'obligació dels estats és jurídica (existeix en el dret internacional de drets humans independent dels Principis Rectors)",
+                  "b": "La responsabilitat de les empreses és de 'hard expectation, soft law': esperada socialment però no jurídicament obligatòria en el marc dels PR"
+                },
+                {
+                  "label": "Principal limitació",
+                  "a": "Molts estats no regulen efectivament les seves empreses, especialment en l'extraterritorialitat",
+                  "b": "La responsabilitat de les empreses és voluntària; el remei és freqüentment insuficient o inaccessible"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "La diligència deguda en drets humans: qué han de fer les empreses",
+              "content": "El segon pilar dels Principis Rectors estableix que les empreses han de dur a terme 'diligència deguda en drets humans' (human rights due diligence, HRDD): un procés continu per identificar, prevenir, mitigar i retre comptes dels impactes negatius sobre els drets humans que les seves activitats puguin causar o als quals puguin contribuir, directament o a través de les seves relacions comercials. La HRDD no és una auditoria puntual — és un procés dinàmic. Inclou: avaluació de l'impacte real i potencial sobre els drets humans; integració de les conclusions en les decisions i processos de l'empresa; seguiment de l'efectivitat de les mesures adoptades; comunicació de com es gestionen els impactes. La diligència deguda no garanteix la responsabilitat zero — però estableix que l'empresa ha de saber els riscos, prendre mesures per abordar-los, i retre comptes públicament de com ho fa. Les lleis de diligència deguda obligatòria (França, Alemanya, UE) han convertit progressivament aquesta expectativa en obligació legal."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-emp-02-01",
+              "style": "multiple-choice",
+              "question": "La Directiva Europea de Diligència Deguda en Sostenibilitat Corporativa (CSDDD, adoptada el 2024) obliga les grans empreses europees a identificar i abordar els riscos en drets humans i medi ambient en les seves cadenes de subministrament. Quin és l'element més innovador d'aquest instrument en comparació amb els Principis Rectors de l'ONU?",
+              "options": [
+                "Que amplia la protecció dels drets humans a tots els treballadors de la cadena de subministrament, incloent-hi els treballadors informals que els Principis Rectors ignoraven",
+                "Que és jurídicament vinculant i estableix sancions per incompliment (multes fins al 5% de la facturació global) i responsabilitat civil davant dels tribunals europeus per les víctimes afectades",
+                "Que crea un nou organisme europeu de supervisió independent amb capacitat d'inspeccionar les empreses i les seves cadenes de subministrament globalment",
+                "Que obliga les empreses a incorporar representants de les comunitats afectades als seus consells d'administració per garantir la supervisió directa dels impactes en drets humans"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'element més innovador de la CSDDD en comparació amb els Principis Rectors és la seva natura jurídica vinculant i les sancions associades. Els Principis Rectors son soft law — estableixen expectatives però no generen sancions per incompliment. La CSDDD, en canvi, obliga les empreses sota amenaça de multes significatives i crea la possibilitat que les víctimes en tercers països demanden les empreses europees davant dels tribunals europeus pels danys causats per violacions de drets humans o danys ambientals en la seva cadena de subministrament. És un canvi qualitatiu: de la responsabilitat voluntària a la responsabilitat legal coercible.",
+              "feedbackWrong": "La cobertura de treballadors informals és un element important però no el més innovador. La CSDDD no crea un nou organisme d'inspecció propi — la supervisió recau sobre les autoritats nacionals dels estats membres. No obliga la representació als consells d'administració. La innovació central és la vinculatorietat jurídica i les sancions."
+            },
+            {
+              "type": "debate",
+              "question": "La responsabilitat de les empreses en matèria de drets humans hauria de ser purament voluntària (com en els Principis Rectors) o obligatòria per llei (com en les lleis de diligència deguda)?",
+              "positionA": {
+                "label": "La regulació obligatòria és necessària",
+                "argument": "Dues dècades d'iniciatives voluntàries (Global Compact, principis de l'Equador, iniciatives sectorials) han demostrat que la voluntarietat no és suficient: les empreses adopten els principis però no canvien substancialment el seu comportament quan el compliment no té cost. La regulació obligatòria crea un camp de joc nivellat — totes les empreses han de complir, eliminant el desavantatge competitiu de les que ho fan voluntàriament. I proporciona a les víctimes remei jurídic real, no sols la possibilitat d'una queixa davant d'un mecanisme no vinculant."
+              },
+              "positionB": {
+                "label": "La regulació voluntària permet la innovació",
+                "argument": "La regulació obligatòria imposa costos de compliment que afecten especialment les pimes i pot generar 'desinversió' en les economies més pobres, on els estàndards de drets humans son menors — el que perjudica precisament les comunitats que pretén protegir. La regulació voluntària permet als líders del sector establir estàndards més alts i generar pressió de mercat i de consumidors sobre els retards. La combinació de regulació obligatòria de mínims i incentius per a l'excel·lència voluntària és la via més efectiva."
+              },
+              "reflection": "El debat entre regulació obligatòria i voluntarietat és un debat sobre l'efectivitat del mercat per generar comportament responsable sense coerció. Creus que les empreses canvien sense la pressió de la llei? Pensa en casos que coneixes.",
+              "context": "La investigació disponible sobre l'impacte de les lleis de diligència deguda és limitada per la seva novetat. Però els estudis sobre els efectes de les regulacions ambientals mostren consistentment que la regulació obligatòria és més efectiva que la voluntàrietat per canviar el comportament empresarial a escala. La llei francesa de 2017 (Loi de Vigilance) és el cas més estudiat fins ara."
+            }
+          ]
+        },
+        {
+          "id": "emp-03",
+          "title": "Indústries extractives i comunitats: el conflicte pels recursos",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El Delta del Níger de Nigeria conté les reserves de petroli que han finançat el règim nigerià durant dècades. La Shell i altres multinacionals han extret aquell petroli des dels anys 60. La comunitat Ogoni — 500.000 persones — viu en una de les zones més contaminades del planeta: derrames de petroli, crema de gasos, destrucció de la pesca i l'agricultura que sostenien la seva vida. Ken Saro-Wiwa, escriptor i activista Ogoni, va organitzar la resistència pacífica. El 1995, el govern militar nigerià del general Sani Abacha el va executar juntament amb vuit activistes més. El govern va acusar-los d'homicidi. La comunitat internacional va condemnar les execucions. Shell va continuar extraient petroli."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les indústries extractives (petroli, gas, mineria) son el sector amb major nombre de conflictes documentats entre empreses i comunitats en matèria de drets humans. Els conflictes sovint involucren: desplaçament de comunitats de les terres ancestrals, contaminació ambiental que destrueix els medis de vida, beneficis que van a les capitals i no a les comunitats locals, i repressió dels qui protesten. El dret al consentiment lliure, previ i informat (CLPI) de les comunitats afectades és una norma internacional creixentment reconeguda."
+            },
+            {
+              "type": "expandable",
+              "label": "El consentiment lliure, previ i informat (CLPI): dret o obstacle?",
+              "content": "El dret al consentiment lliure, previ i informat (CLPI) de les comunitats indígenes sobre els projectes que afecten les seves terres i recursos ha estat reconegut progressivament en instruments internacionals: la Convenció 169 de l'OIT (1989), la Declaració de l'ONU sobre els Drets dels Pobles Indígenes (2007), i la jurisprudència de la Cort Interamericana (Saramaka c. Surinam, 2007; Sarayaku c. Equador, 2012). El CLPI no significa dret de vet absolut — la Cort Interamericana ha matisat que en certs casos pot procedir un projecte sense el consentiment si es compleixen condicions molt estrictes. Però significa que la consulta ha de ser real (no merament formal), prèvia a la decisió (no una vegada presa), i el seu resultat ha de poder influir en la decisió. La industria extractiva ha intentat sistemàticament convertir el CLPI en un procés formal sense contingut real. Les comunitats han usat el CLPI davant dels tribunals per paralitzar projectes en diversos països."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-emp-03-01",
+              "style": "multiple-choice",
+              "question": "La Cort Interamericana va dictar sentència el 2012 en el cas Pueblo Sarayaku contra Equador, sobre la construcció d'un oleoducte en territori del poble Sarayaku sense el seu consentiment. Quins elements va establir la Cort sobre el contingut del dret al CLPI?",
+              "options": [
+                "Que el CLPI dona un dret de vet absolut a les comunitats indígenes sobre qualsevol projecte que afecti el seu territori, independentment de l'interès públic o nacional",
+                "Que el CLPI requereix una consulta de bona fe (no merament formal), prèvia a l'inici del projecte, amb l'objectiu d'arribar a un acord, culturalment adequada, i que les comunitats no poden ser forçades a consentir",
+                "Que el CLPI sols s'aplica als projectes que afecten directament les terres ancestrals en un sentit físic, no a projectes d'infraestructura que passen pel territori sense afectar-ne la superfície",
+                "Que el CLPI requereix que el govern pagui una compensació econòmica prèvia a les comunitats com a condició per iniciar el procés de consulta"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La sentència Sarayaku va elaborar el contingut del CLPI de manera detallada: la consulta ha de ser de bona fe i no un simple tràmit formal; ha de ser prèvia al projecte (no una vegada que la infraestructura ja s'ha construït); ha de tenir com a objectiu arribar a un acord o consentiment, no merament informar; ha de ser culturalment adequada (en l'idioma de la comunitat, respectant les seves formes d'organització i presa de decisions); i les comunitats no poden ser forçades a consentir mitjançant pressió, engany o incentius inadequats. La sentència va establir que Equador havia violat el CLPI del Sarayaku en permetre a les empreses petroleres accedir al seu territori sense una consulta genuïna.",
+              "feedbackWrong": "El CLPI no dona dret de vet absolut — la Cort ha matisat que en casos excepcionals pot procedir un projecte sense consentiment. El CLPI s'aplica als impactes en el territori en un sentit ampli, no sols a la superfície física. La compensació econòmica prèvia no és un element del CLPI — tot i que les reparacions per danys causats son una obligació separada."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-emp-03-02",
+              "style": "detect-error",
+              "statement": "Les empreses multinacionals que operen en tercers països estan obligades a complir únicament les lleis del país on operen, i si aquelles lleis son menys estrictes que les del seu país d'origen, poden aplicar estàndards menors sense cap responsabilitat internacional.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta i cada vegada més qüestionada pel dret internacional i les legislacions nacionals emergents. Primera, els Principis Rectors de l'ONU estableixen que les empreses han de respectar els drets humans 'com a mínim' — és a dir, fins i tot quan la legislació local no els exigeix un determinat estàndard, el respecte dels drets humans internacionals és una expectativa de comportament. Segona, les lleis de diligència deguda (francesa, alemanya, europea) apliquen extraterritorialment: una empresa francesa ha de garantir que les condicions de drets humans en tota la seva cadena de subministrament global compleixen estàndards internacionals, independentment del que digui la llei local. Tercera, els tribunals dels països d'origen estan sent cada vegada més receptius a demandes contra empreses per danys causats en tercers països: el cas Vedanta (Regne Unit) i el cas Shell (Holanda) son exemples de tribunals que han acceptat responsabilitat extraterritorial d'empreses per danys causats en Zàmbia i Nigeria respectivament."
+            }
+          ]
+        },
+        {
+          "id": "emp-04",
+          "title": "Tecnologia, plataformes digitals i drets humans",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2021, Frances Haugen, enginyer de dades de Facebook, va filtrar milers de documents interns de la companyia al Wall Street Journal i al Congrés americà. Els documents mostraven que Facebook sabia que Instagram perjudicava la salut mental de les adolescents, que el seu algoritme amplificava la desinformació i el contingut d'odi, i que havia moderat el contingut de manera diferent en anglès que en altres idiomes — el que havia contribuït a la violència de Myanmar contra els Rohingya. Haugen va declarar davant del Senat americà i davant del Parlament Europeu. 'Facebook ha demostrat una i altra vegada que quan es força a triar entre fer el que és correcte per a les persones i fer el que és correcte per als seus beneficis, tria els seus beneficis.'"
+            },
+            {
+              "type": "key-idea",
+              "text": "Les plataformes tecnològiques i les xarxes socials son actors amb un impacte creixent en els drets humans: la llibertat d'expressió (moderació de continguts), la privadesa (recollida massiva de dades), la igualtat (discriminació algorítmica), i fins i tot el dret a la vida (contribució a la violència i la desinformació). Son actors no estatals amb poder d'escala comparable o superior al de molts estats — i el marc de responsabilitat és molt menys desenvolupat que per a altres sectors."
+            },
+            {
+              "type": "expandable",
+              "label": "El cas Myanmar: quan l'algoritme contribueix al genocidi",
+              "content": "Facebook va arribar a Myanmar entre 2010 i 2015, coincidint amb la popularització dels smartphones. Per a molts birmans, Facebook i Internet eren la mateixa cosa — l'empresa havia fet acords amb empreses de telecomunicacions que feien que Facebook fos gratuït per als usuaris. La plataforma va ser usada extensivament per difondre contingut d'odi anti-Rohingya: rumors, falsedats, incitació directa a la violència. El 2017, la violència contra els Rohingya va generar 700.000 refugiats i ha estat descrita com a genocidi per experts de l'ONU. L'ONU va concloure que Facebook havia jugat 'un paper determinant' en la difusió de l'odi. Facebook havia estat advertida per investigadors i activistes des del 2013 sobre el problema — i no havia actuat adequadament. L'empresa tenia dos moderadors de contingut que parlaven birmà per a un país de 54 milions de persones. El cas Myanmar és el més clar exemple de l'impacte letal que pot tenir la manca de diligència deguda d'una plataforma en drets humans."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Neurociència Bàsica",
+              "moduleEmoji": "🧠",
+              "concept": "L'economia de l'atenció i els mecanismes neurals de la desinformació",
+              "text": "Al mòdul de Neurociència vam veure com els algoritmes de recomanació de les plataformes digitals estan dissenyats per maximitzar l'engagement (compromís) de l'usuari, i que el contingut que més engagement genera és el que provoca les respostes emocionals més intenses — freqüentment l'indignació, la por i l'odi. La neurociència confirma que el contingut emocionalment intens és processat de manera diferent pel cervell: activa l'amígdala de manera que bypassa parcialment el processament crític del còrtex prefrontal. Les plataformes que optimitzen per l'engagement maximitzen involuntàriament (o voluntàriament) la distribució de contingut que activa aquelles respostes emocionals primàries — el que genera els efectes documentats sobre la polarització i la violència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-emp-04-01",
+              "style": "multiple-choice",
+              "question": "L'Acta de Serveis Digitals de la UE (DSA, 2022) obliga les plataformes molt grans (com Facebook, YouTube, TikTok) a avaluar i mitigar els 'riscos sistèmics' que generen, inclosos els riscos per als drets fonamentals. Quina és la innovació clau d'aquell marc regulatori en comparació amb la regulació anterior?",
+              "options": [
+                "Que prohibeix que les plataformes grans usin algoritmes de recomanació basats en les dades dels usuaris, forçant-les a usar sols criteris cronològics per mostrar el contingut",
+                "Que obliga les plataformes grans a realitzar i publicar avaluacions de riscos sistèmics (inclosos els riscos per als drets fonamentals), sotmetre's a auditories independents, i permet a la Comissió Europea imposar sancions fins al 6% de la facturació global per incompliment",
+                "Que crea un dret dels usuaris europeus a ser compensats econòmicament per tots els danys causats per continguts il·legals que han vist a les plataformes",
+                "Que obliga les plataformes a obtenir el consentiment explícit dels usuaris per a cada decisió d'algoritme de recomanació que prengui la plataforma sobre el seu contingut"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La innovació clau de la DSA és introduir la responsabilitat sistèmica: les plataformes grans no sols han d'eliminar continguts il·legals (obligació anterior) sinó que han d'avaluar i mitigar activament els riscos sistèmics que generen — inclosos els riscos per als drets fonamentals, la salut pública i els processos democràtics. Les avaluacions de risc han de ser publicades, les plataformes han de sotmetre's a auditories independents, i la Comissió Europea pot imposar multes fins al 6% de la facturació global. És un canvi de paradigma: de la responsabilitat reactiva (eliminar continguts il·legals quan es notifiquen) a la responsabilitat proactiva (identificar i mitigar els riscos sistèmics del disseny de la plataforma).",
+              "feedbackWrong": "La DSA no prohibeix els algoritmes de recomanació basats en dades. No crea un dret d'indemnització individual per cada contingut il·legal vist. No obliga al consentiment per a cada decisió algorítmica. La innovació és la responsabilitat proactiva pels riscos sistèmics — un canvi qualitatiu respecte a la regulació anterior basada en la notificació i eliminació."
+            }
+          ]
+        },
+        {
+          "id": "emp-05",
+          "title": "El sector financer i els drets humans: diners que financen atrocitats",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2021, Global Witness va publicar un informe que mostrava que els principals bancs d'inversió del món (JPMorgan, Citi, Bank of America, entre d'altres) havien finançat amb desenes de milers de milions de dòlars empreses petrolieres que operaven en territoris disputats, que violaven els drets de les comunitats indígenes, o que contribuïen de manera mesurable al canvi climàtic. Els bancs complien totes les lleis aplicables. No hi havia cap obligació jurídica de refusar aquells finançaments. I tanmateix, sense aquell finançament, molts projectes no haurien estat possibles. El sector financer és el lubricant de l'economia global — i per tant és alhora el sector amb menor regulació en matèria de drets humans i el que té major capacitat d'influir en el comportament dels altres sectors."
+            },
+            {
+              "type": "key-idea",
+              "text": "El sector financer (bancs, fons d'inversió, fons de pensions, assegurances) és un actor crític en drets humans perquè proporciona el capital que fa possibles les operacions d'empreses que violen drets humans. La responsabilitat financera per contribució a les violacions de drets humans és el front més emergent — i més resistit — del dret empresarial en drets humans."
+            },
+            {
+              "type": "expandable",
+              "label": "Els Principis de l'Equador: els estàndards voluntaris del sector financer",
+              "content": "Els Principis de l'Equador (2003, revisats el 2013 i el 2020) son un conjunt d'estàndards voluntaris per a la gestió del risc social i ambiental en el finançament de projectes. Adoptats per 130 institucions financeres de 38 països (el 2023), s'apliquen als projectes que superen els 10 milions de dòlars. Exigeixen que els projectes finançats compleixin els estàndards de rendiment social i ambiental del Banc Mundial i de la Corporació Financera Internacional, que consultin les comunitats afectades, i que estableixi mecanismes de queixa. Com el Global Compact, els Principis de l'Equador son voluntaris i han estat criticats per manca de transparència i de mecanismes de verificació independents. Però han influït en la pràctica del sector: molts bancs que han adoptat els Principis han refinat els seus processos de gestió del risc socioambiental d'una manera que ha tingut efectes reals en alguns projectes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-emp-05-01",
+              "style": "multiple-choice",
+              "question": "Un fons de pensió públic que inverteix en empreses que violen els drets humans en tercers països — per exemple, en empreses mineres que desplacen comunitats indígenes — té alguna responsabilitat en matèria de drets humans?",
+              "options": [
+                "No: els fons de pensió son inversors passius que no gestionen les operacions de les empreses en les quals inverteixen, i per tant no son responsables dels seus actes",
+                "Depèn: si el fons sap que l'empresa viola drets humans i continua invertint-hi sense usar la seva posició d'accionista per promoure canvis, pot ser considerat que contribueix a les violacions; si ha realitzat diligència deguda i usa el seu pes com a accionista per incidir, la seva responsabilitat és menor",
+                "Sí, sempre: qualsevol inversió en una empresa que viola drets humans fa l'inversor responsable de les violacions en la mateixa mesura que l'empresa",
+                "No: la responsabilitat de les violacions recau exclusivament en l'empresa operadora; l'inversor no pot ser responsable per actes de les empreses en les quals té participació minoritària"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La responsabilitat dels inversors institucionals és un dels fronts més emergents del dret empresarial en drets humans. Els Principis Rectors de l'ONU estableixen que la responsabilitat de respectar els drets humans s'aplica a totes les empreses independentment de la seva activitat i inclou les relacions comercials (incloses les inversions). Un fons de pensió que inverteix de manera passiva i no usa la seva posició per incidir té una responsabilitat menor però no nul·la. La Directiva europea SFDR (Sustainable Finance Disclosure Regulation) comença a crear obligació de transparència sobre els riscos de sostenibilitat — inclosos els drets humans — en les decisions d'inversió. El debat sobre la responsabilitat dels inversors és actiu i la jurisprudència és emergent.",
+              "feedbackWrong": "La responsabilitat no és nul·la (opció a) ni sempre absoluta (opció c). La resposta matisada (opció b) és la que millor reflecteix l'estat actual del dret i de la pràctica: la diligència deguda i l'ús del pes d'accionista per incidir modifiquen el grau de responsabilitat, però no l'eliminen completament."
+            }
+          ]
+        },
+        {
+          "id": "emp-06",
+          "title": "El Tractat vinculant sobre empreses i drets humans",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2014, Equador i Sud-àfrica van proposar al Consell de Drets Humans de l'ONU l'inici d'un procés de negociació d'un tractat internacional vinculant sobre empreses i drets humans. La resolució va ser aprovada per 20 vots a favor i 14 en contra (tots els estats occidentals van votar en contra o s'hi van abstenir). Des de llavors, un grup de treball intergovernamental s'ha reunit anualment a Ginebra. El 2023 s'havia presentat el novè esborrany del tractat. El procés avança molt lentament. Les empreses transnacionals i els governs dels seus països d'origen (EUA, UE, Japó) s'hi oposen. Les comunitats afectades i els governs del sud global l'impulsen. El resultat és una negociació que pot durar dècades — o que pot acabar sent un tractat que els estats que més el necessiten signaran i els que més el perjudicaria, no."
+            },
+            {
+              "type": "key-idea",
+              "text": "El procés de negociació d'un Tractat vinculant sobre empreses i drets humans és el front més ambiciós — i el més blocat — del sistema internacional de drets humans. Intenta crear, per primera vegada, obligacions jurídiques directes de les empreses transnacionals en drets humans, i accés a remei efectiu per a les víctimes en els tribunals dels estats d'origen de les empreses. La seva negociació il·lustra les tensions de poder que estructuren el sistema internacional."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-emp-06-01",
+              "style": "multiple-choice",
+              "question": "Els estats de la UE i els EUA s'han oposat sistemàticament al Tractat vinculant sobre empreses i drets humans mentre han promogut els Principis Rectors (soft law). Quina és la lectura crítica d'aquesta posició?",
+              "options": [
+                "Que els estats occidentals creuen genuïnament que el soft law és més efectiu que el hard law per canviar el comportament de les empreses, basant-se en l'experiència dels últims vint anys",
+                "Que els estats occidentals defensen els interessos de les seves empreses transnacionals, que temen que un tractat vinculant crei obligacions i responsabilitats jurídiques que afectin la seva competitivitat i els exposin a litigis en tercers països",
+                "Que els estats occidentals estan en la millor posició per avaluar la viabilitat jurídica d'un tractat vinculant i han conclos que no és tècnicament possible crear obligacions directes de les empreses en dret internacional",
+                "Que els estats occidentals prefereixen resoldre el problema a través de les lleis nacionals de diligència deguda (com la llei francesa i l'alemanya) en lloc d'un tractat internacional que seria més difícil de controlar i implementar"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La lectura crítica és que la posició occidental reflecteix interessos de les seves empreses transnacionals més que conviccions sobre l'efectivitat del soft law. La mateixa UE que s'ha oposat al tractat ha aprovat la Directiva CSDDD (que és essencialment un tractat regional vinculant dins de la UE) i la Directiva de Diligència Deguda en el sector financer. La coherència entre oposar-se a un tractat global i aprovar regulació regional obligatòria és difícil de defensar en termes tècnics — però es comprèn en termes polítics: la UE pot controlar el seu propi marc regulatori; un tractat global de l'ONU crearia estàndards que no podria controlar de la mateixa manera.",
+              "feedbackWrong": "L'argument de l'efectivitat del soft law és l'argument oficial però no és plenament consistent — els mateixos estats han adoptat hard law nacional. L'argument de la impossibilitat tècnica no és vàlid — el dret internacional pot crear obligacions directes per a les empreses. La preferència per les solucions nacionals és un element real però no explica completament l'oposició al tractat global."
+            },
+            {
+              "type": "reflection",
+              "question": "Has recorregut el marc de responsabilitat empresarial en drets humans: dels Principis Rectors al tractat vinculant, passant per la diligència deguda, les indústries extractives, les plataformes digitals i el sector financer. Quin canvi creus que tindria l'impacte real més gran per a les persones afectades per les violacions de drets humans en les cadenes de subministrament globals — i quin obstacle és el més difícil de superar?",
+              "prompt": "El dret empresarial en drets humans és un camp en construcció. Les decisions que es prenen ara sobre si la responsabilitat és voluntària o obligatòria, sobre qui por demanar remei i on, determinaran les condicions de vida de milions de persones en les properes dècades."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "societat-civil",
+      "title": "Societat Civil, Defensors i Moviments Socials",
+      "icon": "✊",
+      "description": "ONG, defensors dels drets humans i moviments de base: qui fa el treball real",
+      "style": "Temàtic · actors, estratègies i reptes",
+      "lessons": [
+        {
+          "id": "sc-01",
+          "title": "Les ONG de drets humans: funció, poder i límits",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1961, Peter Benenson, advocat anglès, va llegir en un diari que dos estudiants portuguesos havien estat condemnats a set anys de presó per brindar per la llibertat en un restaurant de Lisboa. Va escriure un article al The Observer titulat 'Presoners Oblidats' i va demanar als lectors que escriviguessin cartes als governs en defensa d'aquells estudiants i d'altres presoners de consciència d'arreu del món. La resposta va ser aclaparadora. Benenson va fundar Amnistia Internacional. Seixanta anys després, Amnistia té més de deu milions de membres i simpatitzants en 150 països. La seva metodologia — investigació rigorosa, campanya pública i pressió diplomàtica — s'ha convertit en el model dominant de l'advocacy de drets humans."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les organitzacions no governamentals (ONG) de drets humans exerceixen funcions que cap altra institució pot fer de la mateixa manera: documentació independent de les violacions, advocacy davant dels governs i les organitzacions internacionals, suport legal a les víctimes, i construcció de consciència pública. Sense les ONG, el sistema internacional de drets humans seria molt menys efectiu. Amb elles, el sistema continua sent insuficient — però menys."
+            },
+            {
+              "type": "expandable",
+              "label": "Els models d'ONG: Amnistia i Human Rights Watch",
+              "content": "Les dues grans ONG internacionals de drets humans — Amnistia Internacional i Human Rights Watch — operen amb models lleugerament diferents. Amnistia té una base de membres masiva (més de 10 milions), finançament principalment de les quotes de membres (el que li dona independència financera dels governs i les empreses), i una metodologia de mobilització popular: les campanyes d'escriptura de cartes, les crides a l'acció i la pressió pública son el seu instrument principal. Human Rights Watch és una organització de menor base de membres però amb un equip d'investigació i d'advocacy professional molt sòlid, finançament principalment de fundacions privades, i una estratègia de pressió sobre els governs i les organitzacions internacionals a través d'informes de recerca detallats i d'advocacy d'elit. Les dues models son complementaris: Amnistia genera la pressió pública; Human Rights Watch genera la credibilitat tècnica que fa que governs i tribunals escoltin. Junts i amb centenars d'ONG nacionals i regionals, formen l'ecosistema de la societat civil de drets humans."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sc-01-01",
+              "style": "multiple-choice",
+              "question": "Una de les crítiques a les grans ONG internacionals de drets humans és que reflecteixen les prioritats i les perspectives del Nord Global — que investiguen i documenten selectivament les violacions, prestant menys atenció als drets econòmics i socials i als actors del Sud Global. Quin és el fonament d'aquella crítica?",
+              "options": [
+                "Que les grans ONG son finançades principalment per governs occidentals que influeixen directament en les seves prioritats d'investigació",
+                "Que les grans ONG van néixer en un context de Guerra Freda que privilegiava els drets civils i polítics sobre els econòmics i socials, que la majoria del seu personal té formació i perspectiva occidental, i que la seva influència en el debat públic global reflecteix el poder cultural del Nord Global",
+                "Que les grans ONG no investiguen les violacions de drets humans als països occidentals, aplicant estàndards diferents als estats del Sud que als del Nord",
+                "Que les grans ONG son controlades per corporacions multinacionals que usen les seves campanyes per desviar l'atenció de les violacions de drets humans que cometen en les seves cadenes de subministrament"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La crítica de biaix del Nord Global a les ONG internacionals de drets humans és matisada però rellevant. El seu origen en la Guerra Freda va implicar un focus en els drets civils i polítics (la llibertat dels dissidents als règims comunistes) sobre els drets econòmics i socials. El seu personal és majorità riament format en tradicions jurídiques i culturals occidentals. I la seva influència en el debat global és desproporcionada respecte a les seves bases als països del Sud Global. La crítica no implica que el seu treball no sigui valuós — Amnistia i HRW documenten violacions en països occidentals també, i moltes de les seves campanyes son sobre situacions del Sud Global. Però la seva mirada té punts cecs que les ONG del Sur Global i les organitzacions de base comunitàries sovint veuen millor.",
+              "feedbackWrong": "El finançament governamental és limitat en les grans ONG (Amnistia específicament rebutja finançament governamental). No és cert que no investiguin els països occidentals. No hi ha evidència de control corporatiu. La crítica més sòlida és la de la perspectiva cultural i la jerarquia de drets heretada del context de la Guerra Freda."
+            },
+            {
+              "type": "debate",
+              "question": "Les ONG internacionals de drets humans son aliades dels moviments socials locals del Sud Global o son, en alguns casos, actors que reprodueixen dinàmiques de poder colonial?",
+              "positionA": {
+                "label": "Son aliades essencials",
+                "argument": "Les ONG internacionals proporcionen recursos, visibilitat, accés a fòrums internacionals i protecció que els moviments locals sovint no tienen. Documentar una violació a New York o Ginebra pot salvar vides a Colòmbia, Birmània o el Sudan. L'amplificació internacional de les veus locals no és imperialisme — és solidaritat. Les ONG que treballen bé escolten, segueixen el lideratge local i posen els seus recursos al servei de les agendes definides per les comunitats afectades."
+              },
+              "positionB": {
+                "label": "La relació és problemàtica",
+                "argument": "Les ONG internacionals decideixen quines violacions son prioritàries (en funció de les seves capacitats, els interessos dels seus donants i la receptivitat dels seus públics al Nord), competeixen per les 'histories' de les comunitats afectades, i a vegades parlen en nom de comunitats sense el seu mandat real. L'atenció internacional pot desviar el focus de les estratègies locals cap a les que atenyen als públics del Nord. I el finançament per als moviments locals sovint passa per les ONG internacionals, que actuen com a gatekeepers del recursos."
+              },
+              "reflection": "La relació entre les ONG internacionals i els moviments locals és inherentment asimètrica perquè reflecteix la desigualtat de recursos i poder entre el Nord i el Sud Global. Com es gestiona una relació de solidaritat en un context de desigualtat?",
+              "context": "El moviment de 'localització de la resposta humanitària' i la creixent demanda de les ONG del Sud Global d'accés directe al finançament (sense passar per intermediaris del Nord) son respostes a aquesta tensió. La pandèmia va accelerar el debat sobre la dependència de les ONG locals de les internacionals."
+            }
+          ]
+        },
+        {
+          "id": "sc-02",
+          "title": "Els defensors de drets humans: en la línia de foc",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2020, Front Line Defenders va documentar 331 defensors de drets humans assassinats en tot el món. Dos terços d'ells treballaven en defensa de la terra, el territori i el medi ambient — principalment en Amèrica Llatina. Colòmbia va ser el país més perillós, seguida de Mèxic i les Filipines. La majoria no eren grans ONG internacionals — eren líders comunitaris, activistes indígenes, sindicalistes, periodistes i advocats que documentaven les violacions en les seves comunitats i regions. El seu assassinat envia un missatge clar a les comunitats: el cost de parlar és la vida."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els defensors de drets humans — persones que individualment o col·lectivament promouen o protegeixen els drets humans — son una de les categories més vulnerables a la persecució, la criminalització, l'assassinat i la desaparició. La seva protecció és una norma de dret internacional reconeguda per la Declaració de l'ONU sobre Defensors de Drets Humans (1998) i per múltiples sistemes regionals. La seva situació real mostra la distància entre la norma i la protecció efectiva."
+            },
+            {
+              "type": "expandable",
+              "label": "La criminalització dels defensors: quan la llei és l'arma",
+              "content": "Una de les estratègies més usades per silenciar els defensors de drets humans no és el asesinato sinó la criminalització: usar el sistema judicial per processar, detenir i esgotar econòmicament els activistes amb acusacions falsificades o exagerades. La criminalització pot prendre múltiples formes: acusacions de terrorisme per a sindicalistes o manifestants; acusacions de sedició o de desestabilització per a periodistes i ONG; acusacions de blanqueig de capitals per a organitzacions que reben finançament internacional; acusacions de difamació per a qui documenta corrupció o violacions de drets humans. La 'lawfare' (guerra judicial) contra els defensors té avantatges per als governs: és menys visible que la violència física, usa instruments legals que poden ser presentats com a legítims, i genera uns costs legals i personals enormes que esgoten els activistes fins i tot si finalment son absolts."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sc-02-01",
+              "style": "multiple-choice",
+              "question": "La Declaració de l'ONU sobre Defensors de Drets Humans (1998) reconeix el dret de tota persona a 'promoure i procurar la protecció i realització dels drets humans'. Quines limitacions té aquella declaració en termes de protecció efectiva?",
+              "options": [
+                "Que la Declaració no és un tractat vinculant sinó una resolució de l'Assemblea General, no crea obligacions jurídiques directes per als estats, i no té cap mecanisme d'aplicació o supervisió específic",
+                "Que la Declaració sols protegeix els defensors que treballen en organitzacions formalment registrades, exclooent els activistes individuals i informals",
+                "Que la Declaració no cobreix la protecció dels defensors enfront d'actors no estatals (empreses, grups armats), sols enfront de l'Estat",
+                "Que la Declaració requereix que els defensors segueixin mètodes de treball 'pacífics' però no defineix qué és pacífic, deixant als estats l'arbitrarietat de la definició"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. La limitació principal de la Declaració sobre Defensors de Drets Humans és la seva natura jurídica: és una resolució de l'Assemblea General (no un tractat), no és vinculant per als estats, i no té cap mecanisme de supervisió o aplicació específic. El Relator Especial de l'ONU sobre la situació dels defensors de drets humans és el principal mecanisme de supervisió, però com tots els Procediments Especials, actua per autoritat moral i no té poder coercitiu. La protecció efectiva dels defensors depèn en última instància de la voluntat política dels estats — precisament els actors que solen ser els principals responsables de la persecució dels defensors.",
+              "feedbackWrong": "La Declaració no exclou els activistes informals — reconeix el dret de 'tota persona'. Cobreix la protecció enfront d'actors no estatals en la mesura que l'Estat té obligació de protegir. La qüestió dels mètodes pacífics és un element real del debat però no és la limitació principal. La limitació central és la manca de vinculatorietat jurídica i de mecanismes d'aplicació."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Justícia Internacional: Tribunals i Mecanismes",
+              "moduleEmoji": "⚖️",
+              "concept": "Les mesures provisionals com a protecció d'urgència",
+              "text": "Al mòdul de Justícia Internacional vam veure com la Cort Interamericana pot dictar mesures provisionals d'urgència per protegir persones en risc imminent. Les mesures provisionals han estat usades repetidament per protegir defensors de drets humans sota amenaça: en Colòmbia, Hondures, Mèxic i molts altres països. No sempre s'executen, però la seva existència pot ser determinant: un defensor que pot invocar una ordre d'una cort internacional té una capa de protecció que no tiene qui no en disposa. El sistema de mesures provisionals és un dels elements del sistema interamericà amb impacte directe sobre la vida de persones concretes."
+            }
+          ]
+        },
+        {
+          "id": "sc-03",
+          "title": "Els moviments socials i la construcció dels drets",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1 de desembre de 1955, Rosa Parks es va negar a cedir el seu seient a un home blanc en un autobús de Montgomery, Alabama. Va ser detinguda. La seva detenció va desencadenar un boycot als autobusos de Montgomery que va durar 381 dies i va acabar en la declaració d'inconstitucionalitat de la segregació en el transport públic. Parks no va actuar per impuls — era secretaria de l'NAACP i havia estat formada en tàctiques de resistència no violenta a la Highlander Folk School. La seva acció va ser al mateix temps individual i col·lectiva, espontània i planificada. Era el moviment de drets civils americà en acció — i il·lustrava com els drets humans no son simplement declarats pels governs sinó construïts per les persones que lluiten per ells."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els drets humans no neixen dels tribunals ni dels parlaments — neixen dels moviments socials que lluiten per ells. El moviment abolicionista, el moviment sufragista, el moviment de drets civils, el moviment feminista, el moviment LGBTQ+, el moviment anticolonial — tots han creat els drets que avui donem per assentats. Sense la mobilització social, les declaracions i els tractats son paper. Amb ella, el paper es converteix en realitat."
+            },
+            {
+              "type": "expandable",
+              "label": "Les tàctiques dels moviments de drets humans: de Gandhi a Black Lives Matter",
+              "content": "Els moviments de drets humans han usat un ampli repertori de tàctiques al llarg de la historia: la resistència no violenta de Gandhi (desobediència civil, boicots, marxes), la litigació estratègica de l'NAACP (selecció dels casos per crear jurisprudència), l'exposició mediàtica d'Amnistia Internacional, les vagues de fam dels presos polítics irlandesos, les marxes del Moviment de Drets Civils americà, les Mares de la Plaça de Mayo (presència física, silenci com a protesta), els grups de rap de conscientització, i les campanyes de xarxes socials de Black Lives Matter. Cap tàctica funciona en tots els contextos — la seva eficàcia depèn del context polític, la repressió que genera, els aliats disponibles, i la ressonància amb el públic que pot exercir pressió sobre els actors que prenen decisions. El repte dels moviments és triar les tàctiques adequades per al context específic — i adaptar-les quan el context canvia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sc-03-01",
+              "style": "multiple-choice",
+              "question": "El moviment #MeToo (2017) va aconseguir canvis significatius en les normes culturals i jurídiques sobre l'assetjament sexual en molt poc temps. Quin factor va ser determinant per a la seva velocitat i escala d'impacte?",
+              "options": [
+                "El suport d'organitzacions de drets humans establertes (com Amnistia Internacional i Human Rights Watch) que van donar credibilitat i estructura al moviment",
+                "La combinació de la plataforma digital (Twitter/X) que va permetre la difusió massiva i instantània dels testimonis, amb el moment polític específic (l'elecció de Trump i la polarització sobre el gènere) i el focus en casos d'homes poderosos que van crear l'efecte de cascada",
+                "La base jurídica preexistent de les lleis d'assetjament sexual que va permetre que els testimonis es traduïssin immediatament en processos judicials",
+                "El finançament de fundacions progressistes americanes que van organitzar la campanya de manera professional des del principi"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'impacte de #MeToo va ser el resultat d'una combinació de factors específics que es van retroalimentar. La plataforma digital va permetre que centenars de milers de persones comparteixin el seu testimoni simultàniament — creant l'efecte de normalització (no estic sol/a) i de massa crítica que cap campanya anterior havia aconseguit. El moment polític (la presidència de Trump, la Marxa de les Dones, la polarització) va crear un context d'alta sensibilitat al tema. I el focus inicial en homes poderosos (Harvey Weinstein, Louis C.K., Matt Lauer) va crear un efecte d'escalada — si els intocables podien caure, el sistema de silenci havia col·lapsat. La combinació d'aquells factors va crear un moment d'escala i velocitat que cap campaña planificada hauria pogut aconseguir de la mateixa manera.",
+              "feedbackWrong": "Amnistia i HRW no van tenir un paper central en el llançament de #MeToo. La base jurídica era insuficient per si sola — les lleis existien abans i no havien generat aquell impacte. El finançament de fundacions no va ser el factor determinant — #MeToo va ser principalment un fenomen de base, no una campanya professional organitzada."
+            },
+            {
+              "type": "debate",
+              "question": "Els moviments socials que reivindiquen drets humans son més efectius quan usen mètodes de resistència no violenta (com Gandhi o el Moviment de Drets Civils) o quan combinen la no-violència amb tàctiques de confrontació directa?",
+              "positionA": {
+                "label": "La no-violència és l'estratègia més efectiva",
+                "argument": "La recerca de Erica Chenoweth (Universitat de Harvard) mostra que les campanyes de resistència no violenta han tingut una taxa d'èxit del 53% en les últimes dècades, mentre que les campanyes violentes han tingut un 26%. La no-violència té avantatges estratègics: genera major simpatia pública, és accessible a una base més àmplia de participants (inclosos els que no volen usar la violència per principi o per por), i priva el govern d'un pretext per la repressió. Gandhi i King no eren simplement moralistes — eren estrategs que entenien el poder de la no-violència."
+              },
+              "positionB": {
+                "label": "La combinació de tàctiques és més efectiva",
+                "argument": "La recerca de Chenoweth ha estat criticada per la seva definició de 'èxit' i per la seva selecció de casos. En contextos d'alta repressió, la no-violència sola pot ser insuficient o suïcida. Els moviments d'alliberament nacional (Algèria, Zimbàbue, Sudan del Sud) van combinar resistència armada i no violenta. El Moviment de Drets Civils americà va ser complementat per la militància dels Black Panthers i altres grups. La 'moderació' que els governs accepten sovint és el resultat de la por a opcions més radicals: Martin Luther King era acceptable per als blancs liberals americans en part perquè Malcolm X existia."
+              },
+              "reflection": "El debat sobre la violència vs. no-violència en els moviments socials és un debat sobre l'eficàcia, l'ètica i el context. Quin pes donar a cada dimensió?",
+              "context": "La recerca de Chenoweth i Stephan ('Why Civil Resistance Works', 2011) és l'estudi empíric més citat sobre l'eficàcia de la resistència no violenta. Ha influït en els moviments socials de tot el món. Però ha generat debat acadèmic sobre la seva metodologia i les seves conclusions, especialment sobre la causalitat entre no-violència i èxit."
+            }
+          ]
+        },
+        {
+          "id": "sc-04",
+          "title": "Les víctimes com a actors: de l'objecte al subjecte",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1977, a Buenos Aires, un grup de mares de desapareguts va decidir reunir-se a la Plaça de Mayo — la plaça davant de la Casa Rosada, la seu del govern argentí. La dictadura havia prohibit les manifestacions i la reunió de més de tres persones. Les mares van caminar en cercle, de dues en dues, portant fotos dels seus fills desapareguts i mocadors blancs al cap. La policia no les va poder acusar fàcilment — caminaven, no manifestaven. L'impacte va ser enorme: eren mares, no activistes polítics. Eren el que el règim no podia atacar sense revelar-se. Avui, les Mares de la Plaça de Mayo son el símbol global de la resistència pacífica de les víctimes i les famílies contra les dictadures."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les víctimes i les comunitats afectades per les violacions de drets humans no son simplement els beneficiaris passius de la protecció internacional — son actors que han definit, construït i ampliat el sistema de drets humans. De les Mares de la Plaça de Mayo a Malala Yousafzai, de les famílies de Srebrenica que van insistir en la qualificació de genocidi a les comunitats indígenes que van crear el concepte de CLPI: el sistema de drets humans té la forma que té perquè les víctimes han insistit en donar-li-la."
+            },
+            {
+              "type": "expandable",
+              "label": "La participació de les víctimes en els processos judicials: una innovació del TPI",
+              "content": "Una de les innovacions més importants de l'Estatut de Roma del TPI va ser el reconeixement del dret de les víctimes a participar en els procediments judicials — no sols com a testimonis sinó com a participants amb drets propis. Les víctimes poden presentar les seves opinions i preocupacions, sol·licitar reparacions, i ser representades per un advocat davant del TPI. Aquesta participació és nova en el dret penal internacional: els tribunals anteriors (Nuremberg, TPII, TPIR) tractaven les víctimes principalment com a testimonis — la seva experiència interessava en la mesura que contribuïa a provar els càrrecs, no com a valor en si. El TPI va reconèixer que les víctimes tienen un interès propi en el procés — no sols en el resultat. La implementació d'aquest dret de participació ha estat complexa: en alguns casos hi ha hagut milers de víctimes participants, el que ha creat reptes processals enormes. Però el principi ha creat un precedent que altres sistemes han adoptat parcialment."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sc-04-01",
+              "style": "multiple-choice",
+              "question": "La tendència recent en el sistema de drets humans és parlar de 'centrar les víctimes' (victim-centered approach) en lloc de parlar de 'protegir les víctimes'. Quina diferència implica aquell canvi de perspectiva?",
+              "options": [
+                "Que les víctimes han de ser el centre de tots els processos de drets humans, el que en la pràctica significa que les seves declaracions son automàticament acceptades com a veritat sense necessitat de corroborar-les",
+                "Que les víctimes no son simplement receptores passives de protecció i reparació sinó agents amb drets propis al llarg de tot el procés (inclosos el dret a ser consultades, a participar, a ser informades i a definir qué necessiten per sentir-se reparades)",
+                "Que la perspectiva centrada en les víctimes elimina la presumpció d'innocència dels acusats en els procediments penals, donant prioritat al dret de les víctimes sobre el de l'acusat",
+                "Que les organitzacions de drets humans han de ser dirigides exclusivament per supervivents o víctimes directes de violacions de drets humans per tenir legitimitat per parlar en nom seu"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'enfocament centrat en les víctimes (victim-centered approach) implica un canvi de perspectiva sobre el rol de les víctimes en el sistema de drets humans: de receptores passives de protecció i reparació a agents actives amb drets propis al llarg de tot el procés. Concretament, implica: consultar les víctimes sobre el que necessiten (no assumir que tots volen el mateix); donar-los accés i informació sobre els processos que les afecten; respectar la seva autonomia per decidir com participar i quan; i dissenyar els mecanismes de reparació i justícia en diàleg amb elles, no per elles. No elimina les garanties processals dels acusats ni exigeix que les ONG siguin dirigides per víctimes — implica un canvi en la relació de poder entre les institucions i les persones afectades.",
+              "feedbackWrong": "L'acceptació automàtica de les declaracions de les víctimes contradiu les garanties processals bàsiques i la presumpció d'innocència — no és el que implica l'enfocament centrat en les víctimes. La presumpció d'innocència és un dret fonamental que no pot ser sacrificat per cap enfocament. La direcció per supervivents és una preferència d'alguns però no el contingut del concepte."
+            }
+          ]
+        },
+        {
+          "id": "sc-05",
+          "title": "Els grups armats no estatals i el dret internacional humanitari",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2019, el grup armat jihadista Al-Shabaab va emetre un 'codi de conducta' per als seus combatents que prohibia explícitament el saqueig, els maltractaments als civils i la destrucció de propietat. Era un document extraordinari: un grup terrorista proclamant obligacions de dret internacional humanitari. No perquè Al-Shabaab fos humanitari — sinó perquè sabia que el seu comportament tenia impacte en el seu suport popular a Somàlia. Els grups armats son actors de dret internacional humanitari — i de vegades adopten les seves normes per raons estratègiques, no morals."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els grups armats no estatals (guerrilles, milicias, grups jihadistes, grups d'autodefensa) son part dels conflictes armats contemporanis i son subjectes de l'article 3 comú als Convenis de Ginebra i del Protocol Addicional II. Però no son signataris dels tractats que els obliquen, no reconèixen cap autoritat internacional sobre ells, i el seu comportament varia enormement: alguns grups han adoptat codis de conducta humanitaris per raons estratègiques; d'altres cometen atrocitats sistemàtiques."
+            },
+            {
+              "type": "expandable",
+              "label": "Les 'compromisos unilaterals': quan els grups armats accepten regles",
+              "content": "Una de les eines més innovadores del dret internacional humanitari per a la protecció de civils en conflictes amb grups armats no estatals son els 'compromisos unilaterals' (Deed of Commitment): declaracions unilaterals signades per grups armats en les quals es comprometen a respectar certes normes humanitàries. L'organització Geneva Call facilita i documenta aquells compromisos, especialment en relació a les mines antipersones i el reclutament de nens. Desenes de grups armats han signat aquells compromisos — incloses les FARC colombianes (sobre mines) i diversos grups kurds i siriacos. Els compromisos no son jurídivament equivalents a un tractat — son declaracions unilaterals. Però creen un registre documental que permet monitorar el comportament del grup i crear pressió quan incompleix els seus propis compromisos."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sc-05-01",
+              "style": "multiple-choice",
+              "question": "Un dels reptes del dret internacional humanitari en els conflictes contemporanis és la presència de grups armats no estatals molt fragmentats, amb comandament difús, que fan difícil atribuir la responsabilitat de les violations. Quina és la resposta doctrinal del DIH a aquest problema?",
+              "options": [
+                "El DIH no s'aplica als grups armats no estatals sense estructura de comandament clara, de manera que en els conflictes amb aquells grups sols s'apliquen les normes dels drets humans",
+                "El DIH s'aplica a tots els grups armats que participen en un conflicte armat no internacional, independentment de la seva estructura de comandament, i la responsabilitat pot ser atribuïda als comandants que tenien control sobre els combatents que van cometre les violations",
+                "El DIH sols s'aplica als grups armats que han signat formalment els Convenis de Ginebra o han signat compromisos unilaterals amb el CICR o Geneva Call",
+                "El DIH transfereix la responsabilitat de les violations dels grups armats a l'Estat en el territori del qual operen, que és responsable de controlar-los i sancionar-los"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El DIH s'aplica a tots els grups armats que participen en un conflicte armat no internacional — la signa dels tractats o els compromisos unilaterals no son condicions per a l'aplicabilitat. L'article 3 comú als Convenis de Ginebra s'aplica a 'cada una de les Parts en conflicte' — incloent els grups armats no estatals. La responsabilitat per les violations pot ser atribuïda en virtut del principi de responsabilitat del superior (command responsibility): un comandant que sabia o havia de saber que els seus subordinats estaven cometent violations i no va prendre mesures per prevenir-les o sancionar-les és responsable. La fragmentació del comandament dificulta l'aplicació pràctica però no elimina el marc jurídic.",
+              "feedbackWrong": "El DIH sí que s'aplica als grups armats no estatals, fins i tot sense estructura de comandament clara. L'adhesió als tractats o els compromisos unilaterals no son condicions per a l'aplicabilitat. La responsabilitat no es transfereix automàticament a l'Estat del territori — l'Estat pot tenir obligacions de DIH per la seva pròpia conducta, però la responsabilitat dels grups armats és independent."
+            }
+          ]
+        },
+        {
+          "id": "sc-06",
+          "title": "El futur de la societat civil: reptes i oportunitats",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2012, la Federació Russa va adoptar la 'Llei d'Agents Estrangers', que obliga les ONG que reben finançament de l'estranger i que fan activitats 'polítiques' a registrar-se com a 'agents estrangers' — un terme amb fortes connotacions de l'era soviètica. El 2014, va ampliar la llei per permetre declarar 'indesitjables' les organitzacions estrangeres. El 2022, en el context de la invasió d'Ucraïna, va usar les lleis per dissoldre les darreres ONG de drets humans independents que quedaven al país. Rússia no va ser el primer ni l'únic: Hongria, Egipte, Etiòpia, l'Índia, Israel i molts altres estats han adoptat lleis similars. L'espai de la societat civil s'estreny globalment."
+            },
+            {
+              "type": "key-idea",
+              "text": "La restricció de l'espai de la societat civil (civic space) és una de les tendències globals més preocupants dels darrers deu anys: governs de tot el món — democràcies i autoritarismes — han adoptat mesures que limiten la capacitat de les ONG i els activistes de treballar, finançar-se, associar-se i expressar-se. La protecció de l'espai cívic s'ha convertit en una prioritat de primer ordre del sistema de drets humans."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sc-06-01",
+              "style": "multiple-choice",
+              "question": "Les lleis que obliguen les ONG que reben finançament estranger a registrar-se com a 'agents estrangers' (Rússia, Hongria, Geòrgia) han estat criticades com a violació dels drets de llibertat d'associació i expressió. Quin és l'argument dels governs que les defensen?",
+              "options": [
+                "Que la transparència sobre el finançament estranger és legítima en una democràcia i que els requisits de registre no limiten l'activitat de les ONG sinó simplement la fan transparent",
+                "Que les ONG finançades des de l'estranger son instruments d'interferència estrangera en els afers interns del país i que la sobirania nacional justifica la seva regulació estricta",
+                "Que les ONG que reben finançament estranger tenen un avantatge competitiu injust sobre les organitzacions cíviques financiades localment, i que la regulació nivella el camp de joc",
+                "Totes tres justificacions han estat usades per diversos governs, combinades de manera diferent en cada context"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exacte. Els governs que han adoptat aquelles lleis han usat les tres justificacions, combinades en funció del context: l'argument de la transparència (que fa referència a valors democràtics acceptats), l'argument de la sobirania (que fa referència al dret dels estats de regular els actors que operen en el seu territori), i l'argument de la competència (que fa referència a la igualtat d'oportunitats). La combinació fa que sigui difícil atacar la llei com a simplement antidemocràtica — sempre es pot invocar un element de l'argumentari que sembla raonable. La crítica de drets humans no és que la transparència sobre el finançament sigui il·legítima (ho pot ser si és proporcional) sinó que l'etiqueta 'd'agent estranger', les obligacions addicionals i les sancions desproporcionades creen un efecte dissuasiu que en la pràctica limita l'activitat de la societat civil.",
+              "feedbackWrong": "Les tres justificacions son usades — no sol una d'elles. Cap govern usa exclusivament l'argument de la sobirania o exclusivament el de la transparència. La combinació d'arguments és la que fa aquelles lleis políticament difícils d'atacar frontalment."
+            },
+            {
+              "type": "reflection",
+              "question": "Has recorregut el rol de les ONG, els defensors, els moviments socials, les víctimes com a actors, els grups armats no estatals i els reptes de la societat civil. Quin actor no estatal creus que ha tingut l'impacte més gran en la construcció dels drets humans — i quin enfronta els reptes més urgents en el context actual?",
+              "prompt": "Els drets humans no son una concessió dels governs — son una conquesta de les persones que han lluitat per ells. I continuen essent-ho."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

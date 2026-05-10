@@ -13,7 +13,7 @@
 
 import storage from './storageProvider'
 
-export const DATA_VERSION = 5  // v5: afegit srData, srStreak, srLastReviewDate  // ← incrementa aquí quan canviïs DEFAULT_STATE
+export const DATA_VERSION = 10  // v10: bloc Economia (10 mòduls, module-19 a module-28)
 
 const VERSION_KEY = 'data_version'
 

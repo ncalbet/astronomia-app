@@ -1,0 +1,834 @@
+{
+  "id": "module-09-historia-rock",
+  "title": "Història del Rock",
+  "emoji": "🎸",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "rock-cronologic",
+      "title": "Del Blues a la Distorsió",
+      "icon": "⚡",
+      "description": "Com una música de marges va canviar el món en cinquanta anys",
+      "style": "Cronològic · dels orígens als anys 90",
+      "lessons": [
+        {
+          "id": "rock-01",
+          "title": "Abans del Rock: el blues i el problema del origen",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan el 1955 Bill Haley & His Comets van publicar 'Rock Around the Clock', molts comentaristes van declarar que havia nascut un gènere nou. Mentida, en el bon sentit: el rock no va néixer el 1955. Venia de molt més lluny, de camps de cotó de Mississippi, d'esglésies baptistes de Georgia, de músics negres que feien una música que l'Amèrica blanca no sabia que existia — fins que va decidir que la volia."
+            },
+            {
+              "type": "key-idea",
+              "text": "El rock and roll no va caure del cel el 1955. És la síntesi de tres tradicions afroamericanes — el blues, el gospel i el rhythm & blues — filtrades per la música country blanca del sud dels EUA. Entendre d'on ve és entendre per qué va sacsejar tant el món quan va arribar."
+            },
+            {
+              "type": "expandable",
+              "label": "El blues: la música que va generar la meitat de la música occidental moderna",
+              "content": "El blues va néixer als camps de treball del sud dels EUA a finals del segle XIX — una música que expressava el patiment, l'amor perdut i la resistència d'una comunitat oprimida. La seva estructura harmònica bàsica (l'anomenada 'progressió de dotze compassos' o I-IV-V) és radicalment simple comparada amb la música clàssica occidental. Però en aquella simplicitat hi ha una llibertat expressiva enorme: les 'blue notes' (notes lleugerament afinades per sota del que el sistema tonal occidental esperaria) creen una tensió emocional que l'harmonia europea no havia explorat. Quan Beethoven necessitava tensió, canviava d'acord. Quan un bluesman necessita tensió, la posa en una sola nota — i la fa plorar."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Música Clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "La tensió harmònica com a eina expressiva",
+              "text": "Al mòdul de música clàssica vam veure com Wagner va portar la tensió harmònica fins als límits del sistema tonal amb l'acord de Tristany. El blues va arribar a un lloc similar per un camí completament diferent: no per acumulació de complexitat sinó per subtilesa microtonal. Les dues tradicions fan el mateix — explorar la tensió — però amb eines oposades."
+            },
+            {
+              "type": "prediction",
+              "question": "Si el blues era música afroamericana tocada en bars i esglésies del sud dels EUA, com creus que va arribar a influir els joves blancs britànics dels anys 60 com els Rolling Stones o Led Zeppelin?",
+              "hint": "Pensa en la ràdio, els discos de vinil i la migració interna dels EUA cap a les ciutats del nord."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rock-01-01",
+              "style": "multiple-choice",
+              "question": "Quina estructura harmònica bàsica defineix el blues i que hereta directament el rock and roll?",
+              "options": [
+                "La forma sonata en tres parts: exposició, desenvolupament i recapitulació",
+                "La progressió de dotze compassos sobre els acords I, IV i V de la tonalitat",
+                "L'alternança binària entre dues tonalitats relatives major i menor",
+                "El baix continu amb improvisació harmònica sobre acords de setena disminuïda"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La progressió de dotze compassos (I-IV-V) és l'ADN harmònic del blues i, per extensió, del rock and roll. És una estructura mínima que, paradoxalment, genera una llibertat expressiva màxima: el músic sap on és harmònicament en cada moment, i pot concentrar tota l'energia en el timbre, l'articulació i l'emoció.",
+              "feedbackWrong": "La forma sonata és un concepte del Classicisme europeu. El baix continu, del Barroc. El blues té una lògica harmònica pròpia i molt més simple: la progressió de dotze compassos, basada en tres acords (I, IV i V), que és la base sobre la qual s'improvisa i s'expressa."
+            },
+            {
+              "type": "misconception",
+              "belief": "Elvis Presley va inventar el rock and roll.",
+              "reality": "Elvis va ser el primer artista blanc que popularitzà el rock and roll entre el públic mainstream americà. Però la música que ell gravava — 'That's All Right' (1954) era una cançó de Arthur 'Big Boy' Crudup, bluesman negre — ja existia. Chuck Berry, Little Richard, Fats Domino i Bo Diddley estaven creant rock and roll anys abans que Elvis entrés a Sun Records. El que Elvis va fer va ser fer-lo accessible (i segur) per a un públic blanc i conservador.",
+              "why": "La indústria discogràfica dels anys 50 estava completament segregada. Les llistes de 'rhythm & blues' eren llistes 'de color'. Quan un artista blanc feia el mateix so, de cop era accessible per a les emissores mainstream."
+            }
+          ]
+        },
+        {
+          "id": "rock-02",
+          "title": "Els anys 50 i 60: la gran explosió",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 9 de febrer de 1964, els Beatles van aparèixer al programa Ed Sullivan Show. Setanta-tres milions d'americans ho van veure en directe — un de cada tres habitants del país. El dia següent, la música americana mai va tornar a ser la mateixa. Però l'explosió no va caure del cel: venia d'una dècada sencera d'agitació musical a banda i banda de l'Atlàntic."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els anys 50-60 van ser el big bang del rock: del rock and roll inicial (Chuck Berry, Elvis) al beat britànic (Beatles), la psicodèlia (Jefferson Airplane), el soul (Motown) i la primera guitarra elèctrica distorsionada (Kinks, Who). En deu anys, el so es va multiplicar en desenes de branques."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1951–54",
+                  "title": "Primeres gravacions de rock and roll",
+                  "text": "Jackie Brenston 'Rocket 88', Chuck Berry 'Maybellene'. Sun Records de Memphis com a epicentre."
+                },
+                {
+                  "year": "1956",
+                  "title": "Elvis explota",
+                  "text": "'Heartbreak Hotel' número 1. La televisió amplifica el rock. L'establishment moral alerta."
+                },
+                {
+                  "year": "1959–62",
+                  "title": "La pausa americana",
+                  "text": "Elvis a l'exèrcit, Buddy Holly mort, Chuck Berry a la presó. El rock americà perd impuls."
+                },
+                {
+                  "year": "1963–64",
+                  "title": "La British Invasion",
+                  "text": "Beatles, Rolling Stones, The Kinks, The Who. El blues americà torna als EUA en accent britànic."
+                },
+                {
+                  "year": "1965–67",
+                  "title": "La psicodèlia i el folk-rock",
+                  "text": "Bob Dylan electrifica. Jimi Hendrix reinventa la guitarra. El rock es fa 'art'."
+                },
+                {
+                  "year": "1967",
+                  "title": "Sgt. Pepper's i el rock com a obra d'art",
+                  "text": "Els Beatles publiquen l'àlbum que converteix el rock en música 'seriosa'. El format LP substitueix el single."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué els Beatles eren tan revolucionaris musicalment, no només culturalment?",
+              "content": "Els Beatles no eren revolucionaris perquè fossin joves i portessin cabell llarg. Ho eren musicalment. El seu desenvolupament harmònic entre 1963 i 1967 és extraordinari: de la senzillesa de 'Love Me Do' (tres acords) a les modulacions inesperades de 'Strawberry Fields Forever', els acords prestats de 'Blackbird', o la mescla de modes eclesiàstics medievals de 'Eleanor Rigby'. McCartney i Lennon van aprendre harmonia escoltant i experimentant, no estudiant — i van arribar a solucions que els músics acadèmics haurien descartat com a 'incorrectes'. El resultat va ser música que sonava fresca precisament perquè ignorava les regles que els compositors clàssics s'havien imposat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rock-02-01",
+              "style": "multiple-choice",
+              "question": "Qué va significar la 'British Invasion' dels anys 60 en termes musicals i culturals?",
+              "options": [
+                "L'exportació de la música folk tradicional britànica (balades, madrigals) cap als mercats americà i europeu",
+                "La tornada als EUA del blues afroamericà, reinterpretat per grups britànics joves que l'havien après dels discos",
+                "La invasió del mercat europeu per part de la indústria discogràfica americana a través de grups satèl·lit",
+                "El moviment de compositors britànics clàssics que van incorporar elements de jazz americà a la seva música"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La paradoxa de la British Invasion és fascinant: músics britànics blancs (Beatles, Stones, Animals) van aprendre el blues de discos d'artistes negres americans que el públic blanc americà ignorava. En tornar-lo als EUA amb accent britànic i presentació impecable, va fer que els americans redescobríssin la seva pròpia música. Muddy Waters i Howlin' Wolf van veure créixer les seves vendes als EUA gràcies als Rolling Stones que els citaven obertament.",
+              "feedbackWrong": "La British Invasion no tenia res de folk medieval ni era una maniobra de la indústria americana. Era joves britànics (Beatles, Stones, Kinks, Who) que havien crescut escoltant discos de blues afroamericà importats i que en van crear la seva pròpia versió — que paradoxalment va reintroduir el blues als EUA davant d'un públic que el desconeixia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rock-02-02",
+              "style": "true-false",
+              "question": "Bob Dylan va ser sempre un artista de folk acústic i mai va acceptar la guitarra elèctrica com a instrument legítim per a la seva música.",
+              "correct": false,
+              "feedbackCorrect": "Fals, i de manera espectacular. El 1965, al festival de Newport, Dylan va aparèixer amb una guitarra elèctrica i va ser abroncat per part del públic folk que el considerava un traïdor. Va continuar. La decisió va ser un dels moments de ruptura més importants de la cultura pop: un artista 'seriós' abraçant el rock elèctric, i legitimant-lo com a vehicle per a la lletra poètica i el compromís polític.",
+              "feedbackWrong": "És exactament al revés. Dylan va tenir un dels girs més escandalosos de la història de la música: va passar del folk acústic al rock elèctric el 1965, va ser xiulat al festival de Newport, i va continuar endavant. Aquell gest va canviar la percepció del rock: de música de ball a possible vehicle per a l'art i el compromís."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rock-02-01",
+              "question": "Els Beatles van evolucionar radicalment en quatre anys: de 'Love Me Do' (1962) a 'A Day in the Life' (1967). Qué creus que va fer possible una evolució artística tan ràpida?",
+              "options": [
+                "L'accés a drogues psicodèliques que van expandir la seva percepció musical",
+                "La pressió comercial de la indústria discogràfica que els exigia novetat constant",
+                "La combinació de competència interna entre membres, exposició a músiques diverses i deixar de fer gires per concentrar-se en l'estudi"
+              ],
+              "correct": 2,
+              "explanation": "L'explicació multicausal és la més robusta. La rivalitat creativa entre Lennon i McCartney (i la incorporació creixent de Harrison com a compositor) creava una pressió interna d'innovació constant. Les gires interminables de 1963-65 els van exposar a músiques de tot el món. I la decisió de deixar de fer concerts el 1966 va ser transformadora: per primera vegada podien compondre per a l'estudi de gravació, usant tècniques impossibles en directe (cintes invertides, orquestres, collages). L'estudi va deixar de ser un lloc per enregistrar i va passar a ser un instrument compositiu. Les drogues van influir en l'estètica, però els estudis de creativitat mostren que la novetat artística prové principalment de la combinació de inputs diversos, el risc i el temps per experimentar — factors que tots tres estaven presents."
+            }
+          ]
+        },
+        {
+          "id": "rock-03",
+          "title": "Els 70: quan el rock va créixer (potser massa)",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "A principis dels anys 70, el rock havia guanyat tota la batalla cultural que volia guanyar. Era mainstream, era seriós, era art. I llavors va fer el que fan totes les formes artístiques quan guanyen: es va complicar, es va inflar i va perdre part de la seva gràcia original. Va néixer el rock progressiu — i tres anys després, el punk va venir a destruir-ho tot."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els 70 van ser la dècada de les contradiccions: el rock progressiu va intentar fusionar el rock amb la tradició culta (simfonies, suites, compassos complexos). El glam va fer de l'artificiositat un art. El punk va declarar la guerra a totes dues coses. I el heavy metal va decidir que el volum era un argument filosòfic."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Música Clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "El Romanticisme i la grandiosa ambició",
+              "text": "El rock progressiu dels 70 (Yes, ELP, Genesis, King Crimson) va fer amb el rock el que el Romanticisme havia fet amb la simfonia al segle XIX: l'expandí fins a proporcions monumentals. Àlbums conceptuals de 20 minuts per cara, suites simfòniques, lletres sobre mitologia. La mateixa ambició que Mahler amb les simfonies — i el mateix risc: quan l'obra es fa massa gran, pot perdre la connexió emocional immediata."
+            },
+            {
+              "type": "expandable",
+              "label": "El rock progressiu: geni o pedanteria?",
+              "content": "Grups com Yes, Emerson Lake & Palmer, Genesis o King Crimson van incorporar compassos irregulars (7/8, 11/16), harmonies complexes, instruments clàssics (mellotron, orgue Hammond, sintetitzadors analògics) i àlbums conceptuals amb trames literàries. 'Thick as a Brick' de Jethro Tull (1972) era un únic tema de 44 minuts que omplia les dues cares d'un LP, presentat com un poema d'un nen de vuit anys. Era ambiciós i brillant — i al mateix temps, era exactament el tipus de rock que tres anys després el punk va voler destruir. La tensió entre ambició artística i accessibilitat immediata no té resolució fàcil."
+            },
+            {
+              "type": "debate",
+              "question": "El punk (1976-78) va ser una necessitat cultural que va salvar el rock de la seva pròpia pedanteria, o va ser una regressió destructiva que va rebutjar l'avanç artístic?",
+              "positionA": {
+                "label": "El punk va salvar el rock",
+                "argument": "El 1976, el rock havia perdut el contacte amb la realitat. Les entrades de concerts de Yes costaven el salari d'una setmana. Les lletres parlaven de dragons i planetes. Els grups viatjaven en avions privats. El punk va tornar el rock al carrer, a la ràbia, a l'accessibilitat. Tres acords i dues hores d'assaig eren suficients per tenir una banda. Va democratitzar la creació musical de la mateixa manera que la impremta va democratitzar l'escriptura."
+              },
+              "positionB": {
+                "label": "El punk va ser una regressió",
+                "argument": "El punk va celebrar la incompetència tècnica com a virtut. 'Aprèn tres acords, forma una banda' no és una filosofia artística — és una coartada per a la mediocritat. Les complexitats del rock progressiu eren el resultat de músics que s'esforçaven per créixer. Rebutjar la tècnica i l'ambició perquè 'el carrer' les veu amb suspicàcia és conformisme disfressat de rebel·lia."
+              },
+              "reflection": "Hi ha una tensió real entre democratització i exigència artística. Es pot resoldre?",
+              "context": "La majoria de grups post-punk (Joy Division, The Clash, Talking Heads) van combinar l'energia punk amb ambició musical real. Potser el punt no era triar entre els dos — era usar la ruptura punk com a reset per tornar a créixer amb una altra consciència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rock-03-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el detonant cultural i social del punk al Regne Unit a mitjan dels anys 70?",
+              "options": [
+                "El rebuig estètic al glam rock de David Bowie i Marc Bolan per part de la joventut obrera",
+                "L'atur massiu juvenil, la crisi econòmica i la sensació que el rock progressiu era música per a una elit desconnectada",
+                "La prohibició governamental de concerts de rock en sales grans per problemes d'ordre públic",
+                "La influència directa del moviment Dadaista i les avantguardes artístiques europees en la joventut britànica"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El 1976, el Regne Unit tenia una taxa d'atur juvenil disparada, el govern havia demanat un rescat al FMI i molts joves de classe obrera sentien que la cultura rock havia deixat de parlar-los. El punk va ser una resposta visceral a aquesta desconnexió: música feta per gent sense diners ni formació, sobre la ràbia de viure en un país en crisi.",
+              "feedbackWrong": "El punk tenia arrels socials molt concretes: la crisi econòmica britànica dels 70, l'atur juvenil massiu i la sensació que el rock progressiu era una música de rics per a rics. No va ser un moviment artístic intel·lectual sinó una resposta visceral de la joventut obrera a les seves circumstàncies."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rock-03-02",
+              "style": "detect-error",
+              "statement": "Led Zeppelin va ser el grup que millor va representar el rock progressiu dels anys 70, amb les seves llargues suites simfòniques i les seves lletres basades en mitologia artúrica.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha una confusió de categories. Led Zeppelin era rock dur/heavy blues, no rock progressiu. Tot i que feien peces llargues ('Stairway to Heaven', 'Kashmir') i incorporaven elements folk i medievals, el seu ADN era el blues amplificat, no la complexitat harmònica i estructural del rock progressiu. El rock progressiu el representaven Yes, Emerson Lake & Palmer, Genesis, King Crimson i Jethro Tull — grups amb formació musical culta que buscaven explícitament fusionar el rock amb la tradició clàssica. Led Zeppelin buscava la potència física i l'expressió sexual del blues, no la sofisticació musical acadèmica."
+            }
+          ]
+        },
+        {
+          "id": "rock-04",
+          "title": "Els 80: síntesi, comercialitat i la guitarra en crisi",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Els anys 80 van ser la dècada en qui el rock va haver de negociar amb el sintetitzador. La MTV va canviar les regles: de cop, la imatge importava tant com el so. Michael Jackson no era rock, però va redefinir el que significava fer música popular. I mentre el hair metal omplia estadis, al soterrani una escena underground preparava el contraatac."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els 80 van ser una dècada de polaritats extremes: per una banda, el rock comercial i el new wave dominaven les llistes i la televisió. Per l'altra, el hardcore punk, el post-punk i l'indie underground construïen una infraestructura alternativa — segells independents, fanzines, circuits de locals petits — que seria la base del rock dels 90."
+            },
+            {
+              "type": "expandable",
+              "label": "La MTV i la dictadura de la imatge",
+              "content": "La MTV va llançar-se l'1 d'agost de 1981 amb el primer videoclip: 'Video Killed the Radio Star' de The Buggles. La ironia era perfecta. En menys de cinc anys, la MTV havia canviat completament la indústria: els grups necessitaven un videoclip per existir. Alguns grups mediocres musicalment van triomfar gràcies a imatges potents (A-ha, Duran Duran). Altres grups que no encaixaven visualment —massa vells, massa lletjos, massa estranys— van ser ignorats malgrat la qualitat musical. Per primera vegada a la història, la industria musical va subordinar el so a la imatge de manera sistemàtica i global."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1980",
+                  "title": "Post-punk i new wave",
+                  "text": "Joy Division, The Cure, Talking Heads, Blondie. El punk es fa art sense perdre l'energia."
+                },
+                {
+                  "year": "1981",
+                  "title": "Neix la MTV",
+                  "text": "La imatge passa a ser tan important com el so. Canvi estructural en la indústria."
+                },
+                {
+                  "year": "1983–86",
+                  "title": "Hair metal i rock comercial",
+                  "text": "Bon Jovi, Mötley Crüe, Guns N' Roses. Estadis plens. Producció hiperestilitzada."
+                },
+                {
+                  "year": "1984–88",
+                  "title": "L'underground s'organitza",
+                  "text": "R.E.M., The Replacements, Hüsker Dü, Sonic Youth. Segells indie. Circuit alternatiu."
+                },
+                {
+                  "year": "1987–89",
+                  "title": "El heavy metal es diversifica",
+                  "text": "Thrash metal (Metallica, Slayer), death metal, speed metal. Contracultura dins la contracultura."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rock-04-01",
+              "style": "multiple-choice",
+              "question": "Quin impacte va tenir el moviment post-punk de finals dels 70 i principis dels 80 respecte al punk original?",
+              "options": [
+                "Va radicalitzar el missatge polític del punk i va eliminar qualsevol element melòdic per preservar la puresa del gènere",
+                "Va prendre l'energia i l'actitud del punk però va incorporar ambició artística, experimentació i influències diverses",
+                "Va ser simplement una versió comercial i suavitzada del punk, sense contribucions artístiques pròpies",
+                "Va importar estructures del jazz i el funk per crear el primer gènere de fusió rock-jazz"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El post-punk va fer el moviment intel·ligent: va heretar l'actitud DIY ('fes-ho tu mateix') i la urgència del punk, però va obrir les portes a l'experimentació. Joy Division incorporava textures industrials. Talking Heads, funk i música africana. The Cure, romanticisme gothic. Public Image Ltd., música concreta. Era punk que llegia i escoltava coses rares — i funcionava.",
+              "feedbackWrong": "El post-punk no va ser ni radicalització ni suavitzament: va ser sofisticació. Va prendre la llibertat del punk ('pots fer qualsevol cosa') i la va combinar amb ambició artística real. Els grups post-punk llegien Burroughs, escoltaven Kraftwerk i Can, experimentaven amb textures. Van obrir el rock a possibilitats que el punk havia tancat per excés d'ortodòxia."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rock-04-01",
+              "question": "Als 80, la indústria discogràfica va preferir clarament el rock comercial (hair metal, new wave pop) sobre el rock alternatiu. Tanmateix, molts dels grups 'underground' dels 80 (R.E.M., Sonic Youth, Pixies) són avui considerats més influents que els que triomfaven llavors. Com s'explica?",
+              "options": [
+                "La indústria s'equivocava i els crítics de l'època ja sabien quins grups eren millors",
+                "El valor artístic real s'imposa sempre a llarg termini, independentment de l'èxit comercial immediat",
+                "La influència a llarg termini i l'èxit comercial immediat mesuren coses diferents: uns grups van canviar el que els músics pensaven que es podia fer; altres van satisfer el que el públic volia en aquell moment"
+              ],
+              "correct": 2,
+              "explanation": "La distinció entre influència i popularitat és fonamental per entendre la història de la música. Els Pixies van vendre relativament poc als 80, però Kurt Cobain va dir que 'Smells Like Teen Spirit' intentava ser els Pixies. R.E.M. va construir un mercat alternatiu que va fer possible Nirvana, Pearl Jam i tot el rock dels 90. Sonic Youth va redefinir el que la guitarra podia fer harmònicament. Cap d'ells va omplir estadis el 1986. Però van canviar el que els músics creien possible — i això, a llarg termini, és el veritable motor de la innovació cultural. El mateix patró el vam veure al mòdul de música clàssica: Bach no era famós en vida, i Mahler no omplia sales. La reputació pòstuma sovint reconeix l'impacte estructural que l'èxit immediat no mesura."
+            }
+          ]
+        },
+        {
+          "id": "rock-05",
+          "title": "Els 90: el grunge, Britpop i la fragmentació definitiva",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 24 de setembre de 1991, Nirvana va publicar 'Nevermind'. En sis setmanes va desplaçar Michael Jackson del número 1. Va ser l'últim cop que el rock va dominar la cultura popular de manera unificada i global. El que va venir després va ser la fragmentació: milers de subgèneres, mercats segmentats, la fi del rock com a fenomen de masses."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els 90 van ser el crepuscle del rock com a música dominant de la cultura popular. El grunge va ser la seva última explosió massiva. El Britpop va ser la seva última gran batalla de bandes. I després, Internet i la fragmentació digital van acabar amb la idea d'un 'mainstream' musical únic."
+            },
+            {
+              "type": "expandable",
+              "label": "Kurt Cobain i la paradoxa de l'autenticitat",
+              "content": "Kurt Cobain va passar els últims dos anys de la seva vida atormentat per una paradoxa: era el líder de la banda 'més autèntica' del moment, i aquella autenticitat s'havia convertit en un producte que venia milions de còpies. El públic que ell volia rebutjar — el mainstream, els fratboys — havia adoptat la seva música com a himne. Va intentar allunyar el públic amb 'In Utero' (1993), un disc deliberadament abrasiu i difícil. El disc va arribar al número 1. L'autenticitat s'havia convertit en una marca. Cobain no va saber com sortir de la trampa — i la seva mort el 1994 va convertir la tragèdia en la culminació del mite romàntic de l'artista consumit per la seva pròpia intensitat."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Música Clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "El mite del geni consumit",
+              "text": "Al mòdul de música clàssica vam veure com la mort prematura de Mozart als 35 anys va contribuir al seu mite. Kurt Cobain va morir als 27 — com Jimi Hendrix, Janis Joplin, Jim Morrison i Amy Winehouse (el famós 'Club dels 27'). La mort jove transforma un artista en símbol: congela la seva imatge en un moment de màxima intensitat i elimina la possibilitat que 'decebés' amb l'edat. Però el preu és la persona real, no el símbol."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rock-05-01",
+              "style": "multiple-choice",
+              "question": "Qué va caracteritzar musicalment el so grunge de Seattle que el diferenciava del hair metal dominant als anys 80?",
+              "options": [
+                "L'ús de guitarres acústiques i arranjaments orquestrals que rebutjaven la distorsió elèctrica",
+                "La combinació de la dinàmica contrastada del punk (silenci/soroll, melodia/distorsió) amb influències del rock alternatiu i el heavy metal",
+                "L'adopció del funk i el hip-hop com a base rítmica per modernitzar el rock clàssic de guitarra",
+                "La tornada als orígens del blues dels anys 50 com a reacció al sintetitzador dominant als 80"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El grunge va prendre la dinàmica del post-punk (silenci tens → explosió sorollosa) i la va combinar amb la pesantor del heavy metal i la melodia del pop. La fórmula de Nirvana era literalment descrita per Cobain com 'la dinàmica dels Pixies': estrofes suaus, tornades explosives. Era una síntesi, no una invenció de zero.",
+              "feedbackWrong": "El grunge no rebutjava la distorsió — al contrari, en feia un element central. I no tornava al blues dels 50. Era una síntesi molt específica: la pesantor del heavy metal (amplificadors portats al límit), l'actitud DIY del punk, la dinàmica del post-punk alternatiu, i melodies pop directes. La clau era el contrast: suavitat i violència en la mateixa cançó."
+            },
+            {
+              "type": "debate",
+              "question": "El Britpop (Oasis vs. Blur, 1994-97) va ser la darrera gran narrativa cultural del rock. Va ser un moviment musical autèntic o una construcció mediàtica?",
+              "positionA": {
+                "label": "Autenticitat musical",
+                "argument": "El Britpop va produir música genuïnament gran: 'Parklife', 'Definitely Maybe', 'Different Class' de Pulp. Va generar un debat cultural real sobre la identitat britànica post-Thatcher. Oasis i Blur representaven visions autèntiques i oposades de la classe treballadora i la classe mitjana britànica. La rivalitat era real, la música era bona, i el públic hi participava amb passió genuïna."
+              },
+              "positionB": {
+                "label": "Construcció mediàtica",
+                "argument": "La 'guerra' Oasis-Blur va ser en gran part un invent de la premsa musical britànica (NME, Melody Maker) que necessitava narratives simples per vendre revistes. La rivalitat es va convertir en un show mediàtic que simplificava la música real. Molts dels grups etiquetats com a 'britpop' no tenien res a veure entre ells musicalment. L'etiqueta és sempre una simplificació — i sovint una creació de la indústria, no dels artistes."
+              },
+              "reflection": "Fins a quin punt les etiquetes de gènere musical descriuen la música i fins a quin punt la creen?",
+              "context": "Damon Albarn (Blur) i Noel Gallagher (Oasis) han dit en entrevistes que la rivalitat era en part una construcció. I tots dos van acabar fent música molt diferent del 'britpop' pocs anys després."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rock-05-02",
+              "style": "true-false",
+              "question": "Nirvana va ser el primer grup de rock alternatiu underground que va aconseguir èxit comercial massiu, sense precedents en la indústria musical.",
+              "correct": false,
+              "feedbackCorrect": "Fals. R.E.M. va fer exactament el mateix camí una dècada abans: grups underground de segell independent que va aconseguir èxit comercial massiu sense abandonar completament la seva estètica. U2, The Cure i Depeche Mode també van fer el trajecte de l'underground al mainstream als anys 80. El que Nirvana va fer diferent va ser la velocitat i la brutalitat del canvi: de 50.000 còpies del primer disc a 30 milions de 'Nevermind' en menys de dos anys.",
+              "feedbackWrong": "R.E.M. havia fet el mateix trajecte —underground a mainstream— una dècada abans, i U2 i The Cure als 80. La novetat de Nirvana no era el trajecte sinó la velocitat i l'escala del salt: de 50.000 còpies de 'Bleach' a 30 milions de 'Nevermind' en 18 mesos."
+            }
+          ]
+        },
+        {
+          "id": "rock-06",
+          "title": "El rock al segle XXI: mort, mutació o transformació?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Des de l'any 2000, periodistes i crítics han declarat la mort del rock amb una regularitat gairebé còmica. I tanmateix, cada any es publiquen milers de discos de rock, apareixen centenars de grups nous i milions de persones paguen entrades per veure concerts. El rock potser no domina les llistes com als anys 70 — però 'morir' sembla una exageració. O potser el rock ha canviat tant que ja no sabem com reconèixer-lo."
+            },
+            {
+              "type": "key-idea",
+              "text": "El rock del segle XXI ha deixat de ser un gènere dominant per convertir-se en una tradició viva: milers de subgèneres, mercats segmentats, absoluta porositat amb l'electrònica, el hip-hop i les músiques del món. El centre ha desaparegut — però la perifèria és infinitament rica."
+            },
+            {
+              "type": "misconception",
+              "belief": "El rock va morir als anys 90 amb Kurt Cobain i des de llavors no ha produït res rellevant.",
+              "reality": "Després del 1994, el rock ha produït el post-rock (Mogwai, Godspeed You! Black Emperor), l'indie rock (Strokes, White Stripes, Arcade Fire), el math rock, el noise rock, el black metal escandinau, l'emo, el post-hardcore, el rock electrònic (Radiohead, Portishead), i desenes de subgèneres més. Cap d'ells domina el mainstream — però tots ells fan música que seria impensable sense la tradició del rock.",
+              "why": "Quan una forma artística perd el centre cultural, sovint sembla morta perquè ja no la veiem als llocs on sempre havia estat. Però continua existint en espais menys visibles."
+            },
+            {
+              "type": "expandable",
+              "label": "Radiohead: el grup que va voler deixar de ser un grup de rock",
+              "content": "Radiohead va publicar 'OK Computer' el 1997 — àmpliament considerat un dels millors discos de rock de la seva dècada. I immediatament van intentar fugir del que havien creat. 'Kid A' (2000) no tenia quasi guitarra: era electrònica, jazz d'avantguarda, Ligeti i Messiaen (dos compositors del segle XX de tradició clàssica). El públic els va seguir. Thom Yorke ha dit en entrevistes que el seu punt de referència per al so de 'Kid A' era Olivier Messiaen — un compositor d'avantguarda catòlic francès que escrivia sobre l'apocalipsi i els ocells. La frontera entre rock i música contemporània de tradició clàssica és, aquí, completament porosa."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Música Clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "La ruptura com a necessitat creativa",
+              "text": "Al mòdul de música clàssica vam veure com Beethoven va expandir les formes clàssiques fins al límit, i com el Romanticisme va explotar cap enfora. El rock del segle XXI fa el mateix: grups com Radiohead, Swans o Sunn O))) han portat la guitarra elèctrica a territoris que ja no s'assemblen al rock original — igual que les últimes simfonies de Mahler ja no s'assemblen a Haydn. La pregunta és si el punt de partida comú és suficient per mantenir la identitat de gènere."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rock-06-01",
+              "style": "multiple-choice",
+              "question": "Com ha afectat Internet i el streaming la posició del rock en la cultura popular del segle XXI?",
+              "options": [
+                "Ha perjudicat exclusivament el rock mentre ha beneficiat altres gèneres com el hip-hop i l'electrònica",
+                "Ha eliminat la idea d'un gènere dominant únic: en fragmentar el consum musical, ha fet que tots els gèneres siguin alhora més accessibles i menys centrals",
+                "Ha reforçat el rock com a gènere dominant perquè els algorismes de streaming el recomanin per sobre d'altres estils",
+                "No ha tingut cap efecte significatiu: el rock continua dominant les llistes de vendes globals com als anys 90"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Internet no va 'matar' el rock — va matar el concepte de gènere dominant únic. Quan qualsevol persona pot accedir a qualsevol música en qualsevol moment, el mercat es fragmenta en milers de nínxols. El hip-hop domina les llistes globals des dels 2010, però tampoc 'domina' la cultura de la manera en què ho feia el rock als 70: hi ha massa competència, massa opcions, massa plataformes.",
+              "feedbackWrong": "Internet ha afectat tots els gèneres de manera similar: ha fragmentat el consum i ha eliminat la possibilitat d'un gènere dominador absolut. El hip-hop lidera les llistes globals des dels 2010 — però tampoc és hegemònic de la manera en que ho va ser el rock als 70. El que ha canviat és l'estructura del mercat, no la qualitat del rock."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rock-06-01",
+              "question": "Tenint en compte tota la història del rock — dels seus orígens en el blues afroamericà fins avui —, creus que el rock és principalment una tradició musical específica o una actitud cultural que pot expressar-se en qualsevol so?",
+              "options": [
+                "És una tradició musical específica: guitarra elèctrica, ritme de bateria, estructura de cançó. Sense aquests elements, no és rock.",
+                "És principalment una actitud: l'autonomia artística, la resistència al mainstream, l'autenticitat. El so és secundari.",
+                "Les dues dimensions es necessiten mútuament: la tradició sonora dona identitat i la actitud dona vida. Quan es separen, o es torna al revivalisme estèril o a la vaguitat conceptual."
+              ],
+              "correct": 2,
+              "explanation": "La resposta integradora és la més rica perquè reconeix la tensió real. El rock pur com a tradició sonora (guitarra, bateria, baix, estructura vers-tornada) és perfectament definible — però quan es converteix en paràmetre rígid genera revivalisme nostàlgic que no innova. L'actitud pura sense ancoratge sonor és útil com a concepte crític però no opera com a gènere musical identificable. Els moments de major creativitat en la història del rock han estat quan les dues dimensions estaven en tensió productiva: quan la tradició era prou forta per donar identitat, i l'actitud era prou lliure per fer-la evolucionar. Nirvana era rock en el so i punk en l'actitud. Radiohead era rock en l'origen i avantguarda en l'aspiració. La tensió és la força, no el problema."
+            },
+            {
+              "type": "reflection",
+              "question": "Has fet un recorregut de setanta anys d'història del rock. Hi ha algun moment, moviment o artista d'aquest viatge que t'hagi generat curiositat d'escoltar — o de tornar a escoltar d'una altra manera?",
+              "prompt": "La música és l'únic art que pots consumir mentre fas una altra cosa. Potser avui és un bon dia per escoltar amb les dues orelles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rock-idees",
+      "title": "El Rock com a Fenomen Cultural",
+      "icon": "🧠",
+      "description": "Més enllà de la música: raça, política, tecnologia i la construcció del mite",
+      "style": "Temàtic · idees i tensions",
+      "lessons": [
+        {
+          "id": "cult-01",
+          "title": "Raça i apropiació: la pregunta incòmoda del rock",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hi ha una pregunta que sobrevola tota la història del rock i que rarament es fa en veu alta: per qué una música creada per artistes negres americans va enriquir principalment artistes blancs? La resposta no és fàcil ni confortable — però no entendre-la és no entendre el rock."
+            },
+            {
+              "type": "key-idea",
+              "text": "El rock and roll va néixer de tradicions afroamericanes (blues, gospel, R&B). La indústria discogràfica dels anys 50 estava segregada. Quan artistes blancs van fer versiones de cançons negres, van accedir a mercats i radios que els artistes originals no podien. Això va generar riquesa i fama desigual — i és el punt de partida per entendre l'apropiació cultural."
+            },
+            {
+              "type": "expandable",
+              "label": "Pat Boone vs. Little Richard: el cas pràctic",
+              "content": "'Tutti Frutti' de Little Richard (1955) era una explosió d'energia sexual i llibertat. La ràdio blanca no la programava. Pat Boone va gravar una versió suavitzada — 'sanititzada', en diria la crítica posterior — que va vendre el doble que l'original en el mercat blanc. Little Richard va rebre drets d'autor per la cançó. Però Pat Boone va guanyar el 78% de les vendes combinades d'una cançó que no va compondre, en un mercat del qual Little Richard estava estructuralment exclòs. Ningú va trencar cap llei. El sistema era la llei."
+            },
+            {
+              "type": "debate",
+              "question": "L'apropiació cultural en el rock —artistes blancs usant formes musicals afroamericanes— va ser un acte de robatori cultural o un procés inevitable d'hibridació que va enriquir la música globalment?",
+              "positionA": {
+                "label": "Apropiació injusta",
+                "argument": "Quan Elvis, Pat Boone o els Rolling Stones feien versions de música afroamericana, s'aprofitaven d'un sistema racista que permetia als artistes blancs accedir a mercats vedats als artistes negres. El resultat va ser una transferència massiva de riquesa i reconeixement des de creadors negres cap a intèrprets blancs. Celebrar la 'hibridació' sense reconèixer el context de desigualtat estructural és una forma d'amnèsia moral."
+              },
+              "positionB": {
+                "label": "Hibridació productiva",
+                "argument": "La música sempre ha viatjat entre cultures. Els blues musicians del Delta van aprendre de músics de jazz de Nova Orleans que havien après de músics europeus. La creativitat cultural funciona per contaminació i barreja. Els Rolling Stones van declarar sempre obertament la seva deute amb Muddy Waters — i Muddy Waters va veure augmentar les seves vendes gràcies a aquella referència. La barreja va ser real i va funcionar en totes direccions."
+              },
+              "reflection": "Les dues coses poden ser certes alhora: la hibridació va ser musicalment productiva i les condicions estructurals van ser injustes.",
+              "context": "Chuck Berry va dir: 'Si hagués nascut blanc, seria tan famós com Elvis'. Muddy Waters va dir: 'Els Rolling Stones m'han fet famós a Amèrica'. Les dues afirmacions son veritat. La complexitat no s'elimina triant un bàndol."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cult-01-01",
+              "style": "multiple-choice",
+              "question": "Per qué el sistema de llistes musicals segregades als EUA dels anys 50 ('pop' i 'rhythm & blues') perjudicava sistemàticament els artistes negres?",
+              "options": [
+                "Perquè les llistes de R&B pagaven royalties més baixos que les llistes pop",
+                "Perquè les ràdios que programaven llistes pop tenien més audiència i major capacitat publicitària, i estaven tancades als artistes negres",
+                "Perquè les discogràfiques negres no podien distribuir discos fora dels estats del sud",
+                "Perquè els contractes de R&B no incloïen drets d'autor sobre les composicions"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La segregació no era legal en el mercat musical, però era estructural: les ràdios del mainstream (amb audiències massives i ingressos publicitaris majors) programaven pràcticament exclusivament artistes blancs. Un artista negre podia ser número 1 en les llistes de R&B i ser completament desconegut per al 80% del públic americà. Quan un artista blanc feia una versió del mateix tema, tenia accés immediat a aquell mercat.",
+              "feedbackWrong": "La discriminació era estructural, no de drets d'autor ni de distribució física. El mecanisme clau era l'accés a les ràdios mainstream, que determinaven quins artistes podien arribar al públic de masses — i estaven pràcticament tancades als artistes negres, independentment de la qualitat de la música."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cult-01-02",
+              "style": "scientific-mode",
+              "style": "detect-error",
+              "statement": "Elvis Presley va compondre 'Hound Dog', 'That's All Right' i 'Jailhouse Rock', les cançons que el van fer famós, demostrant que era un artista original i no simplement un intèrpret.",
+              "isCorrect": false,
+              "feedbackExplanation": "'That's All Right' era d'Arthur 'Big Boy' Crudup, bluesman afroamericà. 'Hound Dog' l'havia gravat Big Mama Thornton el 1952, tres anys abans que Elvis. 'Jailhouse Rock' la van compondre Jerry Leiber i Mike Stoller. Elvis era principalment un intèrpret extraordinari, no un compositor. El seu talent era real — la seva manera de fusionar el blues amb el country, la seva presència escènica, la seva veu. Però les seves cançons més famoses eren creacions d'altres, sovint d'autors afroamericans que van cobrar drets però mai van accedir a la seva fama."
+            }
+          ]
+        },
+        {
+          "id": "cult-02",
+          "title": "La guitarra elèctrica: la màquina que va canviar-ho tot",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1931, George Beauchamp va patentar la primera guitarra elèctrica pràctica. Ningú va imaginar que estava inventant l'instrument que definiria la cultura popular global durant cinquanta anys. La guitarra elèctrica no és simplement una guitarra acústica amplificada: és un instrument completament diferent, amb possibilitats expressives que la seva predeces sora no tenia."
+            },
+            {
+              "type": "key-idea",
+              "text": "La guitarra elèctrica va transformar el rock perquè va permetre una nova relació amb el so: el feedback, la distorsió, el sustain, el whammy bar. Aquests no eren defectes tècnics — eren eines expressives que músics com Hendrix, Page i Verlaine van convertir en un vocabulari completament nou."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1931",
+                  "title": "Primera guitarra elèctrica pràctica",
+                  "text": "George Beauchamp i Adolph Rickenbacker patentan la 'Frying Pan'. Usada inicialment en jazz hawaià."
+                },
+                {
+                  "year": "1950–52",
+                  "title": "Fender Telecaster i Gibson Les Paul",
+                  "text": "Els dos dissenys que definiran el so del rock per dècades. Leo Fender i Les Paul, inventors visionaris."
+                },
+                {
+                  "year": "1966–67",
+                  "title": "Jimi Hendrix i la reinvenció total",
+                  "text": "Feedback, whammy bar, distorsió com a poesia. La guitarra deixa de ser un instrument i es converteix en una extensió del cos."
+                },
+                {
+                  "year": "1969",
+                  "title": "Carlos Santana i la fusió",
+                  "text": "Ritmes afro-cubans + blues + psicodèlia. La guitarra elèctrica és ara global."
+                },
+                {
+                  "year": "1975–77",
+                  "title": "El punk simplifica",
+                  "text": "Tres acords i potència. La tècnica és l'enemic. La guitarra torna a ser una arma, no una joia."
+                },
+                {
+                  "year": "1991",
+                  "title": "Cobain i la dinàmica com a composició",
+                  "text": "'Smells Like Teen Spirit': la guitarra com a control de tensió dramàtica. Suau-explosiu-suau."
+                }
+              ]
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Música Clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "La tecnologia com a motor de canvi musical",
+              "text": "Al mòdul de música clàssica vam veure com el piano fortepiano (que permetia tocar fort i suau, cosa que el clavecí no feia) va canviar la composició: Beethoven i Chopin van escriure específicament per a les possibilitats del nou instrument. El mateix passa amb la guitarra elèctrica: Jimi Hendrix no va adaptar el que ja existia a un nou instrument — va descobrir que l'instrument feia possible coses que cap instrument anterior havia fet. La tecnologia no serveix la música: la transforma."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cult-02-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser l'aportació específica de Jimi Hendrix a la història de la guitarra elèctrica?",
+              "options": [
+                "Va ser el primer a usar la distorsió i el feedback en música rock, inventant tècniques que ningú havia explorat",
+                "Va demostrar que la guitarra elèctrica podia ser un instrument solista d'igual prestigi que el violí o el piano en la música clàssica",
+                "Va transformar el feedback, la distorsió i el whammy bar de defectes tècnics en eines expressives conscients, creant un vocabulari sonor radicalment nou",
+                "Va popularitzar la tècnica del fingerpicking blues en el context del rock psicodèlic"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Hendrix no va 'inventar' el feedback (altres ja l'usaven) però va ser el primer a usar-lo com a llenguatge poètic conscient i sistemàtic. L'actuació a Woodstock (1969) on va 'tocar' l'himne americà distorsionat és música concreta: sons de bombes, sirenes, crits — tot fet amb una guitarra. No és virtuosisme tècnic al sentit clàssic: és un acte de composició sonora en temps real.",
+              "feedbackWrong": "Hendrix no va 'inventar' tècnicament el feedback ni la distorsió — altres músics ja els usaven. La seva contribució va ser conceptual: va decidir que aquests 'defectes' eren eines expressives, i va construir un vocabulari musical nou sobre ells. La diferència entre soroll accidental i so significatiu és sempre una decisió artística."
+            },
+            {
+              "type": "expandable",
+              "label": "Les Paul vs. Fender: dos filosofies del so",
+              "content": "La Gibson Les Paul i la Fender Stratocaster/Telecaster representen dues filosofies oposades del so elèctric. La Les Paul (dissenyada el 1952) té pastilles de bobinatge doble (humbuckers) que produeixen un so càlid, gruixut i sostingut — ideal per al blues, el rock clàssic i el heavy metal. La Fender (1950-54) usa pastilles de bobinatge simple que produeixen un so brillant, net i amb 'atac' clar — ideal per al country, el funk i el rock alternatiu. No és que una sigui millor: és que fan coses diferents. Cada moment de la història del rock es pot rastrejar parcialment en quin dels dos dissenys dominava."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-cult-02-01",
+              "question": "La distorsió de la guitarra elèctrica — un so que el dissenyador original de l'instrument hauria considerat un defecte — és avui un dels sons més reconeixibles de la cultura popular global. Com és possible que un 'error' es converteixi en el tret definitòri d'un gènere?",
+              "options": [
+                "Perquè els músics no sabien que era un error i el van usar per ignorància tècnica",
+                "Perquè la distorsió produïa un efecte fisiològic (adrenalina, excitació) que el so net no produïa, i els músics van aprendre empíricament que funcionava",
+                "Perquè la indústria discogràfica va promocionar la distorsió com a so diferencial per crear un mercat nou"
+              ],
+              "correct": 1,
+              "explanation": "La resposta fisiològica és la més robusta. La distorsió de la guitarra elèctrica augmenta el contingut harmònic del so (afegeix harmònics que no existien en el so original) i crea una densitat sonora que el cervell processa com a intensa i energètica. Els primers músics que van usar la distorsió (Link Wray a 'Rumble', 1958; Dave Davies dels Kinks a 'You Really Got Me', 1964) no tenien teoria per explicar-ho — van observar que el públic responia físicament de manera diferent. L'aprenentatge empíric va precedir la comprensió teòrica, com sovint passa en la innovació artística. El mateix va passar amb el blues i les 'blue notes': ningú va decidir teòricament que les notes lleugerament desafinades creaven tensió emocional — els músics van descobrir que funcionaven i les van conservar."
+            }
+          ]
+        },
+        {
+          "id": "cult-03",
+          "title": "Rock i política: quan la música pren partit",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1969, a Woodstock, Jimi Hendrix va tocar l'himne americà amb la seva guitarra distorsionada mentre als carrers el país s'enfonsava en la guerra del Vietnam i el moviment pels drets civils. No va dir ni una paraula política. No en va fer falta. La música és política quan vol — i de vegades quan no vol."
+            },
+            {
+              "type": "key-idea",
+              "text": "El rock ha estat vehicle de protesta (Dylan, punk, hip-hop), legitimació del poder establert (Live Aid, concerts estatals), escapisme apolític (hair metal, bubblegum pop) i, sovint, totes tres coses alhora. La relació entre rock i política és complexa perquè la música pot ser apropiada per qualsevol projecte ideològic."
+            },
+            {
+              "type": "expandable",
+              "label": "El problema de 'Born in the USA': quan el missatge s'inverteix",
+              "content": "'Born in the USA' de Bruce Springsteen (1984) és una cançó sobre un veterà del Vietnam traumatitzat que torna a un país que l'ha oblidat. La lletra és una crítica brutal de la promesa americana trencada. El cor —'Born in the USA!'— sona triomfant. Ronald Reagan va intentar usar-la com a himne de campanya, interpretant el cor com a patriotisme. Springsteen es va negar públicament i va explicar el missatge real. Però durant anys el cor va continuar sonant als estadis com a celebració. La separació entre el missatge de l'artista i l'ús que el públic fa de la seva música és un problema estructural que el rock no ha resolt."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cult-03-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser l'impacte cultural del festival de Woodstock (1969) més enllà de la música?",
+              "options": [
+                "Va demostrar que les multituds joves eren violentes i incontrolables, reforçant les polítiques conservadores de Nixon",
+                "Va consolidar la idea d'una cultura alternativa juvenil cohesionada, capaç d'organitzar-se autònomament i de manera pacífica",
+                "Va ser el primer festival de música pagat de la història i va crear el model econòmic del concert massiu modern",
+                "Va demostrar la superioritat artística del rock sobre el jazz i va accelerar el declivi d'aquest últim"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Woodstock va congregar 400.000 persones sense incidents greus en tres dies —cosa que els mitjans i les autoritats no esperaven. Va funcionar com a prova que la joventut del moviment contracultura podia auto-organitzar-se. La seva mitologia (pau, amor, música) va quedar fixada com a punt de referència cultural per als anys 60, malgrat que el festival va ser un desastre logístic i financer.",
+              "feedbackWrong": "Woodstock no va ser el primer festival pagat, ni es va organitzar sense caos (va ser un desastre logístic). L'impacte cultural real va ser simbòlic: demostrar que 400.000 joves podien coexistir pacíficament durant tres dies, consolidant la narrativa d'una cultura alternativa real i viable — just quan el govern Nixon i els mitjans conservadors la presentaven com a perill públic."
+            },
+            {
+              "type": "debate",
+              "question": "El rock pot ser genuïnament subversiu, o sempre acaba sent absorbit i domesticat per la industria i la cultura dominant?",
+              "positionA": {
+                "label": "El rock pot ser subversiu",
+                "argument": "La historia del rock és plena de moments en que la música va anticipar o va impulsar canvis socials reals. El blues i el soul van contribuir a normalitzar la cultura afroamericana. El punk va articular la ràbia de la joventut obrera britànica. El hip-hop ha documentat realitats que el periodisme mainstream ignorava. La música pot canviar com les persones pensen sobre si mateixes i sobre els altres — i això és subversió real, no metafòrica."
+              },
+              "positionB": {
+                "label": "Sempre acaba absorbit",
+                "argument": "Cada moviment rebel del rock ha estat absorbit en cinc anys. El punk va acabar sent un estil de moda vendut a H&M. El grunge va acabar sent el so de les pel·lícules de Hollywood. El hip-hop més combatiu es ven als mateixos estadis que el rock comercial. La maquinaria de la indústria cultural té una capacitat infinita per transformar la rebel·lia en producte. La 'subversió' del rock és principalment un relat que la indústria usa per vendre discos."
+              },
+              "reflection": "Pot una música ser alhora subversiva i popular? O la popularitat neutralitza necessàriament la subversió?",
+              "context": "El teòric cultural Stuart Hall parlava de la 'doble articulació' de la cultura popular: sempre és alhora expressió genuïna i producte de la indústria. Potser la pregunta no és 'és subversiu o no?' sinó 'en quines condicions i per a qui?'"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cult-03-02",
+              "style": "true-false",
+              "question": "El punk britànic dels anys 70 era principalment un moviment anarquista amb un programa polític coherent i articulat.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El punk tenia una actitud política —antiestablishment, anticapitalista, anti-autoritat— però rarament un programa coherent. Els Sex Pistols, el grup més emblemàtic, eren en gran part una creació del seu mànager Malcolm McLaren, que venia roba i usava la provocació com a estratègia de màrqueting. El contingut polític del punk era real en grups com The Clash, però el moviment en el seu conjunt era més nihilista ('no future') que programàticament polític.",
+              "feedbackWrong": "El punk era visceralment antiestablishment però rarament tenia un programa polític articulat. 'No future' és una actitud, no un programa. The Clash eren l'excepció política intel·ligent; els Sex Pistols eren en part una provocació orquestrada pel seu mànager Malcolm McLaren. La ràbia era autèntica; la coherència ideològica, molt menys."
+            }
+          ]
+        },
+        {
+          "id": "cult-04",
+          "title": "El mite del rocker: gènere, cos i rebel·lia",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan pensem en un 'rocker', l'imaginari estàndard és masculí. Un home amb guitarra, una actitud de desafiament, probablement jove i blanc. Però aquesta imatge amaga una realitat molt més rica i complexa: el rock ha estat des del principi un espai on les categories de gènere es qüestionen, es transgredeixen i de vegades es reinventen."
+            },
+            {
+              "type": "key-idea",
+              "text": "El rock ha construït simultàniament una masculinitat hipertrofiada (el riffing agressiu del heavy metal, el postureo del hair metal) i espais de transgressió de gènere inusuals per a la cultura popular (Little Richard, David Bowie, Lou Reed, Kurt Cobain en vestit). Aquestes dues tendències conviuen en el mateix gènere des dels seus inicis."
+            },
+            {
+              "type": "expandable",
+              "label": "David Bowie i Ziggy Stardust: la identitat com a invenció",
+              "content": "El 1972, David Bowie va aparèixer públicament com a Ziggy Stardust: una estrella del rock alienígena andrògina, amb maquillatge exagerat, roba de lluentons i comportament sexualment ambigu. En plena cultura del macho rock, va declarar a la revista Melody Maker que era bisexual — la primera estrella de rock a fer-ho públicament. I va vendre milions de discos. La seva estratègia era radical: la identitat no és quelcom que es té, és quelcom que es construeix i es pot canviar. En deu anys va inventar-se sis personatges públics diferents. Va influir en Prince, en Madonna, en Lady Gaga, en la idea mateixa que una estrella de pop pot ser una obra d'art en si mateixa."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cult-04-01",
+              "style": "multiple-choice",
+              "question": "Quin element de la figura de Little Richard als anys 50 era culturalment transgressor més allà de la seva música?",
+              "options": [
+                "El seu estil vocal extrem —crits, whoops, improvisació— que superava els límits del que la ràdio programava habitualment",
+                "La seva presentació escènica amb maquillatge i roba extravagant, desafiant les normes de masculinitat de l'Amèrica conservadora dels 50",
+                "El fet de compondre ell mateix totes les seves cançons, en un moment en que els artistes de R&B rarament tenien control creatiu",
+                "La seva negativa a fer gires pel sud dels EUA en protesta per la segregació racial"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Little Richard portava maquillatge, roba de lluentons i pentinat pompadour en un moment en que la masculinitat americana eren Eisenhower i els homes de Mad Men. Era negre, gay (tot i que no ho va declarar públicament fins molt més tard) i travesti en l'escenari. Que es convertís en superstar —tot i les restriccions estructurals— és extraordinari. Va obrir un camí que Bowie, Prince i molts altres van transitar dècades després.",
+              "feedbackWrong": "L'element vocal i compositiu eren importants, però el que feia de Little Richard una figura culturalment transgres sora era la presentació corporal: maquillatge, roba extravagant, gestualitat femenina en un context que esperava masculinitat normativa. En una Amèrica segregada i conservadora dels 50, això era una provocació de múltiples capes."
+            },
+            {
+              "type": "reflection",
+              "question": "El rock ha estat un espai de transgressió de gènere (Bowie, Prince, Cobain en vestit) però també un espai de masculinitat hipertrofiada (heavy metal, rock clàssic d'estadis). Com penses que es pot tenir les dues coses alhora en un mateix gènere?",
+              "prompt": "No hi ha resposta correcta. És una pregunta sobre com les cultures contenen contradiccions sense resoldre-les."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cult-04-02",
+              "style": "scientific-mode",
+              "id": "sci-cult-04-01",
+              "question": "Les dones han estat massivament infrarepresentades com a instrumentistes i compositores en el rock al llarg de la seva historia (sí com a vocalistes). Quina creus que és la causa principal d'aquesta desigualtat?",
+              "options": [
+                "Diferències innates en les preferències musicals: les dones prefereixen naturalment la veu com a instrument expressiu",
+                "Barreres culturals i estructurals: l'entorn del rock (assajos en garatges, gires, cultura de bandes) ha estat històricament poc accessible o hostil per a les dones",
+                "La indústria discogràfica ha promocionat deliberadament vocalistes femenines i ha discriminat les instrumentistes per raons comercials"
+              ],
+              "correct": 1,
+              "explanation": "L'evidència apunta clarament a les barreres estructurals i culturals, no a les preferències innates. Quan les condicions canvien, la participació femenina creix: el punk dels 70 (amb la seva estètica DIY i l'absència de virtuosisme com a requisit) va generar una generació de guitarristes i batteristes dones (Siouxsie Sioux, Poly Styrene, Viv Albertine). L'escena indie dels 80-90 va produir grups com Sleater-Kinney, Bikini Kill i PJ Harvey. El riot grrrl dels 90 va ser explícitament feminista. En tots els casos, quan l'entorn cultural va baixar les barreres d'accés (espai, actitud, normes), les dones van aparèixer com a instrumentistes. La barrera era l'entorn, no la preferència."
+            }
+          ]
+        },
+        {
+          "id": "cult-05",
+          "title": "La indústria discogràfica: qui controla el so",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El rock és una forma d'art, però també és un negoci. Les dues coses no s'exclouen — però tampoc sempre s'entenen bé. La historia de la indústria discogràfica és la historia d'una tensió permanent entre la creativitat dels artistes i els interessos econòmics de les empreses que els distribuïen i, de vegades, els posseïen."
+            },
+            {
+              "type": "key-idea",
+              "text": "La indústria discogràfica ha modelat el so del rock tan profundament com els artistes mateixos: els contractes leonins dels anys 50-60, la ràdio payola, la decisió de quin so es promociona i quin s'ignora. Entendre la indústria és entendre per qué alguns sons triomfen i d'altres, potser millors, queden en l'obscuritat."
+            },
+            {
+              "type": "expandable",
+              "label": "El contracte de 360 graus: quan la discogràfica és el teu socia en tot",
+              "content": "Als anys 2000, mentre les vendes de discos s'enfonsaven per la pirateria i l'streaming, les discogràfiques van inventar el contracte de 360 graus: en lloc de cobrar només un percentatge de les vendes de discos, la companyia passa a cobrar un percentatge de tots els ingressos de l'artista — concerts, marxandatge, llicències, aparicions publicitàries. L'argument de la indústria és que inverteix en el desenvolupament de l'artista i ha de participar de tots els fruits. L'argument dels artistes és que passen a ser treballadors d'una empresa que controla la seva imatge, el seu so i la seva agenda. El debat sobre qui posseeix un artista no ha acabat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cult-05-01",
+              "style": "multiple-choice",
+              "question": "Qué és el 'payola' i quin impacte va tenir en el rock dels anys 50 i 60?",
+              "options": [
+                "Un sistema de producció musical en cadena que permetia gravar molts discos ràpidament i a baix cost",
+                "La pràctica de pagar a locutors de ràdio per programar determinades cançons, distorsionant el mercat musical en favor dels artistes que podien pagar",
+                "Un format de contracte musical que cedia tots els drets de composició a la discogràfica a canvi d'un avançament en metàl·lic",
+                "El sistema de classificació de discos per edat que les emissores de ràdio usaven per protegir el públic jove"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El payola era el pagament (legal en un principi, il·legal a partir de 1960) de diners o regals als disc jockeys de ràdio per programar determinades cançons. En un mercat on la ràdio era l'únic mitjà de difusió massiva, qui controlava la ràdio controlava qui triomfava. Les discogràfiques grans podien pagar més — i ho feien. El resultat era un mercat musicalment distorsionat en favor del poder econòmic, no del talent.",
+              "feedbackWrong": "El payola era una pràctica de corrupció mediàtica, no de producció ni de contractes. Consistia a pagar als locutors de ràdio per programar determinades cançons — en un moment en que la ràdio era l'únic canal de difusió massiu. Va ser un escàndol nacional als EUA el 1959-60, i va demostrar fins a quin punt el 'gust' popular podia ser manufacturat per qui tenia diners per comprar-lo."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cult-05-02",
+              "style": "true-false",
+              "question": "L'aparició del streaming (Spotify, Apple Music) ha beneficiat principalment els artistes emergents, ja que els permet distribuir la seva música globalment sense necessitat d'una discogràfica.",
+              "correct": false,
+              "feedbackCorrect": "Fals, o almenys no tan simple. El streaming ha baixat dràsticament les barreres de distribució, sí — qualsevol pot pujar música a Spotify. Però el model de pagament (fraccions de cèntim per reproducció) beneficia massivament els artistes amb milions de reproduccions (els que ja tenien fama) i és pràcticament irrellevant econòmicament per als artistes emergents. Un artista necessita aproximadament un milió de reproduccions a Spotify per guanyar uns 3.000 euros. Les discogràfiques segueixen sent necessàries per a la promoció, les playlists destacades i el finançament — o, alternativament, els artistes han de convertir-se ells mateixos en gestors de màrqueting digital.",
+              "feedbackWrong": "El streaming ha democratitzat la distribució però no l'ingrés. El model econòmic del streaming és profundament regressiu: concentra els ingressos en els artistes que ja generen milers de milions de reproduccions. Un milió de reproduccions a Spotify equivalen a uns 3.000-4.000 euros. Per als artistes emergents, la necessitat de finançament, promoció i accés a playlists destacades fa que les discogràfiques (o les seves funcions) continuïn sent necessàries."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-cult-05-01",
+              "question": "Si el streaming ha fet que qualsevol artista pugui distribuir la seva música globalment, per qué el mercat musical segueix estant dominat per molt pocs artistes superastres?",
+              "options": [
+                "Perquè els algoritmes de les plataformes de streaming reprodueixen i amplifiquen les desigualtats existents, afavorint els que ja són populars",
+                "Perquè la qualitat musical dels superastres és objectivament superior i el públic sempre selecciona el millor",
+                "Perquè les discogràfiques controlen directament els algorismes de Spotify i Apple Music i exclouen els artistes independents"
+              ],
+              "correct": 0,
+              "explanation": "La dinàmica dels algorismes de recomanació és clau. Spotify, Apple Music i YouTube usen algorismes que recomanant el que molta gent ja escolta (popularitat com a senyal de qualitat), el que genera engagement alt (temps d'escolta llarg, no skip), i el que les playlists editorials destaquen (que solen ser artistes amb suport de discogràfica). El resultat és un efecte 'winner takes all': els artistes ja populars es tornen més populars perquè l'algoritme els recomana, i els artistes emergents resten invisibles malgrat la distribució global. No és una conspiració de les discogràfiques — és la lògica dels sistemes de recomanació basats en popularitat. L'economia de l'atenció tendeix a la concentració, no a la distribució equitativa."
+            }
+          ]
+        },
+        {
+          "id": "cult-06",
+          "title": "Rock, blues i música clàssica: una sola tradició?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hem recorregut setanta anys d'historia del rock i, en paral·lel, quatre segles d'historia de la música clàssica. Ara és el moment de fer una pregunta que potser semblava impossible al principi: hi ha quelcom fonamental que uneixi Bach, Beethoven, Robert Johnson, Chuck Berry, Jimi Hendrix i Radiohead? O estem parlant de músiques tan diferents que l'única cosa que comparteixen és l'aire que les porta?"
+            },
+            {
+              "type": "key-idea",
+              "text": "El rock i la música clàssica comparteixen més del que sembla: ambdues tradicions es pregunten com crear tensió i resolució, com combinar repetició i sorpresa, com fer que el temps musical sigui significatiu. Les eines i els contextos socials són radicalment diferents — però les preguntes de fons són les mateixes."
+            },
+            {
+              "type": "comparison",
+              "title": "Música clàssica vs. Rock: semblances de fons",
+              "labelA": "Música Clàssica",
+              "labelB": "Rock",
+              "items": [
+                {
+                  "label": "Tensió i resolució",
+                  "a": "Sistema tonal: dominat → tònica",
+                  "b": "Blues I-IV-V: tensió → retorn"
+                },
+                {
+                  "label": "Improvisació",
+                  "a": "Cadències, ornaments barrocs, improv de teclat",
+                  "b": "Solo de guitarra, jam sessions, blues improvisació"
+                },
+                {
+                  "label": "Forma i llibertat",
+                  "a": "Forma sonata com a marc de la llibertat",
+                  "b": "Estructura vers-tornada com a marc de la llibertat"
+                },
+                {
+                  "label": "Virtuosisme",
+                  "a": "Paganini, Liszt: el cos com a espectacle",
+                  "b": "Hendrix, Van Halen: el cos com a espectacle"
+                },
+                {
+                  "label": "Ruptura generacional",
+                  "a": "Cada generació rebutja la precedent",
+                  "b": "Cada generació rebutja la precedent"
+                }
+              ]
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de la Música Clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "La tradició com a diàleg entre generacions",
+              "text": "Al mòdul de música clàssica vam veure com cada gran compositor —de Bach a Beethoven a Wagner a Debussy— dialogava amb la tradició que havia rebut: la prenia, la transformava i la passava endavant. El rock fa el mateix: cada generació de músics de rock ha absorbit els seus predecessors i ha intentat superar-los, negar-los o reinventar-los. La diferència és que al rock el cicle generacional és de cinc a deu anys; a la música clàssica, de cinquanta. Però la lògica és la mateixa: art com a conversació ininterrompuda a través del temps."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cult-06-01",
+              "style": "multiple-choice",
+              "question": "Quin element comparteixen el rock i la música clàssica occidental en la seva estructura harmònica més fonamental?",
+              "options": [
+                "L'ús de la polifonia a quatre veus com a base de tota composició",
+                "El sistema de tensió i resolució basat en la jerarquia d'acords de la tonalitat occidental",
+                "La progressió modal diatònica derivada del cant gregorià medieval",
+                "L'estructura de tema i variacions com a forma compositiva bàsica"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Tant la música clàssica com el rock fan servir el sistema tonal occidental — la jerarquia on uns acords creen tensió (dominant, subdominant) i d'altres la resolen (tònica). La progressió I-IV-V del blues és una versió mínima d'aquest sistema. La forma sonata clàssica n'és una versió elaborada. Però el principi és el mateix: crear expectatives i satisfer-les o defrier-les. Per això, malgrat tot, comparteixen una intuïció harmònica bàsica.",
+              "feedbackWrong": "La polifonia a quatre veus és específica de la música culta europea. El cant gregorià és anterior al sistema tonal modern. El tema i variacions és un format compositiu, no un principi harmònic. El que connecta el rock i la música clàssica en la base és la tonalitat: el sistema de tensions i resolucions que estructura l'expectativa de l'oient en ambdues tradicions."
+            },
+            {
+              "type": "debate",
+              "question": "Hauria de tenir el rock el mateix prestigi cultural que la música clàssica? O el prestigi hauria de desaparèixer com a categoria?",
+              "positionA": {
+                "label": "El rock mereix el mateix prestigi",
+                "argument": "Les millors obres del rock — 'Pet Sounds' de Beach Boys, 'Kind of Blue' de Miles Davis, 'OK Computer' de Radiohead — tenen la mateixa complexitat, intenció artística i impacte cultural que moltes simfonies del segle XIX. La jerarquia que posa la música clàssica per sobre del rock és una construcció de classe social, no una avaluació artística objectiva. Reconèixer el rock com a art major no rebaixa la música clàssica — l'acompanya."
+              },
+              "positionB": {
+                "label": "El prestigi és una categoria sospitosa",
+                "argument": "La pregunta assumeix que el 'prestigi' és un objectiu desitjable. Però el prestigi és sempre una forma de jerarquització social que exclou. Demanar que el rock sigui 'acceptat' per les institucions del prestigi (sales de concerts formals, estudis universitaris, crítiques en revistes cultes) és demanar-li que s'integri en un sistema que no el necessita. El rock ha funcionat perfectament com a forma artística sense validació acadèmica."
+              },
+              "reflection": "Qui decideix qué és art i qué no? I a qui beneficia aquella decisió?",
+              "context": "La Universitat de Liverpool ofereix un grau en Beatles Studies. Bob Dylan va rebre el Premi Nobel de Literatura el 2016. Les fronteres del prestigi s'han mogut — però lentament i de manera desigual."
+            },
+            {
+              "type": "reflection",
+              "question": "Has recorregut la historia del rock des dels seus orígens en el blues fins al segle XXI, i l'has conectat amb quatre segles de música clàssica occidental. Quin és el fil que connecta totes dues tradicions per a tu? I quin és el que les separa de manera irreconciliable?",
+              "prompt": "No hi ha resposta correcta. Però tenir-ne una pròpia és el primer pas per escoltar música d'una manera diferent."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
