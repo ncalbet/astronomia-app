@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
 import { MODULE_REGISTRY, loadModule } from '../data/moduleRegistry'
-import { getAreaById } from '../data/areaRegistry'
+import { getAreaById, getAreaModules } from '../data/areaRegistry'
 import { useModuleProgress } from '../hooks/useModuleProgress'
 import styles from './ModuleMap.module.css'
 
@@ -222,8 +222,7 @@ export default function ModuleMap() {
     if (!navigationState.currentAreaId) navigate('/areas', { replace: true })
   }, [])
 
-  const areaModuleIds = area?.modules ?? []
-  const visibleModules = MODULE_REGISTRY.filter(({ id }) => areaModuleIds.includes(id))
+  const registryIds = new Set(MODULE_REGISTRY.map(m => m.id))
 
   const handleSelectModule = async (moduleId) => {
     if (!isModuleUnlocked(moduleId) || loadingId) return
@@ -260,19 +259,28 @@ export default function ModuleMap() {
       </header>
 
       <div className={styles.moduleList}>
-        {visibleModules.map(({ id }) => (
-          <ModuleCard
-            key={id}
-            id={id}
-            onSelect={handleSelectModule}
-            onRepeat={handleRepeat}
-            loadingId={loadingId}
-            completedModules={completedModules}
-            completedLessons={completedLessons}
-            isModuleUnlocked={isModuleUnlocked}
-            isItineraryCompleted={isItineraryCompleted}
-          />
-        ))}
+        {area.topics.map(topic => {
+          const topicModules = topic.modules.filter(id => registryIds.has(id))
+          if (topicModules.length === 0) return null
+          return (
+            <div key={topic.label} className={styles.topicSection}>
+              <h2 className={styles.topicHeader}>{topic.label}</h2>
+              {topicModules.map(id => (
+                <ModuleCard
+                  key={id}
+                  id={id}
+                  onSelect={handleSelectModule}
+                  onRepeat={handleRepeat}
+                  loadingId={loadingId}
+                  completedModules={completedModules}
+                  completedLessons={completedLessons}
+                  isModuleUnlocked={isModuleUnlocked}
+                  isItineraryCompleted={isItineraryCompleted}
+                />
+              ))}
+            </div>
+          )
+        })}
       </div>
     </div>
   )
