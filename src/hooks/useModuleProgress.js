@@ -28,16 +28,18 @@ export function useModuleProgress(moduleId, completedLessons, isItineraryComplet
         })
       }
 
-      const total     = allLessons.length
-      const completed = allLessons.filter(l => completedLessons.includes(l.key)).length
-      const percent   = total > 0 ? Math.round((completed / total) * 100) : 0
+      const total          = allLessons.length
+      const completed      = allLessons.filter(l => completedLessons.includes(l.key)).length
+      const percent        = total > 0 ? Math.round((completed / total) * 100) : 0
+      const hasItineraries = !!data.itineraries
 
       let label
-      if (completed === 0)        label = `${total} lliçons`
-      else if (completed === total) label = 'Completat'
-      else                         label = `${completed}/${total} lliçons`
+      if (completed === total && total > 0) label = 'Completat'
+      else if (completed === 0 && hasItineraries) label = '🔀 Tria el camí'
+      else if (completed === 0)              label = `${total} lliçons`
+      else                                   label = `${completed}/${total} lliçons`
 
-      setProgress({ completed, total, percent, label })
+      setProgress({ completed, total, percent, label, hasItineraries })
     }).catch(() => {
       setProgress({ completed: 0, total: 0, percent: 0, label: '—' })
     })

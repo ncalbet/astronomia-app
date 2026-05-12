@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
-import { AREAS } from '../data/areaRegistry'
+import { AREAS, getAreaModules } from '../data/areaRegistry'
 import styles from './AreaSelector.module.css'
 
 function AreaCard({ area, completedCount, onSelect }) {
-  const total = area.modules.length
+  const total = getAreaModules(area).length
   const pct   = total > 0 ? Math.round((completedCount / total) * 100) : 0
   const done  = completedCount === total && total > 0
 
@@ -59,7 +59,7 @@ export default function AreaSelector() {
           <AreaCard
             key={area.id}
             area={area}
-            completedCount={area.modules.filter(id => completedModules.includes(id)).length}
+            completedCount={getAreaModules(area).filter(id => completedModules.includes(id)).length}
             onSelect={handleSelect}
           />
         ))}
