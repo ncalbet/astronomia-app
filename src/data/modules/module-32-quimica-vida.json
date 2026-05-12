@@ -1,0 +1,455 @@
+{
+  "id": "module-32-quimica-vida",
+  "title": "La Química de la Vida: Bioquímica Fonamental",
+  "emoji": "🧬",
+  "phase": 2,
+  "unlockRequires": "module-29-quimica",
+  "lessons": [
+    {
+      "id": "bio-01",
+      "title": "Les molècules de la vida: quatre famílies que ho fan tot",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Un bacteri és una sola cèl·lula de menys d'un micròmetre. Una balena blava és un animal de 150 tones amb bilions de cèl·lules. I tanmateix, tots dos estan fets de les mateixes quatre famílies de molècules: carbohidrats, lípids, proteïnes i àcids nucleics. La diversitat de la vida — des de bacteris a sequoies, des de meduses a elefants — és una diversitat de combinacions i variacions d'aquests quatre tipus moleculars fonamentals. Tota la complexitat biológica emergeix de la química d'uns pocs elements: principalment C, H, O, N, P i S."
+        },
+        {
+          "type": "prediction",
+          "question": "Si tota la vida usa les mateixes quatre famílies de molècules, per qué son tan radicalment diferentes un bolet, una balena i una alzina? Qué creus que crea tanta diversitat dins d'un conjunt limitat de 'peces' moleculars?",
+          "hint": "Pensa en com amb 20 tipus d'aminoàcids i 4 bases de l'ADN es pot generar una diversitat pràcticament il·limitada de seqüències i estructures tridimensionals."
+        },
+        {
+          "type": "key-idea",
+          "text": "Les quatre grans famílies de biomolècules son: carbohidrats (energia ràpida i estructura en plantes), lípids (membranes, hormones i reserva energètica), proteïnes (catalitzadors, senyalització, estructura, transport i defensa) i àcids nucleics (ADN: emmagatzematge d'informació; ARN: expressió d'informació). Totes son polímers (cadenes) d'unitats repetides (monòmers) excepte els lípids."
+        },
+        {
+          "type": "comparison",
+          "title": "Les quatre famílies de biomolècules",
+          "labelA": "Monòmer",
+          "labelB": "Funció principal",
+          "items": [
+            {
+              "label": "Carbohidrats",
+              "a": "Monosacàrids (glucosa, fructosa, galactosa)",
+              "b": "Energia ràpida (glucosa), reserva (glicogen, midó), estructura (cel·lulosa)"
+            },
+            {
+              "label": "Lípids",
+              "a": "Àcids grassos + glicerol (o altres)",
+              "b": "Membranes cel·lulars, hormones esteroides, aïllament, reserva energètica"
+            },
+            {
+              "label": "Proteïnes",
+              "a": "Aminoàcids (20 tipus)",
+              "b": "Enzims, transport (hemoglobina), estructura (col·lagen), anticossos, senyalització"
+            },
+            {
+              "label": "Àcids nucleics",
+              "a": "Nucleòtids (4 tipus per ADN, 4 per ARN)",
+              "b": "ADN: emmagatzematge genètic; ARN: síntesi de proteïnes; ATP: energia"
+            }
+          ]
+        },
+        {
+          "type": "misconception",
+          "belief": "Els greixos (lípids) son simplement reserves d'energia dolenta que cal eliminar del cos.",
+          "reality": "Els lípids son molècules essencials per a la vida. Les membranes de totes les cèl·lules estan fetes de fosfolípids — sense lípids, no hi ha cèl·lules. Les hormones esteroides (cortisol, estrògens, testosterona) son lípids. La mielina que aïlla els nervis és lípid. Les vitamines liposolubles A, D, E i K sols s'absorbeixen en presència de greix. El cervell és el 60% de greix en pes sec. Eliminar tots els greixos de la dieta seria fatal. El problema no és el greix en si sinó els tipus de greixos en excés i el balanç energètic total.",
+          "why": "Les dietes baixes en greix dels anys 80-90 van crear la falsa idea que tot el greix és dolent. La investigació nutricional posterior ha diferenciat entre greixos saturats, insaturats, trans i omega-3 amb efectes molt diferents sobre la salut."
+        },
+        {
+          "type": "expandable",
+          "label": "L'ATP: la moneda energètica universal de la vida",
+          "content": "L'adenosina trifosfat (ATP) és la molècula energètica universal de tots els éssers vius. Quan el cos 'crema' glucosa, l'energia no s'allibera directament en forma de calor (ineficient i perillós a 37°C) — es captura en la forma de l'ATP, sintetitzant-lo a partir d'ADP i fosfat inorgànic (Pi). Quan una cèl·lula necessita energia (per a una contracció muscular, per transportar una molècula, per sintetitzar una proteïna), hidrolitza l'ATP (ATP → ADP + Pi), alliberant ~30 kJ/mol. El nostre cos produïx i consumix el seu pes en ATP cada dia — un adult en repòs usa uns 40 kg d'ATP diaris, però el recicla continuament. L'estructura de l'ATP és elegant: tres grups fosfat carregats negativament s'apilen uns a prop dels altres, creant una repulsió electrostàtica que fa que la hidròlisi (trencament del tercer fosfat) alliberi energia. És una 'molla molecular' comprimida per la càrrega que s'allibera quan es necessita."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-01-01",
+          "style": "multiple-choice",
+          "question": "La cel·lulosa i el midó son tots dos polímers de glucosa. La cel·lulosa forma les parets de les cèl·lules vegetals i és indigestible per als humans; el midó és digerit fàcilment. Qué explica diferències tan grans en propietats i digestibilitat si els dos son fets del mateix monòmer?",
+          "options": [
+            "La glucosa del midó és d'una varietat diferent (D-glucosa) de la de la cel·lulosa (L-glucosa), i el nostre sistema digestiu sols processa la D-glucosa",
+            "La forma en que les unitats de glucosa s'unixen és diferent: el midó usa l'enllaç α-1,4-glicosídic (forma helicoidal accessible als enzims digestius), mentre la cel·lulosa usa l'enllaç β-1,4-glicosídic (forma lineal rígida que els enzims humans no reconèixen)",
+            "La cel·lulosa conté nitrogen en la seva estructura, cosa que la fa indigestible, mentre que el midó és nitrogen-lliure",
+            "La cel·lulosa és un polímer de 3D mentre que el midó és lineal, i els enzims digestius sols processen polímers lineals"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La diferència entre midó i cel·lulosa no és quin monòmer usen (tots dos usen glucosa) sinó com estan units. El midó usa l'enllaç α-1,4-glicosídic, que crea una estructura helicoidal que les nostres amilases (enzims digestius) reconèixen i trenquen. La cel·lulosa usa l'enllaç β-1,4-glicosídic, que crea cadenes lineals i rígides que s'empaquen en fibres molt estables. Els nostres enzims no poden trencar l'enllaç β-glicosídic — sols alguns bacteris i fongs ho fan (per aixó les termites i les vaques poden digerir fusta i herba: els seus microbis intestinals trenquen la cel·lulosa). Aquesta diferència d'un sol carboni en la configuració de la glucosa (α vs. β) determina si una substància et pot alimentar o construïx les parets de les cèl·lules vegetals.",
+          "feedbackWrong": "La clau és la configuració de l'enllaç glicosídic, no el tipus de glucosa ni la presència de nitrogen. El midó usa enlaces α-1,4 (forma helicoidal) que les nostres amilases reconèixen. La cel·lulosa usa enlaces β-1,4 (forma lineal i rígida) que els nostres enzims no poden trencar. Una sola diferència en la configuració espacial d'una unió de carboni (α vs. β) determina si una substància és aliment o fibra indigestible."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-01-02",
+          "style": "detect-error",
+          "statement": "Les proteïnes son les molècules més importants dels éssers vius perquè fan totes les funcions biológiques, mentre que l'ADN és simplement una biblioteca passiva d'informació sense funció activa.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació sobrevalora les proteïnes i infravora l'ADN de forma incorrecta. L'ADN no és simplement passiu: (1) L'estructura de doble hèlix amb els ponts d'hidrogen entre parells de bases és essencial per a la rèplica fidel i la reparació del dany. (2) La regulació de l'expressió gènica (quin gen s'activa, quan i en quins teixits) és una funció activa del genoma. (3) Les regions no codificants de l'ADN regulen l'arquitectura de la cromatina i l'accessibilitat dels gens. (4) L'ARN (descendent de l'ADN) fa moltes funcions actives: els ribozims (ARN catalítics) catalitzen reaccions sense proteïnes; els microARNs regulen l'expressió gènica. Totes les molècules biológiques son importants en les seves funcions respectives — la jerarquia simplista 'proteïnes > tot' és incorrecta."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-bio-01-01",
+          "question": "La vida a la Terra usa exactament 20 aminoàcids per construir totes les proteïnes conegudes (dels bilions que existixen). Per qué 20? Per qué no 10 o 100? Creus que és una restricció física fonamental o un accident evolutiu?",
+          "options": [
+            "És una restricció física: sols 20 aminoàcids son estables químicament a les condicions de la vida a base d'aigua",
+            "És en gran part un accident evolutiu: el codi genètic que especifica els 20 aminoàcids es va fixar molt aviat en l'evolució i totes les formes de vida actuals hereden aquell accident inicial",
+            "És un optimum evolutiu: 20 aminoàcids és el número que permet suficient diversitat de propietats (mida, càrrega, polaritat) per construir qualsevol proteïna funcional, sense la complexitat innecessària de tenir-ne més"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és incorrecta: existeixe centenars d'aminoàcids naturals i molts sintètics estables. La posició B és parcialment certa: el codi genètic és universal i es va fixar molt aviat — un canvi hauria requerit reescriure totes les proteïnes d'un organisme simultàniament, cosa impossiblement improbable. Però 'accident pur' ignora que el codi genètic mostra senyals d'optimació (els aminoàcids similars tenen codons similars, minimitzant els errors de mutació). La posició C captura la visió moderna: 20 aminoàcids cobreix un espai de propietats fisicoquímiques (mida de 0 a gran, càrrega de negatiu a positiu, polaritat de molt hidrofòbic a molt hidròfil) suficientment divers per construir qualsevol proteïna funcional. Menys aminoàcids limitaria la diversitat de proteïnes; més afegiria complexitat sense benefici clar. La resposta veritable probablement combina les tres: el número 20 és fruit d'un procés evolutiu on els aminoàcids es van afegint gradualment fins a cobrir suficient diversitat de propietats, i la selecció natural va estabilitzar aquell nombre optimal."
+        }
+      ]
+    },
+    {
+      "id": "bio-02",
+      "title": "Proteïnes: les màquines moleculars de la vida",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "L'hemoglobina transporta oxigen dels pulmons als teixits. La miosina contreu els músculs. La insulina regula la glucosa en sang. El col·lagen dóna resistència als ossos i la pell. Els anticossos neutralitzen els patògens. La DNA-polimerasa replica el genoma. L'actina construïx el citoesquelet. La rodopsina detecta fotons a la retina. Totes son proteïnes. Totes estan fetes dels mateixos 20 aminoàcids. La diferència entre totes elles és simplement l'ordre en que s'encadenen els aminoàcids — la seqüència. I aquella seqüència determina una forma tridimensional única. I aquella forma determina una funció única. La proteïna és seqüència → estructura → funció."
+        },
+        {
+          "type": "prediction",
+          "question": "Les proteïnes son cadenes d'aminoàcids que s'enrosquen i plegen en formes tridimensionals molt específiques. Si canvies un sol aminoàcid de la seqüència, la proteïna pot deixar de funcionar completament. Per qué creus que una diferència tan petita (1 aminoàcid en centenars) pot tenir un efecte tan gran sobre la funció?",
+          "hint": "Pensa en la clau i el pany: si canvies fins i tot un únic tall d'una clau, no obre el pany. Les proteïnes funcionen de forma similar: la seva forma exacta determina amb quin substrat interaccionen."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'estructura d'una proteïna té quatre nivells: primari (la seqüència d'aminoàcids), secundari (estructures locals com hèlix α i làmines β, estabilitzades per ponts d'hidrogen), terciari (el plegament tridimensional global de tota la cadena, estabilitzat per interaccions hidrofòbiques, ponts disulfur i ponts d'hidrogen), i quaternari (associació de múltiples cadenes proteiques). La funció deriva de la forma tridimensional."
+        },
+        {
+          "type": "expandable",
+          "label": "La desnaturalització: per qué els ous no es tornen a tornar crus",
+          "content": "Quan cuines un ou, les proteïnes de la clara (majoritàriament albúmina) canvien de transparents i líquides a blanques i sòlides — i aquest procés és irreversible. Aixó és la desnaturalització: la calor (o els àcids, els dissolvents orgànics, la pressió) trenca les forces febles (ponts d'hidrogen, interaccions hidrofòbiques, forces iòniques) que mantenen la forma tridimensional de la proteïna. La seqüència primària roman intacta — la cadena d'aminoàcids és la mateixa — però el plegament específic s'ha perdut. Les proteïnes desnaturalitzades no recuperen la seva forma original perquè el procés de replegament és cinèticament inaccessible un cop la calor ha causat una agregació desordenada. Per aixó la febre alta és perillosa: desnaturalitza enzims i proteïnes estructurals crítics. Per aixó els antibiòtics que pertorben les proteïnes dels bacteris son eficaços — i per aixó cal que siguin selectius (afectar les proteïnes del bacteri, no les humanes)."
+        },
+        {
+          "type": "quote",
+          "text": "Una seqüència d'aminoàcids conté implícitament tota la informació necessària per definir la seva estructura tridimensional. El problema del plegament de proteïnes és un dels problemes oberts més importants de la biologia molecular.",
+          "author": "Christian Anfinsen, Nobel de Química 1972"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-02-01",
+          "style": "multiple-choice",
+          "question": "L'anèmia de cèl·lules falciformes és causada per una mutació en la hemoglobina on la glutamat (aminoàcid carregat negativament) en la posició 6 és substituïda per valina (aminoàcid apolar). L'hemoglobina resultant s'agrega en condicions de baixa concentració d'oxigen. Per qué un sol canvi d'aminoàcid causa un efecte tan sever?",
+          "options": [
+            "Perquè la valina és tòxica i envina la cèl·lula directament",
+            "Perquè la substitució crea una zona hidrofòbica a la superfície de l'hemoglobina que no existia en la forma normal; en condicions de baixa concentració d'oxigen, aquesta zona hidrofòbica s'insereix en una butxaca d'una altra hemoglobina, provocant l'agregació en fibres rígides",
+            "Perquè la valina és molt més gran que la glutamat i no cabe en la seva posició, trencant físicament l'estructura de la proteïna",
+            "Perquè el canvi elimina un grup carboxil important per al transport d'oxigen"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La glutamat (carregada negativament) en la posició 6 de la cadena β de l'hemoglobina normal és hidròfila i apunta cap a l'exterior de la molècula, on es dissol bé en l'entorn aquós. La valina (apolar) de l'hemoglobina falciforme crea una zona hidrofòbica a la superfície que 'fuig' de l'entorn aquós. En condicions de baixa concentració d'oxigen (quan la hemoglobina canvia de forma), aquesta zona hidrofòbica s'insereix en una butxaca hidrofòbica complementaria d'una altra hemoglobina falciforme veïna. Les molècules s'agreguen en polímers rígids que deformen els glòbuls vermells en la típica forma de mitja lluna. Un sol canvi d'aminoàcid → una sola zona hidrofòbica en lloc de hidròfila → agregació patológica.",
+          "feedbackWrong": "La valina no és tòxica ni és especialment gran. L'efecte ve d'un canvi de propietats fisicoquímiques: glutamat (hidròfila, carregada) → valina (hidrofòbica, apolar). Aixó crea una zona hidrofòbica en la superfície de la proteïna que, en certes condicions conformacionals, s'insereix en una butxaca hidrofòbica complementaria d'una altra molècula d'hemoglobina, desencadenant l'agregació."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-02-02",
+          "style": "true-false",
+          "question": "AlphaFold2 de DeepMind va resoldre el problema del plegament de proteïnes el 2021, és a dir, ara podem predir la forma 3D de qualsevol proteïna a partir de la seva seqüència amb precisió absoluta.",
+          "correct": false,
+          "feedbackCorrect": "Fals, tot i que amb matisacions importants. AlphaFold2 va representar un avenç revolucionari: prediu l'estructura de moltes proteïnes amb una precisió comparable a la cristal·lografia de raigs X. Però té limitacions importants: (1) és menys precís per a proteïnes intrínsecament desordenades (que no tenen una estructura fixa); (2) la predicció de complexos proteics i proteïnes en membranes és més difícil; (3) prediu l'estructura en repòs però no la dinàmica (com canvia l'estructura en funció del pH, els ligands o la temperatura); (4) la precisió depèn de la disponibilitat de seqüències evolutivament relacionades a les bases de dades. 'Precisió absoluta' i 'qualsevol proteïna' son exageracions. Va solucionar en gran part el problema per a proteïnes solubles globals, però el problema del plegament en tota la seva complexitat seguix obert.",
+          "feedbackWrong": "AlphaFold2 va ser revolucionari però no 'va resoldre el problema absolut'. Prediu moltes estructures amb gran precisió, però té limitacions per a proteïnes desordenades, dinàmiques, en membrana i complexos. La dinàmica conformacional (com la proteïna canvia de forma per funcionar) és un problema que va molt més lluny de la predicció de l'estructura estàtica."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Dins l'Àtom: Estructura i Propietats",
+          "moduleEmoji": "⚛️",
+          "concept": "Geometria molecular i estructura proteica",
+          "text": "L'estructura tridimensional de les proteïnes que has après aquí és una conseqüència directa de la geometria molecular que vas veure al mòdul d'àtoms. Els angles de 109,5° del carboni sp³ i els de 120° del carboni sp² determinen com els aminoàcids es poden encadenar i plegar. Els ponts d'hidrogen que estabilitzen les hèlix α i les làmines β son exactament les mateixes forces intermoleculars del capítol anterior. La química de l'àtom governa la forma de les proteïnes."
+        }
+      ]
+    },
+    {
+      "id": "bio-03",
+      "title": "L'ADN: la molècula de la informació",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 28 de febrer de 1953, James Watson i Francis Crick van entrar al pub Eagle de Cambridge i van anunciar als presents que 'havien descobert el secret de la vida'. El dia anterior havien construït el primer model correcte de la doble hèlix de l'ADN, basant-se en gran part en les dades de difracció de raigs X de Rosalind Franklin (que no va ser notificada ni inclosa en la publicació). La descoberta va canviar la biologia per sempre: per primera vegada, la manera en que la informació biológica s'emmagatzema, es replica i es transmet tenia una base molecular clara. La vida era química d'informació."
+        },
+        {
+          "type": "prediction",
+          "question": "La doble hèlix de l'ADN conté dues cadenes unides per ponts d'hidrogen entre parells de bases (A-T i G-C). Per qué creus que A sempre s'aparella amb T i G sempre amb C, i mai A amb G o T amb C? Qué creus que determina la selectivitat d'emparellament?",
+          "hint": "Pensa en la geometria: A i T formen exactament 2 ponts d'hidrogen en la posició correcta; G i C en formen 3. Per a que els dos parells encaixin en la hèlix, han de tenir la mateixa amplada. Quins parells (purina + pirimidina) complixen aixó?"
+        },
+        {
+          "type": "key-idea",
+          "text": "L'ADN és un doble polímer de nucleòtids (sucre desoxiribosa + fosfat + base nitrogenada), on les dues cadenes son complementàries i antiparal·leles, unides per ponts d'hidrogen entre parells de bases (A-T: 2 ponts H; G-C: 3 ponts H). La informació genètica es codifica en la seqüència de bases. La replicació, la transcripció (ADN → ARN) i la translació (ARN → proteïna) son els processos que expressen la informació genètica."
+        },
+        {
+          "type": "expandable",
+          "label": "El dogma central de la biologia molecular: de l'ADN a la proteïna",
+          "content": "Francis Crick va formular el 1958 el 'dogma central de la biologia molecular': la informació genètica fluïx en una sola direcció: ADN → ARN → Proteïna. La replicació copia l'ADN. La transcripció copia segments d'ADN a ARN missatger (mARN). La translació usa el mARN com a plantilla per construir proteïnes. Cada tres bases del mARN (un codó) codifiquen un aminoàcid específic (el codi genètic, gairebé universal en tots els éssers vius). El dogma central és robust però no absolut: els retrovirus (com el VIH) transcriuen invers (ARN → ADN via retrotranscriptasa), i els prions propaguen informació estructural sense àcid nucleic. I la biologia epigenètica ha mostrat que la cromatina i les modificacions de l'ADN afecten quins gens s'expressen de formes que no son directament codificades en la seqüència del DNA."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1869",
+              "title": "Miescher aïlla l'ADN (nucleïna)",
+              "text": "Friedrich Miescher aïlla una substància rica en fòsfor dels nuclis dels leucòcits. No en comprèn la funció."
+            },
+            {
+              "year": "1944",
+              "title": "Avery: l'ADN és el material genètic",
+              "text": "Avery, MacLeod i McCarty demostren que l'ADN (no les proteïnes) transforma bacteris. La comunitat científica tarda a acceptar-ho."
+            },
+            {
+              "year": "1952",
+              "title": "Foto 51 de Franklin: la clau de la doble hèlix",
+              "text": "Rosalind Franklin obté la millor imatge de difracció de raigs X de l'ADN, que revela la seva simetria i dimensions. Watson la veu sense el seu permís."
+            },
+            {
+              "year": "1953",
+              "title": "Watson i Crick: la doble hèlix",
+              "text": "Proposen el model correcte de la doble hèlix. Nobel 1962 (Franklin havia mort de càncer el 1958 i el Nobel no es dóna a títol pòstum)."
+            },
+            {
+              "year": "1977",
+              "title": "Sanger: seqüenciació de l'ADN",
+              "text": "Frederick Sanger desenvolupa el primer mètode pràctic per determinar la seqüència de bases de l'ADN. Nobel 1980."
+            },
+            {
+              "year": "2003",
+              "title": "Projecte Genoma Humà: completat",
+              "text": "Es seqüencia el 99% del genoma humà (3.000 milions de parells de bases). Cost: 3.000 milions de dòlars. Avui es fa en hores per uns 200€."
+            },
+            {
+              "year": "2012",
+              "title": "CRISPR-Cas9: edició del genoma",
+              "text": "Doudna i Charpentier (Nobel 2020) adapten el sistema immunitari bacterià CRISPR per editar seqüències específiques del genoma amb precisió sense precedents."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-03-01",
+          "style": "multiple-choice",
+          "question": "Si la seqüència d'una de les cadenes d'ADN és 5'-ATGCGATCG-3', quina és la seqüència de la cadena complementaria?",
+          "options": [
+            "5'-ATGCGATCG-3' (idèntica)",
+            "5'-TACGCTAGC-3'",
+            "3'-TACGCTAGC-5' (o equivalent: 5'-CGATCGCAT-3')",
+            "5'-UACGCUAGC-3'"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. La cadena complementaria seguèix dues regles: (1) Complementarietat: A s'aparella amb T i G s'aparella amb C. (2) Antiparal·lelisme: si la cadena original va en direcció 5'→3', la complementaria va en direcció 3'→5'. La seqüència 5'-ATGCGATCG-3' té com a complement: 3'-TACGCTAGC-5'. La resposta C és la correcta perquè manté l'antiparal·lelisme correcte. La resposta D seria ARN (conté U en lloc de T), que seria el mARN transcrit però no la cadena complementaria d'ADN.",
+          "feedbackWrong": "Aplica dues regles: (1) cada base té la seva parella (A-T, G-C); (2) les cadenes son antiparal·leles (si la original és 5'→3', la complementaria és 3'→5'). Per 5'-ATGCGATCG-3': la complementaria és 3'-TACGCTAGC-5'. Escrita en direcció 5'→3', seria 5'-CGATCGCAT-3'. Les dues maneres son equivalents i correctes."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-03-02",
+          "style": "detect-error",
+          "statement": "CRISPR-Cas9 permet editar qualsevol gen de qualsevol organisme amb precisió perfecta i sense efectes secundaris no desitjats, cosa que fa que la teràpia gènica sigui avui una opció segura per a totes les malalties genètiques.",
+          "isCorrect": false,
+          "feedbackExplanation": "Diverses afirmacions son incorrectes o exagerades. (1) 'Precisió perfecta': CRISPR pot tallar en llocs no desitjats (off-target effects), tot i que les versions millorades han reduït molt aquest risc. (2) 'Sense efectes secundaris no desitjats': les reparacions del tall d'ADN (per NHEJ o HDR) no sempre son les previstes; les respostes immunitàries als components de CRISPR son un problema real. (3) 'Opció segura per a totes les malalties': CRISPR és molt prometedor però seguix en fase experimental per a la majoria d'aplicacions. Les primeres teràpies aprovades (per a anèmia falciforme i beta-talassèmia) han mostrat resultats molt positius, però els riscos a llarg termini seguixen sent monitoritzats. L'edició de cèl·lules germinals (que afectaria les generacions futures) és moralment controvertida i regulatòriament prohibida a la majoria de països."
+        },
+        {
+          "type": "debate",
+          "question": "CRISPR-Cas9 pot editar el genoma humà amb precisió. Ja s'ha usat per eliminar mutacions que causen malalties en embrions (el cas del científic xinès He Jiankui el 2018, que va crear els primers 'bebès CRISPR'). La comunitat científica va condemnar unànimement l'experiment. Creus que hi ha condicions en que l'edició del genoma en embrions humans (que afecta les generacions futures) seria èticament acceptable?",
+          "positionA": {
+            "label": "Hi ha casos acceptables amb regulació adequada",
+            "argument": "Prevenir malalties genètiques greus i letals (com la malaltia de Huntington o certes formes de càncer hereditari) en embrions és una extensió del desig parental d'evitar el sofriment als fills. Si es fa en condicions de coneixement suficient de la seguretat, amb supervisió regulatòria rigorosa i limitada a malalties greus sense alternativa, podria ser justificable. La línia entre tractament i millora ha d'establir-se però no justifica prohibir tot."
+          },
+          "positionB": {
+            "label": "L'edició germinal hauria de ser prohibida",
+            "argument": "Editar el genoma d'un embrió afecta totes les cèl·lules d'una persona que no pot consentir i totes les seves descendents. No podem conèixer tots els efectes d'una edició genètica sobre el desenvolupament a llarg termini. Obre la porta a la 'millora' genètica de les classes riques. I estableix un precedent de l'ésser humà com a objecte susceptible de disseny tecnológic que té implicacions filosòfiques profundes sobre la dignitat humana."
+          },
+          "reflection": "La línia entre 'tractament' (eliminar una mutació causant de malaltia) i 'millora' (augmentar la intel·ligència o l'aparença) és més fina del que sembla. On la traçaries tu? Quin criteri usaries?",
+          "context": "He Jiankui va ser condemnat a 3 anys de presó a la Xina. La OMS i gairebé tots els organismes científics internacionals han demanat una moratoria global sobre l'edició germinal fins que s'estableixin estàndards de seguretat i ètica adequats. El debat sobre on és la línia entre tractament i millora és un dels més urgents de la bioètica."
+        }
+      ]
+    },
+    {
+      "id": "bio-04",
+      "title": "Metabolisme: la màquina energètica de la vida",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Cada segon, uns 37 bilions de cèl·lules del teu cos estan realitzant milers de reaccions químiques simultànies. Alguns estan trencant glucosa per obtenir ATP (catabolisme). D'altres estan construint proteïnes, membranes i ADN usant aquell ATP (anabolisme). Altres estan detoxificant productes de rebuig, senyalitzant amb altres cèl·lules o transportant molècules. Tot aixó a 37°C, en un entorn aquós, amb una coordinació que cap factoria humana ha aconseguit ni de lluny. El metabolisme és la suma de totes les reaccions químiques de la vida."
+        },
+        {
+          "type": "prediction",
+          "question": "Un esprint de 100 metres dura uns 10 segons. Un marató dura unes 2-4 hores. Tots dos requerixen molta energia, però el teu cos els gestiona de forma completament diferent. Qué creus que fa diferent la química de l'energia en un esprint vs. en una cursa de llarga distància?",
+          "hint": "Pensa en la velocitat de producció d'ATP: quin sistema pot produir ATP molt ràpidament (uns pocs segons) i quin pot produir-ne de forma sostinguda durant hores?"
+        },
+        {
+          "type": "key-idea",
+          "text": "El catabolisme degrada molècules per obtenir energia (ATP). La via principal és la respiració cel·lular aeròbica: glucosa + O₂ → CO₂ + H₂O + ~30 ATP. Passa en tres fases: glicòlisi (citoplasma, 2 ATP), cicle de Krebs (mitocondri, 2 ATP), i cadena de transport d'electrons (mitocondri, ~26 ATP). En absència d'oxigen, la fermentació produïx ATP (sols 2) amb productes de rebuig com lactat (músculs en esprint) o etanol i CO₂ (llevat)."
+        },
+        {
+          "type": "expandable",
+          "label": "La cadena de transport d'electrons: la turbina molecular del mitocondri",
+          "content": "La cadena de transport d'electrons (CTE) és la fase final i més productiva de la respiració cel·lular, produïnt ~26 dels ~30 ATP totals. Funciona com una turbina molecular: (1) NADH i FADH₂ (portadors d'electrons generats al cicle de Krebs) cedeixen els seus electrons als complexos proteics de la cadena (I, II, III, IV) a la membrana interna del mitocondri. (2) A mesura que els electrons passen de complex en complex, alliberen energia que s'usa per bombejar protons (H⁺) des de la matriu mitocondrial cap a l'espai intermembranà, creant un gradient electroquímic. (3) Els protons fluïxen de tornada a través de l'ATP sintasa (una proteïna en forma de turbina rotatòria) i l'energia del flux genera ATP a partir d'ADP + Pi. (4) L'oxigen actua com a 'acceptor final' d'electrons al complex IV, formant H₂O. Peter Mitchell va proposar el mecanisme quimioosmòtic el 1961 — era tan contraintuïtiu (energia a través d'un gradient de protons, no directament d'una reacció química) que va trigar 20 anys a ser acceptat i el Nobel el va rebre el 1978."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-04-01",
+          "style": "multiple-choice",
+          "question": "Durant un esprint, els músculs produïxen lactat (àcid làctic) malgrat que hi ha oxigen disponible en el sang. Per qué les cèl·lules musculars recorren a la fermentació làctica si la respiració aeròbica és molt més eficient?",
+          "options": [
+            "Perquè l'àcid làctic és el combustible preferit dels músculs durant l'exercici intens",
+            "Perquè la demanda d'ATP és tan alta durant l'esprint que la cadena de transport d'electrons (limitada per la seva velocitat màxima) no pot produir ATP prou ràpidament; la glicòlisi anaeròbica és menys eficient però molt més ràpida",
+            "Perquè durant l'exercici intens, els pulmons no poden subministrar prou oxigen als músculs",
+            "Perquè la fermentació làctica produïx més ATP per unitat de temps que la respiració aeròbica"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La clau és la velocitat, no l'eficiència total. La respiració aeròbica produïx ~30 ATP per molècula de glucosa però és limitada per la capacitat màxima de la cadena de transport d'electrons (CTE). La glicòlisi anaeròbica produïx sols 2 ATP per molècula de glucosa però és molt més ràpida — pot produir ATP a velocitats molt superiors durant uns pocs minuts. En un esprint de 10 segons, la velocitat de producció d'ATP és més important que l'eficiència total. El lactat és simplement un subproducte necessari per regenerar el NAD⁺ que la glicòlisi necessita per continuar — no és que el cos 'prefereixi' el lactat. El làctic resultant es recicla al fetge (cicle de Cori) o s'oxida en els músculs de baixa intensitat.",
+          "feedbackWrong": "La resposta correcta és la velocitat de producció d'ATP, no la manca d'oxigen (la sang seguix portant O₂ als músculs durant l'esprint). La CTE és eficient però lenta. En un esprint, la demanda d'ATP supera la capacitat màxima de la CTE, i la glicòlisi anaeròbica (molt més ràpida però poc eficient) aporta la diferència. El lactat és el subproducte inevitable de la glicòlisi anaeròbica, no el producte desitjat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-04-02",
+          "style": "true-false",
+          "question": "Quan fas dejú, el teu cos crema greixos en lloc de carbohidrats, i el procés de cremar greixos és completament independent del metabolisme dels carbohidrats.",
+          "correct": false,
+          "feedbackCorrect": "Fals. El metabolisme dels greixos no és independent — depèn del metabolisme dels carbohidrats. Quan el glucogen s'esgota (dejú, exercici prolongat), el cos mobilitza els greixos (triglicèrids) que es disfressen en àcids grassos via la β-oxidació per produir acetil-CoA. Però l'acetil-CoA per entrar al cicle de Krebs necessita oxalacetat (un intermediari del cicle). Quan els carbohidrats son molt baixos, l'oxalacetat s'esgota i es desvia a la gluconeogènesi. El resultat: l'acetil-CoA no pot entrar al cicle de Krebs eficientment i s'acumula. Per eliminar-lo, el fetge el convertix en cossos cetònics (acetoacetat, β-hidroxibutirat, acetona) — la cetosi. El dite bioquímic és: 'Els greixos cremen en la flama dels carbohidrats' — el metabolisme dels greixos i dels carbohidrats estan profundament interconnectats.",
+          "feedbackWrong": "El metabolisme dels greixos i dels carbohidrats estan profundament interconnectats. La β-oxidació dels àcids grassos produïx acetil-CoA, que necessita oxalacetat (d'origen glucídic) per entrar al cicle de Krebs. Quan els carbohidrats escassegen, l'oxalacetat no és suficient i els greixos no es poden oxidar completament, generant cossos cetònics (cetosi). El dite és: 'els greixos cremen en la flama dels carbohidrats'."
+        },
+        {
+          "type": "misconception",
+          "belief": "Les calories d'un gram de greix son 'pitjors' que les d'un gram de carbohidrat perquè el greix 'engreixa més'.",
+          "reality": "Una caloria és una caloria en termes d'energia: 1 kcal de greix i 1 kcal de carbohidrat aporten la mateixa quantitat d'energia per cremar. El greix té 9 kcal/g vs. 4 kcal/g dels carbohidrats — per tant el greix és més calòric per gram de pes, però no per caloria. Engreixar o aprimar depèn del balanç energètic total (entrada vs. sortida) independentment de la font. La sacietat, la resposta hormonal (insulina, ghrelin) i la palatabilitat dels aliments afecten el consum total de calories de formes complexes — però no hi ha una regla simple que digui que el greix 'engreixa més' per caloria.",
+          "why": "La confusió entre densitat calòrica (calories per gram) i efecte sobre el pes (calories per caloria) ha alimentat decades de desinformació nutricional. A més, l'industria d'aliments baixos en greix (que substituïx el greix per sucres) va aprofitar i reforçar aquest error."
+        }
+      ]
+    },
+    {
+      "id": "bio-05",
+      "title": "Fàrmacs i drogues: química que altera la biologia",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "L'aspirina va ser sintetitzada el 1897 per Felix Hoffmann, un químic de Bayer, modificant un compost natural de l'escorça del salze (àcid salicílic) per fer-lo menys irritant per a l'estómac. Avui és el fàrmac més venut del món. El seu mecanisme d'acció no es va entendre completament fins als anys 70, quan John Vane va descobrir que inhibia de forma irreversible l'enzim COX (ciclooxigenasa), que és necessari per sintetitzar prostaglandines (mediadors de la inflamació i el dolor). Va guanyar el Nobel de Medicina el 1982. Un fàrmac descobert empíricament el 1897, amb mecanisme d'acció descobert 75 anys després. Aixi funciona molt de la medicina: primer funciona, depois entenem per qué."
+        },
+        {
+          "type": "prediction",
+          "question": "Un fàrmac és una molècula que altera de forma específica un procés biológic. Per qué creus que la majoria dels fàrmacs sols funcionen per a certes condicions i no per a totes? I quin creus que és el principal repte en dissenyar un fàrmac: fer-lo eficaç o fer-lo selectiu?",
+          "hint": "Pensa en la analogia de la clau i el pany: un fàrmac ha d'encaixar en un receptor proteic específic. Però el cos humà té milers de proteïnes — com evites que el fàrmac s'uneixi a les proteïnes incorrectes?"
+        },
+        {
+          "type": "key-idea",
+          "text": "Un fàrmac funciona unint-se de forma específica a una proteïna diana (receptor, enzim, canal iònic) i alterant la seva funció. El disseny de fàrmacs busca molècules que s'uneixin amb alta afinitat a la diana terapèutica (eficàcia) i baixa afinitat a d'altres proteïnes (selectivitat, per minimitzar efectes secundaris). La farmacocinètica descriu com el cos absorbeix, distribuïx, metabolitza i elimina el fàrmac."
+        },
+        {
+          "type": "expandable",
+          "label": "Com es descobreix un nou fàrmac: del laboratori a la farmàcia",
+          "content": "El procés de desenvolupament d'un fàrmac dura en promig 12-15 anys i costa entre 1.000 i 3.000 milions de dòlars, en gran part perquè la majoria de candidats fracassen. Les etapes: (1) Identificació de la diana: quin receptor o enzim cal modificar per tractar la malaltia? (2) Screening massiu: es prova una biblioteca de milions de compostos per trobar els que s'unèixen a la diana (hits). (3) Optimització: es modifica químicament els hits per millorar l'afinitat, selectivitat, solubilitat i estabilitat metabòlica (lead compounds). (4) Assajos preclínics: en cèl·lules i animals (toxicitat, farmacocinètica). (5) Assajos clínics: en humans — Fase I (seguretat, 20-80 persones), Fase II (eficàcia inicial, 100-300), Fase III (eficàcia confirmada, 1.000-3.000). (6) Aprovació regulatòria (FDA, EMA). (7) Fase IV: monitoratge post-comercialització. Sols 1 de cada 5.000-10.000 compostos identificats a (2) arriba al mercat. La IA i el disseny racional de fàrmacs (usant AlphaFold i les bases de dades de genòmica) estan accelerant les primeres etapes."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-05-01",
+          "style": "multiple-choice",
+          "question": "Els inhibidors de la proteasa del VIH (com el ritonavir) van transformar el SIDA d'una sentència de mort a una malaltia crònica gestionable. Quin és el seu mecanisme d'acció?",
+          "options": [
+            "Destruïxen directament les partícules virals del VIH en circulació en la sang",
+            "Bloquegen la proteasa del VIH (un enzim que el virus necessita per processar les seves pròpies proteïnes i assemblar partícules virals infeccioses madures), de manera que els nous virions formats son immadurs i no infecciosos",
+            "Estimulen el sistema immunitari per produir anticossos contra el VIH",
+            "Impedeixe que el VIH entri a les cèl·lules T bloquejan el receptor CD4"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La proteasa del VIH és un enzim que el virus necessita per tallar les seves pròpies poliproteïnes en proteïnes individuals funcionals durant el procés d'assembla de les noves partícules virals. Els inhibidors de la proteasa s'unèixen al lloc actiu d'aquest enzim i el bloquegen — mimetitzen l'estructura del substrat normal però no es poden tallar. Sense proteasa funcional, els nous virions que s'assemblen son immadurs i no infecciosos. L'estratègia és intel·ligent: atacar una proteïna exclusivament vírica (reduïnt la toxicitat per al cos) en un pas essencial del cicle viral. Combinats amb inhibidors de la transcriptasa inversa i de la integrasa (teràpia antirretroviral combinada, HAART), han fet del VIH una malaltia controlable en la majoria de pacients.",
+          "feedbackWrong": "Els inhibidors de la proteasa del VIH no destruïxen el virus ni estimulen el sistema immune directament. Actuen bloquejant un enzim (la proteasa) que el VIH necessita per assemblar noves partícules virals infeccioses. Sense proteasa funcional, els virions nous son immadurs i no infecten altres cèl·lules. És una estratègia de 'atacar el virus en el seu propi procés de reproducció'."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-05-02",
+          "style": "detect-error",
+          "statement": "Les vacunes d'ARNm contra la COVID-19 (Pfizer, Moderna) introduïxen ARN que s'integra al genoma humà i el modifica de forma permanent.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és científicament incorrecta. Les vacunes d'ARNm no s'integren al genoma per diversos motius: (1) L'ARNm és una molècula transitòria que les cèl·lules degraden en hores o dies — no és ADN i no pot integrar-se directament al genoma (que és ADN). (2) Per integrar-se al genoma, l'ARN hauria de ser retrotranscrit a ADN primer (com fan els retrovirus via la retrotranscriptasa) i després inserit. Les vacunes d'ARNm no inclouen cap retrotranscriptasa ni mecanisme d'integració. (3) L'ARNm de les vacunes ni tan sols arriba al nucli cel·lular (on és el genoma) — actua al citoplasma. Les cèl·lules llegèixen les instruccions de l'ARNm per produir la proteïna Spike transitòriament, generen una resposta immunitaria, i l'ARNm es degrada. No hi ha cap canvi permanent al genoma."
+        },
+        {
+          "type": "quote",
+          "text": "Tots els fàrmacs son verinosos; tot el que importa és la dosi.",
+          "author": "Paracelso, Alquimista i metge suís, c. 1540"
+        },
+        {
+          "type": "debate",
+          "question": "Les empreses farmacèutiques invertixe milers de milions en R+D de nous fàrmacs, i recuperen la inversió amb preus alts durant el período de patent (20 anys). Quan la patent expira, els genèrics reduïxen el preu en un 80-90%. Creus que el sistema de patents farmacèutiques és el millor model per incentivar la innovació en salut, o hauria de buscar-se una alternativa?",
+          "positionA": {
+            "label": "El sistema de patents és necessari",
+            "argument": "Sense la possibilitat de recuperar la immensa inversió en R+D via preus alts durant la patent, les empreses no invertirien en nous fàrmacs. La majoria de fàrmacs fracassen en el procés — cal finançar tots els fracassos amb els beneficis dels que arriben al mercat. Alternativament, el desenvolupament de fàrmacs dependria enterament de fons públics, amb tots els problemes d'eficiència que implica."
+          },
+          "positionB": {
+            "label": "Cal un model alternatiu",
+            "argument": "El sistema de patents incentiva la innovació en malalties de països rics però no en les malalties de la pobresa (malària, tuberculosi, kala-azar) on el mercat no és prou lucratiu. Els preus de monopoli fan inaccessibles els fàrmacs en els països pobres i creen tensions insostenibles fins i tot als sistemes de salut dels rics. Premis per innovació (pagar pel resultat, no pel procés) o R+D públic amb llicències obertes podrien ser més eficients."
+          },
+          "reflection": "Durant la pandèmia de COVID-19, Moderna va rebre 2.500 milions de dòlars de fons públics per desenvolupar la seva vacuna d'ARNm i va cobrar preus alts als governs que la van finançar. Creus que el model de patent és adequat quan la recerca és finançada principalment amb fons públics?",
+          "context": "El debat sobre el model de finançament de la R+D farmacèutica és un dels centrals en política sanitaria global. L'OMS, Médecins Sans Frontières i la majoria de governs de països en desenvolupament demanen reformes del sistema de patents per millorar l'accés. La indústria farmacèutica argumenta que qualsevol erosió de les patents reduiria la innovació."
+        }
+      ]
+    },
+    {
+      "id": "bio-06",
+      "title": "La química de la vida: síntesi i futures fronteres",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1953, l'experiment de Miller-Urey va passar una descàrrega elèctrica a través d'una barreja de gasos simples (metà, amoníac, hidrogen, vapor d'aigua) que simulaven l'atmosfera primitiva de la Terra. En pocs dies, van aparèixer aminoàcids en la solució — les peces bàsiques de les proteïnes. Molècules orgàniques complexes, necessàries per a la vida, havien sorgit espontàniament de molècules simples. Setanta anys después, tenim bacteris sintètics amb genomes dissenyats per ordinador, enzims de disseny que fan reaccions impossibles en la natura, i organismes que produïxen medicaments i combustibles. La química de la vida s'ha convertit en biologia sintètica: no sols entenem la vida — l'estem aprenent a dissenyar."
+        },
+        {
+          "type": "prediction",
+          "question": "Si pots sintetitzar l'ADN d'un organisme per ordinador i 'escriure-lo' en una cèl·lula, pots crear organismes completament nous. Quins creus que serien els tres usos més positius d'aquesta tecnologia? I quins son els tres riscos principals?",
+          "hint": "Pensa en aplicacions mèdiques (producció de medicaments, teràpies), industrials (biocombustibles, materials) i ambientals (eliminació de contaminants). I en els riscos: bioseguretat, bioseguretat mal intencionada, impacte ecológic."
+        },
+        {
+          "type": "key-idea",
+          "text": "La biologia sintètica és l'aplicació dels principis de l'enginyeria als sistemes biológics: dissenyar i construir nous components biológics, dispositius i sistemes, o redissenyar els existents per aplicacions útils. Les seves eines principals son l'edició genèmica (CRISPR), la síntesi d'ADN, la bioinformàtica i el disseny racional de proteïnes. Les seves promeses inclouen medicaments personalitzats, biocombustibles, materials biológics i diagnòstics."
+        },
+        {
+          "type": "expandable",
+          "label": "Craig Venter i la cèl·lula sintètica: la primera vida programada",
+          "content": "El 2010, Craig Venter i el seu equip van anunciar la creació del primer organisme controlat per un genoma sintètic. Van sintetitzar químicament una còpia del genoma d'un bacteri (Mycoplasma mycoides, 1,08 milions de parells de bases), la van inserir en una cèl·lula de bacteri buidada del seu genoma original, i van veure com la cèl·lula revifava i es replicava usant les instruccions del genoma sintètic. Van inserir un 'filigrana' al genoma sintètic: un poema de James Joyce, una cita de Richard Feynman i una adreça de correu electrònic codificats en la seqüència de l'ADN. El 2016, van anar més lluny: van crear JCVI-syn3.0, una versió del bacteri amb el genoma mínim necessari per a la vida — sols 473 gens. 149 d'aquells gens no se sap per a qué serveixe. La vida mínima conté ingredients desconeguts. La biologia sintètica ha obert la porta a dissenyar vida, però simultàniament ha revelat com poc entenem la vida que ja existeix."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-06-01",
+          "style": "multiple-choice",
+          "question": "La insulina que usen avui els diabètics és produïda per bacteris Escherichia coli modificats genèticament que contenen el gen humà de la insulina. Quina és la implicació principal d'aquesta tecnologia per a la medicina?",
+          "options": [
+            "Que podem curar el diabetis modificant genèticament el pàncrees dels pacients per produir la insulina que necessiten",
+            "Que podem usar microorganismes com a 'factories' per produir proteïnes humanes en grans quantitats, de forma pura i sense els riscos de contaminació de les fonts animals anteriors",
+            "Que tota la insulina actual és artificial i diferent de la insulina humana natural, cosa que explica els efectes secundaris del tractament",
+            "Que els bacteris modificats s'introduïxen directament al cos dels pacients per produir insulina in vivo"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Abans de 1982, la insulina per als diabètics s'obtenia del pàncrees de porcs i vaques — era cara, requeria grans quantitats d'animals i els proteins lleugerament diferentes podien causar reaccions immunitàries en alguns pacients. La insulina humana recombinant (Humulin, Eli Lilly, 1982) va ser el primer fàrmac aprovat produït per organismes modificats genèticament. El gen humà de la insulina es va inserir al genoma d'E. coli, que la produïx en grans quantitats en fermentadors industrials. La proteïna resultant és idèntica a la insulina humana (no 'artificial') i pot produir-se de forma massiva i purificable. La tecnologia del ADN recombinant ha revolucionat la producció de fàrmacs biológics: ara molts anticossos, factors de creixement i hormones es produïxen de la mateixa forma.",
+          "feedbackWrong": "La implicació principal és la capacitat de produir proteïnes humanes en organismes aliens de forma barata i pura. Els bacteris amb el gen humà de la insulina actuen com a factories: el gen humà 'instruïx' el bacteri per produir insulina idèntica a la humana. No és insulina 'artificial' — és la mateixa seqüència proteica. No és una cura del diabetis — és una producció millorada del tractament existent."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-bio-06-02",
+          "style": "multiple-choice",
+          "question": "La vida a la Terra usa el codi genètic estàndard de 64 codons per 20 aminoàcids. Alguns laboratoris han creat organismes amb codons 'recombinats' (61 codons en lloc de 64, alliberant 3 per a aminoàcids no naturals). Quin és el valor potencial principal d'incorporar aminoàcids no naturals a les proteïnes?",
+          "options": [
+            "Crear proteïnes que no poden ser 'llegides' per virus ni bacteris, fent els organismes immunes a infeccions",
+            "Crear proteïnes amb propietats químiques impossibles en la natura: nova reactivitat, grups funcionals nous, ancoratges per a fàrmacs, etiquetes per visualització cel·lular",
+            "Augmentar la massa molecular de les proteïnes per fer-les més estables i duradores a temperatures altes",
+            "Simplificar el codi genètic per fer-lo més eficient i reduir els errors de traducció"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Els 20 aminoàcids naturals han evolucionat per les necessitats de la vida, però hi ha propietats químiques que no representen: cap aminoàcid natural conté un grup alquè, un grup alquí, un marcador fluorescent, un grup reactiu per a la química click, o un punt d'ancoratge per a fàrmacs de forma selectiva. Incorporar aminoàcids no naturals (UAAs, unnatural amino acids) permet dissenyar proteïnes amb propietats totalment noves: anticossos que porten el fàrmac unit exactament al lloc correcte de la molècula (anticossos-fàrmac conjugats), proteïnes marcades fluorescència que s'iluminen en processos específics, enzims amb reactivitat nova per a la química sintètica. La biologia sintètica expandix l'alfabet químic de la vida.",
+          "feedbackWrong": "El valor principal no és la resistència a virus ni l'estabilitat tèrmica — és la capacitat de crear proteïnes amb propietats químiques completament noves que no existeix a la natura. Grups funcionals nous per a la química click, marcadors fluorescents per visualització en temps real, punts d'ancoratge per a fàrmacs en posicions exactes. Expandir l'alfabet d'aminoàcids expandeix les propietats possibles de les proteïnes."
+        },
+        {
+          "type": "reflection",
+          "question": "Has recorregut la bioquímica des de les quatre famílies de biomolècules fins a la biologia sintètica i l'edició genètica. Quin avenç de la bioquímica moderna creus que tindrà l'impacte més gran en la humanitat en els propers 20 anys? I quin creus que presenta el risc o el dilema ètic més important?",
+          "prompt": "Pensa en CRISPR i l'edició genètica humana, les vacunes d'ARNm i la seva aplicació a altres malalties (càncer, malalties autoimmunes), la biologia sintètica i la creació de nous organismes, o les teràpies cel·lulars. Quin d'ells et sembla més prometedor i quin et genera més preguntes?"
+        },
+        {
+          "type": "connection",
+          "moduleRef": "La Química que t'Envolta",
+          "moduleEmoji": "⚗️",
+          "concept": "Del món molecular a la vida i de tornada",
+          "text": "Has recorregut el camí complet: dels àtoms i els seus electrons, als enllaços que creen molècules, a les reaccions que les transformen, i finalment a les molècules de la vida — proteïnes, ADN, metabolisme. Tota la complexitat de la vida emergeix de la química dels àtoms. I tota la química dels àtoms, quan s'organitza de la manera correcta, genera la vida. El mòdul introductori sobre química quotidiana et va mostrar el punt de partida. Ara veus fins on porta."
+        },
+        {
+          "type": "misconception",
+          "belief": "La biologia sintètica i l'edició genètica son tecnologies completament noves i alienes a la natura — cap organismes natural fa res semblant.",
+          "reality": "La natura porta bilions d'anys 'editant genomes': les mutacions, la recombinació, la transposició, la transferència horitzontal de gens entre bacteris, i fins i tot sistemes naturals similars a CRISPR (que és el sistema immunitari dels bacteris contra virus). El que fa la biologia sintètica és usar i millorar mecanismes que la vida ha estat usant tota la seva história, però amb precisió i direccionalitat que la selecció natural no té. No és 'contranatural' — és la natura accelerada i dirigida.",
+          "why": "La percepció de la biologia sintètica com a 'joc de déus' aliens a la naturalesa alimenta una por que no reflecteix que els processos moleculars que usa (edició de seqüències, síntesi de ADN, modificació de cèl·lules) son refinaments de processos que la vida mateixa ha usat durant eons."
+        }
+      ]
+    }
+  ]
+}

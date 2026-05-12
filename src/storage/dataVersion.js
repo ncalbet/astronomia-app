@@ -2,37 +2,41 @@
  * dataVersion.js
  *
  * Control de versió de les dades guardades.
- * Incrementa DATA_VERSION cada vegada que canviïs el DEFAULT_STATE:
- *   - Nous mòduls afegits
- *   - Nous camps a l'estat
- *   - Canvis en unlockedModules per defecte
  *
- * Quan l'usuari obre l'app amb dades d'una versió antiga,
- * es fa un reset automàtic del progrés.
+ * POLÍTICA DE VERSIONS (a partir de v11):
+ * ─────────────────────────────────────────
+ * - Afegir mòduls nous        → NO cal incrementar. mergeWithDefaults ho gestiona.
+ * - Afegir camps a l'estat    → NO cal incrementar. mergeWithDefaults ho gestiona.
+ * - Canviar el FORMAT del storage (claus, estructura)  → SÍ, incrementar.
+ *
+ * El reset total és l'últim recurs, no la resposta per defecte.
+ * A partir de v11 les migracions son additives: s'afegeix el que falta,
+ * mai s'esborra el progrés de l'usuari per canvis de contingut.
  */
 
 import storage from './storageProvider'
 
-export const DATA_VERSION = 10  // v10: bloc Economia (10 mòduls, module-19 a module-28)
+export const DATA_VERSION = 11  // v11: sistema d'àrees + migració no destructiva
 
 const VERSION_KEY = 'data_version'
 
 /**
- * Comprova si les dades guardades són de la versió actual.
- * Si no ho són, esborra tot i desa la versió nova.
- * Retorna true si s'ha fet reset, false si tot estava bé.
+ * Comprova la versió de les dades desades i migra si cal.
+ * - Pre-v10: reset (el mergeWithDefaults antic no era prou robust)
+ * - v10+:    no reset; mergeWithDefaults afegeix els camps nous sense esborrar res
+ * Retorna true si s'ha fet reset, false en cas contrari.
  */
 export function checkAndMigrateData() {
   const savedVersion = storage.get(VERSION_KEY, null)
 
-  if (savedVersion === DATA_VERSION) return false  // tot correcte
+  if (savedVersion === DATA_VERSION) return false  // res a fer
 
-  // Versió diferent o primera vegada → reset
-  if (savedVersion !== null) {
-    console.info(`[DataVersion] Versió antiga (${savedVersion}) → nova (${DATA_VERSION}). Reiniciant dades.`)
+  const isVeryOld = savedVersion !== null && savedVersion < 10
+  if (isVeryOld) {
+    console.info(`[DataVersion] Dades molt antigues (v${savedVersion}). Reset necessari.`)
     storage.clearAll()
   }
 
   storage.set(VERSION_KEY, DATA_VERSION)
-  return true
+  return isVeryOld
 }

@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
 import { MODULE_REGISTRY, loadModule } from '../data/moduleRegistry'
+import { getAreaById } from '../data/areaRegistry'
 import { useModuleProgress } from '../hooks/useModuleProgress'
 import styles from './ModuleMap.module.css'
 
@@ -53,6 +54,11 @@ const MODULE_META = {
   'module-28-piketty':              { title: 'Piketty: El Capital i la Desigualtat',            emoji: '📊' },
   'module-26-economia-comportament':{ title: 'Per Qué No Som Racionals',                       emoji: '🎭' },
   'module-27-economia-jocs':        { title: 'Teoria de Jocs: Cooperació i Dilemes',           emoji: '♟️' },
+  // — Bloc: Química —
+  'module-29-quimica':            { title: 'La Química que t\'Envolta',                  emoji: '⚗️' },
+  'module-30-quimica-atoms':      { title: 'Dins l\'Àtom: Estructura i Propietats',      emoji: '⚛️' },
+  'module-31-quimica-reaccions':  { title: 'Reaccions Químiques: Com i Per Què Passen',  emoji: '🔥' },
+  'module-32-quimica-vida':       { title: 'La Química de la Vida: Bioquímica Fonamental', emoji: '🧬' },
 }
 
 // XP estimat per mòdul (per restar en repetir)
@@ -103,6 +109,11 @@ const MODULE_XP = {
   'module-28-piketty':               240,
   'module-26-economia-comportament': 240,
   'module-27-economia-jocs':         240,
+  // — Bloc: Química —
+  'module-29-quimica':            320,
+  'module-30-quimica-atoms':      300,
+  'module-31-quimica-reaccions':  300,
+  'module-32-quimica-vida':       320,
 }
 
 function ModuleCard({ id, onSelect, onRepeat, loadingId, completedModules,
@@ -199,9 +210,20 @@ function ModuleCard({ id, onSelect, onRepeat, loadingId, completedModules,
 export default function ModuleMap() {
   const navigate  = useNavigate()
   const { isModuleUnlocked, completedModules, completedLessons,
-          isItineraryCompleted, setNavigationState, repeatModule } = useApp()
+          isItineraryCompleted, setNavigationState, repeatModule,
+          navigationState } = useApp()
   const { theme }  = useTheme()
   const [loadingId, setLoadingId] = useState(null)
+
+  const area = getAreaById(navigationState.currentAreaId)
+
+  // Si no hi ha àrea seleccionada, torna al selector
+  useEffect(() => {
+    if (!navigationState.currentAreaId) navigate('/areas', { replace: true })
+  }, [])
+
+  const areaModuleIds = area?.modules ?? []
+  const visibleModules = MODULE_REGISTRY.filter(({ id }) => areaModuleIds.includes(id))
 
   const handleSelectModule = async (moduleId) => {
     if (!isModuleUnlocked(moduleId) || loadingId) return
@@ -227,16 +249,18 @@ export default function ModuleMap() {
     repeatModule(moduleId, xp)
   }
 
+  if (!area) return null  // redirect en curs
+
   return (
     <div className={styles.screen}>
       <header className={styles.header}>
-        <button className={styles.back} onClick={() => navigate('/')}>← Tornar</button>
-        <h1 className={styles.title}>Mapa de {theme.missionWord}s</h1>
-        <p className={styles.subtitle}>Cada missió reconstrueix un fragment del coneixement</p>
+        <button className={styles.back} onClick={() => navigate('/areas')}>← Àrees</button>
+        <h1 className={styles.title}>{area.emoji} {area.label}</h1>
+        <p className={styles.subtitle}>{area.description}</p>
       </header>
 
       <div className={styles.moduleList}>
-        {MODULE_REGISTRY.map(({ id }) => (
+        {visibleModules.map(({ id }) => (
           <ModuleCard
             key={id}
             id={id}

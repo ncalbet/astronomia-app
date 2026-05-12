@@ -1,0 +1,393 @@
+{
+  "id": "module-31-quimica-reaccions",
+  "title": "Reaccions Químiques: Com i Per Què Passen",
+  "emoji": "🔥",
+  "phase": 2,
+  "unlockRequires": "module-29-quimica",
+  "lessons": [
+    {
+      "id": "rea-01",
+      "title": "Termodinàmica: per qué passen les reaccions",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Una pedra cau sempre cap avall, mai cap amunt. El ferro s'oxida, però l'òxid de ferro no es converteix espontàniament en ferro i oxigen. El sucre es dissol en l'aigua, però l'aigua sucrada no es separa espontàniament. Hi ha una asimetria fonamental en la natura: alguns processos passen espontàniament i els inversos no. La termodinàmica és la ciència que explica per qué. La resposta no és simplement 'perquè allibera energia' — hi ha reaccions espontànies que absorbeixen calor. La veritat és més profunda i més sorprenent."
+        },
+        {
+          "type": "prediction",
+          "question": "Quan mates un gel en un got d'aigua a temperatura ambient, el gel es fon (absorbeix calor del voltant). Però la fusió és espontània malgrat absorbir energia. Si 'alliberar energia' no és condició suficient per l'espontaneïtat, quin altre factor creus que hi influeix?",
+          "hint": "Pensa en el nombre de formes en que la matèria i l'energia es poden distribuir. Un sòlid ordenat té menys possibilitats que un líquid o gas desordenat."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'espontaneïtat d'una reacció depèn de dos factors: l'entalpia (ΔH, canvi d'energia — les reaccions tendixen a anar cap a menys energia) i l'entropia (ΔS, canvi de desordre — els sistemes tendixen cap a més desordre). La funció d'energia de Gibbs combina tots dos: ΔG = ΔH − TΔS. Una reacció és espontània quan ΔG < 0 (energia de Gibbs negativa). A temperatura alta, l'entropia domina; a temperatura baixa, l'entalpia domina."
+        },
+        {
+          "type": "expandable",
+          "label": "L'entropia: la tendència al desordre que governa l'univers",
+          "content": "L'entropia és una mesura del nombre de configuracions microscòpiques compatibles amb un estat macroscòpic donat. Un cristall de sal té molt poques configuracions possibles (tots els ions en posicions exactes) — baixa entropia. Un gas a alta temperatura té un nombre astronòmic de configuracions possibles per a les molècules — alta entropia. La Segona Llei de la Termodinàmica diu que l'entropia total de l'univers sempre augmenta en qualsevol procés espontani. Aixó no significa que l'entropia d'un sistema aïllat hagi d'augmentar sempre: un ésser viu reduïx localment la seva entropia (crea ordre biológic complex) però ho fa a costa d'augmentar l'entropia del seu entorn (dissipa calor, produïx residus). La vida és un exemple d'ordre local creat a costa de desordre global. I l'entropia crecient de l'univers és el que dóna al temps una direcció: el passat té menys entropia que el futur, i per aixó recordem el passat però no el futur."
+        },
+        {
+          "type": "misconception",
+          "belief": "Les reaccions químiques sempre alliberen energia (son exotèrmiques). Si una reacció absorbeix calor, no pot ser espontània.",
+          "reality": "Moltes reaccions espontànies son endotèrmiques (absorbeixen calor). La fusió del gel, la dissolució de nitrat d'amoni en aigua (que refreda la solució — base de les bosses de gel instantani), i la fotosíntesi son totes endotèrmiques i espontànies en les condicions adequades. L'espontaneïtat depèn de l'energia de Gibbs (ΔG = ΔH − TΔS): si l'augment d'entropia (ΔS > 0) és prou gran, pot compensar l'absorció d'entalpia (ΔH > 0) i fer ΔG < 0 (espontani).",
+          "why": "La intuïció que 'les reaccions alliberen energia' ve de les reaccions de combustió (molt exotèrmiques) que son les més visibles en la vida quotidiana. Però en química, l'entropia juga un paper tan important com l'entalpia en molts contextos."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-01-01",
+          "style": "multiple-choice",
+          "question": "La reacció N₂ + 3H₂ → 2NH₃ (síntesi d'amoníac, procés Haber) és exotèrmica (ΔH < 0) però té un ΔS negatiu (3 mols de gas es convertixen en 2, reduint el desordre). Qué prediu la termodinàmica sobre la temperatura òptima per a aquesta reacció?",
+          "options": [
+            "Temperatures molt altes son millors perquè acceleren totes les reaccions",
+            "Temperatures baixes afavorixen l'espontaneïtat (ΔG = ΔH − TΔS: com T baixa, el terme −TΔS positiu es reduïx i ΔG es fa més negatiu), però en pràctica cal compromisos amb la velocitat",
+            "La temperatura no afecta l'espontaneïtat de les reaccions — sols la velocitat",
+            "Temperatures moderades son sempre les millors per a qualsevol reacció química"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Per a la síntesi d'amoníac: ΔH < 0 (exotèrmica, afavoreix espontaneïtat) i ΔS < 0 (disminuïx entropia, desfavoreix espontaneïtat). En ΔG = ΔH − TΔS: com que ΔS < 0, el terme −TΔS és positiu i augmenta ΔG. A mesura que puja la temperatura, −TΔS es fa més gran i positiu, fent ΔG menys negatiu o fins i tot positiu (no espontani). Per tant, temperatures baixes afavorixen termodinàmicament la producció d'NH₃. Però a temperatures baixes, la cinètica és molt lenta. El procés Haber industrial usa temperatures al voltant de 400-500°C — un compromís entre termodinàmica (que prefereix baixes T) i cinètica (que prefereix altes T). Aixó és un exemple perfecte del conflicte entre termodinàmica i cinètica en la química industrial.",
+          "feedbackWrong": "Per a la síntesi d'amoníac, la termodinàmica afavoreix temperatures baixes (l'entropia decreix amb la reacció, i a T alta el terme entròpic desfavorable domina). Però la cinètica prefereix temperatures altes. La solució industrial (procés Haber) usa ~450°C — un compromís. A més, usa catalizador de ferro per accelerar la cinètica sense haver d'augmentar massa la temperatura."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-01-02",
+          "style": "detect-error",
+          "statement": "La dissolució del sucre en aigua és un procés espontani perquè allibera energia — la interacció entre el sucre i l'aigua és exotèrmica.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és l'explicació. La dissolució del sucre en aigua és lleugerament endotèrmica (absorbeix una mica de calor) — no exotèrmica. I tanmateix és espontània. El que la fa espontània no és l'alliberament d'energia sinó l'augment d'entropia: les molècules de sucre ordenades en el cristall es dispersen aleatòriament per tota la solució, augmentant enormement el nombre de configuracions possibles del sistema. ΔH > 0 però ΔS > 0 i en condicions normals TΔS > ΔH, per tant ΔG < 0 (espontani). La dissolució del sucre és un exemple perfecte de reacció endotèrmica i espontània."
+        },
+        {
+          "type": "quote",
+          "text": "La calor no pot passar espontàniament d'un cos fred a un de calent sense efecte compensador en algun altre lloc del sistema. Aixó és el que l'entropia sempre creixent significa.",
+          "author": "Rudolf Clausius, formulació de la Segona Llei de la Termodinàmica, 1865"
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-rea-01-01",
+          "question": "La Segona Llei de la Termodinàmica diu que l'entropia de l'univers sempre augmenta. Però la vida crea ordre local (proteïnes complexes, estructures cel·lulars, organismes) que representa una disminució local d'entropia. Algunes persones han argumentat que la vida viola la Segona Llei. Creus que és possible crear ordre local sense violar la termodinàmica?",
+          "options": [
+            "No és possible: la vida viola la Segona Llei o l'excepció biològica significa que la llei no és universal",
+            "Sí és possible: la vida reduïx localment l'entropia però genera molt més desordre en el seu entorn (alliberant calor, consumint nutrients ordenats i produïnt CO₂ i calor desordenats) — l'entropia neta de l'univers augmenta",
+            "La Segona Llei sols s'aplica a sistemes tancats, i la vida és un sistema obert que no li afecta"
+          ],
+          "correct": 1,
+          "explanation": "La posició A és incorrecta: la vida no viola la Segona Llei. La posició C és parcialment certa (la llei per a sistemes tancats és més restrictiva) però l'afirmació que 'no li afecta' és incorrecta — la Segona Llei s'aplica a qualsevol sistema, obert o tancat, si es compta l'entropia total (sistema + entorn). La posició B és la correcta: la vida crea ordre local a costa de generar molt més desordre en el seu entorn. Un arbre pren CO₂ i H₂O (molècules simples, alta entropia per unitat de massa) i produïx fusta (polímers complexos, baixa entropia per unitat de massa) — però consumix energia solar en el procés, i l'entropia de la radiació solar convertida en calor és molt major que la reducció d'entropia de la fusta. El metabolisme humà: consumim nutrients ordenats (sucres, greixos) i produïm CO₂, H₂O i calor — productes de molt alta entropia. L'increment d'entropia de l'entorn supera sempre la reducció d'entropia de l'organisme. La vida és un motor d'augment d'entropia global disfressat d'ordre local."
+        }
+      ]
+    },
+    {
+      "id": "rea-02",
+      "title": "Cinètica química: com de ràpides son les reaccions",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La termodinàmica diu si una reacció pot passar (ΔG < 0). Però no diu com de ràpid. El diamant és termodinàmicament inestable a temperatura i pressió normals — hauria de convertir-se en grafit espontàniament. Però ho fa en una escala de milions d'anys. La gasolina és termodinàmicament inestable en presència d'oxigen — hauria de cremar espontàniament. Però no crema per si sola a temperatura ambient — cal una espurna. La diferència entre el que podria passar i el que passa realment és la cinètica: la velocitat i el mecanisme de la reacció."
+        },
+        {
+          "type": "prediction",
+          "question": "El pa de llevat triga hores a fermentar a temperatura ambient, però si poses la massa al forn (temperatura alta), els processos s'acceleren. I si la poses a la nevera, s'alentixen molt. Per qué creus que la temperatura té un efecte tan gran sobre la velocitat de les reaccions químiques?",
+          "hint": "Pensa en les molècules com a partícules en moviment constant. Qué passa quan augmenta la temperatura? I quina condició han de complir les molècules per reaccionar?"
+        },
+        {
+          "type": "key-idea",
+          "text": "La velocitat d'una reacció química depèn de la freqüència de col·lisions efectives entre reactius — col·lisions amb prou energia (energia d'activació) i orientació adequada. Els factors que augmenten la velocitat: temperatura (les molècules van més ràpid → més col·lisions i més energètiques), concentració (més molècules → més col·lisions), superfície de contacte (sòlids polvoritzats reaccionen més ràpid), i catalizadors (abaixen l'energia d'activació sense consumir-se)."
+        },
+        {
+          "type": "expandable",
+          "label": "Com funcionen els catalitzadors: el camí alternatiu de menor energia",
+          "content": "Un catalitzador no canvia el punt de partida ni el punt d'arribada d'una reacció — no altera ΔG. El que fa és oferir un camí alternatiu amb una energia d'activació menor. Imagina una muntanya entre dues valls (reactius i productes). Sense catalitzador, cal pujar tota la muntanya. El catalitzador obre un túnel a través de la muntanya — no cal pujar tant. Els catalitzadors industrials (com el ferro del procés Haber o el platí en el catalitzador dels cotxes) funcionen adsorbint les molècules reactives a la seva superfície i facilitant que reaccionin. Els enzims biológics son catalitzadors proteics exquisidament específics: cada enzim catalitza exactament una reacció (o un petit grup) amb una eficiència extraordinària, accelerant la reacció fins un milió de vegades o més. El cos humà conté milers d'enzims que permeten que totes les reaccions metabòliques passin a 37°C en comptes de les temperatures molt altes que caldrien sense ells."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-02-01",
+          "style": "multiple-choice",
+          "question": "Una reacció passa 10 vegades més ràpid quan la temperatura augmenta de 25°C a 35°C. Si apliques la mateixa relació, quant més ràpida serà a 45°C respecte a 25°C?",
+          "options": [
+            "10 vegades més ràpida",
+            "20 vegades més ràpida",
+            "100 vegades més ràpida",
+            "1.000 vegades més ràpida"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. Si cada 10°C la velocitat es multiplica per 10: de 25°C a 35°C → ×10. De 35°C a 45°C → ×10 de nou. En total, de 25°C a 45°C (20°C de diferència = 2 increments de 10°C): 10 × 10 = 100 vegades més ràpida. Aixó il·lustra per qué la temperatura té un efecte tan enorme sobre la velocitat de les reaccions biológiques: la febre d'un grau pot accelerar significativament el metabolisme, i per aixó els éssers de sang freda son tan lents en temps fred. La regla Q₁₀ (la velocitat es dobla cada 10°C) és una aproximació comú en biologia per a les reaccions enzimàtiques.",
+          "feedbackWrong": "Aplica la multiplicació seqüencialment: si cada 10°C la velocitat es multiplica per 10, llavors dos increments de 10°C (de 25°C a 45°C) donen 10 × 10 = 100 vegades més ràpida. L'efecte de la temperatura sobre la velocitat és exponencial, no lineal — un petit augment de temperatura pot tenir un efecte molt gran sobre la cinètica."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-02-02",
+          "style": "true-false",
+          "question": "Un catalizador accelera una reacció química i per tant fa que el producte final sigui diferent del que s'obtindria sense catalizador.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Un catalizador no canvia els productes finals d'una reacció ni l'equilibri termodinàmic — sols canvia la velocitat a la qual s'assoleix aquell equilibri. Ofereix un camí de menor energia (menor energia d'activació) per arribar al mateix punt final. El catalizador de platí en el tub d'escapament dels cotxes no canvia els productes de la combustió dels hidrocarburs — simplement fa que les reaccions de neteja (conversió de CO → CO₂, NOx → N₂) passin a les temperatures de l'escapament en lloc de requerir temperatures molt majors. Els enzims biológics fan el mateix: catalitzen la formació del producte termodinàmicament favorit, però molt més ràpidament.",
+          "feedbackWrong": "Un catalizador no canvia el resultat final (els productes) ni l'equilibri termodinàmic de la reacció — sols accelera la velocitat d'arribar-hi. És com obrir un túnel en una muntanya: el teu destí és el mateix que si escalaràs la muntanya, sols hi arribes més ràpid. El platí del catalitzador del cotxe, el ferro del procés Haber, els enzims del nostre cos — tots acceleren reaccions sense canviar els productes finals."
+        },
+        {
+          "type": "misconception",
+          "belief": "Si una reacció és termodinàmicament favorable (ΔG < 0), necessàriament passa de forma ràpida i espontània.",
+          "reality": "Termodinàmica i cinètica son independents. El diamant és termodinàmicament inestable en condicions normals (ΔG < 0 per a la conversió a grafit) però la reacció és tan lenta (cinèticament inhibida per una enorme barrera d'energia d'activació) que és efectivament eterna a escala humana. La gasolina en contacte amb l'aire podria cremar espontàniament (ΔG << 0) però l'energia d'activació és prou alta per requerir una espurna. La termodinàmica diu on va el sistema; la cinètica diu com de ràpid hi va.",
+          "why": "Confondre espontaneïtat termodinàmica amb velocitat és un error molt comú. Molts productes metastables (diamant, vidre, molts polímers) son termodinàmicament inestables però cinèticament estables — poden durar milers d'anys."
+        },
+        {
+          "type": "simulation",
+          "id": "sim-cinetica-01",
+          "component": "CineticaReaccio",
+          "title": "Energia d'activació i catalizadors",
+          "description": "Visualitza el diagrama d'energia d'una reacció. Canvia la temperatura i observa com canvia la fracció de molècules que superen l'energia d'activació. Afegeix un catalizador per veure com abaixa la barrera."
+        }
+      ]
+    },
+    {
+      "id": "rea-03",
+      "title": "L'equilibri químic: quan la reacció va en tots dos sentits",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Quan dissolves sucre en aigua, el sucre es dissol fins a un límit — a partir del qual la solució és saturada i no en dissol més. Però la saturació no significa que tot s'ha aturat. En una solució saturada, les molècules de sucre continuen dissolent-se i recristal·litzant simultàniament, a la mateixa velocitat. El resultat macroscòpic sembla estàtic, però a escala molecular hi ha una activitat constant. Aixó és l'equilibri dinàmic: el sistema no ha parat — les reaccions directa i inversa continuen en perfecte balanç."
+        },
+        {
+          "type": "prediction",
+          "question": "En la síntesi d'amoníac (N₂ + 3H₂ ⇌ 2NH₃), si augmentes la concentració de nitrogen, qué creus que passa amb la concentració d'amoníac? I si augmentes la pressió del sistema? Per qué?",
+          "hint": "Pensa en el principi de Le Chatelier: si pertorbes un sistema en equilibri, el sistema reacciona per contrarestar la pertorbació. La reacció directa té 4 mols de gas (1+3) i la inversa té 2 mols."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'equilibri químic és el estat en que les velocitats de la reacció directa i la inversa son iguals, i les concentracions dels reactius i productes romanen constants (però no necessàriament iguals). La constant d'equilibri K expressa la relació entre concentracions en l'equilibri. El principi de Le Chatelier: si es pertorba un sistema en equilibri (canviant concentracions, temperatura o pressió), el sistema es desplaça per contrarestar la pertorbació."
+        },
+        {
+          "type": "expandable",
+          "label": "El principi de Le Chatelier aplicat a la síntesi industrial",
+          "content": "El principi de Le Chatelier és la brúixola de l'enginyeria química: permet predir com modificar les condicions per obtenir més producte. Síntesi d'amoníac (N₂ + 3H₂ ⇌ 2NH₃): (1) Temperatura: la reacció és exotèrmica. Augmentar T desplaça l'equilibri cap als reactius (menys NH₃). Baixar T afavoreix els productes però alenteix la cinètica. Solució: temperatura de compromís (~450°C) + catalizador. (2) Pressió: 4 mols de gas → 2 mols de gas. Augmentar la pressió desplaça cap als productes (menys mols de gas, menys pressió). El procés Haber opera a 150-300 atm. (3) Concentracions: eliminar l'NH₃ del sistema (condensant-lo) fa que l'equilibri avanci cap als productes. Aquesta idea — pertorbar l'equilibri per obtenir el màxim rendiment — és la base de la majoria dels processos industrials químics."
+        },
+        {
+          "type": "quote",
+          "text": "Si un sistema en equilibri es sotmet a una pertorbació, el sistema es desplaça de forma que tendeix a contrarestar l'efecte d'aquella pertorbació.",
+          "author": "Henri Louis Le Chatelier, 1884"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-03-01",
+          "style": "multiple-choice",
+          "question": "En la reacció d'equilibri CO + 3H₂ ⇌ CH₄ + H₂O (metanació), si augmentes la temperatura (la reacció és exotèrmica), cap a quin costat es desplaça l'equilibri?",
+          "options": [
+            "Cap als productes (CH₄ i H₂O), perquè la calor afavoreix les reaccions ràpides",
+            "Cap als reactius (CO i H₂), perquè la reacció és exotèrmica i augmentar T afavoreix la reacció endotèrmica inversa",
+            "No es desplaça: la temperatura no afecta la posició de l'equilibri, sols la velocitat",
+            "Cap als productes, però de forma impredictible que depèn de la pressió del sistema"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Per al principi de Le Chatelier: si la reacció directa és exotèrmica (allibera calor), podem pensar en la calor com un 'producte'. Augmentar la temperatura és equivalent a augmentar la concentració de 'producte calor', i el sistema es desplaça per consumir aquella calor extra — és a dir, cap als reactius. Per a la metanació: afegir calor (augmentar T) desplaça cap a CO + H₂ (la reacció endotèrmica inversa). Per obtenir més CH₄, caldria operar a temperatura baixa (però alenteix la cinètica) i usar catalizador per compensar.",
+          "feedbackWrong": "Aplica Le Chatelier: pensa en la calor com un 'producte' en una reacció exotèrmica. Augmentar T és com afegir calor (producte) → l'equilibri es desplaça cap als reactius per consumir l'excés de calor. La temperatura sí afecta la posició de l'equilibri (no sols la velocitat): per a reaccions exotèrmiques, T alta desplaça cap als reactius; T baixa, cap als productes."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-03-02",
+          "style": "detect-error",
+          "statement": "En un sistema en equilibri químic, les concentracions de reactius i productes son iguals i les reaccions directa i inversa s'han aturat completament.",
+          "isCorrect": false,
+          "feedbackExplanation": "Hi ha dos errors. Primer, en l'equilibri les concentracions no son necessàriament iguals — el que és igual és la velocitat de les reaccions directa i inversa. La constant d'equilibri K pot tenir qualsevol valor: si K >> 1, l'equilibri és molt a la dreta (productes dominants); si K << 1, és molt a l'esquerra (reactius dominants). Segon, les reaccions NO s'han aturat — és un equilibri dinàmic. A escala molecular, les molècules de reactius continuen convertint-se en productes i els productes en reactius, però a la mateixa velocitat, de manera que les concentracions macroscòpiques no canvien. Sembla estàtic però és dinàmic."
+        },
+        {
+          "type": "simulation",
+          "id": "sim-equilibri-01",
+          "component": "EquilibriQuimic",
+          "title": "Equilibri i Principi de Le Chatelier",
+          "description": "Visualitza una reacció reversible en equilibri. Canvia la temperatura, la pressió o les concentracions i observa com es desplaça l'equilibri en temps real. Experimenta amb la síntesi d'amoníac."
+        }
+      ]
+    },
+    {
+      "id": "rea-04",
+      "title": "Àcids i bases: la química del pH",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El vinagre té un pH de 2,4. La llet té pH 6,5. L'aigua pura, 7. El suc de pàncrees, 8. L'amoníac de la neteja, 11,5. La sosa càustica, 14. Aquests números representen diferències enormes: cada unitat de pH és un factor de 10 en la concentració d'ions H⁺. El vinagre té 10 milions de vegades més ions H⁺ que la sosa càustica. Però els nostres cossos necessiten mantenir el pH de la sang entre 7,35 i 7,45 — una variació d'una dècima d'unitat de pH pot ser mortal. La química àcid-base és literalment una qüestió de vida o mort."
+        },
+        {
+          "type": "prediction",
+          "question": "Si el pH de la sang puja de 7,4 a 7,6 (alcalosi), els pacients pateixen tetania muscular i convulsions. Si baixa a 7,2 (acidosi), son és i poden entrar en coma. El cos manté el pH amb una precisió de ±0,05 unitats. Quin mecanisme creus que usa el cos per controlar un paràmetre tan crític en un entorn tan variable (mengem àcids, produïm CO₂, fem exercici)?",
+          "hint": "Pensa en les solucions tampó: sistemes que resisteixin canvis de pH absorbint els H⁺ en excés o cedint-ne quan n'hi ha pocs."
+        },
+        {
+          "type": "key-idea",
+          "text": "Un àcid és una substància que cedeix protons H⁺ (definició de Brønsted-Lowry); una base és una substància que els accepta. El pH = −log[H⁺]: escala logarítmica de 0 (molt àcid) a 14 (molt bàsic), amb 7 com a neutre (a 25°C). Les solucions tampó (buffers) contenen un àcid feble i la seva base conjugada; resisteixin canvis de pH perquè l'àcid pot neutralitzar les bases afegides i la base pot neutralitzar els àcids afegits."
+        },
+        {
+          "type": "expandable",
+          "label": "El sistema tampó de la sang: la química que et manté viu",
+          "content": "La sang manté el seu pH entre 7,35 i 7,45 gràcies a tres sistemes tampó principals, dels quals el més important és el sistema bicarbonat-CO₂: CO₂ + H₂O ⇌ H₂CO₃ ⇌ HCO₃⁻ + H⁺. Si el pH baixa (massa H⁺, acidosi): els bicarbonats (HCO₃⁻) capturen els H⁺ → menys àcid → pH puja. Simultàniament, la respiració s'accelera per expulsar CO₂ (que desplaça l'equilibri cap a l'esquerra, consumint H⁺). Si el pH puja (pocs H⁺, alcalosi): H₂CO₃ allibera H⁺ → pH baixa. La respiració s'alentix per retenir CO₂. Quan fas exercici intens, els músculs produïxen àcid làctic i CO₂ que acidifiquen la sang. El sistema tampó i l'augment de la respiració mantenen el pH. La insuficiència respiratòria (acumulació de CO₂), la insuficiència renal (que elimina H⁺ i bicarbonats) o una intoxicació severa poden trencar el sistema tampó i causar una crisi àcid-base mortal."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-04-01",
+          "style": "multiple-choice",
+          "question": "Una solució de pH 3 té quantes vegades més ions H⁺ que una solució de pH 5?",
+          "options": [
+            "2 vegades més",
+            "10 vegades més",
+            "100 vegades més",
+            "1.000 vegades més"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. L'escala de pH és logarítmica en base 10: cada unitat de pH representa un factor de 10 en la concentració d'ions H⁺. De pH 3 a pH 5 hi ha 2 unitats de diferència: 10² = 100 vegades. La solució de pH 3 té 100 vegades més ions H⁺ que la de pH 5. Per a la pluja àcida (pH ≈ 4,2 vs. pluja normal pH ≈ 5,6): la diferència és 1,4 unitats = 10^1,4 ≈ 25 vegades més àcida. Per a l'estómac (pH ≈ 2) vs. sang (pH ≈ 7,4): 5,4 unitats = 10^5,4 ≈ 250.000 vegades més àcid l'estómac.",
+          "feedbackWrong": "El pH és logarítmic: cada unitat representa un factor de 10 en [H⁺]. De pH 3 a pH 5 hi ha 2 unitats → 10² = 100 vegades de diferència. No és una diferència addittiva (2 vegades) sinó multiplicativa (100 vegades). Aixó és el que fa l'escala logarítmica útil: permet expressar rangs enormes de concentracions en una escala manejable del 0 al 14."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-04-02",
+          "style": "multiple-choice",
+          "question": "Per qué l'aspirina (àcid acetilsalicílic, àcid feble) s'absorbeix principalment a l'estómac (pH 2) i no a l'intestí (pH 7)?",
+          "options": [
+            "Perquè l'estómac conté enzims específics que trenquen la molècula d'aspirina i la fan absorbible",
+            "Perquè en medi àcid (pH baix), un àcid feble com l'aspirina es troba majoritàriament en la seva forma neutra no ionitzada (HA), que pot travessar fàcilment les membranes lipídiques de les cèl·lules intestinals",
+            "Perquè la temperatura de l'estómac és lleugerament major que la de l'intestí, cosa que accelera l'absorció",
+            "Perquè l'aspirina reacciona amb l'HCl de l'estómac per formar un compost més soluble que s'absorbeix millor"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'absorció de fàrmacs àcids febles depèn del pH de l'entorn, seguint el 'Henderson-Hasselbalch partition theory'. Un àcid feble (HA) existeix en equilibri HA ⇌ H⁺ + A⁻. En medi àcid (pH baix, molts H⁺), l'equilibri es desplaça cap a l'esquerra: predomina la forma HA (no ionitzada, neutra). Les membranes cel·lulars son lipídiques i sols permeten passar molècules neutres, no ions. A pH 2 (estómac), l'aspirina és majoritàriament HA → pot travessar les membranes → s'absorbeix bé. A pH 7 (intestí), és majoritàriament A⁻ (ionitzada, carregada) → no pot travessar les membranes fàcilment → s'absorbeix poc. Aquesta és la base del disseny farmacèutic: l'absorció, distribució i eliminació dels fàrmacs depèn dels seus pKa i del pH dels compartiments biológics.",
+          "feedbackWrong": "La clau és l'equilibri àcid-base de l'aspirina. En medi àcid (estómac, pH 2), l'aspirina (àcid feble) existeix majoritàriament en la seva forma no ionitzada (HA), que és neutra i pot travessar les membranes lipídiques. En medi neutre (intestí, pH 7), l'aspirina es ionitza (A⁻), carregant-se negativament, i les membranes lipídiques no la deixen passar. Aixó és el principi de partició pH-dependent, fonamental en farmacologia."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "La Química de la Vida: Bioquímica Fonamental",
+          "moduleEmoji": "🧬",
+          "concept": "pH i funció enzimàtica",
+          "text": "El pH que has après aquí és fonamental per entendre la bioquímica. Cada enzim del cos té un pH òptim al qual la seva estructura tridimensional és la correcta per a la catàlisi. La pepsina de l'estómac funciona a pH 2; la tripsina del pàncrees, a pH 8. Els aminoàcids de les proteïnes canvien la seva càrrega amb el pH, alterant l'estructura i la funció de la proteïna. Comprendre el pH és comprendre per qué el nostre cos té compartiments amb pH molt different i per qué cada un fa una funció específica."
+        }
+      ]
+    },
+    {
+      "id": "rea-05",
+      "title": "Electroquímica: quan la química genera electricitat",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1800, Alessandro Volta va apilar discos de zinc i coure alternats, separats per roba mullada amb sèrum salí. Va tocar els extrems i va sentir un formigueig. Havia inventat la primera bateria de la història — la pila voltaica. El principi era elemental: el zinc cedeix electrons més fàcilment que el coure, i si es connecten a través d'un conductor, els electrons fluïxen del zinc al coure generant un corrent elèctric. Dos-cents vint-i-cinc anys després, el teu telèfon, el teu cotxe elèctric i els panells solars funcionen amb variants del mateix principi."
+        },
+        {
+          "type": "prediction",
+          "question": "Una bateria de liti-ió del teu telèfon perd capacitat amb els anys — pot emmagatzemar cada cop menys energia. Qué creus que passa a escala química que fa que les bateries 'envellixin'? I per qué recarregar ràpidament és pitjor que recarregar lentament?",
+          "hint": "Pensa en el que passa als elèctrodes quan la bateria es carrega i es descarrega milers de vegades. Els àtoms de liti entren i surten dels materials dels elèctrodes — qué creus que canvia amb el temps?"
+        },
+        {
+          "type": "key-idea",
+          "text": "L'electroquímica estudia les reaccions redox (d'oxidació-reducció) que impliquen transferència d'electrons. En una cel·la galvànica (bateria), les reaccions redox espontànies generen electricitat. En una cel·la electrolítica, l'electricitat força reaccions no espontànies (electròlisi). Les reaccions redox son definides per qui perd electrons (s'oxida, agent reductor) i qui en guanya (es reduïx, agent oxidant)."
+        },
+        {
+          "type": "expandable",
+          "label": "Com funciona una bateria de liti-ió: la química dels teus dispositius",
+          "content": "Una bateria de liti-ió té un ànode (grafit, on el liti s'intercala entre les capes de carboni), un càtode (un òxid metàl·lic, com LiCoO₂ o LiFePO₄) i un electròlit (solució o gel que permet el moviment dels ions Li⁺ però no dels electrons). En descarrega: l'ànode allibera ions Li⁺ que migren a través de l'electròlit cap al càtode; simultàniament, els electrons fluïxen pel circuit extern generant el corrent elèctric. En càrrega: el procés s'invertix aplicant un voltatge extern. L'envelliment de la bateria es produïx principalment per: (1) deposició de liti metal·lic a l'ànode (plet de liti), que reduïx la quantitat disponible per a futurs cicles; (2) degradació dels materials del càtode; (3) creixement de la capa SEI (Solid Electrolyte Interphase) a l'ànode, que augmenta la resistència. La càrrega ràpida accelera el plet de liti (1) i la degradació (2) perquè força corrents alts que no donen temps als ions de redistribuir-se uniformement."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-05-01",
+          "style": "multiple-choice",
+          "question": "En la reacció Zn + CuSO₄ → ZnSO₄ + Cu, quin element s'oxida i quin es reduïx?",
+          "options": [
+            "El zinc s'oxida (perd electrons) i el coure es reduïx (guanya electrons)",
+            "El coure s'oxida i el zinc es reduïx",
+            "El sofre s'oxida i l'oxigen es reduïx",
+            "Tots dos s'oxiden en la reacció; no hi ha reducció"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. El zinc (Zn) passa de Zn⁰ a Zn²⁺: perd 2 electrons → s'oxida. El coure (Cu²⁺) passa de Cu²⁺ a Cu⁰: guanya 2 electrons → es reduïx. Per recordar-ho: OIL RIG (Oxidació Is Loss, Reduction Is Gain) o en català LEO el lleó GER (Perd Electrons = Oxidació; Guanya Electrons = Reducció). El zinc és l'agent reductor (reduïx el coure cedint electrons) i el coure és l'agent oxidant (oxida el zinc acceptant electrons). En una bateria de Daniell (el primer tipus de bateria pràctica), exactament aquesta reacció genera electricitat.",
+          "feedbackWrong": "Aplica la definició: oxidació = pèrdua d'electrons; reducció = guany d'electrons. El zinc va de Zn⁰ a Zn²⁺ (perd 2 electrons → s'oxida). El coure va de Cu²⁺ a Cu⁰ (guanya 2 electrons → es reduïx). Sempre un s'oxida i l'altre es reduïx en una reacció redox — per cada electró que perd un àtom, un altre el guanya."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-05-02",
+          "style": "detect-error",
+          "statement": "L'electròlisi de l'aigua (2H₂O → 2H₂ + O₂) és una reacció espontània que passa sola quan poses dos elèctrodes en aigua.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és 'espontània'. La descomposició de l'aigua en hidrogen i oxigen NO és espontània (ΔG > 0, energia de Gibbs positiva). Per a que passi, cal subministrar energia elèctrica externa — és un procés electrolític, no una cel·la galvànica. L'electròlisi de l'aigua requereix un voltatge mínim de 1,23 V (en condicions ideals) o uns 1,8-2 V en pràctica per superar les sobretensions. Si poses dos elèctrodes en aigua pura sense voltatge extern, no passa res. Amb voltatge extern adequat, sí: a l'ànode (elèctrode positiu) s'oxida l'H₂O produïnt O₂; al càtode (negatiu) es reduïxen els H⁺ produïnt H₂. L'electròlisi de l'H₂O és una tecnologia clau per produir hidrogen verd usant electricitat renovable."
+        },
+        {
+          "type": "debate",
+          "question": "L'hidrogen produït per electròlisi de l'aigua amb electricitat renovable ('hidrogen verd') és vist per alguns com el vector energètic del futur: pot emmagatzemar energia renovable intermitent i usar-se en piles de combustible per generar electricitat quan cal. Però d'altres argumenten que les bateries elèctriques son més eficients per als vehicles i que l'hidrogen és una solució cara i complexa. Creus que l'hidrogen té un paper central en la transició energètica?",
+          "positionA": {
+            "label": "L'hidrogen és clau per a la transició energètica",
+            "argument": "Molts sectors no es poden electrificar directament amb bateries: l'aviació, el transport marítim de llarga distància, la indústria siderúrgica i química. L'hidrogen pot descarbonitzar-los. A més, pot emmagatzemar energia renovable a gran escala durant llargs períodes — les bateries no serveixen per estacionalitat. Europa i el Japó ja estan apostant fort per l'hidrogen."
+          },
+          "positionB": {
+            "label": "Les bateries son la solució dominant, l'hidrogen és nínxol",
+            "argument": "L'hidrogen té una eficiència energètica molt baixa: l'electricitat → electròlisi → compressió/líquid → pila de combustible perd el 70-75% de l'energia inicial. Les bateries perden el 15-20%. Per als cotxes i la mobilitat urbana, les bateries guanyen clarament. L'hidrogen té sentit en sectors específics però no serà la solució general que els seus defensors pronostiquen."
+          },
+          "reflection": "Xina produïx el 30% del seu hidrogen per electròlisi amb energia renovable i inverteix massivament en la cadena de valor. L'Europa i els EUA s'estan quedant enrere en la producció. Qué implica aixó geopolíticament?",
+          "context": "El debat hidrogen vs. bateries és un dels centrals de la transició energètica. BloombergNEF, RMI i molts analistes argumenten que l'hidrogen serà competitiu en sectors específics però que els cotxes d'hidrogen han perdut la batalla davant els elèctrics de bateria."
+        }
+      ]
+    },
+    {
+      "id": "rea-06",
+      "title": "La química verda: fer química de forma sostenible",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1962, Rachel Carson va publicar 'Silent Spring' documentant com el pesticida DDT s'acumulava en la cadena alimentària i estava causant la desaparició d'aus i la contaminació generalitzada del medi ambient. El DDT era el producte estrella de la química agrícola dels anys 50 — segur per als humans (es deia), molt eficaç contra els insectes, barat de produir. La realitat va ser molt diferent. 'Silent Spring' va iniciar el moviment ecologista modern i va portar a la prohibició del DDT a molts països. Però la lliçó no va ser 'la química és dolenta' — va ser que la química ha de tenir en compte tot el sistema, no sols l'efecte immediat."
+        },
+        {
+          "type": "prediction",
+          "question": "Dissenyar un procés químic 'verd' vol dir minimitzar l'impacte ambiental. Quins creus que son els principals criteris que hauria de complir un procés químic verament sostenible? Pensa més enllà de 'no contaminant'.",
+          "hint": "Pensa en l'origen de les matèries primeres, l'eficiència del procés (quant es perd en subproductes), l'energia usada, el que passa al final de la vida del producte."
+        },
+        {
+          "type": "key-idea",
+          "text": "La química verda és el disseny de productes i processos químics que reduïxen o eliminen l'ús i la generació de substàncies perilloses. Els seus 12 principis inclouen: prevenir els residus en lloc de tractar-los, usar materials renovables, dissenyar síntesis eficients (atom economy alta), usar dissolvents i condicions benignes, i dissenyar per a la degradació al final de la vida."
+        },
+        {
+          "type": "expandable",
+          "label": "L'atom economy: no tot el que es produïx és el que vols",
+          "content": "L'atom economy (economia atòmica) és un concepte clau de la química verda. Mesura quin percentatge dels àtoms dels reactius acaben al producte desitjat vs. als subproductes de rebuig. Exemple 1: síntesi de iodoform (mèdode tradicional): C₂H₅OH + 4I₂ + 3Na₂CO₃ → CHI₃ + HCOONa + 3NaI + 3H₂O + 3CO₂. El producte desitjat (CHI₃, massa 394 g/mol) representa sols el 49% de la massa total dels productes — l'altra meitat son residus. Atom economy = 49%. Exemple 2: hidrogenació del benzé a ciclohexà: C₆H₆ + 3H₂ → C₆H₁₂. Tots els àtoms dels reactius acaben al producte. Atom economy = 100%. Un procés amb alta atom economy és molt menys desaprofitador: genera menys residus, usa menys matèria primera per unitat de producte, i sol ser menys car. En la indústria farmacèutica, molts fàrmacs es sintetizen amb atom economies inferiors al 30% — gran part de les matèries primeres acaben com a residus."
+        },
+        {
+          "type": "misconception",
+          "belief": "Els productes naturals son sempre més segurs i menys tòxics que els productes sintètics.",
+          "reality": "La toxicitat depèn de la molècula, no del seu origen. Moltes de les substàncies més tòxiques que existixen son naturals: la botulina (la toxina més mortal coneguda, de la bacteria Clostridium botulinum), l'aflatoxina B1 (cancerígen potent de fongs naturals), la ricina (de la planta de ricí) i l'arseic (mineral natural). D'altra banda, molts compostos sintètics son completament benignes (vitamines sintètiques, plàstics alimentaris, aspirina). La distinció rellevant no és natural vs. sintètic sinó tòxic vs. no tòxic, persistent vs. biodegradable, bioacumulable vs. no bioacumulable.",
+          "why": "La fal·làcia natural ('si és natural és bo') és un dels errors de raonament més comuns i comercialment explotats. Les empreses de productes 'naturals' l'alimenten activament, i la por generalitzada als productes químics sintètics (chemofòbia) la reforça."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-06-01",
+          "style": "multiple-choice",
+          "question": "Un company et diu: 'No compres aquell producte de neteja — la llista d'ingredients conté molts productes químics'. Quin és el problema del raonament del teu company?",
+          "options": [
+            "Cap problema: un producte amb molts ingredients químics és sempre més perillós que un amb pocs",
+            "El raonament confon 'químic' amb 'perillós': tots els materials — incloent l'aigua, el vinagre i la llimona — son compostos químics. El que importa és la toxicitat específica de cada compost, no el fet de ser 'químic'",
+            "El raonament és parcialment correcte: els productes de neteja sempre son perillosos però els naturals ho son menys",
+            "El raonament és correcte però sols aplicable als productes de neteja, no als aliments"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La chemofòbia (por irracional als 'productes químics') és un error de raonament molt comú. Tots els materials son compostos químics: l'H₂O és 'dihidrogen monòxid', el NaCl és 'clorur de sodi', la vitamina C és 'àcid ascòrbic'. Dir que un producte és perillós perquè conté 'productes químics' és dir que l'aire és perillós perquè conté 'dinitrogen i dioxigen'. El que importa no és si una substància és 'química' (ho son totes) sinó: quin és el seu efecte biológic específic? A quina dosi? Quina és l'exposició real? Els productes de neteja convencionals son en general molt segurs a les concentracions d'ús — cal llegir les fitxes de seguretat i usar-los adequadament, no fugir d'ells per por als seus noms químics.",
+          "feedbackWrong": "El problema del raonament és la 'chemofòbia': la por als noms químics. Tots els materials son compostos químics — fins i tot el vinagre ('àcid acètic en solució aquosa') o la llimona ('àcid cítric i vitamina C'). La periculositat no ve del fet de ser 'químic' sinó de la toxicitat específica a la dosi d'exposició real. Cal avaluar les substàncies específiques, no fugir genèricament de 'productes químics'."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-rea-06-02",
+          "style": "multiple-choice",
+          "question": "Quin dels principals principis de la química verda és el que representa un canvi de paradigma més profund respecte a la química tradicional?",
+          "options": [
+            "Usar dissolvents menys tòxics, ja que els dissolvents convencionals son la principal font de contaminació industrial",
+            "Prevenir els residus en lloc de tractar-los, perquè implica dissenyar els processos des del principi per no generar el problema en lloc de gestionar-lo un cop creat",
+            "Usar energies renovables per als processos industrials, substituïnt els combustibles fòssils",
+            "Desenvolupar catalizadors més eficients per reduir la temperatura de les reaccions"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. 'Prevenir els residus en lloc de tractar-los' és el primer i més fonamental dels 12 principis de la química verda perquè representa un canvi de mentalitat: la química tradicional dissenyava primer el procés i després pensava com gestionar els residus generats (tractament d'aigues residuals, incineració, abocadors). La química verda demana que el procés es dissenyi des del principi per no generar residus. És la diferència entre curar i prevenir: molt més eficient, però requereix repensar tota la cadena de disseny des de zero. Impacta en la selecció de reactius, la ruta de síntesi, els dissolvents, les condicions de reacció i el cicle de vida del producte.",
+          "feedbackWrong": "El principi més transformador és el de prevenció: dissenyar els processos per no generar residus, en lloc de tractar-los un cop generats. Representa un canvi de paradigma: de 'fem la reacció i gestionem el que sobra' a 'dissenyem la reacció per minimitzar el que sobra'. Implica repensar la química des del principi, no afegir un pas de tractament al final."
+        },
+        {
+          "type": "reflection",
+          "question": "Has recorregut la química de les reaccions: termodinàmica, cinètica, equilibri, àcid-base, electroquímica i química verda. Quin concepte creus que té l'impacte pràctic més gran en el món real? I hi ha algun producte que uses habitualment que vegis de forma diferent ara que entens la química que hi ha al darrere?",
+          "prompt": "Pensa en les bateries del teu telèfon, en els productes de neteja, en els medicaments que prens, en els aliments que consumeixes, en el CO₂ que el teu cos produïx en cada respiració. La química de les reaccions és en tot."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "La Química de la Vida: Bioquímica Fonamental",
+          "moduleEmoji": "🧬",
+          "concept": "Les reaccions químiques de la vida",
+          "text": "Tot el que has après sobre termodinàmica, cinètica i equilibri s'aplica directament a la bioquímica. El metabolisme és un conjunt de reaccions exotèrmiques i endotèrmiques acoblades: les reaccions de combustió dels nutrients (exotèrmiques) impulsen les reaccions de síntesi de molècules biológiques (endotèrmiques). L'ATP és la 'moneda' que acobla les dues. Els enzims son catalitzadors biológics que fan que reaccions molt desfavorables cinèticament passin a la temperatura del cos. El pH dels compartiments cel·lulars determina quines reaccions son possibles. La bioquímica és la termodinàmica i la cinètica aplicada a la vida."
+        }
+      ]
+    }
+  ]
+}

@@ -86,7 +86,7 @@ export default function Home() {
         )}
         <button
           className={`${styles.btn} ${hasActiveSession ? styles.btnGhost : styles.btnPrimary}`}
-          onClick={() => navigate('/modules')}
+          onClick={() => navigate('/areas')}
         >
           🗺️ Mapa de {theme.missionWord.toLowerCase()}s
         </button>
