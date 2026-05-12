@@ -35,6 +35,8 @@ const DEFAULT_STATE = {
     'module-20-economia-macro','module-21-economia-desigualtat',
     'module-23-economia-escoles','module-24-economia-globalitzacio','module-28-piketty',
     'module-26-economia-comportament','module-27-economia-jocs',
+    // Bloc: Química
+    'module-29-quimica','module-30-quimica-atoms','module-31-quimica-reaccions','module-32-quimica-vida',
   ],
   badges: [],
   srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }
@@ -44,7 +46,8 @@ const DEFAULT_STATE = {
     currentModuleId: null,
     currentItineraryId: null,
     currentLessonId: null,
-    currentStep: 0
+    currentStep: 0,
+    currentAreaId: null,
   }
 }
 
@@ -57,7 +60,7 @@ function mergeWithDefaults(saved) {
     completedLessons:     saved.completedLessons     || DEFAULT_STATE.completedLessons,
     completedModules:     saved.completedModules      || DEFAULT_STATE.completedModules,
     completedItineraries: saved.completedItineraries  || DEFAULT_STATE.completedItineraries,
-    unlockedModules:      saved.unlockedModules        || DEFAULT_STATE.unlockedModules,
+    unlockedModules:      [...new Set([...DEFAULT_STATE.unlockedModules, ...(saved.unlockedModules || [])])],
     badges:               saved.badges                 || DEFAULT_STATE.badges,
     srData:               saved.srData                 || DEFAULT_STATE.srData,
     srStreak:             saved.srStreak               ?? DEFAULT_STATE.srStreak,

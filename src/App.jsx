@@ -5,6 +5,7 @@ import PageTransition from './components/ui/PageTransition'
 import BadgeToast from './components/ui/BadgeToast'
 import Welcome from './screens/Welcome'
 import Home from './screens/Home'
+import AreaSelector from './screens/AreaSelector'
 import ModuleMap from './screens/ModuleMap'
 import ItinerarySelector from './screens/ItinerarySelector'
 import Lesson from './screens/Lesson'
@@ -24,6 +25,7 @@ function InnerApp() {
             : <PageTransition><Home /></PageTransition>
         } />
         <Route path="/home"       element={<PageTransition><Home /></PageTransition>} />
+        <Route path="/areas"      element={<PageTransition><AreaSelector /></PageTransition>} />
         <Route path="/modules"    element={<PageTransition><ModuleMap /></PageTransition>} />
         <Route path="/itinerary"  element={<PageTransition><ItinerarySelector /></PageTransition>} />
         <Route path="/lesson"     element={<PageTransition><Lesson /></PageTransition>} />

@@ -45,6 +45,11 @@ export const MODULE_REGISTRY = [
   { id: 'module-28-piketty',             phase: 2, order: 39, file: () => import('./modules/module-28-piketty.json') },
   { id: 'module-26-economia-comportament', phase: 2, order: 40, file: () => import('./modules/module-26-economia-comportament.json') },
   { id: 'module-27-economia-jocs',       phase: 2, order: 41, file: () => import('./modules/module-27-economia-jocs.json') },
+  // — Bloc: Química —
+  { id: 'module-29-quimica',            phase: 1, order: 42, file: () => import('./modules/module-29-quimica.json') },
+  { id: 'module-30-quimica-atoms',      phase: 2, order: 43, file: () => import('./modules/module-30-quimica-atoms.json') },
+  { id: 'module-31-quimica-reaccions',  phase: 2, order: 44, file: () => import('./modules/module-31-quimica-reaccions.json') },
+  { id: 'module-32-quimica-vida',       phase: 2, order: 45, file: () => import('./modules/module-32-quimica-vida.json') },
 ]
 
 export async function loadModule(moduleId) {
