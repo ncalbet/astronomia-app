@@ -1,0 +1,693 @@
+{
+  "id": "module-35-genetica",
+  "title": "Genètica i ADN",
+  "emoji": "🧬",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "codi",
+      "title": "El codi de la vida",
+      "icon": "🔬",
+      "description": "L'estructura del DNA, com es llegeix, com es copia i com es pot modificar",
+      "style": "Molecular · de l'estructura a la funció",
+      "lessons": [
+        {
+          "id": "gen-01",
+          "title": "La cursa per descobrir el DNA",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 25 d'abril de 1953, Watson i Crick van publicar un article de menys d'una pàgina a la revista Nature. Acabava amb la frase: 'No se'ns ha passat per alt que l'aparellament específic que hem postulat suggereix immediatament un possible mecanisme de còpia del material genètic.' Era la descripció de l'estructura del DNA. Un dels descobriments científics més importants del segle XX — i una de les histories de prioritat científica més controvertides."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1869",
+                  "title": "Miescher aïlla la 'nucleïna'",
+                  "text": "Friedrich Miescher extreu del nucli de leucòcits una substància àcida rica en fòsfor. No sap que és el material hereditari."
+                },
+                {
+                  "year": "1928",
+                  "title": "Experiment de Griffith: la transformació",
+                  "text": "Griffith mostra que bacteris morts poden transformar bacteris vius. Alguna 'substància transformadora' porta informació hereditària."
+                },
+                {
+                  "year": "1944",
+                  "title": "Avery, MacLeod i McCarthy: és el DNA",
+                  "text": "Demostren que la substància transformadora de Griffith és DNA, no proteïna. Molts científics es mostren escèptics."
+                },
+                {
+                  "year": "1950",
+                  "title": "Regles de Chargaff",
+                  "text": "Erwin Chargaff observa que en el DNA, A = T i G = C sempre. Una pista clau sobre l'estructura."
+                },
+                {
+                  "year": "1952",
+                  "title": "Foto 51 de Rosalind Franklin",
+                  "text": "Franklin obté la millor imatge de difracció de raigs X del DNA fins aleshores. Watson la veu sense permís. La seva contribució serà ignorada durant dècades."
+                },
+                {
+                  "year": "1953",
+                  "title": "Watson i Crick: la doble hèlix",
+                  "text": "Publiquen el model de doble hèlix. El 1962 reben el Nobel (Franklin havia mort el 1958; el Nobel no s'atorga pòstumament)."
+                }
+              ]
+            },
+            {
+              "type": "key-idea",
+              "text": "El DNA és el portador de la informació hereditària en tots els organismes cel·lulars. La seva estructura de doble hèlix —descoberta el 1953— és la base molecular de com la informació es copia, s'expressa i es transmet de generació en generació."
+            },
+            {
+              "type": "expandable",
+              "label": "El cas de Rosalind Franklin: ciència i injustícia",
+              "content": "Rosalind Franklin era una cristal·lògrafa excepcional que treballava al King's College de Londres. La seva imatge de difracció de raigs X del DNA ('Foto 51') mostrava clarament que el DNA era helicoïdal. Watson la va veure sense el seu coneixement, compartida pel seu col·lega Wilkins. La informació va ser clau per al model de Watson i Crick. Franklin va morir de càncer d'ovaris el 1958 als 37 anys, molt probablement a causa de l'exposició a la radiació dels seus experiments. El Nobel de 1962 va als tres homes. El nom de Franklin gairebé no apareix en les publicacions originals. El cas és avui un emblema de la discriminació de gènere en la ciència del segle XX."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-01-01",
+              "style": "multiple-choice",
+              "question": "Abans de Watson i Crick, molts científics creien que les proteïnes (no el DNA) eren el material hereditari. Per qué era una hipòtesi raonable?",
+              "options": [
+                "Perquè les proteïnes son més grans que el DNA i per tant poden emmagatzemar més informació",
+                "Perquè les proteïnes son molt diverses (20 aminoàcids) mentre que el DNA sembla monòton (sols 4 bases), i semblava improbable que 4 lletres poguessin codificar tota la complexitat de la vida",
+                "Perquè les proteïnes son més estables químicament que el DNA",
+                "Perquè els experiments de Mendel havien demostrat que l'herència funcionava a través de proteïnes"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les proteïnes tenen 20 aminoàcids possibles en cada posició: una gran diversitat estructural. El DNA sembla monotonament simple: sols 4 bases (A, T, G, C). Semblava difícil que 4 lletres poguessin codificar tota la complexitat biològica. El codi genètic va mostrar com fer-ho: les combinacions de 3 bases formen 64 codons possibles, més que suficients per codificar 20 aminoàcids.",
+              "feedbackWrong": "La raó principal era la aparent simplicitat del DNA (4 bases vs. 20 aminoàcids) que feia semblar improbable que pogués contenir tota la informació hereditària. El codi genètic triplet (3 bases = 1 aminoàcid) va resoldre el problema: 4³ = 64 combinacions, suficients per codificar 20 aminoàcids."
+            },
+            {
+              "type": "debate",
+              "question": "Hauria Watson de reconèixer públicament que el model de la doble hèlix no hauria estat possible sense la Foto 51 de Franklin, accedida sense permís?",
+              "positionA": {
+                "label": "Reconeixement obligat",
+                "argument": "L'ús de dades d'una investigadora sense el seu consentiment és una violació ètica i científica. La ciència es construeix sobre el reconeixement honest de les contribucions. No rectificar és perpetuar una injustícia documentada."
+              },
+              "positionB": {
+                "label": "El context importa",
+                "argument": "La ciència de l'època funcionava amb estàndards molt diferents de col·laboració i atribució. Watson i Crick van usar moltes fonts. Reescriure la historia amb els estàndards actuals és un anacronisme que no canvia els fets científics."
+              },
+              "reflection": "Com haurien de gestionar les institucions científiques les injustícies historials documentades?",
+              "context": "Watson ha fet declaracions contradictòries al llarg dels anys. El King's College de Londres va retre homenatge a Franklin el 2020. La NASA va batejar el seu pròxim rover de Mart inicialment com 'Rosalind Franklin'."
+            }
+          ]
+        },
+        {
+          "id": "gen-02",
+          "title": "L'estructura del DNA",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si estiréssim tot el DNA d'una sola cèl·lula humana i el posem en línia, mediria uns 2 metres. Totes les cèl·lules del cos humà (uns 37 bilions) contenen exactament el mateix DNA. I tot aquest DNA s'embala en un nucli de 6 micròmetres de diàmetre — un empaquetament d'enginyeria molecular que cap tecnologia humana ha pogut replicar."
+            },
+            {
+              "type": "key-idea",
+              "text": "El DNA és una doble hèlix formada per dues cadenes antiparal·leles de nucleòtids. Cada nucleòtid té un sucre (desoxiribosa), un grup fosfat i una base nitrogenada. Les dues cadenes s'uneixen per ponts d'hidrogen entre parelles de bases complementàries: A sempre amb T, G sempre amb C."
+            },
+            {
+              "type": "expandable",
+              "label": "Com s'empaqueta 2 metres de DNA en 6 micròmetres",
+              "content": "El DNA no flota lliure al nucli: s'embolica al voltant de proteïnes anomenades histones, formant estructures com collars de perles (nucleosomes). Aquests nuclesomes es compacten en fibres de cromatina, que al seu torn es pleguen en estructures d'ordre superior. Durant la divisió cel·lular, la cromatina s'organitza en cromosomes visibles al microscopi. El nivell de compactació és enorme: el DNA humà (2 metres) cap en un nucli 10.000 vegades més petit que un punt tipogràfic. La regulació de quin DNA és accessible en cada moment és ella mateixa una forma de control de l'expressió gènica — l'epigenètica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-02-01",
+              "style": "multiple-choice",
+              "question": "Una cadena de DNA té la seqüència 5'-ATCGTA-3'. Quina és la seqüència de la cadena complementària?",
+              "options": [
+                "5'-ATCGTA-3'",
+                "5'-TAGCAT-3'",
+                "3'-TAGCAT-5' (equivalent: 5'-TACGAT-3')",
+                "5'-UAGCAU-3'"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. La cadena complementària s'uneix antiparal·lelament (3'→5' s'uneix a 5'→3') amb parelles A-T i G-C. A la cadena original (5'-ATCGTA-3'), cada base s'aparella: A→T, T→A, C→G, G→C, T→A, A→T. La complementària en direcció 3'→5' és TAGCAT, que en convenció 5'→3' s'escriu TACGAT. L'opció D és RNA (U en lloc de T).",
+              "feedbackWrong": "Aplica les regles de complementarietat: A s'aparella amb T, G s'aparella amb C. I recorda l'antiparal·lelisme: si la cadena original va de 5' a 3', la complementària va de 3' a 5'. 5'-ATCGTA-3' → complementària 3'-TAGCAT-5', que en convenció estàndard 5'→3' és TACGAT."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-02-02",
+              "style": "true-false",
+              "question": "Totes les cèl·lules del cos humà (neurones, hepatòcits, cèl·lules musculars) contenen exactament el mateix DNA.",
+              "correct": true,
+              "feedbackCorrect": "Cert (amb petites excepcions). Totes les cèl·lules somàtiques contenen una còpia completa del genoma — la mateixa informació que tenia el zigot original. El que les fa diferents no és el DNA que contenen sinó quins gens expressen. Una neurona i un hepatòcit llegeixen parts distintes del mateix manual d'instruccions. Excepcions: els eritròcits (glòbuls vermells) no tenen nucli; els limfòcits fan reordenaments genètics específics.",
+              "feedbackWrong": "És cert: totes les cèl·lules somàtiques d'un organisme contenen el mateix DNA (el genoma complet). La diferenciació cel·lular no es basa en tenir DNA diferent, sinó en expressar gens distints gràcies a mecanismes de regulació epigenètica."
+            },
+            {
+              "type": "misconception",
+              "belief": "El DNA és una molècula fràgil i delicada que es destrueix fàcilment.",
+              "reality": "El DNA és notablement estable en condicions adequades. S'han seqüenciat genomes de neandertals de 40.000 anys, d'un cavall de 700.000 anys, i fins i tot s'han recuperat fragments de DNA de mamuts de milions d'anys en permafrost. A temperatura ambient i amb humitat, es degrada ràpidament — però en fred i sec, es pot conservar durant centenars de milers d'anys.",
+              "why": "La biologia cel·lular mostra el DNA sempre envoltat de sistemes de reparació i protecció, que suggereix fragilitat. Però la fragilitat biològica (requeriex manteniment continu) és diferent de la fragilitat química en condicions de conservació adequades."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Evolució i Selecció Natural",
+              "moduleEmoji": "🦎",
+              "concept": "El DNA com a registre evolutiu",
+              "text": "La seqüència del DNA no és sols un pla de construcció de proteïnes: és un arxiu de la historia evolutiva de l'espècie. Comparant les seqüències de DNA entre espècies, podem reconstruir l'arbre de la vida amb una precisió que el registre fòssil no pot igualar. Les seqüències de DNA neandertal i sapiens que mostren hibridació son un exemple directe d'aquest poder."
+            }
+          ]
+        },
+        {
+          "id": "gen-03",
+          "title": "De l'ADN a la proteïna: el dogma central",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El DNA no fa res per si sol. És un arxiu, un pla de construcció. Per ser útil, ha de ser llegit i traduït en proteïnes — les molècules que fan pràcticament tot el treball de la cèl·lula. El camí de DNA a proteïna és el procés molecular central de tota la biologia."
+            },
+            {
+              "type": "key-idea",
+              "text": "El dogma central de la biologia molecular descriu el flux d'informació: DNA → RNA → Proteïna. La transcripció copia un gen del DNA a una molècula d'RNA missatger. La traducció llegeix l'RNA missatger i sintetitza la proteïna corresponent, de tres en tres bases (codons) que especifiquen cada aminoàcid."
+            },
+            {
+              "type": "expandable",
+              "label": "El codi genètic: 4 lletres per escriure 20 aminoàcids",
+              "content": "El codi genètic usa codons de tres bases: 4³ = 64 combinacions per codificar 20 aminoàcids estàndard (i senyals d'inici i stop). La majoria dels aminoàcids son codificats per múltiples codons (desequilibri del codi): per exemple, la leucina té 6 codons possibles. Això dona robustesa: una mutació en la tercera posició d'un codó sovint no canvia l'aminoàcid (mutació sinònima). El codi genètic és gairebé universal en tots els organismes — des de bacteris fins a humans — el que és una prova poderosa de l'origen comú de tota la vida."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-03-01",
+              "style": "multiple-choice",
+              "question": "Un gen conté la seqüència de DNA: 5'-ATG-CAT-TTT-TAA-3'. Quants aminoàcids tindrà la proteïna codificada (sense comptar el codon d'inici si se'n fa un aminoàcid)?",
+              "options": [
+                "4 aminoàcids",
+                "3 aminoàcids",
+                "2 aminoàcids",
+                "12 aminoàcids"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. La seqüència té 4 codons: ATG (metionina / inici), CAT (histidina), TTT (fenilalanina), TAA (codon de stop — no codifica cap aminoàcid). La proteïna resultant té 3 aminoàcids: Met-His-Phe. El codon de stop senyalitza el final de la traducció però no incorpora cap aminoàcid.",
+              "feedbackWrong": "Compta els codons (grups de 3 bases): ATG-CAT-TTT-TAA. Quatre codons. Però TAA és un codon de stop: senyalitza el final de la proteïna però no codifica cap aminoàcid. La proteïna té 3 aminoàcids."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-03-02",
+              "style": "detect-error",
+              "statement": "El dogma central de la biologia molecular estableix que la informació flueix sempre de DNA a RNA a Proteïna, i mai en l'altra direcció.",
+              "isCorrect": false,
+              "feedbackExplanation": "El dogma central de Crick (1958) va ser parcialment revisat. Els retrovirus (com el VIH) usen una enzima, la transcriptasa inversa, per copiar el seu RNA en DNA i inserir-lo en el genoma de la cèl·lula hoste. Això és un flux RNA → DNA. La informació que es considera irreversible és la que va de Proteïna cap a àcids nucleics: les proteïnes no dicten seqüències de DNA ni RNA. El dogma es pot reformular com: la informació de seqüència mai va de Proteïna a DNA o RNA."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-gen-03-01",
+              "question": "El genoma humà té uns 20.000 gens, però el gusano C. elegans (un nematode de 1 mm) en té ~19.000. Humà i gusano, gairebé la mateixa quantitat de gens. Com és possible que la complexitat sigui tan diferent?",
+              "options": [
+                "El genoma humà té gens molt més llargs i complexos que codifiquen proteïnes més sofisticades",
+                "El nombre de gens no és el que determina la complexitat: la regulació, el splicing alternatiu i les interaccions entre gens son igual o més importants",
+                "En realitat els humans tenim molts més gens: els 20.000 son una estimació conservadora que s'actualitzarà"
+              ],
+              "correct": 1,
+              "explanation": "La paradoxa C del valor C ('per qué organismes complexos no tenen més gens?') va desconcertar la biologia. La resolució és que la complexitat no resideix principalment en el nombre de gens, sinó en: (1) el splicing alternatiu, pel qual un sol gen pot produir moltes proteïnes distintes combinant exons de manera diferent; (2) la regulació gènica, molt més elaborada en humans; (3) les xarxes d'interacció entre gens i proteïnes; (4) el RNA no codificant, que regula l'expressió. El catàleg de gens és com el llistat d'ingredients — la recepta és una altra cosa."
+            }
+          ]
+        },
+        {
+          "id": "gen-04",
+          "title": "Replicació i mutació",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Cada vegada que una cèl·lula es divideix, ha de copiar uns 6.000 milions de bases de DNA. Ho fa amb una fidelitat extraordinaria: una errada per cada 10.000 milions de bases copiades. Per comparació, un copista humà que copies mil pàgines per segon durant 30 anys cometrà un sol error. I tot i així, els errors que sí es produeixen son el motor de l'evolució."
+            },
+            {
+              "type": "key-idea",
+              "text": "La replicació del DNA és semiconservativa: cada cadena original serveix de motlle per a una cadena nova. L'enzim principal és la DNA polimerasa, que llegeix el motlle i afegeix els nucleòtids complementaris. La fidelitat és altíssima gràcies a mecanismes de correcció d'errors — però no perfecta. Els errors que persisteixen son mutacions."
+            },
+            {
+              "type": "expandable",
+              "label": "Tipus de mutació i les seves conseqüències",
+              "content": "Les mutacions es classifiquen per mecanisme i efecte. Les mutacions puntuals canvien una sola base: poden ser sinònimes (el nou codó codifica el mateix aminoàcid), missense (codifica un aminoàcid diferent) o nonsense (creen un codó de stop prematur). Les insercions i delecions afegeixen o eliminen bases: si no son múltiples de tres, desplacen el marc de lectura sencer i solen ser molt danyines. Les mutacions cromosòmiques afecten segments sencers: inversions, translocacions, duplicacions o delecions de fragments grans. Les mutacions de la línia germinal (en òvuls o espermatozoides) son heritables; les somàtiques (en altres cèl·lules) no, però poden causar càncer si afecten gens reguladors del cicle cel·lular."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-04-01",
+              "style": "multiple-choice",
+              "question": "Una mutació elimina una sola base en mig d'un gen. Quin efecte és més probable?",
+              "options": [
+                "La proteïna resultant tindrà un sol aminoàcid canviat",
+                "El gen deixarà de transcriure's completament",
+                "Tota la seqüència de codons des del punt de la deleció es desplaça, produint una proteïna completament diferent i probablement no funcional",
+                "La mutació es corregirà automàticament pels mecanismes de reparació"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Eliminar una base causa un desplaçament del marc de lectura (frameshift): tots els codons des del punt de la mutació endavant es llegiran de manera diferent. La proteïna resultant tindrà una seqüència d'aminoàcids completament distinta a partir d'aquell punt i probablement serà truncada per un codon de stop prematur. Les mutacions de desplaçament de marc solen ser molt danyines.",
+              "feedbackWrong": "Una deleció d'una sola base no és una mutació missense (que canvia un aminoàcid): desplaça tot el marc de lectura. Tots els codons des del punt de la deleció es llegiran de manera errònia. Els mecanismes de reparació no corregeixen totes les mutacions — per això existeix el càncer."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-04-02",
+              "style": "true-false",
+              "question": "El tabac causa mutacions en les cèl·lules pulmonars. Aquestes mutacions es poden transmetre als fills del fumador.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Les mutacions induïdes pel tabac afecten les cèl·lules somàtiques del pulmó (no les cèl·lules germinals). Les mutacions somàtiques no s'hereten: desapareixen amb l'individu. El que sí pot heretar-se és una predisposició genètica (variants genètiques en la línia germinal que augmenten la susceptibilitat al càncer), però les mutacions concretes del pulmó d'un fumador no passen als seus fills.",
+              "feedbackWrong": "Les mutacions somàtiques (en cèl·lules que no son els gàmetes) no s'hereten. Perquè una mutació sigui heritable ha d'estar present en els òvuls o els espermatozoides. Les mutacions pulmonars del fumador desapareixen amb l'individu. Això és una diferència fonamental amb el lamarckisme: els canvis adquirits durant la vida no es transmeten."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Evolució i Selecció Natural",
+              "moduleEmoji": "🦎",
+              "concept": "Les mutacions com a font de variació per a l'evolució",
+              "text": "Al mòdul d'Evolució hem vist que les mutacions son la matèria primera de la variació evolutiva. Ara tenim el mecanisme molecular: errors de replicació del DNA, danys per agents mutàgens, i reordenaments cromosòmics. La selecció natural actua sobre la variació que produeix la maquinària molecular de la replicació."
+            }
+          ]
+        },
+        {
+          "id": "gen-05",
+          "title": "Regulació gènica: no tots els gens s'expressen sempre",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Una neurona i un hepatòcit contenen exactament el mateix DNA. Però son radicalment distints en forma, funció i proteïnes que produeixen. La diferència no és el que contenen el DNA: és quines parts del DNA llegeixen. La regulació gènica — el control de quins gens s'expressen on i quan — és tan important com la seqüència genètica en si."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'expressió gènica és regulada per proteïnes (factors de transcripció) que s'uneixen a regions reguladores del DNA (promotors, potenciadors) i activen o reprimeixen la transcripció. La regulació és específica de cel·lula i de moment del desenvolupament, i permet que un sol genoma generi centenars de tipus cel·lulars distints."
+            },
+            {
+              "type": "expandable",
+              "label": "Epigenètica: regulació sense canviar el DNA",
+              "content": "L'epigenètica estudia els canvis en l'expressió gènica que no impliquen canvis en la seqüència del DNA. Els principals mecanismes son: la metilació del DNA (afegir un grup metil a la citosina, que sol silenciar el gen), la modificació de les histones (afegir o treure grups acetil o metil a les histones canvia com de compactat és el DNA i per tant com d'accessible és), i el RNA no codificant (molècules d'RNA que regulen l'expressió sense codificar proteïnes). Alguns canvis epigenètics poden persistir diverses generacions en organismes simples, però en humans el genoma s'hi reprograma quasi completament en la fertilització i el desenvolupament primerenc."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'epigenètica demostra que els trets adquirits durant la vida es transmeten als fills, com proposava Lamarck.",
+              "reality": "Alguns canvis epigenètics sí poden persistir una o dues generacions en organismes model (ratolins), però en humans el restabliment epigenètic durant la gametogènesi i l'embriogènesi esborra pràcticament tot. L'epigenètica no rehabilita el lamarckisme: els mecanismes son molt més limitats i específics del que Lamarck proposava, i la transmissió intergeneracional epigenètica en humans és l'excepció, no la regla.",
+              "why": "L'epigenètica és un camp nou i emocionant que ha rebut molta cobertura mediàtica. Alguns articles de divulgació han exagerat la transmissió epigenètica intergeneracional, interpretant resultats en ratolins com a aplicables directament a humans."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-05-01",
+              "style": "multiple-choice",
+              "question": "Durant el desenvolupament embrionari humà, les cèl·lules mare embrionàries es diferencien en centenars de tipus cel·lulars distints. Quin és el mecanisme principal que explica com les mateixes cèl·lules donen lloc a tipus tan distints?",
+              "options": [
+                "Cada tipus cel·lular perd el DNA dels gens que no necessita",
+                "Les cèl·lules acumulen mutacions distintes que les fan especialitzar",
+                "Senyals químiques del microentorn activen o reprimeixen l'expressió de gens específics en cada cèl·lula",
+                "El DNA de cada cèl·lula es reordena per produir gens nous específics del tipus cel·lular"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La diferenciació cel·lular no implica perdre ni modificar el DNA: totes les cèl·lules conserven el genoma complet. El que canvia és quins gens s'expressen. Senyals químiques del microentorn (morfògens, factors de creixement, contacte cel·lular) activen o reprimeixen factors de transcripció específics que determinen el programa gènic de cada tipus cel·lular.",
+              "feedbackWrong": "Les cèl·lules no perden DNA en diferenciar-se: ho va demostrar el fet que un nucli de cèl·lula somàtica adulta pot reprogramar un òvul enucleado per crear un animal clonat (experiment de Wilmut amb la ovella Dolly, 1996). El DNA és complet en totes les cèl·lules somàtiques."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-gen-05-01",
+              "question": "La tecnologia de cèl·lules mare induïdes (iPSC) permet reprogramar una cèl·lula adulta (per exemple, de pell) fins a un estat pluripotent similar a les cèl·lules mare embrionàries. Té implicacions ètiques?",
+              "options": [
+                "No: si no s'usen embrions, no hi ha problema ètic",
+                "Sí: la creació de cèl·lules pluripotents a partir de cèl·lules adultes podria portar a la clonació humana o a la creació de gàmetes artificials",
+                "Depèn de l'ús: la medicina regenerativa té un benefici clar; la clonació reproductiva o la creació de gàmetes artificials plantegen dilemes molt més complexos"
+              ],
+              "correct": 2,
+              "explanation": "Les iPSC van guanyar el Nobel de 2012 per a Yamanaka. El seu potencial per a la medicina regenerativa (créixer teixit per trasplantament sense rebuig immunològic, modelar malalties en laboratori) és enorme. Però la mateixa tecnologia podria, en principi, crear gàmetes artificials a partir de cèl·lules de pell, el que permetria reproducció sense la necessitat d'òvuls o espermatozoides naturals — amb implicacions que van des de la reproducció per persones infèrtils fins a scenarios de clonació. Les regulacions actuals prohibeixen aquestes aplicacions en la majoria de països, però el marc legal i ètic s'actualitza més lentament que la tecnologia."
+            }
+          ]
+        },
+        {
+          "id": "gen-06",
+          "title": "CRISPR i el futur de la genètica",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2012, Jennifer Doudna i Emmanuelle Charpentier van publicar un article demostrant que un sistema bacterià de defensa immunitària podia ser redirigit per tallar qualsevol seqüència de DNA amb precisió molecular. CRISPR-Cas9 va democratitzar l'edició genètica: el que abans requeria anys i milions de dòlars ara es pot fer en setmanes en qualsevol laboratori ben equipat. Nobel de Química el 2020."
+            },
+            {
+              "type": "key-idea",
+              "text": "CRISPR-Cas9 és un sistema d'edició genètica que usa una molècula d'RNA guia per conduir la proteïna Cas9 a una seqüència específica del DNA, on fa un tall de doble cadena. La cèl·lula repara el tall — de manera imprecisa (introduint errors) o inserint una nova seqüència proporcionada. Permet desactivar gens, corregir mutacions, o inserir seqüències noves."
+            },
+            {
+              "type": "expandable",
+              "label": "Aplicacions actuals i en investigació",
+              "content": "CRISPR s'usa ja en medicina: el 2023 es va aprovar el primer tractament basat en CRISPR per a l'anèmia falciforme i la beta-talassèmia. En investigació, permet crear models animals de malalties humanes en setmanes, fer cribratge de gens en cèl·lules canceroses, i estudiar la funció de gens específics. En agricultura, s'han creat cultius resistents a malalties, tolerants a la sequera, o amb millores nutricionals (arroz daurat). En biotecnologia, s'han editat porcs perquè els seus òrgans siguin compatibles per al trasplantament a humans. En virologia, hi ha projectes per eliminar retrovirus endògens del genoma de sucs."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-06-01",
+              "style": "detect-error",
+              "statement": "CRISPR permet editar gens amb tanta precisió que és impossible que produeixi efectes no desitjats en altres parts del genoma.",
+              "isCorrect": false,
+              "feedbackExplanation": "CRISPR és molt precís, però no perfecte. Les edicions fora de diana (off-target effects) — talls en llocs del genoma similars però no idèntics a la seqüència objectiu — son un problema real i actiu d'investigació. La probabilitat depèn de la seqüència guia i del sistema usat. Les generacions successives de la tecnologia (CRISPR 'base editors', prime editing) redueixen els efectes fora de diana, però cap eina d'edició genètica actual és absolutament específica. Per això els protocols clínics exigeixen seqüenciació completa del genoma per detectar edicions no desitjades."
+            },
+            {
+              "type": "debate",
+              "question": "L'edició del genoma d'embrions humans per eliminar malalties hereditàries greus hauria d'estar permesa?",
+              "positionA": {
+                "label": "Permetre amb regulació",
+                "argument": "Si podem eliminar malalties devastadores com la corea de Huntington o la fibrosi quística en línies germinals, és èticament difícil justificar no fer-ho. El patiment evitable que no evitem és una responsabilitat moral. Una regulació estricta pot prevenir usos abusivament eugenèsics."
+              },
+              "positionB": {
+                "label": "Prohibir l'edició germinal",
+                "argument": "Modificar el genoma d'un embrió és prendre decisions permanents per a una persona que no pot consentir-les, i per a tots els seus descendents. El risc d'efectes fora de diana desconeguts a llarg termini és inacceptable. I la frontera entre eliminar malalties i seleccionar trets 'desitjables' és difusa."
+              },
+              "reflection": "Qui ha de decidir quines variants genètiques son 'malalties' que cal eliminar i quines son 'diversitat'?",
+              "context": "El 2018, He Jiankui va crear els primers nadons editats genèticament (per resistència al VIH) sense el consens de la comunitat científica. Va ser condemnat a presó. La majoria de països prohibeix l'edició germinal clínica, però el debat científic i ètic continua."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Ciència i responsabilitat: quan la capacitat supera el consens ètic",
+              "text": "El cas de He Jiankui és un exemple paradigmàtic del problema que la filosofia de la ciència anomena 'imperatiu tecnològic': la idea que si podem fer alguna cosa, la farem inevitablement. La communitat científica global va reaccionar amb condemna unànime — un exemple de com la ciència s'autoregula, i dels límits d'aquesta autoregulació."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "herencia",
+      "title": "L'herència i els seus mecanismes",
+      "icon": "👨‍👩‍👧",
+      "description": "De Mendel a la genètica humana: com es transmeten els trets de pares a fills",
+      "style": "Clàssic · dels experiments a la comprensió dels mecanismes",
+      "lessons": [
+        {
+          "id": "her-01",
+          "title": "Mendel i els seus pèsols",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Entre 1856 i 1863, un monjo agustí a Brünn (actual Brno, República Txeca) va cultivar i analitzar 28.000 plantes de pèsol. Gregor Mendel no sabia res d'àtoms, ni de DNA, ni de cromosomes — no s'havia descobert cap d'aquestes coses. I tot i així, va deduir les regles bàsiques de l'herència amb una precisió estadística que va trigar 35 anys a ser reconeguda."
+            },
+            {
+              "type": "key-idea",
+              "text": "Mendel va triar el pèsol perquè tenia trets discrets i clarament diferenciables (llavor rodona o arrugada, flor violeta o blanca, tija alta o baixa). Croant línies pures i analitzant les proporcions estadístiques de les descendències, va inferir que cada tret és controlat per parelles de 'factors' heretables, un de cada progenitor."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué Mendel va trigar tant a ser reconegut?",
+              "content": "Mendel va publicar els seus resultats el 1866 en la revista de la Societat d'Historia Natural de Brünn. La va enviar a les principals figures científiques de l'Europa. Charles Darwin en tenia una còpia a la seva biblioteca — sense les pàgines tallades (no la va llegir mai). El problema era contextual: el 1866, el debat científic era sobre si l'evolució era vertadera, no sobre els mecanismes d'herència. La herència es considerava un fenomen de barreja contínua, no de factors discrets. Les matemàtiques de Mendel eren inusuals per a la biologia de l'època. I el seu treball estava publicat en una revista local d'impacte mínim. El 1900, tres científics van redescobrir les seves lleis de manera independent i van buscar publicacions anteriors — i van trobar Mendel, mort 16 anys abans."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1856-1863",
+                  "title": "Mendel experimenta amb pèsols",
+                  "text": "28.000 plantes, 8 anys de feina, anàlisi estadística meticulosa."
+                },
+                {
+                  "year": "1866",
+                  "title": "Publicació ignorada",
+                  "text": "Publica 'Experiments sobre hibridació en plantes' en una revista local. Cap resposta de la comunitat científica."
+                },
+                {
+                  "year": "1884",
+                  "title": "Mort de Mendel",
+                  "text": "Mor sense saber que el seu treball canviarà la biologia. Als seus darrers anys era abocat a disputes administratives com abat."
+                },
+                {
+                  "year": "1900",
+                  "title": "Redescoberta per De Vries, Correns i Tschermak",
+                  "text": "Tres científics arriben independentment a les mateixes conclusions i troben el treball de Mendel. La genètica mendeliana neix."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-her01-01",
+              "style": "detect-error",
+              "statement": "Mendel va descobrir les lleis de l'herència gràcies a la seva formació en matemàtiques i estadística, una disciplina que era habitual entre els biòlegs del seu temps.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha dos errors. Primer, l'aplicació d'estadística a la biologia era inusual en el temps de Mendel — de fet, la part estadística dels seus resultats va ser una de les raons per les quals va ser ignorat (era 'massa matemàtic' per als biòlegs de l'època). Segon, Mendel tenia formació en física i matemàtiques de la Universitat de Viena — però no era el perfil habitual d'un biòleg de l'època, que tendien a ser naturalistes descriptius."
+            },
+            {
+              "type": "quote",
+              "text": "El meu temps vindrà.",
+              "author": "Gregor Mendel (atribuït)"
+            }
+          ]
+        },
+        {
+          "id": "her-02",
+          "title": "Les lleis de Mendel",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Mendel va creuar plantes de llavor groga (línia pura) amb plantes de llavor verda (línia pura). Tots els fills de la primera generació (F1) eren grocs. Semblava que el verd havia desaparegut. Però quan va creuar els fills entre ells, la segona generació (F2) era 3/4 groca i 1/4 verda. El verd havia tornat. I la proporció era exactament 3:1 en tots els trets que estudiava. Alguna cosa molt precisa passava."
+            },
+            {
+              "type": "key-idea",
+              "text": "Primera llei (segregació): els dos al·lels d'un gen es separen durant la formació dels gàmetes, de manera que cada gàmeta porta un sol al·lel. Segona llei (assortiment independent): els al·lels de gens distints s'hereten independentment (si estan en cromosomes distints). El fenotip dominant s'expressa quan almenys un al·lel dominant és present."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la proporció 3:1 i no una altra?",
+              "content": "Si un individu heterozigot (Aa) produeix gàmetes, la meitat portaran l'al·lel A i la meitat l'al·lel a. En unir dos heterozigots, les combinacions possibles son: AA (1/4), Aa (2/4), aA (2/4 — equivalent a Aa), aa (1/4). Com que A és dominant, AA i Aa mostren el fenotip dominant. Sols aa mostra el fenotip recessiu. Resultat: 3 dominants : 1 recessiu. La proporció 3:1 en F2 va ser la clau estadística que va permetre a Mendel deduir que els factors heretables son discrets i que cada individu en porta dos."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-her02-01",
+              "style": "multiple-choice",
+              "question": "Dos individus heterozigots per al color dels ulls (Mm) es reprodueixen, on M (marro) és dominant sobre m (blau). Quina és la probabilitat que un fill tingui ulls blaus?",
+              "options": [
+                "0% (impossible si els dos progenitors tenen ulls marrons)",
+                "25%",
+                "50%",
+                "75%"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Creuar Mm × Mm dona: MM (1/4), Mm (2/4), mm (1/4). Sols mm (ulls blaus) representa 1/4 = 25%. El fenotip marro (MM o Mm) és 3/4. Nota: la genètica real del color d'ulls és poligènica i més complexa que aquest exemple didàctic.",
+              "feedbackWrong": "Construeix el quadrat de Punnett. Mm × Mm dona quatre combinacions iguals de probabilitat: MM, Mm, mM, mm. Sols mm mostra ulls blaus = 1 de cada 4 = 25%. Els progenitors tenen ulls marrons però son portadors de l'al·lel blau — i 1/4 dels fills el manifesta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-her02-02",
+              "style": "true-false",
+              "question": "Dos progenitors amb ulls marrons poden tenir un fill amb ulls blaus.",
+              "correct": true,
+              "feedbackCorrect": "Cert, si tots dos progenitors son heterozigots (Mm). Cadascun porta l'al·lel recessiu per als ulls blaus però no el manifesta. Quan tots dos transmeten l'al·lel m, el fill (mm) tindrà ulls blaus. Casos aparentment 'impossibles' d'herència (fills amb un tret que cap progenitor mostra) son possibles si els progenitors son portadors d'un al·lel recessiu.",
+              "feedbackWrong": "Sí és possible. Si tots dos progenitors son Mm (marrons però portadors de l'al·lel blau), el 25% dels fills seran mm i tindran ulls blaus. La genètica real del color d'ulls és més complexa, però el principi de portadors d'al·lels recessius s'aplica a moltes malalties hereditàries."
+            },
+            {
+              "type": "misconception",
+              "belief": "Un tret recessiu 'salta' generacions: desapareix durant una generació i reapareix a la següent.",
+              "reality": "Un al·lel recessiu no 'desapareix': simplement no s'expressa en individus heterozigots que porten l'al·lel dominant. Es pot mantenir ocult en portadors durant tantes generacions com es vulgui i reaparèixer quan dos portadors es reprodueixin. Les generacions no 'salten' — la proporció estadística sempre és la mateixa.",
+              "why": "El salt generacional és un efecte estadístic que sembla màgic: dos progenitors sans (portadors) produeixen fills malalts. La intuïció de 'saltar' és una descripció fenomenològica correcta però mecanísticament enganyosa."
+            }
+          ]
+        },
+        {
+          "id": "her-03",
+          "title": "Més enllà de Mendel: la realitat és més complexa",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Les lleis de Mendel son elegants i correctes — però descriuen el cas més simple. La majoria de trets genètics reals no segueixen un patró simple de dominant-recessiu. La genètica del segle XX va anar descobrint tota una riquesa de mecanismes que Mendel no havia pogut veure amb els seus set trets del pèsol."
+            },
+            {
+              "type": "key-idea",
+              "text": "Molts trets no segueixen la dominància simple: la dominància incompleta produeix un fenotip intermedi en heterozigots; la codominància fa que tots dos al·lels s'expressin simultàniament; els gens poligènics (molts gens que afecten el mateix tret) produeixen variació contínua; la pleiotropia fa que un sol gen afecti múltiples trets."
+            },
+            {
+              "type": "comparison",
+              "title": "Mendelisme simple vs. casos complexos",
+              "labelA": "Dominància mendeliana simple",
+              "labelB": "Variacions del patró",
+              "items": [
+                {
+                  "label": "Heterozigot",
+                  "a": "Idèntic al dominant (AA = Aa en fenotip)",
+                  "b": "Dominància incompleta: fenotip intermedi (flors rosa en lloc de roges o blanques)"
+                },
+                {
+                  "label": "Expressió dels al·lels",
+                  "a": "El recessiu emmudeix en presència del dominant",
+                  "b": "Codominància: tots dos al·lels s'expressen (grup sanguini AB)"
+                },
+                {
+                  "label": "Nombre de gens",
+                  "a": "Un gen → un tret",
+                  "b": "Poligènia: l'alçada, el color de pell i la intel·ligència depenen de centenars de gens"
+                },
+                {
+                  "label": "Efectes d'un gen",
+                  "a": "Un gen → un sol efecte",
+                  "b": "Pleiotropia: el gen FBN1 mutat causa sindrome de Marfan (afecta teixit connectiu, ulls i cor)"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-her03-01",
+              "style": "multiple-choice",
+              "question": "Dues flors de boca de drac (Antirrhinum) de color vermell pur (RR) i blanc pur (rr) es creuen. Tots els fills (F1) son de color rosa. Quin mecanisme explica millor aquest resultat?",
+              "options": [
+                "Dominància incompleta: cap al·lel és completament dominant, i el heterozigot (Rr) mostra un fenotip intermedi",
+                "Codominància: els dos al·lels s'expressen, barrejant el vermell i el blanc",
+                "Mutació nova en la F1 que produeix color rosa",
+                "El color rosa és en realitat dominant sobre vermell i blanc"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. La dominància incompleta produeix un fenotip intermedi en heterozigots. En creuar F1 (Rr) × F1 (Rr) s'obté F2: 1 RR (vermell) : 2 Rr (rosa) : 1 rr (blanc) — una proporció 1:2:1 en fenotip, diferent del 3:1 mendelià. És una de les primeres extensions del mendelisme simple descobertes al segle XX.",
+              "feedbackWrong": "La codominància produiria expressió simultània dels dos al·lels — en el cas de les flors seria pètals amb zones vermelles i zones blanques, no rosa uniforme. La dominància incompleta produeix un fenotip genuïnament intermedi en heterozigots."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué l'alçada humana no segueix Mendel",
+              "content": "L'alçada humana és un tret poligènic: estudis genòmics han identificat més de 10.000 variants genètiques que en conjunt expliquen el 40-50% de la variació en alçada. Cada variant individual té un efecte molt petit (fraccions de mil·límetre). La distribució resultant és una corba normal (gaussiana) — molt diferent de les proporcions discretes de Mendel. A més, l'alçada té un component ambiental important: la nutrició durant el creixement pot modificar l'alçada molt per damunt o per sota del que el genoma 'prediu'. La genètica de trets poligènics és el domini de la genètica quantitativa i de l'estadística, no de les proporcions simples."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-gen-her03-01",
+              "question": "La lligació gènica (dos gens situats en el mateix cromosoma tendeixen a heretar-se junts) viola la segona llei de Mendel (assortiment independent). Invalida Mendel?",
+              "options": [
+                "Sí: si les lleis no son universals, no son lleis",
+                "No: les lleis de Mendel descriuen el cas de gens en cromosomes distints (o prou separats). La lligació no invalida, sinó que amplia el marc mendelià",
+                "Depèn: si la majoria de gens estàn lligats, Mendel s'equivocava; si la minoria, era essencialment correcte"
+              ],
+              "correct": 1,
+              "explanation": "Les 'lleis' en biologia rarament son absolutes — son generalitzacions amb condicions d'aplicabilitat. La segunda llei de Mendel s'aplica quan els gens estan en cromosomes distints o prou separats per recombinar-se lliurement. La lligació gènica és una excepció que cal explicar, no una refutació. Thomas Hunt Morgan va descobrir la lligació gènica el 1910 treballant amb Drosophila — i els seus resultats van ampliar el marc mendelià, no descartar-lo. La recombinació entre gens lligats (crossing-over) restaura parcialment l'assortiment independent de manera proporcional a la distància genètica entre els gens."
+            }
+          ]
+        },
+        {
+          "id": "her-04",
+          "title": "Genètica humana: grups sanguinis, malalties i sexe",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La genètica humana és alhora la més directament rellevant i la més complexa d'estudiar: no podem fer experiments de creuament controlats, les generacions son llargues, les famílies son petites, i l'entorn juga un paper important. I tot i així, la medicina moderna ha avançat enormement en l'estudi de les bases genètiques de les malalties."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els grups sanguinis ABO son un exemple de codominància: els al·lels Iᴬ i Iᴮ son codominants (grup AB), i tots dos son dominants sobre i (grup O). Les malalties genètiques poden ser dominants (s'expressen amb un sol al·lel, com Huntington), recessives (calen dos al·lels, com la fibrosi quística), o lligades al cromosoma X (hemofília, daltonisme)."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-her04-01",
+              "style": "multiple-choice",
+              "question": "Una persona de grup sanguini A (amb genotip IᴬIᴬ o Iᴬi) i una de grup O (genotip ii) poden tenir fills de grup B?",
+              "options": [
+                "No, és impossible",
+                "Sí, si el progenitor A és heterozigot Iᴬi",
+                "Sí, si tots dos son heterozigots",
+                "Sí, per mutació espontània"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Correcte, és impossible. El progenitor A pot ser IᴬIᴬ o Iᴬi — en cap cas té l'al·lel Iᴮ. El progenitor O és ii i tampoc té Iᴮ. Sense l'al·lel Iᴮ en cap dels dos progenitors, cap fill pot ser del grup B. Els grups sanguinis son una prova de paternitat limitada: poden excloure un progenitor però no confirmar-lo de manera definitiva.",
+              "feedbackWrong": "Per tenir grup B, un fill necessita l'al·lel Iᴮ, que ha de venir d'un dels progenitors. El progenitor A té al·lels Iᴬ i/o i. El progenitor O té sols al·lels i. Cap dels dos té Iᴮ, de manera que cap fill pot rebre-l'hi."
+            },
+            {
+              "type": "expandable",
+              "label": "Malalties lligades al cromosoma X: per qué afecten més els homes",
+              "content": "Les femelles (XX) tenen dos cromosomes X: si un porta un al·lel recessiu defectuós, el segon X sol tenir la còpia funcional i la malaltia no es manifesta (la dona és portadora). Els homes (XY) sols tenen un cromosoma X: si porta l'al·lel defectuós, no hi ha còpia de recanvi i la malaltia es manifesta. Per això malalties com l'hemofília A, el daltonisme i la distròfia muscular de Duchenne afecten sobretot homes. Les mares portadores transmeten la malaltia al 50% dels seus fills homes i al 50% de les seves filles (que son portadores)."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-her04-02",
+              "style": "true-false",
+              "question": "Una dona daltònica (el daltonisme és recessiu lligat a X) té un fill. El fill serà necessàriament daltònic.",
+              "correct": true,
+              "feedbackCorrect": "Cert. Una dona daltònica té genotip XᵈXᵈ (homozigota per l'al·lel de daltonisme en tots dos cromosomes X). Tots els seus fills heretaran l'únic cromosoma X de la mare (XᵈY), i com que sols en tenen un, seran daltònics. Les filles heretaran un Xᵈ de la mare i un X normal del pare, sent portadores però no daltòniques (tret que el pare sigui daltònic).",
+              "feedbackWrong": "Sí, és cert. Una dona daltònica és XᵈXᵈ (per expressar el fenotip recessiu, necessita l'al·lel en tots dos X). Tots els seus fills reben el seu únic Xᵈ i el cromosoma Y del pare. Amb un sol X i que és Xᵈ, tots els fills seran daltònics."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Evolució i Selecció Natural",
+              "moduleEmoji": "🦎",
+              "concept": "La malaltia de cèl·lules falciformes com a exemple d'equilibri heterozigot",
+              "text": "L'anèmia de cèl·lules falciformes és causada per un al·lel recessiu. En regions d'Àfrica amb malària endèmica, els heterozigots (portadors d'un sol al·lel) son més resistents a la malària que els homozigots normals — un exemple de sobredominança que manté l'al·lel 'nociu' en la població per selecció balançada."
+            }
+          ]
+        },
+        {
+          "id": "her-05",
+          "title": "Epigenètica: l'herència més allà de la seqüència",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Bessons idèntics comparteixen exactament el mateix DNA. I tot i així, als 50 anys sovint son significativament distints: diferent susceptibilitat a malalties, diferent comportament, a vegades fins i tot diferent aspecte físic. La seqüència del DNA no és tot. L'epigenètica explica com les experiències i l'entorn poden canviar l'expressió dels gens sense canviar el codi."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'epigenètica estudia els canvis en l'expressió gènica que no impliquen canvis en la seqüència del DNA. Els principals mecanismes son la metilació del DNA (afegir grups metil a citosines, que sol silenciar gens) i les modificacions de les histones (que canvien l'accessibilitat del DNA). Alguns d'aquests canvis poden persistir durant el desenvolupament i fins i tot, en alguns organismes, entre generacions."
+            },
+            {
+              "type": "expandable",
+              "label": "Imprinting genòmic: quan importa de qui ve el gen",
+              "content": "Normalment, els dos al·lels d'un gen (un del pare, un de la mare) s'expressen tots dos. Però per a uns 80 gens humans, sols s'expressa l'al·lel d'un dels progenitors — l'altre és silenciat per metilació. Aquest fenomen s'anomena imprinting genòmic. Un exemple: el gen IGF2 (factor de creixement insulínic) sols s'expressa de la còpia paterna; la còpia materna és silenciada. Mutacions o errors d'imprinting produeixen síndromes distintes depenent de si l'error és en la còpia paterna o materna (síndrome d'Angelman vs. síndrome de Prader-Willi), tot i que afecten la mateixa regió cromosòmica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-her05-01",
+              "style": "multiple-choice",
+              "question": "Un estudi mostra que fills de supervivents de trauma sever (com la fam holandesa de 1944) mostren canvis en la metilació del DNA en gens relacionats amb el metabolisme. Quina interpretació és més prudent?",
+              "options": [
+                "El trauma dels progenitors va causar mutacions hereditàries en la línia germinal dels seus fills",
+                "Hi va haver transmissió epigenètica intergeneracional en humans, semblant al lamarckisme",
+                "S'han detectat canvis epigenètics en fills de supervivents, però calen més estudis per entendre si son causa de la dieta fetal, efectes directes sobre gàmetes, o transmissió epigenètica genuïna",
+                "L'ambient prenatal no pot afectar el DNA dels fills"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'estudi de la fam holandesa és real i interessant, però la interpretació prudent és que hi ha molts mecanismes possibles: l'ambient fetal durant l'embaràs d'una mare malnodrida, efectes directes sobre els òvuls de la mare, o transmissió epigenètica genuïna via gàmetes. Distingir entre aquests mecanismes és tècnicament difícil i el debat científic segueix obert.",
+              "feedbackWrong": "La primera opció confon epigenètica amb mutació; la segona extrapola excessivament a 'lamarckisme'. L'epigenètica intergeneracional en humans és real però molt més limitada i de mecanisme incert que molts articles de divulgació suggereixen."
+            },
+            {
+              "type": "reflection",
+              "question": "Si les experiències d'estrès intens poden deixar empremtes epigenètiques potencialment transmissibles, qué implica per a la responsabilitat col·lectiva envers el benestar de les generacions actuals?",
+              "prompt": "La biologia i l'ètica es troben en llocs inesperats."
+            }
+          ]
+        },
+        {
+          "id": "her-06",
+          "title": "Genètica de poblacions: del gen a l'evolució",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La genètica estudia com els gens funcionen en individus. La genètica de poblacions estudia com les freqüències d'al·lels canvien en poblacions senceres al llarg del temps. És el pont entre la genètica molecular i la teoria evolutiva — i la base matemàtica de la biologia evolutiva moderna."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'equació de Hardy-Weinberg descriu les freqüències al·lèliques i genotípiques d'una població en equilibri (sense evolució). Si les freqüències s'allunyen d'aquest equilibri, hi ha alguna força evolutiva actuant: selecció natural, deriva genètica, mutació, flux gènic, o aparellament no aleatori."
+            },
+            {
+              "type": "expandable",
+              "label": "El principi de Hardy-Weinberg com a línia de base",
+              "content": "Hardy i Weinberg van demostrar (1908) que en una població gran, amb aparellament aleatori, sense selecció, mutació ni migració, les freqüències al·lèliques es mantenen constants de generació en generació. Si p és la freqüència de l'al·lel A i q la de a (p + q = 1), les freqüències genotípiques en equilibri son: p² (AA), 2pq (Aa), q² (aa). La importància de la llei és que defineix l'equilibri: quan observem desviacions de les proporcions de Hardy-Weinberg en una població real, hi ha alguna força evolutiva actuant que podem mesurar. És una línia de base que converteix l'evolució en quelcom matemàticament detectable."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-her06-01",
+              "style": "multiple-choice",
+              "question": "En una població en equilibri de Hardy-Weinberg, la freqüència de l'al·lel recessiu q = 0,1. Quina proporció de la població serà homozigota recessiva (i per tant manifestarà la malaltia recessiva)?",
+              "options": [
+                "10%",
+                "1%",
+                "0,1%",
+                "20%"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La freqüència d'homozigots recessius és q² = (0,1)² = 0,01 = 1%. Però la freqüència de portadors (Aa) és 2pq = 2 × 0,9 × 0,1 = 0,18 = 18% de la població. Per cada persona que manifesta la malaltia, hi ha 18 portadors silenciosos — un resultat que sorprèn moltes persones i que té implicacions per al consell genètic.",
+              "feedbackWrong": "Aplica q² a Hardy-Weinberg. Si q = 0,1, la freqüència d'homozigots recessius és q² = 0,01 = 1%. Nota important: la freqüència de portadors (2pq) és molt major que la de malalts. Per a malalties rares, hi ha molts més portadors que individus afectats."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-gen-her06-02",
+              "style": "detect-error",
+              "statement": "En una població petita aïllada, la deriva genètica pot eliminar al·lels avantatjosos i fixar al·lels perjudicials, el que demostra que l'evolució no és sempre adaptativa.",
+              "isCorrect": true,
+              "feedbackExplanation": "L'afirmació és correcta. La deriva genètica és un mecanisme evolutiu cec: actua per pura atzar estadístic, independent del valor adaptatiu dels al·lels. En poblacions petites (efecte fundador, colls d'ampolla), la deriva pot superar la selecció i fixar al·lels perjudicials o eliminar al·lels beneficiosos. L'evolució no és sinònim d'adaptació: inclou la deriva genètica, el flux gènic i la mutació, que no necessàriament produeixen canvis adaptatius."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Evolució i Selecció Natural",
+              "moduleEmoji": "🦎",
+              "concept": "La síntesi moderna: Darwin + Mendel + genètica de poblacions",
+              "text": "La genètica de poblacions és el pegament matemàtic que uneix la selecció natural de Darwin, la genètica mendeliana, i la genètica molecular en un marc unificat. La síntesi moderna (1930s-1950s) va demostrar formalment que la selecció natural pot canviar les freqüències al·lèliques — convertint l'evolució en un procés quantificable i predictible."
+            },
+            {
+              "type": "reflection",
+              "question": "La genètica de poblacions mostra que les 'races' humanes no corresponen a divisions genètiques significatives: la variació genètica dins de qualsevol grup humà és major que entre grups. Qué implica per a les categories que usem per parlar de diversitat humana?",
+              "prompt": "La biologia i la societat es troben en preguntes fonamentals."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

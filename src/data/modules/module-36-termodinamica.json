@@ -1,0 +1,634 @@
+{
+  "id": "module-36-termodinamica",
+  "title": "Termodinàmica",
+  "emoji": "🔥",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "lleis",
+      "title": "Les lleis de la termodinàmica",
+      "icon": "📐",
+      "description": "Calor, treball, entropia i per qué el temps té una sola direcció",
+      "style": "Fonamental · dels conceptes a les lleis universals",
+      "lessons": [
+        {
+          "id": "ter-01",
+          "title": "Calor, temperatura i energia interna",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Posem una tassa de cafè calent sobre una taula. Amb el temps es refreda. Mai hem vist una tassa freda absorbir calor de l'ambient i escalfar-se sola. Aquest fet tan quotidià amaga una de les lleis més profundes de la física — i una resposta parcial a la pregunta: per qué el temps avança en una sola direcció?"
+            },
+            {
+              "type": "misconception",
+              "belief": "La calor i la temperatura son la mateixa cosa.",
+              "reality": "La temperatura és una mesura de l'energia cinètica mitja de les molècules d'un objecte. La calor és energia en trànsit entre dos sistemes a temperatures distintes. Un oceà a 15°C conté molt més calor total que una tassa a 80°C — malgrat tenir temperatura menor. La confusió és comprensible: en la vida quotidiana, els dos conceptes varien junts.",
+              "why": "El llenguatge quotidià usa 'calor' i 'temperatura' com a sinònims. 'Fa molta calor' vol dir 'fa molta temperatura'. En física, son conceptes radicalment distints."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'energia interna d'un sistema és la suma de les energies cinètiques i potencials de totes les seves molècules. La temperatura és proporcional a l'energia cinètica mitja de translació de les molècules. La calor és el flux d'energia entre sistemes a causa d'una diferència de temperatura — no és una propietat del sistema, sinó una transferència."
+            },
+            {
+              "type": "expandable",
+              "label": "El calòric: la teoria equivocada que va durar un segle",
+              "content": "Fins a mitjans del segle XIX, la teoria dominant deia que la calor era un fluid invisible i imponderable anomenat 'calòric' que fluïa dels cossos calents als freds. La teoria explicava molts fenòmens raonablement bé. Va ser Benjamin Thompson (Count Rumford) el 1798 qui va observar que foradar canons de bronze per fricció generava quantitats gairebé il·limitades de calor — massa per ser un fluid finit. James Joule va demostrar quantitativament la dècada de 1840 que el treball mecànic i la calor son equivalents. El calòric va desaparèixer: la calor és moviment molecular, no substància."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ter-01-01",
+              "style": "multiple-choice",
+              "question": "Dues esferes de metall, una d'1 kg a 100°C i una de 10 kg a 20°C, es posen en contacte. Quin resultat és correcte?",
+              "options": [
+                "L'esfera petita cedeix calor a la gran fins que les temperatures s'igualen",
+                "L'esfera gran cedeix calor a la petita fins que les temperatures s'igualen",
+                "No hi ha transferència de calor perquè la massa gran té molta més energia interna",
+                "Les temperatures no s'igualen perquè les masses son molt distintes"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. La calor flueix sempre del cos de major temperatura al de menor temperatura, independentment de la massa o l'energia interna total. L'esfera petita (100°C) cedeix calor a la gran (20°C) fins que ambdues assoleixen la mateixa temperatura d'equilibri. Com que la gran té molt més massa i capacitat tèrmica, la temperatura final serà propera a 20°C.",
+              "feedbackWrong": "La calor flueix de major a menor temperatura, no de major a menor energia interna total. L'esfera petita (100°C) té temperatura major que la gran (20°C) i per tant cedeix calor, independentment que tingui menys massa i menys energia interna total."
+            },
+            {
+              "type": "prediction",
+              "question": "Si poses una cullereta de metall i un tros de fusta a la mateixa temperatura freda (0°C) i els toques, el metall sembla molt més fred. La cullereta és realment més freda que la fusta?",
+              "hint": "Pensa en la diferència entre la temperatura real d'un objecte i la sensació que ens produeix en tocar-lo."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ter-01-01",
+              "question": "Quan un meteoròleg diu 'la temperatura de sensació tèrmica és -15°C però la temperatura real és -5°C', té sentit físic?",
+              "options": [
+                "No: la temperatura és objectiva i no depèn de la sensació. El meteoròleg confon temperature amb calor",
+                "Sí: la 'temperatura de sensació' descriu la velocitat amb la qual el cos humà perd calor, que depèn del vent i la humitat a més de la temperatura",
+                "Parcialment: és una metàfora útil però científicament imprecisa"
+              ],
+              "correct": 1,
+              "explanation": "La temperatura de sensació tèrmica (wind chill) no és la temperatura de l'aire: és un índex que descriu la velocitat de pèrdua de calor del cos humà exposat al vent. El vent elimina la capa d'aire calent que envolta la pell, accelerant la pèrdua de calor. El cos es refreda més de pressa i experimenta el fred com si la temperatura fos menor. És un exemple de com la física fisiològica (termoregulació) és distinta de la temperatura termodinàmica pura: el que importa al cos no és la temperatura de l'aire sinó la velocitat a la qual perd energia."
+            }
+          ]
+        },
+        {
+          "id": "ter-02",
+          "title": "La primera llei: conservació de l'energia",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al segle XIX, enginyers i físics van anar descobrint una connexió profunda entre calor i treball mecànic. James Joule va mesurar amb precisió extrema que una quantitat fixa de treball mecànic produïa sempre la mateixa quantitat de calor. La calor i el treball son formes del mateix: energia. I l'energia total es conserva sempre."
+            },
+            {
+              "type": "key-idea",
+              "text": "La primera llei de la termodinàmica és la conservació de l'energia aplicada a sistemes tèrmics: el canvi en l'energia interna d'un sistema és igual a la calor absorbida menys el treball realitzat pel sistema. ΔU = Q - W. L'energia no es crea ni es destrueix: es transforma entre calor, treball i energia interna."
+            },
+            {
+              "type": "expandable",
+              "label": "L'equivalent mecànic de la calor: l'experiment de Joule",
+              "content": "James Prescott Joule va dissenyar un experiment elegant: un pes que cau fa girar unes pales dins un recipient d'aigua. La caiguda del pes realitza un treball mecànic mesurable. La temperatura de l'aigua puja una quantitat mesurable. Repetint l'experiment moltes vegades amb gran cura, Joule va establir que 4.186 joules de treball mecànic equivalen a 1 caloria de calor. La constància d'aquest valor, independentment de com es realitzés el treball, va ser la prova que calor i treball son formes equivalents d'energia. L'unitat d'energia es va batejar en el seu honor."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ter-02-01",
+              "style": "multiple-choice",
+              "question": "Un gas en un cilindre absorbeix 500 J de calor i realitza 200 J de treball en expandir-se. Quin és el canvi en l'energia interna del gas?",
+              "options": [
+                "+700 J",
+                "+300 J",
+                "-300 J",
+                "-700 J"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Primera llei: ΔU = Q - W = 500 J - 200 J = +300 J. El gas ha absorbit 500 J però n'ha gastat 200 en fer treball. L'energia interna ha augmentat en 300 J — que es manifesta en un augment de temperatura del gas.",
+              "feedbackWrong": "Aplica ΔU = Q - W. Q = +500 J (absorbit) i W = +200 J (treball fet pel gas). ΔU = 500 - 200 = +300 J. L'energia interna augmenta: el gas s'ha escalfat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ter-02-02",
+              "style": "detect-error",
+              "statement": "Una màquina de moviment perpetu de primer tipus viola la primera llei de la termodinàmica perquè produeix més treball del que consumeix energia. Una màquina de moviment perpetu de segon tipus no viola cap llei fonamental.",
+              "isCorrect": false,
+              "feedbackExplanation": "La primera part és correcta. Però la segona és incorrecta: una màquina de moviment perpetu de segon tipus (que extreu treball d'un sol focus tèrmic sense diferència de temperatura) viola la segona llei de la termodinàmica. No viola la primera llei (conserva l'energia) però sí la segona (treu treball d'un sol focus sense gradient tèrmic). Les dues lleis son necessàries per descartar màquines impossibles."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Mecànica Clàssica",
+              "moduleEmoji": "⚙️",
+              "concept": "Conservació de l'energia mecànica i la seva extensió a la calor",
+              "text": "La conservació de l'energia mecànica (energia cinètica + potencial constant) que hem vist a Mecànica Clàssica és un cas especial de la primera llei de la termodinàmica. Quan hi ha fricció, l'energia mecànica 'es perd' — però en realitat es transforma en energia interna (calor). La primera llei unifica tots dos casos."
+            }
+          ]
+        },
+        {
+          "id": "ter-03",
+          "title": "La segona llei: per qué el temps avança",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Les lleis de Newton son simètriques en el temps: una pel·lícula d'una bola rebotant seria igual de plausible vista endavant o enrere. Però una pel·lícula d'una tassa de cafè enfredant-se, vista enrere, sembla absurda: el cafè fred absorbint calor de l'ambient i escalfant-se sol. Per qué? La primera llei no ho prohibeix. La resposta requereix la segona llei."
+            },
+            {
+              "type": "key-idea",
+              "text": "La segona llei de la termodinàmica: en un sistema aïllat, l'entropia total mai disminueix espontàniament. Els processos naturals van sempre en la direcció que augmenta l'entropia total. La calor flueix espontàniament de la zona calenta a la freda — mai a l'inrevés — perquè és la direcció que augmenta l'entropia."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué l'entropia sempre augmenta: el punt de vista estadístic",
+              "content": "Imagina una capsa dividida a la meitat: gas a l'esquerra, buit a la dreta. Obres la divisió. El gas s'expandeix fins a ocupar tota la capsa. Mai hem vist el gas reconcentrar-se espontàniament a la meitat esquerra. Per qué? No perquè sigui impossible: és que és extremadament improbable. Amb 10²³ molècules, la probabilitat que totes acabin a la meitat esquerra per atzar és de l'ordre de (1/2)^(10²³) — un número tan petit que és pràcticament zero. L'entropia és una mesura d'aquesta probabilitat estadística. Els estats d'alta entropia son tan enormement més probables que els de baixa entropia que mai els veiem revertir espontàniament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ter-03-01",
+              "style": "multiple-choice",
+              "question": "Quin dels següents processos viola la segona llei de la termodinàmica?",
+              "options": [
+                "Una nevera que refreda el seu interior transferint calor al ambient",
+                "Un cub de gel que es fon en un got d'aigua tèbia",
+                "Un got d'aigua tèbia que es congela espontàniament a temperatura ambient sense cap font de fred",
+                "Un motor que transforma part de la calor d'un gas en treball mecànic"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'aigua tèbia congelant-se espontàniament implicaria una disminució espontània d'entropia del sistema aigua sense cap compensació en l'entorn — directament contrari a la segona llei. Els altres processos son compatibles: la nevera augmenta l'entropia de l'ambient, el gel que es fon augmenta l'entropia, i un motor sempre dissipa part de l'energia com a calor (augmentant l'entropia).",
+              "feedbackWrong": "Busca el procés que disminueix l'entropia total espontàniament. La nevera augmenta l'entropia de l'ambient (és una màquina que gasta treball). El gel que es fon augmenta l'entropia. El motor sempre dissipa calor. L'única opció que viola la segona llei és la que presenta un procés espontani d'ordenació sense aportació externa d'energia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ter-03-02",
+              "style": "true-false",
+              "question": "La vida viola la segona llei de la termodinàmica perquè els organismes mantenen un estat d'ordre molt elevat en un univers que tendeix al desordre.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La vida no viola la segona llei: la circumscriu. Els organismes son sistemes oberts que mantenen el seu ordre (baixa entropia interna) a costa d'augmentar l'entropia del seu entorn. Una planta extreu energia de la llum solar i exclou calor i matèria orgànica degradada. L'entropia total del sistema (organism + entorn) augmenta, complint la segona llei.",
+              "feedbackWrong": "Els organismes son sistemes oberts, no aïllats. La segona llei s'aplica a sistemes aïllats: diu que l'entropia total d'un sistema aïllat no disminueix. Un organisme manté la seva pròpia entropia baixa a costa d'augmentar l'entropia de l'entorn. El balanç total sempre augmenta."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ter-03-01",
+              "question": "La segona llei estableix una asimetria temporal: els processos naturals van en la direcció que augmenta l'entropia. Però les lleis fonamentals de la física (Newton, electromagnetisme, mecànica quàntica) son simètriques en el temps. Com es resol aquesta contradicció?",
+              "options": [
+                "No hi ha contradicció: la segona llei és una llei fonamental independent que simplement s'afegeix a les altres",
+                "La segona llei no és fonamental: emergeix estadísticament del comportament col·lectiu d'enormes quantitats de partícules que segueixen lleis temporalment simètriques",
+                "La contradicció és real i no resolta: la física actual no té una explicació satisfactòria de la fletxa del temps"
+              ],
+              "correct": 1,
+              "explanation": "Boltzmann va demostrar que la segona llei emergeix estadísticament: quan tens 10²³ partícules seguint lleis simètriques en el temps, les configuracions d'alta entropia son tan astronòmicament més probables que els processos que disminueixen l'entropia son pràcticament impossibles — no perquè estiguin prohibits per les lleis fonamentals, sinó perquè la probabilitat és indistingible de zero. La 'fletxa del temps' és una propietat estadística emergent, no una propietat de les lleis fonamentals. Però el problema de per qué l'univers tenia entropia molt baixa al Big Bang (condició inicial necessària per a tota la direccionalitat temporal que observem) segueix essent un problema obert de cosmologia."
+            }
+          ]
+        },
+        {
+          "id": "ter-04",
+          "title": "Entropia: ordre, desordre i informació",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Boltzmann va definir l'entropia amb una equació que va demanar que gravessin a la seva làpida: S = k·log W. On W és el nombre de microstats compatibles amb l'estat macroscòpic del sistema. A mesura que el camp de la termodinàmica va madurar, va aparèixer una connexió sorprenent: l'entropia termodinàmica i la informació matemàtica son la mateixa cosa."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'entropia de Boltzmann (S = k log W) mesura el nombre de microestats compatibles amb un macrostat donat. Un sistema desordenat (gas expandit, tinta barrejada) té enormement més microestats possibles que un d'ordenat. L'entropia de Shannon (1948) mesura la informació: la incertesa sobre l'estat d'un sistema. Les dues entroppies son matemàticament equivalents."
+            },
+            {
+              "type": "expandable",
+              "label": "La connexió entre entropia i informació: el dimoni de Maxwell",
+              "content": "El 1867, Maxwell va proposar un experiment mental: un dimoni microscòpic que controla una porta entre dos compartiments de gas i deixa passar les molècules ràpides cap a la dreta i les lentes cap a l'esquerra, creant una diferència de temperatura sense fer treball. Semblava violar la segona llei. La resolució va trigar un segle: Leo Szilard (1929) i Charles Bennett (1982) van demostrar que el dimoni ha de 'mesurar i recordar' l'estat de cada molècula — i quan esborra aquesta informació de la seva memòria (ha de fer-ho o la seva memòria s'ompliria), genera exactament l'entropia que sembla estalviar. Esborrar informació té un cost energètic mínim (principi de Landauer). La informació i la termodinàmica estan inextricablement lligades."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ter-04-01",
+              "style": "multiple-choice",
+              "question": "Una baralla de cartes perfectament ordenada (A, 2, 3... per pals) s'agita aleatòriament. Quin procés descriu millor el que passa des del punt de vista de l'entropia?",
+              "options": [
+                "L'entropia disminueix perquè la baralla va d'un estat ordenat a un de desordenat",
+                "L'entropia augmenta perquè passa de tenir molt pocs microestats compatibles (sols l'ordre original) a tenir enormement més microestats possibles (totes les barreges possibles)",
+                "L'entropia no canvia perquè les cartes son les mateixes",
+                "L'entropia és un concepte físic que no s'aplica a objectes macroscòpics com cartes"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La baralla ordenada correspon a un únic microstat (o molt pocs). Una baralla barrejada aleatòriament pot correspondre a qualsevol de les 52! ≈ 8 × 10⁶⁷ permutacions possibles. L'estat barrejat té enormement més microestats compatibles, i per tant major entropia. L'augment d'entropia no requereix que sigui un sistema físic: la definició de Boltzmann és general.",
+              "feedbackWrong": "L'entropia s'aplica a qualsevol sistema amb microestats mesurables. La baralla ordenada correspon a molt pocs microestats (sols l'ordre original és 'ordenat' en el sentit definit). La baralla barrejada correspon a qualsevol de les 52! permutacions. L'entropia augmenta dràsticament."
+            },
+            {
+              "type": "debate",
+              "question": "L'augment universal de l'entropia implica que l'univers evoluciona cap a un estat final de màxima entropia ('mort tèrmica'), on tot és a la mateixa temperatura i no és possible cap treball. Té implicacions filosòfiques per al sentit de l'existència?",
+              "positionA": {
+                "label": "La mort tèrmica és nihilista",
+                "argument": "Si l'univers acaba en un estat uniforme i sense canvi, cap estructura ni organització és permanent. Tota complexitat, vida, consciència i cultura son transitòries. La física imposa un final sense sentit a tot el que existeix."
+              },
+              "positionB": {
+                "label": "La transitorietat no implica absència de sentit",
+                "argument": "El fet que l'univers tingui fi no fa que el present sigui menys real. Els éssers humans hem creat sentit durant tota la nostra historia sense que cap conquesta o obra sigui eterna. La transitoriedad és una condició de l'existència, no una refutació del seu valor."
+              },
+              "reflection": "El temps disponible fins a la 'mort tèrmica' és de l'ordre de 10¹⁰⁰ anys. Com canvia la perspectiva saber que la terminalitat és real però astronòmicament llunyana?",
+              "context": "Físics com Steven Weinberg han escrit sobre la manca de sentit còsmic; filòsofs com Albert Camus van explorar com construir sentit en un univers indiferent. La física no resol la pregunta filosòfica — la planteja amb una precisió nova."
+            }
+          ]
+        },
+        {
+          "id": "ter-05",
+          "title": "La tercera llei i el zero absolut",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan refredem un sistema, les molècules es mouen cada cop més lentament. Sembla que hi hauria d'haver una temperatura a la qual tot moviment molecular s'atura completament. Aquesta temperatura existeix — és el zero absolut, -273,15°C — però la tercera llei de la termodinàmica diu que és impossible arribar-hi."
+            },
+            {
+              "type": "key-idea",
+              "text": "La tercera llei de la termodinàmica: l'entropia d'un cristall perfecte en equilibri tèrmic s'aproxima a zero quan la temperatura s'aproxima al zero absolut (0 K = -273,15°C). I és impossible arribar al zero absolut en un nombre finit de passos. El zero absolut és un límit asimptòtic que mai es pot assolir."
+            },
+            {
+              "type": "expandable",
+              "label": "Físics que s'acosten al zero absolut",
+              "content": "Tot i que el zero absolut és inassolible, els físics han arribat increïblement a prop. Les trampes làser i les trampes magnètiques han permès refredar núvols d'àtoms fins a temperatures de nanokelvin (milmilionèsimes de grau sobre el zero absolut) o fins i tot picokelvin. A temperatures tan baixes, els àtoms mostren comportaments quàntics col·lectius impossibles a temperatures normals: els condensats de Bose-Einstein, on molts àtoms ocupen el mateix estat quàntic i es comporten com un únic objecte quàntic macroscòpic. El Nobel de 1997 (Chu, Cohen-Tannoudji, Phillips) i el de 2001 (Cornell, Ketterle, Wieman) van reconèixer aquests avenços."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ter-05-01",
+              "style": "true-false",
+              "question": "L'espai interestelar, on la temperatura és d'uns 2,7 K, és el lloc més fred de l'univers.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Laboratoris terrestres han assolit temperatures molt menors: nanokelvin o fins i tot picokelvin. Els condensats de Bose-Einstein es creen a temperatures de l'ordre de 10⁻⁷ K o menors. Els 2,7 K de l'espai interestelar corresponen a la temperatura del fons còsmic de microones — el ressò tèrmic del Big Bang — però no és el lloc més fred. Irò: el lloc més fred de l'univers és un laboratori terrestre.",
+              "feedbackWrong": "En realitat, laboratoris de física d'ultrfredat han assolit temperatures molt menors que els 2,7 K de l'espai interestelar. Els 2,7 K son la temperatura del fons còsmic de microones. Temperatures de nanokelvin s'han assolit en trampes làser i magnètiques."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ter-05-02",
+              "style": "multiple-choice",
+              "question": "Per qué la tercera llei implica que és impossible assolir el zero absolut en un nombre finit de passos?",
+              "options": [
+                "Perquè el zero absolut no existeix físicament — és un concepte matemàtic abstracte",
+                "Perquè cada pas de refredament es fa menys eficient a mesura que la temperatura s'apropa al zero absolut: cal fer cada cop més treball per eliminar cada cop menys entropia",
+                "Perquè les molecules s'aturen completament i no hi ha manera de transferir calor sense moviment molecular",
+                "Perquè la gravetat manté les molècules en moviment constant independentment de la temperatura"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. A mesura que la temperatura s'aproxima al zero absolut, l'entropia s'apropa asimptòticament a zero. Per reduir l'entropia en una quantitat fixa, cal extreure calor (Q = T·ΔS). Com que T s'aproxima a zero, la calor extreta per pas s'aproxima a zero: cada pas refreda menys. Calen infinits passos per arribar a T = 0.",
+              "feedbackWrong": "El zero absolut sí existeix com a límit físic real (és la temperatura a la qual l'energia zero-point quàntica és l'única energia que resta). La impossibilitat d'assolir-lo ve de l'eficiència decreixent de cada pas de refredament a mesura que T s'aproxima a zero."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Mecànica Quàntica",
+              "moduleEmoji": "🌀",
+              "concept": "Energia de punt zero: per qué ni al zero absolut tot s'atura",
+              "text": "La mecànica quàntica introdueix un resultat sorprenent: fins i tot al zero absolut, les partícules conserven una energia de punt zero. El principi d'incertesa de Heisenberg prohibeix que una partícula tingui simultàniament posició i moment perfectament definits — si s'aturés completament, ambdós serien definits. L'heli és líquid al zero absolut a pressió atmosfèrica per culpa d'aquesta energia quàntica residual."
+            }
+          ]
+        },
+        {
+          "id": "ter-06",
+          "title": "Termodinàmica estadística: el pont entre mol·lècules i calor",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La termodinàmica clàssica descriu sistemes macroscòpics: temperatura, pressió, volum. Però tots els materials estan fets d'enormes quantitats de molècules. Ludwig Boltzmann es va proposar derivar les lleis macroscòpiques de la termodinàmica a partir del comportament estadístic de milions de molècules. Va ser brillant, va ser polèmic, i va morir tràgicament sense veure la plena acceptació del seu treball."
+            },
+            {
+              "type": "key-idea",
+              "text": "La termodinàmica estadística (Boltzmann, Gibbs, Maxwell) explica les propietats macroscòpiques dels sistemes (temperatura, pressió, entropia) com a resultats estadístics del comportament col·lectiu de les seves molècules. La temperatura és l'energia cinètica mitja; la pressió és la força per unitat d'àrea dels xocs de molècules; l'entropia és el logaritme del nombre de microestats accessibles."
+            },
+            {
+              "type": "expandable",
+              "label": "La tragèdia de Boltzmann: la ciència i el reconeixement tardà",
+              "content": "Ludwig Boltzmann va dedicar la seva vida a demostrar que la matèria és feta d'àtoms i que les lleis termodinàmiques s'expliquen estadísticament. Fins al tombant del segle XX, molts físics influents (Ernst Mach, Wilhelm Ostwald) negaven l'existència real dels àtoms: eren 'eines matemàtiques útils', però no entitats físiques reals. Boltzmann va defensar la seva posició contra atacs constants. El 1906, deprimit i de salut precària, es va suïcidar. Un any i mig abans, el 1905, Einstein havia publicat l'explicació del moviment brownià — el primer proof indirecte però convincent de l'existència dels àtoms. Pocs anys després, la comunitat científica havia acceptat completament la teoria atòmica. Boltzmann va tenir raó en tot — però no va viure per veure-ho."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ter-06-01",
+              "style": "multiple-choice",
+              "question": "En un gas ideal, la temperatura es dobla (de 300 K a 600 K). Qué passa amb la velocitat quadràtica mitja de les molècules?",
+              "options": [
+                "Es dobla",
+                "Es quadruplica",
+                "Augmenta en un factor √2 ≈ 1,41",
+                "No canvia perquè la pressió es manté constant"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'energia cinètica mitja és proporcional a T: (1/2)mv² ∝ T. Per tant, v² ∝ T, i v ∝ √T. Si T es dobla, v augmenta en un factor √2 ≈ 1,41. La velocitat no es dobla quan la temperatura es dobla — augmenta menys, perquè l'energia és proporcional al quadrat de la velocitat.",
+              "feedbackWrong": "Recorda que l'energia cinètica és ½mv², proporcional a T. Si T es dobla, v² es dobla, i per tant v augmenta en √2. La relació és v ∝ √T, no v ∝ T."
+            },
+            {
+              "type": "quote",
+              "text": "Si la termodinàmica no és certa en els seus principis, res és cert en la ciència.",
+              "author": "Albert Einstein"
+            },
+            {
+              "type": "reflection",
+              "question": "Boltzmann va tenir raó en tot però no va viure per veure la confirmació. Qué ens diu la seva historia sobre la relació entre veritat científica, consens contemporani i reconeixement personal?",
+              "prompt": "La ciència avança, però no sempre al ritme de les persones que la fan avançar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maquines",
+      "title": "Màquines tèrmiques i energia",
+      "icon": "🏭",
+      "description": "Màquines de vapor, cicle de Carnot, eficiència i termodinàmica de la vida",
+      "style": "Aplicat · de la teoria a les màquines i la civilització",
+      "lessons": [
+        {
+          "id": "maq-01",
+          "title": "La màquina de vapor canvia el món",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1769, James Watt va patentar una millora crucial a la màquina de vapor de Newcomen: un condensador separat que evitava haver de refredar i escalfar el cilindre en cada cicle. Va quadruplicar l'eficiència. En els cinquanta anys següents, les màquines de vapor van transformar la tèxtil, la mineria, el transport i l'agricultura. La Revolució Industrial va ser, en bona mesura, la història d'aprendre a convertir calor en treball."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1712",
+                  "title": "Màquina de vapor de Newcomen",
+                  "text": "Primera màquina de vapor pràctica, usada per bombar aigua de mines. Molt ineficient: aprofita menys del 1% de l'energia del carbó."
+                },
+                {
+                  "year": "1769",
+                  "title": "Watt millora el condensador",
+                  "text": "Condensador separat: l'eficiència es multiplica. El nom de Watt es convertirà en la unitat de potència."
+                },
+                {
+                  "year": "1804",
+                  "title": "Primera locomotora de vapor",
+                  "text": "Richard Trevithick construeix la primera locomotora. El transport terrestre ja no dependrà dels cavalls."
+                },
+                {
+                  "year": "1824",
+                  "title": "Sadi Carnot: 'Reflexions sobre la potència motriu del foc'",
+                  "text": "Un jove enginyer francès estableix els límits teòrics de l'eficiència de qualsevol màquina tèrmica. Mor als 36 anys."
+                },
+                {
+                  "year": "1850-1860",
+                  "title": "Formulació matemàtica de la termodinàmica",
+                  "text": "Clausius i Kelvin formalitzen les dues lleis de la termodinàmica, donant base científica al que Carnot havia intuït."
+                }
+              ]
+            },
+            {
+              "type": "key-idea",
+              "text": "Una màquina tèrmica pren calor d'un focus calent, converteix part en treball útil, i cedeix la resta a un focus fred. Cap màquina no pot convertir tota la calor en treball — sempre n'hi ha una part que va al focus fred. Aquesta limitació no és d'enginyeria: és fonamental, imposada per la segona llei."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-maq-01-01",
+              "style": "multiple-choice",
+              "question": "Una màquina de vapor absorbeix 1.000 J de calor del focus calent i cedeix 600 J al focus fred. Quina és la seva eficiència?",
+              "options": [
+                "60%",
+                "40%",
+                "167%",
+                "No es pot calcular sense saber les temperatures"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. L'eficiència és el treball útil obtingut dividit per la calor absorbida. Treball = 1000 - 600 = 400 J. Eficiència = 400/1000 = 0,4 = 40%. La resta (600 J) es cedeix al focus fred i és inevitablement 'perduda' com a calor no aprofitable.",
+              "feedbackWrong": "Eficiència = Treball útil / Calor absorbida. Treball = Q_calent - Q_fred = 1000 - 600 = 400 J. Eficiència = 400/1000 = 40%."
+            },
+            {
+              "type": "reflection",
+              "question": "La Revolució Industrial va transformar la societat en poques generacions d'una manera que cap revolució anterior havia aconseguit. Qué té de particular la conversió de calor en treball mecànic que la fa tan transformadora com a tecnologia?",
+              "prompt": "Pensa en l'escala, la velocitat i la densitat energètica del carbó comparat amb animals de tir o vent."
+            }
+          ]
+        },
+        {
+          "id": "maq-02",
+          "title": "El cicle de Carnot: l'eficiència màxima possible",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Sadi Carnot va morir als 36 anys sense saber que havia fonamentat tota la termodinàmica. En un pamflet de 118 pàgines publicat el 1824, va demostrar que cap màquina tèrmica no pot ser més eficient que una màquina ideal reversible entre els mateixos focus tèrmics. Aquesta eficiència màxima — l'eficiència de Carnot — depèn únicament de les temperatures dels focus."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'eficiència màxima (eficiència de Carnot) d'una màquina tèrmica que opera entre un focus calent a temperatura T_c i un focus fred a temperatura T_f és: η = 1 - T_f/T_c (en kelvin). Cap màquina real no pot superar aquest límit. Com més gran sigui la diferència de temperatura, major pot ser l'eficiència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-maq-02-01",
+              "style": "multiple-choice",
+              "question": "Una central tèrmica opera entre un focus calent a 600°C (873 K) i un focus fred a 27°C (300 K). Quina és la seva eficiència màxima de Carnot?",
+              "options": [
+                "95,5%",
+                "34,4%",
+                "65,6%",
+                "50%"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. η_Carnot = 1 - T_f/T_c = 1 - 300/873 = 1 - 0,344 = 0,656 = 65,6%. Però les centrals tèrmiques reals funcionen al 35-45% d'eficiència, molt per sota del teòric de Carnot, a causa de friccions, pèrdues de calor i irreversibilitats del procés real.",
+              "feedbackWrong": "Aplica η = 1 - T_f/T_c amb temperatures en kelvin. T_f = 300 K, T_c = 873 K. η = 1 - 300/873 = 1 - 0,344 ≈ 0,656 = 65,6%. Recorda convertir sempre a kelvin: T(K) = T(°C) + 273."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué les centrals elèctriques llencen tanta calor als rius",
+              "content": "Una central nuclear o de carbó típica té una eficiència del 33-40%. Això significa que per cada 3 J d'energia del combustible, sols 1 J acaba com a electricitat. Els altres 2 J han de ser cedits al focus fred — generalment un riu, el mar, o torres de refrigeració. A Europa, les centrals tèrmiques son responsables d'una part significativa de l'escalfament de rius i estuaris. Augmentar l'eficiència no és sols una qüestió econòmica: és una necessitat ambiental. La cogeneració — aprofitar la calor residual per calefacció urbana — és una manera d'usar part d'aquesta energia que d'altra manera es perdria."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-maq-02-02",
+              "style": "detect-error",
+              "statement": "Una màquina que opera entre focus a 400 K i 200 K té una eficiència de Carnot del 50%. Si millorarem la màquina reduint la temperatura del focus fred de 200 K a 100 K, l'eficiència augmentaria al 75%.",
+              "isCorrect": true,
+              "feedbackExplanation": "L'afirmació és correcta. η₁ = 1 - 200/400 = 0,5 = 50%. η₂ = 1 - 100/400 = 0,75 = 75%. Reduir la temperatura del focus fred augmenta l'eficiència. Alternativament, augmentar la temperatura del focus calent té el mateix efecte. Per això les centrals de nova generació busquen operar a temperatures molt altes (reactors de sal fosa, turbines supercrítics) i els sistemes de refrigeració eficients son fonamentals."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Termodinàmica — Les lleis",
+              "moduleEmoji": "🔥",
+              "concept": "Eficiència de Carnot i la segona llei",
+              "text": "L'eficiència de Carnot és una conseqüència directa de la segona llei. Que no es pugui superar no és una limitació d'enginyeria: és que superar-la requeriria que l'entropia total disminuís, el que la segona llei prohibeix. Cap material millor, cap disseny més enginyós: el límit és fonamental."
+            }
+          ]
+        },
+        {
+          "id": "maq-03",
+          "title": "Refrigeració i bombes de calor",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Una nevera fa l'invers d'un motor: en lloc d'extreure treball de la calor, usa treball per bombar calor del fred al calent. Sembla violar la segona llei (calor anant del fred al calent). Però no: la nevera usa treball extern per fer-ho. Sense l'electricitat del motor, el contingut de la nevera mai es refredaria sol."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un refrigerador usa treball mecànic per transferir calor del focus fred (interior de la nevera) al focus calent (ambient). Una bomba de calor fa el mateix però amb l'objectiu d'escalfar l'espai calent. El coeficient de rendiment (COP) mesura quanta calor es transfereix per unitat de treball consumit. El COP d'una bomba de calor pot ser major que 1 — no viola la conservació de l'energia perquè part de la calor ve de l'ambient."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-maq-03-01",
+              "style": "multiple-choice",
+              "question": "Una bomba de calor consumeix 1 kW d'electricitat i transfereix 3 kW de calor a l'interior d'un edifici. Quin és el seu coeficient de rendiment (COP)?",
+              "options": [
+                "0,33",
+                "1",
+                "3",
+                "300%"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. COP = Calor transferida / Treball consumit = 3 kW / 1 kW = 3. El COP de 3 significa que per cada joule d'electricitat consumit, l'edifici rep 3 joules de calor. 1 joule ve de l'electricitat i 2 joules de l'extracció de calor de l'exterior fred. No viola la conservació: el balanç energètic és correcte. Una resistència elèctrica equivalent tindria COP = 1.",
+              "feedbackWrong": "COP = Calor útil / Treball consumit = 3/1 = 3. Un COP > 1 no viola la conservació de l'energia: part de la calor cedida a l'interior prové de l'ambient exterior (que es refreda lleugerament). La bomba de calor és molt més eficient que una resistència elèctrica (COP = 1)."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué les bombes de calor son el futur del calefacció",
+              "content": "En un context de transició energètica, les bombes de calor son una tecnologia clau. Una bomba de calor elèctrica amb COP = 3 consumeix 1 unitat d'electricitat i proporciona 3 unitats de calor — comparades amb una caldera de gas que proporciona ~0,9 unitats de calor per unitat d'energia del gas. Si l'electricitat prové de fonts renovables, el guany energètic net és enorme. La principal barrera és el cost d'instal·lació inicial i que el COP disminueix quan la temperatura exterior és molt baixa (meny diferència tèrmica disponible). Les bombes de calor geotèrmiques (que extreuen calor del subsol a temperatura quasi constant ~12°C) eviten aquest problema però son molt més cares d'instal·lar."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-maq-03-01",
+              "question": "Si tenim una bomba de calor amb COP > 1, podríem usar la seva sortida de calor per generar electricitat amb un motor tèrmic i alimentar la pròpia bomba, obtenint un excés d'energia?",
+              "options": [
+                "Sí: si el COP és prou alt, el sistema podria ser autosuficient i fins i tot generar energia neta",
+                "No: la cadena bomba → motor → bomba seria una màquina de moviment perpetu de segon tipus, prohibida per la segona llei",
+                "Depèn de l'eficiència dels components: amb tecnologia suficientment bona podria funcionar"
+              ],
+              "correct": 1,
+              "explanation": "La combinació proposada seria una màquina de moviment perpetu de segon tipus: extrauria calor net d'un sol focus tèrmic (l'ambient) i el convertiria en treball. La segona llei el prohibeix independentment de la qualitat dels components. El COP > 1 no és un 'truc' que viola la física: és energia que ve de l'ambient exterior que es refreda. Si intentem usar la calor produïda per generar l'electricitat que alimenta la bomba, l'anàlisi completa del cicle mostra que l'entropia total no pot disminuir — i el sistema necessàriament necessitarà energia externa o s'aturarà."
+            }
+          ]
+        },
+        {
+          "id": "maq-04",
+          "title": "Energia i civilització",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Tota la civilització humana es pot llegir com una historia de l'energia: de la biomassa (llenya, animals de tir) al carbó, al petroli, al gas, a l'energia nuclear i les renovables. Cada transició energètica ha reorganitzat la societat. La termodinàmica no és sols física abstracta: és el marc que defineix els límits i les possibilitats de la transició energètica del segle XXI."
+            },
+            {
+              "type": "key-idea",
+              "text": "La densitat energètica i l'eficiència de conversió son els factors clau que determinen la utilitat d'una font d'energia. El petroli té una densitat energètica extraordinàriament alta i és fàcilment transportable. Les energies renovables (solar, eòlica) son inexhauribles però intermitents i de menor densitat. L'emmagatzematge d'energia (bateries, hidrogen) és el coll d'ampolla de la transició energètica."
+            },
+            {
+              "type": "comparison",
+              "title": "Fonts d'energia: densitat i característiques",
+              "labelA": "Combustibles fòssils",
+              "labelB": "Renovables + nuclear",
+              "items": [
+                {
+                  "label": "Densitat energètica",
+                  "a": "Molt alta (gasolina: ~46 MJ/kg; carbó: ~24 MJ/kg)",
+                  "b": "Variable: nuclear molt alta; solar/eòlica molt baixa per superfície"
+                },
+                {
+                  "label": "Intermitència",
+                  "a": "Cap: disponibles a demanda",
+                  "b": "Solar i eòlica son intermitents; nuclear, constant"
+                },
+                {
+                  "label": "Emissions CO₂",
+                  "a": "Altes (carbó > petroli > gas natural)",
+                  "b": "Molt baixes o nul·les en cicle de vida"
+                },
+                {
+                  "label": "Limitació",
+                  "a": "Finits i distribuïts de manera desigual al món",
+                  "b": "Sol i vent son pràcticament il·limitats; minerals per bateries son limitats"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-maq-04-01",
+              "style": "detect-error",
+              "statement": "Les energies renovables (solar i eòlica) son il·limitades i gratuïtes, de manera que la transició energètica sols depèn de la voluntat política per instal·lar prou panells i molins.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha diverses simplificacions inexactes. Primer, 'gratuïtes' es refereix al combustible (el sol i el vent no costen), però els equips, la instal·lació, el manteniment i la infraestructura de xarxa tenen cost. Segon, la intermitència és un problema real: quan no hi ha sol ni vent, cal energia d'emmagatzematge o de suport, que requereix bateries (liti, cobalt — minerals limitats), hidroelèctrica regulable, o altres formes. Tercer, la transició implica desafiar interessos econòmics i inèrcies d'infraestructura enormes, a més de la voluntat política."
+            },
+            {
+              "type": "reflection",
+              "question": "La termodinàmica imposa que tota conversió d'energia genera calor residual inevitablement. Si tota l'energia que usem acaba com a calor, podria l'ús massiu d'energia renovable escalfar el planeta independentment de les emissions de CO₂?",
+              "prompt": "La resposta implica comparar l'escala de l'energia que usem amb l'energia que rep la Terra del Sol."
+            }
+          ]
+        },
+        {
+          "id": "maq-05",
+          "title": "Termodinàmica química: espontaneïtat i energia lliure",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Per qué la ferrugem espontàniament? Per qué el sucre es dissol en l'aigua però la sal no es dissoldrà en gasolina? Per qué algunes reaccions químiques alliberen calor i d'altres la absorbeixen? La termodinàmica química respon totes aquestes preguntes amb un sol criteri d'espontaneïtat: l'energia lliure de Gibbs."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'energia lliure de Gibbs (G) combina l'entalpia (H, la calor de reacció) i l'entropia (S) en un sol criteri: ΔG = ΔH - T·ΔS. Una reacció és espontània quan ΔG < 0. Quan ΔG = 0, el sistema és en equilibri. L'energia lliure és la quantitat màxima de treball útil que un sistema pot realitzar en condicions de pressió i temperatura constants."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué les cèl·lules usen ATP com a moneda energètica",
+              "content": "L'ATP (adenosín trifosfat) és la molècula que les cèl·lules usen per emmagatzemar i transferir energia. La hidròlisi de l'ATP (ATP → ADP + fòsfor) allibera uns -30 kJ/mol d'energia lliure en condicions cel·lulars: un ΔG molt negatiu, suficient per conduir reaccions que d'altra manera no serien espontànies. La cèl·lula acobla la hidròlisi de l'ATP a reaccions energèticament desfavorables, forçant-les a ocórrer. La respiració cel·lular produeix ATP a partir de glucosa; la fotosíntesi fa el procés invers usant llum solar. L'ATP és essencialment una 'moneda energètica' cel·lular: es gasta en treball mecànic (contracció muscular), treball osmòtic (bombes iòniques) i treball químic (biosíntesi)."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-maq-05-01",
+              "style": "multiple-choice",
+              "question": "Una reacció química té ΔH = +50 kJ/mol (absorbeix calor) i ΔS = +200 J/(mol·K) (augmenta l'entropia). A quina temperatura és espontània?",
+              "options": [
+                "Mai: absorbir calor sempre la fa no espontània",
+                "Sempre: augmentar l'entropia sempre fa la reacció espontània",
+                "A temperatures superiors a 250 K (aproximadament -23°C)",
+                "Sols a temperatura ambient (298 K)"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. ΔG = ΔH - T·ΔS. Per a ΔG < 0 (espontània): +50.000 - T·200 < 0 → T > 50.000/200 = 250 K. A temperatures superiors a 250 K, el terme entropic (-T·ΔS) supera l'entalpia positiva i la reacció es torna espontània. La temperatura 'paga' per l'absorció de calor amb guany d'entropia.",
+              "feedbackWrong": "ΔG = ΔH - T·ΔS. Substituint: ΔG = 50.000 J - T × 200 J/K. Per a espontaneïtat, ΔG < 0: 50.000 < T × 200, és a dir T > 250 K. Per sobre de ~-23°C, l'augment d'entropia 'paga' el cost energètic de l'absorció de calor."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Genètica i ADN",
+              "moduleEmoji": "🧬",
+              "concept": "La termodinàmica de la replicació del DNA",
+              "text": "La replicació del DNA és un procés termodinàmicament favorable? Per si sol, sintetitzar DNA des de nucleòtids lliures és desfavorable (ΔG > 0). La cèl·lula hi acopla la hidròlisi d'ATP i pirofosfat per fer el procés global favorable. Tota la biologia molecular és, en última instància, termodinàmica aplicada a sistemes molt allunyats de l'equilibri."
+            }
+          ]
+        },
+        {
+          "id": "maq-06",
+          "title": "Termodinàmica i vida: ordre contra corrent",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El físic Erwin Schrödinger va escriure el 1944 un llibre titulat '¿Qué es la vida?' on plantejava una pregunta provocadora: com pot un organisme viu, format per molècules que obeeixen les lleis de la física, mantenir un estat d'ordre creixent en un univers que tendeix al desordre? La resposta va influir en Watson i Crick i en la generació que va descobrir la biologia molecular."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els organismes vius son sistemes oberts molt allunyats de l'equilibri termodinàmic. Mantenen el seu ordre intern (baixa entropia) a costa d'augmentar l'entropia del seu entorn: consumint energia lliure (aliment, llum solar) i excretant calor i residus d'alta entropia. La vida no viola la segona llei: la satisfà aprofitant el flux d'energia des del Sol cap a l'espai."
+            },
+            {
+              "type": "expandable",
+              "label": "La Terra com a màquina tèrmica: del Sol a l'espai",
+              "content": "La Terra rep energia del Sol a ~5.800 K (temperatura de la superfície solar) i la re-emet a l'espai a ~255 K. Aquesta diferència de temperatura enorme és la que permet tota la complexitat de la vida i el clima. La Terra és com una màquina de Carnot: extreu treball d'aquesta diferència tèrmica en forma de vent, corrents oceànics, cicle de l'aigua i, finalment, vida. L'eficiència d'una màquina de Carnot entre 5.800 K i 255 K seria del 96% — molt per sobre de qualsevol màquina humana. La vida és una de les moltes formes d'aprofitar aquest flux energètic solar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-maq-06-01",
+              "style": "true-false",
+              "question": "La fotosíntesi viola la segona llei de la termodinàmica perquè converteix CO₂ i H₂O (alta entropia) en glucosa (baixa entropia) absorbint sols llum.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La fotosíntesi no viola la segona llei perquè no és un sistema aïllat. Absorb llum d'alta qualitat energètica (fotografia de baixa entropia) i emet calor i oxigen. L'entropia total del sistema (planta + entorn + llum solar consumida) augmenta. La planta 'compra' ordre intern a costa d'augmentar el desordre del seu entorn. Exactament el que permet la segona llei per a sistemes oberts.",
+              "feedbackWrong": "La fotosíntesi és un sistema obert: intercanvia energia amb l'entorn (llum entrant, calor i O₂ sortint). La segona llei s'aplica a sistemes aïllats. En un sistema obert, l'entropia local pot disminuir si l'entropia del voltant augmenta prou per compensar-la."
+            },
+            {
+              "type": "debate",
+              "question": "La termodinàmica descriu la vida com un sistema que manté l'ordre consumint energia lliure. Aquesta descripció física de la vida esgota el que és 'vida', o hi ha aspectes que escapen a la física i la química?",
+              "positionA": {
+                "label": "La física és suficient",
+                "argument": "La vida és química complexa i termodinàmica de no equilibri. No hi ha cap propietat de la vida — metabolisme, reproducció, evolució, fins i tot la consciència — que requereixi principis que vagin més allà de la física i la química. El que sembla misteriós és simplement complexitat emergent."
+              },
+              "positionB": {
+                "label": "Hi ha aspectes que la física no captura",
+                "argument": "La física descriu el substrat de la vida, però no el seu significat. L'experiència subjectiva (la consciència, el dolor, la bellesa) no sembla reduïble a equacions termodinàmiques. La física diu 'com'; la pregunta 'per qué' la vida té valor subjectiu segueix sense resposta física."
+              },
+              "reflection": "La física pot descriure completament el 'com' sense que el 'per qué' sigui accessible per la física.",
+              "context": "El filòsof David Chalmers anomena 'el problema difícil de la consciència' la qüestió de per qué els processos físics van acompanyats d'experiència subjectiva. És el límit actual de la reducció física de la vida."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Evolució i Selecció Natural",
+              "moduleEmoji": "🦎",
+              "concept": "Vida, entropia i l'origen de les primeres cèl·lules",
+              "text": "La pregunta de com va sorgir la vida des de la química abiótica és en part una pregunta termodinàmica: com van aparèixer els primers sistemes capaços d'autoorganitzar-se i replicar-se, mantenint la seva baixa entropia? Les vesícules lipídiques que s'autoassemblen espontàniament i els cicles autocatalítics d'ARN son hipòtesis sobre com la termodinàmica de no equilibri podria haver donat lloc als primers precursors de la vida."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

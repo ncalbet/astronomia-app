@@ -16,7 +16,7 @@
 
 import storage from './storageProvider'
 
-export const DATA_VERSION = 11  // v11: sistema d'àrees + migració no destructiva
+export const DATA_VERSION = 12  // v12: nous mòduls biologia, física i filosofia (33-38, 08-bio, 09-fp, 30-if)
 
 const VERSION_KEY = 'data_version'
 

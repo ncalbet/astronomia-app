@@ -1,0 +1,675 @@
+{
+  "id": "module-37-electromagnetisme",
+  "title": "Electromagnetisme",
+  "emoji": "⚡",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "electricitat",
+      "title": "Electricitat i magnetisme",
+      "icon": "🔌",
+      "description": "Càrregues, camps, circuits, inducció i ones electromagnètiques",
+      "style": "Fonamental · dels fenòmens a les lleis",
+      "lessons": [
+        {
+          "id": "ele-01",
+          "title": "La força elèctrica: càrregues i Coulomb",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan froteges un globus amb llana i l'acosteges al teu cabell, els cabells s'aixequen. Quan poses dues carrogues elèctriques properes, es repel·leixen o s'atrauen. Quan un llamp cau durant una tempesta, descàrregues de milions de volts il·luminen el cel. Tots aquests fenòmens, de l'estàtic del cabell al llamp, son la mateixa força: l'electricitat."
+            },
+            {
+              "type": "key-idea",
+              "text": "Existeixen dos tipus de càrrega elèctrica: positiva i negativa. Càrregues del mateix signe es repel·leixen; de signes oposats s'atrauen. La llei de Coulomb descriu la força entre dues càrregues: F = k·q₁·q₂/r². Com la gravetat, és una llei d'invers del quadrat, però pot ser tant atractiva com repulsiva."
+            },
+            {
+              "type": "comparison",
+              "title": "Força gravitatòria vs. força elèctrica",
+              "labelA": "Gravetat (Newton)",
+              "labelB": "Força elèctrica (Coulomb)",
+              "items": [
+                {
+                  "label": "Tipus",
+                  "a": "Sempre atractiva",
+                  "b": "Atractiva (càrregues oposades) o repulsiva (mateixes)"
+                },
+                {
+                  "label": "Intensitat relativa",
+                  "a": "Molt feble: la més dèbil de les quatre forces",
+                  "b": "~10³⁶ vegades més forta que la gravetat entre protons"
+                },
+                {
+                  "label": "Llei",
+                  "a": "F = G·m₁·m₂/r²",
+                  "b": "F = k·q₁·q₂/r²"
+                },
+                {
+                  "label": "Per qué no domina",
+                  "a": "Domina a escala cosmològica: les masses sempre sumen",
+                  "b": "La matèria és elèctricament neutra en conjunt: càrregues + i - es cancel·len"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la força elèctrica és 10³⁶ vegades més forta que la gravetat i tot i així no ho sembla",
+              "content": "La força elèctrica entre dos electrons és 4,2 × 10⁴² vegades major que la força gravitatòria entre ells. I tot i així, la gravetat és la força que organitza l'univers a gran escala. Per qué? Perquè la matèria ordinària és elèctricament neutra: els àtoms contenen exactament els mateixos protons positius i electrons negatius. Les forces elèctriques positives i negatives es cancel·len quasi perfectament. La gravetat no té signe negatiu: totes les masses s'atrauen i les contribucions sempre sumen. Per a objectes grans, la petitíssima força gravitatòria acumulada supera les forces elèctriques que es cancel·len."
+            },
+            {
+              "type": "prediction",
+              "question": "Si poses una esfera de coure (conductor) carregada positivament a prop d'una esfera neutra de coure, les dues esferes s'atrauen o es repel·leixen?",
+              "hint": "Pensa en com es distribuïran les càrregues mòbils de l'esfera neutra quan s'acosta la carregada."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ele-01-01",
+              "style": "multiple-choice",
+              "question": "La distància entre dues càrregues elèctriques es redueix a la meitat. Com canvia la força elèctrica entre elles?",
+              "options": [
+                "Es redueix a la meitat",
+                "Es dobla",
+                "Es quadruplica",
+                "No canvia si les càrregues no canvien"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La llei de Coulomb (F ∝ 1/r²) és una llei d'invers del quadrat. Si r es redueix a la meitat, r² es redueix a un quart, i F augmenta en un factor 4. La mateixa relació s'aplica a la gravetat. Les lleis d'invers del quadrat son comunes a la física perquè reflecteixen la dilució d'un efecte en tres dimensions espacials.",
+              "feedbackWrong": "F ∝ 1/r². Si r es fa r/2, llavors r² es fa r²/4, i la força F és proporcional a 4/r²: es quadruplica. La relació és quadràtica, no lineal."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ele-01-02",
+              "style": "detect-error",
+              "statement": "La càrrega elèctrica pot crear-se i destruir-se en processos com la fregada: quan frotem un globus amb llana, el globus guanya càrrega negativa perquè la llana la crea.",
+              "isCorrect": false,
+              "feedbackExplanation": "Error fonamental. La càrrega elèctrica es conserva: no es crea ni es destrueix. En fregar el globus amb llana, electrons es transfereixen de la llana al globus (o viceversa). El globus guanya càrrega negativa perquè rep electrons de la llana — que per tant es queda amb càrrega positiva. La càrrega total del sistema (globus + llana) es manté zero. La conservació de la càrrega elèctrica és una de les lleis de conservació fonamentals de la física."
+            }
+          ]
+        },
+        {
+          "id": "ele-02",
+          "title": "Camp elèctric i potencial",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La idea de força a distància pertorbava Newton, i va pertorbar igualment els físics del segle XIX. Michael Faraday va proposar una idea nova: no pensem en la força directa entre càrregues, sinó en el camp que una càrrega crea al seu voltant. Qualsevol altra càrrega que arribi respon al camp, no a l'acció directa de la primera. El concepte de camp va canviar la física per sempre."
+            },
+            {
+              "type": "key-idea",
+              "text": "El camp elèctric en un punt és la força per unitat de càrrega que actuaria sobre una càrrega de prova en aquell punt. El potencial elèctric és l'energia per unitat de càrrega. La diferència de potencial (voltatge) entre dos punts és el treball per unitat de càrrega per moure una càrrega entre ells. Volt = joule per coulomb."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el concepte de camp va ser revolucionari",
+              "content": "Amb la força de Coulomb, la interacció entre dues càrregues sembla instantània a distància. Però qué passa si una càrrega es mou? La informació del seu moviment pot viatjar a la velocitat de la llum? La idea del camp resol el problema: quan una càrrega s'accelera, modifica el camp elèctric al seu voltant, i aquesta pertorbació es propaga pel camp a la velocitat de la llum. Les interaccions no son instantànies: es propaguen com ondulacions en el camp. Aquesta idea va ser la porta d'entrada de Faraday i Maxwell a les ones electromagnètiques — i és la base conceptual de tota la física de camps moderna, inclosa la relativitat general."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ele-02-01",
+              "style": "multiple-choice",
+              "question": "Una bateria de 12 V mou una càrrega de 2 C d'un terminal negatiu al positiu. Quin és el treball realitzat per la bateria?",
+              "options": [
+                "6 J",
+                "12 J",
+                "24 J",
+                "0,17 J"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. W = q·ΔV = 2 C × 12 V = 24 J. El voltatge és, per definició, el treball per unitat de càrrega: V = W/q. Per tant W = q·V. La bateria ha de fer 24 J de treball per moure 2 coulombs a través d'una diferència de potencial de 12 volts.",
+              "feedbackWrong": "W = q × ΔV (treball = càrrega × diferència de potencial). W = 2 C × 12 V = 24 J. El volt es defineix com un joule per coulomb (V = J/C), de manera que C × V = J."
+            },
+            {
+              "type": "misconception",
+              "belief": "El corrent elèctric en un cable és el moviment d'electrons a gran velocitat, quasi instantani.",
+              "reality": "Els electrons en un conductor es mouen molt lentament: la velocitat de deriva en un cable domèstic és d'ordre de mm/hora. El que es propaga quasi instantàniament (a una fracció de la velocitat de la llum) és la pertorbació del camp elèctric al llarg del cable. Els electrons ya estaven allà; el camp els 'empenys' tots quasi simultàniament.",
+              "why": "Confondre la velocitat de deriva dels electrons amb la velocitat de propagació del senyal elèctric. Quan encens un llum, la llum s'encén quasi immediatament no perquè els electrons volin des del generador, sinó perquè la pertorbació del camp arriba a tots els electrons del circuit gairebé alhora."
+            },
+            {
+              "type": "reflection",
+              "question": "El camp elèctric 'existeix' en l'espai buit fins i tot quan no hi ha cap càrrega de prova per mesurar-lo. És el camp una entitat real o una eina matemàtica útil?",
+              "prompt": "Faraday creia que els camps eren tan reals com la matèria. Einstein els va tractar com entitats físiques fonamentals."
+            }
+          ]
+        },
+        {
+          "id": "ele-03",
+          "title": "Circuits elèctrics: corrents, resistències i llei d'Ohm",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Alessandro Volta va inventar la primera bateria el 1800 i va enviar-ne una còpia a Napoleó. Georg Ohm va publicar la relació entre voltatge, corrent i resistència el 1827. El món de la tecnologia elèctrica — des de telègraf fins a smartphones — es basa en un conjunt de principis sorprenentment senzills descoberts en poques dècades del segle XIX."
+            },
+            {
+              "type": "key-idea",
+              "text": "La llei d'Ohm: el corrent (I) a través d'un conductor és proporcional al voltatge (V) aplicat i inversament proporcional a la resistència (R): I = V/R. La potència dissipada en una resistència és P = V·I = I²·R. En circuits en sèrie, les resistències sumen; en circuits en paral·lel, els inversos sumen."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ele-03-01",
+              "style": "multiple-choice",
+              "question": "Una bombeta de 60 W connectada a 220 V. Quina és la seva resistència i el corrent que hi passa?",
+              "options": [
+                "R = 807 Ω, I = 0,27 A",
+                "R = 13.200 Ω, I = 60 A",
+                "R = 3,67 Ω, I = 60 A",
+                "R = 220 Ω, I = 1 A"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Correcte. P = V²/R → R = V²/P = (220)²/60 = 48.400/60 ≈ 807 Ω. Corrent: I = V/R = 220/807 ≈ 0,27 A. O directament: I = P/V = 60/220 ≈ 0,27 A.",
+              "feedbackWrong": "Usa P = V·I per trobar I = P/V = 60/220 ≈ 0,27 A. I usa la llei d'Ohm: R = V/I = 220/0,27 ≈ 807 Ω. O directament: R = V²/P = 48.400/60 ≈ 807 Ω."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ele-03-02",
+              "style": "true-false",
+              "question": "Dos resistors en paral·lel sempre produeixen una resistència equivalent menor que qualsevol dels dos resistors individuals.",
+              "correct": true,
+              "feedbackCorrect": "Cert. En paral·lel: 1/R_eq = 1/R₁ + 1/R₂. El resultat és sempre menor que el menor dels dos. Intuïtivament: en paral·lel s'ofereixen dos camins per al corrent, reduint la resistència total. En sèrie, en canvi, les resistències sumen i el resultat és sempre major que el major dels dos.",
+              "feedbackWrong": "Sí és cert. En paral·lel, 1/R_eq = 1/R₁ + 1/R₂. Per exemple, dues resistències de 10 Ω en paral·lel donen R_eq = 5 Ω — menor que qualsevol de les dues. Físicament: dos camins en paral·lel faciliten el pas del corrent, reduint la resistència total."
+            },
+            {
+              "type": "expandable",
+              "label": "Corrent continu vs. corrent altern: la guerra de les corrents",
+              "content": "Thomas Edison va apostar per la corrent contínua (DC) per a la xarxa elèctrica. Nikola Tesla (treballant per a Westinghouse) va apostar per la corrent alterna (AC). La 'guerra de les corrents' (1880s-1890s) va ser una de les batalles tecnològiques i comercials més enceses de la historia. Tesla va guanyar: la corrent alterna permet transformar el voltatge fàcilment (transformadors), reduint les pèrdues en transmissió a llarga distància. Avui, els sistemes de distribució d'electricitat son en AC. Però els dispositius electrònics, bateries i renovables treballen en DC: el conflicte entre AC i DC és tan actual com els carregadors dels nostres telèfons."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Termodinàmica",
+              "moduleEmoji": "🔥",
+              "concept": "La calor de Joule i l'eficiència energètica",
+              "text": "Quan el corrent passa per una resistència, l'energia es dissipa com a calor (efecte Joule): P = I²·R. Aquesta és la pèrdua inevitable en qualsevol sistema de transmissió elèctrica. Les línies d'alta tensió (centenars de kV) redueixen el corrent I, minimitzant les pèrdues I²·R. Transformar voltatge alt en corrent petit és la clau per transmetre electricitat eficientment a llarga distància."
+            }
+          ]
+        },
+        {
+          "id": "ele-04",
+          "title": "Magnetisme: la força del moviment",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant mil·lennis, els humans van conèixer imants sense entendre-'ls. Faraday i Ampère van descobrir que el magnetisme i l'electricitat son les dues cares d'una mateixa moneda: els corrents elèctrics creen camps magnètics, i els camps magnètics exerceixen forces sobre corrents elèctrics. El 1820, Hans Christian Ørsted va demostrar-ho casualment amb una brúixola propera a un cable conduint corrent."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un corrent elèctric crea un camp magnètic al seu voltant (llei d'Ampère). Un camp magnètic exerceix força sobre càrregues en moviment i sobre corrents elèctrics (força de Lorentz: F = q·v×B). Els dos fenòmens son inseparables: l'electricitat genera magnetisme i el magnetisme mou les càrregues elèctriques."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué tots els imants son dipols i no existeixen monopols magnètics",
+              "content": "Les càrregues elèctriques poden existir soles (monopols elèctrics: un sol electró negatiu o un protó positiu). Però els imants sempre tenen dos pols: si talles un imant per la meitat, obtens dos imants, cada un amb nord i sud. Fins avui, mai s'ha detectat un monopol magnètic. Les equacions de Maxwell descriuen un univers on no hi ha monopols magnètics (les línies de camp magnètic sempre son tancades). Però diverses teories de física d'alta energia (Gran Unificació) prediuen que els monopols magnètics haurien d'existir en quantitats molt petites des del Big Bang. La seva no-detecció és un dels misteris oberts de la cosmologia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ele-04-01",
+              "style": "multiple-choice",
+              "question": "Un electró es mou paral·lelament a un cable que condueix corrent. Qué passa?",
+              "options": [
+                "No hi ha cap força sobre l'electró perquè no hi ha camp elèctric fora del cable",
+                "El cable atrau o repel·leix l'electró per la força magnètica que crea el corrent del cable",
+                "L'electró accelera en la mateixa direcció que el corrent",
+                "L'electró no experimenta cap força perquè el cable és elèctricament neutre"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El corrent del cable crea un camp magnètic circular al seu voltant. L'electró en moviment és una càrrega en moviment en un camp magnètic: rep una força de Lorentz (F = q·v×B) perpendicular tant a la seva velocitat com al camp magnètic. La força l'atraurà o repel·lirà depenent de la direcció relativa del moviment de l'electró i del corrent.",
+              "feedbackWrong": "Un cable que condueix corrent crea un camp magnètic al seu voltant, tot i que sigui elèctricament neutre globalment. Una càrrega en moviment en un camp magnètic experimenta la força de Lorentz. Per tant, l'electró en moviment sí experimenta una força a causa del camp magnètic del cable."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ele-04-02",
+              "style": "detect-error",
+              "statement": "La brúixola apunta al nord perquè el pol nord magnètic de la Terra es troba al pol nord geogràfic.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha un error de nomenclatura. El pol nord d'una brúixola apunta cap al nord geogràfic de la Terra. Però en termes magnètics, el pol que atrau el nord d'un imant ha de ser un pol sud magnètic (pols oposats s'atrauen). Per tant, el que popularment s'anomena 'pol nord magnètic de la Terra' és en realitat un pol sud magnètic. La nomenclatura és confusa i histèricament fixada: el 'nord magnètic' es va definir per convenció com el lloc cap on apunta la brúixola, no pel tipus de pol magnètic que realment hi ha."
+            }
+          ]
+        },
+        {
+          "id": "ele-05",
+          "title": "Inducció electromagnètica: el motor del món modern",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1831, Michael Faraday va descobrir que un camp magnètic variable en el temps crea un camp elèctric — i per tant pot induir un corrent en un conductor sense cap contacte físic. Va ser la descoberta que va fer possible generadors, transformadors i motors elèctrics. Sense la inducció electromagnètica no hi hauria electricitat a la xarxa."
+            },
+            {
+              "type": "key-idea",
+              "text": "La llei de Faraday: un camp magnètic que varia en el temps indueix un voltatge en un circuit conductor. La llei de Lenz diu que el corrent induït sempre s'oposa al canvi que el causa. Principi del generador: rotar un conductor en un camp magnètic genera corrent altern. Principi del motor: un corrent en un camp magnètic genera força mecànica."
+            },
+            {
+              "type": "expandable",
+              "label": "Com funciona un generador i per qué tot el nostre sistema elèctric depèn d'ell",
+              "content": "Un generador és mecanisme que rota una bobina de filferro en un camp magnètic. Mentre la bobina gira, el flux magnètic a través d'ella canvia contínuament, i la llei de Faraday fa que s'indueixi un voltatge alternant. El motor elèctric és el generador a l'inrevés: fem passar corrent per la bobina en el camp magnètic i la força de Lorentz la fa girar. Les turbines de les centrals elèctriques (de vapor, hidràuliques, eòliques) son totes generadors: el que canvia és la font d'energia que fa girar la turbina (vapor calent, caiguda d'aigua, vent). La inducció electromagnètica és el mecanisme comú a totes elles."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ele-05-01",
+              "style": "true-false",
+              "question": "Una bobina de filferro estàtica en un camp magnètic constant no experimenta cap força electromagnètica ni genera cap voltatge.",
+              "correct": true,
+              "feedbackCorrect": "Cert. La llei de Faraday diu que el voltatge induït és proporcional a la variació del flux magnètic en el temps (dΦ/dt). Si el camp és constant i la bobina és estàtica, el flux no canvia i no hi ha voltatge induït. Cal canvi: o bé el camp varia, o bé la bobina es mou (canviant el flux a través d'ella). Inducció = canvi, no presència.",
+              "feedbackWrong": "La inducció electromagnètica requereix canvi en el flux magnètic a través del circuit. Si el camp és constant i la bobina és estàtica, el flux no canvia i no hi ha voltatge induït. La presència d'un camp magnètic no basta: cal que el flux canviï."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ele-05-02",
+              "style": "multiple-choice",
+              "question": "Per qué la càrrega inductiva dels telèfons (wireless charging) funciona sense cap cable físic?",
+              "options": [
+                "Usa ones de ràdio per transmetre energia a distància",
+                "Una bobina en el carregador crea un camp magnètic variable que indueix un corrent en una bobina del telèfon",
+                "Usa un raig làser d'infraroig per transmetre calor que es converteix en electricitat",
+                "El telèfon absorbeix la càrrega estàtica de l'ambient"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La càrrega per inducció usa el principi de Faraday: una bobina en el carregador porta un corrent altern que crea un camp magnètic variable. Quan el telèfon s'apropa prou, la bobina del telèfon es troba en aquest camp magnètic variable i s'hi indueix un corrent que carrega la bateria. La transferència d'energia és per inducció magnètica, sense contacte físic.",
+              "feedbackWrong": "La càrrega inductiva és una aplicació directa de la llei de Faraday: un camp magnètic variable (creat per un corrent altern en la bobina del carregador) indueix un corrent en la bobina del telèfon. No usa ones de ràdio (que transmeten informació, no potència significativa) ni làser."
+            }
+          ]
+        },
+        {
+          "id": "ele-06",
+          "title": "Ones electromagnètiques: llum, ràdio i raigs X",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1888, Heinrich Hertz va generar i detectar ones de ràdio en el seu laboratori. Les havia predit Maxwell 23 anys abans, a partir de les seves equacions. Quan Hertz va ser preguntat per les aplicacions pràctiques del seu descobriment, va respondre: 'Cap.' Dotze anys després, Guglielmo Marconi feia transmissions transatlàntiques per ràdio."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les ones electromagnètiques son pertorbacions acoblades dels camps elèctric i magnètic que es propaguen a la velocitat de la llum (c = 3 × 10⁸ m/s) sense necessitar cap medi. L'espectre electromagnètic inclou, de menor a major freqüència: ones de ràdio, microones, infraroig, llum visible, ultraviolat, raigs X i raigs gamma."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1865",
+                  "title": "Maxwell prediu les ones electromagnètiques",
+                  "text": "A partir de les seves equacions, calcula que les pertorbacions dels camps es propaguen a una velocitat que coincideix exactament amb la velocitat de la llum mesurada. La llum és una ona electromagnètica."
+                },
+                {
+                  "year": "1888",
+                  "title": "Hertz genera ones de ràdio",
+                  "text": "Confirma experimentalment les prediccions de Maxwell. Mesura la longitud d'ona i la velocitat. La unitat de freqüència porta el seu nom."
+                },
+                {
+                  "year": "1895",
+                  "title": "Röntgen descobreix els raigs X",
+                  "text": "Primer Nobel de Física (1901). Primera radiografia mèdica de la mà de la seva esposa."
+                },
+                {
+                  "year": "1900",
+                  "title": "Planck i la crisi del 'cos negre'",
+                  "text": "La radiació electromagnètica d'un cos calent no es pot explicar amb ones clàssiques. Planck proposa quantitzar l'energia: neix la mecànica quàntica."
+                },
+                {
+                  "year": "1901",
+                  "title": "Marconi: ràdio transatlàntica",
+                  "text": "Les ones de ràdio travessen l'Atlàntic. La comunicació a distància es transforma per sempre."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ele-06-01",
+              "style": "multiple-choice",
+              "question": "Quin tipus d'ona electromagnètica té més energia per fotó?",
+              "options": [
+                "Ones de ràdio (freqüències baixes, longituds d'ona llargues)",
+                "Llum visible (freqüències mitjanes)",
+                "Raigs gamma (freqüències molt altes, longituds d'ona molt curtes)",
+                "Microones (entre ràdio i infraroig)"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. L'energia per fotó és E = h·f (Planck), proporcional a la freqüència. Com més alta la freqüència (i menor la longitud d'ona), més energia per fotó. Els raigs gamma (d'emissions nuclears) i els raigs X (d'electrons d'alta energia) son els extrems d'alta freqüència i alta energia. Per això son ionitzants i biològicament perillosos.",
+              "feedbackWrong": "L'energia d'un fotó és E = h·f: proporcional a la freqüència. El rang de l'espectre va de ràdio (freqüència baixa, energia baixa) a raigs gamma (freqüència altíssima, energia altíssima). Els raigs gamma poden ionitzar àtoms i danyar el DNA per la seva alta energia per fotó."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Mecànica Quàntica",
+              "moduleEmoji": "🌀",
+              "concept": "La dualitat ona-partícula de la llum",
+              "text": "La llum és una ona electromagnètica — i al mateix temps un flux de fotons (partícules). La dualitat ona-partícula no és una contradicció: reflecteix que la llum (i tota la matèria quàntica) no s'ajusta als conceptes clàssics d'ona ni partícula. La crisi del cos negre que Planck va descobrir amb la radiació electromagnètica va ser el primer pas cap a la mecànica quàntica."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maxwell",
+      "title": "La unificació de Maxwell",
+      "icon": "🌊",
+      "description": "Les equacions de Maxwell, la llum com a ona, i el camí a la relativitat",
+      "style": "Conceptual · de la unificació a les implicacions profundes",
+      "lessons": [
+        {
+          "id": "max-01",
+          "title": "Maxwell: el Newton de l'electromagnetisme",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1864, James Clerk Maxwell va publicar 'Una teoria dinàmica del camp electromagnètic'. En vint equacions (condensades posteriorment en quatre per Heaviside), va unificar l'electricitat, el magnetisme i l'òptica en un sol marc matemàtic. Einstein va dir que el salt de Faraday i Maxwell a les seves equacions era el canvi més profund en la física des de Newton. I les equacions de Maxwell van conduir directament a la relativitat especial."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les quatre equacions de Maxwell descriuen completament l'electromagnetisme clàssic: (1) les càrregues elèctriques creen camps elèctrics (llei de Gauss); (2) no existeixen monopols magnètics; (3) els camps magnètics variables creen camps elèctrics (Faraday); (4) els corrents i els camps elèctrics variables creen camps magnètics (Ampère-Maxwell). De les quatre equacions emergeix que els camps poden propagar-se sols com a ones a la velocitat de la llum."
+            },
+            {
+              "type": "expandable",
+              "label": "El terme de desplaçament: la genialitat afegida per Maxwell",
+              "content": "La llei d'Ampère original deia que els corrents creen camps magnètics. Però Maxwell va notar una inconsistència matemàtica: quan el corrent carrega un condensador, no hi ha corrent físic entre les plaques, però hi ha un camp elèctric que canvia ràpidament. Va afegir un terme nou — el corrent de desplaçament — proporcional a la variació del camp elèctric en el temps. Aquesta addició no estava motivada per cap mesura experimental: era necessitat de consistència matemàtica. I aquesta sola addició és el que fa que les equacions permetin ones electromagnètiques: el camp elèctric variable crea camp magnètic (Ampère-Maxwell) i el camp magnètic variable crea camp elèctric (Faraday). Els dos camps s'alimenten l'un a l'altre i es propaguen junts per l'espai. Maxwell va predir una ona que viatja a 3 × 10⁸ m/s — exactament la velocitat de la llum mesurada. La llum és una ona electromagnètica."
+            },
+            {
+              "type": "quote",
+              "text": "Les equacions de Maxwell han canviat el món més que qualsevol altra cosa des de la Revolució Industrial.",
+              "author": "Richard Feynman"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-max-01-01",
+              "style": "multiple-choice",
+              "question": "Quin resultat fonamental va obtenir Maxwell de les seves equacions unificades?",
+              "options": [
+                "Que la velocitat de la llum depèn del medi on viatja",
+                "Que pertorbacions dels camps elèctric i magnètic es propaguen en el buit a una velocitat que coincideix exactament amb la velocitat de la llum mesurada — la llum és una ona electromagnètica",
+                "Que l'electricitat i el magnetisme son forces distintes que mai es poden unificar completament",
+                "Que la càrrega elèctrica és discreta (quantitzada)"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Maxwell va calcular que les ones electromagnètiques predites per les seves equacions viatjarien a √(1/ε₀μ₀) ≈ 3×10⁸ m/s — exactament la velocitat de la llum ja mesurada experimentalment. Va concloure que la llum és una ona electromagnètica, unificant l'òptica amb l'electricitat i el magnetisme.",
+              "feedbackWrong": "La gran conclusió de Maxwell va ser que les seves equacions predien ones de camps electromagnètics que viatjaven a la velocitat de la llum. Aquesta identitat — ones EM i llum viagen a la mateixa velocitat — va portar a la conclusió que la llum és una ona electromagnètica. Una de les unificacions més belles de la história de la física."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-max-01-01",
+              "question": "Maxwell va afegir el 'corrent de desplaçament' per raons de consistència matemàtica, sense cap evidència experimental directa. Hertz el va confirmar experimentalment 23 anys més tard. Era científicament legítim?",
+              "options": [
+                "No: en ciència, les teories han d'estar motivades per observació, no per elegància matemàtica",
+                "Sí: la consistència matemàtica és un criteri legítim i potent. La simetria i la coherència interna han guiat molts descobriments fonamentals",
+                "Depèn: va tenir sort que fos correcte. Podria haver estat una fal·làcia matemàtica sense correlat físic"
+              ],
+              "correct": 1,
+              "explanation": "La física del segle XX ha demostrat repetidament que la consistència i la simetria matemàtica son guies poderoses cap a la veritat física. Dirac va predir l'antimatèria per raons matemàtiques (1928) i va ser confirmada el 1932. La teoria quàntica de camps, la supersimetria, la teoria de cordes: totes estan fortament guiades per criteris matemàtics. La qüestió filosòfica de per qué l'univers sembla seguir una matemàtica elegant és un misteri obert que Einstein va anomenar 'la incomprensible comprehensibilitat de l'univers'."
+            }
+          ]
+        },
+        {
+          "id": "max-02",
+          "title": "La velocitat de la llum i la crisi del 1905",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Les equacions de Maxwell predien que la llum viatja a c = 3×10⁸ m/s. Però... respecte a qué? Les ones de so viatgen respecte a l'aire. Les ones d'aigua respecte a l'aigua. La llum havia de tenir un medi — l'èter. I si hi havia èter, la velocitat de la llum hauria de canviar depenent del moviment de l'observador respecte a l'èter. En 1887, Michelson i Morley van mesurar: la velocitat de la llum és la mateixa en totes les direccions, independentment del moviment de la Terra. L'èter no existia. La física estava en crisi."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'experiment de Michelson-Morley (1887) va mostrar que la velocitat de la llum és sempre la mateixa independentment del moviment de l'observador. Això contradiu la mecànica de Newton (on les velocitats sumen). Einstein va prendre aquest resultat com a punt de partida de la relativitat especial: la velocitat de la llum és una constant universal, i les lleis de la física son les mateixes per a tots els observadors en moviment uniforme."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-max-02-01",
+              "style": "multiple-choice",
+              "question": "Si una nau es mou a 0,5c (la meitat de la velocitat de la llum) i emet un raig de llum en la seva direcció de moviment, a quina velocitat es mou el raig de llum per un observador en repòs?",
+              "options": [
+                "1,5c (0,5c + c)",
+                "0,5c",
+                "c (exactament la velocitat de la llum)",
+                "Depèn de la massa de la nau"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte: c. Aquesta és la conclusió sorprenent de la relativitat especial. La velocitat de la llum és una constant universal: sempre c, independentment del moviment de la font o l'observador. Amb la mecànica de Newton esperaríem 1,5c — però la relativitat diu que l'espai i el temps es comprimeixen de manera que la llum sempre es mesura a c.",
+              "feedbackWrong": "La intuïció newtoniana diria 1,5c (sumant velocitats). Però la relativitat especial estableix que la velocitat de la llum és una constant universal: sempre c per a qualsevol observador, independentment del moviment. Per a objectes que no son llum, les velocitats no sumen linealment a velocitats relativistes."
+            },
+            {
+              "type": "expandable",
+              "label": "L'experiment de Michelson-Morley: la mesura que va canviar la física",
+              "content": "Albert Michelson i Edward Morley van construir el 1887 un interferòmetre de precisió exquisida. La idea: si la Terra es mou a través de l'èter, la velocitat de la llum hauria de ser diferent en la direcció del moviment de la Terra que en la perpendicular (com un vaixell que neda contra el corrent vs. perpendicular). L'experiment va mesurar diferències de velocitat de llum mil vegades menors que el que l'hipòtesi de l'èter predia. El resultat va ser considerat un fracàs per Michelson (no va trobar el que buscava). Però el 'fracàs' va ser el resultat més important de la física del segle XIX: no hi ha èter, la velocitat de la llum és constant. Einstein el va usar com a punt de partida per demolir la mecànica newtoniana."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Relativitat",
+              "moduleEmoji": "🌀",
+              "concept": "La relativitat especial com a solució a la crisi de Maxwell",
+              "text": "Les equacions de Maxwell i l'experiment de Michelson-Morley van crear una contradicció irresoluble dins la mecànica newtoniana. Einstein va resoldre la contradicció el 1905 amb la relativitat especial: en lloc de modificar les equacions de Maxwell, va modificar les lleis del moviment de Newton. El temps i l'espai no son absoluts: son relatius a l'observador. Les equacions de Maxwell ja eren 'correctes' — Newton era l'aproximació."
+            }
+          ]
+        },
+        {
+          "id": "max-03",
+          "title": "L'espectre electromagnètic i les seves aplicacions",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La llum visible que podem percebre és una franja ínfima de l'espectre electromagnètic: les longituds d'ona entre 380 nm (violeta) i 700 nm (vermell). Però les ones electromagnètiques existeixen en un rang de freqüències de més de 20 ordres de magnitud, des d'ones de ràdio de centenars de metres fins a raigs gamma de femtòmetres. Cada franja de l'espectre ha generat tecnologies transformadores."
+            },
+            {
+              "type": "comparison",
+              "title": "L'espectre electromagnètic",
+              "labelA": "Tipus d'ona",
+              "labelB": "Aplicacions principals",
+              "items": [
+                {
+                  "label": "Ones de ràdio (m a km)",
+                  "a": "Baixa freqüència, baixa energia per fotó",
+                  "b": "Ràdio AM/FM, televisió, comunicació mòbil, radar"
+                },
+                {
+                  "label": "Microones (mm a cm)",
+                  "a": "Freqüència GHz",
+                  "b": "Wi-Fi, Bluetooth, forn microones, comunicació per satèl·lit"
+                },
+                {
+                  "label": "Infraroig (μm a mm)",
+                  "a": "Emès per cossos calents",
+                  "b": "Sensors tèrmics, comandaments a distància, imatge tèrmica"
+                },
+                {
+                  "label": "Visible (380-700 nm)",
+                  "a": "Detectat per la retina humana",
+                  "b": "Visió, fotografia, fibra òptica"
+                },
+                {
+                  "label": "Ultraviolat (nm)",
+                  "a": "Ionitzant a altes dosis",
+                  "b": "Esterilització, bronzejat, detecció de falsificacions"
+                },
+                {
+                  "label": "Raigs X (pm a nm)",
+                  "a": "Alta energia, penetren teixits tous",
+                  "b": "Radiologia mèdica, tomografia, cristal·lografia"
+                },
+                {
+                  "label": "Raigs gamma (< pm)",
+                  "a": "Molt alta energia, ionitzants",
+                  "b": "Medicina nuclear, PET, tractament de tumors"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-max-03-01",
+              "style": "multiple-choice",
+              "question": "Per qué els telèfons mòbils 5G usen freqüències molt més altes (millimètriques) que els 4G? Quin és el compromís?",
+              "options": [
+                "Les freqüències més altes transmeten més dades però penetren menys els obstacles (parets, pluja) i requereixen antenes molt més denses",
+                "Les freqüències més altes son menys perilloses biològicament i per tant estan regulades de manera menys estricta",
+                "Les freqüències més altes consumeixen menys energia i per tant son millors per als dispositius mòbils",
+                "Les freqüències millimètriques reboten millor als edificis i per tant cobreixen àrees més grans"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. Freqüència més alta = més amplada de banda = més dades per segon. Però les ones millimètriques s'absorbeixen fàcilment per parets, fulles, pluja i fins i tot la humitat de l'aire. Penetren poc. Requereixen moltes antenes properes entre si (cells petites). És el compromís fonamental del 5G: velocitats molt altes a curta distància, cobertura limitada sense infraestructura densa.",
+              "feedbackWrong": "El compromís físic del 5G és entre velocitat (freqüències altes permeten més dades) i penetració (freqüències altes s'absorbeixen fàcilment per obstacles). Freqüències altes ≠ major cobertura: és exactament a l'inrevés."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-max-03-02",
+              "style": "detect-error",
+              "statement": "La radiació de microones dels forns és perillosa per als humans perquè les microones son ionitzants i danyen el DNA com els raigs X.",
+              "isCorrect": false,
+              "feedbackExplanation": "Error fonamental. Les microones no son ionitzants: l'energia per fotó de les microones (freqüències de GHz) és molt menor que l'energia necessària per ionitzar àtoms o danyar directament el DNA (~10 eV). Les microones escalfen els aliments fent vibrar les molècules d'aigua per ressonància, però no trenquen enllaços químics ni ionitzen. Les radiacions ionitzants (raigs X, UV intens, gamma) sí que poden danyar el DNA. El debat real sobre les microones dels mòbils és sobre si el calor local causat per l'absorció de microones pot tenir efectes biològics — qüestió diferent."
+            }
+          ]
+        },
+        {
+          "id": "max-04",
+          "title": "Electromagnetisme i tecnologia del segle XXI",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Tota la tecnologia digital — ordinadors, smartphones, internet, GPUs — opera gràcies al control precís d'electrons en semiconductors. La fotografia digital, la fibra òptica, els làsers, els panells solars, els LEDs: tot és electromagnetisme aplicat. Vivim literalment dins un món construït per les equacions de Maxwell."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els semiconductors (silici, germani, arsènic de gal·li) son materials amb conductivitat intermèdia que es pot controlar amb voltatge (transistors) o llum (fotodíodes, cèl·lules solars). El transistor (1947) és l'element bàsic de tota l'electrònica digital. Un processador modern en conté més de 10.000 milions."
+            },
+            {
+              "type": "expandable",
+              "label": "La llei de Moore i els seus límits físics",
+              "content": "El 1965, Gordon Moore va observar que el nombre de transistors en un microprocessador es dobla aproximadament cada dos anys (llei de Moore). Ha estat vàlida durant 60 anys. Però la mida dels transistors s'aproxima als límits atòmics: transistors de 2 nm (pocs àtoms de gruix) ja es produeixen industrialment. A escales tan petites, els efectes quàntics (efecte túnel) fan que els electrons 'travessin' barreres on no haurien de poder anar. La llei de Moore s'està alentint. La resposta de la indústria: computació quàntica, nous materials (carboni, nanocanals), arquitectures 3D i processadors especialitzats (GPUs, NPUs per a IA)."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-max-04-01",
+              "style": "true-false",
+              "question": "La fibra òptica transmet informació com a polsos de llum perquè la llum viatja més de pressa que l'electricitat en metall.",
+              "correct": true,
+              "feedbackCorrect": "Cert, amb matisació. La velocitat de propagació del senyal en cable de coure és tipicament del 60-80% de c a causa de la permitivitat del dielèctric. En fibra òptica de vidre, la llum viatja al ~67% de c. La fibra no és sempre més ràpida en velocitat de propagació. El seu avantatge principal és l'amplada de banda: la llum (freqüències THz) pot portar moltíssima més informació que senyals elèctrics (freqüències GHz), amb moltíssimes menys pèrdues a llarga distància.",
+              "feedbackWrong": "La fibra òptica és millor que el coure principalment per l'amplada de banda (pot transmetre molta més informació per segon) i les baixes pèrdues a llarga distància, no necessàriament per ser més ràpida. De fet, la velocitat de propagació en vidre (~67% de c) pot ser similar o fins i tot menor que en alguns cables coaxials."
+            },
+            {
+              "type": "debate",
+              "question": "L'electromagnetisme ha creat la tecnologia digital que ha connectat el món i ha accelerat el progrés científic. Però també ha creat la vigilància massiva, les xarxes socials addictives i les bombes electromagnètiques. El progrés tecnològic electromanètic net ha estat positiu per a la humanitat?",
+              "positionA": {
+                "label": "Net positiu",
+                "argument": "La comunicació global, l'accés universal al coneixement, la medicina moderna, la reducció de la pobresa, la coordinació científica internacional: tot depèn de la tecnologia electromagnètica. Els problemes creats (desinformació, vigilància, armes) son problemes d'ús i governança, no de la tecnologia en si."
+              },
+              "positionB": {
+                "label": "Ambivalent o negatiu",
+                "argument": "La velocitat del canvi tecnològic supera la capacitat d'adaptació social i institucional. La vigilància massiva, la polarització algorítmica i les armes electromagnètiques creen riscos existencials que no teníem. La tecnologia amplifica la natura humana — inclosos els seus pitjors aspectes."
+              },
+              "reflection": "La física no pot respondre aquesta pregunta — però els físics hi han de tenir una postura?",
+              "context": "Científics com Oppenheimer (bomba atòmica) i molts pioners de la computació han reflexionat públicament sobre la seva responsabilitat en els usos dels seus descobriments. La relació entre ciència, tecnologia i responsabilitat moral és un debat obert."
+            }
+          ]
+        },
+        {
+          "id": "max-05",
+          "title": "Electromagnetisme i relativitat especial",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1905, Einstein tenia 26 anys i treballava com a examinador de patents a Berna. En aquell any miracle va publicar cinc articles que van transformar la física. Un d'ells — la relativitat especial — portava el títol 'Sobre l'electrodinàmica dels cossos en moviment'. La motivació explícita era resoldre la tensió entre la mecànica de Newton i les equacions de Maxwell."
+            },
+            {
+              "type": "key-idea",
+              "text": "La relativitat especial té dos postulats: (1) les lleis de la física son les mateixes per a tots els observadors en moviment uniforme (principi de relativitat); (2) la velocitat de la llum al buit és la mateixa per a tots els observadors. Les conseqüències: dilatació del temps, contracció de la longitud, equivalència massa-energia (E = mc²)."
+            },
+            {
+              "type": "expandable",
+              "label": "El magnetisme és electricitat relativista",
+              "content": "Hi ha una connexió profunda entre electricitat i magnetisme que la relativitat especial revela: el magnetisme és en realitat un efecte relativista de l'electricitat. Consider un cable neutre amb corrents: els electrons es mouen i els ions de la xarxa son estàtics. Un electró extern en repòs no sent cap força (el cable és neutre). Però si es mou paral·lelament al cable, la relativitat fa que les distàncies entre les càrregues en moviment (electrons del cable) es contreguin (contracció de Lorentz), trencant la neutralitat del cable i creant una força sobre l'electró extern. Aquesta 'força magnètica' és en realitat una força elèctrica vista des d'un sistema de referència en moviment. Electricitat i magnetisme son la mateixa força, vista des de distints marcs de referència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-max-05-01",
+              "style": "multiple-choice",
+              "question": "Un rellotge en un satèl·lit GPS (que es mou a alta velocitat) va més lent que un rellotge a terra (dilatació relativista del temps). Però els rellotges GPS també van més de pressa per la gravetat menor a l'altitud (efecte gravitacional). Quin efecte domina?",
+              "options": [
+                "L'efecte velocitat: els rellotges GPS van ~7 μs/dia més lents",
+                "L'efecte gravitacional: els rellotges GPS van ~45 μs/dia més de pressa",
+                "Es cancel·len exactament: els rellotges GPS van exactament al mateix ritme que els terrestres",
+                "El GPS no és prou precís per detectar cap d'aquests efectes"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'efecte gravitacional (relativity general) domina: +45 μs/dia. L'efecte de velocitat (relativitat especial): -7 μs/dia. Net: +38 μs/dia — els rellotges GPS van 38 microsegons per dia més de pressa que els terrestres. Si no es corregís, el GPS acumularia ~11 km d'error per dia. Totes les correcions relativistes estan programades al software del GPS.",
+              "feedbackWrong": "Ambdós efectes son reals i mesurables. L'efecte velocitat (relativitat especial) fa els rellotges GPS anar -7 μs/dia. L'efecte gravitacional (relativity general) fa els rellotges GPS anar +45 μs/dia (gravetat menor a alta altitud). El net és +38 μs/dia — corregit al software GPS."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Relativitat",
+              "moduleEmoji": "🌀",
+              "concept": "La relativitat especial com a conseqüència de les equacions de Maxwell",
+              "text": "Einstein no va partir de l'experiment de Michelson-Morley (tot i que en era conscient): va partir de la pregunta 'qué veuria algú que viatgés al costat d'un raig de llum?' Les equacions de Maxwell no admeten una resposta consistent dins la mecànica newtoniana. La relativitat especial és la resposta que fa les equacions de Maxwell consistents per a tots els observadors."
+            }
+          ]
+        },
+        {
+          "id": "max-06",
+          "title": "Cap a la unificació: del QED al Model Estàndard",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "L'electromagnetisme clàssic de Maxwell és una teoria extraordinàriament precisa. Però al segle XX, la mecànica quàntica va mostrar que a escales subatòmiques l'electromagnetisme és en realitat un intercanvi de fotons virtuals. La teoria quàntica del camp electromagnètic — l'electrodilàmica quàntica, QED — és la teoria física més precisa que existeix. I és la base del Model Estàndard de les partícules."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'electrodinàmica quàntica (QED, Feynman, Schwinger, Tomonaga — Nobel 1965) descriu l'electromagnetisme com un intercanvi de fotons virtuals entre partícules carregades. La QED prediu la magnitud del moment magnètic de l'electró amb una precisió de 12 decimals, confirmada experimentalment. És la teoria científica més precisa de la historia."
+            },
+            {
+              "type": "expandable",
+              "label": "El diagrama de Feynman: una nova manera de calcular",
+              "content": "Richard Feynman va inventar una representació gràfica per als càlculs de la QED: els diagrames de Feynman. Cada diagrama representa un procés quàntic possible (dos electrons interaccionant via un fotó, per exemple) i correspon a un terme matemàtic. Sumant tots els processos possibles (amb menys probabilitat com més 'complicat' el procés), s'obté la probabilitat total. La bellesa dels diagrames és que representen intuïtivament processos impossibles en física clàssica: fotons que es divideixen en parelles electró-positró que es reannihilen, electrons que emeten i reabsorbeixen fotons virtuals. La QED els inclou tots — i la suma dóna resultats d'una precisió insultant."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1865",
+                  "title": "Maxwell: unificació clàssica de l'electromagnetisme",
+                  "text": "Quatre equacions que descriuen tota l'electricitat, el magnetisme i la llum."
+                },
+                {
+                  "year": "1905",
+                  "title": "Einstein: fotó i efecte fotoelèctric",
+                  "text": "La llum també és quanta (fotons). Primer pas vers la QED."
+                },
+                {
+                  "year": "1948",
+                  "title": "QED: Feynman, Schwinger, Tomonaga",
+                  "text": "Teoria quàntica del camp electromagnètic. Nobel 1965."
+                },
+                {
+                  "year": "1967-1973",
+                  "title": "Unificació electrodèbil: Weinberg, Salam, Glashow",
+                  "text": "Electromagnetisme i força nuclear dèbil unificats en una sola teoria. Nobel 1979."
+                },
+                {
+                  "year": "1973",
+                  "title": "Model Estàndard completat",
+                  "text": "QED + força dèbil + força forta (QCD) en un marc unificat. La física fonamental actual."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-max-06-01",
+              "style": "multiple-choice",
+              "question": "La QED prediu el moment magnètic de l'electró com 1,00115965218085 (en unitats naturals). L'experiment mesura 1,00115965218059. Quin és l'error relatiu?",
+              "options": [
+                "Uns 2 parts per 10 milions (ordre de 10⁻⁷)",
+                "Uns 3 parts per bilió (ordre de 10⁻¹²)",
+                "La teoria i l'experiment no coincideixen: hi ha una discrepància de 10 parts per milió",
+                "Impossible calcular: no tenim prou dígits significatius"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. La diferència és ~2,6 × 10⁻¹³, en el valor ~1. L'error relatiu és de l'ordre de 10⁻¹³: 3 parts per bilió. Dotzè decimal. Cap altre teoria científica ha estat mai validada amb una precisió comparable. Feynman va comparar-ho a mesurar la distància de Nova York a Los Angeles amb un error menor que un gruix de cabell.",
+              "feedbackWrong": "Calcula la diferència: |1,00115965218085 - 1,00115965218059| = 2,6 × 10⁻¹³. Dividit pel valor: ~2,6 × 10⁻¹³. Estem parlant d'un error de l'ordre de 10⁻¹³ — tres parts per bilió. El dotzè decimal. La precisió més alta assolida per cap teoria científica."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Física de Partícules",
+              "moduleEmoji": "⚛️",
+              "concept": "L'electromagnetisme com a peça del Model Estàndard",
+              "text": "La QED és la part electromagnètica del Model Estàndard. Al mòdul de Física de Partícules hem vist com el Model Estàndard unifica l'electromagnetisme, la força nuclear feble i la força nuclear forta. La gravetat queda fora — unificar-la amb les altres tres forces és el gran repte no resolt de la física teòrica."
+            },
+            {
+              "type": "reflection",
+              "question": "La QED prediu la natura amb 12 decimals de precisió. Significa que hem 'entès' completament l'electromagnetisme? Qué significaria 'entendre' una força fonamental de la natura?",
+              "prompt": "Feynman va dir: 'Si creus que entens la mecànica quàntica, és que no la has entesa.' La precisió matemàtica i la comprensió intuïtiva son coses distintes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

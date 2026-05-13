@@ -59,6 +59,18 @@ const MODULE_META = {
   'module-30-quimica-atoms':      { title: 'Dins l\'Àtom: Estructura i Propietats',      emoji: '⚛️' },
   'module-31-quimica-reaccions':  { title: 'Reaccions Químiques: Com i Per Què Passen',  emoji: '🔥' },
   'module-32-quimica-vida':       { title: 'La Química de la Vida: Bioquímica Fonamental', emoji: '🧬' },
+  // — Bloc: Biologia —
+  'module-08-biologia':           { title: 'Biologia — Com Funciona la Vida',            emoji: '🧬' },
+  'module-33-evolucio':           { title: 'Evolució i Selecció Natural',                 emoji: '🦎' },
+  'module-35-genetica':           { title: 'Genètica i ADN',                              emoji: '🧬' },
+  // — Bloc: Física —
+  'module-34-mecanica-classica':  { title: 'Mecànica Clàssica',                          emoji: '⚙️' },
+  'module-36-termodinamica':      { title: 'Termodinàmica',                               emoji: '🔥' },
+  'module-37-electromagnetisme':  { title: 'Electromagnetisme',                           emoji: '⚡' },
+  'module-38-relativitat':        { title: 'Relativitat',                                 emoji: '🌀' },
+  // — Bloc: Filosofia —
+  'module-30-introduccio-filosofia': { title: 'Introducció a la Filosofia',              emoji: '🦉' },
+  'module-09-filosofia-politica': { title: 'Filosofia Política',                          emoji: '⚖️' },
 }
 
 // XP estimat per mòdul (per restar en repetir)
@@ -114,6 +126,18 @@ const MODULE_XP = {
   'module-30-quimica-atoms':      300,
   'module-31-quimica-reaccions':  300,
   'module-32-quimica-vida':       320,
+  // — Bloc: Biologia —
+  'module-08-biologia':           300,
+  'module-33-evolucio':           300,
+  'module-35-genetica':           300,
+  // — Bloc: Física —
+  'module-34-mecanica-classica':  300,
+  'module-36-termodinamica':      300,
+  'module-37-electromagnetisme':  300,
+  'module-38-relativitat':        300,
+  // — Bloc: Filosofia —
+  'module-30-introduccio-filosofia': 280,
+  'module-09-filosofia-politica': 280,
 }
 
 function ModuleCard({ id, onSelect, onRepeat, loadingId, completedModules,

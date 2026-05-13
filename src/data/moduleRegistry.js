@@ -50,6 +50,18 @@ export const MODULE_REGISTRY = [
   { id: 'module-30-quimica-atoms',      phase: 2, order: 43, file: () => import('./modules/module-30-quimica-atoms.json') },
   { id: 'module-31-quimica-reaccions',  phase: 2, order: 44, file: () => import('./modules/module-31-quimica-reaccions.json') },
   { id: 'module-32-quimica-vida',       phase: 2, order: 45, file: () => import('./modules/module-32-quimica-vida.json') },
+  // — Bloc: Biologia —
+  { id: 'module-08-biologia',           phase: 1, order: 46, file: () => import('./modules/module-08-biologia.json') },
+  { id: 'module-33-evolucio',           phase: 1, order: 47, file: () => import('./modules/module-33-evolucio.json') },
+  { id: 'module-35-genetica',           phase: 1, order: 48, file: () => import('./modules/module-35-genetica.json') },
+  // — Bloc: Física —
+  { id: 'module-34-mecanica-classica',  phase: 1, order: 49, file: () => import('./modules/module-34-mecanica-classica.json') },
+  { id: 'module-36-termodinamica',      phase: 1, order: 50, file: () => import('./modules/module-36-termodinamica.json') },
+  { id: 'module-37-electromagnetisme',  phase: 1, order: 51, file: () => import('./modules/module-37-electromagnetisme.json') },
+  { id: 'module-38-relativitat',        phase: 1, order: 52, file: () => import('./modules/module-38-relativitat.json') },
+  // — Bloc: Filosofia —
+  { id: 'module-30-introduccio-filosofia', phase: 1, order: 53, file: () => import('./modules/module-intro-filosofia.json') },
+  { id: 'module-09-filosofia-politica', phase: 1, order: 54, file: () => import('./modules/module-09-filosofia-politica.json') },
 ]
 
 export async function loadModule(moduleId) {

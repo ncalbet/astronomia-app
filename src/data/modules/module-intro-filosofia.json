@@ -1,0 +1,824 @@
+{
+  "id": "module-30-introduccio-filosofia",
+  "title": "Introducció a la Filosofia",
+  "emoji": "🦉",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "itinerari-preguntes",
+      "title": "Les grans preguntes",
+      "icon": "❓",
+      "description": "Un recorregut per les preguntes fonamentals que la filosofia intenta respondre: qui som, com sabem, com hem de viure.",
+      "style": "Temàtic · de la pregunta a la reflexió",
+      "lessons": [
+        {
+          "id": "fil-01",
+          "title": "Què és la filosofia?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Un nen de set anys pregunta: «Per què hem de morir?». Un adolescent es pregunta: «Com sé que el que veig és real?». Un adult es pregunta: «He viscut bé?». Totes aquestes preguntes tenen una cosa en comú: no les pot respondre cap ciència. No hi ha laboratori que mesuri si una vida ha estat ben viscuda. No hi ha microscopi que demostri que el món és real. Quan la ment humana arriba als seus propis límits, apareix la filosofia."
+            },
+            {
+              "type": "key-idea",
+              "text": "La filosofia és la disciplina que reflexiona sobre les preguntes que no admeten una resposta experimental: l'existència, el coneixement, la moral, la bellesa i la realitat."
+            },
+            {
+              "type": "misconception",
+              "belief": "La filosofia és una activitat inútil, abstracta i desconnectada de la vida real.",
+              "reality": "Totes les ciències van néixer de la filosofia. La física, la biologia, la psicologia i la política eren branques de la filosofia fins fa pocs segles. A més, cada vegada que prenem una decisió moral, política o vital, estem fent filosofia —conscientment o no.",
+              "why": "Perquè als instituts sovint es presenta com una història de noms i dates, no com una activitat viva i necessària."
+            },
+            {
+              "type": "expandable",
+              "label": "D'on ve la paraula «filosofia»?",
+              "content": "La paraula ve del grec: philos (amic, amant) i sophia (saviesa). Literalment, «amor per la saviesa». Compte: no és «possessió de la saviesa». Els filòsofs grecs eren molt conscients que la saviesa plena és inalcançable. Sòcrates —considerat el pare de la filosofia occidental— deia que la seva única saviesa era saber que no sabia res. Aquesta humilitat intel·lectual és, paradoxalment, el punt de partida de tot pensament seriós."
+            },
+            {
+              "type": "prediction",
+              "question": "Si la filosofia no pot fer experiments ni demostrar les seves respostes com fa la ciència, per què val la pena practicar-la?",
+              "hint": "Pensa en decisions de la teva vida que no pots resoldre consultant dades."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-01-01",
+              "style": "multiple-choice",
+              "question": "Quin d'aquests exemples és un problema genuïnament filosòfic?",
+              "options": [
+                "Quina és la velocitat de la llum en el buit?",
+                "Com funciona la sinapsi neuronal?",
+                "Tenim obligació moral d'ajudar els estrangers en perill?",
+                "Quants planetes té el sistema solar?"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'obligació moral no es pot mesurar en un laboratori. La ciència pot dir-nos com funciona el cervell quan ajudem algú, però no si hem d'ajudar-lo. Aquesta pregunta és filosòfica perquè requereix raonament sobre valors, no sobre fets.",
+              "feedbackWrong": "Aquesta pregunta té una resposta empírica: es pot mesurar, observar o calcular. La filosofia s'ocupa de les preguntes que no admeten aquest tipus de resposta. La pregunta sobre l'obligació moral d'ajudar estrangers, per exemple, no es pot resoldre amb cap experiment."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-01-02",
+              "style": "true-false",
+              "question": "La filosofia és la mare de totes les ciències modernes.",
+              "correct": true,
+              "feedbackCorrect": "Cert. La física va ser «filosofia natural» fins al segle XVII. La psicologia es va separar de la filosofia al segle XIX. L'economia, la sociologia i la lingüística modernes també hi tenen arrels directes. Quan una branca filosòfica desenvolupa mètodes propis, es converteix en ciència independent.",
+              "feedbackWrong": "En realitat, sí que és cert. Durant segles, allò que ara anomenem física, biologia o psicologia eren parts de la filosofia. La separació en disciplines autònomes és relativament recent. La filosofia és, literalment, el bressol de la ciència moderna."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-01-01",
+              "question": "Ara que la ciència pot respondre tantes preguntes sobre el món, la filosofia segueix sent necessària?",
+              "options": [
+                "No. La ciència acabarà responent-ho tot; la filosofia és un residu del passat.",
+                "Sí, perquè hi ha preguntes que la ciència per definició no pot respondre.",
+                "Depèn: la filosofia és útil allà on la ciència encara no ha arribat, però serà substituïda progressivament."
+              ],
+              "correct": 1,
+              "explanation": "La ciència és extraordinàriament poderosa, però treballa dins d'uns límits conceptuals que ella mateixa no pot justificar. Per exemple: la ciència assumeix que el món és racional i que les lleis naturals es mantenen constants —però no pot demostrar-ho sense circularitat. La ciència pot descriure com funciona el cervell quan triem, però no pot dir-nos si tenim llibertat real o si les nostres decisions estan determinades. Pot mesurar el benestar, però no definir què és una bona vida. Preguntes com «Quin és el fonament de la moral?», «Existeix la realitat independentment de l'observador?» o «Quan és justa una guerra?» no són preguntes científiques —i probablement mai ho seran. La filosofia no és un suplent provisional de la ciència: és una activitat intel·lectual diferent, amb objectes i mètodes propis."
+            }
+          ]
+        },
+        {
+          "id": "fil-02",
+          "title": "Les branques de la filosofia",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La filosofia no és un bloc monolític. Al llarg de segles, s'ha dividit en territoris especialitzats, cadascun amb les seves preguntes pròpies. Conèixer aquestes branques és com tenir un mapa: t'ajuda a saber on ets i on pots anar quan et topas amb un problema difícil."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les quatre branques principals de la filosofia són la metafísica (què existeix?), l'epistemologia (com sabem?), l'ètica (com hem de viure?) i l'estètica (què és la bellesa?). A aquestes s'afegeix la lògica com a eina transversal."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "Segles VI–IV aC",
+                  "title": "Naixement de la filosofia grega",
+                  "text": "Els presocràtics pregunten per la naturalesa de la realitat. Sòcrates centra la filosofia en l'ésser humà i la moral."
+                },
+                {
+                  "year": "Segles IV–III aC",
+                  "title": "Plató i Aristòtil: el sistema filosòfic complet",
+                  "text": "Per primera vegada, un filòsof (Aristòtil) tracta sistemàticament la lògica, la metafísica, l'ètica, la política i l'estètica com a disciplines relacionades."
+                },
+                {
+                  "year": "Segles XVII–XVIII",
+                  "title": "La filosofia moderna: Descartes, Hume, Kant",
+                  "text": "L'epistemologia es converteix en el centre. Com podem conèixer el món? Fins on arriba la raó? El debat entre racionalistes i empiristes defineix l'època."
+                },
+                {
+                  "year": "Segle XIX–XX",
+                  "title": "Especialització i diversificació",
+                  "text": "Apareixen noves branques: filosofia del llenguatge, filosofia de la ment, filosofia política, bioètica. La filosofia es fa cada vegada més tècnica i especialitzada."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Hi ha una branca de la filosofia per a gairebé tot",
+              "content": "A més de les quatre grans branques, la filosofia ha colonitzat molts camps especialitzats: filosofia de la ciència (com funciona el coneixement científic?), filosofia del dret (en què es fonamenta la llei?), filosofia política (com s'hauria d'organitzar la societat?), bioètica (quins límits té la medicina?), filosofia del llenguatge (com les paraules donen sentit al món?), filosofia de la ment (la consciència és material?). Si tens una pregunta profunda sobre qualsevol activitat humana, hi ha un filòsof que l'ha pensada."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-02-01",
+              "style": "multiple-choice",
+              "question": "Un científic es pregunta: «Podem confiar en les nostres percepcions sensorials per conèixer la realitat?». A quina branca filosòfica pertany aquesta pregunta?",
+              "options": [
+                "Metafísica",
+                "Epistemologia",
+                "Ètica",
+                "Estètica"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'epistemologia s'ocupa precisament dels fonaments, l'abast i els límits del coneixement humà. La pregunta sobre si podem confiar en els sentits és un dels debats epistemològics més antics —i Descartes, Hume i Kant la van posar al centre de la filosofia moderna.",
+              "feedbackWrong": "Aquesta pregunta és epistemològica: tracta sobre els fonaments i la fiabilitat del coneixement. La metafísica pregunta per l'existència, l'ètica per la moral i l'estètica per la bellesa. L'epistemologia és la branca que analitza com i fins on podem conèixer."
+            },
+            {
+              "type": "comparison",
+              "title": "Ciència vs. Filosofia",
+              "labelA": "Ciència",
+              "labelB": "Filosofia",
+              "items": [
+                {
+                  "label": "Mètode",
+                  "a": "Experimental i empíric",
+                  "b": "Argumentació i anàlisi conceptual"
+                },
+                {
+                  "label": "Tipus de preguntes",
+                  "a": "Com funciona el món?",
+                  "b": "Què significa? Quin valor té? Hauria de ser així?"
+                },
+                {
+                  "label": "Validació",
+                  "a": "Experiments i dades",
+                  "b": "Coherència lògica i argumentació"
+                },
+                {
+                  "label": "Progrés",
+                  "a": "Acumulatiu i mesurable",
+                  "b": "Espiral: les preguntes es reobre constantment"
+                },
+                {
+                  "label": "Consens",
+                  "a": "Alta convergència eventual",
+                  "b": "El desacord és constitutiu: és normal no convergir"
+                }
+              ]
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una pregunta important per a tu —sobre la teva vida, sobre la societat, sobre el món— que sents que cap expert t'ha sabut respondre satisfactòriament. A quina branca filosòfica creus que pertanyeria?",
+              "prompt": "No cal que escriguis res. Però guarda la pregunta: potser la trobes responduda (o millor formulada) al llarg d'aquest curs."
+            }
+          ]
+        },
+        {
+          "id": "fil-03",
+          "title": "Sòcrates: el primer filòsof modern",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Atenes, any 399 aC. Un home de 70 anys és portat a judici acusat de corrompre la joventut i no creure en els déus de la ciutat. El tribunal el condemna a mort per una majoria molt ajustada. Podria escapar —els seus amics ho han organitzat tot— però s'hi nega. Prefereix morir que trair la seva manera de viure. Aquell home és Sòcrates, i la seva mort definirà per sempre el que significa ser filòsof."
+            },
+            {
+              "type": "key-idea",
+              "text": "Sòcrates no va escriure res. El coneixem a través dels diàlegs del seu deixeble Plató. El seu mètode era la conversa: feia preguntes fins que el seu interlocutor s'adonava que no sabia el que creia saber. Aquest procés s'anomena ironia socràtica o mètode maièutic."
+            },
+            {
+              "type": "quote",
+              "text": "Només sé que no sé res.",
+              "author": "Sòcrates (atribuït per Plató)"
+            },
+            {
+              "type": "expandable",
+              "label": "Què és el mètode maièutic i per què és revolucionari?",
+              "content": "Sòcrates deia que el seu mètode era com el de la seva mare, que era llevadora: no posava idees al cap de les persones, sinó que les ajudava a «parir» les idees que ja tenien dins. El procés funciona així: Sòcrates pregunta a algú sobre un concepte (la justícia, el coratge, la bellesa). L'interlocutor dóna una definició. Sòcrates posa exemples que la contradiuen. L'interlocutor refina la definició. Sòcrates torna a trobar contraexemples. El procés continua fins que es descarta la definició o s'arriba a una de més sòlida. L'efecte és desconcertant: els interlocutors sovint marxen sentint-se més ignorants que abans. Sòcrates ho considerava un progrés: saber que no saps és el primer pas per aprendre de veritat."
+            },
+            {
+              "type": "prediction",
+              "question": "Si algú et preguntés «Què és la justícia?», quina resposta donaries? Intenta definir-la en una frase abans de continuar.",
+              "hint": "Fixa't si la teva definició funciona per a tots els casos que consideres justs."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-03-01",
+              "style": "detect-error",
+              "statement": "Sòcrates va escriure nombrosos diàlegs filosòfics que han arribat fins als nostres dies i que formen la base del seu pensament.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és atribuir a Sòcrates obres escrites. Sòcrates no va escriure res. Tot el que sabem d'ell prové dels escrits dels seus deixebles, especialment Plató i Xenofont. Aquesta situació és coneguda com el «problema socràtic»: fins a quin punt les idees que Plató posa en boca de Sòcrates reflecteixen el pensament real del mestre o el del propi Plató?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-03-02",
+              "style": "multiple-choice",
+              "question": "Per quina raó Sòcrates es nega a escapar de la presó quan els seus amics ho han organitzat?",
+              "options": [
+                "Perquè creia que era innocent i esperava ser absolt en apel·lació",
+                "Perquè fugar-se hauria significat trair les lleis de la polis que tota la vida havia acceptat",
+                "Perquè estava massa vell i malalt per viure a l'exili",
+                "Perquè volia demostrar que no tenia por de la mort"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exactament. En el diàleg «Critó» de Plató, Sòcrates argumenta que ha viscut tota la vida sota les lleis d'Atenes, s'ha beneficiat d'elles i, per tant, acceptar el seu veredicte —fins i tot injust— és un acte de coherència. Fugir seria una contradicció entre el que predica (la justícia) i el que fa. La mort com a coherència filosòfica.",
+              "feedbackWrong": "La raó que dóna Sòcrates en els diàlegs platònics és filosòfica i moral: ha viscut tota la vida acceptant les lleis d'Atenes i fugir ara, quan el veredicte l'és advers, seria una traïció als seus principis. La coherència entre pensament i acció és central en la seva filosofia."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-03-01",
+              "question": "Sòcrates mor per no trair els seus principis filosòfics. Fins on has de ser coherent amb les teves conviccions?",
+              "options": [
+                "Sempre: una persona que no viu el que pensa és un hipòcrita.",
+                "Mai completament: les circumstàncies sempre justifiquen alguna flexibilitat.",
+                "Depèn: hi ha principis nuclears que cal mantenir i aspectes secundaris on la flexibilitat és raonable."
+              ],
+              "correct": 2,
+              "explanation": "La mort de Sòcrates planteja un dels dilemes ètics més antics: el de la coherència i el fanatisme. Sòcrates és admirable per la seva integritat, però també es pot argüir que una vida dedicada al diàleg i a ensenyar hauria valgut més que una mort exemplar. La filosofia moral contemporània distingeix entre principis deontològics —que obliguen independentment de les conseqüències— i principis conseqüencialistes —que s'avaluen pels seus efectes. Kant hauria dit que Sòcrates va actuar correctament: no es pot fer el mal (trair la llei) per aconseguir un bé (continuar vivint). Mill hauria calculat si els beneficis futurs de la seva vida superaven el cost de cedir. No hi ha una resposta universal. El que sí és cert és que la coherència absoluta portada a l'extrem —sense cap capacitat d'adaptació o revisió— pot convertir-se en rigidesa moral. La virtut, deia Aristòtil, és sempre un terme mitjà."
+            }
+          ]
+        },
+        {
+          "id": "fil-04",
+          "title": "Plató i el món de les idees",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Imagina que has viscut tota la vida encadenat en una cova, de cara a la paret. Darrere teu hi ha un foc, i entre el foc i tu passen objectes que projecten ombres a la paret. Les ombres són tot el que has vist mai. Si algú et deslligués i et portés fora de la cova, la llum del sol et cegaria i trigarissis a entendre que tot el que crèies real no eren sinó ombres. Aquesta és la famosa al·legoria de la caverna de Plató —i descriu el que ell creu que és la condició de la majoria dels éssers humans."
+            },
+            {
+              "type": "key-idea",
+              "text": "Per a Plató, el món que percebem amb els sentits és una còpia imperfecta i canviant d'un món superior d'Idees eternes i perfectes. El filòsof és aquell que, mitjançant la raó, escapa de les ombres i accedeix a les Idees veritables."
+            },
+            {
+              "type": "expandable",
+              "label": "Com funciona la teoria de les Idees en un exemple concret?",
+              "content": "Pensa en tots els triangles que has vist mai: dibuixats en paper, en una pantalla, en el terra. Cap és perfectament triangle: sempre hi ha alguna imperfecció. Però tu saps que és un triangle. Per a Plató, allò que et permet reconèixer un triangle imperfecte és que la teva ànima —abans de néixer— va contemplar la Idea de Triangle, que és perfecta, eterna i no-material. El mateix val per a la Bellesa, la Justícia o el Bé. Mai has vist la Justícia perfecta en el món, però saps reconèixer quan alguna cosa s'hi acosta. Aprendre, per a Plató, és recordar —anamnesi— el que l'ànima ja sap."
+            },
+            {
+              "type": "misconception",
+              "belief": "Plató creia que el món físic no existeix o és una il·lusió total.",
+              "reality": "Plató no nega l'existència del món físic, però considera que és ontològicament inferior: menys real, menys perfecte i canviant. El món de les Idees és el que és plenament real. El físic és una participació parcial i imperfecta en les Idees.",
+              "why": "Perquè la seva metàfora de la caverna sovint s'interpreta com un rebuig total del món sensible, quan en realitat és una jerarquia ontològica, no una negació."
+            },
+            {
+              "type": "debate",
+              "question": "Existeix la Bellesa objectivament —com creia Plató— o és sempre una construcció cultural i personal?",
+              "positionA": {
+                "label": "Bellesa objectiva",
+                "argument": "Hi ha obres d'art reconegudes com a belles per cultures molt diverses al llarg de la història. Certs patrons de proporcionalitat i harmonia apareixen a quasi totes les cultures. Això suggereix que la bellesa no és pura invenció cultural, sinó que apunta a alguna cosa real."
+              },
+              "positionB": {
+                "label": "Bellesa relativa",
+                "argument": "Els cànons de bellesa varien radicalment entre cultures i èpoques. El que és bell a Occident pot ser lleig al Japó tradicional. El que era bell al Renaixement seria considerat massa carnal avui. Si la bellesa fos objectiva, no hauria tanta variació."
+              },
+              "reflection": "Quin pes dones a la universalitat (que tantes cultures coincideixen en algunes coses) enfront de la variabilitat (que en d'altres difereixen tant)?",
+              "context": "El debat entre bellesa objectiva i subjectiva continua obert. Kant va proposar una solució intermèdia: els judicis estètics aspiren a la universalitat però no la poden demostrar. La neurociència actual investiga si hi ha bases neuronals compartides per a la percepció estètica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-04-01",
+              "style": "multiple-choice",
+              "question": "Segons la teoria de les Idees de Plató, on existeix la Justícia perfecta?",
+              "options": [
+                "En les lleis de la polis grega, que Plató considerava les millors del món",
+                "En el món de les Idees, com a forma eterna i immutable que el món físic imita imperfectament",
+                "En la consciència de cada individu, que pot descobrir-la per introspectió",
+                "Plató creia que la justícia perfecta no existeix en cap lloc"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. Per a Plató, la Justícia, com totes les Idees, existeix en un àmbit no-material, etern i perfecte. Les lleis humanes —fins i tot les millors— no són sinó aproximacions imperfectes a la Idea de Justícia. El filòsof, diu Plató, és l'únic capaç d'accedir a aquesta Idea i, per tant, l'únic qualificat per governar. D'aquí el seu projecte de la República.",
+              "feedbackWrong": "Per a Plató, la Justícia perfecta existeix com a Idea eterna en el món intel·ligible, no en el món físic ni en cap institució humana. Les lleis, els costums i fins i tot les intuïcions individuals no són sinó ombres imperfectes de la Idea de Justícia."
+            }
+          ]
+        },
+        {
+          "id": "fil-05",
+          "title": "Aristòtil: el filòsof del món real",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Aristòtil va ser el millor deixeble de Plató durant vint anys. I quan Plató va morir, Aristòtil va fundar la seva pròpia escola —i va rebutjar sistemàticament la teoria del seu mestre. No per ingratitud, sinó per amor a la veritat. «Sóc amic de Plató», deia, «però sóc més amic de la veritat». Rarament un mestre i un deixeble han pensat de manera tan diferent sobre gairebé tot."
+            },
+            {
+              "type": "key-idea",
+              "text": "Per a Aristòtil, no hi ha un món separat d'Idees. La forma i la matèria van juntes en els objectes concrets del món real. El coneixement no prové del record d'un món anterior sinó de l'observació acurada de la natura."
+            },
+            {
+              "type": "comparison",
+              "title": "Plató vs. Aristòtil",
+              "labelA": "Plató",
+              "labelB": "Aristòtil",
+              "items": [
+                {
+                  "label": "On és la realitat?",
+                  "a": "En el món de les Idees (immaterial)",
+                  "b": "En els objectes concrets del món físic"
+                },
+                {
+                  "label": "Com coneixem?",
+                  "a": "Per la raó, recordant les Idees contemplades",
+                  "b": "Per l'observació i l'experiència sensorial"
+                },
+                {
+                  "label": "Relació forma-matèria",
+                  "a": "Separades: les Idees existeixen sense matèria",
+                  "b": "Unides: la forma sempre és en la matèria"
+                },
+                {
+                  "label": "Mètode",
+                  "a": "Diàleg i dialèctica",
+                  "b": "Observació, classificació i lògica"
+                },
+                {
+                  "label": "Influència posterior",
+                  "a": "Neoplatonisme, cristianisme agustinià",
+                  "b": "Escolàstica medieval, ciència moderna"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Per què Aristòtil és considerat el primer científic de la història?",
+              "content": "Aristòtil va ser el primer pensador que va intentar classificar sistemàticament tota la realitat: va catalogar més de 500 espècies animals, va fundar la lògica formal, va escriure sobre física, astronomia, meteorologia, psicologia, política, poètica i retòrica. El seu mètode consistia a observar, classificar i buscar causes. En biologia marina, les seves observacions eren tan precises que els zoòlegs del segle XIX van quedar astorats quan les van verificar. Va ser ell qui va dir que la cincia comença per l'admiració: «thaumazein»."
+            },
+            {
+              "type": "quote",
+              "text": "La felicitat és l'activitat de l'ànima d'acord amb la virtut.",
+              "author": "Aristòtil, Ètica a Nicòmac"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-05-01",
+              "style": "detect-error",
+              "statement": "Aristòtil creia, com el seu mestre Plató, que el coneixement veritable s'obté per la raó pura, sense necessitat d'observar el món físic.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és atribuir a Aristòtil el mètode racionalista de Plató. Aristòtil va fer exactament el contrari: va fundar l'empirisme filosòfic, la idea que el coneixement comença per l'observació dels sentits. Per a ell, no hi ha res en l'intel·lecte que no hagi passat primer pels sentits. Aquesta és una de les diferències fonamentals entre els dos filòsofs."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-05-01",
+              "question": "Plató confia en la raó per arribar a la veritat; Aristòtil confia en l'observació. Quin mètode et sembla més fiable per conèixer la realitat?",
+              "options": [
+                "La raó: els sentits ens enganyen constantment; només la lògica pura és fiable.",
+                "L'observació: sense dades del món real, la raó construeix castells en l'aire.",
+                "Els dos junts: la raó sense dades és buida; les dades sense raó són cegues."
+              ],
+              "correct": 2,
+              "explanation": "El debat entre racionalisme (confiança en la raó) i empirisme (confiança en l'experiència) va dominar la filosofia moderna del segle XVII al XVIII. Descartes i Leibniz eren racionalistes: creien que les veritats més importants es poden deduir a priori. Hume i Locke eren empiristes: tot coneixement ve de l'experiència. Immanuel Kant va intentar la síntesi definitiva: l'experiència sense conceptes és cega; els conceptes sense experiència són buits. La ciència moderna dona la raó a Kant: necesitem estructures teòriques (raó) per interpretar dades, i dades (observació) per no quedar-nos en especulació pura. Cap dels dos pols, per si sol, és suficient."
+            }
+          ]
+        },
+        {
+          "id": "fil-06",
+          "title": "Per a què serveix la filosofia avui?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Vivim en una època d'acceleració. La intel·ligència artificial planteja preguntes sobre la consciència i la identitat. El canvi climàtic obliga a repensar la nostra relació amb la natura. Les xarxes socials transformen com sabem el que sabem. Les desigualtats globals plantegen preguntes urgents sobre la justícia. Cap d'aquests problemes té una solució purament tècnica. Tots requereixen pensar sobre valors, sobre límits, sobre el que fem i per a què. Tots requereixen filosofia."
+            },
+            {
+              "type": "key-idea",
+              "text": "La filosofia no resol problemes tècnics, però és indispensable per plantejar-los bé: per clarificar conceptes, detectar suposicions ocultes, avaluar arguments i prendre decisions en condicions d'incertesa."
+            },
+            {
+              "type": "expandable",
+              "label": "La filosofia a l'empresa, la medicina i el dret",
+              "content": "Les facultats de medicina de molts països inclouen formació en bioètica: quan és acceptable retirar el tractament? Qui decideix per un pacient que no pot fer-ho? Quan comença la vida? Són preguntes filosòfiques amb conseqüències mèdiques concretes. Les grans empreses tecnològiques contracten filòsofs per pensar en els impactes ètics dels seus productes —especialment en IA. El dret, en el seu nucli, és filosofia aplicada: en què es fonamenta la llei? Quan és justa una pena? Qui mereix drets? La filosofia no és un luxe acadèmic: és una necessitat pràctica."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "El mètode científic",
+              "text": "La pregunta «com sabem el que sabem?» connecta directament amb la filosofia de la ciència. Quan estudies com els científics distingeixen bones teories de males, com tracten les anomalies o per què abandonen un paradigma, estàs fent epistemologia aplicada a la ciència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-06-01",
+              "style": "multiple-choice",
+              "question": "Un enginyer ha de decidir si programar un cotxe autònom per minimitzar les morts totals en un accident inevitable (sacrificant potser el seu propi passatger). Quin tipus de problema és aquest fonamentalment?",
+              "options": [
+                "Un problema d'enginyeria: cal trobar l'algoritme òptim.",
+                "Un problema estadístic: cal calcular probabilitats i minimitzar-les.",
+                "Un problema filosòfic i ètic: cal decidir quin valor es prioritza i qui té autoritat per fer-ho.",
+                "Un problema jurídic: el dret ja estableix qui és responsable en accidents."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'algoritme és la part tècnica —la part fàcil. Però prèviament cal respondre: Té el fabricant dret a decidir sobre la vida del passatger? Hem de prioritzar el nombre de vides o la protecció del passatger que ha pagat? Qui assumeix la responsabilitat moral? Cap d'aquestes preguntes té resposta tècnica. Requereixen filosofia moral.",
+              "feedbackWrong": "La part tècnica —programar l'algoritme— és relativament senzilla un cop es decideix el criteri. El problema difícil és anterior: quin criteri s'ha d'aplicar i qui té autoritat per decidir-ho. Això és un problema filosòfic i ètic, no resolt pel dret ni per les matemàtiques."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-06-02",
+              "style": "true-false",
+              "question": "La filosofia és útil principalment per als filòsofs professionals; a la vida quotidiana, el sentit comú és suficient.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El «sentit comú» no deixa de ser un conjunt de suposicions filosòfiques no examinades —sovint heretades, sovint incoherents. Quan decideixes si és just cobrar salaris desiguals per feines iguals, quan valores si les xarxes socials t'informen o et manipulen, quan penses en quina mena de pare o mare vols ser, estàs fent filosofia sense saber-ne. El risc és fer-la malament.",
+              "feedbackWrong": "El «sentit comú» no és innocent: és un sediment de suposicions filosòfiques no examinades. Quan el seguim sense reflexió, sovint perpetuem prejudicis o incoherències que no resistirien un anàlisi seriós. La filosofia no és el monopoli dels acadèmics: és una activitat que tothom practica, conscientment o no."
+            },
+            {
+              "type": "debate",
+              "question": "Hauria de ser la filosofia una assignatura obligatòria a l'escola secundària?",
+              "positionA": {
+                "label": "Sí, és indispensable",
+                "argument": "En un món de desinformació, polarització i decisions complexes, ensenyar a argumentar, detectar fal·làcies i pensar amb rigor és tan essencial com les matemàtiques. La filosofia entrena la ment democràtica."
+              },
+              "positionB": {
+                "label": "No, és contraproduent",
+                "argument": "La filosofia obligatòria sol reduir-se a memoritzar noms i dates. El pensament crític es desenvolupa millor en totes les assignatures que en una de separada. A més, pot crear una distància entre l'alumnat i les preguntes filosòfiques reals."
+              },
+              "reflection": "Quina és la diferència entre aprendre filosofia i aprendre a pensar filosòficament?",
+              "context": "A França és obligatòria a tot el batxillerat. A Finlàndia, el pensament crític s'integra transversalment. Al Regne Unit és optativa. No hi ha consens internacional sobre el millor enfocament."
+            },
+            {
+              "type": "reflection",
+              "question": "Ara que has acabat aquesta primera lliçó: hi ha alguna pregunta que t'hagi sorgit durant el recorregut que no tenies abans? Quin tema filosòfic et genera més curiositat?",
+              "prompt": "Guarda-la. La filosofia comença sempre per una pregunta personal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itinerari-pensadors",
+      "title": "Els grans pensadors",
+      "icon": "🧠",
+      "description": "Un recorregut per les figures i idees que han transformat la manera com els éssers humans s'entenen a si mateixos.",
+      "style": "Biogràfic · de Sòcrates a la modernitat",
+      "lessons": [
+        {
+          "id": "fil-p01",
+          "title": "Descartes: el dubte com a mètode",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Any 1641. René Descartes és un matemàtic i filòsof francès obsessionat amb un problema: com podem estar segurs de qualsevol cosa? Els sentits ens enganyen. Podríem estar somiant. Podria existir un «geni maligne» capaç de fer-nos creure coses falses sobre tot. Descartes decideix fer una cosa radical: dubtar de tot el que pugui ser dubtat, fins a trobar alguna cosa de la qual no pugui dubtar. El resultat canviarà la filosofia per sempre."
+            },
+            {
+              "type": "key-idea",
+              "text": "Descartes dubta de tot fins a arribar a una certesa indestructible: el fet que dubta prova que pensa, i el fet que pensa prova que existeix. «Cogito, ergo sum»: penso, per tant existeixo."
+            },
+            {
+              "type": "quote",
+              "text": "Penso, per tant existeixo.",
+              "author": "René Descartes, Discurs del mètode (1637)"
+            },
+            {
+              "type": "expandable",
+              "label": "Per què el Cogito és tan important i tan discutit?",
+              "content": "El Cogito de Descartes és la primera veritat certa que troba després del dubte radical. Però ja al seu temps va ser criticat: Gassendi li va preguntar si no suposava l'existència del «jo» quan deia «penso». Potser caldria dir «hi ha pensament, per tant hi ha pensament»? Lichtenberg va formular aquesta crítica al segle XVIII. Hume afegiria que mai no percebem un «jo» permanent, sinó un flux de percepcions. Malgrat les crítiques, el Cogito ha sobreviscut perquè planteja una pregunta que no ha desaparegut: quin és el fonament últim de la certesa? Les neurociències actuals tornen a fer-se preguntes cartesianes sobre la consciència."
+            },
+            {
+              "type": "prediction",
+              "question": "Si t'obligues a dubtar de tot —dels teus sentits, de la teva memòria, de les altres persones—, hi ha alguna cosa de la qual sigui impossible dubtar?",
+              "hint": "Quin és l'acte mínim que has de fer per poder dubtar de qualsevol cosa?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-p01-01",
+              "style": "multiple-choice",
+              "question": "Descartes dubta que el món exterior existeixi. Quina és la seva primera certesa indiscutible?",
+              "options": [
+                "Que Déu existeix i no l'enganya",
+                "Que el món físic és real perquè el percep clarament",
+                "Que ell pensa, i per tant existeix com a cosa pensant",
+                "Que les veritats matemàtiques són indubtables"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'acte de dubtar és ja un acte de pensar. I si pensa, alguna cosa que pensa ha d'existir. Aquesta és la primera certesa: no que el món sigui real, no que Déu existeixi, sinó que hi ha una cosa pensant —el «jo» com a substància mental. Tot el que construirà Descartes a partir d'aquí és menys sòlid que aquest punt de partida.",
+              "feedbackWrong": "Descartes dubta fins i tot de les matemàtiques (un geni maligne podria enganyar-lo fins i tot en 2+2=4) i de l'existència de Déu, que introdueix més endavant. La primera certesa absoluta és anterior: que ell dubta, que pensa, i que per tant existeix com a cosa pensant."
+            },
+            {
+              "type": "misconception",
+              "belief": "Descartes creia que el cos i la ment són la mateixa cosa.",
+              "reality": "Descartes és el pare del dualisme ment-cos: creia que la ment (substància pensant, res cogitans) i el cos (substància extensa, res extensa) són dues realitats completament separades i de naturalesa diferent. El problema que no va poder resoldre és com interactuen: si la ment és immaterial, com pot moure el cos? Aquesta pregunta segueix sent filosòficament oberta.",
+              "why": "Perquè la seva distinció ment-cos és tan radical que sembla impossible que creiés que interactuen, però sí que ho creia."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-p01-01",
+              "question": "Descartes proposa el dubte sistemàtic com a mètode filosòfic. Fins a quin punt és el dubte una bona estratègia per arribar a la veritat?",
+              "options": [
+                "Sempre: no s'hauria d'acceptar res sense haver dubtat primer d'ell.",
+                "Mai: el dubte permanent és paralitzant i autodestructiu.",
+                "Com a exercici inicial, sí, però el dubte radical no és sostenible ni desitjable com a actitud vital."
+              ],
+              "correct": 2,
+              "explanation": "El dubte metòdic de Descartes és un exercici intel·lectual puntual, no una actitud vital permanent. El propi Descartes ho aclareix: en la vida pràctica, hem d'actuar com si les coses fossin reals, seguir les lleis del nostre país i no canviar d'opinions constantment. El dubte és una eina filosòfica, no un estil de vida. El filòsof David Hume va portar el dubte fins a conseqüències que el propi Descartes no hauria acceptat —i va concloure que, per sort, la natura ens força a deixar de dubtar quan sortim del gabinet filosòfic. El dubte excessiu, aplicat a totes les decisions de la vida, seria una forma de paràlisi. Però l'absència de dubte —la certesa acrítica— és la font dels fanatismes. L'actitud racional és una disposició al dubte selectiu i proporcionat."
+            }
+          ]
+        },
+        {
+          "id": "fil-p02",
+          "title": "Hume: tot és experiència",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "David Hume és, probablement, el filòsof que ha fet més mal a les certeses humanes. Escocès, del segle XVIII, va aplicar el dubte a territoris que Descartes ni havia tocat: la causalitat, la identitat personal, la moral, la religió. El resultat va ser tan radical que Kant, llegint-lo, va dir que l'havia «despertat del son dogmàtic». Hume és incòmode perquè porta la lògica fins a conclusions que la majoria de persones no volen acceptar."
+            },
+            {
+              "type": "key-idea",
+              "text": "Per a Hume, tot coneixement prové de les impressions sensorials. Qualsevol idea que no pugui rastrejar-se fins a una impressió concreta és buida. Aplicant aquest criteri, la causalitat, la identitat del «jo» i la metafísica es dissolen."
+            },
+            {
+              "type": "expandable",
+              "label": "Com destrueix Hume la causalitat i per què és tan important?",
+              "content": "Quan veus que una bola de billar colpeja una altra i aquesta es mou, creus que la primera «causa» el moviment de la segona. Però Hume pregunta: has vist realment la causalitat? No. Has vist successió: un event segueix l'altre. Sempre. Però «sempre» no és «necessàriament». L'hàbit de veure'ls junts fa que la ment els uneixi com a causa-efecte, però no és una relació lògicament necessària. Demà podria no funcionar. Hume no nega que el sol sortirà demà —però diu que no tens raons lògiques per estar-ne segur, sinó només hàbit i expectativa. Això tindrà conseqüències enormes: Einstein, la mecànica quàntica i la filosofia de la ciència del segle XX tornaran constantment a Hume."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-p02-01",
+              "style": "true-false",
+              "question": "Hume acceptava que la metafísica era una ciència legítima capaç de conèixer realitats que van més enllà de l'experiència.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Hume és un dels crítics més radicals de la metafísica. La seva proposta és que qualsevol afirmació filosòfica o teològica que no pugui rastrejar-se fins a una impressió sensorial concreta és un «sofisma i il·lusió» que cal «lliurar a les flames». Per a Hume, la metafísica tradicional —l'ànima, Déu, la substància— és simplement un ús il·legítim del llenguatge.",
+              "feedbackWrong": "Al contrari. Hume és un dels crítics més devastadors de la metafísica. Sostenia que qualsevol proposició que no sigui o bé una relació entre idees (matemàtiques, lògica) o bé un fet empíric verificable és un conjunt de paraules buit de contingut real. Això elimina la major part de la metafísica i la teologia tradicionals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-p02-02",
+              "style": "multiple-choice",
+              "question": "Hume argumenta que la nostra creença en la causalitat prové de:",
+              "options": [
+                "Una necessitat lògica: si A sempre va seguit de B, B és necessàriament efecte d'A",
+                "La revelació divina: Déu ha programat la causalitat en la nostra ment",
+                "L'hàbit i l'expectativa: hem vist la conjunció constant i la ment hi projecta necessitat",
+                "La raó pura: la causalitat és una categoria a priori de l'enteniment"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Per a Hume, la causalitat no és una relació lògicament necessària que puguem veure en el món: és un hàbit mental. Veiem que A va seguit de B prou vegades, i la ment hi projecta una connexió necessària que no ha observat directament. Kant, llegint això, va construir la seva filosofia crítica precisament per respondre a Hume.",
+              "feedbackWrong": "Hume nega que la causalitat sigui una necessitat lògica (opció A) o una categoria de la raó pura (opció D —això és la resposta de Kant, no de Hume). La seva explicació és psicològica: l'hàbit de veure conjuncions constants crea en la ment l'expectativa d'una connexió necessària."
+            },
+            {
+              "type": "reflection",
+              "question": "Hume diu que no pots estar segur que el sol sortirà demà —que és només un hàbit esperar-ho. Quin impacte té això en la manera com penses la ciència, la vida quotidiana o les teves pròpies expectatives?",
+              "prompt": "No és una pregunta amb resposta correcta. És una pregunta per a sentir la força del problema."
+            }
+          ]
+        },
+        {
+          "id": "fil-p03",
+          "title": "Kant: la revolució copernicana de la filosofia",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Immanuel Kant va viure tota la seva vida a Königsberg, Prússia, i mai no va sortir a més de 80 quilòmetres de la seva ciutat natal. Era tan puntual que els seus veïns posaven el rellotge quan el veien passar. I tanmateix, la seva obra va ser una de les revolucions intel·lectuals més grans de la història occidental. Va intentar respondre tres preguntes: Què puc saber? Què he de fer? Què puc esperar?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Kant proposa que no és la ment la que s'adapta al món, sinó el món (tal com el coneixem) el que s'adapta a les estructures de la ment. Espai, temps i causalitat no estan «al món»: estan en la nostra manera de percebre'l. Kant ho anomena la revolució copernicana de la filosofia."
+            },
+            {
+              "type": "expandable",
+              "label": "Què significa que espai i temps estan a la ment, no al món?",
+              "content": "Per a Kant, mai no accedim al món «en si mateix» (la cosa en si, Ding an sich). Sempre el percebem a través de les formes a priori de la sensibilitat —espai i temps— i les categories de l'enteniment —causalitat, substància, etc. Imagina que portes unes ulleres de color verd que no et pots treure: tot el que veus és verd, però no perquè el món sigui verd, sinó per la naturalesa de les teves ulleres. Kant diu que espai i temps són les «ulleres» de la ment humana: tot el que percebem apareix en espai i temps perquè la ment ho organitza així. Però el món «real» —la cosa en si— podria ser completament diferent. La física moderna (la relativitat, la mecànica quàntica) ha donat parcialment la raó a Kant: espai i temps no són absoluts, i a escala quàntica les nostres intuïcions quotidianes deixen de funcionar."
+            },
+            {
+              "type": "quote",
+              "text": "Dos coses omplen la ment d'admiració i respecte sempre nous: el cel estelat sobre mi i la llei moral dins meu.",
+              "author": "Immanuel Kant, Crítica de la raó pràctica (1788)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-p03-01",
+              "style": "multiple-choice",
+              "question": "Kant afirma que l'espai i el temps són:",
+              "options": [
+                "Propietats objectives del món físic que la ciència pot mesurar",
+                "Il·lusions creades per la manca de coneixement científic",
+                "Formes a priori de la sensibilitat humana, no propietats del món en si",
+                "Conceptes religiosos que la filosofia ha de superar"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. Per a Kant, espai i temps no estan «al món» esperant ser descoberts: estan en la nostra manera de percebre. Són les estructures amb les quals la ment organitza l'experiència. Sense elles, cap experiència seria possible. Però la «cosa en si» —el món tal com és independent de la nostra percepció— podria no tenir espai ni temps en el sentit que entenem.",
+              "feedbackWrong": "Kant trenca amb la visió de Newton (que espai i temps són absoluts i objectius) i amb la de Leibniz (que són relacionals però objectius). Per a Kant, espai i temps són formes a priori de la sensibilitat: estructures de la ment humana que organitzen tota experiència possible. No estan al món: estan en la manera com percebem el món."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Paradigmes i revolucions científiques",
+              "text": "La idea de Kant que la ment imposa estructura al món, en comptes de simplement rebre-la, connecta directament amb Kuhn i els paradigmes científics. Els científics no observen el món «en brut»: ho fan sempre a través d'un marc teòric que determina el que veuen i el que ignoren."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-p03-01",
+              "question": "Kant sosté que mai no podem conèixer la «cosa en si», el món tal com és realment, independent de la nostra percepció. Quines conseqüències té això per al coneixement científic?",
+              "options": [
+                "Cap: la ciència estudia el món tal com és, i els resultats científics son objectius.",
+                "Greus: si no podem conèixer la realitat en si, la ciència és una construcció subjectiva sense valor.",
+                "Importants però manejables: la ciència estudia el món tal com se'ns apareix, i els seus resultats són vàlids dins d'aquest marc, tot i no accedir a la realitat última."
+              ],
+              "correct": 2,
+              "explanation": "La posició de Kant no fa la ciència menys vàlida, però sí que canvia el que podem exigir-li. La ciència descriu el món de l'experiència possible amb una precisió i coherència extraordinàries. Però no pot aspirar a descriure la «realitat en si» —allò que el món és independentment de tota observació. La mecànica quàntica ha fet aquesta posició encara més actual: l'acte d'observar afecta el que s'observa; no hi ha accés neutre al món subatòmic. Filòsofs de la ciència com Kuhn, Feyerabend i Putnam han explorat les conseqüències d'aquesta limitació: el coneixement científic és el millor que tenim, és revisable i és enormement potent, però no és una fotografia fidel d'una realitat independent de l'observador."
+            }
+          ]
+        },
+        {
+          "id": "fil-p04",
+          "title": "Nietzsche: la mort de Déu i la revaluació de tots els valors",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Any 1882. Friedrich Nietzsche publica un fragment pertorbador: «Déu ha mort. Déu continua mort. I nosaltres l'hem matat». No és una declaració d'ateisme triomfant. Nietzsche no celebra la mort de Déu: l'anuncia amb horror, com si algú hagués matat el sol. Perquè si Déu ha mort —si l'ordre moral que donava sentit a tot s'ha ensorrat— llavors tot el sistema de valors occidental s'ensorra amb ell. Qui construirà els nous valors?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Nietzsche diagnostica que la cultura occidental ha perdut el fonament dels seus valors (Déu, la raó, el progrés) sense haver-ne construït de nous. La seva proposta és la «revaluació de tots els valors»: crear valors propis en comptes de heretar-los acríticament."
+            },
+            {
+              "type": "misconception",
+              "belief": "Nietzsche era antisemita i les seves idees van inspirar el nazisme.",
+              "reality": "Nietzsche era explícitament antinacionalista i antinazista —i va trencar amb el seu amic Richard Wagner precisament per l'antisemitisme d'aquest. La manipulació de la seva obra va ser obra de la seva germana Elisabeth, que simpatitzava amb el nazisme i va falsificar i seleccionar els seus escrits pòstums. Nietzsche hauria repudiat el nazisme amb la mateixa violència amb la qual va atacar totes les formes de fanatisme col·lectiu.",
+              "why": "Perquè els nazis van instrumentalitzar selectivament alguns conceptes seus (el «superhome», la «voluntat de poder») arrencant-los del context i invertint-ne el significat."
+            },
+            {
+              "type": "expandable",
+              "label": "Qui és el «superhome» de Nietzsche realment?",
+              "content": "El «Übermensch» (sobrehumà o superhome) és sovint mal entès com un ideal racial o físic. En realitat, és un ideal moral: aquell capaç de crear els seus propis valors, de viure sense necessitar l'aprovació externa, de dir «sí» a la vida malgrat el sofriment. No és un dictador ni un guerrer: és un artista moral. Nietzsche posa Goethe com a exemple. El contrari del superhome és «l'home de la massa» —el que segueix valors heretats sense examinar-los, el que s'amaga en el grup per evitar la responsabilitat de pensar per si mateix."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-p04-01",
+              "style": "detect-error",
+              "statement": "Quan Nietzsche diu «Déu ha mort», vol dir que els avenços de la ciència han demostrat que Déu no existeix.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és interpretar «Déu ha mort» com una tesi científica. Nietzsche no fa ciència ni teologia: fa un diagnòstic cultural. Diu que la fe en Déu com a fonament moral i cosmològic ha perdut la seva capacitat de sustentar els valors de la cultura occidental. Les persones han deixat de creure-hi d'una manera que realment orienti les seves vides. No és que la ciència l'hagi refutat: és que la cultura l'ha buidat de significat pràctic. Les conseqüències nihilistes d'aquest buit cultural és el que preocupa Nietzsche."
+            },
+            {
+              "type": "debate",
+              "question": "Nietzsche diu que hem de crear els nostres propis valors en comptes d'heretar-los. És això possible o desitjable?",
+              "positionA": {
+                "label": "Sí: autonomia moral",
+                "argument": "Viure amb valors heretats acríticament és una forma d'infantilisme moral. L'adult autèntic examina el que ha rebut, descarta el que no resisteix l'examen i construeix la seva pròpia manera de viure. Això no és arrogància: és responsabilitat."
+              },
+              "positionB": {
+                "label": "No: els valors son sempre col·lectius",
+                "argument": "Cap individu crea valors des de zero. Els valors emergeixen de comunitats, tradicions i pràctiques compartides. La idea de l'individu que crea valors «propis» és una il·lusió que pot derivar en narcisisme o en la justificació de qualsevol comportament."
+              },
+              "reflection": "Fins a quin punt els teus valors centrals els has examinat, i fins a quin punt els has simplement heretat?",
+              "context": "La tensió entre autonomia individual i pertinença cultural és central en la filosofia moral contemporània. Comunitaristes com MacIntyre critiquen l'individualisme moral de Nietzsche; liberals com Rawls el defensen parcialment."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-p04-01",
+              "question": "Si no hi ha valors objectius —si Nietzsche té raó que els valors son creacions humanes—, podem condemnar les atrocitats morals com l'Holocaust?",
+              "options": [
+                "No: si els valors son relatius, no tenim fonament per condemnar res.",
+                "Sí, sense problema: la força de la condemna moral no depèn de l'existència de valors absoluts.",
+                "Sí, però cal reformular el fonament: la condemna es basa en valors humans compartits, no en lleis metafísiques."
+              ],
+              "correct": 2,
+              "explanation": "El relativisme moral —la idea que no hi ha valors objectius— no implica que totes les accions siguin igualment acceptables. Hi ha diverses sortides filosòfiques: el contractualisme (Rawls) fonamenta la moral en acords racionals que qualsevol persona razonable acceptaria; el consequencialisme (Mill) jutja les accions per les seves conseqüències en el benestar; la teoria de les necessitats bàsiques (Nussbaum) identifica capacitats humanes fonamentals que cap sistema pot violar. Cap d'aquests enfocaments necessita un Déu o una metafísica absoluta per condemnar el genocidi. La condemna de l'Holocaust es pot fonamentar en valors compartits (dignitat, sofriment, llibertat) sense afirmar que siguin «objectius» en sentit metafísic. Nietzsche, paradoxalment, condemnaria el nazisme amb vehemència —precisament perquè el nazisme representa el pitjor de l'home de la massa, no del superhome."
+            }
+          ]
+        },
+        {
+          "id": "fil-p05",
+          "title": "El problema de la consciència",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Ets capaç de llegir aquestes paraules. Sents alguna cosa mentre les llegeixis —potser interès, potser distracció. Hi ha «alguna cosa que és com ser tu» en aquest moment. Però per què? El teu cervell és matèria —àtoms, molècules, sinapsis elèctriques. Com és que de la matèria en surt una experiència subjectiva? Com és que de l'electroquímica en surt el blau del cel? Aquesta pregunta és el «problema difícil de la consciència», i és potser el problema filosòfic més desconcertant del segle XXI."
+            },
+            {
+              "type": "key-idea",
+              "text": "El «problema difícil de la consciència» (Chalmers, 1995) pregunta per què i com els processos físics del cervell generen experiència subjectiva. No es tracta de saber com funciona el cervell, sinó per què el seu funcionament va acompanyat de quelcom que es viu des de dins."
+            },
+            {
+              "type": "expandable",
+              "label": "Quines posicions hi ha sobre la consciència?",
+              "content": "Les posicions principals són: (1) Materialisme/Fisicalisme: la consciència és un producte del cervell; quan s'entengui prou bé el cervell, la consciència quedarà explicada. (2) Dualisme: la ment i el cos son substàncies diferents (posició de Descartes, difícil de defensar avui). (3) Panpsiquisme: la consciència és una propietat fonamental de la matèria, present d'alguna forma en tota cosa. (4) Funcionalisme: la consciència és un tipus de processament d'informació; podria existir en qualsevol sistema prou complex, inclosos els ordinadors. (5) Eliminativisme: «consciència» és un concepte ingenu que la neurociència acabarà reemplaçant per termes més precisos. Cap posició és majoritàriament acceptada entre els filòsofs i científics."
+            },
+            {
+              "type": "prediction",
+              "question": "Creus que una intel·ligència artificial suficientment avançada podria tenir consciència —és a dir, experiència subjectiva, «quelcom que és com ser ella»?",
+              "hint": "Pensa si la consciència és una qüestió de complexitat de processament o si requereix alguna cosa més."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-p05-01",
+              "style": "multiple-choice",
+              "question": "El «problema difícil de la consciència» es refereix a:",
+              "options": [
+                "La dificultat tècnica de construir una màquina conscient",
+                "La pregunta de per què els processos físics del cervell generen experiència subjectiva",
+                "El problema de demostrar que altres persones són conscients",
+                "La impossibilitat de mesurar la consciència científicament"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El «problema difícil» (hard problem) distingeix entre preguntes sobre mecanismes cerebrals —que la neurociència pot abordar— i la pregunta de per què qualsevol d'aquests mecanismes va acompanyat d'experiència subjectiva. Per exemple: podem explicar com el cervell processa el color vermell. Però per què aquest processament va acompanyat del «vermell» que veus? Aquesta bretxa explicativa és el «problema difícil».",
+              "feedbackWrong": "El «problema difícil» no és un problema tècnic ni metodològic: és un problema conceptual. Explica per quin motiu és tan difícil: fins i tot si tinguéssim una descripció neuronal perfecta de tots els processos cerebrals, semblaria que alguna cosa quedaria inexplicada —el «com és» des de dins d'una experiència."
+            },
+            {
+              "type": "debate",
+              "question": "Si una IA pogués mantenir una conversa indistingible de la humana i afirmés tenir experiències subjectives, hauríem de tractar-la moralment com una persona?",
+              "positionA": {
+                "label": "Sí: el comportament és el que compta",
+                "argument": "No tenim accés directe a la consciència de ningú —ni de les altres persones. Si el comportament extern és indistingible, no tenim raons per negar-li un estatus moral. Jutjar altrament seria una forma de discriminació arbitrària."
+              },
+              "positionB": {
+                "label": "No: la simulació no és l'experiència",
+                "argument": "Una IA que processa símbols i genera respostes adequades no «sent» res. Pot simular perfectament l'expressió d'experiències sense tenir-ne cap. Tractar-la com a persona seria confondre el mapa amb el territori."
+              },
+              "reflection": "Com sabes que les altres persones que coneixes no son «zombies filosòfics» —éssers que es comporten com si tinguessin consciència però que no en tenen cap?",
+              "context": "El «zombie filosòfic» és un experiment mental de Chalmers: és concebible un ésser físicament idèntic a un humà però sense cap experiència subjectiva? Si és concebible, diu Chalmers, el fisicalisme és fals. Dennett respon que simplement no és concebible: els zombies no són coherents conceptualment."
+            }
+          ]
+        },
+        {
+          "id": "fil-p06",
+          "title": "Filosofia per viure: Estoics, Epicuris i la vida bona",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Mentre Plató i Aristòtil debatten sobre la naturalesa de la realitat, una altra tradició filosòfica grega es pregunta per una cosa diferent: com hem de viure per ser feliços? No és una pregunta abstracta. És la pregunta que tothom acaba fent-se. I els antics grecs van produir dues respostes extraordinàriament sofisticades —i completament oposades— que seguim debatent avui."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'estoicisme proposa que la felicitat depèn de controlar els nostres judicis i desitjos, no les circumstàncies externes. L'epicureisme proposa que la felicitat és l'absència de dolor i la presència de plaer tranquil, obtinguts a través de la moderació i l'amistat."
+            },
+            {
+              "type": "comparison",
+              "title": "Estoicisme vs. Epicureisme",
+              "labelA": "Estoicisme",
+              "labelB": "Epicureisme",
+              "items": [
+                {
+                  "label": "Fonament de la felicitat",
+                  "a": "La virtut i el control dels judicis",
+                  "b": "L'absència de dolor (ataraxia) i plaer tranquil"
+                },
+                {
+                  "label": "Actitud davant el plaer",
+                  "a": "Indiferència: el plaer no és ni bo ni dolent",
+                  "b": "Benvinguda moderada: el plaer és el bé natural"
+                },
+                {
+                  "label": "Actitud davant les emocions",
+                  "a": "Control racional de les passions",
+                  "b": "Moderació i evitació de les passions pertorbadores"
+                },
+                {
+                  "label": "Vida social",
+                  "a": "Participació cívica i política (cosmopolitisme)",
+                  "b": "Retir a la comunitat d'amics, lluny de la política"
+                },
+                {
+                  "label": "Representants",
+                  "a": "Marc Aureli, Epictetus, Sèneca",
+                  "b": "Epicur, Lucreci"
+                }
+              ]
+            },
+            {
+              "type": "quote",
+              "text": "No et pertorbin les coses externes, sinó els judicis que fas sobre elles. I eliminar aquests judicis depèn de tu.",
+              "author": "Marc Aureli, Meditacions"
+            },
+            {
+              "type": "expandable",
+              "label": "Per què l'estoicisme és tan popular avui?",
+              "content": "L'estoicisme ha viscut un renaixement extraordinari al segle XXI. Empresaris, esportistes i psicòlegs citen Marc Aureli i Epictetus. La raó és que la seva psicologia pràctica és sorprenentment efectiva: distingir el que depèn de nosaltres (judicis, intencions, respostes) del que no depèn (el cos, la reputació, el temps) permet una reducció de l'ansietat que la psicologia cognitiva moderna ha validat. La Teràpia Cognitivo-Conductual (TCC) —el tractament psicològic més estudiat del món— té arrels directes en l'estoicisme. Aaron Beck, el seu fundador, cita explícitament Epictetus: no ens pertorben les coses, sinó el que pensem d'elles."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-p06-01",
+              "style": "multiple-choice",
+              "question": "Segons l'estoicisme, davant una crítica injusta d'un company de feina, la resposta filosòficament correcta seria:",
+              "options": [
+                "Ignorar la crítica: el que diuen els altres no importa gens.",
+                "Respondre amb ira: la ira és una reacció natural i justa davant la injustícia.",
+                "Examinar si la crítica té alguna part de veritat i respondre racionalment, sense pertorbar-se pel judici aliè.",
+                "Retirar-se de tota relació social per evitar situacions similars."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'estoicisme no proposa indiferència passiva ni supressió de totes les emocions: proposa que les emocions no siguin el motor de les nostres decisions. Davant una crítica, el savi estoic pregunta: «Hi ha alguna cosa veritat en això? Puc aprendre-n'hi?». Si la crítica és injusta, el judici aliè no afecta la seva virtut ni la seva identitat. La pertorbació no prové de la crítica sinó del nostre judici sobre ella.",
+              "feedbackWrong": "L'estoicisme no proposa indiferència total ni supressió de l'emoció. Proposa que les emocions disruptives —com la ira o la por— no determinin les nostres accions. La clau és la dicotomia del control: la crítica aliena no depèn de nosaltres; la nostra resposta, sí."
+            },
+            {
+              "type": "misconception",
+              "belief": "Epicur era un hedonista que creia en el plaer sense límits i en la vida de luxe.",
+              "reality": "Epicur era tot el contrari: advocava per una vida de plaers simples i moderats —amistat, conversa, menjar senzill, absència de dolor. Vivia en una comunitat frugal. El plaer màxim per a ell era l'ataraxia: la tranquil·litat de l'ànima lliure d'ansietat. La paraula «epicuri» ha adquirit un sentit popular completament oposat al que ell defensava.",
+              "why": "Perquè els seus crítics van caricaturitzar la seva filosofia associant-la al hedonisme desbocat, i la caricatura ha sobreviscut més que l'original."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-p06-01",
+              "question": "Quin enfocament cap a la felicitat et sembla més raonable: el de l'estoicisme (controlar els propis judicis) o el de l'epicureisme (buscar plaers tranquils i evitar el dolor)?",
+              "options": [
+                "L'estoic: la felicitat ha de ser independent de les circumstàncies externes.",
+                "L'epicuri: la felicitat és inseparable del benestar físic i les relacions concretes.",
+                "Cap dels dos és suficient sol; la vida bona necessita elements de tots dos."
+              ],
+              "correct": 2,
+              "explanation": "La filosofia contemporània del benestar (well-being) ha explorat ambdues tradicions i tendeix a sintetitzar-les. La psicologia positiva (Seligman) combina elements estoics —fortaleses de caràcter, significat— amb elements epicuris —emocions positives, relacions. La recerca empírica sobre la felicitat mostra que: (1) les circumstàncies externes afecten menys el benestar que creiem (punt estoic), però (2) certes condicions materials bàsiques i relacionals son necessàries per a la felicitat (punt epicuri). Aristotil parlava d'eudaimonia —florir humà— que integra virtut, relacions, benestar material i activitat significativa. Potser és el marc més complet: ni la indiferència estoica radical ni el plaer epicuri pur, sinó una vida activa, virtuosa i ben relacionada."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

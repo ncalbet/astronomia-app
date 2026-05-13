@@ -1,0 +1,865 @@
+{
+  "id": "module-09-filosofia-politica",
+  "title": "Filosofia Política",
+  "emoji": "⚖️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "poder",
+      "title": "El poder i la seva legitimitat",
+      "icon": "👑",
+      "description": "Dels grecs al segle XX: com ha pensat la filosofia sobre qui mana i per qué",
+      "style": "Cronològic · del pensament clàssic al contemporani",
+      "lessons": [
+        {
+          "id": "fp-a-01",
+          "title": "La polis grega: quin és el millor règim?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Per als grecs, la política no era una activitat entre d'altres — era la forma més alta de vida humana. Aristòtil deia que l'humà és un 'animal polític': no en el sentit que li agrada la intriga, sinó que només pot realitzar-se plenament vivint en comunitat amb lleis compartides. La pregunta central de la filosofia política grega era: quin tipus de comunitat permet als humans viure millor? I la resposta no era òbvia: Plató i Aristòtil, mestre i deixeble, donaven respostes radicalment oposades."
+            },
+            {
+              "type": "key-idea",
+              "text": "La filosofia política neix amb una pregunta normativa: no sols com s'organitza el poder, sinó com s'hauria d'organitzar. Des del principi, és una disciplina que barreja descripció i prescripció."
+            },
+            {
+              "type": "comparison",
+              "title": "Plató vs. Aristòtil sobre el millor règim",
+              "labelA": "Plató (La República)",
+              "labelB": "Aristòtil (La Política)",
+              "items": [
+                { "label": "Millor règim", "a": "Aristocràcia dels filòsofs-reis: els que coneixen el Bé han de governar", "b": "Politeia (república moderada): classe mitjana estable, lleis per sobre dels homes" },
+                { "label": "Fonament", "a": "El coneixement: sols el filòsof pot conèixer el Bé i governar just", "b": "La prudència: cap individu és prou savi — cal equilibri de poders" },
+                { "label": "La democràcia", "a": "Règim degradat: el poble és ignorant i es deixa manipular pels demagogs", "b": "Acceptable si moderada; perillosa si deriva en tirania de la majoria" },
+                { "label": "El paper de les lleis", "a": "Secundari: el filòsof-rei no necessita lleis — governa per saviesa", "b": "Central: 'el govern de les lleis és superior al govern dels homes'" },
+                { "label": "Utopia o realisme", "a": "Utopia filosòfica: cap polis real s'hi aproxima", "b": "Estudi empíric de 158 constitucions reals per extreure principis" }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué Plató desconfiava de la democràcia: l'argument del vaixell",
+              "content": "Plató usa una metàfora: imagina un vaixell on la tripulació vota qui ha de ser el capità. Els mariners més populars guanyen — però no els més competents en navegació. Navegar és una tècnica que requereix coneixement, no opinió majoritària. Plató aplica el mateix raonament a la política: governar una polis requereix coneixement del Bé, no simplement la preferència de la majoria. La democràcia atenesa havia condemnat Sòcrates a mort per majoria. Plató no ho oblidava. L'argument és seductor — però té un problema devastador: qui decideix qui té el 'coneixement del Bé'? Plató no dona una resposta satisfactòria, i la seva República tendeix a convertir-se en una justificació filosòfica de l'autoritarisme benevolent."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-a-01-01",
+              "style": "multiple-choice",
+              "question": "Quin argument usa Plató per criticar la democràcia com a sistema de govern?",
+              "options": [
+                "Que la democràcia és inestable perquè els pobres sempre revolten contra els rics",
+                "Que governar requereix coneixement del Bé, i la majoria no el té — igual que navegar requereix un expert, no una votació",
+                "Que la democràcia atenesa era corrupta per culpa dels demagogs perses",
+                "Que la igualtat política contradiu la desigualtat natural entre els humans"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'argument de Plató és epistèmic: governar bé requereix coneixement del Bé, igual que navegar requereix coneixement de la navegació. La majoria no té aquest coneixement — i per tant la democràcia tendeix a seleccionar demagogs populars, no governants savis.",
+              "feedbackWrong": "Plató no basa la crítica en la inestabilitat econòmica ni en factors externs. El seu argument és filosòfic: la política és una tècnica que requereix coneixement especialitzat (del Bé, de la justícia), i la majoria no el posseeix. Votar no crea coneixement."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-a-01-02",
+              "style": "true-false",
+              "question": "Aristòtil creia que el millor règim era la monarquia d'un rei filòsof, seguint el model del seu mestre Plató.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Aristòtil s'aparta clarament de Plató en aquest punt. El millor règim practicable per a Aristòtil és la politeia: un règim mixt on la classe mitjana equilibra els excessos dels rics i dels pobres, i on les lleis estan per sobre dels individus. Aristòtil desconfiava dels règims basats en la saviesa d'un sol home, per brillant que fos.",
+              "feedbackWrong": "Aristòtil rebutja explícitament el model platònic del filòsof-rei. Preferia la politeia (república moderada) basada en la classe mitjana i el govern de les lleis. A diferència de Plató, Aristòtil estudiava constitucions reals i buscava el millor règim possible, no l'ideal perfecte."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-a-01-01",
+              "question": "Plató diu que governar requereix coneixement especialitzat — igual que la medicina o la navegació. Per tant, els experts haurien de governar, no la majoria. Trobes convincent aquest argument?",
+              "options": [
+                "Sí: les decisions polítiques complexes (economia, sanitat, clima) requereixen expertise que la majoria no té",
+                "No: la política no és una tècnica neutral — implica valors i interessos, i tothom és afectat per igual",
+                "Parcialment: calen experts per a les polítiques concretes, però els valors i les prioritats han de decidir-los els ciutadans"
+              ],
+              "correct": 2,
+              "explanation": "La distinció de l'opció C és la que la teoria democràtica contemporània ha adoptat majoritàriament. John Dewey i Jürgen Habermas argumenten que la democràcia no és ignorant dels experts: és el marc que decideix quins objectius perseguir i qui controla que els experts no s'apropiïn del procés. Un epidemiòleg pot dir-te com minimitzar contagis; no pot dir-te quant de llibertat individual val sacrificar per aconseguir-ho. Aquesta és una decisió de valors — i aquí la igualtat política és defensable. El problema de Plató és que no distingeix entre coneixement tècnic (qui el té, governi) i elecció de valors (aquí la majoria té tant dret com qualsevol)."
+            }
+          ]
+        },
+        {
+          "id": "fp-a-02",
+          "title": "Maquiavel: la política sense moral",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Florència, 1513. Niccolò Maquiavel acaba de ser torturat, empresonat i exiliat per la família Mèdici, que ha recuperat el poder. Escriu El Príncep com un manual per a governants — i el que hi posa escandalitza l'Europa cristiana: un príncep ha de saber quan mentir, quan trencar promeses, quan ser cruel. La virtut moral pot ser un luxe que el polític no es pot permetre. Maquiavel no és un cínic que celebra la maldat. És un realista que descriu el món tal com és, no com hauria de ser."
+            },
+            {
+              "type": "key-idea",
+              "text": "Maquiavel separa per primer cop la política de la moral: l'objectiu del governant és mantenir el poder i l'estabilitat de l'Estat, i els mitjans han d'avaluar-se per la seva eficàcia, no per la seva bondat moral."
+            },
+            {
+              "type": "quote",
+              "text": "Un príncep no ha de tenir cap altre objectiu ni cap altre pensament, ni ha de prendre cap altra cosa com a art seva, fora de la guerra i les seves regles i disciplines.",
+              "author": "Niccolò Maquiavel, El Príncep (1513)"
+            },
+            {
+              "type": "expandable",
+              "label": "Virtù i Fortuna: els dos factors del poder per Maquiavel",
+              "content": "Maquiavel introdueix dos conceptes clau. La Fortuna és tot el que escapa al control del príncep: les circumstàncies, la sort, els accidents de la història. La virtù (que no és 'virtut' en sentit moral) és la capacitat del príncep per aprofitar les circumstàncies, adaptar-se, actuar amb decisió quan cal. Maquiavel calcula que la Fortuna controla la meitat de les nostres accions — i la virtù pot controlar l'altra meitat. La metàfora és un riu: quan la fortuna és benigna (riu tranquil), qualsevol pot navegar-lo. Quan és adversa (crescuda), sols el que ha construït dics i canals (virtù) sobreviu. La implicació política és profunda: el príncep ha de preparar-se per als moments difícils en els moments fàcils — i ha d'estar disposat a actuar de maneres que la moral convencional no aprovaria quan la situació ho requereixi."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-a-02-01",
+              "style": "multiple-choice",
+              "question": "Qué és la 'virtù' per a Maquiavel?",
+              "options": [
+                "La bondat moral i la rectitud cristiana del governant",
+                "La capacitat d'adaptar-se a les circumstàncies i actuar decisivament per mantenir el poder",
+                "La virtut aristotèlica: el terme mig entre els extrems del caràcter",
+                "La prudència de no actuar mai sense consultar els consellers"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La virtù de Maquiavel és completament diferent de la virtut moral. És una qualitat quasi marcial: energia, decisió, capacitat d'adaptació, voluntat d'actuar de maneres que la moral convencional reprovaria quan la situació ho exigeix. És la qualitat que diferencia el príncep que sobreviu del que cau.",
+              "feedbackWrong": "Maquiavel trenca explícitament amb la tradició moral de la virtut. La seva virtù no té connotacions ètiques: és la capacitat executiva del polític per dominar les circumstàncies i mantenir el poder. Un príncep 'virtuós' en sentit maquiavèl·lic pot ser perfectament immoral en sentit cristià o aristotèlic."
+            },
+            {
+              "type": "debate",
+              "question": "Maquiavel diu que el príncep ha de saber usar la crueltat quan és necessari per mantenir l'ordre. Hi ha alguna situació política en qué les mentides o la violència del governant siguin moralment justificables?",
+              "positionA": {
+                "label": "Sí: la raó d'estat té la seva pròpia lògica",
+                "argument": "El governant té responsabilitats que el ciutadà individual no té: la seguretat de milions de persones. En situacions extremes (guerra, terrorisme, col·lapse), accions que serien immorals per a un particular poden ser necessàries per a qui governa. Churchill va ordenar bombardejos que mataren civils. Truman va llançar la bomba atòmica. La història els absol perquè el resultat va evitar mals majors."
+              },
+              "positionB": {
+                "label": "No: els mitjans condicionen els fins",
+                "argument": "La idea que 'els fins justifiquen els mitjans' ha legitimat atrocitats. Un govern que ment i usa la violència arbitràriament destrueix la confiança que el legitima. A llarg termini, els règims que usen la crueltat com a eina política tendeixen a la corrupció i la tirania. La moral no és un luxe: és la condició de possibilitat de la legitimitat política."
+              },
+              "reflection": "On traçaries la línia entre la necessitat política legítima i l'abús de poder? Qui decideix on és la línia?",
+              "context": "Max Weber va formalitzar aquest dilema amb el concepte d''ètica de la responsabilitat' (el polític ha de considerar les conseqüències) vs. 'ètica de la convicció' (hi ha principis que no es poden violar). Isaiah Berlin va dir que Maquiavel va descobrir quelcom terrible: que hi ha valors últims incompatibles entre ells."
+            },
+            {
+              "type": "misconception",
+              "belief": "Maquiavel era un defensor de la tirania i creia que els governants poden fer qualsevol cosa sense límits morals.",
+              "reality": "Maquiavel preferia les repúbliques a les monarquies, i el seu altre gran obra (Els Discursos sobre Tit Livi) és una defensa del govern republicà i de la participació ciutadana. El Príncep era un manual de supervivència política en un context d'extrema inestabilitat, no un manifest de tirania. Maquiavel separava descripció de prescripció: descrivia com funciona el poder, no necessàriament com hauria de funcionar.",
+              "why": "Perquè El Príncep es llegeix aïlladament del seu context i de la resta de l'obra de Maquiavel, i perquè 'maquiavèl·lic' ha passat a significar manipulació sense escrúpols en el llenguatge comú."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-a-02-01",
+              "question": "Maquiavel separa la política de la moral: l'èxit polític no s'ha de jutjar amb criteris morals sinó per l'estabilitat i el poder aconseguits. Creus que aquesta separació és possible o desitjable?",
+              "options": [
+                "Possible i necessària: barrejar moral i política porta a l'ingenuïtat i al fracàs",
+                "Impossible: tota decisió política implica valors, i els valors són inseparables de la moral",
+                "Parcialment: la política té la seva lògica pròpia, però no pot ignorar completament les restriccions morals"
+              ],
+              "correct": 2,
+              "explanation": "Max Weber va elaborar la resposta més influent: la política té la seva pròpia lògica (l'ús legítim de la força, la responsabilitat pels resultats) que no coincideix amb la moral individual. Però no és completament autònoma: hi ha restriccions morals que cap argumentació de 'raó d'estat' pot superar (la prohibició del genocidi, la tortura sistemàtica). Habermas i els liberals deontològics argumenten que sense un nucli moral inviolable, la política es converteix en una lluita nua pel poder. El punt C captura la tensió real: la política no és simplement ètica aplicada (Plató), però tampoc no pot prescindir de tota referència moral (Maquiavel pur). La democràcia liberal és, en gran part, l'intent institucional de gestionar aquesta tensió."
+            }
+          ]
+        },
+        {
+          "id": "fp-a-03",
+          "title": "Llibertat i els seus límits: Mill i Berlin",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quanta llibertat ha de tenir l'individu enfront de l'Estat i la societat? John Stuart Mill va intentar fixar un límit precís: l'únic motiu legítim per limitar la llibertat d'algú és evitar que faci mal als altres. El que fas amb la teva pròpia vida — per molt que a altri li sembli equivocat — no és assumpte de l'Estat. Un segle més tard, Isaiah Berlin va complicar el panorama: hi ha dos conceptes de llibertat, i confondre'ls ha justificat algunes de les pitjors tirannies de la història."
+            },
+            {
+              "type": "key-idea",
+              "text": "Isaiah Berlin distingeix llibertat negativa (absència de coerció externa: ningú et impedeix fer X) i llibertat positiva (capacitat real de fer X: tens els recursos, l'educació, el poder per fer-ho). La tensió entre les dues ha estructurat el debat polític dels últims dos segles."
+            },
+            {
+              "type": "expandable",
+              "label": "El principi del dany de Mill: fins on arriba la llibertat individual",
+              "content": "Mill formula el que ell anomena el 'principi del dany' (harm principle) a Sobre la llibertat (1859): 'L'únic propòsit per al qual el poder pot exercir-se legítimament sobre qualsevol membre d'una comunitat civilitzada, contra la seva voluntat, és evitar el dany als altres. El seu propi bé, físic o moral, no és una raó suficient.' Això significa: l'Estat no pot prohibir-te consumir drogues que sols et fan mal a tu. No pot obligar-te a dur casc de moto (si l'accident sols t'afecta a tu). Però sí que pot prohibir-te conduir begut (perquè poses en risc els altres). El principi sembla clar fins que intentes aplicar-lo: el consum de drogues no afecta els teus fills? La teva obesitat no encareix el sistema sanitari públic? Mill és un punt de partida brillant — però la línia entre 'dany a un mateix' i 'dany als altres' és constantment disputada."
+            },
+            {
+              "type": "comparison",
+              "title": "Llibertat negativa vs. llibertat positiva",
+              "labelA": "Llibertat negativa (Berlin)",
+              "labelB": "Llibertat positiva (Berlin)",
+              "items": [
+                { "label": "Definició", "a": "Absència d'interferència externa: ningú et bloqueja", "b": "Capacitat real d'autogovernar-se i actuar: tens els mitjans" },
+                { "label": "Pregunta clau", "a": "Quant espai tinc sense que ningú m'hi fixi?", "b": "Qui controla la meva vida? Tinc poder real per decidir?" },
+                { "label": "Amenaça típica", "a": "L'Estat o altres persones que t'impedeixen actuar", "b": "La pobresa, la ignorància, la dependència que et fan incapaç d'actuar" },
+                { "label": "Tradició política", "a": "Liberalisme clàssic, libertarisme", "b": "Socialisme, republicanisme, liberalisme igualitari" },
+                { "label": "Risc segons Berlin", "a": "Pot ignorar les condicions reals de llibertat (un pobre és 'lliure' de menjar al Ritz)", "b": "Pot justificar coerció en nom de la 'veritable' llibertat ('t'obliguen per al teu bé')" }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-a-03-01",
+              "style": "multiple-choice",
+              "question": "Quin és el 'principi del dany' de John Stuart Mill?",
+              "options": [
+                "L'Estat pot limitar la llibertat individual sempre que la majoria ho consideri beneficiós per a la societat",
+                "L'únic motiu legítim per limitar la llibertat d'algú és evitar que causi dany a tercers",
+                "La llibertat individual ha de cedir davant els drets col·lectius quan entren en conflicte",
+                "Cap acció que causi dany, ni a un mateix, pot ser permesa per l'Estat"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El principi del dany és el nucli del liberalisme de Mill: la coerció estatal sols és legítima per protegir els altres, no per protegir-te de tu mateix ni per imposar la moral majoritària. És una defensa radical de l'autonomia individual.",
+              "feedbackWrong": "Mill és un defensor de la llibertat individual contra la majoria i contra el paternalisme estatal. El seu principi és precís: sols el dany a tercers justifica la coerció. El que fas amb la teva pròpia vida — per molt que la majoria ho desaprovi o que et faci mal a tu — no és assumpte de l'Estat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-a-03-02",
+              "style": "detect-error",
+              "statement": "Berlin considera que la llibertat positiva és superior a la negativa perquè va més lluny i garanteix que les persones tinguin capacitat real per exercir la seva llibertat.",
+              "isCorrect": false,
+              "feedbackExplanation": "Berlin no considera la llibertat positiva superior — al contrari, adverteix del seu perill. La llibertat positiva pot derivar en tirania quan l'Estat decideix que sap millor que tu quin és el teu 'veritable' interès i t'obliga a ser 'realment lliure' malgrat la teva resistència. Els règims totalitaris del segle XX van usar sovint el llenguatge de la llibertat positiva per justificar la coerció. Berlin defensa principalment la llibertat negativa com a nucli inviolable, tot i reconèixer que la positiva té el seu valor."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una llei o norma que t'afecti i que consideris un excés d'intervenció estatal. Ara pensa en una que consideris insuficient. Quina concepció de llibertat (negativa o positiva) hi ha darrere de cada judici teu?",
+              "prompt": "No cal que escriguis res. Però la resposta pot revelar el teu marc polític intuïtiu."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-a-03-01",
+              "question": "Un govern imposa l'educació obligatòria fins als 16 anys, fins i tot contra la voluntat de famílies que prefereixen no escolaritzar els fills. Això és una violació de la llibertat (negativa) o una garantia de la llibertat (positiva)?",
+              "options": [
+                "Violació: l'Estat coerciona les famílies i els nens sense el seu consentiment",
+                "Garantia: sense educació, els nens no tindran la capacitat real de ser lliures com a adults",
+                "Ambdues: és una restricció de la llibertat negativa present que pretén garantir la llibertat positiva futura — i el debat és si el trade-off és legítim"
+              ],
+              "correct": 2,
+              "explanation": "L'opció C és la més honesta filosòficament perquè reconeix la tensió real. Un libertari estricte (Nozick) diria que l'Estat no té dret a imposar l'educació, ni que sigui per al bé del nen. Mill tindria dificultats: el nen no és un adult capaç de consentir, i el dany (la ignorància) el sofreix ell — però és un dany futur que el nen present no pot avaluar. La majoria de liberals contemporanis accepten l'educació obligatòria com a excepció justificada al principi del dany: els nens no són agents plenament autònoms, i l'Estat té un deure de protegir la seva capacitat futura d'autonomia. Però la mateixa lògica podria justificar moltes altres intervencions paternalistes — i aquí és on Mill encén la llum d'alarma."
+            }
+          ]
+        },
+        {
+          "id": "fp-a-04",
+          "title": "El poder i la dominació: Weber, Arendt, Foucault",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al segle XX, la filosofia política va deixar de preguntar sols 'quin és el millor règim?' per preguntar 'com funciona el poder realment?'. Max Weber va definir l'Estat com el monopoli de la violència legítima. Hannah Arendt, superviventa del nazisme, va distingir el poder (que neix de l'acció col·lectiva) de la violència (que el destrueix). Michel Foucault va mostrar que el poder no sols reprimeix — penetra els cossos, els sabers, les institucions. Tres maneres de veure el poder que no es contradiuen, però que il·luminen aspectes completament diferents."
+            },
+            {
+              "type": "key-idea",
+              "text": "El poder polític no és simplement força bruta ni autoritat formal: és una relació social complexa que inclou legitimitat (Weber), acció col·lectiva (Arendt) i penetració en les formes de coneixement i subjectivitat (Foucault)."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1919",
+                  "title": "Weber: l'Estat com a monopoli de la violència legítima",
+                  "text": "L'Estat modern és l'única entitat que reclama per a si el dret exclusiu d'usar la força física de manera legítima. Tres tipus de legitimitat: tradicional (costum), carismàtica (líder), racional-legal (lleis)."
+                },
+                {
+                  "year": "1951",
+                  "title": "Arendt: Els orígens del totalitarisme",
+                  "text": "El totalitarisme és un fenomen nou: no sols domina les accions sinó que destrueix la capacitat de pensar i actuar. El poder genuí neix del consens i l'acció col·lectiva; la violència el destrueix."
+                },
+                {
+                  "year": "1975",
+                  "title": "Foucault: Vigilar i castigar",
+                  "text": "El poder modern no reprimeix sols des de dalt: opera a través de les institucions (presons, hospitals, escoles), normalitza conductes i produeix subjectes. El panòptic com a metàfora de la societat disciplinària."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El panòptic de Foucault: per qué la vigilància constant canvia el comportament",
+              "content": "Jeremy Bentham va dissenyar el panòptic: una presó circular on un sol guarda al centre pot veure tots els presos en tot moment, però els presos no poden veure si el guarda hi és. L'efecte: els presos s'autovigilaven constantment perquè mai no sabien si estaven sent observats. Foucault usa això com a metàfora de la societat moderna: no cal que l'Estat vigili tothom tot el temps. N'hi ha prou que els individus sàpiguen que poden ser vigilats per interioritzar les normes i autoregular-se. Les càmeres de seguretat, l'historial mèdic, el registre bancari, l'algorisme de recomanació: tots funcionen com a panòptics. La gran pregunta del segle XXI: la vigilància digital de les xarxes socials és la realització plena del panòptic foucaultià? I si és així, qui és el guarda?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-a-04-01",
+              "style": "multiple-choice",
+              "question": "Qué distingeix Hannah Arendt entre 'poder' i 'violència'?",
+              "options": [
+                "El poder és institucional i la violència és individual",
+                "El poder neix de l'acció col·lectiva i el consens; la violència és la seva antítesi, que el destrueix",
+                "El poder és legítim quan l'exerceix l'Estat; la violència és il·legítima quan l'exerceix un particular",
+                "No hi ha distinció real: tot poder es recolza en última instància en la violència"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Per Arendt, el poder genuí neix quan les persones actuen conjuntament d'acord amb un propòsit comú: és una energia col·lectiva que empodera. La violència, en canvi, és instrumental i destructiva — i quan un règim sols pot mantenir-se per la força, és senyal que ha perdut el poder real. El nazisme, per a Arendt, era el triomf de la violència sobre el poder.",
+              "feedbackWrong": "Arendt fa una distinció filosòfica precisa que va contra la intuïció habitual. No és una distinció de legitimitat ni d'institucions: és ontològica. El poder és generatiu i col·lectiu; la violència és destructiva i instrumental. Quan un règim usa la violència massivament, per a Arendt és senyal de debilitat, no de força: ha perdut el poder real."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-a-04-02",
+              "style": "multiple-choice",
+              "question": "Quin dels tres tipus de legitimitat de Weber descriu millor un sistema democràtic constitucional modern?",
+              "options": [
+                "Legitimitat tradicional: el govern es legitima per la continuïtat amb el passat i el costum",
+                "Legitimitat carismàtica: el govern es legitima per les qualitats excepcionals del líder",
+                "Legitimitat racional-legal: el govern es legitima per un sistema de normes i procediments establerts",
+                "Cap dels tres: la democràcia crea un quart tipus de legitimitat basat en la voluntat popular"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. La legitimitat racional-legal és la base de l'Estat modern: la gent obeeix no perquè el líder sigui extraordinari ni per tradició, sinó perquè les normes i els procediments han estat establerts d'acord amb regles acceptades. La Constitució, les eleccions, la separació de poders: tot és legitimitat racional-legal.",
+              "feedbackWrong": "La legitimitat tradicional (obeïm perquè sempre s'ha fet així) és pròpia de monarquies hereditàries i costums ancestrals. La carismàtica (obeïm perquè el líder és excepcional) és inestable i tendeix al personalisme. La democràcia constitucional moderna basa la seva legitimitat en normes i procediments acceptats: la legitimitat racional-legal de Weber."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-a-04-01",
+              "question": "Foucault diu que el poder modern no sols reprimeix sinó que produeix subjectes: ens fa ser d'una manera determinada a través de les institucions, els discursos i les normes. Si això és cert, fins a quin punt som realment lliures?",
+              "options": [
+                "No som lliures: el poder ens ha format tan profundament que la nostra 'llibertat' és també una construcció del poder",
+                "Som lliures malgrat el poder: la consciència crítica permet resistir i subvertir les normes imposades",
+                "La llibertat i el poder no s'exclouen: som constituïts pel poder però podem usar-lo de maneres no previstes i resistir-lo"
+              ],
+              "correct": 2,
+              "explanation": "El propi Foucault va evolucionar cap a l'opció C. Als seus últims treballs (l'ètica de si mateix, les Hermenèutiques del subjecte) va explorar com els individus poden treballar sobre si mateixos per transformar-se — el que ell anomena 'pràctiques de llibertat'. La llibertat no és l'absència de poder (impossible) sinó la capacitat de relacionar-se amb el poder de maneres no merament reactives. La resistència és possible, però des de dins del poder, no des d'un lloc exterior pur. Això distingeix Foucault del determinisme: no diu que el poder ens determini completament, sinó que el constitueix parcialment — i que la llibertat és el joc que queda en aquest espai."
+            }
+          ]
+        },
+        {
+          "id": "fp-a-05",
+          "title": "Democràcia i les seves crisis",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La democràcia liberal semblava el 1989 el destí inevitable de la humanitat. Francis Fukuyama va parlar de 'la fi de la història': les democràcies liberals havien guanyat. Trenta anys després, el panorama és molt diferent: populismes d'esquerra i dreta qüestionen les institucions liberals, les xarxes socials fragmenten l'esfera pública, les desigualtats creixents erosionen la confiança en el sistema. La filosofia política torna a preguntar-se: qué fa que una democràcia sigui bona? I qué la pot destruir des de dins?"
+            },
+            {
+              "type": "key-idea",
+              "text": "La democràcia no és simplement 'la majoria mana'. Hi ha una tensió constitutiva entre el principi democràtic (voluntat de la majoria) i el principi liberal (drets individuals que la majoria no pot violar). Quan aquesta tensió es desequilibra, la democràcia o es buida o s'autoconsumeix."
+            },
+            {
+              "type": "expandable",
+              "label": "Tres models de democràcia: agregativa, deliberativa i agonística",
+              "content": "Els filòsofs polítics han proposat models molt diferents de qué hauria de ser la democràcia.\n\n**Democràcia agregativa** (Schumpeter, teoria de l'elecció racional): la democràcia és un mercat polític on els partits competeixen per vots. Els ciutadans trien entre ofertes com a consumidors. La qualitat de la deliberació és irrelevant: el que compta és que el mecanisme de competència seleccioni els líders.\n\n**Democràcia deliberativa** (Habermas, Rawls): la legitimitat democràtica no ve sols del vot sinó de la qualitat del procés de discussió pública. Una decisió és legítima si ha estat precedida per un debat racional, inclusiu i obert als millors arguments. La democràcia educa els ciutadans.\n\n**Democràcia agonística** (Chantal Mouffe): la deliberació habermasiana és una il·lusió. La política és essencialment conflicte entre adversaris amb interessos i identitats incompatibles. L'objectiu no és el consens sinó canalitzar el conflicte de maneres que no destrueixin la convivència. El conflicte és saludable; el problema és quan l'adversari es converteix en enemic."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-a-05-01",
+              "style": "multiple-choice",
+              "question": "Qué és la 'tirania de la majoria', concepte que preocupava pensadors com Tocqueville i Mill?",
+              "options": [
+                "Quan una majoria electoral governa durant massa anys sense alternança",
+                "Quan la majoria usa el poder democràtic per suprimir els drets de les minories",
+                "Quan els partits majoritaris s'alien per excloure els partits minoritaris del Parlament",
+                "Quan la majoria de la població viu en condicions econòmiques precàries"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Tocqueville i Mill temien que la democràcia, si no estava limitada per drets constitucionals, pogués derivar en la supressió de les minories per part de la majoria. La solució liberal és la constitucionalització de drets individuals que cap majoria pot violar — l'estructura bàsica de les democràcies liberals modernes.",
+              "feedbackWrong": "La tirania de la majoria no és sobre la durada del govern ni sobre les aliances parlamentàries. És sobre el risc que el principi democràtic (la majoria decideix) destrueixi el principi liberal (hi ha drets que cap majoria pot violar). Tocqueville va observar això als Estats Units del segle XIX: la pressió social de la majoria podia ser tan opressiva com qualsevol tirà."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Pau, Conflicte i Guerra",
+              "moduleEmoji": "🕊️",
+              "concept": "Democràcia i pau: la tesi de la pau democràtica",
+              "text": "Una de les regularitats empíriques més robustes de les relacions internacionals és la 'pau democràtica': les democràcies liberals rarament es fan la guerra entre si. Kant va anticipar aquesta idea a Pau Perpètua. Si has fet el mòdul de Pau, Conflicte i Guerra, recordaràs que aquest argument és un dels pilars de la teoria liberal de les relacions internacionals — i que els seus crítics el discuteixen intensament."
+            },
+            {
+              "type": "debate",
+              "question": "Les democràcies modernes haurien de limitar legalment la difusió de desinformació a les xarxes socials, encara que impliqui restriccions a la llibertat d'expressió?",
+              "positionA": {
+                "label": "Sí: la desinformació destrueix la democràcia",
+                "argument": "La democràcia deliberativa requereix ciutadans informats. Quan les plataformes amplifiquen mentides a escala massiva per maximitzar l'engagement, el resultat és una esfera pública contaminada on la deliberació racional és impossible. Limitar la desinformació no és censurar opinions: és protegir les condicions necessàries per a la democràcia."
+              },
+              "positionB": {
+                "label": "No: qui decideix qué és desinformació?",
+                "argument": "Donar a l'Estat (o a les plataformes privades) el poder de decidir qué és 'veritat' és extremament perillós. La història mostra que els mecanismes de censura s'usen contra les veus dissidents i les minories. Mill tenia raó: la llibertat d'expressió, fins i tot per a les idees errònies, és preferible a la censura. El remei a la mala parla és més parla, no silenci."
+              },
+              "reflection": "La teva postura en aquest debat revela qué valores més: la qualitat del procés deliberatiu o la inviolabilitat de la llibertat d'expressió.",
+              "context": "La Unió Europea ha optat per la regulació (Digital Services Act). Els Estats Units mantenen una protecció molt àmplia de la llibertat d'expressió (Primera Esmena). Cap de les dues solucions ha resolt el problema."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-a-05-01",
+              "question": "El populisme (tant d'esquerra com de dreta) afirma representar 'el poble real' contra les 'élites'. Creus que el populisme és una patologia de la democràcia o una resposta legítima a les seves disfuncions?",
+              "options": [
+                "Patologia: el populisme simplifica la política, ataca les institucions i tendeix a l'autoritarisme",
+                "Resposta legítima: quan les institucions liberals fallen els ciutadans, el populisme expressa un malestar real i vàlid",
+                "Ambdues: el populisme diagnòstica problemes reals però sol proposar solucions que agreugen la malaltia"
+              ],
+              "correct": 2,
+              "explanation": "Chantal Mouffe i Ernesto Laclau han argumentat que el populisme no és inherentment antidemocràtic: és una lògica política que mobilitza identitats col·lectives contra un adversari. El problema no és el populisme en si sinó quan l'adversari es converteix en enemic existencial que ha de ser eliminat. Jan-Werner Müller i Yascha Mounk mostren que el populisme tendeix a l'il·liberalisme: els líders populistes afirmen tenir accés privilegiat a la 'voluntat del poble' i usen això per deslegitimar la oposició i atacar les institucions de control. Però ignoren que el malestar que expressa és real: les desigualtats creixents, la percepció que les élites actuen en el seu propi interès, la pèrdua de control sobre les pròpies vides. Una resposta intel·ligent a la crisi democràtica ha d'adreçar les causes estructurals, no sols condemnar el símptoma."
+            }
+          ]
+        },
+        {
+          "id": "fp-a-06",
+          "title": "Anarquisme, republicanisme i utopies polítiques",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "No totes les tradicions polítiques accepten l'Estat com a punt de partida inevitable. L'anarquisme pregunta: per qué necessitem un Estat en absolut? El republicanisme (en sentit filosòfic, no partidista) diu que el problema no és l'Estat sinó la dominació — i que la llibertat real requereix institucions que la garanteixin. I la tradició de les utopies polítiques — de Tomàs Moro a Marx, de Rawls a les comunitats experimentals actuals — s'atreveix a imaginar formes d'organització radicalment diferents. Qué podem aprendre de les visions polítiques que van contra el corrent?"
+            },
+            {
+              "type": "key-idea",
+              "text": "La teoria política no sols justifica el que existeix: imagina el que podria existir. La utopia no és necessàriament ingenuïtat — és el motor que fa avançar la justícia."
+            },
+            {
+              "type": "expandable",
+              "label": "El republicanisme de Pettit: llibertat com a no-dominació",
+              "content": "Philip Pettit ha proposat una tercera concepció de la llibertat, diferent de la negativa (Berlin) i la positiva: la llibertat com a no-dominació. Una persona és lliure no quan ningú interfereix en els seus actes (llibertat negativa) sinó quan ningú té el poder arbitrari d'interferir-hi si volgués. L'esclau d'un amo benevolent que mai no l'interfereix és 'lliure' en sentit negatiu — però viu sota dominació, perquè l'amo podria interferir en qualsevol moment si volgués. La llibertat republicana exigeix institucions que eliminin la possibilitat de dominació arbitrària: separació de poders, rule of law, controls i equilibris. El republicanisme de Pettit explica per qué les relacions de dependència (empleat davant d'un cap tot-poderós, dona davant d'un home violent) comprometen la llibertat fins i tot quan no hi ha interferència activa."
+            },
+            {
+              "type": "quote",
+              "text": "Si l'Estat és bo per als grans propietaris, és dolent per als pobres; i si és bo per als pobres, és dolent per als grans propietaris.",
+              "author": "Pierre-Joseph Proudhon (1840)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-a-06-01",
+              "style": "multiple-choice",
+              "question": "Qué és la llibertat com a 'no-dominació' en el republicanisme de Pettit?",
+              "options": [
+                "L'absència de qualsevol interferència externa en els actes d'un individu",
+                "La capacitat real de l'individu per fer el que vol gràcies a recursos suficients",
+                "L'absència de poder arbitrari d'altri per interferir en la vida d'un, encara que no interfereixi activament",
+                "La participació activa en les institucions democràtiques que governes la pròpia vida"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La clau de Pettit és 'poder arbitrari': no cal que ningú t'interfereixi activament per estar dominat. Si algú té el poder de fer-ho en qualsevol moment sense que puguis resistir-lo, vius sota dominació — fins i tot si l'amo és benevolent. Això fa que relacions com la dependència laboral extrema o la violència domàstica siguin incompatibles amb la llibertat republicana, fins i tot en absència d'interferència activa.",
+              "feedbackWrong": "L'absència d'interferència activa és la llibertat negativa de Berlin. La capacitat real per actuar és la llibertat positiva. La participació democràtica és un element del republicanisme però no la definició de llibertat. Pettit afegeix una tercera dimensió: l'absència del poder de dominació, que és diferent de l'absència de l'exercici d'aquest poder."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-a-06-02",
+              "style": "true-false",
+              "question": "L'anarquisme polític defensa l'absència de qualsevol forma d'organització col·lectiva o cooperació entre persones.",
+              "correct": false,
+              "feedbackCorrect": "Fals. L'anarquisme no és contra l'organització col·lectiva — és contra l'Estat i les jerarquies coercitives. Els anarquistes (Proudhon, Bakunin, Kropotkin) defensaven formes d'organització voluntària, federalista i horitzontal: cooperatives, comunes, associacions lliures. La seva crítica no és a la col·laboració sinó al poder coercitiu i jeràrquic de l'Estat.",
+              "feedbackWrong": "L'anarquisme és freqüentment mal entès com a sinònim de caos o individualisme radical. En realitat, la majoria de tradicions anarquistes (Kropotkin, el anarco-comunisme) defensen formes intenses de col·laboració i organització col·lectiva — simplement sense l'Estat ni les jerarquies coercitives."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia — Grans Corrents",
+              "moduleEmoji": "🏛️",
+              "concept": "Contracte social i teoria política",
+              "text": "Si has fet l'itinerari 'Com hauries de viure?' del mòdul de Grans Corrents, recordaràs la lliçó sobre Hobbes, Locke i Rawls. Aquí aprofundim en les implicacions polítiques d'aquells arguments: com els tres models de contracte social generen tres visions radicalment diferents de l'Estat legítim, la propietat i la redistribució."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-a-06-01",
+              "question": "La utopia política — imaginar una societat radicalment diferent i millor — és una eina intel·lectual útil o una font de perill, ja que els projectes utòpics han justificat violències enormes al segle XX?",
+              "options": [
+                "Perillosa: els projectes utòpics (comunisme, feixisme) han causat més sofriment que qualsevol altra ideologia",
+                "Útil i necessària: sense visió de com podria ser la societat, no hi ha motor per a la reforma",
+                "Depèn del tipus: la utopia com a horitzó regulador és útil; la utopia com a pla d'acció immediat és perillosa"
+              ],
+              "correct": 2,
+              "explanation": "Karl Popper va fer la crítica més influent a la 'enginyeria social utòpica': els projectes de transformació total de la societat inevitablement requereixen coerció, perquè la societat real sempre resisteix el pla ideal. La seva alternativa era l'enginyeria social gradual: reformes parcials i reversibles. Però Ernst Bloch i altres han defensat la funció del principi esperança: sense imaginació utòpica, la crítica social perd força i la conformisme s'instal·la. La distinció de l'opció C captura el que sembla la postura més defensable: Rawls usava la utopia com a horitzó (el vel de la ignorança no és un pla d'implementació) i això va ser intel·lectualment fecund sense derivar en violència. El problema no és imaginar una societat millor sinó creure que es pot implementar per la força i de cop."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debats",
+      "title": "Grans debats polítics actuals",
+      "icon": "🌍",
+      "description": "Teoria política aplicada als problemes del present: justícia, nació, gènere, ecologia, tecnologia",
+      "style": "Temàtic · del concepte al debat contemporani",
+      "lessons": [
+        {
+          "id": "fp-b-01",
+          "title": "Llibertat vs. igualtat: la tensió fonamental",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si poguessis dissenyar la societat des de zero, quina prioritzaries: que tothom tingui la màxima llibertat possible per fer el que vulgui amb la seva vida i propietat, o que les condicions de vida siguin tan iguals com sigui possible per a tothom? La resposta intuïtiva de molts és: 'les dues coses'. Però la filosofia política del segle XX ha mostrat que, portades als seus extrems, llibertat i igualtat xoquen. I que on traces la línia entre elles defineix gairebé tot el debat polític modern."
+            },
+            {
+              "type": "key-idea",
+              "text": "La tensió llibertat-igualtat no és un error de la política: és constitutiva del liberalisme modern. Totes les posicions polítiques rellevants es defineixen per on situen l'equilibri entre les dues."
+            },
+            {
+              "type": "comparison",
+              "title": "Libertarisme vs. Igualitarisme liberal vs. Socialisme",
+              "labelA": "Libertarisme (Nozick)",
+              "labelB": "Igualitarisme liberal (Rawls)",
+              "items": [
+                { "label": "Prioritat", "a": "Llibertat negativa: cap coerció, ni tan sols per redistribuir", "b": "Igualtat justa: les desigualtats sols si beneficien els pitjor situats" },
+                { "label": "Impostos redistributius", "a": "Treballs forçats: violar propietat per donar a altri", "b": "Justos si resulten d'un procés equitatiu" },
+                { "label": "Rol de l'Estat", "a": "Mínim: protegir contractes i propietat, res més", "b": "Actiu: garantir igualtat d'oportunitats i xarxa de seguretat" },
+                { "label": "Fonament", "a": "Drets de propietat i autodeterminació individuals", "b": "Equitat procedimental i principi de diferència" }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Nozick contra Rawls: l'argument de Wilt Chamberlain",
+              "content": "Nozick va proposar un argument famós contra la redistribució de Rawls. Imagina que distribuïm els recursos d'acord amb el principi de justícia que prefereixis. Ara imagina que un milió de persones paguen voluntàriament 25 cèntims per veure jugar Wilt Chamberlain (la millor bàsquetbolista de l'època). Chamberlain acaba tenint 250.000 dòlars. La distribució final és desigual — però ha sorgit d'intercanvis voluntaris a partir d'una distribució inicial justa. Pot l'Estat redistribuir-la coercitivament? Nozick diu que no: violaria la llibertat de tots els que van pagar voluntàriament. La conclusió: qualsevol principi d'igualtat que vulgui mantenir-se ha de 'interferir contínuament en les vides de les persones'. Rawls respon que l'argument ignora com es va formar la distribució inicial — que inclou avantatges heretats, discriminació històrica i sort."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-b-01-01",
+              "style": "multiple-choice",
+              "question": "Qué diu Robert Nozick sobre els impostos redistributius?",
+              "options": [
+                "Que són justos si han estat aprovats democràticament per la majoria",
+                "Que equivalen a treballs forçats perquè l'Estat confisca fruit del treball individual sense consentiment",
+                "Que poden ser justos si es destinen als més pobres, d'acord amb el principi de diferència",
+                "Que cal eliminar-los gradualment per no crear inestabilitat econòmica"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Nozick argumenta que els impostos sobre el treball equivalen a forçar la persona a treballar per altri: si l'Estat es queda una part del que guanyes, en certa mesura estàs treballant per l'Estat sense consentir-ho. Aquesta és una de les crítiques libertàries més radicals al Welfare State.",
+              "feedbackWrong": "Nozick és el crític més radical de la redistribució rawlsiana. Per a ell, l'aprovació democràtica no legitima la violació de drets individuals: la majoria no pot votar per confiscar la propietat d'altri. El principi de diferència de Rawls és precisament el que Nozick ataca: no hi ha cap principi igualitari que justifiqui la coerció redistributiva."
+            },
+            {
+              "type": "debate",
+              "question": "L'Estat hauria de gravar molt les grans herències per reduir la desigualtat d'oportunitats entre generacions?",
+              "positionA": {
+                "label": "Sí: l'herència perpetua la desigualtat",
+                "argument": "Una societat que es proclama meritocrática no pot tolerar que la sort del bressol determini les oportunitats vitals. Les grans herències transmeten avantatges acumulats durant generacions, moltes vegades a través de processos que incloïen injustícies. Un impost fort sobre les herències no penalitza l'esforç de qui les ha acumulat: penalitza la transmissió passiva de privilegi."
+              },
+              "positionB": {
+                "label": "No: vulnera la llibertat i la família",
+                "argument": "Treballar per deixar alguna cosa als fills és un dels motius més profunds de l'esforç humà. Gravar les herències puneix l'estalvi i la previsió, desincentiva la creació de riquesa i viola el dret dels pares a disposar del que han guanyat legítimament. A més, en la pràctica, els rics sempre troben la manera d'evadir l'impost; el que acaba pagant és la classe mitjana."
+              },
+              "reflection": "La teva postura aquí revela quin pes dones a la igualtat d'oportunitats vs. la llibertat de disposar de la pròpia propietat.",
+              "context": "La majoria de països occidentals tenen algun impost de successions, però les exempcions el fan poc efectiu. Thomas Piketty ha proposat un impost progressiu global sobre el patrimoni com a alternativa."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-b-01-01",
+              "question": "La meritocracia — la idea que les posicions socials haurien de reflectir el mèrit individual — és un ideal just o un mite que legitima la desigualtat?",
+              "options": [
+                "Un ideal just: si tothom té les mateixes oportunitats, les diferències de resultat reflecteixen l'esforç i el talent",
+                "Un mite: el mèrit és inseparable dels avantatges de partida, i la meritocracia amaga la reproducció de la desigualtat",
+                "Un ideal vàlid però mal implementat: la meritocracia és justa com a horitzó però requereix igualació radical de les condicions de partida"
+              ],
+              "correct": 2,
+              "explanation": "Michael Sandel, en La tirania del mèrit (2020), ha fet la crítica més influent recent: fins i tot si la meritocracia fos perfectament implementada (igualtat d'oportunitats real), generaria un problema moral: els guanyadors es sentirien moralment superiors ('m'ho he guanyat') i els perdedors, moralment inferiors ('me'l mereixo'). Això produeix humiliació i ressentiment — la base social del populisme. Rawls ja havia vist el problema: fins i tot el talent natural és un avantatge 'arbitrari des del punt de vista moral' (no l'has guanyat, és sort). Per tant, una societat justa no pot simplement premiar el talent i l'esforç — ha de compensar la mala sort de partida. L'opció C captura la postura dominant en la filosofia política liberal: la meritocracia és un ideal regulador útil, però sols és just si va acompanyat d'una igualació real de les condicions inicials."
+            }
+          ]
+        },
+        {
+          "id": "fp-b-02",
+          "title": "Nacionalisme i cosmopolitisme: tenim deures amb els estrangers?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Cada any, milers de persones moren intentant creuar el Mediterrani per arribar a Europa. Els estats europeus tanquen les fronteres. La pregunta és filosòficament neta: tenim obligacions morals amb persones que no són ciutadans del nostre país? Si la resposta és sí, fins on arriben? Si la resposta és no, per qué no? La tensió entre nacionalisme i cosmopolitisme no és sols política — és un dels debats morals i filosòfics més profunds de la contemporaneïtat."
+            },
+            {
+              "type": "key-idea",
+              "text": "El cosmopolitisme diu que tots els humans tenim drets i deures morals iguals independentment de la nostra nacionalitat. El nacionalisme diu que les obligacions especials amb els compatriotes són legítimes i prioritàries. La filosofia política no ha resolt aquesta tensió."
+            },
+            {
+              "type": "expandable",
+              "label": "L'argument de Rawls sobre la justícia global: per qué els limita a l'Estat-nació",
+              "content": "Rawls va aplicar el seu vel de la ignorança sols dins d'una societat nacional. Per a la justícia global, va proposar un principi molt més modest: els 'pobles' (no els individus) han de respectar-se mútuament i els rics han de donar assistència als 'pobles desfavorits' per ajudar-los a esdevenir 'societats ben ordenades'. Però Rawls no va aplicar el principi de diferència globalment: no va dir que les desigualtats globals sols siguin justes si beneficien els més pobres del món. Els seus deixebles cosmopolites (Thomas Pogge, Charles Beitz) el van criticar durament: per qué el vel de la ignorança se cenyeix a les fronteres nacionals? Si no saps on néixeràs, no saps si seràs europeu o africà — i en aquest cas, el vel hauria de generar obligacions globals molt més fortes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-b-02-01",
+              "style": "multiple-choice",
+              "question": "Qué defensa el cosmopolitisme en filosofia política?",
+              "options": [
+                "Que tots els estats han de cooperar en organismes internacionals per resoldre problemes globals",
+                "Que tots els humans tenim igual dignitat moral i deures independentment de la nacionalitat o l'origen",
+                "Que el model cultural occidental és universalment vàlid i ha de difondre's globalment",
+                "Que les fronteres nacionals han d'eliminar-se per crear un govern mundial únic"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El cosmopolitisme moral (Martha Nussbaum, Peter Singer, Thomas Pogge) afirma que la nacionalitat és moralment arbitrària: no hi ha raó per la qual el lloc on has nascut hauria de determinar quina consideració moral mereixes. Per tant, tenim obligacions morals vers tots els éssers humans, no sols vers els nostres compatriotes.",
+              "feedbackWrong": "El cosmopolitisme no és imperialisme cultural ni govern mundial necessàriament. És una postura moral: la nacionalitat no hauria de determinar el valor moral d'una persona. Això pot tenir implicacions polítiques molt diverses, des de l'obertura de fronteres fins a l'ajuda al desenvolupament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-b-02-02",
+              "style": "detect-error",
+              "statement": "David Miller defensa que les obligacions especials amb els compatriotes no es poden justificar filosòficament, perquè la nacionalitat és moralment arbitrària.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és falsa: és exactament la postura contrària a la de David Miller. Miller és un dels defensors del nacionalisme liberal: argumenta que les obligacions especials amb els compatriotes sí que es poden justificar, perquè les relacions nacionals creen llaços de responsabilitat mútua reals i valuosos, igual que les relacions familiars. La nacionalitat no és arbitrària com ho és el lloc de naixement: és una identitat compartida que genera compromisos legítims."
+            },
+            {
+              "type": "debate",
+              "question": "Els estats rics tenen l'obligació moral d'obrir les fronteres a les persones que fugen de la pobresa extrema, tot i que això pugui alterar profundament la seva societat?",
+              "positionA": {
+                "label": "Sí: les fronteres són moralment arbitràries",
+                "argument": "El lloc on has nascut és tan arbitrari moralment com el color de la pell o el sexe. Si estiguéssim darrere del vel de la ignorança de Rawls sense saber si néixeríem al Mali o a Alemanya, escolliríem un món amb fronteres molt més obertes. La riquesa dels estats 'rics' es basa parcialment en l'explotació colonial i en la seva posició avantajosa en el sistema econòmic global que ells mateixos han dissenyat."
+              },
+              "positionB": {
+                "label": "No: els estats tenen dret a l'autodeterminació",
+                "argument": "Els estats democràtics representen comunitats polítiques que han construït institucions, valors i drets col·lectivament. Obrir les fronteres sense límit pot destruir les condicions que fan possibles els drets que es volen estendre. Els estats tenen dret a controlar la immigració per preservar la cohesió social i la integritat de les institucions democràtiques."
+              },
+              "reflection": "Aquest debat toca la pregunta de fons: a qui deus lleialtat? A la teva comunitat nacional, a la humanitat en general, o a tots dos en mesures difícils de precisar?",
+              "context": "Joseph Carens ('els immigrants il·legals són els serfs de la nostra era') és el cosmopolita més radical. Michael Walzer defensa el dret comunitari a controlar la pertinença. La majoria dels estats liberals mantenen posicions intermèdies però incoherents."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-b-02-01",
+              "question": "Peter Singer argumenta que si pots evitar que quelcom molt dolent passi sense sacrificar res de comparable importància moral, estàs obligat a fer-ho. Implicació: els rics occidentals haurien de donar la majoria del que guanyen per sobre del mínim necessari per salvar vides al món pobre. Trobes aquest argument convincent?",
+              "options": [
+                "Sí: la lògica és impecable i la inacció dels rics és moralment equivalent a deixar morir",
+                "No: tenim dret a prioritzar la nostra vida i els nostres projectes — la moral no pot exigir-nos tant",
+                "L'argument és vàlid però ignora que les causes estructurals de la pobresa no es resolen amb donacions individuals"
+              ],
+              "correct": 2,
+              "explanation": "L'argument de Singer ('el fang i el nen') té una lògica difícil de refutar en el cas individual. Però Frances Kamm, Samuel Scheffler i altres han mostrat que la moral no pot ser completament impartial i exigir sacrificis il·limitats: tenim 'prerrogatives centrades en l'agent' per prioritzar els nostres projectes, relacions i vida. L'opció C afegeix la crítica estructuralista: Thomas Pogge argumenta que la prioritat no és la caritat (donar als pobres) sinó la justícia (deixar de mantenir les regles del sistema econòmic global que els empobreix). No és que els rics hagin de donar més — és que el sistema de propietat intel·lectual, els paradisos fiscals, i els tractats comercials injustos actuen com a extracció de riquesa dels països pobres. Canviar les regles seria més eficaç que qualsevol nivell de caritat individual."
+            }
+          ]
+        },
+        {
+          "id": "fp-b-03",
+          "title": "Feminisme i poder: el gènere com a categoria política",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El feminisme no és sols un moviment social: és una de les crítiques filosòfiques més profundes als supòsits de la teoria política tradicional. Quan Rousseau escrivia sobre el contracte social i la llibertat natural dels homes, deixava les dones al marge deliberadament. Quan Rawls va dissenyar el vel de la ignorança, no va problematitzar que el treball domèstic i de cura (majoritàriament femení) queda fora del contracte. El feminisme pregunta: a qui parla la teoria política? De qui assumeix la vida? I qui queda fora?"
+            },
+            {
+              "type": "key-idea",
+              "text": "El feminisme polític no és sols sobre drets de les dones: és una crítica a com les categories bàsiques de la filosofia política (llibertat, igualtat, subjecte polític, esfera pública/privada) han estat construïdes a partir d'una experiència parcial — la masculina."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1792",
+                  "title": "Mary Wollstonecraft: Vindicació dels drets de la dona",
+                  "text": "Primera argumentació sistemàtica per la igualtat política de les dones. Contra Rousseau: les dones no són 'naturalment' inferiors, sinó que l'educació les ha fet dependents."
+                },
+                {
+                  "year": "1949",
+                  "title": "Simone de Beauvoir: El segon sexe",
+                  "text": "'No es neix dona: es fa'. El gènere és una construcció social. Les dones han estat definides com a 'l'Altre' respecte al subjecte masculí universal."
+                },
+                {
+                  "year": "1990",
+                  "title": "Judith Butler: Gènere en disputa",
+                  "text": "El gènere no sols és construït culturalment: és 'performatiu'. No hi ha una identitat de gènere prèvia a les seves expressions — el gènere es crea repetint actes, gestos i normes."
+                },
+                {
+                  "year": "1989",
+                  "title": "Kimberlé Crenshaw: Interseccionalitat",
+                  "text": "Les opressions de gènere, raça i classe no s'afegeixen: s'intersecten i produeixen formes específiques de discriminació que cap categoria sola pot capturar."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "La distinció públic/privat i el feminisme: 'el personal és polític'",
+              "content": "La teoria política liberal clàssica (Locke, Mill) distingeix l'esfera pública (on s'apliquen les normes de justícia i igualtat) de l'esfera privada (la llar, la família, on l'Estat no hauria d'intervenir). El feminisme ha mostrat que aquesta distinció perjudica sistemàticament les dones: la violència domèstica, la divisió desigual del treball de cura, la dependència econòmica — tots ocorren a l'esfera 'privada' que l'Estat liberal declara intocable. La consigna 'el personal és polític' (Kate Millett, 1969) denuncia precisament això: les relacions de poder que ocorren a la llar no són 'privades' sinó polítiques. Si la justícia s'aplica sols a l'esfera pública, les dones queden desprotegides on passen la major part de les seves vides."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-b-03-01",
+              "style": "multiple-choice",
+              "question": "Qué denuncia la consigna feminista 'el personal és polític'?",
+              "options": [
+                "Que les dones haurien de participar més en la política institucional i els partits",
+                "Que les relacions de poder que ocorren a la llar i a la vida privada no són neutrals sinó polítiques",
+                "Que les decisions personals (quant fills tenir, amb qui casar-se) han de ser regulades per l'Estat",
+                "Que el feminisme ha de prioritzar les lluites polítiques per sobre de les personals"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La consigna denuncia que la distinció liberal públic/privat funciona per excloure les relacions de poder domèstiques (violència, divisió del treball de cura, dependència econòmica) del camp de la justícia. Si l'esfera 'privada' és intocable per a l'Estat, les desigualtats que hi ocorren queden legitimades per omissió.",
+              "feedbackWrong": "La consigna no és una crida a la intervenció estatal en totes les decisions personals, ni sols a la participació institucional. És una crítica filosòfica a la distinció liberal entre privat (intocable) i públic (on s'aplica la justícia): les feministes argumenten que aquesta distinció és ella mateixa política i perjudica les dones."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-b-03-02",
+              "style": "true-false",
+              "question": "Judith Butler argumenta que el gènere és una identitat interior estable que cadascú expressa de manera autèntica a través del comportament.",
+              "correct": false,
+              "feedbackCorrect": "Fals, és la postura contrària. Butler argumenta que no hi ha una identitat de gènere interior prèvia a les seves expressions: el gènere és 'performatiu', es constitueix a través de la repetició d'actes, gestos i normes culturals. No 'expresses' un gènere que ja tens: el 'fas' en repetir conductes que la cultura reconeix com a masculines o femenines. Això subverteix la idea d'un self de gènere autèntic i essencial.",
+              "feedbackWrong": "Butler és precisament l'autora que deconstrueix la idea d'una identitat de gènere interior estable. El seu argument és que el gènere no és quelcom que 'tens' i 'expreses': és quelcom que 'fas' a través de repeticions performatives. Sense la repetició de les normes de gènere, no hi ha 'identitat de gènere' subjacent."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-b-03-01",
+              "question": "El feminisme liberal argumenta que la igualtat de gènere s'assoleix garantint igualtat de drets i d'oportunitats dins del sistema existent. El feminisme radical argumenta que el sistema mateix (capitalisme patriarcal) ha de ser transformat. Quina estratègia creus que és més eficaç?",
+              "options": [
+                "La liberal: les reformes institucionals (paritat, lleis contra la violència, conciliació) han demostrat millorar la situació de les dones",
+                "La radical: sense canvi estructural, les reformes liberals sols integren les dones en un sistema que continua sent opressiu",
+                "No són excloents: les reformes immediates milloren vides concretes mentre s'articula una crítica estructural més profunda"
+              ],
+              "correct": 2,
+              "explanation": "El debat reforma/revolució recorre tota la teoria política progressista, no sols el feminisme. La crítica a l'opció A és que les reformes liberals tendeixen a beneficiar principalment les dones amb recursos (classe mitjana-alta, blanques, occidentals) i deixen intactes les desigualtats interseccionals. La crítica a l'opció B és que esperar la transformació estructural total mentre les dones pateixen violència i discriminació ara és un luxe teòric. L'opció C no és una solució de compromís còmoda: és la postura de la majoria de moviments feministes eficaços, que han combinat lluites concretes (dret a vot, lleis d'igualtat salarial, accés a l'avortament) amb una crítica als fonaments del sistema. La tensió entre les dues estratègies és productiva, no paralisadora."
+            }
+          ]
+        },
+        {
+          "id": "fp-b-04",
+          "title": "Ecologia i política: drets de la natura i justícia intergeneracional",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La crisi climàtica ha posat sobre la taula preguntes que la filosofia política clàssica no havia anticipat. Qui representa els que encara no han nascut? Té la natura drets propis, independentment del seu valor per als humans? Fins on arriben les nostres obligacions amb les generacions futures, als quals no hem demanat permís per deixar-los un planeta alterat? La filosofia política verda no és un luxe acadèmic: és la reflexió sobre com distribuir una càrrega que ningú ha escollit de manera completament voluntària."
+            },
+            {
+              "type": "key-idea",
+              "text": "La justícia ecològica planteja dos desafiaments nous a la teoria política: la justícia intergeneracional (deures amb generacions futures que no existeixen encara) i els drets de la natura (si els éssers no humans o els ecosistemes poden ser subjectes de drets)."
+            },
+            {
+              "type": "expandable",
+              "label": "El vel de la ignorança de Rawls i les generacions futures",
+              "content": "Rawls va reconèixer el problema però li va costar solucionar-lo. Si no saps a quina generació pertanyeràs darrere del vel de la ignorança, escolliràs principis que protegeixin també les generacions futures. Rawls va proposar el 'principi d'estalvi just': cada generació ha de transmetre a la següent un capital (institucions, infraestructures, coneixement, medi ambient) no menor al que va rebre. Però el problema és que els actuals disposadors del vel no inclouen les generacions futures: no poden votar, no es manifesten, no negocien. Les institucions democràtiques actuals estan sistemàticament biaixades cap al curt termini (cicles electorals de quatre anys vs. canvis climàtics de centenars d'anys). Alguns filòsofs proposen 'comissaris per al futur' o institucions no democràtiques per protegir els interessos de les generacions que no existeixen."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-b-04-01",
+              "style": "multiple-choice",
+              "question": "Qué és la justícia intergeneracional en filosofia política?",
+              "options": [
+                "La distribució justa de recursos i oportunitats entre les generacions que viuen simultàniament",
+                "Les obligacions morals que tenim envers les generacions futures que no existeixen encara",
+                "El deure de cada generació de pagar els deutes contrets per les anteriors",
+                "La protecció dels drets de les persones grans davant la pressió de les generacions joves"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La justícia intergeneracional pregunta: quines obligacions tenim envers persones que encara no existeixen? Podem consumir tots els recursos naturals si les generacions futures en patiran les conseqüències? El canvi climàtic fa aquesta pregunta urgent i concreta.",
+              "feedbackWrong": "La justícia intergeneracional no és sobre generacions que viuen alhora ni sobre herències i deutes. És sobre les obligacions morals cap a les generacions que viuran en el futur i que no poden participar en les decisions actuals que les afectaran profundament."
+            },
+            {
+              "type": "debate",
+              "question": "Haurien de tenir drets legals reconeguts els ecosistemes (rius, boscos, muntanyes), independentment del seu valor per als humans?",
+              "positionA": {
+                "label": "Sí: la natura té valor intrínsec",
+                "argument": "Tractar la natura sols com a recurs per als humans és l'antropocentrisme que ha conduït a la crisi ecològica. Alguns estats (Equador, Nova Zelanda, Índia) ja han reconegut drets legals a rius i ecosistemes. Reconèixer-los drets és una manera pràctica de donar-los veu institucional i protegir-los davant interessos econòmics a curt termini."
+              },
+              "positionB": {
+                "label": "No: els drets requereixen subjectes capaços de reclamar-los",
+                "argument": "Els drets son conceptes que té sentit atribuir a éssers que poden sofrir, que tenen interessos i que potencialment poden reclamar-los. Un riu no sofreix ni té interessos en el sentit rellevant. Personificar la natura jurídicament és una ficció legal que pot ser útil però no canvia el fet que els interessos que es protegeixen són sempre humans o animals sentients."
+              },
+              "reflection": "On traces la línia de quins éssers mereixen protecció moral? En la capacitat de sofrir? En la vida? En l'ecosistema com a tot?",
+              "context": "La Constitució de l'Equador (2008) és la primera que reconeix drets a la natura (Pachamama). Nova Zelanda va reconèixer el riu Whanganui com a persona legal el 2017. En tots dos casos, humans actuen com a representants legals."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-b-04-01",
+              "question": "Les democràcies liberals estan estructuralment mal equipades per gestionar la crisi climàtica perquè els cicles electorals de 4 anys incentiven el curt termini. Creus que cal reformar les institucions democràtiques per afrontar reptes a llarg termini, fins i tot si implica limitar la sobirania popular immediata?",
+              "options": [
+                "Sí: cal crear institucions no electorals (bancs centrals climàtics, comissaris per al futur) que protegeixin el llarg termini",
+                "No: limitar la democràcia en nom del clima és perillós i innecessari — les democràcies poden actuar a llarg termini si els ciutadans ho volen",
+                "Cal reformar les institucions democràtiques (mandats més llargs, assemblees ciutadanes, drets constitucionals climàtics) sense abandonar el principi democràtic"
+              ],
+              "correct": 2,
+              "explanation": "L'opció A és el camí dels tecnocràtes climàtics (alguns economistes i científics el defensen). El problema és que les institucions no democràtiques tendeixen a ser capturades per interessos poderosos i a perdre legitimitat. L'opció B és optimista però contradiu l'evidència: les democràcies han tengut dificultats sistemàtiques per actuar decididament sobre el canvi climàtic, parcialment per la pressió d'interessos a curt termini. L'opció C és la que defensen filòsofs com Hélène Landemore (democràcia oberta, assemblees ciutadanes) i constitucionalistes que proposen drets climàtics constitucionals: mantenir la legitimitat democràtica mentre es creen mecanismes que protegeixin el llarg termini. Les assemblees ciutadanes climàtiques (França, Irlanda, Regne Unit) han mostrat que ciutadans ben informats i deliberant poden adoptar postures més ambicioses que els parlaments."
+            }
+          ]
+        },
+        {
+          "id": "fp-b-05",
+          "title": "Justícia distributiva: Rawls, Nozick i el marxisme",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Com s'hauria de distribuir la riquesa en una societat justa? Aquesta és potser la pregunta política més disputada de la modernitat. Tres tradicions donen respostes radicalment incompatibles. Rawls diu: les desigualtats son justes sols si beneficien els pitjor situats. Nozick diu: les desigualtats son justes si han sorgit d'intercanvis voluntaris — l'Estat no ha d'interferir. El marxisme diu que la pregunta mateixa és inadequada: el problema no és la distribució de la riquesa existent sinó les relacions de producció que la generen injustament."
+            },
+            {
+              "type": "key-idea",
+              "text": "El debat sobre la justícia distributiva no és sols sobre economia: és sobre quin tipus de desigualtats són moralment acceptables, qui les ha de jutjar, i quins mecanismes institucionals les poden corregir sense violar altres valors (llibertat, eficiència, comunitat)."
+            },
+            {
+              "type": "expandable",
+              "label": "Marx i l'explotació: per qué el capitalisme és estructuralment injust",
+              "content": "Marx no era principalment un teòric de la distribució: era un crític de les relacions de producció. El seu argument: en el capitalisme, el treballador ven la seva força de treball per un salari. Però el que produeix amb aquesta força de treball val més que el salari que rep. La diferència (plusvàlua) se l'apropia el capitalista. No per frau ni per violència directa: és l'estructura mateixa del sistema. L'explotació és sistèmica, no individual. Per tant, redistribuir via impostos (la solució rawlsiana) no toca l'arrel del problema: segueix essent un sistema en el qual alguns posseeixen els mitjans de producció i altres han de vendre la seva força de treball. La solució marxista és la transformació de les relacions de propietat — no la redistribució de la riquesa produïda en condicions d'explotació."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-b-05-01",
+              "style": "multiple-choice",
+              "question": "Quin és el 'principi de diferència' de Rawls?",
+              "options": [
+                "Que tothom ha de tenir exactament els mateixos recursos econòmics",
+                "Que les desigualtats econòmiques sols son justes si beneficien els membres pitjor situats de la societat",
+                "Que les diferències de talent i esforç justifiquen qualsevol desigualtat de resultat",
+                "Que l'Estat ha de tractar tots els ciutadans de manera igual davant la llei"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El principi de diferència és el criteri rawlsià per avaluar les desigualtats econòmiques: no cal que tothom tingui el mateix (igualitarisme estricte), però les desigualtats sols es justifiquen si el sistema que les genera produeix avantatges per als pitjor situats. Si una desigualtat no beneficia els més pobres, és injusta.",
+              "feedbackWrong": "Rawls no és un igualitari estricte (no vol que tothom tingui exactament el mateix) ni un meritocrático (no creu que el talent i l'esforç justifiquen qualsevol desigualtat). El seu criteri és específic: les desigualtats son justes sols si milloren la situació dels membres més desfavorits de la societat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-b-05-02",
+              "style": "detect-error",
+              "statement": "Nozick creu que una distribució de riquesa és justa si i sols si és igual per a tothom.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és la definició del criteri de justícia de Nozick. Ell no defensa la igualtat: defensa la teoria de la justícia com a drets adquirits (entitlement theory). Una distribució és justa si ha sorgit d'adquisicions i transferències voluntàries justes, independentment del grau de desigualtat que produeixi. Nozick és explícitament contrari a qualsevol principi que imposi una 'distribució correcta' — perquè qualsevol patró distributiu requereix interferir contínuament en les tries lliures de les persones."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia — Grans Corrents",
+              "moduleEmoji": "🏛️",
+              "concept": "Justícia i contracte social",
+              "text": "Si has fet la lliçó 'Justícia i contracte social: Hobbes, Locke, Rawls' en el mòdul de Grans Corrents, recordaràs el vel de la ignorança i el principi de diferència en el seu context filosòfic original. Aquí aprofundim en la disputa concreta sobre distribució econòmica i les implicacions polítiques de cadascuna de les tres grans tradicions."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-b-05-01",
+              "question": "La renda bàsica universal (RBU) — una quantitat mensual garantida a tota la ciutadania sense condicions — seria justa des de la perspectiva de Rawls? I des de la de Nozick?",
+              "options": [
+                "Justa per a Rawls i injusta per a Nozick: segueix la lògica de cada teoria",
+                "Justa per a tots dos: millora la situació dels pitjor situats (Rawls) i pot finançar-se sense impostos coercitius (Nozick)",
+                "Cap dels dos la admetria fàcilment: Rawls podria preferir altres mecanismes; Nozick la rebutjaria si requereix impostos redistributius"
+              ],
+              "correct": 0,
+              "explanation": "Rawls admetria la RBU si es demostra que beneficia els pitjor situats — que és precisament el criteri del principi de diferència. Algunes lectures rawlsianes veuen la RBU com una concreció del que la justícia exigeix. Nozick, en canvi, la rebutjaria si es finança amb impostos obligatoris: per a ell, qualsevol redistribució coercitiva viola els drets d'adquisició legítima. No importa que el resultat sigui bo per als pobres; el que importa és que el mecanisme — imposar obligatòriament als rics per donar als pobres — viola drets. La coherència interna de cada teoria porta a postures oposades: és un bon exemple de com debats polítics concrets (hauria d'existir la RBU?) depenen de compromisos filosòfics previs sobre la naturalesa dels drets i la justícia.",
+              "feedbackCorrect": "Exacte. Rawls probablement admetria la RBU si es demostra que beneficia els pitjor situats (principi de diferència). Nozick la rebutjaria si es finança amb impostos obligatoris, perquè equivaldria a confiscar propietat per redistribuir-la — violant els drets d'adquisició dels contribuents. La coherència de cadascuna de les dues teories porta a postures oposades sobre la RBU.",
+              "feedbackWrong": "Les dues teories no convergeixen en la RBU. Rawls valora que els pitjor situats millorin la seva posició — i la RBU podria ser un instrument per fer-ho. Nozick valora la integritat de la propietat adquirida legítimament i rebutja qualsevol redistribució coercitiva. Que la RBU 'millori la situació dels pitjor situats' no és un argument vàlid per Nozick si el mecanisme per finançar-la viola drets de propietat."
+            }
+          ]
+        },
+        {
+          "id": "fp-b-06",
+          "title": "Tecnologia i democràcia: vigilància, IA i el futur de la política",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2013, Edward Snowden va revelar que la NSA vigilava massivament les comunicacions de milions de persones arreu del món. El 2016, Cambridge Analytica va usar dades de Facebook per influir en les eleccions americanes i el Brexit. El 2024, algorismes d'IA generen deepfakes de candidats polítics en temps real. La tecnologia digital no sols canvia l'economia: transforma la naturalesa del poder polític, la qualitat de la deliberació democràtica i els límits de la privacitat. La filosofia política necessita noves categories per entendre el que passa."
+            },
+            {
+              "type": "key-idea",
+              "text": "La tecnologia digital crea formes de poder que les categories clàssiques (Estat, mercat, esfera pública) no capturen bé: poder algorítmic, vigilància distribuïda, manipulació a escala, i concentració de dades en mans privades. La democràcia liberal no estava dissenyada per a aquest entorn."
+            },
+            {
+              "type": "expandable",
+              "label": "El capitalisme de vigilància (Shoshana Zuboff): per qué la teva atenció és el producte",
+              "content": "Shoshana Zuboff ha proposat el concepte de 'capitalisme de vigilància' per descriure el model de negoci de Google, Meta i similars. La lògica: les teves dades de comportament (on fas clic, quant temps mires cada cosa, amb qui parles) es recullen massivament, s'analitzen per predir el teu comportament futur, i es venen a anunciants i d'altres que volen modificar el teu comportament. No ets el client: ets la matèria primera. I el producte no és l'anunci: és la certesa de predir i modificar el teu comportament futur. Zuboff argumenta que això és una forma de poder sense precedents: no sols et vigila (com el panòptic de Foucault) sinó que pretén modificar el teu comportament de maneres que ni saps ni consents. La implicació política: si el teu comportament electoral pot ser predit i modificat a escala, qué queda de la noció d'elecció lliure i informada que la democràcia liberal pressuposa?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-b-06-01",
+              "style": "multiple-choice",
+              "question": "Quin és el principal argument de Shoshana Zuboff sobre el 'capitalisme de vigilància'?",
+              "options": [
+                "Que les empreses tecnològiques han de pagar impostos més alts per finançar el Welfare State",
+                "Que les dades dels usuaris es recullen per predir i modificar el comportament humà, venent aquesta capacitat a tercers",
+                "Que la vigilància estatal digital és més perillosa que la vigilància privada de les empreses",
+                "Que les xarxes socials han de ser nacionalitzades per garantir la privacitat dels ciutadans"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Zuboff argumenta que el model de negoci del capitalisme de vigilància no és sols vendre anuncis: és acumular capacitat predictiva i modificadora del comportament humà. Les dades no sols serveixen per mostrar-te publicitat rellevant: serveixen per predir (i eventualment modificar) el que faràs, compreres, votaràs. Això és una forma de poder sobre la conducta humana sense precedents en la història.",
+              "feedbackWrong": "Zuboff no proposa la nacionalització ni se centra en la fiscalitat. La seva crítica és més profunda: el problema no és que les empreses guanyin massa, sinó que el seu model de negoci es basa en la modificació del comportament humà a escala — el que ella considera una violació de l'autonomia i una amenaça a la democràcia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fp-b-06-02",
+              "style": "true-false",
+              "question": "Segons la filosofia política liberal clàssica, la vigilància massiva dels ciutadans per part de l'Estat és acceptable si l'objectiu és prevenir el terrorisme i garantir la seguretat nacional.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La filosofia política liberal (Locke, Mill, Rawls) considera la privacitat un dret fonamental que l'Estat no pot violar sense causa justificada i control judicial. La vigilància massiva indiscriminada — sense sospita individualitzada — viola els drets individuals que l'Estat liberal es va fundar per protegir. La invocació de la 'seguretat nacional' com a justificació il·limitada és exactament el tipus d'argument que el liberalisme ha intentat frenar amb el constitucionalisme i la separació de poders.",
+              "feedbackWrong": "El liberalisme clàssic no accepta que la seguretat justifiqui qualsevol limitació de la llibertat. Mill i la tradició liberal han argumentat sistemàticament contra l'ús del poder estatal per vigilar, controlar o limitar la llibertat individual sense causa específica. La seguretat és un valor, però no pot ser un xec en blanc per a la vigilància indiscriminada."
+            },
+            {
+              "type": "debate",
+              "question": "Els governs haurien de poder regular (o prohibir) l'ús de sistemes d'IA per prendre decisions que afecten drets individuals (concessió de crèdits, sentències penals, contractació laboral)?",
+              "positionA": {
+                "label": "Sí: els algoritmes han de ser auditables i responsables",
+                "argument": "Quan un algorisme nega un crèdit, suggereix una pena de presó o descarta un currículum, pren una decisió que afecta profundament una vida humana. Si l'afectat no pot saber per qué ni recórrer la decisió, se li nega el dret a la tutela judicial efectiva. Els sistemes d'IA que afecten drets individuals han de ser transparents, auditables i subjectes a responsabilitat."
+              },
+              "positionB": {
+                "label": "Precaució: la regulació pot matar la innovació i ser contraproduent",
+                "argument": "Els algorismes de decisió, quan funcionen bé, poden ser menys esbiaixats que els humans (que discriminen per raça, gènere o simpatia). Regular-los en excés pot preservar les decisions humanes, que ja sabem que són sovint injustes. Cal regular els abusos concrets, no la tecnologia en si."
+              },
+              "reflection": "La clau del debat és qui té la càrrega de la prova: els que volen regular els algoritmes, o els que volen usar-los en decisions que afecten drets?",
+              "context": "La UE ha aprovat l'AI Act (2024), que classifica els sistemes d'IA per risc i imposa obligacions de transparència i auditoria. Els EUA han optat per una regulació més lleugera i sectorial."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fp-b-06-01",
+              "question": "La intel·ligència artificial podria teòricament processar tota la informació rellevant i calcular la política òptima per maximitzar el benestar col·lectiu. Seria justificable substituir (parcialment) la deliberació democràtica per decisions d'IA si les decisions fossin objectivament millors?",
+              "options": [
+                "Sí: si l'IA prova que produeix millors resultats, la democràcia ha de cedir en favor de l'eficàcia",
+                "No: la democràcia té valor intrínsec com a autogovernació, independentment de la qualitat dels resultats",
+                "La pregunta parteix d'una premissa falsa: no existeix una 'política òptima' objectiva perquè les decisions polítiques impliquen valors en conflicte, no sols optimització"
+              ],
+              "correct": 2,
+              "explanation": "L'opció C és filosòficament decisiva. La política no és un problema d'optimització com pot ser-ho una partida d'escacs o la distribució d'un horari. Les decisions polítiques impliquen elegir entre valors incommensurables: quanta llibertat vols sacrificar per igualtat? Quant creixement per sostenibilitat? Quins riscos acceptes per quina seguretat? No hi ha una resposta 'objectivament correcta' a aquestes preguntes: depenen de preferències, identitats i visions del món en conflicte. Una IA podria optimitzar donats uns valors prèviament fixats — però qui fixa els valors? Si la resposta és la IA, hem construït una tecnocràcia filosòficament injustificable. Si la resposta és els humans (via deliberació democràtica), la democràcia no ha estat substituïda: sols s'ha afegit una eina d'implementació. L'opció B té raó en un aspecte: la democràcia deliberativa té valor intrínsec com a forma d'autogovernació, no sols instrumental."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

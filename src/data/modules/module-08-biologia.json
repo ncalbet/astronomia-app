@@ -1,0 +1,877 @@
+{
+  "id": "module-08-biologia",
+  "title": "Biologia — Com Funciona la Vida",
+  "emoji": "🧬",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "logica-vida",
+      "title": "La lògica de la vida",
+      "icon": "🌿",
+      "description": "De la cèl·lula a la biosfera: l'arquitectura de tot el que viu",
+      "style": "Conceptual · del simple al complex",
+      "lessons": [
+        {
+          "id": "bio-01",
+          "title": "La cèl·lula: la unitat mínima de vida",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Talla't el dit. En menys d'una setmana, la pell s'ha tancat. Com? No ha intervingut cap enginyer, cap arquitecte, cap director d'obres. Milions de cèl·lules han llegit instruccions internes, s'han dividit, migrat i especialitzat sense cap ordre central. La vida és un sistema que es construeix a si mateix."
+            },
+            {
+              "type": "key-idea",
+              "text": "La cèl·lula és la unitat mínima capaç de fer tot el que defineix la vida: obtenir energia, créixer, reproduir-se i respondre a l'entorn. Tot el que viu és o bé una sola cèl·lula o bé un conjunt de cèl·lules coordinades."
+            },
+            {
+              "type": "misconception",
+              "belief": "Les cèl·lules són sacs de líquid simples, gairebé com globus plens d'aigua.",
+              "reality": "Una cèl·lula humana típica conté uns 100 milions de proteïnes, milers d'orgànuls especialitzats i una xarxa de comunicació interna més complexa que una ciutat. El citoplasma té una estructura tridimensional precisa que regula on passa cada reacció.",
+              "why": "Les il·lustracions dels llibres de text mostren la cèl·lula com un espai buit amb uns quants orgànuls flotants, quan la realitat és un espai densament empaquetat i dinàmic."
+            },
+            {
+              "type": "comparison",
+              "title": "Cèl·lula procariota vs. eucariota",
+              "labelA": "Procariota (bacteris)",
+              "labelB": "Eucariota (animals, plantes, fongs)",
+              "items": [
+                {
+                  "label": "Nucli",
+                  "a": "Sense membrana nuclear",
+                  "b": "Nucli amb membrana pròpia"
+                },
+                {
+                  "label": "Mida",
+                  "a": "1–10 micrometres",
+                  "b": "10–100 micrometres"
+                },
+                {
+                  "label": "Orgànuls",
+                  "a": "Molt pocs (ribosomes)",
+                  "b": "Mitocondris, RE, Golgi..."
+                },
+                {
+                  "label": "ADN",
+                  "a": "Circular, al citoplasma",
+                  "b": "Lineal, al nucli"
+                },
+                {
+                  "label": "Origen",
+                  "a": "Fa ~3.500 milions d'anys",
+                  "b": "Fa ~1.500 milions d'anys"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "La teoria endosimbiòtica: per què els mitocondris semblen bacteris atrapats",
+              "content": "Lynn Margulis va proposar el 1967 que els mitocondris eren en origen bacteris independents engolits per cèl·lules més grans fa uns 2.000 milions d'anys. La comunitat científica la va ridiculitzar. Avui és la teoria acceptada, amb proves contundents: els mitocondris tenen el seu propi ADN (circular, com el dels bacteris), es reprodueixen per divisió independent de la cèl·lula, i els antibiòtics que maten bacteris també els danyen. Un simbiosi que va donar lloc a tota la vida complexa."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bio-01-01",
+              "style": "multiple-choice",
+              "question": "Quin tret és compartit per TOTES les formes de vida conegudes, des de bacteris fins a balenes?",
+              "options": [
+                "Tenir nucli cel·lular amb membrana",
+                "Tenir mitocondris per produir energia",
+                "Estar formades per cèl·lules com a unitat bàsica",
+                "Reproduir-se sexualment"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La teoria cel·lular és un dels pilars de la biologia: tot el que és viu o bé és una cèl·lula o bé n'és un conjunt. Virus a part, que viuen en una zona grisa de la definició de 'vida'.",
+              "feedbackWrong": "El nucli amb membrana (eucariotes) i els mitocondris no els tenen tots els éssers vius — els bacteris en manquen. La reproducció sexual tampoc és universal. L'únic comú denominador és l'organització cel·lular."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bio-01-01",
+              "question": "Els virus no estan fets de cèl·lules, no creixen i no produeixen energia pròpia. Però s'adapten, evolucionen i es reprodueixen (dins d'una cèl·lula hoste). Són éssers vius?",
+              "options": [
+                "Sí: evolucionen i es reprodueixen, i això és suficient per ser viu",
+                "No: sense cèl·lula i sense metabolisme propi, no hi ha vida real",
+                "La pregunta és mal plantejada: 'vida' és un contínuum, no una categoria binària"
+              ],
+              "correct": 2,
+              "explanation": "Els biòlegs no tenen consens sobre si els virus 'viuen'. Alguns els defineixen com 'organismes a la vora de la vida'. El problema de fons és que 'vida' és una categoria humana que intentem aplicar a un contínuum natural. Els virus comparteixen amb els éssers vius l'ús del codi genètic universal (ADN/ARN) i l'evolució per selecció natural. Però no tenen metabolisme propi ni homeòstasi. La biologia moderna tendeix a abandonar la pregunta 'és viu?' i a preguntar en canvi 'quines propietats de la vida té i quines no?' — una actitud molt més productiva científicament."
+            }
+          ]
+        },
+        {
+          "id": "bio-02",
+          "title": "L'ADN: el codi que escriu la vida",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si estiréssim tot l'ADN d'una sola cèl·lula humana, mediria uns dos metres. El teu cos en té uns 37 bilions de cèl·lules. Això és ADN suficient per anar de la Terra al Sol i tornar unes 70 vegades. Tota aquesta informació, empaquetada en un nucli de 6 micrometres, copiada amb menys d'un error per cada 10.000 milions de bases gràcies als mecanismes de reparació de l'ADN."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'ADN és una molècula en doble hèlix formada per quatre bases (A, T, G, C) que s'aparellen en ordre específic. La seqüència d'aquestes bases codifica instruccions per construir proteïnes. Les proteïnes fan gairebé tot el que passa a les cèl·lules."
+            },
+            {
+              "type": "prediction",
+              "question": "Si cada cèl·lula del teu cos té exactament el mateix ADN, per qué una cèl·lula del fetge és tan diferent d'una neurona?",
+              "hint": "Pensa en quins gens s'activen o es desactiven en cada tipus cel·lular."
+            },
+            {
+              "type": "expandable",
+              "label": "L'epigenètica: els gens que s'activen i apaguen sense canviar la seqüència",
+              "content": "Tenir un gen no significa que s'expressi. L'epigenètica estudia com factors ambientals — estrès, dieta, exposicions durant la infància — modifiquen quins gens s'activen sense canviar l'ADN subjacent. Alguns d'aquests canvis es poden heretar. Bessons idèntics amb el mateix ADN poden tenir malalties molt diferents a partir dels 50 anys a causa d'historials epigenètics divergents. Això trenca la idea simplista de 'els gens ho determinen tot'."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Química Fonamental",
+              "moduleEmoji": "⚗️",
+              "concept": "Enllaços d'hidrogen i estructura molecular",
+              "text": "Les bases de l'ADN s'aparellen gràcies a enllaços d'hidrogen — els mateixos que donen a l'aigua les seves propietats peculiars. La doble hèlix es manté unida per milers d'aquests enllaços febles però acumulatius. Febles individualment, però col·lectivament estables: el mateix principi que fa que l'aigua sigui líquida a temperatura ambient."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bio-02-01",
+              "style": "multiple-choice",
+              "question": "Quin és el flux d'informació genètica en la major part dels éssers vius (dogma central de la biologia molecular)?",
+              "options": [
+                "Proteïna → ARN → ADN",
+                "ADN → ARN → Proteïna",
+                "ARN → ADN → Proteïna",
+                "ADN → Proteïna directament, sense intermediari"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'ADN es transcriu a ARN missatger, que es tradueix als ribosomes en una cadena de aminoàcids que s'plega en una proteïna. Crrick va formular aquest 'dogma central' el 1958. Hi ha excepcions (retrovirus com el VIH van en sentit invers), però la regla general es compleix en gairebé tots els éssers vius.",
+              "feedbackWrong": "El flux és ADN → ARN → Proteïna. L'ADN mai es fabrica a partir de proteïnes. L'ARN és l'intermediari necessari perquè l'ADN és massa preciós per sortir del nucli directament — l'ARN és la còpia de treball."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bio-02-02",
+              "style": "true-false",
+              "question": "El genoma humà conté aproximadament 3.000 milions de parells de bases, però menys del 2% codifica proteïnes.",
+              "correct": true,
+              "feedbackCorrect": "Cert. La resta es va anomenar durant dècades 'ADN escombraries' (junk DNA). Avui sabem que gran part té funcions reguladores: controla quan i quant s'expressen els gens que sí codifiquen proteïnes. Anomenar-lo 'escombraries' va ser un error d'interpretació monumental.",
+              "feedbackWrong": "És cert, i és una de les troballes més sorprenents de la genòmica. Sols un 1,5-2% de l'ADN humà codifica proteïnes. La funció de l'altre 98% ha estat un dels grans misteris — i oportunitats — de la biologia del segle XXI."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bio-02-01",
+              "question": "La tecnologia CRISPR permet editar gens humans amb precisió quirúrgica. Hauríem d'usar-la per eliminar malalties genètiques hereditàries en embrions?",
+              "options": [
+                "Sí: eliminar patiment hereditari és un imperatiu moral clar",
+                "No: modificar la línia germinal és massa arriscat i obre la porta a l'eugenèsia",
+                "Depèn: cal distingir entre malalties greus sense tractament i trets complexos com la intel·ligència"
+              ],
+              "correct": 2,
+              "explanation": "CRISPR ha obert un debat que barreja biologia, ètica i política. Les posicions extremes fallen per raons concretes: eliminar 'tot el patiment' ignora que molts trets genètics associats a malalties (anèmia falciforme, fibrosi quística) confereixes resistències en heterozigosi. La prohibició absoluta ignora que ja hi ha teràpies genètiques en adults funcionant. El consens emergent en bioètica distingeix entre edicions somàtiques (que afecten sols l'individu), permissibles amb consentiment, i edicions germinals (heretables), on la cautela és raonable perquè afecten generacions que no poden consentir. La Xina va fer el 2018 els primers nadons editats genèticament (cas He Jiankui), condemnat per la comunitat científica per precipitat i opac, no perquè la tecnologia sigui inherentment dolenta."
+            }
+          ]
+        },
+        {
+          "id": "bio-03",
+          "title": "Evolució: per qué els éssers vius canvien",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1831, un jove naturalista de 22 anys va pujar al HMS Beagle sense tenir clar a qué anava. Cinc anys de viatge més tard, Charles Darwin tornava amb caixes plenes d'espècimens i una idea que trigaria vint anys a publicar, perquè sabia perfectament que el món no estava preparat per escoltar-la."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'evolució per selecció natural funciona amb tres ingredients: variació (els individus d'una població difereixen), herència (els trets es transmeten als descendents) i pressió selectiva (alguns trets ajuden a sobreviure i reproduir-se més que d'altres). Amb el temps, la freqüència dels trets avantatjosos augmenta a la població."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'evolució implica que els éssers vius milloren amb el temps i van cap a formes superiors.",
+              "reality": "L'evolució no té direcció ni objectiu. Un paràsit que perd òrgans complexos per adaptar-se a viure dins d'un hoste evoluciona tan 'bé' com un cervell que s'expandeix. 'Millor' sols significa 'més adaptat a l'entorn actual' — i l'entorn canvia.",
+              "why": "El mot 'evolució' implica lingüísticament progrés cap a alguna cosa més avançada. La idea de 'l'home primitiu' vs. 'l'home modern' reforça aquesta confusió. Darwin mai va usar la paraula 'evolució' a l'edició original de L'origen de les espècies."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1796",
+                  "title": "Cuvier: les espècies extingides",
+                  "text": "Prova que espècies del passat no existeixen avui. Però ho atribueix a catàstrofes, no a canvi gradual."
+                },
+                {
+                  "year": "1809",
+                  "title": "Lamarck: primera teoria evolutiva",
+                  "text": "Proposa que els trets adquirits durant la vida es transmeten als fills. Incorrecte, però pionera."
+                },
+                {
+                  "year": "1859",
+                  "title": "Darwin: L'origen de les espècies",
+                  "text": "Selecció natural com a mecanisme de canvi evolutiu. Publicat 20 anys després del viatge, per precaució."
+                },
+                {
+                  "year": "1865",
+                  "title": "Mendel: lleis de l'herència",
+                  "text": "Publicat en una revista local. Ignorat durant 35 anys. Donaria la base molecular que Darwin no tenia."
+                },
+                {
+                  "year": "1953",
+                  "title": "Watson, Crick i Franklin: estructura de l'ADN",
+                  "text": "La síntesi final: l'evolució ara té un mecanisme molecular. La biologia moderna comença aquí."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bio-03-01",
+              "style": "multiple-choice",
+              "question": "Una població de mosques viu en un camp tractat amb un insecticida nou. Al cap de 20 generacions, el 90% de les mosques sobreviu al tractament. Quin mecanisme ho explica millor?",
+              "options": [
+                "Les mosques van aprendre a evitar el producte químic",
+                "Les mosques van mutar deliberadament per adaptar-se",
+                "Les mosques que ja tenien resistència genètica prèvia van sobreviure i reproduir-se més",
+                "L'insecticida va perdre potència a causa del calor"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La resistència no es va crear en resposta al insecticida: ja existia en una petita fracció de la població com a variació natural. L'insecticida va ser la pressió selectiva que va fer que sols aquelles mosques es reproduïssin. Sense variació preexistent, la selecció natural no pot actuar.",
+              "feedbackWrong": "L'evolució no és una resposta intencional ni un aprenentatge. Les mosques no 'decideixen' mutar. Les mutacions ocorren a l'atzar constantment; la selecció natural filtra quines proliferen. Aquí, les mosques amb resistència preexistent van tenir avantatge reproductiu."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bio-03-02",
+              "style": "detect-error",
+              "statement": "La teoria de l'evolució de Darwin és sols una teoria, no un fet científic, i per tant té el mateix estatus que les creences religioses sobre la creació.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha dos errors. Primer, en ciència 'teoria' no significa 'suposició' — significa un marc explicatiu sòlid, ben contrastat i amb poder predictiu. La teoria de la gravetat és 'sols una teoria'. Segon, l'evolució és un fet observat directament: la resistència als antibiòtics, la cria selectiva, el registre fòssil i la genètica comparada en donen evidència aclaparadora. Que el mecanisme exacte (selecció natural, deriva genètica, etc.) es debati no posa en qüestió que l'evolució ocorre."
+            },
+            {
+              "type": "debate",
+              "question": "L'evolució humana ha 'parat' amb la medicina i la tecnologia modernes, que permeten sobreviure a persones que en contextos naturals no ho farien?",
+              "positionA": {
+                "label": "L'evolució ha parat",
+                "argument": "La selecció natural requereix que alguns individus mirin de reproduir-se menys per trets hereditaris. La medicina moderna elimina aquesta pressió: persones amb condicions genètiques greus sobreviuen i es reprodueixen. Sense selecció diferencial, no hi ha evolució darwiniana clàssica."
+              },
+              "positionB": {
+                "label": "L'evolució continua, però canvia de forma",
+                "argument": "L'entorn selectiu ha canviat, no desaparegut. Ara seleccionen factors com la fertilitat diferencial per nivell socioeconòmic, la resistència a malalties infeccioses emergents, i les interaccions gen-cultura. L'evolució cultural (que té la seva pròpia dinàmica) ha accelerat, no desaparegut."
+              },
+              "reflection": "Separaries la pregunta empírica (és certa?) de la pregunta normativa (hauria de preocupar-nos?)",
+              "context": "Estudis recents (Byars et al., 2010) han documentat canvis evolutius estadísticament significatius en poblacions humanes actuals, com un lleuger descens en l'edat de menopàusa i en l'alçada. L'evolució humana no ha parat, però les seves pressions han canviat radicalment."
+            }
+          ]
+        },
+        {
+          "id": "bio-04",
+          "title": "Genètica: l'herència explicada",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Gregor Mendel era un monjo agustí que entre 1856 i 1863 va cultivar 28.000 plantes de pèsol al jardí del monestir de Brno. Comptant minuciosament quants pèsols llisos i rugosos sortien de cada creuament, va descobrir les lleis de l'herència. Ningú li va fer cas durant 35 anys. Quan Correns, de Vries i Tschermak van redescobrir les seves lleis el 1900, Mendel portava 16 anys mort."
+            },
+            {
+              "type": "prediction",
+              "question": "Dos progenitors amb els ulls marrons tenen tres fills: dos amb ulls marrons i un amb ulls blaus. Com és possible si el marró és dominant?",
+              "hint": "Pensa en quins genotips haurien de tenir els progenitors per produir fills amb l'al·lel recessiu."
+            },
+            {
+              "type": "key-idea",
+              "text": "Cada individu té dos al·lels (versions) de cada gen, un de cada progenitor. L'al·lel dominant s'expressa quan n'hi ha almenys una còpia; el recessiu sols s'expressa quan hi ha dues còpies recessives. Però la major part dels trets humans no segueixen aquest model simple: depenen de molts gens alhora (poligènia) i de l'entorn."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el grup sanguini ABO és un bon exemple de com funciona l'herència real",
+              "content": "El grup sanguini té tres al·lels (A, B i O), no dos. A i B són codominants entre ells (AB existeix), però ambdós dominen sobre O. Això genera sis genotips possibles però quatre fenotips (A, B, AB, O). A més, les transfusions incompatibles activen el sistema immunitari perquè els glòbuls rojos porten marcadors proteics que el cos reconeix com a 'propi' o 'estrany'. La genètica del grup sanguini connecta directament amb la immunologia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bio-04-01",
+              "style": "multiple-choice",
+              "question": "La fibrosi quística és una malaltia recessiva. Dos progenitors portadors (Aa × Aa) esperen fills. Quina probabilitat té cada fill de patir la malaltia?",
+              "options": [
+                "0% — si cap dels dos progenitors la té, els fills no la poden tenir",
+                "25% — un de cada quatre fills serà AA (doble dominant)",
+                "25% — un de cada quatre fills serà aa (doble recessiu)",
+                "50% — la meitat dels fills serà portadora"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Creuant Aa × Aa s'obtenen: 25% AA (no portador), 50% Aa (portador sense malaltia) i 25% aa (malalt). Cada embaràs té un 25% de probabilitat independent. Que els primers tres fills siguin sans no redueix el risc del quart.",
+              "feedbackWrong": "Recorda que cada fill hereta un al·lel de cada progenitor a l'atzar. Aa × Aa produeix: AA (25%), Aa (50%), aa (25%). El 25% aa seran els qui manifestin la malaltia. Els portadors (Aa) no la manifesten però la poden transmetre."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bio-04-02",
+              "style": "true-false",
+              "question": "El daltonisme és molt més freqüent en homes que en dones perquè el gen responsable es troba al cromosoma X.",
+              "correct": true,
+              "feedbackCorrect": "Cert. Els gens del cromosoma X sense parella al Y s'anomenen lligats al sexe. Els homes (XY) sols en tenen una còpia: si és defectuosa, manifesten el tret. Les dones (XX) necessiten dues còpies defectuoses per manifestar-lo, cosa molt menys probable. Per això el daltonisme afecta ~8% dels homes però sols ~0,5% de les dones.",
+              "feedbackWrong": "És cert. El gen de la percepció del color vermell-verd es troba al cromosoma X. Els homes, amb un sol cromosoma X, no poden compensar un al·lel defectuós amb una còpia sana. Les dones, amb dos X, necessiten que ambdós siguin defectuosos — molt menys probable."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bio-04-01",
+              "question": "Si la seqüenciació genòmica esdevé barata i accessible, hauria de ser rutinària al néixer per identificar predisposicions a malalties futures?",
+              "options": [
+                "Sí: conèixer els riscs permet fer prevenció i salvar vides",
+                "No: crea ansietat, pot generar discriminació i la predisposició no és el destí",
+                "Depèn: amb regulació adequada sobre ús de dades i consell genètic obligatori, els beneficis superen els riscos"
+              ],
+              "correct": 2,
+              "explanation": "La genòmica neonatal rutinària és ja una realitat parcial en alguns països (per malalties tractables com la fenilcetonúria). El debat real gira al voltant de fins on ampliar-la. Els arguments a favor (prevenció, medicina personalitzada) ignoren que la majoria de malalties comunes (diabetis, càncer, malalties cardíaques) depenen de centenars de gens i de l'entorn, de manera que una 'predisposició' genètica sols és una peça del trencaclosques. Els arguments en contra ignoren que ja acceptem la detecció d'anomalies cromosòmiques durant l'embaràs. El problema més seriós és el risc de discriminació per asseguradores i empreses basada en dades genètiques — un risc regulatori i polític, no científic. Països com els EUA han aprovat lleis (GINA, 2008) per prohibir aquest ús, amb èxit parcial."
+            }
+          ]
+        },
+        {
+          "id": "bio-05",
+          "title": "Ecologia: com la vida s'organitza en xarxes",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1995 es van reintroduir llops al parc de Yellowstone, absent des de 1926. En pocs anys, les manades de cérvols van canviar el seu comportament: evitaven les zones obertes on podien ser caçats. Allà on els cérvols deixaven de pasturar, els arbres van créixer. Els rius van canviar de curs perquè les arrels estabilitzaven les ribes. Uns 70 llops van transformar la geomorfologia d'un ecosistema sencer."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un ecosistema és una xarxa de relacions entre éssers vius (biocenosi) i el seu entorn físic (biotop). L'energia flueix en un sol sentit (del sol als productors, als consumidors, als descomponedors) però els nutrients es reciclen. Treure o afegir una espècie clau pot tenir efectes en cascada imprevisibles."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué les espècies invasores fan tant de mal — i per qué és tan difícil aturar-les",
+              "content": "Quan una espècie arriba a un ecosistema on no ha evolucionat, no hi ha depredadors, paràsits ni competidors locals adaptats per controlar-la. El musclo zebrat als Grans Llacs nord-americans filtra tanta aigua que ha eliminat el fitoplàncton, la base de tota la cadena tròfica, col·lapsant la pesca. El conill a Austràlia, sense predadors naturals, va transformar pastures en deserts. La solució no és mai simple: introduir depredadors per controlar invasores pot crear noves crisis (com va passar amb el gat domèstic introduït a moltes illes)."
+            },
+            {
+              "type": "comparison",
+              "title": "Relacions ecològiques entre espècies",
+              "labelA": "Espècie A",
+              "labelB": "Espècie B",
+              "items": [
+                {
+                  "label": "Mutualisme",
+                  "a": "+",
+                  "b": "+"
+                },
+                {
+                  "label": "Comensalisme",
+                  "a": "+",
+                  "b": "0"
+                },
+                {
+                  "label": "Parasitisme",
+                  "a": "+",
+                  "b": "−"
+                },
+                {
+                  "label": "Competència",
+                  "a": "−",
+                  "b": "−"
+                },
+                {
+                  "label": "Depredació",
+                  "a": "+",
+                  "b": "−"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bio-05-01",
+              "style": "multiple-choice",
+              "question": "En una cadena tròfica, per qué no sol haver-hi més de 4-5 nivells (esglaons) des del productor fins al depredador final?",
+              "options": [
+                "Perquè els ecosistemes no poden sostenir tantes espècies diferens simultàniament",
+                "Perquè aproximadament el 90% de l'energia es perd com a calor a cada nivell",
+                "Perquè els depredadors de rang superior viuen menys anys",
+                "Perquè les espècies superiors solen migrar i trenquen la cadena"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La regla del 10%: en cada transferència d'un nivell tròfic al següent, aproximadament el 90% de l'energia es perd com a calor per la respiració, el moviment i el calor corporal. Amb 1000 kg de plantes, pots sostenir uns 100 kg d'herbívors, uns 10 kg de carnívors de primer ordre i 1 kg de depredadors finals. Amb menys d'1 kg d'energia disponible, un cinquè nivell és impossible.",
+              "feedbackWrong": "La limitació clau és energètica: la regla del 10% implica que a cada nivell tròfic es perd ~90% de l'energia. Un cinquè o sisè nivell tindria tan poca energia disponible que no podria sostenir ni una població viable."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bio-05-02",
+              "style": "true-false",
+              "question": "Les plantes i els arbres competeixen entre ells per la llum, l'aigua i els nutrients, de manera que la relació entre arbres d'un bosc és bàsicament de competència.",
+              "correct": false,
+              "feedbackCorrect": "Fals, i és una de les revelacions més sorprenents de l'ecologia forestal recent. Les investigacions de Suzanne Simard han documentat que els arbres d'un bosc madur estan connectats per xarxes de fongs micorrizals que transfereixen carboni, nutrients i sucres entre individus, incloent-hi arbres malalts o joves amb poca llum. Hi ha competència, sí, però la relació dominant en boscos madurs és de cooperació i interdependència mútua — no de simple competència.",
+              "feedbackWrong": "La competència per la llum, l'aigua i els nutrients existeix, però no és l'única relació entre els arbres d'un bosc. El que descobriments recents (Simard, 1997 i posteriors) han revelat és sorprenent: els arbres estan connectats per xarxes de fongs micorrizals subterrànies ('wood wide web') que transfereixen nutrients i sucres entre individus. En boscos madurs, la cooperació i la interdependència coexisteixen amb la competència."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bio-05-01",
+              "question": "Davant d'una espècie invasora que col·lapsa un ecosistema, quina hauria de ser la resposta prioritària?",
+              "options": [
+                "Eradicació activa: invertir en eliminar l'espècie invasora per tots els mitjans disponibles",
+                "Deixar actuar la selecció natural: l'ecosistema acabarà trobant un nou equilibri",
+                "Gestió adaptativa: intervenir selectivament mentre es monitoritzen els efectes en temps real"
+              ],
+              "correct": 2,
+              "explanation": "L'eradicació total és rarament possible un cop una espècie invasora s'ha establert (el musclo zebra als Grans Llacs és pràcticament irreversible). Però 'deixar actuar la natura' ignora que les escales de temps ecològiques (milers d'anys per arribar a nous equilibris) no coincideixen amb les humanes, i que els ecosistemes pertorbats poden col·lapsar completament abans d'estabilitzar-se. La gestió adaptativa — intervenir, mesurar resultats, ajustar — és el paradigma dominant en conservació moderna. Els casos més reeixits (ratolins invasors eliminats d'illes, recuperació de rapinyaires) combinen intervenció quirúrgica amb seguiment científic rigorós."
+            }
+          ]
+        },
+        {
+          "id": "bio-06",
+          "title": "Biodiversitat: el valor de la varietat de la vida",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hem descrit uns 8,7 milions d'espècies. S'estima que n'hi ha entre 10 i un bilió, comptant microorganismes. Estem perdent espècies a una taxa entre 100 i 1.000 vegades superior a la taxa natural d'extinció. La sisena extinció massiva de la història de la Terra no va ser causada per un meteorit ni per un supervolcà. Ha estat causada per una sola espècie en menys de 300 anys."
+            },
+            {
+              "type": "key-idea",
+              "text": "La biodiversitat no és sols una llista d'espècies. És la varietat genètica dins de cada espècie, la diversitat d'ecosistemes, i les funcions ecològiques que cada espècie compleix. Perdem biodiversitat en els tres nivells simultàniament, i les conseqüències van molt més enllà de la pèrdua estètica."
+            },
+            {
+              "type": "expandable",
+              "label": "Serveis ecosistèmics: el valor econòmic de la natura que no apareix en cap balanç",
+              "content": "Robert Costanza va intentar el 1997 posar preu als serveis que els ecosistemes presten gratuïtament: pol·linització de cultius, purificació d'aigües, fixació de CO₂, control d'inundacions, regulació del clima... El resultat va ser 33 bilions de dòlars anuals — el doble del PIB mundial de l'època. Xifra imprecisa, però il·lustrativa: destruïm gratuïtament allò que no podríem pagar. El col·lapse de les colònies d'abelles (Colony Collapse Disorder) ha posat en valor econòmic la pol·linització: sense abelles, la producció d'aliments cau entre un 30 i un 40%."
+            },
+            {
+              "type": "misconception",
+              "belief": "La crisi de biodiversitat afecta principalment espècies exòtiques llunyanies: pandas, tigres, rinoceronts.",
+              "reality": "La crisi és ubiqua. A Europa, el 57% de les espècies de papallones han disminuït des de 1990. El 75% dels insectes voladors d'Alemanya han desaparegut en 30 anys. Les aus dels camps europeus han perdut el 57% dels efectius des de 1980. La crisi és al jardí de casa, no sols a la selva tropical.",
+              "why": "Els programes de conservació i els mitjans de comunicació se centren en megafauna emblemàtica. Els insectes, fonamentals per als ecosistemes, no generen simpatia mediàtica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bio-06-01",
+              "style": "multiple-choice",
+              "question": "Quin factor és considerat la causa principal de la pèrdua de biodiversitat global actual?",
+              "options": [
+                "El canvi climàtic i l'augment de temperatures",
+                "La sobreexplotació (caça i pesca excessives)",
+                "La destrucció i fragmentació d'hàbitats",
+                "Les espècies invasores introduïdes accidentalment"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "La destrucció d'hàbitats (deforestació, agricultura intensiva, urbanització) és la causa número u, responsable d'entre el 70 i el 85% de les extincions actuals. El canvi climàtic és creixentment important i interacciona amb la destrucció d'hàbitats: una espècie amb l'hàbitat fragmentat no pot migrar quan les condicions canvien. Sobreexplotació i invasores són causes secundàries però significatives.",
+              "feedbackWrong": "El canvi climàtic és una causa creixent i important, però la destrucció i fragmentació d'hàbitats és la causa principal, responsable de la gran majoria d'extincions documentades. Les dues causes interaccionen: un hàbitat fragmentat impedeix la migració quan el clima canvia."
+            },
+            {
+              "type": "debate",
+              "question": "Davant la crisi d'extinció, hauria de ser prioritat conservar espècies emblemàtiques (panda gegant, rinoceront) o invertir en conservar ecosistemes funcionals sencers?",
+              "positionA": {
+                "label": "Espècies emblemàtiques",
+                "argument": "Les espècies emblemàtiques actuen com a 'espècies paraigua': protegir el seu hàbitat protegeix automàticament milers d'altres espècies. A més, generen suport públic i finançament que cap insecte anònim podria aconseguir. Sense fons, no hi ha conservació."
+              },
+              "positionB": {
+                "label": "Ecosistemes funcionals",
+                "argument": "Gastant milions en pandas mentre col·lapsen els insectes pol·linitzadors tenim les prioritats girades. Un ecosistema funcional pot sobreviure sense el panda; no pot sobreviure sense les abelles i els fongs. La conservació d'espècies carismàtiques és en part un producte de màrqueting, no de prioritat ecològica."
+              },
+              "reflection": "Has considerat qui pren les decisions de conservació i quins incentius té?",
+              "context": "El debat real en biologia de la conservació no és tan binari. El concepte d''espècie clau' (keystone species) — aquelles la desaparició de les quals té efectes desproporcionats en l'ecosistema — es superposa parcialment però no totalment amb les espècies emblemàtiques. La biodiversitat d'invertebrats rep menys del 5% del finançament global de conservació malgrat representar el 80% de les espècies."
+            },
+            {
+              "type": "reflection",
+              "question": "Si la sisena extinció massiva és causada per activitats humanes, qui té responsabilitat de fer-hi alguna cosa? Tots per igual, o hi ha actors amb responsabilitat diferenciada?",
+              "prompt": "No hi ha resposta correcta. Pensa en la distinció entre responsabilitat moral individual i responsabilitat estructural."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cos-sistema",
+      "title": "El cos com a sistema",
+      "icon": "🫀",
+      "description": "Energètica, immunitat, desenvolupament i evolució del cos humà",
+      "style": "Mecanístic · de la molècula a l'organisme",
+      "lessons": [
+        {
+          "id": "bios-01",
+          "title": "Energia cel·lular: com les cèl·lules fan funcionar el cos",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El teu cor bat unes 100.000 vegades al dia. Per fer-ho, necessita ATP — la 'moneda energètica' de la vida. En repòs, el teu cos recicla el seu propi pes en ATP cada dia. Durant un esforç intens, fins a mig quilo d'ATP per minut. Cap bateria humana ha igualat mai la densitat d'energia d'una mitocòndria."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les cèl·lules obtenen energia trencant molècules de glucosa en un procés de múltiples passos. El pas final — la respiració cel·lular — succeeix als mitocondris i requereix oxigen. Sense oxigen, les cèl·lules poden continuar temporalment per fermentació, però produeixen molt menys ATP i s'acumula àcid làctic."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Química Fonamental",
+              "moduleEmoji": "⚗️",
+              "concept": "Reaccions d'oxidació-reducció i energia d'enllaç",
+              "text": "La respiració cel·lular és essencialment una combustió controlada: la glucosa s'oxida i l'oxigen es redueix. La diferència amb cremar sucre en un flascó és que la cèl·lula captura l'energia en esglaons petits, emmagatzemant-la en ATP en comptes d'alliberar-la tota com a calor. La mateixa química, un control absolutament diferent."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué els músculs 'cremen' durant l'exercici intens — i qué és realment l'àcid làctic",
+              "content": "La sensació de 'cremor' muscular durant l'esforç intens té mala fama. Durant dècades es va atribuir a l'àcid làctic com a 'residu tòxic'. La realitat és més complexa: el lactat (la forma ionitzada) no és el causant de la fatiga; és de fet un combustible que el cor i altres músculs utilitzen de forma prioritària. La sensació de cremor prové dels ions d'hidrogen (acidosi) i d'altres factors. El lactat és eliminat de la sang en 30-60 minuts post-exercici. Les agulletes, per contra, ocorren 24-72 hores després i tenen una causa diferent: microlesions en les fibres musculars."
+            },
+            {
+              "type": "comparison",
+              "title": "Respiració aeròbica vs. fermentació",
+              "labelA": "Respiració aeròbica",
+              "labelB": "Fermentació làctica",
+              "items": [
+                {
+                  "label": "Requereix oxigen",
+                  "a": "Sí",
+                  "b": "No"
+                },
+                {
+                  "label": "ATP produït per glucosa",
+                  "a": "~30-32 ATP",
+                  "b": "2 ATP"
+                },
+                {
+                  "label": "On ocorre",
+                  "a": "Mitocondris",
+                  "b": "Citoplasma"
+                },
+                {
+                  "label": "Producte final",
+                  "a": "CO₂ + H₂O",
+                  "b": "Àcid làctic (en animals)"
+                },
+                {
+                  "label": "Ús típic",
+                  "a": "Activitat sostenible",
+                  "b": "Esforç intens i breu"
+                }
+              ]
+            },
+            {
+              "type": "misconception",
+              "belief": "Les plantes fan fotosíntesi i els animals fem respiració, de manera que el procés d'obtenció d'energia és completament diferent.",
+              "reality": "Les plantes fan les dues coses. Fan fotosíntesi a la llum per capturar energia solar i emmagatzemar-la en glucosa. Però per usar aquesta energia (de nit, a les arrels, en cèl·lules no fotosintètiques), fan exactament la mateixa respiració cel·lular que nosaltres, consumint oxigen i alliberant CO₂.",
+              "why": "A l'escola s'ensenya 'plantes = fotosíntesi, animals = respiració' com si fossin alternatives excloents, quan en realitat la respiració cel·lular és universal."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bios-01-01",
+              "style": "multiple-choice",
+              "question": "Per qué els teixits tumorals solen consumir molta més glucosa que les cèl·lules normals, fins al punt que l'absorció de glucosa s'usa en diagnòstic per imatge (PET)?",
+              "options": [
+                "Perquè les cèl·lules tumorals necessiten més energia per créixer i dividir-se ràpidament",
+                "Perquè els tumors tenen mitocondris disfuncionals i depenen de la fermentació, menys eficient",
+                "Perquè la glucosa inhibeix l'apoptosi (mort cel·lular programada) en cèl·lules canceroses",
+                "A i B junts: creixement ràpid i ineficiència mitocondrial combinats"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exacte. L'efecte Warburg (descrit el 1924) explica que les cèl·lules tumorals, fins i tot amb oxigen disponible, tendeixen a usar fermentació làctica — molt menys eficient (2 ATP per glucosa vs. ~30-32). Per compensar, consumeixen glucosa massivament. La causa és parcial disfunció mitocondrial, però també factors reguladors mutats. El PET scan usa glucosa radioactiva (FDG) per detectar zones d'hiperconsum: sovint indicatives de tumor.",
+              "feedbackWrong": "La resposta completa combina les opcions A i B. El creixement ràpid requereix energia, però les cèl·lules tumorals a més tendeixen a usar la fermentació (menys eficient que la respiració), un fenomen anomenat efecte Warburg. La combinació de major demanda i menor eficiència fa que el consum de glucosa sigui molt superior al de cèl·lules normals."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bios-01-01",
+              "question": "Si poguéssim bloquejar selectivament el metabolisme glucídic de les cèl·lules tumorals (l'efecte Warburg), seria una estratègia anticancerosa eficaç?",
+              "options": [
+                "Sí: privar les cèl·lules tumorals de glucosa les mataria sense danyar les normals",
+                "No: les cèl·lules normals també necessiten glucosa, especialment el cervell i els músculs",
+                "Possiblement, però els tumors adaptarien el metabolisme; caldria combinar-ho amb altres teràpies"
+              ],
+              "correct": 2,
+              "explanation": "Bloquejar el metabolisme tumoral és una línia activa d'investigació. El problema és la selectivitat: el cervell, per exemple, depèn quasi exclusivament de la glucosa. Un bloqueig sistèmic seria letal. Però hi ha diferències moleculars en les vies metabòliques tumorals que permeten atacs selectius. Alguns fàrmacs existents (metformina, usada per a la diabetis; 2-desoxiglucosa) interfereixen parcialment en el metabolisme tumoral com a efecte secundari. La dificultat afegida és que els tumors, en ser poblacions cel·lulars heterogènies sota pressió selectiva, solen evolucionar resistències ràpidament. L'oncologia modern tendeix cap a teràpies combinades per precisament dificultar l'evolució de resistències."
+            }
+          ]
+        },
+        {
+          "id": "bios-02",
+          "title": "Genètica molecular: del gen a la proteïna",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2003, el Projecte Genoma Humà va anunciar la seqüenciació completa dels 3.000 milions de parells de bases de l'ADN humà. Cost: 3.000 milions de dòlars i 13 anys de treball internacional. Avui, seqüenciar el teu genoma triga menys d'un dia i costa menys de 300 euros. La biologia molecular ha comprimit un segle de progrés en dues dècades."
+            },
+            {
+              "type": "key-idea",
+              "text": "La transcripció converteix un fragment d'ADN en ARN missatger al nucli. La traducció als ribosomes llegeix l'ARN de tres en tres bases (codons) i afegeix un aminoàcid a la cadena. La cadena d'aminoàcids es plega en una proteïna amb forma tridimensional específica. La forma determina la funció."
+            },
+            {
+              "type": "expandable",
+              "label": "Com una mutació d'un sol nucleòtid pot causar anèmia falciforme",
+              "content": "L'anèmia falciforme resulta d'un canvi d'un sol nucleòtid en el gen de l'hemoglobina: GAG → GTG. Això canvia un aminoàcid (glutamat → valina) en la posició 6 de la proteïna. Amb un sol aminoàcid diferent, l'hemoglobina s'agrega sota baixa concentració d'oxigen, formant fibres que deformen el glòbul vermell en forma de falç. Les cèl·lules en falç obstrueixen capil·lars i es destrueixen ràpidament. Una letra canviada en 3.000 milions, i el resultat és una malaltia crònica severa. Però el mateix gen en heterozigosi confereix resistència a la malària: per això és freqüent a regions d'Àfrica subsahariana."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bios-02-01",
+              "style": "multiple-choice",
+              "question": "Quin tipus de mutació és potencialment més perjudicial per a la proteïna resultant?",
+              "options": [
+                "Una mutació silenciosa (sinònima) que canvia el codó però no l'aminoàcid",
+                "Una mutació de substitució que canvia un aminoàcid per un de propietats similars",
+                "Una inserció o deleció d'un nucleòtid que desplaça el marc de lectura (frameshift)",
+                "Una mutació al tercer nucleòtid d'un codó, que rarament canvia l'aminoàcid"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Les mutacions frameshift (inserció o deleció d'1-2 nucleòtids) alteren tot el marc de lectura a partir del punt de mutació: tots els codons posteriors canvien i la proteïna resultant és completament diferent de l'original des del punt de mutació. Solen generar proteïnes no funcionals o truncades. Les mutacions de substitució poden ser silencioses o de missens (canvien un aminoàcid), però afecten locals. El frameshift és sistèmic.",
+              "feedbackWrong": "Les mutacions frameshift, causades per insercions o delecions d'1 o 2 nucleòtids, desplacen el marc de lectura de tots els codons posteriors. El resultat és que tota la proteïna a partir del punt de mutació és diferent, cosa que sol generar una proteïna no funcional o truncada — molt més devastador que un canvi d'un sol aminoàcid."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bios-02-02",
+              "style": "detect-error",
+              "statement": "Les proteïnes es pleguen en la seva forma tridimensional final sempre de la mateixa manera i de forma determinista a partir de la seva seqüència d'aminoàcids.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és parcialment certa però incompleta. La seqüència d'aminoàcids sí que determina la forma final, però el procés de plegament no és simple ni infalible. Moltes proteïnes necessiten 'xaperones' moleculars per plegar-se correctament. L'entorn (temperatura, pH, concentrració) afecta el resultat. I les proteïnes mal plegades (prions) poden 'contagiar' el mal plegament a proteïnes correctament plegades — el mecanisme de malalties com la de Creutzfeldt-Jakob. El plegament de proteïnes és un problema computacional tan complex que AlphaFold de DeepMind va representar un canvi de paradigma el 2021 quan va aconseguir predir-lo amb alta precisió."
+            },
+            {
+              "type": "quote",
+              "text": "La vida és simplement una relació entre les molècules.",
+              "author": "Linus Pauling"
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bios-02-01",
+              "question": "AlphaFold (DeepMind, 2021) ha predit l'estructura de gairebé totes les proteïnes conegudes amb una precisió sense precedents. Quin impacte tindrà sobre la biologia?",
+              "options": [
+                "Revolucionarà la biologia en pocs anys: conèixer les estructures accelera el disseny de fàrmacs i la comprensió de malalties",
+                "L'impacte serà modest: conèixer l'estructura no explica la funció ni la dinàmica en contextos reals",
+                "Transformarà alguns camps (disseny de fàrmacs) però no resoldrà els problemes biològics complexos que depenen d'interaccions, context i dinàmica"
+              ],
+              "correct": 2,
+              "explanation": "AlphaFold ha sigut descrit com la contribució més significativa de la IA a la ciència fins ara. La seva base de dades d'estructures és lliurement accessible i ha accelerat la investigació en múltiples àrees. Però 'conèixer l'estructura estàtica' és sols un primer pas: les proteïnes interaccionen amb altres molècules, canvien de forma (conformació) en funció del context, treballen en complexos multiproteics, i les seves funcions en cèl·lules senceres depenen de factors que cap model estructural captura. El disseny de fàrmacs s'accelerarà significativament. La comprensió de malalties complexes (Alzheimer, càncer) on múltiples proteïnes en múltiples contextos interaccionen continuarà sent un repte de dècades. AlphaFold resol un problema important, no tots els problemes."
+            }
+          ]
+        },
+        {
+          "id": "bios-03",
+          "title": "Desenvolupament: d'una cèl·lula a un organisme",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Comences com una sola cèl·lula. En 9 mesos, 37 bilions de cèl·lules de desenes de tipus especialitzats —neurones, cèl·lules musculars, hepatòcits, limfòcits— s'han organitzat en un sistema capaç de respirar, sentir i pensar. Totes provenen de la mateixa cèl·lula original. Totes tenen exactament el mateix ADN. Com és possible tanta especialització a partir de la mateixa informació?"
+            },
+            {
+              "type": "key-idea",
+              "text": "El desenvolupament embrionari és un procés d'especialització progressiva (diferenciació). No és el genoma el que canvia: és quin subconjunt de gens s'activa en cada cèl·lula i en cada moment. Gens reguladors com els gens Hox controlen l'organització corporal bàsica — cap, tronc, extremitats — i estan tan conservats evolutivament que els mateixos gens fan el mateix en mosques i humans."
+            },
+            {
+              "type": "misconception",
+              "belief": "Les cèl·lules mare embrionàries són especials perquè tenen un ADN diferent de la resta de cèl·lules del cos.",
+              "reality": "Totes les cèl·lules del cos, incloses les mare, tenen exactament el mateix ADN. La diferència és epigenètica: quins gens estan actius o silenciats. Yamanaka va demostrar el 2006 que cèl·lules adultes especialitzades es poden reprogramar a l'estat de cèl·lula mare activant sols quatre gens reguladors (Nobel de Medicina 2012).",
+              "why": "La idea que les cèl·lules mare 'contenen més informació' és intuïtiva però incorrecta. Confon pluripotència (estat regulatori) amb contingut genètic."
+            },
+            {
+              "type": "expandable",
+              "label": "Els gens Hox: el codi postal del cos",
+              "content": "En 1978, Edward Lewis va descobrir que mutacions en gens específics de la mosca del vinagre podien convertir una antena en una pota, o afegir un parell addicional d'ales. Aquests gens 'homeòtics' (Hox) codifiquen proteïnes que activen o desactiven conjunts sencers d'altres gens. Determinen quines estructures creixen a quins segments del cos. El sorprenent: els mateixos gens Hox, en el mateix ordre al cromosoma i amb funcions anàlogues, existeixen en peixos, ratolins i humans. L'ordre al cromosoma reflecteix l'ordre anterior-posterior al cos — una conservació de 600 milions d'anys d'evolució."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bios-03-01",
+              "style": "true-false",
+              "question": "Les cèl·lules mare embrionàries (pluripotents) es poden convertir en qualsevol tipus cel·lular del cos perquè tenen un ADN diferent de les cèl·lules especialitzades.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Les cèl·lules mare embrionàries no tenen un ADN diferent: tenen exactament el mateix genoma que les cèl·lules especialitzades. La diferència és epigenètica: quins gens estan activats o silenciats. La reprogramació de Yamanaka (2006) va demostrar que cèl·lules especialitzades adultes es poden 'resetar' a un estat pluripotent activant sols quatre gens reguladors. El Nobel de Medicina 2012 va reconèixer aquest descobriment.",
+              "feedbackWrong": "Fals. Totes les cèl·lules del cos, incloses les mare, tenen el mateix ADN. La pluripotència és un estat epigenètic: quins gens estan actius o silenciats. Yamanaka va demostrar el 2006 que cèl·lules especialitzades adultes es podien reprogramar a cèl·lules mare pluripotents activant sols quatre gens clau — un descobriment que va canviar radicalment la comprensió del desenvolupament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bios-03-02",
+              "style": "multiple-choice",
+              "question": "Durant el desenvolupament embrionari, moltes cèl·lules es 'suïciden' de forma programada (apoptosi). Quin és el paper d'aquest suïcidi cel·lular?",
+              "options": [
+                "És un mecanisme de defensa contra cèl·lules infectades o danyades, però no té paper en el desenvolupament normal",
+                "Elimina cèl·lules excedentàries, com les que formen les membranes entre els dits en les mans",
+                "És un error del sistema immunitari que cal minimitzar",
+                "Serveix per alliberar nutrients que nodriran les cèl·lules veïnes en creixement"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'apoptosi és tan essencial per al desenvolupament com la divisió cel·lular. Les mans humanes creixen inicialment com a pales: els espais entre els dits es formen perquè les cèl·lules interdigitals s'autodestrueixen de forma ordenada. En el sistema nerviós, fins al 50% de les neurones formades moren per apoptosi durant el desenvolupament, i les que sobreviuen són les que han establert connexions sinàptiques funcionals — la competència per la supervivència és part de l'arquitectura neuronal.",
+              "feedbackWrong": "L'apoptosi és fonamental per al desenvolupament normal. Sense la mort cel·lular programada, les mans serien pales sense dits. En el sistema nerviós, les neurones que no estableixen connexions funcionals s'eliminen per apoptosi. La mort, en biologia del desenvolupament, és tan creativa com el creixement."
+            },
+            {
+              "type": "reflection",
+              "question": "El desenvolupament embrionari implica que 'tu' no éres la mateixa persona des de la primera cèl·lula fins avui. Quan va 'aparèixer' la persona que ets ara? És aquesta una pregunta biològica, filosòfica, o les dues coses alhora?",
+              "prompt": "No hi ha resposta biològica definitiva. La biologia pot dir en quin moment apareix el sistema nerviós, la consciència o la viabilitat fora de l'úter — però no 'quan comença una persona'."
+            }
+          ]
+        },
+        {
+          "id": "bios-04",
+          "title": "El sistema immunitari: aprendre a reconèixer l'enemic",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El teu sistema immunitari ha memoritzat cada patogen al qual has sobrevivit. Conté uns 2.000 milions de limfòcits B i T, cadascun amb un receptor únic capaç de reconèixer un fragment molecular diferent. La diversitat total de receptors possibles supera el nombre d'àtoms de l'univers observable. Tot això genera en resposta a l'entorn, sense necessitat de programa previ."
+            },
+            {
+              "type": "key-idea",
+              "text": "El sistema immunitari té dues branques: la immunitat innata (ràpida, inespecífica, present des del naixement) i la immunitat adaptativa (lenta, específica, que millora amb l'exposició). Les vacunes entrenen la branca adaptativa: el cos aprèn a reconèixer un patogen sense haver passat la malaltia, preparant una resposta memòria."
+            },
+            {
+              "type": "expandable",
+              "label": "Com el sistema immunitari aprèn a no atacar les pròpies cèl·lules — i quan falla",
+              "content": "Durant el desenvolupament, els limfòcits T passen per una 'escola' al tim: aprenen a reconèixer les molècules pròpies (MHC) i els que s'activen excessivament davant d'elles, s'eliminen (selecció negativa). El resultat: el sistema immunitari és tolerant al 'self'. Quan aquest procés falla, el sistema ataca el propi cos (malalties autoimmunes): artritis reumatoide (articulacions), esclerosi múltiple (mielina neuronal), diabetis tipus 1 (cèl·lules beta del pàncrees), lupus (múltiples teixits). L'increment de malalties autoimmunes als països occidentals les últimes dècades es relaciona parcialment amb la 'hipòtesi higiènica': exposar-se a menys patògens durant la infància deixa el sistema immunitari sense 'feina' i predisposat a atacar cèl·lules pròpies."
+            },
+            {
+              "type": "misconception",
+              "belief": "Les vacunes de ARNm (com les de la COVID-19) modifiquen el teu ADN.",
+              "reality": "L'ARN missatger mai entra al nucli cel·lular i no pot modificar l'ADN. Les cèl·lules usen l'ARNm per fabricar la proteïna de la espica viral (antigen), generen una resposta immunitària i, en dies, degraden l'ARNm completament. No queda cap rastre de la vacuna al cap d'unes setmanes.",
+              "why": "La confusió entre ADN i ARN és freqüent. A més, la novetat de la tecnologia va generar desconfiança. L'ARNm és una molècula intrínsecament inestable (per això les vacunes necessiten cadena de fred), el contrari d'una substància que persista i es 'fixi' al genoma."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bios-04-01",
+              "style": "multiple-choice",
+              "question": "Per qué algunes persones amb immunitat als àcars, als polls o a la pol·len d'arbres específics pateixen al·lèrgies creuades a certs aliments (com pomes, préssecs o fruits secs)?",
+              "options": [
+                "Perquè l'al·lèrgia al·lèrgica és genètica i afecta moltes substàncies alhora",
+                "Perquè l'estómac de les persones al·lèrgiques processa malament les proteïnes en general",
+                "Perquè algunes proteïnes dels aliments s'assemblen molecularment als al·lèrgens que ja reconeix el sistema immunitari",
+                "Perquè les persones al·lèrgiques tenen el sistema immunitari deprimit i reaccionen a tot"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Les al·lèrgies creuades es produeixen per homologia molecular: proteïnes d'aliments com la poma, la pera o el préssec tenen fragments estructurals similars als de la pol·len de bedoll. El sistema immunitari, que ja té anticossos entrenats contra la pol·len, 'confon' les proteïnes del fruit i genera una resposta. A més temperatura (cuinar), les proteïnes es desnaturalitzen i la reacció creuada sovint desapareix: per això moltes persones al·lèrgiques a la poma crua toleren el suc de poma pasteuritzat.",
+              "feedbackWrong": "Les al·lèrgies creuades es produeixen per similitud molecular: el sistema immunitari reconeix fragments de proteïnes dels aliments que s'assemblen als al·lèrgens als quals ja és sensible. No és un defecte general del processament digestiu ni un sistema deprimit — al contrari, és un sistema excessivament reactiu que generalitza el reconeixement."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bios-04-02",
+              "style": "detect-error",
+              "statement": "La immunitat de ramat requereix que el 50% de la població estigui immunitzada per aturar la propagació d'una malaltia infecciosa.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és el 50%. El llindar d'immunitat de ramat depèn del R₀ (nombre reproductiu bàsic) de cada malaltia: quantes persones infecta de mitjana cada cas en una població susceptible. La fórmula és 1 − 1/R₀. Per a la grip (R₀ ≈ 2), el llindar és ~50%. Per al xarampió (R₀ ≈ 15), cal immunitzar el ~93% de la població. Per a la COVID-19 original (R₀ ≈ 3-4), el llindar era ~70-75%; però variants com Omicron (R₀ > 10) van elevar-lo fins a un nivell pràcticament inabastable sols amb vacunació."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bios-04-01",
+              "question": "Les immunoteràpies per al càncer activen el sistema immunitari per atacar les cèl·lules tumorals. Per qué no ho fa sol, sense tractament?",
+              "options": [
+                "Perquè el sistema immunitari no pot distingir fàcilment les cèl·lules tumorals de les normals, ja que totes provenen del propi cos",
+                "Perquè el sistema immunitari ja ataca el tumor, però no disposa de prou força sense reforç farmacològic",
+                "Perquè les cèl·lules tumorals evolucionen mecanismes actius per evitar el reconeixement immunitari i inhibir la resposta, tot i que el sistema immunitari sí les detecta parcialment"
+              ],
+              "correct": 2,
+              "explanation": "Les tres opcions contenen part de veritat, però la primera captura el fenomen clau. Les cèl·lules tumorals eviten el reconeixement immunitari per múltiples mecanismes: reduir l'expressió de marcadors de superfície (MHC), activar senyals inhibitòries de limfòcits T (vies PD-1/PD-L1, CTLA-4 — les mateixes que bloquegen els fàrmacs d'immunoteràpia com el pembrolizumab), i crear un microentorn tumoral immunosupressor. La segona opció és parcialment certa (els tumors sí expressen alguns antígens propis), però els tumors expressen múltiples neoantígens mutats que el sistema immunitari hauria de reconèixer. La tercera és certa en tumors molt immunogènics. L'avenç de la immunoteràpia (Nobel de Medicina 2018 per Allison i Honjo) ha estat descobrir i bloquejar les 'vàlvules' d'inhibició que els tumors usen per apaivagar la resposta immunitària."
+            }
+          ]
+        },
+        {
+          "id": "bios-05",
+          "title": "Evolució humana: d'on venim",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Fa 300.000 anys, a l'Àfrica, vivien com a mínim tres espècies del gènere Homo simultàniament: Homo sapiens, Homo naledi i, possiblement, els primers pobladors que donarien lloc als Denisovans. No érem l'única espècie 'intel·ligent'. Érem una espècie entre varies, amb futur incert, en un continent que no dominàvem."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'evolució humana no és una escala lineal de 'menys humà' a 'més humà'. És un arbust amb moltes branques, la majoria extingides. Homo sapiens és la única branca que ha sobreviscut — però ens hem creuat amb d'altres. Un 1-4% del genoma de les persones d'ascendència no africana prové de Neanderthals."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "Fa 6-7 Ma",
+                  "title": "Divergència ximpanzé-homínid",
+                  "text": "L'últim ancestre comú amb els ximpanzés. No era ni ximpanzé ni humà."
+                },
+                {
+                  "year": "Fa 3,2 Ma",
+                  "title": "Lucy (Australopithecus afarensis)",
+                  "text": "Bípede però amb cervell de ximpanzé. El bipedisme va precedir l'expansió cranial per milions d'anys."
+                },
+                {
+                  "year": "Fa 2 Ma",
+                  "title": "Homo erectus",
+                  "text": "Primera espècie que surt d'Àfrica. Usa el foc. Persisteix 1,8 milions d'anys — la més duradora del gènere Homo."
+                },
+                {
+                  "year": "Fa 300.000 anys",
+                  "title": "Homo sapiens — primers registres",
+                  "text": "Jebel Irhoud (Marroc). Ja anatòmicament modern, però el comportament 'modern' (art, simbologia) apareix gradualment."
+                },
+                {
+                  "year": "Fa 40.000 anys",
+                  "title": "Extinció dels Neanderthals",
+                  "text": "Causes debatudes: competència, clima, malalties portades per sapiens. Però el seu ADN persisteix en nosaltres."
+                }
+              ]
+            },
+            {
+              "type": "misconception",
+              "belief": "Els humans descendim dels ximpanzés actuals.",
+              "reality": "Els humans i els ximpanzés compartim un ancestre comú que no era ni l'un ni l'altre. El ximpanzé actual és tan 'evolucionat' com nosaltres — simplement en una direcció diferent durant els mateixos 6-7 milions d'anys. No descenim d'ells: tots dos descendim d'una espècie que ja no existeix.",
+              "why": "La idea de 'progrés' evolutiu fa pensar en els ximpanzés com una versió 'anterior' nostra, quan de fet han evolucionat en paral·lel."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bios-05-01",
+              "style": "multiple-choice",
+              "question": "Quin tret anatòmic és considerat el primer que va definir la línia homínida, anterior fins i tot a l'expansió del cervell?",
+              "options": [
+                "L'ús d'eines de pedra",
+                "La postura bípeda (caminar erect sobre dues cames)",
+                "La reducció de la mandíbula i dels ullals",
+                "El desenvolupament del llenguatge articulat"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El bipedisme va precedir l'expansió cranial per uns 3-4 milions d'anys. Lucy (3,2 Ma) caminava erect però tenia un cervell de ~400 cc, comparable al d'un ximpanzé. L'expansió cerebral accelerada comença fa uns 2 milions d'anys amb el gènere Homo. El bipedisme va alliberar les mans — i potser va ser un prerequisit per a l'ús d'eines i l'expansió cerebral.",
+              "feedbackWrong": "El bipedisme va precedir l'expansió del cervell per milions d'anys. Australopithecus afarensis (Lucy, fa 3,2 Ma) ja caminava erect però tenia un cervell d'uns 400 cc, similar al d'un ximpanzé modern. El 'paquet' complet (cervell gran, eines sofisticades, postura erect) no va aparèixer simultàniament — va ser un procés en múltiples fases."
+            },
+            {
+              "type": "debate",
+              "question": "Qué és el que ens fa 'únics' com a espècie? El llenguatge, la cultura, la consciència... o no hi ha cap tret veritablement únic?",
+              "positionA": {
+                "label": "Hi ha trets veritablement únics",
+                "argument": "El llenguatge sintàctic recursiu (la capacitat de construir frases dins de frases infinitament), la cultura acumulativa intergeneracional i la capacitat de representar estats mentals d'altres (teoria de la ment a gran escala) no s'han observat en cap altra espècie amb la mateixa complexitat. La diferència és qualitativa, no sols quantitativa."
+              },
+              "positionB": {
+                "label": "La diferència és de grau, no de naturalesa",
+                "argument": "Ximpanzés, corvids i cetacis mostren cultura transmesa, ús d'eines, empatia, autoconeixement (prova del mirall) i resolució de problemes complexos. A mesura que estudiem altres espècies amb metodologies millors, els 'únics' de sapiens van desapareixent. La diferència és de complexitat i escala, no d'un salt qualitatiu."
+              },
+              "reflection": "Com distingiríes si la diferència és qualitativa o quantitativa? Quin experiment o evidència t'ajudaria a decidir?",
+              "context": "Frans de Waal (primatòleg) argumenta en favor de la continuïtat. Noam Chomsky i Marc Hauser van defensar el llenguatge recursiu com a tret únic. L'arqueologia cognitiva (Christopher Stringer) suggereix que el comportament 'modern' va emergir gradualment, no en un salt únic."
+            }
+          ]
+        },
+        {
+          "id": "bios-06",
+          "title": "Biologia sintètica: redissenyar la vida",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2010, Craig Venter va anunciar la creació de la primera cèl·lula amb un genoma completament sintètic — dissenyat per ordinador, sintetitzat químicament i trasplantat a una cèl·lula buidada. La va anomenar Mycoplasma mycoides JCVI-syn1.0. Per identificar-la, van codificar els noms dels investigadors i una cita de James Joyce directament en la seqüència d'ADN. La vida com a tecnologia ja no és ciència-ficció."
+            },
+            {
+              "type": "key-idea",
+              "text": "La biologia sintètica aplica principis d'enginyeria als sistemes biològics: dissenyar organismes amb funcions noves, eliminar-ne de prescindibles, o construir circuits genètics com si fossin circuits electrònics. Les aplicacions van des de bacteris que produeixen fàrmacs o biocombustibles fins a sensors vius de contaminants."
+            },
+            {
+              "type": "expandable",
+              "label": "CRISPR-Cas9: les tisores moleculars que han canviat la biologia",
+              "content": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) és un sistema immunitari natural dels bacteris contra virus. Jennifer Doudna i Emmanuelle Charpentier van adaptar el 2012 la proteïna Cas9 com a eina d'edició genètica: un ARN guia porta la proteïna fins a la seqüència d'ADN diana, la talla amb precisió quasi perfecta. La cèl·lula repara la tall (amb o sense plantilla) i el gen queda modificat. Nobel de Química 2020. Cost per experiment: de centenars de milers de dòlars a uns pocs cents. Aplicacions actuals: teràpies per a l'anèmia falciforme, tractaments experimentals per al VIH, cultius resistents a malalties, mosquits estèrils per controlar la malària."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Ètica científica i responsabilitat del coneixement",
+              "text": "La biologia sintètica planteja en forma aguda la pregunta que la filosofia de la ciència porta dècades formulant: hi ha coneixements que no hauríem de tenir, o tecnologies que no hauríem de desenvolupar? El cas He Jiankui (bebès CRISPR, 2018) va obrir un debat que cap marc regulador estava preparat per afrontar. La ciència avança; les institucions van darrere."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bios-06-01",
+              "style": "multiple-choice",
+              "question": "Quin és l'obstacle principal per a l'ús de bacteris modificats genèticament per netejar abocaments de petroli en el medi ambient?",
+              "options": [
+                "Els bacteris moren ràpidament en contacte amb el petroli i no s'han pogut fer prou resistents",
+                "El risc de dispersió i impacte imprevist d'organismes modificats en ecosistemes oberts",
+                "El cost de producció és massa elevat per competir amb les tècniques físiques de neteja",
+                "Les lleis internacionals prohibeixen qualsevol ús d'organismes modificats fora de laboratori"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "L'obstacle principal és la bioseguretat i la biocontintenció: un cop un organisme modificat s'allibera en un ecosistema obert, no hi ha manera fiable de recuperar-lo. Podria transferir els seus gens modificats a altres organismes (transferència horitzontal), competir amb espècies natives, o persistir indefinidament. Bacteris 'suïcides' (dissenyats per morir fora de condicions controlades) i sistemes de 'control d'afinitat' estàn en recerca activa per resoldre aquest problema.",
+              "feedbackWrong": "El problema principal no és tècnic (els bacteris degradadors de petroli existeixen i funcionen en laboratori) ni econòmic ni legal en termes absoluts. El veritable obstacle és el risc de dispersió d'organismes modificats en ecosistemes oberts, on els efectes podrien ser imprevisibles i irreversibles."
+            },
+            {
+              "type": "debate",
+              "question": "Hauria de ser possible patentar seqüències genètiques, organismes modificats i tècniques com CRISPR?",
+              "positionA": {
+                "label": "Sí a les patents",
+                "argument": "Sense protecció de la propietat intel·lectual, les empreses no invertirien en investigació biotecnològica costosa. Les patents incentiven la innovació i, a llarg termini, generen més descobriments que beneficien la humanitat. La bioterapèutica moderna (insulina, anticossos monoclonals) ha salvat milions de vides gràcies a aquest model."
+              },
+              "positionB": {
+                "label": "No a les patents genètiques",
+                "argument": "Les seqüències genètiques existien abans que les descobríssim: patentar-les és privatitzar patrimoni comú. Les patents de CRISPR (en litigi entre Broad Institute i UC Berkeley) han creat un laberint legal que frena la investigació acadèmica. En malalties rares, les patents permeten preus de fàrmac prohibitius per als sistemes públics de salut."
+              },
+              "reflection": "Distingiria entre patentar el que existia (seqüències naturals) i patentar el que es va crear (organismes dissenyats)?",
+              "context": "La decisió del Tribunal Suprem dels EUA (Myriad Genetics, 2013) va establir que les seqüències d'ADN naturals no es poden patentar, però l'ADN complementari (cDNA, sintètic) sí. La batalla legal per CRISPR-Cas9 va durar anys i té implicacions de milers de milions en llicències. L'accés obert a eines genòmiques és una reivindicació creixent en la comunitat científica."
+            },
+            {
+              "type": "reflection",
+              "question": "Has après en aquest mòdul que la vida opera amb els mateixos principis a nivell molecular, cel·lular, organísmic i ecosistèmic. Quin concepte d'aquest mòdul t'ha semblat més sorprenent o ha canviat com penses sobre la vida?",
+              "prompt": "No hi ha resposta correcta. Pren-te un moment per consolidar el que has après."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
