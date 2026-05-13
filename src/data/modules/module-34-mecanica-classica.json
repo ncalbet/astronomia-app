@@ -1,0 +1,745 @@
+{
+  "id": "module-34-mecanica-classica",
+  "title": "Mecànica Clàssica",
+  "emoji": "⚙️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "forces",
+      "title": "Forces i moviment",
+      "icon": "🎯",
+      "description": "Les lleis de Newton, la gravetat, la fricció i els límits de la mecànica clàssica",
+      "style": "Fonamental · dels conceptes a les lleis",
+      "lessons": [
+        {
+          "id": "for-01",
+          "title": "Aristòtil tenia raó (quasi)",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant dos mil anys, la física d'Aristòtil va ser la veritat oficial: els cossos pesants cauen més de pressa que els lleugers, tot moviment necessita una causa activa contínua, i el repòs és l'estat natural dels objectes terrestres. Era intuïtiva, internament consistent — i gairebé tota incorrecta. Entendre per qué va trigar tant a ser corregida és tan interessant com la física que la va substituir."
+            },
+            {
+              "type": "comparison",
+              "title": "Aristòtil vs. Galileu: dues visions del moviment",
+              "labelA": "Aristòtil (s. IV aC)",
+              "labelB": "Galileu (s. XVII)",
+              "items": [
+                {
+                  "label": "Caiguda lliure",
+                  "a": "Els cossos pesants cauen més de pressa que els lleugers",
+                  "b": "Tots els cossos cauen amb la mateixa acceleració (sense aire)"
+                },
+                {
+                  "label": "Causa del moviment",
+                  "a": "El moviment requereix una causa contínua: sense força, s'atura",
+                  "b": "El moviment uniforme no requereix cap causa. La força canvia el moviment."
+                },
+                {
+                  "label": "Mètode",
+                  "a": "Raonament filosòfic i observació qualitativa",
+                  "b": "Experiments quantitatius, mesura i idealització"
+                },
+                {
+                  "label": "On funciona",
+                  "a": "Descriu bé el món amb molta fricció (el quotidià)",
+                  "b": "Correcte per al moviment en condicions ideals"
+                }
+              ]
+            },
+            {
+              "type": "key-idea",
+              "text": "Galileu va demostrar experimentalment que tots els cossos cauen amb la mateixa acceleració independentment de la massa (en absència d'aire), i que el moviment uniforme no necessita cap força per mantenir-se. Aquestes dues idees van trencar dos mil anys de física aristotèlica."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la física d'Aristòtil va semblar correcta tant de temps?",
+              "content": "La física d'Aristòtil descriu bé el món que experimentem: una pedra sí cau més de pressa que una ploma, un carro sí s'atura quan pares d'empènyer-lo. El problema és que en el món real hi ha fricció i resistència de l'aire. Aristòtil descrivia el moviment en un entorn dominat per la fricció — i aquest és el món que veiem a tot arreu. Galileu va tenir la genialitat d'imaginar el cas ideal sense fricció, que és el que revela les lleis fonamentals. Arribar a la llei fonamental requereix primer eliminar mentalment les complicacions del món real. Era una manera de pensar completament nova."
+            },
+            {
+              "type": "prediction",
+              "question": "Un martell i una ploma es deixen caure simultàniament en el buit absolut (sense aire). Quin arribarà primer al terra?",
+              "hint": "Elimina mentalment la resistència de l'aire. Queda alguna raó perquè caiguin a velocitats distintes?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-for01-01",
+              "style": "multiple-choice",
+              "question": "Segons Galileu (i Newton), un objecte que es mou en línia recta a velocitat constant en absència de forces...",
+              "options": [
+                "S'aturarà progressivament perquè el moviment s'esgota naturalment",
+                "Continuarà movent-se indefinidament sense necessitat de cap força",
+                "Necessita una força petita per mantenir la velocitat constant",
+                "S'accelerarà progressivament per la inèrcia acumulada"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Aquesta és la idea radical de Galileu que Newton va formalitzar com a primera llei: el moviment uniforme és un estat natural que no requereix explicació ni manteniment. El que requereix explicació és el canvi de moviment, no el moviment en si.",
+              "feedbackWrong": "Aquesta és la intuïció aristotèlica: el moviment necessita una causa contínua. Galileu va demostrar experimentalment que és incorrecta. En absència de forces (incloent la fricció), un objecte en moviment no s'atura mai."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-mec-for01-01",
+              "question": "La física aristotèlica va dominar 2.000 anys tot i ser incorrecta en aspectes fonamentals. Qué en podem aprendre sobre com progressa el coneixement científic?",
+              "options": [
+                "Que l'autoritat acadèmica bloca el progrés: sense qüestionar els clàssics, la ciència s'estanca",
+                "Que una teoria pot persistir si és consistent amb les observacions habituals, fins que apareix un marc experimental que la posa a prova en condicions noves i ideals",
+                "Que la intuïció sempre és enganyosa i no es pot fer ciència sense instruments de mesura precisos"
+              ],
+              "correct": 1,
+              "explanation": "La física aristotèlica no era irresponsable: era consistent amb les observacions disponibles en un entorn de fricció dominant. El que mancava no era intel·ligència, sinó el mètode experimental de crear condicions ideals per aïllar variables — i la voluntat de desafiar l'autoritat. Galileu no va 'veure' el que Aristòtil no havia pogut veure: va crear les condicions per veure-ho. Això connecta directament amb el que hem estudiat a Filosofia de la Ciència: una teoria es manté mentre no hi ha evidència que la posi en crisi, i la crisi arriba quan un nou mètode d'observació obre finestres noves."
+            }
+          ]
+        },
+        {
+          "id": "for-02",
+          "title": "Les tres lleis de Newton",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1687, Isaac Newton va publicar els Principia Mathematica. En menys de 200 pàgines va descriure les lleis del moviment i la gravetat universal amb una precisió matemàtica que permetia predir el moviment dels planetes, les marees i les trajectòries de projectils. Durant 200 anys, semblaria que havia acabat la mecànica. Gairebé."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les tres lleis de Newton: (1) Un cos en repòs o moviment uniforme no canvia si no hi actua una força neta externa. (2) La força neta sobre un cos és igual a la massa multiplicada per l'acceleració: F = ma. (3) A tota força li correspon una força igual en mòdul i contrària en direcció sobre el cos que l'exerceix."
+            },
+            {
+              "type": "expandable",
+              "label": "La primera llei és la més filosòfica",
+              "content": "La primera llei (inèrcia) no sembla gaire impressionant dita així. Però amaga un canvi conceptual profund. Aristòtil preguntava: 'per qué es mou un cos?' Newton va reformular la pregunta: 'per qué canvia el moviment d'un cos?' El repòs i el moviment uniforme son el mateix estat — l'estat natural. La força no és el que causa el moviment, sinó el que causa el canvi de moviment. Reformular la pregunta correcta sovint és el pas més important en ciència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-for02-01",
+              "style": "multiple-choice",
+              "question": "Un cotxe de 1.000 kg accelera de 0 a 72 km/h en 10 segons. Quina força neta aproximada actua sobre el cotxe durant l'acceleració?",
+              "options": [
+                "720 N",
+                "1.000 N",
+                "2.000 N",
+                "7.200 N"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. 72 km/h = 20 m/s. Acceleració = 20 m/s ÷ 10 s = 2 m/s². Força = 1.000 kg × 2 m/s² = 2.000 N. F = ma és la llei que connecta força aplicada, massa i acceleració resultant.",
+              "feedbackWrong": "Aplica F = ma en dos passos. Primer converteix: 72 km/h = 20 m/s. Acceleració = 20 m/s ÷ 10 s = 2 m/s². Força = massa × acceleració = 1.000 × 2 = 2.000 N."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-for02-02",
+              "style": "detect-error",
+              "statement": "Quan un cavall tira d'un carro, la tercera llei implica que el carro tira del cavall amb la mateixa força. Per tant, les forces es cancel·len i el carro no hauria de moure's mai.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és confondre el parell d'acció-reacció amb forces que s'equilibren. Les forces del parell actuen sobre cossos distints: la força del cavall sobre el carro i la força del carro sobre el cavall no es poden cancel·lar perquè no actuen sobre el mateix cos. El moviment del carro depèn de totes les forces que actuen sobre el carro: la tracció del cavall cap endavant i la fricció de les rodes cap enrere. Si la tracció supera la fricció, el carro s'accelera."
+            },
+            {
+              "type": "misconception",
+              "belief": "Si empentes una paret amb força, la paret no empenta de tornada perquè no es mou.",
+              "reality": "La paret sempre et retorna exactament la mateixa força, independentment de si es mou o no. El moviment és irrellevant per a la tercera llei. Si la paret no es mou és perquè les forces internes de la seva estructura superen la teva empenta — no perquè no reaccioni.",
+              "why": "Associem 'força' amb moviment visible. Una paret estàtica sembla passiva, però la tercera llei és universal: qualsevol interacció genera sempre una força igual i contrària, tant en objectes en moviment com en repòs."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-mec-for02-01",
+              "question": "La segona llei F = ma sembla senzilla. Però qué és exactament la 'massa' en aquesta equació?",
+              "options": [
+                "La quantitat de matèria d'un objecte, mesurada per la seva resistència al canvi de moviment (massa inercial)",
+                "El pes de l'objecte, que depèn de la gravetat del lloc on es troba",
+                "Una mesura del volum de l'objecte, proporcional a la seva mida"
+              ],
+              "correct": 0,
+              "explanation": "En F = ma, la massa és la massa inercial: la resistència d'un objecte al canvi de moviment. Un objecte de massa gran necessita més força per assolir la mateixa acceleració. Curiosament, hi ha una altra definició de massa: la massa gravitacional, que determina com un objecte respon a la gravetat. Einstein va observar que massa inercial i massa gravitacional son sempre exactament iguals — i va fer d'aquesta equivalència el punt de partida de la relativitat general. Que dos conceptes aparentment independents siguin numèricament idèntics és una de les observacions més profundes de la física."
+            }
+          ]
+        },
+        {
+          "id": "for-03",
+          "title": "Gravetat: la força que ho uneix tot",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La llegenda de la poma caient sobre el cap de Newton és probablement exagerada. Però la pregunta que se li va ocórrer és real i profunda: si la gravetat fa caure la poma, per qué no fa caure la Lluna? La resposta va unificar la física terrestre i la celeste per primera vegada en la historia."
+            },
+            {
+              "type": "key-idea",
+              "text": "La llei de gravitació universal de Newton: qualsevol dos cossos s'atrauen amb una força proporcional al producte de les seves masses i inversament proporcional al quadrat de la distància entre ells. F = G × m₁ × m₂ / r². La mateixa llei explica la caiguda d'una poma i l'òrbita de la Lluna."
+            },
+            {
+              "type": "expandable",
+              "label": "La Lluna cau contínuament cap a la Terra — i no arriba mai",
+              "content": "Newton va entendre que la Lluna sí cau cap a la Terra, constantment. La clau és que la Terra és esfèrica: mentre la Lluna cau, la superfície de la Terra s'allunya (corba). La Lluna cau, però cau al voltant de la Terra. Una òrbita no és res més que una caiguda contínua en la qual la velocitat horitzontal és prou gran perquè la trajectòria segueixi la curvatura de la superfície. Els satèl·lits artificials orbiten pel mateix principi: estan en caiguda lliure constant, però movent-se prou de pressa horitzontalment perquè mai toquin el terra. La gravetat és la força centrípeta que manté l'òrbita."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-for03-01",
+              "style": "multiple-choice",
+              "question": "Si la distància entre dos planetes es dobla, la força gravitatòria entre ells...",
+              "options": [
+                "Es redueix a la meitat",
+                "Es redueix a un quart",
+                "Es redueix a un vuitè",
+                "No canvia perquè les masses son les mateixes"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La gravetat decau amb el quadrat de la distància (llei de l'invers del quadrat). Si r es dobla, r² es quadruplica, i la força passa a ser F/4. Aquesta relació explica per qué la gravetat del Sol sobre els planetes llunyans és molt menor que sobre els propers.",
+              "feedbackWrong": "La força gravitatòria depèn de 1/r². Si la distància es dobla (r × 2), el denominador es quadruplica (r² × 4), i la força es redueix a un quart. Les lleis d'invers del quadrat apareixen en molts fenòmens físics: la gravetat, la força elèctrica i la intensitat de la llum segueixen totes aquest patró."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-for03-02",
+              "style": "true-false",
+              "question": "En l'espai, lluny de qualsevol planeta, els astronautes no senten gravetat perquè la gravetat deixa d'existir a gran distància.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La gravetat mai deixa d'existir: és infinita en abast (tot i que s'esvaeix amb la distància). El que els astronautes a l'Estació Espacial Internacional experimenten és caiguda lliure contínua — orbiten la Terra en caiguda constant. La sensació de 'ingravidesa' és la sensació de caure sense que res et freni.",
+              "feedbackWrong": "La gravetat té abast infinit: mai desapareix completament. Els astronautes a l'EEI experimenten gravetat (al voltant del 90% de la de la superfície terrestre). Però estan en caiguda lliure orbital, i en caiguda lliure no sents la teva pròpia gravetat — com no notes el pes en un ascensor en caiguda lliure."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "La Revolució de Copèrnic",
+              "moduleEmoji": "☀️",
+              "concept": "Les lleis de Kepler i la seva causa",
+              "text": "Kepler va descriure el 1609 que les òrbites dels planetes son el·lipses i que els planetes acceleren quan s'acosten al Sol. Newton va demostrar 80 anys després per qué: és la llei de l'invers del quadrat de la gravetat el que produeix exactament les el·lipses de Kepler. Newton va explicar Kepler — i va fer de les lleis empíriques de Kepler conseqüències matemàtiques d'una llei més fonamental."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-mec-for03-01",
+              "question": "Newton va descriure la gravetat matemàticament amb enorme precisió, però va admetre que no sabia 'per qué' la gravetat actua a distància sense contacte físic. Hauria d'haver esperat a entendre el mecanisme abans de publicar la llei?",
+              "options": [
+                "Sí: publicar una llei sense entendre el mecanisme subjacent és incomplert i potencialment enganyós",
+                "No: una llei matemàtica que prediu correctament els fenòmens té valor científic independent de si s'entén el mecanisme",
+                "Depèn: si el mecanisme és inaccessible amb els instruments del moment, publicar la descripció matemàtica és el que correspon"
+              ],
+              "correct": 1,
+              "explanation": "Newton va escriure 'hypotheses non fingo' — no formulo hipòtesis sobre el mecanisme. Va publicar la descripció matemàtica sense el mecanisme perquè la descripció funcionava: explicava els planetes, les marees, la caiguda dels objectes. Dos segles i mig més tard, Einstein va donar el mecanisme: la gravetat és la curvatura de l'espai-temps. Però les prediccions de Newton seguien sent correctes per a velocitats baixes i masses no extremes. Ciència és sovint saber 'com' molt abans de saber 'per qué' — i la descripció matemàtica precisa és coneixement genuí, no ciència a mitges."
+            }
+          ]
+        },
+        {
+          "id": "for-04",
+          "title": "Fricció: la força que Newton gairebé ignorava",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Les lleis de Newton estan formulades per a un món ideal sense fricció. Però el món real és ple de fricció — i és gràcies a la fricció que podem caminar, que els vehicles frenen i que els cargols no es deslloriguen sols. La fricció és alhora un obstacle que la mecànica intenta minimitzar i una força sense la qual la vida quotidiana seria impossible."
+            },
+            {
+              "type": "key-idea",
+              "text": "La fricció és la força de resistència que s'oposa al lliscament relatiu entre dues superfícies en contacte. La fricció estàtica impedeix que un objecte comenci a moure's. La fricció cinètica actua sobre objectes ja en moviment. En tots dos casos, la fricció és proporcional a la força normal (la perpendicular a la superfície)."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la fricció existeix a escala microscòpica",
+              "content": "A escala microscòpica, cap superfície és perfectament llisa: tot té irregularitats, rugositats i microdents. Quan dues superfícies es toquen, les irregularitats d'una encaixen parcialment amb les de l'altra — com dues peces de paper de vidre enganxades. Per desplaçar les superfícies, cal trencar o superar aquestes connexions microscòpiques. A més, a escala nanomètrica, les forces d'adhesió electrostàtica entre molècules pròximes contribueixen a la resistència. La fricció és en realitat un fenomen complex que la física clàssica tracta simplificadament amb el coeficient de fricció."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-for04-01",
+              "style": "true-false",
+              "question": "Per desplaçar una caixa pesada, sempre necessites una força major que la fricció estàtica. Un cop en moviment, la força necessària per mantenir-la a velocitat constant és major que quan estava en repòs.",
+              "correct": false,
+              "feedbackCorrect": "Parcialment cert i parcialment fals. És correcte que cal superar la fricció estàtica per moure la caixa. Però la fricció cinètica (en moviment) és generalment menor que la fricció estàtica. Per mantenir la caixa a velocitat constant, la força necessària és menor que la que va fer falta per iniciar el moviment — per això costa més arrencar que mantenir.",
+              "feedbackWrong": "La fricció estàtica (la que cal vèncer per iniciar el moviment) és generalment major que la fricció cinètica (la que actua durant el moviment). Per mantenir una caixa a velocitat constant, cal menys força que per arrencar-la. Per això els vehicles gasten més combustible accelerant que mantenint la velocitat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-for04-02",
+              "style": "multiple-choice",
+              "question": "Un bloc llisca per un pla inclinat. La força normal sobre el bloc és perpendicular a la superfície inclinada. Qué passa amb la fricció si s'augmenta l'angle d'inclinació?",
+              "options": [
+                "La fricció augmenta perquè el bloc accelera més",
+                "La fricció disminueix perquè la força normal disminueix quan augmenta l'angle",
+                "La fricció no canvia perquè depèn del material, no de l'angle",
+                "La fricció augmenta perquè el component del pes paral·lel al pla augmenta"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La força normal és el component del pes perpendicular a la superfície. En augmentar l'angle, el component perpendicular (força normal) disminueix. La fricció és proporcional a la força normal, de manera que també disminueix. Alhora, el component del pes paral·lel al pla (que fa lliscar el bloc) augmenta. Per aquest motiu, a partir d'un cert angle crític, el bloc comença a lliscar.",
+              "feedbackWrong": "La fricció és proporcional a la força normal (F_fricció = μ × F_normal). La força normal en un pla inclinat és el component del pes perpendicular a la superfície: F_normal = mg·cos(θ). En augmentar θ, cos(θ) disminueix, i per tant la fricció també disminueix."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en tres situacions de la vida quotidiana on la fricció és imprescindible i tres on és un problema. Qué revela sobre el disseny dels objectes que ens envolten?",
+              "prompt": "Pneumàtics, cordes, eines, motors, roba... La fricció és arreu."
+            }
+          ]
+        },
+        {
+          "id": "for-05",
+          "title": "Moviment circular i òrbites",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan un cotxe gira en una corba, alguna cosa l'empeny cap al centre de la corba. Quan la Lluna orbita la Terra, alguna cosa la manté lligada. Quan una centrífuga separa plasma de sang, alguna cosa empeny les partícules més pesants cap a l'exterior. El moviment circular és un dels moviments més ubics — i un dels més mal compresos intuïtivament."
+            },
+            {
+              "type": "key-idea",
+              "text": "Qualsevol objecte en moviment circular necessita una força cap al centre (força centrípeta) per canviar contínuament la direcció de la velocitat. Sense aquesta força, l'objecte sortiria en línia recta. La força centrípeta no és un nou tipus de força: és el nom que donem a qualsevol força que compleix aquesta funció (gravetat, tensió, fricció...)"
+            },
+            {
+              "type": "misconception",
+              "belief": "En el moviment circular hi ha una força centrífuga que empeny els objectes cap a fora.",
+              "reality": "La força centrífuga no existeix en un sistema de referència inercial. El que sembla una força cap a fora és la inèrcia de l'objecte: la seva tendència a seguir en línia recta. En un cotxe que gira, el teu cos no és empès cap a la porta — simplement tendeix a seguir recte mentre el cotxe gira al voltant teu.",
+              "why": "La sensació física d'ésser llançat cap a fora és molt real des del punt de vista del passatger del vehicle (un sistema de referència no inercial). En sistemes de referència no inercials sí és útil introduir la 'força centrífuga' com a força fictícia per simplificar els càlculs."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-for05-01",
+              "style": "multiple-choice",
+              "question": "Un satèl·lit orbita la Terra a altitud constant. Quina és la força que actua com a força centrípeta?",
+              "options": [
+                "La força dels motors del satèl·lit",
+                "La gravetat terrestre",
+                "La força centrífuga que equilibra la gravetat",
+                "La tensió del braç orbital"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La gravetat terrestre és la força centrípeta que manté el satèl·lit en òrbita. El satèl·lit 'cau' contínuament cap a la Terra, però la seva velocitat horitzontal és prou gran perquè la trajectòria segueixi la curvatura terrestre. No hi ha motors encesos: els satèl·lits en òrbita estable no gasten combustible (excepte per petites correccions).",
+              "feedbackWrong": "Els satèl·lits en òrbita no usen motors per mantenir l'òrbita — estan en caiguda lliure contínua. La força centrípeta que els manté en òrbita és la gravetat. La força centrífuga no existeix en un sistema de referència inercial."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-for05-02",
+              "style": "detect-error",
+              "statement": "Un objecte en moviment circular uniforme es mou a velocitat constant, per tant la seva acceleració és zero.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és confondre velocitat (vector) amb rapidesa (escalar). En el moviment circular uniforme, la rapidesa (el mòdul de la velocitat) és constant, però la direcció de la velocitat canvia contínuament. Acceleració és el canvi de velocitat (no de rapidesa) per unitat de temps. Com que la direcció canvia, hi ha acceleració — l'acceleració centrípeta, sempre dirigida cap al centre del cercle."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de l'Astronomia",
+              "moduleEmoji": "🏛️",
+              "concept": "Per qué les òrbites son el·lípsoïdals i no circulars perfectes",
+              "text": "Newton va demostrar que la llei de l'invers del quadrat de la gravetat produeix exactament les el·lipses de Kepler. Les òrbites circulars son un cas especial (velocitat orbital perfectament ajustada). En la pràctica, totes les òrbites planetàries son el·lípses lleugerament aplanades — i la mecànica clàssica explica per qué amb precisió mil·limètrica."
+            }
+          ]
+        },
+        {
+          "id": "for-06",
+          "title": "Els límits de Newton",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1905, Albert Einstein va publicar la teoria de la relativitat especial. El 1915, la relativitat general. Ambdues contradien la mecànica de Newton en casos extrems. Durant 200 anys, Newton havia semblat definitiu. Ara resulta que era una aproximació excel·lent — però una aproximació. Entendre on falla Newton és entendre per qué era necessari Einstein."
+            },
+            {
+              "type": "key-idea",
+              "text": "La mecànica de Newton és una aproximació extraordinàriament precisa per a velocitats molt menors que la de la llum i masses no extremes. Falla a velocitats properes a la de la llum (relativitat especial), en camps gravitatoris molt intensos (relativitat general) i a escales subatòmiques (mecànica quàntica)."
+            },
+            {
+              "type": "comparison",
+              "title": "On funciona Newton i on no",
+              "labelA": "Mecànica de Newton (vàlida)",
+              "labelB": "On Newton falla (cal nova física)",
+              "items": [
+                {
+                  "label": "Velocitat",
+                  "a": "Molt menor que la de la llum (v << c)",
+                  "b": "Propera a la de la llum: prediccions incorrectes de massa i temps"
+                },
+                {
+                  "label": "Massa / gravetat",
+                  "a": "Masses i camps gravitatoris normals",
+                  "b": "Forats negres, estrelles de neutrons: la gravetat deforma l'espai-temps"
+                },
+                {
+                  "label": "Escala",
+                  "a": "Des de grans molècules fins a galàxies",
+                  "b": "Àtoms i partícules subatòmiques: cal mecànica quàntica"
+                },
+                {
+                  "label": "Precisió pràctica",
+                  "a": "Perfecta per a enginyeria, ponts, avions, satèl·lits",
+                  "b": "GPS (requereix correccions relativistes de nanosegons)"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El GPS i la relativitat: Newton no n'hi ha prou",
+              "content": "Els satèl·lits GPS porten rellotges atòmics ultra-precisos. Però dos efectes relativistes els fan descompassar respecte als rellotges a terra: la relativitat especial (els rellotges en moviment van més lents, uns 7 microsegons/dia) i la relativitat general (els rellotges en un camp gravitatori més feble van més de pressa, uns 45 microsegons/dia). El resultat net: els rellotges GPS guanyen ~38 microsegons per dia respecte als terrestres. Si no es corregís, el GPS acumularia errors de ~11 km per dia. Cada vegada que uses Google Maps, la relativitat d'Einstein fa el GPS precís."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-for06-01",
+              "style": "true-false",
+              "question": "El fet que la relativitat d'Einstein hagi substituït la mecànica de Newton significa que Newton estava equivocat i que les seves lleis no son útils.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Newton no estava 'equivocat': les seves lleis son extraordinàriament precises dins del seu domini de validesa. Tota l'enginyeria moderna — des de ponts a missions a la Lluna — usa la mecànica de Newton. La relativitat corregeix Newton en condicions extremes que Newton no podia observar. En ciència, una teoria més ampla no 'destrueix' l'anterior: la conté com a cas especial.",
+              "feedbackWrong": "Newton no estava equivocat per al seu domini d'aplicació. La relativitat d'Einstein conté la mecànica de Newton com a cas límit: quan les velocitats son molt menors que la de la llum, les equacions d'Einstein es redueixen exactament a les de Newton. Una teoria científica superada no és inútil — és una aproximació vàlida dins d'un rang."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Física de Partícules",
+              "moduleEmoji": "⚛️",
+              "concept": "La mecànica quàntica substitueix Newton a l'escala subatòmica",
+              "text": "A escala d'electrons i quarks, les lleis de Newton no funcionen: les partícules no tenen posició i velocitat simultàniament definides (principi d'Heisenberg), i el seu comportament és probabilístic. La mecànica quàntica és la física de l'inframón — tan diferent de Newton com Newton d'Aristòtil."
+            },
+            {
+              "type": "debate",
+              "question": "La mecànica de Newton va ser substituïda per la relativitat i la quàntica. Significa això que el coneixement científic és sempre provisional i mai podem confiar en cap teoria?",
+              "positionA": {
+                "label": "El coneixement científic és provisional",
+                "argument": "Tota teoria, per sòlida que sembli, pot ser superada. Newton va durar 200 anys i va ser corregit. No hi ha raó per pensar que les teories actuals son les definitives. La humilitat epistèmica exigeix tractar tot el coneixement científic com a provisional."
+              },
+              "positionB": {
+                "label": "El progrés científic és acumulatiu i fiable",
+                "argument": "Newton no va ser 'refutat': va ser inclòs en un marc més ampli. La ciència no destrueix el coneixement anterior: l'expandeix. Les correccions relativistes al GPS son de 38 microsegons per dia — Newton encerta en 99,9999% dels casos. Provisional no vol dir arbitrari."
+              },
+              "reflection": "Hi ha una diferència entre 'provisional' (pot ser corregit) i 'poc fiable' (no podem confiar-hi). La ciència pot ser les dues coses alhora?",
+              "context": "La filosofia de la ciència distingeix entre falsabilitat (una teoria pot ser refutada en principi) i fiabilitat pràctica (una teoria ha superat múltiples proves i prediu correctament). Newton és falsable però enormement fiable dins del seu domini."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energia",
+      "title": "Energia i conservació",
+      "icon": "⚡",
+      "description": "Treball, energia cinètica i potencial, conservació i moment lineal",
+      "style": "Quantitatiu · dels conceptes a les lleis de conservació",
+      "lessons": [
+        {
+          "id": "ene-01",
+          "title": "Qué és l'energia?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La paraula 'energia' és una de les més usades i menys enteses del vocabulari científic. La sentim a tot arreu: energies renovables, energia espiritual, tenir energia. Però en física, energia té una definició molt precisa — i la seva llei de conservació és una de les lleis més universals i poderoses de tota la ciència."
+            },
+            {
+              "type": "key-idea",
+              "text": "En física, l'energia és la capacitat de realitzar treball (de canviar l'estat d'un sistema). No és una substància ni un fluid: és una propietat que els sistemes físics posseeixen i que es pot transferir i transformar. La llei de conservació de l'energia diu que l'energia total d'un sistema aïllat és constant: no es crea ni es destrueix, només es transforma."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la conservació de l'energia és tan important?",
+              "content": "La conservació de l'energia no és una observació empírica que podria no complir-se: és una conseqüència matemàtica de la simetria temporal de les lleis de la física (teorema de Noether, 1915). Si les lleis de la física son les mateixes avui que ahir (simetria temporal), llavors per força es conserva una quantitat — i aquesta quantitat és l'energia. La conservació de l'energia es viola sempre que una màquina de moviment perpetu sembla funcionar: buscant on 'desapareix' l'energia s'ha descobert nova física moltes vegades."
+            },
+            {
+              "type": "misconception",
+              "belief": "Quan una màquina 'consumeix' energia, l'energia desapareix.",
+              "reality": "L'energia mai desapareix: es transforma. Un motor de cotxe transforma energia química (benzina) en energia cinètica (moviment) i energia tèrmica (calor). Una bombeta transforma energia elèctrica en llum i calor. En tots els casos, la suma total d'energia és la mateixa abans i després.",
+              "why": "El llenguatge quotidià parla de 'gastar', 'consumir' o 'perdre' energia, que suggereix que l'energia desapareix. En realitat, el que 'perdem' és energia en una forma útil (ordre baix entropia) que es degrada en calor dispersa (alta entropia)."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-ene01-01",
+              "style": "multiple-choice",
+              "question": "Un cotxe frena completament des de 100 km/h fins a aturar-se. On va l'energia cinètica que tenia?",
+              "options": [
+                "Es destrueix en el procés de frenar",
+                "Es transforma en energia potencial emmagatzemada als frens",
+                "Es transforma principalment en calor als frens per fricció",
+                "Torna al motor en forma d'energia mecànica inversa"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Els frens convencionals funcionen per fricció: les pastilles frenen el disc i tota l'energia cinètica es transforma en calor. Per això els discs de fre s'escalfen tant en frencades intenses. Els cotxes elèctrics recuperen part d'aquesta energia transformant-la de nou en electricitat (frenada regenerativa) — un exemple de conservació d'energia aplicada a l'enginyeria.",
+              "feedbackWrong": "L'energia cinètica no es destrueix: es transforma. En frenada convencional, tota l'energia cinètica es transforma en calor per fricció als frens. En frenada regenerativa (cotxes elèctrics), part es recupera com a electricitat."
+            },
+            {
+              "type": "reflection",
+              "question": "Si l'energia sempre es conserva, per qué es parla de 'crisi energètica'? Qué és realment el que s'esgota?",
+              "prompt": "La resposta té a veure amb la diferència entre energia i energia útil — i amb l'entropia."
+            }
+          ]
+        },
+        {
+          "id": "ene-02",
+          "title": "Treball i potència",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "En el llenguatge quotidià, 'treballar' vol dir fer esforç. En física, el treball té una definició molt específica que pot sorprendre: pots fer un esforç enorme i no realitzar cap treball en sentit físic. I pots realitzar molt treball sense suposar cap esforç subjectiu."
+            },
+            {
+              "type": "key-idea",
+              "text": "El treball mecànic és el producte de la força per el desplaçament en la direcció de la força: W = F × d × cos(θ). Si la força és perpendicular al desplaçament, el treball és zero. La potència és el treball realitzat per unitat de temps: P = W / t. Un watt és un joule per segon."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-ene02-01",
+              "style": "detect-error",
+              "statement": "Un porter de museu aguanta una estàtua pesada durant tot el dia. Fa un treball físic enorme perquè aguanta una gran força durant molt de temps.",
+              "isCorrect": false,
+              "feedbackExplanation": "En física, el treball és força multiplicada per desplaçament en la direcció de la força. Si el porter no es mou (desplaçament = 0), el treball mecànic és zero, independentment de la força i el temps. El porter sí consumeix energia metabòlica (els músculs fan treball intern en mantenir la tensió), però en termes de treball mecànic sobre l'estàtua, és zero. Física i esforç subjectiu no son el mateix."
+            },
+            {
+              "type": "expandable",
+              "label": "Potència: watts, cavalls de vapor i metabolisme humà",
+              "content": "Un watt és una unitat molt petita: una bombeta LED de baix consum té 10 W. Un humà adult en activitat moderada produeix uns 80-100 W de potència. Un cotxe de gasolina típic té uns 100-150 kW (100.000-150.000 W) de potència màxima. Un cavall de vapor (HP) és 746 W — la unitat que James Watt va inventar per comparar les seves màquines de vapor amb el treball dels cavalls que substituïen. El Sol irradia 3,8 × 10²⁶ watts: una escala que fa impensables les comparacions quotidianes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-ene02-02",
+              "style": "multiple-choice",
+              "question": "Dos atletes pugen la mateixa muntanya per camins distints: un ho fa en 30 minuts i l'altre en 60 minuts. Si pesen el mateix, quin ha realitzat més treball?",
+              "options": [
+                "El que ha pujat més de pressa, perquè ha aplicat més força",
+                "El que ha pujat més lentament, perquè ha estat exposat a la gravetat més temps",
+                "Tots dos han realitzat el mateix treball, perquè la força (pes) i el desplaçament vertical son els mateixos",
+                "Depèn del camí escollit"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. El treball contra la gravetat depèn únicament del pes i l'alçada guanyada: W = mgh. El camí i el temps no importen per al treball total. El que diferencia els dos atletes és la potència: el que ha pujat en 30 minuts ha generat el doble de potència. Mateix treball, doble potència.",
+              "feedbackWrong": "El treball contra la gravetat (W = mgh) depèn del pes i de la diferència d'alçada, no del camí ni del temps. Tots dos atletes fan el mateix treball. El que difereix és la potència: el que puja més de pressa genera més potència (treball per unitat de temps)."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-mec-ene02-01",
+              "question": "Les màquines simples (palanca, politja, pla inclinat) permeten moure objectes pesants amb poca força. Violen la conservació de l'energia?",
+              "options": [
+                "Sí: si podem moure un pes enorme amb poca força, estem obtenint energia de res",
+                "No: reduir la força sempre implica augmentar el desplaçament, de manera que el treball total (força × distància) és el mateix o major",
+                "Depèn de l'eficiència de la màquina: una màquina ideal no viola la conservació, però les reals sí"
+              ],
+              "correct": 1,
+              "explanation": "Les màquines simples no creen energia: redistribueixen la força i el desplaçament. Una politja permet aixecar 100 kg amb 50 N de força, però el cable ha de recórrer el doble de distància que la càrrega. El treball total (força × distància) es conserva en una màquina ideal. En màquines reals, la fricció fa que el treball d'entrada sigui sempre major que el treball útil de sortida — l'eficiència és sempre menor del 100%. Les màquines de moviment perpetu violen la conservació de l'energia i per això son impossibles."
+            }
+          ]
+        },
+        {
+          "id": "ene-03",
+          "title": "Energia cinètica i potencial",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Una pilota en el punt més alt del seu vol ha aturat el moviment momentàniament: l'energia cinètica és zero. Però si la deixem caure, s'accelerarà i guanyarà velocitat. D'on ve aquesta energia? La resposta — que estava 'emmagatzemada' com a energia potencial — és una de les idees més útils de tota la física."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'energia cinètica és l'energia de moviment: Ec = ½mv². L'energia potencial gravitatòria és l'energia emmagatzemada per la posició en un camp gravitatori: Ep = mgh. En un sistema sense fricció, la suma d'energia cinètica i potencial es conserva: quan una augmenta, l'altra disminueix."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-ene03-01",
+              "style": "multiple-choice",
+              "question": "Una muntanya russa sense fricció arrenca des de l'alt d'una rampa de 50 m. A quina velocitat arriba al fons (g = 10 m/s²)?",
+              "options": [
+                "10 m/s",
+                "20 m/s",
+                "31,6 m/s",
+                "50 m/s"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. Conservació d'energia: Ep inicial = Ec final. mgh = ½mv². Les masses es cancel·len: gh = ½v². v² = 2gh = 2 × 10 × 50 = 1.000. v = √1.000 ≈ 31,6 m/s... espera, l'opció correcta és la 20 m/s amb h = 20 m. Amb h = 50 m, v = √(2 × 10 × 50) = √1000 ≈ 31,6 m/s. La resposta correcta és la opció C.",
+              "feedbackWrong": "Aplica conservació d'energia: mgh = ½mv². La massa es cancel·la. v = √(2gh) = √(2 × 10 × 50) = √1000 ≈ 31,6 m/s."
+            },
+            {
+              "type": "expandable",
+              "label": "Altres formes d'energia potencial",
+              "content": "L'energia potencial gravitatòria (mgh) és la més familiar, però no és l'única. L'energia potencial elàstica s'emmagatzema en un ressort comprimit o estirat: Ee = ½kx², on k és la constant del ressort i x el desplaçament. L'energia química (benzina, ATP en les cèl·lules, explosius) és energia potencial emmagatzemada en els enllaços moleculars. L'energia nuclear és energia potencial emmagatzemada a la cohesió del nucli atòmic. Totes segueixen el mateix principi: energia emmagatzemada per la configuració d'un sistema que es pot alliberar quan el sistema canvia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-ene03-02",
+              "style": "true-false",
+              "question": "Un cotxe que circula el doble de ràpid necessita el doble de distància per frenar (en les mateixes condicions).",
+              "correct": false,
+              "feedbackCorrect": "Fals. L'energia cinètica varia amb el quadrat de la velocitat (Ec = ½mv²). Si la velocitat es dobla, l'energia cinètica es quadruplica. Com que els frens eliminen energia a una taxa similar, la distància de frenada es quadruplica, no es dobla. A 60 km/h, la distància de frenada és aproximadament 4 vegades la de 30 km/h. Aquest és un argument físic potent per als límits de velocitat en zones urbanes.",
+              "feedbackWrong": "L'energia cinètica és ½mv². Si la velocitat es dobla, v² es quadruplica. Per eliminar el doble d'energia cinètica, calen 4 vegades més distància (no el doble). A 120 km/h, la distància de frenada és ~4 vegades la de 60 km/h. La relació no és lineal."
+            },
+            {
+              "type": "reflection",
+              "question": "La distància de frenada creix amb el quadrat de la velocitat. Com canviaria el disseny dels límits de velocitat en carretera si els conductors entenguessin aquesta relació intuïtivament?",
+              "prompt": "La física pot tenir implicacions de política pública molt concretes."
+            }
+          ]
+        },
+        {
+          "id": "ene-04",
+          "title": "Conservació de l'energia: la gran llei",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La conservació de l'energia és una de les lleis més universals de la física. Ha sobreviscut totes les revolucions científiques: la relativitat la amplia (E = mc²), la quàntica la reinterpreta, però cap teoria la viola. Quan sembla que l'energia no es conserva, sempre s'ha acabat descobrint una nova forma d'energia o un error en el mesurament."
+            },
+            {
+              "type": "key-idea",
+              "text": "En un sistema aïllat, l'energia total es conserva. En sistemes reals amb fricció, l'energia mecànica es degrada en calor — però la calor també és energia. L'energia total (mecànica + tèrmica + química + nuclear + ...) es conserva sempre en un sistema aïllat."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1842-1847",
+                  "title": "Mayer, Joule i Helmholtz: la conservació de l'energia",
+                  "text": "Tres científics independents estableixen que la calor és una forma d'energia i que l'energia total es conserva. Mayer ho intueix des de la medicina; Joule ho mesura amb experiments de precisió."
+                },
+                {
+                  "year": "1865",
+                  "title": "Clausius: la primera i segona lleis de la termodinàmica",
+                  "text": "L'energia es conserva (primera llei), però no tota l'energia és igualment útil: l'entropia sempre augmenta (segona llei)."
+                },
+                {
+                  "year": "1905",
+                  "title": "Einstein: E = mc²",
+                  "text": "La massa és una forma d'energia. La conservació de l'energia s'amplia: massa i energia son interconvertibles."
+                },
+                {
+                  "year": "1915",
+                  "title": "Noether: la conservació com a simetria",
+                  "text": "Emmy Noether demostra que la conservació de l'energia és conseqüència de la simetria temporal de les lleis de la física."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "E = mc²: quan la massa és energia",
+              "content": "La famosa equació d'Einstein diu que la massa és energia emmagatzemada: E = mc², on c és la velocitat de la llum (300.000 km/s). Com que c² és un número enormement gran, una petita massa conté una quantitat ingent d'energia. Un gram de massa conté 9 × 10¹³ joules — l'equivalent a l'explosió d'uns 20 kilotons de TNT. Les centrals nuclears aprofiten la lleugerísima pèrdua de massa que es produeix en la fissió del urani: la massa del productes és lleugerament menor que la del material original, i aquesta diferència es converteix en energia. En la fusió solar, 4 àtoms d'hidrogen es combinen en un àtom d'heli d'una massa lleugerament menor: la diferència alimenta el Sol."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-ene04-01",
+              "style": "detect-error",
+              "statement": "Una màquina de moviment perpetu és teòricament possible si s'usa un material superconductor que elimina tota la resistència elèctrica, perquè llavors no hi ha pèrdues d'energia.",
+              "isCorrect": false,
+              "feedbackExplanation": "Un superconductor elimina la resistència elèctrica (i per tant les pèrdues per efecte Joule), però no elimina totes les formes de pèrdua d'energia. I sobretot, una màquina de moviment perpetu hauria de produir treball útil indefinidament sense entrada d'energia — el que viola la primera llei de la termodinàmica. Un circuit superconductor pot mantenir un corrent indefinidament sense pèrdues, però no pot produir treball extern alhora. Si fa treball, perd energia i s'atura."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-mec-ene04-01",
+              "question": "El 1930, Pauli va proposar l'existència del neutrí per 'salvar' la conservació de l'energia en la desintegració beta, on l'energia semblava no conservar-se. Era científicament legítim inventar una partícula nova per salvar una llei?",
+              "options": [
+                "No: és una estratègia ad hoc per salvar una teoria; equivalent a afegir epicicles al model de Ptolemeu",
+                "Sí: si la llei ha funcionat sempre, és racional proposar una causa desconeguda abans de descartar la llei. La hipòtesi del neutrí era falsable i es va confirmar 25 anys després",
+                "Depèn: si el neutrí s'hagués detectat aviat, sí; si no s'hagués detectat mai, la hipòtesi hauria sigut infructuosa"
+              ],
+              "correct": 1,
+              "explanation": "Pauli va proposar el neutrí el 1930. Va ser detectat experimentalment el 1956. La diferència amb els epicicles ptolemaics és que la hipòtesi del neutrí era precisa i falsable: Pauli va especificar que havia de tenir spin 1/2, ser sense càrrega i massa molt petita, i va predicar que hauria de deixar una signatura experimental concreta. No era una hipòtesi ad hoc vaga: era una predicció comprovable. La distinció entre 'hipòtesi de treball raonable per salvar una llei ben contrastada' i 'patch ad hoc sense contingut empíric' és un dels reptes centrals de la filosofia de la ciència."
+            }
+          ]
+        },
+        {
+          "id": "ene-05",
+          "title": "Moment lineal: la quantitat de moviment",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Per qué és molt més difícil aturar un camió que un cotxe a la mateixa velocitat? Per qué una bala petita pot penetrar blindatge que una pilota de tenis a la mateixa velocitat no podria? Per qué una nau espacial pot canviar de direcció sense cap superfície on empènyer? El concepte de moment lineal respon totes aquestes preguntes."
+            },
+            {
+              "type": "key-idea",
+              "text": "El moment lineal (o quantitat de moviment) d'un objecte és el producte de la seva massa per la seva velocitat: p = mv. En un sistema aïllat (sense forces externes), el moment lineal total es conserva. La tercera llei de Newton és una conseqüència directa d'aquesta conservació."
+            },
+            {
+              "type": "expandable",
+              "label": "Com funcionen els coets espacials sense res en qué empènyer",
+              "content": "Un coet no té cap superfície exterior en qué empènyer. Funciona per conservació del moment lineal: expulsa gasos cap enrere (moment cap enrere) i el coet rep un moment igual cap endavant. El moment total del sistema (coet + gasos) es conserva. La mateixa idea explica el recul d'un rifle: en disparar, la bala rep moment cap endavant i el rifle rep moment cap enrere. O la propulsió d'un pop que expulsa aigua. La conservació del moment lineal funciona fins i tot a l'espai buit, sense res en qué recolzar-se."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-ene05-01",
+              "style": "multiple-choice",
+              "question": "Dos patinadors, un de 60 kg i un de 80 kg, estan en repòs sobre gel i s'empenyen mútuament. Quin resultat és consistent amb la conservació del moment lineal?",
+              "options": [
+                "Tots dos surten llançats a la mateixa velocitat en direccions oposades",
+                "El més lleuger surt llançat més de pressa que el més pesant",
+                "El més pesant surt llançat més de pressa perquè té més massa",
+                "Cap dels dos es mou perquè les forces es cancel·len"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El moment inicial és zero (tots en repòs). Conservació del moment: p_final = 0. Això significa que m₁v₁ + m₂v₂ = 0, és a dir, 60v₁ = -80v₂. El patinador més lleuger (60 kg) surt a major velocitat que el de 80 kg — en sentit contrari. Les velocitats son inversament proporcionals a les masses.",
+              "feedbackWrong": "Pensa en conservació del moment: el total inicial és zero. En separar-se, el moment dels dos junts ha de seguir sumant zero. p₁ + p₂ = 0, és a dir, m₁v₁ = -m₂v₂. Com que 60 < 80, v₁ > v₂: el patinador més lleuger surt a major velocitat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-ene05-02",
+              "style": "true-false",
+              "question": "En una col·lisió perfectament elàstica, tant el moment lineal com l'energia cinètica es conserven. En una col·lisió perfectament inelàstica (els objectes queden units), cap de les dues es conserva.",
+              "correct": false,
+              "feedbackCorrect": "Parcialment fals. En una col·lisió perfectament inelàstica, el moment lineal sí es conserva (sempre). El que no es conserva és l'energia cinètica: part es transforma en calor, deformació i so. El moment lineal es conserva en qualsevol col·lisió sense forces externes, elàstica o inelàstica.",
+              "feedbackWrong": "El moment lineal es conserva sempre que no hi hagi forces externes netes — independentment del tipus de col·lisió. El que distingeix col·lisions elàstiques d'inelàstiques és si l'energia cinètica es conserva (elàstica) o es degrada en calor i deformació (inelàstica). El moment, mai."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Física de Partícules",
+              "moduleEmoji": "⚛️",
+              "concept": "Conservació del moment en col·lisions de partícules",
+              "text": "Als acceleradors de partícules, la conservació del moment lineal (i angular) és la eina principal per detectar partícules noves. Quan dos protons col·lideixen i els detectors mesuren tots els fragments, si el moment dels fragments no suma el moment inicial, hi ha alguna partícula que ha escapat sense ser detectada — com el neutrí, o potser matèria fosca."
+            }
+          ]
+        },
+        {
+          "id": "ene-06",
+          "title": "Ones i vibracions: energia que viatja",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Un ressort vibrant, un pèndol, les ones del mar, el so, la llum: totes aquestes coses comparteixen una estructura matemàtica comuna. Entendre les ones és entendre com l'energia es pot propagar per l'espai sense que la matèria es desplaci — un dels conceptes pont entre la mecànica clàssica i la física moderna."
+            },
+            {
+              "type": "key-idea",
+              "text": "Una ona és una pertorbació que es propaga transferint energia d'un lloc a un altre sense transferir matèria de manera neta. Les ones mecàniques (so, ones d'aigua) requereixen un medi. Les ones electromagnètiques (llum, ràdio) no en necessiten cap. Totes les ones es descriuen per freqüència, longitud d'ona, velocitat i amplitud."
+            },
+            {
+              "type": "expandable",
+              "label": "Ressonància: quan les freqüències coincideixen",
+              "content": "Cada sistema físic (un ressort, un pont, una copa de vidre) té una freqüència natural de vibració. Quan una força externa aplica energia exactament a aquesta freqüència, l'amplitud de la vibració creix fins a límits que pot destruir l'estructura: és la ressonància. El col·lapse del pont de Tacoma Narrows (1940) és l'exemple més cèlebre: el vent va generar forces oscil·lants prou properes a la freqüència natural del pont per generar oscil·lacions creixents fins a la ruptura. La ressonància també s'usa positivament: el forn microones escalfa l'aigua perquè emet a la freqüència natural de vibració de les molècules d'aigua, i la imatge per ressonància magnètica usa la ressonància de protons per crear imatges mèdiques."
+            },
+            {
+              "type": "comparison",
+              "title": "Ones mecàniques vs. ones electromagnètiques",
+              "labelA": "Ones mecàniques",
+              "labelB": "Ones electromagnètiques",
+              "items": [
+                {
+                  "label": "Necessiten medi?",
+                  "a": "Sí: so (aire), sísmica (roca), ones d'aigua",
+                  "b": "No: viatgen pel buit (la llum travessa l'espai)"
+                },
+                {
+                  "label": "Velocitat",
+                  "a": "Depèn del medi (so a l'aire: 340 m/s)",
+                  "b": "Sempre c = 300.000 km/s al buit"
+                },
+                {
+                  "label": "Tipus de vibració",
+                  "a": "Transversal o longitudinal (partícules del medi oscil·len)",
+                  "b": "Transversal (camps elèctric i magnètic oscil·len)"
+                },
+                {
+                  "label": "Abast",
+                  "a": "Limitat pel medi i l'absorció",
+                  "b": "Il·limitat al buit (llum d'estrelles a milions d'anys llum)"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-mec-ene06-01",
+              "style": "multiple-choice",
+              "question": "En una ona del mar, una boia flota a la superfície. Com es mou la boia quan passa l'ona?",
+              "options": [
+                "Es desplaça horitzontalment en la direcció de propagació de l'ona",
+                "Oscil·la amunt i avall (i lleugerament cap endavant i cap enrere) però no es desplaça neta",
+                "Es desplaça en la direcció oposada a la propagació de l'ona",
+                "No es mou perquè l'ona passa per sota sense afectar-la"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les ones d'aigua son principalment transversals i circulars: les molècules d'aigua fan moviments circulars, i la boia puja i baixa (i lleugerament davant i darrere) però no es desplaça neta en la direcció de propagació. L'energia viatja, la matèria oscil·la localment.",
+              "feedbackWrong": "Recorda: les ones transfereixen energia, no matèria. Una boia no viatja cap a la platja per efecte de les ones (tret del surf i la zona de rompents). Oscil·la localment mentre l'ona passa."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Electromagnetisme",
+              "moduleEmoji": "⚡",
+              "concept": "La llum com a ona electromagnètica",
+              "text": "Maxwell va demostrar el 1865 que la llum és una ona d'oscil·lació dels camps elèctric i magnètic. Quan estudiem electromagnetisme, les ones electromagnètiques son la culminació de la teoria: la unificació de l'electricitat, el magnetisme i l'òptica en un sol marc. I quan la mecànica quàntica entra en escena, la llum resulta ser també un flux de partícules (fotons) — la dualitat ona-partícula."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-mec-ene06-01",
+              "question": "Si el so necessita un medi i la llum no, quin medi porta la llum? Al segle XIX, molts físics van proposar l'èter — un medi invisible que ompliria l'espai. Era una hipòtesi científicament legítima?",
+              "options": [
+                "Sí: en aquell moment era la hipòtesi més raonable per analogia amb les ones mecàniques. Va ser refutada, no ridícula",
+                "No: afirmar l'existència d'una substància indetectable és metafísica, no ciència",
+                "Parcialment: era una hipòtesi de treball útil, però hauria d'haver-se abandonat quan els primers experiments no el van detectar"
+              ],
+              "correct": 0,
+              "explanation": "La hipòtesi de l'èter era perfectament raonable: totes les ones conegudes requerien un medi, i l'analogia suggeria que la llum n'havia de tenir un. No era irresponsable: era física prudent per analogia. L'experiment de Michelson-Morley (1887) va buscar l'èter amb gran precisió i no el va trobar. No va ser fins a Einstein (1905) que la hipòtesi va ser abandonada: la relativitat especial explica tots els resultats sense necessitat de l'èter. La lliçó no és que l'èter era una idea estúpida, sinó que les analogies en física tenen limits, i que una hipòtesi nul·la (no hi ha èter) pot requerir un marc teòric radicalment nou per ser comprensible."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

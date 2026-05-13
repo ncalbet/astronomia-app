@@ -37,6 +37,12 @@ const DEFAULT_STATE = {
     'module-26-economia-comportament','module-27-economia-jocs',
     // Bloc: Química
     'module-29-quimica','module-30-quimica-atoms','module-31-quimica-reaccions','module-32-quimica-vida',
+    // Bloc: Biologia
+    'module-08-biologia','module-33-evolucio','module-35-genetica',
+    // Bloc: Física
+    'module-34-mecanica-classica','module-36-termodinamica','module-37-electromagnetisme','module-38-relativitat',
+    // Bloc: Filosofia
+    'module-30-introduccio-filosofia','module-09-filosofia-politica',
   ],
   badges: [],
   srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }

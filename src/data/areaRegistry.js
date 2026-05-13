@@ -42,13 +42,20 @@ export const AREAS = [
         label: 'Física',
         modules: [
           'module-07-particles',
+          'module-34-mecanica-classica',
+          'module-36-termodinamica',
+          'module-37-electromagnetisme',
+          'module-38-relativitat',
         ],
       },
       {
         label: 'Biologia i Natura',
         modules: [
           'module-05-birding',
+          'module-08-biologia',
           'module-10-neurociencia',
+          'module-33-evolucio',
+          'module-35-genetica',
         ],
       },
       {
@@ -113,6 +120,13 @@ export const AREAS = [
         modules: [
           'module-04-philosophy',
           'module-27-economia-jocs',
+        ],
+      },
+      {
+        label: 'Filosofia',
+        modules: [
+          'module-30-introduccio-filosofia',
+          'module-09-filosofia-politica',
         ],
       },
     ],

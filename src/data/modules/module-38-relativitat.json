@@ -1,0 +1,535 @@
+{
+  "id": "module-38-relativitat",
+  "title": "Relativitat",
+  "emoji": "🌀",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "especial",
+      "title": "Relativitat especial",
+      "icon": "⚡",
+      "description": "Temps, espai, massa i energia: com Einstein va reescriure la mecànica de Newton",
+      "style": "Conceptual · dels postulats a les conseqüències",
+      "lessons": [
+        {
+          "id": "esp-01",
+          "title": "El problema que Newton no podia resoldre",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant segles, la mecànica de Newton va ser perfecta. Però a finals del segle XIX, una contradicció emergí: les equacions de Maxwell predien que la llum viatja a una velocitat fixa (c). Però Newton deia que les velocitats sumen. Si viatges a 0,5c cap a una font de llum, la llum hauria de venir cap a tu a 1,5c. Les mesures van mostrar: sempre c. La contradicció era irresolvible dins el marc de Newton."
+            },
+            {
+              "type": "key-idea",
+              "text": "La relativitat especial d'Einstein (1905) es fonamenta en dos postulats: (1) les lleis de la física son les mateixes per a tots els observadors en moviment uniforme (no accelerat); (2) la velocitat de la llum al buit és sempre c ≈ 3×10⁸ m/s, independentment del moviment de la font o l'observador. Tot el que segueix és conseqüència lògica d'aquests dos postulats."
+            },
+            {
+              "type": "expandable",
+              "label": "El tren de pensament d'Einstein: imaginar llum i miralls",
+              "content": "Einstein va arribar a la relativitat a través d'experiments mentals (Gedankenexperimente). A 16 anys es va preguntar: si viatgés al costat d'un raig de llum, qué veuria? Veuria una ona electromagnètica congelada — i les equacions de Maxwell no admeten ones immòbils. La contradicció no era amb l'experiment: era amb la lògica interna de la física. La resolució va trigar 10 anys. La clau: el problema no era amb Maxwell ni amb l'experiment de Michelson-Morley — era amb la suposició newtoniana que el temps és absolut i universal. Si el temps no és absolut, la contradicció desapareix."
+            },
+            {
+              "type": "prediction",
+              "question": "Si la velocitat de la llum és la mateixa per a tots els observadors, i dos observadors en moviment relatiu mesuren la mateixa velocitat de llum, qué ha de passar amb els seus mesuraments de temps i espai?",
+              "hint": "Velocitat = distància / temps. Si la velocitat és la mateixa però els observadors estan en moviment relatiu, alguna cosa dels mesuraments ha de ser diferent."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-esp-01-01",
+              "style": "multiple-choice",
+              "question": "Dos observadors, A (en repòs) i B (en moviment a 0,9c), mesuren la mateixa velocitat de llum c. Quin és el resultat consistent amb la relativitat especial?",
+              "options": [
+                "L'observador B mesura la llum a 0,1c (c - 0,9c)",
+                "L'observador A mesura la llum a 1,9c (c + 0,9c)",
+                "Tots dos mesuren c, però els seus mesuraments de temps i espai difereixen",
+                "Cap dels dos pot mesurar la velocitat de la llum correctament a causa del moviment"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Si tots dos han de mesurar c, i la velocitat és distància/temps, llavors les seves mesures de distància i/o temps han de ser distintes. La relativitat especial mostra que el temps passa més lentament per B (dilatació del temps) i les longituds es contrauen en la direcció del moviment. Temps i espai no son absoluts: depenen de l'estat de moviment de l'observador.",
+              "feedbackWrong": "La velocitat de la llum és la mateixa per a tots: c. No es suma ni es resta. Per fer-ho possible, els mesuraments de temps i espai han de diferir entre observadors en moviment relatiu. La relativitat especial mostra com: dilatació del temps i contracció de longituds."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Electromagnetisme",
+              "moduleEmoji": "⚡",
+              "concept": "La contradicció entre Newton i Maxwell com a origen de la relativitat",
+              "text": "Les equacions de Maxwell i l'experiment de Michelson-Morley van crear la crisi que Einstein va resoldre el 1905. La relativitat especial no és una teoria independent: és la solució a la contradicció entre la mecànica newtoniana i l'electromagnetisme de Maxwell. Maxwell tenia raó; Newton era una aproximació."
+            }
+          ]
+        },
+        {
+          "id": "esp-02",
+          "title": "Dilatació del temps: els rellotges en moviment van més lents",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Un dels resultats més contraintuitius de la relativitat especial: un rellotge en moviment va més lent que un en repòs — i no per un defecte mecànic, sinó per la natura del temps mateix. El temps és relatiu. No en el sentit d'imprecís o subjectiu: en el sentit de físicament distint per a observadors en moviment relatiu."
+            },
+            {
+              "type": "key-idea",
+              "text": "La dilatació del temps: un rellotge en moviment a velocitat v respecte a un observador marca menys temps que el rellotge de l'observador. El factor de dilatació és γ = 1/√(1-v²/c²). A baixes velocitats, γ ≈ 1 i l'efecte és negligible. A velocitats properes a c, γ creix molt: a 0,99c, γ ≈ 7,1 — el temps passa 7 vegades més lent."
+            },
+            {
+              "type": "expandable",
+              "label": "La prova amb muons còsmics",
+              "content": "Els muons son partícules subatòmiques creades per raigs còsmics a uns 15 km d'altitud. La seva vida mitja al laboratori és de 2,2 microsegons. A la velocitat que es mouen (~0,998c), haurien de recórrer uns 660 m abans de desintegrar-se — molt menys que els 15 km fins a la superfície. Però els detectem a la superfície terrestre en gran quantitat. Per qué? A 0,998c, el factor de dilatació és γ ≈ 15. Des del nostre punt de vista, el rellotge intern del muó va 15 vegades més lent — i 'viu' el suficient per arribar. Des del punt de vista del muó (relativitat de la simultaneïtat): la distància de 15 km es contrau a ~1 km, i arriba igualment. Tots dos punts de vista son correctes i consistents."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-esp-02-01",
+              "style": "multiple-choice",
+              "question": "Una nau viatja a 0,6c. El factor γ a aquesta velocitat és 1,25. Si un viatge dura 10 anys en el rellotge de la Terra, quants anys han passat per a l'astronauta de la nau?",
+              "options": [
+                "12,5 anys (10 × 1,25)",
+                "8 anys (10 / 1,25)",
+                "10 anys (el temps és el mateix per a tots)",
+                "Impossible saber sense conèixer la massa de la nau"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El temps propi de l'astronauta (el que marca el seu rellotge) és τ = t/γ = 10/1,25 = 8 anys. L'astronauta envelleix 8 anys mentre a la Terra passen 10. En tornar, seria 2 anys més jove que un bessó que hagués quedat a la Terra. La paradoxa dels bessons és real: no hi ha cap contradicció, perquè l'astronauta ha accelerat (canviat de sistema de referència) en girar i tornar.",
+              "feedbackWrong": "La dilatació del temps: el temps que marca el rellotge en moviment (temps propi τ) és menor que el temps en el sistema de referència en repòs. τ = t/γ = 10/1,25 = 8 anys. L'astronauta envelleix menys — no és una il·lusió: és físicament real."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-esp-02-02",
+              "style": "detect-error",
+              "statement": "La dilatació del temps és una il·lusió òptica causada per la distància entre l'observador i el rellotge en moviment. El temps real és el mateix per a tots els observadors.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és fonamental. La dilatació del temps no és una il·lusió ni un efecte òptic: és un efecte físic real i mesurable. Els muons còsmics arriben a la superfície (prova experimental directa). Els GPS requereixen correccions relativistes (aplicació tecnològica real). En l'experiment de Hafele i Keating (1971), rellotges atòmics transportats en avions van mostrar diferències de temps mesurables en comparació amb rellotges a terra, exactament les predites per la relativitat. El temps és realment distint per a observadors en moviment relatiu."
+            },
+            {
+              "type": "reflection",
+              "question": "Si el temps és relatiu — si 'simultani' no és un concepte absolut — qué passa amb la noció de 'present' universal? Tots els éssers de l'univers viuen en el 'mateix' present?",
+              "prompt": "La física ha revelat que moltes de les nostres intuicions sobre el temps son incorrectes. Quines implicacions filosòfiques té?"
+            }
+          ]
+        },
+        {
+          "id": "esp-03",
+          "title": "E = mc²: massa i energia",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "E = mc² és l'equació més famosa de la física, i probablement la menys compresa. No diu que la massa es pugui convertir en energia d'una manera senzilla. Diu que la massa és energia — que massa i energia son la mateixa cosa mesurada en unitats distintes, i que entre elles hi ha un factor de conversió enormement gran: c² ≈ 9 × 10¹⁶ m²/s²."
+            },
+            {
+              "type": "key-idea",
+              "text": "La massa en repòs d'un objecte és una forma d'energia emmagatzemada: E₀ = mc². L'energia total d'un objecte en moviment és E = γmc². La massa no es 'converteix' en energia (la llei de conservació no ho permet de manera absoluta): és que massa i energia son manifestacions de la mateixa quantitat conservada. L'energia de lligadura nuclear és una fracció de la massa del nucli accessible en reaccions nuclears."
+            },
+            {
+              "type": "expandable",
+              "label": "Fusió solar: 4 milions de tones per segon",
+              "content": "Al nucli solar, cada segon es fusionen uns 620 milions de tones d'hidrogen en 616 milions de tones d'heli. La diferència — 4 milions de tones — es converteix en energia radiant. E = mc² = 4×10⁹ kg × (3×10⁸ m/s)² = 3,6 × 10²⁶ J per segon. Tota la llum que el Sol emet cap a la Terra en un any equival a ~4 × 10²⁶ J. La fusió nuclear és l'energia de lligadura dels nuclis d'heli, que és lleugerament menor que la de quatre protons separats. Aquesta diferència de massa minúscula, multiplicada per c², alimenta el Sol des de fa 4.600 milions d'anys."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-esp-03-01",
+              "style": "multiple-choice",
+              "question": "Una reacció nuclear allibera 1 × 10¹³ J d'energia. Quina és la pèrdua de massa corresponent? (c = 3 × 10⁸ m/s)",
+              "options": [
+                "~0,1 micrograms (10⁻⁷ kg)",
+                "~1 gram (10⁻³ kg)",
+                "~111 kg",
+                "~3 × 10²¹ kg"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Correcte. m = E/c² = 10¹³ J / (9 × 10¹⁶ m²/s²) ≈ 1,1 × 10⁻⁴ g ≈ 0,11 micrograms. Una quantitat de massa insignificant allibera enormes quantitats d'energia a causa del factor c² enorme. En reaccions químiques, la pèrdua de massa és bilions de vegades menor — completament indetectable.",
+              "feedbackWrong": "m = E/c² = 10¹³ / (9 × 10¹⁶) ≈ 1,1 × 10⁻⁴ g. Menys d'una dècima de microgram. El factor c² = 9 × 10¹⁶ és tan gran que fins i tot energies enormes corresponen a masses minúscules."
+            },
+            {
+              "type": "misconception",
+              "belief": "Les bombes nuclears funcionen 'convertint' massa en energia: la massa desapareix i es crea energia del no-res.",
+              "reality": "En les reaccions nuclears, la massa total dels productes és lleugerament menor que la dels reactius (defecte de massa). Aquesta diferència de massa existia com a energia de lligadura nuclear — no 'desapareixia': ja era energia, i ara s'allibera en una forma diferent (cinètica, radiació). La llei de conservació de l'energia-massa es compleix sempre.",
+              "why": "La frase popular 'convertir massa en energia' suggereix que la massa desapareix màgicament. La realitat és menys màgica però més elegant: massa i energia son la mateixa quantitat, i el que canvia és la forma en que s'emmagatzema."
+            }
+          ]
+        },
+        {
+          "id": "esp-04",
+          "title": "Contracció de longituds i relativitat de la simultaneïtat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si la dilatació del temps és sorprenent, la relativitat de la simultaneïtat ho és encara més. Dos esdeveniments que passen 'al mateix temps' per a un observador no passen al mateix temps per a un observador en moviment. 'Simultani' no és un concepte absolut. La física ha demostrat que la simultaneïtat depèn de l'estat de moviment de l'observador."
+            },
+            {
+              "type": "key-idea",
+              "text": "Contracció de longituds: un objecte en moviment a velocitat v mesura una longitud menor en la direcció del moviment: L = L₀/γ. Relativitat de la simultaneïtat: dos esdeveniments separats espacialment que son simultanis per a un observador no ho son per a un altre en moviment relatiu. Ambdós efectes son necessaris per a la consistència interna de la relativitat."
+            },
+            {
+              "type": "expandable",
+              "label": "La paradoxa del gat al garatge: contracció de longituds",
+              "content": "Una vaques que és lleugerament més llarga que un garatge entra al garatge a velocitats properes a c. Des del garatge, la vaques és contracte i cap perfectament — les dues portes es poden tancar simultàniament durant una fracció de segon. Des del punt de vista de la vaca, és el garatge el que es contrau — i la vaca no cap mai. Sembla una contradicció. Però la resolució és la relativitat de la simultaneïtat: les dues portes es tanquen 'simultàniament' per a l'observador del garatge, però no per a la vaca. Des de la vaca, la porta del darrere es tanca primer (quan la part davantera de la vaca ja ha sortit), i la del davant es tanca quan la cua entra. Cap contradicció: cada observador té la seva versió consistent dels events."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-esp-04-01",
+              "style": "true-false",
+              "question": "Dos observadors en moviment relatiu sempre estaran en desacord sobre qualsevol mesura física.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Hi ha quantitats invariants que tots els observadors mesuren igual: la velocitat de la llum (c), el interval espai-temporal entre dos events (s² = c²Δt² - Δx²), la càrrega elèctrica, la massa en repòs d'una partícula. La relativitat especial mostra quines quantitats depenen de l'observador (temps, longitud, energia cinètica) i quines son absolutes. El nom 'teoria de la relativitat' és en cert sentit enganyós: el que descobreix és qué és absolut, no que tot és relatiu.",
+              "feedbackWrong": "La relativitat especial no diu que tot sigui relatiu. La velocitat de la llum és la mateixa per a tots. L'interval espai-temporal entre dos eventos és invariant. La massa en repòs és la mateixa per a tots. La teoria mostra quines quantitats son absolutes (invariants) i quines depenen del sistema de referència."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-esp-04-01",
+              "question": "La relativitat especial és contraintuïtiva perquè les nostres intuicions es van formar per a velocitats molt menors que c. Significa que no podem confiar en les nostres intuicions per a la física?",
+              "options": [
+                "Sí: la física moderna ha demostrat que la intuïció és sempre un obstacle per a la comprensió científica",
+                "No: les intuicions son útils i necessàries, però cal reconèixer el seu domini de validesa. La intuïció newtoniana és excel·lent per a velocitats baixes, però no per a velocitats relativistes",
+                "Depèn: les intuicions dels físics experts son fiables; les dels no-experts, no"
+              ],
+              "correct": 1,
+              "explanation": "Les intuicions no son 'errònies' en termes absoluts: son adaptades al rang de condicions que l'evolució humana ha experimentat (velocitats de m/s, no de 10⁸ m/s; masses de kg, no de partícules subatòmiques). El problema és extrapolar-les fora d'aquest domini. La física moderna ha revelat que hi ha dominis (velocitats relativistes, escales quàntiques, camps gravitatoris intensos) on les intuicions newtonianes fallen sistemàticament. La resposta no és abandonar la intuïció: és saber quan confiar-hi i quan substituir-la per l'aparell matemàtic."
+            }
+          ]
+        },
+        {
+          "id": "esp-05",
+          "title": "L'espaitemps: la geometria de la relativitat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Minkowski va demostrar el 1908 que la relativitat especial s'entén de manera natural si unim l'espai i el temps en un sol objecte matemàtic de quatre dimensions: l'espaitemps. En l'espaitemps, la trajectòria d'un objecte en el temps és una línia (línia del món), i la distància entre dos events és un interval invariant per a tots els observadors."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'espaitemps de Minkowski: el món físic és un continu de quatre dimensions (x, y, z, t). La distància entre dos events és l'interval: s² = c²Δt² - Δx² - Δy² - Δz². Aquest interval és el mateix per a tots els observadors (invariant relativista). La separació espacial i temporal canvien entre observadors, però l'interval no."
+            },
+            {
+              "type": "expandable",
+              "label": "Con de llum: passat, futur i el que és assolible",
+              "content": "A l'espaitemps, un punt és un event (lloc + moment). Des de qualsevol event, la llum pot arribar a futurs events dins del 'con de llum futur' i prové de passats events dins del 'con de llum passat'. Events fora del con de llum estan en la 'regió espai-temporal': cap senyal pot connectar-los amb el nostre event present (caldria superar c). Aquesta estructura del con de llum defineix la causalitat: cap causa no pot precedir el seu efecte per a cap observador, perquè per afectar un event cal estar dins del seu con de llum passat. La relativitat preserva la causalitat global tot i relativitzar el temps."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-esp-05-01",
+              "style": "detect-error",
+              "statement": "La relativitat especial demostra que el viatge en el temps és possible: viatjant a velocitats properes a c, pots arribar al futur i, en tornar, al passat.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és parcialment incorrecta. La dilatació del temps sí permet 'viatjar al futur' en el sentit que un astronauta que viatja a velocitats properes a c envelleix menys que la Terra. Quan torna, és al futur terrestre — però no pot tornar al seu propi present. Viatjar al passat requereix viatges a velocitats superiors a c o trajectòries de tipus espai a l'espaitemps (wormholes), que no han estat observats i probablement violen principis de causalitat o requereixen energia negativa. La relativitat permet arribar al futur (en un sentit asimètric), però no al passat."
+            }
+          ]
+        },
+        {
+          "id": "esp-06",
+          "title": "Els límits de la relativitat especial",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La relativitat especial es limita a observadors en moviment uniforme — sense acceleració. Però com es descriuen els efectes de la gravetat, que és l'acceleració que experimenta qualsevol massa? El 1907, Einstein va tenir el que va descriure com 'el pensament més feliç de la seva vida': la equivalència entre acceleració i gravetat. Seria el punt de partida de la relativitat general — deu anys de treball."
+            },
+            {
+              "type": "key-idea",
+              "text": "El principi d'equivalència: és impossible distingir localment entre estar en un camp gravitatori i estar accelerant. Un observador en una caixa tancada no pot saber si el que l'empeny al terra és la gravetat d'un planeta o l'acceleració de la caixa. Aquesta equivalència suggereix que la gravetat no és una força: és la curvatura de l'espaitemps causada per la massa-energia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-esp-06-01",
+              "style": "multiple-choice",
+              "question": "Un astronauta en una nau accelerant a g = 9,8 m/s² en l'espai profund llença una pilota. Com cau la pilota per a l'astronauta?",
+              "options": [
+                "La pilota flota: a l'espai no hi ha gravetat",
+                "La pilota cau 'cap avall' (cap a la part posterior de la nau) exactament com a la Terra",
+                "La pilota es mou en la direcció de l'acceleració de la nau sense canviar respecte a la nau",
+                "La pilota surt expulsada per la força centrífuga"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte — i és precisament el principi d'equivalència. Una nau accelerant a g és indistingible, localment, d'estar a la superfície terrestre. La pilota 'cau' cap a la part posterior de la nau exactament com cauria cap avall a la Terra. No hi ha cap experiment local que pugui distingir els dos casos. Einstein va usar aquesta equivalència per construir la relativitat general.",
+              "feedbackWrong": "El principi d'equivalència diu que acceleració i gravetat son localment indistingibles. Una nau accelerant a g = 9,8 m/s² produeix els mateixos efectes que la gravetat terrestre: la pilota 'cau' cap a la part posterior de la nau exactament com cauria cap al terra a la Terra."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Relativitat — General",
+              "moduleEmoji": "🌀",
+              "concept": "Del principi d'equivalència a la relativitat general",
+              "text": "El principi d'equivalència és el pont entre la relativitat especial (moviment uniforme) i la relativitat general (gravetat i acceleració). La relativitat general descriu la gravetat com la curvatura de l'espaitemps — una geometria que la massa-energia deforma, i per la qual les partícules segueixen les trajectòries més rectes possibles (geodèsiques)."
+            },
+            {
+              "type": "reflection",
+              "question": "Einstein va arribar als seus descobriments principalment a través d'experiments mentals i consistència matemàtica, sense laboratori ni equip. Qué diu sobre la natura de la investigació científica?",
+              "prompt": "La relació entre pensament abstracte i descoberta experimental és una de les qüestions obertes de la filosofia de la ciència."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "title": "Relativitat general",
+      "icon": "🌌",
+      "description": "Gravetat com a curvatura, forats negres, ones gravitacionals i cosmologia",
+      "style": "Geomètric · de la gravetat a l'estructura de l'univers",
+      "lessons": [
+        {
+          "id": "gen-01",
+          "title": "Gravetat com a geometria",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Newton va descriure la gravetat com una força que actua a distància. Durant 250 anys va ser suficient. Però Einstein va veure que la força de Newton tenia una limitació: no era compatible amb la relativitat especial (les forces no poden actuar instantàniament a distància). La solució va ser radical: la gravetat no és una força. És la curvatura de l'espaitemps."
+            },
+            {
+              "type": "key-idea",
+              "text": "La relativitat general (Einstein, 1915): la massa i l'energia corben l'espaitemps. Els objectes, en absència de forces reals, segueixen les trajectòries més rectes possibles (geodèsiques) en aquest espaitemps corbat. El que Newton descrivia com la 'força' de la gravetat és en realitat l'efecte de seguir una geodèsica en un espaitemps corbat."
+            },
+            {
+              "type": "expandable",
+              "label": "L'analogia de la xarxa elàstica — i per qué és incompleta",
+              "content": "La metàfora habitual de la relativitat general és una xarxa o làmina elàstica que s'enfonsa quan hi poses una massa pesada. Altres masses 'cauen' cap a la depressió. Però l'analogia és enganyosa: la làmina és 2D i usa la gravetat del món real per crear la depressió — una analogia circular. La curvatura real és en 4D (espaitemps), no en 2D (espai). I el que es corba és l'espaitemps: la curvatura és temporal tant com espacial. De fet, la component temporal de la curvatura és la responsable del 99% de la gravetat que experimentem a la Terra a baixes velocitats. Pensar en la relativitat general requereix anar més allà de les analogies visuals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rg-01-01",
+              "style": "multiple-choice",
+              "question": "Segons la relativitat general, un satèl·lit en òrbita circular al voltant de la Terra...",
+              "options": [
+                "Experimenta una força gravitatòria que el manté en òrbita",
+                "No experimenta cap força: segueix una geodèsica (la trajectòria més recta possible) en l'espaitemps corbat per la Terra",
+                "Experimenta la força centrífuga que equilibra la gravetat",
+                "Accelera contínuament perquè l'espaitemps el 'draga'"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. En relativitat general, el satèl·lit en òrbita no experimenta cap força: segueix la trajectòria més recta possible (geodèsica) en l'espaitemps corbat per la massa de la Terra. Està en caiguda lliure — el que els astronautes experimenten com a 'ingravidesa'. La 'força gravitatòria' newtoniana és la descripció aproximada d'un efecte geomètric.",
+              "feedbackWrong": "En relativitat general, la gravetat no és una força: és curvatura de l'espaitemps. El satèl·lit segueix una geodèsica — la trajectòria més recta possible en l'espaitemps corbat. No hi ha cap força actuant sobre ell en el sentit relativista (és en caiguda lliure permanent)."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1905",
+                  "title": "Relativitat especial",
+                  "text": "Einstein publica la relativitat especial. Identifica el principi d'equivalència com a porta d'entrada a la gravetat."
+                },
+                {
+                  "year": "1907",
+                  "title": "'El pensament més feliç'",
+                  "text": "Einstein imagina un home en caiguda lliure: no sent el seu propi pes. La gravetat i l'acceleració son equivalents."
+                },
+                {
+                  "year": "1912-1915",
+                  "title": "Tres anys de lluita matemàtica",
+                  "text": "Einstein aprèn geometria diferencial (Riemann) amb l'ajuda del seu amic Marcel Grossmann per formalitzar la teoria."
+                },
+                {
+                  "year": "Novembre 1915",
+                  "title": "Equacions de camp d'Einstein",
+                  "text": "Publica les equacions finals de la relativitat general. Explica l'anomalia en la precissió del periheli de Mercuri sense ajustar cap paràmetre."
+                },
+                {
+                  "year": "1919",
+                  "title": "Eddington confirma la deflexió de la llum",
+                  "text": "Durant un eclipsi solar, mesura que la llum de les estrelles es deflecteix al passar prop del Sol — exactament el doble del que Newton prediria. Einstein es fa mundialmente famós."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gen-02",
+          "title": "Proves i prediccions de la relativitat general",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La relativitat general va predir fenòmens que cap teoria anterior havia plantejat. Alguns van ser confirmats immediatament (la deflexió de la llum per la gravetat, 1919). Altres van trigar dècades (la dilatació gravitacional del temps) o un segle (ones gravitacionals, 2015). Cada confirmació ha estat una de les proves experimentals més precises de la historia de la física."
+            },
+            {
+              "type": "key-idea",
+              "text": "Principals prediccions confirmades de la relativitat general: deflexió de la llum per masses (confirmada 1919), dilatació gravitacional del temps (rellotges en camps gravitatoris menors van més de pressa — confirmat amb satèl·lits), desplaçament al roig gravitacional (la llum perd energia en sortir d'un camp gravitatori), precissió del periheli de Mercuri, i ones gravitacionals (LIGO, 2015)."
+            },
+            {
+              "type": "expandable",
+              "label": "LIGO i les ones gravitacionals: un segle d'espera",
+              "content": "Einstein va predir el 1916 que masses en acceleració haurien d'emetre ones gravitacionals — ondulacions de l'espaitemps que es propaguen a la velocitat de la llum. La seva magnitud seria ínfima: per a dos forats negres fusionant-se, l'espaitemps es distorsionaria en una proporció de 10⁻²¹ — menys d'una mil·lèsima del diàmetre d'un protó per km. Einstein creia que mai serien detectable. El 14 de setembre de 2015, l'observatori LIGO (dos braços de 4 km en L) va detectar la fusió de dos forats negres a 1.300 milions d'anys llum, amb una distorsió de l'espaitemps de 10⁻²¹. La fase de la senyal va coincidir exactament amb la predicció de la relativitat general. El Nobel de Física de 2017 va reconèixer la detecció."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rg-02-01",
+              "style": "multiple-choice",
+              "question": "Els rellotges dels satèl·lits GPS van més de pressa que els terrestres per l'efecte gravitacional (menys gravetat a l'altitud). Si no es corregiria, quina seria la conseqüència pràctica?",
+              "options": [
+                "Cap: la diferència de temps és massa petita per afectar les mesures de posició",
+                "El GPS acumularia errors de ~11 km per dia a causa dels ~38 microsegons de desviació diària",
+                "El GPS funcionaria millor perquè els rellotges en òrbita son més precisos",
+                "Els receptors GPS s'apagarien automàticament al detectar l'anomalia temporal"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. 38 microsegons per dia × 30 cm/microsegon (resolució GPS) = ~11 km d'error acumulat per dia. En quatre dies, errors de 44 km. El GPS seria inútil per a la navegació. Totes les correccions relativistes (especial i general) estan programades en el software del sistema. El GPS és la prova diària que la relativitat general és correcta.",
+              "feedbackWrong": "38 microsegons per dia × velocitat de la llum (30 cm per nanosegon) = error de ~11 km per dia. El GPS seria completament inútil per a la navegació precisa sense les correccions relativistes. La relativitat general no és física abstracta: és enginyeria necessària."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rg-02-02",
+              "style": "true-false",
+              "question": "La relativitat general prediu que la llum es veu desviada el doble al passar prop del Sol del que prediria la mecànica newtoniana si la llum tingués massa.",
+              "correct": true,
+              "feedbackCorrect": "Cert. Newton prediu una deflexió de 0,87 arcsegons (si tractem la llum com si tingués massa). La relativitat general prediu 1,75 arcsegons — exactament el doble. La diferència ve del fet que la relativitat corba tant l'espai com el temps, mentre que Newton sols corbaria l'espai. Eddington va mesurar 1,75 arcsegons el 1919, confirmant Einstein i descartant la predicció newtoniana.",
+              "feedbackWrong": "Sí, és cert. Newton (si tractem la llum com si tingués massa) prediu 0,87 arcsegons. Einstein prediu 1,75 arcsegons. L'observació d'Eddington el 1919 va mesurar la deflexió predita per Einstein. La diferència és que Einstein corba l'espaitemps (espai i temps), Newton sols l'espai."
+            }
+          ]
+        },
+        {
+          "id": "gen-03",
+          "title": "Forats negres: on l'espaitemps deixa de ser suau",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Karl Schwarzschild va resoldre les equacions d'Einstein el 1916 — des del front de guerra rus — i va descobrir que per a masses suficientment concentrades, l'espaitemps es corba fins a crear una singularitat: una regió d'on res, ni la llum, no pot escapar. Einstein creia que aquest objecte no podia existir realment. Ara en sabem milions en la nostra galàxia."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un forat negre és una regió de l'espaitemps on la curvatura és tan extrema que l'horitzó d'events — la frontera des d'on res pot escapar — talla qualsevol camí cap a fora. La gravetat superficial és tan intensa que la velocitat d'escapament supera c. No és un buit: té massa, càrrega i moment angular mesurables des de fora."
+            },
+            {
+              "type": "expandable",
+              "label": "Foto d'un forat negre: el projecte Event Horizon Telescope",
+              "content": "El 2019, la col·laboració Event Horizon Telescope va publicar la primera imatge d'un forat negre: M87*, al centre de la galàxia M87, a 55 milions d'anys llum. La imatge mostra l'ombra del forat negre (zona fosca) i l'anell brillant d'acreció de gas calent al seu voltant. Per assolir la resolució necessària, el projecte va crear un radiotelectescopi virtual de la mida de la Terra, combinant observatoris de tot el món. La imatge coincideix exactament amb les prediccions de la relativitat general per a un forat negre d'uns 6.500 milions de masses solars. El 2022 es va publicar la imatge del forat negre central de la nostra galàxia: Sagittarius A*, de ~4 milions de masses solars."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rg-03-01",
+              "style": "multiple-choice",
+              "question": "Qué experimenta un observador distant quan veu un objecte caure cap a l'horitzó d'events d'un forat negre?",
+              "options": [
+                "Veu l'objecte accelerar i desaparèixer ràpidament a l'horitzó",
+                "Veu l'objecte alentir-se progressivament, tornar-se infinitament vermell i 'congelar-se' a l'horitzó sense mai creuar-lo",
+                "No veu res: l'objecte és invisible un cop entra a l'horitzó",
+                "Veu l'objecte explotar en arribar a l'horitzó"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La dilatació gravitacional del temps és extrema prop de l'horitzó. Pel observador distant, el rellotge de l'objecte que cau va cada cop més lent. La llum que emet es desplaça al roig progressivament (perd energia). L'objecte sembla congelar-se just a l'horitzó, tornant-se infinitament vermell i invisible — però mai el veiem creuar l'horitzó. Des del punt de vista de l'objecte que cau: creua l'horitzó en temps finit sense notar res especial (si el forat és prou gran).",
+              "feedbackWrong": "La dilatació gravitacional del temps fa que l'observador distant vegi el rellotge de l'objecte anar cada cop més lent a mesura que s'apropa a l'horitzó. L'objecte sembla congelar-se i tornar-se infinitament vermell. L'observador mai veu l'objecte creuar l'horitzó: des del seu punt de vista, l'objecte s'hi queda congelat per sempre."
+            },
+            {
+              "type": "debate",
+              "question": "La radiació de Hawking prediu que els forats negres s'evaporen lentament emeten radiació tèrmica. Però qué passa amb la informació dels objectes que han caigut al forat negre?",
+              "positionA": {
+                "label": "La informació es perd",
+                "argument": "La radiació de Hawking és tèrmica (aleatòria) i no conté informació sobre el que va caure. Si el forat negre s'evapora, la informació queda destruïda. Això viola el principi quàntic de la conservació de la informació, però potser la gravetat quàntica ho permet."
+              },
+              "positionB": {
+                "label": "La informació es conserva",
+                "argument": "La mecànica quàntica és fonamentalment reversible: la informació no es pot destruir. La radiació de Hawking ha de contenir codificada, d'alguna manera subtil, tota la informació del que va caure al forat negre. Entendre com és el repte central de la gravetat quàntica."
+              },
+              "reflection": "La paradoxa de la informació dels forats negres és un dels problemes oberts més importants de la física teòrica.",
+              "context": "Stephen Hawking va defensar la primera postura durant dècades i finalment va concedir la segona el 2004. El problema segueix sense resolució completa i és una de les motivacions principals per a la teoria de cordes i la gravetat quàntica de loops."
+            }
+          ]
+        },
+        {
+          "id": "gen-04",
+          "title": "Cosmologia: l'univers que s'expandeix",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1917, Einstein va aplicar les seves equacions a l'univers sencer. Les equacions predien que l'univers havia d'estar en expansió o contracció — no podia ser estàtic. Einstein no ho creia i va afegir una 'constant cosmologica' per forçar un univers estàtic. El 1929, Hubble va demostrar que les galàxies s'allunyen — l'univers s'expandeix. Einstein va dir que la constant cosmologica havia estat el seu 'error més gran'."
+            },
+            {
+              "type": "key-idea",
+              "text": "La relativitat general aplicada a escala còsmica prediu un univers dinàmic. L'observació confirma que l'univers s'expandeix des d'un estat inicial molt dens i calent (Big Bang, fa ~13.800 milions d'anys). La constant cosmologica (energia fosca) fa que l'expansió s'acceleri. El 68% del contingut de l'univers és energia fosca, el 27% matèria fosca, i sols el 5% és matèria ordinària."
+            },
+            {
+              "type": "expandable",
+              "label": "Matèria fosca: la evidència d'alguna cosa que no veiem",
+              "content": "Fritz Zwicky va observar el 1933 que les galàxies d'un cúmul s'estaven movent tan de pressa que haurien d'escapar del cúmul si la única gravetat fos la de la matèria visible. Havia de haver més massa invisible. El 1970s, Vera Rubin va observar que les estrelles als braços de les galàxies espirals giraven massa de pressa: la corba de rotació era plana on hauria de caure. La gravetat de la matèria visible no era suficient. Totes les proves apunten a que el 27% del contingut de l'univers és 'matèria fosca' — que ni emet ni absorbeix llum però sí té gravetat. Ni un sol candidat ha estat detectat directament. És el problema obert principal de la cosmologia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rg-04-01",
+              "style": "true-false",
+              "question": "El Big Bang és l'explosió d'una massa densa que va llançar matèria cap a un espai preexistent buit.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El Big Bang no és una explosió en un espai preexistent: és l'expansió de l'espaitemps mateix. No hi havia un 'lloc' on ocorregués: l'espaitemps (i el temps) comencen al Big Bang. La matèria no es va llançar cap a res: l'espai entre les partícules va créixer. Les galàxies no s'allunyen a través de l'espai: l'espai entre elles s'expandeix. La distinció és important: objectes que s'allunyen a través de l'espai no poden superar c, però l'expansió de l'espai no té límit de velocitat.",
+              "feedbackWrong": "El Big Bang no és una explosió en un espai preexistent. L'espaitemps (inclòs el temps) comença al Big Bang. No hi havia 'res' fora ni 'abans'. L'univers no s'expandeix en res: l'espai entre els objectes creix. Aquesta distinció elimina moltes preguntes aparentment raonables ('qué hi havia abans?' o 'cap on s'expandeix?')."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Història de l'Astronomia",
+              "moduleEmoji": "🏛️",
+              "concept": "Del geocentrisme al Big Bang: l'evolució de la cosmologia",
+              "text": "La cosmologia moderna — univers en expansió, Big Bang, matèria i energia fosca — és l'últim capítol d'una historia que va de Ptolemeu a Copèrnic a Newton a Einstein. Cada revolució ha desplaçat els humans d'una posició central: de centre del cosmos a un planeta ordinari d'una galàxia ordinària d'un univers que no té centre."
+            }
+          ]
+        },
+        {
+          "id": "gen-05",
+          "title": "Ones gravitacionals i el nou ull de l'univers",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant tota la historia de l'astronomia, hem observat l'univers amb llum — en els seus molts rangs electromagnètics. El 2015, vàrem obrir un ull completament nou: les ones gravitacionals. Per primera vegada, vàrem 'sentir' l'univers — la vibració de l'espaitemps causada per events catastròfics a bilions d'anys llum."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les ones gravitacionals son ondulacions de l'espaitemps generades per masses en acceleració (especialment masses compactes com forats negres o estrelles de neutrons). Viatgen a c, i la seva detecció requereix mesurar distorsions de l'espaitemps de l'ordre de 10⁻²¹ — menys d'una mil·lèsima del diàmetre d'un protó per kilòmetre de distància mesura. LIGO va assolir-ho el 2015."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rg-05-01",
+              "style": "multiple-choice",
+              "question": "Per qué la detecció d'ones gravitacionals obri una 'nova finestra' a l'univers, distinta de l'astronomia electromagnètica?",
+              "options": [
+                "Perquè les ones gravitacionals viatgen més de pressa que la llum i arriben primer",
+                "Perquè les ones gravitacionals travessen qualsevol material sense ser absorbides ni dispersades, revelant regions opaques a la llum (nuclis d'estrelles, Big Bang primerenc)",
+                "Perquè les ones gravitacionals permeten veure objectes a distàncies majors que la llum",
+                "Perquè LIGO és més sensible que qualsevol telescopi òptic o de ràdio"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les ones electromagnètiques (llum, ràdio, X) s'absorbeixen i disperssen per la matèria. El nucli d'una supernova és opac a la llum — però les ones gravitacionals el travessen sense pertorbació. L'univers primerenc (fins als 380.000 anys) és completament opac a la llum (plasma), però les ones gravitacionals produïdes al Big Bang podrien arribar-nos directament. L'astronomia de ones gravitacionals veu regions completament inaccessibles a la llum.",
+              "feedbackWrong": "Les ones gravitacionals no viatgen més de pressa que la llum: viatgen exactament a c. El seu avantatge és la penetració: no s'absorbeixen per la matèria. Poden revelar events en nuclis d'estrelles opaques, col·lisions de forats negres que no emeten llum significativa, i potencialment el Big Bang primerenc."
+            },
+            {
+              "type": "expandable",
+              "label": "Estreles de neutrons: la matèria més densa que podem estudiar",
+              "content": "Les estrelles de neutrons son el resultat del col·lapse del nucli d'estrelles massives en supernoves. Amb masses d'1-3 masses solars comprimides en una esfera de ~20 km de diàmetre, son objectes extremadament densos: una cullerada de material d'estrella de neutrons pesaria uns 1.000 milions de tones. La matèria interior és tan densa que els electrons i protons es combinen en neutrons: quasi tota la massa és neutrons comprimits. Algunes estrelles de neutrons giren centenars de vegades per segon (pulsars) i emeten feixos de ràdio puntuals com fars còsmics. La col·lisió de dues estrelles de neutrons (GW170817, 2017) va ser la primera font d'ones gravitacionals i llum detectada simultàniament — i va confirmar que les col·lisions d'estrelles de neutrons son el lloc de formació dels elements pesants (or, platí, urani)."
+            }
+          ]
+        },
+        {
+          "id": "gen-06",
+          "title": "Els límits de la relativitat general",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La relativitat general és una teoria extraordinàriament precisa i bella. Però té dos límits fonamentals: les seves equacions prediuen singularitats (dins dels forats negres, al Big Bang) on la teoria deixa de ser vàlida. I és incompatible amb la mecànica quàntica, l'altra gran teoria del segle XX. Unificar-les és el gran problema no resolt de la física teòrica."
+            },
+            {
+              "type": "key-idea",
+              "text": "La relativitat general falla a les singularitats (on la curvatura és infinita) i a escales de Planck (10⁻³⁵ m, 10⁻⁴³ s) on els efectes quàntics han de ser importants. La gravetat quàntica — una teoria que unifiqui la relativitat general i la mecànica quàntica — és el repte principal de la física teòrica. Candidats: teoria de cordes, gravetat quàntica de loops, i d'altres."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rg-06-01",
+              "style": "detect-error",
+              "statement": "La teoria de cordes és la solució acceptada al problema de la gravetat quàntica, confirmada per múltiples experiments al Gran Col·lisionador d'Hadrons.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta en dos punts fonamentals. Primer, la teoria de cordes no ha estat confirmada experimentalment: cap de les seves prediccions específiques (supersimetria, dimensions extres) ha estat detectada al LHC ni en cap altre experiment. Segon, no és 'la solució acceptada': és la candidata més desenvolupa i popular, però hi ha alternatives (gravetat quàntica de loops, entre d'altres) i cap d'elles ha assolit el consens de la comunitat. La teoria de cordes és una teoria especulativa molt intel·lectualment rica i molt matemàticament elaborada, però no és física experimental confirmada."
+            },
+            {
+              "type": "debate",
+              "question": "La teoria de cordes porta 50 anys de desenvolupament i milers de publicacions però cap predicció confirmada experimentalment. Segueix sent física o s'ha convertit en matemàtica especulativa?",
+              "positionA": {
+                "label": "Segueix essent física legítima",
+                "argument": "Les teories fonamentals triguen dècades a trobar la seva vèrificació experimental. Les dimensions extres prediuen efectes que sols son detectables a energies molt superiors al LHC actual. La teoria de cordes ha generat resultats matemàtics profunds (correspondència AdS/CFT) que s'usen en física de la matèria condensada i física nuclear. El temps no ha acabat."
+              },
+              "positionB": {
+                "label": "Ha superat el límit de ciència empírica",
+                "argument": "Una teoria que no fa prediccions falsables s'allunya del mètode científic. Popper exigiria prediccions que es poguessin testar. Desenes de milers de físics han dedicat carreres senceres a una teoria que potser no té connexió experimental possible. Els recursos i el talent podrien apuntar a problemes falsables."
+              },
+              "reflection": "Quan dura massa una teoria bella sense confirmació experimental per seguir essent 'física'?",
+              "context": "Lee Smolin i Peter Woit han criticat la teoria de cordes ('The Trouble with Physics', 'Not Even Wrong'). Els defensors (Witten, Susskind) argumenten la seva profunditat matemàtica i utilitat transversal. El debat segueix actiu."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Física de Partícules",
+              "moduleEmoji": "⚛️",
+              "concept": "El gravitó i la unificació de totes les forces",
+              "text": "El Model Estàndard descriu tres de les quatre forces fonamentals com a intercanvi de bosons (fotó per electromagnetisme, bosons W i Z per la força dèbil, gluons per la força forta). La gravetat, en relativitat general, és curvatura de l'espaitemps — no un intercanvi de partícules. La gravetat quàntica hauria de descriure la gravetat com un intercanvi del 'gravitó'. Però quantitzar la relativitat general ha resultat matemàticament molt més difícil que qualsevol altra força."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
