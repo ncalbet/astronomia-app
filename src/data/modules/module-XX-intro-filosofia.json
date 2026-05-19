@@ -1,0 +1,900 @@
+{
+  "id": "module-XX-intro-filosofia",
+  "title": "Introducció a la Filosofia",
+  "emoji": "🦉",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "les-grans-preguntes",
+      "title": "Les grans preguntes",
+      "icon": "❓",
+      "description": "Sis preguntes que la humanitat no ha resolt. Entren-hi.",
+      "style": "Temàtic · del simple al profund",
+      "lessons": [
+        {
+          "id": "fil-01",
+          "title": "Què és la filosofia?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 399 aC, un home de setanta anys va ser jutjat a Atenes per 'corrompre la joventut' i 'introduir nous déus'. El seu únic crim real era fer preguntes incòmodes. Es deia Sòcrates, i va preferir morir abans de deixar de filosofar. Per què algú pagaria amb la vida el dret a fer preguntes? Potser perquè les preguntes correctes ho canvien tot."
+            },
+            {
+              "type": "key-idea",
+              "text": "La filosofia no dona respostes definitives: entrena la capacitat de fer millors preguntes. Una pregunta ben formulada val més que cent respostes precipitades."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què els atenencs van condemnar a mort Sòcrates?",
+              "content": "Sòcrates no escrivia res: dialogava als carrers i mercats d'Atenes. El seu mètode — la maièutica — consistia a fer preguntes fins que l'interlocutor es contradeia a ell mateix. Polítics, generals i poetes, tots quedaven en evidència. En una democràcia ferida per la guerra i la derrota, un home que desacreditava públicament les autoritats era perillós. El judici tenia una sortida: l'exili. Sòcrates la va rebutjar. Fugir hauria significat acceptar que la filosofia era un delicte."
+            },
+            {
+              "type": "misconception",
+              "belief": "La filosofia és una cosa abstracta i inútil, desconnectada de la vida real.",
+              "reality": "Les preguntes filosòfiques estan al cor de les decisions més concretes: Quan és just obedeir una llei injusta? Qui mereix ser tractat com a igual? Fins on arriba la meva responsabilitat? Sense filosofia, responem aquestes preguntes per inèrcia o per moda.",
+              "why": "Perquè l'escola separa la filosofia de la vida quotidiana i la presenta com un catàleg de noms i dates, no com una pràctica activa."
+            },
+            {
+              "type": "comparison",
+              "title": "Ciència vs. filosofia",
+              "labelA": "Ciència",
+              "labelB": "Filosofia",
+              "items": [
+                { "label": "Mètode", "a": "Observació i experiment", "b": "Argument i anàlisi conceptual" },
+                { "label": "Preguntes", "a": "Com funciona el món?", "b": "Quin sentit té el món?" },
+                { "label": "Respostes", "a": "Verificables empíricament", "b": "Justificades racionalment" },
+                { "label": "Progrés", "a": "Acumulatiu i mesurable", "b": "En espiral: torna als problemes" }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-01-01",
+              "style": "multiple-choice",
+              "question": "El mètode socràtic consistia principalment a:",
+              "options": [
+                "Escriure tractats sistemàtics sobre la naturalesa de la realitat",
+                "Fer preguntes fins que l'interlocutor descobrís les contradiccions del seu propi pensament",
+                "Construir arguments matemàtics per demostrar veritats filosòfiques",
+                "Observar la natura per deduir principis morals"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La maièutica —terme grec per 'art de la llevadora'— no injectava idees sinó que ajudava l'altre a treure a la llum les que ja tenia, i a veure on eren inconsistents.",
+              "feedbackWrong": "Sòcrates no va escriure res, ni usava matemàtiques ni observació de la natura. El seu instrument era el diàleg: preguntes encadenades que revelaven contradiccions en el pensament de l'interlocutor."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-01-01",
+              "question": "La filosofia és útil en un món on ja tenim ciència per explicar la realitat?",
+              "options": [
+                "No — la ciència respon les preguntes importants; la filosofia és un residu del passat",
+                "Sí — la filosofia respon preguntes que la ciència no pot ni plantejar",
+                "Totes dues s'ocupen de coses diferents i cap no pot substituir l'altra"
+              ],
+              "correct": 2,
+              "explanation": "La ciència explica com funcionen les coses. Però 'com funciona' no respon 'si és just', 'si té sentit' o 'com hauria de ser'. La neurociència pot dir quines àrees del cervell s'activen quan decidim; no pot dir-nos si la decisió és correcta. La física descriu l'univers; no pot dir-nos si té sentit existir. La filosofia no competeix amb la ciència: s'ocupa del territori que la ciència deixa sense explorar. A l'inrevés tampoc: la filosofia no pot substituir l'experiment. Però les grans decisions científiques —sobre el que val la pena estudiar, sobre com s'han d'usar els resultats, sobre qui mereix accés— requereixen precisament pensament filosòfic. Stephen Hawking va dir que 'la filosofia ha mort'. Molts filòsofs van respondre que era una afirmació filosòfica feta sense arguments filosòfics."
+            }
+          ]
+        },
+        {
+          "id": "fil-02",
+          "title": "Podem conèixer la realitat?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Imagina't encadenat en una cova des del naixement, de cara a una paret. Darrere teu hi ha un foc que projecta ombres d'objectes que mai has vist directament. Per tu, les ombres són la realitat. Plató va proposar aquesta metàfora fa 2.400 anys per preguntar: i si nosaltres som els encadenats? I si el que veiem no és la realitat, sinó tan sols la seva ombra?"
+            },
+            {
+              "type": "key-idea",
+              "text": "L'epistemologia és la branca de la filosofia que estudia el coneixement: Què podem saber? Com ho sabem? Amb quina certesa? Tres preguntes que resulten ser profundament difícils."
+            },
+            {
+              "type": "expandable",
+              "label": "L'al·legoria de la caverna de Plató — i per què encara importa",
+              "content": "Plató distingia dos móns: el món sensible (el que percebem amb els sentits, canviant i imperfecte) i el món de les Idees (el que captem amb la raó, etern i perfecte). La caverna representa el món sensible. Sortir de la caverna és accedir al coneixement real a través de la filosofia. Avui la metàfora ressona en debats molt concrets: fins a quin punt els nostres biaixos cognitius ens impedeixen veure la realitat? Les xarxes socials creen 'cavernes' personalitzades? La neurociència moderna confirma que el cervell construeix activament la percepció — no la rep passivament. Plató no ho podia saber, però intuïa alguna cosa fonamental."
+            },
+            {
+              "type": "prediction",
+              "question": "Descartes volia trobar alguna cosa de la qual fos absolutament impossible dubtar. Creus que tal cosa existeix?",
+              "hint": "Pots dubtar de tot el que perceps pels sentits. Però pots dubtar que estàs dubtant?"
+            },
+            {
+              "type": "narrative",
+              "text": "Descartes va decidir destruir totes les seves creences per veure quines podien resistir un dubte radical. Va imaginar un 'geni maligne' prou poderós per fer-li creure falses totes les seves percepcions. Va descobrir que podia dubtar de tot... menys d'una cosa: que estava dubtant. I per dubtar, havia de pensar. I per pensar, havia d'existir. D'aquí: 'Cogito, ergo sum' — Penso, per tant existeixo."
+            },
+            {
+              "type": "quote",
+              "text": "Penso, per tant existeixo.",
+              "author": "René Descartes, Discurs del mètode (1637)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-02-01",
+              "style": "true-false",
+              "question": "Descartes va concloure que els sentits són una font fiable de coneixement perquè Déu no permetria que ens enganyessin.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. El punt de partida de Descartes és precisament el contrari: els sentits poden enganyar-nos (somnis, il·lusions). El 'cogito' és l'única certesa que resisteix el dubte radical, no les percepcions sensorials.",
+              "feedbackWrong": "Descartes comença amb el dubte radical, no amb la confiança en els sentits. La certesa indubtable que troba no és el món exterior sinó la seva pròpia existència com a subjecte pensant. El món exterior el reconstrueix posteriorment, i amb moltes cauteles filosòfiques."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-02-02",
+              "style": "multiple-choice",
+              "question": "Quin és el problema central de l'al·legoria de la caverna de Plató?",
+              "options": [
+                "Demostrar que el coneixement matemàtic és superior al filosòfic",
+                "Mostrar que la democràcia atenesa era injusta amb els filòsofs",
+                "Il·lustrar que els humans podríem confondre sistemàticament les aparences amb la realitat",
+                "Explicar per què Sòcrates va ser condemnat a mort"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La caverna és una metàfora epistemològica: l'encadenament representa la nostra dependència de les percepcions sensorials, que ens mostrarien tan sols ombres (aparences) d'una realitat que la raó filosòfica pot copsar millor.",
+              "feedbackWrong": "L'al·legoria va molt més enllà de la política atenesa o de les matemàtiques. La pregunta central és sobre el coneixement: estem en condicions de conèixer la realitat tal com és, o viure encadenats a les aparences és la condició humana per defecte?"
+            },
+            {
+              "type": "debate",
+              "question": "El coneixement prové principalment de la raó o de l'experiència?",
+              "positionA": {
+                "label": "Racionalisme",
+                "argument": "La raó és la font del coneixement veritable. Els sentits ens enganyen constantment (els bastons semblen corbats a l'aigua, el sol sembla girar al voltant de la Terra). Només la raó —independent de l'experiència— pot assolir veritats universals i necessàries, com les matemàtiques."
+              },
+              "positionB": {
+                "label": "Empirisme",
+                "argument": "Tot el que sabem prové de l'experiència. La ment en néixer és una pissarra en blanc. Les matemàtiques mateixes les aprenem per abstracció de l'experiència concreta. Sense observació del món, la raó no té material amb què treballar."
+              },
+              "reflection": "Considera: les veritats matemàtiques ('2+2=4') semblen independents de l'experiència. Però el concepte de 'número' l'hem après comptant coses reals. On situes la frontera?",
+              "context": "Descartes i Leibniz eren racionalistes; Locke, Berkeley i Hume eren empiristes. Kant va intentar sintetitzar les dues tradicions: hi ha estructures innates de la ment (raó) que organitzen les dades dels sentits (experiència). Cap de les dues posicions sola resol el problema."
+            }
+          ]
+        },
+        {
+          "id": "fil-03",
+          "title": "Existim lliurement?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si l'univers segueix lleis físiques fixes, i el teu cervell és part de l'univers, les teves decisions podrien ser tan predeterminades com la trajectòria d'una pedra que cau. La neurociència afegeix pressió: els experiments de Benjamin Libet dels anys 80 suggereixen que el cervell prepara un moviment voluntari entre 300 i 500 millisegons ABANS que siguem conscients de voler-lo fer. Qui decideix, doncs?"
+            },
+            {
+              "type": "key-idea",
+              "text": "El problema del lliure albir pregunta si les nostres accions podrien haver estat diferents. El determinisme sosté que no: donats els mateixos antecedents, el resultat sempre seria el mateix. El compatibilisme intenta salvar la llibertat fins i tot acceptant el determinisme."
+            },
+            {
+              "type": "expandable",
+              "label": "Què va mostrar realment l'experiment de Libet — i on fallen les interpretacions populars",
+              "content": "Benjamin Libet demanava als subjectes que movessin el canell quan volguessin i anotessin en quin moment del rellotge havien decidit moure'l. L'EEG mostrava activitat cerebral (el 'readiness potential') 550ms abans del moviment, però la consciència de la decisió apareixia tan sols 200ms abans. La conclusió popular: el cervell decideix abans que la ment conscient. Però hi ha problemes seriosos: Libet mateix va notar que els subjectes podien 'vetar' el moviment en els últims 200ms — la voluntat conscient, si no pot iniciar, potser sí que pot aturar. A més, el readiness potential podria ser preparació general per a l'acció, no una decisió específica. L'experiment és fascinant però no és la bala de plata contra el lliure albir que sovint es presenta."
+            },
+            {
+              "type": "prediction",
+              "question": "Si es demostrés definitivament que el lliure albir no existeix, hauria de canviar el sistema de justícia penal?",
+              "hint": "Pensa per què castiguem algú. És pel que va fer? Per dissuadir els altres? Per protegir la societat? Alguna d'aquestes raons requereix lliure albir?"
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "s. IV aC", "title": "Aristòtil: l'acció voluntària", "text": "Distingeix accions voluntàries (originades en nosaltres, amb coneixement) d'involuntàries. Base de la responsabilitat moral." },
+                { "year": "s. XVII", "title": "Spinoza: tot és necessari", "text": "Déu i la natura són el mateix. Tot el que passa és necessari. La llibertat humana és una il·lusió nascuda de la ignorància de les causes." },
+                { "year": "s. XVIII", "title": "Kant: la llibertat és un postulat moral", "text": "No podem provar el lliure albir, però hem de pressuposar-lo per donar sentit a la moralitat. Sense llibertat, cap acte no seria ni bo ni dolent." },
+                { "year": "1983", "title": "Libet: el cervell s'avança a la consciència", "text": "Experiments amb EEG suggereixen que el cervell 'decideix' moure's abans que siguem conscients de voler fer-ho. El debat científic i filosòfic s'accentua." },
+                { "year": "Avui", "title": "Compatibilisme dominant en filosofia analítica", "text": "La majoria de filòsofs actuals defensen que la llibertat és compatible amb el determinisme: ser lliure significa actuar segons els propis desitjos i raons, no estar al marge de la causalitat." }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-03-01",
+              "style": "detect-error",
+              "statement": "El compatibilisme sosté que el lliure albir no existeix perquè totes les accions estan determinades per causes anteriors.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és atribuir al compatibilisme la negació del lliure albir. Passa exactament a l'inrevés: el compatibilisme accepta que les accions tenen causes, però argumenta que això és compatible amb la llibertat. Per al compatibilisme, ets lliure quan actues per les teves pròpies raons i desitjos, no quan actues sota coacció externa o compulsió. L'incompatibilisme és la posició que diu que determinisme i llibertat no poden coexistir."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-03-01",
+              "question": "Si el lliure albir fos una il·lusió, caldria abolir el sistema de justícia retributiva (càstigs proporcionals al delicte)?",
+              "options": [
+                "Sí — sense lliure albir no hi ha culpa real, i castigar algú per allò que no podia evitar és injust",
+                "No — el sistema de justícia no depèn del lliure albir sinó de la necessitat de protegir la societat i dissuadir",
+                "Dependria del tipus de delicte: alguns mantindrien el càstig, d'altres passarien a un model rehabilitador pur"
+              ],
+              "correct": 1,
+              "explanation": "Aquesta és una de les preguntes on la filosofia toca la política criminal de manera molt concreta. La justícia retributiva (castigar perquè el delinqüent 'ho mereix') requereix llibertat: si no podia fer una altra cosa, el càstig sembla cruel. Però la justícia consequencialista (castigar per reduir el crim futur) no en depèn: fins i tot en un univers determinista, amenaçar amb penes canvia les probabilitats d'acció perquè les amenaces formen part de les causes del comportament. Daniel Dennett, un dels filòsofs del lliure albir més influents, argumenta que podem mantenir la responsabilitat moral sense un lliure albir 'màgic', simplement reconeixent que som el tipus de sistema que aprèn, que pot ser influenciat per raons i que reacciona de manera diferent davant d'incentius. El que sí sembla clar és que la neurociència hauria de forçar una major atenció als contextos —pobresa, trauma, malaltia mental— que redueixen genuïnament la capacitat d'actuar d'una altra manera."
+            }
+          ]
+        },
+        {
+          "id": "fil-04",
+          "title": "Quin és el fonament de la moral?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Un tren desbocat es dirigeix cap a cinc persones. Pots desviar-lo a una via on hi ha una sola persona. Desvies? I si per salvar les cinc haguessis d'empènyer algú des d'un pont? Per qué la majoria respon diferent a les dues preguntes? El problema del tramvia no és una joguina acadèmica. Conductors de vehicles autònoms, cirurgians en dilemes de triage, polítics en guerres: tots han de respondre preguntes semblants."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les tres grans tradicions ètiques: el consequencialisme jutja les accions pels seus resultats; la deontologia les jutja per si respecten principis i drets; l'ètica de la virtut pregunta quin tipus de persona ets, no només què fas."
+            },
+            {
+              "type": "comparison",
+              "title": "Tres tradicions ètiques",
+              "labelA": "Consequencialisme (Mill)",
+              "labelB": "Deontologia (Kant)",
+              "items": [
+                { "label": "Pregunta clau", "a": "Quins efectes tindrà?", "b": "És el tipus d'acció correcte?" },
+                { "label": "Fonament", "a": "Maximitzar el benestar", "b": "El deure i la llei moral" },
+                { "label": "Sobre mentir", "a": "Depèn: si salva vides, pot ser bo", "b": "Mai: és sempre incorrecte" },
+                { "label": "Problema", "a": "Pot justificar injustícies si el còmput és positiu", "b": "Pot ser rígid davant dilemes extrems" }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "L'imperatiu categòric de Kant — la idea filosòfica que va canviar l'ètica",
+              "content": "Kant proposava que una acció és moralment correcta si la màxima que la guia pot ser universalitzada sense contradicció. Exemple: 'Faré promeses falses quan em convingui.' Si tothom ho fés, la institució de la promesa desapareixeria i la màxima es destruiria a ella mateixa. Per tant, és incorrecte. La segona formulació és potser més potent: 'Tracta totes les persones sempre com a fins en si mateixes, mai tan sols com a mitjans.' Això prohibeix usar les persones com a instruments — fins i tot per a bons fins. És la base filosòfica dels drets humans: una persona no pot ser sacrificada ni torturada, ni que sigui per salvar-ne mil."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'ètica és subjectiva: cada persona o cultura té la seva moral i totes valen el mateix.",
+              "reality": "El relativisme moral és ell mateix una posició filosòfica que requereix arguments. El fet que les cultures discrepen no implica que totes tinguin raó: també discrepaven sobre si la Terra era plana. Alguns principis morals —com la prohibició de la tortura arbitrària— semblen defensables amb raons que transcendeixen la cultura d'origen.",
+              "why": "Perquè confusament equiparem diversitat cultural (un fet) amb equivalència moral (una valoració). Reconèixer que hi ha diversitat no ens obliga a concloure que totes les posicions morals són igualment defensables."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-04-01",
+              "style": "multiple-choice",
+              "question": "Segons la deontologia kantiana, és moralment permès mentir a un assassí que et pregunta on s'amaga la seva víctima?",
+              "options": [
+                "Sí, perquè les conseqüències (salvar una vida) justifiquen l'excepció",
+                "No, perquè mentir viola un deure moral absolut independentment de les conseqüències",
+                "Sí, però només si no hi ha cap altra opció disponible",
+                "Depèn de les circumstàncies específiques del cas"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte, i és una posició molt incòmoda. Kant argumentava que el deure de no mentir és absolut. La seva raó: si et permets excepcions quan les conseqüències ho semblen justificar, la màxima moral es torna arbitrària. Kant preferia assumir la rigidesa que obrir la porta a racionalitzacions interessades.",
+              "feedbackWrong": "Un consequencialista respondria el que has triat. Però la posició deontològica kantiana és la contraintuitiva: el deure moral de no mentir és absolut. Kant ho va argumentar explícitament en un assaig famós ('Sobre un suposat dret de mentir per amor a la humanitat', 1797). La majoria de filòsofs actuals troben aquesta rigidesa excessiva."
+            },
+            {
+              "type": "debate",
+              "question": "Per salvar cinc persones a les quals no s'ha donat cap oportunitat de consentir, és justificat sacrificar-ne una que tampoc ha consentit?",
+              "positionA": {
+                "label": "Sí — el còmput imposa",
+                "argument": "Cinc vides valen més que una. No actuar quan pots salvar cinc és moralment equivalent a matar-les. Si la teva inacció produeix un resultat pitjor, ets responsable d'aquell resultat. La moralitat ha d'atendre el benestar total de les persones afectades."
+              },
+              "positionB": {
+                "label": "No — les persones no són mitjans",
+                "argument": "Usar una persona com a instrument per salvar altres, sense el seu consentiment, viola la seva dignitat de manera fonamental. Acceptar aquest principi obre la porta a justificar qualsevol atrocitat si el còmput numèric és favorable. Alguns actes són incorrectes independentment del resultat."
+              },
+              "reflection": "Fixa't que la majoria de persones desviarien el tramvia però no empenyerien algú des d'un pont per aturar-lo. Ambdues accions produeixen el mateix resultat: 1 mort per salvar-ne 5. Per qué les sentim diferent?",
+              "context": "Judith Jarvis Thomson i Philippa Foot van dissenyar els dilemes del tramvia per explorar exactament aquesta asimetria. La psicologia moral (Haidt, Greene) suggereix que la repugnància davant el contacte físic activa circuits emocionals que el desviar del tramvia no activa. Ambdues reaccions podrien ser igualment 'racionalitzables', però les seves arrels psicològiques són molt diferents."
+            }
+          ]
+        },
+        {
+          "id": "fil-05",
+          "title": "Té sentit la vida?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "L'univers té uns 13.800 milions d'anys. La Terra, uns 4.500 milions. Els humans existim com a espècie des de fa uns 300.000 anys. Un individu viu potser 80. En l'escala còsmica, som un parpelleig imperceptible. I en aquest parpelleig, ens preguntem: per a qué? La pregunta sobre el sentit de la vida és potser la més antiga i la més personal de tota la filosofia."
+            },
+            {
+              "type": "key-idea",
+              "text": "Hi ha tres posicions bàsiques: el nihilisme (la vida no té sentit objectiu), l'absurdisme (no té sentit però podem crear-ne malgrat tot) i les ètiquest del sentit (el sentit es construeix a través de relacions, projectes i valors). Cap de les tres és fàcil de sostenir."
+            },
+            {
+              "type": "quote",
+              "text": "Cal imaginar Sísif feliç.",
+              "author": "Albert Camus, El mite de Sísif (1942)"
+            },
+            {
+              "type": "expandable",
+              "label": "Camus i l'absurd: per qué la rebel·lió és la resposta correcta",
+              "content": "Sísif és condemnat pels déus a pujar una roca fins al cim d'una muntanya, des d'on caurà, eternament. Camus veu en ell una metàfora de la condició humana: cerquem sentit en un univers indiferent que no en dona. Aquesta fractura és l'absurd. Camus rebutja dues respostes fàcils: el suïcidi (rendició) i la fe religiosa (escapisme). Proposa una tercera: la rebel·lió. Viure plenament malgrat l'absurd, sense negar-lo ni sucumbir. 'Cal imaginar Sísif feliç' no és una broma: és l'afirmació que podem trobar significat en l'acte de viure, no en un propòsit extern que mai arribarà."
+            },
+            {
+              "type": "expandable",
+              "label": "Viktor Frankl al camp de concentració: el sentit com a condició de supervivència",
+              "content": "Viktor Frankl era psiquiatre quan va arribar a Auschwitz. Va observar que els qui sobrevivien no eren necessàriament els més forts físicament, sinó els qui mantenien un sentit de propòsit: acabar un llibre, retrobar un fill, testimoniar. Va desenvolupar la logoteràpia —teràpia a través del sentit— basant-se en aquesta experiència límit. La seva conclusió: l'ésser humà pot suportar gairebé qualsevol 'com' si té un 'per a qué'. Frankl discrepava del nihilisme però no proposava un sentit universal: el sentit és sempre personal i situacional."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en un moment de la teva vida en el qual tot tenia sentit, i en un altre en el qual semblava que no en tenia cap. Qué era diferent? Eren les circumstàncies, o alguna cosa interior?",
+              "prompt": "No cal que escriguis res. Però val la pena parar un moment."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-05-01",
+              "style": "multiple-choice",
+              "question": "L'absurdisme de Camus proposa que davant la falta de sentit objectiu de la vida, la resposta correcta és:",
+              "options": [
+                "Acceptar la fe religiosa com a font de sentit transcendent",
+                "Reconèixer que la vida no té sentit i actuar en conseqüència",
+                "Viure plenament i en rebel·lió contra l'absurd, sense negar-lo ni escapar-ne",
+                "Construir un sistema filosòfic que doni sentit racional a l'existència"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Camus anomena 'salt filosòfic' el recurs a la fe, i el rebutja com una evasió. El suïcidi és rendició. La resposta autèntica és la rebel·lió: assumir l'absurd i viure amb tota la intensitat possible malgrat —o precisament a causa de— la seva presència.",
+              "feedbackWrong": "Camus és explícit en rebutjar tant la fe (que anomena 'salt filosòfic', una evasió) com la rendició (suïcidi). La seva proposta és incòmoda però afirmativa: viure plenament assumint que no hi ha sentit extern, i trobar significat en l'acte de rebel·lió davant d'aquesta condició."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "El problema de la demarcació",
+              "text": "La pregunta 'té sentit la vida?' no és verificable ni falsificable. Karl Popper diria que és una pregunta metafísica, fora de l'àmbit de la ciència. Però fora de la ciència no significa fora de la raó: la filosofia pot tractar preguntes que la ciència no pot ni formular."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-05-01",
+              "question": "El sentit de la vida és quelcom que es troba o quelcom que es construeix?",
+              "options": [
+                "Es troba — hi ha un propòsit objectiu en l'existència humana que podem descobrir",
+                "Es construeix — cada persona crea el seu propi sentit a través de les seves decisions i projectes",
+                "La distinció no importa: el que compta és si el sentit que tenim és genuí i sosté la vida"
+              ],
+              "correct": 2,
+              "explanation": "La dicotomia 'trobar vs. construir' sembla profunda però potser és menys decisiva del que sembla. Susan Wolf, filòsofa nord-americana, argumenta que una vida té sentit quan s'implica activament en projectes que són objectivament valuosos. Ni purament subjectiu (qualsevol cosa que t'importi compta) ni purament objectiu (hi ha un propòsit fix que et tocarà o no tocar). El sentit sorgeix en la intersecció entre el que t'importa profundament i el que té valor real al món. Viktor Frankl, des de l'experiència dels camps de concentració, afegiria que el sentit és sempre situacional: no hi ha una resposta universal, però sempre hi ha una resposta possible en cada circumstància concreta. El que sí sembla clar és que les persones que viuen amb sentit presenten major resiliència, benestar i capacitat d'afrontar l'adversitat — independentment de si aquell sentit és 'trobat' o 'construït'."
+            }
+          ]
+        },
+        {
+          "id": "fil-06",
+          "title": "Qui té el poder i per qué?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hobbes imaginava la vida humana sense estat com 'solitària, pobra, desagradable, brutal i breu'. Rousseau, al contrari, creia que la civilització havia corromput un ésser naturalment bon. Dos diagnòstics oposats del problema humà, dues teories radicalment distintes de per qué necessitem (o no) el poder polític. I les dues continuen informant el debat polític actual."
+            },
+            {
+              "type": "key-idea",
+              "text": "La filosofia política pregunta per qué l'autoritat política és legítima — si és que ho és. Les tres respostes clàssiques: el contracte social (la legitimitat ve del consens), el dret diví o natural (ve d'una ordre superior) i la força (el poder crea la seva pròpia legitimitat)."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "s. IV aC", "title": "Plató: La República", "text": "L'estat just és governat pels filòsofs-reis, els únics que coneixen el Bé. La democràcia és una forma degenerada de govern: el govern dels ignorants." },
+                { "year": "s. IV aC", "title": "Aristòtil: La Política", "text": "L'home és un 'animal polític': la polis és natural, no un artifici. El millor govern depèn del context; la politeía (democràcia moderada) és normalment el menys dolent." },
+                { "year": "1651", "title": "Hobbes: Leviatan", "text": "Sense estat, la vida és una guerra de tots contra tots. El contracte social cedeix poder absolut al sobirà a canvi de seguretat." },
+                { "year": "1762", "title": "Rousseau: El contracte social", "text": "La sobirania resideix en la voluntat general del poble. Les institucions corrompudes han d'alinear-se amb la llibertat natural." },
+                { "year": "1971", "title": "Rawls: Una teoria de la justícia", "text": "Principis justos són els que triaríem darrere d'un 'vel d'ignorància', sense saber quin lloc ocuparíem a la societat." }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El vel d'ignorança de Rawls — l'experiment mental més influent del segle XX en filosofia política",
+              "content": "John Rawls proposa imaginar que hem de dissenyar les regles d'una societat sense saber quin lloc hi ocuparem: si serem rics o pobres, sans o malalts, homes o dones, de quina ètnia o religió. Darrere d'aquest 'vel d'ignorança', triaríem principis que protegissin els pitjor situats — perquè podria ser-ho nosaltres. Rawls conclou que triaríem: (1) màximes llibertats iguals per a tothom, i (2) que les desigualtats econòmiques tan sols siguin permeses si beneficien els membres més desavantatjats. El vel d'ignorança és una eina per eliminar el biaix de l'interès propi del raonament polític. Ha estat criticat per assumir una concepció massa individualista de la persona i per no tenir en compte les identitats culturals i comunitàries."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-06-01",
+              "style": "multiple-choice",
+              "question": "La teoria del contracte social de Hobbes i la de Rousseau difereixen principalment en:",
+              "options": [
+                "El mètode filosòfic: Hobbes usa la deducció, Rousseau l'observació empírica",
+                "La visió de l'estat natural humà: per Hobbes és violenta i perillosa, per Rousseau és pacífica i bona",
+                "La utilitat del contracte: Hobbes el creu innecessari, Rousseau imprescindible",
+                "L'origen: Hobbes beu dels grecs, Rousseau dels il·lustrats anglesos"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Aquesta diferència de diagnòstic té conseqüències polítiques enormes. Si la naturalesa humana és intrínsecament conflictiva (Hobbes), necessitem un estat fort que contengui la violència. Si és bona però ha estat corrompuda per les institucions (Rousseau), la prioritat és reformar o eliminar institucions injustes.",
+              "feedbackWrong": "Ambdós usen la deducció racional i ambdós consideren el contracte social necessari. La diferència clau és el punt de partida: la visió de com eren (o serien) els humans sense estat. Aquesta premissa canvia completament les conclusions polítiques."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-06-02",
+              "style": "true-false",
+              "question": "Plató defenia la democràcia com el millor sistema de govern a La República.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. Plató era un crític sever de la democràcia. Argumentava que governar bé requereix coneixement del Bé — i la majoria de la gent no el té. La democràcia era per a ell el govern dels ignorants, susceptible de derivar en demagogia i tirania.",
+              "feedbackWrong": "Plató era un crític profund de la democràcia, en part perquè va veure com la democràcia atenesa va condemnar a mort el seu mestre Sòcrates. A La República defensa el govern dels filòsofs-reis: els únics que, havent sortit de la caverna, coneixen el Bé i podrien governar justament."
+            },
+            {
+              "type": "debate",
+              "question": "És legítim desobeir lleis injustes?",
+              "positionA": {
+                "label": "Sí — hi ha un deure moral de desobeir",
+                "argument": "Una llei injusta no és una llei en el sentit moral del terme. Si el sistema legal es fa còmplice d'una injustícia greu, obeir-lo és participar-hi. La desobediència civil no-violenta —Gandhi, King— ha estat històricament l'única via efectiva per canviar injustícies que el sistema no corrigia per si sol."
+              },
+              "positionB": {
+                "label": "No — la llei és la llei",
+                "argument": "Si cada individu es reserva el dret de decidir quines lleis respecta, el sistema legal col·lapsa. La democràcia preveu canals legítims per canviar lleis injustes: el vot, la protesta, el contenciós judicial. Usar la desobediència com a drecera és privilegiar el propi judici moral per sobre del consens col·lectiu."
+              },
+              "reflection": "Pensa en un cas concret d'història recent. La desobediència era clarament justificada o era una racionalització d'interessos particulars? Com es pot distingir?",
+              "context": "Thoreau ('Desobediència civil', 1849), Gandhi i Martin Luther King van teoritzar i practicar la desobediència civil. Rawls la considera legítima en democràcies raonablement justes, com a apel·lació pública i no-violenta al sentit de justícia de la majoria. La clau és la publicitat: l'acte ha de ser obert, assumint les conseqüències legals, per distingir-se de la simple il·legalitat interessada."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Teoria de Jocs",
+              "moduleEmoji": "♟️",
+              "concept": "El dilema del presoner",
+              "text": "El problema de Hobbes —per qué cooperem quan la traïció pot ser racionalment avantatjosa— és exactament el dilema del presoner. La teoria de jocs formalitza allò que Hobbes intuïa: la cooperació estable requereix mecanismes que penalitzin la deserció i facin la traïció costosa. L'estat, en certa mesura, és la solució institucional al dilema del presoner a escala social."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-06-01",
+              "question": "Quin principi hauria de guiar la distribució de riquesa en una societat justa?",
+              "options": [
+                "La igualtat estricta: tothom rep el mateix, independentment del seu esforç o contribució",
+                "El mèrit: cadascú rep en proporció al que aporta a la societat",
+                "La prioritat als pitjor situats: les desigualtats tan sols es justifiquen si beneficien els membres més vulnerables"
+              ],
+              "correct": 2,
+              "explanation": "Cap de les tres respostes és òbviament incorrecta, i cada una capta una intuïció moral genuïna. La igualtat estricta respon a la intuïció que totes les persones valen el mateix; el problema és que ignora diferències de necessitat i pot desmotivar la contribució. El mèrit captura la intuïció que l'esforç ha de tenir recompensa; el problema és que les condicions de partida (família, salut, lloc de naixement) no es trien i fan que el 'mèrit' sigui parcialment il·lusori. Rawls proposa el principi de diferència: les desigualtats són justes si —i tan sols si— milloren la situació dels membres pitjor situats de la societat. No és la igualtat ni el mèrit, sinó la millora dels de baix com a condició de la desigualtat dels de dalt. La seva defensa clau: darrere del vel d'ignorança, una persona racional triaria protegir la seva posició en el pitjor escenari, que és exactament el principi de diferència. Nozick, rival de Rawls, contraargumenta: si les desigualtats resulten de transaccions voluntàries i justes, redistribuir-les és una violació de la llibertat, per molt bones que siguin les intencions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "els-grans-filosofs",
+      "title": "Els grans filòsofs",
+      "icon": "🏛️",
+      "description": "De Sòcrates a Nietzsche: les ments que van canviar com pensem.",
+      "style": "Cronològic · de figura en figura",
+      "lessons": [
+        {
+          "id": "fil-b-01",
+          "title": "Sòcrates: saber que no saps res",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Atenes, 399 aC. Un home de setanta anys, lletg i descalç, és jutjat davant de cinc-cents ciutadans. No té advocat. No demana clemència. Quan el jurat li ofereix l'exili com a alternativa a la mort, respon que preferiria morir que deixar de filosofar. Sòcrates no va escriure res. Tota la seva obra la coneixem a través d'altri. I malgrat això —o potser per això— és el filòsof més influent de la història occidental."
+            },
+            {
+              "type": "key-idea",
+              "text": "Sòcrates va descobrir que la saviesa comença pel reconeixement de la pròpia ignorància. La maièutica —l'art de fer preguntes que ajuden l'interlocutor a parir les seves pròpies idees— és el seu llegat metodològic més durador."
+            },
+            {
+              "type": "expandable",
+              "label": "Com sabem el que sabem de Sòcrates si no va escriure res?",
+              "content": "Tenim tres fonts principals, cadascuna amb biaixos: els Diàlegs de Plató (el seu deixeble més famós, que probablement li atribueix moltes idees pròpies), els escrits de Xenofont (un general, menys filosòfic i probablement més fidel al Sòcrates quotidià) i Les núvols d'Aristòfanes (una comèdia que el ridiculitza com a sofista). El 'problema socràtic' —determinar quin Sòcrates és el real— és un dels debats clàssics de la historiografia filosòfica. El consens actual: el Sòcrates dels diàlegs primerencs de Plató (Apologia, Críton, Eutifrón) és probablement el més fidel; el dels diàlegs madurs (La República) és ja sobretot Plató parlant per la seva boca."
+            },
+            {
+              "type": "quote",
+              "text": "Només sé que no sé res.",
+              "author": "Atribuït a Sòcrates (via Plató, Apologia)"
+            },
+            {
+              "type": "misconception",
+              "belief": "Els sofistes i Sòcrates eren essencialment el mateix: filòsofs que ensenyaven a argumentar per guanyar debats.",
+              "reality": "Sòcrates odiava els sofistes i aquests el corresponien. La diferència clau: els sofistes cobraven per ensenyar a persuadir, independentment de la veritat. Sòcrates buscava la veritat i no cobrava res. Per als sofistes, la retòrica era un fi; per a Sòcrates, era un instrument al servei del coneixement.",
+              "why": "Perquè Aristòfanes va retratar Sòcrates com un sofista a Les núvols, i aquesta confusió va contribuir a la seva condemna. La caricatura va ser tan efectiva que va costar-li la vida."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-01-01",
+              "style": "multiple-choice",
+              "question": "Per qué Sòcrates es considerava a si mateix diferent d'un sofista?",
+              "options": [
+                "Perquè Sòcrates era ciutadà atenès i els sofistes eren estrangers",
+                "Perquè Sòcrates buscava la veritat sense cobrar, mentre els sofistes cobraven per ensenyar a persuadir",
+                "Perquè Sòcrates escrivia els seus arguments i els sofistes eren només oradors",
+                "Perquè Sòcrates tenia l'aprovació de l'oracle de Delfos i els sofistes no"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Per a Sòcrates, vendre l'art de persuadir sense importar la veritat era una corrupció intel·lectual i moral. El seu compromís amb la veritat —fins a la mort— era precisament el que el distingia dels sofistes professionals.",
+              "feedbackWrong": "Alguns sofistes eren atenesos, i Sòcrates sí que menciona l'oracle. Però la diferència essencial era de propòsit: els sofistes ensenyaven a guanyar arguments; Sòcrates volia trobar la veritat. I ho feia sense cobrar — cosa que els sofistes no feien mai."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-01-02",
+              "style": "detect-error",
+              "statement": "Sòcrates va escriure extenses obres filosòfiques que els seus deixebles van conservar i transmetre a la posteritat.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és afirmar que Sòcrates va escriure. No va escriure res. Tot el que sabem d'ell prové de tercers, principalment dels diàlegs del seu deixeble Plató i dels escrits de Xenofont. Aquesta absència d'obra pròpia fa del 'problema socràtic' —determinar quines idees eren realment seves— un dels reptes clàssics de la història de la filosofia."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-b-01-01",
+              "question": "Sòcrates va afirmar que preferia morir que deixar de filosofar. Quin és el valor real d'aquest gest?",
+              "options": [
+                "Un acte d'arrogància: va sacrificar la seva vida per l'orgull de tenir raó",
+                "Una demostració coherent que les idees per les que vivim han de ser les mateixes per les que estem disposats a morir",
+                "Una estratègia calculada per convertir-se en màrtir i garantir la pervivència de la seva influència"
+              ],
+              "correct": 1,
+              "explanation": "La mort de Sòcrates ha estat interpretada de maneres molt diverses al llarg de la història. La lectura més estesa entre els filòsofs és la de la coherència: Sòcrates havia passat la vida argumentant que el bé de l'ànima és superior al bé del cos, que la veritat val més que la comoditat, i que una vida sense examen no val la pena viure-la. Acceptar l'exili hauria contradït tot allò. Morir era consistent. Plató el presenta clarament com un màrtir de la filosofia. Però hi ha lectures més crítiques: Nietzsche veia en la serenitat de Sòcrates davant la mort un signe de nihilisme encobert — un home que en el fons volia morir. Kierkegaard admirava la ironia socràtica però qüestionava si darrera hi havia fe o tan sols estètica intel·lectual. La pregunta sobre si la coherència fins a la mort és admirable o simplement rígida continua oberta."
+            }
+          ]
+        },
+        {
+          "id": "fil-b-02",
+          "title": "Plató: el món de les idees",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Plató tenia uns vint-i-cinc anys quan van executar Sòcrates. La impressió va ser tan profunda que va abandonar les seves ambicions polítiques i va dedicar la vida a la filosofia. La seva pregunta central: si el món que percebem canvia constantment —les persones envelleixen, les coses es trenquen, les opinions varien— on és la veritat permanent? La resposta que va construir va dominar el pensament occidental durant mil anys."
+            },
+            {
+              "type": "key-idea",
+              "text": "Per a Plató, existeixen dos móns: el món sensible (el que percebem, canviant i imperfecte) i el món de les Idees o Formes (el que captem amb la raó, etern i perfecte). Una cadira concreta envelleix i es trenca; la Idea de cadira és immutable. El coneixement veritable és el de les Idees, no el de les coses."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la teoria de les Idees va dominar la filosofia durant mil·lennis — i per qué Aristòtil la va rebutjar",
+              "content": "La teoria de les Idees resolia un problema real: com és possible que el coneixement matemàtic sigui necessari i universal ('2+2=4' és veritat en tot lloc i temps) si tot el que percebem és contingent i canviant? Plató responia: les veritats matemàtiques existeixen en el món de les Idees, que la raó pot captar independentment dels sentits. Això va seduir els filòsofs cristians medievals, que van identificar el món de les Idees amb la ment de Déu. Però Aristòtil, el millor deixeble de Plató, hi va trobar un problema fatal: si per explicar per qué totes les cadires s'assemblen necessitem la Idea de cadira, per explicar per qué les cadires i la Idea de cadira s'assemblen necessitaríem una tercera entitat... i així fins a l'infinit. Aristòtil va concloure que les formes no existeixen separades de les coses: existeixen en les coses mateixes."
+            },
+            {
+              "type": "prediction",
+              "question": "Plató creia que els filòsofs haurien de governar. Per qué? Creus que és una idea bona o perillosa?",
+              "hint": "Pensa: qui seria millor governant, algú que sap el que és just o algú que sap el que la gent vol sentir?"
+            },
+            {
+              "type": "comparison",
+              "title": "Plató vs. Aristòtil sobre el coneixement",
+              "labelA": "Plató",
+              "labelB": "Aristòtil",
+              "items": [
+                { "label": "On rau la veritat", "a": "En les Idees: eternes, separades del món", "b": "En les formes dins les coses concretes" },
+                { "label": "Mètode", "a": "Raó pura, independent dels sentits", "b": "Observació + raó combinades" },
+                { "label": "Política ideal", "a": "Govern dels filòsofs-reis", "b": "La millor constitució depèn del context" },
+                { "label": "L'ànima", "a": "Immortal, empresonada al cos", "b": "Forma del cos; no sobreviu sense ell" }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-02-01",
+              "style": "multiple-choice",
+              "question": "Quin problema intenta resoldre la teoria platònica de les Idees?",
+              "options": [
+                "Explicar per qué la democràcia és un sistema polític inferior",
+                "Fonamentar la possibilitat d'un coneixement veritable i universal en un món que canvia constantment",
+                "Demostrar que l'ànima és immortal i que la mort no és res a témer",
+                "Justificar per qué Sòcrates va actuar correctament en acceptar la mort"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El problema és epistemològic: si tot el que percebem canvia, com pot existir un coneixement estable? Plató resol que el coneixement veritable no és de les coses canviants sinó de les Idees immutables que la raó pot captar.",
+              "feedbackWrong": "Plató toca tots aquests temes, però la teoria de les Idees respon primer a un problema epistemològic fonamental: com és possible el coneixement veritable en un món canviant. Les aplicacions polítiques i metafísiques en deriven, però no en són el punt de partida."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-02-02",
+              "style": "true-false",
+              "question": "Aristòtil acceptava la teoria platònica de les Idees com a fonament del seu sistema filosòfic.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. Aristòtil va ser el crític més rigorós de la teoria de les Idees. El seu argument del 'tercer home' mostrava que postular Idees separades genera una regressió infinita. Va concloure que les formes no existeixen separades de les coses: existeixen en les coses concretes.",
+              "feedbackWrong": "Aristòtil va estudiar vint anys a l'Acadèmia de Plató però va construir un sistema filosòfic radicalment diferent. El seu argument del 'tercer home' és una de les crítiques més precises i demolidores de la teoria de les Idees en tota la història de la filosofia."
+            },
+            {
+              "type": "debate",
+              "question": "Hauria de governar qui sap el que és just, o qui ha estat triat pel poble?",
+              "positionA": {
+                "label": "El millor ha de governar",
+                "argument": "Govern és una competència com la medicina o l'enginyeria. Un pilot d'avió no és elegit per votació. Deixar que la majoria governi és deixar que els ignorants prenguin decisions que afecten tothom. El resultat és la demagògia: no triomfen els millors sinó els que saben complaure la multitud."
+              },
+              "positionB": {
+                "label": "El poble ha de triar",
+                "argument": "Qui determina qui és 'el millor'? En la pràctica, sempre ha estat el poderós qui ha decidit que ell mateix és el millor. La democràcia no pressuposa que tothom sigui igual d'intel·ligent, sinó que ningú té dret a imposar la seva visió als altres sense el seu consentiment. El control democràtic és la única protecció real contra l'abús."
+              },
+              "reflection": "Plató va veure la democràcia condemnar Sòcrates. Tu, quan has votat o no votat, ho has fet mogut per raons o per sentiment? Això canvia la teva resposta?",
+              "context": "El debat entre epistocracia (govern dels que saben) i democràcia és tan antic com la filosofia política i continua plenament viu. Jason Brennan ha revisat recentment la posició epistocrática en 'Against Democracy' (2016). La crítica demòcrata clàssica és de Dahl: cap criteri de competència és neutral, sempre afavoreix uns grups sobre d'altres."
+            }
+          ]
+        },
+        {
+          "id": "fil-b-03",
+          "title": "Aristòtil: la virtut i la polis",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Aristòtil va estudiar a l'Acadèmia de Plató durant vint anys. Quan Plató va morir, esperava dirigir-la — però el va succeir el nebot. Aristòtil va marxar i va fundar el seu propi centre, el Liceu. Era un observador meticulós: va classificar més de cinc-centes espècies d'animals, va fundar la lògica formal, va escriure sobre física, meteorologia, retòrica, poètica, política i ètica. La seva influència va ser tan total que durant l'edat mitjana el cridaven simplement 'El Filòsof'."
+            },
+            {
+              "type": "key-idea",
+              "text": "Per a Aristòtil, el fi últim de la vida humana és l'eudaimonia, sovint traduïda com 'felicitat' però millor entesa com 'florir' o 'vida plena'. No és un sentiment: és l'excel·lència en l'exercici de les capacitats específicament humanes, especialment la raó i la virtut."
+            },
+            {
+              "type": "expandable",
+              "label": "Eudaimonia no és felicitat — per qué la traducció importa",
+              "content": "Quan traduïm eudaimonia com 'felicitat', associem automàticament el concepte a un estat subjectiu agradable. Però per a Aristòtil, un home que passa la vida embriagat en un estat de plaer permanent no és feliç en el sentit de l'eudaimonia: no floreix. L'eudaimonia és una activitat, no un estat: consisteix a exercir bé les pròpies facultats al llarg d'una vida completa. Un atleta excel·lent que lesiona jove i no pot competir mai més no ha assolit l'eudaimonia. Un filòsof en el seu apogeu però amb una vida familiar desestructurada tampoc. L'eudaimonia és holística i diacrònica — afecta tota la vida, no un moment. Aristòtil s'hi anticipava al que la psicologia positiva contemporània anomena 'benestar eudaimònic' en contraposició al 'benestar hedònic'."
+            },
+            {
+              "type": "expandable",
+              "label": "La doctrina de la mesura justa — i per qué és més sofisticada del que sembla",
+              "content": "Aristòtil defineix la virtut com un terme mig entre dos extrems viciosos: el coratge és el mig entre la covardia i la temeritat; la generositat, entre l'avarícia i la prodigalitat. Però la mesura justa no és aritmètica: no és la mitjana entre dos números sinó 'el que és adequat per a cada persona en cada circumstància'. Un entrenador de natació que ensenya a un nen ha d'exigir menys que al preparar un olímpic. La virtut requereix phronesis —prudència pràctica—: la capacitat de llegir correctament cada situació i respondre adequadament. Això fa que l'ètica aristotèlica sigui impossible d'aplicar mecànicament: no hi ha un algoritme, cal desenvolupar el judici a través de la pràctica."
+            },
+            {
+              "type": "quote",
+              "text": "Som el que fem repetidament. L'excel·lència, doncs, no és un acte sinó un hàbit.",
+              "author": "Aristòtil, Ètica Nicomàquea"
+            },
+            {
+              "type": "misconception",
+              "belief": "Per a Aristòtil, la moral és un conjunt de regles que cal seguir per ser una bona persona.",
+              "reality": "Aristòtil no proposa regles sinó un procés de formació del caràcter. Les virtuts s'aprenen practicant-les: ets coratjós actuant amb coratge en situacions de por, no seguint una norma. La moral és més semblant a aprendre un ofici que a seguir instruccions.",
+              "why": "Perquè estem acostumats a pensar l'ètica com un sistema de normes (no menteixis, no robis) i projectem aquest esquema sobre Aristòtil, que pensava en termes de caràcter i pràctica, no de regles."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-03-01",
+              "style": "multiple-choice",
+              "question": "Aristòtil argumentava que les virtuts morals s'adquireixen principalment:",
+              "options": [
+                "Per transmissió genètica: el caràcter virtuós s'hereta dels pares",
+                "Per raonament filosòfic: entenent les definicions de les virtuts",
+                "Per hàbit i pràctica repetida: actuant virtuosament fins que es converteix en segon natura",
+                "Per imitació dels déus i herois de la tradició grega"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Per a Aristòtil, les virtuts no es neixen ni s'entenen: es practiquen. 'Ens fem justos practicant actes justos, temperants practicant actes de temperança, coratjosos practicant actes de coratge.' L'hàbit —ethos en grec, d'on ve 'ètica'— és el mecanisme d'adquisició de la virtut.",
+              "feedbackWrong": "Aristòtil rebutja explícitament que les virtuts siguin innates. I si bé el raonament és necessari per a la phronesis (la prudència pràctica), sense pràctica el raonament no és suficient. La clau és l'hàbit: repetir accions virtuoses fins que formen el caràcter."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-03-02",
+              "style": "detect-error",
+              "statement": "Aristòtil creia que el fi últim de la vida humana era el plaer, entès com l'absència de dolor i la presència de sensacions agradables.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és confondre la posició d'Aristòtil amb l'hedonisme (la doctrina que el plaer és el bé suprem, defensada per Epicur). Per a Aristòtil, el fi últim és l'eudaimonia —florir, excel·lir en les capacitats humanes—, que inclou el plaer però no s'hi redueix. Una persona pot viure amb plaer i sense eudaimonia (una vida de diversió sense profunditat), i a l'inrevés, una vida d'eudaimonia comporta necessàriament plaers genuïns però no és definida per ells."
+            },
+            {
+              "type": "reflection",
+              "question": "Aristòtil deia que 'l'home és un animal polític' — que necessitem la comunitat per florir. Creus que la teva vida actual et permet exercir les teves millors capacitats? Qué t'ho facilita i qué t'ho dificulta?",
+              "prompt": "No hi ha resposta correcta. Però la pregunta és genuïnament aristotèlica."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-b-03-01",
+              "question": "Pot ensenyar-se la virtut, o el caràcter moral és fonamentalment innat?",
+              "options": [
+                "La virtut no pot ensenyar-se: el caràcter moral és innat i no canvia significativament amb l'educació",
+                "La virtut pot ensenyar-se completament: l'entorn i l'educació determinen el caràcter moral",
+                "El caràcter és parcialment innat i parcialment format per l'hàbit i el context; l'educació pot ampliar o limitar les disposicions naturals"
+              ],
+              "correct": 2,
+              "explanation": "Aristòtil creia que néixem amb disposicions naturals però que el caràcter moral es forma a través de l'hàbit i l'educació — el que avui anomenaríem epigenètica del comportament. La psicologia contemporània li dona parcialment la raó: estudis sobre bessons mostren una component heretable del temperament (entre el 40% i el 60% per a trets com l'agressivitat o l'empatia disposicional), però el context, la criança i les experiències formatives expliquen la resta. La neurociència afegeix que el cervell és plàstic fins a la maduresa i que hàbits repetits construeixen literalment connexions sinàptiques — la base física del 'segon natura' aristotèlic. El que sí sembla clar és que ni el determinisme genètic complet ni el constructivisme pur s'aguanten empíricament. L'educació moral importa, però té límits. La qüestió pràctica és quins tipus d'entorns i pràctiques desenvolupen millor les virtuts — una pregunta que Aristòtil hauria reconegut com la central de la pedagogia."
+            }
+          ]
+        },
+        {
+          "id": "fil-b-04",
+          "title": "De l'estoïcisme a Descartes",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Entre Aristòtil i Descartes passen gairebé dos mil anys. En aquest interval: l'imperi romà absorbeix la filosofia grega, el cristianisme absorbeix la filosofia romana, i l'edat mitjana construeix sistemes teològics monumentals sobre els fonaments platònics i aristotèlics. I al mig d'aquest trajecte, uns estoics —un esclau, un emperador— formulen idees sobre el control mental que el segle XXI redescubreix amb un altre nom: mindfulness."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'estoïcisme proposa una distinció fonamental: hi ha coses que depenen de nosaltres (els nostres judicis, desitjos, reaccions) i coses que no (el cos, la reputació, la riquesa, la mort). La saviesa consisteix a centrar-se exclusivament en el primer i acceptar el segon amb serenitat."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "c. 300 aC", "title": "Zenó de Cítion funda l'estoïcisme", "text": "Ensenya al Pòrtic Pintat (Stoa Poikile) d'Atenes. D'aquí el nom 'estoïcisme'." },
+                { "year": "c. 50-135 dC", "title": "Epictetus: l'esclau filòsof", "text": "Nascut esclau, va ser alliberat i va fundar una escola filosòfica. Les seves Dissertacions segueixen sent llegides com a manual de resiliència." },
+                { "year": "161-180 dC", "title": "Marc Aureli: l'emperador filòsof", "text": "Governa l'imperi romà mentre escriu les Meditacions per a ús personal. Mai no es va publicar en vida." },
+                { "year": "s. XIII", "title": "Tomàs d'Aquino sintetitza Aristòtil i el cristianisme", "text": "La Summa Theologica integra la filosofia aristotèlica a la teologia cristiana. Aristòtil es fa 'compatible' amb la fe." },
+                { "year": "1641", "title": "Descartes publica les Meditacions Metafísiques", "text": "El projecte de refundar el coneixement sobre bases indubtables marca el començament de la filosofia moderna." }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Marc Aureli: per qué un dels homes més poderosos de la història buscava el control de la seva ment",
+              "content": "Marc Aureli va ser emperador d'un imperi de 60 milions de persones. Va passar la major part del seu mandat en guerres de frontera. Va perdre diversos fills. Va haver d'executar el seu millor general per traïció. I cada dia escrivia notes filosòfiques per a ell mateix — el que coneixem com les Meditacions. Frases com 'No et facis mal per alguna cosa que no ha passat' o 'Tens poder sobre la teva ment, no sobre els esdeveniments' no eren màximes d'autoajuda: eren eines de supervivència psicològica per a un home que governava un món en crisi. La teràpia cognitivo-conductual moderna, que ensenya a separar els fets dels judicis sobre els fets, es reconeix explícitament deutora de l'estoïcisme."
+            },
+            {
+              "type": "quote",
+              "text": "No ens pertorba el que ens passa, sinó el judici que fem del que ens passa.",
+              "author": "Epictetus, Enchiridion"
+            },
+            {
+              "type": "expandable",
+              "label": "El 'geni maligne' de Descartes — i per qué va canviar la filosofia per sempre",
+              "content": "Descartes volia refundar el coneixement sobre bases absolutament segures. El seu mètode: dubtar de tot el que pogués ser dubtat. Va imaginar un 'geni maligne' prou poderós per fer-li creure falses totes les percepcions. Podia dubtar dels sentits, dels records, fins i tot de les matemàtiques (podria estar enganyat fins i tot sobre 2+2=4). Però va descobrir un límit: no podia dubtar que estava dubtant, perquè el dubte mateix era un acte de pensament, i pensar implica existir. 'Cogito, ergo sum' — Penso, per tant existeixo — es va convertir en el primer principi indubtable sobre el qual reconstruir el coneixement. Això va desplaçar el centre de gravetat de la filosofia: d'ara endavant, el punt de partida no és el món extern sinó la consciència individual."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-04-01",
+              "style": "multiple-choice",
+              "question": "L'estoïcisme distingeix entre coses 'que depenen de nosaltres' i 'que no depenen de nosaltres'. Quina de les següents és, segons l'estoïcisme, una cosa que SÍ depèn de nosaltres?",
+              "options": [
+                "La salut del cos",
+                "La reputació davant dels altres",
+                "El judici que fem sobre els esdeveniments",
+                "L'èxit professional"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Per a l'estoïcisme, l'únic que realment depèn de nosaltres és l'activitat interior: els nostres judicis, desitjos i reaccions. La salut, la reputació i l'èxit depenen parcialment de factors externs que no controlem. La saviesa consisteix a concentrar tota l'energia en allò que sí podem controlar.",
+              "feedbackWrong": "La salut, la reputació i l'èxit depenen parcialment del món exterior — de la sort, d'altres persones, de circumstàncies. Per als estoics, confiar la pròpia felicitat en aquests factors és una font garantida de pertorbació. Tan sols el judici interior és completament nostre."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-04-02",
+              "style": "true-false",
+              "question": "Descartes va concloure que l'única certesa indubtable és l'existència del món exterior, perquè els sentits rarament ens enganyen.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. Descartes arriba exactament a la conclusió contrària: els sentits sí que ens poden enganyar (il·lusions, somnis) i per tant no proporcionen certesa indubtable. La primera certesa que resisteix el dubte radical és la pròpia existència com a cosa pensant: 'Cogito, ergo sum'.",
+              "feedbackWrong": "Descartes comença precisament dubtant dels sentits, que considera una font poc fiable de coneixement. La certesa indubtable que troba no és el món exterior sinó la seva pròpia existència com a subjecte pensant. El món exterior el reconstrueix posteriorment, i amb moltes cauteles filosòfiques."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Neurociència bàsica",
+              "moduleEmoji": "🧠",
+              "concept": "Teràpia cognitivo-conductual",
+              "text": "La distinció estoica entre el que passa i el judici que fem del que passa és el fonament de la teràpia cognitivo-conductual (TCC). Aaron Beck i Albert Ellis van desenvolupar-la als anys 60 sense conèixer bé l'estoïcisme, però es va reconèixer ràpidament la connexió. La idea que les emocions pertorbadores no deriven dels fets sinó dels pensaments sobre els fets és literalment epictètica."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-b-04-01",
+              "question": "L'ideal estoic d'impassibilitat davant allò que no podem controlar és una guia de vida saludable o una forma de repressió emocional?",
+              "options": [
+                "És saludable: acceptar el que no podem canviar redueix l'ansietat i concentra l'energia on importa",
+                "És repressió: les emocions han de ser expressades, no suprimides, per mantenir la salut psicològica",
+                "Depèn de l'aplicació: acceptar l'irremeiable és saludable; reprimir emocions sobre coses canviables pot ser nociu"
+              ],
+              "correct": 2,
+              "explanation": "La psicologia contemporània ofereix una imatge matisada. L'acceptació de l'incontrolable —estudiat en el marc de la Teràpia d'Acceptació i Compromís (ACT)— mostra beneficis clars per a la salut mental en situacions de pèrdua, malaltia crònica o adversitat irreversible. En canvi, la supressió d'emocions sobre situacions que sí podrien canviar-se (una relació tòxica, un entorn laboral injust) s'associa a pitjors resultats. Els estoics mateixos eren més subtils del que sembla: no negaven les emocions sinó que distingien entre les 'passions' pertorbadores (por, cobdícia, ira desmesurada) i els 'afectes' adequats (alegria, precaució, voluntat). L'objectiu no era la insensibilitat sinó l'equanimitat — respondre als esdeveniments amb mesura, sense ser arrossegat per ells. En aquest sentit, l'estoïcisme s'assembla més a la regulació emocional que a la repressió."
+            }
+          ]
+        },
+        {
+          "id": "fil-b-05",
+          "title": "Kant i la raó pura",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Immanuel Kant va néixer, viure i morir a Königsberg, una ciutat de l'actual Polònia, sense sortir-ne mai. Va ser tan puntual que els veïns posaven els rellotges quan el veien passar. Va trigar a publicar la seva obra principal fins als 57 anys. I malgrat tot, va fer la revolució filosòfica més gran des d'Aristòtil: va demostrar que les preguntes sobre la realitat no poden respondre's sense entendre primer com funciona la nostra ment."
+            },
+            {
+              "type": "key-idea",
+              "text": "Kant va descobrir que la ment no és un recipient passiu que rep la realitat: és un filtre actiu que l'organitza. No coneixem les coses tal com són en si mateixes (la 'cosa en si' o noümen), sinó tal com les estructures de la nostra ment les representen (el fenomen). La revolució copernicana de la filosofia."
+            },
+            {
+              "type": "expandable",
+              "label": "La revolució copernicana de Kant — per qué compara la seva filosofia amb Copèrnic",
+              "content": "Copèrnic va canviar el centre del sistema solar: no el Sol girava al voltant de la Terra, sinó a l'inrevés. Kant fa una cosa anàloga en filosofia: no és el subjecte qui s'adapta a l'objecte, sinó l'objecte qui s'adapta a les estructures del subjecte. Espai, temps, causalitat no són propietats del món extern que descobrim: són formes que la ment imposa a l'experiència per fer-la intel·ligible. D'aquí el seu idealisme transcendental. Kant salva la ciència (el coneixement és possible dins dels límits de l'experiència possible) i posa límits a la metafísica (no podem conèixer allò que transcendeix l'experiència: Déu, l'ànima, la llibertat)."
+            },
+            {
+              "type": "expandable",
+              "label": "L'imperatiu categòric en tres formulacions — i com s'aplica en casos concrets",
+              "content": "Kant formula el principi moral suprem de tres maneres que considera equivalents:\n1. Formulació universal: 'Actua tan sols segons aquella màxima que puguis alhora voler que es converteixi en llei universal.' Test: si tothom ho fes, la màxima es destruiria a si mateixa? Si és així, és prohibit moralment.\n2. Formulació de la humanitat: 'Tracta sempre la humanitat, tant en la teva persona com en la de qualsevol altre, mai tan sols com a mitjà sinó sempre alhora com a fi.' Prohibeix instrumentalitzar les persones, fins i tot per bons fins.\n3. Formulació del regne dels fins: 'Actua com si fossis legislador d'un regne de fins on tots els éssers racionals es tracten mútuament com a fins.' Imagina una comunitat d'éssers racionals que es respecten mútuament: les teves accions han de ser compatibles amb aquesta comunitat.\nAplicació: Mentir a un amic per evitar-li un disgust viola la primera formulació (si tothom mentís quan convingués, la confiança desapareixeria) i la segona (el tractes com a objecte de gestió, no com a agent racional)."
+            },
+            {
+              "type": "quote",
+              "text": "Dues coses omplen el meu ànim d'una admiració i reverència sempre noves i creixents: el cel estelat sobre mi i la llei moral dins meu.",
+              "author": "Immanuel Kant, Crítica de la raó pràctica (1788)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-05-01",
+              "style": "multiple-choice",
+              "question": "Quan Kant parla de la 'revolució copernicana' en filosofia, es refereix a:",
+              "options": [
+                "Acceptar el model heliocèntric com a prova que la ciència supera la religió",
+                "Canviar el focus de la investigació filosòfica: en lloc d'estudiar els objectes, estudiar les estructures de la ment que fan possible el coneixement",
+                "Demostrar que la Terra gira al voltant del Sol usant arguments filosòfics",
+                "Refutar el racionalisme cartesià aplicant el mètode científic astronòmic"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Com Copèrnic va desplaçar la Terra del centre del sistema solar, Kant desplaça l'objecte del centre del coneixement: no és la ment que s'adapta a la realitat externa, sinó la realitat (tal com la coneixem) que s'adapta a les estructures de la ment. Una inversió radical del punt de partida filosòfic.",
+              "feedbackWrong": "La referència a Copèrnic és metodològica, no astronòmica. Kant no tracta la ciència del sistema solar: usa l'analogia per explicar el seu propi gir filosòfic. Com Copèrnic va canviar el centre del cosmos, Kant canvia el centre del coneixement: del món exterior a la ment humana."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-05-02",
+              "style": "detect-error",
+              "statement": "Kant creia que els principis morals correctes s'obtenen calculant quines accions produeixen les millors conseqüències per al màxim nombre de persones.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és atribuir a Kant una posició consequencialista (la de l'utilitarisme de Bentham i Mill). Kant era radicalment anti-consequencialista: els principis morals no depenen dels resultats sinó de si la màxima de l'acció pot ser universalitzada racionalment. L'imperatiu categòric és formal, no substantiu: no diu 'fes allò que produeixi el millor resultat' sinó 'actua tan sols per màximes universalitzables'. Una acció bona en resultats però guiada per una màxima no universalitzable és, per a Kant, moralment incorrecta."
+            },
+            {
+              "type": "comparison",
+              "title": "Kant vs. Mill: dues ètiques modernes",
+              "labelA": "Kant (deontologia)",
+              "labelB": "Mill (utilitarisme)",
+              "items": [
+                { "label": "Fonament moral", "a": "El deure i la llei racional", "b": "Maximitzar el benestar total" },
+                { "label": "Jutja les accions per", "a": "La màxima que les guia", "b": "Les seves conseqüències" },
+                { "label": "Mentir mai és permès?", "a": "No, mai (és un deure absolut)", "b": "Sí, si evita un mal major" },
+                { "label": "Punt fort", "a": "Protegeix drets individuals", "b": "Atén el benestar real de les persones" },
+                { "label": "Punt feble", "a": "Pot ser rígid en casos extrems", "b": "Pot sacrificar individus per la majoria" }
+              ]
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-b-05-01",
+              "question": "Hi ha obligacions morals absolutes que no admeten cap excepció, o totes les normes morals admeten excepcions en circumstàncies extremes?",
+              "options": [
+                "Hi ha obligacions absolutes: certes accions (torturar un innocent, mentir) són sempre incorrectes independentment de les conseqüències",
+                "No hi ha absoluts morals: totes les normes admeten excepcions quan les circumstàncies ho justifiquen suficientment",
+                "Hi ha un nucli dur de restriccions absolutes (especialment sobre la dignitat humana), però fora d'aquest nucli les normes admeten ponderació"
+              ],
+              "correct": 2,
+              "explanation": "La intuïció kantiana que hi ha coses que no es poden fer mai —independentment dels resultats— captura alguna cosa moralment important. La majoria de sistemes jurídics moderns la reflecteixen: la prohibició de la tortura és absoluta en el dret internacional humanitari, no admet excepcions per utilitat. La raó: un cop admetem excepcions, la pressió política per definir cada situació com a 'excepció' és enorme. L'efecte dissuasori de l'absolut és part del seu valor moral. Però els consequencialistes fan una objecció seria: imagineu que torturar un terrorista podria salvar mil innocents amb certesa absoluta. Qui s'atreviria a dir que la prohibició absoluta s'ha de mantenir? La posició C reconeix que hi ha un nucli — centrat en la dignitat de la persona i els crims de lesa humanitat — que la majoria de filòsofs (fins i tot no kantians) considera que no admet ponderació. Però fora d'aquest nucli dur, la ponderació de conseqüències sembla inevitable. El repte pràctic és precisament delimitar on acaba el nucli i comença la zona de ponderació — i qui ho decideix."
+            }
+          ]
+        },
+        {
+          "id": "fil-b-06",
+          "title": "Nietzsche i la crisi de la modernitat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Friedrich Nietzsche va escriure el 1882 una de les frases més mal interpretades de la filosofia: 'Déu ha mort'. No era un anunci alegre ni un pamflet ateu. Era un diagnòstic de crisi: la cultura occidental havia construït els seus valors sobre fonaments religiosos. Ara que la ciència i la crítica històrica havien erosionat aquells fonaments, els valors continuaven en peu però sense suport. Com un pont penjat en l'aire un cop retirades les pilones. Algú havia de veure el perill."
+            },
+            {
+              "type": "key-idea",
+              "text": "Nietzsche diagnostica un nihilisme cultural: els valors tradicionals han perdut el seu fonament, però no hem construït res al seu lloc. La resposta no és acceptar el buit sinó crear nous valors — la tasca del que ell anomena el 'superhome' (Übermensch), no un ser superior biològicament sinó algú capaç de donar-se els seus propis valors sense necessitar sanció externa."
+            },
+            {
+              "type": "expandable",
+              "label": "Nietzsche i el nazisme — la distorsió més gran de la història de la filosofia",
+              "content": "Els nazis van usar selectivament Nietzsche com a justificació ideològica. La responsabilitat és en part de la seva germana Elisabeth Förster-Nietzsche, antisemita declarada, que va editar i manipular els seus escrits pòstums després que ell caigués en la bogeria el 1889. Nietzsche era, de fet, un crític virulent de l'antisemitisme, del nacionalisme alemany i del racisme. Va trencar la seva amistat amb Wagner en part per les posicions antisemites d'aquest. L'Übermensch no té res a veure amb la superioritat racial: és un concepte espiritual i cultural, l'individu que supera els valors del ramat i es crea a si mateix. Usar Nietzsche per defensar el nazisme requereix ignorar o falsificar la major part de la seva obra."
+            },
+            {
+              "type": "quote",
+              "text": "Déu ha mort. Déu segueix mort. I nosaltres l'hem matat. Com ens consolaríem nosaltres, els assassins dels assassins?",
+              "author": "Friedrich Nietzsche, La gaia ciència (1882)"
+            },
+            {
+              "type": "expandable",
+              "label": "La moral de l'esclau vs. la moral del senyor — l'anàlisi genealògica de la moral",
+              "content": "A La genealogia de la moral, Nietzsche proposa que els valors no cauen del cel: tenen una història, un origen en relacions de poder. La 'moral del senyor' és la dels forts: bona = noble, poderós, afirmatiu; dolenta = feble, covard. La 'moral de l'esclau' és la dels febles: bona = humil, compassiu, submís; dolenta = poderós, orgullós. Nietzsche argumenta que el cristianisme va invertir els valors: va prendre els valors dels febles i els va elevar a virtuts. El que era feblesa (humilitat, submissió) va passar a ser noblesa; el que era força (orgull, domini) va passar a ser pecat. Nietzsche ho anomena 'ressantiment': la venjança dels febles als forts, disfressada de moralitat. És una anàlisi provocadora i controvertida — però ha influït profundament en la sociologia de la moralitat i en Foucault."
+            },
+            {
+              "type": "misconception",
+              "belief": "Nietzsche era un filòsof del poder brut, el precursor intel·lectual del totalitarisme del segle XX.",
+              "reality": "Nietzsche detestava el nacionalisme, l'antisemitisme i l'Estat modern. El seu projecte era l'alliberament de l'individu dels valors del ramat, no la glorificació del poder col·lectiu. La seva recuperació per part del nazisme va requerir falsificar i mutilar els seus textos.",
+              "why": "Perquè la seva germana va editar i publicar escrits manipulats pòstumament, i perquè alguns dels seus aforismes (especialment sobre la 'voluntat de poder') semblen fàcilment reclutables per a finalitats que ell hauria rebutjat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-06-01",
+              "style": "multiple-choice",
+              "question": "Quan Nietzsche proclama que 'Déu ha mort', el seu missatge principal és:",
+              "options": [
+                "Un anunci positiu: la humanitat s'allibera de la superstició religiosa",
+                "Un diagnòstic de crisi: els valors occidentals han perdut el seu fonament i cal crear-ne de nous",
+                "Una afirmació literal: les proves científiques han demostrat la inexistència de Déu",
+                "Una metàfora poètica sense contingut filosòfic precís"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Nietzsche no celebra la mort de Déu: la diagnostica com una catàstrofe cultural en curs. Si els valors morals occidentals (igualtat, compassió, drets) descansen sobre fonaments religiosos que ja no creiem, aquells valors queden suspesos en l'aire. La tasca urgent és entendre la crisi i respondre-hi — no ignorar-la.",
+              "feedbackWrong": "Nietzsche no era simplement ateu ni feia afirmacions literals sobre l'existència de Déu. La seva preocupació era cultural i moral: si la modernitat ha erosionat les bases religioses dels valors, i no les hem substituït per res, el resultat és el nihilisme. El perill real no és no creure en Déu sinó viure sense cap fonament de valors."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fil-b-06-02",
+              "style": "detect-error",
+              "statement": "El concepte nietzscheà d'Übermensch (superhome) fa referència a una raça biològicament superior que ha de dominar les races inferiors.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta és precisament la falsificació que els nazis van propagar. L'Übermensch nietzscheà no té res a veure amb la biologia ni amb la raça: és un concepte espiritual i cultural. L'Übermensch és l'individu capaç de superar els valors heredats ('moral del ramat') i crear els seus propis valors de manera afirmativa, sense necessitar cap autoritat externa. Nietzsche era explícitament crític de l'antisemitisme i del nacionalisme alemany, i va trencar amistats per raons d'aquest tipus."
+            },
+            {
+              "type": "debate",
+              "question": "Si la moralitat no té un fonament objectiu (Déu, raó natural, evolució), és possible defensar racionalment que alguns valors morals són millors que d'altres?",
+              "positionA": {
+                "label": "Sense fonament, no hi ha jerarquia",
+                "argument": "Si la moralitat és una construcció cultural o un instrument de poder, no hi ha cap base racional per dir que la igualtat és millor que l'esclavitud, o que la tortura és dolenta. Tota afirmació moral és, en última instància, una preferència disfressada d'objectivitat. El relativisme moral és l'única posició intel·lectualment honesta."
+              },
+              "positionB": {
+                "label": "El fonament no és necessari per a la jerarquia",
+                "argument": "Podem defensar valors morals racionalment sense un fonament absolut: examinant la coherència interna dels valors, els seus efectes sobre el benestar humà, la seva compatibilitat amb el que tots els éssers humans compartim com a necessitats bàsiques. La manca de fonament transcendent no implica que qualsevol posició valgui el mateix."
+              },
+              "reflection": "Pensa en una injustícia que consideris evident. Podries defensar que és injusta davant d'algú que digués 'és la teva opinió, no un fet'? Quins arguments usaries?",
+              "context": "Nietzsche mateix no era relativista: creia que alguns valors (els afirmadors de la vida) eren superiors a d'altres (els que neguen la vida). Però el seu atac als fonaments tradicionals va obrir la porta al nihilisme que ell volia combatre. La filosofia postnietzscheana ha explorat fonaments no absoluts de la moral: el consens racional (Habermas), la narrativa (MacIntyre), el contractualisme (Scanlon)."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "La crisi dels fonaments",
+              "text": "La crisi de fonaments que Nietzsche diagnostica en la moral té un paral·lel en la ciència: Kuhn va mostrar que les revolucions científiques no progressen per acumulació sinó per ruptures de paradigma. En tots dos casos, allò que semblava fonament sòlid resulta ser un consens provisional. La pregunta és si això invalida el coneixement o la moral, o si els obliga a reformular-se sobre bases més modestes."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fil-b-06-01",
+              "question": "Nietzsche diu que hem de 'crear nous valors'. Però qui decideix quins valors nous cal crear, i amb quin criteri?",
+              "options": [
+                "Cada individu crea els seus propis valors: la moralitat és irreductiblement personal",
+                "La societat crea valors per consens: la legitimitat prové de l'acord col·lectiu",
+                "Els valors es creen en el diàleg entre individus i cultures, però no tots valen el mateix: aquells que afirmen la vida i permeten el florir humà són preferibles als que la neguen"
+              ],
+              "correct": 2,
+              "explanation": "La pregunta que planteges és, de fet, la gran tensió no resolta en Nietzsche. Si critica els valors del ramat i proposa que el superhome els superi, amb quin criteri es jutgen els nous valors? Nietzsche té una resposta parcial: la 'voluntat de poder' no és voluntat de dominar els altres sinó voluntat d'excel·lir, de créixer, d'afirmar la vida. Els valors que afirmen el potencial humà són superiors als que el neguen. Però aquest criteri no és tan clar com sembla: qui defineix 'afirmar la vida'? La resposta C és la que millor captura el programa nietzscheà: no relativisme (no tot val el mateix) però tampoc dogmatisme (no hi ha una taula de valors imposada des de fora). Bernard Williams va formular la crítica més precisa: Nietzsche té raó que els valors no cauen del cel, però les seves alternatives al nihilisme queden subdesenvolupades. El llegat nietzscheà viu avui en la filosofia de la virtut reviscuda, en l'ètica del cuidado, en el comunitarisme — tots intents de fonamentar valors sense recórrer a absoluts transcendents."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

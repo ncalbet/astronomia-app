@@ -1,0 +1,430 @@
+{
+  "id": "module-XX-sociologia",
+  "title": "Sociologia: Per Què les Societats Fan el que Fan",
+  "emoji": "🏙️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "classics",
+      "title": "Els Grans Autors",
+      "icon": "📚",
+      "description": "De Durkheim a Bourdieu: les idees que van inventar una manera de mirar la societat i que continuen explicant el món que vivim",
+      "style": "Temàtic · dels orígens als debats contemporanis",
+      "lessons": [
+
+        {
+          "id": "soc-01",
+          "title": "La Mirada Sociològica: Veure l'Invisible",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1897, Émile Durkheim va publicar un estudi sobre el suïcidi. Semblava el tema menys sociològic possible: no hi ha res més individual que la decisió d'acabar amb la pròpia vida. Però Durkheim va demostrar quelcom pertorbador: les taxes de suïcidi variaven sistemàticament entre religions, entre països i entre grups socials, i aquelles variacions s'explicaven per factors col·lectius, no individuals. El suïcidi — l'acte més privat imaginable — era un fet social. Aquell estudi va fundar la sociologia com a disciplina."
+            },
+            {
+              "type": "key-idea",
+              "text": "La mirada sociològica consisteix a veure el que sembla individual com a social. No per negar l'agència individual, sinó per descobrir les forces col·lectives que configuren les decisions, les oportunitats i els límits de cada persona. La sociologia pregunta: per quina raó les persones en situacions estructuralment similars tendeixen a comportar-se de maneres similars, fins i tot quan creuen que estan decidint lliurement?"
+            },
+            {
+              "type": "misconception",
+              "belief": "La sociologia explica el comportament humà per les estructures socials, negant la llibertat individual i responsabilitat personal.",
+              "reality": "La sociologia no nega l'agència individual — investiga les condicions que la fan possible o la limiten. Reconèixer que una persona nascuda en la pobresa té menys opcions reals que una nascuda en la riquesa no és negar la seva responsabilitat: és descriure el context en que aquella responsabilitat opera. La tensió entre estructura i agència és el problema central de la disciplina, no la seva resposta simple.",
+              "why": "La cultura individualista occidental tendeix a explicar tots els resultats socials com a conseqüències de decisions individuals. Acceptar les explicacions estructurals pot semblar una amenaça a la noció de mèrit i responsabilitat personal — quan en realitat és simplement una descripció més completa de la realitat."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què la sociologia va néixer al segle XIX i no abans",
+              "content": "La sociologia va néixer com a disciplina a principis del segle XIX per una raó concreta: la revolució industrial i la revolució francesa havien destruït l'ordre social tradicional. Les societats europees ja no s'organitzaven entorn de la religió, els estaments hereditaris i les comunitats rurals estables. Les masses de treballadors desplaçats a les ciutats industrials, les noves classes socials, la democràcia emergent i la secularització van crear la necessitat d'entendre com funciona la societat quan ja no hi ha una ordre natural i diví que la justifiqui. Auguste Comte, que va encunyar el terme 'sociologia' el 1838, volia crear una 'física social' que expliqués les lleis del comportament col·lectiu amb el mateix rigor que la física explicava la natura. La disciplina va néixer de la necessitat de comprendre una modernitat que ningú havia vist abans."
+            },
+            {
+              "type": "prediction",
+              "question": "Pensa en una decisió important que hagis pres — on estudiar, amb qui relacionar-te, quin treball buscar. Fins a quin punt creus que aquella decisió va ser genuïnament lliure, i fins a quin punt estava configurada per factors que tu no vas triar?",
+              "hint": "No es tracta de respondre 'tot és lliure' o 'tot és determinat'. Es tracta de veure la complexitat de la pregunta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-01-01",
+              "style": "multiple-choice",
+              "question": "Durkheim va distingir entre el suïcidi 'egoista' (per manca d'integració social), l'altruista (per excés d'integració, com el kamikaze) i l'anòmic (per manca de regulació social en moments de canvi ràpid). Quin d'aquests tipus explica per qué les taxes de suïcidi tendeixen a augmentar en períodes de crisi econòmica severa?",
+              "options": [
+                "Egoista: la crisi econòmica aïlla les persones i redueix els seus vincles socials",
+                "Altruista: en temps de crisi, algunes persones se sacrifiquen per no ser una càrrega per a les seves famílies",
+                "Anòmic: la crisi destrueix les normes i expectatives que organitzaven la vida de les persones, deixant-les sense marc de referència",
+                "Una combinació dels tres: les crisis econòmiques activen simultàniament els tres mecanismes"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La crisi econòmica severa és un exemple paradigmàtic d'anomia en el sentit de Durkheim: destrueix ràpidament les normes, expectatives i marcs de referència que organitzaven la vida de les persones (la carrera professional, el nivell de vida, el pla de futur), deixant-les en un estat de desorientació normativa. La persona que ha perdut la feina no sols ha perdut ingressos — ha perdut l'estructura que organitzava el seu temps, la seva identitat social i el seu sentit de futur. Durkheim argumentaria que és aquesta pèrdua de marc normatiu, no la dificultat econòmica en si, el factor que augmenta el risc.",
+              "feedbackWrong": "Malgrat que l'aïllament i el sacrifici pels altres contribueixen en alguns casos, el mecanisme principal que Durkheim identificaria en les crisis econòmiques és l'anomia: la destrucció ràpida dels marcs normatius que organitzaven la vida. La crisi no és simplement una dificultat — és una desorientació sobre les regles del joc que fins ahir semblaven sòlides."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-01-02",
+              "style": "true-false",
+              "question": "La sociologia estudia principalment les societats en conjunt, i per tant no pot dir res útil sobre el comportament d'individus concrets.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La sociologia opera en múltiples nivells: estudia estructures socials globals, però també explica per qué individus en posicions estructurals similars tendeixen a tenir trajectòries similars, per qué les xarxes de relacions personals determinen les oportunitats laborals, per qué la classe social d'origen prediu el rendiment escolar amb una precisió pertorbadora. La distinció entre macro i microsociologia no implica que la disciplina sigui irrellevant per entendre individus — implica que entendre individus requereix entendre les estructures en les quals estan inserits.",
+              "feedbackWrong": "La sociologia estudia tant les estructures col·lectives com les seves manifestacions en les trajectòries individuals. De fet, algunes de les troballes sociològiques més pertorbadores són precisament les que mostren com les posicions estructurals (classe, raça, gènere) predeixen amb notable precisió les trajectòries individuals en educació, salut, ocupació i vida política."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-soc-01-01",
+              "question": "La sociologia pot ser una ciència objectiva, o els valors del sociòleg contaminen inevitablement la seva investigació?",
+              "options": [
+                "Pot ser objectiva: amb els mètodes adequats (estadística, comparació sistemàtica, triangulació de dades) la sociologia pot produir coneixement fiable independent dels valors del investigador",
+                "No pot ser objectiva: l'elecció de quins fenòmens estudiar, quines preguntes fer i com interpretar les dades és sempre valorativa, i pretendre neutralitat és simplement ocultar els valors dominants",
+                "La distinció és parcialment falsa: la sociologia pot i ha de ser rigorosa metodològicament, però el rigor metodològic no elimina la dimensió valorativa de la tria dels objectes d'estudi i la interpretació dels resultats — i reconèixer-ho és més honest que pretendre una objectivitat impossible"
+              ],
+              "correct": 2,
+              "explanation": "Max Weber va formular la distinció entre 'judicis de fet' i 'judicis de valor' en ciències socials, i va argumentar que el científic social ha de ser rigorós en els fets mentre és transparent sobre els valors que guien la seva investigació. Però Weber mateix va reconèixer que la tria dels objectes d'estudi és sempre valorativa: ningú investiga el que considera irrellevant. La sociologia contemporània ha radicalitzat aquesta autoconsciència: el corrent de la sociologia crítica, des de Mills fins a Bourdieu, argumenta que pretendre neutralitat és sovint una manera d'invisibilitzar les relacions de poder que configuren tant la societat estudiada com la disciplina que l'estudia. La posició més defensable és la de Weber ampliat: rigor metodològic màxim, transparència sobre els valors que guien la investigació, i disposició a sotmetre les pròpies troballes a la revisió crítica. La objectivitat total és impossible; el rigor i la hontedat intel·lectual no ho són."
+            }
+          ]
+        },
+
+        {
+          "id": "soc-02",
+          "title": "Durkheim: La Societat és Més que la Suma dels Seus Membres",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Émile Durkheim va observar que quan assistia a una cerimònia religiosa, a una manifestació política o fins i tot a un partit de futbol, sentia quelcom que no podia sentir sol: una energia col·lectiva que l'elevava per sobre de si mateix, una sensació que formava part d'alguna cosa més gran. Va anomenar aquest fenomen 'ebullició col·lectiva' i va argumentar que era la font original de tota experiència religiosa i de tota cohesió social. La societat no és simplement la suma dels seus membres — és una realitat nova, amb propietats que cap individu té per separat."
+            },
+            {
+              "type": "key-idea",
+              "text": "El concepte de 'fet social' de Durkheim és la pedra angular de la sociologia: un fet social és una manera de fer, pensar o sentir externa a l'individu que exerceix sobre ell una coerció. L'idioma que parles, les normes morals que segueixes, les institucions en les quals vius — cap d'elles has triat, totes et precedien i t'han format. El social és irreductible a l'individual."
+            },
+            {
+              "type": "expandable",
+              "label": "La solidaritat mecànica i orgànica: per quina raó les societats modernes no es desfan",
+              "content": "Durkheim es va preguntar per qué les societats modernes, on cada persona fa una feina especialitzada i depèn dels altres per a gairebé tot, no s'esbotzaven en conflicte permanent. La seva resposta va ser la distinció entre dos tipus de solidaritat: la mecànica (pròpia de les societats tradicionals, basada en la semblança i els valors compartits) i l'orgànica (pròpia de les societats modernes, basada en la interdependència de les diferències, com els òrgans d'un cos). En una societat de solidaritat orgànica, la divisió del treball crea vincles d'interdependència que substitueixen la semblança com a font de cohesió. Però Durkheim advertia que la divisió del treball moderna podia generar anomia si no estava acompanyada de normes professionals i corporatives que donaven sentit als rols individuals. La seva preocupació per la cohesió social en la modernitat és sorprenentment actual."
+            },
+            {
+              "type": "quote",
+              "text": "La societat no és simplement la suma dels individus que la componen, sinó el sistema format per la seva associació representa una realitat específica que té els seus propis caràcters.",
+              "author": "Émile Durkheim, Les Règles de la Méthode Sociologique, 1895"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-02-01",
+              "style": "multiple-choice",
+              "question": "Durkheim va argumentar que la religió és una projecció de la societat sobre si mateixa: el que els fidels adornen com a sagrat és en realitat la força moral de la col·lectivitat. Quina és la implicació més incòmoda d'aquest argument?",
+              "options": [
+                "Que les religions són falses i els seus continguts sobrenaturals no existeixen",
+                "Que fins i tot en societats secularitzades, el 'sagrat' no desapareix sinó que es transfereix a nous objectes col·lectius — la nació, el progrés, la ciència, els ídols esportius — que exerceixen la mateixa funció de cohesió que la religió tradicional",
+                "Que la moral és relativa: si la societat és la font de tot valor, les societats que aproven l'esclavitud o el genocidi no poden ser jutjades des de fora",
+                "Que la religió és un instrument de control social dissenyat per les elits per mantenir la cohesió de les masses"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La implicació més fèrtil de la teoria durkheimiana de la religió no és l'ateisme — és la secularització del sagrat. Si la religió és la forma en que la societat es representa a si mateixa, les societats secularitzades no han eliminat el sagrat: l'han transferit. La nació, el progrés tecnològic, el consum, les estrelles de l'esport, els líders carismàtics — tots funcionen com a objectes 'sagrats' en el sentit durkheimià: aparten del tracte ordinari, generen rituals col·lectius, produeixen ebullició col·lectiva i creen fronteres entre el que pertany al grup i el que en queda fora. La secularització no ha eliminat la dinàmica religiosa: l'ha transformat.",
+              "feedbackWrong": "Durkheim no era simplement ateu ni defensava el relativisme moral. La seva implicació més potent és que el sagrat és una funció social que persevera fins i tot quan les creences sobrenaturals s'erosionen. Les societats modernes han creat nous objectes sagrats — la nació, la ciència, la celebritat — que exerceixen les mateixes funcions de cohesió i demarcació que la religió tradicional."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-02-02",
+              "style": "detect-error",
+              "statement": "Durkheim creia que la divisió del treball moderna era intrínsecament alienant i que calia tornar a formes de solidaritat comunitària tradicional per recuperar la cohesió social perduda.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta afirmació confon Durkheim amb Marx o amb els crítics romàntics de la modernitat. Durkheim no era un crític de la divisió del treball ni defensava cap retorn al passat. Al contrari: creia que la divisió del treball moderna era la base d'un tipus nou i superior de solidaritat — l'orgànica — basada en la interdependència de les diferències. El problema que Durkheim identificava no era la divisió del treball en si mateixa, sinó la seva forma patològica quan no estava acompanyada de normes professionals i institucions que donaven sentit als rols individuals. La seva solució era crear noves formes de regulació moral adequades a la modernitat (associacions professionals, corporacions), no eliminar la divisió del treball. Durkheim era fonamentalment un pensador de la modernitat, no contra ella."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-soc-02-01",
+              "question": "Si la moral és un producte social — les normes morals varien entre cultures i èpoques — com podem condemnar pràctiques d'altres societats com l'esclavitud o la mutilació genital femenina?",
+              "options": [
+                "No podem: el relativisme cultural implica que cada cultura ha de ser jutjada pels seus propis estàndards, i imposar els nostres valors a altres cultures és imperialisme moral",
+                "Podem i hem de: existeixen drets humans universals que no depenen de cap cultura particular i que permeten jutjar qualsevol pràctica, independentment del seu context cultural",
+                "La pregunta planteja una tensió real sense resolució fàcil: el relativisme cultural com a mètode (entendre les pràctiques en el seu context) és necessari per a la comprensió; el relativisme moral absolut (cap judici possible) és difícilment defensable quan les pràctiques causen sofriment documentat a persones que no han pogut triar"
+              ],
+              "correct": 2,
+              "explanation": "El debat entre universalisme i relativisme moral és un dels més antics de la filosofia i la sociologia, i no té una resposta simple. El relativisme cultural com a actitud metodològica — intentar entendre una pràctica des del seu context cultural abans de jutjar-la — és una contribució valuosa de l'antropologia i la sociologia: preveu els judicis precipitats basats en la ignorància. Però el relativisme moral absolut — cap judici possible sobre pràctiques d'altres cultures — porta a conclusions difícilment acceptables: no podríem condemnar l'Holocaust, l'esclavitud o la tortura d'infants perquè eren (o serien) pràctiques culturalment acceptades en algun context. La posició més defensable distingeix entre comprensió i judici: comprendre per qué una pràctica existeix en el seu context (relativisme metodològic) i jutjar si causa sofriment evitable a persones que no han pogut consentir (universalisme moral mínimal). La dificultat és determinar quin patiment és 'evitable' i qui té autoritat per jutjar — i aquí el debat continua obert."
+            }
+          ]
+        },
+
+        {
+          "id": "soc-03",
+          "title": "Weber: El Poder, el Sentit i la Gàbia de Ferro",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Max Weber va escriure 'L'Ètica Protestant i l'Esperit del Capitalisme' el 1905, quan tenia quaranta-un anys i sortia d'una greu crisi nerviosa que l'havia incapacitat durant anys. El seu argument era provocador: el capitalisme modern no va sorgir simplement de la cobdícia o de les condicions materials — va sorgir d'una ètica religiosa que feia del treball dur, l'austeritat i l'acumulació una prova de salvació. Els calvinistes que treballaven obsessivament i estalviaven cada cèntim no eren simplement bons capitalistes — eren persones terriblement angoixades per la seva salvació eterna que buscaven senyals de la gràcia divina en l'èxit mundà."
+            },
+            {
+              "type": "key-idea",
+              "text": "Weber va introduir el concepte de 'verstehen' — comprensió interpretativa — com a mètode de les ciències socials: per explicar l'acció humana no n'hi ha prou amb descriure les seves causes externes; cal entendre el sentit que l'actor li dóna. La sociologia weberiana no busca lleis universals com la física — busca comprendre l'acció humana des de dins, en la seva dimensió significativa."
+            },
+            {
+              "type": "misconception",
+              "belief": "Weber va demostrar que el protestantisme va causar el capitalisme.",
+              "reality": "Weber no va afirmar una relació causal simple entre protestantisme i capitalisme. Va argumentar que existia una 'afinitat electiva' — una consonància de valors — entre l'ètica calvinista i l'esperit del capitalisme modern, i que aquesta consonància va afavorir el seu desenvolupament en determinats contextos. Va reconèixer explícitament que el capitalisme existia en altres cultures i que factors materials i polítics eren igualment importants.",
+              "why": "La simplificació de l'argument de Weber en una causalitat directa és habitual perquè la tesi és més fàcil d'atacar o defensar en la seva versió simplificada. Però la sofisticació de Weber estava precisament en evitar el determinisme econòmic de Marx i el determinisme cultural dels seus crítics."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1904-05",
+                  "title": "L'Ètica Protestant i l'Esperit del Capitalisme",
+                  "text": "L'obra que estableix la relació entre valors culturals i formes econòmiques."
+                },
+                {
+                  "year": "1919",
+                  "title": "La Política com a Vocació / La Ciència com a Vocació",
+                  "text": "Dues conferències on Weber formula la distinció entre ètica de la convicció i ètica de la responsabilitat, i defensa la neutralitat valorativa en ciència."
+                },
+                {
+                  "year": "1921",
+                  "title": "Economia i Societat (pòstum)",
+                  "text": "L'obra sistemàtica de Weber: tipologia de la dominació, burocràcia, tipus d'acció social. Publicada un any després de la seva mort."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-03-01",
+              "style": "multiple-choice",
+              "question": "Weber va distingir tres tipus de dominació legítima: la tradicional (basada en el costum i el precedent), la carismàtica (basada en les qualitats excepcionals d'un líder) i la racional-legal (basada en normes impersonals i procediments). Quin tipus de dominació descriu millor la relació entre un ciutadà i una administració pública moderna?",
+              "options": [
+                "Tradicional: les administracions públiques es legitimen per la continuïtat amb institucions històriques com la monarquia o la república",
+                "Carismàtica: els funcionaris públics exerceixen el seu poder per les seves qualitats personals excepcionals",
+                "Racional-legal: l'autoritat prové de normes impersonals (lleis, reglaments, procediments) que s'apliquen de manera igual a tothom, independentment de qui sigui el funcionari",
+                "Una combinació de les tres: les administracions modernes combinen elements dels tres tipus de dominació"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La dominació racional-legal és la forma paradigmàtica d'autoritat en les societats modernes: el funcionari té poder no per qui és sinó per quin càrrec ocupa, i exerceix aquell poder seguint normes impersonals que s'apliquen de la mateixa manera a tothom. Weber veia en la burocràcia — el tipus pur d'organització racional-legal — l'expressió més perfecta de la modernitat: eficient, previsible, impersonal. Però també la més alienant: la 'gàbia de ferro' de la racionalitat formal que empresona la llibertat i la creativitat individuals.",
+              "feedbackWrong": "La clau de la dominació racional-legal és la impersonalitat: l'autoritat prové de normes, no de persones. Un funcionari no té poder per les seves qualitats personals ni per la tradició — el té perquè ocupa un càrrec definit per un reglament. És exactament el que distingeix l'administració moderna de la dominació tradicional o carismàtica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-03-02",
+              "style": "true-false",
+              "question": "La 'gàbia de ferro' de Weber és una metàfora que descriu com el capitalisme empresona les persones en una lògica de benefici de la qual no poden escapar, fins i tot quan ja no creuen en els valors religiosos que la van originar.",
+              "correct": true,
+              "feedbackCorrect": "Correcte. La 'gàbia de ferro' (stahlhartes Gehäuse, literalment 'estoig dur com l'acer') és una de les imatges més potents de Weber: un cop el capitalisme modern s'ha establert, ja no necessita la motivació religiosa que li va donar origen. La lògica del mercat, la burocràcia i la racionalitat instrumental creen una estructura que s'autoperpetura independentment de les creences dels seus participants. El treballador modern no necessita creure en la predestinació calvinista per treballar dur — les condicions materials del mercat de treball l'hi obliguen igualment. L'origen cultural ha creat una estructura material que ja és autònoma respecte als valors que la van crear.",
+              "feedbackWrong": "La gàbia de ferro de Weber descriu exactament això: el capitalisme modern, nascut d'una motivació religiosa, ha creat una estructura tan sòlida que ja no depèn d'aquella motivació. Les persones que viuen dins del sistema capitalista no necessiten creure en cap valor particular per seguir-ne la lògica — l'estructura els hi obliga independentment de les seves creences."
+            },
+            {
+              "type": "debate",
+              "question": "Weber va distingir entre l'ètica de la convicció (actuar segons els propis principis, independentment de les conseqüències) i l'ètica de la responsabilitat (actuar considerant les conseqüències reals, fins i tot si implica comprometre els principis). Quina és l'ètica adequada per a un polític?",
+              "positionA": {
+                "label": "L'ètica de la convicció — els principis no es negocien",
+                "argument": "Un polític que abandona els seus principis quan les circumstàncies es compliquen és simplement un oportunista. La força moral de la política prové de la coherència entre les conviccions i les accions. Un líder que traeix els seus principis per eficàcia a curt termini destrueix exactament la confiança que fa la seva eficàcia possible a llarg termini."
+              },
+              "positionB": {
+                "label": "L'ètica de la responsabilitat — les conseqüències importen",
+                "argument": "La política és l'art de l'impossible fet possible. Un polític que s'adhereix als seus principis mentre el món s'enfonsa al seu voltant és moralment pur i políticament inútil. La responsabilitat real consisteix a aconseguir el millor resultat possible en les circumstàncies reals, no a mantenir la pròpia consciència neta mentre les víctimes s'acumulen."
+              },
+              "reflection": "Pensa en un polític que admires. Sembla operar més per convicció o per responsabilitat? I un que no admires?",
+              "context": "Weber va formular la distinció el 1919, en una conferència als estudiants de Munic, en el caos de la postguerra alemanya. Va concloure que el polític genuí necessita totes dues ètiques: convicció per no perdre el nord, responsabilitat per no convertir-se en fariseu. Però va advertir que les dues en tensió creen una 'vocació' que és, deia, una de les activitats humanes més difícils."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-soc-03-01",
+              "question": "Weber argumentava que el procés de modernització és un procés de 'desencantament del món': la racionalitat científica i burocràtica substitueix la màgia, la religió i el misteri. És un guany o una pèrdua?",
+              "options": [
+                "Un guany clar: el desencantament allibera les persones de la superstició, l'arbitrarietat i el poder dels sacerdots. La racionalitat és la base de la llibertat i el progrés",
+                "Una pèrdua clara: el món desencantament és un món sense sentit transcendent, i les patologies de la modernitat — nihilisme, alienació, crisi de valors — en són la conseqüència inevitable",
+                "Una transformació amb guanys i costos reals i irresolubles: el desencantament allibera i empobreix simultàniament, i la tensió entre els dos efectes defineix la condició moderna sense possibilitat de resolució fàcil"
+              ],
+              "correct": 2,
+              "explanation": "Weber no era ni un optimista racionalista ni un romàntic que plorava el passat encantat. La seva posició era tràgicament lúcida: el desencantament és un procés irreversible amb conseqüències ambivalents que no admeten una valoració simple. El guany és real: la racionalitat científica ha alliberat la humanitat de malalties, fam, supersticions i arbitrarietats del poder tradicional d'una manera que cap romàntic honest pot ignorar. Però la pèrdua és també real: un món completament racionalitzat és un món on totes les preguntes sobre el sentit últim de la vida queden sense resposta institucional. El 'politeisme de valors' que Weber diagnosticava — el fet que en la modernitat coexisteixen valors últims incompatibles sense que cap instància pugui arbitrar entre ells — no és un problema provisional que es resoldrà amb més racionalitat: és la condició permanent de la modernitat. La resposta intel·lectualment honest és viure amb aquesta tensió, no resoldre-la amb optimisme fàcil ni amb nostàlgia."
+            }
+          ]
+        },
+
+        {
+          "id": "soc-04",
+          "title": "Simmel i Goffman: La Vida Quotidiana com a Teatre Social",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Georg Simmel va observar que quan dos desconeguts es creuen en un passadís estret, tots dos miren lleugerament a un costat per evitar la mirada directa però sense mirar completament en una altra direcció — un equilibri precís entre reconeixement i indiferència. Va anomenar-ho 'desatenció cortesa'. Era un gest de mig segon que la majoria de persones feien mil vegades al dia sense pensar-hi. Simmel es va passar la vida estudiant aquells gestos minúsculs i va descobrir que contenien tota la lògica de la vida social moderna."
+            },
+            {
+              "type": "key-idea",
+              "text": "Erving Goffman va portar la intuïció de Simmel a la seva conclusió: la vida social és una actuació permanent. En cada interacció gestionem la 'impressió' que donem als altres, adoptem 'rols' que varien segons el context, i mantenim una 'façana' que separa el que mostrem del que amaguem. Això no és hipocresia — és la condició constitutiva de la vida social. La identitat no és el que som, és el que fem en cada situació."
+            },
+            {
+              "type": "expandable",
+              "label": "Simmel i la tragèdia de la cultura: quan els productes de l'esperit humà s'alliberen de qui els ha creat",
+              "content": "Georg Simmel va formular el que va anomenar la 'tragèdia de la cultura': l'esperit humà crea productes culturals — institucions, obres d'art, sistemes de coneixement, codis morals — que adquireixen una vida pròpia i acaben convertint-se en obstacles per al desenvolupament del mateix esperit que els va crear. La llengua que uses et permet pensar coses que sense ella no podries pensar, però també et limita a les categories que conté. Les institucions educatives que has creat per transmetre el coneixement acaben convertint-se en obstacles per a la innovació. La cultura objectiva (els productes de l'esperit humà acumulats) creix indefinidament, mentre que la cultura subjectiva (la capacitat individual d'assimilar-la) té límits. La modernitat és l'època en que la distància entre les dues ha crescut fins a ser gairebé insalvable: vivim envoltats de productes culturals que no podem absorbir ni comprendre plenament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-04-01",
+              "style": "multiple-choice",
+              "question": "Goffman va distingir entre la 'regió anterior' (front stage) — on actuem per a una audiència — i la 'regió posterior' (back stage) — on relaxem la representació. En quina d'aquestes regions es troba un metge quan explica un diagnòstic greu a un pacient?",
+              "options": [
+                "Completament en la regió anterior: el metge actua de manera professional i controlada davant del pacient",
+                "Completament en la regió posterior: la relació metge-pacient és íntima i permet deixar la representació professional",
+                "En una superposició complexa: el metge manté la façana professional (regió anterior) mentre gestiona les seves pròpies reaccions emocionals (tasca de la regió posterior), i ambdues coses passen simultàniament en el mateix espai",
+                "La distinció anterior/posterior no s'aplica a les professions amb codi deontològic"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. El metge en una consulta difícil il·lustra perfectament la complexitat de la teoria goffmaniana: ha de mantenir la representació professional (to tranquil, llenguatge precís, expressió controlada) mentre gestiona les seves pròpies emocions, que normalment pertanyerien a la 'regió posterior'. El que els sociòlegs de les professions anomenen 'treball emocional' és precisament la gestió d'aquella tensió: mantenir la façana professional mentre les emocions personals operen en un segon pla. Goffman no deia que les emocions fossin falses — deia que la vida social requereix una gestió constant de la presentació que no significa ni autenticitat total ni hipocresia total.",
+              "feedbackWrong": "La consulta mèdica no és ni purament 'anterior' ni purament 'posterior'. El metge manté una representació professional necessària mentre gestiona reaccions internes que normalment estarien en la 'regió posterior'. La distinció de Goffman no és sobre autenticitat — és sobre la gestió de la presentació en contextos socials específics."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-04-02",
+              "style": "detect-error",
+              "statement": "La teoria dramatúrgica de Goffman implica que totes les interaccions socials són performances calculades i que la gent no és mai 'realment' ella mateixa en les seves relacions amb els altres.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta interpretació malentén l'argument de Goffman. Goffman no deia que les persones siguin hipòcrites o que les seves representacions socials siguin falses. Deia que la gestió de la presentació és constitutiva de la identitat social: no hi ha un 'jo autèntic' amagat darrere de les representacions que seria el 'veritable' jo. La identitat és el conjunt de les representacions en els seus diversos contextos. A més, la distinció entre 'calculat' i 'espontani' és menys clara del que sembla: moltes de les representacions socials es fan de manera tan automàtica i interioritzada que no impliquen cap càlcul conscient. La mare que somriu al seu fill no 'calcula' la seva expressió — però sí que adapta el seu comportament al context de manera que Goffman analitzaria com a gestió de la presentació."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Introduction to Philosophy",
+              "moduleEmoji": "💡",
+              "concept": "Identitat personal i continuïtat del jo",
+              "text": "La teoria de Goffman sobre la identitat com a conjunt de representacions contextuals connecta directament amb el problema filosòfic de la identitat personal: existeix un 'jo' estable i continu, o som el producte canviant de les nostres interaccions? Locke, Hume i Parfit han abordat aquesta pregunta des de la filosofia; Goffman des de la sociologia de la vida quotidiana. Les dues disciplines es troben en la mateixa pregunta."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-soc-04-01",
+              "question": "Si la identitat social és sempre una representació contextual, com podem distingir entre una persona 'autèntica' i una que simplement és molt bona actuant?",
+              "options": [
+                "No podem: l'autenticitat és una il·lusió i la distinció no té base real",
+                "Podem: l'autenticitat consisteix en la coherència entre les representacions en diversos contextos i l'absència de contradicció entre el que es mostra i el que es pensa i sent",
+                "La pregunta és mal plantejada: l'autenticitat no és una propietat de la persona sinó de la relació — una persona és 'autèntica' en la mesura en que les seves representacions permeten als altres respondre a qui realment és, i no a una imatge dissenyada per manipular"
+              ],
+              "correct": 2,
+              "explanation": "La pregunta sobre l'autenticitat és una de les més complexes de la teoria social i la filosofia moral, i la resposta de Goffman és més matisada del que sembla. L'autenticitat no pot ser simplement l'absència de representació — tothom representa en tots els contextos socials. Però no totes les representacions són equivalents: hi ha representacions que permeten als altres respondre als trets rellevants de la persona (coherents amb el que la persona pensa, sent i valora) i representacions dissenyades per crear impressions enganyoses (que oculten sistemàticament el que la persona és). La distinció rellevant no és entre representació i autenticitat sinó entre representació coherent i representació manipuladora. Una persona 'autèntica' en el sentit que importa moralment és aquella les representacions de la qual permeten als altres formar una imatge adequada per establir relacions genuïnes — no necessàriament sense màscares, però sense màscares que enganyïn sobre el que és essencial."
+            }
+          ]
+        },
+
+        {
+          "id": "soc-05",
+          "title": "Bourdieu: El Capital Social i la Reproducció de la Desigualtat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Pierre Bourdieu va fer una observació pertorbadora: els fills de les classes acomodades que accedien a les millors universitats no eren simplement més intel·ligents o més treballadors que els fills de les classes populars. Tenien un 'capital cultural' — maneres de parlar, de moure's, de relacionar-se amb l'autoritat, gustos estètics, hàbits de lectura — que les institucions educatives reconeixien i recompensaven sense reconèixer que estaven fent-ho. L'escola pretenia ser un espai de mèrit igualitari. En realitat, era el mecanisme de reproducció de la desigualtat més eficient i menys visible que la societat moderna havia creat."
+            },
+            {
+              "type": "key-idea",
+              "text": "Bourdieu va elaborar un sistema de conceptes per descriure com la desigualtat es reprodueix sense violència explícita: el 'camp' (l'espai social estructurat per posicions i relacions de força), el 'capital' (en les seves formes econòmica, cultural, social i simbòlica), l'habitus (el conjunt de disposicions incorporades que guien l'acció sense ser conscients), i la 'violència simbòlica' (el poder que s'exerceix amb la complicitat dels dominats, que accepten les categories de percepció dels dominants)."
+            },
+            {
+              "type": "expandable",
+              "label": "L'habitus: per quina raó el fill de l'obrer i el fill del metge es comporten diferent davant del mateix professor",
+              "content": "L'habitus és el concepte més poderós i més difícil de Bourdieu. No és simplement una actitud o una preferència conscient — és un sistema de disposicions incorporades, inscrites en el cos, que orienten la percepció, el pensament i l'acció de manera preconscient. El fill d'una família d'advocats porta inscrit en el seu cos una relació amb l'autoritat intel·lectual (la desafia, hi dialoga, no s'intimida), un rapport amb la llengua escrita (és un instrument familiar, no un obstacle), uns hàbits de concentració i treball intel·lectual, una certa manera d'ocupar l'espai físic i social. Res d'això és conscient ni deliberat. El fill d'un treballador industrial porta un habitus diferent, no inferior, però inadequat per a les exigències implícites del camp escolar. L'escola no ensenya aquelles disposicions — les pressuposa. I aquí rau la violència simbòlica: transforma en mèrit individual allò que és producte d'una condició de classe, i en fracàs personal allò que és el resultat d'una herència cultural diferent."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-05-01",
+              "style": "multiple-choice",
+              "question": "Bourdieu va estudiar extensament les preferències estètiques — a quin tipus de música, art i literatura s'identifica cada classe social. El seu argument central era que el 'bon gust' no és universal sinó:",
+              "options": [
+                "Determinat biològicament: certes persones neixen amb una sensibilitat estètica superior",
+                "Purament subjectiu: cada classe social té els seus gustos i cap és objectivament millor que un altre",
+                "Una construcció social que les classes dominants han aconseguit presentar com a universal i objectiu, usant-lo per mantenir la distinció i la distància social respecte a les classes populars",
+                "El resultat de l'educació formal: les persones amb més anys d'escolaritat desenvolupen gustos més refinats independentment del seu origen de classe"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. 'La Distinció' (1979), el gran estudi empíric de Bourdieu sobre els gustos, va mostrar que les preferències estètiques segueixen patrons de classe amb una regularitat sorprenent — i que les classes dominants han aconseguit que els seus gustos particulars siguin reconeguts com 'el' bon gust universal, naturalitzant una diferència de classe com si fos una diferència de qualitat intrínseca. Preferir l'òpera al futbol no és simplement un gust diferent — és un capital simbòlic que s'ha construït socialment i que funciona com a marcador de posició social. Bourdieu no deia que tots els gustos valguin el mateix en termes estètics — deia que la jerarquia estètica és inseparable de la jerarquia social que la produeix.",
+              "feedbackWrong": "Bourdieu no era ni determinista biològic ni relativista absolut. El seu argument és que el 'bon gust' és una construcció social que les classes dominants han aconseguit presentar com a universal, usant-lo per mantenir la distinció i la distància respecte a les classes populars. La jerarquia estètica és inseparable de la jerarquia social."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-05-02",
+              "style": "true-false",
+              "question": "Segons Bourdieu, la mobilitat social ascendent és simplement una qüestió d'esforç individual i mèrit: qualsevol persona amb talent i dedicació pot superar les limitacions del seu origen de classe.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Bourdieu argumentava que la mobilitat social ascendent requereix no sols talent i esforç sinó una reconversió profunda de l'habitus: la persona que vol ascendre socialment ha d'aprendre les disposicions, els codis i les maneres de fer de la classe a la qual aspira, abandonant simultàniament els de la seva classe d'origen. Això té un cost psicològic real — el que Bourdieu anomenava 'l'efecte Don Quixot': la persona que ha ascendit socialment sovint se sent incòmoda en tots dos mons, sense pertànyer plenament a cap. La mobilitat social és possible però no és gratuïta, i el seu cost és desigual: és molt més fàcil per a qui té el capital cultural adequat de partida.",
+              "feedbackWrong": "Bourdieu argumentava que la mobilitat social no és simplement una qüestió d'esforç i talent. Requereix una reconversió de l'habitus que té costos psicològics reals, i les probabilitats de reeixir depenen en gran mesura del capital cultural inicial. Que la mobilitat sigui possible no vol dir que sigui igual d'assequible per a tothom."
+            },
+            {
+              "type": "debate",
+              "question": "Si les desigualtats educatives reflecteixen desigualtats de capital cultural hereditari, hauria el sistema educatiu de compensar activament aquells que parteixen amb menys capital cultural?",
+              "positionA": {
+                "label": "Sí — la compensació és una qüestió de justícia",
+                "argument": "Un sistema educatiu que pretén meritocràtic però en realitat recompensa el capital cultural hereditari és un sistema de reproducció de la desigualtat disfressat d'igualtat d'oportunitats. La justícia real requereix compensar activament les desigualtats de partida: més recursos, més temps, més suport per als qui comencen en desavantatge. L'alternativa és simplement sancionar com a fracàs personal el que és una desigualtat social."
+              },
+              "positionB": {
+                "label": "No — la compensació crea nous problemes",
+                "argument": "Un sistema que tracta diferent les persones en funció del seu origen destrueix la neutralitat que és la condició de la legitimitat del mèrit. A més, definir qui 'necessita' compensació requereix categories que inevitablement estigmatitzen. La solució no és compensar individuals sinó transformar les condicions socials generals que produeixen les desigualtats: polítiques d'habitatge, salut pública, suport a les famílies."
+              },
+              "reflection": "Has tingut alguna vegada la sensació de ser avaluat per quelcom que no era la teva capacitat sinó el teu origen, el teu accent o la teva manera de presentar-te? O al revés: has tingut avantatges que no tenien a veure amb el teu mèrit?",
+              "context": "Els sistemes educatius europeus apliquen polítiques molt diverses de compensació de desigualtats. Finlàndia ha eliminat el sistema de selecció per redirigir recursos als alumnes amb més necessitats. França manté un sistema centralitzat amb zones d'educació prioritària. El debat sobre si la compensació funciona o estigmatitza és empíricament obert."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-soc-05-01",
+              "question": "La teoria de Bourdieu sobre la reproducció social implica que la desigualtat és extraordinàriament persistent i que les institucions que pretenen reduir-la (l'escola, el mercat de treball meritocraci) en realitat la reprodueixen. Deixa espai per al canvi social?",
+              "options": [
+                "No — la teoria de Bourdieu és fonamentalment determinista i no explica com es produeix el canvi social",
+                "Sí — el canvi és possible quan els agents acumulen prou capital per qüestionar les regles del joc del camp en lloc de simplement jugar-hi",
+                "La teoria no és determinista sinó que descriu tendències estructurals fortes que el canvi individual no pot superar però que el canvi col·lectiu pot modificar, especialment en moments de crisi dels camps"
+              ],
+              "correct": 2,
+              "explanation": "La crítica més habitual a Bourdieu — que la seva teoria és determinista i no deixa espai per al canvi — és parcialment justa però exagerada. Bourdieu era conscient d'aquesta objecció i va elaborar una resposta: l'habitus no és un destí, és una disposició que pot ser modificada per les experiències viscudes, especialment quan les condicions del camp canvien de manera significativa. Els moviments socials, les crisis institucionals i els canvis estructurals macroeconòmics poden alterar els camps i fer que les disposicions anteriors ja no siguin adequades, forçant una reconversió col·lectiva de l'habitus. A més, Bourdieu sempre va mantenir que la sociologia reflexiva — la que pren consciència dels mecanismes que la descriuen — té un potencial alliberador: entendre que el que es presenta com a mèrit és en realitat capital cultural heretat no elimina la desigualtat, però la fa visible i per tant contestable. La presa de consciència col·lectiva no és suficient per al canvi social, però és una condició necessària."
+            }
+          ]
+        },
+
+        {
+          "id": "soc-06",
+          "title": "La Sociologia Avui: Identitat, Xarxes i el Món Digital",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2011, les revoltes de la primavera àrab van ser parcialment coordinades a través de Twitter i Facebook. Molts analistes van concloure que les xarxes socials digitals havien democratitzat la protesta i fet obsoleta la teoria sociològica clàssica sobre els moviments socials. Uns anys després, les mateixes plataformes digitals van ser usades per coordinar l'extrema dreta, difondre desinformació i polaritzar les societats democràtiques. Les eines noves no havien canviat la sociologia — havien creat nous camps on les velles dinàmiques de poder, identitat i cohesió operaven amb una intensitat sense precedents."
+            },
+            {
+              "type": "key-idea",
+              "text": "La sociologia contemporània enfronta un repte doble: ha d'estudiar fenòmens nous — identitats líquides, comunitats virtuals, algoritmes que estructuren les interaccions socials — amb eines conceptuals d'una tradició que va néixer al segle XIX. I ha de resistir la temptació de declarar que tot ha canviat quan sovint les dinàmiques de poder, desigualtat i reprodució social que Durkheim, Weber i Bourdieu van descriure operen amb la mateixa lògica en contextos digitals."
+            },
+            {
+              "type": "misconception",
+              "belief": "Les xarxes socials digitals han creat formes completament noves de comunitat i identitat que la sociologia clàssica no pot explicar.",
+              "reality": "Les xarxes socials digitals han amplificat i accelerat dinàmiques socials que la sociologia descriu des de fa un segle: la formació de grups d'identitat, la pressió a la conformitat, la divisió entre ingroup i outgroup, la difusió de rumors, el paper dels líders d'opinió. El que ha canviat és l'escala, la velocitat i la visibilitat d'aquelles dinàmiques, no la seva lògica fonamental.",
+              "why": "El presentisme tecnològic — la tendència a creure que les tecnologies noves creen fenòmens socials completament nous — és una de les formes més comunes de pensament poc rigorós sobre la societat. Cada nova tecnologia de comunicació ha generat afirmacions similars: la impremta, el telèfon, la televisió, internet."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-06-01",
+              "style": "multiple-choice",
+              "question": "Zygmunt Bauman va encunyar el concepte de 'modernitat líquida' per descriure una condició en que les estructures socials, les identitats i els vincles són fluids, temporals i incerts. Quin fenomen contemporani il·lustra millor aquesta condició?",
+              "options": [
+                "La crisi econòmica de 2008, que va demostrar la inestabilitat del sistema financer global",
+                "La proliferació de contractes de treball temporals i la fi de la carrera professional estable com a model dominant",
+                "L'augment de les migracions internacionals, que crea identitats híbrides i comunitats transnacionals",
+                "La polarització política, que fragmenta les societats en blocs identitaris incompatibles"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La fi de la carrera professional estable és una de les manifestacions més directes de la 'modernitat líquida' de Bauman: on les generacions anteriors podien planificar una vida laboral de quaranta anys en la mateixa empresa o professió, les generacions contemporànies operen amb identitats professionals fluides, contractes temporals, i la necessitat de reinventar-se contínuament. Bauman argumentava que la 'sòlidesa' de la modernitat clàssica — les institucions estables, les identitats de classe fixes, els projectes de vida previsibles — s'havia dissolt en una condició de fluïdesa permanent que és alliberadora i angoixant simultàniament.",
+              "feedbackWrong": "Malgrat que tots els fenòmens descrits il·lustren aspectes de la modernitat líquida, el que captura millor la seva essència és la transformació del treball: la fi de la carrera estable com a model és la dissolució de la estructura més central en la identitat i la planificació de vida de les generacions anteriors. Bauman va escriure extensament sobre com la precarietat laboral és el nucli de la condició líquida contemporània."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-soc-06-02",
+              "style": "detect-error",
+              "statement": "Les cambres de ressò a les xarxes socials — on les persones s'exposen principalment a informació que confirma les seves creences prèvies — són un fenomen exclusivament digital sense precedents en la sociologia de la comunicació.",
+              "isCorrect": false,
+              "feedbackExplanation": "La teoria de la 'cambra de ressò' digital ignora que la homofília — la tendència a associar-se preferentment amb persones similars en valors, creences i estatus social — és un fenomen documentat per la sociologia de les xarxes socials des dels anys 50. Lazarsfeld i Katz van mostrar el 1955 que les persones s'exposen selectivament a la informació que confirma les seves opinions i que els 'líders d'opinió' filtren i amplien la informació per als seus grups de referència. El que les xarxes digitals han canviat és l'escala i la velocitat d'aquest fenomen, i el paper dels algoritmes que l'optimitzen activament per maximitzar l'engagement. Però la dinàmica fonamental — buscar confirmació, evitar la dissonància cognitiva, construir identitat grupal a través de la diferenciació — és tan antiga com la vida social humana."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en un grup social al qual pertanys — de treball, d'oci, familiar, online. Pots identificar el seu 'habitus' compartit? Les normes implícites, les maneres de parlar, el que es recompensa i el que es penalitza? I pots veure com aquell habitus exclou persones que no el comparteixen?",
+              "prompt": "La sociologia comença quan veiem l'invisible en el quotidià."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-soc-06-01",
+              "question": "Cent cinquanta anys de sociologia han produït teories poderoses sobre com funciona la desigualtat, el poder i la reproducció social. I la desigualtat continua creixent, el poder continua concentrant-se, i les societats segueixen reproduint les seves jerarquies. Ha servit de res la sociologia?",
+              "options": [
+                "No ha servit: la sociologia descriu els problemes socials però no els resol, i la seva influència en les polítiques públiques és marginal",
+                "Ha servit: el coneixement sociològic ha informat polítiques públiques, moviments socials i reformes institucionals que han millorat les condicions de vida de milions de persones",
+                "Ha servit d'una manera diferent de la que esperàvem: la sociologia no resol els problemes socials directament, però crea les condicions intel·lectuals per reconèixer-los, nomenar-los i contestar-los — i sense aquella condició, el canvi és impossible"
+              ],
+              "correct": 2,
+              "explanation": "La pregunta sobre la utilitat de la sociologia és també una pregunta sobre la relació entre coneixement i poder. La resposta honesta és que la sociologia no ha eliminat la desigualtat ni el poder, però ha canviat de manera real i mesurable la manera com les societats entenen i contesten aquells fenòmens. El concepte de 'capital cultural' de Bourdieu ha entrat en el discurs educatiu i ha canviat la manera com moltes institucions pensen les desigualtats escolars. La teoria de la 'profecia autocomplerta' de Merton ha influït en les polítiques de reducció dels biaixos en el sistema judicial. La investigació sobre la desigualtat ha proporcionat arguments i evidències als moviments socials que han aconseguit reformes redistributives. Però la sociologia no és un programa polític — és una eina de comprensió. Confondre les dues coses produeix o una sociologia que abandona el rigor per a la militància, o una militància que espera que la teoria sol resolgui el que requereix acció política. La sociologia és la condició intel·lectual necessària per al canvi social: sense ella, l'acció és cega; amb ella, l'acció sap el que fa — però segueix sent acció el que cal."
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

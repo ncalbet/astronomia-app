@@ -1,0 +1,502 @@
+{
+  "id": "module-XX-etica-practica",
+  "title": "Ètica Pràctica: Decisions en Casos Límit",
+  "emoji": "⚖️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "tematic",
+      "title": "Itinerari Temàtic",
+      "icon": "⚖️",
+      "description": "Dels dilemes clàssics de la filosofia moral a les decisions reals: com raonen els filòsofs quan les apostes són altes",
+      "style": "Temàtic · dels fonaments als casos límit",
+      "lessons": [
+
+        {
+          "id": "ep-01",
+          "title": "Per Què els Dilemes Morals No Tenen Solució Fàcil",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Un tren desbocat s'acosta a cinc persones lligades a la via. Tu estàs al costat d'una palanca. Si la gires, el tren canviarà de via i matarà una sola persona. Si no fas res, moriran cinc. Segurament has sentit a parlar del problema del tramvia. El que potser no saps és que el seu propòsit original no era trobar la resposta correcta — era demostrar que les nostres intuïcions morals es contradiuen entre si de maneres que no podem resoldre fàcilment."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un dilema moral genuí no és una situació on una opció és clarament bona i l'altra clarament dolenta. És una situació on dues o més consideracions morals igualment legítimes entren en conflicte i no hi ha manera de satisfer-les totes. La dificultat no és ignorància — és estructura."
+            },
+            {
+              "type": "misconception",
+              "belief": "Els dilemes morals existeixen perquè la gent no ha pensat prou o no té prou informació. Amb el raonament adequat, sempre hi ha una resposta correcta.",
+              "reality": "Alguns dilemes morals són genuïnament irresolubles no per manca de raonament sinó perquè reflecteixen conflictes entre valors fonamentals — llibertat i seguretat, justícia i compassió, deure i conseqüències — que no es poden jerarquitzar de manera universalment vàlida.",
+              "why": "Vivim en una cultura que valora la resolució de problemes i desconfia de la incertesa. Acceptar que un problema moral no té solució definitiva sembla una feblesa intel·lectual. Però negar la dificultat real dels dilemes produeix falses certeses pitjors que la incertesa honesta."
+            },
+            {
+              "type": "expandable",
+              "label": "Philippa Foot i l'origen del problema del tramvia",
+              "content": "El problema del tramvia va ser formulat per la filòsofa britànica Philippa Foot el 1967, en un article sobre l'avortament i la doctrina del doble efecte. Foot no estava interessada en els trens — estava intentant articular per què intuïm que és diferent matar activament una persona per salvar-ne cinc (inacceptable per a molts) de deixar morir una persona per salvar-ne cinc (acceptable per a molts). La seva pregunta era: si el resultat numèric és el mateix, per què les dues accions ens semblen moralment diferents? Trenta anys després, la filòsofa Judith Jarvis Thomson va elaborar la variant del 'home corpulent' — empenyes algú des d'un pont per aturar el tramvia — que va demostrar que la nostra intuïció sobre el primer cas no és consistent: la majoria de persones que giraria la palanca no empenyeria l'home. El problema del tramvia s'ha convertit en l'experiment mental més estudiat de la filosofia moral contemporània precisament perquè revela la inconsistència sistemàtica de les nostres intuïcions."
+            },
+            {
+              "type": "prediction",
+              "question": "Giraràs la palanca? Pren una posició abans de continuar. No perquè hi hagi una resposta correcta, sinó perquè la teva resposta revela quina teoria moral uses intuïtivament.",
+              "hint": "Gairebé tothom té una resposta immediata. Pregunta't per quin principi la justifiques."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-01-01",
+              "style": "multiple-choice",
+              "question": "La majoria de persones gira la palanca (mata una per salvar cinc) però no empeny l'home corpulent des del pont (mata una per salvar cinc). El resultat numèric és idèntic. Quina explicació capta millor la diferència moral?",
+              "options": [
+                "La distinció entre acció i omissió: girar la palanca és actuar; no empenyer és no actuar, i no actuar és moralment menys greu",
+                "La distinció entre usar algú com a mitjà i redirigir un perill existent: en el cas del pont, la mort de l'home és el mecanisme del rescat; en el cas de la palanca, la mort és un efecte lateral",
+                "La proximitat física: empenyer algú amb les mans és visceralment diferent de girar una palanca, i les nostres intuïcions morals responen a factors emocionals, no racionals",
+                "No hi ha diferència moral real: la inconsistència demostra que les nostres intuïcions són irracionals i s'haurien de descartar en favor d'un càlcul pur de conseqüències"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Aquesta és la distinció que Judith Jarvis Thomson va articular i que connecta amb la doctrina filosòfica del doble efecte: hi ha una diferència moral entre causar un mal com a efecte lateral d'una acció bona (la mort de l'home a la via és un efecte lateral de redirigir el tren) i causar un mal com a instrument per aconseguir un bé (la mort de l'home al pont és el mecanisme que atura el tren). Aquesta distinció no resol tots els dilemes, però captura per què la majoria de persones sent que els dos casos no són idèntics malgrat el resultat numèric igual.",
+              "feedbackWrong": "La distinció acció/omissió i la resposta emocional a la proximitat física contribueixen a la diferència intuïtiva, però no la capturen completament. La clau és si la mort de la persona és un efecte lateral de l'acció o el seu instrument necessari. Aquesta distinció — formulada per la doctrina del doble efecte — és la que millor explica per què el mateix resultat numèric produeix judicis morals diferents."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-01-02",
+              "style": "true-false",
+              "question": "Si dues persones raonadament i de bona fe arriben a conclusions morals oposades davant del mateix dilema, una d'elles ha de tenir necessàriament un error de raonament.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Dues persones poden raonar correctament a partir de principis morals fonamentals diferents i arribar a conclusions oposades. Una persona que posa el valor absolut de la vida humana individual per sobre de qualsevol càlcul numèric i una persona que considera que salvar el màxim nombre de vides és el criteri determinant no s'equivoquen en el raonament — parteixen de premisses diferents. El desacord moral profund sovint és un desacord sobre valors fonamentals, no sobre lògica.",
+              "feedbackWrong": "El desacord moral no implica necessàriament error de raonament. Quan el desacord és profund i persistent entre persones reflexives i de bona fe, sovint indica un conflicte entre valors fonamentals que el raonament per si sol no pot resoldre. Reconèixer-ho és intel·lectualment més honest que atribuir l'altra posició a un error."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ep-01-01",
+              "question": "Les nostres intuïcions morals — com la que ens fa distingir entre girar la palanca i empenyer l'home — són una guia fiable per al raonament ètic, o s'haurien de subordinar a la teoria?",
+              "options": [
+                "Les intuïcions són guies fiables: representen la saviesa moral acumulada de l'espècie i la teoria hauria de ser coherent amb elles",
+                "Les intuïcions no són fiables: estan contaminades per biaixos evolutius, culturals i emocionals i s'haurien de substituir pel raonament teòric",
+                "Les intuïcions i la teoria s'han de posar en diàleg: les intuïcions fortes són evidència moral que la teoria ha d'explicar, però les intuïcions que no superen el scrutini racional s'han de revisar"
+              ],
+              "correct": 2,
+              "explanation": "John Rawls va anomenar 'equilibri reflexiu' el procés pel qual ajustem les nostres intuïcions morals i els nostres principis teòrics mútuament fins a trobar una coherència acceptable. Cap dels dos extrems funciona. Les intuïcions pures sense teoria produeixen inconsistències sistemàtiques com les que revela el problema del tramvia. La teoria pura sense intuïcions produeix conclusions monstruoses: el benthamisme estricte permetria torturar un innocent si les conseqüències globals fossin suficientment positives, i la nostra intuïció que això és inacceptable és una raó per revisar la teoria, no per ignorar la intuïció. Les intuïcions morals fortes — especialment les compartides entre cultures i èpoques — funcionen com a dades que qualsevol teoria moral adequada ha d'explicar. Però les intuïcions que reflecteixen biaixos documentats (racisme, sexisme, nepotisme) han de ser corregides per la raó. El repte és distingir quines intuïcions mereixen ser corregides i quines mereixen ser respectades — i això requereix exactament el diàleg entre intuïció i teoria que Rawls va descriure."
+            }
+          ]
+        },
+
+        {
+          "id": "ep-02",
+          "title": "Conseqüències o Principis: El Gran Debat de l'Ètica",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Imagina que pots salvar cent vides torturant una persona innocent. L'utilitarista diu: fes-ho, el càlcul és clar. El kantià diu: mai, la dignitat humana no és negociable. El debat entre els dos no és una disputa acadèmica — és la tensió fonamental de tota la filosofia moral occidental, i apareix cada vegada que un govern decideix sobre vigilància massiva, pena de mort, racionament sanitari o guerra preventiva."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'utilitarisme i la deontologia no són simplement dues teories ètiques entre moltes — representen dues visions fonamentalment incompatibles sobre on resideix el valor moral: en les conseqüències de les accions (el bé produit) o en la naturalesa de les accions mateixes (el respecte als principis). Cap teoria ha guanyat el debat. Totes dues capturen quelcom essencial i totes dues produeixen conclusions inacceptables en casos extrems."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1781",
+                  "title": "Kant — Crítica de la Raó Pura",
+                  "text": "Kant estableix que la moralitat resideix en la intenció i el deure, no en les conseqüències. L'imperatiu categòric: actua només segons aquella màxima que puguis voler que es converteixi en llei universal."
+                },
+                {
+                  "year": "1789",
+                  "title": "Bentham — Introducció als Principis de Moral i Legislació",
+                  "text": "Bentham formula el principi de la màxima felicitat: l'acció correcta és la que produeix el major benestar per al major nombre. La moralitat és càlcul."
+                },
+                {
+                  "year": "1863",
+                  "title": "Mill — Utilitarisme",
+                  "text": "Mill refina Bentham distingint qualitats de plaer: 'és millor ser Sòcrates insatisfet que un ximple satisfet'. Introdueix el reconeixement que no tots els plaers valen igual."
+                },
+                {
+                  "year": "1971",
+                  "title": "Rawls — Una Teoria de la Justícia",
+                  "text": "Rawls intenta superar la dicotomia proposant una teoria de la justícia basada en principis que persones racionals triarien darrere d'un 'vel d'ignorància' sobre la seva posició social."
+                },
+                {
+                  "year": "1984",
+                  "title": "Parfit — Raons i Persones",
+                  "text": "Parfit explora les paradoxes del consequencialisme i la identitat personal, mostrant que les teories morals dominants produeixen conclusions contraintuïtives quan s'apliquen a casos extrems."
+                }
+              ]
+            },
+            {
+              "type": "quote",
+              "text": "Actua només segons aquella màxima per la qual puguis voler al mateix temps que es converteixi en una llei universal.",
+              "author": "Immanuel Kant, Fonamentació de la Metafísica dels Costums, 1785"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-02-01",
+              "style": "multiple-choice",
+              "question": "El 'problema del violinista' de Judith Jarvis Thomson (1971): et despertes connectat a un famós violinista inconscient. Els metges t'expliquen que el violinista té una malaltia renal i necessita el teu sistema circulatori durant nou mesos. Si te'l desconnectes, morirà. Thomson argumenta que tens dret a desconnectar-te, fins i tot si el violinista té dret a la vida. Per a quin debat va dissenyar Thomson aquest argument?",
+              "options": [
+                "Per argumentar contra l'eutanàsia activa en casos terminals",
+                "Per argumentar que el dret a la vida no implica el dret a usar el cos d'una altra persona, en el context del debat sobre l'avortament",
+                "Per demostrar que els drets individuals sempre prevalen sobre el benestar col·lectiu",
+                "Per qüestionar l'obligatorietat de la donació d'òrgans"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Thomson va dissenyar el problema del violinista com un argument en el debat sobre l'avortament: fins i tot concedint que el fetus té dret a la vida, això no implica automàticament que la dona tingui l'obligació de mantenir-lo amb el seu cos. La genialitat de l'argument és que separa dues qüestions que sovint es confonen: el dret a la vida d'un ésser i el dret d'aquest ésser a usar el cos d'una altra persona per sobreviure. Pots acceptar tots dos drets com a vàlids i tanmateix concloure que no hi ha obligació absoluta de continuar el suport.",
+              "feedbackWrong": "El problema del violinista és un dels arguments filosòfics aplicats més citats del segle XX precisament perquè va aconseguir reformular el debat sobre l'avortament en termes de drets corporals, independentment de la qüestió del estatut moral del fetus. Thomson el va dissenyar específicament per a aquest context."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què l'utilitarisme permetria torturar innocents — i per què això importa",
+              "content": "L'utilitarisme benthamià en la seva forma més pura diu: si torturar una persona innocent produeix un benestar net superior al dany causat, és moralment obligatori fer-ho. Aquesta conclusió pertorba profundament la majoria de persones, i aquesta pertorbació és filosòficament significativa: indica que l'utilitarisme pur viola alguna cosa que intuïm com a fonamental en la dignitat humana. John Stuart Mill va intentar solucionar-ho distingint entre regles utilitaristes i actes utilitaristes: potser la regla 'no torturis innocents' produeix, en general, millors conseqüències que la seva negació, fins i tot si en casos individuals la tortura produiria un benefici net. Però això és concedir que l'utilitarisme necessita correccions externes per no arribar a conclusions monstruoses. Bernard Williams va argumentar que el problema és més profund: l'utilitarisme nega la integritat moral de la persona en exigir que sacrifiqui els seus compromisos més profunds si el càlcul ho requereix."
+            },
+            {
+              "type": "comparison",
+              "title": "Utilitarisme vs. Deontologia Kantiana",
+              "labelA": "Utilitarisme",
+              "labelB": "Deontologia (Kant)",
+              "items": [
+                {
+                  "label": "Criteri moral",
+                  "a": "Les conseqüències: l'acció correcta maximitza el benestar net",
+                  "b": "El deure: l'acció correcta respecta els principis universalitzables"
+                },
+                {
+                  "label": "Estatus de la persona",
+                  "a": "Un factor en el càlcul, ponderat com qualsevol altre",
+                  "b": "Un fi en si mateixa, mai un mer mitjà"
+                },
+                {
+                  "label": "Fortalesa",
+                  "a": "Sensible als resultats reals; permet comparar polítiques",
+                  "b": "Protegeix drets individuals contra la tirania de la majoria"
+                },
+                {
+                  "label": "Debilitat",
+                  "a": "Pot justificar atrocitats si el càlcul és favorable",
+                  "b": "Pot ser rígida fins a l'absurd en casos extrems"
+                },
+                {
+                  "label": "Exemple límit",
+                  "a": "Permetria executar un innocent per evitar disturbis greus",
+                  "b": "Prohibiria mentir a un assassí sobre on s'amaga la víctima"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-02-02",
+              "style": "detect-error",
+              "statement": "Kant va argumentar que mai és moralment permès mentir, ni tan sols per protegir una persona innocent d'un assassí que la busca. Aquesta posició és tan extrema que demostra que la deontologia kantiana és inaplicable com a teoria moral pràctica.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és usar un cas extrem per invalidar tota una teoria. La posició de Kant sobre la mentida és problemàtica i ha estat àmpliament criticada per filòsofs kantians posteriors — el propi sistema de Kant permet reformulacions que arriben a conclusions menys rígides. Però una teoria moral no s'invalida per produir conclusions difícils en casos límit construïts per forçar-la: totes les grans teories morals produeixen conclusions contraintuïtives en algun tipus de cas extrem. L'utilitarisme pot justificar la tortura d'innocents; el contractualisme pot excloure animals i persones sense capacitat de raonament; la virtut ètica pot ser vaga en situacions noves. El criteri per avaluar una teoria moral no és si mai falla en cap cas, sinó quin tipus de guia proporciona en la majoria de situacions reals."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ep-02-01",
+              "question": "En la pràctica real de la política i la llei, quin enfocament és més adequat: l'utilitarista o el deontològic?",
+              "options": [
+                "L'utilitarista: les polítiques públiques han de maximitzar el benestar col·lectiu, i els drets individuals no poden ser absoluts quan entren en conflicte amb el bé comú",
+                "El deontològic: els drets fonamentals de les persones han de ser inviolables per protegir les minories de la tirania de la majoria",
+                "Cap dels dos de manera pura: la pràctica jurídica i política real combina consideracions de conseqüències amb límits deontològics, i aquesta hibridació és la resposta correcta a la complexitat moral"
+              ],
+              "correct": 2,
+              "explanation": "Els sistemes jurídics i polítics liberals funcionen precisament en la tensió entre les dues tradicions, i no resolen la tensió sinó que la institucionalitzen. Els drets fonamentals (vida, llibertat, dignitat) funcionen com a restriccions deontològiques: hi ha coses que un estat no pot fer als seus ciutadans independentment de les conseqüències. Però dins d'aquests límits, la política pública opera amb lògica utilitarista: avaluem polítiques de salut, educació, infraestructura i seguretat en termes de costos i beneficis. El problema és que els límits deontològics no s'apliquen sols: requereixen interpretació, i la interpretació sempre implica consideracions de conseqüències. On posem el límit entre 'dret inviolable' i 'consideració ponderable' és una decisió política i filosòfica que cap de les dues teories pot fer sola. La hibridació no és una solució elegant — és l'admissió honesta que cap teoria única captura tota la complexitat de la moral pràctica."
+            }
+          ]
+        },
+
+        {
+          "id": "ep-03",
+          "title": "Justícia: Qui Es Mereix Què",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Imagina que has de dissenyar una societat justa, però no saps quin lloc hi ocuparàs. No saps si seràs ric o pobre, sa o malalt, nascut en una família privilegiada o en una de marginada. No saps el teu sexe, la teva raça, ni els teus talents naturals. Darrere d'aquest 'vel d'ignorància', quin sistema triaríes? John Rawls creia que la resposta a aquesta pregunta revela els veritables principis de la justícia — alliberats de l'interès personal."
+            },
+            {
+              "type": "key-idea",
+              "text": "La justícia distributiva no és una qüestió de generositat o compassió — és una qüestió de principis sobre el que les persones mereixen i per quins motius. Les tres respostes principals — a cadascú segons la seva contribució, a cadascú segons les seves necessitats, a cadascú la mateixa part — no són variacions d'una mateixa idea: representen visions incompatibles de la naturalesa humana i de la relació entre l'individu i la societat."
+            },
+            {
+              "type": "misconception",
+              "belief": "La igualtat és el principi central de la justícia: una societat justa tracta tothom de la mateixa manera.",
+              "reality": "La igualtat de tractament pot produir resultats profundament injustos quan les persones parteixen de posicions radicalment desiguals. Una societat que dona exactament els mateixos recursos a un nen que creix en la pobresa i a un nen que creix en la riquesa no és justa — és cega a una desigualtat que existeix independentment del seu tractament. La majoria de teories de la justícia distingeixen entre igualtat formal (les mateixes regles per a tots) i igualtat substantiva (les mateixes oportunitats reals).",
+              "why": "La confusió entre igualtat formal i igualtat substantiva és políticament convenient per a qui es beneficia de les desigualtats existents: defensar la igualtat de tractament quan les posicions de partida són desiguals és mantenir la desigualtat amb vocabulari de justícia."
+            },
+            {
+              "type": "expandable",
+              "label": "El vel d'ignorància de Rawls: per què és un experiment mental poderós — i limitat",
+              "content": "L'experiment del vel d'ignorància de Rawls és brillant perquè elimina l'interès personal del raonament sobre la justícia: si no saps si seràs ric o pobre, no pots raonar en benefici propi. Rawls argumenta que darrere del vel, persones racionals triarien dos principis: primer, la màxima llibertat compatible per a tots; segon, les desigualtats només es justifiquen si beneficien els membres menys afavorits de la societat (el principi de diferència). Però el vel d'ignorància té limitacions importants. Nozick va argumentar que no tenim cap raó per no saber qui som quan decidim sobre la justícia: la propietat i els drets individuals preexisteixen a qualsevol contracte social. Les feministes van assenyalar que el vel pressuposa un subjecte abstracte i desincorporat que ignora la manera en que el gènere, la raça i el cos configuren l'experiència de la justícia. I els comunitaristes van objectar que no podem separar el nostre sentit de la justícia de la comunitat i la tradició en les quals estem immersos."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-03-01",
+              "style": "multiple-choice",
+              "question": "Robert Nozick va publicar 'Anarchy, State, and Utopia' (1974) com a resposta directa a Rawls. El seu argument central contra el principi de diferència de Rawls és:",
+              "options": [
+                "Que les desigualtats econòmiques sempre perjudiquen els més pobres, contràriament al que Rawls assumia",
+                "Que redistribuir riquesa per beneficiar els menys afavorits requereix violar els drets de propietat de les persones, i cap principi de justícia pot justificar-ho",
+                "Que el vel d'ignorància és psicològicament impossible i per tant el seu resultat no té validesa normativa",
+                "Que Rawls prioritza la llibertat de manera insuficient i el principi de diferència hauria de ser el principi primari"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Nozick argumenta que si una distribució ha emergit de transaccions voluntàries justes, cap autoritat externa pot redistribuir-la sense violar els drets de les persones implicades, independentment del resultat. La famosa metàfora de Nozick és la de Wilt Chamberlain: si un milió de persones paguen voluntàriament 25 cèntims per veure jugar Chamberlain, ell acabarà amb 250.000 dòlars. Redistribuir aquells diners requereix interferir en les decisions lliures d'un milió de persones. Per a Nozick, la justícia és sobre processos, no sobre resultats.",
+              "feedbackWrong": "L'argument de Nozick no és psicològic ni sobre la priorització relativa dels principis de Rawls. És una objecció fonamental sobre la naturalesa dels drets: Nozick creu que els drets de propietat adquirits justament són inviolables, i qualsevol redistribució forçada — fins i tot per beneficiar els pobres — viola aquests drets. El debat Rawls-Nozick és el debat filosòfic sobre la justícia distributiva més important del segle XX."
+            },
+            {
+              "type": "debate",
+              "question": "L'acció afirmativa — donar preferència a membres de grups històricament discriminats en l'accés a llocs de treball o educació — és una política justa?",
+              "positionA": {
+                "label": "Sí — corregeix desigualtats estructurals",
+                "argument": "Les desigualtats presents no han sorgit en un buit: són el resultat acumulat de discriminació sistemàtica passada. Una justícia que ignora aquesta herència i aplica regles formals iguals a posicions de partida radicalment desiguals perpètua la injustícia amb aparença de neutralitat. L'acció afirmativa no és un privilegi — és una correcció de privilegis anteriors no qüestionats."
+              },
+              "positionB": {
+                "label": "No — individualitza injustament la responsabilitat",
+                "argument": "L'acció afirmativa perjudica individus que no han discriminat ningú per compensar injustícies comeses per altres. Tractar les persones com a representants de grups en lloc d'individus és exactament el mecanisme que va produir la discriminació original. La justícia ha de ser individual, no grupal: cal eliminar les barreres discriminatòries, no crear noves desigualtats en sentit invers."
+              },
+              "reflection": "Si fossis la persona no seleccionada a causa d'una política d'acció afirmativa, canviaria la teva posició sobre la seva justícia? Per què?",
+              "context": "El debat sobre l'acció afirmativa ha produït sentències contradictòries als tribunals suprems de molts països. Als EUA, la Cort Suprema va limitar severament el seu ús en admissions universitàries el 2023. A Europa, els enfocaments varien significativament entre països."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-03-02",
+              "style": "true-false",
+              "question": "El principi de diferència de Rawls — les desigualtats només es justifiquen si beneficien els menys afavorits — implica que una societat justa ha d'eliminar totes les desigualtats econòmiques.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El principi de diferència de Rawls és compatible amb desigualtats significatives sempre que beneficiïn els membres menys afavorits de la societat. Si un sistema que permet que metges i enginyers guanyin molt més que altres treballadors produeix, a través de la innovació i la productivitat, uns serveis i uns ingressos que milloren la situació dels més pobres, Rawls l'acceptaria. El que Rawls rebutja no és la desigualtat en si mateixa, sinó la desigualtat que beneficia els afavorits sense millorar la situació dels menys afavorits.",
+              "feedbackWrong": "Rawls no era igualitarista en el sentit de voler resultats iguals per a tots. El seu 'principi de diferència' permet i fins i tot exigeix desigualtats si aquestes beneficien els membres menys afavorits. És una teoria de la justícia liberal que intenta combinar llibertat individual i preocupació pels més desafavorits, no una teoria igualitarista estricta."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ep-03-01",
+              "question": "Les desigualtats generades per talents naturals — intel·ligència, habilitats, salut — són moralment arbitràries i per tant la societat hauria de compensar-les?",
+              "options": [
+                "Sí — ningú mereix els talents amb què ha nascut; una societat justa hauria de neutralitzar les avantatges naturals tant com les avantatges socials",
+                "No — els talents naturals formen part de la identitat de la persona; redistribuir els fruits del talent és violar la propietat de la persona sobre si mateixa",
+                "Parcialment: la societat ha de garantir que les desigualtats de talent no es combinin amb les desigualtats socials per amplificar la injustícia, però no pot ni hauria d'intentar eliminar totes les diferències d'outcome basades en talent"
+              ],
+              "correct": 2,
+              "explanation": "Rawls va fer l'observació profunda que els talents naturals, com la família en la qual naixem, són 'moralment arbitraris': no fem res per merèixer-los. La conclusió radical seria que la societat hauria de compensar completament les diferències de talent, igual que les diferències de classe. Però aquesta conclusió produeix problemes seriosos. Nozick va objectar que els talents no existeixen separats de les persones que els posseeixen: extreure el fruit del talent d'algú equival a extreure part de la seva persona. I hi ha un problema pràctic: una societat que intenta eliminar totes les diferències d'outcome basades en talent necessita un aparell de control i redistribució tan invasiu que produeix injustícies pitjors que les que intenta corregir. La posició més defensable és la de Rawls en la seva forma moderada: la societat no pot ni ha d'eliminar les diferències de talent, però ha d'evitar que es combinin amb desigualtats socials i econòmiques per crear posicions de partida radicalment desiguals. L'objectiu és la igualtat d'oportunitats reals, no la igualtat de resultats."
+            }
+          ]
+        },
+
+        {
+          "id": "ep-04",
+          "title": "Vida i Mort: Els Límits de l'Autonomia",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1975, Karen Ann Quinlan va quedar en estat vegetatiu persistent després d'una parada cardíaca. Els seus pares van demanar als metges que la desconnectessin del respirador artificial. L'hospital es va negar. El cas va arribar al Tribunal Suprem de Nova Jersey, que va autoritzar la desconnexió. Karen va sobreviure nou anys més sense el respirador, en estat vegetatiu. El cas Quinlan va forçar als estats moderns a respondre una pregunta que mai havien hagut d'afrontar de manera sistemàtica: qui decideix quan acaba una vida?"
+            },
+            {
+              "type": "key-idea",
+              "text": "El debat sobre l'eutanàsia no és principalment un debat mèdic — és un debat filosòfic sobre l'autonomia. La pregunta central no és 'quan és tècnicament possible acabar una vida?' sinó 'qui té autoritat moral per prendre aquesta decisió, i sobre quines bases?'"
+            },
+            {
+              "type": "misconception",
+              "belief": "La distinció entre eutanàsia activa (administrar un fàrmac letal) i eutanàsia passiva (retirar el tractament) té una base moral clara: l'una és matar, l'altra és deixar morir.",
+              "reality": "La distinció entre acció i omissió és filosòficament molt menys clara del que sembla. Si un metge retira un tractament que mantenia el pacient viu, no ha 'deixat' que la malaltia actuï — ha pres una decisió activa que porta directament a la mort. James Rachels va argumentar el 1975 que si les circumstàncies i les intencions són idèntiques, no hi ha diferència moral entre matar i deixar morir. La distinció legal és important, però la seva base moral és contestada.",
+              "why": "La distinció actiu/passiu és còmoda perquè permet als sistemes mèdics i legals establir fronteres pràctiques sense haver d'afrontar la pregunta filosòfica de fons. Però còmoda no vol dir justificada."
+            },
+            {
+              "type": "expandable",
+              "label": "El principi del doble efecte en medicina: morfina que pot accelerar la mort",
+              "content": "En la pràctica mèdica real, la doctrina del doble efecte s'aplica constantment en situacions que rarament arriben als titulars: l'administració d'altes dosis de morfina per controlar el dolor d'un pacient terminal pot accelerar la seva mort com a efecte secundari. La majoria de codis mèdics i sistemes legals permeten aquesta pràctica perquè l'intent és alleujar el sofriment, no causar la mort — la mort és un efecte previst però no buscat. La doctrina del doble efecte prové de la filosofia escolàstica medieval i ha estat adoptada per la bioètica moderna com a eina per distingir accions mèdiques legítimes d'eutanàsia activa. Els seus crítics argumenten que és una distinció casuística que permet als professionals sanitaris fer el que en realitat és eutanàsia amb tranquil·litat de consciència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-04-01",
+              "style": "multiple-choice",
+              "question": "Un pacient adult, lúcid i informat demana als metges que aturin el tractament que el manté viu. Els metges saben que sense tractament el pacient morirà en dies. Des d'una perspectiva d'autonomia, quina és la resposta adequada?",
+              "options": [
+                "Els metges han d'intentar convèncer el pacient de continuar el tractament perquè el deure mèdic és preservar la vida",
+                "Els metges han de respectar la decisió del pacient: l'autonomia sobre el propi cos inclou el dret a refusar tractament, fins i tot si això comporta la mort",
+                "La decisió hauria de ser presa conjuntament per la família del pacient i l'equip mèdic, ja que el pacient pot no estar en condicions de jutjar clarament",
+                "Cal una avaluació psiquiàtrica per determinar si la decisió del pacient és competent abans de considerar-la vàlida"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El dret a refusar tractament és un dels principis més ben establerts de la bioètica i el dret mèdic en les democràcies liberals: un pacient adult i competent té autoritat sobre el seu propi cos, i això inclou el dret a refusar qualsevol intervenció mèdica, fins i tot vital. El principi d'autonomia no significa que els metges no puguin expressar la seva opinió o explorar amb el pacient les seves motivacions — significa que la decisió final correspon al pacient. La infantilització del pacient (opcions 3 i 4) viola aquest principi, tret que hi hagi raons específiques per qüestionar la seva competència.",
+              "feedbackWrong": "El dret a refusar tractament és una de les bases de la bioètica moderna. Substituir la decisió del pacient competent per la de la família, l'equip mèdic o un avaluador psiquiàtric — sense indicis específics d'incompetència — viola el principi d'autonomia que és el fonament dels drets dels pacients."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-04-02",
+              "style": "detect-error",
+              "statement": "Legalitzar l'eutanàsia activa crea inevitablement un 'pendent lliscant' que porta a la mort de persones vulnerables que no han donat el seu consentiment, com demostren els casos dels Països Baixos i Bèlgica.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta afirmació conté dos errors. Primer, l'argument del 'pendent lliscant' és una afirmació empírica que requereix evidència empírica, no una deducció lògica. Les dades dels Països Baixos i Bèlgica — els dos sistemes d'eutanàsia activa legal més antics d'Europa — mostren un augment en el nombre de casos al llarg del temps, però no una extensió documentada cap a persones no consentents. Segon, l'expansió als Països Baixos cap a casos de sofriment psiquiàtric sever ha estat el resultat de decisions legislatives deliberades, no d'una erosió gradual de les salvaguardes. Que un sistema evolucioni no és el mateix que lliscar inevitablement cap a l'abús. L'argument del pendent lliscant pot ser una precaució legítima, però ha de basar-se en evidència real i no en una fal·làcia lògica."
+            },
+            {
+              "type": "debate",
+              "question": "Hauria de ser legal l'eutanàsia activa per a persones que sofreixen de manera intractable però no estan en fase terminal?",
+              "positionA": {
+                "label": "Sí — el sofriment, no la proximitat de la mort, és el criteri rellevant",
+                "argument": "Si acceptem que el sofriment terminal justifica l'eutanàsia, la lògica del principi exigeix que el criteri sigui la qualitat i la intractabilitat del sofriment, no el temps que queda de vida. Una persona amb una malaltia degenerativa que viurà anys en sofriment sever pot tenir una necessitat més urgent que algú que morirà en setmanes. Excloure-la per raons de terminalitat és arbitrari."
+              },
+              "positionB": {
+                "label": "No — l'extensió crea riscos inacceptables",
+                "argument": "Cada extensió dels criteris d'eutanàsia augmenta el risc que persones vulnerables — amb depressions tractables, discapacitats, persones grans que se senten una càrrega — siguin empeses subtilment cap a una decisió que no haurien pres lliurement en circumstàncies diferents. La frontera entre sofriment 'intractable' i sofriment 'insuficientment tractat' és difícil de traçar, i l'error és irreversible."
+              },
+              "reflection": "Si tu mateix pateixes una malaltia que et causarà sofriment sever durant anys sense possibilitat de mort propera, voldries tenir accés legal a l'eutanàsia activa? Canvia alguna cosa en la teva resposta anterior?",
+              "context": "Països Baixos, Bèlgica, Canadà i Suïssa permeten l'eutanàsia per sofriment no terminal en determinades condicions. Espanya, Àustria i Nova Zelanda han legalitzat recentment l'eutanàsia, però amb criteris més restrictius. El debat evoluciona ràpidament."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ep-04-01",
+              "question": "L'argument de l'autonomia — 'la meva vida és meva i tinc dret a acabar-la' — és suficient per justificar moralment el dret a l'eutanàsia activa?",
+              "options": [
+                "Sí — si acceptem que les persones adultes i competents tenen dret a prendre decisions sobre els seus propis cossos, la consistència exigeix que inclogui la decisió de morir",
+                "No — l'autonomia té límits quan l'acció és irreversible i pot estar condicionada per factors externs com la depressió, la pressió familiar o la inadequació del sistema de cures pal·liatives",
+                "L'autonomia és condició necessària però no suficient: el dret individual a morir ha d'equilibrar-se amb les obligacions socials de garantir que la decisió és genuïnament lliure i que existeixen alternatives reals al sofriment"
+              ],
+              "correct": 2,
+              "explanation": "L'argument de l'autonomia és poderós però necessita complement. El problema central és que l'autonomia genuïna requereix condicions que no sempre existeixen: informació completa, absència de coacció, alternatives reals, i una salut mental que no estigui distorsionant el judici. Una persona que demana l'eutanàsia en un sistema sanitari que no ofereix cures pal·liatives adequades, o que se sent una càrrega per a la família, o que viu en un context social que desvaloritza la seva vida, pot estar expressant una decisió que sembla autònoma però és estructuralment coaccionada. Això no vol dir que l'autonomia no compti — vol dir que garantir l'autonomia real requereix més que acceptar el seu exercici formal. La posició 1 és massa simple: l'autonomia pura sense condicions no existeix en situacions de vulnerabilitat extrema. La posició 2 és massa restrictiva: portada a l'extrem, podria usar la incertesa sobre les condicions per negar sempre el dret. La posició 3 reconeix que el dret individual i les condicions socials que el fan possible han de construir-se junts."
+            }
+          ]
+        },
+
+        {
+          "id": "ep-05",
+          "title": "Ètica i Tecnologia: Dilemes que No Tenien Nom",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2018, un vehicle autònom de la companyia Uber va atropellar i matar una vianant a Arizona. Va ser el primer cas documentat de mort humana causada per un vehicle autònom. La investigació va determinar que el sistema de detecció havia identificat l'obstacle però havia decidit no frenar per evitar falsos positius. Algú havia hagut de programar aquesta prioritat. Algú havia decidit, en abstracte i amb antelació, que certs falsos positius eren pitjors que certs accidents. La pregunta que el món tecnològic portava anys evitant havia aterrat en un aparcament d'Arizona: qui decideix com raona una màquina quan les apostes són humanes?"
+            },
+            {
+              "type": "key-idea",
+              "text": "L'ètica de la intel·ligència artificial no és una qüestió nova disfressada de tecnologia — és la vella qüestió de qui és responsable quan una decisió causa un dany, aplicada a sistemes on la cadena de responsabilitat és deliberadament opaca i distribuïda entre dissenyadors, entrenadors de dades, empreses i usuaris."
+            },
+            {
+              "type": "expandable",
+              "label": "El problema del MIT Moral Machine: podem ensenyar ètica a una màquina?",
+              "content": "El 2016, el MIT va llançar el projecte Moral Machine: un joc online on milions de persones triaven entre accidents inevitables d'un cotxe autònom (atropellar vells o joves, homes o dones, animals o humans, passatgers o vianants). Els resultats van revelar diferències culturals significatives en les preferències morals: cultures del sud i est d'Àsia mostraven major preferència per respectar les normes (no creuar en vermell) sobre salvar el major nombre; cultures occidentals tenien l'ordre invers. Les cultures col·lectivistes tenien menys preferència per salvar joves sobre vells. La conclusió incòmoda: no existeix una ètica universal que es pugui programar en un cotxe autònom. Qualsevol decisió codificada serà moralment arbitrària per a algú."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-05-01",
+              "style": "multiple-choice",
+              "question": "Un algoritme de contractació utilitza dades històriques per predir l'èxit laboral dels candidats. Les dades històriques reflecteixen dècades de discriminació de gènere i raça. L'algoritme, sense cap instrucció explícita de discriminar, aprèn a desfavorir dones i minories perquè eren subrepresentades en els llocs d'èxit passats. Qui és moralment responsable del dany?",
+              "options": [
+                "Ningú: l'algoritme no discrimina intencionalment i el dany és un efecte no buscat de l'ús de dades objectives",
+                "Els dissenyadors de l'algoritme, per no haver anticipat i corregit el biaix en les dades d'entrenament",
+                "L'empresa que usa l'algoritme, per delegar decisions amb conseqüències discriminatòries en un sistema que no entén plenament",
+                "La responsabilitat és compartida entre dissenyadors, empresa i el sistema social que va produir les dades discriminatòries — però cap agent individual n'és completament responsable"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exacte. El cas del biaix algorítmic il·lustra el problema de la 'responsabilitat distribuïda': quan el dany és el resultat d'una cadena de decisions preses per molts actors, cap dels quals buscava explícitament el dany, la responsabilitat no desapareix — es distribueix de manera que dificulta la rendició de comptes. Els dissenyadors tenien la responsabilitat d'anticipar el biaix; l'empresa tenia la responsabilitat de validar el sistema; la societat va produir les dades discriminatòries. Però la distribució de responsabilitat no és excusa per a la inacció: cada agent de la cadena hauria pogut intervenir, i la pregunta ètica és determinar en quin punt la intervenció era més possible i menys costosa.",
+              "feedbackWrong": "L'opció 1 comet l'error de confondre intencionalitat amb responsabilitat: un resultat pot ser moralment problemàtic sense que ningú l'hagi buscat explícitament. Les opcions 2 i 3 capturen parts de la responsabilitat però la singularitzen en un agent quan el dany és el resultat d'una cadena. La responsabilitat distribuïda és un dels problemes ètics centrals de la tecnologia contemporània."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-05-02",
+              "style": "true-false",
+              "question": "Una intel·ligència artificial que pren decisions que afecten persones hauria de ser sempre explicable — és a dir, hauria de poder justificar cada decisió en termes que un humà pugui entendre i avaluar.",
+              "correct": true,
+              "feedbackCorrect": "Correcte. El dret a una explicació per a decisions automatitzades significatives és reconegut pel Reglament General de Protecció de Dades de la UE (GDPR) i és un principi emergent en ètica de la IA. L'argument és que les decisions que afecten drets, oportunitats o benestar de les persones requereixen accountability — la possibilitat de ser contestades, corregides i atribuïdes a algú responsable. Sistemes 'caixa negra' que prenen decisions sense poder explicar-les impossibiliten la rendició de comptes i el recurs. Nota important: 'explicable' no vol dir 'simple' — vol dir que hi ha algú capaç d'explicar i respondre per la decisió.",
+              "feedbackWrong": "Sense explicabilitat, les decisions automatitzades escapen a la rendició de comptes i al recurs. Una persona perjudicada per una decisió d'un algoritme opac no té manera de contestar-la ni de saber si és justa. L'explicabilitat no és una exigència tècnica — és una exigència democràtica i moral sobre qui té poder sobre qui."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una tecnologia que uses regularment que pren decisions sobre tu (recomanacions, preus, continguts filtrats, avaluacions). Saps com funciona? Et preocupa no saber-ho? Hauries de preocupar-te?",
+              "prompt": "La comoditat no és el mateix que el consentiment informat."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ep-05-01",
+              "question": "Les empreses tecnològiques argumenten que la regulació de la IA frena la innovació i posa en desavantatge les empreses occidentals enfront de competidors menys regulats. És un argument vàlid contra la regulació ètica?",
+              "options": [
+                "Sí — la innovació tecnològica beneficia la humanitat a llarg termini i els danys de la regulació excessiva superen els danys que prevé",
+                "No — l'argument de la competitivitat sempre ha servit per retardar regulació justificada: el mateix es va dir de la regulació mediambiental, laboral i financera",
+                "Parcialment vàlid: la regulació ha de ser proporcional al risc real i dissenyada per no frenar innovació beneficiosa, però 'ens posaria en desavantatge' no és una raó per renunciar a protegir les persones de danys documentats"
+              ],
+              "correct": 2,
+              "explanation": "L'argument de la competitivitat és un argument legítim que cal prendre seriosament — i que cal examinar críticament. Hi ha casos on la regulació prematura o mal dissenyada ha frenau innovació beneficiosa. Però l'argument s'ha usat sistemàticament per retardar regulació que posteriorment ha demostrat ser necessària i beneficiosa: regulació mediambiental, de seguretat de productes, financera, farmacèutica. El patró és consistent: la indústria afectada argumenta danys competitius; la regulació s'implementa; els danys competitius resulten ser menors del previst o s'adapten amb la regulació com a estàndard compartit. En l'àmbit de la IA, la UE ha avançat amb regulació que moltes empreses americanes i xineses han acabat adoptant com a estàndard de facto. La pregunta rellevant no és 'regulació sí o no' sinó 'quina regulació, per a quins riscos, amb quins mecanismes d'adaptació'."
+            }
+          ]
+        },
+
+        {
+          "id": "ep-06",
+          "title": "Quan els Principis Entren en Col·lisió: Viure amb la Incertesa Moral",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Sophie Zawistowski arriba a Auschwitz amb els seus dos fills. El guarda nazi li diu que ha d'escollir quin fill viurà i quin morirà. Si no tria, tots dos moriran. Aquesta és l'elecció de Sophie, de la novel·la de William Styron. No és un dilema filosòfic abstracte — és un cas límit que posa en evidència el límit de tota teoria moral: hi ha situacions on totes les opcions disponibles són moralment monstruoses, i el que queda no és la solució correcta sinó la pregunta de com es viu després d'haver hagut de triar."
+            },
+            {
+              "type": "key-idea",
+              "text": "La 'mala sort moral' — la idea que podem ser moralment responsables de danys que no hem buscat ni anticipat, simplement per haver estat al lloc equivocat en el moment equivocat — és un dels problemes més incòmodes de l'ètica contemporània. Suggereix que la moralitat no és simplement una qüestió de caràcter i intenció, sinó que la sort juga un paper que cap teoria vol admetre."
+            },
+            {
+              "type": "quote",
+              "text": "Ser moral no garanteix que actuïs bé. Però actuar bé sense ser moral és impossible.",
+              "author": "Bernard Williams, Moral Luck, 1976"
+            },
+            {
+              "type": "expandable",
+              "label": "La mala sort moral: per què dos conductors iguals no mereixen el mateix judici",
+              "content": "Thomas Nagel i Bernard Williams van publicar simultàniament el 1976 assaigs sobre la 'mala sort moral' que van sacsejar la filosofia moral anglosaxona. El cas paradigmàtic: dos conductors igualment imprudents corren per la mateixa carretera. Un atropella un nen que surt d'improvís. L'altre no. El primer és jutjat moralment (i legalment) de manera molt més severa que el segon, malgrat que la diferència és pura sort. Kant havia dit que el judici moral ha de basar-se en la intenció, no en les conseqüències — si acceptem la mala sort moral, estem dient que les conseqüències imprevistes afecten el judici moral, la qual cosa contradiu la intuïció kantiana. Però si diem que els dos conductors mereixen exactament el mateix judici moral, contradiem una altra intuïció poderosa: que qui ha causat un dany real ha de respondre d'ell d'una manera que qui no l'ha causat no ha de fer. Cap posició és completament satisfactòria."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-06-01",
+              "style": "multiple-choice",
+              "question": "El filòsof Bernard Williams va argumentar que una persona amb integritat moral no pot sempre actuar com demana l'utilitarisme, perquè fer-ho requeriria trair els seus compromisos i valors fonamentals. Quin és el nucli d'aquest argument?",
+              "options": [
+                "Que l'utilitarisme és sempre fals perquè ignora les conseqüències per al benestar individual",
+                "Que la identitat moral d'una persona no és separable dels seus compromisos particulars, i exigir-li que els abandoni per al bé comú és exigir-li que deixi de ser qui és",
+                "Que els compromisos personals sempre han de prevaler sobre les consideracions de conseqüències generals",
+                "Que Williams preferia la teoria de la virtut sobre l'utilitarisme com a sistema moral més complet"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'argument de Williams sobre la integritat és un dels atacs més subtils a l'utilitarisme: no diu que l'utilitarisme produeixi resultats dolents, sinó que el tipus de persona que l'utilitarisme exigeix ser — algú disposat a abandonar qualsevol compromís si el càlcul ho requereix — és un tipus de persona que ha perdut alguna cosa essencial. Els nostres projectes, relacions i valors fonamentals no són preferències que podem ajustar al càlcul: constitueixen qui som. Una teoria moral que els tracta com a variables en una equació ens demana que siguem ningú en particular per poder ser agents morals purs.",
+              "feedbackWrong": "Williams no argumenta que els compromisos personals sempre prevalguin ni que la teoria de la virtut sigui superior. El seu argument és sobre el cost que l'utilitarisme imposa a la identitat de la persona moral: exigir que algú abandoni els seus compromisos fonamentals per al bé comú és exigir-li una alienació de si mateix que cap teoria moral hauria de poder demanar com a condició de l'acció correcta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ep-06-02",
+              "style": "detect-error",
+              "statement": "Si, després d'un raonament cuidadós, un individu arriba a la conclusió que una acció generalment considerada immoral és correcta en la seva situació, ha de seguir el seu propi judici per sobre de les normes convencionals.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta afirmació és massa simple. L'autonomia moral és un valor real — actuar per convicció pròpia és millor que obeir cegament les normes. Però 'he raonat cuidadosament i he concluït que estic en el correcte' no és una garantia de correcció moral. Les persones racionals i de bona fe s'equivoquen sistemàticament per biaixos cognitius, interessos personals no reconeguts i punts cecs culturals. La història és plena de persones que van raonar cuidadosament i van arribar a conclusions que avui considerem monstruoses. L'autonomia moral ha d'equilibrar-se amb l'humilitat epistèmica: el fet que jo hagi arribat a una conclusió no és evidència suficient de la seva correcció, especialment si contradiu intuïcions morals àmpliament compartides. El raonament moral no és un procés que fa una persona sola."
+            },
+            {
+              "type": "debate",
+              "question": "Pot una persona ser bona si viu en una societat profundament injusta i no fa res per canviar-la?",
+              "positionA": {
+                "label": "Sí — la bondat personal és independent de l'acció política",
+                "argument": "La bondat moral s'expressa en les relacions directes amb les persones que formen part de la nostra vida: la honestedat, la compassió, la justícia en els tractes quotidians. Exigir que tothom sigui un activista polític per ser considerat moralment bo és una demanda desproporcionada que ignora les limitacions reals de la vida humana i imposa una sola concepció de la virtut."
+              },
+              "positionB": {
+                "label": "No — la passivitat davant la injustícia és complicitat",
+                "argument": "Beneficiar-se d'un sistema injust mentre no fas res per canviar-lo és una forma de complicitat, fins i tot si no has creat activament la injustícia. La bondat no és un estat interior — és una pràctica que inclou la responsabilitat envers les estructures socials que conformen les vides de les persones. La 'bona persona' que ignora la injustícia sistèmica és bona en abstracte, però fallida en el que importa."
+              },
+              "reflection": "Pensa en una injustícia estructural de la qual et beneficies. Fa alguna cosa al respecte? Hauries de fer-ho?",
+              "context": "El debat entre ètica personal i responsabilitat política és central en la filosofia moral des d'Aristòtil. La tradició liberal tendeix a separar els dos àmbits; la tradició republicana i comunitarista els integra. Avui, els moviments de justícia social tendeixen a adoptar la posició B; l'ètica de la virtut aristotèlica permet versionsde la posició A."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Introduction to Philosophy",
+              "moduleEmoji": "💡",
+              "concept": "Ètica normativa i metaètica",
+              "text": "Els dilemes explorats en aquest mòdul pressuposen que hi ha respostes morals correctes i que el raonament pot ajudar a trobar-les. Però la metaètica fa una pregunta prèvia: existeixen veritats morals objectives? Si no n'hi ha, tot el debat sobre qui té raó en un dilema moral canvia radicalment. La connexió entre els dilemes pràctics i les preguntes fonamentals sobre la naturalesa de la moralitat és el que fa de la filosofia moral una disciplina inesgotable."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ep-06-01",
+              "question": "Estudiar ètica filosòfica fa les persones moralment millors?",
+              "options": [
+                "Sí — el coneixement de les teories ètiques i la pràctica del raonament moral milloren la qualitat de les decisions ètiques reals",
+                "No — l'ètica acadèmica és un exercici intel·lectual desconnectat de la motivació moral real, que prové del caràcter i l'empatia, no de la teoria",
+                "El coneixement ètic pot millorar la qualitat del raonament sobre dilemes, però el comportament moral depèn de factors que la filosofia sola no modifica: hàbits, emocions, context social i caràcter format al llarg del temps"
+              ],
+              "correct": 2,
+              "explanation": "La investigació empírica sobre el comportament moral dels filòsofs professionals és sorprenentment poc afavoridora: Eric Schwitzgebel ha documentat que els filòsofs especialitzats en ètica no es comporten de manera significativament diferent dels seus col·legues en àmbits com el robament de llibres de biblioteques, el vot, la donació a causes benèfiques o el contacte amb els pares. Conèixer la teoria de Kant no fa a ningú menys procliu a mentir en situacions de pressió. Això és coherent amb la vella distinció aristotèlica entre saber el que és bo i tenir el caràcter per fer-ho: la virtut és un hàbit format per la pràctica repetida, no el resultat d'un coneixement teòric. La filosofia moral no és inútil — pot aclarir conceptes, revelar inconsistències i ampliar la consideració moral. Però qui espera que llegir Kant el farà automàticament millor persona probablement s'equivoca. Millora la qualitat del raonament sobre els dilemes; canviar el comportament requereix quelcom diferent."
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

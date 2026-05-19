@@ -70,7 +70,40 @@ const MODULE_META = {
   'module-38-relativitat':        { title: 'Relativitat',                                 emoji: '🌀' },
   // — Bloc: Filosofia —
   'module-30-introduccio-filosofia': { title: 'Introducció a la Filosofia',              emoji: '🦉' },
-  'module-09-filosofia-politica': { title: 'Filosofia Política',                          emoji: '⚖️' },
+  'module-09-filosofia-politica':    { title: 'Filosofia Política',                      emoji: '⚖️' },
+  'module-31-etica':                 { title: 'Ètica',                                   emoji: '⚖️' },
+  'module-32-logica-argumentacio':   { title: 'Lògica i Argumentació',                   emoji: '🧩' },
+  'module-33-epistemologia':         { title: 'Epistemologia',                           emoji: '🔍' },
+  // — Bloc: Astronomia (nous) —
+  'module-09-bigbang':               { title: 'El Big Bang i l\'Origen de l\'Univers',   emoji: '💥' },
+  'module-10-estrelles':             { title: 'La Vida i Mort de les Estrelles',          emoji: '⭐' },
+  // — Bloc: Biologia i Física (nous) —
+  'module-08-neurociencia':          { title: 'Neurociència i Conducta',                  emoji: '🧠' },
+  'module-08-relativitat':           { title: 'La Relativitat General',                   emoji: '🌌' },
+  // — Bloc: Literatura —
+  'module-01-antiguitat-origens':         { title: 'L\'Antiguitat i els Orígens',              emoji: '📜' },
+  'module-02-edat-mitjana-renaixement':   { title: 'L\'Edat Mitjana i el Renaixement',         emoji: '🏰' },
+  'module-05-avantguardes':               { title: 'El Segle XX I: Les Avantguardes',           emoji: '💥' },
+  'module-06-novella-segle-xx':           { title: 'La Novel·la del Segle XX',                  emoji: '🧩' },
+  'module-08-postmodernisme':             { title: 'El Postmodernisme',                         emoji: '🪞' },
+  // — Bloc: Arquitectura —
+  'module-XX-arquitectura-01':   { title: 'Arquitectura 1: L\'Arquitectura de l\'Ordre',  emoji: '🏛️' },
+  'module-XX-arquitectura-02':   { title: 'Arquitectura 2: Déu, Llum i Pedra',            emoji: '⛪' },
+  'module-XX-arquitectura-03':   { title: 'Arquitectura 3: La Modernitat i la Ruptura',   emoji: '🏗️' },
+  'module-XX-arquitectura-04':   { title: 'Arquitectura 4: Per a Qui Construïm?',         emoji: '🌆' },
+  // — Bloc: Arts i Cultura —
+  'module-XX-cinema':   { title: 'Cinema: l\'Art de la Mirada',          emoji: '🎬' },
+  'module-30-opera':    { title: 'Introducció a l\'Òpera',                emoji: '🎭' },
+  // — Bloc: Relacions Internacionals (nous) —
+  'module-XX-ddhh-ordre-internacional': { title: 'Drets Humans i Ordre Internacional',        emoji: '🌍' },
+  'module-XX-teoria-ri':                { title: 'Teoria de les Relacions Internacionals',     emoji: '🌐' },
+  // — Bloc: Societat i Política —
+  'module-34-democracia-sistemes-politics': { title: 'Democràcia i Sistemes Polítics',  emoji: '🗳️' },
+  'module-XX-sociologia':                   { title: 'Sociologia: Com Funcionen les Societats', emoji: '🏙️' },
+  // — Bloc: Filosofia (nous) —
+  'module-XX-intro-filosofia':      { title: 'Introducció a la Filosofia',                   emoji: '🦉' },
+  'module-XX-etica-practica':       { title: 'Ètica Pràctica: Decisions en Casos Límit',    emoji: '⚖️' },
+  'module-XX-filosofia-llenguatge': { title: 'Filosofia del Llenguatge',                     emoji: '🗣️' },
 }
 
 // XP estimat per mòdul (per restar en repetir)
@@ -137,7 +170,40 @@ const MODULE_XP = {
   'module-38-relativitat':        300,
   // — Bloc: Filosofia —
   'module-30-introduccio-filosofia': 280,
-  'module-09-filosofia-politica': 280,
+  'module-09-filosofia-politica':    280,
+  'module-31-etica':                 280,
+  'module-32-logica-argumentacio':   280,
+  'module-33-epistemologia':         280,
+  // — Bloc: Astronomia (nous) —
+  'module-09-bigbang':               320,
+  'module-10-estrelles':             320,
+  // — Bloc: Biologia i Física (nous) —
+  'module-08-neurociencia':          300,
+  'module-08-relativitat':           300,
+  // — Bloc: Literatura —
+  'module-01-antiguitat-origens':         320,
+  'module-02-edat-mitjana-renaixement':   320,
+  'module-05-avantguardes':               300,
+  'module-06-novella-segle-xx':           300,
+  'module-08-postmodernisme':             300,
+  // — Bloc: Arquitectura —
+  'module-XX-arquitectura-01':  300,
+  'module-XX-arquitectura-02':  300,
+  'module-XX-arquitectura-03':  300,
+  'module-XX-arquitectura-04':  300,
+  // — Bloc: Arts i Cultura —
+  'module-XX-cinema':   300,
+  'module-30-opera':    300,
+  // — Bloc: Relacions Internacionals (nous) —
+  'module-XX-ddhh-ordre-internacional': 300,
+  'module-XX-teoria-ri':                300,
+  // — Bloc: Societat i Política —
+  'module-34-democracia-sistemes-politics': 320,
+  'module-XX-sociologia':                   300,
+  // — Bloc: Filosofia (nous) —
+  'module-XX-intro-filosofia':      280,
+  'module-XX-etica-practica':       280,
+  'module-XX-filosofia-llenguatge': 280,
 }
 
 function ModuleCard({ id, onSelect, onRepeat, loadingId, completedModules,
@@ -238,6 +304,7 @@ export default function ModuleMap() {
           navigationState } = useApp()
   const { theme }  = useTheme()
   const [loadingId, setLoadingId] = useState(null)
+  const [query, setQuery]         = useState('')
 
   const area = getAreaById(navigationState.currentAreaId)
 
@@ -274,6 +341,20 @@ export default function ModuleMap() {
 
   if (!area) return null  // redirect en curs
 
+  const normalizedQuery = query.trim().toLowerCase()
+
+  const filteredTopics = area.topics.map(topic => ({
+    ...topic,
+    modules: topic.modules.filter(id => {
+      if (!registryIds.has(id)) return false
+      if (!normalizedQuery) return true
+      const title = (MODULE_META[id]?.title || id).toLowerCase()
+      return title.includes(normalizedQuery)
+    })
+  })).filter(topic => topic.modules.length > 0)
+
+  const totalVisible = filteredTopics.reduce((acc, t) => acc + t.modules.length, 0)
+
   return (
     <div className={styles.screen}>
       <header className={styles.header}>
@@ -282,29 +363,45 @@ export default function ModuleMap() {
         <p className={styles.subtitle}>{area.description}</p>
       </header>
 
+      <div className={styles.searchRow}>
+        <div className={styles.searchWrapper}>
+          <span className={styles.searchIcon}>🔍</span>
+          <input
+            className={styles.searchInput}
+            type="search"
+            placeholder="Cerca un mòdul..."
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+            autoComplete="off"
+          />
+          {query && (
+            <button className={styles.searchClear} onClick={() => setQuery('')}>✕</button>
+          )}
+        </div>
+      </div>
+
       <div className={styles.moduleList}>
-        {area.topics.map(topic => {
-          const topicModules = topic.modules.filter(id => registryIds.has(id))
-          if (topicModules.length === 0) return null
-          return (
-            <div key={topic.label} className={styles.topicSection}>
-              <h2 className={styles.topicHeader}>{topic.label}</h2>
-              {topicModules.map(id => (
-                <ModuleCard
-                  key={id}
-                  id={id}
-                  onSelect={handleSelectModule}
-                  onRepeat={handleRepeat}
-                  loadingId={loadingId}
-                  completedModules={completedModules}
-                  completedLessons={completedLessons}
-                  isModuleUnlocked={isModuleUnlocked}
-                  isItineraryCompleted={isItineraryCompleted}
-                />
-              ))}
-            </div>
-          )
-        })}
+        {totalVisible === 0 && (
+          <p className={styles.noResults}>Cap mòdul coincideix amb "{query}"</p>
+        )}
+        {filteredTopics.map(topic => (
+          <div key={topic.label} className={styles.topicSection}>
+            <h2 className={styles.topicHeader}>{topic.label}</h2>
+            {topic.modules.map(id => (
+              <ModuleCard
+                key={id}
+                id={id}
+                onSelect={handleSelectModule}
+                onRepeat={handleRepeat}
+                loadingId={loadingId}
+                completedModules={completedModules}
+                completedLessons={completedLessons}
+                isModuleUnlocked={isModuleUnlocked}
+                isItineraryCompleted={isItineraryCompleted}
+              />
+            ))}
+          </div>
+        ))}
       </div>
     </div>
   )

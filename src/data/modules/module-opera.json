@@ -1,0 +1,800 @@
+{
+  "id": "module-30-opera",
+  "title": "Introducció a l'òpera",
+  "emoji": "🎭",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "opera-historia",
+      "title": "Una història de passions",
+      "icon": "📜",
+      "description": "Dels orígens florentins fins als grans teatres del món: com l'òpera va conquerir Europa i va esdevenir l'art total.",
+      "style": "Cronològic · dels orígens al present",
+      "lessons": [
+        {
+          "id": "oph-01",
+          "title": "El naixement d'un art impossible",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Florència, any 1600. Un grup d'humanistes, poetes i músics es reuneix en un palau privat amb una idea radical: recrear el teatre de l'antiga Grècia. Creuen que els grecs cantaven els seus drames. No saben del cert si és veritat — probablement no ho era — però d'aquest malentès magnífic neix un dels arts més extravagants i apassionants que ha creat la humanitat: l'òpera."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'òpera neix a Florència al voltant del 1600, impulsada per la Camerata Fiorentina: un cercle d'intel·lectuals que volien recuperar el drama grec cantant. Era un experiment artístic que ningú sabia si funcionaria."
+            },
+            {
+              "type": "expandable",
+              "label": "Qui eren exactament la Camerata Fiorentina?",
+              "content": "La Camerata Fiorentina es reunia a casa del comte Giovanni de' Bardi a partir de la dècada de 1570. Hi participaven músics com Vincenzo Galilei (pare de l'astrònom Galileo), el poeta Ottavio Rinuccini i el compositor Jacopo Peri. Estaven convençuts que la música polifònica de la seva època —on diverses veus cantaven textos diferents simultàniament— destruïa la comprensió del text i, per tant, l'emoció dramàtica. La seva solució: una sola veu que declami el text seguint l'accent natural de la paraula, amb un acompanyament harmònic discret. Aquesta tècnica s'anomena 'stile recitativo' i és la llavor del recitatiu operístic."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "c. 1580",
+                  "title": "La Camerata Fiorentina comença les reunions",
+                  "text": "Giovanni de' Bardi acull el cercle d'humanistes i músics a Florència."
+                },
+                {
+                  "year": "1597",
+                  "title": "Dafne de Jacopo Peri",
+                  "text": "Considerada la primera òpera, però la partitura s'ha perdut gairebé del tot."
+                },
+                {
+                  "year": "1600",
+                  "title": "L'Euridice de Peri i Caccini",
+                  "text": "Primera òpera de la qual es conserva la partitura completa. S'estrena a Florència per celebrar les noces de Maria de Mèdici i Enric IV de França."
+                },
+                {
+                  "year": "1607",
+                  "title": "L'Orfeo de Monteverdi",
+                  "text": "El primer gran geni de l'òpera transforma el gènere. Claudio Monteverdi dóna profunditat dramàtica i musical sense precedents."
+                },
+                {
+                  "year": "1637",
+                  "title": "Primer teatre d'òpera públic: el Teatro San Cassiano de Venècia",
+                  "text": "Fins aleshores, l'òpera era entreteniment de cort. A Venècia, qualsevol que pugui pagar l'entrada hi pot accedir. L'òpera es democratitza."
+                }
+              ]
+            },
+            {
+              "type": "prediction",
+              "question": "Si l'òpera neix com a imitació del teatre grec, per què creus que no s'assembla gens al que imaginem com a teatre grec clàssic?",
+              "hint": "Pensa en com funciona la imaginació i la reconstrucció del passat quan no tens gravacions ni documents visuals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-oph-01-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el primer teatre d'òpera obert al públic general —no exclusivament a la cort—?",
+              "options": [
+                "El Teatro alla Scala de Milà",
+                "El Teatro San Cassiano de Venècia",
+                "L'Òpera de París",
+                "El Teatro San Carlo de Nàpols"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El Teatro San Cassiano de Venècia, inaugurat el 1637, va ser el primer teatre d'òpera públic del món. Qualsevol que pogués pagar l'entrada hi tenia accés, independentment del seu rang social. Això va canviar radicalment el públic de l'òpera.",
+              "feedbackWrong": "El primer teatre d'òpera públic del món va ser el Teatro San Cassiano de Venècia, inaugurat el 1637. Fins aleshores, l'òpera era un espectacle reservat a les corts. La Scala (Milà) va obrir el 1778, i el San Carlo (Nàpols) el 1737."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-oph-01-01",
+              "question": "La Camerata Fiorentina volia recuperar el teatre grec, però el va malinterpretar. Malgrat tot, va crear quelcom nou i extraordinari. Què diu això sobre com funciona la innovació artística?",
+              "options": [
+                "La innovació requereix conèixer perfectament el passat que es vol recuperar",
+                "Els errors i malentesos creatius poden ser tan fèrtils com la comprensió rigorosa",
+                "L'art modern sempre sorgeix del rebuig conscient de la tradició, no de la seva imitació"
+              ],
+              "correct": 1,
+              "explanation": "La història de l'art és plena d'exemples on un 'error' de comprensió del passat genera quelcom radicalment nou. La Camerata no va recuperar el teatre grec —probablement els grecs no cantaven els seus drames de la manera que imaginaven—, però el malentès els va obligar a inventar un llenguatge musical nou: el recitatiu, la monodia acompanyada, el drama en música. Casos similars: els romàntics van idealitzar una Edat Mitjana que mai no va existir tal com la van imaginar, i d'allà va néixer el gòtic literari i arquitectònic modern. Shakespeare va adaptar lliurement cròniques històriques plenes d'errors i va crear les seves obres mestres. La comprensió perfecta del model que es vol imitar pot fins i tot bloquejar la creativitat: quan saps exactament com és el model, tendeixtes a copiar-lo en lloc de transformar-lo."
+            }
+          ]
+        },
+        {
+          "id": "oph-02",
+          "title": "L'edat daurada: del barroc al classicisme",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al llarg del segle XVII i XVIII, l'òpera s'estén per tota Europa com un incendi. Cada cort vol el seu teatre, cada príncep vol els seus compositors. Però el gènere no és monolític: a Itàlia es consolida l'òpera sèria, a Londres Händel importa la forma italiana, a París es defensa un estil propi i francès. Mentre tant, els castrats —cantants masculins castrats en la infància per conservar la veu aguda— es converteixen en les primeres superestrelles de la música occidental."
+            },
+            {
+              "type": "key-idea",
+              "text": "Durant el barroc (1600–1750), l'òpera es divideix en dos grans estils: l'opera seria italiana, amb temes heroics i mitològics, i l'opera buffa, còmica i popular. Händel i Vivaldi componen per a Londres i Venècia. A París, Lully defensa un estil nacional francès davant la invasió italiana."
+            },
+            {
+              "type": "expandable",
+              "label": "Els castrats: superestrelles i tragèdia silenciada",
+              "content": "Els castrats eren nens castrats —sovint sense el seu consentiment, ni el dels pares, o sota pressió econòmica extrema— per preservar la veu aguda de la infantesa en un cos adult, que desenvolupava una caixa toràcica i uns pulmons d'home. El resultat era una veu d'una potència, extensió i flexibilitat extraordinàries. El més famós va ser Carlo Broschi, conegut com Farinelli (1705–1782), que es diu que podia sostenir una nota durant un minut sencer i tenia un rang vocal de tres octaves i mitja. Les estimacions parlen de milers de nens castrats anualment a Itàlia als segles XVII i XVIII, dels quals molt pocs aconseguien una carrera exitosa. La pràctica va desaparèixer gradualment al segle XIX, però el Vaticà va mantenir castrats al cor de la Capella Sixtina fins al 1903."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'òpera sempre ha estat un art elitista, reservat a les classes altes.",
+              "reality": "En el seu moment àlgid al segle XVIII i XIX, l'òpera era l'entreteniment de masses per excel·lència a Itàlia. A Nàpols o Venècia, el públic popular assistia al galliner i reaccionava com en un partit de futbol: xiulant, aplaudint, llançant fruita als cantants dolents, demanant bisos repetits de les àries preferides. Les estrenes de Verdi eren esdeveniments nacionals que paralitzaven les ciutats.",
+              "why": "La percepció elitista de l'òpera és un fenomen del segle XX, quan el repertori es va fossilitzar, les entrades es van encarir i el públic popular va migrar cap al cinema i la música popular."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-oph-02-01",
+              "style": "true-false",
+              "question": "Georg Friedrich Händel va compondre la major part de la seva producció operística per a teatres alemanys.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Händel va passar gran part de la seva carrera a Londres, on va compondre i estrenar la majoria de les seves òperes —gairebé totes en italià— per al públic britànic, que era un gran consumidor d'òpera italiana a l'època.",
+              "feedbackWrong": "Händel era alemany de naixement, però va fer la major part de la seva carrera a Londres, on va estrenar desenes d'òperes italianes. Londres era un dels mercats operístics més actius d'Europa al segle XVIII."
+            },
+            {
+              "type": "comparison",
+              "title": "Opera seria vs. opera buffa",
+              "labelA": "Opera seria",
+              "labelB": "Opera buffa",
+              "items": [
+                {
+                  "label": "Temes",
+                  "a": "Heroics, mitològics, històrics",
+                  "b": "Quotidians, còmics, amorosos"
+                },
+                {
+                  "label": "Personatges",
+                  "a": "Reis, herois, déus",
+                  "b": "Criats, burgesos, figures populars"
+                },
+                {
+                  "label": "Estructura",
+                  "a": "Àries da capo rígides, recitatiu sec",
+                  "b": "Més flexible, conjunts, finals animats"
+                },
+                {
+                  "label": "To",
+                  "a": "Solemne, elevat, moral",
+                  "b": "Satíric, humà, divertit"
+                },
+                {
+                  "label": "Exemple clau",
+                  "a": "Giulio Cesare (Händel, 1724)",
+                  "b": "La serva padrona (Pergolesi, 1733)"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-oph-02-02",
+              "style": "detect-error",
+              "statement": "Mozart va revolucionar l'òpera perquè va abandonar per complet l'opera seria i es va centrar exclusivament en l'opera buffa, el gènere que realment l'interessava.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta. Mozart va compondre en tots dos gèneres amb una mestria excepcional. Les seves grans òperes italianes inclouen tant obres bufes —Le nozze di Figaro, Così fan tutte, Don Giovanni— com sèries —Idomeneo, La clemenza di Tito. Precisament, la seva grandesa rau en la capacitat de mesclar el còmic i el tràgic dins d'una mateixa obra: Don Giovanni, per exemple, és classificada com 'dramma giocoso', una mena de gènere híbrid que desafia les categories."
+            }
+          ]
+        },
+        {
+          "id": "oph-03",
+          "title": "El segle XIX: Verdi, Wagner i la batalla de les idees",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El segle XIX és el gran segle de l'òpera. Mai no s'han compost tantes obres, mai no s'han construït tants teatres, mai no hi ha hagut tants fanàtics. I al cor d'aquest segle hi ha una batalla intel·lectual ferotge entre dos gegants que mai no es van conèixer personalment però que van definir dos visions radicalment oposades del que havia de ser l'òpera: Giuseppe Verdi i Richard Wagner."
+            },
+            {
+              "type": "key-idea",
+              "text": "Verdi i Wagner representen les dues ànimes del Romanticisme operístic. Verdi creu en la veu humana, en l'emoció directa i en la llibertat del cantant. Wagner creu en l'obra d'art total —Gesamtkunstwerk— on música, text, escena i drama s'integren en un tot inseparable."
+            },
+            {
+              "type": "quote",
+              "text": "Copieu la realitat, però la realitat no és tot. L'art és selecció. Elegiu el millor.",
+              "author": "Giuseppe Verdi"
+            },
+            {
+              "type": "expandable",
+              "label": "Què és exactament el Gesamtkunstwerk de Wagner?",
+              "content": "El concepte de Gesamtkunstwerk ('obra d'art total') és la idea central de la teoria estètica de Richard Wagner, exposada sobretot al seu assaig 'L'obra d'art del futur' (1849). Wagner sostenia que les arts individuals —música, poesia, dansa, pintura, arquitectura— estaven degradades perquè s'havien separat. El drama grec antic, argumentava (de nou un malentès fèrtil del passat!), les havia unificades totes. La seva missió era recuperar aquesta unitat. En conseqüència, Wagner escrivia els seus propis llibrets, supervisava l'escenografia i el vestuari, i fins i tot va construir el seu propi teatre a Bayreuth —el Festspielhaus, inaugurat el 1876— dissenyat específicament per a les seves òperes, amb l'orquestra amagada sota l'escenari per no distreure el públic de l'acció dramàtica."
+            },
+            {
+              "type": "comparison",
+              "title": "Verdi vs. Wagner",
+              "labelA": "Giuseppe Verdi (1813–1901)",
+              "labelB": "Richard Wagner (1813–1883)",
+              "items": [
+                {
+                  "label": "Prioritat",
+                  "a": "La veu humana i l'emoció directa",
+                  "b": "La unitat dramàtica i filosòfica de l'obra"
+                },
+                {
+                  "label": "Música",
+                  "a": "Melodies memorables, àries autònomes",
+                  "b": "Melodia infinita, leitmotivs, sense àries separables"
+                },
+                {
+                  "label": "Textos",
+                  "a": "Treballa amb libretistes (Piave, Boito)",
+                  "b": "Escriu sempre els seus propis llibrets"
+                },
+                {
+                  "label": "Idioma",
+                  "a": "Italià",
+                  "b": "Alemany"
+                },
+                {
+                  "label": "Durada típica",
+                  "a": "2–3 hores",
+                  "b": "4–6 hores (el Ring: 16 hores en 4 vespres)"
+                },
+                {
+                  "label": "Obra mestra",
+                  "a": "Otello, Falstaff, La Traviata",
+                  "b": "Tristany i Isolda, L'anell del nibelung, Parsifal"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-oph-03-01",
+              "style": "multiple-choice",
+              "question": "El Festspielhaus de Bayreuth, el teatre que Wagner va construir per a les seves pròpies òperes, té una característica arquitectònica única. Quina és?",
+              "options": [
+                "No té llotges laterals: tots els seients miren de front cap a l'escena",
+                "L'orquestra és invisible, amagada en un fossat sota l'escenari",
+                "L'escenari és rodatori i permet canvis de decorat en segons",
+                "El públic seu en cercle al voltant de l'escenari central"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Wagner va dissenyar el fossat orquestral de Bayreuth de manera que l'orquestra quedés completament amagada sota l'escenari. L'objectiu era que el so sembli sorgir de l'escena mateixa i que el públic no vegi els músics, mantenint la il·lusió dramàtica sense distraccions. El resultat és un so característic, cobert i aterciopellat, que els wagnerians anomenen 'el so de Bayreuth'.",
+              "feedbackWrong": "La característica única del Festspielhaus és el fossat orquestral totalment amagat sota l'escenari. Wagner volia que l'orquestra fos invisible per preservar la il·lusió dramàtica. El teatre sí que té una disposició en forma d'amfiteatre sense llotges laterals, però la novetat arquitectònica principal és l'orquestra amagada."
+            },
+            {
+              "type": "debate",
+              "question": "Quin model operístic és més honest artísticament: el de Verdi, que posa la veu humana i l'emoció directa al centre, o el de Wagner, que subordina el cantant a la unitat dramàtica de l'obra?",
+              "positionA": {
+                "label": "Verdi: la veu primer",
+                "argument": "L'òpera és, per definició, cant. La veu humana és l'instrument més poderós i directe que existeix per transmetre emoció. Quan Wagner submergeix els cantants en una massa orquestral de cent músics i exigeix que cantin durant hores sense aturador, no els dona eines per expressar-se: els destrueix. L'emoció més profunda de l'òpera és una soprano que para l'orquestra amb un do de pit. Tot el que subordina això és intel·lectualisme mal entès."
+              },
+              "positionB": {
+                "label": "Wagner: l'obra total",
+                "argument": "L'òpera italiana del XIX és un espectacle de virtuosisme vocal on la dramaturgia és un pretext per lluir cantants. Wagner és l'únic que s'ho pren seriosament com a forma d'art: escriu els seus propis textos, controla tots els elements escènics, concep obres amb profunditat filosòfica. Que el resultat sigui exigent i llarg no és un defecte: és el preu de la seriositat artística. L'entreteniment fàcil sempre és possible; l'art gran és rarament còmode."
+              },
+              "reflection": "Quan valores una obra d'art, quin pes li dónes a l'emoció immediata vs. la complexitat intel·lectual?",
+              "context": "El debat Verdi-Wagner va dividir Europa durant dècades. A Itàlia, els wagnèrians eren vistos com a snobs germanòfils; a Alemanya, Verdi era considerat compositor superficial. Avui els dos coexisteixen al repertori i no es perceben com a incompatibles, però la tensió entre 'entreteniment emocional' i 'art total' continua essent central a qualsevol debat sobre l'òpera contemporània."
+            }
+          ]
+        },
+        {
+          "id": "oph-04",
+          "title": "El Gran Teatre del Liceu: una casa amb memòria",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hi ha teatres d'òpera i hi ha el Liceu. Inaugurat el 1847 a Barcelona, el Gran Teatre del Liceu no és simplement un edifici on es fa música: és un dels espais on la burgesia catalana va construir la seva identitat, on es van viure algunes de les tragèdies més dramàtiques de la història cultural del país, i on avui es programen algunes de les produccions més importants d'Europa."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Gran Teatre del Liceu de Barcelona (1847) és un dels cinc teatres d'òpera més importants del món. Ha patit dos incendis devastadors —el 1861 i el 1994— i un atemptat anarquista el 1893. Cada vegada ha renascut. La seva història és inseparable de la de Barcelona i Catalunya."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1847",
+                  "title": "Inauguració del Gran Teatre del Liceu",
+                  "text": "S'inaugura el 4 d'abril al carrer de la Rambla de Barcelona. És un dels teatres d'òpera més grans d'Europa."
+                },
+                {
+                  "year": "1861",
+                  "title": "Primer gran incendi",
+                  "text": "Un incendi destrueix l'interior del teatre. La burgesia barcelonina el reconstrueix en temps rècord: obre de nou el 1862."
+                },
+                {
+                  "year": "1893",
+                  "title": "Atemptat anarquista de Santiago Salvador",
+                  "text": "Durant una representació de Guillem Tell, l'anarquista Santiago Salvador llança dues bombes Orsini al galliner. Moren 20 persones. És un dels atemptats terroristes més mortífers de la Barcelona del XIX."
+                },
+                {
+                  "year": "1994",
+                  "title": "Segon gran incendi: el Liceu crema per complet",
+                  "text": "Un petit accident durant unes obres provoca un incendi que destrueix completament l'interior del teatre. Tan sols en queden les parets i el vestíbul. Milers de barcelonins surten al carrer a plorar."
+                },
+                {
+                  "year": "1999",
+                  "title": "Reobertura del Liceu reconstruït",
+                  "text": "El nou Liceu, reconstruit fidelment però amb tecnologia escènica d'última generació, obre el 7 d'octubre. El primer acte de la reapertura és La Bohème de Puccini."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "L'atemptat de 1893: context i conseqüències",
+              "content": "L'atemptat de Santiago Salvador s'emmarca en una època d'intensa violència anarquista a Catalunya i Europa. Pocs mesos abans, el juny del 1893, el general Arsenio Martínez Campos havia sobreviscut a un atemptat a Barcelona. L'autor, Paulino Pallás, havia estat executat. Salvador va llançar les bombes al Liceu el 7 de novembre de 1893 com a represàlia. L'elecció del Liceu no era casual: el teatre era el símbol per excel·lència de la burgesia barcelonina, l'espai on s'exhibia el poder econòmic de la nova classe dominant. Salvador va ser capturat, jutjat i executat el 1894. L'atemptat va precipitar la repressió coneguda com el 'Procés de Montjuïc', on centenars d'anarquistes i simpatitzants van ser detinguts, molts torturats i alguns executats sense proves sòlides."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-oph-04-01",
+              "style": "multiple-choice",
+              "question": "Quan es va reobrir el Liceu després de l'incendi del 1994, quina obra es va triar per inaugurar el teatre reconstruït?",
+              "options": [
+                "La Traviata de Verdi, en homenatge a la tradició italiana del Liceu",
+                "La Bohème de Puccini, dirigida per Zubin Mehta",
+                "Don Giovanni de Mozart, obra amb la qual s'havia inaugurat el 1847",
+                "Tristany i Isolda de Wagner, per la seva dimensió simbòlica de mort i resurrecció"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. La reobertura el 7 d'octubre de 1999 es va celebrar amb La Bohème de Puccini, dirigida per Zubin Mehta. L'elecció d'una obra sobre artistes joves i pobres que estimen la vida malgrat tot tenia una dimensió emotiva evident per a un teatre que acabava de renéixer de les cendres.",
+              "feedbackWrong": "El Liceu va reobrir el 1999 amb La Bohème de Puccini, dirigida per Zubin Mehta. L'obra —sobre artistes bohemis a París que viuen intensament malgrat la pobresa i la malaltia— va ser triada per la seva ressonància emocional amb un teatre que acabava de superar una de les seves pitjors tragèdies."
+            },
+            {
+              "type": "reflection",
+              "question": "L'incendi del 1994 va fer sortir milers de barcelonins al carrer a plorar. Pots pensar en un edifici o espai que, si desaparegués, tindria un efecte emocional semblant per a tu o per a la teva comunitat? Què és el que realment plorem quan plorem un edifici?",
+              "prompt": "No cal que escriguis res. Però val la pena pensar-hi un moment."
+            }
+          ]
+        },
+        {
+          "id": "oph-05",
+          "title": "L'òpera al segle XX: crisi, renovació i supervivència",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al segle XX, l'òpera hauria d'haver mort. El cinema la superava en espectacularitat i accessibilitat. La música popular la desbancava en audiències. Les avantguardes la declaraven morta o la transformaven de maneres que el públic no acceptava. I tanmateix, l'òpera no tan sols va sobreviure: avui es programa en tots els continents, les seves estrelles venen milions de discos i els seus teatres es compten entre els espais culturals més poderosos del planeta."
+            },
+            {
+              "type": "key-idea",
+              "text": "El repertori operístic del segle XX es divideix en dues línies paral·leles que rarament es troben: les avantguardes (Schönberg, Berg, Britten, Nono) que trenquen amb totes les convencions, i el verisme i el post-romanticisme (Puccini, Strauss) que consoliden el gran repertori que omplirà els teatres fins avui."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què el públic va rebutjar les avantguardes operístiques?",
+              "content": "Les avantguardes musicals del segle XX —atonalisme, dodecafonisme, música electroacústica— van produir òperes de gran complexitat intel·lectual que el públic general va rebutjar massivament. La raó no és simplement la 'dificultat': Beethoven o Wagner també eren difícils en el seu moment. La diferència és que les avantguardes van trencar amb el principi que la bellesa és una categoria vàlida. Obres com Wozzeck (Berg, 1925) o Lulu (Berg, pòstuma) són considerades mestres absolutes per la crítica especialitzada, però poques persones les triaria per a una primera experiència operística. El resultat és una fractura que persiste avui: els teatres d'òpera programen 80-90% de repertori del XIX i el públic envelleix sense renovar-se adequadament, mentre les òperes contemporànies s'estrenen amb pressupostos mínims i audiències reduïdes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-oph-05-01",
+              "style": "multiple-choice",
+              "question": "Quin compositor italià va dominar l'escena operística en el canvi del segle XIX al XX amb obres com La Bohème, Tosca i Madama Butterfly?",
+              "options": [
+                "Pietro Mascagni",
+                "Ruggero Leoncavallo",
+                "Giacomo Puccini",
+                "Umberto Giordano"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Puccini és el gran mestre del verisme operístic italià i el compositor que va heretar el paper de Verdi al capdavant de l'òpera italiana. La seva capacitat per crear melodies d'impacte emocional immediat —'Nessun dorma', 'O mio babbino caro', 'Un bel dì vedremo'— el van convertir en el compositor operístic més programat del món fins avui.",
+              "feedbackWrong": "Giacomo Puccini és el gran hereter de Verdi i el mestre del verisme italià. Mascagni (Cavalleria rusticana) i Leoncavallo (Pagliacci) van tenir moments de glòria, però cap va aconseguir la consistència ni la profunditat dramàtica de Puccini, les obres del qual continuen sent les més programades al món."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-oph-05-01",
+              "question": "Els teatres d'òpera programen majoritàriament repertori del segle XIX. Alguns defensen que cal modernitzar el repertori; d'altres que cal preservar el que el públic vol. Quina política té més sentit?",
+              "options": [
+                "Cal prioritzar el repertori clàssic: és el que ven entrades i el que sustenta econòmicament els teatres",
+                "Cal prioritzar les estrenes contemporànies: sense noves obres, l'òpera és un museu i desapareixerà",
+                "Cal una política d'equilibri calculat: repertori clàssic per sostenir els ingressos, i una quota significativa d'estrenes per mantenir el gènere viu"
+              ],
+              "correct": 2,
+              "explanation": "El debat és real i cap teatre d'òpera del món l'ha resolt del tot. Programar exclusivament repertori clàssic garanteix públic a curt termini però crea una espiral de decreixement: el públic envelleix, no s'incorporen generacions joves, i el gènere es converteix en un museu. Programar exclusivament avantguarda produeix teatres buits i pèrdues econòmiques insostenibles sense finançament públic molt generós. La política d'equilibri —que practiquen llocs com el Liceu, la Metropolitan Opera de Nova York o la Royal Opera House de Londres— intenta mantenir els dos pols: un 70-80% de repertori conegut que genera ingressos, i un 20-30% d'estrenes i comissions de noves obres que mantenen el gènere com a art viu. El problema és que aquest equilibri és fràgil i constantment qüestionat: quan hi ha retallades pressupostàries, les estrenes contemporànies solen ser les primeres a caure."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Música clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "Les avantguardes del segle XX",
+              "text": "Si has vist el mòdul de Música Clàssica, recordaràs que el trencament de la tonalitat —Schönberg i el dodecafonisme— va generar un abisme entre compositors i públic que mai no s'ha tancat del tot. A l'òpera, aquest abisme és especialment visible: un art que per funcionar necessita teatres caríssims i públics nombrosos no es pot permetre l'experimentació radical de la mateixa manera que un quartet de corda."
+            }
+          ]
+        },
+        {
+          "id": "oph-06",
+          "title": "Verdi: el compositor que va ser una nació",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al segle XIX italià, el nom de Verdi era cridat als carrers com a eslògan polític. 'Viva Verdi' no era tan sols un homenatge al compositor: era un acrònim —Vittorio Emanuele Re D'Italia— que els patriotes risorgimentals usaven per cridar a la unificació italiana sense que la censura austríaca els pogués detenir. Difícilment hi ha hagut mai un compositor tan embolicat en la política i en l'ànima d'una nació."
+            },
+            {
+              "type": "key-idea",
+              "text": "Giuseppe Verdi (1813–1901) és el compositor operístic italià més important de la història. Les seves 28 òperes abracen 50 anys de creació, des de les primeres obres patriòtiques del Risorgimento fins a les obres mestres tardanes —Otello i Falstaff— compostes quan tenia més de 70 anys."
+            },
+            {
+              "type": "expandable",
+              "label": "'Va, pensiero': un cor que va convertir-se en himne nacional",
+              "content": "El cor 'Va, pensiero, sull'ali dorate' del Nabucco (1842) és probablement el moment operístic més políticament poderós de la història. Els esclaus hebreus de Babilònia canten el plany per la seva pàtria perduda —però el públic milanès de 1842 hi sent la veu de la Itàlia sotmesa als austríacs. La identificació va ser immediata i aclaparadora. Es diu que el públic va demanar la repetició del cor —el bis— aquella nit, cosa extraordinàriament inusual per a un número coral. Durant dècades, es va proposar que 'Va, pensiero' fos l'himne nacional d'Itàlia en comptes de la 'Fratelli d'Italia'. L'any 2011, en el 150è aniversari de la unitat italiana, el director Riccardo Muti va aturar una representació del Nabucco a l'Òpera de Roma per dirigir el bis del cor amb el públic i denunciar les retallades culturals del govern. Milers de persones van cantar amb ell."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1842",
+                  "title": "Nabucco: l'inici de la llegenda",
+                  "text": "El cor 'Va, pensiero' es converteix en un símbol del Risorgimento italià."
+                },
+                {
+                  "year": "1851",
+                  "title": "Rigoletto",
+                  "text": "La primera de les tres grans òperes de la maduresa, seguida de Il Trovatore i La Traviata."
+                },
+                {
+                  "year": "1853",
+                  "title": "La Traviata",
+                  "text": "Escàndol a l'estrena: una cortesana com a protagonista simpàtica era inacceptable moralment. Avui és una de les òperes més programades del món."
+                },
+                {
+                  "year": "1871",
+                  "title": "Aida",
+                  "text": "Encarregada per al Cairo amb motiu de l'obertura del Canal de Suez. Espectacle grandiós, però també drama psicològic íntim."
+                },
+                {
+                  "year": "1887",
+                  "title": "Otello",
+                  "text": "Amb 73 anys, Verdi estrena la seva penúltima òpera, considerada el seu assoliment dramàtic més gran."
+                },
+                {
+                  "year": "1893",
+                  "title": "Falstaff",
+                  "text": "Amb 79 anys, Verdi estrena la seva primera i única gran comèdia. Una obra mestra de lleugeresa i profunditat."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-oph-06-01",
+              "style": "multiple-choice",
+              "question": "La Traviata de Verdi (1853) va tenir un estrena escandalosa. Quina era la causa principal de l'escàndol?",
+              "options": [
+                "La música era massa moderna i dissonant per al públic de l'època",
+                "L'obra criticava directament el govern austríac i va ser censurat a mig camí",
+                "La protagonista era una cortesana presentada de manera simpàtica i moralment complexa",
+                "El tenor principal va perdre la veu durant l'estrena i l'obra va haver d'aturar-se"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La Traviata presenta Violetta Valéry, una cortesana parisenca, com una protagonista noble, capaç d'amor autèntic i de sacrifici. Això era moralment inacceptable per als estàndards de l'època: una dona de vida alegre no mereixia la simpatia del públic ni un final heroic. Verdi no tan sols no es va disculpar: va continuar posant protagonistes femenines moralment complexes al centre de les seves obres.",
+              "feedbackWrong": "L'escàndol de l'estrena de La Traviata no va ser per la música ni per motius polítics, sinó per la protagonista: Violetta Valéry és una cortesana presentada de manera profundament simpàtica i humana. Que una 'dona perduda' fos l'heroïna era moralment inacceptable per als estàndards del 1853. Paradoxalment, avui és una de les òperes més estimades i programades del món."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-oph-06-02",
+              "style": "true-false",
+              "question": "'Viva Verdi' era exclusivament un homenatge espontani al compositor, sense cap connotació política.",
+              "correct": false,
+              "feedbackCorrect": "Fals. 'Viva Verdi' era un acrònim deliberat: Vittorio Emanuele Re D'Italia. En una Itàlia sota censura austríaca, cridar el nom del compositor era una manera d'expressar el suport a la unificació italiana sota el rei Víctor Manuel II sense ser detingut per les autoritats. Verdi era conscient d'aquest ús polític del seu nom i el va acceptar.",
+              "feedbackWrong": "'Viva Verdi' no era un simple homenatge: era un acrònim polític (Vittorio Emanuele Re D'Italia) que els patriotes usaven per eludir la censura austríaca. Cridar el nom d'un compositor no semblava subversiu, però el missatge polític era claríssim per als que sabien desxifrar-lo."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-oph-06-01",
+              "question": "Verdi va ser un símbol del nacionalisme italià, però la seva música era escoltada i estimada arreu d'Europa, fins i tot a Àustria, el país que oprimia la seva pàtria. Pot l'art ser alhora nacional i universal?",
+              "options": [
+                "No: quan un art és profundament nacional, perd la capacitat de connectar amb altres cultures",
+                "Sí, però només quan els valors nacionals que expressa coincideixen amb valors universals com la llibertat o la justícia",
+                "Sí: els millors exemples d'art 'universal' solen ser profundament arrelats en una cultura particular; la universalitat emergeix de la profunditat local, no de la seva dilució"
+              ],
+              "correct": 2,
+              "explanation": "La paradoxa de Verdi és il·lustrativa d'un fenomen general en l'art. Beethoven és profundament alemany —en la tradició filosòfica, en l'herència de Bach i Haydn, en la seva manera d'entendre el desenvolupament formal— i alhora universal. Dostoievski és radicalment rus i alhora parla a lectors de tot el món. Gaudí és incomprensible sense Barcelona i el catolicisme mediterrani, i tanmateix és l'arquitecte més visitat del món. La conclusió sembla ser la contrària de la intuïció: l'art que intenta ser universal des de bon principi —dissenyat per a 'tothom'— sol ser superficial i efímer. L'art que enfonsa les arrels molt profundes en una cultura, un temps, una llengua, aconsegueix paradoxalment parlar a persones de contextos completament diferents. Verdi no intentava ser universal: intentava expressar la passió italiana, el dolor italià, la política italiana. I per això és estimat a tot el món."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opera-elements",
+      "title": "Dins l'obra: com funciona una òpera",
+      "icon": "🔍",
+      "description": "Les veus, els personatges, la música i la dramatúrgia: les eines amb què l'òpera construeix la seva màgia.",
+      "style": "Temàtic · del detall al conjunt",
+      "lessons": [
+        {
+          "id": "ope-01",
+          "title": "Les veus: el mapa del cos humà",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "En una orquestra, els instruments s'organitzen per famílies i registres. A l'òpera, els instruments principals són els cossos humans. Cada veu té un timbre, una extensió i un caràcter dramàtic propi. Quan un compositor decideix que el seu heroi serà tenor i el seu vilà serà baix, no és una convenció arbitrària: és una elecció dramàtica carregada de significat."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les veus operístiques es classifiquen per extensió —de més agut a més greu— i per gènere. Les veus femenines són soprano, mezzosoprano i contralt. Les masculines, tenor, baríton i baix. Cada categoria té subcategories que defineixen el caràcter i el repertori de cada cantant."
+            },
+            {
+              "type": "expandable",
+              "label": "Fach: el sistema alemany de classificació de veus",
+              "content": "El sistema Fach (de l'alemany 'compartiment' o 'especialitat') és el sistema més complet de classificació de veus operístiques. Va desenvolupar-se a Alemanya al segle XIX i classifica les veus no tan sols per extensió, sinó per timbre, pes, agilitat i adequació dramàtica. Existeixen més de 25 categories de Fach. Alguns exemples: la 'dramatischer Koloratursopran' (soprano dramàtica de coloratura, com la Reina de la Nit en La Flauta Màgica de Mozart) combina extensió extrema cap als aguts amb potència dramàtica. El 'Heldentenor' (tenor heroic) és el tipus de veu que Wagner necessita: potent, resistent i capaç de sonar per damunt d'una orquestra de cent músics durant hores. Trobar un Heldentenor és una de les tasques més difícils per als directors artístics dels grans teatres."
+            },
+            {
+              "type": "comparison",
+              "title": "Les sis categories principals de veu",
+              "labelA": "Veus femenines",
+              "labelB": "Veus masculines",
+              "items": [
+                {
+                  "label": "Agut",
+                  "a": "Soprano — heroïnes, amoroses, reis de la coloratura",
+                  "b": "Tenor — herois, amants, protagonistes"
+                },
+                {
+                  "label": "Mitjà",
+                  "a": "Mezzosoprano — mares, antagonistes, papers de caràcter",
+                  "b": "Baríton — figures nobles o ambigues, antagonistes simpàtics"
+                },
+                {
+                  "label": "Greu",
+                  "a": "Contralt — figures de poder, saviesa o maldat femenina",
+                  "b": "Baix — figures d'autoritat, vilans, pares, figures còmiques greus"
+                }
+              ]
+            },
+            {
+              "type": "misconception",
+              "belief": "La veu més aguda (soprano o tenor) és sempre la protagonista de l'òpera.",
+              "reality": "Tot i que les veus agudes solen tenir els papers protagonistes en el repertori italià clàssic, hi ha excepcions importants. Carmen, el paper operístic femení més famós del món, és una mezzosoprano. En moltes òperes de Wagner i de Britten, els papers centrals pertanyen a barítons o bassos. I en l'obra de Verdi, els barítons protagonitzen obres senceres: Rigoletto, Falstaff i Simon Boccanegra.",
+              "why": "La convenció 'soprano = protagonista' ve del repertori del XVIII, però ja Verdi la va qüestionar sistemàticament al XIX donant papers de gran complexitat dramàtica als barítons."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ope-01-01",
+              "style": "multiple-choice",
+              "question": "Carmen, de Georges Bizet, és una de les òperes més programades del món. Quina classificació de veu correspon a la protagonista?",
+              "options": [
+                "Soprano",
+                "Mezzosoprano",
+                "Contralt",
+                "Soprano lírica"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Carmen és una mezzosoprano, i el seu paper és un dels més desitjats —i temuts— del repertori per a veus de registre mitjà. La veu fosca i sensual de la mezzosoprano s'adequa perfectament al caràcter de Carmen: independent, seductora i fatal. Les sopranistes que intenten cantar-lo solen sacrificar el color fosc del registre baix; les mezzo que no dominen els aguts pateixen en alguns moments.",
+              "feedbackWrong": "Carmen és una mezzosoprano, no una soprano. La diferència és important: la veu fosca, càlida i amb pes del registre de mezzo és essencial per al caràcter de Carmen. Una soprano pot tecnicamente cantar les notes, però perd el color vocal que defineix el personatge."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ope-01-02",
+              "style": "true-false",
+              "question": "En el repertori operístic, el tenor és tradicionalment el paper de l'heroi o l'amant, mentre que el baix sol representar figures d'autoritat, figures còmiques o vilans.",
+              "correct": true,
+              "feedbackCorrect": "Cert. Aquesta distribució dramàtica és una convenció que s'estableix al segle XVIII i es consolida al XIX. El tenor és l'amant —Rodolfo a La Bohème, el Duc de Màntua a Rigoletto, Otello—, mentre el baix és el pare —Filippo II a Don Carlos—, el savi —Gurnemanz a Parsifal—, el còmic —Leporello a Don Giovanni— o el vilà —Hagen al Ring de Wagner. Hi ha excepcions, però la convenció és prou forta perquè els compositors la usin conscientment i fins i tot en juguin.",
+              "feedbackWrong": "Efectivament, és cert. Aquesta és una de les convencions dramatúrgiques més estables del repertori operístic. El registre agut del tenor s'associa amb la joventut, la passió i l'heroisme; el registre greu del baix, amb la maduresa, el poder i —de vegades— la maldat. Verdi i Wagner en van ser els grans mestres."
+            }
+          ]
+        },
+        {
+          "id": "ope-02",
+          "title": "Recitatiu, ària i conjunt: els blocs de construcció",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si mai has sentit algú queixar-se que 'a l'òpera parlen cantant i és artificial', tens un punt de partida perfecte per entendre com funciona realment el gènere. El que sembla artifici és en realitat un sistema dramàtic molt elaborat, amb elements que serveixen funcions molt precises. Entendre la diferència entre un recitatiu i una ària canvia completament la forma d'escoltar una òpera."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'òpera clàssica alterna tres elements principals: el recitatiu (diàleg cantat que fa avançar l'acció), l'ària (moment líric on un personatge expressa un estat emocional) i el conjunt (duets, trios, quartets on vàries veus interactuen simultàniament). Cada element té una funció dramàtica diferent."
+            },
+            {
+              "type": "expandable",
+              "label": "L'ària da capo: la forma i el seu significat",
+              "content": "L'ària da capo ('des del principi') és la forma estàndard de l'ària barroca i clàssica. Té tres seccions: A (exposició del sentiment principal), B (contrast, un sentiment oposat o una situació diferent) i A' (repetició de la primera secció, però ornamentada pel cantant). La repetició de la secció A sembla redundant, però té una lògica dramàtica i musical precisa. Musicalment, permet al cantant demostrar la seva capacitat d'ornamentació: la segona vegada que canta la secció A, s'espera que afegeixi variacions, cadències i ornaments propis. Dramàticament, expressa que el personatge, tot i haver viscut la situació B, torna al sentiment inicial però transformat per l'experiència. Handel, Vivaldi i el Mozart jove van compondre centenars d'àries da capo. Mozart madur —i sobretot Verdi i Wagner— les van abandonar perquè les consideraven massa artificioses i encarcarades."
+            },
+            {
+              "type": "prediction",
+              "question": "En una escena operística, dos personatges s'estimen però saben que han de separar-se. El compositor decideix posar un duet: canten alhora, amb textos parcialment independents. Quin creus que és l'avantatge dramàtic de fer-los cantar junts en comptes de fer-los parlar alternativament?",
+              "hint": "Pensa en el que pot expressar la música simultàniament que el diàleg seqüencial no pot."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ope-02-01",
+              "style": "detect-error",
+              "statement": "En l'òpera moderna —a partir de Verdi i Wagner—, el recitatiu i l'ària es mantenen com a elements clarament separats i identificables, igual que en les òperes del barroc.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta. Un dels canvis fonamentals que Verdi i Wagner introdueixen és precisament la dissolució de la frontera rígida entre recitatiu i ària. En les òperes del XVIII, era clar quan s'estava en recitatiu (acció) i quan en ària (emoció). En Verdi tardà i en Wagner, la música és contínua i el pas d'un element a l'altre és gradual i fluid. Wagner ho anomena 'melodia infinita': la música no s'atura mai per a cadències finals ni per a aplaudiments entre àries. Això crea una experiència dramàtica molt diferent, més propera al drama parlatat que als números discrets de l'opera seria."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ope-02-02",
+              "style": "multiple-choice",
+              "question": "El quartet del quart acte de Rigoletto de Verdi —'Bella figlia dell'amore'— és un dels conjunts operístics més famosos. Quina és la seva característica dramàtica principal?",
+              "options": [
+                "Quatre personatges canten el mateix text en harmonia, expressant el mateix sentiment",
+                "Quatre personatges canten textos i sentiments simultàniament i completament oposats",
+                "Els personatges canten en rèplica alternada, com en un diàleg parlat",
+                "Dos personatges canten i dos reciten, combinant música i paraula parlada"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exactament. El quartet de Rigoletto és un exemple perfecte del que l'òpera pot fer i que cap altra forma dramàtica pot: el Duc corteja Maddalena (còmicament lleugera), Gilda plora el seu amor tret (adoloridament lírica), Rigoletto ordena la venjança a la seva filla (amargament decidit), i Maddalena intenta convèncer el Duc que no mati el tenor (irònicament divertida). Quatre estats emocionals completament oposats, simultanis, en contrapunt. Al teatre parlat, seria impossible: o parla un o parla l'altre. La música ho permet tot alhora.",
+              "feedbackWrong": "El quartet de Rigoletto presenta quatre personatges amb sentiments radicalment oposats cantant simultàniament: el Duc seductor, Gilda planyent, Rigoletto venjatiu i Maddalena burlesca. Aquesta simultaneïtat d'emocions contràries és precisament el que l'òpera pot fer i el teatre parlat no: quatre personatges parlen alhora i, en lloc de caos, el resultat és drama i bellesa musical."
+            }
+          ]
+        },
+        {
+          "id": "ope-03",
+          "title": "El leitmotiv: quan la música pensa",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Imagina que cada vegada que apareixes en escena, l'orquestra toca un motiu musical curt que et pertany exclusivament. I que aquest motiu canvia —es fragmenta, s'accelera, s'harmonitza de manera diferent— en funció del que estàs sentint en cada moment. Wagner va convertir aquesta tècnica en el sistema dramàtic més sofisticat que existeix a l'òpera: el leitmotiv."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un leitmotiv ('motiu conductor', en alemany) és un fragment musical breu —de 2 a 8 notes, habitualment— associat a un personatge, un objecte, una emoció o una idea. Wagner en va usar centenars en les seves òperes. Permeten a l'orquestra comentar l'acció, recordar el passat, presagiar el futur i revelar el que els personatges senten però no diuen."
+            },
+            {
+              "type": "expandable",
+              "label": "Quants leitmotivs té L'anell del Nibelung de Wagner?",
+              "content": "L'anell del Nibelung (Der Ring des Nibelungen) és una tetralogia wagneriana de quatre òperes —Das Rheingold, Die Walküre, Siegfried i Götterdämmerung— que s'interpreten en quatre vespres consecutius al llarg de 16 hores en total. Els musicòlegs han identificat entre 100 i 200 leitmotivs en el Ring (el nombre exacte depèn de com es defineixi un leitmotiv independent d'una variació del mateix). Hi ha leitmotivs per al Ring d'or, per a Wotan, per a Siegfried, per a l'amor, per a la maledicció, per al foc, per al poder... i molts d'aquests leitmotivs evolucionen dramàticament al llarg de les 16 hores: el leitmotiv de Siegfried, per exemple, apareix per primera vegada com una promesa heroica i, en el moment de la seva mort, és destrossat i fragmentat per l'orquestra."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ope-03-01",
+              "style": "multiple-choice",
+              "question": "Quin és el principal avantatge dramàtic del sistema de leitmotivs de Wagner en comparació amb l'ària operística tradicional?",
+              "options": [
+                "Permet que l'orquestra soni més potent i espectacular",
+                "Elimina la necessitat que els cantants tinguin tècnica vocal elaborada",
+                "L'orquestra pot revelar el que un personatge pensa o sent mentre en diu una altra cosa",
+                "Permet canviar de decorat sense aturar la música"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Aquí rau la genialitat dramàtica del sistema. Quan Wotan abraça Brünnhilde per última vegada, dient-li adéu amb paraules d'amor, l'orquestra pot tocar simultàniament el leitmotiv del seu poder perdut, o de la seva culpa, o del destí. El personatge diu una cosa, però l'orquestra revela el que realment sent. Cap altra forma dramàtica —ni el teatre parlat, ni el cinema mut— pot fer això amb la mateixa precisió i complexitat.",
+              "feedbackWrong": "L'avantatge principal del leitmotiv no és tècnic ni logístic: és dramàtic. El sistema permet que l'orquestra actuï com una veu interior dels personatges, revelant pensaments i sentiments que les paraules no diuen, presagiant el futur o recordant el passat. És la forma operística de l'ironia dramàtica."
+            },
+            {
+              "type": "reflection",
+              "question": "El cinema ha heretat la tècnica del leitmotiv: pensa en la música de John Williams per a Star Wars (cada personatge té el seu motiu) o en les bandes sonores de Hans Zimmer. Creus que el cinema popular actual és l'hereter legítim de Wagner, o hi ha diferències fonamentals que fan impossible la comparació?",
+              "prompt": "No cal que tinguis coneixements musicals per respondre-ho. És una qüestió de funció dramàtica."
+            }
+          ]
+        },
+        {
+          "id": "ope-04",
+          "title": "El libretto: quan les paraules importen —i quan no",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hi ha una broma vella sobre l'òpera: que les paraules no importen, que el públic no les entén i que el que importa és el so. Hi ha una mica de veritat en això —i és completament fals alhora. Els millors llibrets operístics —els de Da Ponte per a Mozart, els de Boito per a Verdi, els de Wagner escrits per ell mateix— són obres literàries d'una qualitat remarcable. I la relació entre text i música defineix l'estil de cada compositor."
+            },
+            {
+              "type": "key-idea",
+              "text": "El libretto és el text d'una òpera. La relació entre compositor i libretista és una de les col·laboracions creatives més complexes de l'art occidental. Alguns compositors —Wagner, Berlioz, Tippett— escriuen els seus propis textos. Altres —Mozart, Verdi, Puccini— treballen amb libretistes de qui depenen absolutament per a la qualitat del drama."
+            },
+            {
+              "type": "expandable",
+              "label": "Lorenzo Da Ponte: el libretista de Mozart",
+              "content": "Lorenzo Da Ponte (1749–1838) és el libretista de les tres grans òperes italianes de Mozart: Le nozze di Figaro (1786), Don Giovanni (1787) i Così fan tutte (1790). La seva col·laboració amb Mozart és un dels exemples més fèrtils de l'art occidental: Da Ponte portava textos d'una qualitat literària excepcional, plens d'ironia, de psicologia subtil i d'ambigüitat moral, i Mozart els transformava en música que multiplicava la seva complexitat. Da Ponte tenia una vida tan dramàtica com les seves òperes: sacerdot ordenat que va ser expulsat de Venècia per adulteri, poeta de la cort imperial a Viena, fugitiu de deutors, libretista a Londres, i finalment professor de literatura italiana a la Universitat de Nova York, on va morir als 89 anys. Va introduir l'italià a l'Amèrica del Nord."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ope-04-01",
+              "style": "multiple-choice",
+              "question": "Arrigo Boito va ser el libretista de les dues últimes òperes de Verdi —Otello i Falstaff— adaptant Shakespeare. Quin era el repte principal d'adaptar Shakespeare per a l'òpera?",
+              "options": [
+                "Shakespeare era poc conegut a Itàlia i calia explicar molt context als espectadors",
+                "Les obres de Shakespeare eren massa llargues i psicològicament complexes per condensar-les en un libretto",
+                "La llengua anglesa de Shakespeare no es podia traduir a l'italià sense perdre tota la seva qualitat",
+                "L'Església catòlica s'oposava a posar en escena obres de l'anglès protestant Shakespeare"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "El repte de Boito era condensar obres plenes de personatges secundaris, sub-trames i monòlegs introspectius en un libretto que pogués sostenir la música verdiana. El seu Otello elimina tot el primer acte de la tragèdia de Shakespeare i concentra l'acció en la seducció de l'enveja. El resultat és considerat la millor adaptació shakespeariana de la història de l'òpera: Verdi i Boito no 'tradueixen' Shakespeare, el reinterpreten.",
+              "feedbackWrong": "El repte principal d'adaptar Shakespeare per a l'òpera era la densitat i la longitud: obres amb desenes de personatges, sub-trames complexes i monòlegs psicològics introspectius havien de convertir-se en libretti que un cantant pogués sostenir musicalment. Boito va solucionar-ho amb retalls valents: l'Otello operístic elimina tot el primer acte de Shakespeare. El resultat és considerat la millor adaptació shakespeariana de la història de l'òpera."
+            },
+            {
+              "type": "debate",
+              "question": "S'han de programar les òperes en la llengua original o en la llengua del públic local?",
+              "positionA": {
+                "label": "En llengua original sempre",
+                "argument": "La música i el text d'una òpera estan indissolublement units. Cada compositor ha compost per a una llengua concreta: les vocals obertes de l'italià, els accents del francès, la gravetat del alemany. Canviar la llengua canvia la música. Quan es canta La Traviata en anglès, no és La Traviata: és una altra obra. A més, els subtítols resolven el problema de la comprensió del text perfectament."
+              },
+              "positionB": {
+                "label": "En la llengua del públic",
+                "argument": "L'òpera és drama: si el públic no entén el text en temps real, perd la meitat de l'experiència. Els subtítols distreuen —has de llegir o mirar l'escena, no pots fer les dues coses alhora. Benjamin Britten va compondre les seves òperes en anglès per fer-les accessibles al públic britànic, i el resultat és perfectament coherent. Les traduccions ben fetes preserven els accents musicals. La comprensió immediata val el sacrifici de la llengua original."
+              },
+              "reflection": "Has vist alguna pel·lícula doblada que t'hagi semblat inferior a l'original subtitulada? Quin creus que és el paral·lel amb l'òpera?",
+              "context": "La pràctica ha variat molt històricament. Al segle XVIII i XIX, l'òpera es traduïa rutinàriament: Wagner es cantava en italià a Itàlia, Verdi en alemany a Alemanya. Des de meitats del XX, els grans teatres han adoptat la llengua original amb subtítols. Però companyies com l'English National Opera continuen programant exclusivament en anglès per principi."
+            }
+          ]
+        },
+        {
+          "id": "ope-05",
+          "title": "El director d'escena: l'enemic o el salvador de l'òpera",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant segles, l'òpera va tenir directors musicals però no directors d'escena en el sentit modern. Els cantants es presentaven a l'escenari, cantaven les seves àries i marxaven. El director d'escena com a creador amb veu pròpia és un fenomen del segle XX, i ha creat una de les batalles culturals més acalorades del món operístic: el Regietheater."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Regietheater ('teatre de director', en alemany) designa les produccions on el director d'escena reinterpreta radicalment l'obra, situant-la en èpoques, llocs o contextos completament diferents dels originals. Per als seus defensors, és l'única manera de mantenir l'òpera viva. Per als seus detractors, és una traïció a la voluntat del compositor."
+            },
+            {
+              "type": "expandable",
+              "label": "Casos extrems de Regietheater: quan la reinterpretació escandalitza",
+              "content": "Alguns exemples cèlebres de produccions escandaloses: una producció del Tannhäuser de Wagner a Düsseldorf el 2013 va situar l'acció en un camp de concentració nazi amb imatges tan explícites que el director va suspendre la producció per l'impacte psicològic en el públic. Una producció del Rigoletto de Verdi a Berna el 2018 va convertir el personatge del Duc en un polític populista contemporani amb referències directes a Donald Trump. Una producció del Don Giovanni de Mozart a Salzburg va acabar amb el protagonista violant Donna Anna de manera explícita sobre l'escenari. En tots els casos, el debat va ser el mateix: el director té dret a reinterpretar? Fins on arriba la llibertat creativa sobre una obra que no és seva?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ope-05-01",
+              "style": "true-false",
+              "question": "El Regietheater és un fenomen que existeix des dels inicis de l'òpera al segle XVII, quan els directors ja reinterpretaven les obres canviant el context dramàtic.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El Regietheater és un fenomen del segle XX, desenvolupat sobretot a partir dels anys 1960 i 1970 a Alemanya. Fins aleshores, les òperes es representaven de manera molt més convencional, amb decorats i vestuari d'època i sense reinterpretacions dramatúrgiques radicals. La figura del director d'escena com a creador autònom amb visió pròpia sobre l'obra és modernament molt recent en la història operística.",
+              "feedbackWrong": "El Regietheater és un fenomen exclusivament del segle XX, especialment de la seva segona meitat. Als segles XVII, XVIII i XIX, les produccions operístiques eren molt més conservadores: l'important eren els cantants i la música, no la visió del director d'escena, que ni tan sols existia com a figura artística autònoma."
+            },
+            {
+              "type": "debate",
+              "question": "El Regietheater: renovació necessària o traïció a l'obra?",
+              "positionA": {
+                "label": "Renovació necessària",
+                "argument": "Les òperes es van escriure per parlar als seus contemporanis. Posarles en el context històric original és fer-les inòcues: convertir-les en museu. Quan un director situa Don Giovanni en el capitalisme contemporani o La Traviata en un suburbi americà dels anys 50, no traeix Verdi o Mozart: els ressuscita. L'art que no es pot reinterpretar és art mort. La funció del teatre és fer-nos pensar el present, no admirar el passat."
+              },
+              "positionB": {
+                "label": "Traïció a l'obra",
+                "argument": "Un compositor que escriu una òpera sobre Roma antiga no vol dir res sobre el nazisme. Imposar sobre les seves paraules i la seva música un significat que mai no va voler és una forma de violència creativa. El director té tot el dret a fer les seves pròpies obres: però quan agafa La Traviata i en fa una altra cosa, hauria d'anunciar-ho clarament. El públic que compra l'entrada per veure Verdi mereix veure Verdi, no la teoria del director sobre Verdi."
+              },
+              "reflection": "Si fossis el compositor, quin t'agradaria que fessin amb les teves obres: que les preservessin tal com les vas concebre, o que cada generació les transformés?",
+              "context": "El debat és viu i sense solució. Els grans festivals —Bayreuth, Salzburg, Edimburg— programen habitualment produccions de Regietheater i generen polèmica constant. L'argument definitiu de cap dels dos bàndols ha aconseguit imposar-se."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ope-05-01",
+              "question": "Una obra d'art pertany al seu creador, al seu context original, o a totes les generacions que la interpreten i la reben? Quin és el locus de significat d'una obra?",
+              "options": [
+                "A l'autor: el significat d'una obra és el que el seu creador volia dir, i tota interpretació que se n'allunya és una deformació",
+                "Al context de recepció: cada generació llegeix una obra des del seu present, i tots els significats que hi troba són igualment vàlids",
+                "En la tensió entre totes dues: l'obra té una intenció original que cap interpretació pot ignorar del tot, però cada recepció genuïna afegeix significat que no estava a l'original"
+              ],
+              "correct": 2,
+              "explanation": "Aquesta és una de les preguntes centrals de la teoria literària i estètica del segle XX. La posició que el significat rau exclusivament en l'autor —intentional fallacy en terminologia anglosaxona— planteja problemes insolubles: no podem saber amb certesa el que l'autor volia dir, i quan ho sabem (cartes, entrevistes), sovint és contradictori amb l'obra mateixa. La posició que el significat rau exclusivament en el receptor —death of the author, per Roland Barthes— porta a l'arbitrarietat: qualsevol interpretació val el mateix, i una lectura neonazi de La Traviata seria tan vàlida com qualsevol altra. La posició de tensió —sostiguda per hermenèutics com Hans-Georg Gadamer amb el concepte de 'fusió d'horitzons'— proposa que una interpretació genuïna és aquella que pren seriosament tant el text original com el present del lector o director. No totes les interpretacions valen igual: una que ignora el text, que el traeix sistemàticament, que imposa significats aliens sense cap fonament, és menys vàlida que una que dialoga seriosament amb l'obra. Però l'obra mateixa és sempre més gran que qualsevol interpretació que se n'hagi fet."
+            }
+          ]
+        },
+        {
+          "id": "ope-06",
+          "title": "Per on commençar: les deu obres que cal conèixer",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si has arribat fins aquí, ja tens les eines per escoltar una òpera amb ulls nous. Ara la pregunta pràctica: per on commençar? El catàleg operístic és aclaparador —milers d'obres de cinc segles— i l'elecció del punt d'entrada importa molt. Commençar per Wagner pot ser fulminant. Commençar per Mozart o Puccini pot ser una porta que s'obre per sempre."
+            },
+            {
+              "type": "key-idea",
+              "text": "El millor punt d'entrada a l'òpera no és necessàriament el 'millor' ni el 'més important': és l'obra que connecta amb el teu gust i la teva curiositat. Però hi ha obres que, per accessibilitat, impacte i qualitat, funcionen millor com a primers contactes."
+            },
+            {
+              "type": "expandable",
+              "label": "Deu òperes per commençar, per ordre d'accessibilitat",
+              "content": "1. La Bohème (Puccini, 1896): melodies inoblidables, drama immediat, durada moderada. La porta d'entrada perfecta.\n2. Carmen (Bizet, 1875): ritme, color, passió. Accessible i fascinant.\n3. Le nozze di Figaro (Mozart, 1786): perfecta en tots els sentits. Requereix atenció al text.\n4. La Traviata (Verdi, 1853): un drama humà d'una intensitat devastadora.\n5. Rigoletto (Verdi, 1851): el quartet del quart acte és una de les cimes de l'art occidental.\n6. Don Giovanni (Mozart, 1787): el personatge operístic més gran de la història.\n7. Tosca (Puccini, 1900): thriller operístic de ritme cinematogràfic.\n8. Madama Butterfly (Puccini, 1904): emocionalment arrasadora.\n9. Otello (Verdi, 1887): la fusió perfecta entre Shakespeare i Verdi.\n10. Tristany i Isolda (Wagner, 1865): per quan ja ets addicte i vols anar al limit."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ope-06-01",
+              "style": "multiple-choice",
+              "question": "Quin d'aquests compositors és l'autor de La Bohème, considerada una de les òperes més accessibles per als nous espectadors?",
+              "options": [
+                "Giuseppe Verdi",
+                "Richard Wagner",
+                "Giacomo Puccini",
+                "Georges Bizet"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Puccini és l'autor de La Bohème (1896), estrenada a Torí sota la direcció d'un jove Arturo Toscanini. La seva combinació de melodies immediates, personatges simpàtics, drama emocional directe i durada moderada la converteixen en el punt d'entrada recomanat per la majoria d'especialistes per a qui vol descobrir l'òpera.",
+              "feedbackWrong": "La Bohème és de Giacomo Puccini, estrenada el 1896. Verdi és el gran mestre del Risorgimento italià; Wagner el gegant alemany del drama filosòfic; Bizet el compositor de Carmen. Puccini és el seu successor directe en l'estil italià: més líric, més sentimental i potser menys grandiós, però d'un accés emocional immediat que el fa el compositor operístic més programat del món."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ope-06-02",
+              "style": "detect-error",
+              "statement": "Wagner és el compositor recomanat per introduir-se a l'òpera, ja que les seves obres —breus, melòdiques i de fàcil comprensió— representen l'essència del gènere en forma concentrada.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és completament incorrecta. Wagner és gairebé l'antítesi d'un punt d'entrada per a nous espectadors. Les seves òperes duren entre 3 i 6 hores (el Ring complet, 16 hores en 4 vespres), exigeixen una escolta activa i sostinguda, funcionen sobre un sistema complex de leitmotivs i presuposen una familiaritat prèvia amb el drama musical. Un nou espectador que comenci per Wagner (Tristany i Isolda, per exemple) corre un risc seriós de convèncer-se que l'òpera és insuportablement llarga i hermètica. El camí habitual recomanat és: Puccini o Bizet primer, Verdi quan ja es coneix el gènere, Mozart per aprofundir, i Wagner quan ja s'és, sense reserves, un aficionat a l'òpera."
+            },
+            {
+              "type": "reflection",
+              "question": "Has escolt mai una òpera —sencera o fragmentada— que t'hagi impactat emocionalment? Si és que sí, quin era el moment? Si és que no, quin dels títols que has vist al llarg d'aquest mòdul et genera més curiositat?",
+              "prompt": "L'òpera és un art que es descobreix millor escoltant que llegint-ne la teoria. Si no l'has escoltat mai, avui seria un bon dia per commençar."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Música clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "El sistema tonal i les seves crisis",
+              "text": "L'òpera és inseparable de la història de la música clàssica occidental. Si vols entendre per què Wagner va ser tan revolucionari musicalment —i no tan sols dramàticament—, el mòdul de Música Clàssica t'explicarà com el sistema tonal sobre el qual s'havia construït tota la música occidental comença a esfondrar-se precisament en el Tristany i Isolda de 1865."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "id": "module-XX-arquitectura-02",
+  "title": "Arquitectura 2: Déu, Llum i Pedra",
+  "emoji": "⛪",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "medieval-modern",
+      "title": "Del Romànic al Barroc",
+      "icon": "🕍",
+      "description": "Com Europa va construir la seva visió del cosmos en pedra: del silenci romànic a la llum gòtica, de la mesura renaixentista a la persuasió barroca",
+      "style": "Cronològic · del segle V al XVIII",
+      "lessons": [
+
+        {
+          "id": "arq2-01",
+          "title": "El Romànic: Quan els Murs Parlaven",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Entra en una església romànica. Les parets són gruixudes com un metre. Les finestres són petites, els arcs de mig punt, la llum escassa. Sembla una fortalesa. I en cert sentit ho és: va ser construïda en un món on el violent, l'incert i el mortal eren la norma quotidiana, i l'església era l'únic lloc on la pedra garantia una certa permanència. Però aquells murs gruixuts no eren simplement una necessitat estructural — eren una declaració teològica: el món exterior és perillós i transitori; aquí dins, en la pesantor i el silenci, hi ha alguna cosa que dura."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'arquitectura romànica no és l'arquitectura del gòtic abans que els enginyers aprenguessin a fer-ho millor. És una elecció estètica i teològica coherent: el pes, la foscor, la solidesa i la repetició rítmica dels arcs creen una experiència de recolliment i permanència que la lleugeresa gòtica mai va voler substituir, sinó contradir."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'arquitectura romànica és primitiva i tècnicament inferior al gòtic que va venir després.",
+              "reality": "El romànic i el gòtic representen dues filosofies estètiques i espirituals different, no etapes d'una mateixa evolució tècnica. Les catedrals romàniques de Cluny, Pisa o Santiago de Compostel·la eren prodigis d'enginyeria en el seu moment. El gòtic no va sorgir perquè els arquitectes havien après a fer millor el que feien els romànics — va sorgir perquè van decidir fer una cosa diferent.",
+              "why": "La narrativa del 'progrés' en la història de l'art tendeix a llegir cada estil com una superació del precedent. Però els estils no superen els anteriors — responen a necessitats culturals i espirituals diferentes."
+            },
+            {
+              "type": "expandable",
+              "label": "El Camí de Sant Jaume i la invenció de l'arquitectura de masses",
+              "content": "El Camí de Sant Jaume va ser, entre els segles X i XIII, la ruta de pelegrinatge més transitada d'Europa occidental. Centenars de milers de pelegrins recorrien anualment el camí fins a Santiago de Compostel·la. Això va crear un problema arquitectònic nou: com fer cabre milers de persones en una església mentre els canonges continuaven les seves oracions corals sense interrupció? La solució va ser la 'planta de pelegrinació': una nau central flanquejada per deambulatoris laterals i una girola al voltant de l'absis que permetia als pelegrins circular contínuament al voltant de les relíquies sense interrompre el culte. Les catedrals romàniques del Camí — Saint-Sernin de Tolosa, Saint-Foy de Conques, Santiago mateixa — comparteixen aquesta planta funcional. L'arquitectura romànica del Camí va inventar l'arquitectura de gestió de masses molt abans que els estadis moderns."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "909",
+                  "title": "Fundació de Cluny",
+                  "text": "L'abadia de Cluny (Borgonya) es converteix en el centre de la reforma monàstica i en el principal promotor de l'arquitectura romànica europea."
+                },
+                {
+                  "year": "1063",
+                  "title": "Inici de la catedral de Pisa",
+                  "text": "El romànic italià desenvolupa un caràcter propi: marbre blanc i verd, façanes amb arcuacions cegues, campanars exentos. La Torre de Pisa és el campanar d'aquesta catedral."
+                },
+                {
+                  "year": "1075",
+                  "title": "Inici de la catedral de Santiago de Compostel·la",
+                  "text": "La catedral del Camí per excel·lència. La seva planta de pelegrinació serà copiada a tot Europa."
+                },
+                {
+                  "year": "1088",
+                  "title": "Cluny III — la basílica més gran del món cristià",
+                  "text": "La tercera església de Cluny, amb 187 metres de longitud, serà la més gran d'Europa fins a la reconstrucció de Sant Pere de Roma al segle XVI."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-01-01",
+              "style": "multiple-choice",
+              "question": "Les portades romàniques — les entrades de les catedrals — estan cobertes d'escultura narrativa que representa el Judici Final, els sants, els pecats i les virtuts. Per a qui estava destinat aquest programa iconogràfic?",
+              "options": [
+                "Per als clergues i monjos que entraven i sortien diàriament i necessitaven recordatoris teològics",
+                "Per als pelegrins i fidels laics, majoritàriament analfabets, per a qui les imatges eren l'única manera d'accedir al contingut de les Escriptures",
+                "Per als nobles i patrons de la catedral, que finançaven la construcció a canvi de ser representats en l'escultura",
+                "Per als viatgers estrangers que no entenien la llengua local però podien llegir les imatges universals"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El papa Gregori el Gran havia establert al segle VI que les imatges eren 'la Bíblia dels illetrats' — la manera d'ensenyar la doctrina a una població que no sabia llegir. Les portades romàniques eren programes pedagògics i teològics dissenyats per ser 'llegits' per fidels que no tenien accés al text escrit. Però és important no simplificar: la iconografia romànica no era didàctica simplement — era també una experiència estètica i emocional. La portada de Moissac o el timpà de Vézelay no 'expliquen' el Judici Final: el fan present, l'imposen, aterroritzen i fascinen simultàniament.",
+              "feedbackWrong": "Malgrat que clergues, nobles i estrangers interactuaven amb la iconografia de les portades, el destinatari principal del programa iconogràfic romànic era la gran massa de fidels laics analfabets. La catedral medieval era el llibre il·lustrat de la teologia cristiana per a qui no podia llegir cap altre."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-01-02",
+              "style": "detect-error",
+              "statement": "L'arquitectura romànica va ser un estil homogeni que es va difondre uniformement per tota Europa occidental entre els segles X i XII.",
+              "isCorrect": false,
+              "feedbackExplanation": "El 'romànic' és una categoria historiogràfica inventada al segle XIX per descriure l'arquitectura europea anterior al gòtic. En realitat, cobreix una diversitat enorme de tradicions regionals amb trets molt diferenciats: el romànic llombard (amb les seves bandes llombardes i els arcs cecs de les façanes), el normand (introduït a Anglaterra per Guillem el Conqueridor, amb naus massives i torres imponents), el borgonya (associat a Cluny i la reforma cluniacense), el català (amb les seves espadanyes i campanars de planta quadrada), el renà (amb les seves absidioles i les torres bessones). Parlar de 'l'arquitectura romànica' com si fos un estil unitari és com parlar de 'l'arquitectura contemporània' ignorant les diferències entre Renzo Piano, Zaha Hadid i Tadao Ando."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq2-01-01",
+              "question": "Les grans catedrals romàniques van ser construïdes en part amb treball no remunerat dels fidels, convençuts que la seva contribució els guanyaria indulgències i salvació. Canvia això la manera com hauríem de valorar-les avui?",
+              "options": [
+                "Sí — els monuments construïts sobre l'explotació de la credulitat religiosa no poden ser celebrats sense reconèixer el seu cost humà",
+                "No — el context de creença dels constructors era genuí i la seva motivació, per molt manipulada que fos, produïa una obra de valor universal independent dels seus orígens",
+                "La pregunta és legítima però no permet una resposta única: podem admirar l'obra i reconèixer simultàniament les condicions de la seva producció, sense que cap dels dos gestos anul·li l'altre"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre com valorar els monuments produïts en condicions de coacció, manipulació o esclavitud és central en la historiografia cultural contemporània. Les piràmides, les catedrals medievals, les plantacions colonials, els monuments soviètics: tots han estat construïts amb treball forçat o amb motivacions que avui qüestionem. La resposta que més s'aguanta intellectualment no és ni la celebració acrítica ni la condemna que invalida l'obra. És la doble mirada: reconèixer la qualitat i el valor de l'obra com a experiència humana i com a assoliment tècnic, i reconèixer simultàniament les condicions reals de la seva producció. La dificultat és que les dues coses juntes creen una incomoditat que és exactament la resposta intel·lectualment honesta davant d'obres que han costat un preu humà real."
+            }
+          ]
+        },
+
+        {
+          "id": "arq2-02",
+          "title": "El Gòtic: La Pedra Feta Llum",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1140, l'abat Suger de Saint-Denis va escriure que volia que la seva nova església fos un lloc on la llum material conduís l'ànima cap a la llum immaterial de Déu. Per aconseguir-ho, va encarregar als seus mestres d'obra que dissolgessin els murs en vidre. Volia finestres que cobrissin tota la superfície dels murs, columnes tan primes com fos possible, voltes tan altes que la nau semblés tocar el cel. El resultat va ser el primer edifici gòtic de la història. I el que va semblar als seus contemporanis un miracle tècnic — com podien aguantar-se aquelles parets de vidre? — era en realitat la conseqüència d'una idea teològica portada a les seves últimes conseqüències estructurals."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'arc ogival i l'arc botant no van ser inventats perquè els arquitectes medievals volessin construir més alt — van ser inventats perquè volien més llum. L'arc ogival dirigeix les forces cap avall més eficientment que el mig punt, permetent murs més prims. L'arc botant porta les empentes horitzontals cap a fora de l'edifici, alliberant el mur interior. Junts, van fer possible substituir la pedra per vidre. La tècnica va seguir la teologia, no a l'inrevés."
+            },
+            {
+              "type": "expandable",
+              "label": "La teologia de la llum: Dionís l'Areopagita i l'origen intel·lectual del gòtic",
+              "content": "L'abat Suger de Saint-Denis estava profundament influenciat pels escrits de Dionís l'Areopagita (segles V-VI), un teòleg neoplatònic que havia elaborat una teologia de la llum: Déu és llum, i la llum material és una emanació de la llum divina que pot elevar l'ànima del contemplador cap a l'origen. Per a Dionís, l'experiència de la bellesa sensible — inclosa la llum filtrada pels vitralls de colors — era una via de contemplació mística legítima. Suger va prendre aquesta teologia al peu de la lletra i va construir un edifici on l'experiència de la llum fos inseparable de l'experiència de Déu. La catedral gòtica no és simplement un edifici religiós decorat amb llum — és un argument filosòfic construït en pedra i vidre sobre la naturalesa de la divinitat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-02-01",
+              "style": "multiple-choice",
+              "question": "Les catedrals gòtiques van trigar de 100 a 300 anys a construir-se. Això significa que cap arquitecte que en va iniciar una va viure per veure-la acabada. Quin efecte tenia això sobre el disseny?",
+              "options": [
+                "Creava incoherències estilístiques inevitables: cada generació d'arquitectes afegia elements del seu temps, resultant en edificis sense unitat de disseny",
+                "No tenia efecte: els plànols originals es guardaven i els successors els seguien fidelment generació rere generació",
+                "Creava una forma singular de continuïtat cultural: cada generació aprenia i continuava el treball de l'anterior, de manera que la catedral era literalment el dipòsit de coneixement constructiu acumulat d'una comunitat al llarg de segles",
+                "Forçava als arquitectes a dissenyar cada fase de manera independent, resultant en edificis compostos per seccions autònomes"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Les catedrals gòtiques no eren projectes amb un arquitecte i un pla fix — eren institucions de coneixement viu on el saber constructiu es transmetia de mestres a aprenents al llarg de generacions. Els canvis d'estil entre el gòtic primitiu i el gòtic flamíger que es veuen en moltes catedrals no són incoherències — són registres visibles del temps i de les generacions que hi van treballar. La catedral és literalment un arxiu de la història de la construcció d'una comunitat.",
+              "feedbackWrong": "La llarga durada de construcció de les catedrals gòtiques no produïa simplement incoherències o continuïtats mecàniques. Creava alguna cosa més interessant: una forma de memòria col·lectiva construïda on cada generació llegia el treball de l'anterior i hi afegia el seu. Les catedrals són arxius de temps en pedra."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-02-02",
+              "style": "true-false",
+              "question": "Els vitralls de les catedrals gòtiques tenien principalment una funció decorativa i il·lustrativa. La seva qualitat artística era secundària respecte a la seva funció de narrar escenes bíbliques.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Els vitralls de les grans catedrals gòtiques — Chartres, Sainte-Chapelle, Canterbury — eren obres d'art en si mateixos, productes d'un procés tècnic extremadament complex i cars que competien en prestigi amb les millors pintures de l'època. La seva funció narrativa i la seva qualitat artística eren inseparables: la intensitat del color, la qualitat de la llum filtrada i la composició visual eren tan importants com el tema representat. La Sainte-Chapelle de París té 1.113 escenes bíbliques en 15 vitralls que cobreixen 600 m² de superfície — i és simultàniament un programa teològic i una de les obres d'art visual més extraordinàries de la història.",
+              "feedbackWrong": "Els vitralls gòtics eren obres d'art de primer ordre, no simplement il·lustracions. La seva producció requeria mestres vidriers especialitzats, fórmules de color guardades en secret, i un coneixement precís de com la llum canviaria el color al llarg del dia. El seu valor artístic i la seva funció narrativa eren inseparables."
+            },
+            {
+              "type": "quote",
+              "text": "L'edifici sagrat ha de ser ple de llum veritable i preciosa, illuminant meravellosament i bellament l'interior de l'església.",
+              "author": "Abat Suger de Saint-Denis, De Administratione, c. 1144"
+            },
+            {
+              "type": "comparison",
+              "title": "Romànic vs. Gòtic: Dues Teologies en Pedra",
+              "labelA": "Romànic",
+              "labelB": "Gòtic",
+              "items": [
+                {
+                  "label": "Arc dominant",
+                  "a": "Mig punt: semicircular, estable, que transmet les forces uniformement",
+                  "b": "Ogival: apuntat, que dirigeix les forces cap avall i permet murs més prims"
+                },
+                {
+                  "label": "Tractament dels murs",
+                  "a": "Massissos, gruixuts, amb petites obertures. El mur és l'estructura",
+                  "b": "Dissolts en vidre. El mur és substituit per vitralls entre columnes primes"
+                },
+                {
+                  "label": "Experiència interior",
+                  "a": "Foscor, recolliment, silenci, pes. Intimitat amb la pedra",
+                  "b": "Llum de colors, altura vertiginosa, dematerialització. Elevació cap al cel"
+                },
+                {
+                  "label": "Teologia implícita",
+                  "a": "Déu com a refugi en un món perillós. La pedra com a garantia de permanència",
+                  "b": "Déu com a llum. L'edifici com a vehicle d'elevació espiritual cap a l'origen diví"
+                }
+              ]
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq2-02-01",
+              "question": "Les catedrals gòtiques van absorbir recursos econòmics enormes durant segles en societats on la majoria de la població vivia en la pobresa. Estava justificat?",
+              "options": [
+                "Sí — les catedrals eren el projecte cultural col·lectiu de la comunitat, i el seu valor simbòlic, social i espiritual per als contemporanis justificava la inversió",
+                "No — els recursos dedicats a la construcció de catedrals haurien pogut alleujar la pobresa de milers de persones, i cap valor estètic o espiritual justifica aquesta elecció en un context de misèria generalitzada",
+                "La pregunta no pot respondre's aplicant criteris contemporanis d'assignació de recursos a una societat on les categories de 'inversió pública' i 'bé espiritual' eren inseparables — però reconèixer-ho no és evitar la pregunta, és situar-la correctament"
+              ],
+              "correct": 2,
+              "explanation": "Aplicar la lògica moderna de l'anàlisi cost-benefici a la construcció de catedrals medievals és un anacronisme metodològic. En la cosmologia medieval, construir una casa de Déu no era 'gastar' recursos en comptes de 'invertir-los' en els pobres — era l'acte de major valor social i espiritual possible, el que organitzava el sentit de tota la vida col·lectiva. Demanar per què no van usar aquells recursos per alleujar la pobresa és com preguntar per què avui no destruïm museus per finançar hospitals: pressuposa una jerarquia de valors que la societat en qüestió no compartia. Però reconèixer el marc cultural medieval no significa que la pregunta sigui il·legítima: el poder eclesiàstic que controlava l'assignació de recursos i que construïa catedrals mentre la majoria de la població vivia en condicions miserables és un fet polític real, no simplement una diferència cultural. La tensió entre les dues lectures és irresoluble i és exactament el que fa les catedrals medievals objectes d'estudi fascinants."
+            }
+          ]
+        },
+
+        {
+          "id": "arq2-03",
+          "title": "El Renaixement: La Mesura de l'Home",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1436, Filippo Brunelleschi va completar la cúpula de Santa Maria del Fiore de Florència — la catedral que havia estat inacabada durant un segle i mig perquè ningú sabia com construir una cúpula tan gran. Brunelleschi va resoldre el problema estudiant el Panteó de Roma, desenvolupant una tècnica de doble carcassa de maó i inventant màquines de construcció noves. Va ser el primer arquitecte modern en el sentit que coneixem: un individu que aplica el coneixement racional al problema constructiu. I el que va construir no era simplement un prodigio tècnic — era la declaració que l'ésser humà, amb la seva raó, podia rivalitzar amb els antics."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Renaixement arquitectònic no va redescobrir simplement els ordres clàssics — va redescobrir la idea que l'arquitectura ha d'estar proporcionada al cos humà. Vitruvi havia escrit que les proporcions del temple derivaven de les proporcions del cos humà perfecte. Leonardo va dibuixar l'Home de Vitruvi. Alberti va formular que un edifici és com un cos: ha de tenir les proporcions correctes per ser bell. L'home va tornar al centre com a mesura de totes les coses."
+            },
+            {
+              "type": "expandable",
+              "label": "La perspectiva com a revolució arquitectònica — i mental",
+              "content": "La invenció de la perspectiva lineal per Brunelleschi (c. 1415-1420) no va ser simplement una tècnica de representació — va ser una revolució en la manera d'entendre l'espai. Abans de la perspectiva, les representacions de l'espai eren simbòliques: els objectes importants eren grans, els menys importants eren petits, independentment de la seva posició. La perspectiva va introduir un punt de vista únic, fix, humà: totes les línies convergeixen en un punt d'escapament que és exactament la posició de l'ull de l'observador. Aquesta convenció pressuposa que hi ha un subjecte individual en un punt concret de l'espai — que l'espai es construeix des d'un cos humà particular. La perspectiva és, literalment, la geometria del cos humà imposada a l'espai. I va transformar no només la pintura i l'arquitectura, sinó la manera com Occident va aprendre a pensar l'espai, el temps i la subjectivitat durant cinc segles."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-03-01",
+              "style": "multiple-choice",
+              "question": "Leon Battista Alberti, l'arquitecte i teòric del Renaixement florentí, va escriure que la bellesa arquitectònica era 'la harmonia i la consonància de totes les parts en allò que formen, de manera que no es pugui afegir, treure ni canviar res sense empitjorar-ho'. Quin concepte estètic descriu aquesta definició?",
+              "options": [
+                "La mimesi: la reproducció fidel de la natura com a criteri de bellesa",
+                "La varietat: la diversitat de formes i elements com a font del plaer estètic",
+                "La integritat orgànica: la bellesa com a propietat d'un tot on les parts estan en relació necessària",
+                "La sublimitat: la bellesa que supera la comprensió racional i produeix admiració"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La definició d'Alberti és una formulació clàssica del concepte d'integritat orgànica: la bellesa no és la suma de parts belles sinó la relació necessària entre les parts, de manera que el tot no pot ser modificat sense destruir-se. Aquesta idea — que l'obra d'art és un organisme on res és accessori — va dominar l'estètica occidental des del Renaixement fins al modernisme, i és la base de la crítica arquitectònica que distingeix entre ornament integrat i decoració aplicada.",
+              "feedbackWrong": "La definició d'Alberti no parla de imitació, varietat ni sublimitat — parla de la relació necessària entre les parts d'un tot. És la formulació renaixentista del que avui anomenaríem integritat orgànica: un edifici és bell quan les seves parts no poden ser canviades sense trencar l'equilibri del conjunt. Aquesta idea va ser fonamental per a tota la teoria arquitectònica posterior."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-03-02",
+              "style": "true-false",
+              "question": "El Renaixement arquitectònic va ser un fenomen exclusivament italià que no va arribar a la resta d'Europa fins al segle XVII.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El Renaixement arquitectònic es va difondre per Europa durant el segle XVI a través de múltiples canals: els viatges dels arquitectes (Serlio a França, Herrera a Espanya), la publicació i circulació dels tractats d'arquitectura (Alberti, Serlio, Palladio van ser publicats i traduïts arreu), i el mecenatge de les corts europees que volien emular el prestigi cultural italià. A França, el castell de Fontainebleau introduïa elements renaixentistes als anys 1530; a Espanya, l'Escorial (1563) incorporava un classicisme austre d'arrel italiana; a Anglaterra, Inigo Jones va introduir el palladianisme al primer terç del segle XVII. Les cronologies variaven per regions, però el Renaixement arquitectònic era un fenomen europeu, no exclusivament italià.",
+              "feedbackWrong": "El Renaixement arquitectònic va arribar a moltes regions d'Europa durant el segle XVI, no el XVII. Els tractats d'Alberti, Serlio i Palladio es van traduir i circular per tot el continent, i les corts europees van competir per atraure arquitectes italians o per adoptar el nou estil com a símbol de modernitat i prestigi cultural."
+            },
+            {
+              "type": "prediction",
+              "question": "Si haguessis de dissenyar un edifici que expressi els valors de la teva època — no el seu gust estètic, sinó els seus valors fonamentals — quin aspecte tindria? Quins materials, quines proporcions, quina relació amb l'entorn?",
+              "hint": "El Renaixement va construir la mesura humana i la raó. El gòtic va construir la llum i l'aspiració espiritual. I el teu temps, què construiria?"
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq2-03-01",
+              "question": "El Renaixement va recuperar el classicisme grecoromà com a model d'excel·lència. Implica això que l'arquitectura medieval era inferior, o que el Renaixement va fer una tria cultural amb conseqüències?",
+              "options": [
+                "Implica inferioritat: la recuperació del classicisme va ser un retorn a formes més racionals i proporcionals que les medievals, i el judici dels arquitectes renaixentistes era correcte",
+                "Va ser una tria cultural amb conseqüències: el Renaixement va construir una jerarquia que col·locava l'antiguitat clàssica per sobre del medieval, i aquesta jerarquia va tenir efectes reals sobre quins edificis es conservaven, quins es destruïen i quins models s'ensenyaven",
+                "No implica res sobre la qualitat relativa: el Renaixement simplement va triar un vocabulari diferent del medieval, i les dues tradicions són igualment vàlides"
+              ],
+              "correct": 1,
+              "explanation": "El Renaixement no va simplement 'preferir' el clàssic — va construir una narrativa en que l'antiguitat era l'edat d'or, el medieval era la 'edat fosca' (la mateixa paraula 'gòtic' va ser inventada pels humanistes renaixentistes com a insult, referint-se als visigots bàrbars que havien destruït Roma), i el Renaixement era el retorn a la civilització. Aquesta narrativa va tenir conseqüències materials: edificis medievals van ser demolits o 'modernitzats'; l'arquitectura gòtica va deixar de ser ensenyada i practicada durant segles; i el cànon de la 'gran arquitectura' occidental va excloure sistemàticament tradicions no clàssiques. No va ser fins al romanticisme del segle XIX que el gòtic va ser rehabilitat estèticament, i fins al segle XX que la historiografia va qüestionar la jerarquia renaixentista. Les tries culturals mai són innocents: sempre creen inclusions i exclusions amb efectes reals."
+            }
+          ]
+        },
+
+        {
+          "id": "arq2-04",
+          "title": "El Barroc: L'Arquitectura com a Persuasió",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1626, quan Gian Lorenzo Bernini tenia vint-i-vuit anys, el papa Urbà VIII el va nomenar arquitecte de la basílica de Sant Pere de Roma. La reforma protestant havia sacsejat l'Església catòlica fins als fonaments. La resposta de Roma no va ser sols teològica — va ser arquitectònica. Calia construir edificis que demostressions la grandesa, la veritat i la bellesa de l'Església, que commoguessin els fidels, que convertissin els dubtes en certesa a través de l'experiència sensorial. El barroc no és un estil decoratiu excessiu — és una estratègia de comunicació de masses."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'arquitectura barroca va entendre quelcom que cap tradició anterior havia articulat tan clarament: l'espai pot ser dissenyat per produir estats emocionals específics. La corba en lloc de la recta, el moviment en lloc de l'estàtica, la llum dramàtica en lloc de la llum uniforme, l'escala colossal, la fusió de pintura, escultura i arquitectura en un efecte total — tot al servei d'una sola cosa: moure l'espectador, capturar-lo, convèncer-lo."
+            },
+            {
+              "type": "misconception",
+              "belief": "El barroc és un estil excessiu i recargolat que representa la decadència del bon gust clàssic.",
+              "reality": "El barroc és un estil sofisticat amb una teoria coherent: la integració de totes les arts per produir un efecte emocional total (Gesamtkunstwerk, com diria Wagner dos segles després). La seva 'excessivitat' no és manca de control — és l'expressió d'una estètica que prioritza l'emoció sobre la mesura, el moviment sobre l'estàtica, la totalitat sobre la part.",
+              "why": "La crítica al barroc prové principalment del neoclassicisme del segle XVIII, que va construir el seu propi prestigi contraposant la seva 'noble senzillesa' a l'exuberància barroca. Winckelmann i els seus seguidors van crear la dicotomia classicisme=raó vs. barroc=excés, que continua influint en els judicis estètics populars."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-04-01",
+              "style": "multiple-choice",
+              "question": "La Plaça de Sant Pere de Roma, dissenyada per Bernini (1656-1667), és una el·lipse de columnates que s'obren com dos braços cap al visitant. Bernini va descriure el disseny com 'els braços de l'Església que abracen els catòlics, confirmen els herètics i il·luminen els infidels'. Quin tipus de relació proposa aquest disseny entre l'edifici i el visitant?",
+              "options": [
+                "Una relació d'intimidació: la columnes colosals i la escala immensa sotmeten el visitant al poder de l'Església",
+                "Una relació d'inclusió activa: l'espai es dissenya per fer que el visitant senti que és acollit, atret, incorporat — no simplement observador d'una façana",
+                "Una relació d'instrucció: el visitant aprèn la doctrina a través dels símbols arquitectònics mentre s'hi apropa",
+                "Una relació de contemplació: l'espai invita a la parada i la meditació davant de la grandesa divina"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La genius del disseny de Bernini és que converteix l'espai públic davant de Sant Pere en un gest arquitectònic d'acollida. Les columnates no formen una barrera — formen un abraçada. El visitant no s'enfronta a una façana que li diu 'mira'm des de fora': és atret, envoltat, incorporat. Aquesta és la lògica barroca aplicada a l'urbanisme: l'espai com a seducció, no com a declaració.",
+              "feedbackWrong": "La plaça de Bernini no busca intimidar ni instruir — busca abraçar. La metàfora dels 'braços de l'Església' que Bernini va usar explícitament descriu un gest d'inclusió activa: el visitant no es queda fora de l'edifici sinó que és atret i envoltat per ell. És la lògica de la persuasió barroca aplicada a l'escala urbana."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-04-02",
+              "style": "detect-error",
+              "statement": "El barroc va ser exclusivament un estil de l'Església catòlica, usat com a arma de la Contrareforma contra el protestantisme. Els països protestants van rebutjar l'arquitectura barroca i van continuar amb el renaixement clàssic.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta afirmació és parcialment certa però significativament inexacta. Cert: el barroc va tenir una relació especial amb la Contrareforma catòlica, i Roma va ser el seu centre d'irradiació. Però el barroc es va difondre per tots els països europeus, inclosos els protestants. Anglaterra va produir un barroc propi a través de Christopher Wren (catedral de Sant Pau de Londres, 1675-1710) i Nicholas Hawksmoor. L'Alemanya protestant va construir esglésies i palaus barrocs amb entusiasme — el palau de Sanssouci de Frederic el Gran és un exemple cèlebre. Els Països Baixos van desenvolupar un barroc civil i domèstic característic. La diferència entre el barroc catòlic i el protestant era de grau i tema (el protestant era menys exuberant en les esglésies, però igualment expressiu en els palaus i edificis civils), no d'absència."
+            },
+            {
+              "type": "debate",
+              "question": "L'arquitectura barroca va usar conscientment l'experiència sensorial per manipular emocionalment els fidels en favor d'una institució (l'Església catòlica). És una forma legítima d'arquitectura religiosa?",
+              "positionA": {
+                "label": "Sí — tota arquitectura religiosa usa l'espai per induir estats espirituals",
+                "argument": "No hi ha cap arquitectura religiosa que no vulgui produir un efecte emocional i espiritual: la foscor romànica, la llum gòtica, la mesura renaixentista, tots cerquen el mateix. El barroc simplement ho fa amb més consciència i sofisticació. Acusar-lo de 'manipulació' és aplicar un criteri que invalida tota arquitectura sagrada, que per definició busca connectar l'experiència sensorial amb la dimensió espiritual."
+              },
+              "positionB": {
+                "label": "No — hi ha una diferència entre inspirar i manipular",
+                "argument": "El barroc va ser dissenyat explícitament com a eina de propaganda institucional, en un context de conflicte religiós, per reforçar la lleialtat i desarmar el dubte. La diferència entre inspirar i manipular és si l'experiència emocional busca obrir la ment o tancar-la. El barroc jesuític, en particular, estava dissenyat per produir una submissió emocional, no una obertura espiritual."
+              },
+              "reflection": "Pensa en un espai que has viscut — religiós, comercial, polític — que t'hagi semblat dissenyat per produir un estat emocional específic. Et va semblar manipulació o experiència?",
+              "context": "El debat sobre els límits entre arquitectura inspiradora i arquitectura manipuladora continua viu en el disseny de centres comercials, parcs temàtics, espais electorals i llocs de memòria. Les tècniques barroques de control emocional de l'espai han estat extensament estudiades i aplicades en el màrqueting i el disseny contemporanis."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq2-04-01",
+              "question": "El barroc va fusionar arquitectura, pintura i escultura en un 'art total' on les fronteres entre les arts desapareixien. És això un ideal o un error?",
+              "options": [
+                "Un ideal: la separació de les arts és una convenció acadèmica artificial; les arts s'enriqueixen quan col·laboren i la fusió barroca produeix experiències impossibles per a cap art per separat",
+                "Un error: cada art té la seva especificitat i recursos propis; la fusió produeix obres en que cap art pot desenvolupar plenament el seu potencial i el resultat és sempre menor que la suma de les parts",
+                "Ni ideal ni error: la fusió o la separació de les arts responen a objectius estètics i culturals específics — hi ha moments en que la fusió produeix quelcom irrepetible i moments en que la separació permet una profunditat impossible en la síntesi"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre la Gesamtkunstwerk — l'obra d'art total — és un dels fils conductors de l'estètica moderna. Wagner el va reivindicar per a l'òpera al segle XIX; els modernistes el van rebutjar en favor de la puresa de cada art; el postmodernisme el va rehabilitar en formes híbrides. El barroc ofereix el cas d'estudi més ric perquè és on la fusió es va practicar amb major consciència i ambició. Les capelles de Bernini — el Èxtasi de Santa Teresa, a Santa Maria della Vittoria de Roma — són obres on escultura, pintura, arquitectura i llum formen un conjunt que cap element podria produir sol. Però la fusió total té el seu preu: quan tot és teatre, res pot ser silenci; quan tot és moviment, res pot ser repòs. El barroc és insuportable com a ambient constant — es viu com a moment, no com a entorn diari. La separació de les arts no és una convenció acadèmica buida: és la condició que permet que cadascuna arribi a profunditats que la fusió no pot assolir."
+            }
+          ]
+        },
+
+        {
+          "id": "arq2-05",
+          "title": "Palladio i la Invenció de la Casa Perfecta",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Andrea Palladio mai va viatjar fora d'Itàlia. Però el seu llibre, els 'Quatre Llibres de l'Arquitectura' (1570), va viatjar per tot el món occidental i va canviar la manera com es construïen cases, palaus, bancs, tribunals i esglésies durant tres-cents anys. Jefferson va dissenyar Monticello i el Capitoli de Washington basant-se en Palladio. Les cases de camp angleses del segle XVIII, els edificis neoclàssics de tot el món, el palladianisme que encara avui identifiquem amb 'l'arquitectura clàssica' — tot ve d'un arquitecte venecià del segle XVI que va reivindicar que la bellesa arquitectònica no era un misteri sinó un sistema."
+            },
+            {
+              "type": "key-idea",
+              "text": "Palladio va aconseguir quelcom únic en la història de l'arquitectura: va codificar la bellesa. Va establir proporcions precises, va documentar els ordres amb mesures exactes, va publicar plantes, seccions i façanes de manera sistemàtica. Per primera vegada, un arquitecte sense accés directe a les obres originals podia aprendre el sistema. L'arquitectura es va fer transmissible com mai abans."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què les vil·les de Palladio semblen temples — i per quina raó",
+              "content": "Les vil·les de Palladio al Vèneto — la Villa Rotonda, la Villa Barbaro, la Villa Foscari — tenen pòrtics de columnes i frontisses triangulars que recorden directament els temples grecoromans. Palladio ho va fer deliberadament, i ho va justificar en els seus tractats: els temples de l'antiguitat eren en realitat cases dels déus, i les cases dels homes virtuosos havien de tenir la dignitat dels temples. Era una inversió de la jerarquia tradicional: no el sagrat inspirava el domèstic, sinó que el domèstic aspirava a la dignitat del sagrat. Però hi havia també una raó pràctica: el frontó dels temples creava un sistema clar d'entrada, orientació i jerarquia de façana que funcionava perfectament en una vil·la de camp. Palladio va entendre que els elements clàssics eren útils, no simplement bells, i que la seva utilitat estava precisament en la claredat i l'ordre que imposaven a l'edifici."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-05-01",
+              "style": "multiple-choice",
+              "question": "Thomas Jefferson va estudiar els dibuixos de Palladio durant anys i va dissenyar la seva casa de Monticello i la Universitat de Virgínia basant-s'hi directament. Per a Jefferson, usar el vocabulari clàssic en els edificis de la nova república americana era:",
+              "options": [
+                "Una elecció pràctica: els manuals de Palladio eren els recursos arquitectònics disponibles a la colònia americana, on no hi havia tradició constructiva pròpia",
+                "Una declaració política: associar la nova república amb l'arquitectura de la república romana i la democràcia grega era reivindicar una continuïtat de valors, no simplement un estil",
+                "Una preferència personal sense significat polític: Jefferson simplement admirava l'arquitectura italiana i la va usar sense segones intencions",
+                "Una imposició europea: Jefferson hauria preferit un estil americà original però no existia cap model disponible"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Jefferson era molt conscient de les implicacions polítiques de les seves tries arquitectòniques. Va escriure explícitament que volia que els edificis de la nova república americans comuniquessin els valors republicans i la continuïtat amb la tradició clàssica de llibertat política. El Capitoli de Washington, modelat en part sobre el Panteó romà, no és simplement un edifici gran amb cúpula — és una declaració que la nova democràcia americana continua la tradició de la república romana. L'arquitectura va ser, per a la generació fundadora americana, un instrument conscient de construcció d'identitat nacional.",
+              "feedbackWrong": "Jefferson va triar l'arquitectura clàssica palladiana de manera completament conscient i deliberada com a vehicle de declaració política. La seva correspondència i els seus escrits arquitectònics mostren una reflexió profunda sobre la relació entre forma arquitectònica i valors republicans. No era una elecció pràctica ni personal sense implicacions — era un programa polític en pedra."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-05-02",
+              "style": "true-false",
+              "question": "Palladio va dissenyar les seves vil·les exclusivament per a la seva funció estètica i representativa. La seva organització interior no tenia en compte les necessitats pràctiques de la vida agrícola dels seus clients.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Les vil·les de Palladio eren explotacions agrícoles funcionals, i el seu disseny integrava cuidadosament la funció representativa i la funció productiva. Les ales laterals de moltes vil·les palladianes (les barchesse) eren estables, graners i habitacions per als treballadors — integrades en la composició simètrica però clarament funcionals. Palladio escrivia als seus tractats sobre la importància que la vil·la fos alhora digna del seu propietari i eficient en la seva funció agrícola. La fusió de bellesa i funcionalitat — firmitas, utilitas, venustas de Vitruvi — era central en el seu pensament.",
+              "feedbackWrong": "Les vil·les de Palladio eren dissenyades amb una atenció escrupolosa a la funció pràctica. Les seves barchesse — ales laterals destinades a estables, graners i habitacions per als treballadors — eren elements integrals de la composició, no accessos ocults. Palladio va escriure extensament sobre la necessitat que l'arquitectura rural fos alhora bella i funcional."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "History and Language of Painting",
+              "moduleEmoji": "🎨",
+              "concept": "Renaixement i la recuperació del classicisme en les arts visuals",
+              "text": "La mateixa revolució que Brunelleschi i Alberti van operar en l'arquitectura — la recuperació del classicisme com a model de proporcions i racionalitat — va transformar simultàniament la pintura. Masaccio, Piero della Francesca i Leonardo van aplicar a la pintura els principis de perspectiva i proporció que els arquitectes estaven aplicant als edificis. Les arts del Renaixement no van evolucionar per separat: eren parts d'una mateixa revolució cultural."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq2-05-01",
+              "question": "Palladio va publicar les seves obres i principis en un tractat accessible, fent l'arquitectura ensenyable sense accés directe als originals. Va democratitzar l'arquitectura o va crear un nou academicisme?",
+              "options": [
+                "Va democratitzar-la: fer els principis arquitectònics accessibles a arquitectes de tot el món va permetre que la bona arquitectura es difongués fora d'Itàlia i dels grans centres culturals",
+                "Va crear un nou academicisme: la codificació de les regles va produir generacions d'arquitectes que aplicaven mecànicament el sistema sense comprendre'l, resultant en una arquitectura correcta però morta",
+                "Va fer les dues coses: va difondre el coneixement i va crear les condicions per al seu ús mecànic — i la tensió entre els dos efectes és el que defineix la història del palladianisme durant tres segles"
+              ],
+              "correct": 2,
+              "explanation": "La paradoxa de la codificació del coneixement arquitectònic és que democratitza i banalitza simultàniament. Gràcies a Palladio, un arquitecte de Virgínia o d'Edimburg podia accedir a un sistema de proporcions i formes que d'altra manera hauria requerit un viatge a Itàlia. El resultat va ser una difusió extraordinària d'arquitectura de qualitat per tot el món anglosaxó i europeu. Però el mateix sistema va produir una massa d'edificis correctes però mecànics on les columnes, els frontissos i les proporcions s'aplicaven sense comprendre el sistema que les justificava. El millor palladianisme — Jones, Burlington, Jefferson, Soane — és el de qui va entendre el sistema prou per saber quan desviar-se'n. El pitjor és el de qui va aplicar les regles sense saber per quin motiu existien. La codificació del coneixement sempre crea aquest dilema: el que es pot ensenyar és el mecanisme, no la comprensió que li dóna sentit."
+            }
+          ]
+        },
+
+        {
+          "id": "arq2-06",
+          "title": "Llegir un Edifici Antic: Eines per al Visitant Actiu",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan entres a una catedral — romànica, gòtica o barroca — pots tenir dos tipus d'experiència. La primera és la del turista que mira cap amunt, fa una foto i surt. La segona és la del visitant que sap llegir el que l'edifici li diu: per quin motiu la llum entra per allà i no per aquí, per què les columnes tenen aquella forma, per què el paviment és d'aquell color, per qui va ser construïda i en quin context. No necessites saber arquitectura per tenir la segona experiència — necessites saber fer unes quantes preguntes concretes."
+            },
+            {
+              "type": "key-idea",
+              "text": "Llegir un edifici històric és fer-li quatre preguntes: Qui el va construir i per a qui? Amb quins materials i per quin motiu? Quina experiència vol crear en qui l'usa? I com ha canviat des que es va construir fins avui? Cada resposta obre una capa de significat que l'edifici conté però no exhibeix."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-06-01",
+              "style": "multiple-choice",
+              "question": "Entres en una església i observes que les naus laterals són més baixes que la central, que les finestres altes de la nau central donen directament a l'interior, i que la il·luminació és dramàticament diferent entre la zona de l'altar i la resta de l'espai. A quin estil pertany probablement l'edifici i quin efecte busca aquesta organització de la llum?",
+              "options": [
+                "Romànic: la diferència d'altures crea intimitat i recolliment, i la foscor general afavoreix la meditació individual",
+                "Gòtic: les naus laterals baixes aguanten les empentes de la volta central alta, i les finestres altes (clerestori) permeten que la llum entri directament a la nau sense passar pels murs laterals",
+                "Barroc: el contrast de llum i ombra és un recurs dramàtic característic del barroc per crear efectes emotius en els fidels",
+                "Renaixentista: les proporcions harmòniques entre nau central i laterals reflecteixen les proporcions del cos humà ideals de Vitruvi"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La descripció correspon a l'estructura típica de la catedral gòtica: la nau central alta flanquejada per naus laterals baixes (que actuen com a contraforts), i el clerestori — les finestres altes de la nau central — que permeten que la llum entri directament sense obstacles. Aquesta organització és la solució estructural que va permetre als constructors gòtics tenir murs plens de llum: les naus laterals baixes absorbeixen les empentes, i l'espai sobre elles queda lliure per a les finestres. L'efecte és que la nau central semblui banyada en llum mentre les zones laterals resten en penombra, creant una jerarquia espacial i lumínica que guia el visitant cap a l'altar.",
+              "feedbackWrong": "La clau per identificar l'estil és l'organització estructural que permet aquella llum específica. El clerestori — finestres altes sobre les naus laterals — és la solució gòtica al problema de com tenir murs de llum sense que l'edifici s'ensorri. Les naus laterals baixes no són una decisió estètica aïllada: són la solució estructural que fa possible la llum de la nau central."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq2-06-02",
+              "style": "detect-error",
+              "statement": "Per entendre plenament un edifici històric, el més important és conèixer el nom de l'arquitecte i la data de construcció.",
+              "isCorrect": false,
+              "feedbackExplanation": "El nom i la data són el punt de partida, no el de llegada. Un edifici es comprèn plenament quan es llegeixen almenys quatre dimensions: el context de producció (qui el va encarregar, amb quins recursos, en quin moment polític i cultural), la intenció formal (quina experiència volia crear en qui l'usava, quines decisions formals ho feien possible), la vida de l'edifici (com ha canviat, qui l'ha usat, quines transformacions ha sofert), i la percepció present (com l'experimento avui, quins elements em parlen, quins em resulten opacs). Saber que la catedral de Chartres va ser construïda entre 1194 i 1220 per un arquitecte desconegut no et diu res sobre per què els vitralls de la nau nord produeixen aquell blau específic que sembla emanar llum pròpia. El nom i la data són l'etiqueta del pot — el contingut requereix obrir-lo."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en un edifici antic que hagis visitat i que t'hagi emocionat o impactat. Ara que coneixes algunes eines per llegir arquitectura — llum, estructura, intenció, context — pots identificar quin element específic produïa aquell efecte? Canvia alguna cosa en la teva relació amb aquell record?",
+              "prompt": "L'anàlisi no destrueix l'emoció — la multiplica per capes."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Arquitectura 3: La Modernitat i la Ruptura",
+              "moduleEmoji": "🏗️",
+              "concept": "La crisi del llenguatge clàssic i la recerca d'un nou vocabulari",
+              "text": "Els estils que has estudiat en aquest mòdul — romànic, gòtic, renaixentista, barroc — comparteixen un denominador: tots ells treballen amb un vocabulari de murs, columnes, arcs i voltes heretat de l'antiguitat. El mòdul següent comença on aquest acaba: quan el ferro, el vidre i el formigó armat van fer possible construir de maneres que cap d'aquests estils havia anticipat, i quan els arquitectes van decidir que un món nou requeria un llenguatge arquitectònic completament nou."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq2-06-01",
+              "question": "L'arquitectura religiosa d'aquest període — romànic, gòtic, barroc — va crear alguns dels espais més extraordinaris de la història humana. Pot l'arquitectura laica contemporània crear experiències comparables?",
+              "options": [
+                "No — l'arquitectura religiosa tenia l'avantatge d'un marc de creença compartit que intensificava l'experiència; sense aquest marc, cap arquitectura pot produir efectes equivalents",
+                "Sí — els mecanismes de l'experiència espacial (llum, escala, proporció, seqüència) funcionen independentment de la creença; el que la religió aportava era un context d'atenció que l'arquitectura laica pot crear per altres vies",
+                "La pregunta canvia el que busquem: l'arquitectura laica no ha de competir amb l'experiència religiosa — ha de crear experiències pròpies de la condició secular, que no necessàriament aspiren a la transcendència sinó a altres formes de profunditat"
+              ],
+              "correct": 2,
+              "explanation": "La comparació entre arquitectura religiosa i laica pressuposa que l'objectiu és el mateix — la transcendència — i que la laica és una versió inferior per manca del ingredient religiós. Però aquesta pressuposta és discutible. El Museu Jueu de Berlín de Daniel Libeskind, el Memorial de l'Holocaust de Peter Eisenman, el Parlament de Catalunya de Carme Pinós, la Fundació Louis Vuitton de Gehry: cap d'aquests busca la mateixa experiència que una catedral gòtica. Busquen experiències que la secularitat fa possibles i que la religiositat no pot crear: la memòria col·lectiva sense transcendència sobrenatural, la democràcia com a espai físic, la celebració de la cultura sense necessitat de sacralitzar-la. L'arquitectura contemporània no és arquitectura religiosa fallida — és arquitectura que ha après a crear profunditat a partir de materials completament diferents. Que alguns ho aconsegueixin millor que d'altres no és una qüestió de la presència o absència de creença religiosa, sinó de la qualitat de la comprensió de l'espai i la intenció que el guia."
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

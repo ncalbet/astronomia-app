@@ -1,0 +1,854 @@
+{
+  "id": "module-34-democracia-sistemes-politics",
+  "title": "Democràcia i Sistemes Polítics",
+  "emoji": "🏛️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "itinerari-sistemes",
+      "title": "Com s'organitza el poder",
+      "icon": "⚙️",
+      "description": "Un recorregut pels principals sistemes polítics: com distribueixen el poder, quines llibertats garanteixen i per quins motius fracassen.",
+      "style": "Comparatiu · dels sistemes clàssics als contemporanis",
+      "lessons": [
+        {
+          "id": "dem-01",
+          "title": "Què és la política?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Qui decideix qui rep què, quan i com? Aquesta pregunta —formulada pel politòleg Harold Lasswell el 1936— és la definició més concisa de la política. No es tracta únicament de partits i eleccions: la política és present en qualsevol situació on persones amb interessos diferents han de prendre decisions col·lectives. Qui paga els impostos i qui en recull els beneficis. Qui pot circular lliurement i qui no. Qui té veu i qui és ignorat. La política és la gestió del poder en societat, i entendre-la és entendre com es distribueix allò que més importa."
+            },
+            {
+              "type": "key-idea",
+              "text": "La política és l'activitat humana que regula la convivència col·lectiva distribuint poder, recursos i drets entre membres d'una societat. L'Estat és la institució que té el monopoli legítim de la violència en un territori —definició de Max Weber— i que exerceix aquesta funció reguladora."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què necessitem l'Estat? Hobbes, Locke i Rousseau",
+              "content": "Per què acceptem que hi hagi una institució amb poder coercitiu sobre nosaltres? Els filòsofs polítics moderns ho expliquen amb la metàfora del contracte social. Hobbes (1651): sense Estat, la vida humana és «solitària, pobra, desagradable, brutal i curta». L'Estat és necessari per evitar la guerra de tots contra tots; acceptem cedir llibertat a canvi de seguretat. Locke (1689): l'Estat existeix per protegir els drets naturals (vida, llibertat, propietat); si no ho fa, els ciutadans tenen dret a revocar-lo. Rousseau (1762): l'Estat ha d'expressar la «voluntat general» del poble; la legitimitat prové de la sobirania popular, no del poder del sobirà. Cada teoria justifica un tipus diferent d'Estat: autoritari (Hobbes), liberal (Locke) o democràtic-participatiu (Rousseau)."
+            },
+            {
+              "type": "prediction",
+              "question": "Si no hi hagués cap Estat ni llei, com creus que s'organitzaria la societat? Seria millor o pitjor que ara?",
+              "hint": "Pensa en situacions reals d'absència d'Estat: guerres civils, zones sense llei, desastres naturals. Però també en comunitats que s'autoorganitzen."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-01-01",
+              "style": "multiple-choice",
+              "question": "Max Weber defineix l'Estat com la institució que té el monopoli legítim de la violència. Què significa «legítim» en aquest context?",
+              "options": [
+                "Que l'Estat sempre usa la violència de manera justa i proporcionada.",
+                "Que la violència de l'Estat és acceptada com a justificada per la població, a diferència de la violència privada.",
+                "Que l'Estat té permís de les altres nacions per usar la força.",
+                "Que la violència estatal és legal per definició."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. «Legítim» no significa just o moral —significa reconegut com a justificat per la població. Un policia que deté un lladre usa violència que la societat reconeix com acceptable; el lladre que roba usa violència que la societat no reconeix. La legitimitat és el fonament del poder estatal: sense ella, l'Estat és simplement una banda armada més gran. Per això els règims autoritaris busquen legitimitat —a través de la por, el nacionalisme, la religió o les eleccions falsificades.",
+              "feedbackWrong": "«Legítim» en Weber no és un judici moral sobre la justícia de la violència: és un concepte sociològic sobre el reconeixement social. La violència estatal és «legítima» quan la majoria de la població la reconeix com acceptable i justificada —a diferència de la violència privada, que no gaudeix d'aquest reconeixement. La legitimitat és el que transforma la coerció en autoritat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-01-02",
+              "style": "multiple-choice",
+              "question": "Locke argumenta que si l'Estat no protegeix els drets naturals dels ciutadans, aquests tenen dret a:",
+              "options": [
+                "Acceptar la situació: l'Estat sempre té raó per definició.",
+                "Fugir a un altre país amb millors lleis.",
+                "Revocar el contracte social i resistir o substituir el govern.",
+                "Apel·lar a un tribunal internacional."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Locke va ser el primer a formular el dret a la revolució com a conseqüència lògica del contracte social. Si l'Estat existeix per protegir la vida, la llibertat i la propietat, i no ho fa —o pitjor, les viola—, el contracte queda trencat i els ciutadans recuperen la seva sobirania. Aquesta idea va influir directament en la Declaració d'Independència americana (1776) i en la Revolució Francesa (1789).",
+              "feedbackWrong": "La lògica de Locke és que el contracte social és bilateral: els ciutadans cedeixen certa llibertat i a canvi l'Estat protegeix els seus drets. Si l'Estat incompleix la seva part, el contracte es trenca. La conseqüència lògica és el dret a substituir el govern —per via pacífica si és possible, per via revolucionària si cal. Aquesta idea va ser revolucionària al segle XVII i segueix sent el fonament del dret a la desobediència civil."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dem-01-01",
+              "question": "Si l'Estat necessita legitimitat per funcionar, qui decideix si un govern és legítim?",
+              "options": [
+                "El propi govern: qui té el poder decideix si és legítim.",
+                "La comunitat internacional: els altres estats reconeixen o no la legitimitat.",
+                "La població governada: la legitimitat prové del reconeixement dels que viuen sota el poder."
+              ],
+              "correct": 2,
+              "explanation": "La legitimitat és un concepte que des de Weber es defineix des de baix: és el reconeixement dels governats, no l'autocertificació dels governants. Però això planteja problemes complexos. En règims autoritaris, la por, la propaganda i la manca d'alternatives fan que la població «accepti» el poder sense que això impliqui legitimitat genuïna. Les eleccions falsificades pretenen fabricar legitimitat. La comunitat internacional pot reconèixer governs sense legitimitat popular (i ho fa sovint per interès). Max Weber identificava tres fonts de legitimitat: tradicional (costum i herència), carismàtica (qualitats excepcionals del líder) i racional-legal (normes i procediments). Les democràcies modernes basen la seva legitimitat en la tercera: en procediments establerts i acceptats. Quan les eleccions son lliures i justes, el resultat —fins i tot si no ens agrada— és legítim. Quan no ho son, el resultat no ho és."
+            }
+          ]
+        },
+        {
+          "id": "dem-02",
+          "title": "Democràcia: orígens i principis",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Atenes, segle V aC. Per primera vegada en la història coneguda, els ciutadans d'una polis voten directament les lleis que els governen. No tots els habitants —les dones, els esclaus i els estrangers queden exclosos—, però és un experiment radical per a la seva època. Dos mil cinc-cents anys després, la democràcia és el sistema polític dominant al món. Però la democràcia atenenca i la democràcia contemporània s'assemblen poc. Què hi ha de comú? Quin és el principi que les uneix?"
+            },
+            {
+              "type": "key-idea",
+              "text": "La democràcia és el sistema polític on el poder últim rau en el poble. Els seus principis fonamentals son: sobirania popular, igualtat política (un persona, un vot), govern de la majoria amb protecció de les minories, i separació de poders per evitar l'abús."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "508 aC",
+                  "title": "Democràcia atenenca",
+                  "text": "Clístenes introdueix les reformes democràtiques a Atenes. Democràcia directa: els ciutadans (homes lliures) voten en l'assemblea."
+                },
+                {
+                  "year": "1215",
+                  "title": "Magna Carta",
+                  "text": "El rei Joan d'Anglaterra accepta limitar el seu poder davant dels nobles. Primer document que limita legalment el poder del monarca."
+                },
+                {
+                  "year": "1776–1789",
+                  "title": "Revolucions americana i francesa",
+                  "text": "La sobirania popular i els drets individuals es consagren com a fonaments dels nous estats. Neix la democràcia representativa moderna."
+                },
+                {
+                  "year": "1848–1920",
+                  "title": "Extensió del sufragi",
+                  "text": "El dret de vot s'estén progressivament als homes sense propietat i, en molts països, a les dones. La democràcia es fa universal."
+                },
+                {
+                  "year": "1945–1991",
+                  "title": "La tercera onada democràtica",
+                  "text": "Derrota del feixisme, descolonització i caiguda del comunisme produeixen una expansió massiva de la democràcia al món."
+                },
+                {
+                  "year": "2016–avui",
+                  "title": "Retrocés democràtic",
+                  "text": "Freedom House documenta setze anys consecutius de retrocés de les llibertats democràtiques al món. El debat sobre la crisi de la democràcia s'intensifica."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Democràcia directa vs. democràcia representativa",
+              "content": "La democràcia atenenca era directa: els ciutadans votaven personalment cada llei en l'assemblea. Avui, la majoria de democràcies son representatives: els ciutadans trien representants que decideixen en nom seu. Per què el canvi? Escala: una assemblea de tots els ciutadans d'un país modern de milions de persones és impracticable. Complexitat: les decisions modernes (pressupostos, tractats internacionals, regulació tècnica) requereixen coneixement especialitzat. Temps: els ciutadans no poden dedicar tot el temps a la política. Però la democràcia representativa té debilitats pròpies: els representants poden perdre el contacte amb els representats, els partits poden capturar l'agenda política, i els grups d'interès poden influir desproporcionadament. Per això molts sistemes incorporen elements de democràcia directa: referèndums, iniciatives ciutadanes, consultes populars."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-02-01",
+              "style": "multiple-choice",
+              "question": "Quin és el problema principal de la «tirania de la majoria» en una democràcia?",
+              "options": [
+                "Que la majoria sempre pren decisions incorrectes.",
+                "Que si la majoria pot fer tot el que vulgui, pot oprimir les minories sense límit.",
+                "Que la majoria és massa lenta per prendre decisions urgents.",
+                "Que les majories canvien constantment i generen inestabilitat."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La tirania de la majoria és el risc que una majoria usi el mecanisme democràtic per oprimir una minoria. Si el 60% d'una societat odia una minoria religiosa i vota per discriminar-la, el resultat és democràticament produït però moralment inacceptable. Per aquest motiu les democràcies liberals combinen el govern de la majoria amb la protecció constitucional de drets individuals que cap majoria pot violar: la Constitució limita el que la majoria pot fer.",
+              "feedbackWrong": "La tirania de la majoria no és un problema de velocitat ni d'estabilitat: és un problema moral i de drets. Si la majoria pot fer qualsevol cosa, pot oprimir sistemàticament les minories. Les democràcies liberals resolen aquest problema combinant el principi majoritari amb drets constitucionals inviolables que protegeixen tothom independentment de si es troben en la majoria o en la minoria."
+            },
+            {
+              "type": "misconception",
+              "belief": "La democràcia és simplement el sistema on guanya la majoria.",
+              "reality": "La democràcia liberal moderna combina el principi majoritari amb la protecció de drets individuals, la separació de poders, la independència judicial i les llibertats fonamentals. Sense aquests elements, un sistema pot tenir eleccions i seguir sent autoritari. Els experts distingeixen entre «democràcia electoral» (hi ha eleccions) i «democràcia liberal» (hi ha eleccions lliures, drets garantits i separació de poders real).",
+              "why": "Perquè la imatge popular de la democràcia es redueix a «votar», ignorant tots els mecanismes institucionals que fan que el vot sigui significatiu i que els drets estiguin protegits."
+            },
+            {
+              "type": "debate",
+              "question": "Hauria d'haver-hi un requisit mínim de coneixement polític per poder votar?",
+              "positionA": {
+                "label": "Sí: el vot informat és millor",
+                "argument": "Les decisions col·lectives afecten tothom. Un vot pres sense comprensió bàsica del sistema polític, les opcions i les conseqüències és com un diagnòstic mèdic sense coneixements de medicina. La qualitat de la democràcia milloraria si els votants entenguessin el que voten."
+              },
+              "positionB": {
+                "label": "No: el sufragi és un dret inviolable",
+                "argument": "El sufragi universal és un dret fonamental, no un privilegi que s'ha de guanyar. Qualsevol criteri de «coneixement» seria subjectiu, discriminatori i susceptible de manipulació per excloure grups políticament inconvenients. La solució no és restringir el vot sinó millorar l'educació."
+              },
+              "reflection": "Hi ha una diferència entre exigir coneixement i fomentar-lo? On és el límit entre educar per a la democràcia i manipular per a un resultat concret?",
+              "context": "Plató va ser el primer a criticar la democràcia per aquest motiu: argumentava que governar requereix coneixement, igual que navegar o curar. Però la majoria de pensadors polítics moderns rebutgen qualsevol restricció del sufragi com incompatible amb la igualtat política."
+            }
+          ]
+        },
+        {
+          "id": "dem-03",
+          "title": "Sistemes de govern: presidencialisme, parlamentarisme i més",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "No totes les democràcies funcionen igual. Els Estats Units tenen un president elegit directament que concentra el poder executiu. El Regne Unit té un primer ministre que governa mentre tingui la confiança del parlament. Suïssa té un consell federal de set membres que roten la presidència. França combina elements dels dos primers. I tots es consideren democràcies. Les diferències en el disseny institucional produeixen resultats molt diferents: en estabilitat, en capacitat de reforma, en representació de les minories i en resistència al autoritarisme."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els dos models principals de democràcia liberal son el presidencialisme (poder executiu separat i elegit independentment del legislatiu) i el parlamentarisme (el govern neix del parlament i en depèn). Cada model té avantatges i riscos estructurals."
+            },
+            {
+              "type": "comparison",
+              "title": "Presidencialisme vs. Parlamentarisme",
+              "labelA": "Presidencialisme",
+              "labelB": "Parlamentarisme",
+              "items": [
+                {
+                  "label": "Origen del govern",
+                  "a": "Elecció directa del president pel poble",
+                  "b": "El govern neix de la majoria parlamentària"
+                },
+                {
+                  "label": "Separació de poders",
+                  "a": "Estricta: executiu i legislatiu son independents",
+                  "b": "Flexible: el govern depèn del suport parlamentari"
+                },
+                {
+                  "label": "Estabilitat",
+                  "a": "Alta: el president té mandat fix",
+                  "b": "Variable: el govern pot caure per moció de censura"
+                },
+                {
+                  "label": "Risc principal",
+                  "a": "Bloqueig institucional i autoritarisme presidencial",
+                  "b": "Inestabilitat i fragmentació si hi ha molts partits"
+                },
+                {
+                  "label": "Exemples",
+                  "a": "EUA, Brasil, Mèxic, Argentina",
+                  "b": "Regne Unit, Alemanya, Espanya, Japó"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Sistemes electorals: proporcional vs. majoritari",
+              "content": "El sistema electoral determina com els vots es tradueixen en escons. Sistema majoritari (first-past-the-post): guanya el candidat amb més vots en cada circumscripció, encara que no arribi al 50%. Resultat: tendència al bipartidisme, governs estables, però molts vots «perduts». Exemple: Regne Unit, EUA. Sistema proporcional: els partits obtenen escons en proporció als vots que reben. Resultat: major representació de partits petits i minories, però governs de coalició més complexos. Exemple: Països Baixos, Israel, molts països europeus. Sistema mixt: combina elements dels dos. Exemple: Alemanya, Japó. No hi ha un sistema «millor» en abstracte: cada un produeix avantatges i inconvenients que depenen del context polític i social."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-03-01",
+              "style": "multiple-choice",
+              "question": "En un sistema proporcional amb molts partits, quin és el principal risc per a la governabilitat?",
+              "options": [
+                "Que un sol partit concentri tot el poder.",
+                "Que cap partit tingui majoria i sigui difícil formar governs estables.",
+                "Que els partits petits siguin exclosos del parlament.",
+                "Que els votants no entenguin el sistema i votin malament."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La representació proporcional fa que molts partits entrin al parlament, cosa que fa difícil que un sol tingui majoria. El resultat son governs de coalició que requereixen negociació constant i poden ser fràgils. Israel, amb més de deu partits al parlament, és l'exemple extrem: ha tingut cinc eleccions en quatre anys en un període recent. El repte és trobar l'equilibri entre representativitat i governabilitat.",
+              "feedbackWrong": "El sistema proporcional fa exactament el contrari de concentrar el poder en un sol partit: fa que molts partits tinguin representació. El risc és l'invers: tanta fragmentació que cap govern sigui estable. La dificultat de formar majories en parlaments molt fragmentats és el principal argument dels defensors dels sistemes majoritaris."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-03-02",
+              "style": "detect-error",
+              "statement": "El presidencialisme és inherentment superior al parlamentarisme perquè garanteix governs estables amb mandat fix i separació clara de poders.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és la paraula «inherentment superior». El politòleg Juan Linz va argumentar el 1990, al contrari, que el presidencialisme té riscos estructurals que el parlamentarisme no té: la doble legitimitat democràtica (president i parlament elegits separadament poden reclamar cadascú representar el poble), la rigidesa del mandat fix en crisi, i la tendència al bloqueig institucional. L'evidència empírica mostra que les democràcies presidencials han estat més inestables i propenses a cops d'Estat que les parlamentàries. Cada sistema té avantatges i riscos que depenen del context."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dem-03-01",
+              "question": "Si poguessis dissenyar el sistema polític d'un país nou, quin triaries: presidencialisme, parlamentarisme o un sistema mixt?",
+              "options": [
+                "Presidencialisme: la separació de poders i el lideratge clar son essencials.",
+                "Parlamentarisme: la flexibilitat i la responsabilitat del govern davant el parlament son superiors.",
+                "Depèn del context: la cultura política, la història i les divisions socials del país determinen quin sistema funciona millor."
+              ],
+              "correct": 2,
+              "explanation": "La ciència política comparada ha après que no hi ha un sistema institucional universalment òptim. El que funciona depèn del context: països amb tradició bipartidista i cultura de compromís poden funcionar bé amb sistemes majoritaris; països amb moltes divisions ètniques o religioses poden necesitar sistemes proporcionals que representin totes les comunitats. Arend Lijphart ha demostrat que les «democràcies de consens» —que maximitzen la inclusió i la negociació— produeixen millors resultats en benestar, igualtat i satisfacció democràtica que les «democràcies majoritàries». Però en contextos de polarització extrema, la necessitat de consens constant pot bloquejar les reformes necessàries. El disseny institucional és un problema d'enginyeria política que requereix conèixer el context tant com els principis abstractes."
+            }
+          ]
+        },
+        {
+          "id": "dem-04",
+          "title": "Autoritarisme, totalitarisme i les seves formes",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El segle XX va ser el segle dels totalitarismes. El nazisme va exterminar sis milions de jueus i milions d'altres. El stalinisme va matar entre quinze i vint milions de persones. El maoisme, entre trenta i cinquanta milions. Cap genocidi d'aquesta escala havia estat possible sense l'aparell modern de l'Estat al servei d'una ideologia totalitària. Entendre com funcionen els sistemes autoritaris i totalitaris no és un exercici acadèmic: és una necessitat per qualsevol persona que vulgui protegir-se d'ells."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'autoritarisme concentra el poder en un líder o grup sense controls institucionals efectius, però tolera certa vida privada fora de la política. El totalitarisme va més lluny: pretén controlar totes les esferes de la vida —econòmica, social, cultural, privada— i mobilitzar activament la societat al servei de la ideologia."
+            },
+            {
+              "type": "comparison",
+              "title": "Autoritarisme vs. Totalitarisme vs. Democràcia",
+              "labelA": "Autoritarisme",
+              "labelB": "Totalitarisme",
+              "items": [
+                {
+                  "label": "Concentració del poder",
+                  "a": "Alta: sense separació de poders real",
+                  "b": "Total: el partit controla tot l'Estat"
+                },
+                {
+                  "label": "Esfera privada",
+                  "a": "Tolerada: no interfereix en la vida privada si no és política",
+                  "b": "Eliminada: fins la vida íntima és polititzada"
+                },
+                {
+                  "label": "Mobilització",
+                  "a": "Passiva: demana obediència, no entusiasme",
+                  "b": "Activa: exigeix participació i adhesió ideològica"
+                },
+                {
+                  "label": "Ideologia",
+                  "a": "Instrumental: justifica el poder, no és una visió total del món",
+                  "b": "Total: una cosmovisió que explica i prescriu tot"
+                },
+                {
+                  "label": "Exemples",
+                  "a": "Franco, Pinochet, Mubarak, Putin",
+                  "b": "Hitler, Stalin, Mao, Pol Pot, Corea del Nord"
+                }
+              ]
+            },
+            {
+              "type": "quote",
+              "text": "El totalitarisme no és el govern dels tirans sobre els homes, sinó un sistema on els homes ja no volen ser lliures.",
+              "author": "Hannah Arendt, Els orígens del totalitarisme (1951)"
+            },
+            {
+              "type": "expandable",
+              "label": "Com arriben al poder els règims autoritaris? Les sis etapes",
+              "content": "Hannah Arendt, Timothy Snyder i Steven Levitsky han estudiat com les democràcies es converteixen en autoritarismes. El patró és sorprenentment consistent: (1) Crisi real o percebuda que genera por i demanda d'ordre. (2) Aparició d'un líder carismàtic que promet solucions simples i es presenta com l'únic capaç de salvar el país. (3) Erosió gradual de les institucions: els tribunals, la premsa independent i l'oposició son atacats com a «enemics del poble». (4) Polarització extrema: la societat es divideix en «nosaltres» (el poble autèntic) i «ells» (els traidors, els estrangers, les elits corruptes). (5) Captura de les institucions: el líder posa lleials als llocs clau de l'exèrcit, la justícia i els mitjans. (6) Consolidació: les eleccions segueixen celebrant-se, però son injustes; la façana democràtica s'usa per legitimar el poder."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-04-01",
+              "style": "multiple-choice",
+              "question": "Quina diferència fonamental distingeix el totalitarisme de l'autoritarisme, segons la politòloga Hannah Arendt?",
+              "options": [
+                "El totalitarisme usa més violència que l'autoritarisme.",
+                "El totalitarisme pretén controlar totes les esferes de la vida i mobilitzar activament la societat; l'autoritarisme només exigeix obediència política.",
+                "L'autoritarisme és econòmicament liberal; el totalitarisme, planificat.",
+                "El totalitarisme sempre té suport popular; l'autoritarisme no."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La distinció d'Arendt és qualitativa, no de grau. L'autoritarisme concentra el poder i suprimeix l'oposició, però deixa als ciutadans un espai privat: pots pensar el que vulguis si no ho dius en públic. El totalitarisme no tolera cap espai fora del control del partit: la família, l'amistat, l'art, la religió i fins i tot els somnis han de ser políticament correctes. La mobilització activa —exigir que la gent participi i demostri adhesió— és la característica definitòria.",
+              "feedbackWrong": "La distinció no és de violència ni econòmica, sinó d'abast del control. L'autoritarisme busca obediència política; el totalitarisme busca transformació total de la societat i la persona. La diferència és la pretensió de controlar no sols el comportament extern sinó les creences, les relacions i la identitat mateixa dels ciutadans."
+            },
+            {
+              "type": "misconception",
+              "belief": "Els règims totalitaris arriben al poder per la força i contra la voluntat de la majoria.",
+              "reality": "Molts règims totalitaris van arribar al poder amb suport popular genuí o per via electoral. Hitler va ser nomenat canceller de manera constitucional el 1933. Mussolini va ser cridat al poder pel rei. Molts autoritarismes contemporanis han emergit per via electoral i han erosionat les institucions gradualment des de dins. El suport popular inicial és freqüent, especialment en contextos de crisi econòmica, inseguretat o humiliació nacional.",
+              "why": "Perquè la imatge del dictador que pren el poder per la força és la més visible en la història, però la via electoral i la erosió gradual de les institucions és igual o més freqüent."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dem-04-01",
+              "question": "Pot una democràcia consolidada convertir-se en un règim autoritari des de dins, sense un cop d'Estat?",
+              "options": [
+                "No: les institucions democràtiques son prou fortes per resistir qualsevol intent autoritari.",
+                "Sí: la història recent mostra que les democràcies es poden erosionar gradualment per via electoral i legal.",
+                "Depèn: les democràcies amb constitucions rígides son immunes; les altres, vulnerables."
+              ],
+              "correct": 1,
+              "explanation": "Steven Levitsky i Daniel Ziblatt, a «Com moren les democràcies» (2018), documenten que la majoria de les morts democràtiques recents no han estat per cops d'Estat militars sinó per erosió gradual des de dins: líders elegits democràticament que, un cop al poder, debiliten les institucions de control. Hongria sota Orbán, Turquia sota Erdoğan, Venezuela sota Chávez i Maduro, i Polònia sota el PiS son exemples d'aquesta via. El procés és gradual i cada pas sembla tènuement legal: es canvien les regles del tribunal constitucional, es captura la premsa pública, es canvien les lleis electorals. L'alarma no sona fins que és tard perquè cada pas aïllat sembla menor. Les democràcies més resistents son les que tenen normes informals fortes —la cultura del joc net— a més de les normes formals constitucionals."
+            }
+          ]
+        },
+        {
+          "id": "dem-05",
+          "title": "La separació de poders i l'Estat de Dret",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Montesquieu, al segle XVIII, va formular el principi que ha organitzat les democràcies modernes: el poder ha d'aturar el poder. Si la mateixa persona o institució fa les lleis, les aplica i jutja els qui les infringeixen, el resultat és la tirania. La solució és dividir el poder en tres branques independents que es controlin mútuament. Dos segles i mig després, la separació de poders és el mecanisme institucional més important per prevenir l'abús del poder —i el primer que els règims autoritaris intenten desmuntar."
+            },
+            {
+              "type": "key-idea",
+              "text": "La separació de poders divideix el govern en poder legislatiu (fa les lleis), executiu (les aplica) i judicial (les interpreta i jutja els conflictes). L'Estat de Dret significa que tots —incloent el govern— estan subjectes a la llei. Sense independència judicial, l'Estat de Dret és una ficció."
+            },
+            {
+              "type": "expandable",
+              "label": "Els checks and balances: com les institucions es controlen mútuament",
+              "content": "La separació de poders no és suficient si les branques no es controlen activament. El sistema americà és el que té el mecanisme més elaborat de checks and balances: el president pot vetar lleis del Congrés; el Congrés pot superar el vet amb dos terços de vots; el Tribunal Suprem pot declarar inconstitucionals les lleis del Congrés i els decrets del president; el Senat ha d'aprovar els nomenaments presidencials als tribunals; el Congrés pot iniciar un procés d'impeachment contra el president. Cap poder pot actuar unilateralment sense que els altres tinguin capacitat de resposta. El sistema és dissenyat per produir lentitud i negociació, no eficiència: els fundadors americans preferien la lentitud a la tirania."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-05-01",
+              "style": "multiple-choice",
+              "question": "Un govern aprova una llei que el Tribunal Constitucional declara inconstitucional. El govern respon afirmant que el Tribunal no té legitimitat democràtica perquè els jutges no son elegits. Quin és l'error d'aquest argument?",
+              "options": [
+                "Cap error: el govern té raó que els jutges hauria de ser elegits.",
+                "Confon legitimitat democràtica amb legitimitat constitucional: el Tribunal no representa la majoria, sinó que protegeix els drets de tothom davant la majoria.",
+                "El govern hauria d'acceptar la decisió però pot ignorar-la si té majoria parlamentària.",
+                "El Tribunal hauria de ser elegit per referèndum per tenir legitimitat."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'argument del govern confon dos tipus de legitimitat. La legitimitat democràtica és la que prové del vot de la majoria. La legitimitat constitucional és la que prové de protegir els drets de tothom —incloses les minories que la majoria podria oprimir. El Tribunal Constitucional existeix precisament per limitar el que la majoria pot fer: és el guardià dels drets individuals contra la majoria. Que no sigui elegit és un tret, no un defecte: la seva independència del procés electoral el fa capaç de dir «no» a un govern popular.",
+              "feedbackWrong": "La funció del Tribunal Constitucional no és representar la majoria —per a això hi ha el parlament— sinó protegir els drets individuals i l'ordre constitucional davant qualsevol majoria. Que els jutges no siguin elegits és deliberat: assegura la seva independència política. Un tribunal elegit per la majoria difícilment podria dir «no» a aquella mateixa majoria quan viola drets de les minories."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-05-02",
+              "style": "true-false",
+              "question": "L'Estat de Dret significa que el govern sempre fa el que és just i correcte.",
+              "correct": false,
+              "feedbackCorrect": "Fals. L'Estat de Dret no és un judici sobre la justícia de les lleis: és un principi procedimental que diu que tots —incloent el govern— estan subjectes a les lleis existents i que ningú és per sobre d'elles. Una llei pot ser injusta i seguir sent part de l'Estat de Dret si es va aprovar per procediments establerts. L'Estat de Dret exigeix que la llei s'apliqui de manera igual, previsible i sense arbitrarietat, no que les lleis siguin justes. La justícia de les lleis és una qüestió separada —de filosofia política i ètica.",
+              "feedbackWrong": "L'Estat de Dret és un principi procedimental: diu que el govern actua dins del marc legal establert i que la llei s'aplica a tothom per igual. No és un judici sobre si les lleis son justes. Al llarg de la història hi ha hagut lleis formalment vàlides (segregació racial, privació del vot a les dones) que eren part de l'Estat de Dret però eren profundament injustes. L'Estat de Dret és necessari però no suficient per a la justícia."
+            },
+            {
+              "type": "debate",
+              "question": "Els jutges del Tribunal Suprem o Constitucional haurien de ser elegits per votació popular o nomenats per procediments tècnics?",
+              "positionA": {
+                "label": "Elegits: legitimitat democràtica",
+                "argument": "En una democràcia, tots els qui prenen decisions que afecten el poble haurien de rendir comptes davant el poble. Jutges no elegits que invaliden lleis aprovades per parlaments electes estan exercint un poder contrademocràtic. L'elecció popular assegura que els tribunals reflecteixen els valors de la societat."
+              },
+              "positionB": {
+                "label": "Nomenats: independència i competència",
+                "argument": "La funció del tribunal és protegir la Constitució i els drets individuals davant les majories, no representar la majoria. Jutges elegits estarien sotmesos a les pressions electorals i no podrien dir «no» a majories populars. La independència judicial requereix que els jutges no depenguin del favor popular."
+              },
+              "reflection": "Hi ha alguna manera de tenir jutges alhora independents i responsables davant la societat? Quins mecanismes podrien aconseguir-ho?",
+              "context": "Als EUA, els jutges federals son nomenats pel president i confirmats pel Senat, amb mandat vitalici. A Espanya, el Tribunal Constitucional és nomenat per parlaments i govern. En alguns estats americans, els jutges son elegits per vot popular. Cada sistema produeix incentius i riscos molt diferents."
+            }
+          ]
+        },
+        {
+          "id": "dem-06",
+          "title": "La crisi de la democràcia avui",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1989, Francis Fukuyama va proclamar «el fi de la història»: la victòria definitiva de la democràcia liberal sobre tots els seus competidors. Trenta anys després, el panorama és radicalment diferent. Freedom House documenta setze anys consecutius de retrocés democràtic global. Democràcies consolidades mostren simptomes preocupants. El populisme autoritari guanya eleccions a Europa, Amèrica i Àsia. Les xarxes socials amplifiquen la polarització. La confiança en les institucions cau. Què ha passat?"
+            },
+            {
+              "type": "key-idea",
+              "text": "La democràcia liberal enfronta avui una crisi multidimensional: erosió interna per populismes autoritaris, desafecció ciutadana per la desigualtat i la percepció de corrupció, reptes tecnològics com la desinformació i la vigilància massiva, i la competència de models alternatius com la Xina."
+            },
+            {
+              "type": "expandable",
+              "label": "Populisme: definició, tipus i per què guanya",
+              "content": "El populisme no és un programa econòmic sinó una lògica política. Cas Mudde el defineix com «una ideologia fina que divideix la societat en dos camps homogenis i antagonistes: el 'poble pur' i l'elit corrupta, i argumenta que la política ha de ser una expressió de la voluntat general del poble». El populisme és transversal: n'hi ha d'esquerra (Chávez, Podemos primerenc) i de dreta (Orbán, Trump, Bolsonaro, Le Pen). El que els uneix no és l'economia sinó la retòrica: el poble autèntic contra les elits traïdores. Per quin motiu guanya? Perquè la desigualtat ha crescut, les institucions han defraudat moltes expectatives i la globalització ha creat guanyadors i perdedors clars. El populisme ofereix una explicació simple (la culpa és de les elits) i un enemic clar."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Lògica i Argumentació",
+              "moduleEmoji": "🧩",
+              "concept": "Fal·làcies i biaixos en el discurs polític",
+              "text": "Les tècniques del populisme son les fal·làcies que hem vist a Lògica i Argumentació: l'home de palla (deformar la posició adversària), l'apel·lació a la majoria («el poble vol»), la falsa dicotomia (o estàs amb el poble o estàs amb les elits). Reconèixer-les no et fa immune, però sí més conscient."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-06-01",
+              "style": "multiple-choice",
+              "question": "Un polític diu: «Les elits corruptes i els jutges que no m'elegiu vosaltres volen aturar la voluntat del poble». Quina estratègia típicament populista usa?",
+              "options": [
+                "Apel·lació a l'autoritat científica.",
+                "Divisió entre «poble pur» i «elit corrupta», i atac a les institucions de control com a antidemocràtiques.",
+                "Proposta de reformes concretes basades en evidència.",
+                "Apel·lació a la tradició i els valors nacionals."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'estratègia clàssica del populisme: presentar-se com a representant del «poble autèntic» i redefinir qualsevol institució de control (tribunals, premsa independent, bancs centrals) com a part de l'«elit corrupta» que s'oposa al poble. L'efecte és erosionar la legitimitat de les institucions que podrien limitar el poder del líder, presentant-ho com un acte de democràcia.",
+              "feedbackWrong": "La descripció és la lògica central del populisme: dividir la societat en «poble pur» vs. «elit corrupta» i presentar les institucions de control com a instruments de l'elit. No és una apel·lació a l'autoritat ni a la tradició: és una narrativa que redefineix la democràcia com la voluntat directa del líder, eliminant els mecanismes de control."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-06-02",
+              "style": "true-false",
+              "question": "La desafecció democràtica —la pèrdua de confiança en la democràcia— és un fenomen limitat als països amb democràcies joves o febles.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La desafecció democràtica és un fenomen documentat en democràcies consolidades d'Europa Occidental, els EUA i altres països amb llarga tradició democràtica. L'enquesta mundial de valors i els baròmetres democràtics mostren que la satisfacció amb la democràcia ha caigut en les darreres dècades en molts dels seus bastions tradicionals. Les causes inclouen la desigualtat creixent, la percepció de corrupció, la incapacitat de les institucions de resoldre problemes urgents i la desconnexió entre les elits polítiques i les preocupacions quotidianes de la ciutadania.",
+              "feedbackWrong": "La desafecció democràtica és precisament un dels fenòmens més preocupants perquè afecta democràcies consolidades. Als EUA, la confiança en el Congrés, els partits i les institucions ha caigut dràsticament des dels anys 60. A Europa, els partits establerts han perdut suport sistemàticament. La crisi de legitimitat democràtica no és un problema de democràcies febles: és un problema que afecta el cor del món democràtic."
+            },
+            {
+              "type": "debate",
+              "question": "Les xarxes socials son una amenaça o una oportunitat per a la democràcia?",
+              "positionA": {
+                "label": "Amenaça: polaritzen i desinformen",
+                "argument": "Els algorismes de les xarxes maximitzen l'engagement amplificant contingut emocional i polaritzador. Les fake news es difonen molt més ràpidament que les veritats. Les càmeres d'eco reforcen les creences existents. La interferència estrangera en eleccions és facilitada per les xarxes. El resultat és una ciutadania més polaritzada i menys informada."
+              },
+              "positionB": {
+                "label": "Oportunitat: democratitzen la veu",
+                "argument": "Les xarxes han donat veu a ciutadans, moviments socials i comunitats marginades que els grans mitjans ignoraven. Han permès organitzar-se i mobilitzar-se sense recursos. Han exposat abusos de poder que la premsa tradicional no cobria. El problema no son les xarxes en si sinó el disseny específic dels algorismes."
+              },
+              "reflection": "La regulació de les xarxes socials per protegir la democràcia podria convertir-se en censura? On és el límit?",
+              "context": "La UE ha aprovat la Digital Services Act (2022) per regular les plataformes. Els debats sobre moderació de contingut, algorismes i responsabilitat de les plataformes son centrals en la política democràtica del segle XXI."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dem-06-01",
+              "question": "Si la democràcia liberal enfronta una crisi profunda, quina és la millor resposta: reformar-la per dins, buscar alternatives o defensar-la tal com és?",
+              "options": [
+                "Defensar-la tal com és: les seves institucions son la millor garantia de llibertat.",
+                "Buscar alternatives: el sistema actual ha fallat i cal un model nou.",
+                "Reformar-la profundament: les institucions democràtiques son valuoses però necessiten actualització per als reptes del segle XXI."
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre la reforma democràtica és central en la ciència política contemporània. Els defensors del statu quo (opció A) argumenten que erosionar les institucions existents —fins i tot amb la intenció de millorar-les— obre la porta a l'autoritarisme. Els defensors de les alternatives (opció B) —des de la democràcia deliberativa fins a models tecnocràtics o de democràcia líquida— argumenten que el sistema actual és capturat per elits i necessita una transformació profunda. La posició més defensada acadèmicament és la C: les institucions democràtiques liberals son valuoses i han protegit les llibertats individuals millor que cap alternativa coneguda, però necessiten reformes per abordar la desigualtat, la captura corporativa, la desinformació i la desafecció. Reformes concretes debatudes: vot obligatori, llistes electorals automàtiques, límits al finançament electoral, democràcia deliberativa amb assemblees ciutadanes seleccionades per sorteig, regulació de les plataformes digitals. La reforma és preferible a la substitució perquè els sistemes polítics son extraordinàriament complexos i els seus efectes no intencionats son imprevisibles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itinerari-ciutadania",
+      "title": "Ciutadania i participació",
+      "icon": "🗳️",
+      "description": "Qui som com a ciutadans, quins drets i deures tenim, i com participem en la vida democràtica més enllà del vot.",
+      "style": "Pràctic · dels drets a la participació activa",
+      "lessons": [
+        {
+          "id": "dem-c01",
+          "title": "Drets i deures: el pacte democràtic",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Ets ciutadà. Però què significa exactament? La ciutadania moderna és un estatut jurídic i polític que comporta drets —proteccions que l'Estat et garanteix— i deures —obligacions que tens envers la comunitat. La Declaració Universal dels Drets Humans de 1948 va intentar universalitzar els drets fonamentals més enllà de la ciutadania nacional. Però la distància entre els drets proclamats i els drets efectivament gaudits segueix sent enorme en molts llocs del món."
+            },
+            {
+              "type": "key-idea",
+              "text": "El sociòleg T.H. Marshall va identificar tres generacions de drets ciutadans: civils (llibertat individual i igualtat davant la llei), polítics (participació en el govern) i socials (benestar, educació, salut). Cada generació va ser conquerida en lluites polítiques al llarg dels segles XVIII, XIX i XX."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "Segles XVII–XVIII",
+                  "title": "Drets civils",
+                  "text": "Llibertat d'expressió, llibertat de consciència, dret a la propietat, igualtat davant la llei. Conquestes de les revolucions liberals."
+                },
+                {
+                  "year": "Segles XIX–XX",
+                  "title": "Drets polítics",
+                  "text": "Sufragi universal (primer masculí, després femení), dret a presentar-se a eleccions, llibertat d'associació política."
+                },
+                {
+                  "year": "Segle XX",
+                  "title": "Drets socials",
+                  "text": "Dret a l'educació, a la sanitat, a la seguretat social, al treball. Conquestes del moviment obrer i de l'Estat del Benestar."
+                },
+                {
+                  "year": "Finals del XX–XXI",
+                  "title": "Noves generacions de drets",
+                  "text": "Drets mediambientals, dret a internet, drets digitals, drets de les generacions futures. Debat obert sobre fins on arriben."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "La tensió entre drets individuals i bé comú",
+              "content": "Els drets individuals i el bé col·lectiu entren sovint en tensió. El dret a la propietat privada pot xocar amb la necessitat de redistribució per finançar els drets socials. La llibertat d'expressió pot xocar amb la protecció contra el discurs d'odi. El dret a la privacitat pot xocar amb la seguretat col·lectiva. La llibertat de moviment pot xocar amb la gestió de la immigració. Aquestes tensions no tenen solucions definitives: son el terreny del debat democràtic permanent. Les constitucions estableixen un marc, però la ponderació concreta dels drets en conflicte és feina dels parlaments, els tribunals i, en últim terme, de la ciutadania."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-c01-01",
+              "style": "multiple-choice",
+              "question": "Segons T.H. Marshall, quin va ser l'ordre cronològic de conquesta dels drets ciutadans?",
+              "options": [
+                "Socials → polítics → civils",
+                "Polítics → civils → socials",
+                "Civils → polítics → socials",
+                "Tots es van conquerir simultàniament en les revolucions del segle XVIII."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Marshall identifica una seqüència històrica: primer els drets civils (llibertat individual i igualtat davant la llei, conquestes liberals dels segles XVII-XVIII), després els polítics (sufragi, participació, segle XIX i principis del XX) i finalment els socials (benestar, educació, sanitat, seguretat social, principalment al segle XX). Cada generació va ser el resultat de lluites polítiques específiques, no una concessió espontània del poder.",
+              "feedbackWrong": "Marshall mostra que els drets s'han conquerit en seqüència al llarg de tres segles: primer la llibertat individual (civils), després la participació política (polítics) i finalment el benestar material (socials). Cada etapa va requerir lluites polítiques específiques: les revolucions liberals, el moviment sufragista i el moviment obrer respectivament."
+            },
+            {
+              "type": "debate",
+              "question": "Votar hauria de ser un deure cívic obligatori o un dret de lliure exercici?",
+              "positionA": {
+                "label": "Obligatori: la democràcia ho necessita",
+                "argument": "La participació electoral baixa distorsiona la representació: qui no vota cedeix la decisió als qui sí ho fan. En sistemes on cert sector vota poc sistemàticament (joves, classes baixes), els resultats no reflecteixen la voluntat de tot el poble. El vot obligatori —com a Austràlia, Bèlgica o Brasil— augmenta la participació i la representativitat."
+              },
+              "positionB": {
+                "label": "Voluntari: la llibertat inclou el dret a no participar",
+                "argument": "Obligar a votar és una contradicció en una democràcia liberal: viola la llibertat individual. El dret a no votar —a expressar la desafecció— és tan legítim com el vot. Forçar la participació pot produir vots buits o aleatoris que distorsionen els resultats tant com l'abstenció."
+              },
+              "reflection": "Si el vot fos obligatori, canviaria alguna cosa en com els partits fan campanya i quines polítiques proposen?",
+              "context": "Austràlia té vot obligatori des de 1924 i participació habitualmente superior al 90%. Les enquestes mostren que els australians en general l'accepten. L'evidència sobre els efectes en la qualitat de la democràcia és mixta."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dem-c01-01",
+              "question": "En una democràcia, el ciutadà té el deure de participar activament en la vida política, o n'hi ha prou amb respectar les lleis i pagar els impostos?",
+              "options": [
+                "N'hi ha prou amb respectar les lleis: la participació és un dret, no un deure.",
+                "Cal participació activa: sense ciutadans compromesos, la democràcia es buida de contingut.",
+                "Depèn: hi ha un deure mínim (votar, complir les lleis) i una virtut cívica adicional (participar, informar-se, deliberar) que la democràcia necessita però no pot exigir."
+              ],
+              "correct": 2,
+              "explanation": "Els teòrics de la democràcia distingeixen entre els requisits mínims de la ciutadania —complir les lleis, pagar impostos, no perjudicar els altres— i les virtuts cíviques que fan una democràcia vigorosa —informar-se, deliberar, participar, associar-se, controlar els governants. La democràcia pot funcionar formalment amb ciutadans passius, però es degrada: els partits capturen les institucions, els grups d'interès dominen l'agenda, la corrupció prospera sense control ciutadà. Alexis de Tocqueville ja ho va observar al segle XIX: la democràcia americana era vigorosa perquè els americans participaven en associacions, debatien en els ajuntaments i es controlaven mútuament. Robert Putnam va documentar el segle XX que la davallada del capital social —la participació associativa— correlaciona amb el deteriorament democràtic. La participació no pot ser legalment obligada en tots els seus aspectes, però pot ser fomentada per l'educació, el disseny institucional i la cultura política."
+            }
+          ]
+        },
+        {
+          "id": "dem-c02",
+          "title": "Partits polítics, grups d'interès i societat civil",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La democràcia no funciona sols amb eleccions. Entre una elecció i l'altra, el poder es negocia, s'exerceix i es limita a través d'una xarxa d'actors: partits polítics, sindicats, associacions empresarials, ONG, mitjans de comunicació, moviments socials i grups de pressió. Entendre com funcionen aquests actors és entendre com funciona la democràcia real, per oposició a la democràcia formal dels llibres de text."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els partits polítics son els principals actors de la democràcia representativa. Però la democràcia real inclou també la societat civil —sindicats, associacions, moviments— i els grups d'interès que pressionen els governs. La qualitat de la democràcia depèn de l'equilibri entre tots aquests actors."
+            },
+            {
+              "type": "expandable",
+              "label": "El finançament de la política: qui paga, qui mana?",
+              "content": "El finançament dels partits i les campanyes electorals és un dels punts on la democràcia formal i la democràcia real divergeixen més. Als EUA, la sentència Citizens United (2010) del Tribunal Suprem va declarar que els límits al gastr electoral dels grups privats violen la llibertat d'expressió. El resultat: milers de milions de dòlars en publicitat electoral, majoritàriament d'interessos corporatius i milionaris. La recerca mostra una correlació entre l'origen del finançament i les polítiques adoptades. Europa regula molt més el finançament electoral, amb límits a les donacions i finançament públic dels partits. Però la captura corporativa funciona per altres vies: portes giratòries (polítics que passen al sector privat i viceversa), lobbying, i dependència dels partits de les donacions de grans empreses."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-c02-01",
+              "style": "multiple-choice",
+              "question": "Quin és el principal risc del lobbying —la pressió de grups d'interès sobre els governs— per a la democràcia?",
+              "options": [
+                "Que lentifica el procés legislatiu.",
+                "Que grups amb més recursos econòmics tinguin una influència desproporcionada sobre les decisions polítiques.",
+                "Que introdueix temes tècnics complexos que els polítics no entenen.",
+                "Que fomenta la corrupció directa dels polítics."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "El problema central del lobbying no és la corrupció directa —que existeix però és un problema separat— sinó la distorsió sistemàtica de la representació: els grups amb recursos per pagar lobbyistes professionals (grans empreses, associacions sectorials) tenen un accés i una influència molt superiors als grups sense recursos (ciutadans individuals, comunitats pobres, generacions futures). El resultat és que les polítiques tendeixen a afavorir els interessos dels qui poden pagar per fer-se sentir.",
+              "feedbackWrong": "El risc principal del lobbying no és tècnic ni directament corrupte: és estructural. Els grups amb recursos econòmics —grans empreses, associacions sectorials— poden contractar professionals per influir sobre els legisladors de manera permanent i sofisticada. Els ciutadans individuals no tenen aquesta capacitat. El resultat és una distorsió de la representació democràtica: les polítiques reflecteixen els interessos dels qui poden pagar per influir."
+            },
+            {
+              "type": "reflection",
+              "question": "Formes part d'alguna associació, sindicat, ONG, cooperativa o grup comunitari? Si no, per quin motiu? Si sí, quin impacte creus que té en la teva comunitat?",
+              "prompt": "Tocqueville deia que la salut d'una democràcia es veu en la riquesa de les seves associacions voluntàries. La participació associativa és la democràcia quotidiana."
+            }
+          ]
+        },
+        {
+          "id": "dem-c03",
+          "title": "Desobediència civil i activisme",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Rosa Parks es nega a cedir el seient a un blanc en un autobús de Montgomery, Alabama, el 1955. Gandhi lidera la Marxa de la Sal a través de 400 quilòmetres per desafiar el monopoli britànic el 1930. Martin Luther King escriu la «Carta des de la presó de Birmingham» explicant per quin motiu ha d'infringir les lleis segregacionistes. Totes tres son actes de desobediència civil: la negativa deliberada, pública i no violenta a obeir una llei o política injusta. I tots tres van canviar la història."
+            },
+            {
+              "type": "key-idea",
+              "text": "La desobediència civil és la negativa deliberada, pública, no violenta i disposada a assumir les conseqüències legals d'infringir una llei o política que es considera profundament injusta. És un acte polític que apel·la a la consciència moral de la societat, no als tribunals."
+            },
+            {
+              "type": "quote",
+              "text": "Un individu que trenca una llei que la seva consciència li diu que és injusta i accepta voluntàriament la pena de presó per despertar la consciència de la comunitat envers la seva injustícia, en realitat està expressant el màxim respecte per la llei.",
+              "author": "Martin Luther King, Carta des de la presó de Birmingham (1963)"
+            },
+            {
+              "type": "expandable",
+              "label": "Thoreau, Gandhi i King: l'evolució de la desobediència civil",
+              "content": "Henry David Thoreau va encunyar el terme «desobediència civil» el 1849 per explicar la seva negativa a pagar impostos que finançaven l'esclavitud. Gandhi va transformar la desobediència civil en una estratègia política sistemàtica: la satyagraha (força de la veritat), basada en la no-violència i la disposició a acceptar el sofriment per fer evident la injustícia del sistema. King va aplicar el model de Gandhi als EUA: marxes, sit-ins, boicots, tots amb una disciplina de no-violència estricta que contrastava amb la violència policial i exposava la brutalitat del sistema als ulls del món. Els tres compartien la convicció que la desobediència civil és un acte de fidelitat a un ordre moral superior —no un acte contra la llei, sinó contra una llei particular que viola principis morals fonamentals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-c03-01",
+              "style": "multiple-choice",
+              "question": "Quina característica distingeix la desobediència civil de la delinqüència comuna?",
+              "options": [
+                "La desobediència civil sempre busca un benefici personal; la delinqüència, no.",
+                "La desobediència civil és pública, no violenta i disposada a assumir les conseqüències legals per apel·lar a la consciència moral de la societat.",
+                "La desobediència civil és sempre legal; la delinqüència no.",
+                "La desobediència civil només és vàlida quan la practica una majoria."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La desobediència civil té tres característiques que la distingeixen: és pública (no busca amagar-se), és no violenta (el sofriment és acceptat, no infligit) i és disposada a assumir les conseqüències legals (anar a la presó forma part de l'estratègia, perquè demostra la serietat del compromís i apel·la a la consciència pública). El delinqüent busca evitar les conseqüències; el desobedient civil les accepta com a part de l'acció.",
+              "feedbackWrong": "La distinció clau no és de motivació ni de legalitat: la desobediència civil és, per definició, il·legal. El que la distingeix és la seva naturalesa pública (no secreta), no violenta i disposada a assumir les conseqüències. El delinqüent busca benefici personal i evitar la detecció; el desobedient civil actua públicament per raons morals i accepta el pes de la llei com a part de l'estratègia."
+            },
+            {
+              "type": "debate",
+              "question": "La desobediència civil és justificada quan les vies legals han fallat, o el respecte a la llei és sempre prioritari en una democràcia?",
+              "positionA": {
+                "label": "Justificada: la llei moral està per sobre",
+                "argument": "Hi ha lleis injustes que han estat canviades gràcies a la desobediència civil: segregació racial, colonialisme, privació del vot a les dones. Si tothom hagués esperat que les vies legals funcionessin, moltes injustícies seguirien vigents. La democràcia no és perfecta i la desobediència civil és una eina legítima de pressió quan el sistema falla."
+              },
+              "positionB": {
+                "label": "No: el respecte a la llei és fonamental",
+                "argument": "En una democràcia, la llei és l'expressió de la voluntat de la majoria i el fonament de la convivència. Si cada individu decideix quines lleis obeir basant-se en la seva consciència individual, s'obre la porta al caos. Les vies legals —mobilitzar vots, pressionar parlamentaris, apel·lar als tribunals— son el mecanisme democràtic adequat."
+              },
+              "reflection": "Hi ha alguna llei o política actual que consideris prou injusta per justificar la desobediència civil? Quins criteris uses per decidir on és el límit?",
+              "context": "John Rawls, a «Una teoria de la justícia», argumenta que la desobediència civil és justificada en una democràcia gairebé justa quan (1) s'han esgotat les vies legals, (2) la injustícia és greu i clara, (3) l'acció és no violenta i (4) s'accepten les conseqüències legals."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dem-c03-01",
+              "question": "La desobediència civil és més efectiva que les vies polítiques convencionals per produir canvis socials?",
+              "options": [
+                "Sí: els canvis més importants de la història han requerit desobediència civil.",
+                "No: els canvis duradors venen per les institucions, no per l'activisme disruptiu.",
+                "Depèn del context: la seva efectivitat varia segons el sistema polític, el tipus d'injustícia i l'estratègia adoptada."
+              ],
+              "correct": 2,
+              "explanation": "La recerca politològica sobre els moviments socials mostra que l'efectivitat de la desobediència civil depèn de múltiples factors. Erica Chenoweth ha estudiat 323 campanyes de resistència civil entre 1900 i 2006 i ha trobat que les campanyes no violentes han tingut una taxa d'èxit (53%) molt superior a les violentes (26%). Però l'efectivitat depèn del context: sistemes polítics receptius a la pressió popular, capacitat d'organització del moviment, coalicions amb actors dins del sistema, cobertura mediàtica i capacitat de crear costos als qui mantenen la injustícia. La desobediència civil rarament funciona sola: és més efectiva com a element d'una estratègia que combina pressió externa i negociació interna, mobilització popular i advocacy institucional."
+            }
+          ]
+        },
+        {
+          "id": "dem-c04",
+          "title": "Democràcia global: qui governa el món?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Les democràcies nacionals prenen decisions que afecten els seus ciutadans. Però hi ha decisions que afecten tothom i que cap democràcia nacional pot prendre sola: el canvi climàtic, les pandèmies, la regulació de les grans tecnològiques, els fluxos financers globals o les armes nuclears. Qui governa en escala global? La resposta és: organitzacions internacionals creades per tractats entre estats, sense elecció directa, sense control democràtic directe i amb capacitat d'acció molt limitada. Hi ha un «dèficit democràtic» global enorme."
+            },
+            {
+              "type": "key-idea",
+              "text": "La governança global —la gestió de problemes que superen les fronteres nacionals— es fa a través d'organitzacions internacionals (ONU, FMI, OMC, OMS) creades per tractats entre estats. Aquestes organitzacions tenen un dèficit democràtic: no son directament elegides ni controlades pels ciutadans que afecten."
+            },
+            {
+              "type": "expandable",
+              "label": "El dilema de la sobirania: democràcia nacional vs. cooperació global",
+              "content": "La sobirania nacional —el principi que cada estat és el màxim poder dins del seu territori— és la base de l'ordre internacional modern. Però la sobirania nacional entra en tensió amb la necessitat de cooperació global. El canvi climàtic no respecta fronteres: les emissions d'un país afecten tots els altres. Una pandèmia es difon per tot el món en setmanes. Les crisis financeres es propaguen instantàniament. Per resoldre aquests problemes cal cedir sobirania a institucions globals. Però cedint sobirania, les decisions que afecten els ciutadans les prenen organismes que no controlen. El dilema és real i no té solució fàcil: o acceptem la ineficiència de la cooperació voluntària entre sobiranies, o acceptem el dèficit democràtic de les institucions globals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-c04-01",
+              "style": "multiple-choice",
+              "question": "El «dèficit democràtic» de les organitzacions internacionals com el FMI o l'OMC significa que:",
+              "options": [
+                "No prenen prou decisions per al benestar global.",
+                "Les decisions que prenen afecten milions de persones que no les han elegit ni les poden controlar directament.",
+                "Els seus membres no son estats democràtics.",
+                "Actuen de manera corrupta i sense transparència."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El dèficit democràtic no és sobre la qualitat moral de les decisions ni sobre la corrupció: és sobre la cadena de responsabilitat i control. Quan el FMI imposa condicions d'ajust estructural a un país en crisi, milions de persones afectades no han elegit cap membre del FMI, no poden votar per canviar-ne les polítiques i no tenen mecanismes directes de control. Les seves veus arriben, si arriben, a través dels seus governs nacionals —que a la vegada negocien en organismes internacionals lluny de la supervisió ciutadana.",
+              "feedbackWrong": "El dèficit democràtic és un concepte específic sobre la cadena de responsabilitat i control democràtic, no sobre l'eficiència ni la corrupció. Les organitzacions internacionals prenen decisions que afecten directament la vida de milions de persones que no les han elegit i que no tenen mecanismes directes per controlar-les. Això és el dèficit democràtic."
+            },
+            {
+              "type": "debate",
+              "question": "Necessitem un govern mundial democràtic per resoldre els problemes globals, o la cooperació entre estats sobiranes és suficient?",
+              "positionA": {
+                "label": "Govern mundial: els problemes globals ho requereixen",
+                "argument": "El canvi climàtic, les pandèmies i la regulació de les IA no es poden resoldre sense autoritat global vinculant. La cooperació voluntària entre estats és insuficient: cada estat té incentius per deferir els costos als altres. Un govern mundial democràticament elegit amb poder real és la única solució a llarg termini."
+              },
+              "positionB": {
+                "label": "Cooperació entre estats: la sobirania és irreemplaçable",
+                "argument": "Un govern mundial concentraria un poder sense precedents sense garanties de control democràtic efectiu. La diversitat de cultures, sistemes de valors i preferències polítiques fan impossible una democràcia global legítima. La cooperació entre estats, imperfecta però reversible, és preferible a una concentració global de poder potencialment tirànica."
+              },
+              "reflection": "Quin problema global creus que requereix més urgentment una resposta coordinada? Qui hauria de tenir l'autoritat per prendre-la?",
+              "context": "El filòsof David Held ha proposat una «democràcia cosmopolita» multilevel que combina democràcies nacionals, regionals (com la UE) i globals. La UE és l'únic experiment de cessió de sobirania a escala regional amb cert control democràtic (Parlament Europeu)."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dem-c04-01",
+              "question": "La Unió Europea és un model de democràcia supranacional o un exemple del dèficit democràtic de la governança global?",
+              "options": [
+                "Un model: el Parlament Europeu elegit directament és un exemple de democràcia supranacional.",
+                "Un exemple de dèficit: les decisions clau les prenen el Consell i la Comissió sense control democràtic directe.",
+                "Les dues coses: la UE combina elements de democràcia supranacional i dèficit democràtic, i el debat sobre l'equilibri segueix obert."
+              ],
+              "correct": 2,
+              "explanation": "La UE és el cas més estudiat de construcció democràtica supranacional, i precisament per això il·lustra perfectament la tensió. El Parlament Europeu és elegit directament per 450 milions de ciutadans i té poders legislatius reals: és el nucli de la democràcia supranacional. Però el Consell Europeu (caps d'Estat i de govern) i el Consell de la UE (ministres nacionals) prenen les decisions més importants en processos de negociació intergovernamental poc transparents. La Comissió Europea —l'executiu— no és elegida directament. El «dèficit democràtic» de la UE és un debat acadèmic i polític des dels anys 90: Andrew Moravcsik argumenta que és inevitable i acceptable en una organització de coordinació; Simon Hix argumenta que la politització de les eleccions europees és la solució. El Brexit va demostrar que la manca de connexió entre la UE i els ciutadans britànics ordinaris va ser un factor decisiu en el resultat del referèndum."
+            }
+          ]
+        },
+        {
+          "id": "dem-c05",
+          "title": "Democràcia deliberativa i noves formes de participació",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El vot cada quatre anys és el mecanisme més visible de la democràcia, però molts teòrics i activistes argumenten que és profundament insuficient. La democràcia deliberativa proposa que les decisions polítiques hagin de ser el resultat d'un procés de deliberació raonada entre ciutadans —no simplement d'agregar preferències preexistents. I en els últims anys, eines noves —assemblees ciutadanes, pressupostos participatius, plataformes digitals de democràcia— estan posant a prova si és possible anar més lluny del vot."
+            },
+            {
+              "type": "key-idea",
+              "text": "La democràcia deliberativa argumenta que les decisions polítiques son més legítimes i millors quan es prenen després d'un procés de debat racinat, informat i inclusiu. Les assemblees ciutadanes seleccionades per sorteig son la seva aplicació pràctica més prometedora."
+            },
+            {
+              "type": "expandable",
+              "label": "Les assemblees ciutadanes: democràcia per sorteig",
+              "content": "Una assemblea ciutadana és un grup de persones seleccionades a l'atzar —com un jurat— representatiu de la diversitat de la societat (edat, gènere, classe, origen) que es reuneix durant setmanes o mesos per deliberar sobre un tema concret, escoltar experts i propostes diverses, i formular recomanacions. Les assemblees ciutadanes han abordat temes difícils que els parlaments no s'atrevien a tractar: Irlanda (2016-2017) va usar una assemblea per deliberar sobre l'avortament i el matrimoni homosexual, produint recomanacions que després van ser aprovades per referèndum. França va tenir una Assemblea Ciutadana pel Clima (2020). Escòcia, Alemanya i el Parlament Europeu han experimentat formats similars. L'evidència preliminar és prometedora: els participants canvien de posicions, deliberen seriosament i produeixen recomanacions matisades que la política convencional rarament aconsegueix."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-c05-01",
+              "style": "multiple-choice",
+              "question": "Quina és la principal diferència entre una assemblea ciutadana i un parlament elegit?",
+              "options": [
+                "L'assemblea ciutadana té més poder legal que el parlament.",
+                "L'assemblea és seleccionada per sorteig per ser representativa de la diversitat social, no elegida per competició electoral.",
+                "L'assemblea tracta temes tècnics; el parlament, polítics.",
+                "L'assemblea és permanent; el parlament, temporal."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La diferència fonamental és el mecanisme de selecció i el que produeix. El parlament és elegit per competició electoral, la qual cosa tendeix a seleccionar polítics professionals i sobrerepresentar certs perfils socials. L'assemblea és seleccionada per sorteig estratificat per representar la diversitat real de la societat: inclou persones que mai no es presentarien a eleccions. El sorteig és el mecanisme democràtic original de l'Atenes antiga, recuperat ara amb noves possibilitats.",
+              "feedbackWrong": "La diferència principal no és de poder legal ni de temàtica: és del mecanisme de selecció. Els parlamentaris son elegits per competició; els membres de l'assemblea son seleccionats per sorteig representatiu. Això canvia radicalment qui participa, com delibera i quins resultats produeix."
+            },
+            {
+              "type": "debate",
+              "question": "Les assemblees ciutadanes haurien de tenir poder vinculant sobre certes decisions, o han de ser consultives?",
+              "positionA": {
+                "label": "Vinculants: donar-los poder real",
+                "argument": "Si les assemblees son purament consultives, els polítics poden ignorar les seves recomanacions quan no els convenen. Per ser un mecanisme de democràcia genuïna i no d'aparença, han de tenir capacitat de decisió real. Irlanda ho va fer vinculant via referèndum i va funcionar."
+              },
+              "positionB": {
+                "label": "Consultives: el parlament ha de decidir",
+                "argument": "Les assemblees seleccionades per sorteig no son elegides i no renen comptes davant els ciutadans. Donar-los poder vinculant sense responsabilitat electoral és problemàtic. Han de poder informar i pressionar el parlament, que segueix sent l'òrgan democràticament responsable."
+              },
+              "reflection": "Si fossis seleccionat per sorteig per formar part d'una assemblea ciutadana sobre un tema complex, t'hi afegiries? Quin tema creus que funcionaria millor per a aquest format?",
+              "context": "El filòsof David Van Reybrouck, a «Contra les eleccions» (2013), proposa combinar eleccions i sorteig en un bicameralisme mixt. La idea guanya suport acadèmic i polític però troba resistència en els partits establerts, que perdrien influència."
+            }
+          ]
+        },
+        {
+          "id": "dem-c06",
+          "title": "Síntesi: quin ciutadà vols ser?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Has recorregut els orígens i principis de la democràcia, els sistemes de govern, l'autoritarisme i les seves amenaces, la separació de poders, la crisi democràtica actual, els drets i deures ciutadans, la desobediència civil i les noves formes de participació. Tot aquest coneixement apunta a una pregunta final que ningú no pot respondre per tu: Quin tipus de ciutadà vols ser?"
+            },
+            {
+              "type": "key-idea",
+              "text": "La democràcia no és un sistema que funciona sol: requereix ciutadans actius, informats i compromesos. La qualitat de la democràcia que tenim és, en gran mesura, el resultat del tipus de ciutadania que practiquem col·lectivament."
+            },
+            {
+              "type": "expandable",
+              "label": "Les cinc dimensions de la ciutadania activa",
+              "content": "1. Informació: seguir la política amb fonts diverses i fiables, distingint informació de desinformació. 2. Deliberació: discutir els assumptes públics amb persones de opinions diferents, amb l'objectiu d'entendre, no de guanyar. 3. Participació electoral: votar de manera informada, en totes les eleccions (locals, nacionals, europees). 4. Participació associativa: formar part d'associacions, sindicats, cooperatives, comunitats que practiquen la democràcia quotidiana. 5. Control del poder: exigir transparència, denunciar la corrupció, recolzar la premsa independent i les institucions de control."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Fonaments dels Drets Humans",
+              "moduleEmoji": "🕊️",
+              "concept": "Drets i obligacions en l'ordre internacional",
+              "text": "Els drets que hem vist en aquest mòdul —civils, polítics, socials— son els mateixos que els sistemes internacionals de drets humans protegeixen. El mòdul de Drets Humans aprofundeix en com funciona aquest sistema de protecció internacional quan els estats fallen en la seva obligació."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Ètica",
+              "moduleEmoji": "⚖️",
+              "concept": "Justícia política i obligació cívica",
+              "text": "Les preguntes sobre qui mereix què, fins on arriba l'obligació de participar i quan és justificada la desobediència civil son preguntes d'ètica política. Les eines del mòdul d'Ètica —utilitarisme, deontologia, teoria de la virtut— s'apliquen directament als dilemes de la ciutadania."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dem-c06-01",
+              "style": "multiple-choice",
+              "question": "Levitsky i Ziblatt argumenten que les democràcies es sostenen sobre dues normes informals fonamentals. Quines son?",
+              "options": [
+                "Transparència i participació.",
+                "Tolerància mútua (acceptar l'adversari com a legítim) i contenció institucional (no usar al màxim els poders legals per destruir l'adversari).",
+                "Separació de poders i sufragi universal.",
+                "Llibertat de premsa i independència judicial."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Levitsky i Ziblatt argumenten que les constitucions i les lleis no son suficients per protegir la democràcia: cal que els actors polítics acceptin l'adversari com a legítim (tolerin la seva existència i el seu dret a governar si guanya) i que s'abstinguin d'usar al màxim els seus poders legals per destruir-lo. Quan un president usa cada poder constitucional disponible per silenciar l'oposició, la premsa i els tribunals, la democràcia s'erosiona legalment. Les normes informals son el que fa que la lletra de la llei funcioni.",
+              "feedbackWrong": "Levitsky i Ziblatt identifiquen dues normes informals que van més enllà de les institucions formals: la tolerància mútua (reconèixer que l'adversari és un rival legítim, no un enemic a destruir) i la contenció institucional (no usar tots els poders disponibles per aniquilar l'adversari, fins i tot si la llei ho permet). Sense aquestes normes, les constitucions no protegeixen la democràcia."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una cosa concreta que podries fer en els propers tres mesos per participar més activament en la vida democràtica de la teva comunitat. No ha de ser gran: pot ser llegir una font nova, assistir a una reunió, afegir-te a una associació o simplement parlar amb algú amb qui tens desacord polític.",
+              "prompt": "La democràcia es practica cada dia, no cada quatre anys."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dem-c06-01",
+              "question": "Si la qualitat de la democràcia depèn dels ciutadans, i els ciutadans estan cada vegada més desafectats i polaritzats, hi ha motius per a l'optimisme sobre el futur de la democràcia?",
+              "options": [
+                "No: les tendències actuals son massa negatives per ser revertides.",
+                "Sí: la democràcia ha superat crisis pitjors i les eines per regenerar-la existeixen.",
+                "Incert: hi ha motius per a preocupació i per a esperança, i el resultat dependrà de decisions col·lectives que encara no s'han pres."
+              ],
+              "correct": 2,
+              "explanation": "L'optimisme i el pessimisme sobre la democràcia estan tots dos ben fonamentats. Motius per a la preocupació: setze anys de retrocés democràtic global, polarització creixent, crisi de confiança en les institucions, desinformació sistèmica i models autoritaris competitius (Xina) que semblen eficients. Motius per a l'esperança: la democràcia ha sobreviscut el feixisme, el comunisme i la guerra freda; les generacions joves mostren alts nivells de preocupació per la democràcia i el clima; noves eines de participació (assemblees ciutadanes, democràcia digital) mostren potencial; i les autocràcies, que semblaven estables, han mostrat fragilitat (protests a Iran, Rússia, Belarus, Xina). El resultat dependrà de si les institucions democràtiques es reformes per abordar les causes de la desafecció —desigualtat, percepció de corrupció, manca de veu— i de si la ciutadania activa és suficientment nombrosa per defensar-les. Com deia Churchill: «La democràcia és el pitjor sistema de govern, excepte tots els altres que s'han provat.»"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

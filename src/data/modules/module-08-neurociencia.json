@@ -1,0 +1,870 @@
+{
+  "id": "module-08-neurociencia",
+  "title": "Neurociència i Conducta",
+  "emoji": "🧠",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "emocions-memoria",
+      "title": "Emocions i Memòria",
+      "icon": "💭",
+      "description": "Com el cervell construeix records, gestiona emocions i pren decisions sota pressió",
+      "style": "Mecanismes · de la neurona a la conducta",
+      "lessons": [
+        {
+          "id": "neur-01",
+          "title": "El cervell que sent: l'arquitectura de les emocions",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1848, un obrer de ferrocarrils anomenat Phineas Gage va sobreviure a una explosió que li va atravessar el crani amb una barra de ferro d'un metre. Va sobreviure, parlava, caminava, recordava el seu passat. Però les persones que el coneixien deien que ja no era ell: havia perdut la capacitat de prendre decisions sensates i controlar les seves emocions. La seva personalitat havia canviat radicalment. El seu cas va ser la primera evidència que les emocions no eren 'espirituals' — tenien una base física al cervell."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les emocions no són l'oposat de la raó: són un sistema de valoració ràpida que el cervell utilitza per guiar la conducta. Sense emocions, la presa de decisions es deteriora greument."
+            },
+            {
+              "type": "expandable",
+              "label": "Què li va passar exactament al cervell de Phineas Gage?",
+              "content": "La barra de ferro va destruir principalment el còrtex prefrontal ventromedial, una àrea crucial per integrar emocions i raonament. Antonio Damasio, neurocientífic de la Universitat d'Iowa, va estudiar pacients moderns amb lesions similars als anys 90. Tots tenien el raonament lògic intact (puntuaven normal en tests d'intel·ligència) però eren incapaços de prendre decisions pràctiques: triaven malament parelles, feien negocis desastrosos, canviaven de feina sense motiu. Damasio va proposar la 'hipòtesi del marcador somàtic': les emocions marquen les opcions amb senyals corporals ('se'm fa un nus a l'estómac') que orientem la decisió. Sense aquests marcadors, l'elecció racional pura és paradoxalment paralitzant."
+            },
+            {
+              "type": "prediction",
+              "question": "Si et diguéssim que una persona pren decisions millors quan actua 'en fred', sense emocions, creus que és veritat o fals? Per qué?",
+              "hint": "Pensa en situacions on actuar sense cap emoció podria ser un problema, no una avantatge."
+            },
+            {
+              "type": "misconception",
+              "belief": "Les emocions interfereixen en el raonament racional i cal suprimir-les per pensar millor.",
+              "reality": "Les emocions proporcionen informació valuosa sobre prioritats i riscos. Les persones amb dany al sistema emocional del cervell no pensen 'més racionalment' — pensen pitjor. Les emocions i la raó coevolucionen juntes.",
+              "why": "La cultura occidental, des de Descartes, ha construït una dicotomia falsa entre ment racional i cos emocional. La neurociència moderna ha demostrat que aquesta separació no existeix al cervell."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-01-01",
+              "style": "multiple-choice",
+              "question": "Quin sistema cerebral és especialment actiu en el processament de la por i les emocions de supervivència?",
+              "options": [
+                "El còrtex prefrontal dorsolateral",
+                "L'amígdala",
+                "El cerebel",
+                "El còrtex motor primari"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'amígdala és una estructura en forma d'ametlla a l'interior del lòbul temporal que processa ràpidament les amenaces i activa respostes de por. Pot fer-ho fins i tot sense que el còrtex en sigui conscient — per això 'saltem' davant d'una serp abans de saber que és una serp.",
+              "feedbackWrong": "El còrtex prefrontal, el cerebel i el còrtex motor tenen funcions importants, però l'estructura clau per processar emocions de supervivència com la por és l'amígdala. Actua com un detector d'amenaces ultraràpid que bypassa la consciència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-01-02",
+              "style": "true-false",
+              "question": "Pacients amb lesions al còrtex prefrontal ventromedial, que mantenen el raonament lògic intact, prenen decisions igual de bones que persones sanes.",
+              "correct": false,
+              "feedbackCorrect": "Correcte: és fals. Aquests pacients, tot i tenir lògica intacta, prenen decisions pràctiques molt pitjors. L'evidència de Damasio mostra que les emocions no interfereixen en les decisions — les milloren.",
+              "feedbackWrong": "No és correcte. Els estudis de Damasio van demostrar que questi pacients, tot i tenir raonament lògic intact, prenien decisions pràctiques molt pitjors. La seva vida laboral, relacional i econòmica es deteriorava malgrat la intel·ligència preservada."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-01-01",
+              "question": "Les emocions evolucionen per ser adaptatives. Però les emocions com l'enveja, la vergonya o el rancor de vegades perjudiquen qui les sent. Com s'explica que el cervell conservi emocions aparentment desadaptatives?",
+              "options": [
+                "Són errors evolutius — el cervell no és perfecte i conserva mecanismes obsolets",
+                "Tenien valor adaptatiu en entorns ancestrals però el món modern les fa disfuncionals",
+                "Totes les emocions, fins i tot les aparentment negatives, segueixen tenint valor adaptatiu en contextos socials complexos"
+              ],
+              "correct": 2,
+              "explanation": "La resposta més defensable és la tercera, però amb matisos. L'enveja, per exemple, és un senyal que alerta sobre desigualtats de recursos o estatus social — en entorns ancestrals, quedar-se enrere del grup era letal. La vergonya regula la conducta social i manté la cohesió del grup. El rancor pot disuadir d'abusos futurs. Ara bé, la segona opció captura quelcom real: el mismatch evolutiu. El nostre cervell va evolucionar en grups de 50-150 persones; avui viu en societats de milions, amb xarxes socials que amplifiquen comparacions a escala global. L'enveja davant del feed d'Instagram no tenia equivalent ancestral. La neurociència i la psicologia evolutiva debaten activament si la solució és 'regular' emocions o 'redissenyar' entorns. Cap resposta és definitiva."
+            }
+          ]
+        },
+        {
+          "id": "neur-02",
+          "title": "Com es forma un record: la biologia de la memòria",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Henry Molaison, conegut durant dècades com 'el pacient H.M.', va ser operat el 1953 per curar-li l'epilèpsia. El cirurgià li va extirpar l'hipocamp de tots dos hemisferis. L'operació va aturar les convulsions. Però H.M. va despertar sense poder formar cap record nou. Recordava el seu passat, sabia parlar i moure's, aprenia habilitats motores. Però cada persona que coneixia era, per a ell, una desconeguda l'endemà. Va viure 55 anys en un present etern, sense poder acumular memòria episòdica. El seu cas va canviar radicalment la nostra comprensió de com s'emmagatzema la memòria."
+            },
+            {
+              "type": "key-idea",
+              "text": "La memòria no és un arxiu únic: existeixen múltiples sistemes de memòria al cervell, cadascun amb bases neurals i mecanismes moleculars diferenciats. L'hipocamp és essencial per formar nous records episòdics, però no emmagatzema els records a llarg termini — els consolida i els distribueix."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1953",
+                  "title": "El cas H.M.",
+                  "text": "Extirpació bilateral de l'hipocamp. Descobriment de la dissociació entre memòria declarativa i procedimental."
+                },
+                {
+                  "year": "1973",
+                  "title": "Potenciació a llarg termini (LTP)",
+                  "text": "Bliss i Lømo descriuen com les sinapsis es reforcen amb l'activitat repetida. Base molecular de la memòria."
+                },
+                {
+                  "year": "1993",
+                  "title": "El gen CREB i la consolidació",
+                  "text": "S'identifica que el factor de transcripció CREB és necessari per consolidar memòries a llarg termini. La memòria requereix síntesi de proteïnes."
+                },
+                {
+                  "year": "2013",
+                  "title": "Engramons optogenètics",
+                  "text": "Tonegawa i equip activen records falsos en ratolins amb llum làser. Demostren que els records estan físicament localitzats en grups de neurones."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Qué és exactament la potenciació a llarg termini (LTP)?",
+              "content": "La LTP és el mecanisme cel·lular que fa que les connexions entre neurones es reforcin quan s'activen juntes de manera repetida. La regla popular és: 'les neurones que s'activen juntes, es connecten juntes' (Hebb, 1949). A nivell molecular: quan una neurona envia senyals repetidament a una altra, els receptors NMDA de la neurona receptora s'obren i permeten l'entrada de calci. Aquest calci activa cascades de senyalització que insereixen més receptors AMPA a la sinapsi, fent-la més sensible. Si la repetició continua, s'activa el factor CREB al nucli cel·lular, que ordena la síntesi de noves proteïnes per reforçar permanentment la connexió. Per això estudiar en sessions espaiades és més efectiu que estudiar tot seguit: cada sessió reinicia la cascada de consolidació."
+            },
+            {
+              "type": "comparison",
+              "title": "Tipus de memòria: declarativa vs. procedimental",
+              "labelA": "Memòria declarativa (explícita)",
+              "labelB": "Memòria procedimental (implícita)",
+              "items": [
+                {
+                  "label": "Contingut",
+                  "a": "Fets i episodis ('la capital de França', 'el meu primer dia d'escola')",
+                  "b": "Habilitats i hàbits ('anar en bicicleta', 'teclejar sense mirar')"
+                },
+                {
+                  "label": "Consciència",
+                  "a": "Accessible conscientment — pots explicar-la",
+                  "b": "Difícilment verbalitzable — 'el cos sap però no saps com'"
+                },
+                {
+                  "label": "Estructura clau",
+                  "a": "Hipocamp (formació) + còrtex (emmagatzematge)",
+                  "b": "Ganglis basals, cerebel, còrtex motor"
+                },
+                {
+                  "label": "Cas H.M.",
+                  "a": "Destruïda: no podia formar nous records episòdics",
+                  "b": "Intacta: aprenia habilitats motores sense recordar haver-les après"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-02-01",
+              "style": "multiple-choice",
+              "question": "Un pacient amb dany greu a l'hipocamp aprèn a jugar als escacs durant els seus anys de rehabilitació, però cada sessió li sembla la primera vegada que juga. Quin tipus de memòria manté intact?",
+              "options": [
+                "Memòria episòdica",
+                "Memòria semàntica",
+                "Memòria procedimental",
+                "Memòria de treball"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La memòria procedimental (habilitats) no depèn de l'hipocamp sinó dels ganglis basals i el cerebel. El pacient pot aprendre a jugar als escacs (habilitat motora i estratègica implícita) sense poder formar el record episòdic de les partides concretes.",
+              "feedbackWrong": "La memòria procedimental, que emmagatzema habilitats i hàbits, és la que s'ha preservat. Depèn dels ganglis basals i el cerebel, no de l'hipocamp. El cas H.M. va demostrar exactament aquesta dissociació: aprenia habilitats motores sense recordar haver-les après."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-02-02",
+              "style": "detect-error",
+              "statement": "Els records a llarg termini s'emmagatzemen permanentment a l'hipocamp, que actua com un disc dur de la memòria.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és doble. Primer: l'hipocamp no emmagatzema els records de forma permanent — els consolida i els transfereix progressivament al còrtex cerebral durant el son i la consolidació sistèmica. Segon: la metàfora del 'disc dur' és enganyosa perquè la memòria humana és reconstructiva (cada record es reconstrueix en recuperar-lo, no es 'reprodueix') i se'n modifica en accedir-hi."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-02-01",
+              "question": "Si cada vegada que recuperem un record, el tornem a consolidar (i per tant el podem modificar), els nostres records del passat són fiables?",
+              "options": [
+                "Sí, el cervell té mecanismes de verificació que garanteixen la fidelitat del record",
+                "No, els records són sempre reconstruccions subjectives sense valor com a evidència",
+                "Els records son parcialment fiables: el nucli emocional és estable però els detalls es distorsionen"
+              ],
+              "correct": 2,
+              "explanation": "La tercera opció captura millor l'evidència disponible. El fenomen de la 'reconsolidació' (descobert als anys 2000) mostra que recuperar un record l'obre a modificació: en tornar-lo a guardar, pot incorporar nova informació o biaix contextual. Elizabeth Loftus va demostrar que testimonis oculars incorporen detalls falsos suggerits per les preguntes dels interrogadors — i ho fan de bona fe. Però no tot és igual de vulnerable: els records amb alta càrrega emocional (traumes, moments de fort impacte) tendeixen a tenir un nucli central estable, mentre que els detalls perifèrics (roba, hora exacta, paraules precises) es distorsionen. Implicació pràctica important: els sistemes judicials que confien en la memòria dels testimonis fan servir una eina amb limitacions fonamentals, no per mala voluntat dels testimonis, sinó per la biologia de la memòria."
+            }
+          ]
+        },
+        {
+          "id": "neur-03",
+          "title": "El son i el cervell: per qué dormir és treballar",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Passem un terç de la vida inconscients. Des d'una perspectiva evolutiva, sembla absurd: ets vulnerable a depredadors, no produeixes, no te reprodueixes. Si el son fos simplement 'descansar', n'hi hauria prou amb la immobilitat. Però el cervell durant el son no descansa: consumeix gairebé la mateixa energia que en vigília. Alguna cosa molt important ha de estar passant."
+            },
+            {
+              "type": "key-idea",
+              "text": "El son no és una pausa en la funció cerebral: és un estat actiu on el cervell consolida memòries, elimina toxines metabòliques, regula emocions i restaura la plasticitat sinàptica. Privar una persona de son és privar-la de totes aquestes funcions alhora."
+            },
+            {
+              "type": "expandable",
+              "label": "El sistema glimfàtic: el cervell es renta durant el son",
+              "content": "El 2013, Maiken Nedergaard va descobrir que el cervell té un sistema de neteja que funciona principalment durant el son: el sistema glimfàtic. Durant la vigília, el metabolisme neuronal genera residus, incloses proteïnes com la beta-amiloide — l'acumulació de la qual s'associa a l'Alzheimer. Durant el son profund, les cèl·lules glials es contreuen fins a un 60%, ampliant l'espai entre cèl·lules. El líquid cefalorraquidi circula per aquest espai i arrossega les proteïnes tòxiques cap al sistema limfàtic. És literalment com un cicle de rentat nocturn. L'implicació és directa: la privació crònica de son podria accelerar l'acumulació de plaques amiloides. Estudis epidemiològics mostren que persones que dormen habitualment menys de 6 hores tenen un risc significativament major de desenvolupar Alzheimer."
+            },
+            {
+              "type": "prediction",
+              "question": "Si el son consolida les memòries del dia, creus que és millor estudiar i anar immediatament a dormir, o estudiar i tenir unes hores de vigília entre mig?",
+              "hint": "Pensa en si la consolidació pot interferir amb nova informació que arriba entre l'estudi i el son."
+            },
+            {
+              "type": "misconception",
+              "belief": "Podem adaptar-nos a dormir poc i funcionar igual de bé si estem acostumats a no dormir.",
+              "reality": "La privació de son acumulada deteriora cognició, memòria, regulació emocional i sistema immunitari de manera objectivament mesurable. Les persones privades de son subestimen sistemàticament el seu deteriorament — perden la capacitat de percebre el propi deteriorament. No existeix adaptació fisiològica real a la privació crònica.",
+              "why": "L'adaptació subjectiva és real (un t'acostuma a sentir-se malament) però el rendiment objectiu segueix deteriorant-se. L'autoinforme no és un bon mètode per mesurar els efectes de la privació de son."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-03-01",
+              "style": "multiple-choice",
+              "question": "Durant quina fase del son es produeix principalment la consolidació de la memòria declarativa (fets i episodis)?",
+              "options": [
+                "Son REM (moviment ràpid dels ulls)",
+                "Son d'ones lentes (fase N3, son profund)",
+                "Fase N1 (adormiment)",
+                "El percentatge és igual en totes les fases"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. El son d'ones lentes (N3) és especialment important per a la memòria declarativa: durant aquesta fase es produeixen els 'fusos del son' i les oscil·lacions lentes que coordinen el diàleg hipocamp-còrtex per transferir records del dia a l'emmagatzematge a llarg termini. El son REM, en canvi, és especialment important per a la memòria procedimental i la regulació emocional.",
+              "feedbackWrong": "Tot i que el son REM és important per a la memòria, és el son d'ones lentes (N3, son profund) el que prioritza la consolidació de memòria declarativa (fets, episodis). Les oscil·lacions cerebrals d'aquesta fase coordinen la transferència de records des de l'hipocamp al còrtex."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-03-02",
+              "style": "true-false",
+              "question": "Dormir just després d'estudiar millora la retenció d'informació en comparació a tenir un període de vigília entre l'estudi i el son.",
+              "correct": true,
+              "feedbackCorrect": "Cert. Estudis de neurociència cognitiva mostren que la finestra de temps entre aprenentatge i son és crítica: dormir poc després de l'estudi millora la consolidació perquè el material fresc s'integra millor durant el son sense que nova informació competeixi per consolidar-se.",
+              "feedbackWrong": "És veritat. L'evidència experimental mostra que dormir poc després d'estudiar és beneficiós: el cervell processa i consolida el material recent durant el son, i la manca de nova informació competidora entre l'estudi i el son millora la retenció."
+            },
+            {
+              "type": "debate",
+              "question": "Les empreses haurien de permetre 'naps' de 20 minuts durant la jornada laboral per millorar el rendiment cognitiu?",
+              "positionA": {
+                "label": "Sí, amb base científica",
+                "argument": "La neurociència és clara: una migdiada de 20 minuts millora la memòria de treball, la concentració i el rendiment durant les hores posteriors. Empreses com Google o Nike ja ho implementen. La productivitat global puja, no baixa."
+              },
+              "positionB": {
+                "label": "No és viable culturalment",
+                "argument": "En la majoria d'entorns laborals, dormir a la feina s'interpreta com a deixadesa o manca de compromís. La implementació crea desigualtats (qui pot fer-ho, qui no) i pot ser percebuda com a injusta. La norma cultural és difícil de canviar per decret."
+              },
+              "reflection": "La ciència pot demostrar que alguna cosa és eficaç. Però qui decideix si s'implementa? La ciència o la cultura?",
+              "context": "Japó té una pràctica tradicional anomenada 'inemuri' (dormir en presència) socialment acceptada. A Espanya la siesta ha disminuït dràsticament en entorns urbans i laborals. La NASA va documentar que migdiades de 26 minuts milloren el rendiment dels pilots en un 34%."
+            }
+          ]
+        },
+        {
+          "id": "neur-04",
+          "title": "Estrès: el sistema d'alarma que no s'apaga",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Imagina que ets un neandertal i un lleó surt de darrera un arbre. En menys d'un segon, el teu cor s'accelera, la sang es desvia als músculs, la pupil·la es dilata, s'allibera glucosa a la sang i el sistema digestiu s'atura. Estàs llest per córrer o lluitar. El problema és que el teu cervell modern activa exactament la mateixa resposta quan reps un email del teu cap a les 11 de la nit. El lleó i l'email no es distingeixen."
+            },
+            {
+              "type": "key-idea",
+              "text": "La resposta d'estrès és un sistema de supervivència dissenyat per a amenaces agudes i curtes. En la vida moderna, s'activa de forma crònica per amenaces socials i psicològiques, causant un deteriorament sistemàtic de salut física i cognitiva."
+            },
+            {
+              "type": "expandable",
+              "label": "L'eix HPA: com funciona el sistema d'estrès a nivell molecular",
+              "content": "L'eix HPA (hipotàlem-hipòfisi-glàndules suprarenals) és el circuit central de la resposta a l'estrès. Quan l'amígdala detecta una amenaça, activa l'hipotàlem, que allibera CRH (hormona alliberadora de corticotropina). Això estimula la hipòfisi per produir ACTH, que arriba via sang a les glàndules suprarenals i provoca l'alliberament de cortisol. El cortisol mobilitza energia, suprimeix la inflamació a curt termini i prepara el cos per a l'acció. El problema és el feedback: el cortisol hauria de tancar el circuit inhibint l'hipotàlem, però en estrès crònic els receptors de glucocorticoides a l'hipocamp (molt sensibles al cortisol) es dessensibilitzen i el circuit no es tanca. El resultat: cortisol crònicament elevat que destrueix neurones hipocampals, deteriora la memòria, suprimeix el sistema immunitari i augmenta el risc cardiovascular."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-04-01",
+              "style": "multiple-choice",
+              "question": "L'estrès crònic deteriora especialment quina estructura cerebral, afectant directament la memòria?",
+              "options": [
+                "El còrtex visual primari",
+                "El cerebel",
+                "L'hipocamp",
+                "El tronc cerebral"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'hipocamp és especialment vulnerable al cortisol crònic perquè té una alta densitat de receptors de glucocorticoides. L'exposició prolongada redueix la neurogènesi hipocampal, redueix les espines dendrítiques i pot causar atròfia volumètrica mesurable. Pacients amb PTSD o depressió major presenten hipocamps significativament reduïts.",
+              "feedbackWrong": "L'estructura més vulnerable a l'estrès crònic és l'hipocamp, ric en receptors de glucocorticoides. El cortisol elevat de forma crònica inhibeix la neurogènesi hipocampal i deteriora la memòria. Estudis d'imatge cerebral en persones amb depressió o PTSD mostren reducció volumètrica hipocampal."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-04-02",
+              "style": "detect-error",
+              "statement": "L'estrès sempre perjudica el rendiment cognitiu. Per tant, el millor estat per estudiar o prendre decisions és un estat completament relaxat.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és 'l'estrès sempre perjudica'. La relació entre estrès i rendiment segueix la corba de Yerkes-Dodson: un nivell baix d'activació (estrès massa baix) produeix avorriment i poc rendiment; un nivell moderat produeix rendiment òptim (estat de 'flow' o activació positiva); un nivell alt produeix deteriorament. La 'pressió positiva' d'un termini proper pot millorar el focus. L'estrès crònic, en canvi, és sempre perjudicial."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una situació recent on hagis experimentat estrès. Era una amenaça real al teu benestar físic, o era una amenaça social, de reputació o d'incertesa sobre el futur? Qué hauria passat si el teu cervell l'hagués processat com a 'no urgent'?",
+              "prompt": "No cal que escriguis res. Però val la pena notar quina proporció del teu estrès quotidià és realment perillós per a la teva supervivència."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-04-01",
+              "question": "La meditació mindfulness redueix el volum de l'amígdala i els nivells de cortisol en estudis controlats. Significa això que hauries de meditar per gestionar l'estrès?",
+              "options": [
+                "Sí, l'evidència científica és suficient per recomanar-la universalment",
+                "No, els efectes de la meditació estan exagerats i l'evidència és feble",
+                "L'evidència és prometedora però limitada: la meditació funciona per a alguns perfils i contextos, no és una solució universal"
+              ],
+              "correct": 2,
+              "explanation": "La tercera opció reflecteix l'estat real de la literatura científica. Existeixen meta-anàlisis que mostren efectes positius de la meditació mindfulness sobre l'estrès, l'ansietat i la regulació emocional, amb canvis neurals mesurables (reducció d'amígdala, augment de còrtex prefrontal). Però la qualitat metodològica de molts estudis és limitada: grups de control inadequats, efecte de demanda (participants saben que 'haurien de' millorar), i mida d'efecte modesta. A més, existeix variabilitat individual important: per a persones amb historial de trauma, la meditació pot ser contraproduent sense acompanyament. L'exercici físic, el contacte social i el son mostren efectes antiestressor comparables o superiors amb millor evidència. La conclusió prudent: la meditació és una eina útil per a moltes persones, però no és la solució universal que el mercat del mindfulness promou."
+            }
+          ]
+        },
+        {
+          "id": "neur-05",
+          "title": "Presa de decisions: el cervell racional és una ficció",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1974, Daniel Kahneman i Amos Tversky van fer un experiment senzill. Van preguntar a participants quants països africans pertanyien a l'ONU. Però primer, davant dels participants, feien girar una ruleta trucada (sempre sortia 10 o 65). Preguntes sense cap relació lògica, oi? Doncs bé: els participants que havien vist el 65 donaven estimacions molt més altes que els que havien vist el 10. Un número arbitrari i irrellevant va contaminar el judici de persones intel·ligents. L'anomalia es va repetir en centenars d'estudis. El cervell no és una màquina de càlcul racional: és un sistema de dreceres eficients que comet errors sistemàtics i previsibles."
+            },
+            {
+              "type": "key-idea",
+              "text": "La presa de decisions humans no segueix la lògica de l'elecció racional. El cervell usa heurístiques ràpides (Sistema 1) que són útils la major part del temps però produeixen biaixos cognitius sistemàtics i previsibles."
+            },
+            {
+              "type": "expandable",
+              "label": "Sistema 1 i Sistema 2: el model dual de Kahneman",
+              "content": "Kahneman va popularitzar la distinció entre dos modes de pensament. El Sistema 1 és ràpid, automàtic, emocional i heurístic: opera sense esforç conscient i gestiona el 95% de les decisions quotidianes. Reconèixer una cara, jutjar si algú és de fiar, decidir si tornar per un camí conegut. El Sistema 2 és lent, deliberat, lògic i esforçat: s'activa per problemes nous, matemàtiques, raonament explícit. El truc és que el Sistema 2 és 'peresós': s'esgota ràpidament (depleció d'ego) i tendeix a ratificar les conclusions del Sistema 1 en lloc de revisar-les. Quan es parla de 'biaix cognitiu', gairebé sempre és el Sistema 1 que ha pres una decisió que el Sistema 2 no ha tingut l'energia o la motivació de revisar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-05-01",
+              "style": "multiple-choice",
+              "question": "Un metge diu als pacients: 'Aquesta operació té un 90% de supervivència.' Un altre diu: 'Aquesta operació té un 10% de mortalitat.' Estadísticament és idèntic. Però els pacients que senten la primera formulació...",
+              "options": [
+                "Accepten l'operació menys sovint, perquè 90% els sembla incert",
+                "Accepten l'operació més sovint, perquè la formulació positiva redueix la percepció de risc",
+                "Decideixen igual, perquè comprenen que és la mateixa informació",
+                "Demanen més informació, perquè noten la trampa"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'efecte de marc (framing effect) és un dels biaixos més robustos de la psicologia cognitiva. La formulació en termes de supervivència (guany) activa menys aversió al risc que la formulació en termes de mortalitat (pèrdua). Tversky i Kahneman van documentar-ho extensament. S'aplica en medicina, màrqueting, política i qualsevol comunicació que impliqui risc.",
+              "feedbackWrong": "La majoria de persones no decideix igual. L'efecte de marc (framing effect) demostra que la mateixa informació presentada en termes de 'guany' (supervivència) o 'pèrdua' (mortalitat) activa sistemes emocionals diferent i influencia la decisió. La formulació positiva genera més acceptació, malgrat que la informació objectiva sigui idèntica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-05-02",
+              "style": "multiple-choice",
+              "question": "Quin mecanisme neural explica millor per qué les pèrdues impacten emocionalment més que els guanys equivalents ('perdre 100€ fa més mal que guanyar 100€ fa bé')?",
+              "options": [
+                "El còrtex prefrontal avalua les pèrdues amb més temps de processament",
+                "L'amígdala respon amb major intensitat als estímuls negatius (aversiu) que als positius d'igual magnitud",
+                "El sistema dopaminèrgic satura davant de guanys, reduint la seva resposta",
+                "La memòria de treball manté les pèrdues actives més temps que els guanys"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. L'asimetria en la resposta de l'amígdala a estímuls negatius versus positius és un dels mecanismes que sustenten l'aversió a la pèrdua. L'amígdala processa amenaces amb major prioritat i intensitat que recompenses, un biaix amb sentit evolutiu: una falsa alarma costa poc, però no detectar una amenaça real pot ser fatal.",
+              "feedbackWrong": "La resposta és l'asimetria de l'amígdala: respon amb major intensitat als estímuls negatius (amenaces, pèrdues) que als positius d'igual magnitud. Evolutivament, l'asimetria té sentit: no detectar una amenaça és molt més costós que perdre una oportunitat. Kahneman va quantificar-ho: les pèrdues pesen psicològicament entre dues i dues vegades i mitja més que els guanys equivalents."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Biaix de confirmació",
+              "text": "El biaix de confirmació que vam veure en filosofia de la ciència (la tendència a buscar evidència que confirmi les pròpies hipòtesis) té ara una base neural: el Sistema 1 processa preferentment la informació consistent amb les creences existents, i el Sistema 2 rarament té prou energia per revisar-la. No és irracionalitat moral — és arquitectura cognitiva."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-05-01",
+              "question": "Si els biaixos cognitius estan arrelats en l'arquitectura neural, es pot entrenar el cervell per superar-los de manera efectiva?",
+              "options": [
+                "Sí, aprendre els biaixos és suficient per evitar-los: el coneixement és la millor vacuna",
+                "No, els biaixos operen a nivells inconscients on el coneixement no arriba; l'única solució és redissenyar entorns",
+                "El coneixement dels biaixos ajuda parcialment, però el disseny d'entorns (nudges) és més eficaç per a la majoria de biaixos"
+              ],
+              "correct": 2,
+              "explanation": "L'evidència apunta a la tercera opció com la més defensable. Estudis sobre el biaix de confirmació mostren que conèixer el biaix no immunitza contra ell en situacions reals d'alta implicació emocional — les persones continuen processant preferentment informació confirmatòria. Però el coneixement sí ajuda en situacions de baixa urgència i alta deliberació. L'aproximació del 'nudge' (Thaler i Sunstein) proposa que canviar l'arquitectura de les decisions és més efectiu que esperar que les persones raonem millor: posar la fruita a l'alçada dels ulls a la cafeteria redueix el consum de llaminadures sense obligar ningú a res. La implicació és que la salut pública, la política i el disseny de serveis haurien d'integrar la neurociència cognitiva en lloc d'assumir que les persones decidiran de forma 'racional' si reben informació suficient."
+            }
+          ]
+        },
+        {
+          "id": "neur-06",
+          "title": "Neuroplasticitat: el cervell que es reescriu",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant dècades, la neurociència va ensenyar que el cervell adult era fix: les connexions formades a la infantesa definien les capacitats per sempre. 'No es formen noves neurones en l'adult', deia el dogma. El 1998, Fred Gage i el seu equip van demostrar neurogènesi (formació de noves neurones) a l'hipocamp d'adults humans. El dogma va caure. Avui sabem que el cervell adult és sorprenentment plàstic — però la plasticitat té regles."
+            },
+            {
+              "type": "key-idea",
+              "text": "La neuroplasticitat és la capacitat del cervell de reorganitzar les seves connexions en resposta a l'experiència. No és il·limitada ni automàtica: requereix atenció, repetició, novetat i esforç. L'aprenentatge genuí és literalment un canvi físic al cervell."
+            },
+            {
+              "type": "expandable",
+              "label": "Els taxistes de Londres i el còrtex motor dels músics: dos estudis clàssics",
+              "content": "Eleanor Maguire va comparar el cervell de taxistes de Londres (que havien memoritzat 25.000 carrers sense GPS) amb persones de control. Resultat: els taxistes tenien un hipocamp posterior significativament més gran, i com més anys d'experiència, major diferència. Quan es van jubilar, la diferència s'anava reduint. La conclusió: l'ús intens d'una funció cognitive genera creixement estructural en les àrees implicades. Un altre estudi clàssic: violinistes mostren una representació cortical dels dits de la mà esquerra (la que fa les posicions) significativament ampliada respecte a no músics — i major si van aprendre essent petits. Ambdós estudis mostren el principi bàsic: 'use it or lose it', però en positiu: 'use it and grow it'."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-06-01",
+              "style": "multiple-choice",
+              "question": "Quin factor és imprescindible perquè l'aprenentatge produeixi canvis neurals duradors, segons la neurociència de l'aprenentatge?",
+              "options": [
+                "Passivitat i relax — el cervell aprèn millor sense estrès",
+                "Atenció focalitzada combinada amb repàs espaiat i recuperació activa",
+                "Exposició massiva i repetida al material sense intervals de descans",
+                "L'edat primerenca — adults no poden formar connexions noves eficientment"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'atenció focalitzada activa la neuroplasticitat (allibera acetilcolina i noradrenalina que 'obren' el cervell al canvi). El repàs espaiat maximitza la consolidació. La recuperació activa (intentar recordar sense mirar) és més eficaç que la relectura passiva. Aquests tres elements junts produeixen canvis sinàptics duradors.",
+              "feedbackWrong": "L'atenció focalitzada és el detonant bioquímic de la plasticitat: sense atenció, no hi ha alliberament de les neuromoduladors (acetilcolina, noradrenalina) que obren la finestra plàstica. La repetició és necessària, però ha de ser espaïada i activa, no massiva i passiva. I els adults conserven plasticitat significativa, especialment a l'hipocamp."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-06-02",
+              "style": "true-false",
+              "question": "La neurogènesi adulta (formació de noves neurones en adults) ha estat confirmada a l'hipocamp humà.",
+              "correct": true,
+              "feedbackCorrect": "Cert, tot i que és un tema amb debat actiu. L'estudi de Gage et al. (1998) va ser el primer, i múltiples estudis posteriors ho han confirmat a l'hipocamp humà, especialment al gir dentat. La controvèrsia ve d'estudis recents (Sorrells 2018) que no van trobar neurogènesi en mostres post-mortem — probablement per problemes metodològics de preservació del teixit. El consens actual apunta que la neurogènesi hipocampal adulta existeix i és regulada per l'exercici, l'aprenentatge i els antidepressius.",
+              "feedbackWrong": "Sí, la neurogènesi adulta a l'hipocamp humà ha estat confirmada, tot i que és un tema amb debat metodològic actiu. L'estudi de Gage et al. (1998) va ser pioner, i l'evidència acumulada apunta que l'exercici aeròbic, l'aprenentatge de coses noves i alguns antidepressius la estimulen."
+            },
+            {
+              "type": "quote",
+              "text": "Every man can, if he so desires, become the sculptor of his own brain.",
+              "author": "Santiago Ramón y Cajal (1852–1934), fundador de la neurociència moderna"
+            },
+            {
+              "type": "reflection",
+              "question": "Si l'aprenentatge genuí canvia físicament el cervell, i el cervell cansa de mantenir connexions que no s'usen, qué implica això sobre com uses el teu temps d'atenció cada dia?",
+              "prompt": "No hi ha resposta correcta. Però val la pena saber que l'atenció no és neutra — és el recurs que literalment esculpeix l'arquitectura del teu cervell."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-06-01",
+              "question": "La neuroplasticitat suggereix que el cervell es pot reescriure a qualsevol edat. Implica això que 'qualsevol persona pot aprendre qualsevol cosa si s'esforça prou'?",
+              "options": [
+                "Sí, la plasticitat és tan gran que l'esforç sostenible supera qualsevol limitació biològica",
+                "No, la genètica i les finestres crítiques del desenvolupament estableixen límits reals que l'esforç no pot superar",
+                "La plasticitat és real però no il·limitada: l'esforç importa molt, però hi ha diferències individuals i finestres temporals que influeixen en el resultat"
+              ],
+              "correct": 2,
+              "explanation": "La tercera opció és la que millor captura l'evidència. La neuroplasticitat adulta és real i sovint subestimada culturalment — l'edat no tanca la capacitat d'aprendre. Però tampoc és il·limitada ni uniforme: les 'finestres crítiques' del desenvolupament (períodes d'alta plasticitat per funcions específiques com el llenguatge, la visió binocular o la música) sí marquen diferències de rendiment en l'aprenentatge adult. Una persona adulta pot aprendre un segon idioma, però rarament assolirà l'accent natiu d'un nen que l'aprèn als 3 anys. La genètica influeix en la densitat de connexions, la velocitat de consolidació i la sensibilitat als neuromoduladors. La missió pedagògica de la neuroplasticitat no és dir 'tot és possible' — és desafiar el fatalisme cognitiu ('soc dolent en matemàtiques, sempre ho seré') amb evidència que el cervell canvia amb la pràctica correcta, sense negar que el punt de partida i el context importan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cervell-social",
+      "title": "El Cervell Social",
+      "icon": "🤝",
+      "description": "Com el cervell construeix la identitat, processa les relacions i es transforma en context social",
+      "style": "Social · de l'individu al grup",
+      "lessons": [
+        {
+          "id": "neur-s01",
+          "title": "Neurones mirall i empatia: el cervell que imita",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1992, un equip de neurocientífics de Parma dirigit per Giacomo Rizzolatti estudiava el còrtex motor de macacos. Van descobrir quelcom inesperat: algunes neurones s'activaven no sols quan el macaco agafava un cacauet, sinó també quan veia un investigador agafar-lo. Les neurones 'imitaven' l'acció observada. Les van anomenar neurones mirall. La descoberta va sacsejar el camp i va generar especulació massiva: eren la base biològica de l'empatia? Del llenguatge? De la cultura? Vint anys després, el debat continua."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les neurones mirall s'activen tant en executar una acció com en observar-la en un altre. En humans, el sistema mirall és difús i complex, i s'associa a la comprensió de les intencions dels altres, la imitació i possiblement l'empatia — tot i que el seu rol exacte és objecte de debat científic actiu."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué badallem quan veiem algú badallar?",
+              "content": "El badall contagiós és un dels exemples més intrigants de la ressonància social. S'observa en humans, ximpanzés, gossos i llops. Els humans no el desenvolupen fins als 4-5 anys d'edat — la mateixa edat en que es desenvolupa la teoria de la ment (la capacitat d'atribuir estats mentals a altres). Estudis d'imatge cerebral mostren que el badall contagiós activa àrees associades a l'empatia i la teoria de la ment, no sols els circuits motors. Persones amb dèficits empàtics (cert perfil de psicopatia) mostren menys badall contagiós. Però la causalitat és incerta: és el sistema mirall el que genera empatia, o l'empatia és un procés cognitiu més complex que usa parcialment el sistema mirall? El debat neurocienfítc sobre les neurones mirall il·lustra perfectament com una descoberta emocionant pot generar hipòtesis que corren per davant de l'evidència."
+            },
+            {
+              "type": "misconception",
+              "belief": "Les neurones mirall expliquen l'empatia: tenim empatia perquè el nostre cervell simula internament el que senten els altres.",
+              "reality": "Les neurones mirall poden contribuir a la comprensió d'accions i intencions motores, però l'empatia és un procés cognitiu i emocional complex que implica molts sistemes cerebrals. La hipòtesi 'neurones mirall = empatia' és una simplificació excessiva no suportada per l'evidència actual.",
+              "why": "La descoberta de les neurones mirall va coincidir amb una necessitat cultural de trobar la 'base biològica de la connexió humana'. La divulgació va córrer per davant de la ciència. Avui el camp és molt més cautelós sobre les afirmacions inicials."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s01-01",
+              "style": "multiple-choice",
+              "question": "En quina espècie es van descriure per primera vegada les neurones mirall?",
+              "options": [
+                "Humans (via fMRI)",
+                "Macacos rhesus (via electrodes implantats)",
+                "Dofins (via estudis de comportament)",
+                "Gossos (via imitació d'accions)"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. Rizzolatti i el seu equip de Parma les van descobrir en macacos el 1992 usant electrodes implantats directament al còrtex premotori. En humans, l'evidència és indirecta (via fMRI i EEG) perquè no es fan implantacions en cervells sans — per tant, parlam de 'sistema mirall' en humans com a analogia funcional, no com a confirmació directa de les mateixes cèl·lules.",
+              "feedbackWrong": "Les neurones mirall es van descobrir en macacos rhesus, al laboratori de Rizzolatti a Parma, usant electrodes implantats. En humans, l'evidència del sistema mirall és indirecta (neuroimatge funcional), no registre directe de neurones individuals."
+            },
+            {
+              "type": "debate",
+              "question": "Sabent que el sistema mirall contribueix a la imitació i la comprensió social, hauria la publicitat poder usar explícitament estímuls que activen la ressonància emocional per influir en decisions de compra?",
+              "positionA": {
+                "label": "És manipulació legítima",
+                "argument": "Tota comunicació usa mecanismes psicològics per persuadir. La publicitat emocional no enganya sobre les propietats del producte — crea associacions que l'individu és lliure d'acceptar o rebutjar. Prohibir-la seria paternalista."
+              },
+              "positionB": {
+                "label": "Explota vulnerabilitats cognitives",
+                "argument": "Si les decisions s'activen per vies subcorticals que bypassen la deliberació conscient, el consumidor no pot 'lliurement' rebutjar l'estímul. Usar coneixement neurocientífic per dissenyar estímuls que circumventin la racionalitat és una forma d'explotació."
+              },
+              "reflection": "On traçaries la línia entre persuasió legítima i manipulació? Depèn del mecanisme (emocional vs. racional) o del propòsit (informar vs. enganyar)?",
+              "context": "La 'neurociència del màrqueting' és un sector en ràpid creixement. Empreses com Hyundai, Google i Frito-Lay usen fMRI i EEG per testar respostes cerebrals a anuncis. Alguns països han proposat regulació del 'neuromarketing' però cap ha aprovat legislació específica."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-s01-01",
+              "question": "L'empatia és un tret estable de la personalitat (ets empàtic o no) o és una competència que el context i la pràctica modifiquen significativament?",
+              "options": [
+                "És bàsicament un tret estable determinat per genètica i experiències primerenques",
+                "És purament contextual: les mateixes persones mostren empatia molt diferent en funció de la situació",
+                "Té una base temperamental parcial, però el context, la motivació i la pràctica la modifiquen substancialment"
+              ],
+              "correct": 2,
+              "explanation": "L'evidència apunta clarament a la tercera opció. Estudis de genètica del comportament mostren que l'empatia té un component hereditari moderat (al voltant del 30-40%), però el context és determinant: les mateixes persones mostren empatia molt diferent cap al grup propi versus el grup extern (outgroup), cap a individus identificats versus estadístiques abstractes (la 'paradoxa de la compassió' de Slovic: 'la mort d'un home és una tragèdia, la mort d'un milió és una estadística'). Estudis d'intervenció mostren que pràctiques com la meditació de compassió, role-playing o la lectura de ficció literària augmenten mesures d'empatia cognitiva. La implicació educativa és important: si l'empatia és parcialment entrenable, les institucions (escoles, hospitals, policies) haurien de cultivar-la activament, no assumir-la com un tret fix."
+            }
+          ]
+        },
+        {
+          "id": "neur-s02",
+          "title": "Dolor social: el cervell no distingeix rebuig i dolor físic",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Naomi Eisenberger va dissenyar un experiment el 2003 que avui és un clàssic. Posava participants dins d'un escàner fMRI i els feia jugar a un videojoc de llançament de pilota amb dos jugadors 'en xarxa'. Sense avisar, els altres dos jugadors deixaven d'incloure el participant. Simplement de sobte deixaven de passar-li la pilota. Una exclusió social completament fictícia, de 5 minuts, en un joc sense importància. El resultat: el còrtex cingulat anterior dorsal — la mateixa àrea que s'activa amb el dolor físic — s'encenia amb intensitat. El cervell processa el rebuig social i el dolor físic amb la mateixa maquinaria neural."
+            },
+            {
+              "type": "key-idea",
+              "text": "El dolor social (rebuig, exclusió, pèrdua de vincles) activa els mateixos circuits neurals que el dolor físic. No és una metàfora: 'em fa mal que m'ignorin' té una base biològica literal. La connexió social no és un luxe — és una necessitat fisiològica."
+            },
+            {
+              "type": "expandable",
+              "label": "Si el dolor social és real, l'ibuprofè redueix el dolor del rebuig?",
+              "content": "En un experiment de DeWall et al. (2010), participants que prenien paracetamol regularment durant tres setmanes reportaven menys dolor social en qüestionaris diaris que el grup placebo — i mostraven menys activació del còrtex cingulat anterior davant d'exclusió social. L'efecte era modest però significatiu. Això no vol dir que caldria receptar analgèsics per al dolor emocional: el dolor social té funcions adaptatives (avisar que un vincle important està en risc) que el suprimir farmacològicament podria deteriorar. Però l'experiment il·lustra la continuïtat real, no metafòrica, entre dolor físic i social. Evolutivament té sentit: per a un primat social, la separació del grup era una amenaça de mort tan real com una ferida física."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s02-01",
+              "style": "multiple-choice",
+              "question": "Quina àrea cerebral s'activa tant davant del dolor físic com del dolor de l'exclusió social, segons Eisenberger?",
+              "options": [
+                "El còrtex prefrontal dorsolateral",
+                "El còrtex cingulat anterior dorsal",
+                "L'ínsula posterior",
+                "El nucli accumbens"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. El còrtex cingulat anterior dorsal (dACC) és l'àrea clau. Processa el component afectiu del dolor (no sols la localització, sinó 'com de desagradable és'). La descoberta que s'activa igual davant d'exclusió social va ser la primera evidència directa de la continuïtat neural entre dolor físic i social.",
+              "feedbackWrong": "L'àrea identificada per Eisenberger és el còrtex cingulat anterior dorsal (dACC). Processa el component afectiu del dolor — l'element de desagradabilitat, no sols la localització. El dACC s'activa igualment davant de dolor físic i davant d'exclusió social, suggerint que comparteixen la mateixa maquinaria neural de detecció de 'quelcom va malament'."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s02-02",
+              "style": "detect-error",
+              "statement": "Diem 'em fa mal' quan ens rebutgen de forma metafòrica, perquè emocionalment ho vivim com si fos dolor físic però el cervell processa ambdues experiències de forma completament diferent.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és la frase final. L'evidència de neuroimatge mostra el contrari: el dolor social i el físic comparteixen circuits neurals, especialment al còrtex cingulat anterior dorsal. L'ús metafòric del llenguatge ('em fa mal el rebuig') reflecteix, de manera no intencional però precisa, una realitat neurobiològica: no és sols una metàfora cultural, és una descripció funcional de com opera el cervell."
+            },
+            {
+              "type": "reflection",
+              "question": "Moltes cultures minimitzen el dolor social com 'cosa de sensibles' o 'no és per tant'. Si el dolor del rebuig és neurobiològicament tan real com una fractura, com canvia això la nostra responsabilitat cap als altres — a la feina, a l'escola, a les xarxes?",
+              "prompt": "Pren un moment. No cal que escriguis res."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-s02-01",
+              "question": "Si la solitud crònica deteriora la salut física i mental de manera comparable al tabaquisme (segons estudis epidemiològics de Holt-Lunstad), hauria l'estat de tenir polítiques públiques per combatre la solitud, com ho fa el Regne Unit des del 2018?",
+              "options": [
+                "Sí, si l'evidència científica demostra dany, l'estat té obligació d'actuar, igual que amb tabac o seguretat vial",
+                "No, la solitud és un assumpte privat i personal on l'estat no ha d'intervenir",
+                "L'evidència justifica l'atenció pública, però les intervencions estatals en vida social han de ser cauteloses i basades en evidència d'efectivitat"
+              ],
+              "correct": 2,
+              "explanation": "La tercera opció captura la tensió real del debat. L'evidència epidemiològica de Holt-Lunstad és sòlida: la solitud crònica augmenta la mortalitat en un 26%, equivalent a fumar 15 cigarrets al dia. Anglaterra va crear el primer Ministeri de la Solitud el 2018, i Japó el va seguir el 2021. Però les intervencions efectives estan menys documentades que el problema: molts programes de 'connexió social' mostren efectes modestos o nuls. La clau és que la solitud no és sols absència de companyes — és percepció subjectiva de desconnexió. Intervencions que generen contacte superficial sense qualitat relacional no resolen el problema. La implicació política és important: si l'evidència justifica la intervenció, cal invertir igualment en avaluació d'efectivitat. La bona intenció no garanteix bon resultat."
+            }
+          ]
+        },
+        {
+          "id": "neur-s03",
+          "title": "Identitat i prejudici: el cervell que categoritza",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1971, Henri Tajfel va demostrar quelcom pertorbador. Va dividir adolescents en dos grups completament arbitraris: 'els que preferien Kandinski' i 'els que preferien Klee'. Grups aleatoris, sense cap significat real. En poc temps, els participants assignaven més recursos al seu grup i menys a l'altre. Sense cap historial de conflicte, sense interès real, sense conèixer els membres de cap grup. El simple fet de pertànyer a una categoria era suficient per activar el favoritisme i la discriminació. La tendència a categoritzar i afavorir el grup propi és una característica universal del cervell social."
+            },
+            {
+              "type": "key-idea",
+              "text": "El cervell categoritza automàtica i ràpidament les persones en 'nosaltres' i 'ells'. Aquesta categorització afecta com processa les cares, atribueix emocions i assigna recursos — sovint sense consciència ni intenció discriminatòria."
+            },
+            {
+              "type": "expandable",
+              "label": "Com reacciona el cervell diferent a cares del propi grup vs. grup extern?",
+              "content": "Estudis de neuroimatge mostren que el processament de cares del grup extern (outgroup) activa menys el còrtex fusiforme (l'àrea especialitzada en reconeixement facial) i més la amígdala que el processament de cares del propi grup. Efectivament, el cervell 'veu' menys individualment les cares del grup extern i reacciona amb més alerta. Un estudi de Cunningham (2004) va mostrar que exposicions molt breus (30 ms) a cares de grup extern activaven l'amígdala fins i tot sense consciència del participant. L'efecte s'atenua quan el contexte afavoreix la individualització: quan es proporciona informació individual sobre la persona, el còrtex prefrontal 'frena' la reacció automàtica de l'amígdala. La implicació és que el prejudici implícit no és un defecte moral — és una tendència de processament que es pot modular amb context i pràctica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s03-01",
+              "style": "multiple-choice",
+              "question": "L'experiment de Tajfel amb grups mínims va demostrar que el favoritisme intragrupal requereix:",
+              "options": [
+                "Historial de conflicte real entre els grups",
+                "Interès material compartit entre els membres del grup",
+                "Simplement ser assignat a una categoria, sense cap altra justificació",
+                "Conèixer personalment almenys alguns membres del propi grup"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Aquesta és la conclusió pertorbadora de l'experiment de 'grups mínims' de Tajfel: la simple assignació a una categoria arbitraria era suficient per activar favoritisme i discriminació. No calia historial, interès ni contacte. El cervell tendeix a afavorir el grup propi de manera quasi automàtica, independentment del contingut del grup.",
+              "feedbackWrong": "La descoberta clau de Tajfel és precisament que res d'això era necessari. La simple assignació a una categoria arbitraria ('preferidors de Kandinski') era suficient per activar favoritisme. El cervell crea 'nosaltres' i 'ells' amb el mínim input possible — és un mecanisme bàsic de categorització social."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s03-02",
+              "style": "true-false",
+              "question": "El prejudici implícit (biaix racial o de gènere mesurat amb tests com l'IAT) necessàriament reflecteix actituds conscients i intenció discriminatòria.",
+              "correct": false,
+              "feedbackCorrect": "Correcte: és fals. El prejudici implícit mesura associacions automàtiques de processament, no actituds conscients ni intenció. Persones amb prejudici implícit mesurable sovint repudien explícitament la discriminació i no s'identifiquen com a prejudicioses. El debat acadèmic sobre si el prejudici implícit prediu conducta discriminatòria real és actiu i les conclusions són moderades.",
+              "feedbackWrong": "El prejudici implícit no reflecteix necessàriament intenció conscient. Mesura associacions de processament automàtic que es formen per exposició cultural i experiència, no per creences explícites. La persona pot tenir biaix implícit mesurable mentre rebutja conscienciosament la discriminació. Això complica la gestió: no n'hi ha prou amb 'no tenir intencions dolentes' si el processament automàtic actua de forma diferent."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Pau, Conflicte i Guerra",
+              "moduleEmoji": "🕊️",
+              "concept": "Deshumanització i conflicte",
+              "text": "El mecanisme neural de categorització 'nosaltres/ells' que acabem de veure és la base biològica del que al mòdul de pau i conflicte estudiàvem com a deshumanització. La propagandaa de guerra, en tots els conflictes documentats, comença per intensificar la percepció de grup extern com a 'altre': noms d'animals, metàfores de plagues, uniformes que esborren la individualitat. Ara sabem que no és sols retòrica — actuen sobre els circuits neurals de categorització."
+            },
+            {
+              "type": "debate",
+              "question": "Si el prejudici implícit és un producte de l'arquitectura neural i l'exposició cultural (no d'intenció discriminatòria), les persones que el mostren haurien de ser considerades moralment responsables?",
+              "positionA": {
+                "label": "Responsabilitat plena",
+                "argument": "Conèixer el mecanisme et fa responsable de gestionar-lo. Si saps que el teu cervell té biaixos automàtics, tens l'obligació moral de compensar-los activament. L'excusa 'és neurobiologia' no elimina la responsabilitat sobre els efectes de les teves decisions."
+              },
+              "positionB": {
+                "label": "Responsabilitat limitada",
+                "argument": "Atribuir responsabilitat moral per processos que ocorren sense consciència ni intenció és injust i contraproduent. La responsabilitat hauria de centrar-se en les institucions i estructures que permeten que els biaixos es converteixin en discriminació, no en culpabilitzar individus per la seva neurofisiologia."
+              },
+              "reflection": "La responsabilitat moral ha de seguir la intencionalitat o ha de seguir els efectes? I qui decideix on resideix la responsabilitat, la neurociència o l'ètica?",
+              "context": "El debat és actiu en dret, filosofia moral i polítiques d'igualtat. Alguns sistemes judicials comencen a incorporar evidència de processos implícits. Filòsofs com Manuel Vargas argumenten per una 'responsabilitat de cultivar' la pròpia psicologia moral."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-s03-01",
+              "question": "El contacte entre grups redueix el prejudici, segons la 'hipòtesi del contacte' de Gordon Allport (1954). Però no qualsevol contacte: ha de ser en igualtat d'estatus, amb cooperació i suport institucional. Qué implica això per a polítiques d'integració escolar o laboral?",
+              "options": [
+                "Que el contacte per si sol (integració espacial) és suficient per reduir prejudicis si hi ha suficient exposició",
+                "Que el contacte pot reforçar prejudicis si les condicions no es compleixen — la integració mal dissenyada pot empitjorar les coses",
+                "Que la hipòtesi del contacte no és aplicable a polítiques públiques reals per les seves condicions tan estrictes"
+              ],
+              "correct": 1,
+              "explanation": "La segona opció és la que millor reflecteix l'evidència. Meta-anàlisis de la hipòtesi del contacte (Pettigrew i Tropp, 2006, sobre 515 estudis) confirmen que el contacte redueix prejudicis en mitjana, però amb alta variabilitat. Quan les condicions d'Allport no es compleixen (igualtat d'estatus, cooperació, suport institucional), el contacte pot reforçar estereotips en lloc de reduir-los: si dos grups comparteixen espai en condicions de desigualtat estructural, la interacció confirma els estereotips en lloc de desafiar-los. Implicació per a polítiques: la integració escolar sense canvis en la distribució de recursos, el suport docent i les dinàmiques d'aula pot ser contraproduent. Els programes de 'jigsaw classroom' (Aronson), on la cooperació és estructural i cada nen necessita la informació dels altres, sí mostren efectes consistents. La neurociència del prejudici és útil per als policies públics, però requereix implementació cuidadosa i avaluació rigorosa."
+            }
+          ]
+        },
+        {
+          "id": "neur-s04",
+          "title": "Dopamina: el sistema de recompensa i les seves trampes",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "En els anys 50, James Olds i Peter Milner van implantar elèctrodes al cervell de rates en una àrea que avui coneixem com a nucli accumbens — un node central del sistema dopaminèrgic. Quan la rata premia una palanca, rebia una breu estimulació en aquella àrea. Les rates premsaven fins a 7.000 vegades per hora. Deixaven de menjar, beure i dormir. Morien d'esgotament. Havien descobert el sistema de recompensa del cervell — i la seva capacitat de ser segrestat."
+            },
+            {
+              "type": "key-idea",
+              "text": "La dopamina no és 'l'hormona del plaer': és el sistema de predicció de recompenses. S'allibera anticipant la recompensa, no en rebre-la. Quan la recompensa és variable i impredictible, el sistema s'activa amb màxima intensitat — és el mecanisme subjacent a les addiccions i a l'atracció compulsiva per les notificacions, les apostes i els 'likes'."
+            },
+            {
+              "type": "expandable",
+              "label": "L'error de predicció: per qué la sorpresa activa el cervell més que la certesa",
+              "content": "Wolfram Schultz va descobrir als anys 90 el mecanisme precís de la dopamina. Va enregistrar neurones dopaminèrgiques en macacos mentre aprenien que un senyal lluminós anunciava suc. Fases: 1) Al principi, les neurones dopaminèrgiques s'activaven en rebre el suc (recompensa inesperada). 2) Quan l'animal aprenia l'associació, les neurones es disparaven en veure la llum (anticipació), no en rebre el suc. 3) Si el suc no apareixia després de la llum, hi havia una depressió del foc dopaminèrgic (error de predicció negatiu). La dopamina codifica l''error de predicció de recompensa': la diferència entre el que s'esperava i el que passa. Les recompenses variables (ara sí, ara no, imprevisible) maximitzen l'activació perquè l'error de predicció és constant. Exactament el principi que fa addictives les màquines escurabutxaques, Instagram i els jocs de loot boxes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s04-01",
+              "style": "multiple-choice",
+              "question": "Quina afirmació sobre la dopamina és correcta?",
+              "options": [
+                "La dopamina s'allibera principalment en el moment del plaer — és l'hormona de la felicitat",
+                "La dopamina codifica l'anticipació i la predicció de recompenses, no el plaer en si",
+                "Nivells alts de dopamina produeixen sempre satisfacció i benestar",
+                "La dopamina s'allibera sols per recompenses físiques (menjar, sexe), no per recompenses socials"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Aquesta és una de les correccions més importants de la neurociència recent. La dopamina no és l''hormona de la felicitat' (que seria més l'oxitocina i la serotonina en certs contextos) sinó un sistema de predicció: s'activa anticipant la recompensa i codificant si el resultat és millor o pitjor del previst. És per això que la recompensa obtinguda poc després satisfà menys que l'anticipada.",
+              "feedbackWrong": "La visió popular de la dopamina com a 'hormona del plaer' és una simplificació incorrecta. La dopamina codifica la predicció i l'anticipació de recompenses, i especialment l''error de predicció': la diferència entre el que s'esperava i el que passa. S'activa sobretot quan la recompensa és incerta i variable — és per això que les notificacions impredictibles (quan arribarà el like?) enganxen més que les previsibles."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s04-02",
+              "style": "detect-error",
+              "statement": "Les aplicacions mòbils estan dissenyades per maximitzar la utilitat de l'usuari. Si generen addicció és un efecte secundari no buscat del disseny per a l'engagement.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és factualment incorrecta. Documents interns de Facebook, Instagram i altres plataformes (revelats per investigadors, periodistes i testimonis com Frances Haugen) mostren que el disseny per a l''engagement' màxim era un objectiu deliberat, i que els equips de disseny eren conscients dels efectes addictius. El desig d'interrupcions variables (notificacions impredictibles), el scroll infinit i els sistemes de 'likes' estan dissenyats aplicant explícitament principis de condicionament operant que maximitzen l'activació dopaminèrgica. L'addicció no és un error de disseny — en molts casos, és el producte."
+            },
+            {
+              "type": "reflection",
+              "question": "El disseny per a la màxima activació dopaminèrgica s'usa en xarxes socials, jocs, apostes i màrqueting. Quins comportaments de la teva vida diària podrien ser parcialment explicats per aquest mecanisme? El fet de saber-ho canvia alguna cosa?",
+              "prompt": "Conèixer el mecanisme no immunitza automàticament. Però és el punt de partida per decidir."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-s04-01",
+              "question": "Si les addiccions a substàncies i a comportaments (joc, xarxes, pornografia) comparteixen els mateixos circuits neurals, haurien els comportaments addictius ser tractats clínicament i legalment igual que les addiccions a drogues?",
+              "options": [
+                "Sí, si el mecanisme neural és el mateix, el tractament i el marc legal haurien de ser equivalents",
+                "No, les addiccions comportamentals impliquen lliure elecció d'una manera que les drogues no; no és comparable",
+                "El mecanisme compartit justifica un enfocament clínic similar, però les implicacions legals i morals difereixen per la naturalesa de l'agent causant"
+              ],
+              "correct": 2,
+              "explanation": "La tercera opció reflecteix la tensió real del camp. El DSM-5 va incloure el 'Joc Patològic' (gambling disorder) com a addicció comportamental, reconeixent la mateixa neurobiologia que les addiccions a substàncies. L'OMS va incloure el 'Trastorn per ús de videojocs' al CIE-11 el 2018. Però la qüestió legal és més complexa: criminalitzar o medicalitzar comportaments que milions de persones fan de forma no problemàtica (jugar a videojocs, usar xarxes socials) té implicacions de llibertat individual molt diferentes que regular substàncies químiques exògenes. La distinció important és entre medicalitzar (oferir tractament a qui ho necessita, sense estigma) i legislar (regular o prohibir el comportament o l'agent que l'indueix). El mecanisme neural compartit justifica el primer; el segon requereix arguments addicionals sobre responsabilitat dels productors i protecció de col·lectius vulnerables."
+            }
+          ]
+        },
+        {
+          "id": "neur-s05",
+          "title": "Adolescència: el cervell en obres",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant dècades vam pensar que el cervell acabava de desenvolupar-se als 12 anys. La maduresa biològica semblava coincidir amb la pubertat. Però les tècniques de neuroimatge van revelar quelcom desconcertant: el còrtex prefrontal — la seu del control d'impulsos, la planificació i el judici — no acaba de madurar fins als 25 anys. Durant l'adolescència, el sistema límbic (emocions, recompenses) és plenament actiu, però el fre prefrontal és incomplet. No és que els adolescents siguin irracionals per elecció — el seu cervell és, literalment, un cotxe de Fórmula 1 amb frens de bicicleta."
+            },
+            {
+              "type": "key-idea",
+              "text": "El cervell adolescent té una maduració asincrònica: el sistema de recompenses i emocions (subcortical) s'activa plenament amb la pubertat, però el còrtex prefrontal (control executiu) no madura fins als 25 anys. Aquesta bretxa explica la recerca de risc, la hipersensibilitat social i la presa de decisions impulsiva característiques de l'adolescència."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "Infància (0-12)",
+                  "title": "Construcció massiva de connexions (sinaptogènesi)",
+                  "text": "El cervell es construeix ràpidament, amb sobreproducció de sinapsis."
+                },
+                {
+                  "year": "Adolescència (12-25)",
+                  "title": "Poda sinàptica i mielinització prefrontal",
+                  "text": "El cervell elimina connexions poc usades ('use it or lose it') i reforça les que usa. El còrtex prefrontal és l'última zona en madurar."
+                },
+                {
+                  "year": "Maduresa adulta (25+)",
+                  "title": "Integració prefrontal-límbica",
+                  "text": "El còrtex prefrontal pot modular eficientment les respostes emocionals i impulsius. Però la plasticitat continua."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s05-01",
+              "style": "multiple-choice",
+              "question": "Quin és l'efecte de tenir coetanis presents en la presa de riscos dels adolescents, comparat amb estar sols?",
+              "options": [
+                "Cap efecte: la presència de coetanis no canvia la presa de riscos en adolescents",
+                "Redueix el risc, perquè els coetanis actuen com a moderadors socials",
+                "Augmenta significativament la presa de riscos, un efecte que és molt menor en adults",
+                "Augmenta el risc sols si els coetanis animen activament al risc"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Estudis de Laurence Steinberg mostren que la presència de coetanis augmenta la presa de riscos dels adolescents fins a un 50%, mentre que en adults l'efecte és mínim. El mecanisme neural: la presència social activa el sistema de recompenses (nucli accumbens), i en adolescents l'activació d'aquest sistema no queda suficientment frenada pel còrtex prefrontal immadur. Per això la pressió de grup és especialment potent en l'adolescència — no és debilitat de caràcter, és arquitectura cerebral.",
+              "feedbackWrong": "La presència de coetanis augmenta significativament la presa de riscos en adolescents (fins a un 50% en alguns estudis) però molt poc en adults. El mecanisme: els coetanis activiten el sistema de recompenses, que en l'adolescent no queda adequadament modulat pel còrtex prefrontal immadur. És una de les raons per les quals les polítiques de salut dirigides a adolescents no funcionen sols amb informació racional."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s05-02",
+              "style": "true-false",
+              "question": "El fet que el còrtex prefrontal no maduri fins als 25 anys és un argument neurocientífic per reduir la responsabilitat penal dels menors d'edat.",
+              "correct": true,
+              "feedbackCorrect": "Cert, amb matisos. Diversos sistemes judicials (inclosa la Cort Suprema dels EUA en casos de pena de mort i cadena perpetua sense revisió per a menors) han incorporat l'evidència neurocienfífica sobre la maduresa prefrontal per argumentar que els adolescents no han de tenir la mateixa responsabilitat penal que els adults. El debat és actiu: la neurociència documenta la bretxa de maduresa, però les implicacions legals i morals exactes les decideix la societat, no el cervell.",
+              "feedbackWrong": "Efectivament, i ja s'aplica. La Cort Suprema dels EUA va usar l'argument de la maduresa prefrontal incompleta per prohibir la pena de mort per a menors (Roper v. Simmons, 2005) i la cadena perpètua sense possibilitat de revisió per a menors (Miller v. Alabama, 2012). La neurociència no decideix la llei, però aporta evidència que els sistemes judicials comencen a incorporar."
+            },
+            {
+              "type": "debate",
+              "question": "Si el cervell adolescent té una maduresa prefrontal incompleta fins als 25 anys, hauria de modificar-se l'edat de vot (ara 18 anys a la majoria de democràcies)?",
+              "positionA": {
+                "label": "Augmentar l'edat de vot",
+                "argument": "Si la presa de decisions madura no és completa fins als 25 anys, permetre votar als 18 implica incloure en decisions col·lectives persones amb limitacions neurobiològiques documentades en jutjar riscos a llarg termini. Les democràcies haurien de basar-se en capacitat decisional plena."
+              },
+              "positionB": {
+                "label": "Mantenir o reduir l'edat de vot",
+                "argument": "La maduresa neurobiològica és un contínuum i cap edat separa nítidament cervells madurs d'immaturs. Adults de 40 anys prenen decisions igualment irracionals per altres raons. El criteri per al vot hauria de ser la condició de ciutadà afectat per les decisions polítiques — i els joves de 16 anys ho són."
+              },
+              "reflection": "La neurociència pot descriure diferències estadístiques entre grups d'edat. Però qui decideix quines diferències son rellevants per a la ciutadania? La ciència o la política?",
+              "context": "Austràlia, Brasil i Argentina permeten votar als 16 anys. Escòcia i Gales permeten votar als 16 en eleccions locals. Àustria als 16 en totes les eleccions. El debat neurocienfífic no ha canviat significativament aquestes decisions — els arguments polítics i democràtics han pesat més."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-s05-01",
+              "question": "La maduresa prefrontal no és completa fins als 25 anys. Però el cervell adolescent mostra una plasticitat i una capacitat d'aprenentatge excepcionals. Com s'interpreta que el 'cervell en obres' sigui alhora vulnerable i especialment receptiu?",
+              "options": [
+                "La vulnerabilitat i la plasticitat són contradictoris: si el cervell és immadur, no pot aprendre eficientment",
+                "La plasticitat és màxima precisament perquè el còrtex prefrontal no ha tancat les connexions definitives: l'adolescència és una finestra crítica per a l'aprenentatge profund",
+                "La plasticitat adolescent és un mite; aprenen igual que els adults però sense les inhibicions socials que frenen els adults"
+              ],
+              "correct": 1,
+              "explanation": "La segona opció captura la paradoxa productiva del cervell adolescent. La poda sinàptica que ocorre durant l'adolescència és selectiva: es reforcen les connexions que s'usen i s'eliminen les que no. Això fa el cervell molt sensible a l'experiència i a l'aprenentatge en aquest període. La 'immaduresa' prefrontal no impedeix l'aprenentatge — al contrari, redueix certs filtres inhibitoris que en adults frenen la creativitat i la presa de riscos exploratoria. Estudis de bilingüisme, música i esport confirmen que l'adquisició és qualitativament diferent (no sols més ràpida) en l'adolescència que en l'edat adulta. La implicació educativa és clara: l'adolescència és el moment per exposar als joves a reptes cognitius complexos, experiències diverses i aprenentatge profund, no per protegir-los dels riscos de la complexitat. El risc que hem de gestionar és el del sistema límbic sense fre (drogues, violència, conductes d'alt risc), no el de l'exposició intel·lectual."
+            }
+          ]
+        },
+        {
+          "id": "neur-s06",
+          "title": "Plasticitat social: el cervell que el món transforma",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan Michael Meaney va estudiar cries de rata als anys 90, va descobrir que les cries que rebien més llepades i contacte de les seves mares mostraven menys hormones d'estrès, menors receptors de glucocorticoides, i eren menys ansioses en l'edat adulta. Fins aquí, res sorprenent — la cura materna és bona. Però la part fascinant: en traslladar les cries a altres mares (les 'no llepadores' a mares 'llepadores' i viceversa), el perfil de resposta al estrès seguia a la mare adoptiva, no a la biològica. I els canvis eren epigenètics: la cura materna modificava físicament quins gens s'expressaven al cervell de la cria. L'entorn social de la infància reescriu literalment el genoma funcional."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'experiència social modifica l'expressió gènica del cervell via mecanismes epigenètics — sense canviar el DNA, però canviant quins gens s'activen. L'ambient de la infància, el trauma, l'adversitat i el suport social deixen empremtes biològiques mesurables al cervell adult."
+            },
+            {
+              "type": "expandable",
+              "label": "Epigenètica del trauma: com es transmeten les experiències entre generacions",
+              "content": "Estudis recents (Rachel Yehuda i altres) suggereixen que les marques epigenètiques associades al trauma podrien transmetre's intergeneracionalment. Fills de supervivents de l'Holocaust mostraven patrons de metilació del DNA similars als dels seus progenitors, i nivells de cortisol alterats similars. En models animals, els efectes del trauma s'han documentat fins a la tercera generació. El mecanisme proposat: modificacions epigenètiques en cèl·lules reproductores que afecten el perfil d'expressió gènica de la descendència. Però cal cautela: la transmissió epigenètica intergeneracional en humans és un camp molt actiu i controversial. Alguns estudis no s'han replicat. El que sí és consistent: l'adversitat en la infància deixa empremtes biològiques duradores en el cervell de l'individu afectat, visible en biomarcadors de l'eix HPA, longitud de telòmers i estructura cerebral."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s06-01",
+              "style": "multiple-choice",
+              "question": "Qué demostra l'estudi de Meaney sobre la cura materna en rates?",
+              "options": [
+                "Que la genètica determina completament la resposta a l'estrès, independentment de l'entorn",
+                "Que la cura materna modifica l'expressió gènica del cervell de la cria via mecanismes epigenètics",
+                "Que els efectes de la cura materna s'esborren en arribar a l'edat adulta",
+                "Que la transmissió del comportament de cura és exclusivament cultural i apresa"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Meaney va demostrar que la qualitat de la cura materna — independent de la genètica compartida — modificava l'expressió de gens clau del sistema d'estrès a l'hipocamp de la cria. Específicament, modificava la metilació del gen del receptor de glucocorticoides, canviant permanentment la sensibilitat al cortisol. Genètica i entorn no s'oposen: l'entorn opera a través del genoma.",
+              "feedbackWrong": "L'estudi de Meaney va demostrar específicament que la cura materna (no la genètica) modificava l'expressió gènica a l'hipocamp de la cria via epigenètica. El mecanisme: la cura materna canviava la metilació del gen del receptor de glucocorticoides, alterant permanentment la resposta a l'estrès. La genètica no és un destí fix — l'entorn social la modula."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-neur-s06-02",
+              "style": "detect-error",
+              "statement": "L'epigenètica ha demostrat que els traumes es transmeten automàticament als fills, de manera que els fills de persones traumatitzades sempre tindran els mateixos problemes psicològics.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és 'automàticament' i 'sempre'. L'evidència de transmissió epigenètica intergeneracional del trauma en humans és prometedora però no conclosa ni universal. Els estudis mostren augment de probabilitat de certes vulnerabilitats, no determinisme. A més, la plasticitat cerebral implica que intervencions terapèutiques, entorns de suport i experiències reparadores poden modular o revertir parcialment les marques epigenètiques. La neurobiologia del trauma és contextual i probabilista, no determinista."
+            },
+            {
+              "type": "quote",
+              "text": "La biologia no és destí. Però sí és context.",
+              "author": "Francis Collins, exdirector del National Institutes of Health"
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Natura vs. educació",
+              "text": "El debat natura-educació que vam tractar en filosofia de la ciència té ara una resposta neurobiològica: no és l'un o l'altre. L'epigenètica demostra que la pregunta estava mal formulada. El genoma no determina la conducta — defineix un rang de possibilitats. L'entorn opera a través del genoma, activant o silenciant gens. Natura i educació no s'oposen: la natura és el mecanisme a través del qual opera l'educació."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-neur-s06-01",
+              "question": "Si l'adversitat en la infància deixa empremtes biològiques duradores al cervell (cervell de l'estrès, eix HPA alterat, hipocamp reduït), quin hauria de ser el focus principal de les polítiques de salut mental?",
+              "options": [
+                "Tractament individual dels adults afectats: teràpia, medicació i suport psicològic per reparar els efectes",
+                "Prevenció primària: invertir en primers anys de vida (0-6) per evitar l'adversitat que causa el dany neurobiològic",
+                "Ambdues de forma integrada, però amb molta més inversió en prevenció primerenca que no pas en tractament"
+              ],
+              "correct": 2,
+              "explanation": "La tercera opció reflecteix el consens emergent en salut pública i neurociència del desenvolupament. James Heckman, economista i Nobel, va calcular que cada dòlar invertit en programes de qualitat per a la primera infància (0-5 anys) retorna entre 7 i 13 dòlars en estalvis futurs (salut, educació, sistema penal). La raó neurobiològica: el cervell en formació és infinitament més plàstic i modificable per intervencions de qualitat que el cervell adult que ja ha integrat l'adversitat. Però 'prevenció primerenca' no significa 'sols prevenció': els adults afectats necessiten tractament efectiu, i la neuroplasticitat adulta permet millores reals amb intervenció adequada. El problema és de proporcions: les polítiques actuals de salut mental inverteixen desproporcionadament en tractament reactiu i molt poc en prevenció proactiva. L'evidència neurocienfífica justifica invertir l'equació."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

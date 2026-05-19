@@ -1,0 +1,800 @@
+{
+  "id": "module-10-estrelles",
+  "title": "La vida i mort de les estrelles",
+  "emoji": "⭐",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "fisica-esteltar",
+      "title": "Física estel·lar",
+      "icon": "⚛️",
+      "description": "Com funcionen les estrelles per dins: fusió nuclear, equilibri gravitatori i per qué brillen durant milers de milions d'anys",
+      "style": "Físic · dels principis a les conseqüències",
+      "lessons": [
+        {
+          "id": "est-01",
+          "title": "Qué és una estrella? La batalla entre gravetat i pressió",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El Sol ha brillat durant 4.600 milions d'anys i brillarà durant 5.000 milions més. Cada segon converteix 600 milions de tones d'hidrogen en heli. I tot i això, no s'esgota ni explota. Quelcom manté l'equilibri perfecte entre la gravetat que el vol comprimir i la pressió que el vol expandir. Entendre com és possible aquest equilibri és entendre per qué existeixen les estrelles."
+            },
+            {
+              "type": "prediction",
+              "question": "Si la gravetat comprimeix el Sol cap al centre i la pressió del gas calent l'expulsa cap a fora, qué hauria de passar perquè l'estrella ni col·lapsi ni exploti?",
+              "hint": "Pensa en un globus: qué passa quan la pressió interior i l'exterior s'equilibren."
+            },
+            {
+              "type": "key-idea",
+              "text": "Una estrella és un equilibri dinàmic: la gravetat vol comprimir-la i la pressió del gas calent vol expandir-la. Aquest equilibri s'anomena equilibri hidrostàtic. Mentre hi hagi combustible nuclear per mantenir la temperatura i la pressió, l'estrella roman estable."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la compressió gravitatòria escalfa i no refreda?",
+              "content": "Quan un gas es comprimeix, les seves molècules col·lisionen més freqüentment i amb més energia — la temperatura puja. Això és el teorema del virial: la meitat de l'energia gravitatòria alliberada per la contracció es converteix en calor cinètica del gas. La resta s'irradia a l'exterior. Per a una estrella en formació, aquesta compressió gravitatòria és precisament el que escalfa el nucli fins a temperatures prou altes per iniciar la fusió nuclear. Un cop la fusió comença, la pressió de radiació s'afegeix a la pressió del gas i estableix l'equilibri. Sense la gravetat no hi hauria prou temperatura per a la fusió. Sense la fusió, la gravetat col·lapsaria l'estrella. Les dues forces es necessiten mútuament."
+            },
+            {
+              "type": "misconception",
+              "belief": "El Sol és una bola de foc — crema com la fusta o el carbó, per combustió química.",
+              "reality": "El Sol no crema: fusiona. La combustió química (foc) trenca i forma enllaços entre electrons d'àtoms. La fusió nuclear uneix nuclis atòmics — un procés un milió de vegades més energètic per gram de combustible. Si el Sol cremés químicament, s'hauria esgotat en uns 10.000 anys. La fusió nuclear li permet brillar durant 10.000 milions d'anys.",
+              "why": "Perquè 'foc' és la metàfora visual més accessible per a quelcom brillant i calent. Però les estrelles operen a una escala d'energia completament diferent de qualsevol procés químic."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-01-01",
+              "style": "multiple-choice",
+              "question": "Qué passaria amb una estrella si la fusió nuclear al seu nucli s'aturés sobtadament?",
+              "options": [
+                "Continuaria brillant indefinidament gràcies a la calor acumulada",
+                "Explotaria immediatament per la pressió interna acumulada",
+                "El nucli es contrairia per la gravetat, escalfant-se fins que la fusió es reiniciés o fins al col·lapse",
+                "La capa exterior s'expandiria però el nucli quedaria estable"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Sense la pressió de la fusió, la gravetat dominaria i el nucli es contrairia. La compressió escalfaria el gas (teorema del virial) fins que la temperatura i densitat fossin prou altes per reiniciar la fusió — o, si ja no hi ha combustible, fins al col·lapse final. Això és exactament el que passa al final de la vida d'una estrella.",
+              "feedbackWrong": "Sense fusió nuclear, la pressió de radiació desapareix. La gravetat, sense oposició, contrairia el nucli. Però la compressió escalfa el gas — de manera que el nucli s'escalfa fins que pot reiniciar la fusió (si hi ha combustible) o fins que arriba a un estat degenerado que resisteix el col·lapse per pressió quàntica. Les estrelles no s'apaguen simplement: col·lapsen activament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-01-02",
+              "style": "true-false",
+              "question": "El Sol perd massa contínuament: cada segon, una part de la seva massa es converteix directament en energia.",
+              "correct": true,
+              "feedbackCorrect": "Correcte. La fusió nuclear converteix una fracció de la massa en energia segons E=mc². En cada reacció de fusió d'hidrogen en heli, el producte final (heli) és lleugerament menys massiu que els ingredients (hidrogen). Aquella diferència de massa es converteix en energia. El Sol perd uns 4 milions de tones de massa per segon d'aquesta manera — però com que té una massa de 2×10³⁰ kg, pot aguantar durant milers de milions d'anys.",
+              "feedbackWrong": "Sí, el Sol perd massa contínuament per dos mecanismes: la conversió massa-energia en la fusió nuclear (E=mc², uns 4 milions de tones per segon) i el vent solar (partícules carregades que escapen). La fusió no conserva la massa — la transforma parcialment en energia de fotons i neutrins."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-est-01-01",
+              "question": "L'equilibri hidrostàtic de les estrelles és notablement estable durant milers de milions d'anys. Si el nucli es refreda lleugerament, es contrau i s'escalfa fins a reiniciar la fusió. Si s'escalfa massa, s'expandeix i es refreda. És l'equilibri estel·lar un exemple de sistema autorregulat o simplement un equilibri passiu?",
+              "options": [
+                "És un equilibri passiu: les forces s'equilibren com en una balança, sense cap mecanisme actiu de regulació",
+                "És un sistema autorregulat amb retroalimentació negativa: les desviacions de l'equilibri generen respostes que les corregeixen",
+                "És un equilibri inestable: qualsevol pertorbació porta l'estrella a col·lapsar o expandir-se fins a desintegrar-se"
+              ],
+              "correct": 1,
+              "explanation": "L'equilibri estel·lar és un exemple de retroalimentació negativa — el mecanisme fonamental dels sistemes estables. Si el nucli es comprimeix massa, s'escalfa, la pressió augmenta i l'expansió restaura l'equilibri. Si s'expandeix massa, es refreda, la fusió disminueix, la pressió baixa i la gravetat el recomprimeix. El sistema respon a les pertorbacions en sentit contrari a la pertorbació: això és la definició de retroalimentació negativa. És el mateix principi que un termòstat, un ecosistema estable o el sistema immunitari. La notable longevitat de les estrelles (milers de milions d'anys) és precisament el resultat d'aquest mecanisme autocorrector. Quan el combustible s'esgota i el mecanisme de retroalimentació no pot operar, l'equilibri col·lapsa."
+            }
+          ]
+        },
+        {
+          "id": "est-02",
+          "title": "La fusió nuclear: convertir hidrogen en heli",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Al nucli del Sol, la temperatura és de 15 milions de graus i la densitat és 150 vegades la de l'aigua. En aquestes condicions, els protons es mouen tan ràpidament que poden superar la repulsió elèctrica i fusionar-se. El procés que transforma quatre protons en un nucli d'heli-4 allibera una energia enorme — i és, literalment, l'origen de gairebé tota la llum i calor que permet la vida a la Terra."
+            },
+            {
+              "type": "key-idea",
+              "text": "La cadena pp (protó-protó) és el procés principal de fusió al Sol: quatre protons es fusionen en un nucli d'heli-4, alliberant 2 positrons, 2 neutrins i energia en forma de fotons gamma. La diferència de massa entre els ingredients i el producte es converteix en energia (E=mc²). Cada reacció allibera uns 26,7 MeV."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué la fusió al Sol és sorprenentment lenta — i per qué és una sort",
+              "content": "La temperatura del nucli solar (15 milions K) és en realitat insuficient per a la fusió clàssica: la barrera de Coulomb (repulsió entre protons) requeriria temperatures 100 vegades majors. La fusió solar funciona gràcies a l'efecte túnel quàntic: els protons 'travessen' la barrera energètica amb una probabilitat molt baixa. La probabilitat que dos protons específics fusionin en un instant donat és ínfima — un protó al nucli solar triga en mitjana 10 mil milions d'anys a fusionar. Però com que hi ha 10⁵⁷ protons al nucli, les reaccions totals per segon són colossals. Aquesta lentitud intrínseca és el que fa que el Sol duri 10.000 milions d'anys en lloc de consumir-se en un instant com una bomba de fusió."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-02-01",
+              "style": "multiple-choice",
+              "question": "Per qué la fusió nuclear allibera tanta energia en comparació amb les reaccions químiques?",
+              "options": [
+                "Perquè les temperatures del nucli estel·lar són molt altes, i l'energia depèn de la temperatura",
+                "Perquè implica la conversió directa de massa en energia (E=mc²) — la massa del producte és menor que la dels reactius",
+                "Perquè la fusió involucra moltes més partícules simultàniament que les reaccions químiques",
+                "Perquè les forces nuclears són més dèbils que les forces electromagnètiques i alliberen més energia en relaxar-se"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. En la fusió nuclear, el producte final (heli-4) té una massa lleugerament menor que la suma dels quatre protons inicials. Aquesta diferència de massa (0,7%) es converteix íntegrament en energia via E=mc². Com que c² és un número enorme (9×10¹⁶ m²/s²), fins i tot petites diferències de massa generen energies enormes. Les reaccions químiques redistribueixen electrons però no converteixen massa en energia.",
+              "feedbackWrong": "L'energia alliberada en la fusió no prové de la temperatura ni de la quantitat de partícules: prové de la conversió directa de massa en energia. En la fusió d'hidrogen en heli, el producte pesa un 0,7% menys que els ingredients. Aquell 0,7% de massa es converteix en energia via E=mc². Per comparació, les reaccions químiques redistribueixen electrons sense convertir massa en energia — per això alliberen milions de vegades menys energia per gram de combustible."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Física de Partícules",
+              "moduleEmoji": "⚛️",
+              "concept": "Forces fonamentals i nucli atòmic",
+              "text": "La fusió nuclear implica la força nuclear forta (que uneix protons i neutrons en el nucli) i la força nuclear dèbil (que converteix protons en neutrons i viceversa, emetent neutrins). Sense la força dèbil, la cadena pp no podria funcionar: no hi hauria manera de convertir protons en neutrons per formar heli-4. Les estrelles són, literalment, laboratoris de les quatre forces fonamentals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-02-02",
+              "style": "detect-error",
+              "statement": "La fusió nuclear al Sol és tan eficient que el combustible d'hidrogen es consumeix en uns pocs milions d'anys, cosa que explica per qué les estrelles de la mida del Sol viuen relativament poc.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha dos errors. Primer, la fusió solar és sorprenentment ineficient: gràcies a la baixa probabilitat de l'efecte túnel, un protó triga en mitjana 10.000 milions d'anys a fusionar. Segon, el Sol té una vida total d'uns 10.000 milions d'anys — que és molt llarga, no curta. Les estrelles que viuen 'relativament poc' (milions d'anys en lloc de bilions) són les molt més massives que el Sol, que cremen el seu combustible a un ritme molt major. La vida d'una estrella és inversament proporcional a la seva massa al cub aproximadament."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-est-02-01",
+              "question": "Els neutrins solars generats per la fusió al nucli del Sol arriben a la Terra en 8 minuts i travessen la matèria gairebé sense interaccionar. El flux de neutrins mesurat a la Terra era la meitat del previst per la teoria — el 'problema dels neutrins solars' va durar 30 anys. Com hauria d'interpretar la ciència una discrepància persistent entre teoria i observació?",
+              "options": [
+                "La teoria és incorrecta: si la predicció no concorda amb l'observació, la teoria ha de ser revisada o abandonada",
+                "L'observació és incorrecta: si la teoria és sòlida, els instruments de mesura deuen tenir errors sistemàtics",
+                "Cal investigar si hi ha suposicions ocultes en la teoria o en la mesura que podrien estar equivocades — en aquest cas, la suposició que els neutrins no tenien massa"
+              ],
+              "correct": 2,
+              "explanation": "El problema dels neutrins solars és un dels casos més instructius de la història de la física. La discrepància era real: els detectors mesuraven la meitat dels neutrins previstos. Durant 30 anys, físics i astrònoms van debatre si el model del Sol estava equivocat o si els detectors fallaven. La resolució va arribar el 2001-2002: els neutrins no desapareixien — canviaven de 'sabor' (de neutrí electrònic a muònic o tauònic) durant el trajecte, cosa que els detectors originals no detectaven. Això implicava que els neutrins tenien massa, cosa que el Model Estàndard original no preveia. La discrepància no indicava que el model del Sol estigués equivocat ni que els detectors fallessin: indicava una suposició oculta incorrecta (neutrins sense massa). Arthur McDonald i Takaaki Kajita van rebre el Nobel de Física 2015 per descobrir les oscil·lacions de neutrins."
+            }
+          ]
+        },
+        {
+          "id": "est-03",
+          "title": "La seqüència principal: 90% de la vida d'una estrella",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1910, Ejnar Hertzsprung i Henry Russell van fer independentment la mateixa descoberta: si representes les estrelles en un diagrama de lluminositat vs. temperatura, la majoria cauen en una franja diagonal estreta. No és una coincidència — és la signatura de l'equilibri hidrostàtic. Les estrelles passen el 90% de la seva vida en aquesta franja, la seqüència principal, mentre fusionen hidrogen en heli al nucli."
+            },
+            {
+              "type": "key-idea",
+              "text": "El diagrama de Hertzsprung-Russell (HR) mostra la relació entre lluminositat i temperatura de les estrelles. La seqüència principal és la franja diagonal on viuen la majoria d'estrelles mentre fusionen hidrogen. La posició d'una estrella a la seqüència principal depèn quasi exclusivament de la seva massa: més massa = més calenta, més lluminosa, vida més curta."
+            },
+            {
+              "type": "expandable",
+              "label": "La paradoxa del Sol jove feble: per qué la Terra no era una bola de gel fa 4.000 milions d'anys",
+              "content": "Fa 4.000 milions d'anys, el Sol era un 30% menys lluminós que avui. Amb tanta menys energia solar, les temperatures terrestres haurien de ser molt per sota del zero — la Terra hauria estat completament gelada. Però les evidències geològiques mostren oceans líquids ja fa 4.000 milions d'anys. Com és possible? Diverses hipòtesis intenten resoldre-ho: una atmosfera primitiva molt més rica en gasos d'efecte hivernacle (CO₂, metà), una Terra inicialment més calenta per impactes i radioactivitat, marees oceàniques majors per la Lluna més propera, o una combinació de tots aquests factors. El 'paradox del Sol jove feble' segueix sent un problema parcialment obert de la geociència i l'astrofísica."
+            },
+            {
+              "type": "comparison",
+              "title": "Com varia la vida d'una estrella amb la massa",
+              "labelA": "Massa (en masses solars)",
+              "labelB": "Vida a la seqüència principal",
+              "items": [
+                {
+                  "label": "Estrella de 0,1 M☉ (nana vermella)",
+                  "a": "0,1 M☉",
+                  "b": "~6 bilions d'anys (més que l'edat de l'univers)"
+                },
+                {
+                  "label": "Estrella de 0,5 M☉",
+                  "a": "0,5 M☉",
+                  "b": "~80.000 milions d'anys"
+                },
+                {
+                  "label": "Sol (1 M☉)",
+                  "a": "1 M☉",
+                  "b": "~10.000 milions d'anys"
+                },
+                {
+                  "label": "Estrella de 10 M☉",
+                  "a": "10 M☉",
+                  "b": "~30 milions d'anys"
+                },
+                {
+                  "label": "Estrella de 100 M☉ (massiva)",
+                  "a": "100 M☉",
+                  "b": "~3 milions d'anys"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-03-01",
+              "style": "multiple-choice",
+              "question": "Una estrella 10 vegades més massiva que el Sol té una lluminositat uns 10.000 vegades major. Quina conseqüència té això per a la seva vida?",
+              "options": [
+                "Viu 10 vegades més llarg perquè té 10 vegades més combustible",
+                "Viu aproximadament igual que el Sol — lluminositat i combustible es compensen",
+                "Viu molt menys — crema el seu combustible molt més ràpidament del que la major massa pot compensar",
+                "Viu 10.000 vegades menys perquè la lluminositat consumeix el combustible proporcionalment"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. Té 10 vegades més combustible però el crema 10.000 vegades més ràpidament — de manera que la seva vida és aproximadament 1.000 vegades més curta. En lloc dels 10.000 milions d'anys del Sol, viuria uns 10 milions d'anys. Les estrelles massives viuen i moren ràpidament — en termes còsmics, un parpelleig.",
+              "feedbackWrong": "La clau és la desproporció entre massa i lluminositat. Tenir 10 vegades més massa dóna 10 vegades més combustible. Però ser 10.000 vegades més lluminosa significa consumir el combustible 10.000 vegades més ràpid. El resultat: la vida és 10x/10.000x = 1/1.000 la del Sol — uns 10 milions d'anys en lloc de 10.000 milions."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-03-02",
+              "style": "true-false",
+              "question": "Cap nana vermella (estrelles de menys de 0,3 masses solars) ha pogut morir des del Big Bang perquè viuen més temps que l'edat de l'univers.",
+              "correct": true,
+              "feedbackCorrect": "Correcte. Les nanes vermelles més petites tenen vides de bilions d'anys — molt per sobre dels 13.800 milions d'anys actuals de l'univers. Cap nana vermella ha tingut temps de completar el seu cicle de vida. Totes les nanes vermelles que observem avui, per antigues que siguin, segueixen a la seqüència principal. Això significa que no tenim observació directa de com mor una nana vermella — és una predicció teòrica no verificada observacionalment.",
+              "feedbackWrong": "Les nanes vermelles viuen desenes o centenars de bilions d'anys. L'univers té 13.800 milions d'anys — molt menys que la vida d'una nana vermella. Per tant, cap nana vermella ha tingut temps de morir des del Big Bang. Totes les nanes vermelles que observem avui estan en ple vigor de la seqüència principal, independentment de quan es van formar."
+            }
+          ]
+        },
+        {
+          "id": "est-04",
+          "title": "Més enllà de l'hidrogen: les capes de fusió",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan una estrella com el Sol esgota l'hidrogen del nucli, podria semblar que la seva vida hauria d'acabar. Però no és tan simple. L'hidrogen dels voltants del nucli es pot fusionar. I quan el nucli d'heli s'escalfa prou, l'heli mateix pot fusionar-se en carboni. I el carboni en oxigen, neon, magnesi... Les estrelles massives poden encendre successivament fins a set 'combustibles' nuclears, cadascun a temperatura i densitat majors, fins arribar al ferro. El ferro és el final del camí."
+            },
+            {
+              "type": "key-idea",
+              "text": "A mesura que una estrella massiva esgota un combustible nuclear, el nucli es contrau i s'escalfa fins a encendre el següent. Cada fase és més curta que l'anterior: l'hidrogen crema milions d'anys, l'heli milers, el carboni segles, el neó anys, l'oxigen mesos, el silici dies. El ferro no pot fusionar — absorbiria energia en lloc d'alliberar-ne. El ferro és el final."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el ferro és el límit? L'energia de lligadura nuclear",
+              "content": "L'energia de lligadura d'un nucli atòmic és l'energia necessària per separar-lo en protons i neutrons lliures — o, inversament, l'energia alliberada en formar-lo. El ferro-56 té la màxima energia de lligadura per nucleó de tots els elements: és el nucli més estable que existeix. Fusionar elements fins al ferro allibera energia (perquè el producte és més estable). Fusionar elements més pesats que el ferro absorbeix energia (perquè el producte és menys estable que els ingredients). Una estrella és una màquina que aprofita l'energia alliberada en crear nuclis cada cop més estables — fins al ferro, que és el punt d'equilibri màxim. A partir d'aquí, no hi ha més energia a extreure per fusió."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "Fase 1: Hidrogen",
+                  "title": "10 milions d'anys (estrella massiva)",
+                  "text": "Fusió de H en He al nucli. Temperatura: 10-15 milions K."
+                },
+                {
+                  "year": "Fase 2: Heli",
+                  "title": "1 milió d'anys",
+                  "text": "Fusió de He en C i O. Temperatura: 100-200 milions K. L'estrella s'ha convertit en supergegant."
+                },
+                {
+                  "year": "Fase 3: Carboni",
+                  "title": "1.000 anys",
+                  "text": "Fusió de C en Ne, Na, Mg. Temperatura: 500-800 milions K."
+                },
+                {
+                  "year": "Fase 4-5: Neó i Oxigen",
+                  "title": "1-10 anys",
+                  "text": "Fases successives a temperatures creixents. L'estrella pren forma de ceba: capes concèntriques de fusió."
+                },
+                {
+                  "year": "Fase 6: Silici",
+                  "title": "Uns dies",
+                  "text": "Fusió de Si en Fe. Temperatura: 3.000 milions K. Quan s'acumula prou ferro, tot s'atura."
+                },
+                {
+                  "year": "Col·lapse i supernova",
+                  "title": "Menys d'un segon",
+                  "text": "El nucli de ferro col·lapsa en mil·lisegons. L'estrella explota."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-04-01",
+              "style": "multiple-choice",
+              "question": "Per qué la fusió del ferro no pot proporcionar energia a una estrella com la fusió de l'hidrogen o l'heli?",
+              "options": [
+                "Perquè el ferro és massa pesat per fusionar-se a les temperatures estel·lars",
+                "Perquè el ferro té la màxima energia de lligadura per nucleó — fusionar-lo requeriria aportar energia en lloc d'alliberar-ne",
+                "Perquè el ferro es forma massa ràpidament i inunda el nucli abans de poder fusionar-se",
+                "Perquè la força nuclear forta no actua sobre el ferro com actua sobre elements més lleugers"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El ferro-56 és el nucli amb major energia de lligadura per nucleó — el nucli més estable. Qualsevol fusió a partir del ferro produiria nuclis menys estables, cosa que requeriria absorció d'energia. Una estrella subsisteix fusionant elements cap a estats cada cop més estables (alliberant energia). Quan arriba al ferro, ja no hi ha camí ascendent d'estabilitat — la font d'energia s'esgota.",
+              "feedbackWrong": "El ferro pot fusionar-se físicament, però el problema és termodinàmic: el ferro-56 és el nucli més estable que existeix. Fusionar ferro en elements més pesants requeriria aportar energia (el producte és menys estable). Una estrella és una màquina que aprofita energia alliberant-se en crear nuclis més estables. Quan assoleix el ferro, aquella font d'energia s'ha esgotat completament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-04-02",
+              "style": "detect-error",
+              "statement": "Una estrella massiva que arriba a la fase de fusió del silici en ferro triga milions d'anys en esgotar el silici i preparar el col·lapse final.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és 'milions d'anys'. La fase de fusió del silici dura aproximadament uns dies — no milions d'anys. Cada fase de fusió és dràsticament més curta que l'anterior perquè cada combustible allibera menys energia per reacció i la lluminositat de l'estrella és enorme. La fusió d'hidrogen dura milions d'anys; la d'heli, centenars de milers; la de carboni, segles; la de neó, anys; la d'oxigen, mesos; la de silici, dies. Quan s'acumula prou nucli de ferro, el col·lapse final és qüestió de mil·lisegons."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-est-04-01",
+              "question": "Les estrelles massives creen elements pesants (carboni, oxigen, ferro...) al llarg de la seva vida. Però els elements més pesants que el ferro (or, urani, platí...) no es poden crear per fusió estel·lar ordinària. On es creen?",
+              "options": [
+                "En les explosions de supernova, on l'energia alliberada és suficient per superar la barrera del ferro",
+                "En les col·lisions i fusions d'estrelles de neutrons, on les condicions de densitat i neutrons lliures permeten la captura ràpida de neutrons (procés r)",
+                "No es creen en processos còsmics — provenen del Big Bang primordial"
+              ],
+              "correct": 1,
+              "explanation": "Els elements més pesants que el ferro es creen principalment per captura de neutrons. Hi ha dos processos: el procés s (lent), que ocorre a l'interior d'estrelles gigants asimptòtiques i crea elements fins al bismut; i el procés r (ràpid), que requereix un flux enorme de neutrons lliures i condicions extremes. Durant dècades, les supernovas eren el principal candidat per al procés r. El 2017, la detecció de la fusió de dues estrelles de neutrons (GW170817) per ones gravitacionals i llum simultàniament va confirmar que les fusions d'estrelles de neutrons són una font major del procés r: van detectar directament la síntesi d'or, platí, estroncí i altres elements pesants en l'event. L'or dels teus anells va ser forjat en la fusió de dues estrelles de neutrons fa milers de milions d'anys."
+            }
+          ]
+        },
+        {
+          "id": "est-05",
+          "title": "La llum que surt de l'estrella: de gamma a visible",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Un fotó de llum gamma generat en una reacció de fusió al nucli del Sol triga en mitjana entre 10.000 i 170.000 anys en arribar a la superfície. No viatge en línia recta — és absorbit i re-emès milions de vegades per partícules del plasma solar en un recorregut aleatori. Quan finalment arriba a la superfície (la fotosfera), el fotó ja no és gamma: s'ha transformat en llum visible o infraroig. I des de la superfície triga 8 minuts en arribar als teus ulls."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'energia generada per fusió al nucli estel·lar viatja cap a l'exterior per dos mecanismes: radiació (fotons absorbits i re-emesos repetidament) i convecció (masses de gas calent que pugen i baixen). Al llarg d'aquest trajecte, l'energia es degrada de fotons gamma d'alta energia a fotons visibles i infrarojos de menor energia."
+            },
+            {
+              "type": "expandable",
+              "label": "Els neutrins solars: els missatgers directes del nucli",
+              "content": "Mentre els fotons tarden milers d'anys en sortir del Sol, els neutrins generats en la fusió surten en línea recta a velocitat propera a la llum i arriben a la Terra en 8 minuts. Els neutrins interaccionen tan feblment amb la matèria que la Terra és pràcticament transparent per a ells — en cada segon, uns 60.000 milions de neutrins solars travessen cada centímetre quadrat del teu cos, de dia i de nit (de nit, travessen primer la Terra). Detectar-los requereix tancs enormes de líquid o gel enterrats profundament per aïllar-los del soroll de fons. Cada neutrí detectat és una prova directa d'una reacció de fusió que va ocórrer al nucli del Sol fa 8 minuts."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-05-01",
+              "style": "multiple-choice",
+              "question": "Un fotó generat per fusió nuclear al nucli del Sol i un neutrí generat en la mateixa reacció: quina diferència hi ha en el temps que triguen a arribar a la Terra?",
+              "options": [
+                "Tots dos triguen exactament 8 minuts — ambdós viatgen a la velocitat de la llum",
+                "El neutrí arriba en 8 minuts; el fotó triga entre 10.000 i 170.000 anys per sortir del Sol, i després 8 minuts fins a la Terra",
+                "El fotó arriba en 8 minuts; el neutrí triga anys perquè interacciona amb el plasma solar",
+                "Tots dos triguen milers d'anys perquè el plasma solar els reté"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El neutrí, que gairebé no interacciona amb la matèria, surt del nucli en línia recta i arriba a la Terra en 8 minuts. El fotó és absorbit i re-emès repetidament — el seu recorregut és un camí aleatori que pot trigar entre 10.000 i 170.000 anys fins a la superfície solar. La llum que veiem avui del Sol va ser generada com a raig gamma fa entre deu mil i cent setanta mil anys.",
+              "feedbackWrong": "El fotó i el neutrí, tot i néixer en la mateixa reacció, experimenten trajectes completament diferents. El neutrí gairebé no interacciona amb res i surt en línia recta en 8 minuts. El fotó és absorbit i re-emès milions de vegades en el plasma solar — el seu recorregut fins a la superfície pot trigar fins a 170.000 anys. Quan veus el Sol, estàs veient energia que es va generar al nucli fa milers d'anys."
+            },
+            {
+              "type": "reflection",
+              "question": "La llum que ara reps del Sol va ser generada com a radiació gamma al nucli entre 10.000 i 170.000 anys enrere — quan els humans del Paleolític pintaven les primeres coves. I els neutrins que et travessen ara mateix provenen d'una reacció de fusió de fa exactament 8 minuts. Qué et sembla aquesta escala temporal de l'energia que et manté viu?",
+              "prompt": "No hi ha resposta correcta."
+            }
+          ]
+        },
+        {
+          "id": "est-06",
+          "title": "Les estrelles de neutrons i els púlsars",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1967, Jocelyn Bell, estudiant de doctorat a Cambridge, va detectar un senyal de ràdio que polsava amb una regularitat pertorbadora: un puls cada 1,337 segon, precís com un rellotge. Tan precís que ella i el seu supervisor Anthony Hewish van considerar seriosament que podria ser un senyal artificial extraterrestre — van anomenar la font LGM-1 (Little Green Men). Va resultar ser una estrella de neutrons en rotació ràpida: un púlsar. Hewish va rebre el Nobel de Física 1974 per aquest descobriment. Bell Burnell, que havia fet la detecció original, no va ser inclosa."
+            },
+            {
+              "type": "key-idea",
+              "text": "Una estrella de neutrons és el romanent compacte d'una estrella massiva després d'una supernova. Empaqueta entre 1,2 i 2 masses solars en una esfera de ~20 km de diàmetre. La seva densitat és tan extrema que protons i electrons es fusionen en neutrons. Un centímetre cúbic d'estrella de neutrons pesaria uns 100 milions de tones."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué una estrella de neutrons gira tan ràpidament? Conservació del moment angular",
+              "content": "Quan el nucli d'una estrella massiva col·lapsa de milers de km a ~10 km en mil·lisegons, el moment angular es conserva — igual que un patinador sobre gel que gira més ràpidament quan recull els braços. Una estrella precursora que girava un cop cada 30 dies pot col·lapsar en una estrella de neutrons que gira desenes o centenars de vegades per segon. El púlsar més ràpid conegut (PSR J1748-2446ad) gira 716 vegades per segon — la seva superfície es mou aproximadament al 15% de la velocitat de la llum. Les estrelles de neutrons també concentren el camp magnètic de la precursora: camps magnètics d'un bilió de gauss, bilions de vegades el camp magnètic terrestre."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-06-01",
+              "style": "multiple-choice",
+              "question": "Qué és un púlsar?",
+              "options": [
+                "Una estrella que alterna períodes d'expansió i contracció de forma regular",
+                "Una estrella de neutrons en rotació ràpida que emet feixos de ràdio des dels pols magnètics",
+                "Un tipus d'estrella variable que oscil·la en lluminositat amb un període regular",
+                "El romanent d'una supernova que emet polsos de llum visible"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Un púlsar és una estrella de neutrons que emet feixos de ràdio des dels pols magnètics (com un far marítim). Si l'eix de rotació i l'eix magnètic no coincideixen, el feix escombra l'espai i, si passa per la línia de visió de la Terra, detectem un puls regular. La regularitat és tan extrema que els primers descobridors van considerar un origen artificial.",
+              "feedbackWrong": "Un púlsar no és una estrella que posa o que fluctua en lluminositat: és una estrella de neutrons en rotació ràpida. Emet feixos de ràdio des dels pols magnètics. Quan la rotació fa que el feix apunti cap a la Terra, detectem un puls. L'interval entre polsos és el període de rotació de l'estrella de neutrons — que pot ser de millisegons a segons, amb una regularitat que supera els millors rellotges atòmics."
+            },
+            {
+              "type": "debate",
+              "question": "Jocelyn Bell va fer la detecció original del primer púlsar el 1967. Anthony Hewish, el seu supervisor, va rebre el Nobel de Física 1974 per aquest descobriment. Bell Burnell no va ser inclosa en el premi. Va ser una decisió justa?",
+              "positionA": {
+                "label": "El Nobel estava justificat sense Bell",
+                "argument": "El Nobel es va donar per la concepció del projecte, la construcció del radiotelescopi i la interpretació científica del fenomen — responsabilitats principals d'Hewish. La detecció inicial és un pas important però la ciència és un esforç col·lectiu on el reconeixement va al lideratge del projecte."
+              },
+              "positionB": {
+                "label": "L'exclusió de Bell va ser injusta",
+                "argument": "Bell va fer la detecció específica que va portar al descobriment — sense ella, el fenomen podria haver passat desapercebut. La història de la ciència mostra un patró sistemàtic d'exclusió de dones dels reconeixements. Bell Burnell ha estat reconeguda per la comunitat astronòmica i ha rebut el Premi Special Breakthrough (3 milions de dòlars) el 2018 — que va donar íntegrament a beques."
+              },
+              "reflection": "Creus que la distinció entre 'concepció del projecte' i 'descobriment' és clara en la ciència real?",
+              "context": "Fred Hoyle, que no va rebre el Nobel de Física 1983 malgrat les seves contribucions a la nucleosíntesi estel·lar, va protestar públicament per l'exclusió de Bell del Nobel de 1974. Bell Burnell ella mateixa ha dit en diverses ocasions que no creu que el Nobel li hauria d'haver estat atorgat a ella, però reconeix el problema estructural de reconeixement de les dones en ciència."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-est-06-01",
+              "question": "Una estrella de neutrons empaqueta la massa del Sol en una esfera de 20 km. La pressió és tan extrema que els electrons i protons es fusionen en neutrons. Qué impedeix que l'estrella de neutrons continuï col·lapsant fins a convertir-se en un forat negre?",
+              "options": [
+                "La gravetat és menys intensa a l'interior de l'estrella de neutrons perquè la massa es distribueix esféricamente",
+                "La pressió de degeneració dels neutrons — un principi quàntic que impedeix que dos neutrons ocupin el mateix estat — resisteix el col·lapse",
+                "La rotació ràpida de l'estrella de neutrons genera una força centrífuga que equilibra la gravetat"
+              ],
+              "correct": 1,
+              "explanation": "La pressió de degeneració dels neutrons és una conseqüència directa del principi d'exclusió de Pauli: dos fermions (com els neutrons) no poden ocupar el mateix estat quàntic simultàniament. Quan una estrella de neutrons es comprimeix, els neutrons es resisteixen a ser apilats en els mateixos estats quàntics — i aquesta resistència genera una pressió que no depèn de la temperatura (a diferència de la pressió d'un gas ordinari). Si la massa és suficientment gran (límit de Tolman-Oppenheimer-Volkoff, aproximadament 2-3 masses solars), ni la pressió de degeneració dels neutrons pot resistir la gravetat — i l'estrella col·lapsa en un forat negre. Per tant, la mateixa física quàntica que impedeix el col·lapse total de les estrelles de neutrons té un límit màxim, i el que queda al seu damunt és necessàriament un forat negre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cicle-vida",
+      "title": "El cicle de vida",
+      "icon": "🌱",
+      "description": "Del núvol de gas a la nebulosa planetària o la supernova: els camins que segueix una estrella segons la seva massa",
+      "style": "Narratiu · del naixement a la mort",
+      "lessons": [
+        {
+          "id": "est-v01",
+          "title": "El naixement d'una estrella: de nebulosa a fusió",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Les estrelles neixen en núvols gegants de gas i pols interestel·lar — les nebuloses moleculars. Per a la majoria de la seva història, un núvol molecular pot existir en equilibri durant milions d'anys. Però una pertorbació pot trencar-lo: l'ona de xoc d'una supernova propera, la col·lisió amb un altre núvol, o simplement les seves pròpies fluctuacions internes. Quan una regió del núvol és prou densa, la gravetat guanya i la contracció comença. El que eren àtoms de gas dispersos en l'espai es convertirà, en uns milions d'anys, en una estrella que brillarà per bilions."
+            },
+            {
+              "type": "key-idea",
+              "text": "Una estrella neix quan una regió d'un núvol molecular col·lapsa per la gravetat. La contracció escalfa el gas. Quan la temperatura central arriba a ~10 milions K, la fusió nuclear de l'hidrogen s'inicia i la pressió resultant atura el col·lapse. Ha nascut una estrella."
+            },
+            {
+              "type": "expandable",
+              "label": "La nebulosa d'Orió: una guarderia estel·lar a 1.344 anys llum",
+              "content": "La nebulosa d'Orió (M42) és un dels llocs de formació estel·lar més estudiats i fotografiats del cel. Visible a ull nu com una taca difusa sota el cinturó d'Orió, és un núvol molecular actiu on les estrelles es formen avui mateix. El Telescopi Espacial Hubble ha fotografiat milers de protoplanetary disks (proplyds) — discos de gas i pols que envolten estrelles joves en formació i que podrien convertir-se en sistemes planetaris. Les estrelles massives del Trapezi (al centre de la nebulosa) ionitzen el gas circumdant, creant les colors espectaculars de les fotografies. La mateixa radiació que fa brillar la nebulosa podria evaporar els discos protoplanetaris de les estrelles joves properes — la vida i la mort entrellaçades en la mateixa nebulosa."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-v01-01",
+              "style": "multiple-choice",
+              "question": "Qué inicia el col·lapse d'un núvol molecular per formar una estrella?",
+              "options": [
+                "La fusió nuclear que comença espontàniament al centre del núvol",
+                "Una pertorbació externa o interna que fa que la gravetat superi la pressió del gas",
+                "La radiació d'estrelles properes que escalfa el núvol fins a la temperatura de fusió",
+                "La rotació del núvol, que genera forces centrífugues que el comprimeixen cap al centre"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Un núvol molecular pot existir en equilibri durant molt de temps. Cal una pertorbació — una ona de xoc de supernova, una col·lisió entre núvols, una inestabilitat interna — perquè una regió es densifiqui prou per a que la gravetat guanyi la batalla contra la pressió del gas. A partir d'aquí, el col·lapse és accelerat i inevitable.",
+              "feedbackWrong": "La fusió nuclear no comença fins que la temperatura al centre arriba a ~10 milions K — molt després d'iniciat el col·lapse. El que inicia el col·lapse és una pertorbació que trenca l'equilibri entre la pressió del gas i la gravetat a favor de la gravetat. La formació estel·lar és sovint desencadenada per ones de xoc de supernovas properes — les morts d'estrelles antigues provoquen el naixement de noves."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-v01-02",
+              "style": "true-false",
+              "question": "Un objecte en contracció gravitatòria que no té prou massa per encendre la fusió nuclear es converteix en una nana blanca.",
+              "correct": false,
+              "feedbackCorrect": "FALS. Un objecte que no té prou massa per encendre la fusió nuclear és una nana marró — no una nana blanca. Les nanes marrones (entre 13 i 80 vegades la massa de Júpiter) no arriben a temperatures prou altes per la fusió d'hidrogen sostinguda. Les nanes blanques, en canvi, són els romanents d'estrelles que sí van fusionar hidrogen i heli al llarg de la seva vida — és el que queda d'una estrella de massa baixa o mitjana després de la fase de gegant roja.",
+              "feedbackWrong": "Una nana blanca és el romanent d'una estrella que ja ha viscut la seva vida completa (fase de gegant roja inclosa). Un objecte sense prou massa per encendre la fusió nuclear sostenida és una nana marró — un objecte substellar que es va escalfar per contracció però mai va arribar a ser una estrella."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "El Big Bang i l'origen de l'univers",
+              "moduleEmoji": "💥",
+              "concept": "Nucleosíntesi primordial i material estel·lar",
+              "text": "Les estrelles es formen a partir de gas: principalment l'hidrogen i l'heli creats en els primers minuts del Big Bang. Cada nova generació d'estrelles incorpora també els elements pesants sintetitzats per les generacions anteriors i dispersats per les supernovas. El Sol és una estrella de tercera generació — el seu material ha passat per l'interior d'almenys dues estrelles prèvies que van viure, morir i dispersar els seus elements a l'espai interestelar."
+            }
+          ]
+        },
+        {
+          "id": "est-v02",
+          "title": "La mort d'una estrella com el Sol: gegant roja i nebulosa planetària",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "D'aquí a uns 5.000 milions d'anys, el Sol esgotarà l'hidrogen del seu nucli. El que vindrà serà un procés dramàtic: el Sol s'inflarà fins a engolir Mercuri i Venus i possiblement la Terra. La seva superfície es refredarà i es tornarà vermellosa. Però l'exterior inflat és una il·lusió de mida — el nucli es contraurà i s'escalfarà fins a encendre la fusió de l'heli. Quan finalment tot el combustible s'esgoti, el Sol expulsarà les seves capes exteriors formant una nebulosa planetària de colors espectaculars, i el nucli quedarà com una nana blanca — una brasa refredant-se lentament durant bilions d'anys."
+            },
+            {
+              "type": "key-idea",
+              "text": "Estrelles com el Sol (massa baixa o mitjana) moren de forma relativament tranquil·la: s'inflen en gegants roges, fusionen heli en carboni i oxigen, expulsen les capes exteriors com a nebulosa planetària, i el nucli queda com una nana blanca. No hi ha explosió de supernova."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "Ara + 1.000 Ma",
+                  "title": "El Sol és un 10% més lluminós",
+                  "text": "La Terra s'escalfa. L'aigua dels oceans comença a evaporar-se. La vida tal com la coneixem s'extingeix."
+                },
+                {
+                  "year": "Ara + 5.000 Ma",
+                  "title": "L'hidrogen del nucli s'esgota",
+                  "text": "El nucli d'heli es contrau. La capa d'hidrogen al voltant comença a fusionar. El Sol s'expandeix."
+                },
+                {
+                  "year": "Ara + 7.500 Ma",
+                  "title": "Gegant roja: el Sol s'expandeix 200 vegades",
+                  "text": "El Sol engola Mercuri i Venus. La Terra podria ser engolida o escapar per pèrdua de massa del Sol (que redueix la seva atracció gravitatòria)."
+                },
+                {
+                  "year": "Ara + 7.700 Ma",
+                  "title": "Fusió de l'heli: flash de l'heli",
+                  "text": "El nucli s'escalfa fins a 100 milions K. La fusió de l'heli en carboni i oxigen comença explosivament ('flash de l'heli')."
+                },
+                {
+                  "year": "Ara + 8.000 Ma",
+                  "title": "Nebulosa planetària",
+                  "text": "Les capes exteriors s'expulsen formant una nebulosa de colors. El nucli queda exposat com a nana blanca."
+                },
+                {
+                  "year": "Ara + bilions d'anys",
+                  "title": "Nana blanca refredant-se",
+                  "text": "La nana blanca es refreda lentament. En un temps molt major que l'edat de l'univers, podria convertir-se en una nana negra freda i inert."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Les nanes blanques: matèria degenerada i el límit de Chandrasekhar",
+              "content": "Una nana blanca és el nucli exposat d'una estrella que ha perdut les capes exteriors. No té fusió nuclear: és una bola de carboni i oxigen sostinguda per la pressió de degeneració dels electrons (principi d'exclusió de Pauli). El límit de Chandrasekhar (1,4 masses solars) és la massa màxima que una nana blanca pot tenir — per damunt d'aquesta massa, la pressió de degeneració dels electrons no pot resistir la gravetat. Subrahmanyan Chandrasekhar va calcular aquest límit el 1930 als 19 anys, durant el trajecte en vaixell de l'Índia a Cambridge. Arthur Eddington — el mateix que havia verificat la relativitat general el 1919 — va ridiculitzar públicament el resultat durant una conferència, dient que 'havia de haver una llei de la naturalesa que impedís que una estrella es comportés de manera tan absurda'. Chandrasekhar va rebre el Nobel de Física 1983, 50 anys després."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-v02-01",
+              "style": "multiple-choice",
+              "question": "Qué és exactament una 'nebulosa planetària'? Per qué s'anomena així?",
+              "options": [
+                "Un núvol de gas al voltant d'un planeta gegant com Júpiter",
+                "La nube de gas i pols de la qual es formen els sistemes planetaris",
+                "Les capes exteriors expulsades per una estrella moribunda, que formen un anell brillant al voltant de la nana blanca central",
+                "Els residus d'una explosió de supernova que podrien condensar-se en planetes"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. Una nebulosa planetària és les capes exteriors d'una estrella de massa baixa o mitjana que han estat expulsades suaument al final de la seva vida. El nucli calent (nana blanca) ionitza el gas expulsat, que brilla amb colors espectaculars. El nom és un accident històric: els astrònoms del segle XVIII les observaven amb telescopis petits i semblaven discos circulars — com els planetes gegants.",
+              "feedbackWrong": "Una nebulosa planetària no té res a veure directament amb planetes. És el gas de les capes exteriors d'una estrella moribunda que ha estat expulsat a l'espai. El nom prové d'una confusió observacional del segle XVIII: als telescopis de l'època, les nebuloses planetàries semblaven discos circulars similars als dels planetes gegants. Alguns dels objectes més bells del cel profund (Nebulosa de l'Ull de Gat, Nebulosa de l'Hèlix) són nebuloses planetàries."
+            },
+            {
+              "type": "misconception",
+              "belief": "Quan el Sol es converteixi en gegant roja i engoleixi la Terra, la vida a la Terra desapareixerà en aquell moment.",
+              "reality": "La vida a la Terra desapareixerà molt abans que el Sol es converteixi en gegant roja. En aproximadament 1.000 milions d'anys, l'augment gradual de lluminositat solar farà que els oceans s'evapoerin i la temperatura superficial faci impossible la vida complexa. La fase de gegant roja és d'aquí a uns 5.000-7.000 milions d'anys — molt més tard. Geològicament, la Terra ja porta 4.500 milions d'anys existint: tenim menys temps per davant que per darrere.",
+              "why": "Perquè la imatge dramàtica de la gegant roja engolint la Terra és la més visual i la que s'explica a les pel·lícules. L'extinció gradual per escalfament és menys espectacular però molt més imminent."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-est-v02-01",
+              "question": "El Sol es convertirà en gegant roja d'aquí a uns 5.000 milions d'anys. És raonable que la humanitat (o la seva successora) planifiqui ara estratègies per a aquell esdeveniment?",
+              "options": [
+                "No: 5.000 milions d'anys és un temps tan immens que qualsevol planificació ara és absurda",
+                "Sí: comprendre el destí del Sol és important per a la supervivència a llarg termini de qualsevol civilització",
+                "La pregunta és científicament interessant però pràcticament irrellevant — la civilització humana no durarà tants milions d'anys"
+              ],
+              "correct": 1,
+              "explanation": "La pregunta no és sobre logística immediata sinó sobre horitzó de planificació i valors a llarg termini. Comprendre el destí del Sol és part del que significa tenir una perspectiva còsmica. Civilitzacions que hagin durat milions d'anys (si existeixen o existiran) necessitaran entendre l'astrofísica estel·lar per sobreviure. Però la pregunta té una dimensió més immediata: ja ara tenim raons per moure la Terra gradualment cap a òrbites més llunyanes (per exemple, aprofitant l'efecte gravitacional d'asteroides en passos repetits) — una enginyeria còsmica a escala de milions d'anys que no és en principi impossible. La limitació real és l'augment de lluminositat solar en 1.000 milions d'anys, no la gegant roja en 5.000 milions — i 1.000 milions d'anys és un horitzó que una civilització avançada podria considerar rellevant."
+            }
+          ]
+        },
+        {
+          "id": "est-v03",
+          "title": "La mort d'una estrella massiva: supernova",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 23 de febrer de 1987, al Gran Núvol de Magalhaes (una galàxia satèl·lit de la Via Làctia a 168.000 anys llum), una estrella va explotar. Va ser la supernova més propera observada des de 1604. Durant unes hores va brillar com 100 milions de sols. Tres hores ABANS de veure la llum de l'explosió, detectors de neutrins a Japó i Ohio van registrar una allau de 25 neutrins en 13 segons. Eren els neutrins emesos en els mil·lisegons del col·lapse del nucli — 3 hores abans, perquè la llum havia de travessar les capes estel·lars i els neutrins no."
+            },
+            {
+              "type": "key-idea",
+              "text": "Quan el nucli de ferro d'una estrella massiva col·lapsa, ho fa en mil·lisegons: de milers de km a ~20 km. L'ona de xoc resultant rebota i arrasa les capes exteriors: és una supernova de col·lapse de nucli (Tipus II). L'energia alliberada és equivalent a la lluminositat del Sol durant 10.000 milions d'anys — però el 99% s'emporta en neutrins en els primers 10 segons."
+            },
+            {
+              "type": "expandable",
+              "label": "SN1987A: la supernova que va confirmar la teoria",
+              "content": "La supernova 1987A va ser un regal per als astrofísics. Va confirmar que les estrelles massives moren per col·lapse de nucli de ferro. Va confirmar que el 99% de l'energia s'emet en neutrins (els 25 neutrins detectats eren una fracció ínfima dels 10⁵⁸ emesos, però suficients per validar la teoria). Va confirmar que la precursora era una supergegant blava (Sanduleak -69° 202), no una supergegant roja com s'esperava teòricament — cosa que va obligar a revisar els models. Va permetre veure en temps real l'evolució de la llum, l'espectre i la nebulosa d'expansió. El romanent de SN1987A s'ha estat observant des d'aleshores: l'anell de gas expulsat fa 20.000 anys il·luminat per l'ona de xoc, i la recerca de l'estrella de neutrons o forat negre central que hauria de quedar-hi."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-v03-01",
+              "style": "multiple-choice",
+              "question": "Per qué els detectors de neutrins van detectar el senyal de SN1987A tres hores ABANS que la llum visible de l'explosió?",
+              "options": [
+                "Perquè els neutrins viatgen més ràpidament que la llum",
+                "Perquè els neutrins es van generar en el col·lapse del nucli i van travessar les capes estel·lars gairebé sense interaccionar, mentre que la llum va trigar hores en travessar aquelles capes",
+                "Perquè els detectors de neutrins es troben a una distància menor de SN1987A que els telescopis òptics",
+                "Perquè la llum visible es va generar més tard que els neutrins, quan l'ona de xoc va arribar a la superfície estel·lar"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exacte. Els neutrins es van generar en els primers mil·lisegons del col·lapse del nucli i van sortir de l'estrella gairebé instantàniament (gairebé no interaccionen amb res). La llum visible, en canvi, es va generar quan l'ona de xoc va arribar finalment a la superfície de l'estrella — unes 3 hores més tard. Tots dos van viatjar des de 168.000 anys llum a velocitat de la llum. Però la llum va sortir 3 hores més tard. Quan la llum va arribar, els neutrins ja portaven 3 hores aquí.",
+              "feedbackWrong": "Els neutrins no viatgen més ràpid que la llum. La diferència de 3 hores prové d'un retard en l'emissió, no en la velocitat. Els neutrins es van generar en els primers mil·lisegons del col·lapse del nucli i van escapar immediatament. La llum visible es va generar hores després, quan l'ona de xoc va arribar a la superfície estel·lar i va poder escapar. Tots dos van viatjar 168.000 anys llum a velocitat c, però van sortir amb 3 hores de diferència."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-v03-02",
+              "style": "true-false",
+              "question": "Totes les supernovas són del mateix tipus: col·lapse del nucli de ferro d'una estrella massiva.",
+              "correct": false,
+              "feedbackCorrect": "FALS. Hi ha dos tipus principals de supernova. Les supernovas de col·lapse de nucli (Tipus II i variants) provenen d'estrelles massives que esgoten el combustible nuclear. Les supernovas de Tipus Ia provenen d'una nana blanca que acumula massa d'una estrella companiona fins a superar el límit de Chandrasekhar (1,4 masses solars) i es desestructura en una explosió termonuclear completa. Les supernovas Tipus Ia no deixen romanent — la nana blanca es destrueix completament. Són especialment valuoses en cosmologia perquè la seva lluminositat màxima és coneguda (candeles estàndard), cosa que permet mesurar distàncies còsmiques — i va ser comparant-les que es va descobrir l'expansió accelerada de l'univers el 1998.",
+              "feedbackWrong": "Hi ha com a mínim dos tipus principals de supernova amb mecanismes completament diferents. Les de col·lapse de nucli (Tipus II) provenen d'estrelles massives que esgoten el ferro. Les de Tipus Ia provenen d'una nana blanca en un sistema binari que acumula massa fins a superar el límit de Chandrasekhar i explota termonuclearment — sense deixar cap romanent. Les Tipus Ia van ser les que van permetre descobrir l'expansió accelerada de l'univers el 1998."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "La Relativitat General",
+              "moduleEmoji": "🌌",
+              "concept": "Forats negres com a romanents estel·lars",
+              "text": "Si el nucli de ferro d'una estrella massiva supera els ~2-3 masses solars en el moment del col·lapse, la pressió de degeneració dels neutrons no pot resistir la gravetat i es forma un forat negre. El limit exacte és incert perquè depèn de l'equació d'estat de la matèria densa — un problema obert de la física nuclear. Les fusions de forats negres detectades per LIGO des de 2015 provenen d'estrelles massives que van morir fa milers de milions d'anys en galàxies llunyanes."
+            }
+          ]
+        },
+        {
+          "id": "est-v04",
+          "title": "Estem fets d'estrelles: l'origen dels àtoms del teu cos",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El carboni del teu ADN va ser forjat en el nucli d'una estrella de tipus solar fa milers de milions d'anys, quan fusionava heli. L'oxigen que respires va ser forjat en una estrella massiva durant la fusió del carboni. El ferro de la teva hemoglobina va ser forjat en els últims dies de vida d'una estrella massiva. L'or i el platí de qualsevol joia van ser creats en la fusió de dues estrelles de neutrons. Quan aquelles estrelles van morir, van dispersar aquests elements per l'espai. Alguns es van condensar en el núvol que va formar el Sol i la Terra. Alguns formen el teu cos ara mateix."
+            },
+            {
+              "type": "key-idea",
+              "text": "El 98% de la massa del teu cos és hidrogen (del Big Bang), oxigen i carboni (forjats en estrelles), nitrogen (forjat en estrelles), calci (forjat en estrelles massives) i fòsfor (forjat en estrelles). Ets, literalment, material d'estrelles mortes — la manera en que l'univers s'examina a si mateix."
+            },
+            {
+              "type": "expandable",
+              "label": "La composició elemental del cos humà i el seu origen còsmic",
+              "content": "El cos humà és aproximadament: 65% oxigen (forjat en estrelles de massa solar per fusió de carboni, o en estrelles massives), 18% carboni (forjat en la fase de gegant asimptòtica d'estrelles de massa solar o en estrelles massives per fusió d'heli), 10% hidrogen (del Big Bang), 3% nitrogen (forjat en estrelles), 1,5% calci (forjat en estrelles massives per fusió de l'oxigen), 1% fòsfor (forjat en estrelles massives). Les traces de ferro, zinc, iode, cobre i altres elements van sorgir de supernovas i fusions d'estrelles de neutrons. L'únic element del teu cos que no prové d'una estrella és l'hidrogen — que és el llegat directe del Big Bang. Tot el rest vas ser construït en el si d'una estrella que va viure, va morir, i va dispersar els seus elements a l'espai."
+            },
+            {
+              "type": "quote",
+              "text": "El nitrogen dels nostres ADN, el calci dels nostres ossos, el ferro de la nostra sang, el carboni dels nostres pastissos de poma van ser sintetitzats a l'interior d'estrelles que col·lapsaren. Estem fets de material d'estrelles.",
+              "author": "Carl Sagan, Cosmos (1980)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-v04-01",
+              "style": "multiple-choice",
+              "question": "Quin element del cos humà no prové de cap estrella sinó directament del Big Bang?",
+              "options": [
+                "L'oxigen — el més abundant del cos",
+                "El carboni — la base de la química de la vida",
+                "L'hidrogen — el més senzill dels àtoms",
+                "El nitrogen — fonamental per a les proteïnes i l'ADN"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'hidrogen va ser creat en la nucleosíntesi primordial dels primers tres minuts del Big Bang — no en cap estrella. De fet, les estrelles cremen l'hidrogen i el converteixen en heli i elements pesants. L'hidrogen del teu cos és el llegat directe del Big Bang: àtoms que han existit durant 13.800 milions d'anys sense ser tocats per cap estrella.",
+              "feedbackWrong": "L'oxigen, el carboni i el nitrogen van ser tots forjats a l'interior d'estrelles. L'element que prové directament del Big Bang és l'hidrogen — creat en la nucleosíntesi primordial dels primers tres minuts de l'univers, quan protons i neutrons es van combinar per primera vegada. Les estrelles cremen l'hidrogen, no el creen."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-v04-02",
+              "style": "detect-error",
+              "statement": "L'or que portem en joies va ser creat al nucli de les estrelles per fusió nuclear, igual que el carboni i l'oxigen.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és l'origen de l'or. A diferència del carboni i l'oxigen (creats per fusió nuclear ordinària al nucli d'estrelles), l'or i els elements pesants (platí, urani, iode, bari...) no es poden crear per fusió ordinària — requereixen el procés de captura ràpida de neutrons (procés r), que necessita un flux enorme de neutrons lliures i condicions extremes. La fusió d'estrelles de neutrons (confirmada per l'observació GW170817 el 2017 amb ones gravitacionals i llum simultàniament) és una de les principals fonts d'or còsmic. Les supernovas de col·lapse de nucli també contribueixen, però la fusió d'estrelles de neutrons sembla ser la font dominant."
+            },
+            {
+              "type": "reflection",
+              "question": "Els àtoms del teu cos van ser forjats en estrelles mortes fa milers de milions d'anys, van vagar per l'espai interestelar, es van condensar en el Sol i la Terra, van passar per innombrables éssers vius, i ara formen el teu cos — temporalment. Canvia alguna cosa en com et perceps a tu mateix saber que ets una configuració transitòria d'àtoms còsmics?",
+              "prompt": "No hi ha resposta correcta. És una de les preguntes que la ciència deixa oberta a la filosofia personal."
+            }
+          ]
+        },
+        {
+          "id": "est-v05",
+          "title": "Les estrelles de neutrons binàries i les ones gravitacionals",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 17 d'agost de 2017, per primera vegada en la història, s'van detectar simultàniament ones gravitacionals I llum del mateix esdeveniment: la fusió de dues estrelles de neutrons a 130 milions d'anys llum. L'ona gravitacional (GW170817) va arribar 1,7 segons abans de la llum gamma. En les hores i dies posteriors, telescopis de tot el món van observar l'evolució del brillant de l'explosió. Mesures espectroscòpiques van detectar directament la síntesi d'or, platí, estroncí i desenes d'elements pesants en temps real. Va ser el descobriment astronòmic més multimessenger de la història."
+            },
+            {
+              "type": "key-idea",
+              "text": "La fusió de dues estrelles de neutrons (kilonova) és un dels esdeveniments més energètics de l'univers. Genera ones gravitacionals, un flaix de raigs gamma, i una explosió rica en elements pesants (or, platí, urani) creats per captura ràpida de neutrons (procés r). L'observació de GW170817 va confirmar que les fusions d'estrelles de neutrons són una font major d'elements pesants a l'univers."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué els raigs gamma de GW170817 van arribar 1,7 segons després de les ones gravitacionals?",
+              "content": "Les ones gravitacionals viatgen a la velocitat de la llum (c) en el buit — és una predicció de la relativitat general. Els fotons de raigs gamma també viatgen a c. Però van sortir 1,7 segons més tard: els raigs gamma es van emetre quan el jet relativista format en la fusió va travessar el material circumdant. Aquell retard de 1,7 s en 130 milions d'anys de viatge estableix que les ones gravitacionals viatgen a la velocitat de la llum amb una precisió de 10⁻¹⁵ — confirmant una predicció de la relativitat general amb una precisió sense precedents. También va eliminar o restringir fortament molts models de gravetat alternativa que predien velocitats lleugerament diferents per a ones gravitacionals i llum."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-v05-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el descobriment científic principal de l'observació de GW170817?",
+              "options": [
+                "La primera detecció de forats negres per ones gravitacionals",
+                "La confirmació que les ones gravitacionals viatgen exactament a la velocitat de la llum, i la detecció directa de síntesi d'elements pesants en la fusió d'estrelles de neutrons",
+                "La primera evidència que les estrelles de neutrons existeixen",
+                "La confirmació del model de Big Bang per mesures independents de la constant de Hubble"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. GW170817 va ser un descobriment múltiple: va confirmar que les ones gravitacionals viatgen a c (amb precisió de 10⁻¹⁵), va demostrar que les fusions d'estrelles de neutrons produeixen kilonovas riques en elements pesants (detectats espectroscòpicament en temps real), va inaugurar l'astronomia multimissatger, i va proporcionar una mesura independent de la constant de Hubble.",
+              "feedbackWrong": "La primera detecció de forats negres per ones gravitacionals va ser GW150914, el 2015. L'existència d'estrelles de neutrons ja era coneguda des de 1967 (púlsars). GW170817 va ser notable per la detecció simultània d'ones gravitacionals i llum del mateix événiment, la confirmació de la velocitat de les ones gravitacionals, i la detecció directa de síntesi d'elements pesants en temps real."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "La Relativitat General",
+              "moduleEmoji": "🌌",
+              "concept": "Ones gravitacionals i LIGO",
+              "text": "GW170817 va ser detectat per LIGO i Virgo (el detector europeu d'ones gravitacionals). Va ser la primera detecció d'ones gravitacionals d'una font que no eren forats negres. La clau va ser la localització precisa del senyal (gràcies a tres detectors), que va permetre als telescopis apuntar a la galàxia correcta i veure l'explosió. La col·laboració entre detectors d'ones gravitacionals i telescopis electromagnètics va inaugurar una nova era de l'astronomia."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-est-v05-01",
+              "question": "La detecció simultània d'ones gravitacionals i llum del mateix evento (GW170817) va confirmar que tots dos viatgen a la velocitat de la llum amb una precisió de 10⁻¹⁵. Moltes teories de gravetat alternatives a Einstein predien velocitats lleugerament diferents. Com interpreta la ciència el fet que una sola observació elimini moltes teories alternatives alhora?",
+              "options": [
+                "Una sola observació no pot eliminar teories — cal un patró d'evidències repetides",
+                "Si una observació és prou precisa i inequívoca, pot falsificar de cop moltes teories que feien prediccions incompatibles amb ella",
+                "Les teories alternatives no queden eliminades — simplement cal ajustar-les per incorporar el nou resultat"
+              ],
+              "correct": 1,
+              "explanation": "El poder de falsificació d'una sola observació molt precisa pot ser enorme. En el cas de GW170817, la mesura de la velocitat de les ones gravitacionals amb una precisió de 10⁻¹⁵ va eliminar o restringir fortament desenes de models de gravetat escalar-tensorial, gravetat massiva, gravetat de Lorentz violada, i molts models d'energia fosca que predien velocitats de propagació de les ones gravitacionals lleugerament diferent de c. Que una observació elimini moltes teories alhora és un signe de bona ciència: quan les prediccions diferenciades existeixen i la mesura és precisa, la falsificació és neta i simultània per a tots els models incompatibles. El criteri no és la repetició per se, sinó la precisió i la inequivocitat — i en aquest cas ambdues van ser excepcionals."
+            }
+          ]
+        },
+        {
+          "id": "est-v06",
+          "title": "Les estrelles i nosaltres: una perspectiva final",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hi ha més estrelles a l'univers observable que grans de sorra a totes les platges i deserts de la Terra. Cada una d'elles és un reactor nuclear que ha brillat, que brilla o que brillarà durant milions o bilions d'anys. Cada una ha forjat elements. Moltes han mort explosivament, dispersant els seus àtoms a l'espai. Alguns d'aquells àtoms van acabar en el Sol, en la Terra, en el mar, en les primeres cèl·lules, en els dinosaures, en l'atmosfera, en les plantes que respires ara, en tu. Ets la manera en que l'univers es fa conscient d'ell mateix."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les estrelles no són objectes distants i irrelevants per a la vida: són la font de gairebé tots els elements del cos humà, de l'energia que manté la biosfera, i de les condicions que van permetre la formació de la Terra i l'evolució de la vida. La connexió entre estrelles i vida no és metafòrica — és química i física."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "13.800 Ma",
+                  "title": "Big Bang: hidrogen i heli",
+                  "text": "Els primers elements. La matèria prima de les primeres estrelles."
+                },
+                {
+                  "year": "200 Ma",
+                  "title": "Les primeres estrelles (Població III)",
+                  "text": "Estrelles massives de gas primordial. Viuen uns pocs milions d'anys i moren en supernovas, dispersant carboni, oxigen i elements pesants."
+                },
+                {
+                  "year": "9.000 Ma (fa 4.800 Ma)",
+                  "title": "Formació del Sol",
+                  "text": "El Sol es forma a partir de gas enriquit per generacions d'estrelles anteriors. El sistema solar inclou tots els elements forjats en aquelles estrelles."
+                },
+                {
+                  "year": "4.500 Ma",
+                  "title": "La Terra es forma",
+                  "text": "Acreció planetaria. Els àtoms de carboni, oxigen, ferro forjats en estrelles mortes formen els oceans, l'atmosfera, els continents."
+                },
+                {
+                  "year": "3.800 Ma",
+                  "title": "Primeres formes de vida",
+                  "text": "El carboni estel·lar s'organitza en molècules complexes. La vida comença — el cosmos es fa bioquímica."
+                },
+                {
+                  "year": "Avui",
+                  "title": "Tu llegeixes això",
+                  "text": "Àtoms forjats en estrelles fa milers de milions d'anys formen el teu cervell, que processa informació sobre les mateixes estrelles que el van crear."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-est-v06-01",
+              "style": "multiple-choice",
+              "question": "Quin és l'ordre correcte de generacions estel·lars fins al Sol?",
+              "options": [
+                "El Sol és una estrella de primera generació — no hi havia estrelles abans",
+                "El Sol és una estrella de segona generació — format a partir dels residus d'una primera estrella",
+                "El Sol és una estrella de tercera generació o posterior — el seu material ha passat per almenys dues generacions d'estrelles prèvies",
+                "El Sol pot ser de qualsevol generació — no hi ha manera de saber-ho"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'abundància d'elements pesants al Sol i al sistema solar (detectable espectroscòpicament) indica que el material solar ha estat processat per almenys dues generacions d'estrelles. Les estrelles de primera generació (Població III) tenien molt pocs elements pesants. El Sol, amb la seva riquesa en metalls (en argot astronòmic, tots els elements pesants que l'hidrogen i l'heli s'anomenen 'metalls'), és una estrella de tercera generació o posterior.",
+              "feedbackWrong": "El Sol no és una estrella primordial. L'abundància d'elements pesants al Sol (detectada per espectroscòpia) indica que el seu material ha estat processat per almenys dues generacions d'estrelles prèvies. Les estrelles de primera generació (Població III) tenien molt poca contaminació de metalls. El Sol té prou elements pesants per ser classificat com a estrella de tercera generació o posterior — fill d'estrelles que van viure i morir abans que el sistema solar es formés."
+            },
+            {
+              "type": "debate",
+              "question": "Saber que estem fets d'àtoms estel·lars, que la consciència és un fenomen emergent de la matèria còsmica, canvia alguna cosa en la manera com entenem la dignitat o el valor humà?",
+              "positionA": {
+                "label": "Sí: enriqueix el valor humà",
+                "argument": "Descobrir que som la manera en que l'univers es fa conscient d'ell mateix dóna una dimensió profunda a l'existència humana. No som accidents en un cosmos indiferent — som la seva expressió més complexa. La ciència no disminueix el valor humà: el contextualitza en una narrativa còsmica de 13.800 milions d'anys."
+              },
+              "positionB": {
+                "label": "No: el valor humà no depèn del seu origen",
+                "argument": "Que els àtoms del nostre cos provinguin d'estrelles és fascinant, però no diu res sobre el valor moral o la dignitat. El valor humà prové de la capacitat de patir i gaudir, d'estimar, de crear sentit — no de la composició química. Reduir la dignitat a l'origen còsmic dels àtoms seria una fal·làcia de l'origen."
+              },
+              "reflection": "Trobes que la perspectiva còsmica augmenta o disminueix el teu sentit de significació personal?",
+              "context": "Neil deGrasse Tyson ha dit que trobar que estem connectats al cosmos no el fa sentir petit sinó gran: 'No estem a l'univers — l'univers està a nosaltres.' Richard Dawkins, en canvi, argumenta que el cosmos és profundament indiferent i que el sentit és quelcom que humans creem, no que trobem."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-est-v06-01",
+              "question": "La física estel·lar explica l'origen dels àtoms del teu cos, l'energia de l'ecosistema terrestre i les condicions per a la vida. Però no diu per qué hi ha vida conscient en lloc de simplement química complexa. On acaba l'explicació científica de les estrelles i comença quelcom que la ciència no pot (o no ha pogut) explicar?",
+              "options": [
+                "La ciència pot en principi explicar tot, incloent la consciència — és sols qüestió de temps i recerca",
+                "La ciència explica el substrat material (àtoms, energia, processos) però la qüestió de per qué hi ha experiència subjectiva és un problema fonamentalment diferent",
+                "La consciència és una il·lusió — no hi ha res a explicar més enllà dels processos físics del cervell"
+              ],
+              "correct": 1,
+              "explanation": "Aquesta és una de les fronteres més profundes de la ciència i la filosofia. La física estel·lar explica d'on venen els àtoms i l'energia. La biologia explica com s'organitzen en cèl·lules, organismes i cervells. La neurociència explica mecanismes de processament d'informació. Però el 'problema dur de la consciència' (David Chalmers, 1995) assenyala que totes aquestes explicacions descriuen processos en tercera persona (mecanismes, estructures, funcions) però no expliquen per qué hi ha quelcom que és com ser tu — l'experiència subjectiva en primera persona. Que l'explicació científica del substrat sigui completa no implica que l'experiència subjectiva sigui reducible a aquell substrat sense residus. Postures (a) i (c) existeixen i tenen defensors seriosos, però la postura (b) reconeix honestament que el problema és real i obert, i que no hi ha consens."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
