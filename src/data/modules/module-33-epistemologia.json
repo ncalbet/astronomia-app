@@ -1,0 +1,852 @@
+{
+  "id": "module-33-epistemologia",
+  "title": "Epistemologia",
+  "emoji": "🔍",
+  "phase": 1,
+  "unlockRequires": "module-30-introduccio-filosofia",
+  "itineraries": [
+    {
+      "id": "itinerari-fonaments",
+      "title": "Els fonaments del coneixement",
+      "icon": "🏛️",
+      "description": "Un recorregut pels problemes fonamentals del coneixement: què és saber, com justifiquem les nostres creences i fins on arriba la certesa.",
+      "style": "Sistemàtic · dels problemes clàssics a les respostes contemporànies",
+      "lessons": [
+        {
+          "id": "epi-01",
+          "title": "Què és el coneixement?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Creus que saps moltes coses. Saps el teu nom, saps que la Terra gira al voltant del Sol, saps que l'aigua bull a 100 graus. Però quan intentes respondre la pregunta «Què significa saber alguna cosa?», les dificultats comencen. Pots creure alguna cosa i estar equivocat. Pots tenir raó per accident. Pots tenir evidència i seguir sense saber. L'epistemologia és la branca de la filosofia que intenta respondre exactament aquesta pregunta: Què és el coneixement? I la resposta ha resultat ser molt més difícil del que sembla."
+            },
+            {
+              "type": "key-idea",
+              "text": "La definició clàssica del coneixement, que prové de Plató, és: «creença vertadera justificada». Saps alguna cosa si (1) ho creus, (2) és cert, i (3) tens bones raons per creure-ho. Però el 1963, Edmund Gettier va demostrar que aquesta definició és insuficient."
+            },
+            {
+              "type": "expandable",
+              "label": "El problema de Gettier: quan tenir raó per accident no és saber",
+              "content": "Edmund Gettier va publicar el 1963 un article de tres pàgines que va sacsejar l'epistemologia. Va proposar casos com aquest: Mires el rellotge i veus que són les 3:15. Creus que són les 3:15. I de fet són les 3:15. Però el rellotge s'ha aturat exactament 12 hores abans i per casualitat l'estàs mirant en el moment exacte. La teva creença és vertadera i estava justificada (tenies el rellotge), però intuitívament no pots dir que «sabies» l'hora — encertaves per accident. Els casos de Gettier mostren que la definició platònica és insuficient: cal alguna cosa més. Mig segle després, els filòsofs encara debaten quin és el quart ingredient del coneixement."
+            },
+            {
+              "type": "prediction",
+              "question": "Pensa en alguna cosa que creus saber amb total certesa. Ara intenta imaginar un escenari on tinguis totes les evidències correctes però la teva conclusió sigui falsa per accident. És possible?",
+              "hint": "Els casos de Gettier mostren que la justificació correcta pot coexistir amb la sort epistèmica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-01-01",
+              "style": "multiple-choice",
+              "question": "Segons la definició clàssica platònica, quines tres condicions cal que es compleixin per poder dir que «saps» alguna cosa?",
+              "options": [
+                "Que ho hagis observat directament, que ho recordis clarament i que ho puguis explicar.",
+                "Que ho creguis, que sigui cert i que tinguis bones raons per creure-ho.",
+                "Que ho puguis demostrar matemàticament, que sigui universalment acceptat i que tingui aplicació pràctica.",
+                "Que ho hagis après d'una font fiable, que sigui coherent amb altres creences i que el puguis reproduir."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La definició clàssica —creença vertadera justificada— exigeix les tres condicions simultàniament. No n'hi ha prou amb creure alguna cosa certa sense raons (seria sort). No n'hi ha prou amb tenir raons per a una creença falsa (seria error justificat). No n'hi ha prou amb tenir una creença certa sense raons (seria encert accidental). El problema de Gettier mostra que fins i tot les tres juntes poden no ser suficients.",
+              "feedbackWrong": "La definició clàssica de Plató és més senzilla i més profunda: coneixement = creença + veritat + justificació. Observació directa, demostració matemàtica o font fiable poden ser formes de justificació, però no son la justificació en si. I cap d'elles garanteix el coneixement si la creença és falsa o si la justificació és accidentalment correcta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-01-02",
+              "style": "detect-error",
+              "statement": "Si crec que plourà demà, tinc raons meteorològiques sòlides per creure-ho i efectivament plou, llavors sabia que plourà.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquí és on el problema de Gettier es fa rellevant. Fins i tot amb creença, veritat i justificació, alguns filòsofs argumenten que si la pluja es deu a factors que el teu model meteorològic no havia capturat — una pertorbació inesperada que per casualitat va produir el resultat predit — llavors encertaves per una combinació de raó i sort. El debat és si la sort epistèmica és compatible amb el coneixement. La majoria dels epistemòlegs contemporanis diuen que no: el coneixement requereix que la connexió entre la justificació i la veritat no sigui accidental."
+            },
+            {
+              "type": "misconception",
+              "belief": "El coneixement és simplement tenir la informació correcta emmagatzemada al cervell.",
+              "reality": "El coneixement implica una relació adequada entre el subjecte, les seves creences i el món. No n'hi ha prou amb tenir la informació correcta: cal que la tinguis per les raons correctes i de la manera correcta. Un estudiant que memoritza la resposta correcta per atzar en un examen de resposta múltiple 'sap' la resposta? La majoria de filòsofs dirien que no.",
+              "why": "Perquè confondre coneixement amb informació és molt natural en l'era digital, on 'tenir accés a la informació' i 'saber' semblen equivalents."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-epi-01-01",
+              "question": "Si el coneixement requereix certesa absoluta — cap possibilitat d'error — podem dir que sabem gairebé res?",
+              "options": [
+                "Sí: l'únic coneixement cert és el matemàtic i el lògic; tot la resta és creença més o menys justificada.",
+                "No: el coneixement no requereix certesa absoluta, sinó justificació suficient en context.",
+                "Depèn del domini: en ciència el coneixement és provisional; en matemàtiques, definitiu."
+              ],
+              "correct": 1,
+              "explanation": "L'exigència de certesa absoluta com a condició del coneixement porta al pirronisme — l'escepticisme radical que conclou que no podem saber res. Però la majoria dels epistemòlegs contemporanis rebutgen aquest estàndard per excessiu. El coneixement no requereix infal·libilitat: requereix justificació adequada per al context. Saber que el sol sortirà demà no requereix la mateixa certesa que saber que 2+2=4, però pot ser perfectament ràcional i constituir coneixement genuí. El falibilisme — la posició que el coneixement és compatible amb la possibilitat d'error — és avui la posició dominant. Podem saber coses i estar equivocats: el coneixement és revisable. Això no el fa menys valuós; el fa honest sobre la seva naturalesa."
+            }
+          ]
+        },
+        {
+          "id": "epi-02",
+          "title": "D'on ve el coneixement? Racionalisme vs. empirisme",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Neix un nadó. La seva ment és una pissarra en blanc — tabula rasa — i tot el que aprendrà vindrà de l'experiència. O potser no: potser neix ja amb estructures mentals, categories, formes de percebre que l'experiència no pot donar-li. Potser sap coses sense haver-les après. Aquest debat — racionalisme contra empirisme — és un dels més antics i fèrtils de la filosofia. I segueix obert, ara reformulat en termes de neurociència i lingüística."
+            },
+            {
+              "type": "key-idea",
+              "text": "El racionalisme sosté que la raó — independent de l'experiència — és la font principal del coneixement. L'empirisme sosté que tot coneixement prové de l'experiència sensorial. Kant va intentar la gran síntesi: ambdós elements son necessaris i complementaris."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1641",
+                  "title": "Descartes: el racionalisme modern",
+                  "text": "Proposa les idees innates: coneixements que la ment porta des del naixement, independents de l'experiència. La geometria euclidiana en seria un exemple."
+                },
+                {
+                  "year": "1689",
+                  "title": "Locke: la tabula rasa",
+                  "text": "Refuta les idees innates. La ment neix buida; tot el coneixement prové de la sensació i la reflexió sobre les sensacions."
+                },
+                {
+                  "year": "1739",
+                  "title": "Hume: l'empirisme radical",
+                  "text": "Porta l'empirisme fins als seus límits: qualsevol idea que no pugui rastrejar-se fins a una impressió sensorial és buida de contingut."
+                },
+                {
+                  "year": "1781",
+                  "title": "Kant: la síntesi crítica",
+                  "text": "L'experiència sense conceptes és cega; els conceptes sense experiència son buits. El coneixement requereix tots dos. Les categories de l'enteniment estructuren l'experiència."
+                },
+                {
+                  "year": "1957-65",
+                  "title": "Chomsky: la gramàtica universal innata",
+                  "text": "En Syntactic Structures (1957) i Aspects of the Theory of Syntax (1965), Chomsky argumenta que els nens aprenen qualsevol llengua amb una rapidesa impossible si partissin de zero. La ment porta estructures lingüístiques innates (el «dispositiu d'adquisició del llenguatge»). El debat racionalisme-empirisme torna amb nova força."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Coneixement a priori i a posteriori: la distinció clau",
+              "content": "Els filòsofs distingeixen dos tipus de coneixement: A priori: independent de l'experiència. Exemple: «tots els solters son no casats» o «2+2=4». Pots saber-ho sense sortir de casa. La veritat es dedueix del significat dels conceptes o de relacions lògiques. A posteriori: dependent de l'experiència. Exemple: «l'aigua bull a 100°C al nivell del mar» o «els corbs son negres». Has d'observar el món per saber-ho. Kant afegeix una distinció creuada: analític (la veritat és al contingut dels conceptes) vs. sintètic (la veritat afegeix informació nova). La seva gran pregunta: existeix el coneixement sintètic a priori — veritat nova sobre el món, independent de l'experiència? Kant creu que sí: les matemàtiques i la física newtoniana en son exemples. Aquest és el cor de la seva filosofia crítica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-02-01",
+              "style": "multiple-choice",
+              "question": "«Els triangles tenen tres angles» és un exemple de coneixement:",
+              "options": [
+                "A posteriori: has de mesurar triangles per saber-ho.",
+                "A priori: és veritat per definició, independent de qualsevol observació.",
+                "Empíric: Euclides el va descobrir observant figures geomètriques.",
+                "Sintètic: afegeix informació nova sobre el món físic."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. És a priori: la veritat que els triangles tenen tres angles es dedueix de la definició de triangle, sense necessitat d'observar cap triangle concret. No importa si mai has vist un triangle: pots saber-ho per raó pura. Kant l'anomenaria analític a priori: la veritat és continguda en el concepte mateix.",
+              "feedbackWrong": "No cal observar cap triangle per saber que en té tres angles: és veritat per definició. Si un figura tingués quatre angles, simplement no seria un triangle. Això és coneixement a priori: independent de l'experiència sensorial. Contrasteu-ho amb «la majoria de triangles en la natura son irregulars», que sí seria a posteriori."
+            },
+            {
+              "type": "comparison",
+              "title": "Racionalisme vs. Empirisme",
+              "labelA": "Racionalisme",
+              "labelB": "Empirisme",
+              "items": [
+                {
+                  "label": "Font del coneixement",
+                  "a": "La raó, independent de l'experiència",
+                  "b": "L'experiència sensorial"
+                },
+                {
+                  "label": "Idees innates",
+                  "a": "Sí: la ment porta estructures o continguts previs",
+                  "b": "No: la ment neix buida (tabula rasa)"
+                },
+                {
+                  "label": "Model de coneixement",
+                  "a": "Matemàtica i geometria",
+                  "b": "Ciència experimental i observació"
+                },
+                {
+                  "label": "Representants",
+                  "a": "Descartes, Leibniz, Spinoza",
+                  "b": "Locke, Berkeley, Hume"
+                },
+                {
+                  "label": "Debilitat principal",
+                  "a": "Com justifica el coneixement del món real?",
+                  "b": "Com justifica les veritats necessàries (matemàtiques)?"
+                }
+              ]
+            },
+            {
+              "type": "debate",
+              "question": "Els nens neixen amb coneixements o capacitats innates, o ho aprenen tot de l'experiència?",
+              "positionA": {
+                "label": "Hi ha estructures innates",
+                "argument": "La velocitat amb que els nens adquireixen el llenguatge, les universals morals que apareixen en totes les cultures i la capacitat matemàtica precoç suggereixen que la ment no és una pissarra en blanc. Chomsky i Pinker defensen que certes estructures cognitives son biològicament predeterminades."
+              },
+              "positionB": {
+                "label": "Tot s'aprèn de l'experiència",
+                "argument": "El que sembla innat és en realitat el resultat de l'experiència acumulada molt ràpidament. Els nens son extraordinàriament receptius i aprenen per imitació, per reforç i per generalització. No cal postular estructures innates per explicar l'aprenentatge."
+              },
+              "reflection": "Com podries dissenyar un experiment que distingís entre les dues posicions? Quin seria el principal obstacle metodològic?",
+              "context": "La neurociència actual suggereix una posició intermèdia: hi ha predisposicions innates (arquitectures cerebrals) que l'experiència activa, modela i desenvolupa. Ni tabula rasa ni determinisme innat."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-epi-02-01",
+              "question": "Si tot el nostre coneixement prové de l'experiència sensorial, com podem confiar en les matemàtiques i la lògica, que semblen independents del món físic?",
+              "options": [
+                "Les matemàtiques son simplament regles que hem inventat: no diuen res del món real.",
+                "Les matemàtiques son descobertes a priori per la raó: existeixen independentment de qualsevol ment.",
+                "Les matemàtiques son eines extraordinàriament útils per descriure el món, però el debat sobre la seva naturalesa — inventades o descobertes — segueix obert."
+              ],
+              "correct": 2,
+              "explanation": "La filosofia de les matemàtiques és un camp fascinant i profundament obert. El platonisme matemàtic (Gödel, Hardy) sosté que els objectes matemàtics existeixen independentment de les ments humanes i que els matemàtics els descobreixen, no els inventen. El formalisme (Hilbert) sosté que les matemàtiques son sistemes de símbols que segueixen regles arbitràries, sense referència a cap realitat independent. El intuïcionisme (Brouwer) sosté que les matemàtiques son construccions mentals humanes. El problema que no resol cap posició satisfactòriament és l'«efectivitat irrazonable de les matemàtiques» (Wigner): per quin motiu estructures matemàtiques inventades sense cap intenció de descriure el món resulten ser exactament les que descriuen la física? La mecànica quàntica usa matemàtica altament abstracta que va ser desenvolupada sense cap motivació física — i és la teoria física més precisa mai construïda."
+            }
+          ]
+        },
+        {
+          "id": "epi-03",
+          "title": "L'escepticisme: podem saber alguna cosa?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Pyrrhon d'Elis, al segle IV aC, va proposar la suspensió total del judici: davant de qualsevol afirmació, cal abstenir-se de creure o descreure. Els sentits ens enganyen. La raó produeix contradiccions. Per tant, la resposta sàvia és no creure res. Descartes, divuit segles després, va portar l'escepticisme fins al límit com a exercici metodològic. I Hume va mostrar que fins i tot la causalitat — el fonament de tota la ciència — no pot ser justificada racionalment. L'escepticisme no és una posició fàcil de descartar."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'escepticisme filosòfic qüestiona si el coneixement genuí és possible. Les seves versions van des del pirronisme (suspensió total del judici) fins a l'escepticisme moderat (dubtem de certes categories de creences). Cap refutació de l'escepticisme radical és completament satisfactòria."
+            },
+            {
+              "type": "expandable",
+              "label": "El Maligne Geni, la Bústia de Descartes i Matrix: l'escepticisme contemporani",
+              "content": "Descartes va imaginar un «geni maligne» omnipotent capaç d'enganyar-lo sobre tot, fins i tot sobre les matemàtiques. Hilary Putnam va reformular-ho el 1981: i si fossis un «cervell en una bústia» connectat a un simulador que produeix totes les teves experiències? No podries distingir-ho de la realitat normal. La pel·lícula Matrix popularitza exactament aquest escenari. La pregunta filosòfica és: pots refutar que ets un cervell en una bústia? Putnam argumenta que no — però que la hipòtesi s'autodestrueix: si fossis un cervell en una bústia, les teves paraules sobre «cervells en bústies» no referiries a cervells i bústies reals, de manera que l'afirmació mateixa perd sentit. No és del tot convincent, però és el millor intent filosòfic de refutació."
+            },
+            {
+              "type": "quote",
+              "text": "Suposaré que algun geni maligne, summament poderós i astut, ha posat tota la seva indústria a enganyar-me.",
+              "author": "René Descartes, Meditacions metafísiques (1641)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-03-01",
+              "style": "multiple-choice",
+              "question": "L'escepticisme radical de Pyrrhon proposava que davant de qualsevol afirmació cal:",
+              "options": [
+                "Creure-la provisionalment fins que es demostri falsa.",
+                "Refutar-la sistemàticament per arribar a la veritat.",
+                "Suspendre el judici: ni creure-la ni descreure-la.",
+                "Acceptar-la si prové d'una font autoritzada."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. El pirronisme proposa l'epoché — la suspensió del judici — com a actitud filosòfica fonamental. Si les raons per i contra qualsevol afirmació son equiparables, la resposta racional és no decantar-se ni en un sentit ni en l'altre. Els pirrònics creien que aquesta suspensió portava a l'ataraxia — la tranquil·litat d'esperit — perquè ens allibera de l'ansietat d'haver de tenir raó.",
+              "feedbackWrong": "El pirronisme no és una metodologia per arribar a la veritat ni una acceptació d'autoritats: és una posició de neutralitat absoluta davant de totes les afirmacions. Davant de qualsevol argument pro, hi ha un argument contra d'igual força. La resposta sàvia és no pronunciar-se."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-03-02",
+              "style": "true-false",
+              "question": "Descartes va adoptar l'escepticisme radical com a posició filosòfica definitiva.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Descartes va usar el dubte radical com a mètode — un exercici per trobar una certesa indestructible — no com a conclusió. El seu objectiu era exactament el contrari: refutar l'escepticisme trobant alguna cosa de la qual fos impossible dubtar. Va trobar el Cogito (penso, per tant existeixo) com a primer punt d'Arquimedes i des d'allà va intentar reconstruir tot el coneixement sobre bases sòlides.",
+              "feedbackWrong": "Descartes no era un escèptic: era un anti-escèptic que usava el dubte com a eina. Va adoptar el dubte metodològicament — com a exercici de neteja intel·lectual — per trobar alguna cosa de la qual fos impossible dubtar. Quan va trobar el Cogito, va usar-lo com a fonament per reconstruir el coneixement."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'escepticisme filosòfic és una posició irresponsable i impràctica que ningú pot viure en la pràctica.",
+              "reality": "L'escepticisme filosòfic és un exercici intel·lectual sobre els fonaments del coneixement, no una prescripció per a la vida quotidiana. Fins i tot Hume, l'escèptic més radical, admetia que la natura ens força a deixar de dubtar quan sortim del gabinet filosòfic. L'escepticisme és valuós perquè ens força a examinar els fonaments de les nostres creences i a ser humils sobre el que realment sabem.",
+              "why": "Perquè es confon l'escepticisme filosòfic (una posició sobre el fonament del coneixement) amb l'escepticisme pràctic (una actitud de desconfiança davant tot), que sí seria paralizant."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-epi-03-01",
+              "question": "Si no pots demostrar que no ets un cervell en una bústia, hauries de preocupar-te per aquesta possibilitat?",
+              "options": [
+                "Sí: qualsevol possibilitat que no pugui ser refutada mereix ser presa seriosament.",
+                "No: una hipòtesi irrefutable i sense conseqüències pràctiques no mereix atenció epistèmica.",
+                "Depèn: és interessant com a experiment mental però irrellevant per a les decisions pràctiques."
+              ],
+              "correct": 1,
+              "explanation": "La resposta pragmatista — adoptada per Peirce, James i Dewey — és que una hipòtesi que no fa cap diferència pràctica no mereix consideració epistèmica seriosa. Si ets un cervell en una bústia, tot el que experimentes és igualment real per a tu, i les teves decisions i raonaments segueixen tenint el mateix valor. La hipòtesi és irrefutable però també inerta: no canvia res. Karl Popper afegiria que una hipòtesi irrefutable no és científica. Però els escèptics responen que això no la fa falsa — simplement filosòficament incòmoda. El valor de l'experiment mental del cervell en una bústia no és pràctic sinó conceptual: ens força a preguntar-nos quina connexió tenim realment amb el món extern i quines son les condicions d'un coneixement genuí."
+            }
+          ]
+        },
+        {
+          "id": "epi-04",
+          "title": "La veritat: què és i com s'assoleix?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "«Veritat» és una de les paraules més usades i menys examinades del vocabulari humà. Polítics, científics, filòsofs, religiosos i periodistes la invoquen constantment — sovint en sentits radicalment oposats. Quan diem que alguna cosa és «veritat», què estem dient exactament? Que correspon al món? Que funciona? Que tothom hi estaria d'acord? Que és coherent amb altres creences? Les respostes a aquestes preguntes defineixen les grans teories de la veritat."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les tres grans teories de la veritat son: la teoria de la correspondència (una proposició és vertadera si correspon als fets del món), la teoria de la coherència (una proposició és vertadera si és coherent amb el sistema de creences) i la teoria pragmatista (una proposició és vertadera si funciona, si guia l'acció amb èxit)."
+            },
+            {
+              "type": "expandable",
+              "label": "Les tres teories de la veritat en un exemple concret",
+              "content": "Afirmació: «L'aigua bull a 100°C al nivell del mar». Teoria de la correspondència: aquesta afirmació és vertadera perquè correspon a un fet del món físic que podem verificar experimentalment. La veritat és una relació entre el llenguatge i la realitat. Teoria de la coherència: aquesta afirmació és vertadera perquè és coherent amb tot el sistema de la física, la química i la termodinàmica. La veritat és consistència dins d'un sistema. Teoria pragmatista: aquesta afirmació és vertadera perquè ens permet predir i controlar fenòmens amb èxit — cuinar, construir calderes, etc. La veritat és utilitat instrumental. Per a moltes afirmacions científiques, les tres teories coincideixen. El problema apareix amb afirmacions morals, metafísiques o matemàtiques, on les teories divergeixen."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-04-01",
+              "style": "multiple-choice",
+              "question": "Un pragmatista com William James diria que la creença en Déu és vertadera si:",
+              "options": [
+                "Correspon a un ésser real que existeix independentment de les nostres creences.",
+                "És coherent amb el sistema de creences religioses tradicionals.",
+                "Produeix beneficis psicològics i morals per a qui la manté i guia l'acció amb èxit.",
+                "Pot ser demostrada per arguments lògics vàlids."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. James aplica el criteri pragmatista a la religió: si creure en Déu fa una persona millor, més feliç i més capaç d'afrontar la vida, la creença és «verdadera» en el sentit pragmatista — és útil, funciona. Això no implica que Déu existeixi en el sentit de la teoria de la correspondència. James era conscient d'aquesta distinció i la considerava irresoluble; el criteri pragmatista evita la pregunta metafísica.",
+              "feedbackWrong": "James era el principal exponent del pragmatisme filosòfic americà. Per a ell, el criteri de veritat és el funcionament pràctic: una creença és vertadera si guia l'acció amb èxit i produeix bons resultats. En el cas de la religió, si la fe fa una persona millor moralment i més capaç de viure, és «vertadera» en sentit pragmatista, independentment de si Déu existeix 'objectivament'."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-04-02",
+              "style": "detect-error",
+              "statement": "La teoria de la correspondència és la més acceptada pels filòsofs perquè és la més intuïtiva i no planteja problemes filosòfics significatius.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és doble. Primer, la teoria de la correspondència planteja problemes filosòfics seriosos: com accedim als «fets» del món per comparar-los amb les nostres proposicions? L'accés sempre és mediació per conceptes i percepció. Quin és exactament el «fet» al qual correspon «la justícia és important»? Segon, entre els filòsofs professionals la teoria de la correspondència té molts rivals seriosos, i el deflacionisme — la posició que «és veritat que P» no diu res més que «P» — és molt influent en filosofia analítica contemporània."
+            },
+            {
+              "type": "debate",
+              "question": "Existeix la veritat objectiva — independent de qualsevol observador — o tota «veritat» és relativa a un punt de vista, cultura o marc conceptual?",
+              "positionA": {
+                "label": "Veritat objectiva",
+                "argument": "La Terra tenia l'edat que té molt abans que cap humà la calculés. Els dinosaures van existir sense que ningú ho sabés. La realitat és independent de les nostres creences sobre ella. El relativisme porta a l'absurd: si tot és relatiu, també ho és l'afirmació que «tot és relatiu»."
+              },
+              "positionB": {
+                "label": "Veritat perspectivista",
+                "argument": "Tot coneixement és coneixement des d'algun punt de vista, amb algun marc conceptual, en algun context cultural. No tenim accés a la realitat «nua» — sempre la percebem a través de categories i conceptes. Nietzsche: «No hi ha fets, només interpretacions»."
+              },
+              "reflection": "Pots ser perspectivista sobre les ciències socials i les humanitats i realista sobre les ciències naturals? Té sentit aquesta distinció?",
+              "context": "El debat entre realisme i anti-realisme és central en la filosofia de la ciència contemporània. La majoria dels filòsofs de la ciència adopten formes moderades de realisme científic: les teories científiques madures capturen alguna cosa real sobre l'estructura del món, tot i que la nostra comprensió sempre és parcial i revisable."
+            }
+          ]
+        },
+        {
+          "id": "epi-05",
+          "title": "L'epistemologia social: el coneixement és col·lectiu",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La majoria del que saps no ho has après per experiència directa. Saps que la Terra té 4.500 milions d'anys perquè t'ho han dit científics que estudien la radioactivitat de les roques. Saps que els fàrmacs que prens son segurs perquè confies en el sistema d'assaigs clínics. Sabs que hi ha una guerra en curs a l'altra banda del món perquè ho has llegit en un mitjà de comunicació. El coneixement humà és profundament social. I això planteja preguntes que l'epistemologia individual no pot respondre."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'epistemologia social estudia com els éssers humans adquireixen i comparteixen coneixement col·lectivament: la divisió epistèmica del treball, la confiança en el testimoni d'experts, el consens científic i la desinformació com a fenomen social."
+            },
+            {
+              "type": "expandable",
+              "label": "Per quin motiu hauries de confiar en els experts?",
+              "content": "La confiança en els experts no és credulitat irracional: és una estratègia epistèmica racional davant de la divisió del treball cognitiu. Cap individu pot ser expert en tot. Però cal saber en quins experts confiar i per quins motius. Els filòsofs Alvin Goldman i John Hardwig han estudiat les condicions de la confiança epistèmica racional en experts: (1) L'expert ha seguit el procés de formació reconegut en el seu camp. (2) L'expert no té conflictes d'interès evidents. (3) Hi ha consens entre els experts del camp (no un expert dissident). (4) L'expert explica el seu raonament i permet que altres el revisin. Quan aquestes condicions es compleixen, confiar en l'expert és racional; quan no, el dubte és justificat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-05-01",
+              "style": "multiple-choice",
+              "question": "El 97% dels climatòlegs accepten que el canvi climàtic és d'origen humà. Un polític diu: «Jo confio en el 3% de científics dissidents». Des de l'epistemologia social, quina és la posició més racional?",
+              "options": [
+                "La del polític: en ciència, la majoria no té sempre la raó.",
+                "Confiar en el consens del 97%: el consens d'experts format per procés científic és la millor evidència disponible per als no experts.",
+                "Suspendre el judici: no som experts i no podem avaluar el debat tècnic.",
+                "Investigar personalment: llegir els articles originals i decidir."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Confiar en el consens científic és racionalment justificat per als no experts, perquè el consens reflecteix l'avaluació acumulada de milers d'experts que han examinat l'evidència, revisat els arguments i sotmès les seves conclusions a la crítica dels col·legues. El 3% de dissidents pot tenir raó — la minoria ha tingut raó en la història de la ciència — però sense capacitat d'avaluar l'evidència tècnica, el no expert hauria d'exigir raons molt sòlides per apartarse del consens.",
+              "feedbackWrong": "La majoria no té sempre la raó en ciència — és cert. Però el consens científic no és una votació: és el resultat d'un procés d'avaluació creuada per part d'experts formats. Per als no experts, el consens és la millor evidència accessible. Investigar personalment els articles originals requereix una formació que la majoria no té. I suspendre el judici indefinidament quan hi ha consens sòlid és una forma de negació."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-05-02",
+              "style": "true-false",
+              "question": "Confiar en el testimoni d'altres persones per adquirir coneixement és una forma d'irracionalitat epistèmica.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El testimoni és una de les fonts de coneixement més importants i legítimes. Els éssers humans son animals profundament socials i la major part del coneixement s'adquireix per testimoni — de pares, mestres, llibres, científics. El filòsof C.A.J. Coady ha argumentat que refusar el testimoni de manera sistemàtica seria autoderrotador: perdríem la major part del que sabem. La qüestió no és si confiar en el testimoni sinó com avaluar quins testimonis mereixen confiança.",
+              "feedbackWrong": "El testimoni — aprendre de l'experiència i el coneixement d'altri — és una font de coneixement completament legítima i necessària. Sense ella, cada generació hauria de redescobrir tot de zero. La qüestió epistemològica rellevant és avaluar la fiabilitat del testimoni en cada cas, no refusar-lo en general."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-epi-05-01",
+              "question": "Les xarxes socials han democratitzat l'accés al coneixement o han creat un ecosistema on la desinformació prospera tant com la informació verídica?",
+              "options": [
+                "Han democratitzat: ara tothom pot accedir i compartir coneixement sense filtres institucionals.",
+                "Han empitjorat: l'accés sense filtres permet que la desinformació es difongui tant com la veritat.",
+                "Els dos efectes son reals i coexisteixen: el resultat net depèn de com es dissenyin i regulin les plataformes."
+              ],
+              "correct": 2,
+              "explanation": "Les xarxes socials han produït dos efectes simultanis i oposats sobre el coneixement col·lectiu. Per una banda, han democratitzat l'accés: investigadors independents, periodistes ciutadans i comunitats marginades poden ara difondre informació sense dependre de gatekeepers institucionals. Per l'altra, han creat un entorn on els algorismes optimitzen per engagement emocional — i la informació falsa, indignant o sorprenent genera més engagement que la veritat moderada. Estudis del MIT mostren que les fake news es difonen sis vegades més ràpid que les notícies verídiques. L'epistemologia social contemporània estudia com dissenyar institucions i plataformes que maximitzin la producció i difusió de coneixement fiable. La resposta no és tornar als filtres institucionals tradicionals — que tenien els seus propis biaixos — ni acceptar el caos informatiu actual. És un problema de disseny institucional amb dimensions filosòfiques, tècniques i polítiques."
+            }
+          ]
+        },
+        {
+          "id": "epi-06",
+          "title": "Els límits del coneixement",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hi ha coses que simplement no podem saber? No per falta de temps o de recursos — sinó per principi, per la naturalesa del problema o per la naturalesa de la ment humana. El teorema d'incompletud de Gödel diu que en qualsevol sistema formal suficientment complex hi ha veritats que no es poden demostrar des de dins del sistema. El principi d'incertesa de Heisenberg diu que no podem conèixer simultàniament la posició i el moment d'una partícula amb precisió arbitrària. La ment humana, diu Colin McGinn, pot tenir límits cognitius que la fan incapaç de resoldre certs problemes filosòfics."
+            },
+            {
+              "type": "key-idea",
+              "text": "Hi ha límits al coneixement humà de diverses naturaleses: límits pràctics (no tenim prou temps o recursos), límits de principi (la naturalesa del problema ho impedeix, com el principi d'incertesa), i possibles límits cognitius (la ment humana podria ser incapaç de comprendre certes realitats)."
+            },
+            {
+              "type": "expandable",
+              "label": "El teorema d'incompletud de Gödel: hi ha veritats indemostables",
+              "content": "El 1931, Kurt Gödel va demostrar que en qualsevol sistema formal consistent i suficientment ric (com l'aritmètica), hi ha proposicions que son verdaderes però no demostrables des de dins del sistema. Per demostrar-les, cal sortir del sistema — però llavors el nou sistema més gran té les seves pròpies proposicions indemostrables. I així infinitament. Les implicacions son profundes: no existeix cap sistema formal complet i consistent. No podem axiomatitzar tota la matemàtica. I, per alguns, l'ment humana — si és una màquina formal — tampoc no pot accedir a totes les veritats matemàtiques. Roger Penrose argumenta que la ment humana sí pot — la qual cosa demostraria que no és una màquina formal pura."
+            },
+            {
+              "type": "expandable",
+              "label": "Els límits cognitius de la ment humana: el misterianism",
+              "content": "Colin McGinn proposa el «misterianism»: la ment humana és un producte de l'evolució dissenyat per resoldre problemes pràctics de supervivència. Alguns problemes filosòfics — especialment el problema difícil de la consciència — podrien estar per sobre de les capacitats cognitives d'una espècie com la nostra. Un gos no pot entendre la mecànica quàntica: no és prou intel·ligent. Potser els humans no podem entendre com la matèria genera consciència: no tenim el tipus d'intel·ligència necessari. Thomas Nagel afegeix: per comprendre la consciència d'un ratpenat, hauríem de saber «com és ser un ratpenat» — i mai podrem abandonar el nostre punt de vista humà per ocupar el del ratpenat. Hi ha aspectes de la realitat que son inassequibles per a qualsevol ment situada."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "La falsació de Popper i els límits del coneixement científic",
+              "text": "El principi de falsació de Popper defineix un límit metodològic del coneixement científic: una teoria que no pot ser refutada no forma part de la ciència. L'epistemologia i la filosofia de la ciència comparteixen la pregunta pels límits del que podem saber."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-06-01",
+              "style": "multiple-choice",
+              "question": "El teorema d'incompletud de Gödel implica que:",
+              "options": [
+                "Les matemàtiques son inconsistents i plenes de contradiccions.",
+                "Tot sistema formal consistent i suficientment ric conté veritats verdaderes però indemostables des de dins del sistema.",
+                "Els matemàtics no poden estar mai segurs de les seves demostracions.",
+                "La lògica és insuficient per a les matemàtiques i cal substituir-la per la intuïció."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Gödel no demostra que les matemàtiques son inconsistents — demostra que cap sistema formal consistent i suficientment potent pot ser complet. Sempre hi haurà proposicions que son verdaderes però que el sistema no pot demostrar. Això no invalida les matemàtiques: demostra que la veritat matemàtica és més rica que qualsevol formalització possible.",
+              "feedbackWrong": "Gödel no posa en dubte la fiabilitat de les demostracions existents ni proposa substituir la lògica. El seu teorema diu quelcom molt específic: en qualsevol sistema formal consistent i prou ric, hi ha proposicions verdaderes que no es poden demostrar dins del sistema. Les matemàtiques son consistents i les seves demostracions son fiables — simplement no poden capturar tota la veritat matemàtica en cap sistema formal únic."
+            },
+            {
+              "type": "reflection",
+              "question": "Hi ha alguna pregunta — filosòfica, científica, personal — sobre la qual creguis que mai podràs tenir una resposta satisfactòria, no per falta d'esforç sinó per la naturalesa del problema? Com convius amb aquesta limitació?",
+              "prompt": "La capacitat de viure confortablement amb la incertesa irresoluble és, per a molts filòsofs, una de les marques del pensament madur."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-epi-06-01",
+              "question": "Si hi ha preguntes que la ment humana no pot respondre per principi, té sentit continuar fent filosofia i ciència?",
+              "options": [
+                "No: si hi ha límits insuperables, els esforços cap a aquelles preguntes son en va.",
+                "Sí: els límits del coneixement son ells mateixos objecte de coneixement valuós, i la majoria de preguntes no estan en la zona límit.",
+                "Depèn: per a les preguntes amb límits identificats, cal redirigir l'esforç; per a les altres, continuar."
+              ],
+              "correct": 1,
+              "explanation": "Conèixer els límits del coneixement és en si mateix un coneixement valuós. El teorema de Gödel, el principi d'incertesa i el misterianism de McGinn son contribucions al coneixement humà, no obstacles. A més, la major part de les preguntes filosòfiques i científiques no estan en la zona límit: hi ha un espai enorme de problemes abordables. La prudència epistèmica — saber fins on arriba el coneixement possible — és una virtut, no una rendició. Wittgenstein ho va formular memorablement: «Sobre allò de que no es pot parlar, cal silenciar-se». No és una invitació al silenci universal: és una invitació a no confondre el soroll amb el coneixement. I la delimitació mateixa del silenci és filosofia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itinerari-coneixement-avui",
+      "title": "Conèixer en el món contemporani",
+      "icon": "🌐",
+      "description": "Com s'aplica l'epistemologia als reptes del coneixement actual: la ciència, la desinformació, la intel·ligència artificial i la identitat.",
+      "style": "Aplicat · dels problemes clàssics als reptes d'avui",
+      "lessons": [
+        {
+          "id": "epi-c01",
+          "title": "Com funciona el coneixement científic?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La ciència és l'empresa col·lectiva de coneixement més exitosa de la història humana. Ha allargat la vida, eradicat malalties, connectat el planeta i revelat l'estructura de l'univers des de les partícules subatòmiques fins a la gran escala còsmica. Però com funciona exactament? Per acumulació gradual de fets? Per grans salts revolucionaris? Per falsació sistemàtica d'hipòtesis? Els filòsofs de la ciència han proposat models molt diferents — i el debat segueix obert."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les tres grans concepcions del mètode científic son: el verificacionisme (la ciència acumula confirmacions), el falsacionisme de Popper (la ciència avança refutant hipòtesis) i el model de Kuhn dels paradigmes i les revolucions científiques."
+            },
+            {
+              "type": "comparison",
+              "title": "Tres models del coneixement científic",
+              "labelA": "Popper: falsacionisme",
+              "labelB": "Kuhn: paradigmes",
+              "items": [
+                {
+                  "label": "Com avança la ciència",
+                  "a": "Proposant hipòtesis audaces i intentant refutar-les",
+                  "b": "Per acumulació dins d'un paradigma i revolucions periòdiques"
+                },
+                {
+                  "label": "Criteri de cientificitat",
+                  "a": "Una teoria és científica si pot ser falsada",
+                  "b": "Una teoria és científica si és acceptada per la comunitat científica del moment"
+                },
+                {
+                  "label": "Progrés científic",
+                  "a": "Lineal: cada refutació ens acosta a la veritat",
+                  "b": "Discontinu: els paradigmes son inconmensurables"
+                },
+                {
+                  "label": "Rol de la comunitat",
+                  "a": "Secundari: la lògica de la falsació és objectiva",
+                  "b": "Central: la comunitat decideix quin paradigma adoptar"
+                },
+                {
+                  "label": "Punt fort",
+                  "a": "Explica per quès les teories bones son refutables",
+                  "b": "Explica per quès els científics resisteixen anomalies"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "La crisi de replicació: quan la ciència no es replica a si mateixa",
+              "content": "El 2015, un equip de 270 investigadors va intentar replicar 100 estudis de psicologia publicats en revistes de prestigi. Només van poder replicar 36-39 dels 100. La crisi de replicació ha sacsejat la psicologia, la medicina i altres camps. Les causes son múltiples: publicar resultats positius és més fàcil que publicar resultats nuls (biaix de publicació), les mostres petites produeixen falsos positius estadístics, la pressió per publicar crea incentius per a pràctiques problemàtiques (HARKing: Hypothesizing After Results are Known). La crisi no invalida la ciència: demostra que el sistema d'autocorreccio funciona, tot i que lentament. I ha produït reformes importants: pre-registre d'hipòtesis, dades obertes, replicació com a criteri de publicació."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-c01-01",
+              "style": "multiple-choice",
+              "question": "Popper afirma que l'astrologia no és ciència. Quin és el seu argument principal?",
+              "options": [
+                "L'astrologia no ha produït cap predicció certa verificable.",
+                "L'astrologia no té prou seguidors en la comunitat científica.",
+                "Les prediccions de l'astrologia son tan vagues que no poden ser falsades: qualsevol resultat és compatible amb elles.",
+                "L'astrologia no usa matemàtiques ni instrumentació científica."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Per a Popper, el problema de l'astrologia no és que les seves prediccions siguin falses — és que son infalsables. «Avui trobaràs un repte que superar» és compatible amb qualsevol dia de qualsevol persona. Una predicció que no pot ser refutada no permet aprendre res. La falsabilitat — la possibilitat de ser refutat — és el que distingeix la ciència de la pseudociència.",
+              "feedbackWrong": "Popper no basa el seu criteri en el nombre de seguidors ni en l'ús de matemàtiques. El seu criteri és la falsabilitat: una teoria és científica si fa prediccions específiques que, si resultessin falses, la refutarien. L'astrologia fa prediccions tan vagues que cap resultat possible les podria refutar — per això no és científica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-c01-02",
+              "style": "true-false",
+              "question": "Segons Kuhn, el canvi de paradigma científic és principalment un procés racional guiat per l'evidència.",
+              "correct": false,
+              "feedbackCorrect": "Fals, i és el punt més controvertit de Kuhn. Ell argumenta que el canvi de paradigma té elements no racionals: implica conversió (no simple convicció per evidència), depèn de factors sociològics (qui té autoritat en la comunitat), i els paradigmes son parcialment inconmensurables (no hi ha terreny comú neutral des del qual comparar-los). Kuhn compara el canvi de paradigma amb una conversió religiosa, la qual cosa va generar una enorme polèmica sobre si la ciència és realment racional.",
+              "feedbackWrong": "Kuhn sosté que els canvis de paradigma no son processos purament racionals guiats per evidència. Impliquen factors sociologics, generacionals i quasi-irracionals. Els científics formats en un paradigma resisteixen les anomalies i rarament abandonen el paradigma per evidència sola: sovint cal que la generació vella mori i la nova, no compromesa amb el paradigma antic, adopti el nou. Això no significa que la ciència no sigui racional — però la seva racionalitat és més complexa del que Popper suggeria."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-epi-c01-01",
+              "question": "La crisi de replicació mostra que molts estudis científics publicats no son reproduïbles. Hauria de reduir la nostra confiança en la ciència?",
+              "options": [
+                "Sí: si la ciència no es pot replicar, no és fiable.",
+                "No: la crisi de replicació demostra que el sistema d'autocorreccio científic funciona.",
+                "Parcialment: cal ser més selectius sobre quin tipus de ciència i quin tipus d'estudis mereixen confiança."
+              ],
+              "correct": 2,
+              "explanation": "La crisi de replicació no és uniforme: afecta molt més la psicologia social que la física, molt més els estudis amb mostres petites que els grans assaigs clínics, molt més els estudis amb un sol experiment que les línies de recerca consolidades. La resposta racional no és ni confiança cega ni desconfiança global: és discriminació. Una metaanàlisi de molts estudis replicats és molt més fiable que un estudi únic amb N=50. Una teoria que prediu resultats nous i els confirma és molt més sòlida que una que s'ajusta post hoc a les dades. La crisi ha millorat la ciència: ha forçat pre-registre, dades obertes i estàndards estadístics més estrictes. La ciència que incorpora autocrítica és més fiable, no menys."
+            }
+          ]
+        },
+        {
+          "id": "epi-c02",
+          "title": "La memòria, la percepció i els seus límits",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Creus que la teva memòria és com una gravació de vídeo — fiel, precisa, recuperable. I creus que la teva percepció et mostra el món tal com és. Però dècades de recerca en psicologia cognitiva mostren que ambdues creences son profundament errònies. La memòria és reconstructiva, no reproductiva. La percepció és una construcció activa, no una recepció passiva. Les implicacions son enormes: per als testimonis en judicis, per a la teva autobiografia, per a la manera com recordes les teves pròpies creences del passat."
+            },
+            {
+              "type": "key-idea",
+              "text": "La memòria humana no és un arxiu fidel del passat: és un sistema reconstructiu que reescriu els records cada vegada que els evoca. La percepció no és una finestra al món: és una construcció activa del cervell que incorpora expectatives, context i coneixements previs."
+            },
+            {
+              "type": "expandable",
+              "label": "Els falsos records: quan recordes el que no va passar",
+              "content": "Elizabeth Loftus ha demostrat experimentalment que és possible implantar records completament falsos en la majoria de les persones. En un experiment clàssic, va mostrar als participants imatges de la seva infància — una d'elles falsa (un passeig en globus aerostàtic que mai no va passar). Un 25% dels participants no sols «recordaven» l'event sinó que n'aportaven detalls específics. En experiments judicials, ha demostrat que la manera de formular una pregunta canvia el record de l'event: «A quina velocitat anaven els cotxes quan es van estavellar?» vs. «quan es van tocar?» produeix estimacions molt diferents. Les implicacions per al sistema judicial son profundes: el testimoni ocular — sovint tractat com a evidència definitiva — és notòriament poc fiable."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-c02-01",
+              "style": "multiple-choice",
+              "question": "La investigació de Elizabeth Loftus sobre la memòria té implicacions directes per a:",
+              "options": [
+                "La indústria de l'entreteniment i la realitat virtual.",
+                "El sistema judicial, especialment el valor del testimoni ocular.",
+                "La filosofia de la identitat personal però no per al dret.",
+                "La neurociència però no per a la epistemologia."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les investigacions de Loftus han transformat la psicologia jurídica. El testimoni ocular — «vaig veure clarament qui ho va fer» — és una de les formes d'evidència més sobreestimades en els sistemes judicials. Centenars de condemnes errònies examinades per el Innocence Project mostren que el testimoni ocular equivocat és la causa més freqüent de condemna injusta. Loftus ha testificat en centenars de judicis per explicar la psicologia de la memòria als jurats.",
+              "feedbackWrong": "La recerca sobre falsos records té implicacions directes per al sistema judicial, on el testimoni ocular sovint és tractat com a evidència definitiva. Les dades mostren que és una de les fonts d'evidència més poc fiables. L'Innocence Project ha documentat centenars de condemnes errònies basades principalment en testimoni ocular incorrecte."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-c02-02",
+              "style": "true-false",
+              "question": "La percepció visual humana és un procés passiu de recepció d'informació del món exterior.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La percepció és un procés actiu i constructiu. El cervell no processa tota la informació visual disponible: fa prediccions sobre el que probablement hi ha i confirma-les o actualitza-les. Les il·lusions òptiques demostren que el cervell construeix activamente la percepció: veus coses que no hi son o no veus coses que hi son, perquè el cervell interpreta en funció d'expectatives i context. Les persones que han estat cegues de naixement i recuperen la visió de grans no «veuen» automàticament: han d'aprendre a percebre, la qual cosa mostra que la percepció és una habilitat apresa, no una recepció passiva.",
+              "feedbackWrong": "La neurociència de la percepció ha demostrat de manera concloent que la percepció és un procés actiu i predictiu, no passiu. El cervell genera models del món i els actualitza amb la informació sensorial entrant. Les il·lusions, els efectes de context i els experiments de privació sensorial ho demostren clarament."
+            },
+            {
+              "type": "debate",
+              "question": "Si la memòria és reconstructiva i poc fiable, hauries de confiar en els teus records autobiogràfics com a base de la teva identitat?",
+              "positionA": {
+                "label": "Sí: son tot el que tenim",
+                "argument": "Tot i ser imperfecta, la memòria autobiogràfica és la base de la continuïtat personal. Som les nostres històries. Una persona sense memòria — com en alguns casos d'amnèsia severa — perd el sentit de qui és. La imperfecció no invalida la funció: els records ens orienten i donen coherència a la vida, fins i tot si son parcialment inexactes."
+              },
+              "positionB": {
+                "label": "Amb precaució: cal humilitat sobre el passat",
+                "argument": "Saber que la memòria és reconstructiva hauria de fer-nos humils sobre la certesa dels nostres records, especialment en conflictes on cadascú recorda el passat d'una manera diferent. Les disputes familiars i les narratives nacionals estan sovint construïdes sobre records selectius i distorsionats."
+              },
+              "reflection": "Pensa en un record important per a la teva identitat. Com sabries si és precís? Importa si no ho és?",
+              "context": "Derek Parfit va argumentar que la identitat personal no requereix continuïtat de memòria: el que importa és la continuïtat psicològica en general. D'altres, com Marya Schechtman, defensen que la narrativa autobiogràfica — per molt construïda que sigui — és constitutiva de la identitat."
+            }
+          ]
+        },
+        {
+          "id": "epi-c03",
+          "title": "El coneixement en l'era de la IA",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Per primera vegada en la història, els éssers humans compartim l'espai epistèmic amb entitats no humanes capaces de produir text, imatges, raonaments i conclusions indistingibles dels humans. La IA generativa planteja preguntes epistemològiques inèdites: Pot una màquina «saber» alguna cosa? Quan una IA genera una afirmació correcta, té coneixement o simplement estadística? I si no té coneixement, podem usar les seves afirmacions com a coneixement nostre?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Els models de llenguatge grans generen text estadísticament plausible, no necessàriament verídic. No «saben» en el sentit de creença justificada vertadera: produeixen patrons lingüístics. Usar les seves afirmacions com a coneixement requereix verificació independent, exactament com qualsevol altra font."
+            },
+            {
+              "type": "expandable",
+              "label": "Pot una màquina tenir coneixement? El test de Turing i els seus límits",
+              "content": "Alan Turing va proposar el 1950 un criteri operacional: si una màquina pot mantenir una conversa indistingible de la humana, hem de tractar-la com a intel·ligent. John Searle va respondre amb l'argument de la Sala Xinesa: imagina un home en una sala que rep símbols xinesos i segueix regles per produir respostes en xinès sense entendre res de xinès. El resultat extern és indistingible d'un parlant natiu, però no hi ha comprensió. Searle argumenta que les màquines fan exactament el mateix: manipulen símbols sense comprendre'n el significat. La IA generativa contemporània sembla confirmar i complicar l'argument de Searle simultàniament: produeix output extraordinàriament convincent, però és difícil determinar si hi ha alguna cosa com la «comprensió» darrere."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-c03-01",
+              "style": "multiple-choice",
+              "question": "L'argument de la Sala Xinesa de Searle pretén demostrar que:",
+              "options": [
+                "Les màquines mai no podran aprendre idiomes humans.",
+                "La manipulació de símbols, per molt sofisticada que sigui, no implica comprensió o significat.",
+                "El test de Turing és un criteri vàlid per a la intel·ligència artificial.",
+                "Les màquines son conscients però d'una manera diferent dels humans."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'argument de Searle és que la sintaxi (manipulació de símbols seguint regles) no és suficient per a la semàntica (comprensió del significat). Un sistema pot processar símbols correctament sense que cap part del sistema «entengui» res. Aplicat a la IA: per molt convincent que sigui el seu output, no demostra comprensió interna.",
+              "feedbackWrong": "L'argument de Searle no és sobre la capacitat d'aprenentatge de les màquines ni sobre la consciència: és sobre la relació entre sintaxi i semàntica. Seguir regles de manipulació de símbols, per molt complex que sigui, no produeix comprensió del significat — igual que seguir una recepta de cuina no implica entendre la química de la cuina."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Introducció a la Filosofia",
+              "moduleEmoji": "🦉",
+              "concept": "El problema difícil de la consciència",
+              "text": "La pregunta de si una IA pot «saber» alguna cosa és inseparable del problema difícil de la consciència que vam veure a Introducció a la Filosofia. Si no sabem quin és el fonament de l'experiència subjectiva humana, tampoc no podem dir amb certesa si les màquines en poden tenir o no."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-epi-c03-01",
+              "question": "Si una IA genera una afirmació correcta i ben justificada, però sense «saber» res, pot ser una font de coneixement per a nosaltres?",
+              "options": [
+                "No: el coneixement requereix una ment que comprengui; les màquines no poden ser fonts de coneixement.",
+                "Sí: una font és fiable si les seves afirmacions son consistentment vertaderes i justificades, independentment de si la font «sap».",
+                "Depèn: la IA pot ser una font de dades però no de coneixement en sentit ple."
+              ],
+              "correct": 1,
+              "explanation": "L'epistemologia del testimoni ens diu que una font és epistèmicament valuosa si és fiable — si les seves afirmacions son consistentment verdaderes. No exigim que la font «sàpiga» en sentit ple: usem termòmetres, GPS i bases de dades com a fonts d'informació fiable sense atribuir-los coneixement. La IA pot funcionar de manera similar, amb una diferència crucial: a diferència d'un termòmetre, la IA pot al·lucinar — generar afirmacions falses amb total confiança. Per tant, la fiabilitat de la IA com a font no és uniforme: depèn del domini, el tipus d'afirmació i la possibilitat de verificació independent. Usar la IA com a font de coneixement requereix saber quan verificar i quan confiar, exactament com amb qualsevol altra font humana o institucional."
+            }
+          ]
+        },
+        {
+          "id": "epi-c04",
+          "title": "Identitat, perspectiva i coneixement situat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Una metgessa negra nota que els manuals de medicina descriuen les malalties principalment en pacients blancs i que els símptomes de l'infart en dones son sistemàticament menys coneguts que en homes. Una persona amb mobilitat reduïda sap coses sobre l'accessibilitat urbana que un urbanista sense discapacitat no pot saber de la mateixa manera. Una persona que ha viscut la pobresa té coneixements sobre la pobresa que cap economista d'elit pot adquirir purament per recerca. La «perspectiva situada» — d'on mires — afecta el que veus."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'epistemologia feminista i l'epistemologia del «standpoint» (perspectiva situada) argumenten que la posició social d'un subjecte — gènere, ètnia, classe, experiència — afecta el que pot conèixer i com ho coneix. Algunes posicions socials donen accés a coneixements que d'altres no tenen."
+            },
+            {
+              "type": "expandable",
+              "label": "Sandra Harding i el «strong objectivity»: com les perspectives marginades milloren el coneixement",
+              "content": "Sandra Harding proposa que les perspectives de grups marginats — dones, classes treballadores, pobles colonitzats — ofereixen un punt de vista epistèmicament privilegiat per a certs problemes. No perquè siguin innatament superiors, sinó perquè qui viu sota una estructura de poder la veu des de baix i des de dalt, mentre que qui la domina sovint no veu l'estructura en absolut. Una dona en un entorn laboral dominat per homes veu tant la perspectiva femenina com la masculina (ha d'aprendre a navegar-la); l'home sovint no veu la perspectiva femenina perquè no la necessita. Harding anomena «objectivitat forta» la que incorpora aquestes perspectives marginades: és més objectiva perquè incorpora més punts de vista, no menys."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-c04-01",
+              "style": "multiple-choice",
+              "question": "L'epistemologia del standpoint argumenta que la posició social d'un subjecte:",
+              "options": [
+                "No afecta el coneixement: el coneixement és objectiu i independent del subjecte.",
+                "Determina completament el coneixement: cada grup social viu en una realitat diferent i incompatible.",
+                "Influeix en el que es pot conèixer i com: certes posicions donen accés a coneixements que d'altres no tenen.",
+                "Invalida el coneixement: tot coneixement és biaix i per tant no és coneixement real."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'epistemologia del standpoint no és relativisme — no diu que tot coneixement és igualment vàlid o que les realitats son incompatibles. Diu que la posició social d'un subjecte (gènere, ètnia, classe, experiència de marginació) afecta l'accés al coneixement: certes posicions permeten veure coses que d'altres no veuen. Això no fa el coneixement arbitrari: fa l'objectivitat més exigent, perquè requereix incorporar més perspectives.",
+              "feedbackWrong": "L'epistemologia del standpoint no és ni objectivisme pur (la posició no afecta el coneixement) ni relativisme radical (tota realitat és incompatible). La seva posició és més matisada: la posició social afecta l'accés epistèmic. Algunes posicions — especialment les marginades — donen visibilitat a estructures que les posicions dominants no veuen perquè no les necessiten veure."
+            },
+            {
+              "type": "debate",
+              "question": "El coneixement personal i viscut (experiential knowledge) mereix el mateix estatus epistèmic que el coneixement científic sistemàtic?",
+              "positionA": {
+                "label": "Sí: el saber viscut és insustituïble",
+                "argument": "Hi ha coses que només es poden saber vivint-les. L'experiència del dolor crònic, de la discriminació, de la pobresa o de la criança no es pot capturar completament per cap estudi extern. Ignorar aquest coneixement empobreix la comprensió i pot portar a polítiques que passen per alt realitats fonamentals."
+              },
+              "positionB": {
+                "label": "No: el rigor metodològic és necessari",
+                "argument": "El coneixement personal és susceptible de biaixos, generalitzacions incorrectes i efectes de selecció. Molt del que creem saber per experiència resulta ser incorrecte quan es contrasta amb dades sistemàtiques. El mètode científic existeix precisament per superar les limitacions del coneixement individual."
+              },
+              "reflection": "Pots pensar en un cas on el coneixement viscut i el científic han entrat en conflicte? Quin dels dos creus que tenia raó — o tenien raó en coses diferents?",
+              "context": "La tensió entre coneixement expert i coneixement viscut és central en debats sobre polítiques de salut, discapacitat, pobresa i justícia. L'ideal seria una integració metodològica que incorpori tots dos tipus de coneixement."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-epi-c04-01",
+              "question": "Si la perspectiva d'on mires afecta el que veus, és possible una objectivitat genuïna en ciències socials i humanitats?",
+              "options": [
+                "No: tota ciència social és ideologia disfressada de coneixement.",
+                "Sí: amb els mètodes correctes, podem eliminar el biaix de perspectiva.",
+                "Parcialment: no podem eliminar la perspectiva, però podem fer-la explícita, incloure múltiples perspectives i usar mètodes que minimitzin els seus efectes."
+              ],
+              "correct": 2,
+              "explanation": "La objectivitat en ciències socials no és l'absència de perspectiva — que és impossible — sinó la gestió explícita i metodològicament rigorosa de les perspectives presents. Les tècniques inclouen: triangulació (usar múltiples mètodes i fonts), reflexivitat (explicitar la posició del investigador i els seus possibles biaixos), peer review per investigadors de perspectives diverses, i recerca participativa amb les comunitats estudiades. La Donna Haraway parla de «coneixements situats»: tot coneixement és des d'algun lloc, però reconèixer-ho és el primer pas cap a una objectivitat més honesta. No és rendició al relativisme: és una forma més sofisticada d'objectivitat que reconeix les seves condicions de producció."
+            }
+          ]
+        },
+        {
+          "id": "epi-c05",
+          "title": "Desinformació i resistència epistèmica",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Vivim en una crisi epistèmica sense precedents. Les tècniques de desinformació son més sofisticades que mai. Les càmeres d'eco fragmenten l'espai informatiu compartit. Els deepfakes fan indistingible el real del fabricat. El negacionisme científic és organitzat i finançat. I la sobreabundància d'informació — infoxicació — fa tan difícil trobar el que és veritat com trobar el que és mentida. Quines eines epistèmiques tenim per resistir?"
+            },
+            {
+              "type": "key-idea",
+              "text": "La resistència epistèmica a la desinformació no és principalment tecnològica sinó cognitiva: requereix comprendre com funciona la desinformació, reconèixer les tècniques de manipulació i desenvolupar hàbits de verificació i pensament crític."
+            },
+            {
+              "type": "expandable",
+              "label": "Les cinc tècniques principals de desinformació",
+              "content": "1. Cherry-picking: seleccionar únicament les dades que confirmen la posició i ignorar les que la refuten. 2. Falsa equidistància: presentar posicions molt asimètriques en evidència com si fossin equivalents (el «debat» entre climatòlegs i negacionistes). 3. Apel·lació a experts alternatius: citar els pocs experts dissidents per donar aparença científica a posicions minoritàries. 4. Desplaçament de la càrrega de la prova: demanar que qui afirma el consens demostri que els dissidents estan equivocats, en comptes d'exigir que els dissidents aportin evidència. 5. Gish gallop: en un debat, llançar tants arguments ràpidament que l'adversari no tingui temps de respondre tots — l'efecte és que sembla que guanya qui més arguments llança."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-c05-01",
+              "style": "multiple-choice",
+              "question": "Un programa de televisió presenta un debat entre un climatòleg que representa el 97% del consens científic i un negacionista que representa el 3% dels científics, donant-los el mateix temps i tractant-los com a iguals. Quina tècnica de desinformació usa?",
+              "options": [
+                "Cherry-picking",
+                "Gish gallop",
+                "Falsa equidistància",
+                "Apel·lació a experts alternatius"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La falsa equidistància presenta com a equivalent en evidència i credibilitat dues posicions que no ho son. Donar el mateix temps i estatus a un representant del 97% del consens i a un representant del 3% dissident crea en el públic la impressió que el debat és 50-50, quan l'evidència és abrumadorament d'un costat. Aquesta tècnica és molt freqüent en la cobertura mediàtica del canvi climàtic, les vacunes i altres temes amb consens científic fort.",
+              "feedbackWrong": "No és cherry-picking (que seria seleccionar dades favorables), ni gish gallop (que seria llançar molts arguments ràpidament), ni apel·lació a experts alternatius (que seria citar dissidents per donar aparença científica). El problema aquí és la presentació de les dues posicions com a equivalents quan no ho son en evidència. Això és falsa equidistància."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-c05-02",
+              "style": "true-false",
+              "question": "El fact-checking — la verificació sistemàtica de fets — és suficient per combatre la desinformació.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La recerca mostra que el fact-checking, tot i ser valuós, té efectes limitats. Les correccions es difonen molt menys que les falsedats originals. Les persones amb creences fermament establertes sovint rebutgen les correccions o les interpreten com a confirmació (backfire effect, tot i que l'evidència d'aquest últim és debatuda). La desinformació efectiva no funciona únicament apel·lant a fets sinó a identitats, emocions i pertinença grupal. El fact-checking aïllat és insuficient: cal complementar-lo amb inoculació (ensenyar a reconèixer les tècniques de desinformació) i intervenció en el disseny de les plataformes.",
+              "feedbackWrong": "El fact-checking és útil però insuficient. La recerca mostra que les correccions de fets rarament canvien les creences ben establertes, especialment quan estan lligades a identitats o pertinença grupal. La desinformació funciona a través de mecanismes emocionals i socials que el fact-checking racional no adreça directament."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una creença que tens sobre un tema complex — política, salut, societat. Quanta de la teva informació sobre aquest tema ve de fonts que podrien tenir incentius per distorsionar-la? Com ho comprovaries?",
+              "prompt": "La pregunta no és si ets manipulat — tots ho som en alguna mesura. La pregunta és si ho saps i qué fas al respecte."
+            }
+          ]
+        },
+        {
+          "id": "epi-c06",
+          "title": "Síntesi: una epistemologia per a la vida",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Has recorregut els fonaments del coneixement, el debat entre racionalisme i empirisme, l'escepticisme, les teories de la veritat, l'epistemologia social, els límits cognitius, el mètode científic, la memòria, la IA, el coneixement situat i la desinformació. Ara la pregunta és la mateixa que al principi, però pots respondre-la amb molt més profunditat: Com saps el que creus saber?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Una epistemologia per a la vida no és un sistema filosòfic tancat: és un conjunt de disposicions — humilitat sobre les pròpies creences, obertura a l'evidència, consciència dels propis biaixos, confiança calibrada en les fonts — que permeten navegar el món amb la millor orientació possible."
+            },
+            {
+              "type": "expandable",
+              "label": "Les sis virtuts epistèmiques per al segle XXI",
+              "content": "1. Humilitat epistèmica: saber fins on arriba el teu coneixement i on comença la ignorància. Usar «sembla que», «l'evidència suggereix», «no estic segur». 2. Calibració: ajustar el grau de confiança en les creences a la força de l'evidència. No tenir la mateixa certesa sobre tot. 3. Obertura a la revisió: estar genuïnament disposat a canviar de creença quan l'evidència ho justifica, no quan la pressió social ho demana. 4. Consciència dels biaixos: reconèixer que tots tenim biaixos cognitius i que afecten el nostre raonament, especialment en temes que ens involucren emocionalment. 5. Confiança discriminada en fonts: saber en qui confiar i per quins motius, distingint entre testimoni fiable i autoritat no justificada. 6. Coratge epistèmic: defensar conclusions ben fonamentades fins i tot quan son impopulars o incòmodes per a la pròpia identitat."
+            },
+            {
+              "type": "comparison",
+              "title": "Creença ben calibrada vs. creença dogmàtica",
+              "labelA": "Creença ben calibrada",
+              "labelB": "Creença dogmàtica",
+              "items": [
+                {
+                  "label": "Davant d'evidència contrària",
+                  "a": "L'examina i actualitza la creença en proporció",
+                  "b": "La descarta o reinterpreta per preservar la creença"
+                },
+                {
+                  "label": "Grau de certesa",
+                  "a": "Proporcional a l'evidència disponible",
+                  "b": "Màxim independentment de l'evidència"
+                },
+                {
+                  "label": "Fonts",
+                  "a": "Diverses, crítiques, incloses les contràries",
+                  "b": "Seleccionades per confirmar el que ja es creu"
+                },
+                {
+                  "label": "Error",
+                  "a": "S'admet i s'usa per aprendre",
+                  "b": "Es nega, minimitza o atribueix a factors externs"
+                },
+                {
+                  "label": "Límits del coneixement",
+                  "a": "Es reconeixen explícitament",
+                  "b": "S'ignoren o es neguen"
+                }
+              ]
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Lògica i Argumentació",
+              "moduleEmoji": "🧩",
+              "concept": "Biaixos cognitius i virtuts epistèmiques",
+              "text": "Les virtuts epistèmiques d'aquest mòdul son el complement filosòfic de les eines de pensament crític del mòdul de Lògica. Les eines diuen com raonar correctament; les virtuts diuen quin tipus de pensador vols ser. Sense les eines, les virtuts son impotents; sense les virtuts, les eines poden usar-se per confirmar biaixos."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-epi-c06-01",
+              "style": "multiple-choice",
+              "question": "Quina és la diferència entre humilitat epistèmica i escepticisme radical?",
+              "options": [
+                "No hi ha diferència: totes dues posicions dubten de tot.",
+                "L'humilitat epistèmica reconeix els límits del coneixement però segueix formant creences calibrades; l'escepticisme radical suspèn tot judici.",
+                "L'humilitat és una virtut moral; l'escepticisme és una posició filosòfica tècnica sense implicacions pràctiques.",
+                "L'escepticisme és més racional que l'humilitat epistèmica perquè exigeix més evidència."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'humilitat epistèmica no paralitza: forma creences, pren decisions i actua, però reconeix que les seves creences podrien estar equivocades i manté obertura a la revisió. L'escepticisme radical — en la seva forma pirrònica — suspèn tot judici i no forma cap creença. L'humilitat és una actitud de mesura dins del coneixement; l'escepticisme radical és una posició sobre la impossibilitat del coneixement.",
+              "feedbackWrong": "La diferència és important i pràctica. L'humilitat epistèmica és compatible amb tenir creences, prendre decisions i actuar: simplement les manté obertes a revisió i calibrades a l'evidència. L'escepticisme radical suspèn tot judici — una posició filosòfica extrema que Hume va reconèixer com a impracticable en la vida quotidiana."
+            },
+            {
+              "type": "reflection",
+              "question": "Al final d'aquest mòdul: quina creença important tens que ara veus diferent? No necessàriament has de canviar-la — però la veus amb més matisos, amb més consciència dels seus fonaments i dels seus límits?",
+              "prompt": "L'epistemologia no canvia el món: canvia la manera com t'hi relaciones. De vegades és suficient."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-epi-c06-01",
+              "question": "Pot una persona ser simultàniament segura de les seves creences i humil sobre la possibilitat d'estar equivocada?",
+              "options": [
+                "No: certesa i humilitat son contradictoris.",
+                "Sí: es pot tenir alta confiança en creences ben fonamentades i reconèixer alhora que podrien ser revisades.",
+                "Depèn del tipus de creença: en ciència, humilitat; en valors personals, certesa."
+              ],
+              "correct": 1,
+              "explanation": "La tensió entre certesa i humilitat és aparent, no real. Pots tenir alta confiança — propera a la certesa — en creences molt ben fonamentades (la Terra és esfèrica, els antibiòtics tracten infeccions bacterianes) i reconèixer simultàniament que el coneixement és falible i revisable en principi. Aquesta posició s'anomena falibilisme: el coneixement és possible, és gradual i és revisable. No és inestabilitat ni debilitat: és l'actitud epistèmica més honesta i, en últim terme, la més forta. Les creences que no admeten cap revisió possible no son fortalesa intel·lectual: son dogmatisme. I les creences que no s'afirmen amb cap convicció no son humilitat: son incapacitat de comprometres amb cap posició. La virtut epistèmica és el punt just entre tots dos extrems — que Aristòtil, com sempre, hauria anomenat el terme mitjà."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "id": "module-XX-arquitectura-01",
+  "title": "Arquitectura 1: L'Arquitectura de l'Ordre",
+  "emoji": "🏛️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "classic",
+      "title": "Dels Grecs a Bizanci",
+      "icon": "🏛️",
+      "description": "Com els antics van inventar un vocabulari arquitectònic que encara avui configura la manera com entenem l'espai, el poder i la bellesa",
+      "style": "Cronològic · dels orígens clàssics a la tardoantiguitat",
+      "lessons": [
+
+        {
+          "id": "arq1-01",
+          "title": "Per Què els Edificis Ens Emocionen",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Entra al Panteó de Roma. Fa gairebé dos mil anys que és dret. El sostre és un disc de formigó de 43 metres de diàmetre amb un forat circular al centre — l'òcul — per on entra l'única llum de l'edifici. Quan el sol es mou, el raig de llum es desplaça lentament per les parets. No hi ha cap altra finestra. Milers de persones que no saben res d'arquitectura entren en aquest edifici i s'aturen. Alguna cosa els passa. La pregunta és: per què?"
+            },
+            {
+              "type": "key-idea",
+              "text": "L'arquitectura és l'únic art que no pots evitar. Pots tancar els ulls davant d'un quadre, sortir d'un concert, deixar un llibre. Però l'espai construït t'envolta, t'orienta, et diu on ets i qui ets. Aprendre a llegir arquitectura no és aprendre un llenguatge nou — és prendre consciència d'un que ja parla constantment al teu cos."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'arquitectura és principalment una qüestió estètica: si un edifici és bonic o lleig depèn del gust personal.",
+              "reality": "L'arquitectura opera sobre el cos i la percepció a través de mecanismes que no són arbitraris: les proporcions, la llum, l'escala, els materials i la seqüència espacial produeixen efectes psicològics documentats que transcendeixen el gust individual. Que no tothom els articulï verbalment no vol dir que no els experimenti.",
+              "why": "La cultura moderna separa art i tècnica, bellesa i funció. L'arquitectura és l'art que refusa aquesta separació: un edifici que no funciona no és mai bonic, i un edifici que és només funcional rarament és plenament arquitectura."
+            },
+            {
+              "type": "expandable",
+              "label": "La neurociència de l'espai: per què el Panteó ens para en sec",
+              "content": "La neurociència de l'arquitectura és un camp emergent que estudia com els espais construïts afecten el cervell. Alguns resultats: els espais amb sostre alt activen associacions de llibertat i pensament abstracte; els espais amb sostre baix activen el pensament concret i la intimitat. La llum natural directa redueix el cortisol (hormona de l'estrès) de manera significativa. La simetria bilateral activa circuits de reconeixement de patrons que el cervell associa amb seguretat. El Panteó combina tots aquests factors: l'escala colossal però perfectament proporcional, l'única font de llum natural al centre geomètric de l'espai, la simetria perfecta. No és casualitat que ens aturi — és el resultat d'una comprensió empírica, acumulada al llarg de segles, de com l'espai afecta la ment humana."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-01-01",
+              "style": "multiple-choice",
+              "question": "El Partenó d'Atenes (447-432 aC) és geomètricament perfecte — o gairebé. Els seus constructors van introduir subtils irregularitats deliberades: les columnes s'inclinen lleugerament cap a l'interior, l'estilobat (la plataforma base) és lleugerament corbat, les columnes dels extrems són una mica més gruixudes. Per quin motiu?",
+              "options": [
+                "Per compensar errors de mesura acumulats durant la construcció",
+                "Per corregir il·lusions òptiques: una línia perfectament recta vista des de lluny sembla lleugerament còncava, i una columna perfectament cilíndrica sembla més prima al centre",
+                "Per motius estructurals: les irregularitats distribueixen millor el pes de la coberta",
+                "Per raons religioses: la perfecció absoluta estava reservada als déus i els mortals no podien aspirar-hi"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Els grecs van descobrir que la geometria perfecta i la percepció perfecta no coincideixen. L'ull humà percep com a lleugerament còncau allò que és recte, i com a estrangulat allò que és cilíndric. Per aconseguir que el Partenó semblés perfectament recte i proporcionat, calia construir-lo amb subtils correccions de la recta perfecta. Aquesta sofisticació tècnica al servei de la percepció és una de les evidències que els grecs no construïen edificis — construïen experiències visuals."
+            ,
+              "feedbackWrong": "Les irregularitats del Partenó no són errors ni solucions estructurals — són correccions òptiques deliberades. Els grecs sabien que l'ull humà distorsiona la geometria perfecta, i van construir una geometria imperfecta per produir una percepció perfecta. És una de les demostracions més antigues que l'arquitectura és l'art de manipular la percepció, no de construir formes abstractament correctes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-01-02",
+              "style": "true-false",
+              "question": "Els grans monuments de l'antiguitat — el Partenó, el Colosseu, les piràmides — eren edificis d'ús públic accessible a tota la població.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La majoria de monuments antics eren espais d'accés restringit o directament inaccessibles per a la majoria de la població. El temple grec era la casa del déu, no un lloc de culte congregacional: els fidels feien rituals a l'exterior, davant de l'altar. L'interior del Partenó era accessible només als sacerdots. Les piràmides eren tombes reials tancades per sempre. El Colosseu era l'excepció: un espai d'espectacle massiu deliberadament accessible. La monumentalitat pública dels edificis antics no era per a l'ús dels ciutadans — era per a la seva contemplació i intimidació.",
+              "feedbackWrong": "La monumentalitat d'un edifici no implica accessibilitat. La majoria de grans monuments antics eren espais simbòlics i rituals amb accés molt restringit. L'arquitectura monumental grega, egípcia i romana parlava a tothom visualment des de fora, però no necessàriament convidava a entrar."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq1-01-01",
+              "question": "Quan diem que un edifici és 'bell', estem fent un judici subjectiu o hi ha criteris objectius de bellesa arquitectònica?",
+              "options": [
+                "Subjectiu: la bellesa arquitectònica depèn de la cultura, el moment històric i el gust personal, i no hi ha criteris universals",
+                "Objectiu: les proporcions matemàtiques com la secció àuria i les relacions harmòniques produeixen bellesa de manera universal i mesurable",
+                "Ni l'un ni l'altre de manera pura: hi ha factors perceptius transculturals que creen preferències compartides, però la seva interpretació i el pes relatiu que s'hi dóna varien significativament entre cultures i èpoques"
+              ],
+              "correct": 2,
+              "explanation": "La investigació transcultural sobre preferències estètiques en arquitectura mostra un panorama complex. Hi ha consistències notables: la preferència per espais amb llum natural, per proporcions que recorden el cos humà, per la complexitat visual moderada (ni massa simple ni massa caòtica). Aquestes consistències suggereixen que alguns aspectes de la percepció estètica estan arrelats en la biologia de la percepció humana. Però la interpretació d'aquestes preferències varia enormement: el que una cultura llegeix com a 'majestuós', una altra ho llegeix com a 'opressor'; el que una època considera 'elegant', una altra considera 'fred'. La secció àuria, malgrat la seva fama, no apareix de manera consistent en els edificis més admirats de la història quan es mesuren rigorosament. La bellesa arquitectònica és una conversa entre factors perceptius compartits i codis culturals variables — ni pura subjectivitat ni pura objectivitat matemàtica."
+            }
+          ]
+        },
+
+        {
+          "id": "arq1-02",
+          "title": "Els Grecs: Quan la Pedra Va Aprendre a Parlar",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Imagina que has de construir un temple per a Atena a l'acròpolis d'Atenes. Tens pedra, fusta i mà d'obra. No tens formigó, no tens acer, no tens cap material que aguanti la tensió. Només la compressió: la pedra aguanta el pes, però no pot ser estirada sense trencar-se. Dins d'aquesta limitació radical, els arquitectes grecs van crear un sistema de proporcions i elements tan coherent i convincent que dos mil cinc-cents anys després seguim construint edificis que se'n recorden."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els ordres arquitectònics grecs — dòric, jònic i corinti — no són simplement estils decoratius. Són sistemes de proporcions integrals on cada element — la columna, el capitell, l'entaulament, el frontó — té una relació matemàtica precisa amb tots els altres. Canviar una part canvia tot el sistema. És una gramàtica, no un vocabulari."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "700 aC",
+                  "title": "Primers temples en pedra",
+                  "text": "Els grecs comencen a construir temples permanents en pedra, substituint les estructures de fusta. Els elements estructurals de la fusta es 'tradueixen' literalment a la pedra."
+                },
+                {
+                  "year": "600 aC",
+                  "title": "Consolidació de l'ordre dòric",
+                  "text": "El temple d'Hera a Olímpia estableix les proporcions del dòric: columnes robustes, capitell simple, serietat austera."
+                },
+                {
+                  "year": "447 aC",
+                  "title": "Inici del Partenó",
+                  "text": "Ictinos i Cal·lícrates comencen el Partenó sota la direcció artística de Fídies. Serà el cim de l'arquitectura dòrica."
+                },
+                {
+                  "year": "421 aC",
+                  "title": "L'Erectèon — l'ordre jònic a l'Acròpolis",
+                  "text": "El temple jònic de l'Acròpolis, amb les seves famoses Cariàtides, mostra el contrast entre la gravetat dòrica i l'elegància jònica."
+                },
+                {
+                  "year": "334 aC",
+                  "title": "Alexandre i l'hel·lenisme",
+                  "text": "L'expansió macedònica difon l'arquitectura grega per tot el Mediterrani oriental. El corinti, més ornamental, es fa dominant."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Per què les columnes gregues imiten la fusta — i per què això importa",
+              "content": "Un dels fets més reveladors de l'arquitectura grega és que molts dels seus elements en pedra són traduccions literals d'estructures originals en fusta. Les tríglifs del fris dòric imiten els caps dels bigues de fusta que sobresortien en els temples originals. Les mètopes eren els espais entre les bigues. El guttae (les petites protuberàncies sota els tríglifs) imiten els claus que subjectaven les bigues. Quan els grecs van passar de construir en fusta a construir en pedra, van mantenir formalment elements que ja no tenien cap funció estructural — perquè havien adquirit una funció simbòlica i estètica. Això és un principi fonamental de l'arquitectura: la forma sobreviu a la funció que la va crear. Dos mil anys després, els arquitectes del Renaixement farien exactament el mateix amb els elements grecs i romans, i els arquitectes neoclàssics del segle XVIII els tornarien a imitar sense que cap d'ells hagués vist mai un temple grec real."
+            },
+            {
+              "type": "comparison",
+              "title": "Els Tres Ordres Grecs",
+              "labelA": "Dòric",
+              "labelB": "Jònic / Corinti",
+              "items": [
+                {
+                  "label": "Origen",
+                  "a": "Grècia continental i colònies occidentals (Magna Grècia)",
+                  "b": "Jònic: Àsia Menor i illes egees. Corinti: derivació del jònic, origen incert"
+                },
+                {
+                  "label": "Caràcter",
+                  "a": "Auster, robust, masculí (segons Vitruvi). Columnes sense base, capitell simple",
+                  "b": "Elegant, refinat, femení (Vitruvi). Jònic: volutes al capitell. Corinti: fulles d'acant"
+                },
+                {
+                  "label": "Proporcions",
+                  "a": "Columna: 4-6 vegades el diàmetre de la base. Fust estriat sense base",
+                  "b": "Columna: 8-9 vegades el diàmetre. Base elaborada. Fust més estilitzat"
+                },
+                {
+                  "label": "Ús paradigmàtic",
+                  "a": "Partenó, temples de Posidó a Sounion, temples de la Magna Grècia",
+                  "b": "Erectèon (jònic), Temple de Zeus Olímpic a Atenes (corinti)"
+                },
+                {
+                  "label": "Herència",
+                  "a": "Roma l'adopta per a edificis de poder sever. Renaixement el reserva per a edificis civils",
+                  "b": "Roma el prefereix per a decoració interior. El corinti es converteix en el favorit dels imperis"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-02-01",
+              "style": "multiple-choice",
+              "question": "L'arquitecte romà Vitruvi (segle I aC) va formular que tota arquitectura ha de tenir tres qualitats: firmitas, utilitas i venustas. Com traduiríem aquests tres principis avui?",
+              "options": [
+                "Solidesa, funcionalitat i bellesa",
+                "Grandesa, utilitat pública i proporció",
+                "Durabilitat, accessibilitat i ornament",
+                "Estructura, circulació i façana"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. Firmitas (solidesa estructural), utilitas (adequació a la funció) i venustas (bellesa) — la tríade de Vitruvi és probablement la formulació més influent de la teoria arquitectònica de tota la història. Ha estat citada, reinterpretada i discutida sense parar durant dos mil anys. El que fa poderosa la formulació no és la seva novetat sinó la seva tensió: els tres principis no sempre coincideixen, i l'arquitectura interessant viu precisament en el conflicte entre ells.",
+              "feedbackWrong": "La tríade de Vitruvi — firmitas, utilitas, venustas — es tradueix com solidesa, funcionalitat i bellesa. És la formulació teòrica més citada de tota la història de l'arquitectura, i el seu poder rau en la tensió entre els tres principis: un edifici pot ser sòlid i funcional però lleig, o bell i funcional però fràgil. L'arquitectura excel·lent els satisfà tots tres simultàniament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-02-02",
+              "style": "true-false",
+              "question": "Els temples grecs eren originalment de marbre blanc nu, sense cap color. El blanc és l'estètica clàssica original.",
+              "correct": false,
+              "feedbackCorrect": "Fals — i és un dels malentesos més persistents de la cultura occidental. Els temples grecs estaven pintats amb colors vius: vermells, blaus, daurats i negres cobriren frisos, capitells i escultures. El Partenó era policromat. L'ideal del 'classicisme blanc' és una invenció del segle XVIII basada en el marbre decolorat pel temps que arqueòlegs i viatgers europeus van trobar a les ruïnes. Winckelmann va codificar la 'noble senzillesa i serena grandesa' del blanc clàssic sense saber que estava descrivint el resultat de dos mil anys d'erosió, no l'original. Les reconstruccions digitals actuals mostren temples que haurien semblat exuberants i quasi barrocos als ulls moderns.",
+              "feedbackWrong": "El marbre blanc dels temples grecs que coneixem avui és el resultat de dos mil anys d'exposició als elements, no l'acabat original. Les anàlisis de pigments han demostrat que els temples estaven pintats amb colors intensos. El 'classicisme blanc' que ha inspirat arquitectura i estètica durant tres segles és una ficció basada en ruïnes decolorades."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en un edifici del teu entorn quotidià que t'agradi o que et desagradi especialment. Intenta descriure per quin motiu concret — no 'és bonic' o 'és lleig', sinó quin element específic produeix aquell efecte en tu.",
+              "prompt": "Escala, llum, materials, proporcions, relació amb l'entorn... Busca el mecanisme concret."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq1-02-01",
+              "question": "Els ordres grecs van sorgir en una cultura específica amb una religió, un clima i uns materials particulars. Té sentit que els seguim usant avui, en contextos completament diferents?",
+              "options": [
+                "Sí — els ordres grecs expressen proporcions i relacions que responen a la percepció humana universal, i per tant transcendeixen el context que els va crear",
+                "No — usar els ordres grecs fora del seu context original és un acte de nostalgia buida que disfressa de tradició la manca d'imaginació",
+                "Depèn de l'ús: els ordres com a sistema de proporcions i relacions entre parts segueix sent una eina vàlida; els ordres com a decoració aplicada sense comprensió del sistema és kitsch arquitectònic"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre la vigència dels ordres clàssics ha dominat l'arquitectura occidental durant cinc segles i continua viu. Els arquitectes del Renaixement van redescobrir els ordres com un sistema de proporcions racional que podien aprendre i adaptar; el resultat va ser arquitectura nova i original que bevia dels clàssics sense copiar-los. Els arquitectes neoclàssics del segle XVIII van intentar reproduir els originals amb fidelitat arqueològica creixent; el resultat va ser més acadèmic i menys viu. El postmodernisme del segle XX va usar fragments d'ordres clàssics de manera irònica i decorativa; el resultat va ser sovint superficial. La distinció clau és entre comprendre un sistema i aplicar-ne el vocabulari: Palladio comprenia els ordres i va crear alguna cosa nova; molts dels seus imitadors simplement col·locaven columnes. Els ordres com a gramàtica de la proporció continuen sent eines vàlides; els ordres com a disfresses d'un passat que no s'ha entès rarament produeixen arquitectura genuïna."
+            }
+          ]
+        },
+
+        {
+          "id": "arq1-03",
+          "title": "Roma: L'Arquitectura del Poder",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Els romans van aprendre dels grecs i després van fer quelcom que els grecs mai havien fet: van dominar l'espai interior. El temple grec és una escultura per ser vista des de fora — l'interior és petit, fosc, inaccessible. El Panteó romà és exactament l'inrevés: la façana és gairebé discreta, però l'interior és un univers. Els romans van inventar el formigó, van dominar l'arc i la volta, i van construir espais interiors d'una escala i complexitat que el món occidental no tornaria a veure fins a la revolució industrial."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'arc i la volta van alliberar l'arquitectura de la tirania de la llinda. Amb la pedra en compressió pura — cada pedra de l'arc empenyent la del costat — es podien cobrir espais enormes sense columnes intermèdies. L'arquitectura romana va ser, abans de qualsevol altra cosa, una revolució estructural."
+            },
+            {
+              "type": "misconception",
+              "belief": "Els romans eren imitadors dels grecs: van copiar els seus ordres i temples sense aportar res original.",
+              "reality": "Els romans van adoptar el vocabulari formal grec però van crear una arquitectura radicalment diferent en escala, programa i experiència espacial. Van inventar o perfeccionar el formigó, la volta de canó, la cúpula, l'arc de triomf, la basílica, el teatre semicircular, les termes públiques i l'aqüeducte. Cap d'aquests tipus existia en l'arquitectura grega.",
+              "why": "La narrativa del 'Roma copia Grècia' és una simplificació que prové de la crítica romana il·lustrada, que admirava tant el model grec que minusvalorava la pròpia tradició. La realitat és que Roma va crear els tipus arquitectònics que van definir l'arquitectura occidental durant dos mil anys."
+            },
+            {
+              "type": "expandable",
+              "label": "El formigó romà: per què els seus edificis encara estan drets i els nostres no ho estaran",
+              "content": "El formigó romà (opus caementicium) és un dels materials de construcció més extraordinaris de la història. Fet de cendres volcàniques (pozzolana), calç i aigua, té una propietat que el formigó modern no té: es fa més fort amb el temps, especialment en contacte amb l'aigua salada. El Panteó, construït fa gairebé dos mil anys, no necessita manteniment estructural. Les estructures modernes de formigó armat tenen una vida útil de 50-100 anys. La recerca moderna ha descobert que les reaccions químiques de la pozzolana continuen creant nous cristalls minerals al llarg dels segles, reparant microfissures de manera autònoma. El secret del formigó romà estava perdut durant gairebé mil cinc-cents anys — fins que geòlegs i enginyers van analitzar mostres submarines de ports romans el 2017 i van identificar el mecanisme. Avui s'investiga activament com incorporar-lo al formigó modern."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-03-01",
+              "style": "multiple-choice",
+              "question": "El Colosseu de Roma (72-80 dC) tenia capacitat per a 50.000-80.000 espectadors i es podia evacuar completament en menys de deu minuts. Quina innovació arquitectònica ho feia possible?",
+              "options": [
+                "Un sistema de rampes exteriors que permetia l'accés simultani a tots els nivells",
+                "Un sistema de 76 entrades numerades (vomitoria) connectades a corredors i escales independents que distribuïen el flux de manera autònoma per cada sector",
+                "La forma el·líptica de l'edifici, que creava una circulació natural sense colls d'ampolla",
+                "La divisió de l'afluència en dos dies consecutius per a grups separats de la població"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Els vomitoria del Colosseu — el nom prové del llatí 'vomere', expel·lir — eren passadissos d'accés que permetien que cada sector de l'amfiteatre tingués la seva pròpia entrada i sortida independent. El sistema era tan eficient que la gestió de multituds del Colosseu no ha estat superada per molts estadis moderns. Els romans van resoldre el problema de la mobilitat de masses en espais tancats amb una sofisticació estructural que els estadis del segle XX haurien de redescobrir.",
+              "feedbackWrong": "La solució romana a la mobilitat de masses no era la forma exterior de l'edifici ni la distribució temporal dels espectadors — era un sistema interior de circulació vertical i horitzontal independent per sectors, amb accesos numerats que permetien a cada espectador trobar el seu seient i evacuar-lo sense interferir amb els altres sectors."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-03-02",
+              "style": "detect-error",
+              "statement": "El Panteó de Roma és notable perquè la seva cúpula de formigó, amb 43,3 metres de diàmetre, va ser la més gran del món durant 1.300 anys, fins que Brunelleschi va construir la cúpula de la catedral de Florència.",
+              "isCorrect": true,
+              "feedbackExplanation": "Correcte. La cúpula del Panteó (completada al voltant del 125 dC sota Adrià) va mantenir el rècord de major cúpula del món durant tretze segles, fins que la de Santa Maria del Fiore de Florència (completada el 1436) la va superar amb 44,9 metres. I la de Florència la va superar per només 1,6 metres, la qual cosa demostra fins a quin punt la cúpula del Panteó ja havia assolit gairebé el límit de l'enginyeria medieval. Cal afegir que Brunelleschi va poder construir la de Florència en part estudiant i mesurant el Panteó: la tradició constructiva romana va sobreviure, en part, en els edificis que Roma havia deixat drets."
+            },
+            {
+              "type": "quote",
+              "text": "Roma no es va construir en un dia, però tampoc va caure en un dia. Va trigar segles en ser construïda i segles en ser absorbida per les ruïnes que la van deixar.",
+              "author": "Henri Lefebvre, La Production de l'Espace, 1974"
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq1-03-01",
+              "question": "Roma va construir una xarxa d'aqüeductes, clavegueres, fondes, temples i fòrums per tot l'Imperi. Aquesta arquitectura d'infraestructura era una forma de dominació o de civilització?",
+              "options": [
+                "De dominació: les infraestructures romanitzaven les poblacions conquistades i creaven dependències econòmiques i culturals que consolidaven el control imperial",
+                "De civilització: les infraestructures milloraven objectivament la qualitat de vida de les poblacions i el seu benefici era real independentment de la motivació política",
+                "Les dues coses eren inseparables: la infraestructura romana millorava la vida i consolidava el poder simultàniament, i intentar separar els dos efectes és una distinció anacrònica que Roma no hauria entès"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre si Roma 'civilitzava' o 'dominava' les poblacions conquistades és un dels més vells de la historiografia occidental, i continua viu perquè cap de les dues posicions és completament satisfactòria. Les infraestructures romanes — aqüeductes, clavegueres, calçades, forums — van millorar objectivament la salut pública, la mobilitat i l'economia de les regions on es van construir. Però es van construir amb treball forçat o tributari de les poblacions locals, van imposar models urbans i religiosos romans, i van crear dependències que feien la resistència econòmica molt difícil. La història posterior dels imperis colonials europeus va repetir exactament el mateix patró — 'portem infraestructures i civilització' — amb les mateixes ambigüitats. La qüestió no és si les infraestructures tenien valor real (el tenien) sinó a quin preu i per a qui. Roma va entendre que el control durador requereix que els dominats percebin el domini com a benefici — i l'arquitectura pública era el seu instrument principal per crear aquesta percepció."
+            }
+          ]
+        },
+
+        {
+          "id": "arq1-04",
+          "title": "La Cúpula i el Cel: Arquitectura Sagrada Antiga",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hi ha un moment en l'arquitectura antiga en que l'edifici deixa de ser un lloc i es converteix en una cosmologia. El Panteó no és simplement un temple rodó amb un forat al sostre — és un model de l'univers: la planta circular representa la terra, la cúpula representa el cel, i l'òcul és el sol. Entrar-hi és entrar en el cosmos. Quan el pensament cristià va heretar aquest espai conceptual, va crear la catedral. Però la llavor era romana i, abans, grega."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'arquitectura sagrada antiga no és la decoració del culte — és el culte mateix. La forma de l'edifici, la seva orientació, la seva escala, la manera en que la llum hi entra: tots aquests elements no il·lustren una teologia, la construeixen. L'experiència de l'espai sagrat és inseparable de l'experiència religiosa que pretén facilitar."
+            },
+            {
+              "type": "prediction",
+              "question": "Has entrat alguna vegada en un espai — religiós o no — i has sentit que alguna cosa canviava en tu? Intenta recordar quin element específic de l'espai va produir aquell efecte.",
+              "hint": "Pot ser la llum, el silenci, l'escala, la temperatura, l'olor, la relació entre l'espai i el teu cos. Busca el factor concret."
+            },
+            {
+              "type": "expandable",
+              "label": "L'orientació dels temples: per què tots miren a l'est",
+              "content": "La majoria de temples de l'antiguitat — grecs, romans, egipcis, mesopotàmics — estan orientats cap a l'est, cap al sol naixent. La raó no és purament simbòlica: en molts temples, la porta d'entrada s'obria cap a l'est de manera que, en dies específics del calendari religiós (sovint els equinoccis o solsticis), el raig de sol a l'alba il·luminava directament l'estàtua del déu a l'interior. El temple era un instrument astronòmic de precisió, dissenyat per produir un efecte lumínic específic en un moment específic de l'any. Stonehenge, el Temple d'Abu Simbel, el Partenó i la basílica de Sant Pere de Roma comparteixen variants d'aquest principi. L'arquitectura sagrada antiga no separava la funció ritual de la funció astronòmica — eren la mateixa cosa."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-04-01",
+              "style": "multiple-choice",
+              "question": "El Panteó va ser construït com a temple dels déus romans i posteriorment, al segle VII, convertit en església cristiana. Quin efecte va tenir aquesta reconversió en la seva supervivència?",
+              "options": [
+                "Va amenaçar la seva integritat: els cristians van modificar l'interior per adaptar-lo al culte i van destruir elements originals",
+                "Va ser indiferent: l'edifici hauria sobreviscut igualment com a monument pagà donat el respecte romà per l'antiguitat",
+                "Va ser decisiu per a la seva supervivència: la reconversió en església el va protegir del saqueig i l'abandó que van destruir la majoria d'edificis pagans romans",
+                "Va ser negatiu a curt termini però positiu a llarg termini: els cristians el van danyar inicialment però el van mantenir posteriorment"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La paradoxa de la conservació del Panteó és que el seu millor protector va ser la religió que havia substituït la seva funció original. El papa Bonifaci IV el va consagrar com a església el 609 dC, i des d'aleshores va tenir una comunitat de fidels i sacerdots interessats en el seu manteniment. Mentre la majoria de temples romans eren sacsejats per obtenir-ne el marbre i el bronze — el Colosseu va ser usat com a pedrera durant segles — el Panteó va sobreviure intacte. La conversió en espai sagrat cristià va ser la seva millor pòlissa d'assegurança.",
+              "feedbackWrong": "El factor clau en la supervivència del Panteó no va ser el respecte romà per l'antiguitat — que rarament protegia edificis pagans de ser usats com a pedreres — sinó la seva reconversió en espai sagrat cristià el 609 dC. Tenir una congregació que en cuidava el manteniment va ser la diferència entre la supervivència i la desaparició."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-04-02",
+              "style": "true-false",
+              "question": "L'òcul del Panteó — el forat circular de 8,7 metres de diàmetre al cim de la cúpula — deixa entrar la pluja a l'interior de l'edifici.",
+              "correct": true,
+              "feedbackCorrect": "Cert. L'òcul del Panteó és un forat obert, sense vidre ni cap tancament. Quan plou, l'aigua entra a l'interior. El paviment original té un lleuger bombeig cap al centre i vint-i-dos petits desaigüos dissimulats que drenaven l'aigua. Els romans no van tapar l'òcul perquè era intencionat: la connexió directa amb el cel — la llum, l'aire, ocasionalment la pluja — era part essencial de l'experiència espacial i simbòlica de l'edifici. El Panteó respira.",
+              "feedbackWrong": "Sí, la pluja entra al Panteó. El paviment és lleugerament inclinat cap al centre i té desaigüos antics que encara funcionen. L'òcul no va ser mai tapats: la connexió oberta amb el cel era un element intencionat del disseny, no un problema pendent de solució."
+            },
+            {
+              "type": "debate",
+              "question": "Els grans monuments de l'antiguitat haurien de ser retornats als països on es troben originalment, o és legítim que es conservin als museus europeus on molts van anar al segle XIX?",
+              "positionA": {
+                "label": "Han de ser retornats — pertanyen al seu context",
+                "argument": "Els marbres del Partenó, els obeliscs egipcis de Roma i París, els frises de Pèrgam a Berlín: van ser extrets en condicions colonials o de domini imperial. El seu valor cultural és inseparable del seu context original. Retornar-los no és una qüestió de generositat — és una qüestió de justícia cultural i de reparació d'un saqueig sistemàtic."
+              },
+              "positionB": {
+                "label": "Poden quedar-se — la conservació és universal",
+                "argument": "Els grans museus europeus han conservat peces que haurien estat en perill en els seus llocs d'origen — guerres, inestabilitat política, recursos de conservació insuficients. El patrimoni de la humanitat beneficia tota la humanitat allà on es troba. La lògica del retorn portada a l'extrem buidaria els grans museus del món i fragmentaria col·leccions que il·lustren connexions entre cultures."
+              },
+              "reflection": "Si els marbres del Partenó fossin catalans i estiguessin al British Museum, canviaria la teva posició?",
+              "context": "El debat sobre la restitució del patrimoni cultural és un dels més actius en la política cultural internacional. El 2023, el British Museum va anunciar negociacions per a un possible préstec a llarg termini dels Marbres del Partenó a Grècia. Alemanya ha retornat peces de bronze nigerià. França ha legislat per permetre restitucions. El debat legal i moral continua obert."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq1-04-01",
+              "question": "L'arquitectura sagrada antiga produïa experiències espirituals genuïnes o simplement manipulava la percepció dels fidels a través de recursos tècnics?",
+              "options": [
+                "Manipulava la percepció: escala, llum i orientació eren instruments de control psicològic al servei del poder sacerdotal i polític",
+                "Produïa experiències genuïnes: la qualitat de l'experiència espiritual no depèn de si els seus mecanismes són tècnics o sobrenaturals",
+                "La pregunta pressuposa una oposició falsa: que l'experiència sigui produïda per mecanismes tècnics i que sigui genuïna no es contradiu — l'experiència és real independentment del seu mecanisme"
+              ],
+              "correct": 2,
+              "explanation": "La dicotomia entre 'manipulació' i 'experiència genuïna' és una trampa conceptual. Tota experiència humana — incloent les espirituals — és produïda per mecanismes físics i psicològics. Que el raig de sol a l'alba il·lumini l'estàtua del déu perquè l'arquitecte va calcular l'angle no fa l'experiència menys real per a qui la viu. El mateix argument s'aplica a la música: saber que una cadència perfecta activa circuits de recompensa al cervell no destrueix el plaer d'escoltar-la. Els espais sagrats antics eren, simultàniament, instruments de poder sacerdotal i entorns que produïen experiències psicològiques reals i profundes. Negar la primera dimensió és naïf; negar la segona és reduccionista. La tensió entre les dues és precisament el que els fa fascinants."
+            }
+          ]
+        },
+
+        {
+          "id": "arq1-05",
+          "title": "Bizanci: Quan la Llum Es Va Fer Arquitectura",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 27 de desembre del 537, l'emperador Justinià va entrar a la basílica de Santa Sofia de Constantinoble — acabada de construir en cinc anys i deu mesos — i va dir: 'Salomó, t'he superat.' No era vanitat imperial — era la consciència de que s'havia aconseguit quelcom sense precedents. Una cúpula de 31 metres de diàmetre suspesa sobre una sala de planta quadrada, aparentment flotant en l'aire, il·luminada per quaranta finestres a la seva base. Els seus contemporanis van escriure que semblava 'suspesa del cel per una cadena d'or'."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'arquitectura de Bizanci va fer quelcom que cap tradició anterior havia aconseguit: va desmaterialitzar l'estructura. On l'arquitectura grega i romana celebrava el pes de la pedra i la solidesa de la massa, l'arquitectura bizantina va usar la llum per fer desaparèixer els murs. L'experiència de Santa Sofia no és la de ser dins d'un edifici — és la de ser suspès en un espai de llum."
+            },
+            {
+              "type": "expandable",
+              "label": "Com és possible que la cúpula de Santa Sofia sembli flotar",
+              "content": "La impressió de que la cúpula de Santa Sofia flota en l'aire és un efecte deliberat i extraordinàriament sofisticat. A la base de la cúpula, una corona de quaranta finestres deixen entrar la llum directament sobre la superfície del tambor — la zona de transició entre la cúpula i els murs. El resultat és que quan mires cap amunt, la base de la cúpula brilla tant que no pots veure on s'acaba la llum i on comença la pedra. La cúpula sembla separada dels murs, flotant. Però hi ha una paradoxa estructural: la cúpula és enormement pesada i les forces que genera s'han de transmetre als murs. Els arquitectes Antemi de Tral·les i Isidor de Milet van resoldre-ho amb un sistema de semicúpules que absorbien les empentes laterals i les redirigien cap als contraforts exteriors, invisibles des de l'interior. L'experiència d'ingravidesa és l'efecte de quelcom que és, estructuralment, un sistema d'equilibri de forces extremadament complex."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "330",
+                  "title": "Fundació de Constantinoble",
+                  "text": "Constantí estableix la nova capital imperial a Bizanci. Comença la construcció de les primeres basíliques paleocristianes."
+                },
+                {
+                  "year": "527-565",
+                  "title": "Regnat de Justinià",
+                  "text": "El gran programa de construcció bizantí. Santa Sofia (532-537), l'església dels Sants Sergi i Bacus, i centenars d'esglésies per tot l'Imperi."
+                },
+                {
+                  "year": "537",
+                  "title": "Inauguració de Santa Sofia",
+                  "text": "La gran cúpula és la més gran del món després del Panteó. Resta catedral cristiana fins al 1453."
+                },
+                {
+                  "year": "1453",
+                  "title": "Conquesta otomana — Santa Sofia es fa mesquita",
+                  "text": "Mehmed II converteix Santa Sofia en mesquita. S'afegeixen els minarets. Els mosaics cristians es cobreixen però no es destrueixen."
+                },
+                {
+                  "year": "1934",
+                  "title": "Museu — i de nou mesquita el 2020",
+                  "text": "Atatürk la converteix en museu. El 2020, el govern turc la reconverteix en mesquita activa, reobrint un debat sobre el patrimoni compartit."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-05-01",
+              "style": "multiple-choice",
+              "question": "L'arquitectura bizantina va substituir les columnes estructurals romanes pels murs de maó massissos, però els va recobrir de mosaics de tesserae daurades. Quin efecte perseguia aquest recobriment?",
+              "options": [
+                "Protegir el maó de la humitat i les variacions de temperatura",
+                "Crear una superfície que no tenia profunditat ni textura pròpia, transformant els murs en superfícies de llum pura que dissolien la materialitat de l'estructura",
+                "Il·lustrar escenes bíbliques per a una població majoritàriament analfabeta que no podia llegir les escriptures",
+                "Demostrar la riquesa imperial a través de materials preciosos visibles per a tots els fidels"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les tesserae daurades dels mosaics bizantins no eren simplement decoratives — eren un dispositiu de desmaterialització. L'or no reflecteix la llum de manera especular (com un mirall) sinó de manera difusa, creant una superfície que sembla emanar llum pròpia. Quan els murs d'una església bizantina estan recoberts de mosaic daurat, no veus un mur — veus una superfície lluminosa sense gruix ni profunditat. La pedra desapareix. L'experiència espiritual buscada era la de ser envoltat de llum divina, no de matèria pesada.",
+              "feedbackWrong": "Encara que els mosaics tenien funcions narratives i de representació del poder, el seu efecte arquitectònic central era la desmaterialització dels murs. La tria de l'or no era casual: l'or daurat crea una llum difusa que elimina visualment la textura i el pes dels murs. L'arquitectura bizantina buscava que l'espai sembli fet de llum, no de pedra."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-05-02",
+              "style": "true-false",
+              "question": "Santa Sofia de Constantinoble ha estat consecutivament catedral cristiana, mesquita islàmica i museu, i les seves transformacions han destruït les capes anteriors de manera irreversible.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Una de les característiques més extraordinàries de Santa Sofia és la superposició de capes culturals que coexisteixen sense haver-se destruït completament. Els mosaics cristians van ser coberts de guix per als musulmans, però no picats — i van ser restaurats al segle XX. Les inscripcions àrabs afegides pels otomans coexisteixen avui amb les imatges de Crist i la Verge. L'edifici és un palimpsest de cultures que s'han succeït sense borrar completament l'anterior. Que el 2020 es tornés a usar com a mesquita ha reobert el debat sobre quina capa és 'l'autèntica', la qual cosa demostra que la pregunta sobre el patrimoni cultural no té una resposta neutral.",
+              "feedbackWrong": "Santa Sofia és un cas notable de coexistència de capes culturals. Els mosaics cristians van ser coberts però no destruïts; les afegidures islàmiques es van fer sense eliminar l'estructura bizantina. L'edifici és avui un arxiu físic de la història de dues religions i dos imperis, superposats i parcialment visibles simultàniament."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq1-05-01",
+              "question": "Santa Sofia ha estat catedral, mesquita i museu. Avui torna a ser mesquita activa. Hauria de ser un museu neutral, accessible a tothom sense funció religiosa activa?",
+              "options": [
+                "Sí — el seu valor com a patrimoni de la humanitat és superior al seu valor com a espai religiós d'una tradició particular",
+                "No — els espais religiosos vius tenen una dignitat pròpia que cap decisió exterior hauria de poder eliminar; la comunitat musulmana de Turquia té dret a usar-lo",
+                "La pregunta no té resposta universal: implica un conflicte genuí entre el dret de les comunitats religioses a l'espai sagrat, el dret de la humanitat al patrimoni cultural compartit, i la sobirania dels estats sobre els seus monuments — i cap dels tres principis pot anul·lar completament els altres dos"
+              ],
+              "correct": 2,
+              "explanation": "El cas de Santa Sofia és el cas de prova perfecte per a les tensions irresolubles del patrimoni cultural. La UNESCO la va declarar Patrimoni de la Humanitat el 1985 precisament pel seu valor transcultural — és un monument que pertany simultàniament a la tradició cristiana, islàmica i a la història de la humanitat en general. La reconversió en mesquita activa el 2020 va generar protestes d'Grècia, l'Església Ortodoxa, la Unió Europea i la UNESCO, i defenses fermes del govern turc i de bona part del món islàmic. Cap posició és absurda: la sobirania turca sobre el seu territori, el dret de les comunitats musulmanes a espais de culte significatius, i l'interès universal en la preservació d'un patrimoni irrepetible són tots principis legítims. El que il·lustra el cas és que el concepte de 'patrimoni de la humanitat' és una construcció jurídica i moral que no té mecanismes d'imposició quan entra en conflicte amb la sobirania estatal i els drets religiosos. La tensió és real i no té solució fàcil."
+            }
+          ]
+        },
+
+        {
+          "id": "arq1-06",
+          "title": "L'Herència Clàssica: Per Què Encara Construïm Amb Columnes",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El Parlament Europeu d'Estrasburg té columnes. El Museu Nacional d'Art de Catalunya té columnes. La Casa Blanca té columnes. El Tribunal Suprem dels Estats Units té columnes. Cap d'aquests edificis necessita columnes estructuralment — tots podrien ser construïts amb formigó armat o acer sense cap element clàssic visible. Les columnes estan allà per dir alguna cosa. La pregunta és: avui, després de dos segles de modernitat arquitectònica, saben encara el que diuen?"
+            },
+            {
+              "type": "key-idea",
+              "text": "El classicisme arquitectònic és el sistema de referències visuals més persistent de la cultura occidental. No és simplement nostalgia — és un codi que associa certes formes amb certs valors: permanència, autoritat, racionalitat, civilització. Usar-lo o rebutjar-lo és sempre una decisió política, no només estètica."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'arquitectura neoclàssica és conservadora per definició, i l'arquitectura moderna és progressista per definició.",
+              "reality": "El nazisme i el feixisme van usar el classicisme monumental com a estètica del poder, però també ho va fer la democràcia americana i el republicanisme francès. L'arquitectura moderna del Moviment Internacional va ser adoptada per règims autoritaris com a símbol de modernitat i per democràcies liberals com a símbol de ruptura amb el passat. L'associació entre estil i ideologia és sempre contingent, no necessària.",
+              "why": "La crítica modernista del segle XX va construir una narrativa en que la ruptura formal era equivalent a la ruptura política. Però l'arquitectura no és ideologia automàtica: el mateix estil ha servit oposats polítics en moments diferents."
+            },
+            {
+              "type": "comparison",
+              "title": "El Classicisme com a Eina Política",
+              "labelA": "Classicisme democràtic",
+              "labelB": "Classicisme autoritari",
+              "items": [
+                {
+                  "label": "Exemple",
+                  "a": "Capitoli de Washington (1793), Parlament britànic (1840)",
+                  "b": "Nova Cancelleria del Reich de Speer (1938), EUR de Roma mussoliniana (1938-42)"
+                },
+                {
+                  "label": "Missatge buscat",
+                  "a": "Continuïtat amb la democràcia republicana de Roma i Grècia; legitimitat de les institucions",
+                  "b": "Grandesa imperial, superioritat racial o nacional, eternitat del règim"
+                },
+                {
+                  "label": "Escala",
+                  "a": "Monumental però proporcional a la funció institucional",
+                  "b": "Deliberadament colossal per intimidar i emmudir l'individu"
+                },
+                {
+                  "label": "Herència",
+                  "a": "El classicisme institucional occidental continua viu en tribunals, parlaments i universitats",
+                  "b": "El colossal feixista va quedar associat al totalitarisme i va ser rebutjat després de 1945"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-06-01",
+              "style": "multiple-choice",
+              "question": "Albert Speer, l'arquitecte d'Hitler, va dissenyar la 'Welthauptstadt Germania' — la capital mundial que Berlín havia de ser després de la victòria nazi. Els edificis centrals haurien tingut entre 300 i 400 metres d'alçada, moltes vegades la mida del Partenó. Quin era el propòsit específic d'aquesta escala extrema?",
+              "options": [
+                "Demostrar superioritat tecnològica sobre els aliats mitjançant l'enginyeria de grans estructures",
+                "Crear una experiència d'anihilació de l'individu davant del poder col·lectiu de l'Estat i la raça, fent que qualsevol persona que hi passés se sentís insignificant",
+                "Crear espais funcionals per a les masses de treballadors i funcionaris que la capital mundial requeriria",
+                "Superar els monuments romans en grandesa per establir una continuïtat simbòlica amb l'Imperi"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Speer va articular explícitament el principi de la 'teoria de la ruïna': els edificis del Reich havien de ser dissenyats pensant en com quedarien com a ruïnes mil anys després, per impressionar les generacions futures com les ruïnes romanes impressionaven els contemporanis. Però l'escala extrema tenia també un propòsit immediat: reduir l'individu a la seva insignificança davant del poder col·lectiu del Volk i l'Estat. L'arquitectura nazi era deliberadament intimidatòria — el contrari de la mesura humana que definia la tradició grega que pretenia continuar.",
+              "feedbackWrong": "L'escala dels edificis de Germania no era funcional ni simplement simbòlica en termes de prestigi — era psicològicament calculada per produir la sensació d'anihilació de l'individu davant del poder de l'Estat. Speer ho va descriure explícitament: l'arquitectura havia de fer sentir a l'individu petit i el col·lectiu gran. Era l'oposat de la mesura humana que havia definit l'arquitectura grega."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-arq1-06-02",
+              "style": "detect-error",
+              "statement": "Després de la Segona Guerra Mundial, el classicisme arquitectònic va ser abandonat completament a tot Occident per la seva associació amb el totalitarisme, i l'arquitectura moderna es va convertir en l'estil universal de les democràcies.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta afirmació simplifica de manera significativa una realitat molt més complexa. Cert: el modernisme arquitectònic es va convertir en l'estil dominant del període 1945-1970 a Occident, en part per la seva associació amb la reconstrucció i la ruptura amb el passat. Però el classicisme no va desaparèixer: els Estats Units van continuar construint institucions públiques en estil neoclàssic durant dècades, el Regne Unit va mantenir una tradició classicista vigorosa, i el postmodernisme dels anys 70-80 va recuperar elements clàssics de manera explícita i programàtica. D'altra banda, el modernisme no era exclusiu de les democràcies: la Unió Soviètica, Cuba i molts règims del Tercer Món van adoptar l'arquitectura moderna com a símbol de progrés i modernitat. L'associació entre estil i sistema polític no és mai tan neta com les narratives simplificadores suggereixen."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "History and Language of Painting",
+              "moduleEmoji": "🎨",
+              "concept": "El classicisme com a referent persistent en l'art occidental",
+              "text": "La mateixa tensió entre herència clàssica i ruptura moderna que travessa la història de l'arquitectura apareix en la pintura occidental: del Renaixement al neoclassicisme de David, del romanticisme a l'impressionisme, el diàleg amb l'antiguitat ha estat constant. Entendre com l'arquitectura ha usat i transformat el llegat clàssic ajuda a llegir el mateix procés en les altres arts."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-arq1-06-01",
+              "question": "Avui, quan un govern tria construir el seu parlament o tribunal suprem en estil clàssic, és una elecció legítima o una apropiació d'un codi visual que hauria quedat compromès pel seu ús totalitari?",
+              "options": [
+                "És una elecció legítima: els significats dels estils arquitectònics no són fixos i el classicisme democràtic té una tradició pròpia independent del seu ús totalitari",
+                "És problemàtica: el classicisme monumental va ser tan sistemàticament usat per règims totalitaris que la seva associació amb el poder autoritari no es pot ignorar",
+                "Depèn del context específic: l'escala, la funció, la ubicació i el moment polític determinen si un edifici clàssic transmet autoritat democràtica o intimidació autoritària — i la distinció no sempre és clara"
+              ],
+              "correct": 2,
+              "explanation": "Els significats arquitectònics no resideixen en els estils abstractes sinó en la seva realització concreta i el seu context. Un edifici judicial de proporcions humanes, integrat en el teixit urbà, llegible en la seva funció, pot usar elements clàssics per comunicar permanència i imparcialitat de la llei sense connotacions totalitàries. Un edifici governamental de mides colossals, aïllat en una esplanada buida, que redueix el visitant a la seva insignificança, pot usar els mateixos elements clàssics per comunicar poder intimidatori. La diferència no és en el repertori formal sinó en l'escala, les proporcions relatives a l'ésser humà, la relació amb l'entorn i la funció que l'edifici exerceix. La dificultat és que aquesta distinció requereix una educació visual que la majoria dels ciutadans no té — i els arquitectes, promotors i polítics ho saben. L'arquitectura del poder ha estat sempre, en part, un codi llegit per uns pocs i sentit per tots."
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

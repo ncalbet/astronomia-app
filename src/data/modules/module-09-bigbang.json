@@ -1,0 +1,828 @@
+{
+  "id": "module-09-bigbang",
+  "title": "El Big Bang i l'origen de l'univers",
+  "emoji": "💥",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "historia-idea",
+      "title": "La història de la idea",
+      "forWho": "Vol seguir el fil humà: els científics, les disputes i com una idea revolucionària es va imposar",
+      "icon": "📖",
+      "description": "Com vam passar de creure en un univers etern a descobrir que té un origen — i qui s'hi va resistir",
+      "style": "Històric · del debat a la confirmació",
+      "lessons": [
+        {
+          "id": "bb-01",
+          "title": "L'univers sempre ha existit?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant mil·lennis, la resposta va semblar òbvia: l'univers sempre ha existit. No tenia sentit preguntar 'abans de l'univers' perquè el temps mateix formava part de l'univers. Aristòtil ho argumentava filosòficament. Newton ho donava per descomptat. Fins i tot Einstein, quan les seves pròpies equacions predien un univers en canvi, va manipular-les per forçar un univers estàtic. La idea d'un univers amb un inici semblava massa semblant a una creació religiosa per ser científicament respectable."
+            },
+            {
+              "type": "prediction",
+              "question": "Si l'univers s'expandeix, i poses el temps en marxa enrere, on arribes? Qué implica que l'expansió regressiva tingui un límit?",
+              "hint": "Pensa en el que passa quan comprimeixes tot l'univers observable fins a un punt."
+            },
+            {
+              "type": "key-idea",
+              "text": "Si l'univers s'expandeix avui, en el passat era més petit, més calent i més dens. Extrapolant enrere, tot l'univers observable hauria ocupat un volum infinitament petit fa uns 13.800 milions d'anys. A això en diem Big Bang — no una explosió en l'espai, sinó l'expansió de l'espai mateix des d'un estat inicial extrem."
+            },
+            {
+              "type": "misconception",
+              "belief": "El Big Bang va ser una explosió que va ocórrer en algun punt de l'espai — com una bomba que esclata enmig del buit.",
+              "reality": "El Big Bang no va ser una explosió en l'espai: va ser l'expansió de l'espai mateix. No hi havia un 'lloc' on ocorregués — l'espai no existia abans. Cada punt de l'univers era l'origen. Avui, si mires en qualsevol direcció, veus galàxies allunyant-se — no perquè s'allunyin a través de l'espai, sinó perquè l'espai entre nosaltres i elles s'allarga.",
+              "why": "La paraula 'explosió' evoca una detonació localitzada en un espai preexistent. Però en el Big Bang, l'espai i el temps sorgeixen amb l'esdeveniment — no hi havia contenidor previ."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-01-01",
+              "style": "multiple-choice",
+              "question": "Qué vol dir exactament que 'l'univers s'expandeix'?",
+              "options": [
+                "Les galàxies es mouen a través de l'espai allunyant-se del centre de l'univers",
+                "L'espai mateix s'allarga, de manera que les distàncies entre galàxies creixen amb el temps",
+                "L'univers té una frontera exterior que avança cap al buit",
+                "Les galàxies es repel·len com imants del mateix pol"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. No hi ha un 'centre' de l'univers ni una 'frontera'. L'espai mateix s'estira — com punts pintats sobre un globus que s'infla. Cada galàxia veu totes les altres allunyant-se, i totes tenen raó: cap n'és el centre.",
+              "feedbackWrong": "L'expansió de l'univers no és un moviment de galàxies a través de l'espai. És l'espai mateix que s'allarga. La diferència és crucial: si fos un moviment, hi hauria un centre i una frontera. Com que és l'espai qui s'estira, cada observador veu el mateix: tot s'allunya d'ell, sense que cap punt sigui el centre."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-01-02",
+              "style": "true-false",
+              "question": "El Big Bang va ocórrer en un punt concret de l'espai, i des d'aquell punt la matèria s'ha anat expandint cap a fora.",
+              "correct": false,
+              "feedbackCorrect": "Correcte — és FALS. El Big Bang no va ocórrer en cap punt concret de l'espai preexistent. L'espai i el temps van sorgir amb el Big Bang. Tot l'univers observable va sorgir alhora, arreu. No hi ha un 'lloc' de l'univers on ocorregués més que en qualsevol altre.",
+              "feedbackWrong": "Aquesta és la confusió més freqüent sobre el Big Bang. No va ocórrer en cap punt concret: l'espai mateix va sorgir amb el Big Bang, i ho va fer arreu alhora. No existia un espai buit previ on explotés res. Preguntar 'on va ocórrer el Big Bang' és com preguntar 'al nord del Pol Nord'."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bb-01-01",
+              "question": "La idea d'un univers amb un inici temporal va ser durant dècades sospitosa per a molts científics perquè s'assemblava a la creació religiosa. És una raó vàlida per rebutjar o ser escèptic d'una teoria científica?",
+              "options": [
+                "Sí: si una teoria coincideix amb creences religioses, cal ser especialment crític per evitar biaixos",
+                "No: la validesa d'una teoria depèn de les seves prediccions i evidències, no de les seves implicacions filosòfiques o religioses",
+                "Depèn: la coincidència amb creences religioses no invalida la teoria, però obliga a un estàndard d'evidència més alt"
+              ],
+              "correct": 1,
+              "explanation": "La validesa científica d'una teoria depèn exclusivament de les seves prediccions verificables i de la seva coherència amb les evidències, no de si les seves implicacions agraden o desagraden filosòficament. El rebuig del Big Bang per 'semblar religiós' és un exemple de raonament motivat: els científics que preferien un univers etern buscaven arguments per descartar una teoria en funció del resultat que volien. Fred Hoyle — el principal defensor del model estacionari — va encunyar el terme 'Big Bang' com a burla. La ironia és que el terme va perdurar. La ciència ha de ser igual d'exigent amb les teories que coincideixen amb les nostres preferències que amb les que no hi coincideixen."
+            }
+          ]
+        },
+        {
+          "id": "bb-02",
+          "title": "Hubble i l'univers en expansió",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1929, Edwin Hubble va publicar una de les descobertes més transformadores de la història de la ciència: les galàxies s'allunyen de nosaltres, i com més lluny, més ràpid. Hubble no va deduir que l'univers s'expansionava — va ser un altre qui ho va interpretar. I la dada clau que va permetre a Hubble fer la mesura provenia d'una dona que havia mort quatre anys abans sense saber el que havia descobert."
+            },
+            {
+              "type": "expandable",
+              "label": "Henrietta Swan Leavitt: la dona que va calibrar l'univers",
+              "content": "Als inicis del segle XX, l'Observatori de Harvard contractava dones com a 'calculadores' — persones que analitzaven plaques fotogràfiques per salaris ínfims. Henrietta Swan Leavitt va descobrir el 1912 una relació fonamental: les estrelles cefeides (que polsen rítmicament) tenen una relació directa entre el seu període de pulsació i la seva lluminositat real. Sabent quanta llum emet realment una cefeide (pel seu període), pots mesurar quanta llum rep el detector i calcular la distància exacta. Leavitt va inventar una 'regla de mesura' còsmica. Hubble la va usar per mesurar distàncies a galàxies i descobrir l'expansió de l'univers. Leavitt va morir de càncer el 1921. Quan el comitè del Nobel va intentar nominar-la el 1924, van descobrir que havia mort. Els premis Nobel no es concedeixen a pòstum."
+            },
+            {
+              "type": "key-idea",
+              "text": "Llei de Hubble-Lemaître: la velocitat a la qual una galàxia s'allunya de nosaltres és proporcional a la seva distància. Una galàxia el doble de lluny s'allunya el doble de ràpid. Això és exactament el que esperaries d'un univers que s'expandeix uniformement des d'un origen comú."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1912",
+                  "title": "Leavitt: la relació període-lluminositat de les cefeides",
+                  "text": "Descoberta la regla per mesurar distàncies còsmiques. Leavitt mai sabrà l'impacte de la seva feina."
+                },
+                {
+                  "year": "1922",
+                  "title": "Friedmann: les equacions d'Einstein permeten un univers en expansió",
+                  "text": "El matemàtic rus Alexander Friedmann demostra que les equacions d'Einstein permeten un univers dinàmic. Einstein inicialment li diu que s'ha equivocat."
+                },
+                {
+                  "year": "1927",
+                  "title": "Lemaître: galàxies en fuga i un inici còsmic",
+                  "text": "El sacerdot i astrofísic belga Georges Lemaître publica la llei de l'expansió còsmica dos anys abans que Hubble, deduint la velocitat de recessió de les galàxies a partir de les equacions d'Einstein. La idea d'un origen còsmic concret ('àtom primordial') la publicarà el 1931."
+                },
+                {
+                  "year": "1929",
+                  "title": "Hubble: confirmació observacional de l'expansió",
+                  "text": "Hubble publica la correlació distància-velocitat amb 24 galàxies. El món científic accepta l'expansió de l'univers."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-02-01",
+              "style": "multiple-choice",
+              "question": "Si una galàxia a 100 milions d'anys llum s'allunya a 2.000 km/s, a quina velocitat s'allunya una galàxia a 200 milions d'anys llum?",
+              "options": [
+                "1.000 km/s — la meitat, perquè l'energia es reparteix",
+                "2.000 km/s — la mateixa velocitat independentment de la distància",
+                "4.000 km/s — el doble, perquè la velocitat és proporcional a la distància",
+                "No es pot saber sense conèixer la massa de la galàxia"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La llei de Hubble-Lemaître diu que la velocitat d'allunyament és proporcional a la distància. El doble de distància = el doble de velocitat. Això és la signatura d'una expansió uniforme de l'espai, no d'un moviment de les galàxies a través d'un espai fix.",
+              "feedbackWrong": "La llei de Hubble-Lemaître estableix una proporcionalitat directa: velocitat = constant de Hubble × distància. Si la distància es dobla, la velocitat es dobla. Aquesta relació lineal és exactament el que prediu un univers que s'expandeix uniformement — cada tros d'espai s'allarga al mateix ritme."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-02-02",
+              "style": "detect-error",
+              "statement": "Edwin Hubble va descobrir que l'univers s'expansionava el 1929, i va ser ell qui va proposar per primer cop la idea d'un origen còsmic a partir d'un estat inicial dens i calent.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha dos errors. Primer, la llei de l'expansió va ser publicada dos anys abans per Georges Lemaître (1927), tot i que Hubble va aportar la confirmació observacional més sòlida. Segon, va ser Lemaître qui va proposar l'origen còsmic — el seu 'àtom primordial' (1931). Hubble era observador, no teòric: va mesurar la correlació distància-velocitat però va ser reticent a fer-ne interpretacions cosmològiques. El nom 'Hubble-Lemaître' per a la llei va ser adoptat per la Unió Astronòmica Internacional el 2018 per corregir parcialment l'esborrat de Lemaître."
+            },
+            {
+              "type": "reflection",
+              "question": "Henrietta Leavitt va fer la descoberta fonamental que va permetre mesurar l'univers. Va ser ignorada, mal pagada i va morir sense reconeixement. Hubble va fer-se famós amb les eines que ella va crear. Qué et diu aquest episodi sobre com la ciència distribueix el reconeixement?",
+              "prompt": "No hi ha resposta correcta. Però val la pena pensar-hi."
+            }
+          ]
+        },
+        {
+          "id": "bb-03",
+          "title": "Gamow, Hoyle i la batalla del model estacionari",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Als anys 40 i 50, la cosmologia era un camp amb dues teories rivalment: el Big Bang (defensor principal: George Gamow) i el model estacionari (defensor principal: Fred Hoyle). Hoyle argumentava que l'univers era etern i que la matèria nova es creava contínuament per mantenir la densitat constant mentre s'expansionava. Era una idea eleganta i filosòficament atractiva. Gamow predeia que si el Big Bang era real, l'univers havia de tenir una temperatura de fons de pocs graus sobre el zero absolut — una radiació residual detectable. Durant dècades, ningú no sabia qui tenia raó."
+            },
+            {
+              "type": "key-idea",
+              "text": "George Gamow i col·laboradors van predir el 1948 que si el Big Bang era real, hauria deixat una radiació de fons — la llum del Big Bang refredada per l'expansió de l'univers fins a uns 5 K (graus sobre el zero absolut). Aquesta predicció va romandre sense verificar durant 16 anys."
+            },
+            {
+              "type": "comparison",
+              "title": "Big Bang vs. Model Estacionari",
+              "labelA": "Big Bang (Lemaître, Gamow)",
+              "labelB": "Model Estacionari (Hoyle, Gold, Bondi)",
+              "items": [
+                {
+                  "label": "Origen de l'univers",
+                  "a": "Inici temporal fa ~14.000 Ma",
+                  "b": "Univers etern, sense inici ni final"
+                },
+                {
+                  "label": "Expansió observada",
+                  "a": "Conseqüència natural d'un inici dens",
+                  "b": "Matèria nova es crea per mantenir densitat constant"
+                },
+                {
+                  "label": "Predicció clau",
+                  "a": "Radiació de fons de microones (CMB)",
+                  "b": "Cap radiació de fons — l'univers és igual en totes les èpoques"
+                },
+                {
+                  "label": "Abundància d'heli",
+                  "a": "Prediu ~25% d'heli primordial",
+                  "b": "Heli format en estrelles — no necessàriament 25%"
+                },
+                {
+                  "label": "Estat actual",
+                  "a": "Confirmat per múltiples evidències independents",
+                  "b": "Abandonat després del descobriment del CMB (1965)"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Fred Hoyle: el científic brillant que va encunyar el terme que odiava",
+              "content": "Fred Hoyle va ser un dels astrofísics més importants del segle XX. Va descobrir com les estrelles sintetitzen els elements pesants (un dels grans assoliments de l'astrofísica, que li hauria valgut el Nobel si no l'hagués perdut per raons polèmiques). Però la seva defensa del model estacionari va eclipsar el seu llegat. El 1949, en un programa de ràdio de la BBC, va usar l'expressió 'Big Bang' per descriure la teoria rival de forma despectiva — i el terme va quedar. Quan el CMB va ser descobert el 1965, Hoyle va continuar buscant alternatives durant dècades, proposant teories cada cop més ad hoc. Va morir el 2001 sense acceptar el Big Bang. És un exemple de com fins i tot els científics brillants poden quedar atrapats en les seves pròpies teories."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-03-01",
+              "style": "multiple-choice",
+              "question": "Quina era la predicció del Big Bang que el distingia del model estacionari i que era en principi verificable?",
+              "options": [
+                "Que les galàxies s'allunyen a velocitat proporcional a la seva distància",
+                "Que hauria d'existir una radiació de fons de microones uniforme arreu del cel",
+                "Que els forats negres haurien de ser abundants a l'univers primerenc",
+                "Que la Via Làctia havia de tenir un forat negre supermassís al centre"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El CMB (Cosmic Microwave Background) és la predicció diferencial clau: si hi va haver un estat inicial calent, la llum d'aquell estat hauria de persistir refredada per l'expansió. El model estacionari no predeia cap radiació de fons uniforme. Quan Penzias i Wilson el van descobrir accidentalment el 1965, va ser el cop decisiu per al model estacionari.",
+              "feedbackWrong": "L'expansió de les galàxies era consistent amb tots dos models (el model estacionari la explicava per creació contínua de matèria). La predicció que diferenciava el Big Bang era la radiació de fons de microones: una senyal tèrmica uniforme arreu del cel, residu de l'estat inicial calent de l'univers."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Falsabilitat i demarcació",
+              "text": "El debat Big Bang / model estacionari és un exemple perfecte del criteri de falsabilitat de Popper: ambdues teories feien prediccions concretes i diferenciades que eren en principi verificables. El CMB era una predicció del Big Bang absent en el model estacionari — i la seva detecció el 1965 va falsificar el model estacionari de manera directa. Quan la teoria rival va afegir hipòtesis ad hoc per sobreviure, va perdre potència explicativa i predictiva."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bb-03-01",
+              "question": "El model estacionari era elegant, consistent i defensat per científics brillants. El Big Bang semblava filosòficament incòmode. Quin factor hauria de ser decisiu per triar entre dues teories rivals?",
+              "options": [
+                "L'elegància i la simplicitat conceptual — una teoria més elegant és probablement més propera a la veritat",
+                "El prestigi dels seus defensors — els millors científics tendeixen a estar en el bàndol correcte",
+                "Les prediccions verificables i diferenciades — la teoria que fa prediccions correctes que l'altra no pot explicar"
+              ],
+              "correct": 2,
+              "explanation": "L'elegància és una guia heurística útil però no un criteri de veritat. El model estacionari era elegant — i estava equivocat. Els defensors del Big Bang incloïen científics brillants — però la brillantor personal no valida teories. El factor decisiu en ciència és sempre el mateix: quina teoria fa prediccions concretes que resulten ser correctes i que la teoria rival no pot explicar sense afegir hipòtesis ad hoc? El CMB era una predicció del Big Bang, absent en el model estacionari. La seva detecció no va poder ser absorbida pel model estacionari sense modificar-lo fonamentalment. En aquell moment, la contesa es va decidir."
+            }
+          ]
+        },
+        {
+          "id": "bb-04",
+          "title": "La radiació de fons: la llum del Big Bang",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1964, Arno Penzias i Robert Wilson, dos enginyers de Bell Labs, intentaven calibrar una antena de microones i no podien eliminar un soroll de fons persistent. Era igual en totes les direccions. Igual de dia i de nit. Igual a qualsevol època de l'any. Van pensar inicialment en excrement de coloms dins l'antena. El van netejar. El soroll persistia. Van trucar a físics de Princeton que ja estaven construint un detector per trobar exactament allò: la radiació de fons del Big Bang. Penzias i Wilson ja l'havien trobada sense saber-ho."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Radiació de Fons de Microones (CMB) és la 'llum' del Big Bang: fotons emesos quan l'univers tenia 380.000 anys i es va refredar prou per ser transparent. L'expansió de l'univers ha allargat aquesta llum fins a longituds d'ona de microones. És la imatge més antiga de l'univers — i és gairebé perfectament uniforme en totes les direccions."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el CMB és una imatge de quan l'univers tenia 380.000 anys i no del Big Bang mateix?",
+              "content": "Durant els primers 380.000 anys, l'univers era tan calent i dens que els fotons (llum) xocaven contínuament amb electrons lliures i no podien viatjar lliurement — l'univers era opac, com l'interior d'una estrella. Quan la temperatura va baixar prou (uns 3.000 K), els electrons es van combinar amb protons per formar àtoms neutres d'hidrogen. De cop, l'univers es va tornar transparent: els fotons van poder viatjar lliurement per primer cop. Aquells fotons, refredats per 13.400 milions d'anys d'expansió de 3.000 K fins a 2,7 K, són el CMB que detectem avui. És literalment la 'paret' que ens impedeix veure abans: no podem observar directament els primers 380.000 anys de l'univers amb llum."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-04-01",
+              "style": "multiple-choice",
+              "question": "Per qué el CMB és uniforme en totes les direccions però té petites fluctuacions de temperatura?",
+              "options": [
+                "Perquè l'univers primerenc era perfectament homogeni — les fluctuacions són soroll instrumental",
+                "Les fluctuacions reflecteixen lleus variacions de densitat en l'univers primerenc, que eren les llavors de les futures galàxies",
+                "Les fluctuacions indiquen que el Big Bang va ocórrer en un punt específic, no arreu",
+                "Perquè la Via Làctia interfereix en la mesura del CMB en certes direccions"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les petites fluctuacions del CMB (de l'ordre d'una part en 100.000) reflecteixen lleugeres variacions de densitat en l'univers primerenc. Les regions lleugerament més denses van atreure més matèria per gravetat, creixent fins a convertir-se en les galàxies i cúmuls galàctics que veiem avui. El CMB és literalment el mapa de les llavors de l'estructura còsmica.",
+              "feedbackWrong": "Les fluctuacions del CMB no són soroll ni artefactes. Són la informació cosmològica més valuosa que tenim: reflecteixen lleugeres variacions de densitat en l'univers primerenc. Sense aquestes inhomogeneïtats inicials, la gravetat no hauria tingut res on agarrar-se — l'univers hauria romàs un gas uniforme per sempre, sense galàxies ni estrelles ni planetes ni vida."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-04-02",
+              "style": "true-false",
+              "question": "El CMB ens permet observar l'univers tal com era en el moment del Big Bang, fa 13.800 milions d'anys.",
+              "correct": false,
+              "feedbackCorrect": "FALS. El CMB ens mostra l'univers quan tenia 380.000 anys — no el moment del Big Bang. Durant els primers 380.000 anys l'univers era opac: la llum no podia viatjar lliurement. El CMB és la llum emesa en el moment en que l'univers es va tornar transparent. Els primers 380.000 anys són, de moment, invisibles per a la llum — tot i que les ones gravitacionals podrien algun dia penetrar aquest 'vel'.",
+              "feedbackWrong": "El CMB no és la llum del Big Bang mateix: és la llum emesa quan l'univers tenia 380.000 anys i es va tornar transparent per primer cop. Durant els primers 380.000 anys, l'univers era tan dens i calent que era completament opac — com l'interior d'una estrella. Aquell període és invisible per a qualsevol telescopi que detecti llum."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bb-04-01",
+              "question": "Penzias i Wilson van descobrir el CMB accidentalment mentre intentaven eliminar-lo com a soroll. Quin paper juga la serendipitat en la ciència?",
+              "options": [
+                "La serendipitat és un factor menor — els grans descobriments provenen de recerca sistemàtica i planificada",
+                "La serendipitat és fonamental — molts dels descobriments més importants han estat accidentals",
+                "La serendipitat és necessària però no suficient: calen observadors preparats per reconèixer el significat del que troben accidentalment"
+              ],
+              "correct": 2,
+              "explanation": "El cas de Penzias i Wilson il·lustra perfectament la famosa dita de Louis Pasteur: 'La casualitat afavoreix la ment preparada.' Penzias i Wilson van trobar el CMB, però no sabien el que tenien. Van ser prou intel·ligents per no descartar-lo i per buscar ajuda. Els físics de Princeton — que sí sabien el que buscaven — van reconèixer immediatament el que Penzias i Wilson havien trobat. El descobriment va requerir: (1) un instrument sensible (l'antena), (2) observadors rigorosos que no eliminaven dades incòmodes, (3) un marc teòric previ que permetia reconèixer la troballa. La serendipitat sola no serveix: calen les condicions prèvies per reconèixer-la. Penzias i Wilson van compartir el Nobel de Física el 1978."
+            }
+          ]
+        },
+        {
+          "id": "bb-05",
+          "title": "Els primers instants: del Planck a la nucleosíntesi",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El que va passar en els primers instants del Big Bang és el problema més ambiciós de la física moderna. Cada ordre de magnitud de temps cap enrere és un salt a condicions més extremes. Als primers microsegons, la física que coneixem deixa de ser fiable. Al temps de Planck (10⁻⁴³ segons), la relativitat general i la mecànica quàntica entren en conflicte directe i cap teoria actual pot descriure el que hi passava. El que sí podem descriure amb confiança és el que va passar després dels primers tres minuts."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "10⁻⁴³ s",
+                  "title": "Temps de Planck — frontera del desconegut",
+                  "text": "Cap teoria física actual pot descriure el que passa aquí. La gravetat quàntica seria necessària."
+                },
+                {
+                  "year": "10⁻³⁵ s",
+                  "title": "Inflació còsmica (hipotètica)",
+                  "text": "L'univers s'expandeix exponencialment en una fracció de segon. Explica la uniformitat del CMB i la planitud de l'univers."
+                },
+                {
+                  "year": "10⁻⁶ s",
+                  "title": "Quarks s'uneixen en protons i neutrons",
+                  "text": "La temperatura baixa prou perquè els quarks lliures formin hadrons. L'univers és una sopa densa de protons, neutrons, electrons i fotons."
+                },
+                {
+                  "year": "3 minuts",
+                  "title": "Nucleosíntesi primordial",
+                  "text": "Protons i neutrons es fusionen formant nuclis d'heli, deuteri i traces de liti. El 75% d'hidrogen i 25% d'heli que veiem avui es va forjar aquí."
+                },
+                {
+                  "year": "380.000 anys",
+                  "title": "Recombinació — l'univers es torna transparent",
+                  "text": "Electrons i nuclis formen àtoms neutres. Els fotons es lliuren i viatgen lliurement: és el CMB."
+                },
+                {
+                  "year": "200 milions d'anys",
+                  "title": "Les primeres estrelles",
+                  "text": "La gravetat concentra gas en les primeres estrelles. Comença la síntesi dels elements pesants."
+                }
+              ]
+            },
+            {
+              "type": "key-idea",
+              "text": "La nucleosíntesi primordial — els primers tres minuts — va produir tot l'hidrogen i l'heli de l'univers: el 75% i el 25% respectivament. Tots els elements més pesants (carboni, oxigen, ferro...) es van formar posteriorment a l'interior de les estrelles i en les explosions de supernova."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué exactament 75% d'hidrogen i 25% d'heli? El rellotge dels primers minuts",
+              "content": "La proporció d'heli primordial no és arbitrària: depèn del ritme d'expansió de l'univers i de la vida mitjana del neutró lliure. En els primers minuts, protons i neutrons podien transformar-se els uns en els altres per reaccions dèbils. Quan la temperatura va baixar prou, aquesta interconversió es va aturar — 'congelant' una proporció de 7 protons per cada neutró. Cada neutró acaba en un nucli d'heli-4 (2 protons + 2 neutrons). Resultat: aproximadament 1/8 de la massa en heli i 7/8 en hidrogen. El valor calculat per Gamow el 1948 (uns 25%) coincideix gairebé exactament amb el que mesurem a les estrelles més antigues. Aquesta concordança és una de les confirmacions més poderoses del model del Big Bang."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-05-01",
+              "style": "multiple-choice",
+              "question": "Quin percentatge aproximat d'heli va produir la nucleosíntesi primordial, i on es va formar la resta d'elements pesants?",
+              "options": [
+                "50% d'heli al Big Bang; la resta d'elements en el Big Bang també",
+                "25% d'heli al Big Bang; carboni, oxigen i elements pesants a l'interior de les estrelles i supernovas",
+                "10% d'heli al Big Bang; la majoria d'elements en nebuloses interestel·lars",
+                "90% d'heli al Big Bang; l'hidrogen es va formar posteriorment per fissió"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. La nucleosíntesi primordial va produir ~75% d'hidrogen i ~25% d'heli (més traces de deuteri i liti). Tots els elements més pesants — carboni, oxigen, nitrogen, ferro i la resta de la taula periòdica fins al ferro — es van formar a l'interior de les estrelles per fusió nuclear. Els elements més pesants que el ferro es van forjar en explosions de supernova i en fusions d'estrelles de neutrons.",
+              "feedbackWrong": "La nucleosíntesi primordial (els primers tres minuts) va produir essencialment dos elements: hidrogen (75%) i heli (25%). L'univers primerenc no era ni prou dens ni prou calent durant prou temps per formar elements pesants. El carboni, l'oxigen, el ferro i la resta van necessitar milers de milions d'anys de fusió nuclear a l'interior de les estrelles — i els seus últims instants explosius en supernovas."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Química Fonamental",
+              "moduleEmoji": "⚗️",
+              "concept": "L'origen dels elements",
+              "text": "La taula periòdica és, en part, una història còsmica. L'hidrogen i l'heli van venir del Big Bang. El carboni, l'oxigen, el nitrogen i la majoria d'elements fins al ferro es van forjar a l'interior de les estrelles per fusió nuclear. Els elements més pesants (or, urani, platí...) van sorgir de col·lisions d'estrelles de neutrons. Quan respires, inhales oxigen forjat en una estrella morta fa milers de milions d'anys. Carl Sagan ho va dir amb precisió: 'Estem fets de material d'estrelles.'"
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bb-05-01",
+              "question": "La física actual no pot descriure el que va passar abans del temps de Planck (10⁻⁴³ s). Significa això que el Big Bang podria tenir una causa anterior, o que la pregunta 'qué hi havia abans' no té sentit?",
+              "options": [
+                "Hi havia necessàriament quelcom abans — la causalitat exigeix que tot efecte tingui una causa",
+                "La pregunta no té sentit: el temps va sorgir amb el Big Bang, per tant no hi ha 'abans'",
+                "No ho sabem: la física actual no pot respondre-ho, i ambdues respostes anteriors podrien ser correctes o incorrectes"
+              ],
+              "correct": 2,
+              "explanation": "Aquesta és honestament una de les preguntes obertes més fonamentals de la cosmologia i la física teòrica. La posició (b) — que el temps va sorgir amb el Big Bang i que 'abans' no té sentit — és la que defensen molts físics (Hawking i Hartle, per exemple, van proposar un model sense frontera temporal). Però la posició (a) — que hi havia quelcom anterior, potser un univers previ o un multivers — és defensada per d'altres (Penrose, amb la seva cosmologia cíclica conformement; o els models inflacionaris eterns). Cap de les dues posicions ha estat verificada o descartada experimentalment. La resposta honesta és (c): no ho sabem, i les nostres eines físiques actuals no arriben fins a aquí. Admetre la ignorància en el límit del coneixement no és una debilitat — és la postura científica correcta."
+            }
+          ]
+        },
+        {
+          "id": "bb-06",
+          "title": "La inflació còsmica: per qué l'univers és tan uniforme",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El CMB revela una paradoxa: l'univers és gairebé perfectament uniforme en totes les direccions — la temperatura varia menys d'una part en 100.000. Però regions oposades del cel visible mai no han pogut estar en contacte causal: la llum no ha tingut temps de viatjar d'un extrem a l'altre des del Big Bang. Com pot ser tan uniforme quelcom que mai no ha pogut equilibrar-se? El 1981, Alan Guth va proposar una resposta radical: inflació."
+            },
+            {
+              "type": "key-idea",
+              "text": "La inflació còsmica és una fase d'expansió exponencialment ràpida en els primers instants de l'univers (fins a 10⁻³² s). Explicaria per qué l'univers és tan uniforme (tot estava en contacte causal abans de la inflació), per qué és gairebé pla (la inflació aplana qualsevol curvatura), i per qué les fluctuacions del CMB tenen la forma que tenen."
+            },
+            {
+              "type": "expandable",
+              "label": "La inflació: com un univers microscòpic es va fer enormement gran en un instant",
+              "content": "Durant la inflació, l'univers va créixer d'una mida subatòmica (10⁻²⁶ m) a la mida d'una taronja en menys de 10⁻³² segons — un factor d'expansió d'almenys 10²⁶. Per comparació, en els 13.800 milions d'anys posteriors, l'univers s'ha expandit 'sols' uns 1.000 vegades. La inflació va ser impulsada per un camp escalar hipotètic (l'inflatón) que es trobava en un estat d'energia alta metastable. Quan va decaure, va alliberar la seva energia en partícules — el que sovint s'anomena 'Big Bang calent'. La inflació resol elegantment tres problemes del Big Bang estàndard: el problema de l'horitzó (uniformitat), el problema de la planitud i el problema dels monopols magnètics. La seva debilitat: encara no tenim evidència directa del camp inflatònic."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-06-01",
+              "style": "multiple-choice",
+              "question": "Quin problema cosmològic resol principalment la teoria de la inflació?",
+              "options": [
+                "Per qué l'univers s'expandeix — sense inflació l'expansió no tindria explicació",
+                "Per qué regions oposades del cel visible tenen la mateixa temperatura malgrat no haver pogut mai estar en contacte causal",
+                "Per qué hi ha més matèria que antimatèria a l'univers",
+                "Per qué els forats negres emeten radiació de Hawking"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El problema de l'horitzó: regions oposades del CMB visible estan separades per distàncies tan grans que la llum no ha pogut viatjar entre elles des del Big Bang — i tot i així tenen la mateixa temperatura amb una precisió d'una part en 100.000. La inflació resol això postulant que totes aquelles regions estaven en contacte causal abans de la inflació, quan eren infinitament properes.",
+              "feedbackWrong": "L'expansió de l'univers es pot descriure sense inflació — les equacions de Friedmann ho expliquen. El que la inflació resol és el problema de la uniformitat extrema: com és possible que regions que mai no han pogut comunicar-se tinguin la mateixa temperatura amb tal precisió. La inflació diu que estaven totes en contacte causal abans d'expandir-se exponencialment."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-06-02",
+              "style": "true-false",
+              "question": "La teoria de la inflació còsmica ha estat confirmada experimentalment de forma directa.",
+              "correct": false,
+              "feedbackCorrect": "FALS. La inflació còsmica és una hipòtesi ben motivada que resol diversos problemes del Big Bang estàndard, però no ha estat confirmada directament. La seva signatura principal serien ones gravitacionals primordials que haurien deixat una marca específica en la polarització del CMB (modes-B). L'experiment BICEP2 va creure haver-les detectat el 2014 — però va resultar ser pols intergalàctica. La recerca continua amb experiments com BICEP Array i el satèl·lit LiteBIRD.",
+              "feedbackWrong": "La inflació còsmica és una hipòtesi molt ben rebuda però no confirmada directament. Resol problemes reals del Big Bang estàndard i fa prediccions verificables (ones gravitacionals primordials en la polarització del CMB), però la seva signatura directa no ha estat detectada de forma concloent."
+            },
+            {
+              "type": "debate",
+              "question": "La inflació còsmica és una hipòtesi que resol elegantment problemes reals, però alguns físics (com Paul Steinhardt, un dels seus creadors originals) han argumentat que és infalsificable perquè els models inflacionaris poden ajustar-se per produir qualsevol univers observable. És ciència o metafísica?",
+              "positionA": {
+                "label": "És ciència: fa prediccions verificables",
+                "argument": "La inflació prediu un espectre específic de fluctuacions del CMB — i les mesures de Planck coincideixen amb les prediccions. Prediu ones gravitacionals primordials detectables. Que hi hagi molts models inflacionaris no invalida el marc general, igual que hi ha molts models d'evolució però el marc evolutiu és científic."
+              },
+              "positionB": {
+                "label": "És problemàtica: el multivers és infalsificable",
+                "argument": "Molts models inflacionaris prediquen un multivers — infinits universos amb lleis físiques diferents. Un multivers que pot produir qualsevol univers possible no pot ser refutat per cap observació. Una teoria que explica tot no explica res: perd el caràcter científic precisament per la seva flexibilitat il·limitada."
+              },
+              "reflection": "On traçaries la línia entre una teoria científica flexible i una hipòtesi infalsificable?",
+              "context": "Paul Steinhardt, un dels pares de la inflació còsmica, va publicar el 2017 un article titulat 'El problema amb l'inflació' argumentant exactament la postura B. Ara defensa cosmologies alternatives. Anna Ijjas, també cosignant, treballa en models de 'big bounce' (univers cíclic)."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bb-06-01",
+              "question": "La inflació còsmica resol problemes reals però la seva predicció més ambiciosa (el multivers) podria ser infalsificable. Hauria la comunitat científica d'invertir recursos en una teoria que podria no ser verificable mai?",
+              "options": [
+                "No: la ciència ha de centrar-se en hipòtesis falsificables — invertir en infalsificables és malbaratar recursos",
+                "Sí: una teoria que resol problemes reals i fa algunes prediccions verificables val la pena investigar, fins i tot si algunes implicacions no ho són",
+                "Depèn: cal distingir entre les prediccions verificables de la teoria (que mereixen recerca) i les implicacions especulatives (que s'han d'etiquetar com a tals)"
+              ],
+              "correct": 2,
+              "explanation": "La distinció entre el nucli verificable d'una teoria i les seves implicacions especulatives és fonamental. La inflació fa prediccions concretes sobre l'espectre del CMB, la planitud de l'univers i (potencialment) ones gravitacionals primordials — totes verificables en principi. El multivers és una implicació de certs models inflacionaris, no un requeriment de la inflació en general. La postura científica correcta és: investigar activament les prediccions verificables, etiquetar honestament les implicacions especulatives com a tals, i mantenir obertura per modificar o abandonar la teoria si les prediccions verificables resulten incorrectes. La ciència ha de ser honesta sobre on acaba el coneixement i on comença l'especulació."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "univers-avui",
+      "title": "L'univers avui",
+      "forWho": "Vol entendre l'estructura actual del cosmos: matèria fosca, energia fosca i el destí de l'univers",
+      "icon": "🌐",
+      "description": "L'estructura còsmica, la matèria fosca, l'energia fosca i el destí de l'univers",
+      "style": "Estructural · de l'observable a l'inconegut",
+      "lessons": [
+        {
+          "id": "bb-u01",
+          "title": "L'estructura de l'univers: de planetes a filaments còsmics",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "L'univers no és una nebulosa uniforme de galàxies escampades a l'atzar. Té estructura — i és una de les estructures més impressionants que existeix. Les galàxies s'agrupen en cúmuls, els cúmuls en supercúmuls, i els supercúmuls en filaments gegants que envolten voids immenses — buits còsmics de desenes de milions d'anys llum on gairebé no hi ha res. Vista a gran escala, la distribució de matèria de l'univers s'assembla a una teranyina tridimensional, o a la xarxa neuronal d'un cervell."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'estructura a gran escala de l'univers — filaments, cúmuls i voids — va sorgir de les minúscules fluctuacions del CMB. La gravetat va amplificar les regions lleugerament més denses al llarg de milers de milions d'anys fins a produir l'estructura observada. Sense aquelles fluctuacions microscòpiques, no hi hauria galàxies, estrelles ni vida."
+            },
+            {
+              "type": "expandable",
+              "label": "El Gran Atractor: per qué la Via Làctia cau cap a quelcom que no podem veure",
+              "content": "La Via Làctia es mou a uns 600 km/s en una direcció específica del cel, cap a una concentració de massa enorme que els astrònoms anomenen el Gran Atractor. Però el Gran Atractor queda darrere de la Zona d'Evitació — la franja del cel que la nostra pròpia galàxia bloqueja amb el seu gas i pols. Durant dècades no vam poder veure directament el que ens atreia. Estudis de ràdio i infraroig han revelat gradualment que és un supercúmul de galàxies de massa immensa (Laniakea), però l'estructura completa i la seva massa exacta segueix sent investigada. Vivim en una galàxia que cau cap a quelcom que la nostra galàxia mateixa ens impedeix veure perfectament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-u01-01",
+              "style": "multiple-choice",
+              "question": "Quin és l'ordre correcte d'estructura de menor a major escala a l'univers?",
+              "options": [
+                "Estrella → Sistema solar → Galàxia → Cúmul galàctic → Supercúmul → Filament còsmic",
+                "Estrella → Galàxia → Sistema solar → Supercúmul → Cúmul galàctic → Filament còsmic",
+                "Sistema solar → Estrella → Cúmul galàctic → Galàxia → Filament còsmic → Supercúmul",
+                "Galàxia → Sistema solar → Estrella → Cúmul galàctic → Filament còsmic → Supercúmul"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. L'estructura jeràrquica va de l'estrella individual (amb el seu possible sistema planetari) fins als filaments còsmics — la xarxa a gran escala de l'univers. La Via Làctia és una galàxia dins el Grup Local, que forma part del Supercúmul Laniakea, que al seu torn és un node en la xarxa filamentosa de l'univers observable.",
+              "feedbackWrong": "L'ordre correcte és: estrella/sistema solar → galàxia → cúmul galàctic → supercúmul → filament còsmic. Una galàxia conté milers de milions d'estrelles; un cúmul galàctic conté centenars de galàxies; un supercúmul agrupa milers de galàxies; els filaments còsmics connecten supercúmuls i envolten voids immenses."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-u01-02",
+              "style": "true-false",
+              "question": "Les galàxies estan distribuïdes de forma aproximadament uniforme per tot l'univers observable.",
+              "correct": false,
+              "feedbackCorrect": "FALS. Les galàxies formen una estructura altament no uniforme: s'agrupen en filaments i cúmuls que envolten immenses regions buides (voids). Vista a gran escala, la distribució de galàxies sembla una teranyina tridimensional — la xarxa còsmica. Aquesta estructura va sorgir de les minúscules fluctuacions del CMB amplificades per la gravetat al llarg de milers de milions d'anys.",
+              "feedbackWrong": "Les galàxies formen una estructura altament no uniforme: filaments de galàxies que envolten voids immenses. La distribució és la signatura de l'acció gravitatòria sobre les fluctuacions primordials del CMB. Mesures com el Sloan Digital Sky Survey han mapat milions de galàxies i revelen aquesta xarxa còsmica amb gran detall."
+            },
+            {
+              "type": "reflection",
+              "question": "L'univers observable té uns 93.000 milions d'anys llum de diàmetre i conté uns dos bilions de galàxies, cadascuna amb milers de milions d'estrelles. Quan contemples aquesta escala, qué canvia en la manera com penses en la Terra i en tu mateix?",
+              "prompt": "No hi ha resposta correcta. És una pregunta sobre perspectiva, no sobre fets."
+            }
+          ]
+        },
+        {
+          "id": "bb-u02",
+          "title": "Matèria fosca: la massa invisible que ho sosté tot",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1970, l'astrònoma Vera Rubin estava mesurant la velocitat de rotació de les galàxies. Esperava el resultat predictible: les estrelles properes al centre giraven ràpidament i les llunyanes molt més lentament, com els planetes del sistema solar. El que va trobar va ser desconcertant: les estrelles llunyanes giraven igual de ràpid que les properes, fins als marges de la galàxia. Les galàxies haurien d'estar desintegrant-se per centrifugació — però no ho feien. Havia de tractar-se d'una massa invisible que les mantenia unides. Rubin va trigar anys a ser presa seriosament."
+            },
+            {
+              "type": "key-idea",
+              "text": "La matèria fosca és una forma de matèria que interacciona gravitatòriament però no emet, absorbeix ni reflecteix llum electromagnètica — és completament invisible per a qualsevol telescopi. Representa el 27% del contingut de l'univers. Sense ella, les galàxies no podrien mantenir la seva forma ni existirien els supercúmuls galàctics."
+            },
+            {
+              "type": "expandable",
+              "label": "Les quatre evidències independents de la matèria fosca",
+              "content": "La matèria fosca no descansa en una sola observació. Quatre línies d'evidència independents convergeixen en la mateixa conclusió: (1) Corbes de rotació galàctica (Rubin, 1970): les estrelles llunyanes van massa ràpid per la massa visible. (2) Lensing gravitacional: la llum de galàxies llunyanes es corba més del que la massa visible pot explicar — hi ha massa invisible entre nosaltres i elles. (3) Cúmul Bala (2006): en la col·lisió de dos cúmuls galàctics, el gas visible (detectable per raigs X) frenà per fricció, però la massa total (detectada per lensing) va continuar sense frenar — la massa fosca va travessar la col·lisió sense interaccionar. (4) CMB: el patró de fluctuacions del CMB és consistent amb exactament el 27% de matèria fosca. Cap d'ezequeles evidències és explicable sense matèria fosca (o una modificació profunda de la gravetat)."
+            },
+            {
+              "type": "misconception",
+              "belief": "La matèria fosca és simplement matèria ordinària (gas, pols, planetes foscos, forats negres) que no veiem perquè no emet llum.",
+              "reality": "La matèria bariònica no lluminosa (gas fred, nanes marrons, forats negres) existeix però és insuficient per explicar la massa faltant. La nucleosíntesi primordial prediu quanta matèria ordinària podia crear el Big Bang — i és molt menys del que caldria. La matèria fosca ha de ser una partícula nova, no bariònica, que interacciona gravitatòriament però no electromagnèticament. Els candidats principals (WIMPs, axions) no han estat detectats directament malgrat dècades de recerca.",
+              "why": "Perquè 'fosca' evoca simplement 'apagada' — matèria ordinària que no brilla. Però la matèria fosca és fonamentalment diferent: no interacciona amb la llum en cap freqüència, no pas perquè estigui freda sinó perquè no té càrrega elèctrica ni interacciona electromagnèticament."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-u02-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser l'observació de Vera Rubin que suggeria l'existència de matèria fosca?",
+              "options": [
+                "Les galàxies s'allunyen de nosaltres a velocitats proporcionals a la seva distància",
+                "Les estrelles als marges de les galàxies es mouen tant de pressa com les del centre, quan haurien de moure's molt més lentament",
+                "Certes galàxies emeten menys llum de la que correspondria a la seva massa estimada",
+                "Les galàxies properes entre si mostren desviació gravitacional mútua inexplicable"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Si la massa d'una galàxia fos la de les estrelles visibles, les estrelles llunyanes haurien d'orbitar molt més lentament (com Neptú orbita més lentament que Mercuri). Rubin va mesurar que la velocitat es mantenia constant fins als marges: la galàxia ha de tenir una gran quantitat de massa invisible distribuïda més enllà dels marges visibles — el 'halo' de matèria fosca.",
+              "feedbackWrong": "L'observació clau de Rubin era sobre les corbes de rotació de les galàxies: la velocitat orbital de les estrelles no decreixia amb la distància al centre, com preveia la física newtoniana per a la massa visible. Aquesta 'corba de rotació plana' indica l'existència d'una gran massa invisible estesa més enllà dels marges visibles de la galàxia."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bb-u02-01",
+              "question": "Davant les evidències de la matèria fosca, alguns físics proposen modificar la teoria de la gravetat (MOND i variants) en lloc de postular una nova partícula. Com hauria de decidir la ciència entre 'nova partícula' i 'nova teoria de la gravetat'?",
+              "options": [
+                "Cal preferir sempre la nova partícula: afegir partícules és menys radical que canviar les lleis de la gravetat",
+                "Cal preferir sempre la nova teoria: és millor revisar fonaments que afegir entitats no observades",
+                "Cal comparar quina hipòtesi explica millor el conjunt d'evidències, especialment aquelles que no van motivar la hipòtesi originalment"
+              ],
+              "correct": 2,
+              "explanation": "Cap de les dues opcions és intrínsecament preferible per raons filosòfiques. La navalla d'Occam no ajuda aquí: ambdues opcions afegeixen alguna cosa (una partícula o una nova terme a les equacions de la gravetat). El criteri científic ha de ser quin marc explica millor el conjunt d'evidències — especialment el Cúmul Bala, que mostra directament que la massa faltant no segueix el gas visible en una col·lisió. MOND i les seves extensions relativistes (TeVeS) tenen dificultats serioses per explicar el Cúmul Bala i el patró del CMB sense introduir matèria fosca de tota manera. Però la matèria fosca tampoc ha estat detectada directament malgrat dècades de recerca. El veredicte complet no és encara definitiu — però el pes de l'evidència actual favoreix la matèria fosca per partícules."
+            }
+          ]
+        },
+        {
+          "id": "bb-u03",
+          "title": "Energia fosca: l'expansió s'accelera",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1998, dos equips independents de físics — els Supernovae Cosmology Project i el High-Z Supernova Search Team — estaven mesurant la desacceleració de l'expansió de l'univers. Esperaven confirmar que la gravetat anava frenant l'expansió gradualment. El que van trobar va ser el contrari: l'expansió s'accelera. Les supernovas llunyanes eren menys brillants del que haurien de ser si l'univers s'expandís a velocitat constant o decreixent. L'univers no sols s'expande — ho fa cada cop més ràpid. Saul Perlmutter, Brian Schmidt i Adam Riess van compartir el Nobel de Física el 2011 per aquest descobriment."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'energia fosca és una forma d'energia que permea tot l'espai i causa l'expansió accelerada de l'univers. Representa el 68% del contingut energètic total de l'univers. La seva naturalesa és completament desconeguda. Podria ser la constant cosmològica d'Einstein, una propietat intrínseca de l'espai buit — o quelcom completament diferent."
+            },
+            {
+              "type": "comparison",
+              "title": "El contingut de l'univers",
+              "labelA": "Percentatge",
+              "labelB": "Naturalesa",
+              "items": [
+                {
+                  "label": "Energia fosca",
+                  "a": "~68%",
+                  "b": "Completament desconeguda. Causa l'expansió accelerada."
+                },
+                {
+                  "label": "Matèria fosca",
+                  "a": "~27%",
+                  "b": "Partícula desconeguda. Gravita però no interacciona electromagnèticament."
+                },
+                {
+                  "label": "Matèria ordinària",
+                  "a": "~5%",
+                  "b": "Protons, neutrons, electrons. Tot el que veiem: estrelles, planetes, gas, vida."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El problema de la constant cosmològica: la pitjor predicció de la física",
+              "content": "La física quàntica prediu que el buit no és realment buit: fluctuacions quàntiques creen i destrueixen partícules virtualment de forma contínua, donant al buit una energia pròpia. Quan els físics calculen aquesta energia del buit i la comparen amb el valor de l'energia fosca mesurat, obtenen una discrepància d'un factor de 10¹²⁰ — el número 1 seguit de 120 zeros. És la predicció teòrica menys precisa de tota la física, per molts ordres de magnitud. Alguns físics ho consideren la indicació que estem entenent quelcom profundament malament sobre la naturalesa del buit, l'energia o la gravetat. Altres ho veuen com una pista que la teoria quàntica de camps i la relativitat general es contradiuen d'una forma que encara no sabem resoldre."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-u03-01",
+              "style": "multiple-choice",
+              "question": "Quin percentatge de l'univers és matèria i energia 'ordinàries' — és a dir, del tipus que coneixem i entenem?",
+              "options": [
+                "Aproximadament el 50% — la meitat de l'univers és matèria coneguda",
+                "Aproximadament el 27% — la matèria fosca és la component dominant",
+                "Aproximadament el 5% — la matèria ordinària és una minoria insignificant del contingut còsmic",
+                "Aproximadament el 68% — l'energia fosca és matèria ordinària en forma de camp"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La matèria ordinària — tot el que veiem i toquem, totes les estrelles, planetes, gas, pols, éssers vius — representa aproximadament el 5% del contingut energètic total de l'univers. El 95% restant és matèria fosca (27%) i energia fosca (68%), les dues completament desconegudes en la seva naturalesa.",
+              "feedbackWrong": "La matèria ordinària representa tan sols un 5% del contingut total de l'univers. El 68% és energia fosca (desconeguda, causa l'expansió accelerada) i el 27% és matèria fosca (desconeguda, gravita però és invisible). Tot el que veiem, tot el que estudiem directament, és una minoria insignificant del contingut del cosmos."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-u03-02",
+              "style": "detect-error",
+              "statement": "L'energia fosca és simplement la constant cosmològica d'Einstein — ara sabem que tenia raó en afegir-la a les seves equacions per raons correctes.",
+              "isCorrect": false,
+              "feedbackExplanation": "Hi ha un error important. L'energia fosca podria ser la constant cosmològica d'Einstein (Λ) — numèricament sembla consistent. Però Einstein la va afegir per una raó completament errònia: mantenir un univers estàtic. Que el valor numèric de Λ pugui coincidir amb l'energia fosca observada és una coincidència (o no) que no valida retrospectivament la raó per la qual Einstein la va introduir. A més, no és cert que 'ara sabem' que Λ és la resposta correcta: la naturalesa de l'energia fosca és un dels problemes oberts més importants de la cosmologia, i hi ha molts models alternatius (quintessència, energia fosca dinàmica) que es continuen investigant."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bb-u03-01",
+              "question": "Coneixem amb precisió l'efecte de l'energia fosca (accelera l'expansió) però no la seva naturalesa. És satisfactori en ciència tenir una descripció precisa sense entendre la causa?",
+              "options": [
+                "No: una ciència que no entén la causa és descripció, no explicació — és ciència incompleta",
+                "Sí: la ciència ha de descriure i predir amb precisió; la causa última és una qüestió filosòfica, no científica",
+                "Depèn: la descripció precisa és vàlida científicament i pràcticament, però buscar la causa és el proper pas legítim i necessari"
+              ],
+              "correct": 2,
+              "explanation": "La ciència opera en múltiples nivells simultàniament. La descripció fenomenològica precisa — saber que l'expansió s'accelera, mesurar la taxa d'acceleració, fer prediccions sobre l'evolució futura de l'univers — és científicament vàlida i pràcticament útil. Però la ciència no es conformaria si es pogués anar més fons. L'energia fosca és una etiqueta per a la nostra ignorància, no una explicació. El programa de recerca legítim és exactament el que s'està fent: cartografiar l'expansió amb gran precisió per veure si l'equació d'estat de l'energia fosca canvia en el temps (cosa que distingeix la constant cosmològica d'altres models), buscar indicis en la distribució de galàxies, i intentar reconciliar la física quàntica del buit amb la relativitat general. La descripció és el punt de partida, no el punt d'arribada."
+            }
+          ]
+        },
+        {
+          "id": "bb-u04",
+          "title": "La forma i mida de l'univers observable",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "L'univers té 13.800 milions d'anys. La llum viatja a velocitat finita. Per tant, no podem veure més lluny del que la llum ha pogut recórrer des del Big Bang, oi? En realitat, no és tan simple. L'espai s'ha expansionat mentre la llum viatjava. La galàxia més llunyana que podem veure en principi no és a 13.800 milions d'anys llum — és a uns 46.500 milions d'anys llum. I l'univers total probablement és molt més gran que l'univers observable — potser infinitament més gran."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'univers observable és l'esfera de l'univers de la qual ens pot arribar llum. Té un radi de ~46.500 milions d'anys llum (no 13.800, perquè l'espai s'ha expansionat). L'univers total és probablement molt més gran que l'observable — però no podem saber-ne la mida real perquè tot el que queda fora del nostre horitzó còsmic és per definició inaccessible."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el radi observable és 46.500 i no 13.800 milions d'anys llum?",
+              "content": "Quan una galàxia va emetre la llum que ens arriba ara, estava molt més propera a nosaltres. Mentre la llum viatjava cap a nosaltres, l'espai entre nosaltres i la galàxia s'anava expandint. La galàxia s'allunyava. Quan la llum finalment ens arriba, la galàxia que la va emetre és ara molt més lluny del que estava quan la va emetre. En 13.800 milions d'anys d'expansió, la distància s'ha multiplicat: una galàxia que va emetre llum gairebé immediatament després del Big Bang és ara a uns 46.500 milions d'anys llum. El 'horitzó còsmic' no és una paret física — és el límit de la informació que ens pot arribar. Res no impedeix que hi hagi més univers a l'altra banda; simplement no en podem saber res."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-u04-01",
+              "style": "multiple-choice",
+              "question": "Per qué el radi de l'univers observable és ~46.500 milions d'anys llum si l'univers té 'sols' 13.800 milions d'anys?",
+              "options": [
+                "Perquè la llum viatja més ràpid que la velocitat c en l'espai intergalàctic",
+                "Perquè l'espai s'ha expansionat mentre la llum viatjava — les galàxies origen s'han allunyat des que van emetre la llum que ara rebem",
+                "Perquè els astrònoms mesuren el radi en anys llum de la llum, no en anys llum de distància actual",
+                "Perquè l'univers té 46.500 milions d'anys, no 13.800 — la segona xifra és incorrecta"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Mentre la llum d'una galàxia llunyana viatjava cap a nosaltres, l'espai s'expandia. La galàxia que va emetre aquella llum és ara molt més lluny que quan la va emetre. El radi observable de 46.500 milions d'anys llum és la distància actual a les galàxies més llunyanes de les quals ens pot arribar llum — no la distància que la llum ha recorregut.",
+              "feedbackWrong": "La galàxia que va emetre llum fa 13.000 milions d'anys estava llavors molt més propera a nosaltres — l'espai entre nosaltres era menor. Aquella mateixa galàxia és ara a uns 46.500 milions d'anys llum perquè l'espai s'ha expansionat en el temps que ha trigat la llum a arribar-nos."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-u04-02",
+              "style": "true-false",
+              "question": "L'horitzó còsmic és una frontera física de l'univers: més enllà, no hi ha res.",
+              "correct": false,
+              "feedbackCorrect": "FALS. L'horitzó còsmic és el límit del nostre univers observable — el límit d'on ens pot arribar informació — no el límit de l'existència. Probablement hi ha molt més univers a l'altra banda, però per definició no en podem saber res: cap llum emesa des d'allà ens ha tingut temps d'arribar. L'horitzó és un límit epistèmic, no ontològic.",
+              "feedbackWrong": "L'horitzó còsmic no és una paret física. És el límit de la informació que ens pot arribar — un límit epistèmic, no una frontera de l'existència. Molts models cosmològics predicen que l'univers és molt més gran que l'observable — potser infinitament. Simplement, no en podem saber res perquè cap senyal no ha tingut temps de travessar la distància."
+            },
+            {
+              "type": "reflection",
+              "question": "Existeixen regions de l'univers que mai no podran comunicar-se amb nosaltres — no per cap obstacle físic, sinó perquè l'espai entre elles i nosaltres s'expandeix més ràpid que la llum. Qué implica per tu l'existència d'una realitat que, per principi, mai no podràs conèixer?",
+              "prompt": "És una pregunta filosòfica tant com científica."
+            }
+          ]
+        },
+        {
+          "id": "bb-u05",
+          "title": "El destí de l'univers",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "L'univers té passat — 13.800 milions d'anys de història. Però també té futur, i la física fa prediccions sobre ell. Depenent de la naturalesa de l'energia fosca, el destí de l'univers varia dràsticament. El model estàndard apunta a un univers que s'expansiona per sempre, s'enfredeix i s'apaga progressivament. Però hi ha escenaris més extrems: el Big Rip, on l'expansió accelerada acaba desganyotant la pròpia matèria; o el Big Crunch, si la gravetat acaba vencent l'expansió. El que tots els escenaris comparteixen: l'estructura que coneixem és transitòria."
+            },
+            {
+              "type": "key-idea",
+              "text": "La trajectòria més probable de l'univers, si l'energia fosca roman constant, és la mort tèrmica: expansió indefinida, refredament progressiu, extinció gradual de totes les estrelles en bilions d'anys, i finalment un univers fred, fosc i quasi buit on l'única activitat restant serà l'evaporació lentíssima dels forats negres per radiació de Hawking."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "Avui (13.800 Ma)",
+                  "title": "L'univers en el seu pic d'esplendor estel·lar",
+                  "text": "Uns dos bilions de gal·làxies. La taxa de formació estel·lar ja va assolir el màxim fa ~10.000 milions d'anys i decreix."
+                },
+                {
+                  "year": "5.000 milions d'anys",
+                  "title": "El Sol es converteix en gegant roja",
+                  "text": "El Sol s'expandirà fins a engolir Mercuri, Venus i possiblement la Terra. Posteriorment, es convertirà en una nana blanca."
+                },
+                {
+                  "year": "100.000 milions d'anys",
+                  "title": "Fi de la formació d'estrelles noves",
+                  "text": "El gas que forma estrelles s'ha esgotat. Les estrelles existents continuen brillant, però no se'n formen de noves."
+                },
+                {
+                  "year": "100 bilions d'anys",
+                  "title": "Mort de les últimes estrelles",
+                  "text": "Fins i tot les nanes vermelles més petites i duradores s'apaguen. L'univers és fosc, poblat per nanes blanques, estrelles de neutrons i forats negres."
+                },
+                {
+                  "year": "10^37 anys",
+                  "title": "Desintegració del protó (hipotètica)",
+                  "text": "Si els protons es desintegren (predicció de certes GUTs), tota la matèria ordinària restant s'evapora."
+                },
+                {
+                  "year": "10^67 a 10^100 anys",
+                  "title": "Evaporació dels forats negres per radiació de Hawking",
+                  "text": "Fins i tot els forats negres supermassís s'evaporen lentíssimament. Al final, queda un univers de fotons, neutrins i partícules elementals en expansió infinita."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El Big Rip: si l'energia fosca s'intensifica, l'univers pot ser esquinçat",
+              "content": "Si l'energia fosca no és una constant sinó que creix amb el temps, arriba un punt en que l'expansió accelerada supera qualsevol força coesiva. Primer, s'arrencaran els cúmuls galàctics. Després les galàxies es disgregaran. Posteriorment, els sistemes estel·lars. Finalment, les forces que mantenen units els àtoms i els nuclis atòmics cediran. Les estimacions situen el Big Rip, si es produeix, en uns 20.000 milions d'anys en el futur. La clau és l'equació d'estat de l'energia fosca: si és constant (w = -1), tenim mort tèrmica; si es fa més negativa (w < -1), tenim Big Rip. Les mesures actuals no permeten descartar cap dels dos escenaris."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-u05-01",
+              "style": "multiple-choice",
+              "question": "Quin és el destí més probable de l'univers si l'energia fosca roman constant?",
+              "options": [
+                "Big Crunch: la gravetat acabarà revertint l'expansió i l'univers col·lapsarà",
+                "Big Rip: l'energia fosca creixent desgarrarà eventualment la pròpia matèria",
+                "Mort tèrmica: expansió indefinida, refredament gradual i extinció de totes les estrelles en bilions d'anys",
+                "Estat estacionari: l'univers s'estabilitzarà en una mida constant"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. Si l'energia fosca és la constant cosmològica, l'univers continuarà expandint-se per sempre, les estrelles s'apagaran progressivament, i l'univers arribarà a un estat fred i fosc de màxima entropia — la mort tèrmica.",
+              "feedbackWrong": "El Big Crunch requeriria que la gravetat superi l'energia fosca — incompatible amb els valors actuals. L'estat estacionari és el model de Hoyle, descartat per les observacions. El model estàndard, amb energia fosca constant, apunta a la mort tèrmica: expansió indefinida i extinció gradual de tota activitat energètica."
+            },
+            {
+              "type": "debate",
+              "question": "Sabem que en bilions d'anys totes les estrelles s'apagaran i l'univers serà fred i fosc. Hauria aquesta certesa sobre la transitorietat còsmica de canviar la manera com donem sentit a les coses aquí i ara?",
+              "positionA": {
+                "label": "Sí: la transitorietat còsmica canvia el sentit",
+                "argument": "Si tot el que existeix és irremeiablement temporal a escala còsmica, el sentit que li donem aquí i ara és una construcció local i provisional. El cosmos és indiferent. Reconèixer-ho obliga a reconèixer que el sentit és quelcom que nosaltres creem, no que descobrim."
+              },
+              "positionB": {
+                "label": "No: la transitorietat no afecta el sentit local",
+                "argument": "Que una obra d'art sigui destruïda d'aquí a un milió d'anys no fa que sigui menys valuosa avui. El sentit no depèn de la permanència. L'amor, la bellesa, el coneixement — no necessiten durar per sempre per tenir valor real."
+              },
+              "reflection": "Creus que el sentit requereix permanència, o que pot existir plenament en el que és passatger?",
+              "context": "Bertrand Russell va escriure 'Un món lliure' (1903) argumentant que l'home ha de construir la seva vida sobre 'el fonament ferm de la desesperació indomable'. Albert Camus va proposar l'absurd com a punt de partida — no com a nihilisme sinó com a alliberament."
+            }
+          ]
+        },
+        {
+          "id": "bb-u06",
+          "title": "Les grans preguntes obertes de la cosmologia",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El model estàndard de cosmologia — Lambda-CDM — és un èxit extraordinari. Descriu l'univers amb quatre paràmetres principals i reprodueix observacions que van des del CMB fins a la distribució de galàxies. Però té forats grans. No sabem qué és el 95% de l'univers. No sabem per qué hi ha matèria i no antimatèria. No sabem qué va passar abans del temps de Planck. No sabem si la inflació va ocórrer. La cosmologia moderna és, simultàniament, la ciència amb les teories més precises i la que té les ignoràncies més fonamentals."
+            },
+            {
+              "type": "key-idea",
+              "text": "El model Lambda-CDM és el millor model cosmològic que tenim: consistent, predictiu i verificat per múltiples observacions independents. I al mateix temps, el 95% dels seus ingredients principals (matèria fosca i energia fosca) són completament desconeguts en la seva naturalesa. Estem en una situació única: saber molt sobre com funciona quelcom que no entenem."
+            },
+            {
+              "type": "expandable",
+              "label": "La tensió de Hubble: un problema que no hauria d'existir",
+              "content": "La constant de Hubble (H0) mesura la taxa d'expansió de l'univers. Hauria de tenir un valor únic. Però hi ha dos mètodes principals per mesurar-la que donen resultats incompatibles. Mesurant el CMB (univers primerenc) s'obté H0 aprox 67 km/s/Mpc. Mesurant cefeides i supernovas tipus Ia (univers proper) s'obté H0 aprox 73 km/s/Mpc. La diferència és de ~9% — molt per sobre dels marges d'error. Ambdós equips han revisat repetidament les seves mesures. La discrepància persisteix. Podria ser un error sistemàtic no identificat — o podria indicar física nova no inclosa en el model estàndard. La tensió de Hubble és avui un dels problemes actius més debatuts de la cosmologia."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-u06-01",
+              "style": "multiple-choice",
+              "question": "El model Lambda-CDM descriu l'univers amb gran precisió però no explica la naturalesa del 95% del seu contingut. Com s'ha d'interpretar un model científic tan precís però tan incomplet?",
+              "options": [
+                "Un model que no entén el 95% del seu objecte d'estudi no pot ser considerat científicament vàlid",
+                "La precisió descriptiva i la comprensió profunda de la naturalesa són dues coses separades — un model pot ser molt útil sense entendre completament el que descriu",
+                "El model deu estar equivocat en alguna premissa bàsica, atès que no pot explicar la majoria del contingut de l'univers"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La precisió predictiva i la comprensió de la naturalesa profunda són nivells separats del coneixement científic. Lambda-CDM reprodueix acuradament el CMB, la distribució de galàxies i moltes altres observacions. Newton no sabia qué era la gravetat 'en el fons' — i la seva teoria era moltíssim útil durant 250 anys.",
+              "feedbackWrong": "Un model pot ser científicament vàlid — consistent, precís i predictiu — sense que entenguem completament la naturalesa dels ingredients que postula. Lambda-CDM descriu precisament el que observem; la qüestió de la naturalesa de la matèria i l'energia fosca és el front actiu de recerca, no una invalidació del model."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-bb-u06-02",
+              "style": "detect-error",
+              "statement": "El Big Bang és tan sols una teoria sense proves sòlides — és una hipòtesi especulativa sobre l'origen de l'univers que la ciència no pot verificar.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta afirmació conté dos errors. Primer, en ciència 'teoria' no significa 'hipòtesi especulativa': és un marc explicatiu comprovat. Segon, el Big Bang té múltiples línies d'evidència independents: l'expansió de l'univers (Hubble, 1929), la radiació de fons de microones (Penzias i Wilson, 1965), l'abundància primordial d'heli (~25% predit i observat), la distribució i evolució de les galàxies en funció del temps còsmic, i les fluctuacions del CMB mapades per COBE, WMAP i Planck. Juntes i independents, constitueixen un dels pilars més sòlidament verificats de tota la ciència moderna."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "La Relativitat General",
+              "moduleEmoji": "🌌",
+              "concept": "Les equacions de Friedmann",
+              "text": "La cosmologia moderna és, en el fons, aplicació de la relativitat general a l'univers sencer. Les equacions de Friedmann — derivades directament de les equacions de camp d'Einstein — descriuen com l'univers evoluciona en funció del seu contingut. El Big Bang no és una idea independent de la relativitat general: és la seva conseqüència lògica aplicada a l'escala de l'univers sencer."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-bb-u06-01",
+              "question": "La cosmologia fa afirmacions sobre l'univers sencer, l'origen del temps i el destí de tota l'existència. Algunes prediccions (com el multivers) podrien ser en principi inverificables. On és la frontera entre cosmologia científica i cosmologia especulativa?",
+              "options": [
+                "Tot el que no sigui directament observable és especulació — la cosmologia hauria de limitar-se als fenòmens observables",
+                "No hi ha frontera nítida: la ciència pot postular entitats no directament observables si fan prediccions verificables sobre el que sí observem",
+                "La frontera és la falsabilitat estricta: una afirmació cosmològica és científica si i sols si pot ser refutada per una observació concreta"
+              ],
+              "correct": 1,
+              "explanation": "La frontera entre ciència i especulació no és l'observabilitat directa d'una entitat, sinó si el marc que la postula fa prediccions verificables. La matèria fosca no és directament observable, però el seu marc prediu corbes de rotació galàctica, lensing gravitacional i el patró del CMB — totes verificables. El multivers, en la majoria de les seves versions, no fa prediccions diferenciades sobre l'univers observable. La cosmologia especulativa comença quan un marc deixa de fer prediccions que el poguessin distingir de qualsevol altra teoria."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

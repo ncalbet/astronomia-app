@@ -1,0 +1,968 @@
+{
+  "id": "module-XX-teoria-ri",
+  "title": "Teoria de les Relacions Internacionals",
+  "emoji": "🌐",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "com-sexplica-el-mon",
+      "title": "Com s'explica el món",
+      "icon": "🔭",
+      "description": "Les grans teories per entendre per què els estats fan el que fan.",
+      "style": "Conceptual · eines per llegir la realitat",
+      "lessons": [
+        {
+          "id": "ri-01",
+          "title": "Per què hi ha guerra?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "L'agost de 1914, cap govern europeu volia una guerra mundial. L'emperador alemany, el tsar rus, el rei britànic eren cosins. Els banquers dels dos bàndols tenien inversions creuades. El comerç entre les potències era màxim. I malgrat tot, en sis setmanes Europa estava en flames. Com és possible? La resposta que ha donat la teoria de les relacions internacionals és inquietant: la guerra no requereix actors dolents. Requereix un sistema sense àrbitre."
+            },
+            {
+              "type": "key-idea",
+              "text": "El sistema internacional és anàrquic: no existeix cap govern mundial que pugui imposar lleis als estats. Aquesta anarquia no significa caos permanent, però sí que crea un entorn on cada estat ha de proveir la seva pròpia seguretat — i on les intencions pacífiques poden produir resultats bèl·lics."
+            },
+            {
+              "type": "expandable",
+              "label": "El dilema de seguretat — per què armar-se per defensar-se pot provocar la guerra que vols evitar",
+              "content": "Imagina dos estats veïns sense cap conflicte d'interessos real. L'estat A, preocupat per la seva seguretat, augmenta el seu exèrcit. L'estat B interpreta aquest augment com una amenaça i respon armant-se també. A veu l'armament de B com a confirmació de les seves pors i augmenta encara més. Tots dos acaben en guerra sense que cap dels dos l'hagués volgut. Aquest mecanisme —el dilema de seguretat— és una de les idees més poderoses de les RI: mostra com la racionalitat individual pot produir resultats col·lectivament irracionals. John Herz el va formalitzar el 1950, però la lògica és tan antiga com la política."
+            },
+            {
+              "type": "expandable",
+              "label": "Els tres nivells d'anàlisi de Kenneth Waltz — on buscar les causes de la guerra",
+              "content": "El politòleg Kenneth Waltz va proposar el 1959 que les causes de la guerra poden trobar-se en tres nivells:\n1. L'individu: la naturalesa humana agressiva, els líders irracionals, els errors de percepció.\n2. L'estat: el tipus de règim, la ideologia, els grups de pressió interns.\n3. El sistema internacional: l'anarquia, la distribució del poder, l'estructura.\nWaltz argumentava que el tercer nivell és el més explicatiu: canviar líders o règims no elimina la guerra si l'estructura anàrquica del sistema es manté. És una posició radical — i molt debatuda — però enormement influent."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "1648", "title": "Pau de Westfàlia", "text": "Estableix el sistema d'estats sobirans com a unitat bàsica de la política internacional. Neix l'ordre que encara estructura el món." },
+                { "year": "1914-1918", "title": "Primera Guerra Mundial", "text": "La guerra que 'ningú volia' i que va matar 20 milions de persones. Posa en crisi les explicacions basades en la maldat dels actors." },
+                { "year": "1959", "title": "Waltz: Man, the State and War", "text": "Sistematitza els tres nivells d'anàlisi. Funda el realisme estructural modern." },
+                { "year": "1990", "title": "Fi de la Guerra Freda", "text": "El sistema bipolar col·lapsa. Les teories basades en l'estructura han d'explicar per què no hi va haver guerra entre les superpotències — i per què el sistema va canviar tan ràpidament." }
+              ]
+            },
+            {
+              "type": "prediction",
+              "question": "Si dos països tenen un comerç mutu molt intens, és menys probable que entrin en guerra? Per què sí o per què no?",
+              "hint": "Pensa en Europa el 1914. I pensa en els EUA i la Xina avui."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-01-01",
+              "style": "multiple-choice",
+              "question": "Quan les RI parlen d'un sistema internacional 'anàrquic', volen dir que:",
+              "options": [
+                "El món és caòtic i violent de manera permanent i inevitable",
+                "No existeix cap autoritat central amb poder coercitiu sobre els estats",
+                "Els estats actuen sempre de manera irracional i imprevisible",
+                "Les organitzacions internacionals com l'ONU no tenen cap utilitat"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Anarquia en RI no significa caos: significa absència d'un govern supranacional que pugui imposar lleis als estats i fer-les complir. Dins d'aquesta anarquia pot haver-hi ordre, cooperació i normes — però no hi ha cap policia mundial que garanteixi el compliment.",
+              "feedbackWrong": "Anarquia és un terme tècnic en RI que no equival a caos ni a violència permanent. Descriu l'estructura formal del sistema: cap actor té autoritat legítima sobre els estats sobirans. Dins d'aquesta estructura, els estats poden cooperar, crear institucions i seguir normes — però ho fan sense cap força coercitiva externa que els hi obligui."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-01-02",
+              "style": "detect-error",
+              "statement": "El dilema de seguretat demostra que la guerra és inevitable en un sistema anàrquic, perquè els estats sempre acabaran armant-se fins al conflicte.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és concloure que el dilema de seguretat implica guerra inevitable. El dilema descriu una tendència estructural, no un destí. Els estats poden escapar-ne mitjançant la comunicació, la transparència militar, les institucions de seguretat col·lectiva o les aliances. La Guerra Freda és l'exemple més gran: dos blocs armats fins a la destrucció mútua assegurada que van evitar la guerra directa durant quaranta anys. El dilema de seguretat explica per què la pau requereix esforç actiu — no per què és impossible."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-01-01",
+              "question": "Quin nivell d'anàlisi explica millor les guerres: la naturalesa humana, el tipus d'estat o l'estructura del sistema internacional?",
+              "options": [
+                "La naturalesa humana: els humans són intrínsecament agressius i competitius, i això es reflecteix en la política entre estats",
+                "El tipus d'estat: les democràcies no es fan la guerra entre elles; canviar els règims és la clau per a la pau",
+                "L'estructura del sistema: l'anarquia i la distribució del poder expliquen els patrons de guerra i pau millor que els actors individuals"
+              ],
+              "correct": 2,
+              "explanation": "Els tres nivells capturen part de la realitat, i el debat entre ells és un dels més fecunds de les RI. El nivell individual té el problema que líders similars prenen decisions molt diferents en contextos estructurals diferents — el mateix Kaiser Guillem II hauria estat probablement inofensiu com a rei de Dinamarca. El nivell estatal té suport empíric parcial: la 'pau democràtica' (les democràcies liberals rarament es fan la guerra entre elles) és un dels patrons més robusts de les RI. Però les democràcies sí que fan la guerra a no-democràcies, i el mecanisme causal no és clar. El nivell sistèmic, defensat per Waltz, explica patrons estructurals com la tendència a l'equilibri de poder o la recurrència de les guerres hegemòniques — però té dificultats per explicar casos concrets on les decisions individuals van ser decisives. La posició més defensable avui és pluralista: els tres nivells interactuen, i cap pot prescindir dels altres. Però si has de triar un com a punt de partida analític, l'estructura sistèmica ofereix les prediccions més generals i robustes."
+            }
+          ]
+        },
+        {
+          "id": "ri-02",
+          "title": "El realisme: el poder ho és tot",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 416 aC, Atenes va enviar una flota a l'illa de Melos per exigir la seva rendició. Els melians van al·legar que tenien dret a la neutralitat, que els déus els protegirien, que Esparta vindria en el seu ajut. Els atenesos van respondre que en política internacional els arguments morals no compten: compte el poder. Melos es va rendir. Atenes va matar tots els homes adults i va esclavitzar les dones i els nens. Tucídides va escriure aquest diàleg no per condemnar Atenes, sinó per il·lustrar una veritat que creia universal sobre la naturalesa del poder."
+            },
+            {
+              "type": "key-idea",
+              "text": "El realisme és la teoria dominant de les RI. Els seus pilars: els estats són els actors principals, l'anarquia internacional és la condició permanent, els estats busquen poder o seguretat com a objectiu primari, i la moral té poc o cap paper en les decisions d'estat. La política internacional és una lluita permanent pel poder entre actors que no es fien els uns dels altres."
+            },
+            {
+              "type": "comparison",
+              "title": "Realisme clàssic vs. Realisme estructural",
+              "labelA": "Realisme clàssic (Morgenthau)",
+              "labelB": "Realisme estructural (Waltz)",
+              "items": [
+                { "label": "Causa de la conflictivitat", "a": "La naturalesa humana: set de poder", "b": "L'estructura anàrquica del sistema" },
+                { "label": "Unitat d'anàlisi", "a": "L'estat i els seus líders", "b": "El sistema internacional" },
+                { "label": "Objectiu dels estats", "a": "Maximitzar el poder", "b": "Maximitzar la seguretat (supervivència)" },
+                { "label": "Prediccions", "a": "Depèn dels actors concrets", "b": "Patrons sistèmics independents dels actors" },
+                { "label": "Punt feble", "a": "Difícil de falsificar empíricament", "b": "Explica poc el canvi i les institucions" }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Henry Kissinger i la Realpolitik — el realisme com a política d'estat",
+              "content": "Henry Kissinger, Secretari d'Estat dels EUA entre 1969 i 1977, és l'exemple més influent de realisme aplicat. Va obrir relacions amb la Xina comunista no per simpatia ideològica sinó per contrabalançar la URSS. Va donar suport a dictadors llatinoamericans perquè eren aliats útils. Va bombardejar Cambodja en secret. La seva lògica era coherentment realista: els valors morals són luxes que les grans potències no es poden permetre quan la seguretat nacional està en joc. Els seus crítics argumenten que el realisme de Kissinger va produir dècades de sofriment innecessari i va minar la credibilitat moral dels EUA. Kissinger respondria que va evitar una guerra nuclear. El debat segueix obert."
+            },
+            {
+              "type": "quote",
+              "text": "Els forts fan el que poden; els febles pateixen el que han de patir.",
+              "author": "Tucídides, Història de la Guerra del Peloponès (c. 400 aC)"
+            },
+            {
+              "type": "expandable",
+              "label": "L'equilibri de poder — per què les grans potències tendeixen a coalitzar-se contra el més fort",
+              "content": "Una de les prediccions centrals del realisme és que els estats tendeixen a coalitzar-se contra la potència dominant per evitar que cap actor assoleixi una hegemonia total. Quan Napoleó amenaçava dominar Europa, Prússia, Àustria, Rússia i fins i tot l'antiga aliada Gran Bretanya es van unir contra ell. Quan Hitler va fer el mateix, es va repetir el patró. El realisme prediu que el mateix passarà amb qualsevol potència que s'apropi massa a la dominació global — inclosos els EUA. Alguns realistes argumenten que l'ascens de la Xina provocarà una coalició de contenció automàtica. Altres diuen que la Xina és prou prudent per evitar-ho."
+            },
+            {
+              "type": "misconception",
+              "belief": "El realisme justifica moralment la guerra i el comportament agressiu dels estats.",
+              "reality": "El realisme és una teoria descriptiva i predictiva, no una prescripció moral. Descriu com actuen els estats, no com haurien d'actuar. Molts realistes — com Morgenthau — eren crítics de la guerra i defensaven la prudència com a virtut cardinal de l'estadista. La confusió entre descriure el cinisme i justificar-lo és freqüent però incorrecta.",
+              "why": "Perquè el realisme usa un llenguatge fred i amoral que es llegeix fàcilment com a aprovació. Però un metge que descriu una malaltia no l'aprova."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-02-01",
+              "style": "multiple-choice",
+              "question": "Segons el realisme estructural de Waltz, per què els estats busquen poder?",
+              "options": [
+                "Perquè els humans tenen una pulsió innata d'agressivitat que es reflecteix en la política estatal",
+                "Perquè l'anarquia del sistema els obliga a proveir la seva pròpia seguretat, i el poder és el mitjà per fer-ho",
+                "Perquè els líders polítics sempre prioritzen els seus interessos personals per sobre dels de l'estat",
+                "Perquè les ideologies nacionalistes empenten els estats cap a l'expansió territorial"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Waltz desplaça la causa del conflicte de la naturalesa humana (Morgenthau) a l'estructura del sistema. En un sistema anàrquic sense garanties externes, qualsevol estat racional buscarà poder com a instrument de seguretat — no per maldat sinó per lògica situacional. És el mateix argument que el dilema de seguretat, però elevat a teoria general.",
+              "feedbackWrong": "Aquesta explicació correspon al realisme clàssic de Morgenthau, no al realisme estructural de Waltz. La diferència és important: Waltz argumenta que fins i tot estats governats per líders benignes i pacifistes es comportarien de manera similar en un sistema anàrquic, perquè la pressió estructural és més forta que les intencions individuals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-02-02",
+              "style": "true-false",
+              "question": "El realisme prediu que les aliances internacionals es formen principalment per afinitat ideològica entre estats.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. El realisme prediu exactament el contrari: les aliances es formen per càlcul d'interès i equilibri de poder, no per afinitat ideològica. L'exemple clàssic és l'aliança dels EUA democràtics amb la URSS comunista durant la Segona Guerra Mundial per derrotar l'Alemanya nazi. O l'obertura de Nixon a la Xina comunista per contrabalançar la URSS.",
+              "feedbackWrong": "Per al realisme, la ideologia és secundària en política exterior. Les aliances segueixen la lògica del poder: un estat s'aliarà amb el seu enemic ideològic si això li convé estratègicament. Churchill ho va dir explícitament: 'No tenim aliats permanents, tan sols interessos permanents.'"
+            },
+            {
+              "type": "debate",
+              "question": "En política internacional, els arguments morals tenen algun pes real o sempre cedeixen davant els interessos de poder?",
+              "positionA": {
+                "label": "La moral no compta",
+                "argument": "La història mostra que quan els interessos vitals d'un estat xoquen amb principis morals, els principis perden. Els EUA han defensat dictadors, la URSS va invocar la fraternitat socialista per justificar invasions, la UE ha ignorat violacions de drets humans quan el comerç estava en joc. La moral en política exterior és retòrica per a consum intern."
+              },
+              "positionB": {
+                "label": "La moral sí que compta",
+                "argument": "La legitimitat internacional té valor estratègic real: els estats que la perden pateixen costos concrets — aïllament diplomàtic, sancions, pèrdua d'aliats. Les normes internacionals contra la guerra química o el genocidi han canviat el comportament dels estats. La moral no és decisiva sempre, però és un factor que cap estadista racional pot ignorar completament."
+              },
+              "reflection": "Pensa en un cas recent on un estat va actuar contra els seus interessos immediats per raons morals o de reputació. Existeix? Qué el va motivar?",
+              "context": "La tensió entre poder i moral és tan antiga com la política. Maquiavel, Hobbes i Morgenthau defensen la primacia del poder. Kant, Wilson i les teories liberals argumenten que les normes i les institucions poden disciplinar el poder. La resposta empírica és: depèn del cas, de l'actor i de la magnitud dels interessos en joc."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-02-01",
+              "question": "L'ascens de la Xina portarà inevitablement a un conflicte amb els EUA, com prediu el realisme?",
+              "options": [
+                "Sí — la història mostra que les potències emergents sempre xoquen amb les hegemones; el conflicte és inevitable",
+                "No — la interdependència econòmica i les armes nuclears fan el conflicte massa costós per a qualsevol actor racional",
+                "És possible però no inevitable: depèn de com els dos actors gestionin la transició i de les decisions concretes que prenguin"
+              ],
+              "correct": 2,
+              "explanation": "Graham Allison va encunyar el terme 'trampa de Tucídides' per descriure el patró històric: de 16 casos en què una potència emergent va desafiar una hegemona en els últims 500 anys, 12 van acabar en guerra. La lògica realista suggereix que l'ascens xinès i la resistència americana creen pressions estructurals cap al conflicte. Però hi ha factors que la història anterior no tenia: les armes nuclears fan la guerra directa entre grans potències suïcida; la interdependència econòmica crea interessos poderosos a favor de la pau; i les institucions internacionals ofereixen canals per gestionar la rivalitat. Els realistes més sofisticats, com John Mearsheimer, argumenten que el conflicte és molt probable però no inevitable — depèn sobretot de si la Xina intenta expulsar els EUA de l'Àsia oriental. Els liberals argumenten que la gestió institucional pot evitar el pitjor. La resposta C és la que millor captura la incertesa real: les estructures creen tendències, no destins."
+            }
+          ]
+        },
+        {
+          "id": "ri-03",
+          "title": "El liberalisme: la cooperació és possible",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1945, els EUA podrien haver imposat unilateralment el seu ordre al món. Tenien l'única economia intacta, l'únic arsenal nuclear, el major exèrcit. Van triar fer alguna cosa diferent: construir institucions. El FMI, el Banc Mundial, les Nacions Unides, el GATT, la NATO. No per altruisme sinó perquè creien que un ordre basat en regles seria més estable i beneficiós a llarg termini — per a ells i per a tothom. Aquesta aposta liberal va definir setanta anys d'ordre mundial. Ara es desfa. Per entendre per què, cal entendre primer per què va funcionar."
+            },
+            {
+              "type": "key-idea",
+              "text": "El liberalisme en RI argumenta que la cooperació entre estats és possible i estable gràcies a tres mecanismes: la interdependència econòmica (el comerç fa la guerra costosa), les institucions internacionals (redueixen la incertesa i faciliten acords) i la pau democràtica (les democràcies liberals rarament es fan la guerra entre elles)."
+            },
+            {
+              "type": "expandable",
+              "label": "La pau democràtica — el patró empíric més robust de les RI",
+              "content": "Des que Michael Doyle va sistematitzar l'observació el 1983, la 'pau democràtica' és un dels patrons més estudiats de les RI: les democràcies liberals establertes rarament — alguns diuen mai — s'han fet la guerra entre elles. Les explicacions possibles són diverses: les democràcies necessiten el consentiment dels ciutadans que paguen les guerres; les normes liberals de resolució pacífica de disputes s'apliquen entre iguals; la transparència institucional redueix la desconfiança. El problema: les democràcies sí que fan la guerra a no-democràcies, i de vegades les promouen activament. I la definició de 'democràcia' és prou flexible per excloure casos incòmodes. El patró és real, però l'explicació causal no és clara."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què les institucions internacionals funcionen — i per què de vegades no",
+              "content": "Les institucions internacionals — ONU, OMC, CPI, OTAN — no tenen un exèrcit per imposar les seves decisions. Per què obeirien els estats? La teoria liberal-institucionalista (Keohane) respon: perquè les institucions resolen problemes d'informació i coordinació. Sense l'OMC, cada negociació comercial seria bilateral i costosa. Sense el Tractat de No-Proliferació, cap estat sabria si el seu veí s'està armant nuclearment. Les institucions creen transparència i redueixen el cost de la cooperació. Però fallen quan els interessos dels actors poderosos divergeixen massa de les normes institucionals: els EUA van ignorar la CPI, Rússia va ignorar la prohibició d'invasió de l'ONU. Les institucions disciplinen els estats febles més que els forts."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "1795", "title": "Kant: Zum ewigen Frieden", "text": "Proposa una federació de repúbliques lliures com a condició per a la pau perpètua. Primera formulació de la pau democràtica." },
+                { "year": "1919", "title": "Wilson i la Societat de Nacions", "text": "El primer intent institucional de gestionar la pau internacional. Fracassa per l'absència dels EUA i la debilitat del mecanisme coercitiu." },
+                { "year": "1945", "title": "Ordre liberal postbèl·lic", "text": "ONU, FMI, Banc Mundial, GATT. Els EUA construeixen un ordre multilateral basat en regles." },
+                { "year": "1983", "title": "Doyle sistematitza la pau democràtica", "text": "Dona base empírica a la intuïció kantiana: les democràcies liberals no es fan la guerra entre elles." },
+                { "year": "2016-avui", "title": "Crisi de l'ordre liberal", "text": "Brexit, Trump, ascens de populismes, invasió d'Ucraïna. Les institucions liberals sota pressió màxima." }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-03-01",
+              "style": "multiple-choice",
+              "question": "Segons la teoria liberal de les RI, quin és el mecanisme principal pel qual el comerç internacional redueix el risc de guerra?",
+              "options": [
+                "Perquè els estats comerciants es tornen militarment dependents els uns dels altres",
+                "Perquè la guerra destruiria unes relacions econòmiques que beneficien tots els actors",
+                "Perquè el comerç promou la difusió de valors democràtics que fan els estats pacífics",
+                "Perquè les empreses multinacionals pressionen els governs per evitar conflictes"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La interdependència econòmica fa la guerra costosa: un estat que ataqués el seu soci comercial principal es faria mal a si mateix. Aquesta és la lògica de fons de la integració europea: fer els costos de la guerra tan elevats que cap actor racional la triés. El problema és que el 1914 el comerç europeu era màxim — i la guerra va esclatar igualment.",
+              "feedbackWrong": "El mecanisme principal és el cost: la guerra destruiria unes relacions comercials que beneficien els actors. Però el liberalisme reconeix que altres factors — el nacionalisme, les crisis d'elit, els errors de percepció — poden fer que els estats actuïn contra els seus interessos econòmics. El 1914 n'és la prova."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-03-02",
+              "style": "detect-error",
+              "statement": "La teoria liberal prediu que cap democràcia mai no ha fet la guerra a cap altre estat, perquè els valors liberals promouen la resolució pacífica de tots els conflictes.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és generalitzar massa la pau democràtica. La teoria diu que les democràcies liberals rarament es fan la guerra entre elles — no que les democràcies siguin pacífiques en general. Les democràcies fan la guerra freqüentment a no-democràcies: els EUA han intervingut militarment desenes de vegades en el segle XX i XXI. La pau democràtica és un patró en les relacions entre democràcies, no una característica general del comportament democràtic."
+            },
+            {
+              "type": "comparison",
+              "title": "Realisme vs. Liberalisme",
+              "labelA": "Realisme",
+              "labelB": "Liberalisme",
+              "items": [
+                { "label": "Actors principals", "a": "Estats sobirans", "b": "Estats + institucions + actors no estatals" },
+                { "label": "Condició bàsica", "a": "Anarquia permanent", "b": "Anarquia mitigable per institucions" },
+                { "label": "Cooperació", "a": "Possible però fràgil i temporal", "b": "Estable si les institucions funcionen" },
+                { "label": "Objectiu dels estats", "a": "Poder i seguretat", "b": "Poder + benestar + valors" },
+                { "label": "Visió del futur", "a": "El conflicte és recurrent", "b": "La pau pot ser durable" }
+              ]
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-03-01",
+              "question": "L'ordre liberal internacional basat en institucions i normes és una fase transitòria o una transformació permanent de la política mundial?",
+              "options": [
+                "Transitòria: les institucions liberals eren un producte de la hegemonia americana; sense ella, col·lapsaran",
+                "Permanent: les institucions han creat interessos i normes prou arrelades per sobreviure als seus creadors",
+                "Incert: depèn de si les potències emergents — especialment la Xina — decideixen participar en l'ordre o substituir-lo"
+              ],
+              "correct": 2,
+              "explanation": "El debat entre les posicions A i B és un dels més vius de les RI actuals. La posició A té el suport dels realistes: Mearsheimer i Walt argumenten que l'ordre liberal era un producte de la Guerra Freda i de la hegemonia americana, i que sense aquestes condicions s'esfondrà. Els fets recents — retirada dels EUA de l'Acord de París, erosió de l'OMC, debilitat de l'ONU davant Ucraïna — semblen donar-los la raó. La posició B, defensada per liberals com Ikenberry, argumenta que les institucions han creat una xarxa d'interessos i expectatives tan densa que seria costosíssim desmantellar-la: fins i tot la Xina i Rússia prefereixen participar en moltes institucions internacionals, tot i criticar-les. La posició C captura la incertesa real: l'ordre liberal sobreviurà en la mesura en què les potències emergents hi trobin suficient benefici per no substituir-lo. La resposta dependrà de decisions polítiques concretes que encara no s'han pres."
+            }
+          ]
+        },
+        {
+          "id": "ri-04",
+          "title": "El constructivisme: les idees fan el món",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Per què els EUA no es preocupen que el Regne Unit tingui armes nuclears però sí que es preocupen que les tingui l'Iran? Tots dos tenen la mateixa capacitat de destrucció. La diferència no és material: és de significat. El 1989, el mur de Berlín va caure sense un sol tret. L'URSS es va dissoldre pacíficament dos anys després. El realisme no ho havia predit — i tenia dificultats per explicar-ho. Quelcom més havia canviat: les idees sobre la legitimitat del règim soviètic, la identitat europea, el que era possible i desitjable."
+            },
+            {
+              "type": "key-idea",
+              "text": "El constructivisme argumenta que les estructures fonamentals de la política internacional no són materials sinó socials: les identitats, les normes i les idees compartides defineixen els interessos dels actors, no al revés. Els estats no tenen interessos fixos: els interessos es construeixen a través de la interacció social i canvien quan canvien les idees."
+            },
+            {
+              "type": "expandable",
+              "label": "Alexander Wendt i la frase que va canviar les RI: 'L'anarquia és el que els estats en fan'",
+              "content": "El 1992, Alexander Wendt va publicar un article amb un títol provocador: 'Anarchy is What States Make of It'. L'argument: el realisme tracta l'anarquia com si fos una força física que empeny els estats cap a la desconfiança i el conflicte. Però l'anarquia és simplement l'absència d'un govern mundial — i el significat que els estats atribueixen a aquesta absència depèn de com s'han relacionat entre ells. Els EUA i el Canadà viuen en el mateix sistema anàrquic que els EUA i la Corea del Nord. Però la relació és radicalment diferent perquè les identitats, les normes i les expectatives mútues ho són. L'anarquia no predetermina el conflicte: és el que els estats en fan."
+            },
+            {
+              "type": "expandable",
+              "label": "Com les normes internacionals canvien el comportament — el cas de la tortura i les armes químiques",
+              "content": "Fins al segle XIX, la tortura era un procediment judicial legal en molts estats. Avui és universalment il·legítima — fins i tot els estats que la practiquen la neguen. Les armes químiques eren usades lliurement fins a la Primera Guerra Mundial; avui el seu ús genera una condemna internacional automàtica que té costos reals. Per als constructivistes, aquest canvi no s'explica per un canvi en la distribució de poder material, sinó per un canvi en les normes internacionals i en les identitats dels estats. Els estats 'civilitzats' no usen tortura ni armes químiques — i violar aquesta norma implica abandonar la identitat de 'estat civilitzat', amb tots els costos que comporta."
+            },
+            {
+              "type": "quote",
+              "text": "Les estructures de la política humana estan fetes principalment d'idees, no de forces materials.",
+              "author": "Alexander Wendt, Social Theory of International Politics (1999)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-04-01",
+              "style": "multiple-choice",
+              "question": "Per al constructivisme, per què els EUA tracten les armes nuclears britàniques de manera diferent a les iranianes, malgrat que ambdues representen la mateixa capacitat destructiva?",
+              "options": [
+                "Perquè el Regne Unit és militarment més fort que l'Iran i per tant més perillós objectivament",
+                "Perquè les identitats, les normes compartides i les relacions històriques fan que el Regne Unit sigui percebut com a aliat i l'Iran com a amenaça",
+                "Perquè el Regne Unit és membre de la NATO i per tant els seus arsenals estan sota control americà",
+                "Perquè l'Iran ha declarat explícitament la seva intenció d'atacar els EUA"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Per al constructivisme, allò que compta no és la capacitat material sinó el significat social: el Regne Unit és un aliat amb qui els EUA comparteixen identitat, normes i historial de cooperació; l'Iran és un adversari construït com a amenaça. La mateixa capacitat nuclear té significats radicalment diferents en funció de la relació social entre els actors.",
+              "feedbackWrong": "La capacitat militar britànica no és rellevantment superior a l'iraniana en termes nuclears, i els arsenals britànics no estan sota control americà. La clau constructivista és el significat social: la relació, la identitat compartida i les normes defineixen si una capacitat es percep com a amenaça o com a garantia de seguretat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-04-02",
+              "style": "true-false",
+              "question": "El constructivisme argumenta que els interessos dels estats són fixos i predeterminats per la seva posició en el sistema internacional.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. El constructivisme argumenta precisament el contrari: els interessos dels estats no són fixos sinó construïts socialment. Es formen a través de la interacció, les normes i les identitats — i canvien quan aquests elements canvien. Aquesta és la diferència central amb el realisme, que tracta la cerca de poder o seguretat com un interès fix i universal.",
+              "feedbackWrong": "Aquesta és la posició del realisme, no del constructivisme. Per al constructivisme, els interessos dels estats es construeixen socialment i poden canviar. L'exemple clàssic: Alemanya i Japó tenien interessos expansionistes al segle XX; avui són potències comercials pacifistes. La distribució de poder material no ha explicat del tot aquest canvi — les identitats i les normes ho han fet millor."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una norma social que avui et sembla evident — per exemple, que les dones han de tenir dret a votar, o que els nens no han de treballar. Fa cent cinquanta anys, molts la rebutjarien. Com han canviat aquestes normes? Qui les va canviar i com?",
+              "prompt": "El constructivisme suggereix que les normes internacionals canvien de la mateixa manera: a través d'actors que les desafien, les promouen i les normalitzen progressivament."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-04-01",
+              "question": "Les idees i les normes internacionals poden canviar el comportament dels estats poderosos, o només disciplinen els febles?",
+              "options": [
+                "Només disciplinen els febles: les grans potències ignoren les normes quan els convé i les usen com a instrument de pressió sobre els altres",
+                "Sí, canvien el comportament fins i tot dels poderosos: les normes creen costos de legitimitat que cap actor pot ignorar completament",
+                "Depèn de la norma: algunes (prohibició d'armes químiques, normes comercials) tenen prou adhesió per disciplinar fins als poderosos; d'altres (sobirania, no-intervenció) es violen regularment pels forts"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre si les normes disciplinen els poderosos és central en les RI. L'evidència empírica és mixta. Per una banda, fins i tot les grans potències paguen costos reals quan violen normes centrals: els EUA van patir un aïllament diplomàtic significatiu per la invasió de l'Iraq el 2003; Rússia va ser expulsada del G8 i sancionada per la invasió d'Ucraïna. Per altra banda, les grans potències violen normes regularment i sovint amb impunitat: la intervenció americana a Nicaragua, la intervenció soviètica a Afganistan, la invasió russa de Crimea. La posició C és la més defensable: algunes normes — especialment les que han rebut una adhesió molt àmplia i que estan lligades a identitats valorades — tenen prou pes per afectar fins als poderosos. D'altres funcionen principalment com a retòrica o com a instrument dels forts contra els febles. La tasca de l'analista és distingir quines normes tenen pes real i per quins actors."
+            }
+          ]
+        },
+        {
+          "id": "ri-05",
+          "title": "Marxisme i teoria crítica",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Per què la majoria de països del món van ser colònies europees? El realisme diu: perquè Europa tenia més poder. El liberalisme diu: perquè Europa tenia millors institucions. La teoria crítica fa una pregunta diferent: qui es beneficia d'aquesta explicació, i qui queda fora? El 1970, el xilè Salvador Allende va ser elegit president democràticament amb un programa de nacionalitzacions. El 1973, un cop militar el va derrocar. Darrere hi havia la CIA, la ITT Corporation i la por americana al socialisme a l'hemisferi. Per a la teoria de la dependència, és exactament el que el sistema capitalista global fa sistemàticament."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les teories crítiques de les RI — marxisme, teoria de la dependència, teoria del sistema-món — argumenten que el sistema internacional no és un camp de joc neutral entre estats iguals, sinó una estructura de poder que reprodueix i aprofundeix les desigualtats entre centre i perifèria, entre classes, entre gèneres. Entendre les RI requereix preguntar: qui es beneficia de l'ordre existent?"
+            },
+            {
+              "type": "expandable",
+              "label": "La teoria de la dependència — per què els països pobres es fan més pobres",
+              "content": "La teoria de la dependència, desenvolupada als anys 60 per Raúl Prebisch, André Gunder Frank i d'altres, argumenta que el subdesenvolupament del Sud Global no és un estadi inicial del que van passar els països rics: és el resultat directe de la integració en el sistema capitalista mundial en condicions de subordinació. Els països del centre (Europa, EUA) extreuen matèries primeres barates de la perifèria (Amèrica Llatina, Àfrica, Àsia), els venen manufactures cares, i mantenen la perifèria en una posició d'exportadors de recursos sense valor afegit. El resultat: el comerç internacional no beneficia tothom per igual — beneficia els que controlen el capital i la tecnologia."
+            },
+            {
+              "type": "expandable",
+              "label": "Immanuel Wallerstein i el sistema-món: centre, semiperifèria i perifèria",
+              "content": "Wallerstein va elaborar la teoria de la dependència en una teoria del sistema capitalista mundial com a unitat d'anàlisi. El sistema-món modern, nascut al segle XVI, divideix el globus en tres zones: el centre (els països rics que controlen el capital, la tecnologia i les finances), la semiperifèria (països en transició com la Xina, el Brasil o la Turquia, que fan de tampó entre centre i perifèria) i la perifèria (els països que proveeixen treball i recursos barats). La mobilitat entre zones és possible però difícil: el sistema tendeix a reproduir-se perquè els actors del centre controlen les regles del joc."
+            },
+            {
+              "type": "misconception",
+              "belief": "La teoria crítica i el marxisme en RI són ideologia política disfressada de teoria acadèmica.",
+              "reality": "Les teories crítiques fan contribucions analítiques genuïnes que han estat incorporades per estudiosos de tot l'espectre ideològic: l'atenció a les relacions de poder en les institucions internacionals, la qüestió de qui es beneficia de quines normes, la perspectiva dels actors no hegemònics. Que tinguin implicacions polítiques no les invalida — el realisme i el liberalisme també en tenen.",
+              "why": "Perquè durant la Guerra Freda qualsevol anàlisi que qüestionés el capitalisme o l'ordre occidental era automàticament etiquetat com a propaganda soviètica. Aquesta associació va persistir molt més enllà de la seva utilitat analítica."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-05-01",
+              "style": "multiple-choice",
+              "question": "La teoria de la dependència argumenta que el subdesenvolupament dels països del Sud Global és principalment:",
+              "options": [
+                "El resultat de factors culturals i institucionals interns que dificulten el creixement econòmic",
+                "Un estadi temporal en el procés de modernització per on tots els països han de passar",
+                "El resultat de la integració en el sistema capitalista mundial en condicions de subordinació al centre",
+                "Una conseqüència de la mala gestió dels governs locals i la corrupció política"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La teoria de la dependència inverteix la causalitat habitual: el subdesenvolupament no és una condició inicial que el comerç superarà, sinó el producte actiu d'una integració asimètrica. Els països perifèrics no estan 'endarrerits': han estat sistemàticament col·locats en una posició de proveïdors de recursos barats per al centre.",
+              "feedbackWrong": "Les explicacions culturals, institucionals i de corrupció són les que ofereix el mainstream del desenvolupament occidental. La teoria de la dependència les rebutja: no nega que existeixin problemes interns, però argumenta que la causa estructural és externa — la posició de subordinació en el sistema capitalista mundial."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-05-02",
+              "style": "detect-error",
+              "statement": "Per a Wallerstein, els països de la semiperifèria com la Xina o el Brasil estan destinats a romandre permanentment en aquesta posició intermèdia sense possibilitat de mobilitat al centre del sistema.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és afirmar que la mobilitat és impossible. Wallerstein reconeix que la mobilitat entre zones existeix però és difícil i poc freqüent: alguns països han passat de la perifèria al centre (Japó, Corea del Sud) i d'altres han caigut (Argentina va ser al centre a principis del segle XX). El que el sistema-món argumenta és que la mobilitat és excepcional i que el sistema tendeix a reproduir-se — no que sigui completament rígid."
+            },
+            {
+              "type": "debate",
+              "question": "El comerç internacional beneficia tots els participants o tendeix a aprofundir les desigualtats entre països rics i pobres?",
+              "positionA": {
+                "label": "El comerç beneficia tothom",
+                "argument": "El comerç permet a cada país especialitzar-se en el que produeix millor i importar el que produeix pitjor, augmentant l'eficiència global. Els països que s'han integrat en el comerç mundial — Corea del Sud, Taiwan, Xina, Índia — han reduït la pobresa a una escala sense precedents. El proteccionisme histèricament ha produït estancament i conflicte."
+              },
+              "positionB": {
+                "label": "El comerç aprofundeix les desigualtats",
+                "argument": "La teoria del lliure comerç amaga que les regles del comerç mundial les han dissenyat els països rics per protegir els seus sectors estratègics mentre obliguen els pobres a obrir-se. Els EUA i Europa subsidien els seus agricultors mentre exigeixen als països pobres que eliminin els seus subsidis. La igualtat formal amaga una desigualtat real de poder en la negociació."
+              },
+              "reflection": "Pensa en un producte concret — cafè, cacau, roba — i segueix la cadena de valor. Qui guanya en cada pas? On s'afegeix el valor i on va el benefici?",
+              "context": "L'evidència empírica és mixta. Alguns països perifèrics s'han desenvolupat significativament a través del comerç (els tigres asiàtics). D'altres han quedat atrapats en l'exportació de matèries primeres sense ascendir en la cadena de valor (gran part de l'Àfrica subsahariana). La diferència sembla dependre de la capacitat de l'estat de dirigir estratègicament la integració — cosa que la doctrina del lliure mercat tendeix a desincentivar."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-05-01",
+              "question": "Les desigualtats entre països rics i pobres s'han reduït o augmentat en les últimes dècades de globalització?",
+              "options": [
+                "Han augmentat: la globalització ha beneficiat els rics i perjudicat els pobres a escala global",
+                "Han disminuït: la integració en el mercat mundial ha reduït la pobresa i convergit els nivells de vida",
+                "La resposta depèn de com es mesuri: la desigualtat entre països ha disminuït en alguns indicadors, però la desigualtat dins dels països ha augmentat quasi universalment"
+              ],
+              "correct": 2,
+              "explanation": "Aquesta és una de les preguntes empíriques més debatudes en economia del desenvolupament, i la resposta és genuïnament complexa. La desigualtat entre països (mesurada per PIB per càpita) ha disminuït significativament des dels anys 90, principalment per l'ascens de la Xina i l'Índia, que han tret centenars de milions de persones de la pobresa extrema. En aquest sentit, la globalització ha tingut un efecte positiu net sobre la pobresa absoluta. Però la desigualtat dins dels països — tant els rics com els emergents — ha augmentat quasi universalment en el mateix període. A més, si s'exclouen la Xina i l'Índia, la convergència entre el Nord Global i el Sud Global és molt menys impressionant. L'elefant de Branko Milanovic captura bé la paradoxa: els grans guanyadors de la globalització han estat les classes mitjanes asiàtiques i la cúpula del 1% global; els grans perdedors relatius han estat les classes treballadores dels països rics i les poblacions de l'Àfrica subsahariana."
+            }
+          ]
+        },
+        {
+          "id": "ri-06",
+          "title": "Quina teoria té raó?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1991, quan la URSS es va dissoldre, es va produir un debat apassionat en la disciplina de les RI: qui ho havia predit? El realisme deia que havia anticipat la competència bipolar. El liberalisme deia que havia anticipat que les democràcies serien més estables. El constructivisme deia que havia anticipat que les idees de legitimitat importarien més que el poder militar. Tots tenien arguments. I tots havien fallat en aspectes crucials. Potser la pregunta no és 'quina teoria té raó' sinó 'quina teoria és útil per a quina pregunta'."
+            },
+            {
+              "type": "key-idea",
+              "text": "Cap teoria de les RI explica tots els fenòmens amb igual precisió. El pluralisme teòric — usar diferents teories com a llums que il·luminen aspectes diferents de la realitat — és la posició metodològica més defensable per a un analista seriós. Cada teoria capta quelcom real; cap capta tot."
+            },
+            {
+              "type": "comparison",
+              "title": "Les quatre teories davant el mateix cas: la invasió russa d'Ucraïna (2022)",
+              "labelA": "Realisme",
+              "labelB": "Liberalisme",
+              "items": [
+                { "label": "Explicació", "a": "Rússia defensa la seva zona d'influència davant l'expansió de l'OTAN", "b": "El règim autoritari de Putin no té els mecanismes democràtics que frenen la guerra" },
+                { "label": "Predicció anterior", "a": "L'expansió de l'OTAN provocaria una reacció russa", "b": "La integració econòmica hauria de fer la guerra irracional" },
+                { "label": "El que explica bé", "a": "La lògica geopolítica i la por russa a l'encerclament", "b": "Per què les democràcies occidentals van respondre de manera coordinada" },
+                { "label": "El que explica malament", "a": "Per què Putin va subestimar la resistència ucraïnesa", "b": "Per què la interdependència econòmica no va evitar la guerra" }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El constructivisme i la teoria crítica davant la invasió d'Ucraïna",
+              "content": "El constructivisme emfasitza la importància de les identitats: la narrativa de Putin que Ucraïna no és un estat real sinó part de la nació russa és una construcció identitària que va tenir efectes materials devastadors. La reacció ucraïnesa — una identitat nacional que es va consolidar precisament per oposició a la invasió — és també un fenomen constructivista: la guerra va crear la nació que pretenia absorbir. La teoria crítica pregunta: qui es beneficia de la guerra? Les indústries d'armament occidentals, les empreses de reconstrucció, els actors que volen debilitar Rússia per raons que van més allà d'Ucraïna. No com a teoria conspirativa, sinó com a recordatori que els interessos materials estructuren les respostes polítiques."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-06-01",
+              "style": "multiple-choice",
+              "question": "Un realista i un liberal observen que dos països amb comerç intensiu han entrat en guerra. Quina conclusió treu cada un?",
+              "options": [
+                "Tots dos conclourien que el comerç no evita la guerra i revisarien les seves teories",
+                "El realista diria que els interessos de seguretat van superar els econòmics; el liberal diria que la interdependència era insuficient o que hi havia factors no econòmics",
+                "El realista ignoraria el comerç com a variable; el liberal diria que és una anomalia estadística",
+                "Tots dos atribuirien la guerra a la irracionalitat dels líders"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les bones teories no s'abandonen davant d'un cas contrari: es refinen. El realista incorporaria la guerra com a confirmació que el poder supera la interdependència quan els interessos vitals estan en joc. El liberal buscaria per què en aquest cas concret la interdependència no va ser suficient — potser perquè era asimètrica, perquè hi havia grups interns que guanyaven amb la guerra, o perquè un dels actors no era democràtic.",
+              "feedbackWrong": "Les teories no s'abandonen fàcilment davant de casos contraris — s'adapten. El realisme i el liberalisme tenen prou flexibilitat per incorporar casos difícils reinterpretant les variables. El problema és quan aquesta flexibilitat es converteix en infalsificabilitat: una teoria que pot explicar qualsevol resultat a posteriori té poc valor predictiu."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-06-02",
+              "style": "detect-error",
+              "statement": "El pluralisme teòric en RI significa que totes les teories expliquen igual de bé tots els fenòmens i que l'elecció entre elles és purament subjectiva.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és equiparar pluralisme amb relativisme. El pluralisme teòric no diu que totes les teories siguin igualment bones per a totes les preguntes: diu que teories diferents il·luminen aspectes diferents de la realitat. El realisme explica millor els equilibris de poder; el liberalisme, la cooperació en règims internacionals; el constructivisme, els canvis d'identitat i norma; la teoria crítica, les estructures de dominació. L'analista ha de triar la teoria més adequada per a la pregunta concreta que vol respondre — i ha de poder justificar aquesta tria."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "1939-1945", "title": "Segona Guerra Mundial", "text": "El realisme clàssic neix com a resposta al fracàs del liberalisme wilsonià. Morgenthau publica Politics Among Nations el 1948." },
+                { "year": "1979", "title": "Waltz: Theory of International Politics", "text": "El realisme estructural sistematitza la teoria. Dominarà la disciplina durant una dècada." },
+                { "year": "1984", "title": "Keohane: After Hegemony", "text": "El liberalisme institucionalista respon al realisme: la cooperació és possible fins i tot sense hegemonia." },
+                { "year": "1992", "title": "Wendt: Anarchy is What States Make of It", "text": "El constructivisme entra en el debat principal. La disciplina s'obre a les idees, les normes i les identitats." },
+                { "year": "2000s-avui", "title": "Pluralisme i síntesi", "text": "Cap teoria domina. La disciplina s'ha fragmentat en debats especialitzats que usen eines de diverses tradicions." }
+              ]
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en un conflicte internacional que coneguis bé — pot ser recent o històric. Intenta explicar-lo des del realisme, el liberalisme i el constructivisme. Quina explicació et sembla més convincent? Quina cosa important deixa fora cadascuna?",
+              "prompt": "No hi ha resposta correcta. L'exercici és el propi procés d'aplicar les teories."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-06-01",
+              "question": "És possible construir una teoria unificada de les relacions internacionals que integri el poder, les institucions, les idees i les estructures econòmiques?",
+              "options": [
+                "Sí — la disciplina hauria d'aspirar a una gran teoria unificada com la física; el pluralisme actual és un signe de maduresa insuficient",
+                "No — la complexitat de la política internacional fa impossible una teoria unificada; el pluralisme és la condició permanent de la disciplina",
+                "Potser — es poden construir teories de rang mitjà que integrin variables de diverses tradicions per a preguntes específiques, sense aspirar a una teoria de tot"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre la unificació teòrica de les RI reflecteix debats més amplis en filosofia de la ciència social. La posició A — aspirar a una gran teoria unificada — té defensors, especialment entre els qui volen fer les RI més 'científiques' en el sentit de les ciències naturals. Però la política internacional involucra actors reflexius que canvien el seu comportament quan aprenen les teories que els descriuen — cosa que no passa amb els electrons. La posició B — pluralisme permanent — és defensada per molts constructivistes i teòrics crítics que veuen el pluralisme no com un defecte sinó com un reflex de la complexitat irreductible del social. La posició C és la més pragmàtica i la que orienta la majoria de la recerca empírica actual: teories de rang mitjà (Merton) que s'apliquen a dominis específics — les guerres civils, la proliferació nuclear, la cooperació comercial — i que integren variables de diverses tradicions sense pretendre explicar-ho tot. És menys elegant que una gran teoria, però produeix coneixement acumulable i contrastable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com-sha-construït-el-mon",
+      "title": "Com s'ha construït el món modern",
+      "icon": "🏛️",
+      "description": "De Westfàlia al multipolarisme: els moments que van crear l'ordre que vivim.",
+      "style": "Cronològic · de moment fundacional en moment fundacional",
+      "lessons": [
+        {
+          "id": "ri-b-01",
+          "title": "Westfàlia i l'estat sobirà",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La Guerra dels Trenta Anys (1618-1648) va ser una de les catàstrofes més grans de la història europea. Alemanya va perdre entre un quart i un terç de la seva població. Les tropes saquejarien ciutats, les fams i les epidèmies seguien els exèrcits. La guerra havia començat com un conflicte religiós entre catòlics i protestants, però s'havia convertit en una lluita pel poder en la qual reis, emperadors i prínceps lluitaven per l'hegemonia. La pau que la va acabar no va ser tan sols un armistici: va ser una nova arquitectura del poder mundial."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els Tractats de Westfàlia (1648) van establir els principis que estructuren el sistema internacional fins avui: sobirania estatal (cada príncep governa el seu territori sense interferència externa), igualtat formal entre estats i no-ingerència en els afers interns. Va néixer el sistema d'estats que coneixem."
+            },
+            {
+              "type": "expandable",
+              "label": "El mite de Westfàlia — per qué el 1648 no va ser tan revolucionari com sembla",
+              "content": "Els historiadors han qüestionat la narrativa canònica que Westfàlia va 'inventar' la sobirania estatal d'un cop. En realitat, els tractats van ser més limitats: van reconèixer drets dels prínceps protestants dins del Sacre Imperi, però no van proclamar cap principi general de sobirania. El concepte de sobirania de Westfàlia és en part una construcció retrospectiva dels estudiosos de les RI del segle XX que buscaven un punt d'origen per al sistema estatal. Malgrat això, el 1648 marca simbòlicament la transició d'un ordre medieval basat en la religió i el poder imperial a un ordre modern basat en estats sobirans. La narrativa westfaliana — veritable o no — ha tingut efectes reals en com els estats han concebut els seus drets i obligacions."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "1618", "title": "Inici de la Guerra dels Trenta Anys", "text": "Comença com una revolta bohèmia contra l'emperador Habsburgo. Es converteix en una guerra paneuropea." },
+                { "year": "1648", "title": "Pau de Westfàlia", "text": "Els Tractats d'Osnabrück i Münster posen fi a la guerra. Reconeixen la sobirania dels prínceps alemanys i la igualtat entre confessions." },
+                { "year": "1713", "title": "Pau d'Utrecht", "text": "Consolida el concepte d'equilibri de poder com a principi organitzador del sistema europeu." },
+                { "year": "1815", "title": "Congrés de Viena", "text": "Després de les guerres napoleòniques, les grans potències redissenyen Europa sobre principis de legitimitat dinàstica i equilibri de poder." },
+                { "year": "1945", "title": "Carta de l'ONU", "text": "Codifica els principis westfalians en dret internacional: sobirania, igualtat dels estats, prohibició de l'ús de la força." }
+              ]
+            },
+            {
+              "type": "misconception",
+              "belief": "La sobirania estatal és un principi absolut: cap actor extern pot intervenir en els afers d'un altre estat sota cap circumstància.",
+              "reality": "La sobirania mai no ha estat absoluta en la pràctica. Les grans potències han intervingut regularment en els afers dels més febles. I el dret internacional ha erosionat progressivament la sobirania absoluta: la Carta de l'ONU prohibeix la guerra d'agressió, el dret internacional humanitari limita el que els estats poden fer als seus propis ciutadans, i la Responsabilitat de Protegir (R2P) estableix que la comunitat internacional pot intervenir per prevenir genocidis.",
+              "why": "Perquè la sobirania és invocada selectivament: els estats la reclamen quan els convé i l'ignoren quan s'hi interposa als seus interessos. Aquesta selectivitat crea la impressió que és un principi absolut — quan en realitat sempre ha estat negociable."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-b-01-01",
+              "style": "multiple-choice",
+              "question": "Quin és el principi central que els Tractats de Westfàlia van establir com a base del sistema internacional modern?",
+              "options": [
+                "La democràcia com a forma legítima de govern en tots els estats",
+                "La sobirania estatal: cada estat governa el seu territori sense interferència externa legítima",
+                "La lliure circulació de persones i mercaderies entre estats europeus",
+                "La superioritat de l'autoritat religiosa sobre l'autoritat política"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La sobirania westfaliana estableix que dins del seu territori, el governant té autoritat suprema i cap actor extern té dret a interferir-hi. Aquest principi — amb totes les seves tensions i excepcions — segueix estructurant el dret internacional i la política mundial.",
+              "feedbackWrong": "Westfàlia no va establir cap principi democràtic ni de lliure comerç: va reconèixer el poder dels prínceps, no del poble. I va representar precisament la derrota de l'autoritat religiosa universal (el Papa, l'Emperador) davant la sobirania política secular dels estats."
+            },
+            {
+              "type": "debate",
+              "question": "La sobirania estatal és un principi que protegeix els pobles o un escut que protegeix els opressors?",
+              "positionA": {
+                "label": "Protegeix els pobles",
+                "argument": "La sobirania és l'únic mecanisme que protegeix els estats més febles de la interferència dels més poderosos. Sense ella, les grans potències intervindrien constantment en nom de valors que en realitat amaguen interessos. La història de les intervencions humanitàries mostra que sovint produeixen més caos del que eliminen."
+              },
+              "positionB": {
+                "label": "Protegeix els opressors",
+                "argument": "La sobirania permet a règims brutals cometre atrocitats contra la seva pròpia població al marge de qualsevol responsabilitat internacional. El Rwanda, la Síria, el Sudan han demostrat que quan la comunitat internacional invoca la sobirania per no intervenir, els que paguen el preu són els civils, no els governants."
+              },
+              "reflection": "Pensa en un cas concret d'intervenció humanitària: Kosovo, Líbia, Síria. Va ser justificada? Va produir els resultats esperats? Qui va decidir intervenir i per quins motius reals?",
+              "context": "La tensió entre sobirania i drets humans és un dels debats centrals del dret i la política internacional actuals. La Responsabilitat de Protegir (R2P), adoptada per l'ONU el 2005, intenta trobar un equilibri: la sobirania implica responsabilitat, i quan un estat falla en protegir els seus ciutadans, la comunitat internacional pot actuar. Però la implementació de la R2P ha estat profundament desigual i controvertida."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-b-01-01",
+              "question": "El sistema d'estats sobirans és la millor manera d'organitzar la política mundial, o hauria de ser superat per formes de governança global?",
+              "options": [
+                "És la millor manera: els estats reflecteixen identitats i comunitats reals; la governança global seria una imposició tecnocràtica sense legitimitat democràtica",
+                "Hauria de ser superat: els reptes globals (clima, pandèmies, armes nuclears) requereixen autoritat global; els estats són massa petits per als grans problemes i massa grans per als locals",
+                "Ni l'un ni l'altre: cal una arquitectura multinivell que combini sobirania estatal, institucions regionals i normes globals sense concentrar tot el poder en cap nivell"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre la governança mundial és un dels més importants del nostre temps. La posició A té l'avantatge de la realitat: els estats existeixen, tenen legitimitat i no van a desaparèixer. La identitat nacional és una força poderosa que cap projecte de governança global pot ignorar. Però la posició A ignora que molts dels problemes més urgents — el canvi climàtic, les pandèmies, la proliferació nuclear, la regulació de les tecnologies digitals — transcendeixen les fronteres estatals i no poden ser resolts per estats individuals actuant sols. La posició B, una governança global unificada, enfronta el problema de la legitimitat: qui controla el govern mundial? En mans de qui estarà? Com s'evita que es converteixi en l'hegemonia d'uns pocs sobre tots els altres? La posició C és la que orienta la majoria del pensament institucional actual: no un govern mundial sinó una xarxa de governs multinivell — local, estatal, regional, global — en la qual cada nivell gestiona el que li correspon. La UE n'és l'experiment més avançat, amb tots els seus problemes."
+            }
+          ]
+        },
+        {
+          "id": "ri-b-02",
+          "title": "Imperialisme i ordre colonial",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1800, els europeus controlaven el 35% de la superfície terrestre. El 1914, controlaven el 84%. En cent anys, un continent va dominar el planeta. El 1884, les potències europees es van reunir a Berlín per repartir-se l'Àfrica. Cap estat africà va ser convidat. En menys de vint anys, un continent de 30 milions de quilòmetres quadrats havia estat dividit en colònies seguint línies rectes que ignoraven pobles, rius i muntanyes. El rei Leopold II de Bèlgica va rebre el Congo com a propietat personal. Va matar entre deu i quinze milions de persones en trenta anys. Va morir ric i honorat."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'imperialisme modern no va ser tan sols una conquesta militar: va crear un ordre econòmic, jurídic i cultural global en el qual els recursos, el capital i el coneixement fluïen de la perifèria al centre. Les desigualtats que estructuren el món actual no es poden entendre sense comprendre com es van construir durant els segles XIX i XX."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué Europa va dominar el món — i el debat sobre l'explicació",
+              "content": "Jared Diamond, en 'Guns, Germs, and Steel', argumenta que el domini europeu s'explica per factors geogràfics i ecològics: orientació est-oest d'Euràsia (facilita la difusió de cultius i animals domesticats), accés a animals domesticables, densitat de població que va generar immunitats a malalties. Kenneth Pomeranz, en 'The Great Divergence', emfatitza el paper del carbó britànic i les colònies americanes en el despegament industrial. Daron Acemoglu i James Robinson, en 'Why Nations Fail', assenyalen les institucions inclusives com a factor decisiu. Cap explicació és completa, però totes apunten a factors estructurals de llarg termini — no a una superioritat cultural o racial dels europeus."
+            },
+            {
+              "type": "expandable",
+              "label": "L'herència colonial avui: fronteres, institucions i deute",
+              "content": "Les conseqüències del colonialisme no van acabar amb la descolonització. Tres llegats estructurals persisteixen. Les fronteres: les línies traçades a Berlín el 1884 van crear estats que agrupen pobles hostils i divideixen pobles coherents. Nigèria, la República Democràtica del Congo, Sudan — els seus conflictes actuals es deuen en part a fronteres imposades externament. Les institucions: moltes excolònies van heretar institucions dissenyades per a l'extracció, no per al desenvolupament. La riquesa: durant dècades de colonialisme, enormes quantitats de riquesa van fluir de les colònies al centre. La quantificació exacta és controvertida, però els efectes sobre el capital acumulat i la trajectòria de desenvolupament són reals."
+            },
+            {
+              "type": "quote",
+              "text": "Europa és literalment la creació del Tercer Món.",
+              "author": "Frantz Fanon, Els condemnats de la terra (1961)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-b-02-01",
+              "style": "multiple-choice",
+              "question": "La Conferència de Berlín de 1884-85 és significativa perquè:",
+              "options": [
+                "Va ser el primer intent de crear una organització internacional de pau entre les potències europees",
+                "Les potències europees van repartir-se Àfrica sense participació africana, establint les fronteres colonials que han perdurat fins avui",
+                "Va establir el principi de lliure comerç com a norma internacional vinculant",
+                "Va crear el precedent per a la resolució pacífica de disputes territorials entre potències"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La Conferència de Berlín és el símbol més clar del colonialisme europeu: un continent enter repartit per un altre continent en una sala de reunions, sense representació dels afectats. Les fronteres traçades aleshores — sovint línies rectes que ignoraven les realitats humanes — han condicionat la política africana fins avui.",
+              "feedbackWrong": "La Conferència de Berlín no tenia cap propòsit pacifista ni de lliure comerç universal: era un mecanisme per evitar conflictes entre potències europees mentre es repartien Àfrica. El seu llegat és el mapa colonial d'Àfrica i les seves conseqüències sobre la política i els conflictes africans actuals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-b-02-02",
+              "style": "detect-error",
+              "statement": "La descolonització dels anys 50 i 60 va eliminar completament les estructures de dependència econòmica entre les antigues metròpolis i les seves colònies.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és afirmar que la descolonització va eliminar les dependències econòmiques. La independència política formal no va comportar independència econòmica real en molts casos. Les teories de la dependència i el neocolonialisme (Nkrumah, Fanon) argumenten que les metròpolis van mantenir el control econòmic a través del comerç asimètric, les empreses multinacionals, el deute i les institucions financeres internacionals. El terme 'neocolonialisme' descriu precisament aquest fenomen: dominació sense administració colonial formal."
+            },
+            {
+              "type": "debate",
+              "question": "Les antigues potències colonials deuen reparacions als països que van colonitzar?",
+              "positionA": {
+                "label": "Sí — hi ha un deute històric",
+                "argument": "Durant dècades de colonialisme, enormes quantitats de riquesa van ser extretes de les colònies sense compensació. Aquesta transferència de riquesa va finançar el desenvolupament europeu i va impedir el desenvolupament de les colònies. La justícia requereix reconeixement i compensació. El precedent existeix: Alemanya ha pagat reparacions per l'Holocaust, el Japó per la Segona Guerra Mundial."
+              },
+              "positionB": {
+                "label": "Les reparacions no són la solució",
+                "argument": "Les reparacions plantegen problemes pràctics insolubles: qui paga (els ciutadans actuals que no van colonitzar ningú)? Qui cobra (les elits dels estats postcolonials o les poblacions afectades)? I la responsabilitat no és unilateral: molts estats africans van participar en el comerç d'esclaus. Una ajuda estructurada al desenvolupament és més efectiva que transferències simbòliques."
+              },
+              "reflection": "Considera: Alemanya ha pagat reparacions pels crims del nazisme. Per qué el colonialisme — que va matar molts més milions — no ha generat el mateix reconeixement? Qui ha definit quins crims mereixen reparació i quins no?",
+              "context": "El debat sobre reparacions colonials és cada vegada més present en la política internacional. Diverses nacions africanes i caribeges han presentat demandes formals. El Regne Unit, França i Bèlgica han resistit sistemàticament. El debat combina arguments morals, jurídics i pràctics que cap posició resol completament."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-b-02-01",
+              "question": "El colonialisme és la causa principal del subdesenvolupament actual d'Àfrica i altres regions, o hi ha factors interns que expliquen millor la situació?",
+              "options": [
+                "El colonialisme és la causa principal: les estructures d'extracció, les fronteres imposades i el buidament de riquesa expliquen el subdesenvolupament actual",
+                "Els factors interns — governs corruptes, conflictes ètnics, mala gestió — expliquen millor la situació actual que un colonialisme que va acabar fa seixanta anys",
+                "Les dues dimensions interactuen: el colonialisme va crear les condicions estructurals que els actors interns han gestionat bé o malament en funció dels seus contextos"
+              ],
+              "correct": 2,
+              "explanation": "El debat entre explicacions estructurals (colonialisme, dependència) i explicacions institucionals internes (governs, polítiques) és un dels més vius en economia del desenvolupament. L'evidència apunta a una interacció: el colonialisme va crear condicions inicials molt desfavorables — fronteres arbitràries, institucions extractives, economies mono-exportadores, elits formades per servir als interessos de la metròpoli — que van persistir molt més enllà de la independència formal. Però dins d'aquestes condicions, les decisions polítiques van importar: Botswana i Zimbàbue van rebre herències colonials similars i han tingut trajectòries radicalment diferents. Corea del Sud va ser colònia japonesa i va assolir un desenvolupament espectacular. Rwanda va passar d'un genocidi el 1994 a ser un dels estats de millor govern d'Àfrica el 2024. Això suggereix que el colonialisme és una condició necessària però no suficient per explicar el subdesenvolupament: les decisions institucionals i polítiques postcolonials també compten."
+            }
+          ]
+        },
+        {
+          "id": "ri-b-03",
+          "title": "La Gran Guerra i el fracàs liberal",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1919, el president Wilson va arribar a París com un messies. Havia proposat catorze punts per a una pau justa, la creació d'una Societat de Nacions i el dret a l'autodeterminació dels pobles. Vint anys després, Hitler envaïa Polònia. Rarament un fracàs ha estat tan total. L'agost de 1914, les tropes europees marxaven cap al front convençudes que tornarien per Nadal. Quatre anys i tres-cents milions d'obusos més tard, deu milions de soldats eren morts i un continent havia quedat devastat."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Tractat de Versalles (1919) va intentar crear un ordre liberal basat en la Societat de Nacions, l'autodeterminació dels pobles i la responsabilitat d'Alemanya per la guerra. Va fracassar per la combinació de tres factors: els EUA no van ratificar el tractat, les condicions imposades a Alemanya eren prou dures per humiliar-la però no prou per destruir el seu poder, i el principi d'autodeterminació es va aplicar de manera selectiva i contradictòria."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué va esclatar la Primera Guerra Mundial — la pregunta que els historiadors no han resolt del tot",
+              "content": "Han passat cent deu anys i el debat continua. Les explicacions principals: l'assassinat de l'arxiduc Francesc Ferran a Sarajevo va activar un sistema d'aliances automàtiques que cap actor podia controlar (l'accident); la competència imperial entre potències que buscaven hegemonia havia creat una tensió insostenible (la causa estructural); Alemanya va apostar intencionalment per la guerra preventiva davant l'ascens de Rússia (la intenció alemanya, tesi Fischer); les elites militars de tots els països van subestimar els costos i sobreestimar els guanys de la guerra (la psicologia col·lectiva). Christopher Clark, en 'The Sleepwalkers', argumenta que tots els actors van contribuir al desastre sense que cap el volgués del tot. La lliçó: els sistemes complexos poden produir catàstrofes que ningú volia."
+            },
+            {
+              "type": "comparison",
+              "title": "Versalles (1919) vs. Viena (1815): dues paus, dos resultats",
+              "labelA": "Congrés de Viena (1815)",
+              "labelB": "Tractat de Versalles (1919)",
+              "items": [
+                { "label": "Tractament del vençut", "a": "França integrada a l'ordre europeu, no humiliada", "b": "Alemanya humiliada amb reparacions massives" },
+                { "label": "Resultat", "a": "Cent anys de pau relativa a Europa", "b": "Vint anys fins a una guerra pitjor" },
+                { "label": "Lògica", "a": "Equilibri de poder i legitimitat dels actors", "b": "Càstig i responsabilitat moral del vençut" },
+                { "label": "Lliçó", "a": "La pau requereix integrar, no excloure", "b": "La humiliació crea ressentiment i revanxisme" }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-b-03-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el principal defecte estructural de la Societat de Nacions creada el 1919?",
+              "options": [
+                "Estava dominada per Alemanya, que va usar-la per rearmar-se secretament",
+                "No tenia cap mecanisme per resoldre disputes comercials entre els membres",
+                "Els EUA, el seu principal impulsor, no la van ratificar, privant-la de la potència hegemònica necessària per fer-la efectiva",
+                "Estava limitada als països europeus i excloïa les potències asiàtiques i americanes"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. El Senat americà va rebutjar el Tractat de Versalles i la Societat de Nacions el 1919. Sense els EUA — la potència econòmica i militar dominant — la Societat no tenia la credibilitat ni els recursos per imposar les seves decisions. Va ser la profecia autocomplerta del fracàs liberal: el seu creador no hi va creure prou per participar-hi.",
+              "feedbackWrong": "Alemanya no era membre fundador de la Societat — no va ser admesa fins al 1926. La Societat no era un fòrum comercial. I malgrat el seu nom, tenia membres d'altres continents. El problema central va ser l'absència dels EUA, que va buidar l'organització de la potència necessària per funcionar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-b-03-02",
+              "style": "detect-error",
+              "statement": "El principi d'autodeterminació dels pobles proclamat per Wilson el 1919 es va aplicar de manera universal a tots els pobles del món, incloent les colònies africanes i asiàtiques.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és afirmar que l'autodeterminació es va aplicar universalment. En realitat, Wilson va aplicar el principi quasi exclusivament als pobles europeus dels imperis vençuts (austro-hongarès, otomà, rus). Les colònies africanes i asiàtiques van quedar explícitament excloses: els imperis britànic i francès van mantenir i fins i tot expandir les seves possessions colonials. Aquesta selectivitat va generar un ressentiment profund entre els líders anticolonials — com Ho Chi Minh, que va intentar presentar una petició a Wilson a París i no va aconseguir ni audiència."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-b-03-01",
+              "question": "La Segona Guerra Mundial era inevitable una vegada signats els acords de Versalles, o podria haver-se evitat amb decisions polítiques diferents?",
+              "options": [
+                "Era inevitable: les condicions de Versalles van crear les condicions estructurals per al nazisme i una nova guerra sense possibilitat d'escapatòria",
+                "Era evitable: el nazisme i la guerra van dependre de decisions concretes d'actors específics que podrien haver estat molt diferents",
+                "Versalles va crear condicions que feien molt probable un conflicte, però la forma concreta que va prendre va dependre de decisions contingents que podrien haver estat diferents"
+              ],
+              "correct": 2,
+              "explanation": "El debat entre determinisme i contingència en la història és un dels més fascinants i irresolubles. La posició A té defensors seriosos: John Maynard Keynes va predir el 1919, en 'The Economic Consequences of the Peace', que les reparacions imposades a Alemanya portarien al desastre econòmic i polític. L'hiperinflació alemanya dels anys 20, la Gran Depressió i l'ascens del nazisme semblen confirmar-lo. Però la posició B també té arguments: Hitler no era l'únic líder polític possible d'una Alemanya en crisi; la República de Weimar va sobreviure fins al 1933 i podria haver consolidat-se amb decisions econòmiques o polítiques diferents; i fins als anys 30, una resposta ferma de les democràcies occidentals a les primeres provocacions de Hitler hauria pogut aturar-lo. La posició C és la historiogràfica més defensable: Versalles va crear un terreny fèrtil per a la inestabilitat i el revanxisme, però la catàstrofe específica que va seguir va dependre de decisions contingents en moments crítics — la crisi del 1929, les eleccions del 1932, l'apaisament de Múnic del 1938."
+            }
+          ]
+        },
+        {
+          "id": "ri-b-04",
+          "title": "La Guerra Freda com a sistema",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant quaranta-cinc anys, dues superpotències amb poder suficient per destruir la civilització humana es van enfrontar sense disparar-se directament ni un sol tret. L'octubre de 1962, durant tretze dies, el món va estar a pocs minuts de la guerra nuclear. Kennedy havia descobert míssils soviètics a Cuba. Khrusxov exigia la retirada dels míssils americans de Turquia. Un submarí soviètic, perdut el contacte amb Moscou i convençut que la guerra havia esclatat, estava a punt de llançar un torpedo nuclear... quan un dels seus oficials va exercir el seu dret de veto i va aturar el llançament. Vasili Arkhipov va salvar el món sense que ningú ho sabés durant dècades."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Guerra Freda va ser un sistema de rivalitat bipolar entre els EUA i l'URSS estructurat per tres elements: la dissuasió nuclear (la destrucció mútua assegurada feia la guerra directa suïcida), les esferes d'influència (cada superpotència controlava la seva zona sense interferència de l'altra) i les guerres per procuració (el conflicte es canalitzava a través de tercers en el Tercer Món)."
+            },
+            {
+              "type": "expandable",
+              "label": "La lògica de la dissuasió nuclear — per qué tenir la bomba pot ser estabilitzador",
+              "content": "La paradoxa central de la Guerra Freda: les armes més destructives de la història van produir una estabilitat sense precedents entre les grans potències. La lògica és la de la destrucció mútua assegurada (MAD, per les seves sigles en anglès). Si un atac nuclear garanteix una represàlia que destruirà l'atacant, cap actor racional atacarà. La dissuasió funciona perquè les armes existeixen, no perquè s'usin. Però té límits: requereix que tots els actors siguin racionals, que la informació sigui suficient per evitar accidents, i que les línies de comunicació es mantinguin. La crisi de Cuba va mostrar que tots tres supòsits poden fallar simultàniament — i que la supervivència pot dependre de la decisió d'un home en un submarí."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "1947", "title": "Doctrina Truman i inici de la contenció", "text": "Els EUA anuncien que recolzaran qualsevol país amenaçat pel comunisme. Neix la política de contenció de Kennan." },
+                { "year": "1949", "title": "L'URSS fa explotar la bomba atòmica", "text": "El monopoli nuclear americà s'acaba. La dissuasió mútua comença a estructurar la rivalitat." },
+                { "year": "1950-1953", "title": "Guerra de Corea", "text": "El primer gran conflicte per procuració. Acaba en empat. La Guerra Freda té el seu primer laboratori." },
+                { "year": "1962", "title": "Crisi dels míssils de Cuba", "text": "El moment més proper a la guerra nuclear. Resolt per negociació directa Kennedy-Khrusxov." },
+                { "year": "1975-1989", "title": "Del Vietnam a la caiguda del mur", "text": "El desgast americà al Vietnam i l'afganès soviètic mostren els límits de les intervencions per procuració." }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-b-04-01",
+              "style": "multiple-choice",
+              "question": "Qué s'entén per 'destrucció mútua assegurada' (MAD) en el context de la Guerra Freda?",
+              "options": [
+                "Un acord formal entre els EUA i l'URSS de no atacar-se mútuament en cap circumstància",
+                "La situació en la qual un atac nuclear d'una superpotència garanteix una represàlia que destruirà l'atacant, fent la guerra nuclear suïcida per a totes dues parts",
+                "La capacitat d'ambdues superpotències de destruir el món diverses vegades, que va obligar a un desarmament gradual",
+                "L'estratègia militar americana de respondre a qualsevol atac convencional soviètic amb armes nuclears"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La MAD no és un tractat sinó una condició estratègica: quan totes dues parts poden destruir l'altra fins i tot després de rebre un primer atac (gràcies als submarins nuclears i als míssils en sitges), cap actor racional iniciarà una guerra nuclear. L'estabilitat no prové de la confiança sinó de la certesa de les conseqüències.",
+              "feedbackWrong": "No hi va haver mai un acord formal de no atacar-se; la MAD no va produir desarmament (les arsenals van créixer durant la Guerra Freda); i la doctrina de represàlia nuclear davant atacs convencionals era diferent (la 'resposta flexible'). La MAD descriu una condició estructural: l'equilibri del terror."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-b-04-02",
+              "style": "detect-error",
+              "statement": "Durant la Guerra Freda, els EUA i l'URSS mai no van intervenir militarment en conflictes de tercers països, restringint la seva rivalitat a la competència diplomàtica i econòmica.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és negar les intervencions militars de les superpotències. Les guerres per procuració van ser una característica definitòria de la Guerra Freda: els EUA van intervenir militarment a Corea, Vietnam, Amèrica Llatina i Orient Mitjà; l'URSS va fer-ho a Hongria, Txecoslovàquia, Angola i l'Afganistan. El 'fred' de la Guerra Freda es referia a l'absència de guerra directa entre les superpotències — no a l'absència de conflicte armat. Per als països del Tercer Món on es van lliurar les guerres per procuració, la Guerra Freda va ser molt calenta."
+            },
+            {
+              "type": "debate",
+              "question": "L'ordre bipolar de la Guerra Freda era més estable que el món multipolar actual?",
+              "positionA": {
+                "label": "Sí — la bipolaritat era més estable",
+                "argument": "Dos actors amb capacitat nuclear i interessos clars creen un sistema previsible: cada superpotència controla la seva esfera, les regles del joc són conegudes i el cost de violar-les és obvi. El món multipolar actual — amb la Xina, Rússia, potències regionals emergents i actors no estatals — és molt més difícil de gestionar i produeix conflictes imprevistos."
+              },
+              "positionB": {
+                "label": "No — la multipolaritat té més recursos",
+                "argument": "La bipolaritat de la Guerra Freda va devastar el Tercer Món amb guerres per procuració i va mantenir el món al límit de l'extinció nuclear durant quaranta anys. El món multipolar té més actors capaços de crear coalicions contra l'agressió, més legitimitat en les decisions col·lectives i menys risc de que la rivalitat d'un parell d'actors destrueixi el planeta."
+              },
+              "reflection": "Pensa en un conflicte recent — Ucraïna, Gaza, el Sudan — i pregunta't: hauria estat possible en un sistema bipolar? Qui l'hauria gestionat, i com?",
+              "context": "Waltz argumentava que la bipolaritat era el sistema més estable perquè reduïa la incertesa: dos actors amb capacitat nuclear i interessos clars creen equilibri. Deutsch i Singer contrargumentaven que la multipolaritat és més estable perquè distribueix el poder i crea més canals per a la resolució de conflictes. L'evidència empírica no resol el debat."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-b-04-01",
+              "question": "La Guerra Freda va acabar per les reformes de Gorbatxov, per l'esgotament econòmic soviètic o per la pressió estratègica americana?",
+              "options": [
+                "Per les reformes de Gorbatxov: la perestroika i la glasnost van desencadenar forces que cap actor podia controlar",
+                "Per l'esgotament econòmic soviètic: l'URSS no podia mantenir la cursa d'armaments i el seu sistema econòmic va col·lapsar",
+                "La caiguda va resultar de la interacció de tots tres factors; cap d'ells sol és suficient per explicar-la"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre les causes del col·lapse soviètic és un dels més rics de la història recent. La tesi de la pressió americana (Reagan, la 'Guerra de les Galàxies') té defensors que argumenten que l'escalada d'armaments dels anys 80 va forçar l'URSS a una cursa que no podia guanyar. Però l'evidència suggereix que els problemes econòmics soviètics eren anteriors i estructurals. La tesi de l'esgotament econòmic capta alguna cosa real: el model de planificació centralitzada havia entrat en una crisi de productivitat profunda des dels anys 70. Però l'URSS havia sobreviscut crisis econòmiques anteriors sense col·lapsar. La decisió de Gorbatxov de no usar la força per mantenir el control — sobre els països de l'Europa de l'Est el 1989 i sobre les repúbliques soviètiques el 1991 — va ser contingent i podria haver estat diferent. La combinació dels tres factors és la explicació més robusta: les condicions estructurals feien el col·lapse probable, les decisions de Gorbatxov el van fer pacífic, i la pressió americana va accelerar el calendari."
+            }
+          ]
+        },
+        {
+          "id": "ri-b-05",
+          "title": "El moment unipolar i la seva fi",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1991, Charles Krauthammer va proclamar el 'moment unipolar': per primera vegada en la història moderna, una sola potència dominava el món sense rival. La dècada dels 90 va ser el moment de màxima influència americana. La URSS havia desaparegut. La Xina era pobra i aïllada. Francis Fukuyama va proclamar el 'fi de la història': la democràcia liberal havia guanyat i no hi havia alternativa ideològica creïble. Era el triomf d'un model. I el triomf va durar menys del que semblava."
+            },
+            {
+              "type": "key-idea",
+              "text": "El moment unipolar (1991-2008) va ser el període de màxima preponderància americana: poder militar inigualat, hegemonia econòmica i cultural, absència de rival sistèmic. Va acabar per la combinació de tres crisis: la derrota estratègica a l'Iraq i l'Afganistan (límits del poder militar), la crisi financera del 2008 (límits del model econòmic) i l'ascens accelerat de la Xina (competidor sistèmic real)."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                { "year": "1991", "title": "Dissolució de l'URSS", "text": "Comença el moment unipolar. Els EUA no tenen rival sistèmic per primera vegada des del 1945." },
+                { "year": "1999", "title": "Guerra de Kosovo", "text": "L'OTAN intervé sense mandat de l'ONU. Rússia protesta. Els EUA actuen com a 'policia mundial' incontestats." },
+                { "year": "2001", "title": "11-S i la Guerra Global contra el Terror", "text": "L'atac terrorista més gran de la història americana. Desencadena dues guerres que consumiran recursos i credibilitat americans durant dues dècades." },
+                { "year": "2003", "title": "Invasió de l'Iraq", "text": "Sense mandat de l'ONU, sense proves de les WMD. El moment unipolar comença a mostrar els seus límits de legitimitat." },
+                { "year": "2008", "title": "Crisi financera global", "text": "El model econòmic americà en crisi. La Xina resisteix millor. El G2 substitueix el G7 com a format rellevant." },
+                { "year": "2022", "title": "Invasió russa d'Ucraïna", "text": "Confirma la multipolaritat: Rússia desafia l'ordre occidental, la Xina s'abstè de condemnar, el Sud Global es divideix." }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué els EUA van perdre a l'Iraq i l'Afganistan — els límits del poder militar",
+              "content": "Els EUA van gastar prop de 8 bilions de dòlars en les guerres post-11-S i van perdre més de 7.000 soldats. Van derrocar dos règims en setmanes. I no van guanyar cap guerra. La paradoxa mostra el límit del poder militar: derrocar un govern és fàcil per a la potència militar dominant; construir un ordre polític estable en el seu lloc és extraordinàriament difícil. L'Iraq i l'Afganistan van mostrar que la superioritat militar no es converteix automàticament en poder polític. Les societats resisteixen, les insurgències proliferen i la legitimitat no s'imposa amb bombes."
+            },
+            {
+              "type": "misconception",
+              "belief": "El declivi del poder americà significa que els EUA estan en crisi absoluta i deixaran de ser una potència rellevant en les properes dècades.",
+              "reality": "Els EUA segueixen sent la potència militar, tecnològica i financera dominant. El 'declivi' és relatiu: altres actors — especialment la Xina — han crescut molt, reduint la distància. Però l'economia americana segueix sent la primera del món en termes nominals, el dòlar és la moneda de reserva global, i l'exèrcit americà supera el del segon i tercer en despesa combinada.",
+              "why": "Perquè el debat polític americà tendeix a extrems dramàtics: o els EUA dominen el món o estan en caiguda lliure. La realitat és una transició gradual d'un moment unipolar excepcional a un ordre multipolar on els EUA segueixen sent el primer actor però no l'únic dominant."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-b-05-01",
+              "style": "multiple-choice",
+              "question": "Quin factor explica millor el final del moment unipolar americà?",
+              "options": [
+                "La decisió deliberada dels EUA de retirar-se de la política internacional i tornar a l'aïllacionisme",
+                "La combinació de desgast per les guerres a l'Iraq i l'Afganistan, la crisi financera del 2008 i l'ascens de la Xina com a competidor sistèmic",
+                "L'expansió de l'OTAN cap a l'Est, que va provocar una reacció conjunta de Rússia i la Xina",
+                "La creació de l'euro com a moneda alternativa al dòlar que va minar l'hegemonia financera americana"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El final del moment unipolar va ser multifactorial: les guerres van mostrar els límits del poder militar i van consumir recursos i credibilitat; la crisi del 2008 va minar el prestigi del model econòmic americà; i l'ascens xinès va crear per primera vegada des del 1991 un competidor amb recursos comparables en tots els àmbits rellevants.",
+              "feedbackWrong": "Els EUA no van decidir retirar-se deliberadament. L'euro no va substituir el dòlar com a moneda de reserva dominant. I mentre l'expansió de l'OTAN va agreujar les relacions amb Rússia, la Xina i Rússia no han format una aliança formal. El declivi unipolar va ser el resultat de desgastos interns i de l'ascens d'actors externs, no d'una decisió estratègica."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-b-05-01",
+              "question": "La hegemonia americana ha estat globalment beneficiosa o ha produït més danys que beneficis per al conjunt del món?",
+              "options": [
+                "Ha estat globalment beneficiosa: ha garantit la llibertat de navegació, el comerç internacional i la seguretat de les democràcies aliades durant setanta anys",
+                "Ha produït més danys: les intervencions militars, el suport a dictadors i les polítiques econòmiques imposades han perjudicat el Sud Global",
+                "El balanç depèn de la perspectiva: per als aliats occidentals i els beneficiaris de l'ordre liberal, ha estat positiva; per a molts del Sud Global, els costos han superat els beneficis"
+              ],
+              "correct": 2,
+              "explanation": "Aquesta és una de les preguntes on la perspectiva geogràfica i política determina quasi totalment la resposta, i les dues perspectives capturen parts reals de la realitat. Des de la perspectiva europea, japonesa o coreana, la hegemonia americana ha proveït seguretat i un marc de comerç que ha generat dècades de prosperitat. Des de la perspectiva llatinoamericana, iraniana, vietnamita o iraquiana, la hegemonia americana ha inclòs cops d'estat, embargaments, invasions i el suport a règims autoritaris que han causat sofriment mesurable. El politòleg John Ikenberry defensa que l'ordre liberal americà ha estat el 'millor ordre mundial possible' donat el context. El teòric crític Noam Chomsky respondria que ha estat el millor ordre per als que ja eren poderosos. Tots dos capturen alguna cosa real. La posició C és l'intel·lectualment més honesta: reconèixer que la hegemonia americana ha tingut efectes profundament asimètrics — molt positius per alguns, molt negatius per d'altres — sense negar cap dels dos costats."
+            }
+          ]
+        },
+        {
+          "id": "ri-b-06",
+          "title": "L'ordre internacional avui",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El secretari general de l'ONU, António Guterres, va dir el 2023 que el món estava 'en fallida'. El Consell de Seguretat, bloquejat per les tensions entre les grans potències, era incapaç d'actuar sobre Ucraïna, Gaza o Sudan. El canvi climàtic avançava mentre les negociacions s'estancaven. Les desigualtats globals augmentaven. I per primera vegada en dècades, una potència nuclear havia envaït el territori d'un altre estat sobirà al cor d'Europa. Però afirmar que l'ordre internacional ha col·lapsat seria inexacte. La pregunta és quin ordre l'està substituint."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'ordre internacional actual és multipolar i contestat: la unipolaritat americana ha donat pas a un sistema en el qual diverses potències — EUA, Xina, Rússia, la UE, Índia, actors regionals — competeixen, cooperen i es bloquegen mútuament. Les institucions de postguerra (ONU, OMC, FMI) sobreviuen però amb credibilitat erosionada. Un nou ordre no ha emergit per substituir-les."
+            },
+            {
+              "type": "comparison",
+              "title": "Ordre liberal (1945-2008) vs. Ordre multipolar emergent (2008-avui)",
+              "labelA": "Ordre liberal postbèl·lic",
+              "labelB": "Multipolaritat contestada",
+              "items": [
+                { "label": "Estructura del poder", "a": "Hegemonia americana incontestada", "b": "Competència EUA-Xina amb actors secundaris rellevants" },
+                { "label": "Institucions", "a": "ONU, OMC, FMI amb autoritat percebuda", "b": "Institucions supervivents però erosionades" },
+                { "label": "Normes centrals", "a": "Sobirania + drets humans + lliure comerç", "b": "Normes contestades per múltiples actors" },
+                { "label": "Gestió dels conflictes", "a": "Intervenció occidental amb cert consens", "b": "Bloqueig al CS-ONU; coalicions ad hoc" }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El Sud Global i la nova geometria del poder",
+              "content": "Un dels canvis més significatius de l'ordre actual és l'emergència del 'Sud Global' com a actor col·lectiu amb agenda pròpia. La guerra d'Ucraïna va mostrar la fractura: mentre les democràcies occidentals sancionaven Rússia, la majoria dels països d'Àfrica, Àsia i Amèrica Llatina es van abstenir o van refusar condemnar. No per simpatia amb Putin, sinó per la percepció que l'ordre liberal ha funcionat principalment per als rics. L'expansió dels BRICS reflecteix la cerca d'alternatives a les institucions dominades per Occident. La qüestió és si el Sud Global pot articular una agenda positiva pròpia o si és principalment un moviment de protesta sense alternativa coherent."
+            },
+            {
+              "type": "expandable",
+              "label": "Els reptes que cap ordre actual pot gestionar adequadament",
+              "content": "Tres reptes transcendents il·lustren els límits del sistema actual. El canvi climàtic: requereix coordinació global que el sistema d'estats sobirans en competència fa estructuralment difícil; les emissions de la Xina i l'Índia creixen mentre els acords de París es compleixen parcialment. Les pandèmies: el COVID-19 va mostrar que la competència per vacunes i equips va ser la primera resposta, no la cooperació. La governança de la IA: cap institució internacional té capacitat per regular una tecnologia que pot transformar el poder militar, econòmic i polític sense que els estats hagin acordat regles mínimes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-b-06-01",
+              "style": "multiple-choice",
+              "question": "Quin factor explica millor per qué la majoria dels països del Sud Global no van condemnar la invasió russa d'Ucraïna el 2022?",
+              "options": [
+                "Simpatia ideològica amb el règim de Putin i oposició als valors democràtics occidentals",
+                "Dependència econòmica de Rússia per al subministrament de cereals i energia",
+                "La percepció que l'ordre occidental ha aplicat els principis de sobirania i drets humans de manera selectiva i que condemnar Rússia implicaria validar un ordre que no els ha beneficiat",
+                "Pressions diplomàtiques xineses que van obligar els seus aliats a abstenir-se"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La lectura del Sud Global no era principalment de simpatia per Putin sinó de desconfiança en la selectivitat occidental: les mateixes potències que invocaven la sobirania ucraïnesa havien ignorat la sobirania iraquiana el 2003, la libanesa, la siriana. La percepció de doble estàndard va fer que molts estats veiessin la crisi com un conflicte entre potències que no els concernia directament.",
+              "feedbackWrong": "La dependència de cereals russos és un factor per a alguns països africans, però no explica l'abstenció de països com l'Índia, Brasil o Sud-àfrica. La pressió xinesa va existir però no de manera coercitiva. El factor explicatiu principal és la percepció de doble estàndard en l'aplicació de les normes internacionals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ri-b-06-02",
+              "style": "detect-error",
+              "statement": "L'expansió dels BRICS representa la creació d'un bloc unificat d'estats amb una agenda internacional coherent alternativa a l'ordre liberal occidental.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és atribuir als BRICS una coherència que no tenen. Els BRICS agrupen actors amb interessos molt divergents: l'Índia i la Xina tenen disputes territorials actives; Brasil i Argentina han tingut governs amb orientacions polítiques oposades; les agendes econòmiques dels membres difereixen significativament. El que unifica els BRICS és més el que rebutgen (la dominació occidental de les institucions financeres internacionals) que el que proposen de manera coherent. Són un fòrum de protesta i coordinació parcial, no un bloc cohesionat amb agenda alternativa definida."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en un problema global que t'afecti directament o indirectament — el canvi climàtic, la regulació de la IA, la migració, la seguretat alimentària. Quin actor o institució internacional té avui la capacitat i la legitimitat per gestionar-lo? Si la resposta és 'cap', qué implica això?",
+              "prompt": "La resposta a aquesta pregunta és, en si mateixa, un diagnòstic de l'ordre internacional actual."
+            },
+            {
+              "type": "debate",
+              "question": "El món necessita reformar les institucions internacionals existents o crear-ne de noves per gestionar els reptes del segle XXI?",
+              "positionA": {
+                "label": "Reformar les existents",
+                "argument": "Les institucions com l'ONU, el FMI o l'OMC tenen dècades d'experiència, normes acumulades i una xarxa de relacions que seria costosíssim substituir. El problema no és el disseny institucional sinó la voluntat política dels estats. Reformar és realista; substituir és utòpic."
+              },
+              "positionB": {
+                "label": "Crear institucions noves",
+                "argument": "Les institucions actuals reflecteixen la distribució de poder del 1945, no la del 2025. El Consell de Seguretat de l'ONU amb veto permanent per a les potències de la postguerra és estructuralment incapaç de funcionar en un món multipolar. No es pot reformar una institució de dalt a baix sense el consentiment dels que es beneficien del statu quo."
+              },
+              "reflection": "Les Nacions Unides van néixer d'un acord entre potències vencedores d'una guerra mundial. Quin tipus de crisi o shock podria crear les condicions per a un acord similar avui? És desitjable esperar a una crisi per reformar?",
+              "context": "El debat entre reforma i substitució és recurrent en la governança global. La realitat pràctica sol ser una via intermèdia: noves institucions per a nous reptes (l'Agència Internacional de l'Energia Renovable, el Consell d'Estabilitat Financera) que coexisteixen amb les antigues sense substituir-les. El problema és que aquesta arquitectura fragmentada pot ser menys coherent que qualsevol de les dues alternatives pures."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ri-b-06-01",
+              "question": "El món s'encamina cap a un ordre bipolar EUA-Xina, cap a una multipolaritat fragmentada o cap a una nova forma de governança global?",
+              "options": [
+                "Bipolaritat EUA-Xina: la competència entre les dues potències estructurarà el sistema internacional de manera similar a la Guerra Freda",
+                "Multipolaritat fragmentada: cap potència tindrà prou preponderància per estructurar el sistema; el resultat serà desordre i conflicte creixent",
+                "Una nova arquitectura híbrida: competència entre grans potències en alguns àmbits, cooperació forçada en d'altres (clima, pandèmies), amb institucions parcials que gestionen zones específiques"
+              ],
+              "correct": 2,
+              "explanation": "Les tres posicions capturen tendències reals. La bipolaritat EUA-Xina és la narrativa dominant en els cercles de seguretat nacional, i té base real: la rivalitat sistèmica entre les dues potències estructurarà bona part de la política internacional en les properes dècades. Però la bipolaritat de la Guerra Freda va requerir una cohesió de blocs que avui no existeix: la UE no és un vassall americà, l'Índia no és un vassall xinès, i el Sud Global refusa alienar-se. La multipolaritat fragmentada captura el desordre actual, però els precedents històrics de sistemes veritablement multipolars (l'Europa del segle XIX) van produir guerres generalitzades — cosa que les armes nuclears fan ara molt menys probable. La posició C és la que millor descriu el que s'està construint de facto: un sistema en el qual la competència geopolítica en els àmbits de seguretat i tecnologia coexistirà amb la cooperació forçada en els àmbits on el cost de no cooperar (l'extinció climàtica, les pandèmies) supera el de cedir sobirania. Aquesta arquitectura híbrida és inestable, contradictòria i incòmoda — però pot ser el màxim que el sistema polític actual pot produir."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Geopolítica Contemporània",
+              "moduleEmoji": "🗺️",
+              "concept": "La rivalitat EUA-Xina",
+              "text": "El diagnòstic de l'ordre actual que hem fet en aquesta lliçó és el punt de partida del mòdul de Geopolítica Contemporània. Allà aprofundirem en cada actor — la Xina, Rússia, la UE, el Sud Global — i en els conflictes i tensions que defineixen el món d'avui. La teoria que hem après en aquest mòdul és la caixa d'eines; la geopolítica és l'aplicació."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

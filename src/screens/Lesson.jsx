@@ -22,6 +22,8 @@ import ReflectionBlock from '../components/blocks/ReflectionBlock'
 import ConnectionBlock from '../components/blocks/ConnectionBlock'
 import ComparisonBlock from '../components/blocks/ComparisonBlock'
 import MisconceptionBlock from '../components/blocks/MisconceptionBlock'
+import ImageBlock from '../components/blocks/ImageBlock'
+import { estimateReadingMinutes } from '../engine/readingTimeEngine'
 import styles from './Lesson.module.css'
 
 // ── Blocs de contingut ──────────────────────────────────────────────────────
@@ -118,6 +120,7 @@ function BlockRenderer({ block, onExpand, onAnswer, onDefer, isOptional, onSrUpd
     case 'misconception':   return <MisconceptionBlock block={block} />
     case 'timeline':        return <TimelineBlock block={block} />
     case 'quote':           return <QuoteBlock block={block} />
+    case 'image':           return <ImageBlock block={block} />
     default: return null
   }
 }
@@ -267,6 +270,7 @@ export default function Lesson() {
       navigate('/results')
     } else {
       const next = lessons[currentIndex + 1]
+      window.scrollTo({ top: 0, behavior: 'instant' })
       setNavigationState({ currentLessonId: next.id, currentStep: 0 })
     }
   }
@@ -291,7 +295,16 @@ export default function Lesson() {
 
       <div className={styles.lessonContent} key={currentLesson.id}>
       <div className={styles.lessonTitle}>
+        {!currentItineraryId && currentIndex === 0 && (
+          <div className={styles.moduleHeader}>
+            <span className={styles.moduleHeaderEmoji}>{moduleData.emoji}</span>
+            <span className={styles.moduleHeaderTitle}>{moduleData.title}</span>
+          </div>
+        )}
         <h2>{currentLesson.title}</h2>
+        <span className={styles.readingTime}>
+          ⏱ ~{estimateReadingMinutes(currentLesson.blocks)} min
+        </span>
       </div>
 
       <div className={styles.blocks}>

@@ -1,0 +1,982 @@
+{
+  "id": "module-XX-cinema",
+  "title": "Cinema: l'Art de la Mirada",
+  "emoji": "🎬",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "historic",
+      "title": "Itinerari Històric",
+      "icon": "📽️",
+      "description": "Dels orígens del cinema mut fins a la postmodernitat: com el setè art va construir el seu propi llenguatge al llarg del segle XX",
+      "style": "Cronològic · dels orígens al present",
+      "lessons": [
+
+        {
+          "id": "ci-h-01",
+          "title": "El Cinema No Era Art",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 28 de desembre de 1895, al Saló Indien del Grand Café de París, els germans Lumière projectaren deu curtmetratges davant una trentena de persones. Un dels films mostrava l'arribada d'un tren a l'estació de La Ciotat. Segons la llegenda, els espectadors van saltar de les cadires aterrorits. La llegenda és falsa — però el que sí és cert és que ningú en aquella sala pensava que estava assistint al naixement d'un art. Estaven veient una atracció de fira."
+            },
+            {
+              "type": "misconception",
+              "belief": "El cinema va ser reconegut immediatament com una nova forma artística des del primer moment.",
+              "reality": "Durant les dues primeres dècades, el cinema era considerat una curiositat tecnològica sense valor cultural. Les classes educades el menyspreaven; era entreteniment per a obrers i immigrants que no entenien la llengua del teatre. La batalla per legitimar el cinema com a art va durar trenta anys.",
+              "why": "La memòria cultural tendeix a projectar cap enrere el prestigi que una forma artística ha guanyat amb el temps. Oblidem que el jazz, el novel·la i el cinema van haver de lluitar contra el prejudici de les formes establertes."
+            },
+            {
+              "type": "key-idea",
+              "text": "El cinema no va heretar el seu llenguatge: el va inventar. El pla, el tall, el contraplà, el primer pla — totes aquestes convencions que avui semblen naturals van haver de ser descobertes, provades i codificades entre 1895 i 1930."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què els Lumière pensaven que el cinema no tenia futur?",
+              "content": "Louis Lumière va dir literalment que el cinema era 'una invenció sense futur comercial'. La seva lògica era raonable: una vegada que la novetat de veure imatges en moviment s'esgotés, per què pagaria la gent per veure vistes documentals? Els Lumière concebien el cinematògraf com un instrument científic per registrar la realitat, no com un mitjà narratiu. Va ser Georges Méliès — mag de professió — qui va descobrir accidentalment el potencial fantàstic del cinema quan la seva càmera es va encallar al mig d'un pla i va capturar una substitució instantània. El cinema de ficció el va inventar un il·lusionista, no un enginyer."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1895",
+                  "title": "Primera projecció pública dels Lumière",
+                  "text": "París. El cinema neix com a atracció de fira."
+                },
+                {
+                  "year": "1902",
+                  "title": "Méliès — Le Voyage dans la Lune",
+                  "text": "Primera pel·lícula de ficció amb efectes especials i narrativa estructurada."
+                },
+                {
+                  "year": "1915",
+                  "title": "D.W. Griffith — The Birth of a Nation",
+                  "text": "Primera obra que sistematitza el muntatge com a eina narrativa. Profundament racista i tècnicament revolucionària."
+                },
+                {
+                  "year": "1927",
+                  "title": "The Jazz Singer — el cinema parla",
+                  "text": "El so sincronitzat destrueix la primera generació d'estrelles del cinema mut."
+                },
+                {
+                  "year": "1929",
+                  "title": "Eisenstein teoritza el muntatge",
+                  "text": "El director soviètic publica les seves teories: dos plans junts creen un significat que cap dels dos té per separat."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-h-01-01",
+              "style": "multiple-choice",
+              "question": "D.W. Griffith és considerat un dels pares del llenguatge cinematogràfic modern, però 'The Birth of a Nation' (1915) és també una de les obres de propaganda racista més influents de la història nord-americana. Com hauria d'abordar la història del cinema aquesta contradicció?",
+              "options": [
+                "Ignorar el contingut ideològic i centrar-se exclusivament en les innovacions tècniques",
+                "Rebutjar la pel·lícula del cànon perquè el seu contingut la invalida com a obra artística",
+                "Analitzar simultàniament la innovació formal i el dany real que va causar, sense subordinar cap dels dos",
+                "Contextualitzar el racisme com a producte del seu temps i no jutjar-lo amb valors contemporanis"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Separar el valor formal del contingut ideològic és un error metodològic en tots dos sentits: ignorar la tècnica empobreix la història de l'art; ignorar el dany real (la pel·lícula va rellançar el Ku Klux Klan) empobreix la història moral. La tensió entre els dos és precisament el que fa la pregunta interessant.",
+              "feedbackWrong": "Les tres opcions que has descartat cauen en trampes simètriques: o fetitxitzen la tècnica fins a blanquejar el contingut, o apliquen un judici moral que elimina la complexitat, o fan servir el 'context històric' com a excusa per evitar el judici. La història del cinema ha d'aguantar la tensió, no resoldre-la prematurament."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-h-01-01",
+              "question": "El cinema mut va desaparèixer el 1927 amb l'arribada del so. Alguns directors i crítics de l'època — com Charlie Chaplin o Rudolf Arnheim — van argumentar que el cinema mut era la forma pura del cinema, i que el so el degradava. Tenien raó?",
+              "options": [
+                "No — el so va ampliar el cinema; rebutjar-lo era nostàlgia disfressada d'estètica",
+                "Sí — el cinema mut havia desenvolupat un llenguatge visual pur que el so va interrompre i mai s'ha recuperat del tot",
+                "La pregunta és mal plantejada: el cinema mut i el cinema sonor són dues arts amb recursos i possibilitats diferents, i la comparació jeràrquica no té sentit"
+              ],
+              "correct": 2,
+              "explanation": "Arnheim tenia raó en una cosa: el cinema mut havia elaborat un vocabulari visual extraordinàriament sofisticat precisament perquè no podia dependre de les paraules. L'expressió facial de Lillian Gish o els enquadraments de Murnau tenien una densitat que el cinema sonor primerenc va perdre temporalment — els actors de teatre van invadir el plató i els directors van clavar la càmera davant dels micròfons. Però Chaplin i Arnheim es van equivocar en tractar aquesta pèrdua com a permanent i definitòria. Orson Welles, Bergman, Tati i Kubrick van demostrar que el so podia ser tan elaborat com la imatge. El problema real no era el so — era que Hollywood va comercialitzar el so abans que els artistes el dominessin. La forma pura que defensaven Chaplin i Arnheim era, en part, una idealització retroactiva d'una limitació tècnica."
+            }
+          ]
+        },
+
+        {
+          "id": "ci-h-02",
+          "title": "Les Avantguardes i la Invenció del Director",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Als anys vint, mentre Hollywood construïa la seva maquinària industrial, una altra cosa passava simultàniament a Moscou, Berlín i París: cineastes que pensaven el cinema com a eina de transformació — política, perceptiva, estètica. Eisenstein volia canviar la consciència de classe dels treballadors. Lang volia expressar l'angoixa d'una civilització. Buñuel volia destruir la moral burgesa. Tots ells van contribuir, sense saber-ho, a crear el concepte que avui donem per descomptat: el director com a autor."
+            },
+            {
+              "type": "key-idea",
+              "text": "El muntatge no és una tècnica d'edició — és una forma de pensament. Quan Eisenstein talla d'un rostre a un plat de sopa i torna al rostre, no mostra la fam: la crea en la ment de l'espectador. El significat cinematogràfic no resideix en els plans, sinó en l'espai entre ells."
+            },
+            {
+              "type": "quote",
+              "text": "El cinema és l'art més important per a nosaltres.",
+              "author": "Lenin, 1922"
+            },
+            {
+              "type": "expandable",
+              "label": "L'Efecte Kuleixov: l'experiment que va canviar la teoria del cinema",
+              "content": "El 1921, el cineasta soviètic Lev Kuleixov va fer un experiment ara llegendari: va agafar un primer pla neutre de l'actor Ivan Mozzhukhin i el va muntar alternativament amb tres plans diferents — un plat de sopa, un taüt i una nena jugant. Els espectadors van interpretar l'expressió de l'actor com a fam, tristesa i tendresa, respectivament. Però el pla de l'actor era idèntic en els tres casos. La conclusió va ser revolucionària: el significat emocional no està en el pla individual, sinó en la juxtaposició. L'espectador no observa — construeix activament el sentit. Tota la teoria del muntatge soviètic deriva d'aquest experiment."
+            },
+            {
+              "type": "comparison",
+              "title": "Montatge Soviètic vs. Continuïtat Clàssica de Hollywood",
+              "labelA": "Muntatge soviètic (Eisenstein)",
+              "labelB": "Continuïtat clàssica (Hollywood)",
+              "items": [
+                {
+                  "label": "Objectiu",
+                  "a": "Crear un xoc intel·lectual o emocional entre plans",
+                  "b": "Fer la transició invisible per mantenir la immersió narrativa"
+                },
+                {
+                  "label": "Tall",
+                  "a": "El tall és un esdeveniment — el moment on neix el significat",
+                  "b": "El tall ideal és aquell que l'espectador no nota"
+                },
+                {
+                  "label": "Espectador",
+                  "a": "Ha de ser activat, sacsejat, forçat a pensar",
+                  "b": "Ha d'estar relaxat, submergit, identificat amb els personatges"
+                },
+                {
+                  "label": "Herència",
+                  "a": "Godard, cinema d'assaig, videoclip, publicitat",
+                  "b": "Cinema mainstream global fins avui"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-h-02-01",
+              "style": "true-false",
+              "question": "La teoria del muntatge d'Eisenstein i el sistema de continuïtat de Hollywood són fonamentalment incompatibles — un cineasta no pot fer servir les dues lògiques en la mateixa pel·lícula.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. Molts dels grans directors han combinat les dues lògiques de manera conscient. Coppola utilitza el sistema de continuïtat per a les escenes dramàtiques del Padrí i muntatge eisensteinià per als moments de violència ritualitzada (la seqüència del bateig). Kubrick, Scorsese, De Palma — tots fan servir el xoc entre plans dins d'una estructura narrativa de continuïtat. La incompatibilitat era ideològica per a Eisenstein, però no és tècnicament inevitable.",
+              "feedbackWrong": "Les dues lògiques semblen oposades però no s'exclouen. Un director pot construir una escena amb continuïtat clàssica i inserir un tall eisensteinià en el moment precís per crear un efecte específic. La distinció és una eina analítica, no una prescripció absoluta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-h-02-02",
+              "style": "multiple-choice",
+              "question": "Fritz Lang va rodar 'Metropolis' (1927) a Alemanya amb un pressupost equivalent a cinc mil·lions de dòlars actuals, i va arruïnar l'estudi UFA. Quin va ser l'impacte real de la pel·lícula en la seva estrena?",
+              "options": [
+                "Va ser un èxit comercial massiu que va compensar el cost de producció",
+                "Va ser un fracàs comercial total que va forçar Lang a marxar a Hollywood anys després",
+                "Va ser ignorada per la crítica però va guanyar popularitat dècades després",
+                "Va ser prohibida pel govern alemany per les seves implicacions polítiques"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Metropolis va ser un desastre comercial que va gairebé destruir la UFA. Lang va continuar treballant a Alemanya fins al 1933, quan els nazis van arribar al poder — Goebbels li va oferir dirigir el cinema del Tercer Reich basant-se precisament en Metropolis, que Hitler admirava. Lang va marxar a París l'endemà. La trajectòria de Metropolis — de fracàs a icona — és un dels casos més estudiats de canonització tardana en la història de l'art.",
+              "feedbackWrong": "La història real de Metropolis és més dramàtica que qualsevol de les altres opcions. El seu fracàs comercial i el posterior interès dels nazis per la seva estètica va marcar profundament la vida de Lang i la seva relació ambivalent amb la seva pròpia obra."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-h-02-01",
+              "question": "El cinema soviètic dels anys vint (Eisenstein, Vertov, Pudovkin) va produir algunes de les obres formalment més ambicioses de la història del cinema. Però era cinema de propaganda d'estat. Això canvia el seu valor artístic?",
+              "options": [
+                "Sí — l'art al servei d'una ideologia totalitària no pot ser genuïnament gran, independentment de la seva forma",
+                "No — la qualitat formal és independent de la funció política; Eisenstein és gran malgrat la propaganda, no gràcies a ella",
+                "La pregunta pressuposa una separació entre forma i contingut que el propi Eisenstein hauria rebutjat — per a ell, la forma era la ideologia"
+              ],
+              "correct": 2,
+              "explanation": "Eisenstein no concebia la seva feina com 'gran art que també era propaganda' — concebia el xoc emocional i intel·lectual del muntatge com una eina de transformació de la consciència de classe. La forma i el contingut eren inseparables en la seva teoria. Quan intentem separar-los per salvar el valor estètic i descartar la ideologia, traïm la seva pròpia lògica. Però aquí hi ha una paradoxa: les seves millors pel·lícules — El cuirassat Potemkin, Octubre, Aleksandr Nevski — sobreviuen la seva funció propagandística original i continuen emocionant espectadors sense cap connexió amb el marxisme soviètic. Potser la gran art és aquella que desborda la seva funció original. O potser el que ens emociona en Eisenstein no és la seva ideologia sinó la seva comprensió del ritme, el cos i la violència — quelcom més antic que qualsevol ideologia política."
+            }
+          ]
+        },
+
+        {
+          "id": "ci-h-03",
+          "title": "Hollywood: La Màquina de Somnis",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Entre 1930 i 1960, Hollywood va produir entre 400 i 700 pel·lícules l'any. No era una indústria artesanal — era una fàbrica. Els directors tenien un contracte, un horari i un pressupost assignat. El productor tenia l'última paraula. I malgrat tot — o potser precisament per això — va produir algunes de les obres mestres més admirades de la història del cinema. La pregunta que continua dividint els historiadors: era Hollywood un sistema que empresonava els artistes o un que els permetia florir?"
+            },
+            {
+              "type": "misconception",
+              "belief": "L'era clàssica de Hollywood era un sistema de producció en cadena que impedia la creativitat artística.",
+              "reality": "El sistema d'estudis proporcionava als directors un equip d'especialistes estables, recursos tècnics i un marc de gènere que molts directos van aprofitar com a estructura sobre la qual experimentar. John Ford, Howard Hawks, Alfred Hitchcock i Billy Wilder van desenvolupar els seus estils distintius precisament dins d'aquest sistema.",
+              "why": "La crítica al 'sistema Hollywood' prové en part de la politique des auteurs francesa dels anys 50, que tenia un interès polèmic a reivindicar directors específics contra el sistema. La seva narrativa de 'geni oprimit' era parcialment estratègica."
+            },
+            {
+              "type": "key-idea",
+              "text": "El gènere cinematogràfic no és una fórmula que limita la creativitat — és un sistema de convencions compartides entre el cinema i l'espectador que permet que qualsevol desviació tingui significat. La primera vegada que Hitchcock mata la protagonista al primer terç del film, l'espectador sent vertigen perquè coneixia les regles."
+            },
+            {
+              "type": "prediction",
+              "question": "Pensa en una pel·lícula clàssica de Hollywood que admires. Quant del seu poder prové de la innovació i quant de l'execució perfecta d'una convenció coneguda?",
+              "hint": "No hi ha resposta correcta. La tensió entre les dues coses és el que busquem."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-h-03-01",
+              "style": "detect-error",
+              "statement": "El Codi Hays (el codi de censura de Hollywood vigent entre 1934 i 1968) va ser un obstacle pur per a la creativitat cinematogràfica: tot el que els directors van aconseguir malgrat ell hauria estat millor sense ell.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta afirmació ignora un dels fenòmens més estudiats de la teoria artística: les limitacions forçoses sovint generen solucions creatives que no haurien existit en llibertat total. Sota el Codi Hays, els directors van desenvolupar tota una semiòtica del desig implícit, la violència al·ludida i la transgressió obliqua — la il·luminació de film noir, el doble sentit dels diàlegs de Hawks, la suggestió sexual de Wilder — que va ser estèticament més rica que la representació explícita que hauria permès la llibertat. No és que el Codi fos bo; és que l'art creix en la fricció, no malgrat ella."
+            },
+            {
+              "type": "debate",
+              "question": "La politique des auteurs — la teoria que el director és l'autèntic autor d'una pel·lícula — és la forma correcta de llegir el cinema?",
+              "positionA": {
+                "label": "Sí — el director és l'eix creatiu central",
+                "argument": "Una pel·lícula de Kubrick és inconfusiblement kubrickiana malgrat que treballés amb guionistes, actors i fotògrafs diferents en cada projecte. La visió coherent que travessa una filmografia és la prova que el director és l'autor. Tractar el cinema com a producció col·lectiva anònima impedeix l'anàlisi crítica rigorosa."
+              },
+              "positionB": {
+                "label": "No — el cinema és un art col·lectiu per definició",
+                "argument": "La teoria de l'autor és un trasllat il·legítim de la noció romàntica de geni individual a un art que requereix centenars de col·laboradors. El director de fotografia, el muntador, el compositor i els actors co-creen la pel·lícula. Atribuir-la a una sola persona és una simplificació crítica convenientment adaptada al màrqueting."
+              },
+              "reflection": "Quan dius que t'agrada 'una pel·lícula de Nolan', a qui et refereixes exactament?",
+              "context": "La politique des auteurs va sorgir als Cahiers du Cinéma als anys 50 com a estratègia crítica de François Truffaut per legitimar el cinema americà de gènere contra el cinema de qualitat francès. Era parcialment polèmica. Avui coexisteixen les dues aproximacions en la crítica i els estudis de cinema."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-h-03-01",
+              "question": "El cinema clàssic de Hollywood va crear estereotips de raça, gènere i classe que van influir profundament en la percepció social durant dècades. Com hauria d'afectar aquest fet la manera com avui estudiem i programem aquestes pel·lícules?",
+              "options": [
+                "No hauria d'afectar-la: el valor artístic és independent del dany social, i la censura retrospectiva és intel·lectualment deshonesta",
+                "Hauria de comportar la retirada o restricció de les obres més danyoses per evitar la perpetuació dels estereotips",
+                "Hauria de comportar una contextualització crítica activa, sense retirar les obres però sense presentar-les com a innocents"
+              ],
+              "correct": 2,
+              "explanation": "Les opcions extremes cauen en trampes simétriques. L'opció 1 tracta l'art com un àmbit exempt de conseqüències reals — però els estereotips cinematogràfics van tenir efectes documentats sobre la percepció de les comunitats representades. L'opció 2 pressuposa que la retirada elimina el dany, quan en realitat l'amaga i impedeix l'anàlisi. La contextualització crítica és la única resposta que respecta simultàniament la intel·ligència de l'espectador, la complexitat de les obres i la realitat del dany. Però 'contextualització' no pot ser una etiqueta d'advertència perfunctòria — ha de ser una intervenció educativa real que expliqui el mecanisme del prejudici i la seva funció social en el moment de producció. El cinema clàssic de Hollywood és un document extraordinari de les ansietats i els valors del seu temps, precisament pels seus estereotips."
+            }
+          ]
+        },
+
+        {
+          "id": "ci-h-04",
+          "title": "La Nouvelle Vague: Quan els Crítics van Agafar la Càmera",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1959, Jean-Luc Godard va rodar 'À bout de souffle' en dotze dies, al carrer, amb una càmera al muscle i sense permisos. El resultat va desconcertar i entusiasmar per igual: els talls no seguien cap regla coneguda, els personatges miraven a càmera, la narrativa s'interrompia sense avís. No era un error tècnic — era un manifest. Un grup de crítics dels Cahiers du Cinéma acabava de demostrar que fer cinema no requeria un estudi, un pressupost ni l'aprovació de ningú."
+            },
+            {
+              "type": "key-idea",
+              "text": "La Nouvelle Vague no va inventar el cinema independent — va demostrar que la llibertat formal i la profunditat intel·lectual podien coexistir amb l'accessibilitat i la frescor. Va destruir la frontera entre el cinema com a art i el cinema com a conversa sobre la vida contemporània."
+            },
+            {
+              "type": "misconception",
+              "belief": "La Nouvelle Vague era un moviment estèticament unificat amb un programa comú.",
+              "reality": "Godard, Truffaut, Chabrol, Rohmer i Rivette compartien un origen crític i una generació, però les seves filmografies van divergir radicalment. Truffaut va evolucionar cap a un cinema humanista i accessible; Godard cap a l'experimentació política radical; Rohmer cap a la conversa filosòfica minimalista. El que tenien en comú era menys un estil que una actitud: el cinema com a pensament, no com a producte.",
+              "why": "La crítica i el màrqueting tendeixen a agrupar moviments per fer-los manejables. La 'Nouvelle Vague' és en part una etiqueta construïda retrospectivament pels mateixos crítics que la van viure."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què els Cahiers du Cinéma van canviar la història del cinema mundial",
+              "content": "Els Cahiers du Cinéma, fundats el 1951 per André Bazin, van ser la incubadora intel·lectual de la Nouvelle Vague. El que els distingia d'altres revistes de cinema era la seva disposició a tractar Howard Hawks o Alfred Hitchcock amb el mateix rigor que Bergman o Renoir. La 'politique des auteurs' que Truffaut va formular el 1954 no era sols una teoria crítica — era una declaració d'intencions: els joves crítics que admiraven aquells directors voldrien aviat fer el que ells feien. La revista va crear un espai on el pensament sobre el cinema i la pràctica del cinema eren la mateixa activitat. Res similar havia existit abans. La influència dels Cahiers s'estén directament al Nou Hollywood, al cinema brasiler del Cinema Novo, al cinema alemany dels anys 70 i a tots els moviments de cinema d'autor de la segona meitat del segle XX."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1951",
+                  "title": "Fundació dels Cahiers du Cinéma",
+                  "text": "André Bazin crea la revista que formarà els futurs directors de la Nouvelle Vague."
+                },
+                {
+                  "year": "1954",
+                  "title": "Truffaut — 'Une certaine tendance du cinéma français'",
+                  "text": "L'article-manifest que ataca el 'cinema de qualitat' francès i reivindica el director com a autor."
+                },
+                {
+                  "year": "1959",
+                  "title": "Any zero de la Nouvelle Vague",
+                  "text": "Truffaut guanya Cannes amb 'Les Quatre Cents Coups'. Godard estrena 'À bout de souffle'. Resnais presenta 'Hiroshima mon amour'."
+                },
+                {
+                  "year": "1962",
+                  "title": "Godard — 'Vivre sa vie'",
+                  "text": "El cinema de Godard es radicalitza formalment: la pel·lícula com a assaig, el pla com a argument filosòfic."
+                },
+                {
+                  "year": "1968",
+                  "title": "El Maig del 68 trenca el moviment",
+                  "text": "Godard abandona el cinema narratiu cap a l'agitació política. Truffaut s'allunya políticament. La Nouvelle Vague com a moviment cohesionat s'acaba."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-h-04-01",
+              "style": "multiple-choice",
+              "question": "Godard va fer servir el 'jump cut' — un tall entre dos plans del mateix subjecte que crea una discontinuïtat visible — de manera sistemàtica a 'À bout de souffle'. En el sistema de continuïtat clàssic, el jump cut és un error. Per a Godard, era una decisió. Quin efecte perseguia?",
+              "options": [
+                "Crear la sensació de temps que passa ràpidament, comprimint l'acció per raons narratives",
+                "Recordar a l'espectador que està veient una pel·lícula, trencant la il·lusió de realitat per fer-lo pensar en lloc de submergir-se",
+                "Imitar l'estètica del cinema documental per donar versemblança als personatges",
+                "Compensar material rodat insuficient degut al baix pressupost de producció"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El jump cut godardià és un gest brechtià: igual que Brecht interrompia el teatre per recordar als espectadors que estaven en un teatre, Godard interromp la continuïtat per recordar a l'espectador que està veient un constructe. L'efecte és doble: destrueix la passivitat de la identificació i obre un espai de reflexió. Godard no volia espectadors submergits — volia espectadors actius, incòmodes, pensants.",
+              "feedbackWrong": "El jump cut no és una solució pràctica ni una imitació documental — és una declaració filosòfica. Godard coneixia perfectament les regles del muntatge de continuïtat: havia vist centenars de pel·lícules americanes. Trencar-les conscientment era un acte crític, no una improvisació."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-h-04-02",
+              "style": "true-false",
+              "question": "La influència de la Nouvelle Vague es va limitar al cinema europeu d'art i assaig, sense impactar el cinema comercial americà.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La influència de la Nouvelle Vague sobre el Nou Hollywood dels anys 60-70 és directa i documentada. Scorsese, Coppola, Bogdanovich i De Palma van créixer veient Godard i Truffaut. El muntatge de Scorsese, la narració no lineal de Coppola, els homenatges cinèfils de De Palma — tot porta l'empremta dels Cahiers. I indirectament, a través del Nou Hollywood, la Nouvelle Vague va configurar l'estètica del cinema popular americà dels darrers cinquanta anys.",
+              "feedbackWrong": "L'impacte de la Nouvelle Vague sobre Hollywood és un dels vectors d'influència més estudiats de la història del cinema. Els joves directors del Nou Hollywood eren cinèfils formats en el cinema europeu dels anys 50-60, i ho van traslladar directament a les seves pel·lícules."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-h-04-01",
+              "question": "La Nouvelle Vague va néixer d'un grup de crítics que tenien teories molt elaborades sobre el cinema. Això va ser un avantatge o un handicap per a la seva obra cinematogràfica?",
+              "options": [
+                "Un avantatge clar: la consciència teòrica va permetre decisions formals deliberades que el cinema intuïtiu no hauria pogut fer",
+                "Un handicap: la teoria va produir un cinema massa intel·lectual i fred que sacrificava l'emoció en benefici del concepte",
+                "Les dues coses simultàniament: la teoria va dotar-los d'un vocabulari per a la innovació conscient, però també va crear una tendència a la cinemafília auto-referencial que progressivament va allunyar el moviment de l'experiència humana directa"
+              ],
+              "correct": 2,
+              "explanation": "La tensió entre teoria i pràctica és constitutiva de la Nouvelle Vague i explica tant els seus èxits com els seus límits. La consciència crítica va permetre a Godard i Truffaut fer decisions formals que cap director sense la seva formació hauria pogut fer — el jump cut, la mirada a càmera, la cita cinèfila — amb una precisió i una intenció que transformaren el vocabulari del cinema mundial. Però la mateixa consciència va produir un cinema progressivament tancat sobre si mateix: les pel·lícules de Godard dels anys 60 estan plenes de referències a altres pel·lícules, de gests cap a la història del cinema, d'una auto-consciència que pot ser estimulant o estèril depenent del cas. Truffaut va reconèixer el problema i va evolucionar cap a un cinema menys teoritzat i més directament emocional. Godard va aprofundir la paradoxa fins a convertir-la en el seu tema principal. El debat sobre si la teoria allibera o empresona l'artista no té una resposta general — i la Nouvelle Vague és el cas d'estudi perfecte precisament perquè dóna arguments per als dos bàndols."
+            }
+          ]
+        },
+
+        {
+          "id": "ci-h-05",
+          "title": "El Nou Hollywood: Quan els Cineastes van Prendre el Poder",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1967, 'Bonnie and Clyde' va matar els protagonistes a càmera lenta amb una ràfaga de bales que durava trenta segons. El públic americà no havia vist res semblant en una sala comercial. L'any següent, '2001: A Space Odyssey' va acabar sense explicar res. El 1969, 'Easy Rider' va matar els seus herois sense motiu aparent en els últims dos minuts. El sistema havia perdut el control del que es podia mostrar, i una nova generació de directors — tots ells formats en la cinèfilia europea i el cinema de gènere americà — estava a punt d'aprofitar-ho."
+            },
+            {
+              "type": "key-idea",
+              "text": "El Nou Hollywood (1967-1980) va ser l'única vegada en la història del cinema comercial americà que els directors van tenir prioritat sobre els productors de manera sistemàtica. Va durar menys de quinze anys. Va acabar quan 'La porta del cel' de Michael Cimino (1980) va arruïnar United Artists i els estudis van recuperar el control."
+            },
+            {
+              "type": "prediction",
+              "question": "Si fossis un estudi de Hollywood el 1967 — negoci en crisi, televisió menjant-te l'audiència, censura relaxada, joventut desconnectada del cinema tradicional — quin risc estaries disposat a assumir per recuperar el públic?",
+              "hint": "Pensa en termes comercials, no artístics. Els estudis no van donar poder als directors per generositat."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què els estudis van cedir el control als directors — i per què se'l van recuperar",
+              "content": "El Nou Hollywood va néixer d'una crisi industrial, no d'una revolució cultural. El sistema d'estudis clàssic havia col·lapsat al final dels anys 50: els grans estudis havien perdut les seves sales de cinema per ordre judicial (el cas Paramount de 1948), la televisió havia absorbit el públic familiar, i les superproduccions inflades com 'Cleopatra' (1963) havien gairebé arruïnat la Fox. Davant d'aquest desastre, els executius van apostar per una cosa que no entenien: donar pressupostos moderats a directors joves que semblaven connectar amb el públic universitari i urbà. L'experiment va funcionar més del que ningú esperava. Però el seu final també va ser industrial: 'Star Wars' (1977) i 'Jaws' (1975) van demostrar que un cinema diferent — el blockbuster d'entreteniment massiu — podia generar beneficis incomparablement superiors als films d'autor. Els estudis no van abandonar el cinema d'autor per raons estètiques: simplement van trobar un model de negoci millor."
+            },
+            {
+              "type": "comparison",
+              "title": "Hollywood Clàssic vs. Nou Hollywood",
+              "labelA": "Hollywood Clàssic (1930–1966)",
+              "labelB": "Nou Hollywood (1967–1980)",
+              "items": [
+                {
+                  "label": "Poder creatiu",
+                  "a": "El productor té l'última paraula sobre muntatge i contingut",
+                  "b": "El director negocia o imposa el seu tall final"
+                },
+                {
+                  "label": "Final narratiu",
+                  "a": "Resolució moral obligatòria; el crim no paga",
+                  "b": "Finals ambigus, tràgics o deliberadament insatisfactoris"
+                },
+                {
+                  "label": "Gènere",
+                  "a": "Els gèneres s'apliquen amb les seves convencions establertes",
+                  "b": "Els gèneres es deconstrueixen, hibriden o traïxen"
+                },
+                {
+                  "label": "Referents",
+                  "a": "El teatre i la novel·la popular americana",
+                  "b": "Fellini, Godard, Kurosawa, el cinema europeu d'art"
+                },
+                {
+                  "label": "Tema central",
+                  "a": "L'individu en conflicte amb la societat, resolt a favor de l'ordre",
+                  "b": "La institució com a font de corrupció; l'heroi que fracassa o se'n va"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-h-05-01",
+              "style": "multiple-choice",
+              "question": "'Chinatown' (Polanski, 1974) acaba amb la mort de la protagonista innocent i el triomf del vilà, sense cap mena de justícia. Quin argument implícit fa aquest final sobre la societat americana del moment?",
+              "options": [
+                "Que el sistema judicial americà és ineficient i necessita reforma",
+                "Que la corrupció és estructural i indestructible: les institucions no fallen per males persones sinó perquè estan dissenyades per protegir el poder",
+                "Que el protagonista masculí és moralment feble i no mereix guanyar",
+                "Que el cinema pot permetre's finals tràgics ara que el Codi Hays ha desaparegut"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. 'Chinatown' és el film paradigmàtic del pessimisme institucional del Nou Hollywood, escrit en el context del Watergate i Vietnam. El missatge de Robert Towne i Polanski no és que Jake Gittes sigui incompetent — és que el poder de Noah Cross és anterior, superior i impermeables a qualsevol acció individual. El final no és nihilista: és una anàlisi política. El Nou Hollywood va ser el primer cinema comercial americà que va tractar les institucions — la policia, el govern, els grans negocis — com a fonts de mal sistèmic, no com a salvadors corregibles.",
+              "feedbackWrong": "El final de 'Chinatown' opera a un nivell d'abstracció política que va més enllà de les relacions personals o de les limitacions del protagonista. La pregunta que el film planteja no és '¿qui guanya?' sinó '¿quin tipus de sistema produeix aquest resultat sistemàticament?'"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-h-05-02",
+              "style": "detect-error",
+              "statement": "El Nou Hollywood va acabar perquè els directors van perdre la disciplina artística i van començar a fer pel·lícules excessivament costoses i personals que el públic no volia veure.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta narrativa — la del director geni autodestruït per l'ego — és parcialment certa per a casos específics com Cimino o Coppola tardà, però no explica el final del moviment. El Nou Hollywood va acabar principalment perquè 'Jaws' (1975) i 'Star Wars' (1977) van demostrar als estudis que un model de negoci alternatiu — el blockbuster d'estrena massiva amb màrqueting intensiu — generava beneficis molt superiors als films d'autor. Els estudis no van recuperar el control per prudència artística: van recuperar-lo perquè van descobrir que podien guanyar molt més diners amb un cinema diferent. La causa és estructural i econòmica, no moral."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-h-05-01",
+              "question": "El Nou Hollywood va produir algunes de les obres mestres del cinema americà, però era un cinema majoritàriament fet per homes blancs que representava sobretot perspectoves masculines blanques. Fa això el seu llegat problemàtic?",
+              "options": [
+                "No — la qualitat artística és independent de la demografia dels seus autors; jutjar l'art per la identitat de qui el fa és una forma de reduccionisme",
+                "Sí — un cinema que pretenia ser subversiu i crític amb el poder mentre reproduïa l'exclusió sistèmica és intrínsecament contradictori i el seu prestigi hauria de ser revisat",
+                "El llegat és complex: el Nou Hollywood va ampliar radicalment els límits del que el cinema comercial podia dir sobre el poder, la violència i la moral, però ho va fer des d'un punt de vista limitat que ell mateix no va examinar — i reconèixer els dos fets alhora és la lectura honesta"
+              ],
+              "correct": 2,
+              "explanation": "La crítica a l'exclusió del Nou Hollywood és legítima i documentada: de les pel·lícules canòniques del moviment, gairebé totes estan dirigides per homes blancs, protagonitzades per homes blancs, i tracten la crisi moral americana des del punt de vista d'homes blancs. Scorsese, Coppola, Bogdanovich, De Palma, Friedkin, Ashby — el panteó és homogeni d'una manera que no és accidental. Al mateix temps, reduir el Nou Hollywood a la seva demografia oblida que va ser el cinema que va qüestionar el Vietnam, Watergate, el racisme institucional i la corrupció política d'una manera que cap cinema anterior havia fet amb aquella contundència i audiència. Les dues coses són certes. El que no és acceptable és usar la qualitat artística per immunitzar l'obra contra la crítica de representació, ni usar la crítica de representació per invalidar la qualitat artística. La lectura honesta aguanta la tensió."
+            }
+          ]
+        },
+
+        {
+          "id": "ci-h-06",
+          "title": "Del Blockbuster a l'Streaming: el Cinema en l'Era de la Reproducció Infinita",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 20 de juny de 1975, 'Jaws' de Spielberg s'estrenava simultàniament a 409 sales americanes — fins aleshores, una pel·lícula es distribuïa gradualment, sala a sala, ciutat a ciutat. Era la primera vegada que un estudi apostava per la saturació massiva i el màrqueting televisiu per crear un esdeveniment cultural instantani. Va recaptar més diners que cap altra pel·lícula fins aquell moment. Hollywood mai va tornar enrere. I quaranta-cinc anys després, Netflix estrena pel·lícules que milions de persones veuen en el sofà de casa en la mateixa nit que s'alliberen. La pregunta ja no és com es distribueix el cinema — és si el que es distribueix és encara cinema."
+            },
+            {
+              "type": "key-idea",
+              "text": "El blockbuster no és simplement una pel·lícula gran i cara — és un model econòmic que canvia la relació entre risc i benefici. Quan una sola pel·lícula ha de recuperar una inversió de dos-cents milions de dòlars, l'originalitat narrativa es converteix en un risc que cap executiu pot assumir. El cinema de franquícia no és una decisió estètica: és la conseqüència lògica d'un model financer."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'streaming ha democratitzat el cinema donant accés universal a les millors pel·lícules del món.",
+              "reality": "L'streaming ha creat un sistema on l'accessibilitat és màxima però la visibilitat és mínima per a tot allò que no té suport algorítmic. Una pel·lícula de Chantal Akerman o Apichatpong Weerasethakul pot estar teòricament disponible en un clic, però si l'algoritme no la recomana, existeix menys que quan requeria un esforç actiu de cerca. L'abundància no és el mateix que l'accés.",
+              "why": "Confondre disponibilitat tècnica amb accés cultural és un error habitual en la discussió sobre tecnologia i democràcia. L'accés real requereix descobriment, context i infraestructura crítica — coses que les plataformes d'streaming no estan dissenyades per proporcionar."
+            },
+            {
+              "type": "expandable",
+              "label": "La paradoxa de Netflix: finançar Scorsese i destruir el cinema d'autor al mateix temps",
+              "content": "Netflix va finançar 'The Irishman' de Scorsese (2019) amb 160 milions de dòlars — un pressupost que cap estudi tradicional hauria arriscat en una pel·lícula de tres hores i mitja sense efectes especials protagonitzada per actors setentins. En aquest sentit, Netflix va fer possible una obra que el sistema tradicional hauria rebutjat. Però simultàniament, el model de Netflix — on l'èxit es mesura per minuts de visualització i no per taquilla — ha creat una pressió cap a continguts que 'enganxin' en els primers deu minuts i que els usuaris posin en segon pla mentre fan altres coses. El resultat és una coexistència paradoxal: les plataformes financen cinema d'autor de prestigi com a estratègia de marca mentre els seus algoritmes i la seva interfície optimitzen per a un tipus de consum radicalment diferent. Scorsese va respondre dient que el cinema de Marvel no és cinema — i la polèmica va revelar una ansietat real sobre el que significa 'cinema' quan la sala ha deixat de ser el context natural de visionat."
+            },
+            {
+              "type": "quote",
+              "text": "Les pel·lícules de Marvel no són cinema. Estan molt ben fetes per persones talentoses. Però no és cinema. És un parc temàtic.",
+              "author": "Martin Scorsese, 2019"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-h-06-01",
+              "style": "multiple-choice",
+              "question": "Scorsese argumenta que el cinema de Marvel no és 'cinema' perquè manca de 'revelació, misteri, veritable perill emocional'. Quina és la rèplica més sòlida a aquest argument?",
+              "options": [
+                "Que Scorsese és un director vell que no entén el cinema contemporani i el públic jove",
+                "Que la distinció entre 'art' i 'entreteniment' és una jerarquia cultural arbitrària que reprodueix el prejudici de classe",
+                "Que la definició de Scorsese de 'cinema' és normativa i excloent: pressuposa que el cinema ha de fer certa cosa, quan la forma ha demostrat ser capaç de contenir múltiples funcions simultàniament",
+                "Que les pel·lícules de Marvel recapten milers de milions de dòlars, la qual cosa demostra que el públic les considera cinema"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. El problema del argument de Scorsese no és que sigui fals — 'Avengers' no persegueix el tipus d'experiència que ell descriu. El problema és que pressuposa que aquell tipus d'experiència defineix el cinema. Però el cinema ha estat simultàniament atracció de fira, propaganda, melodrama, documental, assaig filosòfic i entreteniment de masses durant tota la seva història. Fixar la definició en un mode particular és confondre una preferència estètica amb una essència ontològica.",
+              "feedbackWrong": "La rèplica de la recaptació (opció 4) confon popularitat amb legitimitat artística — un error simètric al de Scorsese, que confon prestigi crític amb definició de cinema. La rèplica del prejudici de classe (opció 2) és parcialment vàlida però massa general. La millor rèplica ataca directament la lògica de la definició, no les seves motivacions."
+            },
+            {
+              "type": "debate",
+              "question": "Veure una pel·lícula en una sala de cinema és una experiència fonamentalment diferent de veure-la en una pantalla domèstica?",
+              "positionA": {
+                "label": "Sí — la sala és inseparable de l'experiència cinematogràfica",
+                "argument": "La sala de cinema crea les condicions de l'atenció total: foscor, grandària de la imatge, so envoltant, absència de distraccions, i la presència de l'altre — la comunitat d'estranys que riu, plora o emmudeix junta. Aquestes condicions no són accidentals: formen part de l'experiència que el director ha dissenyat. Una pel·lícula vista en el sofà amb el telèfon a la mà és una altra cosa."
+              },
+              "positionB": {
+                "label": "No — el que importa és l'atenció, no el suport",
+                "argument": "La sala de cinema és un suport tècnic i social, no una condició metafísica de l'experiència cinematogràfica. Bergman va dir que les seves pel·lícules estaven fetes per ser vistes en la intimitat — no en la massa. La televisió de qualitat contemporània (HBO, la millor Netflix) exigeix el mateix tipus d'atenció sostinguda que el cinema. El que defineix l'experiència és la qualitat de la mirada, no la mida de la pantalla."
+              },
+              "reflection": "Quan penses en una pel·lícula que t'ha marcat profundament, on la vas veure?",
+              "context": "La pandèmia de 2020 va forçar l'estrena de nombroses pel·lícules directament en plataformes i va generar un debat accelerat sobre la definició d'experiència cinematogràfica. Les dades mostren que la recuperació de l'assistència a les sales ha estat parcial i desigual: el cinema d'entreteniment massiu ha recuperat audiència; el cinema d'art i assaig molt menys."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en les darreres deu pel·lícules que has vist. Quantes eren estrenes? Quantes eren de la dècada passada? Quantes eren anteriors al 1980? Què diu el teu patró de consum sobre com l'streaming ha canviat la teva relació amb la història del cinema?",
+              "prompt": "L'accés il·limitat no garanteix la curiositat il·limitada. Sovint fa el contrari."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-h-06-01",
+              "question": "El cinema com a art del segle XX — concebut per ser vist en una sala, per una comunitat, en un temps compartit — pot sobreviure estructuralment en el segle XXI?",
+              "options": [
+                "Sí — la sala de cinema té avantatges experiencials que cap tecnologia domèstica pot replicar, i sempre hi haurà un públic disposat a pagar per ells",
+                "No — les forces econòmiques i tecnològiques que han erosionat la sala de cinema són irreversibles; el cinema com a experiència col·lectiva és una forma en extinció",
+                "La pregunta pressuposa que el cinema és la sala, quan potser el cinema és una forma de mirar que pot migrar a nous suports sense perdre la seva essència — o potser, en migrar, es transforma en quelcom diferent que mereix un nom diferent"
+              ],
+              "correct": 2,
+              "explanation": "Les prediccions sobre la mort del cinema s'han formulat en cada moment de transformació tecnològica: amb el so, amb la televisió, amb el vídeo domèstic, amb el DVD, amb l'streaming. Fins ara, el cinema ha sobreviscut totes les crisis transformant-se. Però la transformació actual és quantitativament diferent: per primera vegada, el consum domèstic supera amb escreix el consum en sala, i les plataformes que financen la producció audiovisual optimitzen per a criteris que no coincideixen amb els de l'experiència cinematogràfica clàssica. És possible que el cinema de sala continuï existint com una experiència de nínxol, com l'òpera o el teatre — present, valorada, però marginal en termes de consum cultural massiu. I és possible que la forma narrativa audiovisual que dominarà el segle XXI no tingui nom encara perquè no és exactament ni cinema ni televisió ni cap de les categories que tenim. La incertesa no és una evasió — és la resposta honesta a una transformació que no ha acabat."
+            }
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "id": "conceptual",
+      "title": "Itinerari Conceptual",
+      "icon": "🔍",
+      "description": "Com funciona el cinema com a llenguatge: pla, muntatge, so, temps i mirada. Les eines per veure diferent qualsevol pel·lícula",
+      "style": "Conceptual · del pla a la interpretació",
+      "lessons": [
+
+        {
+          "id": "ci-c-01",
+          "title": "El Pla: La Unitat Mínima de Sentit",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan Sergio Leone enquadra els ulls de Clint Eastwood en un extrem pla de detall que dura dotze segons, no t'està donant informació — t'està creant una experiència. El pla no és una finestra transparent a la realitat: és una decisió. On poso la càmera. Fins on arribo amb l'objectiu. Quant de temps aguanto. Cada una d'aquestes decisions és un argument sobre el que importa."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un pla cinematogràfic no descriu una realitat prèvia: la construeix. L'enquadrament no captura el món — selecciona, exclou, jerarquitza. El que queda fora del pla és tan significatiu com el que hi ha dins."
+            },
+            {
+              "type": "expandable",
+              "label": "La profunditat de camp: per què Citizen Kane va canviar el que es podia veure",
+              "content": "Fins a Citizen Kane (1941), la majoria de pel·lícules de Hollywood mantenien una profunditat de camp limitada: o el primer terme o el fons estava en focus, no tots dos alhora. Gregg Toland, director de fotografia de Welles, va desenvolupar una tècnica que permetia tenir nítids simultàniament un objecte a trenta centímetres de la càmera i un paisatge a cent metres. L'efecte narratiu era revolucionari: l'espectador podia llegir múltiples plans d'acció al mateix temps, sense que el director l'obligués a mirar en una direcció determinada. Welles va usar aquesta tècnica per crear ambigüitat moral — en el pla més famós, la mare de Kane signa el contracte de tutela en primer terme mentre el nen Kane juga a la neu a través d'una finestra al fons. L'espectador pot mirar on vulgui; la culpa es distribueix entre tots els plans."
+            },
+            {
+              "type": "misconception",
+              "belief": "El pla llarg és sempre 'artístic' i el tall ràpid és sempre 'comercial'.",
+              "reality": "La durada del pla no determina el valor artístic — determina el tipus de relació que el film proposa amb l'espectador. Andrei Tarkovski usa plans de deu minuts per crear un espai contemplatiu; Michael Bay usa talls de dos segons per crear desorientació cinètica. Tots dos són decisions estètiques legítimes amb efectes específics. El problema del cinema comercial de baix pressupost no és els talls ràpids, sinó que els usa sense intenció.",
+              "why": "La crítica cinèfila dels anys 60-70 va identificar el pla llarg amb la 'mirada de l'autor' i el muntatge ràpid amb la manipulació comercial. Era una posició ideològica que s'ha perpetuat com a judici estètic neutral."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-01-01",
+              "style": "multiple-choice",
+              "question": "En la seqüència de la dutxa de Psicosi (Hitchcock, 1960), la protagonista és assassinada en 45 segons amb 70 plans. Cap pla mostra explícitament la navalla penetrant la pell. Per què és aquesta seqüència més pertorbadora que si ho hagués mostrat explícitament?",
+              "options": [
+                "Perquè el cervell de l'espectador omple els buits amb la seva pròpia imaginació, que sempre és més aterradora que qualsevol imatge real",
+                "Perquè el ritme de 70 plans en 45 segons crea un estat de xoc sensorial que impedeix processar el que s'està veient",
+                "Perquè Hitchcock era massa pudorós per mostrar violència explícita i la restricció va resultar accidentalment eficaç",
+                "Perquè la música de Bernard Herrmann crea la sensació de violència independent de les imatges"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. Hitchcock va aprendre d'Eisenstein: el muntatge activa l'espectador com a co-creador del significat. Quan el cinema mostra explícitament, l'espectador observa passivament una imatge predeterminada. Quan el cinema al·ludeix, l'espectador construeix activament la imatge en la seva ment — i la seva imaginació té accés als seus propis pitjors temors. Hitchcock sabia que cap imatge de l'estudi podria competir amb el que cadascú fabricaria internament.",
+              "feedbackWrong": "El ritme i la música contribueixen a l'efecte, però no n'expliquen el mecanisme central. La clau és que Hitchcock confiava en la imaginació de l'espectador més que en les seves pròpies imatges. Quan el cinema mostra explícitament, l'espectador observa; quan al·ludeix, l'espectador construeix. I la construcció implica sempre els materials de la ment de qui mira."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-01-02",
+              "style": "true-false",
+              "question": "Un pla subjectiu — una imatge filmada des del punt de vista visual d'un personatge — provoca necessàriament identificació emocional amb aquell personatge.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. Michael Powell a 'Peeping Tom' (1960) i John Carpenter a 'Halloween' (1978) utilitzen el pla subjectiu des de la perspectiva de l'assassí — i l'efecte és exactament el contrari: el distanciament, l'horror d'haver estat forçat a veure amb els ulls del predador. El pla subjectiu és un dispositiu de posicionament que pot crear identificació, empatia pertorbadora, o complicitat incòmoda, depenent del context.",
+              "feedbackWrong": "La identificació és l'efecte més habitual del pla subjectiu, però no l'únic possible. Quan el pla subjectiu pertany a un personatge amenaçador, l'espectador no s'hi identifica — és arrossegat a la seva perspectiva, cosa que pot crear una sensació d'horror o complicitat molt més pertorbadora que la identificació simple."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-c-01-01",
+              "question": "La càmera en mà — aquella imatge lleument inestable, sense trípode — s'associa culturalment amb 'realisme' i 'autenticitat'. Però és una convenció tan construïda com qualsevol altra?",
+              "options": [
+                "No — la càmera en mà registra el moviment real del cos humà i per tant és intrínsecament més propera a la realitat que la càmera estabilitzada",
+                "Sí — és una convenció estètica que hem après a interpretar com a 'autèntica' precisament perquè el cinema documental i periodístic l'han establerta com a codi de veritat",
+                "Depèn del context: en el documental és autèntica per definició; en la ficció és una convenció"
+              ],
+              "correct": 1,
+              "explanation": "La càmera en mà va entrar al cinema de ficció en els anys 50-60 perquè els cineastes de la Nouvelle Vague i el Free Cinema volien escapar de l'artificiositat del cinema d'estudi. Al principi, efectivament trencava les convencions. Però avui, després de dècades de cinema verité, reportatge de guerra, reality TV i falsos documentals (mockumentaries), l'espectador ha interioritzat la càmera en mà com un codi que significa 'allò que esteu veient és real o urgent'. Els Bourne films, Cloverfield, The Office — tots fan servir la inestabilitat visual com un significant de veritat que res té a veure amb el fet que s'hagi usat o no un trípode. L'opció 3 és atractiva però imprecisa: el documental també construeix la realitat; simplement ho fa amb materials reals. La inestabilitat de la càmera és un significant, no un índex de veritat."
+            }
+          ]
+        },
+
+        {
+          "id": "ci-c-02",
+          "title": "El Temps al Cinema: Com les Pel·lícules Manipulen la Nostra Percepció",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El temps al cinema no és el temps rellotge. Dos minuts de vida real poden durar quaranta minuts de pel·lícula. Quaranta anys poden passar en un tall. Una conversa de tres minuts pot ser muntada en quinze plans de quatre segons cadascun, o en un sol pla fix de tres minuts. I l'efecte emocional és radicalment diferent. El cinema no reprodueix el temps: l'esculpeix."
+            },
+            {
+              "type": "key-idea",
+              "text": "Andrei Tarkovski va definir el cinema com 'esculpir en el temps'. La durada d'un pla no és neutra — és un argument sobre el pes emocional d'un moment. Un director que talla massa aviat roba a l'espectador la possibilitat d'habitar una experiència; un director que aguanta massa obliga l'espectador a confrontar la seva pròpia impaciència."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1903",
+                  "title": "Edwin Porter — The Great Train Robbery",
+                  "text": "Primera el·lipsi temporal sistemàtica: el cinema aprèn a comprimir el temps."
+                },
+                {
+                  "year": "1916",
+                  "title": "Griffith — Intolerance",
+                  "text": "Quatre línies narratives en quatre èpoques històriques entrellaçades. El muntatge paral·lel com a eina de construcció temporal complexa."
+                },
+                {
+                  "year": "1941",
+                  "title": "Citizen Kane — la memòria no linear",
+                  "text": "Welles construeix una vida sencera a través de fragments de memòria en ordre no cronològic. El present com a investigació del passat."
+                },
+                {
+                  "year": "1994",
+                  "title": "Pulp Fiction — el temps com a argument",
+                  "text": "Tarantino desordera cronològicament una narrativa que el espectador pot reconstruir. L'ordre temporal com a decisió estètica explícita."
+                },
+                {
+                  "year": "2000",
+                  "title": "Memento — el temps invertit",
+                  "text": "Nolan estructura la pel·lícula en ordre invers per crear en l'espectador el desorientament del protagonista amnèsic."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El pla-seqüència: quan no tallar és la decisió",
+              "content": "Un pla-seqüència és un pla únic, sense talls, que cobreix una escena completa o una seqüència llarga. El cas extrem és 'Russian Ark' d'Alexander Sokurov (2002): 96 minuts, un sol pla, l'Hermitage de Sant Petersburg, tres-cents anys d'història russa. Per filmar-lo van necessitar tres anys de preparació, 2.000 actors i el tancament del museu. Per què esforçar-se tant per no tallar? Perquè el tall és sempre un salt, una discontinuïtat, una mort petita del moment present. El pla-seqüència imposa la continuïtat del temps viscut: l'espectador no pot escapar del present de la pel·lícula. Tarkovski, Godard, Kubrick, Scorsese — tots han usat el pla-seqüència en moments clau precisament per crear la sensació que allò que passa no es pot interrompre."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-02-01",
+              "style": "multiple-choice",
+              "question": "A '2001: A Space Odyssey', Kubrick talla directament d'un os llançat a l'aire fa quatre milions d'anys a una nau espacial en òrbita. Aquest tall cobreix la distància temporal més gran de la història del cinema. Quin efecte crea?",
+              "options": [
+                "Ironia: la violència primitiva i la tecnologia avançada són el mateix impuls, simplement escalat",
+                "Continuïtat: l'os i la nau són formalment similars i el tall estableix una línia evolutiva lineal de progrés",
+                "El·lipsi pura: el tall simplement salta el temps sense crear cap significat afegit",
+                "Contrast: la brutalitat prehistòrica es contraposa al refinament tecnològic per mostrar el progrés humà"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. Kubrick no mostra el progrés — mostra la continuïtat de la violència. L'os és una arma; la nau és una arma. El tall no salta quatre milions d'anys d'evolució: els comprimeix en una equivalència. L'afirmació de Kubrick és profundament pessimista: tota la història de la humanitat cabria en aquell tall perquè no canvia res d'essencial. És el muntatge eisensteinià al servei d'un argument filosòfic.",
+              "feedbackWrong": "El tall no és decoratiu ni purament formal. Kubrick era un director que pensava cada decisió en termes de significat. La semblança formal entre l'os i la nau és una tria — podria haver tallat a qualsevol altra imatge de la nau. La pregunta és: per què un os i una nau orbital fan el mateix gest en l'aire?"
+            },
+            {
+              "type": "debate",
+              "question": "El cinema lent — pel·lícules de Tarkovski, Béla Tarr, Chantal Akerman, amb plans de cinc, deu, vint minuts — és una experiència artística superior al cinema de ritme convencional?",
+              "positionA": {
+                "label": "Sí — el cinema lent crea una experiència irrepetible",
+                "argument": "El cinema lent obliga l'espectador a abandonar l'hàbit de l'estimulació constant i a habitar el temps de la pel·lícula en lloc del seu. Crea estats d'atenció que cap altre art pot produir: una presència total que el cinema ràpid, per definició, impossibilita. La lentitud no és aburriment — és una forma d'atenció."
+              },
+              "positionB": {
+                "label": "No — la lentitud no és un valor en si mateixa",
+                "argument": "La durada d'un pla és un recurs com qualsevol altre, i el seu valor depèn de l'ús que se'n fa, no de la seva extensió. Un pla de vint minuts que no va a cap lloc és simplement avorriment amb aspiracions. El cinema de Spielberg o Wilder pot ser tan profund com Tarkovski i és accessible a un públic que no ha après a complaure la incomprensió amb reverència."
+              },
+              "reflection": "Quan trobes una pel·lícula avorrida, és perquè no li has donat prou atenció o perquè genuïnament no et proposa res?",
+              "context": "El debat entre el cinema 'lent' i el cinema 'ràpid' és en part un debat sobre la legitimació cultural. El cinema d'art europeu ha construït un sistema de prestigi basat parcialment en la dificultat. Però la dificultat no és una garantia de valor — és, en el millor dels casos, un indicador de demanda."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-c-02-01",
+              "question": "El cinema és l'art del temps o l'art de l'espai?",
+              "options": [
+                "Del temps: el cinema és fonamentalment una experiència temporal; l'enquadrament és el contenidor, però el que importa és com s'organitza la durada",
+                "De l'espai: el cinema és fonamentalment visual; la composició del quadre, la profunditat i la relació entre figures és el que crea el significat",
+                "Aquesta dicotomia és falsa: el cinema és l'art que fon espai i temps en una experiència única que cap altra art pot replicar"
+              ],
+              "correct": 2,
+              "explanation": "La pregunta porta dècades dividint teòrics. Bazin defensava la supremacia de l'espai cinematogràfic — la seva teoria de la profunditat de camp argumentava que el pla llarg i la composició profunda eren més 'cinematogràfics' que el muntatge. Eisenstein i Tarkovski posaven el temps al centre. Però la dicotomia és en si mateixa el problema: el cinema és l'únic art que no pot tenir espai sense temps ni temps sense espai. Una pintura té espai però no temps real. La música té temps però no espai visual. La novel·la té els dos, però mediats pel llenguatge. El cinema és la seva fusió irreductible: un enquadrament sempre dura, i una durada sempre ocupa un espai. El que diferencia Kubrick de Tarkovski no és que un treballi l'espai i l'altre el temps — és el pes relatiu que donen a cada dimensió de l'experiència fosa."
+            }
+          ]
+        },
+
+        {
+          "id": "ci-c-03",
+          "title": "La Mirada: Qui Veu i Per a Qui",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1975, la teòrica Laura Mulvey va publicar un assaig que va canviar la forma com pensem sobre el cinema. El seu argument era senzill i demolidor: el cinema clàssic de Hollywood ha estat construït per a una mirada masculina. La càmera no és neutra — desitja, objectifica, controla. I el problema no és que els homes malvats hagin fet pel·lícules sexistes. El problema és que la gramàtica mateixa del cinema clàssic codifica el gènere en la seva estructura formal."
+            },
+            {
+              "type": "key-idea",
+              "text": "La 'male gaze' de Mulvey no és una acusació moral — és una descripció estructural. Argumenta que el plaer visual que el cinema clàssic construeix per als espectadors (homes i dones) passa per una posició de subjecte que és implícitament masculina. Canviar-ho no requereix bones intencions — requereix canviar la gramàtica."
+            },
+            {
+              "type": "quote",
+              "text": "En un món ordenat per la desigualtat sexual, el plaer de mirar s'ha dividit entre actiu/masculí i passiu/femení.",
+              "author": "Laura Mulvey, 'Visual Pleasure and Narrative Cinema', 1975"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-03-01",
+              "style": "multiple-choice",
+              "question": "Mulvey argumenta que fins i tot les espectadores dones han après a gaudir de les pel·lícules clàssiques de Hollywood a través d'un mecanisme de 'masculinització transitòria' — adoptant temporalment la posició de subjecte masculí. Quina és la implicació més incòmoda d'aquest argument?",
+              "options": [
+                "Que les dones no podien genuïnament gaudir del cinema clàssic de Hollywood",
+                "Que el plaer estètic pot ser ideològicament colonitzat fins al punt que l'espectador gaudeix d'un sistema que el subordina",
+                "Que Mulvey implica que les dones que gaudien d'aquelles pel·lícules tenien una consciència falsa",
+                "Que el cinema clàssic era deliberadament misògin en la seva producció"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Aquesta és la implicació més duradora i pertorbadora de l'argument de Mulvey, i la que connecta amb la teoria marxista de la ideologia: un sistema pot estructurar el plaer de manera que els propis subordinats el reprodueixin i en gaudeixin. No cal conspiraci ni mala fe — només una gramàtica hegemònica prou interioritzada perquè sembli natural. Avui, versions d'aquest argument s'apliquen a la raça, la classe i l'orientació sexual en la representació cinematogràfica.",
+              "feedbackWrong": "La implicació de Mulvey no és que el gaudi fos fals o que les dones fossin víctimes passives — és molt més inquietant: que el plaer estètic pot estar estructurat per una ideologia de tal manera que gaudir-ne és participar-hi. No és una acusació a les espectadores; és una acusació a la gramàtica del cinema."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-03-02",
+              "style": "detect-error",
+              "statement": "Des de la publicació de l'assaig de Mulvey el 1975, el cinema mainstream ha superat estructuralment la 'male gaze' gràcies a la major presència de directores i a les polítiques de diversitat dels estudis.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és assumir que la presència de directores o les polítiques de diversitat canvien automàticament la gramàtica de la representació. Una directora que ha après a fer cinema dins del sistema clàssic pot reproduir les mateixes estructures de mirada que Mulvey descriu. I a l'inrevés: directors homes com Agnès Varda (que era dona, però l'exemple s'aplica) o Todd Haynes han construït mirades radicalment diferent de la masculina clàssica. El que canvia l'estructura no és el gènere del director sinó la consciència crítica de la gramàtica que s'utilitza. D'altra banda, estudis empírics recents continuen documentant desequilibris significatius en el temps en pantalla, la profunditat dels personatges femenins i el paper de l'objecte de desig en el cinema mainstream contemporani."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una pel·lícula que t'hagi agradat molt. Si intentes analitzar la seva 'mirada' — des de qui i per a qui — canvia alguna cosa en la teva experiència d'aquella pel·lícula? Hauria de canviar?",
+              "prompt": "No hi ha una resposta 'correcta' aquí. La tensió entre el gaudi estètic i l'anàlisi crítica és real i no es resol fàcilment."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Philosophical Foundations of Human Rights",
+              "moduleEmoji": "🕊️",
+              "concept": "Representació, dignitat i drets culturals",
+              "text": "La discussió sobre la 'male gaze' i el poder de la representació cinematogràfica connecta amb les debats filosòfics sobre la dignitat: si ser constantment representat com a objecte i no com a subjecte afecta el reconeixement social de la pròpia humanitat, la representació cultural deixa de ser una qüestió estètica per convertir-se en una qüestió de drets."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-c-03-01",
+              "question": "La teoria de Mulvey implica que el cinema ha de ser analitzat no sols com a art sinó com a tecnologia de poder que construeix subjectivitats. Acceptar això, canvia fonamentalment la funció de la crítica cinematogràfica?",
+              "options": [
+                "No — la crítica cinematogràfica ha de centrar-se en el valor artístic i estètic; la crítica ideològica pertany a les ciències socials, no a l'estètica",
+                "Sí — si el cinema construeix subjectivitats, la crítica que ignori la dimensió de poder és una crítica parcial i, en cert sentit, còmplice",
+                "Sí i no: la crítica ideològica és necessària però insuficient — una pel·lícula pot ser ideològicament problemàtica i artísticament extraordinària, i la crítica ha d'aguantar les dues dimensions sense reduir l'una a l'altra"
+              ],
+              "correct": 2,
+              "explanation": "La crítica cinematogràfica ha oscil·lat des de Mulvey entre dos perills simètrics. El primer: el formalisme pur que tracta les pel·lícules com a objectes estètics autònoms, com si l'art fos un àmbit exempt de relacions de poder. El segon: el reduccionisme ideològic que jutja les obres exclusivament pel seu contingut polític i perd de vista la complexitat de l'experiència estètica. Les millors crítiques cinematogràfiques dels últims cinquanta anys — de Pauline Kael a bell hooks, de Roger Ebert a Manohla Dargis — han operat en la tensió entre els dos. Una pel·lícula com 'Birth of a Nation' o 'Triumph of the Will' no pot ser analitzada separant la forma del contingut ideològic; però tampoc pot ser reduïda a la seva funció política sense empobrir l'anàlisi. La crítica que Mulvey demana no és menys rigorosa que la formalista — és més exigent, perquè requereix dominar simultàniament l'anàlisi formal i la teoria cultural."
+            }
+          ]
+        },
+
+        {
+          "id": "ci-c-04",
+          "title": "El So: la Dimensió Invisible del Cinema",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Tanca els ulls durant la seqüència de la dutxa de Psicosi. Els violins de Bernard Herrmann continuen sent terrorífics. Ara imagina 'Apocalypse Now' sense els helicòpters, sense les hèlixs, sense el Wagner que Coppola i Walter Murch van muntar sobre el napalm. La imatge sense el so és una altra pel·lícula. I tanmateix, durant dècades, la teoria del cinema va tractar el so com un complement de la imatge, no com un element constitutiu igual. Era un error de percepció: el so no il·lustra la imatge — la construeix."
+            },
+            {
+              "type": "key-idea",
+              "text": "El so cinematogràfic opera en tres capes simultànies: la paraula, la música i el soroll. Cap de les tres és neutra. El silenci tampoc. Un director de so no enregistra la realitat — la dissenya: cada pas, cada porta, cada respiració és una decisió sobre el món emocional que la pel·lícula vol crear."
+            },
+            {
+              "type": "misconception",
+              "belief": "La música d'una pel·lícula serveix per explicar a l'espectador com s'ha de sentir en cada moment.",
+              "reality": "La música cinematogràfica pot fer exactament el contrari: crear una distància irònica respecte a la imatge, subvertir-ne el significat apparent o revelar una capa emocional que la imatge no mostra. Kubrick posava música alegre sobre violència per crear una pertorbació que la música 'correcta' hauria eliminat. La funció de la música no és confirmar — és complicar.",
+              "why": "El model dominant de la música de Hollywood —el 'mickey-mousing' que subratlla cada emoció— és tan ubic que tendim a prendre'l com la norma natural. Però és una convenció industrial, no una necessitat estètica."
+            },
+            {
+              "type": "expandable",
+              "label": "Walter Murch i la teoria de l'ull i l'orella",
+              "content": "Walter Murch, el muntador i dissenyador de so de Coppola i Minghella, va formular una teoria sobre la relació entre visió i audició en el cinema: quan hi ha conflicte entre el que veiem i el que sentim, l'orella tendeix a guanyar en termes emocionals. Podem desconfiar d'una imatge; és molt més difícil desconfiar d'un so que entra directament per l'amígdala sense passar pel filtre racional. Per això la música de terror funciona fins i tot quan sabem que estem en una sala de cinema: el sistema d'alarma del cervell no distingeix entre el so real i el so reproduït. Murch va aplicar aquest principi de manera sistemàtica a 'Apocalypse Now': el so dels helicòpters apareix abans que la imatge, condiciona la lectura de tot el que ve després, i crea un estat d'alerta que la imatge sola no hauria pogut produir."
+            },
+            {
+              "type": "comparison",
+              "title": "Tres funcions de la música cinematogràfica",
+              "labelA": "Funció convencional",
+              "labelB": "Funció subversiva",
+              "items": [
+                {
+                  "label": "Relació amb la imatge",
+                  "a": "Confirma i amplifica l'emoció de la imatge",
+                  "b": "Contradiu o ironitza sobre l'emoció de la imatge"
+                },
+                {
+                  "label": "Exemple",
+                  "a": "John Williams a 'Schindler's List': la melodia de violí com a lament",
+                  "b": "Kubrick a 'A Clockwork Orange': 'Singin' in the Rain' durant una pallissa"
+                },
+                {
+                  "label": "Efecte en l'espectador",
+                  "a": "Guia l'emoció, redueix l'ambigüitat, facilita la identificació",
+                  "b": "Crea pertorbació, obliga a pensar, impedeix la identificació simple"
+                },
+                {
+                  "label": "Risc",
+                  "a": "Pot ser manipuladora: dirigeix l'emoció sense que l'espectador ho noti",
+                  "b": "Pot ser freda: distancia tant que destrueix l'experiència emocional"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-04-01",
+              "style": "multiple-choice",
+              "question": "En 'No Country for Old Men' (Coen, 2007), gairebé no hi ha música. Les escenes de violència es desenvolupen en silenci o amb só ambient. Quin efecte produeix aquesta decisió en comparació amb una pel·lícula de thriller convencional?",
+              "options": [
+                "Fa la violència menys impactant perquè sense música no hi ha tensió emocional",
+                "Fa la violència més burocràtica i, per tant, més pertorbadora: elimina la distància estètica que la música proporciona i exposa l'acte nu",
+                "És un error de producció que els Coen van convertir en virtut per necessitat pressupostària",
+                "Crea un efecte documental que suggereix que els fets mostrats són reals"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La música de thriller convencional crea una distància estètica que paradoxalment fa la violència suportable: la converteix en espectacle. Els Coen eliminaven aquesta distància deliberadament. Quan Anton Chigurh mata algú sense cap acompanyament musical, l'espectador no té cap estructura emocional on refugiar-se. La violència succeeix amb la mateixa indiferència acústica que un acte quotidià. Això és molt més pertorbador que qualsevol partitura de suspens.",
+              "feedbackWrong": "La decisió dels Coen és absolutament premeditada i coherent amb tota la seva obra. La manca de música no és absència — és una elecció que porta un significat precís: la violència en aquesta pel·lícula no és dramàtica ni espectacular, és ontològica. Succeeix perquè sí, com tot allò que succeeix al món."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-04-02",
+              "style": "true-false",
+              "question": "En el cinema sonor, el so diegètic —el so que pertany al món de la pel·lícula i els personatges poden sentir— i el so no diegètic —la música que l'espectador sent però els personatges no— mai es barregen en la mateixa seqüència.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Alguns dels moments més potents del cinema modern es produeixen precisament en la frontera entre els dos. A 'Mulholland Drive' de Lynch, una cantant interpreta en un teatre una cançó en playback — el so és diegètic (sona en l'escena) però la veu original pertany a una altra persona i a un altre temps. La confusió entre les dues capes és exactament el que Lynch vol crear: la realitat i la representació es contaminen. També a '8½' de Fellini, la música passa contínuament de diegètica a no diegètica sense transició marcada, dissolent la frontera entre el món interior i exterior del protagonista.",
+              "feedbackWrong": "La distinció diegètic/no diegètic és una eina analítica útil, però no una llei del cinema. Els directors que treballen la dimensió sonora de manera conscient sovint juguen precisament amb la frontera entre els dos, creant espais d'ambigüitat on l'espectador no pot saber si el que sent pertany al món de la pel·lícula o a la seva pròpia experiència de visionat."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-c-04-01",
+              "question": "Si la música cinematogràfica convencional guia l'emoció de l'espectador sense que aquest ho noti, és una forma de manipulació?",
+              "options": [
+                "Sí — qualsevol recurs que opera per sota del llindar de consciència de l'espectador és manipulació, independentment de l'efecte",
+                "No — tots els recursos artístics operen en part per sota de la consciència; si la música fos manipulació, també ho seria la il·luminació, el color o el muntatge",
+                "Depèn de la intenció: la música que amplifica una emoció ja present en la imatge és art; la música que crea una emoció que la imatge no justifica és manipulació"
+              ],
+              "correct": 1,
+              "explanation": "La categoria de 'manipulació' és problemàtica aplicada a l'art perquè tot l'art opera sobre la percepció i l'emoció, sovint per vies que no passen pel raonament conscient. Si la música cinematogràfica és manipuladora per operar sota el llindar de la consciència, també ho és la composició pictòrica, la cadència de la prosa literària o l'harmonia musical en un concert. L'opció 3 sembla raonable però introdueix una distinció que no és operativa: com determinem si una emoció 'ja era present' en la imatge sense la música? Les emocions cinematogràfiques no preexisteixen a la seva construcció — són el resultat de tots els elements simultanis. El que sí podem dir és que la música cinematogràfica és més eficaç i menys visible que molts altres recursos, la qual cosa demana una consciència crítica de com opera. Però la consciència crítica és la resposta correcta a qualsevol art, no la prohibició del recurs."
+            }
+          ]
+        },
+
+        {
+          "id": "ci-c-05",
+          "title": "El Guió: l'Arquitectura Invisible",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hi ha una frase que circula per Hollywood des de fa dècades: 'Un bon guió no garanteix una bona pel·lícula, però un mal guió garanteix una mala pel·lícula.' És gairebé certa. El guió és l'estructura portant de l'edifici: quan és sòlida, el director pot fer qualsevol cosa amb les parets i les finestres. Quan falla, cap quantitat de virtuosisme visual o actuació brillant pot salvar la construcció. I tanmateix, el guió és l'element del cinema que menys es veu — precisament perquè quan funciona, desapareix."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un guió cinematogràfic no és una novel·la ni una obra de teatre: és un document de treball que descriu accions i diàlegs en el present, sense accés a la vida interior dels personatges excepte a través del que es pot veure i sentir. Tot el que un guionista vol comunicar ha de ser visualitzable. Aquesta limitació és la seva principal disciplina creativa."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què el paradigma de tres actes domina Hollywood — i quan és una trampa",
+              "content": "El guionista Syd Field va codificar el 1979 el 'paradigma' del guió de Hollywood: tres actes (plantejament, confrontació, resolució) amb punts de gir en pàgines concretes. El llibre 'Screenplay' va vendre milions de còpies i va convertir-se en el manual de referència de la indústria. El problema és que el paradigma de Field és una descripció del cinema de Hollywood dels anys 30-60, no una llei narrativa universal. Quan es pren com a norma, produeix guions mecànics on els girs emocionals arriben en les pàgines 'correctes' independentment de si la història els justifica. Els millors guionistes — Robert Towne, Paul Schrader, Charlie Kaufman, Agnès Varda — coneixen el paradigma perfectament i el violen quan la història ho requereix. La trampa no és el paradigma en si: és tractar-lo com una recepta en lloc d'una eina."
+            },
+            {
+              "type": "prediction",
+              "question": "Pensa en una pel·lícula que admiris on la trama no sigui el principal atractiu. Quin altre element sosté l'experiència en absència d'una trama potent?",
+              "hint": "El que busquem és entendre quin és el veritable 'motor' de cada tipus de cinema."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-05-01",
+              "style": "multiple-choice",
+              "question": "Robert McKee, l'altre gran guru del guió de Hollywood, argumenta que el conflicte és l'element essencial de tota narrativa: sense conflicte no hi ha drama. 'Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles' (Chantal Akerman, 1975) dura tres hores i vint minuts i mostra la rutina domèstica d'una dona sense conflicte explícit durant quasi tota la seva durada. Com desafia aquesta pel·lícula la tesi de McKee?",
+              "options": [
+                "Demostrant que el cinema pot prescindir completament de qualsevol forma de tensió o expectativa",
+                "Revelant que el conflicte pot ser estructural i invisible: la tensió no és entre personatges sinó entre la rutina mostrada i el que la rutina amaga i comprimeix",
+                "Confirmant la tesi de McKee: la pel·lícula fracassa artísticament precisament perquè no té conflicte",
+                "Mostrant que el cinema documental té regles narratives diferents del cinema de ficció"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Akerman no prescindeix del conflicte — el desplaça. La tensió de 'Jeanne Dielman' és la pressió acumulada sota la superfície d'una rutina perfectament executada: cada gest repetit és una forma de control que conté quelcom que no pot ser dit. L'espectador sent la pressió crèixer sense veure-la. Quan finalment explota, en els últims minuts, és amb una violència que la narrativa convencional hauria preparat dramàticament; Akerman la deixa caure com un fet. McKee tenia raó que hi ha conflicte; s'equivocava sobre on es troba i com es mostra.",
+              "feedbackWrong": "Akerman era una cineasta absolutament conscient de les convencions narratives que estava subvertint. 'Jeanne Dielman' no és una pel·lícula sense estructura — és una pel·lícula on l'estructura és la repressió. La tensió és real i creixent; simplement no apareix on McKee diria que ha d'aparèixer."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-05-02",
+              "style": "detect-error",
+              "statement": "Un guió adaptat d'una novel·la ha de ser fidel al text original per respectar l'obra literària i no decebre els lectors.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta afirmació confon fidelitat al contingut amb fidelitat a l'experiència. Una novel·la i una pel·lícula són formes amb recursos radicalment diferents: la novel·la té accés a la vida interior dels personatges, pot ralentir el temps durant pàgines o comprimir anys en una frase, i existeix en la ment del lector. El cinema ha de traduir tot això a imatges i sons en temps real. Les millors adaptacions cinematogràfiques —'The Godfather', 'Blade Runner', 'Apocalypse Now', 'Brokeback Mountain'— no reprodueixen les novel·les: les interpreten. Troben l'equivalent cinematogràfic de l'experiència literària, que rarament és la seva transcripció literal. Les adaptacions 'fidels' que intenten reproduir totes les escenes d'una novel·la llarga produeixen sovint les pitjors pel·lícules, perquè tracten el cinema com un suport inferior de la literatura."
+            },
+            {
+              "type": "debate",
+              "question": "El guionista hauria de tenir els mateixos drets d'autor sobre una pel·lícula que el director?",
+              "positionA": {
+                "label": "Sí — el guió és l'origen de tot",
+                "argument": "Sense guió no hi ha pel·lícula. L'estructura narrativa, els personatges, els diàlegs i la progressió dramàtica provenen del guionista. El director interpreta un text preexistent, igual que un director d'orquestra interpreta una partitura. Negar l'autoria al guionista és negar l'autoria al compositor."
+              },
+              "positionB": {
+                "label": "No — el director transforma el guió en una obra nova",
+                "argument": "El guió és un document de treball, no una obra acabada. La pel·lícula final pot divergir radicalment del guió original a través de les decisions de direcció, muntatge, actuació i fotografia. Billy Wilder deia que el millor guió és el que desapareix completament en la pel·lícula. Si el director és l'autor, és perquè ha transformat el material en quelcom que el guió no era."
+              },
+              "reflection": "Pensa en una pel·lícula que admires. Sabries dir quina part de la seva força prové del guió i quina de la direcció?",
+              "context": "La qüestió legal i creativa de l'autoria en el cinema és resolta de manera diferent en cada sistema: Hollywood reconeix el director com a 'autor' en el sentit del dret moral europeu, però els guionistes tenen sindicats poderosos que protegeixen els seus drets econòmics. El debat sobre qui 'fa' realment una pel·lícula continua obert."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-c-05-01",
+              "question": "El cinema contemporani de gènere —superheroic, d'acció, d'animació familiar— ha perfeccionat tant l'estructura narrativa de tres actes que l'espectador pot anticipar els girs dramàtics amb gran precisió. Això és un problema artístic o simplement una convenció que funciona?",
+              "options": [
+                "És un problema: quan l'estructura és tan previsible que l'espectador pot anticipar-la, l'experiència emocional genuïna és impossible",
+                "No és un problema: les convencions narratives compartides creen un marc de expectatives que el cinema pot satisfer o transgredir, i les dues opcions són vàlides",
+                "Depèn del públic: per a espectadors sofisticats és un empobriment; per al públic general la predictibilitat és un plaer, no un defecte"
+              ],
+              "correct": 1,
+              "explanation": "La previsibilitat estructural no és en si mateixa un obstacle per a l'experiència emocional — de fet, pot ser una condició per a ella. El públic que veu 'El rei lleó' sap que el pare morirà des del primer acte i plora igualment. El públic que veu una pel·lícula de terror sap que hi haurà sustos i se'ls espera amb plaer. Les convencions de gènere creen un contracte entre la pel·lícula i l'espectador que permet que les emocions s'activin de manera fiable. El problema real del cinema de gènere contemporani no és la predictibilitat estructural — és la manca de particularitat: quan tots els elements (personatges, diàlegs, ritme, resolució moral) estan tan estandarditzats que una pel·lícula és intercanviable amb qualsevol altra del mateix gènere, l'experiència s'assembla al consum d'un producte industrial, no a l'encontre amb una obra. L'opció 3 és atractiva però reprodueix una jerarquia cultural problemàtica: la sofisticació del gènere no depèn del nivell educatiu de l'espectador, sinó de la qualitat de l'execució."
+            }
+          ]
+        },
+
+        {
+          "id": "ci-c-06",
+          "title": "Com Llegir una Pel·lícula: Eines per a l'Espectador Actiu",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Hem parlat del pla, del muntatge, del temps, de la mirada, del so i del guió. Ara la pregunta és: com s'usa tot això quan s'asseu davant d'una pantalla? Veure cinema és una habilitat, no una capacitat innata. Un espectador que ha interioritzat el llenguatge cinematogràfic no veu més — veu diferent. No és una qüestió d'intel·ligència ni de cultura acadèmica. És una qüestió d'atenció entrenada."
+            },
+            {
+              "type": "key-idea",
+              "text": "Aprendre a llegir cinema no vol dir analitzar mentre es veu — vol dir haver analitzat prou perquè la mirada canviï sense esforç conscient. Un músic no pensa en la teoria harmònica mentre escolta una simfonia; simplement sent coses que qui no té formació musical no sent. L'objectiu de l'educació cinematogràfica és el mateix."
+            },
+            {
+              "type": "misconception",
+              "belief": "Per gaudir plenament del cinema, cal veure moltes pel·lícules i acumular coneixement cultural.",
+              "reality": "La quantitat de pel·lícules vistes és menys important que la qualitat de l'atenció amb què es veuen. Veure cent pel·lícules passivament forma menys l'espectador que veure deu vegades la mateixa pel·lícula amb atenció canviant. Roger Ebert deia que la diferència entre un bon espectador i un mal espectador no és el nombre de pel·lícules vistes, sinó si la persona s'ha preguntat mai per què una escena la commou.",
+              "why": "La cultura cinèfila ha construït un prestigi basat en l'acumulació de referències. Però la referència sense comprensió és una forma de col·leccionisme, no de comprensió."
+            },
+            {
+              "type": "expandable",
+              "label": "El mètode de Roger Ebert per veure cinema",
+              "content": "Roger Ebert, el crític cinematogràfic americà més influent de la segona meitat del segle XX, va descriure el seu mètode de visionat en diversos escrits: primer visionat completament submergit, sense pensar en res excepte l'experiència. Segon visionat (quan era necessari per a la crítica) prenent notes sobre moments específics: quan canvia la música, quan la càmera es mou, quan un personatge no diu el que sembla estar dient. Ebert argumentava que les millors pel·lícules resistien un nombre il·limitat de visionats perquè cada un revelava una capa nova. La seva prova de qualitat d'una pel·lícula no era si t'havia agradat en el primer visionat, sinó si en veure-la per segona vegada notaves coses que no havies vist la primera. Aplicava el mateix criteri als grans directors: una pel·lícula de Kubrick o Bergman no es pot comprendre en un sol visionat perquè conté més informació de la que el cervell pot processar de cop."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-06-01",
+              "style": "multiple-choice",
+              "question": "Un crític cinematogràfic escriu: 'La pel·lícula és tècnicament impecable però deixa fred. Tot és correcte i res no emociona.' Quin problema d'anàlisi revela aquest judici?",
+              "options": [
+                "Cap: és una crítica perfectament vàlida que distingeix correctament entre execució tècnica i impacte emocional",
+                "Tracta la tècnica i l'emoció com a categories separades, quan en cinema la tècnica és el mecanisme de l'emoció: si no hi ha emoció, és que la tècnica falla en alguna cosa que el crític no ha identificat",
+                "És massa subjectiu: l'emoció és personal i no pot ser un criteri crític vàlid",
+                "Revela que el crític no ha vist prou cinema per reconèixer l'estil de la pel·lícula"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. 'Tècnicament impecable però emocionalment fred' és una de les frases més buides de la crítica cinematogràfica, perquè pressuposa que la tècnica i l'emoció existeixen en plans separats. En cinema, la tècnica és l'instrument de l'emoció. Si la pel·lícula no emociona, vol dir que alguna decisió tècnica —el ritme del muntatge, la distància de la càmera, la música, la interpretació dirigida— no funciona com hauria d'haver-ho fet. El treball del crític és identificar quin element falla i per què, no descriure l'efecte sense explicar-ne la causa.",
+              "feedbackWrong": "La crítica de 'fred tècnicament impecable' sembla precisa però és analíticament buida. Tota decisió tècnica en cinema té una funció emocional. Quan un crític separa les dues categories, ha abandonat l'anàlisi en el moment en què hauria de començar: identificar quin mecanisme específic no produeix l'efecte buscat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-ci-c-06-02",
+              "style": "true-false",
+              "question": "Una pel·lícula que exigeix coneixements previs per ser compresa plenament és artísticament superior a una que funciona per a qualsevol espectador sense context.",
+              "correct": false,
+              "feedbackCorrect": "Fals, i és important entendre per què. La dificultat d'accés no és un indicador de profunditat artística — pot ser un defecte tant com una virtut. 'Vertigo' de Hitchcock és accessible a qualsevol espectador en el primer visionat i és inexhaurible en profunditat. 'Inland Empire' de Lynch requereix una immersió en el seu sistema de referències i és deliberadament hermètica. Cap de les dues estratègies és superior en abstracte: depèn de quin tipus d'experiència vol crear la pel·lícula. El criteri rellevant no és la dificultat d'accés sinó la riquesa de l'experiència que la pel·lícula proposa i si aconsegueix el que es proposa.",
+              "feedbackWrong": "La dificultat no és sinònim de profunditat. Hi ha cinema difícil que és profund i cinema difícil que simplement és obscur. Hi ha cinema accessible que és trivial i cinema accessible que és extraordinàriament ric. El criteri d'avaluació és la qualitat de l'experiència, no les credencials necessàries per tenir-la."
+            },
+            {
+              "type": "reflection",
+              "question": "Al llarg d'aquest mòdul has explorat el cinema com a pla, muntatge, temps, mirada, so i guió. Amb quina d'aquestes eines et sents ara més equipat per veure cinema diferent? I quina et sembla que et falta més explorar?",
+              "prompt": "No es tracta de recordar conceptes — es tracta d'identificar on ha canviat la teva atenció."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Introduction to Philosophy",
+              "moduleEmoji": "💡",
+              "concept": "Estètica i judici de gust",
+              "text": "La pregunta de com jutgem si una pel·lícula és bona connecta directament amb el problema filosòfic del judici estètic: Kant argumentava que els judicis de gust pretenen validesa universal malgrat ser subjectius. Quan diem que una pel·lícula és 'objectivament bona', estem fent exactament el que Kant va intentar explicar — i el problema que va plantejar no té una solució fàcil."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-ci-c-06-01",
+              "question": "Aprendre el llenguatge cinematogràfic canvia l'experiència de veure cinema, però pot destruir el gaudi innocent que s'hi tenia abans?",
+              "options": [
+                "Sí — el coneixement tècnic interfereix amb la immersió emocional i és millor no analitzar el cinema que s'estima",
+                "No — el coneixement sempre enriqueix; qui creu que l'anàlisi destrueix el gaudi confon l'anàlisi durant el visionat amb la comprensió aprofundida",
+                "Parcialment: el coneixement enriqueix la majoria de les experiències cinematogràfiques però pot dificultar el gaudi de cinema deliberadament simple o de gènere, on el plaer resideix precisament en la suspensió de la consciència crítica"
+              ],
+              "correct": 1,
+              "explanation": "La por que el coneixement destrueixi el gaudi és una de les objeccions més freqüents a l'educació artística, i és comprensible però equivocada. Prové de confondre dos moments incompatibles: l'anàlisi conscient durant el visionat (que sí interfereix amb la immersió) amb el coneixement interioritzat que modifica la percepció sense esforç (que l'enriqueix). Un musicòleg que escolta Beethoven no analitza conscientment mentre escolta — simplement sent coses que qui no té formació no pot sentir. El mateix passa amb el cinema: la persona que ha après a llegir un enquadrament no es pregunta 'per què ha escollit aquest angle?' mentre veu la pel·lícula; simplement viu l'efecte d'aquell angle amb una intensitat diferent. L'opció 3 sembla prudent però és innecessàriament restrictiva: el gaudi del cinema de gènere no depèn de la ignorància del seu mecanisme, sinó de la disposició a jugar amb les seves convencions. Un espectador que coneix les regles del thriller pot gaudir d'una pel·lícula de Hitchcock amb una doble consciència — submergit i conscient alhora — que és una de les experiències més riques que el cinema ofereix."
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "id": "module-08-relativitat",
+  "title": "La Relativitat General",
+  "emoji": "🌌",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "conceptual",
+      "title": "El pensament d'Einstein",
+      "icon": "💭",
+      "description": "Per qué la gravetat de Newton era incompleta i com Einstein va reimaginar l'espai i el temps",
+      "style": "Conceptual · del problema a la solució",
+      "lessons": [
+        {
+          "id": "rel-01",
+          "title": "El problema que Newton no podia resoldre",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1905, Einstein tenia 26 anys i treballava en una oficina de patents a Berna. Aquell any va publicar quatre articles que van canviar la física. Però deu anys després publicaria una cosa molt més gran: una nova teoria de la gravetat. No perquè Newton s'hagués equivocat, sinó perquè Newton tenia un secret que ell mateix no entenia."
+            },
+            {
+              "type": "prediction",
+              "question": "Newton va descriure la gravetat com una força que actua a distància instantàniament. Si el Sol desaparegués ara mateix, quan notaria la Terra que ha perdut l'atracció gravitatòria?",
+              "hint": "Pensa en com de ràpid viatja la llum des del Sol fins a la Terra — uns 8 minuts."
+            },
+            {
+              "type": "key-idea",
+              "text": "Segons Newton, la gravetat actua a distància infinita i instantàniament. Però Einstein ja sabia que res no pot viatjar més ràpid que la llum. Aquesta contradicció exigia una nova teoria."
+            },
+            {
+              "type": "expandable",
+              "label": "El secret de Newton: la massa inercial i la massa gravitatòria",
+              "content": "Newton tenia dues lleis que usaven la paraula 'massa' en sentits conceptualment diferents. La massa inercial (F = ma) descriu com un cos resisteix l'acceleració. La massa gravitatòria descriu com un cos atrau o és atret per la gravetat. Newton va comprovar experimentalment que les dues masses eren iguals — però no en va saber explicar el per qué. Era una coincidència numèrica sorprenent que va durar 200 anys sense resposta. Einstein va veure en aquesta 'coincidència' la pista d'una veritat profunda."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-01-01",
+              "style": "multiple-choice",
+              "question": "Per qué la teoria de Newton de la gravetat era insatisfactòria per a Einstein?",
+              "options": [
+                "Les prediccions de Newton eren incorrectes per als planetes del sistema solar",
+                "Newton no explicava per qué la gravetat actua a distància de forma instantània, cosa incompatible amb la relativitat especial",
+                "Newton no havia fet prou experiments per verificar la seva teoria",
+                "La teoria de Newton no explicava per qué els objectes cauen"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La relativitat especial (1905) havia establert que res no pot propagar-se més ràpid que la llum. Una força gravitatòria instantània violava aquest principi. Calia una teoria nova.",
+              "feedbackWrong": "Les prediccions de Newton eren excel·lents per al sistema solar — fins i tot avui les usem per enviar sondes espacials. El problema era conceptual: la gravetat instantània contradeia la relativitat especial d'Einstein."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-01-02",
+              "style": "true-false",
+              "question": "En la física de Newton, si el Sol desaparegués instantàniament, la Terra ho notaria en el mateix moment, sense cap retard.",
+              "correct": true,
+              "feedbackCorrect": "Correcte. Aquesta era precisament la implicació problemàtica de Newton: la gravetat actuava a distància infinita de forma instantània, sense cap mecanisme físic que ho expliqués.",
+              "feedbackWrong": "Sí, en el model de Newton seria instantani. Però Einstein va demostrar que això no pot ser: cap influència física pot propagar-se més ràpid que la llum. Segons la relativitat general, si el Sol desaparegués, la Terra ho notaria 8 minuts després."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rel-01-01",
+              "question": "Si descobrissis que dues magnituds físicament molt diferents (resistència al moviment i atracció gravitatòria) sempre donen el mateix valor numèric, com ho interpretaries?",
+              "options": [
+                "És una coincidència numèrica sense significat profund — sovint passa en física",
+                "Indica que hi ha una connexió fonamental entre les dues magnituds que encara no entenem",
+                "Prova que les dues magnituds són en realitat la mateixa cosa vista des de perspectives diferents"
+              ],
+              "correct": 2,
+              "explanation": "Einstein va optar per la interpretació més audaç: massa inercial i massa gravitatòria no són 'iguals per coincidència' sinó que són la mateixa cosa. Aquesta intuïció el va portar al Principi d'Equivalència: no hi ha cap experiment que pugui distingir si estàs accelerant o si estàs en un camp gravitatori. Ésser atret cap avall per la gravetat és físicament idèntic a ésser empès cap amunt per una acceleració. Aquesta equivalència és el nucli conceptual de tota la relativitat general. La 'coincidència' de Newton no era una curiositat matemàtica — era la pista que la gravetat i la inèrcia eren la mateixa cosa."
+            }
+          ]
+        },
+        {
+          "id": "rel-02",
+          "title": "L'ascensor d'Einstein — el principi d'equivalència",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Einstein deia que la idea més feliç de la seva vida li va venir pensant en un home que cau lliurement: si estàs en caiguda lliure, no notes la gravetat. Un astronauta en òrbita — que tècnicament cau cap a la Terra contínuament — flota perquè cau tan ràpid com tot el seu entorn. Aquesta observació aparentment trivial va ser la clau per reescriure la física."
+            },
+            {
+              "type": "key-idea",
+              "text": "Principi d'Equivalència: no hi ha cap experiment que pugui distingir si ets dins d'una caixa accelerant a 9,8 m/s² o si ets dins d'una caixa en repòs sobre la superfície de la Terra. Gravetat i acceleració són físicament idèntiques."
+            },
+            {
+              "type": "expandable",
+              "label": "L'experiment mental de l'ascensor: com la llum es dobla",
+              "content": "Imagina que ets dins d'un ascensor sense finestres que accelera cap amunt a l'espai buit. Algú des de fora envia un raig de llum horitzontal per un forat en una paret. Tu, a dins, veus la llum que es corba cap avall — perquè mentre la llum travessa l'ascensor, tu puges. Si el principi d'equivalència és correcte i l'acceleració és equivalent a la gravetat, llavors la llum també s'ha de doblegar en un camp gravitatori. Einstein va predicar el 1907 que la llum es corba al passar prop d'una massa gran. No ho va poder provar fins a l'eclipsi de 1919."
+            },
+            {
+              "type": "misconception",
+              "belief": "Els astronautes floten a l'ISS perquè estan fora de l'atracció gravitatòria de la Terra.",
+              "reality": "A l'altitud de l'ISS (400 km), la gravetat de la Terra és encara el 88% de la superfície. Els astronautes floten perquè estan en caiguda lliure contínua: l'estació orbita tan ràpidament que quan 'cau' cap a la Terra, la Terra s'ha corba cap avall a la mateixa velocitat. La sensació de flotació és l'absència de força de contacte, no l'absència de gravetat.",
+              "why": "Perquè la paraula 'ingravidesa' fa pensar en absència de gravetat, quan en realitat descriu un estat de caiguda lliure."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-02-01",
+              "style": "multiple-choice",
+              "question": "Estàs tancat en una caixa opaca sense instruments de precisió. Sents un pes normal sobre els teus peus. Quina és la conclusió correcta?",
+              "options": [
+                "Definitivament estàs en repòs sobre un planeta",
+                "Definitivament estàs accelerant en una nau espacial",
+                "Podries estar en repòs sobre un planeta o accelerant en una nau — no pots distingir-ho",
+                "Podries estar en caiguda lliure o en repòs — no pots distingir-ho"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Aquesta és la formulació precisa del principi d'equivalència: gravetat i acceleració produeixen els mateixos efectes físics locals. Cap experiment dins la caixa no pot distingir els dos casos.",
+              "feedbackWrong": "El principi d'equivalència diu precisament que no pots fer aquesta distinció. La sensació de pes és idèntica si estàs en repòs sobre un planeta (gravetat) o si acceleres en una nau espacial (inèrcia). Einstein va veure en aquesta indistingibilitat una veritat profunda sobre la naturalesa de la gravetat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-02-02",
+              "style": "detect-error",
+              "statement": "Segons el principi d'equivalència d'Einstein, un observador en caiguda lliure és equivalent a un observador en repòs en absència total de gravetat.",
+              "isCorrect": true,
+              "feedbackExplanation": "Correcte. Aquesta és la formulació precisa: la caiguda lliure 'cancel·la' localment la gravetat. Un observador en caiguda lliure no pot detectar la gravetat local per cap experiment mecànic (però sí pot detectar les forces de marea si el camp no és uniforme). Aquesta equivalència és el punt de partida de la relativitat general."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rel-02-01",
+              "question": "Si la llum es dobla en un camp gravitatori (tal com prediu el principi d'equivalència), quina implicació té sobre la naturalesa de la llum i de l'espai?",
+              "options": [
+                "La llum té massa, per això és afectada per la gravetat com qualsevol altre objecte",
+                "La gravetat és una força que actua sobre tota mena d'energia, inclosa la llum",
+                "L'espai mateix es corba on hi ha massa — la llum segueix el camí més recte possible en un espai corbat"
+              ],
+              "correct": 2,
+              "explanation": "Einstein va arribar a la conclusió més radical: si la llum — que no té massa — es dobla, llavors no és la llum qui es dobla sinó l'espai. La llum segueix sempre el camí més curt possible (una geodèsica). Si sembla que es corba és perquè l'espai al voltant d'una massa gran no és pla: és corbat. La gravetat no és una força que actua sobre la matèria i la llum — és la geometria de l'espai-temps. La massa corba l'espai, i l'espai corbat determina com es mouen tots els objectes. Aquesta és la idea central de la relativitat general: la gravetat és geometria."
+            }
+          ]
+        },
+        {
+          "id": "rel-03",
+          "title": "L'espai-temps: la gravetat com a geometria",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1908, el matemàtic Hermann Minkowski — antic professor d'Einstein — va dir: 'A partir d'ara, l'espai per si sol i el temps per si sol estan condemnats a desaparèixer com a ombres, i només una mena d'unió entre tots dos conservarà una existència independent.' Quan Einstein va llegir-ho, primer li va semblar innecessàriament complicat. Anys després, va ser la base matemàtica que necessitava per construir la relativitat general."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'espai i el temps no són entitats separades sinó un únic continu de quatre dimensions: l'espai-temps. La massa i l'energia corben l'espai-temps. Els objectes segueixen les corbes d'aquest espai-temps corbat — i això és el que anomenem 'gravetat'."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué quatre dimensions? La intuïció geomètrica",
+              "content": "Imagina una formiga sobre una pilota de goma. La formiga viu en dues dimensions (la superfície), però la superfície és corbada en una tercera dimensió que la formiga no pot percebre directament. Si la formiga camina 'en línia recta', en realitat descriu una corba. Nosaltres som com la formiga: vivim en tres dimensions d'espai més una de temps, però aquest espai-temps de quatre dimensions pot estar corbat en una cinquena dimensió que no podem percebre. Quan diem que 'la massa corba l'espai-temps', vol dir que la geometria del nostre univers no és plana — com la superfície d'una pilota, no com una taula."
+            },
+            {
+              "type": "comparison",
+              "title": "Newton vs. Einstein: dues visions de la gravetat",
+              "labelA": "Newton (1687)",
+              "labelB": "Einstein (1915)",
+              "items": [
+                {
+                  "label": "Qué és la gravetat",
+                  "a": "Una força entre masses",
+                  "b": "La curvatura de l'espai-temps"
+                },
+                {
+                  "label": "Com actua",
+                  "a": "A distància, instantàniament",
+                  "b": "Localment, a la velocitat de la llum"
+                },
+                {
+                  "label": "Llum",
+                  "a": "No afectada (no té massa)",
+                  "b": "Afectada (segueix l'espai corbat)"
+                },
+                {
+                  "label": "Espai i temps",
+                  "a": "Absoluts, independents",
+                  "b": "Relatius, entrellaçats"
+                },
+                {
+                  "label": "Precisió",
+                  "a": "Excel·lent per a camps dèbils",
+                  "b": "Necessària per a camps forts i velocitats altes"
+                }
+              ]
+            },
+            {
+              "type": "quote",
+              "text": "La matèria diu a l'espai-temps com corbarse. L'espai-temps corb diu a la matèria com moure's.",
+              "author": "John Archibald Wheeler"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-03-01",
+              "style": "multiple-choice",
+              "question": "Per qué la Terra orbita el Sol segons la relativitat general?",
+              "options": [
+                "Perquè el Sol exerceix una força gravitatòria sobre la Terra a través de l'espai buit",
+                "Perquè la Terra segueix el camí més recte possible en un espai-temps corbat per la massa del Sol",
+                "Perquè la Terra i el Sol s'atrauen mútuament a través d'una xarxa de gravitons",
+                "Perquè la velocitat de la Terra equilibra exactament la força d'atracció solar"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. En relativitat general no hi ha 'força'. La Terra segueix una geodèsica — el camí més curt possible — en l'espai-temps corbat pel Sol. L'òrbita és el resultat natural de moure's 'en línia recta' en una geometria corbada.",
+              "feedbackWrong": "En relativitat general no existeix cap 'força gravitatòria' que tiri de la Terra. El Sol corba l'espai-temps al seu voltant, i la Terra simplement segueix el camí més curt disponible en aquest espai corbat. No hi ha acció a distància — tot passa localment, en la geometria de l'espai-temps."
+            },
+            {
+              "type": "reflection",
+              "question": "Si la gravetat no és una força sinó la geometria de l'espai, canvia alguna cosa en com visualitzes el moviment dels planetes? Com imagines ara l'òrbita de la Terra?",
+              "prompt": "No hi ha resposta correcta. És una invitació a reimaginar quelcom familiar."
+            }
+          ]
+        },
+        {
+          "id": "rel-04",
+          "title": "El temps passa més lent prop de masses grans",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Una de les prediccions més estrànyes de la relativitat general és que el temps no passa igual a tot arreu. Rellotges a altituds diferents marquen temps diferents. No és un efecte marginal teòric: els satèl·lits GPS han de corregir constantment els seus rellotges per aquest efecte. Sense la relativitat general, els GPS s'acumularien fins a 10 km d'error al dia."
+            },
+            {
+              "type": "key-idea",
+              "text": "Dilatació gravitatòria del temps: el temps passa més lentament en zones de gravetat intensa. Com més a prop d'una massa gran, més lent passa el temps. Als teus peus, el temps passa lleugerament més lent que al teu cap."
+            },
+            {
+              "type": "expandable",
+              "label": "El GPS i la relativitat: física teòrica amb conseqüències pràctiques immediates",
+              "content": "Els satèl·lits GPS orbiten a 20.000 km d'altitud. Allà, la gravetat és més feble que a la superfície terrestre — per tant, els seus rellotges van més ràpid que els rellotges a terra (relativitat general: +45,9 microsegons al dia). Però com que també viatgen a 14.000 km/h, la relativitat especial els fa anar més lents (-7,2 microsegons al dia). El resultat net: +38,4 microsegons al dia. En termes de posició GPS, 1 microsegon d'error = 300 metres de desviació. 38,4 microsegons = uns 11,5 km d'error acumulat per dia. Tots els GPS del món corregeixen contínuament els seus rellotges per compensar exactament aquest efecte. La relativitat general no és física teòrica abstracta — és l'arquitectura sobre la qual funcionen els teus mapes al mòbil."
+            },
+            {
+              "type": "misconception",
+              "belief": "La dilatació del temps és tan petita que no té cap efecte pràctic — és una curiositat teòrica.",
+              "reality": "La dilatació gravitatòria del temps és mesurable i tecnològicament crítica. Els rellotges atòmics de precisió col·locats a altituds diferents mostren discrepàncies mesurables en hores. El sistema GPS corregeix 38,4 microsegons al dia per efectes relativistes. Sense aquesta correcció, el sistema seria inútil en qüestió d'hores.",
+              "why": "Perquè els efectes relativistes semblen invisibles a velocitats i gravetat quotidianes — però els instruments moderns de precisió els detecten constantment."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-04-01",
+              "style": "multiple-choice",
+              "question": "Dues bessones idèntiques: una viu al cim d'una muntanya alta, l'altra al nivell del mar. Després de 80 anys, qui ha envellit més?",
+              "options": [
+                "Han envellit exactament igual — el temps és universal",
+                "La del cim de la muntanya, perquè fa més esforç físic pujant",
+                "La del nivell del mar, perquè la gravetat és lleugerament més intensa i el temps passa una mica més lent",
+                "La del cim de la muntanya, perquè la pressió atmosfèrica és menor i accelera els processos biològics"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. La bessona del nivell del mar viu en un camp gravitatori lleugerament més intens — per tant, el seu temps passa una mica més lent. La diferència en 80 anys és de microsegons (imperceptible biològicament), però és real i mesurable amb rellotges atòmics.",
+              "feedbackWrong": "Segons la relativitat general, el temps passa més lentament en camps gravitatoris més intensos. La bessona del nivell del mar és lleugerament més a prop del centre de la Terra — la gravetat és una mica més intensa — i per tant el seu temps passa una mica més lent. La diferència en 80 anys és petitíssima però real i mesurable."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rel-04-01",
+              "question": "Si el temps passa més lent prop de masses grans, quina conseqüència tindria viure tota la vida molt a prop d'un forat negre (sense caure-hi)?",
+              "options": [
+                "Envelliries molt ràpidament en comparació amb persones llunyanes",
+                "Envelliries molt lentament en comparació amb persones llunyanes — el temps passaria molt més lent per a tu",
+                "No hi hauria cap diferència observable — els efectes es cancel·len mútuament a gran distància"
+              ],
+              "correct": 1,
+              "explanation": "Prop d'un forat negre, la curvatura de l'espai-temps és extrema: el temps passa molt més lent que en zones de gravetat feble. Si visquessis 10 anys prop d'un forat negre i després tornassis a la Terra, podries trobar que a la Terra han passat segles o mil·lennis. Aquesta no és ciència-ficció: és una predicció verificada de la relativitat general, exagerada a escala extrema. A escala petita, ja ho mesurem als GPS. La pel·lícula Interstellar va representar aquest efecte amb força fidelitat científica: 1 hora prop del forat negre Gargantua equivalia a 7 anys a la Terra."
+            }
+          ]
+        },
+        {
+          "id": "rel-05",
+          "title": "De Mach a Einstein: deu anys de lluita matemàtica",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Quan Einstein va tenir la idea del principi d'equivalència el 1907, sabia on volia arribar. El que no sabia era com arribar-hi matemàticament. Va necessitar 8 anys, l'ajuda del seu amic matemàtic Marcel Grossmann, i un salt conceptual final sobre el qual va dir: 'Els últims mesos de la recerca van ser els més intensos i agotadors de la meva vida.' El novembre de 1915 va presentar les equacions de camp de la relativitat general a l'Acadèmia de Ciències de Berlín. Cinc dies abans, el matemàtic David Hilbert havia arribat a les mateixes equacions per una ruta diferent."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1905",
+                  "title": "Relativitat especial",
+                  "text": "Einstein publica la relativitat especial: espai i temps es contrauen a velocitats altes. Però no inclou la gravetat."
+                },
+                {
+                  "year": "1907",
+                  "title": "La idea feliç",
+                  "text": "Einstein té la intuïció de l'equivalència entre gravetat i acceleració. Prediu que la llum es corba en camps gravitatoris."
+                },
+                {
+                  "year": "1912",
+                  "title": "Grossmann entra en joc",
+                  "text": "Einstein demana ajuda al seu amic Marcel Grossmann per aprendre geometria diferencial — la matemàtica que necessita."
+                },
+                {
+                  "year": "1913",
+                  "title": "Una versió incorrecta",
+                  "text": "Einstein i Grossmann publiquen una versió parcial. Einstein creu que és correcta durant dos anys."
+                },
+                {
+                  "year": "1915",
+                  "title": "Les equacions de camp",
+                  "text": "Novembre de 1915. Einstein presenta les equacions definitives. Explica l'anomalia de Mercuri amb precisió exacta."
+                },
+                {
+                  "year": "1919",
+                  "title": "Confirmació experimental",
+                  "text": "L'eclipsi solar del 29 de maig. Eddington mesura la desviació de la llum. La teoria és correcta."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "L'anomalia de Mercuri: un misteri de 60 anys que Einstein va resoldre en una tarda",
+              "content": "Des de 1859, els astrònoms sabien que l'òrbita de Mercuri tenia un comportament estrany: el periheli (el punt més proper al Sol) avançava lentament d'una forma que Newton no podia explicar completament. S'atribuïa a un planeta desconegut (Vulcà) o a errors de mesura. Quan Einstein va aplicar les seves noves equacions a l'òrbita de Mercuri el novembre de 1915, va obtenir exactament la xifra observada: 43 segons d'arc per segle. Va dir que va sentir palpitacions i que 'durant alguns dies es va quedar fora d'ell'. Era la primera confirmació que la teoria era correcta — i va resoldre un misteri de sis dècades."
+            },
+            {
+              "type": "quote",
+              "text": "La imaginació és més important que el coneixement. El coneixement és limitat. La imaginació envolta el món.",
+              "author": "Albert Einstein"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-05-01",
+              "style": "multiple-choice",
+              "question": "Quin fenomen astronòmic ja observat va ser la primera confirmació que les equacions de la relativitat general eren correctes?",
+              "options": [
+                "La curvatura de la llum durant l'eclipsi de 1919",
+                "L'anomalia del periheli de Mercuri, que Newton no podia explicar",
+                "La descoberta de Plutó el 1930",
+                "Les variacions en el rellotge dels satèl·lits"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. L'avanç del periheli de Mercuri era un misteri observacional des de 1859. Quan Einstein va aplicar les seves equacions el novembre de 1915, va obtenir el valor exacte. Va ser la primera confirmació interna — i la que el va omplir d'entusiasme.",
+              "feedbackWrong": "L'eclipsi de 1919 va ser una confirmació experimental posterior i molt mediàtica. Però la primera confirmació la va obtenir el mateix Einstein el novembre de 1915: les seves equacions explicaven exactament l'anomalia de l'òrbita de Mercuri que havia desconcertat els astrònoms des de 1859."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Anomalies i canvis de paradigma",
+              "text": "L'anomalia de Mercuri és un exemple perfecte del que Kuhn anomena 'anomalia': una observació que no encaixa amb el paradigma dominant però que la comunitat científica manté aparcada fins que apareix una nova teoria que l'explica. L'avanç del periheli de Mercuri va durar 60 anys com a 'misteri pendent' — i va resoldre's en el moment en què va aparèixer un marc teòric nou."
+            },
+            {
+              "type": "debate",
+              "question": "Einstein va arribar a les equacions de camp guiat principalment per intuïció estètica (elegància matemàtica) i no per dades experimentals. És una forma legítima de fer ciència?",
+              "positionA": {
+                "label": "Sí: l'elegància és una guia vàlida",
+                "argument": "La natura mostra una consistència matemàtica profunda. Einstein i Dirac van trobar teories correctes perquè van buscar la solució més elegant. La bellesa matemàtica ha resultat ser un indicador fiable de veritat física — i la història de la física ho confirma repetidament."
+              },
+              "positionB": {
+                "label": "No: la ciència ha de seguir les dades",
+                "argument": "Moltes teories elegants han resultat ser incorrectes. Permetre que la intuïció estètica guiï la recerca sense verificació experimental és pseudociència. Einstein va tenir sort — però el mètode no és exportable ni fiable com a estratègia científica general."
+              },
+              "reflection": "Creus que hi ha una diferència entre 'elegància com a guia heurística' i 'elegància com a criteri de veritat'?",
+              "context": "Dirac va predir l'existència de l'antimatèria basant-se únicament en l'elegància matemàtica de les seves equacions (1928). Anys després va ser descoberta experimentalment. Einstein, en canvi, va rebutjar la mecànica quàntica en part perquè li semblava 'lletja'. En aquest cas, l'estètica el va portar a una posició equivocada."
+            }
+          ]
+        },
+        {
+          "id": "rel-06",
+          "title": "L'herència: forats negres, ones gravitacionals i el cosmos",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Einstein no creia en els forats negres — les seves pròpies equacions els predien, però li semblaven massa extrems per ser reals. No creia tampoc en les ones gravitacionals — les va predir el 1916 i les va descartar el 1936 com a 'artefactes matemàtics'. Va morir el 1955. Les ones gravitacionals van ser detectades per primera vegada el 14 de setembre de 2015 — exactament cent anys després de la teoria. Era el senyal de la fusió de dos forats negres a 1.300 milions d'anys llum."
+            },
+            {
+              "type": "key-idea",
+              "text": "La relativitat general prediu: forats negres (1916, confirmats), ones gravitacionals (1916, detectades el 2015), l'expansió de l'univers (1917, verificada el 1929 per Hubble), i la dilatació gravitatòria del temps (verificada contínuament pels GPS)."
+            },
+            {
+              "type": "expandable",
+              "label": "LIGO i la detecció d'ones gravitacionals: escoltar el cosmos",
+              "content": "Una ona gravitacional és una ondulació en la teixidura de l'espai-temps que es propaga a la velocitat de la llum. Quan dues masses enormes s'orbiten i es fusionen, generen ones que estiren i comprimeixen l'espai-temps al seu pas. LIGO (Laser Interferometer Gravitational-Wave Observatory) detecta canvis de longitud de menys d'una mil·lèsima del diàmetre d'un protó en braços de 4 km. El senyal del 14 de setembre de 2015 va durar 0,2 segons: la fusió de dos forats negres de 36 i 29 masses solars. En el moment de la fusió van irradiar més energia que totes les estrelles de l'univers observable juntes — en ones gravitacionals. Ha obert una nova forma d'observar l'univers: no amb llum, sinó amb geometria."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1916",
+                  "title": "Schwarzschild: la solució dels forats negres",
+                  "text": "Karl Schwarzschild resol les equacions d'Einstein des del front rus. La solució descriu el que avui anomenem forats negres."
+                },
+                {
+                  "year": "1929",
+                  "title": "Hubble: l'univers s'expandeix",
+                  "text": "Les galàxies s'allunyen de nosaltres. Les equacions d'Einstein ho haurien pogut predir, però ell va afegir una constant cosmològica per evitar-ho."
+                },
+                {
+                  "year": "1974",
+                  "title": "Hulse i Taylor: evidència indirecta d'ones gravitacionals",
+                  "text": "Un púlsar binari perd energia exactament com preveuen les ones gravitacionals. Nobel de Física 1993."
+                },
+                {
+                  "year": "2015",
+                  "title": "LIGO: primera detecció directa",
+                  "text": "Ones gravitacionals de la fusió de dos forats negres. Nobel de Física 2017."
+                },
+                {
+                  "year": "2019",
+                  "title": "Primera imatge d'un forat negre",
+                  "text": "El Event Horizon Telescope obté la imatge de M87*, el forat negre supermassís de la galàxia M87."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-06-01",
+              "style": "multiple-choice",
+              "question": "Quin era l'objectiu de la constant cosmològica que Einstein va afegir a les seves equacions el 1917?",
+              "options": [
+                "Explicar la curvatura de la llum prop del Sol",
+                "Permetre un univers estàtic — sense expansió ni contracció",
+                "Predir l'existència de la matèria fosca",
+                "Corregir l'anomalia de l'òrbita de Mercuri"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. Einstein creia en un univers estàtic i etern. Va afegir la constant cosmològica (Λ) per fer que les equacions permetessin un univers estàtic. Quan Hubble va demostrar el 1929 que l'univers s'expandia, Einstein la va retirar dient que havia estat 'el major error de la meva vida'. Irònicament, avui sabem que Λ existeix — i és responsable de l'expansió accelerada de l'univers.",
+              "feedbackWrong": "La constant cosmològica va ser afegida per un motiu filosòfic: Einstein creia que l'univers havia de ser estàtic i etern. Les seves equacions originalment predien un univers en contracció o expansió, cosa que ell volia evitar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-06-02",
+              "style": "true-false",
+              "question": "Einstein va morir convençut que els forats negres i les ones gravitacionals eren prediccions reals de la seva teoria que algun dia es confirmarien.",
+              "correct": false,
+              "feedbackCorrect": "Correcte — la resposta és FALS. Einstein no creia que ni els forats negres ni les ones gravitacionals fossin fenòmens físics reals. Les considerava artefactes matemàtics. Va morir el 1955 sense veure cap de les dues confirmades.",
+              "feedbackWrong": "Sorprenentment, Einstein va descartar tots dos fenòmens com a artefactes matemàtics poc realistes. Va publicar un article el 1939 argumentant que els forats negres no podien formar-se en la natura, i un article el 1936 descartant les ones gravitacionals. La realitat va superar la intuïció del seu propi creador."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rel-06-01",
+              "question": "Einstein va recórrer la constant cosmològica per evitar que les seves equacions predissin un univers en expansió — per raons filosòfiques, no científiques. Quina lliçó treus d'aquest episodi?",
+              "options": [
+                "Els científics no haurien de deixar que les intuïcions filosòfiques influenciessin la interpretació de les seves equacions",
+                "Fins i tot els científics més grans poden tenir punts cecs quan les seves teories xoquen amb les seves conviccions",
+                "L'episodi demostra que la física teòrica sense verificació experimental és poc fiable"
+              ],
+              "correct": 1,
+              "explanation": "L'episodi de la constant cosmològica és un dels exemples més cèlebres de com les conviccions prèvies — fins i tot en els científics més brillants — poden distorsionar la interpretació de resultats. Einstein tenia un prejudici filosòfic vers un univers estàtic i etern. Quan les seves equacions predien el contrari, va modificar-les per forçar el resultat que volia. La ironia final és doble: primer, Hubble va confirmar que l'univers s'expandeix (1929). Segon, avui sabem que la constant cosmològica existeix de veritat — però representa l'energia fosca, responsable de l'expansió accelerada. Einstein va tenir la resposta correcta per les raons equivocades, i la va descartar per les raons equivocades."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proves",
+      "title": "Les proves que van canviar el món",
+      "icon": "🔭",
+      "description": "Com la ciència va verificar la teoria d'Einstein i quines conseqüències impensables en van sorgir",
+      "style": "Empíric · de la predicció a la confirmació",
+      "lessons": [
+        {
+          "id": "rel-p01",
+          "title": "L'eclipsi de 1919 — el dia que Einstein va ser famós",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 29 de maig de 1919, el món estava exhaust de la Primera Guerra Mundial. Dues expedicions britàniques van viatjar a l'Illa del Príncep (Àfrica) i a Sobral (Brasil) per fotografiar estrelles visibles durant un eclipsi solar total. Si la llum es corbia al passar prop del Sol, les estrelles prop del disc solar apareixerien lleugerament desplaçades de les seves posicions habituals. Era la predicció d'Einstein. El 7 de novembre, The Times de Londres publicava: 'Revolució a la ciència. Nova teoria de l'univers. Les idees de Newton derrocades.'"
+            },
+            {
+              "type": "key-idea",
+              "text": "La llum es corba en passar prop d'una massa gran, perquè segueix la curvatura de l'espai-temps. L'eclipsi de 1919 va ser la primera confirmació experimental de la relativitat general — i va convertir Einstein en el científic més famós del món."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué calia un eclipsi? La geometria de la prova",
+              "content": "Per veure estrelles prop del Sol cal que el Sol estigui tapat — d'aquí la necessitat d'un eclipsi total. Einstein va predir que la llum d'una estrella llunyana, passant rasant al Sol, es desviaria 1,75 segons d'arc. Newton, si apliquem la seva física als fotons (considerant-los partícules amb massa), hauria predit 0,87 segons d'arc — exactament la meitat. Les fotografies d'Eddington van mostrar posicions desplaçades consistent amb la predicció d'Einstein. La precisió de les mesures del 1919 era qüestionable — avui hi ha debat historiogràfic sobre si Eddington va ser massa selectiu amb les dades — però mesures posteriors molt més precises han confirmat la predicció d'Einstein amb altíssima fiabilitat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-p01-01",
+              "style": "multiple-choice",
+              "question": "Per qué l'eclipsi de 1919 podia distingir entre la predicció de Newton i la predicció d'Einstein?",
+              "options": [
+                "Perquè Newton no preveia que la llum es pogués corbar, però Einstein sí",
+                "Perquè Newton predeia una desviació de la llum exactament la meitat que Einstein, i les dues prediccions eren mesurables",
+                "Perquè durant l'eclipsi el Sol és més massís i la desviació és més gran",
+                "Perquè Newton predeia que la llum no seria visible durant l'eclipsi"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Aplicant la física newtoniana als fotons com a partícules amb massa, la predicció era 0,87 segons d'arc. Einstein predeia 1,75 — exactament el doble. L'eclipsi va permetre mesurar la desviació i distingir entre les dues teories.",
+              "feedbackWrong": "Newton, tractat com si els fotons tinguessin massa, també predeia una desviació — però exactament la meitat que Einstein. La gràcia de l'experiment era que les dues prediccions donaven valors numèricament diferents i ambdós mesurables."
+            },
+            {
+              "type": "debate",
+              "question": "Arthur Eddington era admirador d'Einstein i pacifista que volia simbolitzar la reconciliació científica postbèl·lica. Sabia quin resultat esperava quan va analitzar les plaques fotogràfiques. Invalida això el seu descobriment?",
+              "positionA": {
+                "label": "Sí: la motivació contamina el resultat",
+                "argument": "Eddington va seleccionar les dades que s'ajustaven a Einstein i va descartar les que no. Qualsevol investigador hauria de ser cec als resultats esperats. La història de la ciència té massa casos de 'veure el que vols veure'."
+              },
+              "positionB": {
+                "label": "No: la validació posterior ho confirma",
+                "argument": "Mesures molt més precises fetes durant dècades posteriors han confirmat sistemàticament la predicció d'Einstein. Que Eddington tingués motivació no invalida el resultat — simplement significa que el resultat no era únicament seu."
+              },
+              "reflection": "Creus que un científic pot ser objectiu quan mesura quelcom que ha ajudat a construir teòricament?",
+              "context": "La controvèrsia sobre Eddington és real i documentada en la literatura historiogràfica. L'experiment HIPPARCOS de l'ESA (1997) va confirmar la predicció d'Einstein amb un error de menys de 0,1% usant tècniques d'alta precisió sense cap ambigüitat."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rel-p01-01",
+              "question": "Un experiment important confirma una teoria, però el científic que el va fer tenia un biaix previ a favor de la teoria. Com hauria de reaccionar la comunitat científica?",
+              "options": [
+                "Rebutjar l'experiment fins que algú sense biaix el repliqui",
+                "Acceptar-lo provisionalment i prioritzar la replicació independent per confirmar-lo",
+                "Acceptar-lo plenament — els biaixos personals no invaliden resultats correctes"
+              ],
+              "correct": 1,
+              "explanation": "La ciència no es basa en la imparcialitat absoluta dels individus — cosa impossible — sinó en la replicació independent. El protocol correcte és exactament el que va passar: acceptar Eddington com a evidència preliminar significativa mentre s'espera confirmació d'altres equips independents. Les mesures del segle XX (deflexió de ràdio-ones per ocultació solar, interferometria de base molt llarga, missió HIPPARCOS) han confirmat Einstein repetidament amb precisió creixent. El biaix d'Eddington no va contaminar la veritat final — però el procés científic correcte era exigir replicació, i la replicació va arribar. Aquest és el mecanisme autocorrector de la ciència: no depèn de la virtut dels individus sinó de l'estructura col·lectiva del procés."
+            }
+          ]
+        },
+        {
+          "id": "rel-p02",
+          "title": "Forats negres: de la matemàtica a la realitat",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Dos mesos després que Einstein presentés les equacions de camp, el físic Karl Schwarzschild les va resoldre des del front rus de la Primera Guerra Mundial. Mouria mesos després per una malaltia contreta al front. La seva solució descrivia quelcom extrem: si la massa d'un objecte es comprimeix prou, l'espai-temps es corba tant que ni la llum pot escapar. Einstein mateix va publicar el 1939 que això era físicament impossible. Ningú no va creure en els forats negres seriosament fins als anys 60."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un forat negre és una regió de l'espai on la curvatura de l'espai-temps és tan extrema que l'escapatòria és impossible per a qualsevol cosa, inclosa la llum. L'horitzó d'esdeveniments és el punt de no retorn: creueu-lo i no podeu comunicar cap informació cap a l'exterior."
+            },
+            {
+              "type": "expandable",
+              "label": "El radi de Schwarzschild: com de petit hauria de ser el Sol per ser un forat negre",
+              "content": "Karl Schwarzschild va calcular que qualsevol massa, si es comprimís per sota d'un radi crític, formaria un forat negre. Per al Sol, aquest radi és de 3 km (el Sol té un radi real de 696.000 km). Per a la Terra, és de 9 mm. Per a una persona de 70 kg, seria de 10⁻²⁵ metres — molt per sota de l'escala subatòmica. Cap procés físic conegut pot comprimir la Terra o el Sol fins a aquests radis. Però estrelles de massa suficient (més de 20-25 masses solars aproximadament) col·lapsen naturalment en morir, superant tots els mecanismes de pressió que podrien aturar el col·lapse."
+            },
+            {
+              "type": "misconception",
+              "belief": "Els forats negres 'aspiren' la matèria del seu entorn com aspiradores còsmiques.",
+              "reality": "Un forat negre no aspira activament res. La seva influència gravitatòria a distància és idèntica a la d'una estrella de la mateixa massa. Si el Sol es convertís màgicament en un forat negre de la mateixa massa, les òrbites dels planetes no canviarien gens. La diferència és que el forat negre concentra tota la massa en un punt (singularitat), de manera que si t'hi acostes molt, la gravetat s'intensifica enormement.",
+              "why": "La metàfora mediàtica del forat negre 'devorant' l'espai crea la impressió d'una força activa d'absorció, quan en realitat és pura gravetat — la mateixa força que coneixem, però extremadament concentrada."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-p02-01",
+              "style": "true-false",
+              "question": "Si el Sol es convertís sobtadament en un forat negre de la mateixa massa, la Terra sortiria de la seva òrbita actual.",
+              "correct": false,
+              "feedbackCorrect": "Correcte — és FALS. La gravetat d'un forat negre a distància és idèntica a la d'una estrella de la mateixa massa. La Terra continuaria la seva òrbita exactament igual. L'única diferència és que ens quedaríem sense llum solar.",
+              "feedbackWrong": "Un forat negre no té cap propietat gravitatòria especial a distància. La seva atracció gravitatòria és exactament la mateixa que la d'una estrella de la mateixa massa. La Terra continuaria la seva òrbita sense cap canvi."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-p02-02",
+              "style": "multiple-choice",
+              "question": "Qué és l'horitzó d'esdeveniments d'un forat negre?",
+              "options": [
+                "La superfície visible del forat negre quan s'observa amb telescopi",
+                "La regió on la gravetat és tan forta que destrueix la matèria",
+                "La frontera a partir de la qual res — ni la llum — pot escapar cap a l'exterior",
+                "El punt central on tota la massa del forat negre es concentra"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'horitzó d'esdeveniments és una frontera geomètrica, no una superfície física. A partir d'ell, la velocitat d'escapada supera la velocitat de la llum — per tant, cap senyal d'informació pot sortir. La singularitat (punt central) és una altra cosa.",
+              "feedbackWrong": "L'horitzó d'esdeveniments no és una superfície física ni destrueix res al travessar-lo. És una frontera geomètrica: el punt a partir del qual la velocitat d'escapada supera la velocitat de la llum. Si caiguessis en un forat negre suficientment gran, creuaries l'horitzó sense notar res especial — el que és irreversible és que mai no podries tornar ni enviar cap informació cap a fora."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rel-p02-01",
+              "question": "Les equacions de la relativitat general predien els forats negres des de 1916, però la comunitat científica no els va acceptar com a objectes reals fins als anys 60. Quin paper juga la resistència científica davant de prediccions extremes?",
+              "options": [
+                "La resistència és perjudicial — si les equacions ho predien, s'haurien d'haver acceptat de seguida",
+                "La resistència és útil — les prediccions extremes exigeixen evidència forta, i la prudència és metodològicament correcta",
+                "La resistència és inevitable però neutral — no accelera ni frena el progrés científic de forma significativa"
+              ],
+              "correct": 1,
+              "explanation": "L'escepticisme davant de prediccions extremes és un component sa del mètode científic, no un obstacle. Els forats negres eren tan contraintuïtius que exigien un estàndard d'evidència molt alt — i era raonable exigir-lo. El problema seria si la resistència persistís davant d'evidència acumulada. En el cas dels forats negres, quan van aparèixer les ràdio-fonts de quàsars (anys 60), les estrelles de neutrons (1967) i finalment la imatge directa de M87* (2019), la comunitat va actualitzar la seva posició de forma consistent amb les evidències. Això és exactament com hauria de funcionar la ciència: escepticisme proporcional a l'extraordinarietat de la predicció, actualització proporcional a l'evidència acumulada."
+            }
+          ]
+        },
+        {
+          "id": "rel-p03",
+          "title": "Ones gravitacionals — escoltar el cosmos",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 14 de setembre de 2015, a les 5:51 del matí (hora del centre dels EUA), dos detectors LIGO separats 3.000 km van registrar el mateix senyal amb una diferència de 7 mil·lisegons. Era una ona gravitacional — una ondulació de l'espai-temps mateix que havia viatjat 1.300 milions d'anys llum. El senyal va durar 0,2 segons. En aquell temps breu, dos forats negres van fusionar-se i van irradiar tres masses solars en energia pura. Va ser el senyal més violent mai detectat — i va arribar com un sussurre imperceptible de 10⁻²¹ metres d'amplitud."
+            },
+            {
+              "type": "key-idea",
+              "text": "Les ones gravitacionals són ondulacions de l'espai-temps que es propaguen a la velocitat de la llum. Les genera qualsevol massa en acceleració, però les prou intenses per detectar provenen d'esdeveniments extrems: fusió de forats negres o estrelles de neutrons. LIGO les va detectar per primera vegada el 2015, cent anys després de la predicció d'Einstein."
+            },
+            {
+              "type": "expandable",
+              "label": "Com funciona LIGO: mesurar canvis més petits que un nucli atòmic",
+              "content": "LIGO té dos braços perpendiculars de 4 km cadascun. Un làser es divideix i recorre els dos braços simultàniament. Si una ona gravitacional passa, estira lleugerament un braç i comprimeix l'altre — canviant la longitud relativa. El làser detecta la diferència de camí recorregut. La sensibilitat requerida és increïble: detectar canvis de 10⁻¹⁹ metres — deu mil vegades menys que el diàmetre d'un protó. Per aïllar el detector del soroll sísmic, LIGO usa amortidors que redueixen les vibracions en un factor de 10¹⁰. Els espills pesen 40 kg i han de ser dels objectes més perfectes mai fabricats per humans."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-p03-01",
+              "style": "multiple-choice",
+              "question": "Qué fa únic l'observatori d'ones gravitacionals (LIGO) respecte als telescopis convencionals?",
+              "options": [
+                "Que detecta llum ultraviolada que els telescopis normals no poden veure",
+                "Que no detecta llum sinó deformacions de l'espai-temps — obre una finestra completament nova de l'univers",
+                "Que és el telescopi de major resolució angular mai construït",
+                "Que pot observar objectes situats més lluny que qualsevol altre instrument"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. LIGO no és un telescopi en cap sentit convencional. No detecta cap forma de radiació electromagnètica. Detecta deformacions geomètriques de l'espai-temps. Permet observar fenòmens completament invisibles per a qualsevol telescopi: la fusió de forats negres, l'interior de col·lapsos estel·lars, potencialment els instants inicials del Big Bang.",
+              "feedbackWrong": "LIGO no detecta cap tipus de llum. Detecta deformacions geomètriques de l'espai-temps — ones gravitacionals. Els telescopis, tant òptics com de ràdio, infraroigs o raigs X, tots detecten fotons. LIGO detecta canvis en la geometria de l'espai."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Física de Partícules",
+              "moduleEmoji": "⚛️",
+              "concept": "Simetries i conservació",
+              "text": "Les ones gravitacionals transporten energia i moment angular, igual que els fotons transporten energia de les ones electromagnètiques. En la física de partícules, el gravitó seria la partícula mediadora de la gravetat, anàloga al fotó per a l'electromagnetisme. La relativitat general i la mecànica quàntica descriuen la gravetat de formes incompatibles: unificar-les és el problema obert més gran de la física teòrica actual."
+            },
+            {
+              "type": "reflection",
+              "question": "Quan escoltem el senyal sonificat de la fusió de dos forats negres — el famós 'chirp' de LIGO — estem 'escoltant' deformacions de l'espai-temps que van ocórrer quan la vida a la Terra era unicel·lular. Com et fa sentir aquesta escala temporal i espacial?",
+              "prompt": "No hi ha resposta correcta. Pren un moment."
+            }
+          ]
+        },
+        {
+          "id": "rel-p04",
+          "title": "La primera imatge d'un forat negre",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 10 d'abril de 2019, sis conferències de premsa simultànies en sis ciutats del món van presentar la mateixa imatge: un anell brillant asimètric al voltant d'una ombra fosca. Era M87* — el forat negre supermassís al centre de la galàxia M87, a 55 milions d'anys llum. Una massa de 6.500 milions de masses solars. Per fer-ne la imatge, va caldre crear un telescopi de la mida de la Terra: l'Event Horizon Telescope."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'Event Horizon Telescope (EHT) és una xarxa de radiotelescopis sincronitzats distribuïts per tot el planeta que actuen com un únic telescopi de la mida de la Terra. Va obtenir la primera imatge directa d'un forat negre el 2019 i la primera imatge de Sagittari A* (el forat negre del centre de la Via Làctia) el 2022."
+            },
+            {
+              "type": "expandable",
+              "label": "Katie Bouman i l'algoritme que va fer possible la imatge",
+              "content": "Crear una imatge a partir de l'EHT no és trivial: els radiotelescopis distribuïts registren senyals que cal combinar matemàticament. Katherine Bouman, aleshores estudiant de doctorat al MIT, va liderar el desenvolupament de l'algoritme CHIRP que permetia reconstruir la imatge a partir de dades incompletes i sorolloses. La imatge final va requerir 5 petabytes de dades (5 milions de gigabytes) que no podien transmetre's per internet — els discs durs van haver de volar físicament fins als centres de processament. L'algoritme de Bouman és conceptualment similar a les tècniques de reconstrucció que s'usen en les ressonàncies magnètiques mèdiques."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-p04-01",
+              "style": "detect-error",
+              "statement": "La imatge de l'Event Horizon Telescope mostra directament la superfície del forat negre M87*.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és 'superfície del forat negre'. Un forat negre no té superfície en cap sentit convencional — l'horitzó d'esdeveniments és una frontera geomètrica, no física. El que mostra la imatge és l'ombra del forat negre: la regió on la llum no pot escapar (fosca), envoltada per un anell de gas incandescent que orbita el forat negre a velocitats properes a la llum."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-p04-02",
+              "style": "multiple-choice",
+              "question": "Per qué l'anell brillant de la imatge de M87* és asimètric — més brillant en un costat que en l'altre?",
+              "options": [
+                "Perquè el telescopi no tenia prou resolució i la imatge és imperfecta",
+                "Perquè el forat negre no és esfèric",
+                "Perquè el gas orbita el forat negre i el costat que s'apropa a nosaltres emet llum potenciada per l'efecte Doppler relativista",
+                "Perquè la distribució de gas al voltant del forat negre és naturalment asimètrica"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. El gas que orbita el forat negre es mou a velocitats relativistes. El costat que s'acosta a nosaltres té la llum potenciada per l'efecte Doppler relativista — apareix molt més brillant. El costat que s'allunya apareix més fosc. Aquesta asimetria predicha per la teoria es veu clarament a la imatge.",
+              "feedbackWrong": "L'asimetria és real i física, no un artefacte. L'efecte Doppler relativista potencia enormement la llum del gas que s'apropa i en redueix la del gas que s'allunya. L'asimetria de la imatge és una confirmació addicional de la relativitat general."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rel-p04-01",
+              "question": "Les imatges de l'EHT coincideixen molt bé amb les prediccions de la relativitat general. Però la imatge és una reconstrucció matemàtica basada en un algoritme — no una fotografia directa. Canvia això la seva validesa com a evidència?",
+              "options": [
+                "Sí: una reconstrucció matemàtica no és evidència directa — podria reflectir les suposicions de l'algoritme",
+                "No: tota imatge és una reconstrucció — un telescopi òptic també transforma senyals físics en píxels",
+                "Depèn: és evidència sòlida si l'algoritme pot generar imatges incorrectes amb dades que no siguin de forats negres — cosa que va ser verificada"
+              ],
+              "correct": 2,
+              "explanation": "La resposta matisada és la correcta. El risc real d'una reconstrucció algorítmica és que l'algoritme podria 'fabricar' estructures que no existeixen. Per combatre-ho, l'equip de l'EHT va testar l'algoritme amb dades simulades de fonts que no eren forats negres, verificant que no generava imatges semblants a un forat negre quan les dades no ho suggerien. A més, quatre equips independents van analitzar les mateixes dades amb algorismes diferents i van obtenir imatges consistents. Quan múltiples mètodes independents convergeixen en el mateix resultat, la probabilitat que tots siguin victimes del mateix biaix és molt baixa."
+            }
+          ]
+        },
+        {
+          "id": "rel-p05",
+          "title": "El GPS i la relativitat: física teòrica a la teva butxaca",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Cada vegada que el teu mòbil et diu que giris a la dreta d'aquí a 200 metres, un conjunt de satèl·lits a 20.000 km d'altitud mesura la teva posició. Per fer-ho, comparen el temps d'arribada de senyals de rellotges atòmics de precisió. Si no corregissin els efectes de la relativitat general i especial, els GPS acumularien fins a 11 km d'error al dia. La relativitat general és tecnologia de consum massiu."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els satèl·lits GPS corregeixen dos efectes relativistes: la dilatació del temps per velocitat (relativitat especial: els rellotges van més lents perquè els satèl·lits es mouen ràpid) i la dilatació gravitatòria del temps (relativitat general: els rellotges van més ràpid perquè la gravetat és menor a 20.000 km d'altitud). El segon efecte supera el primer."
+            },
+            {
+              "type": "expandable",
+              "label": "El càlcul exacte: per qué els satèl·lits van 38,4 microsegons per davant cada dia",
+              "content": "Efecte de la relativitat especial (velocitat): els satèl·lits GPS viatgen a ~14.000 km/h. A aquesta velocitat, el temps va més lent que a terra en -7,2 microsegons per dia. Efecte de la relativitat general (gravetat): a 20.000 km d'altitud, la gravetat és més feble. El temps va més ràpid que a terra en +45,9 microsegons per dia. Efecte net: +45,9 - 7,2 = +38,7 microsegons per dia. A la velocitat de la llum (300.000 km/s), un error de 38,7 microsegons equival a 11,6 km de desviació acumulada per dia. Els satèl·lits corregeixen els seus rellotges contínuament per compensar exactament aquest efecte."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-p05-01",
+              "style": "multiple-choice",
+              "question": "Quin dels dos efectes relativistes és dominant en els satèl·lits GPS?",
+              "options": [
+                "La dilatació del temps per velocitat (relativitat especial) — perquè els satèl·lits van molt ràpid",
+                "La dilatació gravitatòria del temps (relativitat general) — perquè la gravetat és molt més feble a 20.000 km",
+                "Els dos efectes són exactament iguals i es cancel·len mútuament",
+                "Cap dels dos — la precisió actual dels GPS no requereix correccions relativistes"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. La dilatació gravitatòria (+45,9 μs/dia) supera la dilatació per velocitat (-7,2 μs/dia). L'efecte net és que els rellotges dels satèl·lits van aproximadament 38,4 microsegons per davant dels terrestres cada dia — i cal corregir-ho contínuament.",
+              "feedbackWrong": "La dilatació gravitatòria del temps (relativitat general) és el factor dominant: +45,9 microsegons per dia. La dilatació per velocitat (relativitat especial) va en sentit contrari: -7,2 microsegons per dia. Sense corregir l'efecte net, el GPS seria inútil."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-rel-p05-02",
+              "style": "true-false",
+              "question": "El sistema GPS va ser dissenyat pels enginyers sense tenir en compte els efectes relativistes, i les correccions es van afegir a posteriori quan es van descobrir els errors.",
+              "correct": false,
+              "feedbackCorrect": "FALS. Els efectes relativistes van ser incorporats al disseny original del sistema GPS des del principi, als anys 70. Els físics sabien perfectament que calia corregir-los abans del primer llançament.",
+              "feedbackWrong": "En realitat, les correccions relativistes van ser incorporades al disseny original del GPS als anys 70. El GPS és un dels primers sistemes tecnològics dissenyats explícitament sobre la base de la relativitat."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Teoria i aplicació tecnològica",
+              "text": "El GPS és un exemple paradigmàtic de com la ciència bàsica — la física teòrica més abstracta d'Einstein — genera aplicacions tecnològiques impensables en el moment de la recerca. Einstein no tenia cap aplicació pràctica en ment el 1915. Cinquanta anys després, la seva teoria era l'arquitectura del sistema de navegació global. Sovint, la investigació fonamental sense objectiu aplicat és la que produeix les transformacions tecnològiques més importants."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-rel-p05-01",
+              "question": "El GPS prova que la relativitat general és correcta a escala del sistema solar. Però alguns físics argumenten que per a camps gravitatoris extremadament forts (forats negres, Big Bang) la teoria pot necessitar modificacions. Com hauries d'interpretar el fet que una teoria funcioni perfectament en alguns règims però possiblement no en tots?",
+              "options": [
+                "Si una teoria falla en algun règim, queda invalidada — una teoria científica ha de ser universal",
+                "Una teoria pot ser correcta i útil en un rang de condicions sense ser la teoria final — la física avança per aproximacions successives",
+                "Si una teoria funciona en condicions extremes (forats negres), necessàriament funciona en totes les condicions"
+              ],
+              "correct": 1,
+              "explanation": "La física avança per dominis de validesa, no per veritats absolutes. La mecànica de Newton és 'incorrecta' en el sentit que la relativitat la millora — però és perfectament vàlida i utilíssima per a velocitats baixes i gravetat moderada. La relativitat general és 'incompleta' en el sentit que no és compatible amb la mecànica quàntica — però és perfectament vàlida per a tot el que hem pogut mesurar fins ara. Una teoria que funciona perfectament en el seu domini de validesa és valuosa i correcta en aquell domini — i la ciència és honesta sobre els seus límits."
+            }
+          ]
+        },
+        {
+          "id": "rel-p06",
+          "title": "La relativitat general avui: fronteres obertes",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La relativitat general complirà 110 anys el 2025. En aquest temps ha superat totes les proves experimentals. Però té dos grans problemes: no és compatible amb la mecànica quàntica (les dues teories més ben verificades de la física es contradiuen en règims extrems), i prediu singularitats — punts on les seves pròpies equacions deixen de tenir sentit. Com Newton en el seu moment, Einstein tenia raó en el seu domini i les seves equacions contenen una pista d'una teoria més profunda que encara no tenim."
+            },
+            {
+              "type": "key-idea",
+              "text": "La relativitat general i la mecànica quàntica són les dues teories més ben verificades de la física. I són incompatibles: descriuen la gravetat de formes que no es poden unificar matemàticament. La recerca d'una teoria de gravetat quàntica és el problema obert central de la física teòrica del segle XXI."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1974",
+                  "title": "Hawking: els forats negres emeten radiació",
+                  "text": "Stephen Hawking prediu que els forats negres emeten radiació tèrmica per efectes quàntics. No verificat experimentalment."
+                },
+                {
+                  "year": "1998",
+                  "title": "Expansió accelerada de l'univers",
+                  "text": "L'univers no sols s'expandeix: s'accelera. La causa és l'energia fosca — un 68% del contingut de l'univers que no entenem."
+                },
+                {
+                  "year": "2015",
+                  "title": "Ones gravitacionals (LIGO)",
+                  "text": "Primera confirmació directa d'ones gravitacionals. Cent anys de predicció verificada."
+                },
+                {
+                  "year": "2019",
+                  "title": "Imatge del primer forat negre (EHT)",
+                  "text": "Primera imatge directa de l'horitzó d'esdeveniments de M87*. Confirma les prediccions de la relativitat general en règim fort."
+                },
+                {
+                  "year": "2025+",
+                  "title": "LISA i el futur",
+                  "text": "L'ESA prepara LISA: un detector d'ones gravitacionals a l'espai amb braços de 2,5 milions de km. Obrirà freqüències inaccessibles per LIGO."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "La paradoxa de la informació del forat negre",
+              "content": "Si una enciclopèdia cau en un forat negre, la informació que conté es perd per sempre? La mecànica quàntica diu que la informació mai no es destrueix — és un principi fonamental. La relativitat general (i la termodinàmica de forats negres de Hawking) suggereix que sí que es perd quan el forat negre s'evapora per radiació de Hawking. Hawking va defensar durant dècades que la informació es perdia. El 2004 va reconèixer públicament que probablement estava equivocat — però la resolució completa d'aquesta paradoxa segueix sent un problema obert. El físic Juan Maldacena va proposar el 1997 una correspondència matemàtica (AdS/CFT) que suggereix que la informació es conserva, però la prova completa segueix sent esquiva."
+            },
+            {
+              "type": "debate",
+              "question": "La relativitat general i la mecànica quàntica són incompatibles. Alguns físics dediquen la vida a unificar-les (teoria de cordes, gravetat quàntica de bucles). Altres argumenten que potser les dues teories mai no necessitaran ser unificades perquè operen en dominis completament separats. Quina postura et sembla més fructífera?",
+              "positionA": {
+                "label": "Cal buscar la unificació",
+                "argument": "La naturalesa és una sola. Dues teories incompatibles que descriuen la mateixa realitat no poden ser ambdues correctes en tots els seus dominis. Hi ha condicions (singularitats, Big Bang) on tots dos dominis coincideixen i on la incompatibilitat és un problema real que cal resoldre."
+              },
+              "positionB": {
+                "label": "La incompatibilitat pot ser acceptable",
+                "argument": "La física funciona per dominis d'aplicació. Newton i Einstein coexisteixen sense que Newton necessiti ser 'corregit' per a velocitats baixes. Potser la unificació és una expectativa filosòfica, no una necessitat física — i buscar-la pot ser una distracció de problemes més importants."
+              },
+              "reflection": "Hi ha algun argument que trobes irrefutable en un dels dos costats?",
+              "context": "La teoria de cordes porta 50 anys sense fer prediccions verificables. La gravetat quàntica de bucles és matemàticament consistent però tampoc ha produït prediccions comprovades. Alguns físics (com Lee Smolin) argumenten que la física teòrica s'ha perdut en abstraccions matemàtiques sense ancoratge empíric."
+            },
+            {
+              "type": "reflection",
+              "question": "Has après que Newton era 'correcte però incomplet', i que Einstein probablement també ho és. Com canvia això la manera com valores una teoria científica — com a veritat definitiva o com a millor aproximació actual?",
+              "prompt": "No hi ha resposta correcta. És la pregunta epistemològica central de la ciència moderna."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Kuhn i els canvis de paradigma",
+              "text": "La transició de Newton a Einstein és l'exemple canònic del que Kuhn anomena 'revolució científica': no una refutació sinó una reincorporació. Newton no estava equivocat — estava incomplet. Einstein el va absorbir com a cas límit. La pregunta és: quan arribi la teoria de gravetat quàntica, com absorbirà Einstein?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "id": "module-XX-filosofia-llenguatge",
+  "title": "Filosofia del Llenguatge: Les Paraules que Creen el Món",
+  "emoji": "🗣️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "aplicacions",
+      "title": "Com les Paraules Fan Coses",
+      "icon": "🗣️",
+      "description": "El llenguatge no descriu simplement la realitat — la construeix, la manipula i la transforma. De Wittgenstein a la propaganda digital: per quina raó les paraules importen tant",
+      "style": "Temàtic · de la teoria als casos concrets",
+      "lessons": [
+
+        {
+          "id": "fl-01",
+          "title": "Les Paraules No Són Neutres",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2003, l'administració Bush va deixar d'usar el terme 'escalfament global' en els seus documents oficials i el va substituir per 'canvi climàtic'. Un assessor de comunicació havia argumentat que 'escalfament global' sonava més alarmant i mobilitzador, mentre que 'canvi climàtic' semblava més neutre i menys urgent. No era un canvi científic — el fenomen era el mateix. Era un canvi de marc. I va funcionar: durant anys, els dos termes van generar respostes emocionals i polítiques mesurablament diferents en els enquestats americans."
+            },
+            {
+              "type": "key-idea",
+              "text": "El llenguatge no és un instrument transparent per transmetre pensaments preexistents. Les paraules que triem per descriure una realitat no la reflecteixen — la construeixen. Cada terme porta un marc conceptual, una perspectiva, una disposició emocional implícita. No hi ha descripció neutra: triar les paraules és prendre una posició."
+            },
+            {
+              "type": "misconception",
+              "belief": "Les paraules són simplement etiquetes per a realitats objectives. Canviar les paraules no canvia les coses.",
+              "reality": "Dècades d'investigació en psicologia cognitiva i lingüística mostren que les paraules que s'usen per descriure un fenomen afecten mesurably com les persones el perceben, el recorden i prenen decisions sobre ell. Els 'efectes de marc' (framing effects) no són simplement retòrica — són fenòmens cognitius documentats que afecten fins i tot decisions econòmiques i mèdiques.",
+              "why": "La idea que les paraules són etiquetes neutres és còmoda perquè simplifica la comunicació i elude la responsabilitat de les tries lingüístiques. Però és precisament per això que qui vol manipular sap que el primer pas és controlar el vocabulari."
+            },
+            {
+              "type": "expandable",
+              "label": "George Lakoff i els marcs conceptuals: per quina raó dir 'alliberament fiscal' funciona millor que 'retallada d'impostos'",
+              "content": "George Lakoff, lingüista cognitiu de Berkeley, va estudiar per quina raó la dreta americana guanyava sistemàticament els debats sobre els impostos malgrat que les posicions progressistes tenien el suport de la majoria en moltes enquestes. La seva conclusió: la dreta havia aconseguit imposar el marc conceptual. 'Alliberament fiscal' (tax relief) activa el marc del sofriment injust del qual cal alliberar-se: la càrrega fiscal és un patiment, qui la redueix és un alliberador, qui s'hi oposa és qui vol que la gent pateixi. El marc és anterior a qualsevol argument sobre la justícia redistributiva — quan l'adversari accepta el terme 'alliberament fiscal', ja ha acceptat implícitament el marc que el defineix. Lakoff va concloure que la política progressista perdia perquè intentava respondre amb fets i arguments dins del marc de l'adversari, en lloc de construir els seus propis marcs. El problema no era la manca de dades — era la manca de control sobre el vocabulari."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-01-01",
+              "style": "multiple-choice",
+              "question": "Durant la guerra de l'Iraq (2003-2011), l'exèrcit americà usava el terme 'dany col·lateral' per referir-se a les baixes civils causades per les seves operacions militars. Quin efecte té aquest eufemisme lingüístic?",
+              "options": [
+                "Descriu el fenomen amb precisió tècnica militar sense connotacions emocionals innecessàries",
+                "Transforma les morts de persones civils en un concepte abstracte i tecnocràtic que redueix la responsabilitat moral i la resposta emocional de qui el llegeix o l'escolta",
+                "Reconeix que les baixes civils són un efecte no buscat de les operacions militars, cosa que és factual i lingüísticament legítima",
+                "Oculta deliberadament la informació sobre les baixes civils fent-les semblar menors del que realment eren"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. 'Dany col·lateral' és un exemple paradigmàtic de com el llenguatge tecnocràtic pot deshumanitzar realitats moralment greus. Substituint 'mort de civils innocents' per un terme que sona a avaria d'equipament, el terme elimina l'agència (ningú mata — hi ha 'dany'), elimina la humanitat de les víctimes (de persones a 'col·lateral'), i elimina la gravetat moral (de tragèdia a incident tècnic). No és simplement que amagui informació — és que transforma la naturalesa moral del fenomen. El filòsof del llenguatge J.L. Austin hauria dit que el terme no sols descriu: realitza una operació moral de distanciament.",
+              "feedbackWrong": "El terme 'dany col·lateral' no és precisió tècnica neutral ni simplement una descripció de l'efecte no buscat. És una operació lingüística que transforma deaths de persones en avaries d'equipament, eliminant la humanitat de les víctimes i la gravetat moral de l'acte. La distinció entre descripció factual i eufemisme manipulador no depèn de si la informació és tècnicament correcta — depèn de l'efecte que el terme produeix en la percepció moral del fenomen."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-01-02",
+              "style": "true-false",
+              "question": "El 'llenguatge políticament correcte' — usar 'persona sense llar' en lloc de 'vagabund', 'persona amb discapacitat' en lloc de 'minusvàlid' — és principalment una qüestió d'educació social sense efectes reals sobre la manera com les persones perceben i tracten els grups descrits.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La investigació empírica mostra que les etiquetes lingüístiques afecten mesurablament les actituds i els comportaments envers els grups descrits. Estudis experimentals han demostrat que les persones descrits com a 'criminals' generen respostes punitives més fortes que les mateixes persones descrites com a 'persones que han comès un delicte'. El canvi de 'minusvàlid' (que literalment significa 'de menys valor') a 'persona amb discapacitat' no és simplement cortesia — és un canvi que desplaça l'atenció de la deficiència inherent a la persona cap a la discapacitat com a característica en un context específic. El llenguatge no és la solució als problemes de discriminació, però les etiquetes que usem configuren les percepcions que els sostenen.",
+              "feedbackWrong": "Les etiquetes lingüístiques no són neutres respecte a les actituds i comportaments. Dècades d'investigació en psicologia social mostren que els termes usats per descriure grups afecten mesurablament com aquells grups són percebuts i tractats. El debat sobre el 'llenguatge políticament correcte' és en part un debat sobre si reconeixem o no aquest efecte real."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fl-01-01",
+              "question": "Si les paraules que triem per descriure la realitat la configuren inevitablement, és possible una comunicació honesta? O tota comunicació és inevitablement una forma de persuasió?",
+              "options": [
+                "Tota comunicació és persuasió: no existeix el punt de vista des de cap lloc, i qualsevol descripció implica un marc que fa certes interpretacions més probables que altres",
+                "La comunicació honesta és possible: la diferència entre descripció i persuasió és real, i consisteix en la transparència sobre el marc que s'usa i la disposició a revisar-lo",
+                "La distinció és de grau, no de naturalesa: tota comunicació té elements persuasius, però hi ha diferències significatives entre comunicació que intenta ser transparent sobre les seves limitacions i comunicació dissenyada per manipular"
+              ],
+              "correct": 2,
+              "explanation": "El relativisme lingüístic total — que tota comunicació és persuasió i cap descripció és més honesta que una altra — és intel·lectualment insostenible perquè s'autodestrueix: si fos cert, tampoc l'afirmació 'tota comunicació és persuasió' seria més que una estratègia retòrica. Però l'ingenuisme que ignora la dimensió configuradora del llenguatge és igualment inadequat. La posició més defensable reconeix que tota comunicació porta marcs conceptuals inevitables, i que la diferència entre comunicació honesta i manipuladora no és l'absència de marcs sinó la transparència sobre ells, la disposició a qüestionar-los, i l'absència d'intenció d'explotar les seves limitacions. Un periodista honest no usa 'terrorista' i 'lluitador per la llibertat' per al mateix actor sense reconèixer la càrrega dels termes. Un manipulador tria el terme que maximitza l'efecte emocional buscat i no qüestiona mai el seu propi marc."
+            }
+          ]
+        },
+
+        {
+          "id": "fl-02",
+          "title": "Wittgenstein: Els Límits del Meu Llenguatge són els Límits del Meu Món",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Ludwig Wittgenstein va escriure dues filosofies completament oposades en la mateixa vida. La primera, el Tractatus Logico-Philosophicus (1921), deia que el llenguatge és una figura de la realitat: les proposicions amb sentit representen fets del món, i tot el que no es pot dir clarament cal guardar silenci. La segona, les Investigacions Filosòfiques (publicades pòstumament el 1953), deia que la primera s'equivocava completament: el llenguatge no representa fets — és una pràctica social, un conjunt de 'jocs de llenguatge' els significats dels quals depenen del seu ús en contextos específics. Wittgenstein va passar trenta anys desmentint-se a si mateix. Va ser el filòsof més honest del segle XX."
+            },
+            {
+              "type": "key-idea",
+              "text": "La idea dels 'jocs de llenguatge' de Wittgenstein és deceptivament simple: el significat d'una paraula no és una essència abstracta que la paraula 'representa' — és el seu ús en una forma de vida concreta. 'Joc' vol dir moltes coses en molts contextos, i no hi ha cap característica que tots els jocs comparteixin. Buscar l'essència del 'joc' és un error filosòfic. Buscar l'ús és la resposta correcta."
+            },
+            {
+              "type": "expandable",
+              "label": "Per quina raó Wittgenstein creia que la majoria dels problemes filosòfics són errors lingüístics",
+              "content": "Una de les afirmacions més provocadores de Wittgenstein és que la majoria dels problemes filosòfics clàssics — la naturalesa de la ment, la llibertat de la voluntat, l'existència de Déu — no són problemes genuïns que esperen una solució sinó confusions lingüístiques que esperen una dissolució. Les paraules com 'ment', 'voluntat' o 'consciència' semblen designar entitats misterioses perquè les traiem del seu context quotidià d'ús i les coloquem en contextos filosòfics on ja no funcionen. El 'problema ment-cos' sorgeix quan preguntem 'on és la ment?' com si la ment fos un objecte localitzable, igual que preguntem 'on és el cotxe?'. Quan entenem que 'ment' és una paraula que usem en contextos específics per fer coses específiques — i no el nom d'una entitat misteriosa — el problema es dissol. Wittgenstein no pretenia resoldre els problemes filosòfics: pretenia mostrar que eren mosques atrapades en una ampolla, i que la solució era mostrar-los la sortida."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-02-01",
+              "style": "multiple-choice",
+              "question": "Wittgenstein va formular el 'paradox del seguiment de regles': quan segueixo la regla de sumar, com sé que estic fent el mateix que feia abans? No hi ha cap regla que em digui com interpretar la regla anterior. Quina implicació té aquest argument per al debat sobre si les màquines poden 'entendre' el llenguatge?",
+              "options": [
+                "Cap: les màquines processen símbols de manera diferent als humans però l'efecte és equivalent i la distinció és irrellevant",
+                "Que una màquina que aplica regles sintàctiques no 'entén' en el sentit que implica estar inserit en una forma de vida que dóna context a l'ús de les regles — pot generar outputs correctes sense comprensió genuïna",
+                "Que els humans tampoc no 'entenen' realment el llenguatge en cap sentit profund, de manera que la comparació amb les màquines és irrellevant",
+                "Que el seguiment de regles és el mecanisme de la comprensió, tant en humans com en màquines"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'argument de Wittgenstein sobre el seguiment de regles suggereix que la comprensió lingüística no és simplement l'aplicació correcta de regles sintàctiques i semàntiques — és estar inserit en una forma de vida que dóna context a l'ús d'aquelles regles. Una màquina pot generar una resposta lingüísticament correcta sense tenir cap accés a la xarxa de pràctiques socials, experiències corporals i formes de vida que donen significat als termes que processa. John Searle va formalitzar aquest argument en l'experiment mental de la 'sala xinesa': un sistema que manipula símbols correctament no 'entén' els símbols en cap sentit rellevant.",
+              "feedbackWrong": "L'argument de Wittgenstein sobre el seguiment de regles apunta directament al debat sobre la comprensió en les màquines: si comprendre no és simplement aplicar regles sinó estar inserit en formes de vida que donen context a les regles, una màquina que processa símbols sense aquell context no comprèn, per molt correctes que siguin els seus outputs."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-02-02",
+              "style": "detect-error",
+              "statement": "El segon Wittgenstein va concloure que com que els significats depenen de l'ús i l'ús varia entre contextos i comunitats, el relativisme lingüístic és inevitable: no hi ha manera d'establir que una forma de parlar és més correcta que una altra.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta lectura sobreestima el relativisme de Wittgenstein. Cert que Wittgenstein va insistir que els significats depenen de l'ús en formes de vida concretes, i que no hi ha un 'llenguatge ideal' o un 'significat essencial' darrere dels usos particulars. Però Wittgenstein no era un relativista que considerés tots els jocs de llenguatge igualment vàlids per a qualsevol propòsit. Dins de cada joc de llenguatge, hi ha criteris d'ús correcte i incorrecte: puc equivocar-me en el meu ús del terme 'dolor' o 'joc' en relació als usos establerts en la meva comunitat lingüística. El que Wittgenstein negava era la possibilitat d'un punt de vista extern a tots els jocs de llenguatge des del qual jutjar-los tots. Però dins de cada joc, els criteris d'ús correcte existeixen i funcionen. El seu pensament és menys relativista del que sovint es presenta."
+            },
+            {
+              "type": "quote",
+              "text": "Els límits del meu llenguatge són els límits del meu món.",
+              "author": "Ludwig Wittgenstein, Tractatus Logico-Philosophicus, 1921"
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fl-02-01",
+              "question": "Si el significat és ús i l'ús varia entre comunitats, com podem comunicar-nos significativament amb persones de cultures i formes de vida molt diferents?",
+              "options": [
+                "No podem completament: la comprensió profunda entre cultures radicalment diferents és impossible, i la traducció és sempre una traïció",
+                "Podem perfectament: el llenguatge humà té estructures universals (gramàtica universal de Chomsky) que garanteixen la comunicabilitat transcultural",
+                "Podem parcialment i amb esforç: la comunicació transcultural és possible però requereix aprendre les formes de vida que donen context als termes, no simplement aprendre les correspondències de vocabulari"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre la traducibilitat i la comprensió transcultural és un dels més antics i fèrtils de la filosofia del llenguatge. La posició de la incommensurabilitat total (Whorf en la seva versió forta, alguns postcolonialistes) és empíricament refutada pel fet que la traducció existeix i funciona, que els antropòlegs aprenen cultures radicalment diferents, i que les persones canvien de cultura i aprenen a funcionar-hi. La posició del universalisme fort (Chomsky) captura una veritat — les estructures gramaticals profundes mostren regularitats transculturals — però no garanteix la comprensió semàntica i pragmàtica profunda que va més enllà de la sintaxi. La posició més defensable és la del 'principi de caritat' de Donald Davidson: quan interpretem el discurs d'altri, assumim que maximitza la racionalitat i la coherència, i aquella assumpció ens permet trobar punts de contacte fins i tot entre formes de vida molt diferents. La comprensió transcultural és possible però parcial, provisional i requereix un esforç actiu d'interpretació que mai és complet."
+            }
+          ]
+        },
+
+        {
+          "id": "fl-03",
+          "title": "Austin i Searle: Quan Parlar és Fer Coses",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1955, el filòsof J.L. Austin va pronunciar una conferència a Harvard que canviaria la filosofia del llenguatge: 'How to Do Things with Words'. El seu argument de partida era simple: fins aleshores, els filòsofs havien assumit que el propòsit del llenguatge era descriure fets del món (veritat o falsedat). Però Austin va observar que moltes frases no descriuen res — fan coses. 'Prometo tornar-te els diners' no descriu una promesa: és la promesa. 'Et declaro marit i muller' no descriu un matrimoni: el crea. 'T'ordeno que t'aturis' no descriu una ordre: és l'ordre. El llenguatge no sols representa el món — l'executa."
+            },
+            {
+              "type": "key-idea",
+              "text": "Austin va distingir tres dimensions de tot acte de parla: la locució (el que es diu), la il·locució (el que es fa en dir-ho: prometre, ordenar, declarar, advertir) i la perlocució (l'efecte que produeix en l'oient). Quan el jutge diu 'et condemno a deu anys de presó', la sentència no descriu un fet — el crea. Quan el president declara la guerra, el món canvia. El poder no és simplement físic: és lingüístic."
+            },
+            {
+              "type": "expandable",
+              "label": "La teoria dels actes de parla i el dret: per quina raó les paraules creen obligacions jurídiques",
+              "content": "La teoria dels actes de parla d'Austin i Searle ha tingut un impacte profund en la teoria jurídica, perquè el dret és en gran mesura un sistema d'actes de parla institucionals. Quan un parlament aprova una llei, quan un jutge dicta sentència, quan dos contractants signen un acord, quan un funcionari notarial certifica un document: en tots els casos, les paraules no descriuen una realitat prèvia sinó que la creen. Searle va anomenar aquests 'fets institucionals' — realitats que existeixen perquè un grup humà ha establert que certes paraules pronunciades en certs contextos per certes persones autoritzades creen determinades realitats. El diner, la propietat, el matrimoni, la ciutadania: tots són fets institucionals creats i mantinguts per actes de parla col·lectivament acceptats. Si tothom deixés de creure en ells i d'actuar en conseqüència, desapareixerien. La realitat social és sorprenentment fràgil i sorprenentment dependent del llenguatge."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-03-01",
+              "style": "multiple-choice",
+              "question": "El president d'un país declara públicament: 'Afirmo que aquest territori ha estat sempre part del nostre país i que els habitants que hi viuen ens han demanat protecció.' Quins actes de parla il·locutoris realitza simultàniament aquesta afirmació?",
+              "options": [
+                "Únicament una asserció: el president afirma un fet que pot ser vertader o fals",
+                "Una asserció (afirma un fet), una legitimació (justifica una acció futura) i una amenaça implícita (anuncia una intenció d'actuar)",
+                "Una promesa al poble que descriu i una advertència als estats veïns",
+                "Una declaració de guerra i una apel·lació al dret internacional"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La declaració presidencial és un exemple paradigmàtic de la complexitat il·locutòria del discurs polític: fa simultàniament múltiples actes de parla. Afirma fets (veritat o falsedat discutible), estableix un marc de legitimitat per a una acció futura (l'annexió o la intervenció es presenta com a resposta a una situació prèvia, no com a agressió), i implica una intenció d'actuar que funciona com a advertència o amenaça. La retòrica política rarament fa un sol acte de parla — empaqueta múltiples il·locucions en una sola enunciació, de manera que és difícil contestar una sense aparentment contestar les altres.",
+              "feedbackWrong": "La declaració presidencial no és simplement una asserció factual ni simplement una declaració de guerra. La seva complexitat il·locutòria és precisament el que la fa políticament poderosa: combina l'aparença d'una descripció factual amb la funció de justificació anticipada d'una acció i la funció d'advertència. Separar les seves dimensions requereix exactament l'anàlisi dels actes de parla que Austin va proposar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-03-02",
+              "style": "true-false",
+              "question": "Segons la teoria dels actes de parla, una promesa feta amb els dits creuats darrere l'esquena no és una promesa real perquè la intenció sincera és una condició necessària per a la seva validesa.",
+              "correct": false,
+              "feedbackCorrect": "Fals, o almenys molt més complex. Searle va distingir entre les condicions de 'sinceritat' (la intenció genuïna) i les condicions 'essencials' (el reconeixement social de l'acte). Una promesa feta públicament crea obligacions socials i expectatives en l'altre independentment de la intenció interna del qui promet — el que Searle va anomenar l'aspecte 'institucional' dels actes de parla. El dret, per exemple, reconeix les obligacions contractuals independentment de si les parts eren 'sinceres' en el moment de signar, sempre que les condicions formals estiguessin completes. Els 'dits creuats' poden exonerar moralment el qui promet en la seva pròpia consciència, però no necessàriament davant dels altres ni davant de les institucions socials.",
+              "feedbackWrong": "La teoria dels actes de parla reconeix que les promeses creen obligacions socials independentment de la intenció interna del qui les fa, sempre que les condicions formals i contextuals estiguin completes. La sinceritat és una condició de l'acte de parla perfecte, però la seva absència no invalida automàticament les obligacions socials i institucionals que l'acte crea."
+            },
+            {
+              "type": "debate",
+              "question": "Les paraules d'odi — discurs que ataca persones per la seva raça, religió, orientació sexual o gènere — haurien de ser legalment prohibides o protegides com a llibertat d'expressió?",
+              "positionA": {
+                "label": "Prohibides — les paraules fan dany real",
+                "argument": "La teoria dels actes de parla demostra que les paraules no sols descriuen — fan coses. El discurs d'odi no és simplement una opinió desagradable: és un acte que degrada, amenaça i deshumanitza les persones a qui s'adreça, amb efectes psicològics documentats sobre les víctimes i efectes socials documentats sobre la normalització de la violència. La llibertat d'expressió no pot protegir actes que danyen directament persones identificables."
+              },
+              "positionB": {
+                "label": "Protegit — la censura és pitjor que el dany",
+                "argument": "Donar a l'estat el poder de definir quin discurs és permès és sempre més perillós que el dany que es vol prevenir. La història mostra que les lleis contra el discurs d'odi s'apliquen desproporcionadament contra les mateixes minories que pretenen protegir. La solució al discurs d'odi no és la prohibició — és el contradiscurs: més paraules, no menys. La llibertat d'expressió és indivisible: o protegeixes el discurs que detestes o no protegeixes res."
+              },
+              "reflection": "Pensa en una paraula o expressió que t'hagi ferit genuïnament. Creus que hauria d'estar prohibida? I si la persona que la va dir argumenta que era simplement la seva opinió?",
+              "context": "El debat legal sobre el discurs d'odi divideix les democràcies occidentals. La majoria dels països europeus tenen lleis que el restringeixen en certs contextos. Els Estats Units protegeix gairebé tot el discurs d'odi sota la Primera Esmena. Les plataformes digitals han creat un tercer espai que no segueix ni un model ni l'altre. Cap sistema ha resolt satisfactòriament la tensió."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fl-03-01",
+              "question": "Si el poder polític es crea i es manté en part a través d'actes de parla institucionals, pot el canvi del vocabulari polític canviar les relacions de poder reals?",
+              "options": [
+                "Sí — canviar el vocabulari canvia els marcs conceptuals i per tant les percepcions i les possibilitats d'acció política",
+                "No — el vocabulari és un reflex de les relacions de poder materials, i canviar les paraules sense canviar les estructures és simplement cosmètica",
+                "Parcialment: el vocabulari és simultàniament producte i condició de les relacions de poder — canviar-lo pot crear possibilitats noves però no substitueix els canvis estructurals"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre la relació entre canvi lingüístic i canvi social és un dels més antics de la teoria política i la filosofia del llenguatge. Les posicions extremes cauen en trampes simètriques. La que diu que canviar el vocabulari canvia el poder ignora que les paraules noves es buiden ràpidament si no van acompanyades de canvis en les pràctiques i les estructures: dir 'persona sense llar' en lloc de 'vagabund' no resol el problema de l'habitatge. La que diu que el vocabulari és simplement un reflex del poder material ignora que les categories lingüístiques creen possibilitats d'acció: el moviment feminista va demostrar que nomenar el 'assetjament sexual' va crear la possibilitat de denunciar-lo, perseguir-lo legalment i canviar les normes laborals. Sense el nom, l'experiència existia però era invisible i incontestable. El vocabulari no canvia el món sol, però és una condició per al canvi: no es pot contestar el que no es pot nomenar."
+            }
+          ]
+        },
+
+        {
+          "id": "fl-04",
+          "title": "Propaganda i Manipulació: Com el Llenguatge Destrueix el Pensament",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1946, George Orwell va publicar l'assaig 'Politics and the English Language'. El seu argument era que el pensament polític corrupte produeix un llenguatge corrupte, i que el llenguatge corrupte fa possible continuar pensant de manera corrupta. Cada eufemisme, cada abstracció buida, cada metàfora morta permet a qui el usa no pensar en el que realment està dient. 'Pacificació de poblats' és més fàcil de dir que 'bombardejar cases i matar els seus habitants'. No perquè el primer sigui mentida i el segon veritat — sinó perquè el primer no deixa veure res."
+            },
+            {
+              "type": "key-idea",
+              "text": "La propaganda moderna no funciona principalment dient falsedats — funciona destruint la capacitat de pensar clarament. Les tècniques clàssiques inclouen: la sobrecàrrega d'informació (que no permet distingir el important del trivial), la repetició d'afirmacions simples fins que semblen evidents, l'ús d'abstraccions que no es poden verificar, i la creació d'un enemic que organitza tota la percepció en termes d'amic/enemic. El resultat no és que la gent cregui les mentides del règim: és que la gent deixa de creure en la possibilitat de la veritat."
+            },
+            {
+              "type": "misconception",
+              "belief": "La propaganda és un fenomen dels règims totalitaris del passat. Les democràcies liberals amb llibertat de premsa estan protegides de la manipulació sistemàtica del llenguatge polític.",
+              "reality": "Les tècniques de manipulació del llenguatge polític operen en totes les societats amb qualsevol nivell de llibertat de premsa. La diferència entre la propaganda totalitària i la manipulació en democràcia no és de naturalesa sinó de grau i de la possibilitat de contestació. Les relacions públiques, el màrqueting polític, la gestió de la narrativa mediàtica i les xarxes socials han creat formes de manipulació sofisticades que no requereixen cap censura formal.",
+              "why": "Identificar la propaganda exclusivament amb els règims totalitaris és convenientment tranquil·litzador: situa el problema en altres llocs i altres temps, i impedeix l'anàlisi crític del propi entorn discursiu."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-04-01",
+              "style": "multiple-choice",
+              "question": "Hannah Arendt va analitzar la propaganda totalitària i va concloure que el seu objectiu no era convèncer la gent que les mentides eren certes, sinó crear un estat en que la distinció entre veritat i mentida deixés de ser operativa. Quin fenomen contemporani il·lustra millor aquesta tesi?",
+              "options": [
+                "La desinformació sobre vacunes, que difon falsedats específiques que contrediu l'evidència científica",
+                "La proliferació de notícies falses en les xarxes socials, que fa que la gent no sàpiga quines fonts fiar-se i deixi de buscar la veritat com a criteri de judici",
+                "La publicitat política, que presenta els candidats de manera favorable ignorant els seus defectes",
+                "Els errors factuals dels polítics, que erosionen la confiança en les institucions"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'argument d'Arendt apunta precisament a l'erosió de la distinció veritat/mentida com a criteri, no simplement a la difusió de falsedats concretes. La proliferación de notícies falses i la desconfiança generalitzada en totes les fonts — l'estat en que 'tothom menteix' i per tant ningú pot dir la veritat — és el fenomen que Arendt identificaria com a propaganda en el seu sentit més profund: no cal que la gent cregui en res específic; n'hi ha prou que deixi de creure que la distinció entre veritat i mentida importa. És l'estat que Arendt va anomenar 'desolació' — la preparació psicològica per al totalitarisme.",
+              "feedbackWrong": "La desinformació sobre vacunes, la publicitat i els errors factuals difonen falsedats concretes, però el fenomen que Arendt identificaria com a propaganda en el sentit més profund és la creació d'un estat en que la distinció veritat/mentida deixa de ser operativa. No és que la gent cregui falsedats específiques — és que deixa de creure que la veritat és assolible o que importa buscar-la."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-04-02",
+              "style": "detect-error",
+              "statement": "La millor defensa contra la propaganda és l'educació en el pensament crític: una persona que sap pensar clarament és immune a la manipulació lingüística.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta afirmació sobreestima la protecció que proporciona el pensament crític formal. La investigació empírica mostra que les persones amb alta formació acadèmica no són significativament menys susceptibles als biaixos cognitius i a les tècniques de manipulació que les persones amb menys formació. En alguns casos, la intel·ligència permet racionalitzar millor les posicions prejutjades. Jonathan Haidt ha documentat que el raonament moral és sovint 'raonament motivat' — una cerca de justificacions per a conclusions que ja hem adoptat emocionalment. La propagand efectiva opera precisament sobre els biaixos cognitius que el pensament crític formal no elimina: la confirmació selectiva, la heurística de la disponibilitat, el pensament en grup, la desconfiança envers els experts. El pensament crític és necessari però no suficient: cal acompanyar-lo d'autoconeixement sobre els propis biaixos i d'institucions socials que facin difícil la manipulació a escala."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "The Art of Reasoning: How Arguments Fail",
+              "moduleEmoji": "🧠",
+              "concept": "Fal·làcies, manipulació retòrica i propaganda",
+              "text": "Les tècniques de manipulació lingüística que estudiem aquí connecten directament amb les fal·làcies lògiques del mòdul de raonament: l'apel·lació a l'emoció, l'home de palla, l'ad hominem i la falsa dicotomia són tècniques que operen simultàniament com a errors de raonament i com a estratègies retòriques de manipulació. Reconèixer les fal·làcies és una condició necessària per resistir la manipulació lingüística."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fl-04-01",
+              "question": "Les plataformes digitals amplifiquen sistemàticament el contingut que genera més reacció emocional, independentment de la seva veracitat. Tenen responsabilitat moral en la degradació del discurs públic?",
+              "options": [
+                "No — les plataformes són intermediaris neutrals que reflecteixen les preferències dels usuaris. La responsabilitat és dels usuaris que consumeixen i difonen el contingut",
+                "Sí — les plataformes dissenyen activament els algoritmes que determinen quin contingut es veu, i aquelles decisions de disseny tenen conseqüències morals previsibles sobre el discurs públic",
+                "Parcialment: les plataformes tenen responsabilitat en el disseny dels seus sistemes, però atribuir-los responsabilitat total ignora que amplifiquen tendències cognitives i socials preexistents que existirien sense elles"
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre la responsabilitat de les plataformes digitals en la degradació del discurs públic és un dels més urgents de l'ètica contemporània. La posició de la neutralitat dels intermediaris — que les plataformes simplement reflecteixen les preferències dels usuaris — és insostenible: les plataformes dissenyen activament els algoritmes que determinen quin contingut guanya visibilitat, i aquelles decisions de disseny no són neutres. Optimitzar per a l'engagement emocional és una decisió que té conseqüències previsibles sobre la qualitat del discurs. Però atribuir tota la responsabilitat a les plataformes ignora que amplifiquen biaixos cognitius (la preferència per la informació que confirma les creences, la reactivitat a la indignació) que existien molt abans de les xarxes socials. La qüestió moral rellevant no és si les plataformes causen tots els problemes del discurs públic, sinó si les seves decisions de disseny i de moderació dels continguts es prenen amb la consideració adequada de les seves conseqüències socials previsibles — i l'evidència disponible suggereix que sovint no."
+            }
+          ]
+        },
+
+        {
+          "id": "fl-05",
+          "title": "El Llenguatge del Dret: Quan les Paraules Creen Obligacions",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2015, el Tribunal Suprem dels Estats Units va decidir el cas Obergefell v. Hodges, que va legalitzar el matrimoni entre persones del mateix sexe en tot el país. La decisió va girar en part sobre una pregunta lingüística: quan la Constitució diu que totes les persones tenen dret a la 'llibertat' i a la 'igualtat de protecció de les lleis', inclou el dret a casar-se amb qui es vulgui? El significat de dues paraules escrites el 1868 va canviar la vida de milions de persones el 2015. El dret és, en molts sentits, una disputa permanent sobre el significat de les paraules."
+            },
+            {
+              "type": "key-idea",
+              "text": "La interpretació jurídica és un cas extrem del problema general de la filosofia del llenguatge: les paraules de les lleis i les constitucions han de ser interpretades en contextos que els seus autors no podien preveure. L'originalisme (les paraules signifiquen el que significaven quan es van escriure) i el constitucionalisme evolutiu (les paraules evolucionen amb la societat) representen dues filosofies del llenguatge aplicades al dret, amb conseqüències polítiques enormes."
+            },
+            {
+              "type": "expandable",
+              "label": "La vaguesa jurídica: per quina raó les lleis mai diuen exactament el que sembla que diuen",
+              "content": "Tota llei és inevitablement vaga en algun grau: les paraules del legislador han de ser aplicades a situacions concretes que el legislador no havia imaginat. El filòsof del dret H.L.A. Hart va analitzar aquesta vaguesa amb el seu exemple del 'vehicle prohibit al parc': una ordenança que prohibeix 'vehicles' al parc és clara per als cotxes, però qué passa amb una bicicleta? Uns patins? Un cotxet de bebè? Un vehicle de la policia en cas d'emergència? Una replica de museu d'un cotxe antic? Cap d'aquests casos és clarament 'vehicle' o clarament 'no vehicle' — es troben en la 'zona de penombra' del terme. Hart argumentava que la vaguesa és inevitable en el llenguatge natural i que els jutges, en els casos difícils, no 'apliquen' simplement la llei sinó que la 'creen' parcialment interpretant-la. Ronald Dworkin va respondre que els jutges no creen llei discrecionalment: apliquen principis morals implícits en el sistema jurídic. La disputa entre Hart i Dworkin és la disputa central de la filosofia del dret del segle XX — i gira completament al voltant de la filosofia del llenguatge."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-05-01",
+              "style": "multiple-choice",
+              "question": "L'article 3 de la Constitució espanyola diu que 'el castellà és la llengua espanyola oficial de l'Estat. Tots els espanyols tenen el deure de conèixer-la i el dret d'usar-la'. El Tribunal Constitucional ha hagut d'interpretar repetidament si 'deure de conèixer' implica l'obligació d'usar-la en determinats contextos, o simplement pressuposa que els ciutadans la coneixeran. Quin aspecte de la filosofia del llenguatge il·lustra aquest debat?",
+              "options": [
+                "La distinció entre connotació i denotació: 'deure' denota obligació però conota valors culturals que varien entre comunitats",
+                "La vaguesa inherent al llenguatge natural: el terme 'deure' té un nucli clar (obligació legal exigible) i una zona de penombra (expectativa cultural no exigible) que requereix interpretació judicial",
+                "La teoria dels actes de parla: el legislador va realitzar un acte il·locutori d'imposició que crea una obligació independent del seu significat literal",
+                "El problema de la traducció: el terme castellà 'deber' no té equivalent exacte en les altres llengües cooficials i per tant la seva interpretació varia"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El cas del 'deure de conèixer' el castellà il·lustra perfectament la vaguesa inherent al llenguatge jurídic que Hart va analitzar. 'Deure' té un nucli semàntic clar en contextos jurídics (obligació legalment exigible i sancionable), però el seu ús en la Constitució crea una zona de penombra: és un deure en el sentit d'obligació legal exigible o en el sentit d'expectativa normativa no exigible? Cap de les dues lectures és lingüísticament incorrecta, i la decisió sobre quina s'aplica requereix interpretació judicial que va més enllà del significat literal del terme.",
+              "feedbackWrong": "El debat sobre el 'deure de conèixer' no és principalment sobre connotació/denotació ni sobre traducció. Il·lustra la vaguesa inherent al llenguatge jurídic: el terme 'deure' té un nucli semàntic relativament clar i una zona de penombra que requereix interpretació. És exactament el cas que Hart il·lustrava amb el 'vehicle al parc'."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-05-02",
+              "style": "true-false",
+              "question": "L'originalisme jurídic — la posició que les paraules constitucionals signifiquen el que significaven per als seus autors originals — és la forma d'interpretació més objectiva perquè elimina la discrecionalitat judicial.",
+              "correct": false,
+              "feedbackCorrect": "Fals. L'originalisme pretén eliminar la discrecionalitat judicial apel·lant al significat original, però crea una discrecionalitat diferent: la d'establir quin era aquell significat original. Determinar el 'significat original' requereix investigació historiogràfica complexa, decisions sobre quines fonts considerar autoritzatives (els autors del text? els ratificadors? l'ús comú de l'època?), i interpretació de textos i contextos que no sempre apunten en la mateixa direcció. A més, fins i tot si es pogués establir amb certesa el significat original, caldria decidir si aquell significat s'aplica a situacions que els autors no podien preveure (internet, armes automàtiques, matrimoni homosexual). L'originalisme no elimina la discrecionalitat judicial — la desplaça.",
+              "feedbackWrong": "L'originalisme no elimina la discrecionalitat judicial — la desplaça cap a decisions sobre quin era el 'significat original' i com s'aplica a situacions imprevistes. Establir el significat original és en si mateix un procés interpretatiu complex i controvertit, i aplicar-lo a contextos nous requereix decisions que no estan determinades per aquell significat original."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fl-05-01",
+              "question": "Si les paraules de les lleis i les constitucions requereixen interpretació que va més allà del seu significat literal, és el dret en última instància una qüestió de poder (els jutges decideixen el que volen) o de principis (els jutges apliquen principis morals implícits en el sistema jurídic)?",
+              "options": [
+                "Poder: el dret és ideologia disfressada de tècnica, i les decisions judicials reflecteixen els valors i els interessos dels grups socials que controlen el sistema judicial",
+                "Principis: el dret és un sistema coherent de principis morals que els jutges descobreixen i apliquen, independent dels seus valors personals",
+                "La tensió entre els dos és constitutiva del dret: les decisions judicials no són ni purament arbitràries ni purament mecàniques, i la legitimitat del sistema depèn de mantenir la tensió i no resoldre-la en cap dels dos extrems"
+              ],
+              "correct": 2,
+              "explanation": "El debat entre el realisme jurídic (el dret és política) i el formalisme (el dret és un sistema autònom de principis) és un dels més llargs i fèrtils de la filosofia del dret, i cap de les dues posicions extremes és satisfactòria. El realisme pur que redueix el dret a poder ignora que els sistemes jurídics produeixen resultats consistents i predictibles que van molt més allà de les preferències personals dels jutges individuals — i que quan no ho fan, es percep com una patologia, no com la norma. El formalisme pur que tracta el dret com a sistema de principis totalment autònom ignora que les decisions judicials en casos difícils requereixen judicis valoratius que no estan predeterminats per les regles. La posició de Dworkin — que els jutges apliquen la 'resposta correcta' que el sistema jurídic conté implícitament — és atractiva però optimista: pressuposa una coherència moral del dret que no sempre existeix. La resposta més honesta és que el dret és un espai de tensió entre regles, principis i poder, i que la seva legitimitat depèn de la qualitat dels arguments que mantenen viva aquella tensió."
+            }
+          ]
+        },
+
+        {
+          "id": "fl-06",
+          "title": "El Futur del Llenguatge: IA, Traducció i la Torre de Babel Digital",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 2022, els sistemes de traducció automàtica neural van assolir per primera vegada un rendiment comparable al dels traductors humans en molts parells de llengua. El 2023, els models de llenguatge de gran escala com GPT-4 van demostrar la capacitat de generar text indistingible del produït per humans en la majoria de contextos. Dues preguntes que la filosofia del llenguatge porta segles debatent han adquirit urgència pràctica: les màquines entenen el que diuen? I si no entenen però produeixen text equivalent al dels humans que sí entenen, fa alguna diferència?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Els models de llenguatge de gran escala plantegen la pregunta de Wittgenstein en termes pràctics: si el significat és ús, i un sistema produeix un ús lingüístic indistingible del dels parlants humans competents, té sentit negar-li comprensió? O la comprensió requereix alguna cosa més que el domini del sistema de signes — un cos, una forma de vida, una experiència del món?"
+            },
+            {
+              "type": "misconception",
+              "belief": "Els models de llenguatge com GPT 'entenen' el que diuen perquè produeixen respostes coherents, contextuals i informades sobre qualsevol tema.",
+              "reality": "Els models de llenguatge produeixen text que és estadísticament coherent amb les seves dades d'entrenament, però no tenen accés a la realitat que els termes descriuen. Quan un model descriu la sensació de menjar una taronja, no ho fa perquè hagi menjat mai una taronja — ho fa perquè ha processat milions de descripcions humanes de la sensació. La diferència entre processar descripcions d'una experiència i tenir l'experiència és exactament el que la filosofia del llenguatge porta segles analitzant.",
+              "why": "La impressió de 'comprensió' que produeixen els models de llenguatge és el resultat de la seva fluïdesa generativa, que activa en els humans la tendència a atribuir ment a qualsevol sistema que produeix outputs lingüístics coherents. És una forma actualitzada de l'error que Wittgenstein va intentar corregir: confondre el domini del joc de signes amb la comprensió del que els signes signifiquen."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-06-01",
+              "style": "multiple-choice",
+              "question": "John Searle va proposar l'experiment mental de la 'sala xinesa': una persona tancada en una sala rep caràcters xinesos, segueix regles per manipular-los i produeix outputs en xinès indistingibles dels d'un parlant natiu, sense entendre ni una sola paraula de xinès. Quin és el punt central d'aquest argument?",
+              "options": [
+                "Que els humans són incapaços d'aprendre idiomes sense comprensió prèvia del seu sistema cultural",
+                "Que la manipulació sintàctica correcta de símbols no és equivalent a la comprensió semàntica: el sistema produeix outputs correctes sense que cap element del sistema entengui res",
+                "Que la intel·ligència artificial mai podrà superar la intel·ligència humana perquè li falta creativitat",
+                "Que la comunicació entre cultures és impossible sense traducció humana mediadora"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La sala xinesa de Searle és un dels arguments més debatuts de la filosofia de la ment i del llenguatge: si un sistema (la persona + les regles + les instruccions) produeix outputs lingüístics correctes sense que cap element del sistema tingui comprensió semàntica, la manipulació sintàctica correcta no és suficient per a la comprensió. Aplicat als models de llenguatge actuals: que un model produeixi text correcte sobre qualsevol tema no implica que 'entengui' en cap sentit que impliqui accés a la realitat que els termes representen. Els crítics de l'argument diuen que la 'sala xinesa' en conjunt sí entén, fins i tot si cap part individual ho fa — el debat continua obert.",
+              "feedbackWrong": "La sala xinesa no tracta sobre les capacitats comparades d'humans i màquines ni sobre la comunicació transcultural. Il·lustra la distinció entre sintaxi (manipulació correcta de símbols) i semàntica (comprensió del que els símbols signifiquen): un sistema pot ser sintàcticament perfecte sense tenir comprensió semàntica en cap sentit que impliqui accés a la realitat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-fl-06-02",
+              "style": "detect-error",
+              "statement": "La traducció automàtica neural ha resolt el problema de la traducció: donat un text en una llengua, els sistemes actuals produeixen traduccions equivalents a les dels millors traductors humans en tots els contextos.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta afirmació sobreestima significativament les capacitats actuals de la traducció automàtica. Els sistemes neurals actuals produeixen traduccions de gran qualitat en contextos amb abundants dades d'entrenament (parells de llengua ben representats, gèneres textuals freqüents). Però fallen sistemàticament en contextos que requereixen comprensió cultural profunda (ironia, humor, referències culturals específiques), en parells de llengua poc representats en les dades d'entrenament, en textos especialitzats amb terminologia tècnica precisa, i en traduccions literàries on la forma és inseparable del contingut. La 'equivalència' amb traductors humans és parcialment certa en un rang limitat de contextos i completament falsa en d'altres. A més, els sistemes actuals 'al·lucinen' — produeixen traduccions fluïdes però factualment incorrectes — d'una manera que els traductors humans no fan sistemàticament."
+            },
+            {
+              "type": "reflection",
+              "question": "Has notat alguna vegada que una conversa en una llengua diferent de la teva primera llengua et fa pensar diferent — o que certs pensaments semblen més fàcils en una llengua que en una altra? Creus que el teu pensament estaria limitat si sols parlessis una llengua? I què perdries si les teves llengües desapareguessin?",
+              "prompt": "Wittgenstein deia que els límits del nostre llenguatge són els límits del nostre món. La teva experiència ho confirma?"
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-fl-06-01",
+              "question": "Si els models de llenguatge produeixen text indistingible del humà però sense comprensió genuïna, hauria de canviar-nos la manera com valorem el text humà? O la distinció entre comprensió i simulació de comprensió no importa si el resultat és el mateix?",
+              "options": [
+                "No hauria de canviar res: el valor d'un text reside en el seu contingut i efectes, independent de si va ser produït per un humà o per una màquina",
+                "Hauria de canviar-ho tot: si les màquines poden produir text equivalent, la producció lingüística humana perd el valor especial que li atribuíem",
+                "La pregunta revela que el que valorem en el text humà no era simplement el contingut sinó l'evidència d'una experiència, una perspectiva i una responsabilitat que els textos de les màquines no poden tenir — i reconèixer-ho canvia la manera com hauríem d'usar i atribuir els textos"
+              ],
+              "correct": 2,
+              "explanation": "La pregunta sobre el valor del text humà davant dels models de llenguatge és en realitat una pregunta sobre el que mai havíem articulat clarament: per quina raó valorem els textos que valorem. Si diem que valorem un poema de Celan per la seva bellesa formal i el seu contingut, i un model pot produir poemes formalment equivalents, el valor del poema de Celan hauria de ser independent de qui l'ha escrit. Però la majoria de persones sentim que no és així — i la filosofia del llenguatge ens ajuda a articular per quina raó. El que valorem en un text humà no és simplement el seu contingut, sinó l'evidència que conté d'una experiència viscuda, d'una perspectiva irrepetible, d'una responsabilitat del parlant envers el que diu. Un model no ha viscut el que descriu, no té perspectiva pròpia i no és responsable del que produeix. Aquelles dimensions no estan en el text — estan en la relació entre el text i qui l'ha produït. Reconèixer-ho no invalida els usos dels models de llenguatge, però sí que canvia la manera honesta de presentar-los i d'atribuir-los."
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

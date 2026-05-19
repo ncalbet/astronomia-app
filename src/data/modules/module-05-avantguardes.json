@@ -1,0 +1,567 @@
+{
+  "id": "module-05-avantguardes",
+  "title": "El segle XX I: Les avantguardes",
+  "emoji": "💥",
+  "phase": 1,
+  "unlockRequires": "module-04-naturalisme-simbolisme",
+  "itineraries": [
+    {
+      "id": "cronologic",
+      "title": "Itinerari Cronològic",
+      "icon": "🕰️",
+      "description": "De la crisi de la representació al Dadaisme, el Surrealisme, Kafka i les avantguardes catalanes: quan la literatura va decidir que el món necessitava un llenguatge nou",
+      "style": "Cronològic · de les avantguardes europees a la seva relació amb el poder",
+      "lessons": [
+
+        {
+          "id": "s20a-01",
+          "title": "Per què ho van trencar tot: el context de les avantguardes",
+          "blocks": [
+
+            {
+              "type": "narrative",
+              "text": "El 1914, un tret a Sarajevo desencadena la guerra més devastadora que Europa havia vist. Quatre anys després, deu milions de morts, el mapa d'Europa reescrit i una generació sencera convençuda que la civilització que havien heretat era una mentida. La mateixa civilització que havia produït Beethoven i Shakespeare havia produït el gas mostassa i les trinxeres del Somme. Alguna cosa havia fallat, i els artistes de la dècada de 1910 ho sabien. La pregunta no era si calia canviar l'art: era si tenia cap sentit continuar fent art tal com s'havia fet fins aleshores."
+            },
+
+            {
+              "type": "key-idea",
+              "text": "Les avantguardes no neixen d'un capritx estètic: neixen d'una crisi de confiança en la representació. Si el Realisme creia que la literatura podia mostrar el món tal com és, la Primera Guerra Mundial va demostrar que 'el món tal com és' incloïa horrors que cap realisme del XIX havia previst ni pogut descriure."
+            },
+
+            {
+              "type": "misconception",
+              "belief": "Les avantguardes artístiques van ser un moviment elitista i esotèric sense connexió amb la realitat social del seu temps.",
+              "reality": "Les avantguardes van néixer directament dels traumes socials més massius de la modernitat: la industrialització, la guerra total, la revolució bolxevic, l'ascens dels feixismes. El Dadaisme va néixer a Zuric com a reacció directa a la guerra. El Surrealisme va nàixer de la voluntat de transformar no sols l'art sinó la vida. El Futurisme va formular explícitament una política. Les avantguardes eren profundament, obsessivament polítiques.",
+              "why": "La ruptura formal —el collage, el vers lliure, la destrucció de la sintaxi— semblava incomprensible i arbitrària sense el context. Però cada ruptura formal era una resposta a una ruptura real en la manera de viure i de morir del segle XX."
+            },
+
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1909",
+                  "title": "Marinetti publica el Manifest Futurista",
+                  "text": "El primer gran manifest de les avantguardes. Celebra la velocitat, la màquina, la guerra i la destrucció del passat. 'Un cotxe de curses és més bonic que la Victòria de Samotràcia.' Comença l'era dels manifestos."
+                },
+                {
+                  "year": "1914-1918",
+                  "title": "Primera Guerra Mundial",
+                  "text": "Deu milions de morts. Gas mostassa, aviació de bombardeig, guerra de trinxeres. La 'civilització europea' que els artistes havien heretat s'autodevora. Les avantguardes son la resposta cultural a aquest trauma."
+                },
+                {
+                  "year": "1916",
+                  "title": "Fundació del Cabaret Voltaire a Zuric — el Dadaisme",
+                  "text": "Hugo Ball, Emmy Hennings i Tristan Tzara creen un espai de performance anàrquic i deliberadament absurd. El nom 'Dada' és escollit a l'atzar del diccionari. L'atzar com a mètode artístic contra la lògica que ha produït la guerra."
+                },
+                {
+                  "year": "1917",
+                  "title": "Revolució Russa",
+                  "text": "Les avantguardes russes — Constructivisme, Suprematisme — s'alineen amb la revolució. L'art pot canviar el món. La relació entre avantguarda artística i avantguarda política comença la seva trajectòria tràgica."
+                },
+                {
+                  "year": "1924",
+                  "title": "Breton publica el Primer Manifest Surrealista",
+                  "text": "El Surrealisme vol anar més lluny que el Dadaisme: no sols destruir l'ordre existent sinó substituir-lo per una realitat superior que integri el somni, l'inconscient i el desig. Freud com a inspiració; Marx com a horitzó polític."
+                }
+              ]
+            },
+
+            {
+              "type": "expandable",
+              "label": "Per què els artistes escrivien manifestos? La política de la forma literària",
+              "content": "Entre 1909 i 1930, es van publicar centenars de manifestos artístics. El manifest és un gènere polític —el Manifest Comunista de Marx i Engels era el model— adaptat a l'estètica. Declarava una ruptura, establia un programa, exigia adhesions. El manifest literari és en si mateix un gest avantguardista: en lloc de mostrar les noves idees en una obra, les proclama directament. Marinetti, Breton, Tzara, Bretón, Apollinaire — tots escrivien manifestos perquè la urgència del moment no admetia la paciència de la ficció. Calia dir ara i aquí: l'art vell ha mort, comença l'art nou. La ironia és que molts d'aquests manifestos han sobreviscut millor que les obres que proclamaven."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-01-01",
+              "style": "multiple-choice",
+              "question": "El poeta Wilfred Owen va escriure des de les trinxeres de la Primera Guerra Mundial sobre el gas mostassa i la mort dels soldats. Va acabar el poema 'Dulce et Decorum Est' citant el vers llatí 'És dolç i honorable morir per la pàtria' — i aplicant-li l'adjectiu 'la vella mentida'. Per quina raó aquest gest poètic és representatiu de la crisi cultural de les avantguardes?",
+              "options": [
+                "Perquè Owen rebutjava la tradició literària clàssica en favor d'un estil nou i experimental",
+                "Perquè usava el prestigi d'un vers clàssic per desmantellar-lo des de dins: la 'vella mentida' no era sols el vers de Horaci sinó tota la cultura que l'havia perpetuat i que havia enviat els soldats a morir",
+                "Perquè demostrava que la poesia podia tenir un efecte polític directe i immediat sobre l'opinió pública",
+                "Perquè Owen era pacifista i el poema expressava la seva oposició personal a la guerra"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Owen no rebutja la forma clàssica: la usa per trair-la des de dins. En citar Horaci per desmentir-lo, fa quelcom que tota una generació de poetes avantguardistes farà de maneres diverses: usar la tradició com a arma contra si mateixa. La 'vella mentida' no és sols un vers: és tot el sistema de valors — honor, pàtria, glòria— que havia justificat la guerra. La ruptura avantguardista no sempre és formal; de vegades és la tradició mateixa usada per qüestionar-se.",
+              "feedbackWrong": "Owen no era formalment experimental: escrivia en metres tradicionals. L'efecte polític directe és possible però no és el gest central. El pacifisme personal hi és però no és el que fa el poema literàriament potent. El gest central és la cita i el seu desmentiment: la tradició citada per ser enterrada."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-01-02",
+              "style": "true-false",
+              "question": "Les avantguardes artístiques del principi del segle XX van néixer principalment als grans centres culturals establerts — París, Londres, Viena — i des d'allà es van difondre a la perifèria.",
+              "correct": false,
+              "feedbackCorrect": "Fals, i la geografia real és significativa. El Dadaisme va néixer a Zuric — una capital neutral durant la guerra, plena de refugiats i desertors. El Futurisme va néixer a Milà, no a Roma. El Constructivisme rus va néixer a Moscou i Sant Petersburg, fora dels circuits parisencs. Les avantguardes catalanes van produir figures originals com Salvat-Papasseit des de Barcelona. La geografia de les avantguardes és descentralitzada i sovint perifèrica: els centres establerts tendien a conservar l'ordre, mentre que les perifèries i les ciutats en tensió produïen les ruptures.",
+              "feedbackWrong": "La geografia de les avantguardes és molt menys centralitzada del que sembla. París era important, però el Dadaisme va néixer a Zuric, el Futurisme a Milà, el Constructivisme a Rússia. Molts dels moments fundacionals van passar a llocs inesperats — i sovint la perifèria cultural va produir les ruptures que el centre no podia permetre's."
+            },
+
+            {
+              "type": "scientific-mode",
+              "id": "sci-s20a-01-01",
+              "question": "Les avantguardes creien que canviar la forma de l'art podia canviar la manera de veure el món — i per tant el món mateix. Cent anys després, podem avaluar si tenien raó. L'art avantguardista ha canviat com vivim?",
+              "options": [
+                "Sí: el disseny modern, la publicitat, el cinema i l'arquitectura contemporània son impensables sense les avantguardes; han canviat l'entorn visual de tota la humanitat",
+                "No: les avantguardes van ser absorbides pel mercat de l'art i per les institucions culturals, neutralitzant la seva potència subversiva",
+                "Les dues coses: les avantguardes han transformat profundament el llenguatge visual i literari modern, però la transformació política i social que prometien no s'ha produït — i la seva absorció institucional és part de la resposta"
+              ],
+              "correct": 2,
+              "explanation": "El crític Peter Bürger va argumentar el 1974 en 'Teoria de l'avantguarda' que les avantguardes històriques van fracassar en el seu objectiu polític central —la reintegració de l'art en la vida— però van tenir un impacte formal enorme. Tenia raó en tots dos aspectes. El Bauhaus va transformar el disseny industrial i l'arquitectura de tot el segle XX. El cinema d'avantguarda va generar el cinema modern. La poesia visual, el collage, el flux de consciència —totes formes avantguardistes— son avui eines literàries normalitzades. Però la promesa política —l'art com a instrument de transformació social radical— va ser neutralitzada: primer pels totalitarismes (que van perseguir les avantguardes), després pel mercat (que les va convertir en inversions i en icones de museu). La subversió de Duchamp val avui milions en subhasta. La paradoxa és constitutiva de la modernitat cultural."
+            }
+
+          ]
+        },
+
+        {
+          "id": "s20a-02",
+          "title": "Dadaisme i Surrealisme: quan destruir el sentit és un acte polític",
+          "blocks": [
+
+            {
+              "type": "narrative",
+              "text": "Zuric, 1916. El poeta Hugo Ball puja a l'escenari del Cabaret Voltaire vestit amb un vestit de cartró que sembla un bisbe robòtic i comença a recitar: 'Gadji beri bimba glandridi laula lonni cadori...' No és una llengua. No és cap llengua. És so pur, ritme sense significat, paraula buida de referent. El públic no sap si riure o marxar. Ball s'ho ha pensat molt: si el món ha produït la guerra, el món és absurd. Si el món és absurd, el llenguatge que el descriu és part de l'absurd. Destruir el sentit del llenguatge no és bogeria: és la resposta més honesta a un món que ha perdut el seu."
+            },
+
+            {
+              "type": "key-idea",
+              "text": "El Dadaisme no és nihilisme: és diagnosi. Si la cultura europea ha produït la barbàrie de la guerra tot mantenint les seves formes —la poesia, la novel·la, la filosofia— intactes, llavors les formes son còmplices de la barbàrie. Destruir-les és un acte d'higiene moral."
+            },
+
+            {
+              "type": "comparison",
+              "title": "Dadaisme vs. Surrealisme: dues respostes a la crisi",
+              "labelA": "Dadaisme (1916-1924)",
+              "labelB": "Surrealisme (1924-)",
+              "items": [
+                {
+                  "label": "Actitud central",
+                  "a": "Destrucció: si l'art i la raó han fracassat, cal destruir-los. L'atzar com a mètode, l'absurd com a resposta.",
+                  "b": "Construcció: destruir l'ordre racional per construir una 'surrealidat' que integri el somni i l'inconscient."
+                },
+                {
+                  "label": "Relació amb el significat",
+                  "a": "El no-sentit és el missatge: els poemes dadaistes destrueixen deliberadament la coherència semàntica.",
+                  "b": "Un sentit nou, pre-racional: les imatges surrealistes tenen una lògica, però la de l'inconscient, no la de la raó."
+                },
+                {
+                  "label": "Relació amb la política",
+                  "a": "Anarquisme: contra totes les institucions, incloses les revolucionàries.",
+                  "b": "Marxisme: Breton vol aliar el Surrealisme amb el Partit Comunista — amb resultats turmentats."
+                },
+                {
+                  "label": "Llegat principal",
+                  "a": "L'art conceptual, el happening, la performance, el punk.",
+                  "b": "El cinema de Lynch, la publicitat, el magic realism literari, la psicologia de la creativitat."
+                }
+              ]
+            },
+
+            {
+              "type": "expandable",
+              "label": "L'escriptura automàtica: com escriure sense pensar (i per quina raó)",
+              "content": "La tècnica central del Surrealisme literari era l'escriptura automàtica: escriure sense parar, sense corregir, sense deixar intervenir la raó censora, deixant que l'inconscient dicti directament. Breton i Soupault van escriure 'Els camps magnètics' (1919) d'aquesta manera: sessions de moltes hores on la ploma no s'aturava. El resultat eren textos plens d'imatges insòlites i connexions inesperades que semblaven tenir una lògica pròpia diferent de la racional. La inspiració freudiana era directa: si l'inconscient és la part més rica i veritable de la psique, el que l'inconscient dicta quan la consciència es retira ha de ser la poesia més autèntica. El problema pràctic: l'escriptura automàtica pura produïa molta escòria. Els surrealistes acabaven editant — cosa que contradeia el principi. La tensió entre automatisme i forma va marcar tot el moviment."
+            },
+
+            {
+              "type": "quote",
+              "text": "La bellesa serà convulsiva o no serà.",
+              "author": "André Breton, Nadja (1928)"
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-02-01",
+              "style": "multiple-choice",
+              "question": "Marcel Duchamp va exposar un urinari de porcellana industrialment fabricat, signat amb el pseudònim 'R. Mutt', com a obra d'art titulada 'Font' (1917). El comitè de l'exposició el va rebutjar. Quin és el gest artístic central de Duchamp?",
+              "options": [
+                "Demostrar que qualsevol objecte pot ser bonic si se'l mira des d'una perspectiva estètica adequada",
+                "Demostrar que l'art no és una propietat dels objectes sinó una decisió institucional i contextual: el mateix objecte és art o no ho és segons on es posa i qui decideix",
+                "Criticar la societat de consum i la producció industrial en massa mitjançant la ironia",
+                "Explorar la relació entre la funció utilitària dels objectes i la seva dimensió estètica oculta"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El readymade de Duchamp fa una pregunta filosòfica sobre la naturalesa de l'art: si un urinari fabril es converteix en art quan un artista el signa i el posa en un museu, llavors 'art' no és una qualitat de l'objecte sinó una decisió de context i d'institució. Aquesta pregunta ha estructurat tota la teoria de l'art del segle XX i és la base conceptual de l'art contemporani. Duchamp no va fer una obra: va fer una pregunta que seguim sense respondre del tot.",
+              "feedbackWrong": "Duchamp no estava interessat en la bellesa de l'urinari ni en la crítica al consum —ell mateix era un consumidor de la cultura burgesa. La relació funció-estètica és interessant però secundària. El gest central és epistemològic: ¿on és l'art? ¿en l'objecte? ¿en la decisió de l'artista? ¿en el context institucional? La 'Font' no respon la pregunta: la planteja de manera irreversible."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-02-02",
+              "style": "detect-error",
+              "statement": "El Surrealisme va ser un moviment artístic que va rebutjar qualsevol forma de compromís polític, concentrant-se exclusivament en l'exploració de l'inconscient i del somni.",
+              "isCorrect": false,
+              "feedbackExplanation": "El Surrealisme va tenir una relació intensa, conflictiva i sovint dolorosa amb la política. Breton va intentar aliar el Surrealisme amb el Partit Comunista Francès durant anys. Va defensar Trotski contra Stalin i va viatjar a Mèxic per trobar-s'hi el 1938. Va expulsar del moviment membres que considerava massa dòcils al estalinisme. La tensió entre la llibertat de l'inconscient que el Surrealisme proclamava i la disciplina de partit que el comunisme exigia va ser una de les contradiccions més productives i més doloroses del moviment. El Surrealisme no va rebutjar la política: va intentar integrar-la i hi va fracassar espectacularment."
+            },
+
+            {
+              "type": "scientific-mode",
+              "id": "sci-s20a-02-01",
+              "question": "El Dadaisme proposava que la destrucció del sentit era una resposta política al món que havia produït la guerra. Però si tot és absurd i tot val el mateix, ¿com es pot defensar cap posició política? ¿No es mina el Dadaisme a si mateix?",
+              "options": [
+                "Sí: el nihilisme dadaista és políticament autodestructiu — no pots criticar la guerra des d'una posició que nega que res tingui sentit",
+                "No: el Dadaisme no és nihilisme sinó diagnosi selectiva — destrueix el sentit de les formes culturals que han legitimat la guerra, no tot el sentit possible",
+                "El Dadaisme era conscient d'aquesta contradicció i la feia servir deliberadament: la seva incoherència era part del missatge, una performance de la impossibilitat de qualsevol posició coherent en un món absurd"
+              ],
+              "correct": 2,
+              "explanation": "La contradicció performativa del Dadaisme — criticar la raó amb arguments, destruir el sentit amb gestos plens de sentit — era visible per als seus propis participants. Tristan Tzara ho sabia i no li preocupava: la incoherència era el punt. El Dadaisme no pretenia ser una filosofia coherent sinó una interrupció, un gest de negació que s'autodestruïa. Richard Huelsenbeck, un dels fundadors, va escriure que el Dada era una 'broma que va tenir conseqüències'. La seva força no era la coherència teòrica sinó la capacitat de posar en crisi les pretensions de coherència de la cultura que el rodejava. En aquest sentit, la seva 'incoherència' era estratègica: demostrava que fins i tot una posició sense contingut podia ser més honesta que les posicions plenes de contingut que havien justificat la guerra."
+            }
+
+          ]
+        },
+
+        {
+          "id": "s20a-03",
+          "title": "El Futurisme i la literatura de la violència",
+          "blocks": [
+
+            {
+              "type": "narrative",
+              "text": "El 20 de febrer de 1909, el poeta italià Filippo Tommaso Marinetti publica al diari Le Figaro de París el Manifest Futurista. Diu, entre altres coses: 'Volem glorificar la guerra — única higiene del món — el militarisme, el patriotisme, el gest destructiu dels anarquistes, les belles idees que maten, i el menyspreu a la dona.' No és provocació buida: Marinetti ho creu. I el que creu s'assembla molt al que, quinze anys després, Mussolini posarà en pràctica. El Futurisme és el moviment d'avantguarda que obliga a fer la pregunta més incòmoda: ¿pot l'art ser formalment revolucionari i políticament monstruós alhora?"
+            },
+
+            {
+              "type": "key-idea",
+              "text": "El Futurisme és l'avantguarda que no podem celebrar sense reserves — i per tant la més útil per pensar. Ens obliga a separar dues coses que sovint confondríem: la innovació formal i el valor moral. Un text pot ser literàriament original i políticament repugnant. El Futurisme és la prova."
+            },
+
+            {
+              "type": "expandable",
+              "label": "Walter Benjamin i 'l'estetització de la política'",
+              "content": "El 1936, el filòsof Walter Benjamin va publicar 'L'obra d'art en l'era de la seva reproductibilitat tècnica'. A l'epíleg, va formular una de les frases més citades de la teoria cultural del segle XX: el feixisme és la 'estetització de la política', i la resposta del comunisme és la 'politització de l'art'. Benjamin veia en el Futurisme la forma paradigmàtica de l'estetització de la política: la guerra com a espectacle bonic, la violència com a experiència estètica, la política com a obra d'art total. Les massives posades en escena de Nuremberg, el culte al cos i a la uniformitat del feixisme, la propaganda de Riefenstahl — tot això era l'estetització de la política que Benjamin descrivia. La crítica de Benjamin segueix sent una de les més agudes sobre la relació entre art i poder."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-03-01",
+              "style": "multiple-choice",
+              "question": "Marinetti va celebrar la velocitat, la màquina i la guerra com a valors estètics i morals superiors. Però les innovacions formals del Futurisme — les paraules en llibertat, la destrucció de la sintaxi, la tipografia com a expressió — van influir moviments posteriors molt allunyats del feixisme. Com s'explica aquesta paradoxa?",
+              "options": [
+                "No hi ha paradoxa: les formes artístiques no tenen contingut polític propi i poden ser usades per qualsevol ideologia",
+                "Hi ha una paradoxa real però resoluble: les formes futuristes expressaven valors de ruptura i velocitat que eren separables del contingut polític específic de Marinetti",
+                "La paradoxa és irresoluble i ens hauria de fer desconfiar de tota innovació formal sense examinar el seu context ideològic"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les formes artístiques no son neutres — expressen valors — però tampoc son idèntiques al contingut ideològic específic dels seus inventors. La destrucció de la sintaxi futurista expressava valors de velocitat, simultaneïtat i ruptura amb el passat que eren separables del militarisme de Marinetti. El Dadaisme va agafar la mateixa destrucció formal i la va usar per a fins antagònics. El Constructivisme rus va prendre la fascinació futurista per la màquina i la va posar al servei de la revolució comunista. Les formes viatgen; els continguts no sempre ho fan.",
+              "feedbackWrong": "Dir que les formes no tenen contingut polític propi és massa fàcil: les formes expressen valors implícits. Però dir que la paradoxa és irresoluble portaria a no poder usar cap tècnica literària sense examinar el seu origen ideològic — el que convertiria tota la historia de la literatura en un camp de mines. La posició intermèdia — les formes expressen valors però son separables dels continguts específics — és la que permet entendre com les mateixes tècniques han servit projectes polítics oposats."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-03-02",
+              "style": "true-false",
+              "question": "Tots els moviments d'avantguarda artística del principi del segle XX van tenir una relació de simpatia o suport amb els moviments revolucionaris d'esquerres.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El Futurisme italià va acabar alineant-se amb el feixisme de Mussolini. Alguns expressionistes alemanys van simpatitzar amb el nacionalisme. A Rússia, les avantguardes van passar de l'entusiasme revolucionari a la persecució estalinista. La relació entre avantguarda artística i política és molt més complexa que una simple aliança entre innovació formal i progressisme polític. Les avantguardes eren radicals, però el radicalisme podia anar en qualsevol direcció ideològica.",
+              "feedbackWrong": "La relació entre avantguarda i política d'esquerres va ser real per a molts moviments — Surrealisme, Constructivisme rus, Brecht — però no per a tots. El Futurisme és l'exemple més clar de la trajectòria oposada: d'avantguarda formal a suport del feixisme. La historia de les avantguardes i la política és plena de paradoxes, traïcions i desil·lusions en totes les direccions."
+            },
+
+            {
+              "type": "debate",
+              "question": "Podem admirar les innovacions formals del Futurisme sabent que el seu programa polític va contribuir a preparar el terreny ideològic del feixisme italià? ¿Podem separar l'estètica de l'ètica en la literatura?",
+              "positionA": {
+                "label": "Podem i hem de separar-les: el valor literari és independent del valor moral",
+                "argument": "Si no podem llegir cap text sense aprovar la moral del seu autor, quedem atrapats en un tribunal permanent que empobreix la lectura. Wagner era antisemita; Céline era collaboracionista; Heidegger era nazi. La seva obra no deixa de tenir valor per això. Jutjar l'obra pel seu autor és confondre dues coses que cal mantenir separades."
+              },
+              "positionB": {
+                "label": "No podem separar-les completament: el contingut moral forma part del text",
+                "argument": "El Futurisme no és un estil neutral al qual s'ha adherit accidentalment un contingut feixista: el contingut feixista és constitutiu del projecte futurista. La violència, la misogínia i el militarisme no son opinions polítiques exteriors al text; son part de la seva proposta estètica. Llegir el Futurisme sense veure-ho és una lectura incompleta."
+              },
+              "reflection": "Hi ha una diferència entre un autor amb opinions moralment repugnants i una obra on les opinions moralment repugnants son el cor del projecte estètic. El Futurisme es troba en el segon cas. ¿Canvia això la teva resposta?",
+              "context": "El debat sobre la separació entre valor estètic i valor moral és un dels més antics i irresolubles de la teoria literària. No hi ha consens, i les posicions extremes en tots dos sentits produeixen absurds."
+            },
+
+            {
+              "type": "scientific-mode",
+              "id": "sci-s20a-03-01",
+              "question": "El Futurisme va glorificar la màquina, la velocitat i la tecnologia com a valors absoluts. Avui vivim en una cultura que accelera tecnològicament sense parar. ¿El Futurisme era una profecia o una advertència?",
+              "options": [
+                "Una profecia: el culte a la velocitat i la tecnologia que el Futurisme celebrava és exactament el que ha triomfat en la cultura contemporània",
+                "Una advertència: el Futurisme va mostrar on porta el culte acrític a la tecnologia — a la violència, al feixisme, a la deshumanització",
+                "Les dues coses: el Futurisme va anticipar la cultura de la velocitat i la innovació permanent que vivim, i al mateix temps va mostrar els seus riscos quan es converteix en ideologia total"
+              ],
+              "correct": 2,
+              "explanation": "El Futurisme és un mirall incòmode per a la cultura tecnològica contemporània. Silicon Valley celebra la 'disrupció', la velocitat, la destrucció creativa i la superació del passat amb un vocabulari que ressona amb el manifest de Marinetti — però sense la violència explícita. Paul Virilio, el teòric de la velocitat, va argumentar que l'acceleració tecnològica porta inherentment a formes de violència i deshumanització: com més ràpid es mou el món, menys temps hi ha per a la deliberació moral. D'altra banda, la tecnologia de la velocitat ha produït també la medicina moderna, la comunicació global i l'accés al coneixement. El Futurisme no era ni profecia ni advertència pures: era l'expressió radical d'una ambivalència constitutiva de la modernitat tecnològica que seguim sense resoldre."
+            }
+
+          ]
+        },
+
+        {
+          "id": "s20a-04",
+          "title": "Kafka: la burocràcia com a destí",
+          "blocks": [
+
+            {
+              "type": "narrative",
+              "text": "Una nit, Gregor Samsa es desperta convertit en un insecte gegant. No sap per quina raó. No hi ha explicació. La família primer s'escandalitza, després s'adapta, finalment oblida. Gregor mor sol en la seva habitació i la família surt a passejar alleujada. Franz Kafka va escriure La metamorfosi el 1912, un mes abans d'una crisi nerviosa. Va demanar al seu amic Max Brod que cremés tots els seus manuscrits després de la seva mort. Brod no ho va fer. Tenim sort — o desgràcia — que no ho va fer. Perquè Kafka va escriure sobre quelcom que ningú havia escrit exactament d'aquesta manera: la sensació que el sistema —la família, la feina, la llei, l'estat— et processa amb una lògica perfecta que no té res a veure amb tu."
+            },
+
+            {
+              "type": "key-idea",
+              "text": "Kafka no és un escriptor de l'absurd en el sentit còmic: és un escriptor de l'absurd en el sentit tràgic. Els seus personatges no es rebel·len contra el sistema ni el qüestionen: l'accepten, el volen entendre, cooperen amb ell. I el sistema els destrueix igualment. Aquesta és la seva especificitat — i la seva vigència."
+            },
+
+            {
+              "type": "expandable",
+              "label": "Kafka i la burocracia austrohongaresa: l'escriptor que va inventar el món en que vivim",
+              "content": "Kafka treballava com a funcionari en una companyia d'assegurances de Praga. Sabia de primera mà com funcionen les institucions: els formularis, les jerarquies, les decisions que ningú pren perquè el sistema les pren sol. El Procés (1925) narra la historia de Josef K., detingut per una acusació que mai es defineix davant d'un tribunal que mai es veu per una llei que mai es cita. L'horror de la novel·la no és que el sistema sigui malèvol: és que el sistema funciona perfectament i produeix injustícia sense ningú voler-la. Hannah Arendt, anys després, va descriure l'Holocaust com la 'banalitat del mal': el genocidi fet no per monstre sinó per funcionaris que feien la seva feina. Kafka ho havia vist venir."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-04-01",
+              "style": "multiple-choice",
+              "question": "A El Procés, Josef K. és arrestat però mai se li diu de qué l'acusen. En lloc de protestar o fugir, intenta entendre el sistema legal que l'ha atrapat i navegar-lo. Quin és el comentari implícit de Kafka sobre com els éssers humans responen a les institucions?",
+              "options": [
+                "Que els éssers humans son covardes i haurien de rebel·lar-se contra les injustícies en lloc d'acceptar-les",
+                "Que la tendència humana a buscar la lògica d'un sistema i cooperar-hi, fins i tot quan el sistema és injust, és part de com el poder es manté sense necessitat de força visible",
+                "Que la burocràcia moderna és intencionalment dissenyada per confondre i oprimir els ciutadans",
+                "Que el sistema judicial austrohongarès del seu temps era especialment corrupt i kafkià"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Kafka mostra quelcom més pertorbador que la rebel·lió fallida: la cooperació activa. Josef K. no és forçat a participar en el seu propi judici — hi participa voluntàriament, contracta advocats, busca influències, intenta entendre les regles. Aquesta cooperació és el que el poder necessita. Michel Foucault, dècades després, va teoritzar com el poder modern opera no per coacció sinó per la interiorització de les seves normes per part dels subjectes. Kafka ho havia descrit narrativament abans que cap teoria ho formulés.",
+              "feedbackWrong": "Kafka no és un moralista que acusa la covardia dels seus personatges. El sistema kafkià no és necessàriament dissenyat amb intenció opressora — és pitjor: produeix opressió sense intenció. I la crítica al sistema austrohongarès és possible però massa concreta per a una obra que ha resultat universalment aplicable a qualsevol burocràcia moderna."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-04-02",
+              "style": "true-false",
+              "question": "Kafka va publicar en vida les seves tres grans novel·les — Amerika, El Procés i El Castell — i en va supervisar personalment l'edició.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Kafka va publicar molt poc en vida — alguns contes i La metamorfosi — i va deixar instruccions explícites a Max Brod perquè cremés tot el que quedava inèdit. Brod va desobeir i va editar pòstumament El Procés (1925), El Castell (1926) i Amerika (1927), amb totes les decisions editorials que Kafka no va poder prendre. Llegim Kafka en una forma que ell mai va aprovar. La ironia kafkiana per excel·lència: el seu llegat literari depèn d'un acte de desobediència d'un amic.",
+              "feedbackWrong": "Kafka va publicar extraordinàriament poc en vida i va demanar explícitament la destrucció dels seus manuscrits. Les seves tres grans novel·les son pòstumes i editades per Max Brod sense la supervisió de l'autor. Llegim Kafka gràcies a una traïció amistosa — i no sabem fins a quin punt els textos que tenim s'assemblen al que Kafka hauria volgut que fossin."
+            },
+
+            {
+              "type": "connection",
+              "moduleRef": "Game Theory: Cooperation and Dilemmas",
+              "moduleEmoji": "♟️",
+              "concept": "La trampa del sistema: quan cooperar és racional i alhora autodestructiu",
+              "text": "Josef K. coopera amb el sistema que el destrueix perquè des del seu punt de vista individual és racional fer-ho: rebel·lar-se sembla pitjor. Aquesta estructura — on la cooperació individual produeix resultats col·lectivament irracionals — és el cor del dilema del presoner en teoria de jocs. Kafka va narrar el que la teoria de jocs formalitzaria dècades després."
+            },
+
+            {
+              "type": "scientific-mode",
+              "id": "sci-s20a-04-01",
+              "question": "El terme 'kafkià' s'usa avui per descriure situacions burocràtiques absurdes de la vida quotidiana. Quan un terme literari passa al llenguatge comú per descriure la realitat, ¿vol dir que la literatura ha tingut èxit en capturar quelcom real, o que l'hem banalitzat reduint-lo a un adjectiu?",
+              "options": [
+                "Ha tingut èxit: que 'kafkià' descrigui experiències reals prova que la literatura accedeix a veritats de l'experiència que les ciències socials no havien nomenat",
+                "L'hem banalitzat: dir que una cua llarga a l'administració és 'kafkiana' trivialitza una obra que parlava de l'opressió existencial total, no de les molèsties quotidianes",
+                "Les dues coses coexisteixen: la difusió d'un terme literari és un signe d'impacte real, però la banalització és el preu que els conceptes paguen quan viatgen fora del seu context original"
+              ],
+              "correct": 2,
+              "explanation": "Orwell, Kafka i Proust son els tres escriptors del segle XX que han donat més adjectius al llenguatge comú: 'orwellià', 'kafkià', 'proustià'. En tots tres casos, l'adjectiu captura quelcom real que el terme ordinari no capturava — i en tots tres casos, el terme quotidià és una versió diluïda del que l'obra original feia. Una cua a l'administració no és 'kafkiana' en el sentit profund: Kafka escrivia sobre la impossibilitat d'entendre les regles del teu propi judici, sobre la culpa sense acusació concreta, sobre el poder que no té rostre. Però que la paraula s'usi és el signe que la intuïció de Kafka ha penetrat la cultura fins al punt de proporcionar un vocabulari per a experiències que d'altra manera quedarien sense nom. La banalització és el tribut que l'originalitat paga a la seva pròpia influència."
+            }
+
+          ]
+        },
+
+        {
+          "id": "s20a-05",
+          "title": "Les avantguardes en català: Salvat-Papasseit, Foix i la modernitat pròpia",
+          "blocks": [
+
+            {
+              "type": "narrative",
+              "text": "Barcelona, principis del segle XX. Una ciutat que s'acaba d'eixamplar, que té port i fàbriques i burgesia culta i moviment obrer i una llengua pròpia que ha sobreviscut segles de marginació. Joan Salvat-Papasseit té tuberculosi, treballa de guàrdia nocturn al port i escriu poemes futuristes en català. J.V. Foix és ferm de confiteria i escriu surrealisme en una llengua que cap surrealista francès llegiria. Tots dos saben que fan quelcom estrany: importar les avantguardes europees a una cultura que lluitava per sobreviure. Però la pregunta que fan — com ser modern en una llengua minoritzada — és una de les preguntes més urgents que qualsevol cultura pot fer-se."
+            },
+
+            {
+              "type": "key-idea",
+              "text": "Les avantguardes catalanes no son una còpia provincial de les europees: son una negociació específica entre la modernitat internacional i la supervivència cultural pròpia. Fer Surrealisme en català el 1927 no és el mateix que fer-lo en francès: és un acte de resistència i d'afirmació alhora."
+            },
+
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1906",
+                  "title": "Les Normes Ortogràfiques de Pompeu Fabra",
+                  "text": "La codificació normativa del català modern. El Noucentisme — el moviment cultural dominant a Catalunya fins als anys 20 — vol una llengua i una cultura 'mediterrània', clàssica i ordenada. L'avantguarda haurà de rebel·lar-se contra ell."
+                },
+                {
+                  "year": "1919",
+                  "title": "Salvat-Papasseit publica 'Poemes en ondes hertzianes'",
+                  "text": "El primer recull de poesia avantguardista en català. Salvat combina la influència futurista i dadaista amb un lirisme popular i una vitalitat que el diferencien dels models europeus. Escriu sobre el mar de Barcelona, les fàbriques, els treballadors."
+                },
+                {
+                  "year": "1924",
+                  "title": "Mort de Salvat-Papasseit",
+                  "text": "Mor de tuberculosi als 30 anys. Va publicar cinc reculls en vida. La seva curta trajectòria és un dels episodis més lluminosos de la poesia catalana moderna."
+                },
+                {
+                  "year": "1927",
+                  "title": "Foix publica 'Gertrudis'",
+                  "text": "El primer recull de Foix, escrit en prosa poètica d'arrel surrealista. Foix combina el Surrealisme europeu amb la tradició literària catalana medieval (Ramon Llull, Ausiàs March) d'una manera completament original. El seu lema: 'M'exalta el nou i m'enamora el vell.'"
+                },
+                {
+                  "year": "1939",
+                  "title": "Franco entra a Barcelona",
+                  "text": "La victòria franquista suposa la prohibició del català a l'espai públic i la interrupció traumàtica de la modernitat literària catalana. Els escriptors catalans s'exilien o publiquen clandestinament. La dictadura durarà quaranta anys."
+                }
+              ]
+            },
+
+            {
+              "type": "expandable",
+              "label": "Foix i Ramon Llull: com ser surrealista i medieval alhora",
+              "content": "J.V. Foix (1894-1987) és una de les figures més singulars de la literatura catalana del segle XX. Va viure fins als 93 anys i va escriure durant dècades des de la seva farmàcia de Sarrià. La seva paradoxa productiva era el lema que ell mateix va formular: 'M'exalta el nou i m'enamora el vell.' Foix llegia els surrealistes francesos i alhora llegia Ramon Llull, el filòsof medieval català del segle XIII. Aquesta combinació aparentment impossible va produir una poesia d'una riquesa extraordinària: les imatges oníriques i les associacions insòlites del Surrealisme passades pel filtre d'una llengua que havia de demostrar que podia dir tot el que qualsevol altra llengua podia dir. Foix no va ser mai un surrealista ortodox — Breton no l'hauria reconegut com a tal — però va crear quelcom que el Surrealisme sol no podria haver creat."
+            },
+
+            {
+              "type": "quote",
+              "text": "No sé si he somniat o viscut. Ni si el que visc és somni o és real. Però sé que escric en català i que en català diré tot el que tinc a dir.",
+              "author": "J.V. Foix (paràfrasi de la seva actitud literària)"
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-05-01",
+              "style": "multiple-choice",
+              "question": "Salvat-Papasseit escrivia poesia d'influència futurista en català — una llengua sense estat i amb una tradició literària moderna en construcció. Quin era el significat cultural específic d'importar les avantguardes a una llengua minoritzada?",
+              "options": [
+                "Demostrar que el català podia ser tan modern com el francès o l'italià, i que la modernitat literària no era patrimoni exclusiu de les grans cultures nacionals",
+                "Facilitar la difusió de les avantguardes europees a un públic catalanoparlant que no tenia accés als textos originals",
+                "Crear un moviment avantguardista autòcton que no devia res a les influències europees",
+                "Donar un vernís de modernitat a una tradició literària essencialment conservadora"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. Fer avantguarda en català era un acte de reivindicació cultural implícit: afirmar que el català podia dir el que qualsevol altra llengua podia dir, que la modernitat no tenia una llengua privilegiada, que una cultura sense estat podia produir literatura d'avantguarda tant com França o Itàlia. Salvat i Foix no copiaven els europeus: negociaven amb ells des d'una posició específica i produïen quelcom diferent en el procés.",
+              "feedbackWrong": "No es tractava de fer de pont per a un públic sense accés — la burgesia catalana culta llegia en francès. Ni de crear un moviment sense influències — Salvat llegia Marinetti i Apollinaire explícitament. Ni d'un vernís modern sobre una tradició conservadora — el Noucentisme era la tradició conservadora contra la qual les avantguardes es rebel·laven. El gest central era la reivindicació: el català podia ser modern."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-05-02",
+              "style": "detect-error",
+              "statement": "El Noucentisme català i les avantguardes catalanes eren moviments complementaris que compartien els mateixos objectius culturals i polítics.",
+              "isCorrect": false,
+              "feedbackExplanation": "El Noucentisme i les avantguardes catalanes estaven en tensió activa. El Noucentisme — el moviment cultural dominant a Catalunya entre 1906 i els anys 20, associat a figures com Eugeni d'Ors — volia una cultura catalana 'mediterrània', clàssica, ordenada i normativa: la fixació de la llengua, l'ordre de les formes, la distància irònica davant de l'excés. Les avantguardes de Salvat-Papasseit i Foix es van formar en part contra aquest ideal: la seva vitalitat popular, la seva ruptura formal i el seu entusiasme per la modernitat tecnològica eren una resposta a l'academicisme noucentista. La tensió era productiva però real."
+            },
+
+            {
+              "type": "scientific-mode",
+              "id": "sci-s20a-05-01",
+              "question": "Foix va continuar escrivint en català durant el franquisme, quan la llengua estava prohibida a l'espai públic. Escriure en una llengua prohibida, ¿és un acte polític encara que el contingut no sigui polític?",
+              "options": [
+                "No: la política d'un text la determina el seu contingut, no la llengua en que està escrit",
+                "Sí: en un context de prohibició lingüística, triar escriure en la llengua prohibida és en si mateix un acte de resistència, independentment del contingut",
+                "Depèn del context i de la intenció: la llengua pot ser política en un context de prohibició, però no tota escriptura en una llengua minoritzada és necessàriament un acte de resistència conscient"
+              ],
+              "correct": 1,
+              "explanation": "Quan una llengua és prohibida per l'estat, usar-la és un acte polític independentment del contingut. Durant el franquisme, publicar en català era il·legal o sotmès a censura severa: cada text en català era en si mateix una desafiament a l'ordre establert. Foix, que escrivia poesia onírica sense contingut polític explícit, estava fent quelcom políticament significatiu pel simple fet d'escriure en la llengua que el règim volia eliminar. Frantz Fanon va teoritzar la dimensió política de la llengua en el context colonial: la llengua de la cultura dominant no és neutral — és un instrument de poder. L'escriptura en la llengua prohibida no és sols un acte cultural: és una afirmació d'existència. El context transforma el significat del gest."
+            }
+
+          ]
+        },
+
+        {
+          "id": "s20a-06",
+          "title": "Quan les avantguardes van al poder: art, propaganda i el preu de la utopia",
+          "blocks": [
+
+            {
+              "type": "narrative",
+              "text": "El 1917, els artistes russos d'avantguarda — els constructivistes, els suprematistes, els futuristes russos — van abraçar la revolució bolxevic amb entusiasme genuí. Finalment, pensaven, un poder que volia canviar el món tant com ells. Maïakovski escrivia poesia de la revolució. Meyerhold reinventava el teatre. Rodtxenko dissenyava cartells que semblaven nous i poderosos. Durant uns anys, l'avantguarda i el poder van coincidir. Després va arribar Stalin. I el Realisme Socialista — l'estil 'oficial' que el règim va imposar — era exactament l'oposat de tot el que les avantguardes havien construït: heroic, llegible, consolador, mentider. Molts dels artistes que havien celebrat la revolució van acabar silenciats, deportats o morts."
+            },
+
+            {
+              "type": "key-idea",
+              "text": "La historia de les avantguardes i el poder és la historia d'una il·lusió compartida i una traïció doble. Les avantguardes van creure que la revolució política i la revolució artística anaven juntes. El poder — tant el comunista com el feixista — va aprendre ràpidament que l'art que no es pot entendre no serveix per a la propaganda. I l'art que serveix per a la propaganda ja no és avantguarda."
+            },
+
+            {
+              "type": "comparison",
+              "title": "Com van tractar els totalitarismes les avantguardes",
+              "labelA": "Estalinisme soviètic",
+              "labelB": "Feixisme / Nazisme",
+              "items": [
+                {
+                  "label": "Política cultural oficial",
+                  "a": "Realisme Socialista: art heroic, llegible, optimista, al servei del partit. Imposat el 1934 com a única estètica legítima.",
+                  "b": "Art 'entartete' (degenerat): les avantguardes es presenten com a símptoma de decadència racial i moral. Exposició de 'art degenerat' el 1937 a Munic."
+                },
+                {
+                  "label": "Destí dels artistes d'avantguarda",
+                  "a": "Silenci forçat, deportació al Gulag, mort. Maïakovski es va suïcidar el 1930. Meyerhold va ser torturat i afusellat el 1940.",
+                  "b": "Exili, censura, prohibició. Molts artistes alemanys van fugir als Estats Units. El seu exili va enriquir la cultura americana.",
+                  "label2": "Destí dels artistes"
+                },
+                {
+                  "label": "Relació amb la modernitat",
+                  "a": "Ambivalent: la URSS celebrava la tecnologia i la industrialització però en art exigia formes del XIX.",
+                  "b": "El nazisme rebutjava la modernitat artística com a 'jueva' i 'bolxevic' però usava la tecnologia mediàtica moderna (ràdio, cinema) per a la propaganda."
+                }
+              ]
+            },
+
+            {
+              "type": "expandable",
+              "label": "Maïakovski: el poeta de la revolució que no va poder sobreviure-la",
+              "content": "Vladimir Maïakovski va ser el poeta més gran de la revolució russa — i una de les seves víctimes. Va posar la seva obra al servei del bolxevisme des del principi, escrivint poemes de propaganda, cartells, peces de teatre agitacional. Creia genuïnament que la revolució i l'avantguarda eren la mateixa cosa. Però a mesura que l'estalinisme s'imposava, la distància entre el que el règim volia i el que ell era s'eixamplava. El 1930, als 37 anys, es va disparar un tret al cor. Va deixar una nota que deia, entre altres coses: 'El vaixell de l'amor s'ha estavellat contra la vida quotidiana.' No era sols un drama personal: era el diagnosi d'un fracàs col·lectiu. La revolució havia produït la vida quotidiana — la burocràcia, la mediocritat, la censura — que ell havia volgut destruir."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-06-01",
+              "style": "multiple-choice",
+              "question": "El Realisme Socialista — l'estètica oficial de la URSS estalinista — exigia que l'art fos 'nacional en forma i socialista en contingut', heroic, optimista i accessible a les masses. Per quina raó era necessàriament incompatible amb les avantguardes que havien nascut de la mateixa revolució?",
+              "options": [
+                "Perquè les avantguardes eren burgeses en el seu origen i no podien representar autènticament la classe obrera",
+                "Perquè les avantguardes qüestionaven les formes de representació i el poder de decidir qui representa qui — una qüestió que cap règim pot tolerar quan es pregunta sobre si mateix",
+                "Perquè els artistes d'avantguarda eren individualment massa orgullosos per acceptar cap directriu col·lectiva",
+                "Perquè les formes avantguardistes eren massa complexes per a un públic majoritàriament analfabet"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les avantguardes no sols feien art difícil: feien art que qüestionava les convencions de la representació, incloent-hi la pregunta de qui té el dret de representar la realitat i com. Un règim que necessitava controlar la representació de la realitat — que necessitava que la gent veiés el que el règim volia que veiessin — no podia tolerar un art que posava en qüestió les convencions de la visibilitat. El Dadaisme, el Surrealisme i el Constructivisme eren perillosos no sols per les seves idees sinó per la seva forma de qüestionar la forma.",
+              "feedbackWrong": "Molts artistes d'avantguarda eren de classe obrera o s'identificaven amb ella — Salvat-Papasseit era fill de treballadors. L'orgull individual és un factor menor. L'analfabetisme era un problema real però no el decisiu — Meyerhold feia teatre accessible per a les masses. El problema era estructural: l'avantguarda qüestionava les convencions de representació que el poder necessitava controlar."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-s20a-06-02",
+              "style": "true-false",
+              "question": "La persecució nazi de les avantguardes va tenir l'efecte paradoxal d'enriquir la cultura americana, ja que molts artistes europeus exiliats van establir-se als Estats Units.",
+              "correct": true,
+              "feedbackCorrect": "Absolutament cert, i és una de les ironies més amargues de la historia cultural del segle XX. L'exili forçat dels artistes, escriptors i intel·lectuals europeus als anys 30 va transformar la cultura americana: Bertolt Brecht, Thomas Mann, Hannah Arendt, Arnold Schönberg, Walter Gropius, Marcel Duchamp, Max Ernst — tots van anar als Estats Units. Les universitats americanes van absorbir una generació d'intel·lectuals europeus de primera magnitud. El nazisme, en perseguir el que considerava 'art degenerat', va exportar involuntàriament la seva pròpia avantguarda als seus adversaris.",
+              "feedbackWrong": "L'exili cultural europeu als Estats Units durant els anys 30 és un dels fenòmens més documentats de la historia cultural del segle XX. Brecht va escriure als Estats Units. Mann va ensenyar a Princeton. Arendt va escriure els seus grans textos en anglès. L'Escola de Frankfurt va continuar el seu treball a Nova York. La persecució nazi va tenir, en efecte, l'efecte paradoxal d'enriquir enormement la cultura del país que acabaria derrotant el règim que l'havia provocada."
+            },
+
+            {
+              "type": "debate",
+              "question": "Maïakovski, Meyerhold i molts artistes d'avantguarda van posar el seu talent al servei d'un règim que acabaria destruint-los. Podem admirar la seva obra sabent que van contribuir, almenys inicialment, a legitimar el poder que els va matar?",
+              "positionA": {
+                "label": "Sí: el seu error polític no invalida la seva obra artística",
+                "argument": "Maïakovski va creure genuïnament en la revolució — no era un oportunista. El seu error va ser d'esperança, no de cinisme. La seva poesia té un valor independent de les decisions polítiques que va prendre en un context de gran pressió. Condemnar l'artista per les seves il·lusions polítiques és reduir la literatura a un tribunal moral."
+              },
+              "positionB": {
+                "label": "No podem ignorar la dimensió política: la propaganda és part de l'obra",
+                "argument": "Maïakovski no sols va creure en la revolució: va escriure propaganda activa que va contribuir a legitimar un règim que matava. Alguns dels seus poemes son directament propaganda estalinista. No podem separar nítidament 'l'artista gran' del 'propagandista del poder': son el mateix home escrivint en el mateix moment."
+              },
+              "reflection": "Hi ha una diferència entre un artista que s'equivoca políticament en privat i un que posa el seu talent al servei actiu d'un règim opressiu. Maïakovski estava en el segon cas — i ell ho sabia. El seu suïcidi és, entre moltes altres coses, el reconeixement d'aquesta complicitat.",
+              "context": "El debat sobre els artistes compromesos amb règims totalitaris és un dels més vius en la historia de la cultura del segle XX. No hi ha una posició consensuada entre historiadors i crítics."
+            },
+
+            {
+              "type": "scientific-mode",
+              "id": "sci-s20a-06-01",
+              "question": "Les avantguardes van creure que la revolució artística i la revolució política anaven juntes. El segle XX va demostrar que els règims revolucionaris tendien a perseguir les avantguardes. Això prova que l'art radical és incompatible amb el poder polític, o que els règims del segle XX van trair la seva pròpia radicalitat?",
+              "options": [
+                "Prova la incompatibilitat: tot poder necessita control de la representació, i l'art radical qüestiona aquest control per definició",
+                "Prova la traïció: la revolució soviètica tenia els recursos per integrar l'avantguarda i va triar no fer-ho per raons de control polític, no per necessitat estructural",
+                "Les dues lectures son parcials: hi ha una tensió estructural real entre art radical i poder institucionalitzat, però la intensitat d'aquesta tensió depèn de com el poder es configura i de quant espai deixa per a la dissidència"
+              ],
+              "correct": 2,
+              "explanation": "La tesi de la incompatibilitat total té suport en la historia: tots els règims totalitaris del segle XX — el soviètic, el nazi, el feixista, el maoista — van perseguir les avantguardes. Però portar-la al límit implicaria que cap art radical pot existir en cap context polític, cosa que contradiu l'existència de les avantguardes mateixes en democràcies liberals. La tesi de la traïció té suport en el fet que la URSS va tenir una fase de relativa obertura cultural als anys 20 que Stalin va tancar deliberadament — no per necessitat estructural sinó per decisió política. La posició més rica reconeix que hi ha una tensió real — el poder tendeix a voler controlar la representació i l'art radical tendeix a qüestionar-la — però que la intensitat i la resolució d'aquesta tensió depenen del tipus de règim, del context històric i del grau de consolidació del poder. Les avantguardes catalanes sota el franquisme, les avantguardes americanes durant el maccarthisme, les avantguardes soviètiques dels anys 20 — cada cas és diferent i exigeix una anàlisi específica."
+            }
+
+          ]
+        }
+
+      ]
+    }
+  ]
+}

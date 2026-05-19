@@ -1,0 +1,820 @@
+{
+  "id": "module-31-etica",
+  "title": "Ètica",
+  "emoji": "⚖️",
+  "phase": 1,
+  "unlockRequires": "module-30-introduccio-filosofia",
+  "itineraries": [
+    {
+      "id": "itinerari-teories",
+      "title": "Les grans teories morals",
+      "icon": "📐",
+      "description": "Un recorregut per les principals tradicions de la filosofia moral: com cada teoria respon a la pregunta «Què és el correcte?».",
+      "style": "Sistemàtic · de la teoria al dilema",
+      "lessons": [
+        {
+          "id": "eti-01",
+          "title": "Què és l'ètica?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Un metge té cinc pacients que moriran sense un transplantament. En té un de sa que podria salvar-los tots. Ha de matar-lo per salvar els altres? Un tren desbocat va cap a cinc treballadors. Pots desviar-lo a una via on matarà només un. Ho fas? Una empresa pot augmentar beneficis si ven a països sense regulació ambiental. Ha de fer-ho? Totes aquestes situacions plantegen la mateixa pregunta: Què és el correcte? I la resposta no és òbvia. L'ètica és la branca de la filosofia que intenta respondre-la de manera rigorosa."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'ètica és la reflexió filosòfica sobre la moral: estudia quins actes són correctes o incorrectes, quines vides valen la pena de ser viscudes i quins principis haurien de guiar les nostres decisions quan afecten els altres."
+            },
+            {
+              "type": "expandable",
+              "label": "Quina diferència hi ha entre moral i ètica?",
+              "content": "En el llenguatge quotidià, «moral» i «ètica» s'usen com a sinònims. En filosofia, es distingeixen: la moral és el conjunt de normes, valors i costums que una persona o cultura segueix de fet. L'ètica és la reflexió crítica sobre aquelles normes: per què les seguim? Estan justificades? Podrien ser millors? Tothom té moral (un conjunt de creences sobre el bé i el mal); no tothom practica l'ètica (la reflexió crítica sobre aquelles creences). L'objectiu d'aquest mòdul és exactament aquest: passar de tenir moral a fer ètica."
+            },
+            {
+              "type": "misconception",
+              "belief": "L'ètica és relativa: cada cultura té la seva moral i cap és millor que una altra.",
+              "reality": "El relativisme cultural és una posició descriptiva (les cultures difereixen en els seus valors) que no implica el relativisme normatiu (per tant cap valor és millor que un altre). De la diversitat de costums no se'n dedueix que tots siguin igual de vàlids. Si fos així, no podríem condemnar l'esclavitud o el genocidi en cap cultura. La majoria de filòsofs morals accepten la diversitat cultural però sostenen que hi ha raons per preferir alguns valors a d'altres.",
+              "why": "Perquè es confon la descripció antropològica (les cultures difereixen) amb una conclusió normativa (per tant cap és millor), que no es dedueix lògicament de la primera."
+            },
+            {
+              "type": "prediction",
+              "question": "Pensa en una decisió moral que hagis pres recentment —per petita que sigui. Quin criteri vas fer servir per decidir el que era correcte? El vas aplicar conscientment o va ser intuïtiu?",
+              "hint": "Va ser el resultat el que et va guiar? La norma? El que li hauries demanat a tothom? El teu caràcter?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-01-01",
+              "style": "multiple-choice",
+              "question": "Quina és la diferència principal entre moral i ètica en sentit filosòfic?",
+              "options": [
+                "La moral és religiosa; l'ètica, laica.",
+                "La moral és el conjunt de normes que una persona segueix; l'ètica és la reflexió crítica sobre aquelles normes.",
+                "L'ètica és més estricta que la moral.",
+                "No hi ha diferència: són sinònims absoluts."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Tothom té moral (actua seguint algunes normes), però no tothom fa ètica (examina críticament aquelles normes). L'ètica filosòfica pregunta: per què aquesta norma i no una altra? Està justificada? Aplicada a tots els casos similars, produeix resultats acceptables? Aquesta distinció és important perquè permet criticar la pròpia moral sense contradicció.",
+              "feedbackWrong": "En filosofia, la distinció clau no és entre religiós i laic, ni de grau d'exigència. La moral és descriptiva: el conjunt de normes que de fet seguim. L'ètica és normativa i reflexiva: l'examen crític d'aquelles normes per determinar si estan justificades."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-01-02",
+              "style": "true-false",
+              "question": "Del fet que cultures diferents tinguin valors morals diferents es dedueix que cap valor és objectivament millor que un altre.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Aquesta és la fal·làcia naturalista en versió relativista. Que les cultures difereixin és un fet descriptiu (antropologia). Que cap valor sigui millor que un altre és una conclusió normativa. Un fet descriptiu no implica una conclusió normativa. Per la mateixa lògica, el fet que la medicina variés entre cultures fins fa poc no implicaria que cap tractament fos millor que un altre. La diversitat és un fet; la igualtat de valor és una conclusió que cal argumentar per separat.",
+              "feedbackWrong": "Que les cultures difereixin en valors és cert, però no implica que tots els valors siguin igual de vàlids. Aquesta conclusió —el relativisme moral— cal argumentar-la per separat. Si el relativisme fos veritat, no podríem condemnar pràctiques com l'esclavitud o la tortura en cap cultura, la qual cosa sembla inacceptable."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-eti-01-01",
+              "question": "L'ètica pot ser una disciplina rigorosa amb respostes raonades, o és sempre una qüestió d'opinió personal?",
+              "options": [
+                "Sempre opinió: en moral, tots els punts de vista són igualment vàlids.",
+                "Totalment rigorosa: hi ha respostes morals correctes tan objectives com les matemàtiques.",
+                "Ni l'un ni l'altre: l'ètica admet raonament rigorós i arguments millors o pitjors, però rarament respostes úniques indubtables."
+              ],
+              "correct": 2,
+              "explanation": "L'ètica no és ni pura opinió ni matemàtica. Està més a prop d'una disciplina com el dret o la medicina: admet arguments millors i pitjors, coherència o incoherència, evidència rellevant i evidència irrellevant. Podem dir que l'argument «l'esclavitud és acceptable perquè és natural» és pitjor que «l'esclavitud viola la dignitat humana», i podem explicar per què. El que l'ètica rarament produeix és certesa absoluta i acord universal, perquè els problemes morals genuïns impliquen valors en tensió que les persones razonables poden ponderar diferent. El filòsof John Rawls parlava de «judici reflexiu en equilibri»: el millor que podem fer és construir teories coherents amb les nostres intuïcions morals més fermes, i revisar-les mútuament quan entren en conflicte."
+            }
+          ]
+        },
+        {
+          "id": "eti-02",
+          "title": "Utilitarisme: el màxim bé per al màxim nombre",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Anglaterra, finals del segle XVIII. Jeremy Bentham proposa una idea radical: oblidem les teories abstractes sobre la virtut o el deure. La moral és simple. Una acció és bona si produeix més felicitat que sofriment. Més felicitat per a més persones, millor. El bé moral és mesurable, comparable i maximitzable. Sembla una idea d'una simplicitat alliberadora. Però quan s'aplica als casos difícils, produeix conclusions que moltes persones troben pertorbadores."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'utilitarisme sosté que una acció és moralment correcta si maximitza el benestar total (la suma de felicitat menys sofriment) de tots els afectats. El criteri moral és el resultat, no la intenció ni la norma."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1789",
+                  "title": "Jeremy Bentham: el càlcul hedonista",
+                  "text": "Proposa mesurar el plaer i el dolor en intensitat, durada, certesa i extensió. La moral es converteix en un problema de càlcul."
+                },
+                {
+                  "year": "1863",
+                  "title": "John Stuart Mill: la qualitat dels plaers",
+                  "text": "Refina Bentham: no tots els plaers valen igual. «Millor ser Sòcrates insatisfet que un porc satisfet». Introdueix plaers superiors i inferiors."
+                },
+                {
+                  "year": "1971",
+                  "title": "Peter Singer: l'utilitarisme de les preferències",
+                  "text": "Aplica l'utilitarisme als animals i als països pobres. Si podem evitar un gran sofriment a cost petit per a nosaltres, estem obligats moralment a fer-ho."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El problema del turista i l'hospital: quan l'utilitarisme xoca amb la intuïció",
+              "content": "Imagina que ets un metge en un hospital rural. Arriba un turista sa sense família ni qui el trobi a faltar. Tens cinc pacients moribunds que podrien salvar-se amb els seus òrgans. L'utilitarisme sembla dir: opera el turista, salva cinc vides. El resultat és millor. Però quasi ningú no acceptaria fer-ho. Aquest tipus de casos —anomenats «objeccions dels drets» a l'utilitarisme— mostren que el criteri del resultat, aplicat sense restriccions, pot justificar violacions greus de les persones individuals. Els utilitaristes responen de dues maneres: (1) l'utilitarisme de normes —el que maximitza el benestar no és avaluar cada acte sinó seguir normes com «no matis innocents», perquè un món on tothom segueix aquestes normes produeix més benestar total; (2) les conseqüències reals inclouen la por que generaria saber que els metges poden matar pacients, cosa que destruiria la confiança en la medicina."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-02-01",
+              "style": "multiple-choice",
+              "question": "Segons l'utilitarisme clàssic de Bentham, quin criteri determina si una acció és moralment correcta?",
+              "options": [
+                "La intenció de qui actua: si actua de bona fe, l'acció és moral.",
+                "La conformitat amb una norma universal: si tothom pogués fer-ho, és moral.",
+                "El resultat: si maximitza la felicitat total dels afectats, és moral.",
+                "La virtut de l'agent: si l'agent és virtuós, les seves accions ho són."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'utilitarisme és una teoria conseqüencialista: el que fa moral una acció és exclusivament el seu resultat —la quantitat de benestar que produeix. La intenció és irrellevant si el resultat és dolent; una acció amb mala intenció pot ser moralment correcta si produeix el millor resultat possible. Aquesta radicalitat és el seu punt fort i el seu taló d'Aquil·les.",
+              "feedbackWrong": "L'utilitarisme és específicament una teoria que avalua les accions pels seus resultats, no per les intencions, les normes o el caràcter. L'ètica de la intenció és més pròpia de Kant; l'ètica de les normes, del deontologisme; l'ètica del caràcter, de l'aristotelisme. L'utilitarisme és conseqüencialista: el resultat ho és tot."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-02-02",
+              "style": "detect-error",
+              "statement": "John Stuart Mill va millorar l'utilitarisme de Bentham afirmant que tots els plaers valen igual i que la moral consisteix simplement a maximitzar-ne la quantitat total.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és atribuir a Mill la igualtat de plaers —és justament el contrari del que va fer. Mill va criticar Bentham precisament per no distingir qualitativament entre plaers. Mill introdueix la distinció entre plaers superiors (intel·lectuals, estètics, morals) i inferiors (sensorials), i afirma que els primers valen més qualitativament encara que en produeixin menys quantitat. La seva frase cèlebre: «Millor ser Sòcrates insatisfet que un porc satisfet»."
+            },
+            {
+              "type": "debate",
+              "question": "Un govern ha de prioritzar les polítiques que maximitzen el benestar del major nombre de persones, encara que perjudiquin les minories?",
+              "positionA": {
+                "label": "Sí: el bé comú és prioritari",
+                "argument": "La funció d'un govern és maximitzar el benestar col·lectiu. Si una política beneficia el 90% de la població a costa del 10%, el balanç net és positiu. Protegir cada minoria per separat és ineficient i sovint paralitzant per a l'acció política."
+              },
+              "positionB": {
+                "label": "No: hi ha drets que no es poden sacrificar",
+                "argument": "Una democràcia no pot sacrificar minories en nom de la majoria sense convertir-se en tirania de la majoria. Certs drets —dignitat, llibertat, igualtat— no es poden posar al mercat del benestar. La història mostra que les majories han justificat opressions greus amb l'argument del bé comú."
+              },
+              "reflection": "On posaries el límit? Hi ha drets que mai no haurien de sacrificar-se per cap benefici col·lectiu?",
+              "context": "Rawls va construir la seva teoria de la justícia precisament com a alternativa a l'utilitarisme: sosté que els principis de justícia haurien de protegir els més desafavorits independentment del benefici per a la majoria."
+            }
+          ]
+        },
+        {
+          "id": "eti-03",
+          "title": "Kant i el deure moral",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Immanuel Kant té una intuïció profunda: hi ha coses que estan malament independentment de les seves conseqüències. Torturar un innocent estaria malament fins i tot si en sortís algun bé. Mentir estaria malament fins i tot si la mentida fes feliç algú. La moral no pot dependre dels resultats —perquè els resultats canvien, son incerts, son manipulables. Ha d'haver-hi quelcom més sòlid: el deure."
+            },
+            {
+              "type": "key-idea",
+              "text": "Per a Kant, una acció és moralment correcta si es fa per deure —seguint una norma que podríem voler que fos universal— i no per les conseqüències que produeix. El criteri és l'imperatiu categòric: «Actua només segons aquella màxima per la qual puguis voler al mateix temps que es converteixi en llei universal»."
+            },
+            {
+              "type": "expandable",
+              "label": "Com funciona l'imperatiu categòric en un exemple concret?",
+              "content": "Imagina que vols mentir per evitar una situació incòmoda. La màxima de la teva acció seria: «Mentiré quan m'interessi». Ara universalitza-la: «Tothom mentirà quan li interessi». Pots voler que aquest món existeixi? No: en un món on tothom menteix quan li interessa, la mentida deixa de funcionar perquè ningú no creu ningú. La màxima es destrueix a si mateixa quan es universalitza. Per tant, mentir és moralment incorrecte —no perquè produeixi mals resultats, sinó perquè la seva universalització és autodestructiva. La prova de la universalitzabilitat és el nucli del mètode kantià."
+            },
+            {
+              "type": "quote",
+              "text": "Actua de tal manera que tractis la humanitat, tant en la teva persona com en la de qualsevol altre, sempre com un fi i mai únicament com un mitjà.",
+              "author": "Immanuel Kant, Fonamentació de la metafísica dels costums (1785)"
+            },
+            {
+              "type": "misconception",
+              "belief": "L'ètica kantiana és rígida i no permet excepcions en cap circumstància.",
+              "reality": "Kant sí que és molt rígid en alguns casos —sosté que mentir és sempre incorrecte, fins i tot per protegir un innocent. Però la seva rigidesa prové d'un principi coherent: si permetem excepcions, obrim la porta a la racionalització. Els intèrprets contemporanis de Kant (com Korsgaard o Herman) han elaborat versions més flexibles que preserven el nucli sense la rigidesa absoluta.",
+              "why": "Perquè els exemples que posa el propi Kant (com el de mentir per protegir algú dels nazis) semblen absurds, i sovint es generalitza la seva posició en aquests casos a tota la teoria."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-03-01",
+              "style": "multiple-choice",
+              "question": "Kant diu que hem de tractar les persones sempre com a fins i mai únicament com a mitjans. Quin d'aquests actes viola clarament aquest principi?",
+              "options": [
+                "Demanar a un amic que t'ajudi a canviar un moble a canvi de sopar.",
+                "Contractar un treballador per fer una feina específica i pagar-li el salari acordat.",
+                "Enganyar algú perquè et faci un favor que no faria si sabés la veritat.",
+                "Demanar a un desconegut l'hora al carrer."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Enganyar algú per obtenir un favor viola el principi kantià perquè tractes la persona com un instrument dels teus propòsits: la manipules sense el seu consentiment, negant-li la capacitat de decidir lliurement. En els altres casos, hi ha acords voluntaris o interaccions consentides que respecten l'autonomia dels participants.",
+              "feedbackWrong": "El principi kantià no prohibeix usar els altres en cap sentit —prohibeix usar-los únicament com a mitjans, ignorant la seva autonomia i racionalitat. Contractar algú, demanar ajuda mútua o preguntar l'hora respecten l'altra persona com a agent racional. Enganyar algú per obtenir un favor el priva del consentiment informat i el tracta com a instrument."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-03-02",
+              "style": "true-false",
+              "question": "Per a Kant, una acció feta per simpatia o compassió —per exemple, ajudar un desconegut perquè et fa llàstima— té valor moral complet.",
+              "correct": false,
+              "feedbackCorrect": "Fals, i és un dels punts més controvertits de Kant. Per a ell, una acció té valor moral complet només quan es fa per deure —per reconèixer que és el correcte— i no per inclinació (simpatia, plaer, por). Ajudar perquè tens compassió és admirable, però no és virtut moral estricta: es podria deixar d'ajudar si la simpatia desapareix. La virtut moral genuïna ha de poder mantenir-se fins i tot quan les emocions van en sentit contrari.",
+              "feedbackWrong": "Kant fa una distinció que a molts sembla excessivament severa: les accions fetes per inclinació (simpatia, compassió, plaer) no tenen valor moral pur, per molt bones que siguin. El valor moral complet requereix actuar per deure —fer el correcte perquè és el correcte, independent dels sentiments. Molts filòsofs han criticat aquesta posició per semblar que penalitza les emocions moralment positives."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-eti-03-01",
+              "question": "Kant afirma que mentir és sempre incorrecte, fins i tot per protegir algú. Tens nazis a la porta que busquen el teu veí amagat. Has de dir-los on és?",
+              "options": [
+                "Sí: la norma moral no admet excepcions, i mentir és sempre incorrecte.",
+                "No: les conseqüències greus justifiquen excepcions a la norma.",
+                "La pregunta mal plantejada: l'ètica kantiana permet trobar una sortida sense mentir ni trair."
+              ],
+              "correct": 2,
+              "explanation": "El cas dels nazis és el més famós de la filosofia moral i il·lustra la tensió entre deontologia i conseqüencialisme. El propi Kant sosté en un assaig que fins i tot en aquest cas no es pot mentir —perquè si el veí ha fugit sense que ho sàpigues i els nazis hi van perquè els has dit la veritat, tu ets responsable del que passi; però si menteixies i ells el trobessin igualment, la responsabilitat seria seva. Quasi ningú no accepta aquesta resposta. Els intèrprets kantians contemporanis ofereixen sortides: (1) el deure de dir la veritat s'aplica a relacions comunicatives normals, no a interrogatoris coercitius; (2) els nazis han perdut el dret a la veritat en violar els principis morals bàsics; (3) l'imperatiu categòric, aplicat correctament, produiria la norma «no collaboris amb l'assassinat d'innocents», que és més fonamental. El cas no refuta el kantianisme, però exigeix una elaboració més sofisticada que la del propi Kant."
+            }
+          ]
+        },
+        {
+          "id": "eti-04",
+          "title": "L'ètica de la virtut: qui hem de ser?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "L'utilitarisme pregunta: quines conseqüències produeix l'acció? Kant pregunta: segueix la norma universal? Però hi ha una tercera pregunta, potser la més antiga: quin tipus de persona vull ser? No «Què faig?» sinó «Qui sóc?». Aristòtil va ser el primer a sistematitzar aquesta pregunta, i avui —amb Philippa Foot, Alasdair MacIntyre i Martha Nussbaum— l'ètica de la virtut viu un renaixement extraordinari."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'ètica de la virtut sosté que el centre de la moral no és l'acte ni la norma, sinó el caràcter de l'agent. Una persona virtuosa és aquella que ha desenvolupat disposicions estables (virtuts) per actuar bé en qualsevol situació, guiada per la prudència (phronesis)."
+            },
+            {
+              "type": "expandable",
+              "label": "Quines són les virtuts principals per a Aristòtil i com es desenvolupen?",
+              "content": "Aristòtil identifica les virtuts com a termes mitjans entre dos extrems viciosos. El coratge és el terme mitjà entre la covardia (defecte) i la temeritat (excés). La generositat és el terme mitjà entre la tacanyeria i la prodigalitat. La modèstia entre la timidesa i l'arrogància. Les virtuts no s'ensenyen com a regles: es desenvolupen per pràctica i hàbit. Com un músic que practica fins que tocar bé es fa natural, el virtuós practica actes justos fins que actuar justament és la seva disposició espontània. La prudència (phronesis) és la virtut de les virtuts: la capacitat de discernir en cada situació concreta quina acció és la correcta, sense fórmules preestablertes."
+            },
+            {
+              "type": "comparison",
+              "title": "Les tres grans teories morals",
+              "labelA": "Pregunta central",
+              "labelB": "Criteri moral",
+              "items": [
+                {
+                  "label": "Utilitarisme",
+                  "a": "Quines conseqüències té l'acció?",
+                  "b": "Maximitza el benestar total dels afectats"
+                },
+                {
+                  "label": "Deontologia (Kant)",
+                  "a": "Segueix la norma del deure?",
+                  "b": "Universalitzable i respecta les persones com a fins"
+                },
+                {
+                  "label": "Virtut (Aristòtil)",
+                  "a": "Quin tipus de persona em fa ser?",
+                  "b": "Ho faria una persona virtuosa i prudent?"
+                }
+              ]
+            },
+            {
+              "type": "quote",
+              "text": "Som el que fem repetidament. L'excel·lència, per tant, no és un acte sinó un hàbit.",
+              "author": "Aristòtil (paràfrasi de Will Durant)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-04-01",
+              "style": "multiple-choice",
+              "question": "Un directiu s'abstén de falsificar comptes no perquè calculi que no li convé (por a ser descobert), sinó perquè simplement és honest per caràcter. Des de l'ètica de la virtut, com s'avalua moralment la seva conducta?",
+              "options": [
+                "Negativament: actua per caràcter, no per raó.",
+                "Neutralment: el que importa és el resultat, no la motivació.",
+                "Positivament: la seva honestedat com a disposició estable és exactament el que l'ètica de la virtut valora.",
+                "Positivament, però menys que si hagués fet un càlcul conscient."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Per a l'ètica de la virtut, la persona que actua bé de manera espontània —perquè ha interioritzat la virtut— és moralment superior a la que ho fa per por o per càlcul. Aristòtil diu que l'acte virtuós és el que fa l'agent virtuós, de la manera en què ho faria, i amb el plaer adequat. L'honestedat com a disposició de caràcter és precisament l'objectiu de l'educació moral.",
+              "feedbackWrong": "L'ètica de la virtut valora especialment que les bones accions sorgeixin del caràcter —d'una disposició interioritzada— i no d'un càlcul extern o la por a les conseqüències. La persona que necessita calcular cada vegada si val la pena ser honest no ha assolit la virtut de l'honestedat."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una persona del teu entorn que consideris moralment admirable. Quines virtuts la defineixen? Ara pregunta't: quines virtuts vols desenvolupar tu en els propers anys?",
+              "prompt": "L'ètica de la virtut és la única teoria moral que comença pel desig d'autotransformació, no per normes externes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-04-02",
+              "style": "detect-error",
+              "statement": "Per a Aristòtil, les virtuts morals són innates: o neixes amb el coratge i la justícia o no els tens. L'educació no hi pot fer gran cosa.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és exactament el contrari del que Aristòtil sosté. Per a ell, les virtuts morals no son innates: es desenvolupen per pràctica i hàbit. Naixem amb la capacitat de ser virtuosos, però actualitzar aquesta capacitat requereix educació, exercici i una comunitat que exemplifiqui les virtuts. La seva frase: «Fem-nos justos practicant actes justos, temperants practicant actes temperants, valents practicant actes valents»."
+            }
+          ]
+        },
+        {
+          "id": "eti-05",
+          "title": "Dilemes morals clàssics",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Les teories morals no valen res si no les podem aplicar als casos difícils. Els dilemes morals son situacions en les quals dos o més valors morals entren en conflicte i no hi ha una solució que els satisfaci tots. Són incòmodes precisament perquè mostren els límits de cada teoria. A continuació trobaràs quatre dels dilemes més debatuts de la filosofia moral. Cap té una resposta consensuada. Però hi ha respostes millor i pitjor argumentades."
+            },
+            {
+              "type": "key-idea",
+              "text": "Els dilemes morals no tenen per objectiu arribar a una resposta única, sinó exercitar la capacitat de ponderar valors en conflicte, identificar quins principis s'apliquen i reconèixer les limitacions de cada teoria."
+            },
+            {
+              "type": "expandable",
+              "label": "El dilema del tramvia: cinc vides contra una",
+              "content": "Un tramvia sense frens va cap a cinc treballadors. Pots prémer un botó que el desvia a una via lateral on matarà un treballador. Ho fas? La majoria diu que sí. Ara: el tramvia va cap als cinc treballadors. Estàs en un pont amb un home gran. Si l'empentes, el seu cos aturarà el tramvia i salvarà els cinc (ell morirà). Ho fas? La majoria diu que no, tot i que el còmput és el mateix (una vida per cinc). Per què respostes diferents? Judith Jarvis Thomson sosté que hi ha una diferència moral entre desviar un dany existent i usar un innocent com a instrument. L'utilitarisme pur no explica la diferència; el kantianisme sí."
+            },
+            {
+              "type": "expandable",
+              "label": "El dilema del presoner: cooperar o trair?",
+              "content": "Dos sospitosos son detinguts per separat. Si tots dos callen, cada un rep 1 any de presó. Si tots dos delaten, 3 anys cadascun. Si un delata i l'altre calla, el delator queda lliure i l'altre rep 5 anys. Racionalment, cada un hauria de delatar (és la dominant strategy en la teoria de jocs). Però si tots dos raonessin cooperativament, sortirien millor. El dilema del presoner mostra que la racionalitat individual pot produir resultats col·lectivament irracionals. Té aplicació en guerres nuclears, canvi climàtic, competència empresarial i polítiques públiques."
+            },
+            {
+              "type": "debate",
+              "question": "Un cirurgià podria salvar cinc pacients moribunds trasplantant els òrgans d'un pacient sa que ha vingut a la revisió anual. Hauria de fer-ho?",
+              "positionA": {
+                "label": "Sí: cinc vides valen més que una",
+                "argument": "Si el criteri moral és maximitzar el benestar, salvar cinc vides a costa d'una produeix un resultat net millor. El sofriment de la víctima és real, però també ho és el dels cinc pacients que moririen sense transplantament."
+              },
+              "positionB": {
+                "label": "No: usar una persona com a mitjà és sempre incorrecte",
+                "argument": "Matar un innocent, per molt bon resultat que en surti, viola el principi bàsic de dignitat humana. Si acceptem que els metges poden matar pacients sans, destruïm la confiança en tota la institució mèdica. Les normes absolutes existeixen precisament per protegir-nos dels raonaments que semblaven lògics i eren monstruosos."
+              },
+              "reflection": "La posició B invoca el principi de dignitat i les conseqüències institucionals. La posició A invoca el recompte de vides. Pots argumentar les dues sense creure del tot en cap?",
+              "context": "Aquest dilema, formulat per Judith Jarvis Thomson, mostra que la majoria de les persones son intuïtivament deontologistes (no es pot usar un innocent) fins i tot si diuen ser utilitaristes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-05-01",
+              "style": "multiple-choice",
+              "question": "En el dilema del tramvia, la majoria accepta desviar el tramvia (matar un per salvar cinc) però rebutja empènyer l'home gran (matar un per salvar cinc). Quina teoria moral explica millor aquesta diferència intuïtiva?",
+              "options": [
+                "L'utilitarisme: la diferència és que les conseqüències son les mateixes, per tant les dues opcions haurien de ser moralment equivalents.",
+                "La deontologia kantiana: hi ha una diferència moral entre desviar un dany i usar activament un innocent com a instrument.",
+                "L'ètica de la virtut: una persona virtuosa faria el que sembli menys violent físicament.",
+                "El relativisme moral: cada persona pot respondre diferent i totes les respostes son igual de vàlides."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La deontologia captura la intuïció que hi ha una diferència moral qualitativa entre desviar un dany cap a un tercer (en el primer cas) i usar físicament un cos innocent com a instrument per aturar el tramvia (en el segon). L'utilitarisme, paradoxalment, hauria de dir que les dues opcions son equivalents —i la majoria de les persones rebutja aquesta conclusió.",
+              "feedbackWrong": "L'utilitarisme produeix el resultat contraintuïtiu: si les conseqüències son les mateixes (una mort, cinc salvades), les dues accions haurien de ser moralment equivalents. Però quasi ningú no ho veu així. La teoria que millor captura la diferència intuïtiva és la deontologia: empenye l'home és usar-lo com a pur instrument, cosa que viola la seva dignitat d'una manera que desviar el tramvia no fa directament."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-eti-05-01",
+              "question": "Els dilemes morals mostren que les nostres intuïcions morals de vegades son inconsistents (desviem però no empenyem). Hem de corregir les intuïcions amb la teoria, o corregir la teoria quan viola les intuïcions?",
+              "options": [
+                "Sempre la teoria: les intuïcions son biaixos emocionals que cal superar amb la raó.",
+                "Sempre les intuïcions: si una teoria produeix conclusions monstruoses, la teoria és falsa.",
+                "Totes dues es corregeixen mútuament: és un equilibri reflexiu continu."
+              ],
+              "correct": 2,
+              "explanation": "John Rawls va anomenar «equilibri reflexiu» el procés pel qual teories i intuïcions es corregeixen mútuament. Quan una teoria produeix conclusions que quasi ningú no pot acceptar (com que hem de matar el pacient sa), tenim bones raons per revisar la teoria. Però quan les intuïcions provenen de prejudicis (per exemple, la intuïció històrica que certes races mereixen menys drets), les revisem a la llum de principis teòrics. Ni les intuïcions ni les teories son infalibles. Les intuïcions sense teoria son arbitràries; les teories sense atenció a les intuïcions poden produir monstruositats «lògiques». L'ètica és el procés permanent d'ajustar-les mútuament fins a arribar a la major coherència possible."
+            }
+          ]
+        },
+        {
+          "id": "eti-06",
+          "title": "Ètica aplicada: del laboratori a la vida",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Les teories morals no son exercicis acadèmics. S'apliquen —de manera conscient o no— a decisions reals: quan un metge decideix fins on arribar en un tractament, quan una empresa decideix si usar dades personals, quan un govern decideix com distribuir recursos escassos, quan tu decideixes si denunciar una injustícia que has vist. L'ètica aplicada és el pont entre la teoria i la pràctica."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'ètica aplicada examina problemes morals concrets —bioètica, ètica ambiental, ètica dels negocis, ètica de la tecnologia— usant les eines de les teories morals per orientar decisions reals en contextos reals."
+            },
+            {
+              "type": "expandable",
+              "label": "Bioètica: quan la medicina es topa amb els valors",
+              "content": "La bioètica examina preguntes com: Té un pacient terminal el dret a decidir quan morir? Fins on poden arribar els experiments amb éssers humans? És lícit clonar éssers humans per obtenir òrgans de recanvi? Qui decideix per un pacient inconscient? Els quatre principis de Beauchamp i Childress —autonomia, beneficència, no maleficència i justícia— son el marc estàndard en bioètica mèdica. Cap decisió clínica difícil es pren avui sense considerar explícitament aquests principis. La bioètica és filosofia moral amb conseqüències directes sobre la vida i la mort."
+            },
+            {
+              "type": "expandable",
+              "label": "Ètica de la IA: preguntes que la tecnologia no pot respondre",
+              "content": "La intel·ligència artificial planteja dilemes morals nous: Si un algorisme de selecció de personal discrimina sistemàticament per sexe o ètnia (perquè les dades d'entrenament ho feien), qui és responsable? El programador, l'empresa, el client? Si un cotxe autònom ha de triar entre matar el seu passatger o matar cinc vianants, quin codi ha de seguir? Qui el decideix? Si una IA pot diagnosticar malalties millor que un metge, però no pot explicar com ho fa, hem de confiar-hi? Les respostes requereixen filosofia moral, no algorismes."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Introducció a la Filosofia",
+              "moduleEmoji": "🦉",
+              "concept": "La filosofia com a eina pràctica",
+              "text": "Recordes la pregunta sobre el cotxe autònom que vam veure al mòdul d'Introducció? Ara ja tens les eines per analitzar-la: el dissenyador que maximitza vides actua com a utilitarista; el que posa la dignitat del passatger per sobre de qualsevol càlcul actua com a kantià. La teoria moral és la que determina el codi."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-06-01",
+              "style": "multiple-choice",
+              "question": "Un hospital té un sol respirador i dos pacients que el necessiten per sobreviure: un de 30 anys i un de 75. Quin criteri seria clarament utilitarista per decidir qui el rep?",
+              "options": [
+                "El que ha esperat més temps a la llista.",
+                "El que té més anys de vida esperada per endavant, ja que maximitza el benestar futur.",
+                "El que arribi primer al servei d'urgències.",
+                "El que ho decideixi la família."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El criteri utilitarista clàssic buscaria maximitzar el benestar total: assignar el respirador al pacient que tingui més anys de vida esperada produeix, en principi, més benestar futur. Però molts objectors hi responen que l'edat com a criteri de valor de la vida és discriminatòria, i que criteris com la probabilitat de supervivència o l'equitat en l'accés son preferibles.",
+              "feedbackWrong": "L'utilitarisme avalua per resultat: quina assignació maximitza el benestar total? En un context mèdic, això apunta a criteris com anys de vida esperada o probabilitat de supervivència, no a criteris procedimentals com l'ordre d'arribada o la decisió familiar."
+            },
+            {
+              "type": "debate",
+              "question": "Les empreses tecnològiques han de ser legalment responsables pels danys morals que causen els seus algorismes, com ara la discriminació automatitzada o la difusió de desinformació?",
+              "positionA": {
+                "label": "Sí: responsabilitat legal clara",
+                "argument": "Les empreses es beneficien econòmicament dels seus productes. Si aquells productes causen danys sistèmics —discriminació, radicalització, pèrdua de democràcia— han de ser responsables legalment. Sense responsabilitat legal, no hi ha incentiu per corregir els problemes."
+              },
+              "positionB": {
+                "label": "No: la regulació frenarà la innovació",
+                "argument": "La tecnologia evoluciona massa ràpidament perquè la llei l'anticipi. Responsabilitzar legalment les empreses per danys d'algorismes complexos és pràcticament impossible i crearia una incertesa jurídica que frenaria la innovació necessària."
+              },
+              "reflection": "Hi ha alguna cosa que trobes que les empreses tecnològiques fan i que considera moralment incorrecte independentment de la legalitat?",
+              "context": "La Unió Europea ha aprovat la AI Act (2024), que estableix responsabilitats legals per sistemes d'IA d'alt risc. Els EUA adopten un enfocament més voluntari. El debat sobre regulació vs. innovació segueix obert."
+            },
+            {
+              "type": "reflection",
+              "question": "Ara que coneixes l'utilitarisme, la deontologia i l'ètica de la virtut: quan et trobes davant d'una decisió moral difícil, quina teoria creus que t'és més natural? I creus que hauríes de canviar-la?",
+              "prompt": "No hi ha una resposta correcta. Però la pregunta és important: la teoria moral que uses sense saber-ho determina les decisions que prens."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itinerari-vida-bona",
+      "title": "Com viure bé?",
+      "icon": "🌿",
+      "description": "Una exploració pràctica de la filosofia moral: la justícia, la llibertat, la felicitat i el sentit com a guies per a la vida.",
+      "style": "Pràctic · de la teoria a la vida quotidiana",
+      "lessons": [
+        {
+          "id": "eti-v01",
+          "title": "La justícia: què mereix cadascú?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Tres estudiants han de repartir una flauta. El primer diu: «Jo me la mereixo perquè sóc l'únic que sap tocar-la». El segon diu: «Jo me la mereixo perquè sóc el més pobre i no tinc cap joguina». El tercer diu: «Jo me la mereixo perquè jo l'he fabricada». Amartya Sen usa aquest exemple per mostrar que la justícia no té una sola resposta: l'utilitarisme donaria la flauta al flautista (maximitza el benestar), l'igualitarisme al nen pobre (redueix la desigualtat), el libertarisme al fabricant (respecta la propietat)."
+            },
+            {
+              "type": "key-idea",
+              "text": "La justícia és el principi que determina com s'han de distribuir els beneficis i les càrregues en una societat. Les grans tradicions —utilitarisme, liberalisme igualitari (Rawls) i libertarisme (Nozick)— donen respostes radicalment diferents."
+            },
+            {
+              "type": "expandable",
+              "label": "El vel d'ignorància de Rawls: com construir una societat justa",
+              "content": "John Rawls proposa un experiment mental: imagina que has de dissenyar les regles d'una societat sense saber quin lloc hi ocuparàs. No saps si seràs ric o pobre, home o dona, sa o malalt, de quina ètnia o religió. Darrere d'aquest «vel d'ignorància», quines regles elegiríes? Rawls argumenta que elegiríes principis que protegissin els més desafavorits, perquè podries ser tu. Concretament, acceptaries desigualtats econòmiques només si beneficien els que estan pitjor (principi de diferència). Aquest experiment mental és un dels més influents de la filosofia política del segle XX."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-v01-01",
+              "style": "multiple-choice",
+              "question": "El «vel d'ignorància» de Rawls serveix per:",
+              "options": [
+                "Demostrar que la igualtat absoluta és el sistema just.",
+                "Eliminar els biaixos personals en el raonament sobre la justícia, imaginant que no saps quin lloc ocuparàs en la societat.",
+                "Justificar el mercat lliure sense intervenció de l'estat.",
+                "Demostrar que la justícia és relativa a cada cultura."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El vel d'ignorància és un dispositiu retòric per eliminar els interessos particulars del raonament moral. Si no saps si seràs el guanyador o el perdedor del sistema, ets forçat a raçonar des d'una perspectiva imparcial. Rawls sosté que des d'aquí elegiríes principis que protegeixin els més vulnerables, perquè podries ser tu.",
+              "feedbackWrong": "El vel d'ignorància no prescriu cap sistema econòmic concret ni nega la diversitat cultural. És un mètode per forçar la imparcialitat en el raonament sobre la justícia: si no saps quin lloc ocupes, no pots dissenya el sistema a favor teu."
+            },
+            {
+              "type": "debate",
+              "question": "L'estat ha de redistribuir la riquesa per reduir les desigualtats, o la riquesa guanyada lliurement pertany als qui la generen?",
+              "positionA": {
+                "label": "Redistribució: la justícia ho requereix",
+                "argument": "Les desigualtats de partida —família, lloc de naixement, talent innat— no son merites individuals. Una societat justa ha de compensar-les. La llibertat real requereix recursos reals; sense ells, la igualtat formal és buida."
+              },
+              "positionB": {
+                "label": "Propietat: la llibertat ho prohibeix",
+                "argument": "Nozick argumenta que si cada pas en l'adquisició d'una riquesa és lícit, el resultat és lícit. Redistribuir-la forçosament és violar els drets de propietat. L'estat no pot usar les persones com a mitjans per a fins col·lectius sense el seu consentiment."
+              },
+              "reflection": "Fins a quin punt creus que els teus èxits son mèrit exclusivament teu? Quin paper hi han jugat factors que no has triat?",
+              "context": "El debat Rawls-Nozick és el més influent de la filosofia política del segle XX. Les polítiques fiscals, els sistemes sanitaris i les lleis d'herència reflecteixen posicions en aquest debat, sovint sense saber-ho."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-eti-v01-01",
+              "question": "Si descobrissis que el teu èxit professional es deu en un 70% a factors que no has triat (família, lloc de naixement, talent innat), canviaria la teva visió sobre la justícia de la distribució de riquesa?",
+              "options": [
+                "No: sigui quina sigui la causa, el resultat és meu i me'l mereixo.",
+                "Sí: si l'èxit no es deu al mèrit, no hi ha fonament moral per a la desigualtat.",
+                "Parcialment: el mèrit individual justifica certa desigualtat, però la fortuna del punt de partida justifica mecanismes correctors."
+              ],
+              "correct": 2,
+              "explanation": "La recerca en economia i psicologia mostra consistentment que el punt de partida (família, país, gènere, ètnia) prediu l'èxit econòmic molt millor que l'esforç individual. Michael Sandel, a «La tirania del mèrit», argumenta que la ideologia meritocràtica genera arrogància en els guanyadors i humiliació en els perdedors, perquè atribueix tots els resultats al mèrit individual. Daniel Markovits mostra que les elits reprodueixen la seva posició a través d'un accés privilegiat a l'educació, no pas per més esforç. Rawls diria que, darrere del vel d'ignorància, elegiríem un sistema que no premies la loteria genètica i familiar sense compensació. Però Nozick respondria que fins i tot si el talent és innat, els fruits del seu exercici pertanyen a la persona. No hi ha una resposta definitiva, però la pregunta és la central de tota la filosofia política contemporània."
+            }
+          ]
+        },
+        {
+          "id": "eti-v02",
+          "title": "La llibertat: quantes en hi ha?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "«Sóc lliure». Però lliure de què? Lliure per fer què? Isaiah Berlin, filòsof del segle XX, va observar que la paraula «llibertat» s'usa per defensar posicions radicalment oposades: els que volen menys estat i els que en volen més, els liberals i els socialistes, tots invoquen la llibertat. Va concloure que darrere de la mateixa paraula s'amaguen almenys dos conceptes completament diferents."
+            },
+            {
+              "type": "key-idea",
+              "text": "Isaiah Berlin distingeix la llibertat negativa (absència d'interferències externes) de la llibertat positiva (capacitat real d'autogovernar-se). La primera demana que l'estat no intervingui; la segona demana que l'estat proporcioni les condicions per exercir la llibertat realment."
+            },
+            {
+              "type": "comparison",
+              "title": "Llibertat negativa vs. llibertat positiva",
+              "labelA": "Llibertat negativa",
+              "labelB": "Llibertat positiva",
+              "items": [
+                {
+                  "label": "Pregunta clau",
+                  "a": "Qui m'impedeix fer el que vull?",
+                  "b": "Qui controla la meva vida? Puc realment triar?"
+                },
+                {
+                  "label": "Enemic principal",
+                  "a": "La interferència de l'estat o dels altres",
+                  "b": "La ignorància, la pobresa, la dependència"
+                },
+                {
+                  "label": "Rol de l'estat",
+                  "a": "Mínim: no ha d'interferir",
+                  "b": "Actiu: ha de crear condicions per a la llibertat real"
+                },
+                {
+                  "label": "Tradició política",
+                  "a": "Liberalisme clàssic, libertarisme",
+                  "b": "Liberalisme social, socialisme democràtic"
+                },
+                {
+                  "label": "Risc",
+                  "a": "Desigualtat formal que oculta desigualtat real",
+                  "b": "Paternalisme: l'estat decideix el que és millor per a tu"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El pobre «lliure» d'anar al restaurant de luxe",
+              "content": "Anatole France va escriure irònicament que la llei, en la seva majestuosa igualtat, prohibeix tant als rics com als pobres dormir sota els ponts. Tots dos son «lliures» de no fer-ho. Però un no en té cap necessitat i l'altre no té alternativa. Aquesta és la crítica a la llibertat negativa pura: l'absència formal d'obstacles no garanteix la capacitat real d'actuar. Un nen d'un barri marginal és «lliure» d'anar a la universitat en el sentit que ningú no li ho prohibeix legalment. Però si no té recursos, la llibertat formal és buida. Els defensors de la llibertat positiva diuen que sense certes condicions materials, la llibertat és un formalisme buit."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-v02-01",
+              "style": "multiple-choice",
+              "question": "Un govern imposa beques obligatòries per a estudiants d'entorns desfavorits, finançades amb impostos. Des de la perspectiva de la llibertat negativa, com s'avalua aquesta mesura?",
+              "options": [
+                "Positivament: augmenta la llibertat real dels estudiants pobres.",
+                "Negativament: restringeix la llibertat dels contribuents obligant-los a finançar-ho.",
+                "Neutralment: no afecta la llibertat de ningú.",
+                "Positivament: qualsevol mesura educativa augmenta la llibertat."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Des de la perspectiva de la llibertat negativa, la mesura és problemàtica perquè imposa una obligació als contribuents sense el seu consentiment explícit —reduint la seva llibertat negativa. Des de la perspectiva de la llibertat positiva, en canvi, la mesura augmenta la capacitat real dels estudiants pobres per escollir el seu futur. El conflicte entre les dues perspectives és real i no té solució fàcil.",
+              "feedbackWrong": "La llibertat negativa mesura l'absència d'interferències. Des d'aquesta perspectiva, imposar una obligació fiscal (encara que sigui per a fins nobles) és una restricció de la llibertat dels contribuents. La llibertat positiva, en canvi, valoraria l'augment de capacitats reals dels estudiants. El conflicte entre les dues perspectives és el cor del debat polític modern."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-eti-v02-01",
+              "question": "Si un govern pot provar que certes restriccions (cinturons de seguretat, vacunació, dieta escolar) augmenten el benestar objectiu de les persones, pot imposar-les?",
+              "options": [
+                "Sí: el govern sap millor que els individus el que els convé.",
+                "No: cada persona ha de poder triar la seva pròpia vida, fins i tot malament.",
+                "Depèn: hi ha un espai per al paternalisme justificat, però cal delimitar-lo amb criteri."
+              ],
+              "correct": 2,
+              "explanation": "John Stuart Mill va formular el principi de dany: l'únic fonament legítim per restringir la llibertat d'una persona és evitar danys a tercers, no protegir-la d'ella mateixa. El «paternalisme» —imposar restriccions per al bé de l'agent— és altament sospitós per als liberals. Però el debat s'ha sofisticat: Cass Sunstein i Richard Thaler proposen el «paternalisme lleuger» (nudging): l'estat pot dissenyar entorns que impulsin decisions saludables (aliments sans al nivell dels ulls, jubilació per defecte) sense prohibir les alternatives. L'evidència mostra que funciona i preserva la llibertat formal. El límit entre autonomia i paternalisme és un dels debats més vius de la filosofia política i les polítiques públiques actuals."
+            }
+          ]
+        },
+        {
+          "id": "eti-v03",
+          "title": "El sentit de la vida",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Viktor Frankl va sobreviure a quatre camps de concentració nazis, inclòs Auschwitz. Va observar que els qui sobrevivien no eren necessàriament els més forts físicament, sinó els qui tenien un motiu per aguantar: una persona estimada, una obra per acabar, una fe. Va concloure que l'ésser humà pot suportar qualsevol «com» si té un «per a què». La seva obra, «L'home a la recerca de sentit», és un dels llibres més llegits del segle XX. La pregunta pel sentit no és un luxe: és una necessitat."
+            },
+            {
+              "type": "key-idea",
+              "text": "La pregunta pel sentit de la vida no té una resposta universal. Les tradicions filosòfiques divergeixen radicalment: per a alguns, el sentit és objectiu (Déu, la naturalesa, la raó); per a altres, és creat per cada individu (existencialisme); per a altres, la pregunta mateixa és un error (budisme, estoicisme)."
+            },
+            {
+              "type": "quote",
+              "text": "L'home que sap el «per a què» de la seva vida pot suportar gairebé qualsevol «com».",
+              "author": "Viktor Frankl, L'home a la recerca de sentit (1946)"
+            },
+            {
+              "type": "expandable",
+              "label": "Sartre i Camus: dues respostes existencialistes oposades",
+              "content": "Jean-Paul Sartre sosté que l'existència precedeix l'essència: no neixes amb un propòsit o naturalesa predefinits. Primer existeixes, després crees el teu sentit. Això és alliberador i aterrador alhora: ets absolutament lliure i absolutament responsable. Albert Camus parteix de l'absurd: la vida no té sentit inherent, i la nostra necessitat de trobar-ne xoca amb el silenci de l'univers. Però Camus no conclou el nihilisme: proposa la rebel·lió. Acceptar l'absurd i viure igualment amb plenitud, com Sísif empenyent la seva pedra. «Cal imaginar Sísif feliç»."
+            },
+            {
+              "type": "expandable",
+              "label": "La psicologia del sentit: Frankl i la logoteràpia",
+              "content": "Viktor Frankl va fundar la logoteràpia —teràpia a través del sentit— com a alternativa a la psicoanàlisi freudiana (que centra la motivació en el plaer) i l'adleriana (que la centra en el poder). Per a Frankl, la motivació primària és la voluntat de sentit. Quan el sentit falta, apareix el «buit existencial»: avorriment, apatia, depressió sense causa aparent. La recerca mostra que les persones amb un fort sentit de propòsit viuen més, pateixen menys malalties cròniques i recuperen millor de les adversitats. El sentit no és un luxe: és una necessitat psicològica fonamental."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-v03-01",
+              "style": "multiple-choice",
+              "question": "Sartre afirma que «l'existència precedeix l'essència». Quina implicació té per al sentit de la vida?",
+              "options": [
+                "Que el sentit de la vida ve determinat per Déu o la naturalesa abans de néixer.",
+                "Que no hi ha sentit possible en la vida humana.",
+                "Que cada individu crea el seu propi sentit a través de les seves decisions i compromisos.",
+                "Que el sentit de la vida és el plaer i la felicitat immediata."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Per a Sartre, com que no hi ha naturalesa humana predefinida ni Déu que ens hagi creat amb un propòsit, som nosaltres qui creem el nostre sentit a través de les nostres tries i compromisos. Això és la llibertat radical i la responsabilitat radical de l'existencialisme: no pots culpar la naturalesa, Déu ni la societat del que ets. Tu ets les teves tries.",
+              "feedbackWrong": "«L'existència precedeix l'essència» significa que primer existim (sense naturalesa predefinida) i després creem el que som. Per a Sartre, no hi ha sentit donat per endavant —ni per Déu, ni per la naturalesa. Però tampoc és nihilisme: el sentit existeix, però és creat per cada individu a través de les seves decisions."
+            },
+            {
+              "type": "debate",
+              "question": "El sentit de la vida és quelcom que es descobreix (és objectiu, hi és abans de nosaltres) o quelcom que es crea (som nosaltres qui el construïm)?",
+              "positionA": {
+                "label": "Es descobreix",
+                "argument": "Les persones que viuen amb més sentit no senten que l'han inventat: senten que han trobat alguna cosa real —una vocació, un amor, una missió. La coherència de les grans tradicions ètiques i religioses suggereix que hi ha patrons objectius de vida significativa."
+              },
+              "positionB": {
+                "label": "Es crea",
+                "argument": "L'univers no conté significat inherent. El sentit és un producte de la ment humana —una projecció sobre un món indiferent. Que moltes persones projecto el mateix (amor, connexió, creació) no el fa objectiu: reflecteix la nostra biologia compartida."
+              },
+              "reflection": "La diferència importa pràcticament? Si el sentit que vius és igual de profund en tots dos casos, importa si és descobert o creat?",
+              "context": "El filòsof Susan Wolf proposa una síntesi: el sentit emergeix de l'engagement actiu amb objectes de valor genuí. Requereix subjectivitat (que t'importi) i objectivitat (que allò que t'importa tingui valor real). Ni pur descobriment ni pura creació."
+            },
+            {
+              "type": "reflection",
+              "question": "Completa aquesta frase per a tu, ara mateix: «La meva vida tindria sentit si...». No t'autocensures. No busques la resposta filosòficament correcta. Busques la teva.",
+              "prompt": "Guarda-la. Pot ser el punt de partida d'una reflexió important."
+            }
+          ]
+        },
+        {
+          "id": "eti-v04",
+          "title": "Tenim obligacions envers els altres?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Peter Singer planteja el cas següent: passejant per un llac, veus un nen petit que s'ofega a poca profunditat. Pots salvar-lo fàcilment. Ho faries? Evidentment. Ara: hi ha nens que moren de malalties evitables i fam al món. Tu pots contribuir a salvar-los a un cost molt petit. Quin és la diferència moral entre els dos casos? Singer sosté que no n'hi ha. I les implicacions son devastadores per a la nostra manera de viure."
+            },
+            {
+              "type": "key-idea",
+              "text": "Singer argumenta que si podem evitar alguna cosa dolenta sense sacrificar res de comparable importància moral, estem obligats a fer-ho. Aquesta premissa, aplicada globalment, implica que tenim obligacions morals molt exigents envers persones llunyanes."
+            },
+            {
+              "type": "expandable",
+              "label": "L'altruisme eficaç: filosofia moral aplicada a escala global",
+              "content": "L'altruisme eficaç (effective altruism) és un moviment filosòfic i pràctic inspirat en Singer: usa l'evidència i la raó per determinar quines accions beneficen més el món, i actua en conseqüència. Els seus seguidors trien professions per la capacitat de donar (earn to give), donen el 10% dels seus ingressos i investiguen quines organitzacions produeixen més bé per euro donat. La recerca mostra que diferències de fins a 1.000 vegades en l'eficàcia entre organitzacions son habituals. L'altruisme eficaç ha generat debats filosòfics importants: és moralment superior a l'ajuda local? Implicar-se emocionalment en causes llunyanes és psicològicament sostenible? Pot el càlcul substituir la compassió?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-v04-01",
+              "style": "true-false",
+              "question": "Singer sosté que tenim obligació moral de donar fins al punt en què donar més causaria un dany comparable al que evitem.",
+              "correct": true,
+              "feedbackCorrect": "Cert. Singer argumenta que si el principi és que hem d'evitar el mal allà on puguem a cost acceptable, el límit lògic és quan el cost per a nosaltres seria comparable al benefici per a l'altre. Això és molt més exigent que la caritat convencional: implicaria donar fins al punt d'igualar el nostre nivell de benestar amb el de les persones que ajudem. Pocs accepten (o practiquen) aquesta conclusió plena, però el raonament que la sustenta és difícil de refutar formalment.",
+              "feedbackWrong": "En realitat, sí que és la posició de Singer. Argumenta que si podem evitar un mal greu a un cost acceptable, estem obligats moralment a fer-ho. El límit és quan el cost per a nosaltres sigui moralment comparable al benefici per als altres. Aquesta posició és molt més exigent que la caritat voluntària convencional."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-v04-02",
+              "style": "multiple-choice",
+              "question": "Quin és l'argument principal de Singer per sostenir que tenim obligacions morals envers persones llunyanes que mai no hem conegut?",
+              "options": [
+                "Que totes les persones son membres de la mateixa nació i per tant ens devem solidaritat.",
+                "Que la distància geogràfica és moralment irrelevant: si pots evitar un mal greu a cost petit, estàs obligat a fer-ho independentment de qui pateix.",
+                "Que els governs no fan prou i per tant els individus han de compensar-ho.",
+                "Que ajudar els altres és la millor manera d'aconseguir la pròpia felicitat."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'argument de Singer és purament lògic: la distància no és una propietat moralment rellevant. Si pots salvar una vida a cost petit, l'obligació existeix independentment de si la persona és al costat teu o a l'altre costat del planeta. Molts objectors diuen que les obligacions especials —amb la família, la comunitat, la nació— son legítimes i limiten l'abast de les obligacions globals. Singer ho discuteix.",
+              "feedbackWrong": "L'argument de Singer no es basa en la pertinença nacional ni en l'incentiu personal: és un argument moral directe. La distància física no és moralment rellevant. Si tens capacitat d'evitar un mal greu sense un cost comparable, estàs moralment obligat, independentment de qui sigui la víctima."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-eti-v04-01",
+              "question": "Si l'argument de Singer és lògicament correcte, per què quasi ningú no el segueix en la seva forma plena?",
+              "options": [
+                "Perquè la gent és moralment dolenta i egoista.",
+                "Perquè l'argument té errors lògics ocults que la majoria intueix però no pot articular.",
+                "Perquè la psicologia humana no és dissenyada per a obligacions morals globals, i això no invalida l'argument però sí que complica la seva aplicació."
+              ],
+              "correct": 2,
+              "explanation": "La distància entre el que Singer argumenta i el que la gent fa no es deu necessàriament a hipocresia o mala fe. La psicologia moral humana ha evolucionat per respondre a grups petits i amenaces immediates, no a crisi globals abstractes. Paul Slovic ha demostrat que l'empatia i la resposta emocional cauen dràsticament quan les víctimes son moltes i llunyanes: una víctima identificada genera més donació que mil víctimes estadístiques. Això no invalida l'argument de Singer —la psicologia no dicta el que és correcte. Però sí que planteja preguntes sobre com dissenyar sistemes (lleis, institucions, normes socials) que compensin els límits psicològics individuals. Molts filòsofs (Scheffler, Williams) han argumentat que les obligacions especials (família, comunitat) no son irracionals sinó constitutives de la identitat i la vida moral plena, i que Singer les ignora de manera injustificada."
+            }
+          ]
+        },
+        {
+          "id": "eti-v05",
+          "title": "Ètica mediambiental: tenim obligacions envers la natura?",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Durant segles, la filosofia moral occidental ha estat antropocèntrica: les obligacions morals existien entre humans. Els animals, les plantes i els ecosistemes eren recursos, no subjectes morals. Però el canvi climàtic, l'extinció massiva d'espècies i la degradació dels ecosistemes plantegen una pregunta nova: tenim obligacions morals envers els animals, les espècies i la natura en general? I si és així, en quin fonament es basen?"
+            },
+            {
+              "type": "key-idea",
+              "text": "L'ètica mediambiental examina si la natura —animals, espècies, ecosistemes— té valor moral intrínsec (per si mateixa) o només instrumental (perquè és útil per als humans). La resposta determina fins on arriben les nostres obligacions mediambientals."
+            },
+            {
+              "type": "expandable",
+              "label": "Peter Singer i els drets dels animals: la capacitat de patir com a criteri",
+              "content": "Singer argumenta que el criteri per tenir consideració moral no és la racionalitat (que exclouria nadons i persones amb discapacitat cognitiva greu) sinó la capacitat de patir. Qualsevol ésser capaç de sentir dolor i plaer mereix consideració moral. Molts animals la compleixen. Per tant, l'especisme —tractar els animals pitjor que els humans per la seva espècie— és un prejudici tan injustificat com el racisme o el sexisme. Tom Regan va més lluny: els animals son «subjectes d'una vida» amb valor inherent, i per tant tenen drets, no simplement interessos a ponderar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-v05-01",
+              "style": "multiple-choice",
+              "question": "Per a Singer, quin criteri determina si un ésser mereix consideració moral?",
+              "options": [
+                "La racionalitat: només els éssers racionals mereixen consideració moral.",
+                "La pertinença a l'espècie humana.",
+                "La capacitat de patir: qualsevol ésser que pot sentir dolor i plaer mereix consideració.",
+                "La consciència de si mateix: només els éssers que es reconeixen en un mirall."
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Singer desplaça el criteri de la racionalitat (que Kant usava) a la sentència —la capacitat de sentir. La pregunta rellevant no és «poden raonar?» sinó «poden patir?». Bentham ja l'havia formulat: «La pregunta no és si poden raonar, ni si poden parlar, sinó si poden patir». Aplicat consistentment, inclou molts animals en el cercle moral i exclou parts de la natura que no senten (plantes, ecosistemes), que requereixen altres fonaments.",
+              "feedbackWrong": "Singer desplaça el criteri de la racionalitat a la sentència. Per a ell, usar la racionalitat com a criteri és arbitrari: exclou nadons i persones amb discapacitat cognitiva severa, i inclou alguns animals altament cognitius. La capacitat de patir és el criteri rellevant perquè és el que fa que un ésser tingui interessos que podem danyar o afavorir."
+            },
+            {
+              "type": "debate",
+              "question": "Hem de reduir radicalment el consum de carn per raons ètiques, fins i tot si implica canvis importants en la nostra manera de viure?",
+              "positionA": {
+                "label": "Sí: és una obligació moral",
+                "argument": "La ramaderia industrial causa sofriment massiu a milions d'éssers sensibles, contribueix decisivament al canvi climàtic i és ineficient en termes de recursos. Si podem viure bé sense causar aquest dany, tenim l'obligació moral de fer-ho."
+              },
+              "positionB": {
+                "label": "No: és una elecció personal",
+                "argument": "Les tradicions culturals, les necessitats nutricionals i les circumstàncies econòmiques fan que la dieta no sigui una qüestió purament individual. Moralitzar sobre l'alimentació de les persones és paternalisme. El canvi ha de venir de polítiques sistèmiques, no de culpabilitzar individus."
+              },
+              "reflection": "Hi ha diferència moral entre menjar carn de ramaderia industrial i menjar carn d'animals criats amb benestar? I entre una persona amb moltes opcions nutricionals i algú amb poques?",
+              "context": "La ramaderia és responsable d'aproximadament el 14,5% de les emissions globals de gasos d'efecte hivernacle, segons la FAO. La investigació en filosofia moral sobre els drets animals ha crescut exponencialment des dels anys 70."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-eti-v05-01",
+              "question": "Té la natura —els ecosistemes, les espècies, els boscos— valor moral propi, independent del que valen per als humans?",
+              "options": [
+                "No: el valor és sempre relatiu a interessos d'éssers sensibles. La natura és un recurs.",
+                "Sí: certs elements de la natura tenen valor intrínsec que no depèn dels humans.",
+                "És una pregunta mal plantejada: cal distingir entre espècies sensibles, que sí tenen valor propi, i ecosistemes, el valor dels quals és instrumental."
+              ],
+              "correct": 2,
+              "explanation": "El debat sobre el valor intrínsec de la natura és un dels més oberts en filosofia moral. Aldo Leopold i el moviment de l'ecologia profunda sostenen que els ecosistemes i les espècies tenen valor propi, independent de si algun ésser sensible se'n beneficia. Però és difícil fonamentar filosòficament per quin motiu un bosc «mereix» existir si cap ésser sensible en depèn. Una alternativa és el biocentrisme (Paul Taylor): tot ésser viu té una finalitat interna, un bé propi, que mereix respecte. Una altra és ampliar l'utilitarisme per incloure no sols el plaer sinó la diversitat, la complexitat i la integritat dels ecosistemes. La posició C de la pregunta reconeix que éssers animals (sentents) i ecosistemes (no sentents) plantegen qüestions morals de naturalesa diferent i que potser cal fonaments distints per a cadascun."
+            }
+          ]
+        },
+        {
+          "id": "eti-v06",
+          "title": "Com viure bé: síntesi i eines per a la vida moral",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Has recorregut les grans teories morals, els dilemes clàssics, la justícia, la llibertat, el sentit i les obligacions globals. Però la filosofia moral no és un museu de teories: és una caixa d'eines per a la vida real. La pregunta final és la més personal: com vols viure? Quins principis vols que guiïn les teves decisions? Quina persona vols arribar a ser?"
+            },
+            {
+              "type": "key-idea",
+              "text": "Cap teoria moral és suficient per si sola. El raonament moral madur usa múltiples enfocaments com a lents complementàries: les conseqüències importen, els deures i els drets importen, el caràcter importa. La saviesa pràctica consisteix a saber quina lent aplicar en cada situació."
+            },
+            {
+              "type": "expandable",
+              "label": "Les quatre preguntes que tot dilema moral hauria de respondre",
+              "content": "Davant de qualsevol dilema moral difícil, quatre preguntes poden ajudar a estructurar el raonament: (1) Quines conseqüències probables té cada opció, i per a qui? (lent utilitarista) (2) Hi ha drets o deures en joc que no s'haurien de sacrificar independentment de les conseqüències? (lent kantiana) (3) Quin tipus de persona em fa ser cada opció? (lent de la virtut) (4) Podria justificar públicament la meva decisió davant de totes les persones afectades? (lent contractualista). Cap pregunta sola és suficient, però les quatre juntes cobreixen els principals angles del problema."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-eti-v06-01",
+              "style": "multiple-choice",
+              "question": "Un periodista té proves que un polític ha comès un frau menor però publicar-les destruiria injustament la reputació de la seva família innocent. Quina lent filosòfica posa el focus en si publicar viola un deure vers la família innocent?",
+              "options": [
+                "Utilitarista: examina les conseqüències per a tothom.",
+                "Kantiana/deontològica: examina si hi ha drets o deures que no s'haurien de sacrificar.",
+                "De la virtut: examina quin tipus de periodista vols ser.",
+                "Contractualista: examina si podries justificar-ho públicament."
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La lent deontològica pregunta si l'acció viola drets o deures independentment de les conseqüències. En aquest cas: la família innocent té dret a no ser perjudicada per accions que no ha comès? El deure de no causar dany a innocents és independent del benefici informatiu que obtindria el públic? Aquesta perspectiva completa (no substitueix) el càlcul de conseqüències.",
+              "feedbackWrong": "La lent deontològica és la que posa el focus en drets i deures independents de les conseqüències. L'utilitarista comptaria tots els efectes (positius i negatius); la de la virtut preguntaria pel caràcter del periodista; la contractualista, per la justificació pública. Totes son rellevants, però la que posa el focus específic en si hi ha un deure vers la família innocent és la deontològica."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Lògica i Argumentació",
+              "moduleEmoji": "🧩",
+              "concept": "Fal·làcies en el raonament moral",
+              "text": "Molts errors en el raonament moral no son errors de valors sinó errors lògics: apel·lació a la natura («és natural, per tant és bo»), apel·lació a la majoria («tothom ho fa»), fal·làcia de la pendent relliscosa. El mòdul de Lògica i Argumentació t'equiparà per detectar i evitar aquests errors."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una decisió moral important que saps que hauràs d'afrontar en els propers mesos o anys. Aplica-hi les quatre preguntes (conseqüències, drets, caràcter, justificació pública). Canvia alguna cosa la manera com la veus?",
+              "prompt": "La filosofia moral no és per als filòsofs. És per a qui vol prendre decisions importants amb els ulls oberts."
+            },
+            {
+              "type": "quote",
+              "text": "Conèixer el bé no és suficient; hem de practicar-lo. Voler no és suficient; hem d'actuar.",
+              "author": "Johann Wolfgang von Goethe"
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-eti-v06-01",
+              "question": "Estudiar filosofia moral canvia el comportament moral de les persones?",
+              "options": [
+                "Sí: conèixer les teories morals fa que actuem millor.",
+                "No: el comportament moral depèn del caràcter i les emocions, no de les teories.",
+                "Incert: l'evidència suggereix que el coneixement ètic sol no canvia el comportament, però pot fer-ho en combinació amb la pràctica i la reflexió."
+              ],
+              "correct": 2,
+              "explanation": "Eric Schwitzgebel i Joshua Rust han investigat el comportament moral dels filòsofs especialitzats en ètica i han trobat resultats sorprenents: els filòsofs morals no s'comporten significativament millor que els filòsofs d'altres àrees en dimensions com votar, donar a la caritat, trucar a la mare o retornar llibres de la biblioteca. El coneixement de les teories ètiques no sembla traduir-se automàticament en millor comportament. Això no invalida l'estudi de l'ètica —la teoria continua sent necessària per estructurar el raonament, identificar inconsistències i millorar les institucions. Però sí que confirma la intuïció d'Aristòtil: la virtut no s'adquireix per coneixement sinó per pràctica. La filosofia moral et dóna eines; usar-les requereix l'hàbit, la voluntat i una comunitat que exemplifiqui i reforci els valors."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

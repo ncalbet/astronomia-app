@@ -43,6 +43,25 @@ const DEFAULT_STATE = {
     'module-34-mecanica-classica','module-36-termodinamica','module-37-electromagnetisme','module-38-relativitat',
     // Bloc: Filosofia
     'module-30-introduccio-filosofia','module-09-filosofia-politica',
+    'module-31-etica','module-32-logica-argumentacio','module-33-epistemologia',
+    // Bloc: Astronomia (nous)
+    'module-09-bigbang','module-10-estrelles',
+    // Bloc: Biologia i Física (nous)
+    'module-08-neurociencia','module-08-relativitat',
+    // Bloc: Literatura
+    'module-01-antiguitat-origens','module-02-edat-mitjana-renaixement',
+    'module-05-avantguardes','module-06-novella-segle-xx','module-08-postmodernisme',
+    // Bloc: Arquitectura
+    'module-XX-arquitectura-01','module-XX-arquitectura-02',
+    'module-XX-arquitectura-03','module-XX-arquitectura-04',
+    // Bloc: Arts i Cultura
+    'module-XX-cinema','module-30-opera',
+    // Bloc: Relacions Internacionals (nous)
+    'module-XX-ddhh-ordre-internacional','module-XX-teoria-ri',
+    // Bloc: Societat i Política
+    'module-34-democracia-sistemes-politics','module-XX-sociologia',
+    // Bloc: Filosofia (nous)
+    'module-XX-intro-filosofia','module-XX-etica-practica','module-XX-filosofia-llenguatge',
   ],
   badges: [],
   srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }

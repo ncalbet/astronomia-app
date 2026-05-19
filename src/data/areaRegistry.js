@@ -26,6 +26,8 @@ export const AREAS = [
         modules: [
           'module-01-copernicus',
           'module-02-history',
+          'module-09-bigbang',
+          'module-10-estrelles',
         ],
       },
       {
@@ -46,6 +48,7 @@ export const AREAS = [
           'module-36-termodinamica',
           'module-37-electromagnetisme',
           'module-38-relativitat',
+          'module-08-relativitat',
         ],
       },
       {
@@ -54,6 +57,7 @@ export const AREAS = [
           'module-05-birding',
           'module-08-biologia',
           'module-10-neurociencia',
+          'module-08-neurociencia',
           'module-33-evolucio',
           'module-35-genetica',
         ],
@@ -126,7 +130,13 @@ export const AREAS = [
         label: 'Filosofia',
         modules: [
           'module-30-introduccio-filosofia',
+          'module-XX-intro-filosofia',
           'module-09-filosofia-politica',
+          'module-31-etica',
+          'module-XX-etica-practica',
+          'module-32-logica-argumentacio',
+          'module-33-epistemologia',
+          'module-XX-filosofia-llenguatge',
         ],
       },
     ],
@@ -135,9 +145,16 @@ export const AREAS = [
     id: 'societat',
     label: 'Societat',
     emoji: '🌍',
-    description: "Economia, medi ambient i com s'organitza la vida col·lectiva",
+    description: "Economia, política i com s'organitza la vida col·lectiva",
     accentColor: '#4CAF82',
     topics: [
+      {
+        label: 'Política i Institucions',
+        modules: [
+          'module-34-democracia-sistemes-politics',
+          'module-XX-sociologia',
+        ],
+      },
       {
         label: 'Bases Econòmiques',
         modules: [
@@ -178,6 +195,12 @@ export const AREAS = [
         ],
       },
       {
+        label: 'Teoria de les RRII',
+        modules: [
+          'module-XX-teoria-ri',
+        ],
+      },
+      {
         label: 'Drets Humans',
         modules: [
           'module-15-fonaments-drets-humans',
@@ -186,6 +209,7 @@ export const AREAS = [
           'module-18-casos-drets-humans',
           'module-19-actors-no-estatals',
           'module-20-fronteres-drets-humans',
+          'module-XX-ddhh-ordre-internacional',
         ],
       },
     ],
@@ -194,20 +218,46 @@ export const AREAS = [
     id: 'arts',
     label: 'Arts i Cultura',
     emoji: '🎨',
-    description: 'Música, art, cinema i les expressions de la creativitat humana',
+    description: 'Música, art, cinema, arquitectura i les expressions de la creativitat humana',
     accentColor: '#E8855A',
     topics: [
       {
-        label: 'Música',
+        label: 'Música i Òpera',
         modules: [
           'module-08-musica-classica',
           'module-09-historia-rock',
+          'module-30-opera',
         ],
       },
       {
         label: 'Arts Visuals',
         modules: [
           'module-11-pintura',
+        ],
+      },
+      {
+        label: 'Cinema',
+        modules: [
+          'module-XX-cinema',
+        ],
+      },
+      {
+        label: 'Arquitectura',
+        modules: [
+          'module-XX-arquitectura-01',
+          'module-XX-arquitectura-02',
+          'module-XX-arquitectura-03',
+          'module-XX-arquitectura-04',
+        ],
+      },
+      {
+        label: 'Literatura',
+        modules: [
+          'module-01-antiguitat-origens',
+          'module-02-edat-mitjana-renaixement',
+          'module-05-avantguardes',
+          'module-06-novella-segle-xx',
+          'module-08-postmodernisme',
         ],
       },
     ],

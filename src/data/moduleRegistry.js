@@ -61,7 +61,40 @@ export const MODULE_REGISTRY = [
   { id: 'module-38-relativitat',        phase: 1, order: 52, file: () => import('./modules/module-38-relativitat.json') },
   // — Bloc: Filosofia —
   { id: 'module-30-introduccio-filosofia', phase: 1, order: 53, file: () => import('./modules/module-intro-filosofia.json') },
-  { id: 'module-09-filosofia-politica', phase: 1, order: 54, file: () => import('./modules/module-09-filosofia-politica.json') },
+  { id: 'module-09-filosofia-politica',    phase: 1, order: 54, file: () => import('./modules/module-09-filosofia-politica.json') },
+  { id: 'module-31-etica',                 phase: 1, order: 55, file: () => import('./modules/module-31-etica.json') },
+  { id: 'module-32-logica-argumentacio',   phase: 1, order: 56, file: () => import('./modules/module-32-logica-argumentacio.json') },
+  { id: 'module-33-epistemologia',         phase: 1, order: 57, file: () => import('./modules/module-33-epistemologia.json') },
+  // — Bloc: Astronomia (nous) —
+  { id: 'module-09-bigbang',               phase: 1, order: 58, file: () => import('./modules/module-09-bigbang.json') },
+  { id: 'module-10-estrelles',             phase: 1, order: 59, file: () => import('./modules/module-10-estrelles.json') },
+  // — Bloc: Biologia i Física (nous) —
+  { id: 'module-08-neurociencia',          phase: 1, order: 60, file: () => import('./modules/module-08-neurociencia.json') },
+  { id: 'module-08-relativitat',           phase: 1, order: 61, file: () => import('./modules/module-08-relativitat.json') },
+  // — Bloc: Literatura —
+  { id: 'module-01-antiguitat-origens',         phase: 1, order: 62, file: () => import('./modules/module-01-antiguitat-origens.json') },
+  { id: 'module-02-edat-mitjana-renaixement',   phase: 1, order: 63, file: () => import('./modules/module-02-edat-mitjana-renaixement.json') },
+  { id: 'module-05-avantguardes',               phase: 1, order: 64, file: () => import('./modules/module-05-avantguardes.json') },
+  { id: 'module-06-novella-segle-xx',           phase: 1, order: 65, file: () => import('./modules/module-06-novella-segle-xx.json') },
+  { id: 'module-08-postmodernisme',             phase: 1, order: 66, file: () => import('./modules/module-08-postmodernisme.json') },
+  // — Bloc: Arquitectura —
+  { id: 'module-XX-arquitectura-01',  phase: 1, order: 67, file: () => import('./modules/module-arquitectura-01.json') },
+  { id: 'module-XX-arquitectura-02',  phase: 1, order: 68, file: () => import('./modules/module-arquitectura-02.json') },
+  { id: 'module-XX-arquitectura-03',  phase: 1, order: 69, file: () => import('./modules/module-arquitectura-03.json') },
+  { id: 'module-XX-arquitectura-04',  phase: 1, order: 70, file: () => import('./modules/module-arquitectura-04.json') },
+  // — Bloc: Arts i Cultura —
+  { id: 'module-XX-cinema',           phase: 1, order: 71, file: () => import('./modules/module-cinema.json') },
+  { id: 'module-30-opera',            phase: 1, order: 72, file: () => import('./modules/module-opera.json') },
+  // — Bloc: Relacions Internacionals (nous) —
+  { id: 'module-XX-ddhh-ordre-internacional', phase: 1, order: 73, file: () => import('./modules/module-XX-ddhh-ordre-internacional.json') },
+  { id: 'module-XX-teoria-ri',                phase: 1, order: 74, file: () => import('./modules/module-XX-teoria-ri.json') },
+  // — Bloc: Societat i Política —
+  { id: 'module-34-democracia-sistemes-politics', phase: 1, order: 75, file: () => import('./modules/module-democracia-sistemes-politics.json') },
+  { id: 'module-XX-sociologia',                   phase: 1, order: 76, file: () => import('./modules/module-sociologia.json') },
+  // — Bloc: Filosofia (nous) —
+  { id: 'module-XX-intro-filosofia',      phase: 1, order: 77, file: () => import('./modules/module-XX-intro-filosofia.json') },
+  { id: 'module-XX-etica-practica',       phase: 1, order: 78, file: () => import('./modules/module-etica-practica.json') },
+  { id: 'module-XX-filosofia-llenguatge', phase: 1, order: 79, file: () => import('./modules/module-filosofia-llenguatge.json') },
 ]
 
 export async function loadModule(moduleId) {
