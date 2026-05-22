@@ -12,6 +12,9 @@ import Lesson from './screens/Lesson'
 import Results from './screens/Results'
 import ReviewSession from './screens/ReviewSession'
 import Glossary from './screens/Glossary'
+import LearningPathDetail from './screens/LearningPathDetail'
+import MicroCapsulePlayer from './screens/MicroCapsulePlayer'
+import CapsuleBrowser from './screens/CapsuleBrowser'
 import './styles/global.css'
 
 function InnerApp() {
@@ -33,6 +36,9 @@ function InnerApp() {
         <Route path="/results"    element={<PageTransition><Results /></PageTransition>} />
         <Route path="/review"     element={<PageTransition><ReviewSession /></PageTransition>} />
         <Route path="/glossary"   element={<PageTransition><Glossary /></PageTransition>} />
+        <Route path="/path"       element={<PageTransition><LearningPathDetail /></PageTransition>} />
+        <Route path="/capsule"    element={<PageTransition><MicroCapsulePlayer /></PageTransition>} />
+        <Route path="/capsules"   element={<PageTransition><CapsuleBrowser /></PageTransition>} />
         <Route path="*"           element={<Navigate to="/" replace />} />
       </Routes>
     </>
