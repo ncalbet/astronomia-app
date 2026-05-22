@@ -1,0 +1,455 @@
+{
+  "id": "module-10-forats-negres",
+  "title": "Forats negres: el que no hi veiem",
+  "emoji": "⚫",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "fn-01",
+      "title": "Què és un forat negre (i el que la definició amaga)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Un forat negre és una regió de l'espai on la gravetat és tan intensa que res, ni la llum, no pot escapar. Aquesta definició és correcta, concisa, i amaga quasi tot el que és interessant. Perquè la gravetat no és una força en el sentit newtonià — és una curvatura de l'espai-temps. I un forat negre no és un forat en res: és una regió on l'espai-temps s'ha corbat tant que la geometria es trenca. I «res no pot escapar» amaga la pregunta més profunda: on va el que cau?"
+        },
+        {
+          "type": "key-idea",
+          "text": "Un forat negre té tres propietats mesurables: massa, càrrega elèctrica i moment angular (rotació). Res més. Dos forats negres amb la mateixa massa, càrrega i rotació són físicament idèntics, independentment de si es van formar col·lapsant una estrella de neutrons, gas intergalàctic, o un elefant. Tota la informació sobre l'origen queda esborrada. Això és el que fa als forats negres tan filosòficament pertorbadors."
+        },
+        {
+          "type": "misconception",
+          "belief": "Un forat negre «aspira» tot el que té a prop, com una aspiradora còsmica que atrau activament la matèria.",
+          "reality": "Un forat negre exerceix exactament la mateixa gravetat que qualsevol altra massa equivalent a la seva distància. Si el Sol es convertís en un forat negre de la mateixa massa, la Terra continuaria orbitant exactament igual. El perill no és l'atracció extra sinó l'acostament: quan t'apropes prou, la velocitat d'escapament supera la velocitat de la llum.",
+          "why": "La paraula «forat» evoca un buit que xucla. I la gravetat als peus és lleugerament major que al cap (efectes de marea), cosa que reforça la intuïció d'una atracció diferencial. Però la gravetat total no és major que la d'una estrella equivalent."
+        },
+        {
+          "type": "expandable",
+          "label": "El teorema de la calvície: per qué els forats negres no tenen memòria",
+          "content": "El 1971, John Wheeler va proposar el que va anomenar informalment «no-hair theorem» (teorema de la calvície): un forat negre en equilibri no pot tenir cap característica («cabell») més enllà de massa, càrrega i rotació. Tota altra informació sobre la matèria que el va formar —temperatura, composició química, forma— desapareix darrere de l'horitzó. Wheeler ho va resumir amb la frase «black holes have no hair». La implicació és profunda: la matèria es pot destruir completament com a informació estructurada. O potser no — i aquí comença la paradoxa."
+        },
+        {
+          "type": "prediction",
+          "question": "Si caiguessis cap a un forat negre supermasiu, quan creuaries l'horitzó de successos notaries alguna cosa especial? O passaria sense cap sensació particular?",
+          "hint": "Pensa en com és la gravetat quan un observador extern et veu creuar l'horitzó, i com és per a tu des de dins."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-01-01",
+          "style": "multiple-choice",
+          "question": "Dues estrelles de neutrons col·lapsen i formen forats negres idèntics en massa, càrrega i rotació, però una estava feta de matèria ordinària i l'altra d'antimatèria. Quina diferència hi ha entre els dos forats negres?",
+          "options": [
+            "El forat negre d'antimatèria té càrrega oposada",
+            "El forat negre d'antimatèria emet radiació diferent",
+            "Cap diferència física: el teorema de la calvície implica que són idèntics",
+            "El forat negre d'antimatèria és lleugerament menys massiu per l'energia alliberada"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. Pel teorema de la calvície, dos forats negres amb la mateixa massa, càrrega i rotació són físicament indistingibles, independentment de com es van formar. La informació sobre si la matèria original era ordinària o antimatèria queda completament esborrada. Aquesta pèrdua d'informació és el nucli de la paradoxa de la informació.",
+          "feedbackWrong": "El teorema de la calvície diu que els forats negres en equilibri només es caracteritzen per massa, càrrega i rotació. Si les dues estrelles tenien la mateixa massa i rotació, i la matèria-antimatèria es cancel·la en càrrega neta zero, els dos forats negres resultants són físicament idèntics. La composició de la matèria original ha desaparegut com a informació."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-01-02",
+          "style": "true-false",
+          "question": "Si el Sol es convertís instantàniament en un forat negre de la mateixa massa, la Terra seria immediatament atretta cap a ell i destruïda.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La Terra continuaria orbitant exactament com ara. Un forat negre no exerceix més gravetat que qualsevol altra massa equivalent a la mateixa distància — la gravetat de Newton i Einstein depèn de la massa, no de la compacitat. El perill dels forats negres és l'acostament extrem, no una atracció extra a distàncies normals. (Sí que hi hauria altres problemes, com l'absència de llum solar, però gravitacionalment l'òrbita seria idèntica.)",
+          "feedbackWrong": "La gravetat no augmenta per la compacitat d'un objecte: depèn de la massa i la distància. Un forat negre de massa solar a la distància del Sol exerciria exactament la mateixa atracció gravitacional sobre la Terra que el Sol actual. L'òrbita no canviaria. El que fa perillós un forat negre és l'acostament: quan t'aproximes prou, la velocitat d'escapament supera la de la llum."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-fn-01-01",
+          "question": "El teorema de la calvície implica que tota la informació sobre la matèria que forma un forat negre es perd. Quines implicacions té això per a les lleis de la física?",
+          "options": [
+            "Cap: la informació no és un concepte físic fonamental, és una construcció humana",
+            "Greus: la mecànica quàntica estableix que la informació mai es pot destruir; si els forats negres la destrueixen, les dues teories no poden ser totes dues correctes",
+            "Moderades: la informació es perd darrere de l'horitzó però continua existint, simplement inaccessible"
+          ],
+          "correct": 1,
+          "explanation": "Aquí es troba una de les tensions més profundes de la física contemporània. La mecànica quàntica és una teoria unitària: l'evolució quàntica preserva la informació. Si coneixes l'estat quàntic d'un sistema ara, pots recuperar el seu estat passat i futur. Però si un forat negre destrueix la informació de la matèria que engloba, la unitarietat quàntica es viola. I si la informació «simplement queda darrere de l'horitzó» sense desaparèixer, apareix un problema diferent quan el forat negre s'evapora per radiació de Hawking: on va la informació si el forat negre desapareix completament? Aquesta paradoxa —la paradoxa de la informació dels forats negres— va ser plantejada per Hawking el 1976 i continua sense resolució satisfactòria completa. És un dels indicadors més clars que necessitem una teoria que unifiqui la relativitat general i la mecànica quàntica."
+        }
+      ]
+    },
+    {
+      "id": "fn-02",
+      "title": "L'horitzó de successos: la frontera que no es pot creuar dues vegades",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "L'horitzó de successos no és una superfície física. No hi ha cap paret, cap membrana, cap senyal. Si caiguessis cap a un forat negre supermasiu, creuaries l'horitzó sense notar res en aquell moment. El que sí que notaries, irrevocablement, és que ja no pots tornar. I que des de l'exterior, un observador mai et veuria creuar — et veuria alentir-te infinitament, congelar-te a la frontera per sempre, mentre el teu senyal de ràdio es torna cada vegada més roig i dèbil. Dos observadors, la mateixa realitat física, dues descripcions completament incompatibles."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'horitzó de successos és una frontera causal, no física: és el punt a partir del qual cap senyal causal (cap informació que viatgi igual o més lentament que la llum) pot arribar a l'exterior. Creuar-lo no és morir — és perdre la connexió causal amb la resta de l'univers. Des de fora, mai es veu creuat."
+        },
+        {
+          "type": "expandable",
+          "label": "Espaguetificació: el que passa realment quan t'apropes massa",
+          "content": "Els efectes de marea d'un forat negre no comencen a l'horitzó — comencen molt abans. La diferència de força gravitacional entre els peus i el cap s'incrementa dramàticament a mesura que t'apropes. Per a forats negres de massa estel·lar (unes poques masses solars), els efectes de marea et destruirien molt abans d'arribar a l'horitzó: el gradient gravitacional estira el cos longitudinalment i el comprimeix lateralment fins a formar un fil — d'aquí el terme «espaguetificació». Per a forats negres supermassivos (milions o bilions de masses solars), els efectes de marea a l'horitzó són molt menors i creuaries sense sentir res especial en aquell moment. El destí és el mateix, però l'experiència immediata és radicalment diferent."
+        },
+        {
+          "type": "comparison",
+          "title": "L'horitzó de successos: perspectiva exterior vs. interior",
+          "labelA": "Observador exterior",
+          "labelB": "Observador que cau",
+          "items": [
+            {
+              "label": "Temps per creuar l'horitzó",
+              "a": "Infinit: mai veu l'observador creuar",
+              "b": "Finit: creua en un temps mesurable"
+            },
+            {
+              "label": "Aspecte de l'observador que cau",
+              "a": "S'alenteix, s'enrojola, desapareix progressivament",
+              "b": "Creua sense discontinuïtat perceptible (forat negre gran)"
+            },
+            {
+              "label": "Informació accessible",
+              "a": "Cap informació de l'interior pot arribar-li mai",
+              "b": "Pot veure l'exterior (però cada vegada menys)"
+            },
+            {
+              "label": "Destí",
+              "a": "L'observador sembla congelat per sempre a l'horitzó",
+              "b": "Arriba a la singularitat en temps finit"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-02-01",
+          "style": "multiple-choice",
+          "question": "Un observador exterior veu algú caure cap a un forat negre. Què observa exactament quan aquella persona s'acosta a l'horitzó?",
+          "options": [
+            "Veu la persona accelerar i desaparèixer ràpidament a l'interior",
+            "Veu la persona alentir-se, el seu senyal tornar-se més vermell i feble, congelar-se aparentment a l'horitzó sense mai creuar-lo",
+            "Veu la persona destruïda per les forces de marea just abans de l'horitzó",
+            "No veu res perquè la llum no pot escapar del forat negre"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Per la dilatació del temps gravitacional, el rellotge de la persona que cau sembla anar cada vegada més lent per a l'observador exterior. Els fotons que envia la persona es fan cada vegada més dèbils i més vermells (desplaçament al roig gravitacional). L'observador exterior mai no veu la persona creuar l'horitzó — la veu congelar-se asimptòticament. Però la persona que cau creua l'horitzó en un temps finit des del seu propi punt de vista.",
+          "feedbackWrong": "La dilatació del temps gravitacional fa que el rellotge de la persona que cau sembli anar cada vegada més lent per a l'observador exterior. A més, la llum que envia la persona es torna progressivament més roja i dèbil. El resultat: l'observador exterior veu la persona alentir-se i «congelar-se» a l'horitzó, mai creuar-lo. Des del punt de vista de la persona que cau, però, creua en temps finit."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-02-02",
+          "style": "detect-error",
+          "statement": "L'horitzó de successos és una superfície física sòlida que actua com a barrera — per creuar-lo caldria una força enorme.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és descriure l'horitzó com una superfície física sòlida. L'horitzó de successos és una frontera causal matemàtica: és el conjunt de punts de l'espai-temps des dels quals cap trajectòria que viatgi a velocitat ≤ c pot arribar a l'exterior. No és una membrana, no hi ha cap força física en aquell punt, i per a un forat negre supermasiu un observador que el creui no nota res especial en aquell instant. El que és irreversible no és la força per creuar-lo, sinó que un cop creuat, les trajectòries causals apunten totes cap a la singularitat."
+        },
+        {
+          "type": "quote",
+          "text": "Un forat negre és on Déu va dividir per zero.",
+          "author": "Steven Wright — còmic americà. La broma funciona físicament: la singularitat és on les equacions produeixen infinits."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-fn-02-01",
+          "question": "Dos observadors —un exterior i un que cau— descriuen la mateixa realitat física de maneres completament incompatibles. Quin té raó?",
+          "options": [
+            "L'observador exterior: la seva perspectiva és objectiva perquè no cau",
+            "L'observador que cau: la seva experiència directa és la realitat",
+            "Tots dos: la relativitat general permet descripcions localment coherents però globalment incompatibles, i no hi ha manera de privilegiar-ne cap"
+          ],
+          "correct": 2,
+          "explanation": "Aquesta és una de les conseqüències més estranyes de la relativitat general: no existeix un «punt de vista diví» extern a tots els observadors. Cada observador té la seva pròpia descripció consistent de la física local, i quan dues descripcions semblen incompatibles, el que calcula el temps o l'ordre d'esdeveniments depèn del marc de referència. L'observador exterior mai veu la persona creuar l'horitzó — i això és correcte per a ell. La persona creua l'horitzó en temps finit — i això és correcte per a ella. No hi ha contradicció real perquè mai podran comparar les seves notes: un cop la persona ha creuat, no pot enviar informació a l'exterior. La relativitat general no estableix una realitat única i absoluta — estableix que les lleis de la física prenen la mateixa forma en tots els marcs de referència, però les descripcions concretes depenen del marc."
+        }
+      ]
+    },
+    {
+      "id": "fn-03",
+      "title": "La radiació de Hawking: els forats negres s'evaporen",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1974, Stephen Hawking va combinar la relativitat general i la mecànica quàntica — dues teories que no estan unificades i que en principi no haurien de funcionar juntes — i va arribar a una conclusió que va sorprendre tothom, inclòs ell: els forats negres no son negres. Emeten radiació. S'evaporen lentament. Un forat negre de massa solar tardaria 10⁶⁷ anys en evaporar-se completament. Però el procés existeix, és real, i crea el problema teòric més incòmode de la física contemporània."
+        },
+        {
+          "type": "key-idea",
+          "text": "La radiació de Hawking sorgeix d'un efecte quàntic a prop de l'horitzó: el buit quàntic crea contínuament parells de partícules virtuals. A l'horitzó, una pot caure a l'interior i l'altra escapar. El forat negre paga l'energia d'aquesta partícula amb la seva pròpia massa. El resultat net: el forat negre perd massa i emet radiació tèrmica. La temperatura és inversament proporcional a la massa — els forats negres grans i freds s'evaporen molt lentament; els petits i calents, ràpidament."
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué la radiació de Hawking és termal — i per qué és un problema",
+          "content": "La radiació que emet un forat negre és radiació de cos negre — completament termal, aleatòria, sense estructura. Aquí hi ha el problema: si la matèria que va formar el forat negre tenia una estructura d'informació (un elefant és diferent d'un núvol de gas, quànticamente), i la radiació emesa no conté informació, llavors quan el forat negre s'evapori completament, aquella informació haurà desaparegut. Però la mecànica quàntica diu que la informació mai es destrueix. Hawking va mantenir durant anys que la informació efectivament es perdia — i que calia revisar la mecànica quàntica. Altres físics, com Susskind i t'Hooft, van argumentar que la informació havia de sobreviure d'alguna manera. El debat —la guerra dels forats negres— va durar dècades."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1974",
+              "title": "Hawking prediu la radiació dels forats negres",
+              "text": "Combinant relativitat general i quàntica sense una teoria unificada. Tothom queda sorprès."
+            },
+            {
+              "year": "1976",
+              "title": "Hawking formula la paradoxa de la informació",
+              "text": "Si els forats negres s'evaporen completament i la radiació és termal, la informació es destrueix. Però la mecànica quàntica diu que no pot ser."
+            },
+            {
+              "year": "1997",
+              "title": "Maldacena: correspondència AdS/CFT",
+              "text": "La conjectura hologràfica: la informació es conserva en la descripció de la superfície. Suporta que la informació no es destrueix."
+            },
+            {
+              "year": "2004",
+              "title": "Hawking admet que la informació es conserva",
+              "text": "Accepta públicament la postura de Susskind. Paga l'aposta: envia una enciclopèdia de beisbol."
+            },
+            {
+              "year": "2012",
+              "title": "El firewall paradox (Almheiri, Marolf, Polchinski, Sully)",
+              "text": "Si la informació es conserva, l'horitzó hauria de ser una zona de radiació energètica que incineraria qualsevol observador que el creuï. Però la relativitat diu que no es nota res. Nova paradoxa."
+            },
+            {
+              "year": "2022–2025",
+              "title": "Illles d'informació i geometria quàntica",
+              "text": "Nous càlculs suggereixen que la informació es filtra de tornada en la radiació de Hawking per efectes de geometria quàntica. El consens emergent és que la informació es conserva, però el mecanisme és controvertit."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-03-01",
+          "style": "multiple-choice",
+          "question": "Per qué la temperatura d'un forat negre és inversament proporcional a la seva massa (forats negres petits = més calents)?",
+          "options": [
+            "Perquè els forats negres petits han acumulat més energia en menys massa",
+            "Perquè la curvatura de l'espai-temps és major a l'horitzó d'un forat negre petit, i la radiació quàntica és més intensa on la curvatura és major",
+            "Perquè els forats negres petits giren més ràpid i generen més calor per fricció",
+            "Perquè la temperatura és proporcional a la velocitat d'escapament, que és major en forats negres petits"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Correcte. La curvatura de l'espai-temps a l'horitzó és inversament proporcional a la massa del forat negre. Un forat negre petit té un horitzó molt corbat — molt més que un de gran —, i és en les zones de curvatura intensa on els efectes quàntics que produeixen la radiació de Hawking són més forts. Això produeix una relació sorprenent: els objectes més massius emeten menys radiació i estan més «freds». A mesura que un forat negre perd massa evaporant-se, es va escalfant progressivament fins a la seva evaporació final.",
+          "feedbackWrong": "La clau és la curvatura. Un forat negre petit té un horitzó de radi molt petit, i la curvatura de l'espai-temps en aquell horitzó és extrema. Els efectes quàntics que produeixen la radiació de Hawking depenen de la curvatura: més curvatura, més radiació, més temperatura. Un forat negre de massa estel·lar té una temperatura de l'ordre de 10⁻⁸ K — pràcticament zero. Un forat negre de massa d'un gram estaria a bilions de kelvin."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-03-02",
+          "style": "true-false",
+          "question": "La radiació de Hawking ha estat detectada experimentalment en forats negres astrofísics.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La temperatura de la radiació de Hawking d'un forat negre de massa estel·lar és de l'ordre de 10⁻⁸ K — trilions de vegades més freda que la radiació de fons de microones (2,7 K). És completament indetectable amb qualsevol instrument actual. La radiació de Hawking ha estat detectada en sistemes analògs de laboratori (condensats de Bose-Einstein que simulen horitzons) però mai en forats negres reals. La seva existència es dedueix de la consistència teòrica, no de l'observació directa.",
+          "feedbackWrong": "La radiació de Hawking d'un forat negre real seria a una temperatura de l'ordre de 10⁻⁸ K — milers de bilions de vegades més freda que la radiació còsmica de fons. Cap instrument actual pot detectar-la. Tenim sistemes de laboratori analògs que reprodueixen l'efecte, però cap detecció en forats negres astrofísics. La predicció és sòlida teòricament però no ha estat confirmada experimentalment."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-fn-03-01",
+          "question": "La paradoxa de la informació dels forats negres sorgeix de combinar la relativitat general i la mecànica quàntica sense una teoria que les unifiqui. Quin és el significat d'aquesta paradoxa?",
+          "options": [
+            "Que una de les dues teories és incorrecta i cal descartar-la",
+            "Que la física necessita una teoria més fonamental que resolgui la contradicció, probablement la gravetat quàntica",
+            "Que la informació efectivament es destrueix en els forats negres i cal revisar la mecànica quàntica en casos extrems"
+          ],
+          "correct": 1,
+          "explanation": "La paradoxa de la informació és, en el fons, un símptoma del problema més gran: la relativitat general i la mecànica quàntica no estan unificades i les seves prediccions entren en conflicte en condicions extremes com les dels forats negres. No és que una sigui incorrecta — totes dues funcionen extraordinàriament bé en els seus dominis respectius. El problema és que els dominis es solapen en les condicions dels forats negres, i les dues teories donen prediccions incompatibles. La solució hauria de venir d'una teoria de la gravetat quàntica —com la teoria de cordes o la gravetat quàntica de bucles— que en el límit adequat reproduís la relativitat general i la mecànica quàntica però resolgués les contradiccions. El consens emergent (post-2019, amb els càlculs d'illes d'informació) és que la informació es conserva, però el mecanisme exacte és controvertit i no hi ha consens complet."
+        }
+      ]
+    },
+    {
+      "id": "fn-04",
+      "title": "La singularitat: on la física emmudeix",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Al centre d'un forat negre hi ha una singularitat. Les equacions de la relativitat general descriuen un punt (o una línia, per a forats negres en rotació) on la densitat és infinita, la curvatura de l'espai-temps és infinita, i el temps deixa d'existir en el sentit habitual. La física atura. No és una descripció de res real — és on el model arriba al seu límit i les equacions es neguen a continuar. Tothom sap que la singularitat no és física. Ningú sap com resoldre-la."
+        },
+        {
+          "type": "key-idea",
+          "text": "Una singularitat en física no és una realitat física — és un senyal que el model ha fallat. Exactament igual que les equacions del Big Bang fallen en t=0, les equacions de la relativitat general fallen al centre d'un forat negre. La singularitat no és «allò que hi ha al centre»: és el punt on necessitem una teoria millor."
+        },
+        {
+          "type": "expandable",
+          "label": "El teorema de Penrose: les singularitats són inevitables (en la relativitat general)",
+          "content": "El 1965, Roger Penrose va demostrar matemàticament que si es compleixen certes condicions (que la matèria tingui densitat positiva i que existeixi una superfície atrapada — com l'interior d'un horitzó), la formació d'una singularitat és inevitable. No és un artefacte de la simetria del model — fins i tot en condicions irregulars i asimètriques, la singularitat ha de formar-se. Hawking va estendre el teorema al Big Bang. La conclusió: la relativitat general prediu la seva pròpia incompletitud. El que no diu és quina teoria la complementa. Penrose va guanyar el Nobel el 2020 per aquest treball."
+        },
+        {
+          "type": "misconception",
+          "belief": "La singularitat és una massa infinitament densa situada al centre físic del forat negre, com el nucli d'una bola.",
+          "reality": "En un forat negre no en rotació, la singularitat és una condició futura, no un lloc: totes les trajectòries que entren a l'horitzó acaben en la singularitat independentment de la direcció en la que t'acostis. En un forat negre en rotació (Kerr), és un anell. En cap cas és una «bola» al centre en el sentit intuïtiu.",
+          "why": "Tendim a pensar espacialment en objectes amb un centre. Però en la geometria de l'espai-temps d'un forat negre, la singularitat és més una condició temporal que espacial — és un «quan» (el futur inevitable), no un «on»."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-04-01",
+          "style": "multiple-choice",
+          "question": "Quin és el significat físic correcte d'una singularitat en la relativitat general?",
+          "options": [
+            "Un punt de densitat infinita real on es concentra tota la massa del forat negre",
+            "El punt on la curvatura de l'espai-temps és màxima però finita",
+            "El límit del domini de validesa de la teoria: on les equacions produeixen infinits i el model falla",
+            "La frontera entre l'interior i l'exterior del forat negre"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Correcte. Una singularitat és un senyal d'incompletitud del model, no una descripció d'una realitat física infinita. Quan les equacions d'una teoria produeixen infinits, en física això gairebé sempre significa que el model ha sobrepassat el seu rang de validesa. La singularitat ens diu que necessitem una teoria millor per a aquell règim — probablement la gravetat quàntica. El que «realment» hi ha al centre d'un forat negre és una pregunta que la física actual no pot respondre.",
+          "feedbackWrong": "Els infinits en les equacions d'una teoria física gairebé mai representen realitats físiques infinites. Representen el límit de validesa del model. Quan la relativitat general produeix una singularitat, és un senyal que necessitem una teoria més fonamental — probablement la gravetat quàntica — per descriure aquell règim. La singularitat és un senyal d'ignorància, no una descripció."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-04-02",
+          "style": "true-false",
+          "question": "El teorema de singularitats de Penrose demostra que les singularitats han d'existir en la natura, independentment de les limitacions de la relativitat general.",
+          "correct": false,
+          "feedbackCorrect": "Fals. El teorema de Penrose demostra que la relativitat general —si és correcta— prediu inevitablement singularitats en certes condicions. Però si la relativitat general és una aproximació vàlida en el seu rang però incorrecta en condicions extremes (com presumiblement ho és, perquè no inclou efectes quàntics), les singularitats podrien ser artefactes del model. Molts físics esperen que una teoria de gravetat quàntica substitueixi les singularitats per estructures físiques finites i regulars.",
+          "feedbackWrong": "El teorema de Penrose opera dins de la relativitat general: diu que si la relativitat general és vàlida, les singularitats s'han de formar. Però la relativitat general és probablement una teoria efectiva —vàlida en el seu rang però incompleta en condicions extremes. Una teoria de gravetat quàntica podria eliminar les singularitats i substituir-les per estructures físiques finites."
+        },
+        {
+          "type": "debate",
+          "question": "La hipòtesi de la censura còsmica de Penrose estableix que les singularitats sempre estan amagades darrere d'un horitzó de successos —mai no són «nues» i visibles. Hauria de ser així per principi, o és una qüestió empírica?",
+          "positionA": {
+            "label": "Ha de ser un principi fonamental",
+            "argument": "Una singularitat nua seria un punt on la predictibilitat de la física col·lapsa: des d'ella podrien sorgir qualsevol cosa sense causa física determinada. Un univers amb singularitats nues seria fonamentalment impredictible. La física necessita predictibilitat com a supòsit de treball bàsic, de manera que les singularitats han d'estar sempre ocultes."
+          },
+          "positionB": {
+            "label": "És una qüestió empírica, no un principi",
+            "argument": "Erigir la censura còsmica com a principi és córrer per davant de les evidències. Les equacions de la relativitat general admeten solucions amb singularitats nues. Que la natura les realitzi o no és una pregunta de física, no de principi. Imposar que «no pot ser» perquè viola la predictibilitat és posar preferències teòriques per davant de l'evidència."
+          },
+          "reflection": "Fins a quin punt els físics estan autoritzats a imposar condicions de «bona conducta» matemàtica a les solucions de les seves equacions?",
+          "context": "Penrose va proposar la hipòtesi el 1969 però no es coneix cap demostració general. Alguns casos especials s'han demostrat però d'altres admeten contraexemples numèrics. Hawking va apostar contra Penrose que existirien singularitats nues — i va perdre l'aposta."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-fn-04-01",
+          "question": "Si la gravetat quàntica resolgués les singularitats — substituint-les per estructures físiques finites — quin impacte tindria en la nostra comprensió del Big Bang?",
+          "options": [
+            "Cap: la singularitat del Big Bang i la dels forats negres són problemes independents",
+            "Significatiu: el teorema de Penrose s'aplica igualment al Big Bang, de manera que el que resolgui les singularitats dels forats negres probablement també resolgui l'inici de l'univers",
+            "Negatiu: eliminar la singularitat del Big Bang complicaria la teoria perquè perdríem el punt de referència temporal inicial"
+          ],
+          "correct": 1,
+          "explanation": "Hawking i Penrose van demostrar que el teorema de singularitats s'aplica en totes dues direccions temporals: al col·lapse gravitacional (forats negres) i a l'expansió del Big Bang. Si es troben les condicions del teorema, la singularitat és inevitable — en el futur (forat negre) o en el passat (Big Bang). Una teoria de gravetat quàntica que elimini les singularitats hauria de funcionar en tots dos casos, resolent alhora el problema de «qué va passar al moment zero del Big Bang» i el de «qué hi ha al centre d'un forat negre». Moltes propostes actuals — la cosmologia de rebots (loop quantum gravity), el model de Hartle-Hawking, escenaris pre-Big Bang — intenten precisament substituir la singularitat per una estructura regular i finita. Que el problema sigui el mateix en tots dos contextos és, per a molts físics, un indici que hi ha una solució unificada."
+        }
+      ]
+    },
+    {
+      "id": "fn-05",
+      "title": "Els forats negres supermassivos: els monstres al centre de les galàxies",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Al centre de gairebé totes les galàxies grans hi ha un forat negre supermasiu. Al centre de la Via Làctia, Sagitari A*, té una massa de 4 milions de masses solars i cabria dins de l'òrbita de Mercuri. El 2019, l'Event Horizon Telescope va fotografiar per primera vegada l'ombra d'un forat negre — M87*, de 6.500 milions de masses solars. El 2022, va fotografiar Sagitari A*. Ara els veiem. El que no sabem és com van arribar a ser tan grans."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els quàsars — els objectes més lluminosos de l'univers — són forats negres supermassivos actius, consumint matèria tan ràpidament que el disc d'acreció és milers de vegades més lluminós que tota una galàxia. Alguns quàsars observats als inicis de l'univers tenien ja mil milions de masses solars quan l'univers tenia menys de mil milions d'anys. No sabem com van créixer tan ràpid."
+        },
+        {
+          "type": "image",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1200px-Black_hole_-_Messier_87_crop_max_res.jpg",
+          "alt": "Primera imatge d'un forat negre: l'ombra de M87* captada per l'Event Horizon Telescope el 2019. Es veu un anell lluminós de gas calent al voltant d'una zona fosca central — l'ombra del forat negre.",
+          "caption": "M87*: el primer forat negre fotografiat. Massa: 6.500 milions de masses solars. Distància: 55 milions d'anys llum. Diàmetre de l'ombra: similar al sistema solar.",
+          "credit": "Event Horizon Telescope Collaboration — Wikimedia Commons, domini públic"
+        },
+        {
+          "type": "expandable",
+          "label": "Com es forma un forat negre supermasiu? El misteri dels quàsars primerenc",
+          "content": "Hi ha tres hipòtesis principals per a la formació de forats negres supermassivos. Primera: acumulació progressiva — comencen com a forats negres estel·lars normals (~10-100 masses solars) i creixen per acreció de gas al llarg de bilions d'anys. El problema: no hi ha prou temps per explicar els quàsars d'un miler de milions de masses solars quan l'univers tenia 700 milions d'anys. Segona: col·lapse directe de núvols de gas primordials gegants, formant forats negres «llavors» de milers de masses solars. Tercera: forats negres primordials formats al Big Bang primerenc. Cap hipòtesi explica tots els casos observats de manera satisfactòria. El James Webb Space Telescope ha trobat forats negres supermassivos actius en galàxies extremadament joves, complicant encara més les hipòtesis existents."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-05-01",
+          "style": "multiple-choice",
+          "question": "Qué va aconseguir l'Event Horizon Telescope el 2019, exactament?",
+          "options": [
+            "Va fotografiar l'interior d'un forat negre per primera vegada",
+            "Va detectar la radiació de Hawking emesa per M87*",
+            "Va captar la imatge de l'ombra d'un forat negre — la zona fosca projectada pel forat negre sobre el disc de gas lluminós al voltant",
+            "Va mesurar la massa d'un forat negre directament per primera vegada"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. No es pot fotografiar el forat negre en si —per definició, no emet llum—, però sí l'ombra que projecta sobre el gas calent del disc d'acreció. L'EHT és en realitat un interferòmetre que combina senyals de radiotelescopis arreu del món per aconseguir la resolució d'un telescopi de la mida de la Terra. La imatge mostra un anell lluminós amb una zona fosca central — l'ombra del forat negre, consistent amb les prediccions de la relativitat general.",
+          "feedbackWrong": "L'interior d'un forat negre és, per definició, inaccessible a les observacions exteriors. El que l'EHT va capturar és l'ombra del forat negre: la zona on la llum del disc d'acreció és bloquejada o desviada tan extremament que no arriba al telescopi. La imatge és consistent amb les prediccions de la relativitat general per a un forat negre de 6.500 milions de masses solars."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-05-02",
+          "style": "detect-error",
+          "statement": "Totes les galàxies grans tenen un forat negre supermasiu al centre perquè els forats negres van formar-se primer i les galàxies es van formar al voltant seu.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error no és en la primera part —efectivament, gairebé totes les galàxies grans semblen tenir un forat negre supermasiu central— sinó en la causalitat: 'els forats negres van formar-se primer i les galàxies es van formar al voltant seu'. La relació causal entre forats negres supermassivos i galàxies és un problema obert. Les observacions mostren una correlació forta entre la massa del forat negre i les propietats de la galàxia, però si el forat negre va ser primer, la galàxia primer, o tots dos van coevolucionar, és una qüestió activa de recerca. El James Webb Space Telescope ha trobat forats negres supermassivos en galàxies molt joves que suggereixen que els forats negres podrien precedir parcialment les galàxies, però el quadre complet no és clar."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-fn-05-01",
+          "question": "Observem una correlació forta entre la massa del forat negre supermasiu i la massa del bulb estel·lar de la seva galàxia. Com hauríem d'interpretar aquesta correlació?",
+          "options": [
+            "Com a prova que el forat negre controla la formació de la galàxia",
+            "Com a prova que la galàxia controla el creixement del forat negre",
+            "Com a evidència d'una relació, però sense que la correlació determini la causalitat ni la seva direcció"
+          ],
+          "correct": 2,
+          "explanation": "La correlació M-sigma (entre la massa del forat negre i la dispersió de velocitats del bulb estel·lar) és una de les regularitats observacionals més sorprenents de l'astrofísica. És molt estreta per ser casual: suggereix que el forat negre i la galàxia coevolucionen. Però la direcció de la causalitat és debatuda. Alguns models proposen retroalimentació del forat negre: els jets i vents del forat negre actiu regulen la formació estel·lar de la galàxia (feedback AGN). Altres models proposen que la galàxia alimenta el forat negre a través de fusions de galàxies. Probablement operen tots dos mecanismes en proporcions variables. La correlació observacional és sòlida; el mecanisme subjacent és ciència activa. Usar la correlació per concloure qualsevol direcció de causalitat sense mecanisme seria la fal·làcia de la correlació implicant causalitat."
+        }
+      ]
+    },
+    {
+      "id": "fn-06",
+      "title": "El que els forats negres ens ensenyen sobre el que no sabem",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Els forats negres fan quelcom poc habitual en física: acumulen problemes. La paradoxa de la informació. La singularitat. La incompatibilitat de la relativitat i la quàntica. El misteri de la formació dels supermassivos. El firewall paradox. No és que els forats negres siguin misteris aïllats — és que semblen ser el punt on totes les grans preguntes obertes de la física convergen. Estudiar forats negres no és estudiar objectes exòtics i llunyans. És estudiar els límits del que la física sap."
+        },
+        {
+          "type": "key-idea",
+          "text": "El principi hologràfic, suggerit per l'estudi dels forats negres, proposa que tota la informació d'un volum de l'espai pot ser codificada en la seva superfície bidimensional. Si és correcte, la nostra intuïció de tres dimensions espacials podria ser una projecció d'alguna cosa menys dimensional. És una de les idees més radicalment contraintuïtives de la física contemporània — i té suport matemàtic sòlid."
+        },
+        {
+          "type": "expandable",
+          "label": "La correspondència AdS/CFT: un univers com a holograma",
+          "content": "El 1997, Juan Maldacena va proposar una correspondència matemàtica entre dues teories aparentment molt diferents: una teoria de cordes en un espai Anti-de Sitter (d'alta dimensió, amb gravetat) i una teoria de camps conformal en la seva frontera (d'una dimensió menys, sense gravetat). Les dues teories descriuen la mateixa física des de perspectives radicalment diferents. Implicació: la gravetat en el volum pot ser completament equivalent a una teoria sense gravetat en la superfície. Si l'analogia s'aplica al nostre univers, la gravetat i l'espai tridimensional podrien ser propietats emergents d'una teoria fonamental sense gravetat en menys dimensions. És la base del principi hologràfic. La conjectura de Maldacena és l'article més citat de la física de tots els temps."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "La matèria i l'energia fosques",
+          "moduleEmoji": "🕳️",
+          "concept": "El 95% de l'univers i els límits del coneixement",
+          "text": "Igual que la matèria i l'energia fosques, els forats negres ens recorden que el model actual de la física és una aproximació excel·lent en un rang de condicions, però falla en els extrems. La relativitat general i la mecànica quàntica fallen ambdues en condicions de forat negre. La matèria fosca no encaixa en el Model Estàndard. Tots dos problemes apunten cap a una física més fonamental que no tenim."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-06-01",
+          "style": "multiple-choice",
+          "question": "El principi hologràfic suggereix que la informació d'un volum de l'espai pot estar codificada en la seva superfície. Quina evidència inicial va suggerir aquesta idea?",
+          "options": [
+            "L'observació que les galàxies distribuïdes en volum es poden mapar en dues dimensions",
+            "El descobriment que l'entropia d'un forat negre és proporcional a l'àrea del seu horitzó, no al seu volum",
+            "La detecció d'ones gravitacionals que suggeria que l'espai és bidimensional a escala de Planck",
+            "La teoria de cordes, que va proposar dimensions extra compactades"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Hawking i Bekenstein van descobrir que l'entropia d'un forat negre és proporcional a l'àrea del seu horitzó (en unitats de longitud de Planck) — no al seu volum. Això és sorprenent: l'entropia mesura el nombre de microestats possibles d'un sistema, que normalment escala amb el volum. Que escali amb la superfície suggereix que la informació sobre l'interior del forat negre és completament continguda en la seva superfície bidimensional — el que Susskind i t'Hooft van generalitzar en el principi hologràfic.",
+          "feedbackWrong": "La clau és l'entropia dels forats negres. Bekenstein i Hawking van descobrir que l'entropia d'un forat negre escala amb l'àrea del seu horitzó, no amb el volum. Intuïtivament, l'entropia (que mesura el nombre d'estats possibles d'un sistema) hauria d'escalar amb el volum — més volum, més formes de distribuir la informació. Que escali amb la superfície suggereix que la informació del volum interior és completament codificable en la superfície."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fn-06-02",
+          "style": "true-false",
+          "question": "La paradoxa del firewall (2012) va resoldre la paradoxa de la informació dels forats negres demostrant que la informació es conserva.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La paradoxa del firewall va complicar el problema, no resoldre'l. Almheiri, Marolf, Polchinski i Sully van demostrar que si acceptem que la informació es conserva (postura de Susskind), llavors l'horitzó de successos ha de ser una zona de radiació intensa — un «firewall» — que incineraria qualsevol observador que el creuï. Però la relativitat general diu que un observador que cau en un forat negre gran no nota res especial a l'horitzó. Les dues coses no poden ser totes dues correctes. La paradoxa de la informació ha evolucionat en una paradoxa més aguda.",
+          "feedbackWrong": "El firewall paradox va sorgir precisament d'acceptar que la informació es conserva: si la informació ha de sortir del forat negre (via radiació de Hawking correlacionada), i la radiació de Hawking ha d'estar màximament entrellaçada amb el seu parell interior, i la mecànica quàntica limita el grau d'entrellaçament possible, llavors l'horitzó ha de ser una zona d'alta energia — un firewall. Però la relativitat general diu que no hi ha res especial a l'horitzó. Noves paradoxes, no menys."
+        },
+        {
+          "type": "reflection",
+          "question": "Hem vist que els forats negres posen en conflicte les dues teories més ben confirmades de la física —la relativitat general i la mecànica quàntica. Qué trobes més sorprenent: que dues teories tan verificades puguin ser incompatibles, o que la seva incompatibilitat no hagi aparegut en els experiments fins ara?",
+          "prompt": "La resposta diu alguna cosa sobre on busques les tensions en el coneixement."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-fn-06-01",
+          "question": "Si el principi hologràfic és correcte i la gravetat és una propietat emergent d'una teoria fonamental sense gravetat, quines implicacions té per a la nostra comprensió de l'espai i el temps?",
+          "options": [
+            "Cap: seria simplement una reformulació matemàtica equivalent, sense implicacions físiques noves",
+            "Radicals: suggereix que l'espai tridimensional i el temps tal com els percebem podrien ser propietats emergents, no fonamentals",
+            "Moderades: implicaria que la gravetat és més feble del que pensàvem, però l'estructura de l'espai-temps seria la mateixa"
+          ],
+          "correct": 1,
+          "explanation": "Si el principi hologràfic és correcte — si tota la física d'un volum tridimensional amb gravetat és equivalent a una teoria bidimensional sense gravetat — llavors la nostra experiència de tres dimensions i de la gravetat com a força fonamental seria, en algun sentit profund, una propietat emergent d'alguna cosa més fonamental. Igual que la temperatura és una propietat emergent del moviment estadístic de molècules (no existeix en el nivell fonamental de les partícules individuals), la gravetat i possiblement les dimensions podrien ser propietats emergents d'una teoria fonamental diferent. Això seria la revisió ontològica més radical des d'Einstein: no és que l'espai sigui corbat (Einstein), sinó que l'espai en si podria no ser fonamental. La conjectura de Maldacena prova el principi en un context matemàtic específic. Si s'aplica al nostre univers real, les implicacions per a com entenem la realitat física serien profundes i en gran part imprevisibles."
+        }
+      ]
+    }
+  ]
+}

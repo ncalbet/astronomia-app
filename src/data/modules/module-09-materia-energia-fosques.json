@@ -1,0 +1,493 @@
+{
+  "id": "module-09-materia-energia-fosques",
+  "title": "La matèria i l'energia fosques",
+  "emoji": "🕳️",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "mef-01",
+      "title": "El 95% de l'univers no sabem què és",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Imagina que passes anys estudiant biologia marina, et fan doctor, publiques articles, i un dia algú et pregunta de qué estan fets els peixos. I tu respons: «No ho sé del tot. Sé bastant bé d'on vénen, com es mouen, i com interaccionen entre si. Però la substància de qué estan fets — el 95% de la seva massa — és completament desconeguda per a mi.» Això és, aproximadament, la situació actual de la cosmologia."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'univers observable és un 5% de matèria ordinària (protons, neutrons, electrons — tot el que coneixem). El 27% és matèria fosca: alguna cosa amb massa i gravetat, però invisible. El 68% és energia fosca: alguna cosa que empeny l'univers a expandir-se. Junts, el 95% de l'univers és alguna cosa de la qual no sabem pràcticament res."
+        },
+        {
+          "type": "misconception",
+          "belief": "«Fosc» significa que la matèria i l'energia fosques estan amagades o que els instruments actuals no són prou potents per detectar-les.",
+          "reality": "«Fosc» significa que no interaccionen amb la llum de cap manera coneguda — no l'emeten, no l'absorbeixen, no la reflecteixen. No és una qüestió de resolució instrumental. Fins i tot amb instruments perfectes, serien invisibles perquè no hi ha interacció electromagnètica.",
+          "why": "«Fosc» és una paraula que en la vida quotidiana significa «poc il·luminat» — quelcom que existeix però que no veiem perquè hi ha poca llum. Aquí significa quelcom estructuralment diferent: inexistent per a tota l'espectre electromagnètic."
+        },
+        {
+          "type": "expandable",
+          "label": "Com sabem que existeix alguna cosa que no podem veure?",
+          "content": "La matèria fosca es va inferir per primera vegada el 1933 quan Fritz Zwicky va mesurar la velocitat de les galàxies del cúmul de Coma i va descobrir que es movien massa ràpid. La massa visible del cúmul no era suficient per retenir-les gravitacionalment — haurien d'haver fugit feia milions d'anys. Zwicky va concloure que hi havia d'haver molta més massa de la visible. Dècades després, Vera Rubin va confirmar la mateixa anomalia mirant com giraven les galàxies individuals: les estrelles dels extrems giraven a la mateixa velocitat que les del centre, quan haurien de girar molt més lentament (com els planetes del sistema solar exteriors). L'única explicació consistent és un halo de massa invisible que envolta les galàxies."
+        },
+        {
+          "type": "comparison",
+          "title": "Matèria fosca vs. Energia fosca",
+          "labelA": "Matèria fosca (27%)",
+          "labelB": "Energia fosca (68%)",
+          "items": [
+            {
+              "label": "Efecte observable",
+              "a": "Atracció gravitacional extra en galàxies i cúmuls",
+              "b": "Acceleració de l'expansió de l'univers"
+            },
+            {
+              "label": "Comportament",
+              "a": "Es clusteritza: s'acumula al voltant de galàxies",
+              "b": "Distribuïda uniformement per tot l'espai"
+            },
+            {
+              "label": "Candidats teòrics",
+              "a": "WIMPs, axions, neutrins pesats, forats negres primordials",
+              "b": "Constant cosmològica, camp escalar (quintessència), modificació de la gravetat"
+            },
+            {
+              "label": "Estat del coneixement",
+              "a": "Efectes ben mesurats; naturalesa completament desconeguda",
+              "b": "Efecte mesurat el 1998; naturalesa completament desconeguda"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-01-01",
+          "style": "multiple-choice",
+          "question": "Vera Rubin va observar que les estrelles als extrems de les galàxies giraven a velocitats similars a les del centre. Per qué era anomal?",
+          "options": [
+            "Perquè les estrelles exteriors haurien de girar més ràpid per la força centrífuga",
+            "Perquè la gravetat decreix amb la distància, les estrelles exteriors haurien de girar molt més lentament",
+            "Perquè les estrelles exteriors tenen menys massa i haurien d'anar més ràpid",
+            "Perquè la velocitat de rotació hauria de ser zero a gran distància del centre"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Igual que els planetes del sistema solar —Mercuri va molt ràpid, Neptú molt lent—, les estrelles lluny del centre galàctic haurien de moure's molt més lentament. Que vagin igual de ràpides implica que hi ha molta més massa distribuïda pel voltant de la galàxia de la que podem veure. Aquella massa addicional és el que anomenem matèria fosca.",
+          "feedbackWrong": "Pensa en el sistema solar: Mercuri, a prop del Sol, va molt ràpid; Neptú, lluny, va molt lent. La gravetat decreix amb la distància, de manera que els objectes en òrbita exterior han d'anar més lents. Que les estrelles galàctiques exteriors vagin igual de ràpides que les interiors implica una font addicional de massa invisible al voltant de les galàxies."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-01-02",
+          "style": "true-false",
+          "question": "La matèria fosca podria estar formada per objectes massius ordinaris però molt foscos, com nanes marrons o planetes errants.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Aquesta hipòtesi —els MACHO (Massive Astrophysical Compact Halo Objects)— va ser extensament investigada i descartada. Si la matèria fosca fos objectes ordinaris però foscos, hauria d'interaccionar gravitacionalment amb la llum (efecte de lents gravitacionals) i produir senyals específics en microlensing. Les cerques exhaustives han demostrat que no hi ha prou MACHOs per explicar la massa fosca observada.",
+          "feedbackWrong": "Aquesta idea —anomenada MACHO— va ser investigada exhaustivament durant dècades. Si la matèria fosca fossin objectes ordinaris però foscos, produirien efectes de microlensing detectables quan passen davant d'estrelles de fons. Les cerques extensives van demostrar que no n'hi ha prou per explicar la massa fosca. La matèria fosca ha de ser alguna cosa fonamentalment diferent de la matèria ordinària."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mef-01-01",
+          "question": "Si la matèria fosca no interacciona electromagnèticament i només la detectem per la seva gravetat, podria ser que en realitat no existeixi i que la nostra teoria de la gravetat sigui incorrecta en escales galàctiques?",
+          "options": [
+            "No: la gravetat de Newton i Einstein han estat verificades amb tanta precisió que no poden ser incorrectes",
+            "Sí: la teoria MOND (Modified Newtonian Dynamics) elimina la necessitat de matèria fosca modificant la gravetat a baixa acceleració",
+            "Possible però improbable: MOND explica les corbes de rotació però falla en cúmuls galàctics i en l'estructura a gran escala, on la matèria fosca sí que funciona"
+          ],
+          "correct": 2,
+          "explanation": "La teoria MOND de Milgrom (1983) és una alternativa genuïna i no descartada que modifica la llei de Newton per a acceleracions molt baixes. Explica notablement bé les corbes de rotació galàctica sense matèria fosca. Però té problemes seriosos: no explica bé la dinàmica dels cúmuls de galàxies (on caldria igualment matèria fosca), ni la distribució de massa en col·lisions de cúmuls com el Bullet Cluster, ni l'espectre de la radiació de fons de microones. La matèria fosca explica totes tres coses coherentment. MOND ha generat versions relativistes (TeVeS, AQUAL) que intenten resoldre els problemes, però cap és prou satisfactòria. El debat no és tancat del tot — alguns cosmòlegs actius continuen explorant modificacions de la gravetat— però el consens majoritari és que la matèria fosca existeix com a nova forma de matèria."
+        }
+      ]
+    },
+    {
+      "id": "mef-02",
+      "title": "La cacera de la matèria fosca",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Des dels anys 80, físics de tot el món han construït detectors cada vegada més grans, més freds i més profunds sota terra per detectar partícules de matèria fosca. El Gran Sasso, a Itàlia, conté una tona de xenó líquid a -100 graus sota una muntanya de 1.400 metres de roca. El Sudbury Neutrino Observatory, al Canadà, és a 2 km sota terra. El XENON1T, LUX-ZEPLIN, PandaX. La llista és llarga. Els resultats, fins ara, consistentment els mateixos: res."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els WIMPs (Weakly Interacting Massive Particles) van ser durant dècades el candidat favorit a matèria fosca: partícules amb massa similar a la d'un nucli atòmic que interaccionen via la força feble. El «miracle WIMP» — que la densitat de WIMPs produïda al Big Bang coincideix exactament amb la densitat de matèria fosca observada— va semblar massa convenient per ser casualitat. Però trenta anys de cerques directes no han trobat cap."
+        },
+        {
+          "type": "expandable",
+          "label": "El Bullet Cluster: la prova més directa que la matèria fosca existeix",
+          "content": "El 2006, observacions del telescopi Chandra van proporcionar la prova més convincent de la matèria fosca. El Bullet Cluster és la col·lisió de dos cúmuls de galàxies. En la col·lisió, el gas calent (matèria ordinària, visible en raigs X) va frenar per interacció electromagnètica i va quedar al centre. Però la massa total del sistema — mesurada per lents gravitacionals — va seguir movent-se sense frenar, com si fos transparent a la col·lisió. La matèria que té la gravetat no és al mateix lloc que la matèria visible. Separar físicament la matèria visible de la massa gravitacional és la demostració més directa que existeix un component de massa que no interacciona electromagnèticament."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1933",
+              "title": "Zwicky detecta massa invisible en el cúmul de Coma",
+              "text": "Anomena el fenomen «dunkle Materie» — matèria fosca. Ningú li fa cas durant dècades."
+            },
+            {
+              "year": "1970s",
+              "title": "Vera Rubin confirma les corbes de rotació galàctica",
+              "text": "La seva meticulosa feina observacional fa impossible ignorar la massa fosca."
+            },
+            {
+              "year": "1984",
+              "title": "Teoria WIMP: el «miracle» coincideix",
+              "text": "La densitat de WIMPs produïda al Big Bang encaixa amb la densitat de matèria fosca. Comença la cacera."
+            },
+            {
+              "year": "2006",
+              "title": "Bullet Cluster: la prova visual més directa",
+              "text": "La massa gravitacional i la matèria visible es separen físicament en una col·lisió de cúmuls."
+            },
+            {
+              "year": "2012–2025",
+              "title": "LHC, XENON, LUX, PandaX: no detection",
+              "text": "Dècades de cerques directes i indirectes de WIMPs: cap detecció. Els límits d'exclusió s'han endurit enormement. El WIMP clàssic sobreviu en zones cada vegada més estretes."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-02-01",
+          "style": "multiple-choice",
+          "question": "Per qué els detectors de matèria fosca s'instal·len profundament sota terra?",
+          "options": [
+            "Perquè la matèria fosca és més densa a l'interior de la Terra",
+            "Per apantallar els raigs còsmics i partícules ordinàries que podrien confondre's amb senyals de matèria fosca",
+            "Perquè la temperatura és més estable sota terra, necessària per als detectors criogènics",
+            "Per estar més a prop del nucli de la Terra, on la gravetat és major"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El problema dels detectors de matèria fosca no és la sensibilitat — és el soroll. Milions de partícules ordinàries (muons de raigs còsmics, neutrons, radioactivitat ambiental) bombardegen constantment qualsevol detector. Sota centenars o milers de metres de roca, la majoria d'aquestes partícules queden absorbides. La matèria fosca, que no interacciona amb la roca, arriba igual. L'objectiu és reduir el soroll fins que un possible senyal de matèria fosca sigui identificable.",
+          "feedbackWrong": "La raó és eliminar el soroll de fons. Milions de partícules ordinàries —muons de raigs còsmics, neutrons, radioactivitat— bombardegen qualsevol detector i podrien simular una detecció de matèria fosca. La roca les filtra. La matèria fosca, que no interacciona amb la roca, passa igual. Sota terra tens el soroll mínim i el senyal potencial intacte."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-02-02",
+          "style": "detect-error",
+          "statement": "El fet que els experiments de detecció directa no hagin trobat WIMPs demostra que la matèria fosca no existeix o que és un error teòric.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és la conclusió: la no-detecció de WIMPs no implica la no-existència de matèria fosca. Implica que si els WIMPs existeixen, la seva secció eficaç d'interacció amb la matèria ordinària és menor del que els models originals predeien — o que els WIMPs no són el component principal de la matèria fosca. Hi ha molts altres candidats: axions, neutrins estèrils, forats negres primordials, matèria fosca ultralleu. La matèria fosca com a fenomen gravitacional és molt ben establerta; la seva naturalesa microscòpica és el que es desconeix."
+        },
+        {
+          "type": "reflection",
+          "question": "Tres dècades de cacera sense resultat. Si fossis director d'un observatori, continuaries buscant WIMPs o redistribuiríes els recursos cap a altres candidats? Com es pren una decisió científica quan els recursos són finits i el temps passa?",
+          "prompt": "No hi ha resposta correcta. Però pensa en els criteris que faríes servir."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mef-02-01",
+          "question": "Trenta anys de cerques de WIMPs sense resultat positiu. Com hauria d'interpretar la comunitat científica aquesta absència?",
+          "options": [
+            "Com a evidència que els WIMPs no existeixen i cal abandonar la hipòtesi",
+            "Com a refinament del model: els WIMPs podrien existir amb paràmetres (massa, secció eficaç) fora de la zona ja explorada",
+            "Com una crisi que indica que tota la idea de la matèria fosca com a partícula nova és probablement incorrecta"
+          ],
+          "correct": 1,
+          "explanation": "La no-detecció és informació científica valuosa: no és un fracàs, és un mapa de l'espai de paràmetres exclos. Cada experiment que no detecta WIMPs estreny la zona on podrien existir. Això és com funciona la física de partícules: els experiments d'exclusió redueixen el problema. El WIMP clàssic —massiu, amb secció eficaç d'interacció feble— ha estat fortament constret. Però l'espai de possibilitats és gran: matèria fosca ultralleu (axions, fuzzy dark matter), matèria fosca amb interaccions molt febles, o fins i tot estructures no-partícula. La resposta sana d'una comunitat científica davant d'una llarga sèrie de no-deteccions és diversificar les cerques — explorar candidats alternatius— sense abandonar ni la hipòtesi de la matèria fosca com a fenomen (molt ben suportada), ni la cerca de la seva naturalesa microscòpica."
+        }
+      ]
+    },
+    {
+      "id": "mef-03",
+      "title": "L'energia fosca: la força que no entenem",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1917, Einstein va afegir a les seves equacions un terme que ell mateix odiava: la constant cosmològica. La va posar per forçar que les equacions donessin un univers estàtic, perquè un univers en expansió li semblava absurd. Quan Hubble va demostrar el 1929 que l'univers s'expandia, Einstein va retirar la constant i la va anomenar «el major error de la meva vida». El 1998, la constant cosmològica va tornar — perquè resulta que l'univers no només s'expandeix sinó que ho fa cada vegada més ràpid. L'error d'Einstein potser era tenir-la, no no tenir-la."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'energia fosca es comporta com una propietat de l'espai buit: com l'univers s'expandeix i crea nou espai, l'energia fosca augmenta en proporció. Actua com una pressió negativa que contrarresta la gravetat. Però si calculem quanta hauria de ser-hi des de la mecànica quàntica, el resultat és 10¹²⁰ vegades massa gran. És la predicció teòrica més errònia de la història de la física."
+        },
+        {
+          "type": "expandable",
+          "label": "El problema de la constant cosmològica: la pitjor predicció de la física",
+          "content": "La mecànica quàntica prediu que el buit no és buit: és ple d'energia de fluctuació del buit, partícules virtuals que apareixen i desapareixen contínuament. Si sumes l'energia de totes aquestes fluctuacions per obtenir la constant cosmológica que observem, el resultat és 10¹²⁰ vegades massa gran. Dit d'una altra manera: la teoria prediu una energia del buit que destruiria instantàniament qualsevol estructura de l'univers. Que l'univers existeixi tal com el veiem implica que hi ha algun mecanisme de cancel·lació quasi perfecte que ningú entén. Quasi perfecte: hauria de cancel·lar fins a 120 decimals i deixar un residu minúscul. Ningú sap per qué el mecanisme de cancel·lació seria tan precís."
+        },
+        {
+          "type": "quote",
+          "text": "La constant cosmológica és el més gran problema no resolt de tota la física teòrica.",
+          "author": "Steven Weinberg, premi Nobel de física"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-03-01",
+          "style": "multiple-choice",
+          "question": "Quin és el problema principal de la predicció de la mecànica quàntica sobre l'energia del buit?",
+          "options": [
+            "Que prediu que el buit no conté cap energia, quan observem que en conté",
+            "Que prediu una energia del buit 10¹²⁰ vegades major que l'observada, la discrepància numèrica més gran de la física",
+            "Que prediu una energia negativa del buit, quan l'energia fosca sembla ser positiva",
+            "Que la mecànica quàntica no pot fer prediccions sobre escales cosmològiques"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Si sumes les contribucions quàntiques a l'energia del buit, el resultat és enormement més gran que el valor observat de la constant cosmológica. Que l'univers sigui com és implica una cancel·lació quasi miraculosa de 120 ordres de magnitud que ningú sap com explicar. És la predicció quantitativament més equivocada de la història de la ciència.",
+          "feedbackWrong": "El problema és el contrari de cap energia: la mecànica quàntica prediu una energia del buit gegantina — 10¹²⁰ vegades major que la que observem. Que l'univers no s'hagi destruït instantàniament implica una cancel·lació quasi perfecta d'aquesta energia, però ningú entén per qué seria tan precisa."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-03-02",
+          "style": "true-false",
+          "question": "L'energia fosca i la constant cosmológica d'Einstein són el mateix concepte expressat de formes diferents.",
+          "correct": true,
+          "feedbackCorrect": "Cert, en l'ús corrent. La constant cosmológica Λ és el terme matemàtic a les equacions de la relativitat general; l'energia fosca és el nom físic del fenomen. Tècnicament, l'«energia fosca» és una categoria més àmplia que inclou la constant cosmológica però també altres models (com la quintessència, un camp escalar dinàmic). Però si l'energia fosca és constant en el temps i uniforme a l'espai — el que semblen indicar les observacions actuals — és equivalent a la constant cosmológica.",
+          "feedbackWrong": "Efectivament, en l'ús habitual es refereixen al mateix fenomen. La constant cosmológica és el terme matemàtic; l'energia fosca és la descripció física. La distinció es torna important si l'energia fosca no és constant —si varia en el temps o l'espai— cosa que les observacions actuals no descarten del tot."
+        },
+        {
+          "type": "misconception",
+          "belief": "Si l'energia fosca accelera l'expansió de l'univers, amb prou temps tot s'allunyarà tant que desapareixerà.",
+          "reality": "La gravetat local és més forta que l'energia fosca a escales petites. El sistema solar, la Via Làctia, el grup local de galàxies estan gravitacionalment lligats i no s'expandiran. L'energia fosca separa les estructures que no estan gravitacionalment lligades — els cúmuls de galàxies i les galàxies aïllades es van allunyant. Però el nostre grup local romandrà unit.",
+          "why": "L'expansió còsmica s'aplica a l'escala de l'univers, no a escales locals. La metàfora del globus que s'infla funciona per a les galàxies llunyanes, però les monedes enganxades al globus (objectes gravitacionalment lligats) no s'allunyen les unes de les altres."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mef-03-01",
+          "question": "Si la discrepancia entre la predicció quàntica i el valor observat de l'energia del buit és de 10¹²⁰, quin és el significat científic d'aquesta xifra?",
+          "options": [
+            "Que la mecànica quàntica és una teoria incorrecta que cal descartar",
+            "Que hi ha un mecanisme de cancel·lació desconegut, i trobar-lo seria un dels descobriments més importants de la física",
+            "Que la mesura observacional de l'energia fosca és errònia en 120 ordres de magnitud"
+          ],
+          "correct": 1,
+          "explanation": "Una discrepancia de 120 ordres de magnitud no significa que la mecànica quàntica sigui incorrecta — les seves prediccions en altres dominis (electrònica, làsers, ressonància magnètica, semiconductors) són les més precises de la física. Significa que hi ha un mecanisme de cancel·lació que no entenem: alguna cosa redueix l'energia del buit des del valor gegantí predit fins al valor minúscul observat. Entendre aquell mecanisme requeriria una teoria que unifiqués la mecànica quàntica i la relativitat general d'una manera que ara no tenim. Seria probablement el descobriment físic més important del segle. Steven Weinberg va proposar un argument d'ajust antròpic: l'únic valor de la constant cosmológica compatible amb l'existència de galàxies (i per tant de vida) és precisament un valor petit. Però aquest argument necessita un multivers de fons — universos amb constants diferents — cosa que molts físics troben insatisfactòria com a explicació científica."
+        }
+      ]
+    },
+    {
+      "id": "mef-04",
+      "title": "El que els mapes de l'univers ens diuen (i el que no)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "En els darrers vint anys, astrònoms han cartografiat la distribució de centenars de milions de galàxies. El resultat sembla una teranyina còsmica: filaments de galàxies separats per voids —buits enormes quasi completament buits. Aquesta estructura — la «xarxa còsmica» — encaixa exactament amb les simulacions computacionals que inclouen matèria fosca. Sense matèria fosca, les simulacions produeixen un univers completament diferent, sense la teranyina que observem. Però encaixar amb les simulacions no és el mateix que entendre de qué està feta."
+        },
+        {
+          "type": "key-idea",
+          "text": "La matèria fosca no és una hipòtesi per explicar una observació aïllada: és consistent amb múltiples i independents línies d'evidència — corbes de rotació galàctica, lents gravitacionals, estructura a gran escala, radiació de fons de microones, Bullet Cluster. El que no tenim és cap evidència de la seva naturalesa microscòpica."
+        },
+        {
+          "type": "image",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bullet_cluster.jpg/1200px-Bullet_cluster.jpg",
+          "alt": "El Bullet Cluster: composició d'imatge en raigs X (rosa) que mostra el gas calent al centre de la col·lisió, i mapa de massa per lents gravitacionals (blau) que mostra la matèria fosca als extrems, separada del gas visible",
+          "caption": "El Bullet Cluster (1E 0657-56): la col·lisió de dos cúmuls de galàxies on la matèria visible (rosa, en raigs X) i la massa total (blau, per lents gravitacionals) es troben en llocs físicament separats.",
+          "credit": "NASA / CXC / M. Markevitch et al. — Wikimedia Commons, domini públic"
+        },
+        {
+          "type": "expandable",
+          "label": "Les lents gravitacionals: usar la llum doblegada com a telescopi de massa invisible",
+          "content": "Einstein va predir que la massa dobla la llum que passa a prop. Una galàxia massiva actua com una lent que distorsiona les imatges de les galàxies de fons. Mesurant la distorsió, podem calcular la massa total de la galàxia-lent, independentment de si és visible o no. Quan comparem la massa calculada per lents gravitacionals amb la massa visible (estrelles, gas), la discrepancia és sistemàtica i enorme: les galàxies pesen entre cinc i deu vegades més del que haurien de pesar a partir de la matèria que veiem. Les lents gravitacionals mapegen directament la matèria fosca sense necessitat de cap model addicional."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-04-01",
+          "style": "multiple-choice",
+          "question": "Quina és la importància principal del Bullet Cluster per a la hipòtesi de la matèria fosca?",
+          "options": [
+            "Va ser la primera detecció directa de partícules de matèria fosca",
+            "Va mostrar que la massa gravitacional i la matèria visible poden estar físicament en llocs separats",
+            "Va confirmar que els WIMPs tenen la massa prevista per la teoria",
+            "Va demostrar que la teoria MOND no pot explicar la dinàmica de les galàxies"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. En la col·lisió del Bullet Cluster, el gas calent (matèria ordinària visible) va frenar per interacció electromagnètica i va quedar al centre. La massa gravitacional total — mesurada per lents gravitacionals — va continuar sense frenar, distribuïda als extrems. Que el centre de massa no coincideixi amb el centre de massa visible és la demostració directa que existeix un component massiu que no interacciona electromagnèticament. Això és difícil d'explicar amb modificacions de la gravetat.",
+          "feedbackWrong": "La clau és la separació espacial. En la col·lisió, el gas (matèria visible) va frenar i va quedar al centre per interaccions electromagnètiques. La massa gravitacional (mesurada per lents) va seguir movent-se als extrems. Que el «pes» i la matèria visible estiguin en llocs físicament separats és la prova directa d'un component massiu invisible."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-04-02",
+          "style": "true-false",
+          "question": "Les simulacions de formació de estructura còsmica amb matèria fosca reprodueixen la xarxa còsmica observada, cosa que constitueix una prova de la seva existència.",
+          "correct": true,
+          "feedbackCorrect": "Cert amb matís important: les simulacions que inclouen matèria fosca reprodueixen notablement bé l'estructura de filaments i buits que observem. Sense matèria fosca, les simulacions donen un univers molt diferent. Però encaixar amb les simulacions no equival a detecció directa: les simulacions inclouen paràmetres ajustables. La concordança és evidència poderosa, però no la mateixa classe d'evidència que una detecció de laboratori.",
+          "feedbackWrong": "La afirmació és bàsicament correcta. Les simulacions cosmológiques amb matèria fosca reprodueixen la teranyina còsmica que observem en els catàlegs de galàxies. Sense matèria fosca, les simulacions fallen. Però és important notar que «reproduir» implica ajust de paràmetres: és evidència sòlida però circumstancial, no detecció directa."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Física de Partícules",
+          "moduleEmoji": "⚛️",
+          "concept": "Partícules fora del Model Estàndard",
+          "text": "El Model Estàndard de física de partícules descriu amb precisió extraordinària totes les partícules conegudes. Però la matèria fosca no hi és. Si és una partícula, és alguna cosa completament nova — fora del catàleg actual. Les cerques de matèria fosca al Gran Col·lisionador d'Hadrons, que pot crear partícules noves en col·lisions d'alta energia, no han trobat res fins ara."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mef-04-01",
+          "question": "Tenim múltiples evidències independents de la matèria fosca (corbes de rotació, Bullet Cluster, lents gravitacionals, radiació de fons) però cap detecció directa de partícules. Quin és l'estatus epistemològic correcte d'aquesta hipòtesi?",
+          "options": [
+            "És una teoria especulativa fins que no hi hagi detecció directa de partícules",
+            "Està tan ben suportada per evidències independents que és tan sòlida com qualsevol teoria científica acceptada",
+            "Té un estatus intermedi: l'evidència gravitacional és sòlida, però la naturalesa microscòpica és genuïnament oberta i podria resultar ser modificació de la gravetat"
+          ],
+          "correct": 2,
+          "explanation": "L'epistemologia de la matèria fosca és un cas d'estudi interessant sobre els nivells de certesa científica. El fenomen — que hi ha massa gravitacional que no veiem — és sòlidament establert per múltiples línies independents. Seria extraordinari que totes les evidències fossin artefactes. Però la naturalesa d'aquella massa és genuïnament oberta: podria ser una partícula nova (la hipòtesi majoritària), podria ser modificació de la gravetat (minoritària però no eliminada), o podria ser alguna cosa que no hem imaginat. La distinció important és: la matèria fosca com a fenomen és ciència establerta; la seva naturalesa microscòpica és ciència activa i oberta. Confondre les dues coses — dir que «la matèria fosca és especulativa» perquè no tenim partícules, o dir que «sabem qué és» perquè tenim el fenomen — és un error epistemològic en totes dues direccions."
+        }
+      ]
+    },
+    {
+      "id": "mef-05",
+      "title": "Candidats i hipòtesis: el menú de l'impossible",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Quan un problema no té solució clara, la física fa el que fan tots els bons detectives: elabora una llista de sospitosos. Per a la matèria fosca, la llista és llarga i variada. Inclou partícules hipotètiques de mida subatòmica, objectes macroscòpics antics, i modificacions de les lleis fonamentals. Alguns candidats semblen plausibles però indetectables. Altres semblen detectables però improbables. Cap ha estat confirmat. Benvinguts al problema més obert de la física contemporània."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els candidats principals a matèria fosca cobren un rang de masses de 90 ordres de magnitud: des dels axions (10⁻²² eV, més lleugers que qualsevol partícula coneguda) fins als forats negres primordials (fins a masses estel·lars). Un rang de possibilitats tan enorme indica que no tenim cap constraint fonamental sobre la naturalesa de la matèria fosca més enllà del gravitacional."
+        },
+        {
+          "type": "expandable",
+          "label": "Els axions: la partícula que va néixer per resoldre un altre problema",
+          "content": "Els axions van ser proposats el 1977 per Peccei i Quinn per resoldre el «problema CP fort» de la cromodinàmica quàntica — una qüestió completament diferent de la matèria fosca. Resultà que si existissin, serien excel·lents candidats a matèria fosca: lleugeres, estables, i produïdes en quantitats suficients al Big Bang. La seva massa hauria de ser extremadament petita (entre 10⁻⁶ i 10⁻³ eV) i interaccionarien molt feblment amb la llum, convertint-se en fotons en presència de camps magnètics intensos. Experiments com ADMX i HAYSTAC busquen aquesta conversió. Si els troben, resoldran dos problemes de cop. Si no els troben, continuarem sense saber."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "WIMPs",
+              "title": "Partícules Masives d'Interacció Feble",
+              "text": "Massa: 10 GeV – 1 TeV. Motivació teòrica forta (supersimetria). Cerques directes han exclòs gran part de l'espai de paràmetres original."
+            },
+            {
+              "year": "Axions",
+              "title": "Partícules ultralleugeres",
+              "text": "Massa: 10⁻²² – 10⁻³ eV. Motivació independent (problema CP fort). Cerques en curs amb cavitats de microones en camps magnètics intensos."
+            },
+            {
+              "year": "Neutrins estèrils",
+              "title": "Neutrins que no interaccionen via força feble",
+              "text": "Massa: keV. Extensions naturals del Model Estàndard. Es detectarien per desintegració en neutrins actius."
+            },
+            {
+              "year": "Forats negres primordials",
+              "title": "Forats negres formats al Big Bang primerenc",
+              "text": "Massa: molt variable. L'observació d'ones gravitacionals pel LIGO ha revifat l'interès. Cerques per microlensing i ones gravitacionals en curs."
+            },
+            {
+              "year": "Fuzzy dark matter",
+              "title": "Matèria fosca quàntica ultralleu",
+              "text": "Massa: ~10⁻²² eV. La longitud d'ona de De Broglie seria de l'ordre de kpc. Comportament quàntic a escales galàctiques. Explica millor l'estructura interna de les galàxies nanes."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-05-01",
+          "style": "multiple-choice",
+          "question": "Per qué la detecció de forats negres de masses estel·lars pel LIGO va revifar l'interès en els forats negres primordials com a candidats a matèria fosca?",
+          "options": [
+            "Perquè el LIGO va detectar forats negres en zones on s'esperava matèria fosca",
+            "Perquè la massa dels forats negres detectats (~30 masses solars) era sorprenentment gran, consistent amb forats negres formats al Big Bang en lloc de per col·lapse estel·lar normal",
+            "Perquè el LIGO va detectar una signatura d'ones gravitacionals específica de la matèria fosca",
+            "Perquè els forats negres del LIGO tenien temperatura zero, típica de matèria fosca"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Correcte. Els forats negres que funden estrelles massives tendeixen a tenir masses de fins a ~20 masses solars. Els primers forats negres del LIGO tenien masses de ~30 masses solars — una mica grans per a l'origen estel·lar estàndard. Això va reobrir la possibilitat que alguns siguin forats negres primordials formats en les primeres fraccions de segon de l'univers, quan les fluctuacions de densitat podien crear forats negres directament. Si una fracció de la matèria fosca fossin forats negres primordials, series detectables per les seves lents gravitacionals i per les ones gravitacionals de les seves fusions.",
+          "feedbackWrong": "La clau és la massa. Els forats negres estel·lars ordinaris no solen superar les 20 masses solars. Que el LIGO detectés forats negres de ~30 masses solars va suggerir un possible origen diferent: forats negres primordials formats al Big Bang primerenc, que podrien tenir qualsevol massa. Si existissin en quantitats suficients, podrien contribuir a la matèria fosca."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-05-02",
+          "style": "detect-error",
+          "statement": "Com que els WIMPs no han estat detectats malgrat dècades de cerca, la comunitat científica ha abandonat majoritàriament la hipòtesi de la matèria fosca particulada.",
+          "isCorrect": false,
+          "feedbackExplanation": "Hi ha dos errors. Primer, 'abandonat majoritàriament la hipòtesi de la matèria fosca particulada': la comunitat no ha abandonat la hipòtesi de partícules — ha desplaçat l'atenció a altres candidats (axions, neutrins estèrils, fuzzy dark matter) que l'evidència de no-detecció de WIMPs no exclou. Segon, la premissa implica que 'matèria fosca = WIMPs': WIMPs eren el candidat favorit d'una època, però la matèria fosca com a fenomen és independent de si els WIMPs existeixen."
+        },
+        {
+          "type": "debate",
+          "question": "Davant de tres dècades sense detecció de WIMPs, és racional continuar invertint en experiments de detecció directa?",
+          "positionA": {
+            "label": "Sí: l'espai de paràmetres és enorme",
+            "argument": "Els experiments de detecció directa han exclòs una part de l'espai de paràmetres, però el rang de masses i seccions eficaces possibles és immens. Abandonar ara seria com aturar una excavació arqueològica perquè no s'ha trobat res en els primers metres. Cada experiment que no detecta res és informació: ens diu on no és, i ens apropa a on podria ser."
+          },
+          "positionB": {
+            "label": "Cal diversificar radicalment",
+            "argument": "La física té recursos limitats. Trenta anys en un candidat (WIMPs) sense resultat és informació: les masses i seccions eficaç més naturals ja estan excloses. Continuar en la mateixa línia té costos d'oportunitat. Els recursos podrien anar a candidats menys explorats (axions, fuzzy dark matter) o a tecnologies completament noves. La perseverança sense reorientació pot ser biaix de confirmació disfressat de rigor."
+          },
+          "reflection": "Com es distingeix la perseverança científica del biaix de sunk cost?",
+          "context": "La comunitat científica ja ha reorientat parcialment: els experiments d'axions han crescut significativament en la última dècada. Però els grans detectors de WIMPs (XENONnT, LZ) continuen operant i construint-se."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mef-05-01",
+          "question": "Si la matèria fosca resultés ser els forats negres primordials (objectes clàssics) en lloc d'una partícula nova, quines implicacions tindria per a la física de partícules?",
+          "options": [
+            "Cap: la física de partícules no necessita una nova partícula si la matèria fosca és gravitacional",
+            "Positives: simplificaria molt el panorama, ja que no caldria ampliar el Model Estàndard per incloure matèria fosca",
+            "Ambigues: resoldria el problema de la matèria fosca però no eliminaria les altres raons per ampliar el Model Estàndard, i podria ser una solució massa còmoda que retardi la recerca"
+          ],
+          "correct": 2,
+          "explanation": "Si la matèria fosca fossin forats negres primordials, seria una solució elegant en un sentit: no caldria cap nova partícula. Però el Model Estàndard té moltes altres raons per ser incomplet: no inclou la gravetat, no explica l'asimetria matèria-antimatèria, no explica la massa dels neutrins, no unifica les forces. La matèria fosca és un dels problemes oberts, però n'hi ha d'altres. A més, hi ha un risc epistemològic: si acceptem ràpidament la solució de forats negres primordials, podríem deixar d'explorar candidats particulats que potser existeixen i responen a qüestions addicionals. La ciència funciona millor quan manté múltiples hipòtesis en paral·lel fins que l'evidència discrimina clarament."
+        }
+      ]
+    },
+    {
+      "id": "mef-06",
+      "title": "Viure en l'univers fosc: el que implica no saber",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hi ha una manera optimista de llegir la situació: hem descobert que el 95% de l'univers és alguna cosa completament nova. Ens espera la física del segle XXI. Hi ha una manera menys optimista: fa cent anys pensàvem que la física newtoniana explicava quasi tot. Fa trenta anys, pensàvem que el Model Estàndard quasi ho tenia tot. Ara sabem que hi ha matèria fosca i energia fosca. Potser la lliçó no és «queda molt per descobrir» sinó «la nostra capacitat d'imaginar allò que no sabem que no sabem és molt limitada»."
+        },
+        {
+          "type": "key-idea",
+          "text": "La matèria i l'energia fosques ens recorden que el coneixement científic no és acumulatiu de manera simple. No és que el 5% de l'univers que entenem creixerà linealment fins al 100%. Podria ser que les categories que usem per entendre aquell 5% — partícules, camps, forces— no siguin les categories correctes per a la resta."
+        },
+        {
+          "type": "misconception",
+          "belief": "El que no entenem de l'univers és la part menys important — la majoria de la física quotidiana funciona perfectament sense conèixer la matèria fosca.",
+          "reality": "La matèria fosca determina l'estructura de les galàxies i per tant l'existència d'estrelles, planetes i vida tal com la coneixem. Sense el halo de matèria fosca, la Via Làctia no hauria tingut la massa suficient per retenir el gas que va formar les estrelles. La nostra existència depèn d'alguna cosa que no entenem.",
+          "why": "Tendim a pensar que el que no podem mesurar directament no és important per a la nostra vida quotidiana. Però la matèria fosca va modelar l'estructura de tot l'univers observable."
+        },
+        {
+          "type": "expandable",
+          "label": "Quanta física pot quedar per descobrir? El problema de l'autoconsciència científica",
+          "content": "El 1894, Albert Michelson va dir: «Els grans descobriments i millores fonamentals de la física estan essencialment fets... les nostres futures descobertes han de buscar-se en el sisè decimal.» Sis anys després, Planck i Einstein inauguraven la física moderna. El problema de Michelson no era arrogància sinó la impossibilitat estructural de saber el que no saps. Qualsevol físic del present que digui «ara sí que tenim el marc complet» s'enfronta al mateix problema. La matèria i l'energia fosques suggereixen que les categories que usem — partícules amb massa, camps de forces — podrien ser una petita part d'una física molt més amplia."
+        },
+        {
+          "type": "reflection",
+          "question": "El 95% de l'univers és alguna cosa que no entenem. Quina reacció t'és més propera: curiositat, desconcert, meravella, incertesa, o alguna combinació?",
+          "prompt": "No hi ha resposta incorrecta. Però nota la teva resposta — diu alguna cosa sobre com et relaciones amb la ignorància."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-06-01",
+          "style": "multiple-choice",
+          "question": "Si el halo de matèria fosca de la Via Làctia desaparegués, qué passaria a llarg termini?",
+          "options": [
+            "Res observable: la matèria fosca no interacciona amb les estrelles ni els planetes",
+            "Les estrelles de la galàxia accelerarien la seva rotació fins a escapar",
+            "La galàxia perdria part de la massa que la cohesiona gravitacionalment, alterant les òrbites estel·lars a llarg termini",
+            "El Sol s'apagaria perquè la matèria fosca contribueix a la fusió nuclear"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Correcte. El halo de matèria fosca proporciona la massa gravitacional que manté unida la Via Làctia. Sense ell, les estrelles de la perifèria galàctica — que es mouen a velocitats basades en la massa total inclosa la fosca — es trobarien en òrbites inestables. A llarg termini, la galàxia perdria massa per les vores. El Sol, en una posició relativament interna, sobreviuria molt temps, però l'estructura de la galàxia canviaria dràsticament.",
+          "feedbackWrong": "El halo de matèria fosca no interacciona directament amb les estrelles, però sí gravitacionalment. Les velocitats orbitals de les estrelles galàctiques estan calculades sobre la massa total, incloent la fosca. Si aquella massa desaparegués, les òrbites canviarien — especialment les estrelles perifèriques, que es mouen massa ràpid per la massa visible sola."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mef-06-02",
+          "style": "true-false",
+          "question": "Conèixer la naturalesa de la matèria fosca i l'energia fosca tindria probablement implicacions pràctiques per a la tecnologia humana.",
+          "correct": true,
+          "feedbackCorrect": "Cert, amb la mateixa lògica que qualsevol gran descobriment fonamental. La física quàntica semblava completament impràctica el 1905; avui sustenta semiconductors, làsers i ressonància magnètica. La relativitat semblava irrelevant per a la vida quotidiana; avui el GPS no funcionaria sense les seves correccions. Descobrir la naturalesa de la matèria fosca requeriria una física nova que, com sempre, tindria aplicacions impensables des d'ara.",
+          "feedbackWrong": "La història de la física mostra consistentment que els descobriments fonamentals produeixen tecnologia impensable al moment del descobriment. La física quàntica (semiconductors, làsers), la relativitat (GPS), l'electromagnetisme (electricitat). Descobrir la naturalesa de la matèria fosca requeriria una física nova de la que no podem predir les aplicacions, però la pauta és clara."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "L'origen i el destí de l'univers",
+          "moduleEmoji": "🌌",
+          "concept": "L'energia fosca i el destí final",
+          "text": "El destí de l'univers que vam veure en el mòdul anterior depèn directament de la naturalesa de l'energia fosca: si és una constant o si varia. La matèria fosca, per la seva banda, va ser essencial per a la formació de les galàxies que fan possible l'existència d'estrelles i planetes. Tot el que existeix és fruit d'alguna cosa que no entenem."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mef-06-01",
+          "question": "Que el 95% de l'univers sigui de naturalesa desconeguda és una crisi per a la física, o una oportunitat?",
+          "options": [
+            "Una crisi: indica que els fonaments de la física actual són incorrectes",
+            "Una oportunitat: els problemes no resolts marquen les fronteres on es faran els descobriments del futur",
+            "Cap de les dues categories és adequada: és simplement l'estat actual del coneixement, ni crisi ni oportunitat, sinó la realitat del treball científic"
+          ],
+          "correct": 2,
+          "explanation": "Les paraules «crisi» i «oportunitat» porten valoracions que distorsionen la comprensió de com funciona realment la ciència. Una «crisi» implica que alguna cosa ha fallat; però la física funciona correctament — les seves prediccions en els dominis coneguts són les més precises de la història. Una «oportunitat» és optimista però pot trivialitzar la dificultat real. L'estat honest és: tenim fenòmens ben establerts (matèria fosca, energia fosca) sense explicació microscòpica satisfactòria. Això no invalida la física existent ni garanteix que les respostes arribin aviat. La ciència és un projecte a llarg termini que avança irregularment. Alguns problemes oberts es resolen en dècades; d'altres esperen segles. La maduresa intel·lectual en ciència inclou tolerar la incertesa sense transformar-la ni en catàstrofe ni en promesa."
+        }
+      ]
+    }
+  ]
+}

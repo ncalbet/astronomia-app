@@ -1,0 +1,601 @@
+{
+  "id": "module-10-caos",
+  "title": "El caos: quan la ciència perd el control",
+  "emoji": "🌀",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "hipotesi",
+      "title": "Itinerari de la hipòtesi",
+      "icon": "🔬",
+      "description": "Cada lliçó comença amb una pregunta sense resposta. Construiràs el teu raonament mentre aprens — i al final veuràs si anaves pel bon camí",
+      "forWho": "Vol experimentar el procés de fer ciència, no només rebre els resultats. Tolera bé la incertesa provisional",
+      "style": "Inductiu · de la pregunta a la teoria",
+      "lessons": [
+        {
+          "id": "cao-01",
+          "title": "Pot un papallona causar un huracà?",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-cao-01-01",
+              "question": "Un meteoròleg simula el temps atmosfèric. En una simulació, la temperatura inicial és 20.000°C. En una altra, idèntica, la temperatura inicial és 20.001°C — una diferència d'una deu-mil·lèsima de grau. Al cap de dues setmanes de simulació, els resultats seran:",
+              "options": [
+                "Gairebé idèntics: una diferència tan petita no pot tenir efecte significatiu a llarg termini",
+                "Lleugerament divergents: la diferència s'amplificarà de forma gradual i proporcional",
+                "Completament diferents: la mínima diferència inicial produirà estats atmosfèrics totalment imprevisibles"
+              ],
+              "correct": 2,
+              "explanation": "Això és exactament el que va descobrir Edward Lorenz el 1961, per accident. Va reiniciar una simulació meteorològica introduint les condicions inicials amb menys decimals (0.506 en lloc de 0.506127). Esperava resultats similars. Va obtenir un clima completament diferent. Havia descobert la sensibilitat extrema a les condicions inicials — el cor de la teoria del caos. En sistemes caòtics, diferències microscòpiques en l'estat inicial creixen exponencialment amb el temps. No és que no puguem mesurar prou bé: és que la naturalesa del sistema fa la predicció a llarg termini matemàticament impossible, independentment de la potència computacional disponible."
+            },
+            {
+              "type": "narrative",
+              "text": "Ara ja saps el resultat. Però per entendre per qué —i per qué és tan profundament pertorbador per a la física clàssica— cal entendre d'on venim.\n\nDes de Newton fins al segle XIX, la ciència operava amb una creença implícita: si coneixes l'estat present de l'univers amb prou precisió, pots predir el seu futur. El demoni de Laplace: un intel·lecte que conegués la posició i velocitat de totes les partícules de l'univers podria calcular qualsevol estat futur. La realitat és determinista. La impredictibilitat és ignorància, no propietat de la naturalesa.\n\nLorenz va trencar aquest somni. I el resultat s'anomena caos."
+            },
+            {
+              "type": "key-idea",
+              "text": "El caos no és desordre aleatori. És determinisme impredictible. Un sistema caòtic segueix lleis físiques exactes — però la seva sensibilitat extrema a les condicions inicials fa que qualsevol error de mesura, per petit que sigui, creixi exponencialment i faci impossible la predicció a llarg termini."
+            },
+            {
+              "type": "expandable",
+              "label": "L'accident que va canviar la física: com Lorenz va descobrir el caos rentant-se les mans",
+              "content": "El desembre de 1961, Edward Lorenz treballava al MIT amb un dels primers ordinadors meteorològics. Volia revisar una simulació llarga sense tornar a executar-la des del principi. Va introduir les condicions intermedis manualment, arrodonint els números: en lloc de 0.506127, va teclejar 0.506.\n\nQuan va tornar d'esmorzar, la simulació mostrava un clima completament diferent del que havia obtingut la primera vegada. Va creure que era un error de l'ordinador. Gradualment va comprendre que no: la diferència d'una part en deu mil havia produït trajectòries completament divergents en qüestió de mesos simulats.\n\nLorenz va publicar el descobriment el 1963 en un article que gairebé ningú va llegir. El 1972 va fer una conferència titulada «Bat les ales d'una papallona al Brasil i provoca un tornado a Texas?». El terme «efecte papallona» havia nascut."
+            },
+            {
+              "type": "misconception",
+              "belief": "«Efecte papallona» vol dir que qualsevol acció petita pot tenir conseqüències enormes i imprevisibles. És una metàfora sobre la interconnexió del món.",
+              "reality": "L'efecte papallona és un terme matemàtic precís que descriu la sensibilitat exponencial a les condicions inicials en sistemes dinàmics no lineals. No vol dir que les papallones causin huracans literalment, ni és una declaració filosòfica general. Descriu per qué la predicció meteorològica a llarg termini és matemàticament impossible, no tècnicament difícil.",
+              "why": "La metàfora de Lorenz és tan evocadora que va ser adoptada per la cultura popular i desconnectada del seu context matemàtic. La idea de «petites causes, grans efectes» és intuïtiva i connecta amb idees pre-existents sobre el karma, el destí i la interconnexió. Però el caos no diu que tot depèn de tot: diu que certs sistemes específics (no tots) amplifiquen exponencialment les pertorbacions inicials."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-01-01",
+              "style": "multiple-choice",
+              "question": "Quina és la diferència clau entre un sistema caòtic i un sistema aleatori?",
+              "options": [
+                "Un sistema caòtic és completament impredictible; un sistema aleatori té certa regularitat estadística",
+                "Un sistema caòtic segueix lleis deterministes exactes però és pràcticament impredictible; un sistema aleatori no té cap estructura subjacent",
+                "Un sistema caòtic és impredictible a curt termini; un sistema aleatori és impredictible a llarg termini",
+                "No hi ha diferència rellevant: tots dos produeixen resultats impredictibles i per tant equivalents"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La distinció és fonamental i sovint mal compresa. El caos és determinista: si coneixes exactament l'estat inicial, pots (en principi) calcular l'estat futur. El problema és que «exactament» és impossible en la pràctica, i qualsevol imprecisió creix exponencialment. Un sistema genuïnament aleatori no té cap estructura subjacent: el futur no es pot calcular ni en principi. El caos és determinisme que sembla aleatori.",
+              "feedbackWrong": "La distinció és important. El caos és determinista: segueix lleis físiques exactes. Si coneixes l'estat inicial amb precisió infinita, pots (en principi) predir el futur. El problema pràctic és que la precisió infinita és impossible, i qualsevol imprecisió creix exponencialment. L'aleatorietat genuïna és diferent: no hi ha cap estructura subjacent que connecti causes i efectes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-01-02",
+              "style": "true-false",
+              "question": "Si tinguéssim ordinadors infinitament potents, podríem predir el temps atmosfèric amb anys d'antelació.",
+              "correct": false,
+              "feedbackCorrect": "Fals. La limitació no és computacional sinó fonamental. En un sistema caòtic, la incertesa en la mesura de les condicions inicials creix exponencialment. Per duplicar el temps de predicció fiable del temps atmosfèric caldria mesurar les condicions inicials amb una precisió deu vegades major. Per predir una setmana es necessita una certa precisió. Per predir dos mesos caldria mesurar amb una precisió que supera la mecànica quàntica. La barrera no és la velocitat dels ordinadors: és la natura del sistema.",
+              "feedbackWrong": "La limitació és fonamental, no tècnica. En sistemes caòtics, l'error en les condicions inicials creix exponencialment. Per duplicar el temps de predicció s'ha de millorar la precisió inicial en un ordre de magnitud. Arribarà un punt on la precisió requerida supera els límits imposats per la mecànica quàntica. Cap ordinador, per potent que sigui, pot mesurar condicions inicials amb precisió perfecta."
+            }
+          ]
+        },
+        {
+          "id": "cao-02",
+          "title": "Per qué els fractals estan a tot arreu",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-cao-02-01",
+              "question": "Quina és la longitud de la costa de Gran Bretanya?",
+              "options": [
+                "Una longitud definida, mesurable amb prou precisió amb els instruments adequats",
+                "Depèn de l'escala de mesura: com més petita la unitat de mesura, més llarga resulta la costa — sense límit superior",
+                "Infinita teòricament, però amb un valor pràctic estable per a usos cartogràfics"
+              ],
+              "correct": 1,
+              "explanation": "La paradoxa de la costa, formulada per Lewis Fry Richardson i popularitzada per Mandelbrot el 1967, demostra que la longitud d'una costa depèn directament de l'escala de mesura. Si mesurem amb unitats de 100 km, obtenim una longitud. Si mesurem amb unitats d'1 km, la costa és significativament més llarga (captura més irregularitats). Si mesurem al centímetre, és molt més llarga encara. La longitud tendeix cap a l'infinit a mesura que la unitat de mesura s'aproxima a zero. Això és perquè la costa és un fractal: una estructura que mostra el mateix tipus de complexitat en qualsevol escala d'observació. Cap valor únic és «la» longitud correcta de la costa."
+            },
+            {
+              "type": "narrative",
+              "text": "La pregunta sobre la longitud de la costa no és un joc matemàtic abstracte. Apunta a alguna cosa profunda sobre la geometria de la naturalesa.\n\nEuclidis ens va ensenyar a veure el món en línies rectes, cercles i plans llisos. Durant dos mil·lennis, la geometria que estudiem a l'escola és euclidiana. El problema és que la natura no és euclidiana. Les costes no són línies. Els núvols no són esferes. Les muntanyes no són cons. Els arbres no són cilindres.\n\nBenoit Mandelbrot va proposar una geometria nova: la geometria fractal. I quan la vas veure per primera vegada, no vas poder deixar de reconèixer-la a tot arreu."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un fractal és una estructura que mostra autosimilaritat en totes les escales: si t'hi apropes, trobes la mateixa complexitat. La natura és plena de fractals: costes, núvols, bronquis pulmonars, vasos sanguinis, ramificació dels arbres, florons de romanesco, llamps. La geometria fractal no és abstracció matemàtica — és la geometria real de la vida."
+            },
+            {
+              "type": "image",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/1200px-Mandel_zoom_00_mandelbrot_set.jpg",
+              "alt": "El conjunt de Mandelbrot: una figura fractal generada per una equació matemàtica simple que mostra complexitat infinita en qualsevol nivell de zoom",
+              "caption": "El conjunt de Mandelbrot. Generat per l'equació z → z² + c. Infinitament complex en qualsevol escala.",
+              "credit": "Wikimedia Commons — domini públic"
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué els pulmons i els arbres tenen la mateixa geometria",
+              "content": "Els pulmons humans han de fer una cosa geomètricament extraordinària: empaquetar uns 70 m² de superfície d'intercanvi d'oxigen en un volum de menys de 6 litres. La solució de la natura és la ramificació fractal.\n\nL'arbre bronquial comença amb la tràquea, que es bifurca en dos bronquis, que es bifurquen en bronquíols, que es bifurquen en bronquíols terminals, que arriben als alvèols. Cada bifurcació segueix una regla geomètrica consistent. El resultat és una superfície enorme en un volum mínim.\n\nEl mateix principi governa els arbres (maximitzar superfície de captació de llum), els rius (maximitzar drenatge d'una conca), els neurones (maximitzar connexions en un volum cerebral limitat) i el sistema cardiovascular (maximitzar superfície de distribució de nutrients).\n\nLa vida va descobrir la geometria fractal molt abans que els matemàtics."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-02-01",
+              "style": "multiple-choice",
+              "question": "Quina és la dimensió fractal d'una línia recta, d'una superfície plana i d'un fractal típic com la costa britànica?",
+              "options": [
+                "Línia recta: 1. Superfície plana: 2. Costa britànica: un valor entre 1 i 2 (aproximadament 1,25)",
+                "Línia recta: 1. Superfície plana: 2. Costa britànica: 3, perquè és tridimensional",
+                "Línia recta: 0. Superfície plana: 1. Costa britànica: 2",
+                "Les tres tenen dimensió 2 perquè totes existeixen en un pla bidimensional"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. La dimensió fractal mesura com omple l'espai una estructura. Una línia recta omple exactament una dimensió. Una superfície plana n'omple dues. Un fractal com una costa omple «més que una línia però menys que un pla» — la seva dimensió és un nombre decimal entre 1 i 2. La costa de Gran Bretanya té una dimensió fractal d'aproximadament 1,25. Una costa més irregular (com la de Noruega) té una dimensió fractal més alta.",
+              "feedbackWrong": "Les dimensions fractals poden ser nombres no enters. Una línia recta té dimensió 1; una superfície plana, dimensió 2. Però una costa, que és «massa complexa per ser una línia però no arriba a omplir un pla», té una dimensió fractal decimal entre 1 i 2 — aproximadament 1,25 per a la costa britànica. Aquest és un dels conceptes més contraintuïtius i elegants de la matemàtica moderna."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-02-02",
+              "style": "detect-error",
+              "statement": "Els fractals són estructures purament matemàtiques i abstractes. La natura produeix formes que s'assemblen als fractals però que, si es mesuren amb prou precisió, resulten ser geometria euclidiana ordinària.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació inverteix la relació correcta. Els fractals no s'assemblen a la natura: la natura és fractal en un sentit mesurable i funcional. Els bronquis pulmonars, els vasos sanguinis, els sistemes de drenatge fluvial i les ramificacions dels arbres segueixen geometries fractals que es poden mesurar amb dimensions no enteres. Analitzar-los com a geometria euclidiana («el pulmó és una esfera», «un arbre és un cilindre amb cons») és una aproximació que perd la propietat funcionalment rellevant: la maximització de superfície en volum limitat que la ramificació fractal proporciona."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Biologia: com funciona la vida",
+              "moduleEmoji": "🧬",
+              "concept": "Morfogènesi i autorganització",
+              "text": "La geometria fractal dels éssers vius no és disseny extern: emergeix de regles locals simples seguides per cèl·lules individuals. El mateix principi que genera el conjunt de Mandelbrot amb una equació simple genera la ramificació dels bronquis amb unes poques instruccions genètiques."
+            }
+          ]
+        },
+        {
+          "id": "cao-03",
+          "title": "L'atractor estrany: el caos té forma",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-cao-03-01",
+              "question": "Un sistema caòtic és completament impredictible a llarg termini. Tot i això, si observes un sistema caòtic durant molt de temps, descobriràs que:",
+              "options": [
+                "Explorarà totes les posicions possibles de manera completament aleatòria",
+                "Es mantindrà sempre a prop d'un cert patró geomètric sense repetir-se mai exactament",
+                "Alternant entre períodes caòtics i períodes d'ordre regular previsible"
+              ],
+              "correct": 1,
+              "explanation": "Els sistemes caòtics no exploren l'espai de forma completament aleatòria. Estan confinats en regions específiques de l'espai de fases — regions amb una forma geomètrica complexa que s'anomena «atractor estrany». L'atractor de Lorenz, per exemple, té la forma de dos lòbuls que s'assemblen a les ales d'una papallona (la coincidència no és casual). El sistema mai repeteix exactament la mateixa trajectòria, però sempre es mou dins d'aquest patró. Això explica per qué el temps meteorològic és impredictible en detall però té patrons estacionals regulars: el sistema climàtic té atractors globals (estiu, hivern) dins dels quals es mou caòticament."
+            },
+            {
+              "type": "narrative",
+              "text": "El caos no és el contrari de l'ordre. És un tipus d'ordre que no hem sabut veure fins als anys 70.\n\nQuan Lorenz va graficar les trajectòries del seu sistema meteorològic en tres dimensions, va obtenir una figura que no havia vist mai. La trajectòria girava i girava, sense repetir-se mai exactament, formant una estructura que semblava dues ales d'una papallona entrellaçades. Mai sortia d'aquella forma. Mai la recorria dos cops igual.\n\nL'havia anomenat l'atractor de Lorenz. I era bonic."
+            },
+            {
+              "type": "image",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/A_Trajectory_Through_Phase_Space_in_a_Lorenz_Attractor.gif",
+              "alt": "Animació de l'atractor de Lorenz: una trajectòria tridimensional que es mou en espirals al voltant de dos centres sense repetir-se mai, formant una figura que s'assembla a les ales d'una papallona",
+              "caption": "L'atractor de Lorenz. Cada punt és l'estat del sistema en un moment. La trajectòria mai es repeteix, però sempre es manté dins d'aquesta forma.",
+              "credit": "Wikimedia Commons — domini públic"
+            },
+            {
+              "type": "key-idea",
+              "text": "Un atractor estrany és la «zona» on un sistema caòtic tendeix a moure's sense repetir-se mai exactament. El caos no és aleatorietat sense forma: té una geometria global estable i una imprevisibilitat local total. Ordre i caos coexisteixen en la mateixa estructura."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué el batec del cor és caòtic — i per qué això és saludable",
+              "content": "Un cor perfectament regular, que bategués amb intervals exactament idèntics, seria un cor malalt. La variabilitat de la freqüència cardíaca —la petita irregularitat natural en els intervals entre batecs— és un signe de salut, no de problemes.\n\nAquesta variabilitat és, en sentit tècnic, caòtica: segueix un atractor estrany. El cor saludable opera en un règim de caos de baixa dimensió que li permet respondre ràpidament a demandes canviants sense entrar en fibril·lació (caos d'alta dimensió, mortal).\n\nParadoxalment, algunes condicions cardíaques greus mostren regularitat excessiva: el cor entra en un cicle periòdic rígid en lloc del caos saludable. El monitoring de variabilitat cardíaca com a indicador de salut es basa directament en la teoria del caos."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-03-01",
+              "style": "multiple-choice",
+              "question": "El clima de la Terra és un sistema caòtic. Quin és l'impacte d'aquesta propietat sobre els models climàtics del canvi climàtic?",
+              "options": [
+                "Fa els models climàtics inútils: si el clima és caòtic, qualsevol predicció a llarg termini és impossible",
+                "No afecta els models climàtics: el canvi climàtic opera en escales de temps on el caos es promedia i els patrons globals són predictibles",
+                "Imposa límits a la precisió regional però permet prediccions estadístiques robustes sobre tendències globals"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte, i la distinció és crucial per entendre el debat públic sobre models climàtics. El caos meteorològic afecta la predicció del temps a escales de dies i setmanes. Però el clima —les tendències estadístiques a llarg termini— opera en escales on els atractors globals (cicles estacionals, corrents oceànics) dominen sobre les fluctuacions caòtiques locals. Predir si el 15 de juliol de 2057 plourà a Barcelona és impossible; predir que les temperatures globals pujaran una certa quantitat si les emissions continuen és estadísticament robust.",
+              "feedbackWrong": "La distinció entre temps (meteorologia de curt termini, caòtica) i clima (tendències estadístiques a llarg termini) és fonamental. El caos limita les prediccions del temps a dies o setmanes. Però el clima a escala global opera dins d'atractors que fan les tendències estadístiques predictibles. Per això els models del canvi climàtic no preveuen el temps de cap dia concret, sinó la distribució estadística de temperatures, precipitacions i fenòmens extrems."
+            },
+            {
+              "type": "debate",
+              "question": "La teoria del caos demostra que molts sistemes complexos (economies, ecosistemes, societats) són intrínsecament impredictibles. Hauria de canviar la manera com els governs planifiquen i gestionen la política pública?",
+              "positionA": {
+                "label": "Sí — cal abandonar la planificació centralitzada",
+                "argument": "Si els sistemes socials i econòmics són caòtics, els models predictius en els quals es basa la política pública (macroeconomia, plans d'urbanisme, projeccions demogràfiques) són fonamentalment defectuosos. La planificació centralitzada que ignora el caos produirà fracassos costosos. Cal passar a sistemes de govern adaptatius i descentralitzats que responguin localment a senyals locals."
+              },
+              "positionB": {
+                "label": "No — el caos no elimina la planificació, la millora",
+                "argument": "El caos no significa que tot sigui igualment impredictible. Podem identificar atractors globals (tendències robustes), límits dins dels quals el sistema es mourà, i pertorbacions que podrien portar-lo a transicions de règim. Planificar tenint en compte la incertesa estructural és millor que planificar ignorant-la, però no és el mateix que renunciar a la planificació."
+              },
+              "reflection": "La postura A la fan seves ideologies molt diverses: anarquistes, llibertaris i alguns ecologistes. La postura B és compatible amb una àmplia gamma de models de govern. Quina de les dues pesa més el risc de planificar malament vs. el risc de no planificar?",
+              "context": "La teoria de la complexitat ha influït en la gestió d'ecosistemes (enfocament adaptatiu), la política monetària (reconeixement de límits dels models) i la recerca sobre resiliència sistèmica. No ha produït un canvi de paradigma de govern però ha generat eines analítiques noves."
+            }
+          ]
+        },
+        {
+          "id": "cao-04",
+          "title": "Emergència: quan el tot és més que les parts",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-cao-04-01",
+              "question": "Coneixes perfectament les propietats de cada molècula d'H₂O: massa, càrrega, angles d'enllaç, comportament a temperatura i pressió donades. Pots deduir d'aquí per qué l'aigua és líquida a 20°C?",
+              "options": [
+                "Sí — les propietats macroscòpiques es deriven lògicament de les propietats moleculars si tens prou informació",
+                "No completament — les propietats col·lectives de l'aigua emergeixen de la interacció entre molècules i no es poden deduir de les propietats individuals",
+                "Depèn de la potència computacional disponible: en principi sí, en pràctica no"
+              ],
+              "correct": 1,
+              "explanation": "Aquí entrem al problema de l'emergència. Les propietats macroscòpiques de l'aigua —la tensió superficial, la viscositat, la capacitat de dissoldre, el comportament en ebullició— emergeixen de la interacció de milers de milions de molècules que segueixen regles simples. El problema és que «emergeixen» no és metàfora: significa que no es poden deduir analíticament de les propietats individuals, ni tan sols en principi. L'emergència és la raó per la qual la física de partícules no suprimeix la química, la química no suprimeix la biologia, i la biologia no suprimeix la psicologia. Cada nivell d'organització té propietats genuïnament noves que no existeixen al nivell inferior."
+            },
+            {
+              "type": "narrative",
+              "text": "El reduccionisme és una de les idees més productives de la ciència: per entendre un fenomen, descompon-lo en les seves parts. Entén les parts. Torna a muntar.\n\nFunciona extraordinàriament bé per a molts problemes. Però hi ha fenòmens que el reduccionisme no pot capturar. Propietats que no existeixen a cap de les parts però apareixen quan les parts interaccionen. Fenòmens que emergeixen.\n\nLa consciència podria ser emergència. La vida ho és, en cert sentit. I tota la teoria del caos i els sistemes complexos tracta, en el fons, d'entendre per qué el tot és sovint alguna cosa completament diferent de les seves parts."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'emergència és el fenomen pel qual propietats qualitativament noves sorgeixen de la interacció de components simples. La liquiditat no és a cap molècula d'H₂O. La vida no és a cap molècula de carboni. La consciència no és a cap neurona. Aquests fenòmens no es poden predir ni derivar de les propietats dels components individuals."
+            },
+            {
+              "type": "comparison",
+              "title": "Reduccionisme vs. perspectiva emergentista",
+              "labelA": "Reduccionisme",
+              "labelB": "Emergentisme",
+              "items": [
+                {
+                  "label": "Estratègia explicativa",
+                  "a": "Descompondre en parts més simples per explicar el tot",
+                  "b": "Estudiar les interaccions entre parts per entendre propietats noves"
+                },
+                {
+                  "label": "Supòsit sobre els nivells",
+                  "a": "Els nivells superiors es redueixen en principi als inferiors",
+                  "b": "Cada nivell té propietats genuïnament noves no presents al nivell inferior"
+                },
+                {
+                  "label": "Exemple d'èxit",
+                  "a": "Química a partir de física atòmica; genètica a partir de bioquímica",
+                  "b": "Termodinàmica no deduïble de la mecànica de partícules; consciència no deduïble de la neurona"
+                },
+                {
+                  "label": "Limitació",
+                  "a": "No explica per qué l'interacció genera propietats noves",
+                  "b": "Pot convertir-se en excusa per no buscar explicacions més profundes"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-04-01",
+              "style": "multiple-choice",
+              "question": "Un banc de peixos es mou de forma coordinada i intel·ligent, esquivant depredadors amb patrons complexos. Qui coordina el moviment?",
+              "options": [
+                "El peix líder del grup, que pren decisions i els altres imiten",
+                "Un mecanisme genètic compartit que sincronitza el comportament col·lectiu",
+                "Ningú: el comportament col·lectiu emergeix de regles locals simples (cada peix segueix els seus veïns immediats)"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Els bancs de peixos no tenen líder ni coordinació central. Cada peix segueix tres regles simples: (1) manté una distància mínima amb els veïns, (2) s'orienta en la mateixa direcció que els veïns, (3) s'atreu cap al centre local del grup. D'aquestes tres regles locals sorgeix el comportament col·lectiu complex. Models computacionals que implementen aquestes regles (flocking algorithms) generen comportaments indistingibles dels bancs reals. El mateix principi governa els estols d'estornells, les colònies de formigues i —possiblement— molts fenòmens socials humans.",
+              "feedbackWrong": "El comportament dels bancs de peixos és un exemple clàssic d'emergència. No hi ha líder ni coordinació central: cada peix segueix tres regles simples sobre els seus veïns immediats, i el comportament col·lectiu complex emergeix d'aquestes interaccions locals. Models computacionals que implementen exactament aquestes tres regles generen comportaments indistingibles dels bancs reals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-04-02",
+              "style": "true-false",
+              "question": "Si entenem completament com funciona cada neurona individual del cervell humà, podrem explicar la consciència.",
+              "correct": false,
+              "feedbackCorrect": "Fals — si l'emergència és real. Entendre una neurona és una condició necessària però no suficient per explicar la consciència. La liquiditat de l'aigua no s'explica estudiant molècules individuals aïllades: emergeix de la interacció de milers de milions de molècules. Si la consciència és una propietat emergent de la interacció neuronal —la hipòtesi majoritària en neurociència— aleshores l'explicació requerirà entendre les interaccions, no les neurones individuals. I fins i tot llavors ens quedaria el problema difícil: per qué les interaccions generen experiència subjectiva.",
+              "feedbackWrong": "Entendre la neurona individual no és suficient si la consciència és un fenomen emergent. La liquiditat de l'aigua no s'explica amb una sola molècula d'H₂O: emergeix de la interacció col·lectiva. Si la consciència emergeix de la interacció de neurones, cal entendre les interaccions i els patrons col·lectius, no les unitats individuals. I fins i tot llavors persistiria el problema difícil de per qué la interacció genera experiència subjectiva."
+            },
+            {
+              "type": "reflection",
+              "question": "Si les teves decisions, pensaments i emocions emergeixen d'interaccions entre neurones que segueixen lleis físiques deterministes, en quin sentit tens lliure albir?",
+              "prompt": "Aquesta pregunta no té resposta científica establerta. Pren-te un moment."
+            }
+          ]
+        },
+        {
+          "id": "cao-05",
+          "title": "El límit de la predicció: el que la ciència no pot saber",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-cao-05-01",
+              "question": "La teoria del caos mostra que alguns sistemes deterministes són pràcticament impredictibles. La mecànica quàntica mostra que alguns fenòmens atòmics són fonamentalment indeterministes. Quina conclusió en pots treure sobre el determinisme de l'univers?",
+              "options": [
+                "L'univers és completament determinista: el caos és impredictibilitat pràctica, i la mecànica quàntica és incompleta (hi ha variables ocultes que no coneixem)",
+                "L'univers és fonamentalment indeterminista: la mecànica quàntica demostra que el futur no existeix fins que es mesura",
+                "La pregunta és oberta: les dues teories són compatibles amb determinisme feble, i la qüestió del lliure albir i la causalitat última queda sense resposta científica definitiva"
+              ],
+              "correct": 2,
+              "explanation": "Aquesta és una de les preguntes filosòficament més profundes que obren la física moderna, i la resposta honesta és que no hi ha consens. Einstein va defensar fins a la mort que la mecànica quàntica era incompleta i que hi havia variables ocultes (determinisme). L'experiment de Bell (1964) i les seves verificacions experimentals semblen excloure les teories de variables ocultes locals, però queden obertes formes de determinisme no local. La interpretació de Copenhague (Born, Bohr) implica indeterminisme fonamental. La interpretació de molts mons (Everett) és determinista però branqueja l'univers. El caos no afecta el debat directament perquè és determinisme impredictible, no indeterminisme. La ciència ha fixat millor els límits del que podem saber, però no ha resolt la pregunta de fons sobre si el futur és, en algun sentit, obert o tancat."
+            },
+            {
+              "type": "narrative",
+              "text": "Hem viatjat des del temps atmosfèric fins als límits de la predicció científica. Des dels fractals de la natura fins a la pregunta de si l'univers és determinista.\n\nAquesta última lliçó no té solució. És un catàleg dels límits que la física i la matemàtica han identificat —no com a fallades temporals sinó com a propietats intrínseques de la realitat. Hi ha coses que cap ciència futura podrà saber. No per manca d'esforç o intel·ligència: per la natura dels sistemes que estudiem."
+            },
+            {
+              "type": "key-idea",
+              "text": "El teorema d'incompletesa de Gödel (1931), el principi d'incertesa de Heisenberg (1927) i el caos de Lorenz (1963) estableixen, cadascun al seu camp, que hi ha límits fonamentals al que qualsevol sistema formal, qualsevol mesura i qualsevol predicció pot assolir. No són límits tecnològics. Són límits de la realitat."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1927",
+                  "title": "Heisenberg: principi d'incertesa",
+                  "text": "No es poden conèixer simultàniament la posició i la velocitat d'una partícula amb precisió arbitrària. No és un límit tecnològic: és un límit ontològic."
+                },
+                {
+                  "year": "1931",
+                  "title": "Gödel: teoremes d'incompletesa",
+                  "text": "En qualsevol sistema formal prou potent, hi ha afirmacions verídiques que no es poden demostrar dins del sistema. Cap matemàtica és completa i consistent alhora."
+                },
+                {
+                  "year": "1961",
+                  "title": "Lorenz: sensibilitat a condicions inicials",
+                  "text": "En sistemes no lineals, la predicció a llarg termini és impossible en principi, independentment de la precisió de la mesura inicial."
+                },
+                {
+                  "year": "1964",
+                  "title": "Bell: les desigualtats de Bell",
+                  "text": "Cap teoria de variables ocultes locals pot reproduir totes les prediccions de la mecànica quàntica. L'univers no és local i realista alhora."
+                },
+                {
+                  "year": "2016",
+                  "title": "Verificació experimental definitiva de les desigualtats de Bell",
+                  "text": "Experiments sense «escletxes» confirmen: la mecànica quàntica és correcta. El realisme local és fals."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-05-01",
+              "style": "multiple-choice",
+              "question": "El teorema d'incompletesa de Gödel afirma que:",
+              "options": [
+                "Les matemàtiques contenen errors que eventualment seran corregits amb prou treball",
+                "En qualsevol sistema formal consistent i prou potent, hi ha afirmacions verídiques que no es poden demostrar dins del sistema",
+                "Alguns problemes matemàtics trigaran tant a resoldre's que mai podrem veure la solució",
+                "La lògica no es pot aplicar a problemes del món real sense assumir axiomes que mai es podran verificar"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Gödel va demostrar que la incompletesa no és un defecte superable de la matemàtica: és una propietat constitutiva de qualsevol sistema formal suficientment expressiu. Per a qualsevol sistema consistent que inclogui l'aritmètica bàsica, sempre hi haurà enunciats verídics que no es poden demostrar utilitzant els axiomes i regles d'inferència del sistema. Per demostrar-los caldrà enriquir el sistema amb nous axiomes — i el sistema enriquit tindrà els seus propis enunciats indemostrables.",
+              "feedbackWrong": "Gödel va demostrar alguna cosa molt més profunda que «hi ha problemes difícils». Va demostrar que en qualsevol sistema formal consistent i prou potent (que inclogui l'aritmètica), existiran necessàriament afirmacions verídiques que no es poden demostrar dins del sistema. No és un defecte corregible: és una propietat intrínseca de qualsevol sistema formal d'aquestes característiques."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-05-02",
+              "style": "detect-error",
+              "statement": "El caos, el principi d'incertesa i el teorema d'incompletesa de Gödel demostren col·lectivament que la ciència és un projecte fallit: mai podrà explicar la realitat completament.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació confon «tenir límits» amb «estar fallit». Els tres resultats estableixen límits específics i precisos al coneixement: el caos limita la predicció a llarg termini de sistemes no lineals; Heisenberg limita la mesura simultània de certes parelles de propietats; Gödel limita la completesa dels sistemes formals. Però cap d'ells nega que dins d'aquests límits la ciència pugui produir coneixement vàlid, útil i verificable. Conèixer els límits del que es pot saber és en si mateix un avenç científic important — i una base per treballar de manera més honesta i efectiva dins d'aquells límits."
+            },
+            {
+              "type": "debate",
+              "question": "Si hi ha límits fonamentals a la predicció i la comprensió científica, hauria de canviar com comuniquem la ciència al públic?",
+              "positionA": {
+                "label": "Sí — cal comunicar la incertesa amb la mateixa prominència que els resultats",
+                "argument": "La comunicació científica actual tendeix a presentar resultats com a certeses i a enterrar la incertesa en notes tècniques. Quan el públic descobreix que les prediccions fallaven o que hi havia incertesa no comunicada, perd confiança en la ciència en general. Comunicar els límits honestament construiria confiança a llarg termini."
+              },
+              "positionB": {
+                "label": "No — la incertesa mal comunicada genera paràlisi i desconfiança",
+                "argument": "La incertesa científica és inevitable i real. Però quan es comunica sense context adequat, el públic interpreta «els científics no saben» com «tots els resultats són igualment dubtosos». Moviments antivacunes i negació del canvi climàtic s'alimenten precisament de la incertesa científica legítima mal contextualitzada. Comunicar incertesa requereix molt d'ofici i molt de context."
+              },
+              "reflection": "Com hauries volgut que et comuniquessin la incertesa sobre la COVID-19 el 2020?",
+              "context": "Organitzacions com el Science Media Centre treballen específicament en protocols de comunicació d'incertesa. El debat és actiu en periodisme científic i comunicació institucional."
+            },
+            {
+              "type": "reflection",
+              "question": "Al llarg d'aquest mòdul has après que l'impredictibilitat, l'emergència i la incompletesa no són defectes de la ciència sinó propietats de la realitat. Canvia alguna cosa en com veus el projecte científic de comprendre el món?",
+              "prompt": "No hi ha resposta esperada. Però és una bona pregunta per endur-se."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classic",
+      "title": "Itinerari clàssic",
+      "icon": "📐",
+      "description": "La teoria del caos explicada des dels seus fonaments conceptuals fins a les aplicacions actuals",
+      "forWho": "Prefereix rebre primer el marc conceptual sòlid i després explorar les implicacions. Li incomoda no saber la resposta mentre aprèn",
+      "style": "Deductiu · del concepte a l'aplicació",
+      "lessons": [
+        {
+          "id": "cao-c01",
+          "title": "Determinisme i els seus límits",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1814, el matemàtic Pierre-Simon Laplace va descriure un pensament experimental que durant quasi 200 anys va ser el programa implícit de la ciència. Un intel·lecte que en un moment donat conegués la posició i velocitat de totes les partícules de l'univers podria calcular, amb les lleis de Newton, qualsevol estat passat o futur. Per a aquest intel·lecte, res seria incert. Tot el futur estaria ja contingut en el present.\n\nLaplace deia, en essència: l'univers és una màquina. I les màquines, si les entens completament, no et sorprenen mai.\n\nLa física del segle XX va matar el demoni de Laplace. Ho va fer tres vegades, per tres camins completament independents."
+            },
+            {
+              "type": "key-idea",
+              "text": "El determinisme clàssic —la idea que el futur es dedueix del present amb lleis exactes— va ser refutat al segle XX per tres descobriments independents: el principi d'incertesa de Heisenberg (1927), el teorema d'incompletesa de Gödel (1931) i la teoria del caos de Lorenz (1963). Cadascun estableix un límit diferent, i cap es pot eliminar amb més tecnologia o intel·ligència."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1687",
+                  "title": "Newton: Principia Mathematica",
+                  "text": "Les lleis de la mecànica estableixen el programa determinista: posicions i velocitats inicials determinen el futur complet."
+                },
+                {
+                  "year": "1814",
+                  "title": "Laplace: el demoni",
+                  "text": "Formulació explícita del determinisme: un intel·lecte perfecte podria predir qualsevol estat futur de l'univers."
+                },
+                {
+                  "year": "1927",
+                  "title": "Heisenberg: principi d'incertesa",
+                  "text": "Límit quàntic: no es pot conèixer posició i moment d'una partícula amb precisió simultània arbitrària."
+                },
+                {
+                  "year": "1931",
+                  "title": "Gödel: incompletesa",
+                  "text": "Límit formal: qualsevol sistema matemàtic consistent té veritats indemostables."
+                },
+                {
+                  "year": "1963",
+                  "title": "Lorenz: caos determinista",
+                  "text": "Límit dinàmic: sistemes deterministes simples poden ser pràcticament impredictibles a llarg termini."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-c01-01",
+              "style": "multiple-choice",
+              "question": "Quina és la distinció fonamental entre caos i aleatorietat?",
+              "options": [
+                "El caos és impredictible a curt termini; l'aleatorietat és impredictible a llarg termini",
+                "El caos és determinista però pràcticament impredictible; l'aleatorietat no té estructura subjacent causal",
+                "El caos és un fenomen macroscòpic; l'aleatorietat és quàntica i microscòpica",
+                "No hi ha distinció operativa: tots dos produeixen resultats que no es poden predir"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Un sistema caòtic segueix lleis causals exactes: si coneguessis l'estat inicial amb precisió infinita, podries (en principi) calcular el futur. El problema és que la precisió infinita és impossible, i qualsevol imprecisió creix exponencialment. L'aleatorietat genuïna —com la desintegració radioactiva en mecànica quàntica— no té estructura causal subjacent: el futur és intrínsecament obert.",
+              "feedbackWrong": "La distinció clau és entre determinisme i indeterminisme. El caos és determinista: hi ha lleis causals exactes que governen el sistema. La impredictibilitat ve de la sensibilitat exponencial a les condicions inicials, no de l'absència de causes. L'aleatorietat genuïna (desintegració radioactiva, mecànica quàntica) no té estructura causal subjacent."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-c01-02",
+              "style": "detect-error",
+              "statement": "La teoria del caos demostra que la física newtoniana era incorrecta. Lorenz va refutar les lleis de Newton.",
+              "isCorrect": false,
+              "feedbackExplanation": "La teoria del caos no refuta Newton: emergeix de Newton. Les equacions de Lorenz que van revelar el caos meteorològic són equacions newtonianes de dinàmica de fluids. El caos és una propietat que apareix en sistemes que segueixen lleis newtonianes exactes quan les equacions són no lineals. Newton estava perfectament en lo cert sobre les lleis de la mecànica. El que no estava clar —ni per a Newton ni per a Laplace— era que equacions perfectament deterministes podien produir comportaments pràcticament impredictibles en certs règims."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-cao-c01-01",
+              "question": "Si el caos és determinista, i la mecànica quàntica suggereix indeterminisme, quina visió de l'univers és més compatible amb la idea de lliure albir?",
+              "options": [
+                "El determinisme caòtic: en un univers determinista, el lliure albir és il·lusori independentment de la impredictibilitat",
+                "L'indeterminisme quàntic: si el futur no és fixat, hi ha espai per a la llibertat autèntica",
+                "Cap de les dues: el lliure albir és un problema filosòfic que no es resol amb física, ni determinista ni indeterminista"
+              ],
+              "correct": 2,
+              "explanation": "El debat lliure albir vs. determinisme és anterior a la física quàntica i continuarà després. L'argument que l'indeterminisme quàntic «fa espai» per al lliure albir (opció B) té un problema: l'indeterminisme quàntic és aleatori, no lliure. Si les teves decisions es basen en processos quàntics aleatoris, no actues «lliurement» — actues aleatòriament, que és diferent. L'argument determinista (opció A) implica que totes les teves decisions estaven codificades en l'estat inicial de l'univers, cosa que intuïtivament sembla eliminar la responsabilitat. La majoria de filòsofs contemporanis adopten posicions compatibilistes (opció C en esperit): el lliure albir és un concepte que pot tenir sentit en el nivell de les persones i les seves raons, independentment de si el nivell físic és determinista o no. La física descriu el substrat, no l'agent."
+            }
+          ]
+        },
+        {
+          "id": "cao-c02",
+          "title": "Fractals i la geometria de la natura",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La geometria que aprens a l'escola —línies, cercles, triangles, esferes— és extraordinàriament útil per construir ponts, dissenyar circuits i calcular trajectòries. Però si surts al món i mires la natura amb ulls de geòmetra, et trobes amb un problema: no veus res d'això.\n\nLes costes no són línies. Els núvols no són esferes. Les muntanyes no són cons. Les fulles no són polígons. La natura té una geometria diferent, i fins als anys 70 no teníem el vocabulari per descriure-la."
+            },
+            {
+              "type": "key-idea",
+              "text": "La geometria fractal, desenvolupada per Benoit Mandelbrot a partir dels anys 70, descriu les formes reals de la natura: estructures que mostren el mateix tipus de complexitat a qualsevol escala d'observació. La dimensió fractal —un nombre que pot ser decimal— mesura com omple l'espai una estructura entre dues dimensions euclidianes."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-c02-01",
+              "style": "multiple-choice",
+              "question": "Per quina raó la longitud d'una costa depèn de l'escala de mesura?",
+              "options": [
+                "Perquè els instruments de mesura introdueixen errors que s'acumulen a escales petites",
+                "Perquè la costa canvia constantment a causa de l'erosió, de manera que cap mesura és estable",
+                "Perquè la costa té irregularitats a totes les escales: el que sembla llisa a 100 km mostra cales i puntes a 1 km, i roques a 1 m",
+                "Perquè la definició de 'costa' varia legalment entre països i això afecta quins trams es compten"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Una costa és un fractal: té irregularitats a totes les escales. Una unitat de mesura gran «salta» les irregularitats petites i dóna una longitud menor. Una unitat de mesura petita captura més irregularitats i dóna una longitud major. Com que les irregularitats no s'esgoten en cap escala, la longitud tendeix cap a l'infinit a mesura que la unitat de mesura s'aproxima a zero.",
+              "feedbackWrong": "La raó no és instrumental ni jurídica. La longitud d'una costa depèn de l'escala perquè la costa té irregularitats a totes les escales: cales grans que conté golfes petites que contenen roques que contenen coves. Una unitat de mesura gran ignora les irregularitats petites. Una unitat petita les captura. Com que les irregularitats no s'esgoten, la longitud creix sense límit a mesura que la mesura s'afina."
+            },
+            {
+              "type": "expandable",
+              "label": "Mandelbrot i la geometria del «rugós»: la biografia d'una idea rebutjada",
+              "content": "Benoit Mandelbrot va néixer a Varsòvia el 1924, va créixer a França i va fer la major part de la seva carrera a IBM. No era un matemàtic universitari convencional — era un explorador visual que usava ordinadors per generar imatges matemàtiques quan gairebé ningú ho feia.\n\nEl conjunt de Mandelbrot, la figura fractal més famosa, no el va publicar com a resultat principal: va aparèixer en una nota tècnica d'IBM el 1980. Quan va presentar les seves idees sobre la geometria fractal a la comunitat matemàtica als anys 70, la recepció va ser freda. Els matemàtics puristes consideraven els fractals «monstres» —excepcions patològiques sense utilitat.\n\nLa rehabilitació va arribar quan biòlegs, geògrafs, físics i enginyers van reconèixer que la geometria de Mandelbrot descrivia exactament les coses que la geometria euclidiana no podia: costes, núvols, pulmons, mercats financers, terratremols.\n\nMandelbrot va morir el 2010, als 85 anys, amb el camp de la geometria fractal plenament establert però sense el Nobel —perquè, en un sentit estricte, el seu treball no s'ajustava a cap disciplina concreta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-c02-02",
+              "style": "true-false",
+              "question": "La geometria fractal és purament teòrica. Les aplicacions pràctiques de les matemàtiques del caos i els fractals són escasses i limitades.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Les aplicacions pràctiques de la geometria fractal i la teoria del caos inclouen: compressió d'imatges digitals (algorismes fractals), disseny d'antenes de telefonia mòbil (forma fractal per maximitzar superfície en espai mínim), anàlisi de mercats financers (Mandelbrot va analitzar sèries temporals de cotitzacions), modelització de terratremols, disseny de materials amb propietats específiques, i gràfics per videojocs i cinema (terreny, núvols, flames). El premi Nobel d'Economia de 2021 va a metodologies que deuen molt a la teoria de sistemes complexos.",
+              "feedbackWrong": "Les aplicacions pràctiques de fractals i caos inclouen: compressió d'imatges, antenes de telefonia mòbil (forma fractal), anàlisi de mercats financers, modelització de terratremols, i gràfics generats per ordinador per cinema i videojocs (terreny, núvols, foc). La geometria fractal és la base dels algorismes que generen el terreny de qualsevol videojoc de món obert."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-cao-c02-01",
+              "question": "Si els mercats financers mostren propietats fractals (la mateixa irregularitat a qualsevol escala temporal), quin impacte té això sobre els models de risc financers convencionals?",
+              "options": [
+                "Cap: els models actuals ja incorporen la variabilitat real dels mercats de forma suficient",
+                "Significatiu: els models convencionals subestimen la probabilitat d'esdeveniments extrems perquè assumeixen distribucions «normals» que no descriuen els mercats reals",
+                "Total: els mercats fractals són tan impredictibles que cap model de risc pot ser útil"
+              ],
+              "correct": 1,
+              "explanation": "Mandelbrot va argumentar durant dècades —des dels anys 60— que els models financers estàndard (que assumeixen distribucions gaussianes, és a dir, la «campana de Gauss») subestimen dràsticament la probabilitat de col·lapses extrems. En una distribució gaussiana, un moviment de mercat de 10 desviacions estàndard hauria de ser pràcticament impossible. En els mercats reals, succeeix. El crack del 1987, l'esfondrament de Long-Term Capital Management el 1998, la crisi del 2008: tots van implicar moviments que els models convencionals consideraven pràcticament impossibles. La distribució real dels mercats és de «cua pesada» (fat-tail), consistent amb la geometria fractal. La crisi del 2008 va portar una revisió parcial dels models de risc, però el sector financer no ha adoptat completament la perspectiva fractal de Mandelbrot."
+            }
+          ]
+        },
+        {
+          "id": "cao-c03",
+          "title": "Sistemes complexos: la ciència del segle XXI",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La física clàssica va triomfar analitzant sistemes simples: bales de canó, planetes, gasos en recipients tancats. La clau era l'aïllament: estudia un sistema on els components no interaccionen massa, simplifica, mesura, dedueix lleis.\n\nEl món real no coopera. El clima, els ecosistemes, el cervell, les economies, les societats, les epidèmies: tots estan formats per components que interaccionen de maneres no lineals, on el tot difereix radicalment de les parts. La ciència dels sistemes complexos és l'intent de donar-los eines matemàtiques adequades."
+            },
+            {
+              "type": "key-idea",
+              "text": "Un sistema complex és un sistema format per molts components que interaccionen de forma no lineal, donant lloc a propietats emergents que no es poden predir des de les parts. La teoria del caos, la geometria fractal i la teoria de xarxes són les eines principals per estudiar-los. La majoria dels sistemes importants per als humans —economies, ecosistemes, cervells, pandèmies— són sistemes complexos."
+            },
+            {
+              "type": "misconception",
+              "belief": "«Sistema complex» vol dir simplement un sistema molt complicat, amb moltes parts. Un avió és complex; l'economia és complex.",
+              "reality": "Complexitat tècnica (moltes parts) i complexitat científica (comportament emergent de la interacció) no són el mateix. Un avió té milers de components però és analíticament simple: cada part té una funció definida i el comportament global es pot predir des de les parts. Una formiga individual és molt més simple que un avió, però una colònia de formigues és un sistema complex: el comportament col·lectiu emergeix i no es pot predir des de la formiga individual.",
+              "why": "L'ús quotidià de «complex» per a «complicat» amaga la distinció científica rellevant. La ciència de la complexitat va haver d'inventar terminologia nova (complexitat, emergència, autorganització) per separar els dos sentits."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-c03-01",
+              "style": "multiple-choice",
+              "question": "Quin d'aquests sistemes és un sistema complex en el sentit científic, no simplement un sistema complicat?",
+              "options": [
+                "Un rellotge mecànic de 500 peces",
+                "Un avió comercial amb milions de components",
+                "Una xarxa neuronal artificial amb bilions de paràmetres",
+                "Una epidèmia de grip en una ciutat de 3 milions d'habitants"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exacte. Una epidèmia és un sistema complex: el comportament col·lectiu (taxa de propagació, pics, onades) emergeix de les interaccions entre individus que segueixen regles locals simples (contact, immunitat, distància social). No es pot predir el comportament epidèmic estudiant un individu infectat. Els altres tres exemples, per elaborats que siguin, són sistemes complicats: el comportament global es pot (en principi) derivar del comportament de les parts.",
+              "feedbackWrong": "La distinció clau és si el comportament col·lectiu és emergent o derivable de les parts. Una epidèmia és un sistema complex: la propagació col·lectiva, les onades, l'efecte de mesures de salut pública emergeixen de la interacció de milions d'individus i no es poden predir estudiant una sola persona infectada. Un rellotge, un avió o fins i tot una xarxa neuronal (on les operacions de cada capa es poden descriure matemàticament) són complicats, no complexos en el sentit científic."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-cao-c03-02",
+              "style": "true-false",
+              "question": "Els models epidèmics com el SIR (Susceptibles-Infectats-Recuperats) usats durant la COVID-19 eren models de sistemes complexos i per tant intrínsecament caòtics i impredictibles.",
+              "correct": false,
+              "feedbackCorrect": "Fals. El model SIR és un model de compartiments que usa equacions diferencials ordinàries — és determinista i no és caòtic. Va ser criticat per simplificar excessivament (assumia població homogènia, sense estructura de xarxa social, sense variació regional) però no per ser caòtic. Els models epidèmics més sofisticats (models basats en agents) sí capturen més complexitat i emergència. La confusió entre «model simplificat» i «model caòtic» va ser freqüent en el debat públic sobre les prediccions pandèmiques.",
+              "feedbackWrong": "El model SIR és un model de compartiments determinista — no és caòtic. Produeix prediccions úniques (no distribucions de trajectòries) per a uns paràmetres donats. Les crítiques legítimes eren de simplificació excessiva (no captura heterogeneïtat de la població, estructura de xarxa social, etc.), no de caos. La impredictibilitat real de les pandèmies venia de la incertesa sobre els paràmetres (taxa de transmissió, immunitat) i dels canvis de comportament humà, no de la naturalesa caòtica del model."
+            },
+            {
+              "type": "debate",
+              "question": "La ciència dels sistemes complexos desafia la idea que el coneixement científic hauria de ser predictiu. Hauria la ciència d'adaptar les seves normes d'èxit per als sistemes complexos?",
+              "positionA": {
+                "label": "Sí — la predicció exacta no pot ser l'únic criteri",
+                "argument": "Exigir prediccions precises als models de sistemes complexos (ecosistemes, economies, pandèmies) és un criteri inadequat que descarta coneixement genuinament útil. Entendre els mecanismes, identificar ràngos de comportament probable, reconèixer llindars crítics i dissenyar sistemes resilients és coneixement científic valuós malgrat la impredictibilitat de detalls concrets."
+              },
+              "positionB": {
+                "label": "No — baixar el llistó de predicció obre la porta a la pseudociència",
+                "argument": "La predicció falsificable és el que separa la ciència de la narrativa. Si acceptem que un camp científic no necessita fer prediccions precises, creem un espai on qualsevol explicació post-hoc pot presentar-se com a ciència. El criteri ha de mantenir-se alt; si un camp no pot predir, ha de ser honest sobre les seves limitacions en lloc de reformular la idea de ciència al seu conveniència."
+              },
+              "reflection": "Pensa en la comunicació científica de la pandèmia de COVID-19. Quin dels dos arguments descriu millor el que va passar?",
+              "context": "Philip Anderson (Nobel de Física, 1977) va escriure el 1972 l'article «More is Different» establint que cada nivell d'organització requereix nous principis i que el reduccionisme no ho explica tot. El debat sobre els criteris d'èxit de la ciència de sistemes complexos continua actiu."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en un sistema complex del qual en siguis part: una família, un equip de treball, un ecosistema local, una comunitat. Ara que coneixes el concepte d'emergència, veus alguna propietat d'aquell sistema que no existeix en cap dels individus per separat?",
+              "prompt": "Pren-te un moment. No cal que ho escriguis."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

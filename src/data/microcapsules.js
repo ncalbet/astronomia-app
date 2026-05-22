@@ -378,6 +378,130 @@ export const MICROCAPSULES = [
       },
     ],
   },
+  {
+    id: 'mc-forats-negres',
+    title: 'Forats negres: un punt de no retorn',
+    emoji: '⚫',
+    duration: 2,
+    areaId: 'ciencies',
+    blocks: [
+      {
+        type: 'narrative',
+        text: 'Un forat negre no és un forat: és una regió de l\'espai on la gravetat és tan intensa que res — ni la llum — pot escapar. L\'horitzó d\'esdeveniments és el límit invisible: si hi entres, desapareixes del nostre univers per sempre. El forat negre supermasiu al centre de la nostra galàxia, Sgr A*, pesa 4 milions de vegades el Sol. El 2019 vam fer la primera fotografia d\'un forat negre, a la galàxia M87.',
+      },
+      {
+        type: 'key-idea',
+        text: 'L\'horitzó d\'esdeveniments és la frontera sense retorn. Radi de Schwarzschild: r = 2GM/c². Si la Terra es comprimís fins a tenir un radi de 9 mil·límetres, es convertiria en un forat negre. Per a un observador extern, el temps s\'alenteix infinitament a mesura que algú s\'hi acosta.',
+      },
+      {
+        type: 'exercise',
+        id: 'mc-forats-q1',
+        exerciseType: 'multiple-choice',
+        question: 'Qué passa amb la llum quan arriba a l\'horitzó d\'esdeveniments d\'un forat negre?',
+        options: [
+          'Es dobla i torna enrere',
+          'No pot escapar: queda atrapada per sempre',
+          'S\'accelera fins a superar la velocitat de la llum',
+          'Es converteix en matèria',
+        ],
+        correctIndex: 1,
+        explanation: 'L\'horitzó d\'esdeveniments és el punt de no retorn: la velocitat d\'escapament és exactament c (la velocitat de la llum). Res amb massa o sense (incloent la llum) pot sortir un cop ha travessat aquest límit.',
+      },
+    ],
+  },
+  {
+    id: 'mc-milgram',
+    title: 'L\'experiment que va canviar la psicologia',
+    emoji: '⚡',
+    duration: 3,
+    areaId: 'pensament',
+    blocks: [
+      {
+        type: 'narrative',
+        text: 'El 1961, Stanley Milgram va reclutar voluntaris per a un "experiment d\'aprenentatge" a la Universitat de Yale. Un actor feia de "alumne" i rebia descàrregues elèctriques (falses) cada vegada que s\'equivocava. L\'investigador demanava als voluntaris que pujessen el voltatge fins a 450 volts, marcats com "PERILL". El resultat va ser pertorbador: el 65% dels participants va arribar al voltatge màxim, tot i sentir els crits (gravats) de l\'alumne.',
+      },
+      {
+        type: 'key-idea',
+        text: 'L\'experiment de Milgram demostra el poder de l\'autoritat legítima sobre el comportament humà. No era que els participants fossin cruels: la majoria estaven visiblement angoixats. Però la pressió de l\'autoritat ("l\'experiment ha de continuar") era suficient per anular la consciència moral en el 65% dels casos.',
+      },
+      {
+        type: 'exercise',
+        id: 'mc-milgram-q1',
+        exerciseType: 'multiple-choice',
+        question: 'Quin percentatge aproximat dels participants va aplicar el voltatge màxim en l\'experiment de Milgram?',
+        options: [
+          'El 10%',
+          'El 35%',
+          'El 65%',
+          'El 95%',
+        ],
+        correctIndex: 2,
+        explanation: 'El 65% dels participants va arribar als 450 volts (el màxim, marcat "PERILL"). Milgram esperava un 1-2%. El resultat va sacsejar la psicologia social i la teoria moral: la majoria de la gent normal, en un context d\'autoritat legítima, pot fer coses que en altres circumstàncies consideraria inacceptables.',
+      },
+    ],
+  },
+  {
+    id: 'mc-materia-fosca',
+    title: 'El 95% de l\'univers és invisible',
+    emoji: '🕳️',
+    duration: 2,
+    areaId: 'ciencies',
+    blocks: [
+      {
+        type: 'narrative',
+        text: 'Tot el que podem veure — estrelles, galàxies, gas, planetes — representa el 5% de l\'univers. El 27% és matèria fosca: matèria que no emet ni absorbeix llum, però que sabem que existeix perquè la seva gravetat fa girar les galàxies més ràpid del que haurien. I el 68% restant és energia fosca: una força misteriosa que accelera l\'expansió de l\'univers. No sabem qué és cap de les dues.',
+      },
+      {
+        type: 'key-idea',
+        text: 'La matèria fosca és necessària per explicar la rotació de les galàxies: els estels del marge exterior giren tan ràpid que, sense massa extra invisible, haurien de sortir volant. L\'energia fosca s\'infereix de les observacions de supernoves distants: l\'univers no sols s\'expandeix, sinó que s\'accelera. Les dues podrien ser les descobertes més importants de la física del futur.',
+      },
+      {
+        type: 'exercise',
+        id: 'mc-fosca-q1',
+        exerciseType: 'multiple-choice',
+        question: 'Quin percentatge de l\'univers és matèria i energia "ordinàries" (visibles)?',
+        options: [
+          'El 95%',
+          'El 68%',
+          'El 27%',
+          'El 5%',
+        ],
+        correctIndex: 3,
+        explanation: 'Només el 5% de l\'univers és matèria bariònica ordinària (àtoms, molècules, tot el que veiem). El 27% és matèria fosca i el 68% energia fosca. Coneixem les fraccions gràcies al fons còsmic de microones i a observacions de supernoves, però no sabem qué és físicament cap de les dues.',
+      },
+    ],
+  },
+  {
+    id: 'mc-papallona',
+    title: 'La papallona que causa l\'huracà',
+    emoji: '🦋',
+    duration: 2,
+    areaId: 'ciencies',
+    blocks: [
+      {
+        type: 'narrative',
+        text: 'El 1972, el meteoròleg Edward Lorenz va formular una pregunta provocadora: "El batre d\'ales d\'una papallona al Brasil provoca un tornado a Texas?" No era un argument sobre causes directes, sinó sobre sensibilitat inicial: en sistemes caòtics, diferències ínfimes en les condicions inicials produeixen resultats radicalment diferents. Lorenz ho va descobrir per accident el 1961 quan va arrodonir un número de 0.506127 a 0.506 i el model meteorològic va donar un temps completament diferent.',
+      },
+      {
+        type: 'key-idea',
+        text: 'El caos no vol dir aleatòrietat. Sistemes caòtics segueixen lleis deterministes perfectament definides — però són tan sensibles a les condicions inicials que qualsevol error de mesura (per petit que sigui) fa que les prediccions divergeixin exponencialment. Per això el temps meteorològic és impredictible més de dues setmanes: no per falta de coneixement, sinó per principi.',
+      },
+      {
+        type: 'exercise',
+        id: 'mc-papallona-q1',
+        exerciseType: 'multiple-choice',
+        question: 'Un sistema caòtic és...',
+        options: [
+          'Un sistema aleatori sense lleis',
+          'Un sistema determinista molt sensible a les condicions inicials',
+          'Un sistema que no pot ser modelat matemàticament',
+          'Un sistema que sempre evoluciona cap al desordre',
+        ],
+        correctIndex: 1,
+        explanation: 'El caos és determinista: si poguessis conèixer les condicions inicials amb precisió perfecta, podries predir el futur perfectament. El problema és que qualsevol imprecisió de mesura — per petita que sigui — s\'amplifica exponencialment. Això fa les prediccions a llarg termini pràcticament impossibles, no per falta de lleis, sinó per la naturalesa de les equacions.',
+      },
+    ],
+  },
 ]
 
 export function getDailyCapsule() {

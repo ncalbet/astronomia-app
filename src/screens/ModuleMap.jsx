@@ -104,6 +104,25 @@ const MODULE_META = {
   'module-XX-intro-filosofia':      { title: 'Introducció a la Filosofia',                   emoji: '🦉' },
   'module-XX-etica-practica':       { title: 'Ètica Pràctica: Decisions en Casos Límit',    emoji: '⚖️' },
   'module-XX-filosofia-llenguatge': { title: 'Filosofia del Llenguatge',                     emoji: '🗣️' },
+  // — Bloc: Astronomia (nous 2) —
+  'module-08-origen-desti-univers':   { title: 'L\'Origen i el Destí de l\'Univers',        emoji: '🌌' },
+  'module-09-materia-energia-fosques':{ title: 'La Matèria i l\'Energia Fosques',            emoji: '🕳️' },
+  'module-10-forats-negres':          { title: 'Forats Negres: el que no hi Veiem',          emoji: '⚫' },
+  'module-11-mons-alla':              { title: 'Mons Allà: la Cerca de Vida a l\'Univers',   emoji: '🪐' },
+  // — Bloc: Física (nous) —
+  'module-10-caos':               { title: 'El Caos: Quan la Ciència Perd el Control',      emoji: '🌀' },
+  'module-12-temps-espai-limits': { title: 'El Temps, l\'Espai i els Límits de la Física',  emoji: '⏳' },
+  // — Bloc: Biologia (nous) —
+  'module-09-cos-huma':           { title: 'El Cos Humà no és el que Creus',                emoji: '🫀' },
+  'module-11-ecologia':           { title: 'Ecologia: una Conversa sense Final',             emoji: '🌿' },
+  'module-13-trauma-resiliencia': { title: 'Trauma i Resiliència: del Cos a la Societat',   emoji: '🌱' },
+  // — Bloc: Ment i Comportament —
+  'module-12-ment-enganya': { title: 'La Ment que s\'Enganya a si Mateixa',                  emoji: '🪞' },
+  'module-14-obediencia':   { title: 'Un Experiment, Sis Preguntes',                         emoji: '⚡' },
+  // — Bloc: Diplomàcia —
+  'module-XX-diplomacia-negociacio':     { title: 'Diplomàcia i Negociació Internacional',  emoji: '🤝' },
+  'module-XX-historia-diplomacia':       { title: 'Història de la Diplomàcia',               emoji: '🕊️' },
+  'module-XX-organismes-internacionals': { title: 'Organismes Internacionals',               emoji: '🌐' },
 }
 
 // XP estimat per mòdul (per restar en repetir)
@@ -204,6 +223,25 @@ const MODULE_XP = {
   'module-XX-intro-filosofia':      280,
   'module-XX-etica-practica':       280,
   'module-XX-filosofia-llenguatge': 280,
+  // — Bloc: Astronomia (nous 2) —
+  'module-08-origen-desti-univers':    230,
+  'module-09-materia-energia-fosques': 230,
+  'module-10-forats-negres':           230,
+  'module-11-mons-alla':               230,
+  // — Bloc: Física (nous) —
+  'module-10-caos':               300,
+  'module-12-temps-espai-limits': 230,
+  // — Bloc: Biologia (nous) —
+  'module-09-cos-huma':           230,
+  'module-11-ecologia':           190,
+  'module-13-trauma-resiliencia': 190,
+  // — Bloc: Ment i Comportament —
+  'module-12-ment-enganya': 230,
+  'module-14-obediencia':   230,
+  // — Bloc: Diplomàcia —
+  'module-XX-diplomacia-negociacio':     240,
+  'module-XX-historia-diplomacia':       420,
+  'module-XX-organismes-internacionals': 420,
 }
 
 function ModuleCard({ id, onSelect, onRepeat, loadingId, completedModules,

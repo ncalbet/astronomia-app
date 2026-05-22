@@ -1,0 +1,451 @@
+{
+  "id": "module-12-temps-espai-limits",
+  "title": "El temps, l'espai i els límits de la física",
+  "emoji": "⏳",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "tel-01",
+      "title": "El temps: la variable que ningú entén",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El temps és l'únic aspecte de la realitat que experimentem directament i constantment, i és el que menys entenem. Sabem que passa. Sabem que no podem aturar-lo ni invertir-lo. Sabem que s'alenteix prop de masses grans o a velocitats elevades. Però no sabem per qué va en una sola direcció. No sabem si és fonamental o emergent. No sabem si existiria sense matèria ni energia. Les equacions de la física, amb una excepció, funcionen igual en totes dues direccions temporals. La irreversibilitat que experimentem cada dia no apareix en les lleis fonamentals. Alguna cosa no encaixa."
+        },
+        {
+          "type": "key-idea",
+          "text": "Les lleis fonamentals de la física —mecànica quàntica, relativitat, electrodinàmica— són simètriques en el temps: si filmes un procés fonamental i passes el vídeo al revés, el resultat és físicament possible. La fletxa del temps que experimentem —el passat fix, el futur obert, el cafè que es refreda però no s'escalfa sol— no sorgeix de les lleis fonamentals. Sorgeix de la termodinàmica i de les condicions inicials de l'univers. Però per qué l'univers tenia aquelles condicions inicials? No ho sabem."
+        },
+        {
+          "type": "expandable",
+          "label": "L'entropia i la fletxa del temps: per qué el cafè es refreda",
+          "content": "El segon principi de la termodinàmica diu que l'entropia d'un sistema aïllat no pot disminuir. L'entropia és una mesura del desordre: hi ha molts més estats desordenats que ordenats, i els processos espontanis van del ordre al desordre simplement per probabilitat estadística. Un cafè calent en una habitació freda cedeix calor fins a l'equilibri perquè hi ha molts més estats microscòpics de «temperatura uniforme» que de «cafè calent, habitació freda». Però aquesta és una explicació estadística, no fonamental. Les col·lisions moleculars individuals que redistribueixen la calor són totes reversibles. El que és irreversible és el conjunt estadístic. La pregunta profunda és per qué l'univers va néixer en un estat d'entropia extremadament baixa —molt ordenat— i s'ha estat movent cap a l'equilibri des d'aleshores. Si l'univers hagués nascut en equilibri, no hi hauria fletxa del temps, ni estrelles, ni vida."
+        },
+        {
+          "type": "misconception",
+          "belief": "El temps és absolut i universal: tots els rellotges de l'univers marquen el mateix instant present.",
+          "reality": "La relativitat especial d'Einstein va demostrar el 1905 que no existeix un «present» universal. Dos observadors en moviment relatiu no coincideixen en quins esdeveniments són simultanis. A velocitats quotidianes, la diferència és ínfima. Però és real: els rellotges dels satèl·lits GPS s'endarrereixen respecte als terrestres per la velocitat i s'avancen per la menor gravetat. Sense correccions relativistes, el GPS seria inútil en hores.",
+          "why": "La intuïció d'un temps universal és inevitable per a éssers que viuen a velocitats molt menors que la de la llum. Newton la va formalitzar com a principi. Einstein la va demolir amb dades i matemàtiques."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-01-01",
+          "style": "multiple-choice",
+          "question": "Per qué el fet que les lleis fonamentals de la física siguin simètriques en el temps és filosòficament problemàtic?",
+          "options": [
+            "Perquè implica que el futur ja existeix i el lliure albir és il·lusori",
+            "Perquè significa que els processos físics fonamentals poden anar en totes dues direccions temporals, però mai observem que un got trencat es reconstrueixi sol",
+            "Perquè contradiu la relativitat especial, que sí que distingeix passat de futur",
+            "Perquè fa impossible calcular l'edat de l'univers"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Si les lleis fonamentals no distingeixen passat de futur, d'on ve la irreversibilitat que observem? Un got que cau i es trenca és un procés físic: cada col·lisió molecular que el destrueix és reversible per les lleis fonamentals. Però mai veiem els trossos reunir-se. La resposta termodinàmica és estadística: hi ha astronomicament més formes de ser «trossos de got» que «got sencer». La pregunta profunda és per qué l'univers estava inicialment en un estat tan poc probable (baixa entropia) que permet que el temps tingui una direcció preferida.",
+          "feedbackWrong": "La tensió és entre les lleis fonamentals (reversibles en el temps) i l'experiència (irreversible). Un got que cau i es trenca segueix lleis que en principi permeten el procés invers, però mai l'observem. La termodinàmica ho explica estadísticament, però la pregunta de per qué l'univers va néixer en un estat de baixa entropia —prerequisit de tota la irreversibilitat— continua oberta."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-01-02",
+          "style": "true-false",
+          "question": "Segons la relativitat especial, dos observadors en moviment relatiu sempre coincidiran en quin dels dos esdeveniments va passar primer.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La relativitat especial implica que la simultaneïtat és relativa: dos observadors en moviment relatiu poden estar en desacord sobre l'ordre temporal de dos esdeveniments separats en l'espai, si aquells esdeveniments no estan connectats causalment (és a dir, si cap senyal que viatgés a velocitat ≤ c podria anar d'un a l'altre). Per a esdeveniments causalment connectats (un pot influir l'altre), tots els observadors coincideixen en l'ordre. Però per a esdeveniments causalment desconnectats, l'ordre temporal és depenent del marc de referència.",
+          "feedbackWrong": "La relativitat especial demostra que la simultaneïtat és relativa. Per a dos esdeveniments separats en l'espai que no estan causalment connectats, observadors en moviment relatiu poden estar en desacord sobre quin va passar «primer». L'ordre temporal absolut només existeix per a parells d'esdeveniments on un pot causar l'altre (separació temporal en tots els marcs de referència)."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tel-01-01",
+          "question": "Si la fletxa del temps sorgeix de condicions inicials de baixa entropia, i no de les lleis fonamentals, el temps és una propietat fonamental de la realitat o una propietat emergent?",
+          "options": [
+            "Fonamental: el temps existeix independentment de la matèria i l'entropia",
+            "Emergent: la direccionalitat del temps és una propietat estadística de sistemes complexos, no una característica de les lleis fonamentals",
+            "La distinció entre fonamental i emergent no s'aplica bé al temps: és una propietat que opera en tots dos nivells simultàniament"
+          ],
+          "correct": 2,
+          "explanation": "La pregunta sobre la naturalesa del temps és una de les més debatudes en física fonamental. El camp es divideix aproximadament en dues posicions. Els «eternalistes» o «bloquistes» (inspirats per la relativitat) tracten el temps com una dimensió més de l'espai-temps: el passat, el present i el futur existeixen tots igualment, i el «flux» del temps és una il·lusió cognitiva. Els «presentistes» tracten el present com a únic real. Carlo Rovelli i altres argumenten que en la gravetat quàntica el temps podria no aparèixer en les equacions fonamentals i ser completament emergent. Julian Barbour ha proposat que el temps no existeix i que el que percebem com a canvi temporal és en realitat una relació entre configuracions de l'espai. La distinció «fonamental/emergent» és útil però potser no captura tota la complexitat: el temps podria ser fonamental en un sentit (la coordinació causal d'esdeveniments) i emergent en un altre (la direccionalitat)."
+        }
+      ]
+    },
+    {
+      "id": "tel-02",
+      "title": "L'espai: tan buit com sembla?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "L'espai buit sembla la cosa més senzilla que existeix: res. Però la mecànica quàntica diu que el buit no és buit. Està ple d'energia de fluctuació, de parells de partícules virtuals que apareixen i desapareixen, de camps que mai arriben a zero. L'efecte Casimir —dues plaques metàl·liques situades a nanometres de distància s'atrauen per la pressió del buit quàntic— s'ha mesurat i confirmat al laboratori. El buit no és el no-res. És un estat físic amb propietats. I l'espai en si —la geometria que descriu la relativitat general— podria no ser fonamental sinó emergent d'alguna cosa més bàsica."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'espai de la relativitat general és dinàmic: es corba per la presència de massa i energia, s'expandeix amb l'univers, pot ondular en ones gravitacionals. No és un escenari passiu on les coses passen — és un actor actiu que reacciona a la matèria i la modifica. Però la relativitat general tracta l'espai-temps com a continu i suau. La mecànica quàntica suggereix que a escales de Planck (10⁻³⁵ metres) l'espai podria ser discret, granejat, o tenir una estructura completament diferent."
+        },
+        {
+          "type": "expandable",
+          "label": "L'efecte Casimir: la força del buit mesurable al laboratori",
+          "content": "Hendrik Casimir va predir el 1948 que dues plaques conductores paral·leles i no carregades, situades a distàncies nanomètriques, haurien d'atraure's per un efecte purament quàntic. El raonament: entre les plaques, les ones del camp electromagnètic del buit estan restringides (només caben modes que encaixen entre les plaques). A l'exterior, caben totes les ones possibles. La diferència de pressió del buit empeny les plaques l'una cap a l'altra. El 1997, Steven Lamoreaux va mesurar l'efecte per primera vegada amb un 5% de precisió. Avui s'ha confirmat múltiples vegades. L'energia del buit quàntic produeix una força mesurable. La mateixa energia del buit que, quan intentem calcular-la per a la constant cosmológica, dóna un resultat 10¹²⁰ vegades massa gran."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-02-01",
+          "style": "multiple-choice",
+          "question": "L'efecte Casimir demostra que el buit quàntic té energia real. Per qué això posa en un problema addicional el càlcul de la constant cosmológica?",
+          "options": [
+            "Perquè demostra que la constant cosmológica ha de ser zero, contradicent les observacions",
+            "Perquè confirma que l'energia del buit és real i mesurable, fent més difícil argumentar que la predicció quàntica de 10¹²⁰ és simplement un error de model",
+            "Perquè l'efecte Casimir és inconsistent amb la relativitat general",
+            "Perquè demostra que la gravetat i la quàntica no es poden unificar mai"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'efecte Casimir confirma que l'energia del buit quàntic és físicament real i produeix efectes mesurables. Això fa més difícil descartar simplement la predicció de 10¹²⁰ com a artefacte matemàtic: l'energia del buit existeix, i la qüestió és per qué no té l'efecte gravitacional que la quàntica prediu. Ha d'existir algun mecanisme de cancel·lació molt precís que no entenem. El problema de la constant cosmológica és un dels més aguts de la física perquè els dos costats —l'energia del buit és real (Casimir) i l'energia del buit gravitatòriament activa és minúscula (observacions)— estan tots dos verificats experimentalment.",
+          "feedbackWrong": "L'efecte Casimir demostra que l'energia del buit és real i mesurable. Això fa que el problema de la constant cosmológica sigui més greu, no menys: la quàntica prediu una energia del buit gegantina, l'efecte Casimir confirma que aquella energia existeix, però la constant cosmológica observada és 10¹²⁰ vegades menor. El mecanisme que cancel·la 120 ordres de magnitud d'energia per deixar un residu minúscul és completament desconegut."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-02-02",
+          "style": "detect-error",
+          "statement": "La relativitat general descriu l'espai-temps com a discret i granejat a escales molt petites, cosa que la distingeix de la física clàssica.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és 'discret i granejat': és exactament el contrari. La relativitat general tracta l'espai-temps com a continu i diferenciable — una varietat suau sense estructura discreta. La discretesa de l'espai a escales de Planck és una hipòtesi de certes teories de gravetat quàntica (especialment la gravetat quàntica de bucles), no un resultat de la relativitat general. De fet, la tensió entre la continuïtat de la relativitat i la discretesa inherent a la quàntica és part del problema de la unificació."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Forats negres: el que no hi veiem",
+          "moduleEmoji": "⚫",
+          "concept": "El principi hologràfic i l'espai emergent",
+          "text": "La idea que l'espai podria ser emergent —una propietat que sorgeix d'alguna cosa més fonamental— és consistent amb el principi hologràfic que vam veure en el mòdul de forats negres. Si la gravetat és emergent d'una teoria sense gravetat en menys dimensions, l'espai tridimensional que percebem podria ser una construcció, no una realitat fonamental."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tel-02-01",
+          "question": "Si l'espai és emergent —una propietat que sorgeix d'alguna cosa més fonamental— quines implicacions tindria per a la física i per a la nostra comprensió de la realitat?",
+          "options": [
+            "Cap pràctica: l'emergència no canvia les prediccions de la física en el règim accessible",
+            "Profundes: implicaria que la nostra intuïció de «lloc», «distància» i «extensió» és una aproximació d'alguna cosa radicalment diferent a escala fonamental",
+            "Negatives: si l'espai és emergent, la física perdria la seva base ontològica i es tornaria purament instrumental"
+          ],
+          "correct": 1,
+          "explanation": "Si l'espai és emergent, seria la revisió ontològica més radical de la física des d'Aristòtil. Les nostres categories de «lloc», «distància», «dins» i «fora» serien aproximacions vàlides en el règim quotidia però no fonamentals. Alguna cosa diferent —potser graus de llibertat quàntics, potser informació, potser relacions entre sistemes sense estructura espacial— seria la realitat de fons. Les implicacions pràctiques podrien ser limitades per a la física del dia a dia (igual que la quàntica no canvia el disseny de ponts), però les implicacions conceptuals serien enormes: l'espai que percebem, que sembla la cosa més bàsica i òbvia, seria un fenomen col·lectiu emergent, com la temperatura o la rigidesa. L'opció de «perdre la base ontològica» confon emergència amb eliminació: que la temperatura sigui emergent del moviment molecular no fa la temperatura menys real —fa la realitat molecular més fonamental."
+        }
+      ]
+    },
+    {
+      "id": "tel-03",
+      "title": "La gravetat quàntica: el problema que bloqueja tot",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La física del segle XX va produir dues teories que han superat cada test experimental al qual les hem sotmès. La relativitat general descriu la gravetat i la geometria de l'espai-temps a totes les escales que hem pogut mesurar. La mecànica quàntica descriu les partícules i les forces fonamentals amb una precisió sense precedents. El problema és que, posades juntes, es contradiuen mútuament. Les dues teories fan prediccions inconsistents en condicions extremes. I la física no pot tenir dues teories fonamentals que es contradiuen. Necessitem una. No la tenim."
+        },
+        {
+          "type": "key-idea",
+          "text": "La gravetat quàntica és el nom que donem a la teoria que unificaria la relativitat general i la mecànica quàntica. No existeix en forma completa. Els dos candidats principals —la teoria de cordes i la gravetat quàntica de bucles— fan prediccions molt difícils de verificar experimentalment i cap ha estat confirmada. Estem, literalment, en el límit del que la física actual pot dir."
+        },
+        {
+          "type": "comparison",
+          "title": "Relativitat general vs. Mecànica quàntica",
+          "labelA": "Relativitat general",
+          "labelB": "Mecànica quàntica",
+          "items": [
+            {
+              "label": "Escala",
+              "a": "Cosmos: planetes, estrelles, galàxies, univers",
+              "b": "Subatòmica: partícules, àtoms, molècules"
+            },
+            {
+              "label": "Naturalesa de l'espai-temps",
+              "a": "Continu, suau, dinàmic, corbat per la massa",
+              "b": "No apareix explícitament; el buit té fluctuacions"
+            },
+            {
+              "label": "Determinisme",
+              "a": "Completament determinista donades les condicions inicials",
+              "b": "Inherentment probabilista: prediu distribucions, no resultats exactes"
+            },
+            {
+              "label": "Gravetat",
+              "a": "Força fonamental: curvatura de l'espai-temps",
+              "b": "No inclosa; els esforços d'incloure-la produeixen infinits"
+            },
+            {
+              "label": "Verificació experimental",
+              "a": "Ones gravitacionals, GPS, precessions, lents gravitacionals",
+              "b": "Semiconductors, làsers, ressonància magnètica, superconductivitat"
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué unificar la gravetat i la quàntica és tan difícil",
+          "content": "En el Model Estàndard, les forces (electromagnètica, nuclear feble, nuclear forta) es descriuen com a intercanvi de partícules portadores (fotons, bosons W i Z, gluons). Aplicar el mateix enfocament a la gravetat produeix el «gravitó» —la partícula portadora de la gravetat— i quan es calculen les correccions quàntiques, el resultat és infinit. Infinits que no es poden eliminar amb les tècniques de «renormalització» que funcionen per a les altres forces. La raó profunda: la relativitat general no és lineal, i les seves pròpies partícules portadores (gravitons) interaccionen entre si per gravetat, creant bucles de bucles infinits. A més, la relativitat tracta l'espai-temps com el marc en el qual passa la física; la quàntica posa les coses en un espai-temps fix. Unificar les dues requereix una teoria on l'espai-temps també sigui quàntic — i ninguú sap bé com fer-ho de manera consistent."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-03-01",
+          "style": "multiple-choice",
+          "question": "Per qué la teoria de cordes i la gravetat quàntica de bucles han estat tan difícils de confirmar o refutar experimentalment?",
+          "options": [
+            "Perquè les dues teories fan les mateixes prediccions que la física estàndard en tots els règims accessibles",
+            "Perquè les seves prediccions distintives apareixen a l'escala de Planck (10⁻³⁵ m), molt per sota de qualsevol capacitat experimental actual",
+            "Perquè els físics no han pogut arribar a un consens sobre quines prediccions fan",
+            "Perquè totes dues teories han estat refutades per experiments recents"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Les prediccions distintives de la gravetat quàntica apareixen a l'escala de Planck — 10⁻³⁵ metres, vint ordres de magnitud per sota de la mida d'un protó. Accedir experimentalment a aquesta escala requeriria un accelerador de partícules de la mida d'una galàxia. En el règim accessible als experiments actuals, totes les teories de gravetat quàntica convergeixen en les prediccions de la relativitat general estàndard. La física fonamental s'ha trobat en un règim on les teories són molt difícils de discriminar experimentalment.",
+          "feedbackWrong": "El problema és d'escala: les prediccions distintives de les teories de gravetat quàntica apareixen a l'escala de Planck (10⁻³⁵ m). El Gran Col·lisionador d'Hadrons soneja escales de l'ordre de 10⁻¹⁹ m — seize ordres de magnitud lluny de l'escala de Planck. En el règim experimental accessible, les teories de gravetat quàntica donen les mateixes prediccions que la relativitat estàndard. Discriminar-les requeriria energies cosmologicament inassolibles."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-03-02",
+          "style": "true-false",
+          "question": "La teoria de cordes ha estat la teoria dominant de gravetat quàntica durant quaranta anys perquè ha fet prediccions verificades experimentalment.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La teoria de cordes ha estat dominant per raons matemàtiques i de coherència interna, no per confirmació experimental. És la única teoria que sembla poder unificar totes les forces sense inconsistències matemàtiques evidents, i ha produït matemàtica extraordinàriament rica (inclosa la conjectura de Maldacena). Però cap predicció específica i distintiva de la teoria de cordes ha estat verificada experimentalment. Les supercordes prediquen dimensions extra i supersimetria: el LHC no ha trobat cap partícula supersimètrica en el rang de masses que els models més simples predien.",
+          "feedbackWrong": "La teoria de cordes és dominant per la seva coherència matemàtica i la seva capacitat d'unificar forces, no per confirmació experimental. El LHC no ha trobat partícules supersimètriques en el rang predit pels models més simples. Les dimensions extra predites per la teoria de cordes no han estat detectades. La teoria continua sent el candidat més prometedor matemàticament, però sense confirmació experimental directa."
+        },
+        {
+          "type": "debate",
+          "question": "La teoria de cordes porta quaranta anys sense prediccions verificables. Segueix essent ciència legítima?",
+          "positionA": {
+            "label": "Sí: la coherència matemàtica és suficient",
+            "argument": "La teoria de cordes ha produït matemàtica extraordinàriament fèrtil, ha resolt problemes conceptuals profunds (la conjectura de Maldacena, el càlcul de l'entropia de forats negres), i operaa en un règim on cap experiment pot arribar. No és raó per abandonar-la — és raó per no esperar verificació experimental a curt termini. La física fonamental sempre ha avançat per coherència matemàtica abans que per experiment, des de la predicció de Dirac del positró fins a les ones gravitacionals d'Einstein."
+          },
+          "positionB": {
+            "label": "No: sense prediccions falsables no és ciència",
+            "argument": "El criteri de Popper és clar: una teoria científica ha de fer prediccions que puguin ser refutades. Si la teoria de cordes no fa cap predicció distintiva que els experiments actuals o futurs puguin verificar o refutar, és metafísica matemàticament sofisticada, no física. Quaranta anys de recerca sense progrés experimental haurien de ser suficients per reorientar recursos cap a teories que facin prediccions verificables."
+          },
+          "reflection": "On traçaries el límit entre física teòrica legítima i especulació matemàtica? La distància a l'experiment és un criteri suficient?",
+          "context": "Lee Smolin, en el seu llibre 'The Trouble with Physics' (2006), va argumentar que la dominància de la teoria de cordes havia distorsionat la sociologia de la física fonamental. String theorists van respondre que Smolin confonia dificultat experimental amb manca de contingut científic. El debat continua."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tel-03-01",
+          "question": "Si mai aconseguim una teoria de gravetat quàntica completa, qué hauria de poder explicar que les teories actuals no poden?",
+          "options": [
+            "Hauria de fer prediccions verificables a l'escala de Planck i eliminar les singularitats dels forats negres i del Big Bang",
+            "Hauria de reduir-se a la relativitat general i a la mecànica quàntica en els seus règims respectius, i resoldre la paradoxa de la informació dels forats negres",
+            "Tot l'anterior: hauria de ser verificable, eliminar singularitats, reduir-se a les teories existents, i resoldre la paradoxa de la informació — i probablement molt més que ara no imaginem"
+          ],
+          "correct": 2,
+          "explanation": "Una teoria de gravetat quàntica ha de complir múltiples criteris simultàniament. Primer, el criteri de correspondència: en el límit de poca curvatura ha de reproduir la relativitat general, i en el límit de camp gravitacional feble ha de reproduir la mecànica quàntica. Sense això, les observacions existents la refutarien immediatament. Segon, ha de resoldre les singularitats: substituir els infinits de la relativitat per estructures finites i regulars. Tercer, hauria de resoldre la paradoxa de la informació: explicar com la informació dels forats negres es conserva consistentment amb la unitarietat quàntica. Quart, hauria de fer prediccions noves verificables —altrament no es podria distingir d'infinites alternatives. I cinquè, probablement ens sorprendrà amb implicacions que ara no podem imaginar, de la mateixa manera que la mecànica quàntica va revelar un món d'entrellaçament, superposició i mesura que ningú havia anticipat."
+        }
+      ]
+    },
+    {
+      "id": "tel-04",
+      "title": "El problema de la mesura: la realitat quan ningú mira",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La mecànica quàntica és la teoria física més verificada de la història. Prediu l'espectre de l'hidrogen, la conductivitat dels semiconductors i la resistència dels superconductors amb una precisió de deu decimals. El problema és que ningú sap del cert qué diu sobre la realitat. No és una hipèrbole: el «problema de la mesura» —la qüestió de qué passa quan un sistema quàntic és mesurat— és un problema obert després de cent anys, amb múltiples interpretacions incompatibles i cap manera experimental de distingir-les."
+        },
+        {
+          "type": "key-idea",
+          "text": "En mecànica quàntica, un sistema pot existir en superposició de múltiples estats simultàniament —una partícula aquí i allà, un spin amunt i avall. Quan es mesura, el sistema «col·lapsa» a un sol estat. Però les equacions de la mecànica quàntica no descriuen cap col·lapse: descriuen una evolució contínua i determinista. El col·lapse és un postulat afegit a la teoria per fer-la aplicable, no un resultat de les equacions. Per qué el col·lapse? Quan passa exactament? Qué és «mesurar»? Cent anys sense resposta unànime."
+        },
+        {
+          "type": "expandable",
+          "label": "Les interpretacions de la mecànica quàntica: el menú de realitats possibles",
+          "content": "Copenhague (Bohr, Heisenberg): la funció d'ona no representa la realitat — representa el coneixement. El col·lapse és actualització de probabilitats, no event físic. «No preguntis qué fa l'electró quan no el mires.» Molts Mons (Everett): no hi ha col·lapse. Totes les possibilitats es realitzen en branques paral·leles de la funció d'ona universal. L'observador és part del sistema i es ramifica amb ell. Variables Ocultes (De Broglie-Bohm): la partícula té posició definida sempre; la funció d'ona és un camp pilot real que guia la partícula. No és probabilista per naturalesa — ho sembla perquè no coneixem la posició inicial exacta. Decoherència (Zurek): el col·lapse aparent sorgeix de la interacció del sistema quàntic amb l'entorn. No hi ha col·lapse real — hi ha entrellaçament massiu amb l'ambient que destrueix les superposicions pràcticament. Cap interpretació ha estat refutada. Cap ha estat confirmada. Totes fan les mateixes prediccions experimentals."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-04-01",
+          "style": "multiple-choice",
+          "question": "Per qué el problema de la mesura en mecànica quàntica és especialment frustrant des d'un punt de vista científic?",
+          "options": [
+            "Perquè cap de les interpretacions fa prediccions matemàtiques correctes",
+            "Perquè les diferents interpretacions fan prediccions experimentals idèntiques i no es poden distingir amb cap experiment conegut",
+            "Perquè la mecànica quàntica és massa complexa per ser entesa intuïtivament",
+            "Perquè el problema va ser resolt per Bohr el 1927 però la solució és massa abstracta per ser acceptada"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El problema de la mesura és científicament frustrant perquè les interpretacions —Copenhaguen, Molts Mons, Variables Ocultes, Decoherència— fan totes les mateixes prediccions experimentals. No és un desacord sobre els fets: tots els físics que usen la quàntica per calcular obtenen els mateixos resultats. És un desacord sobre qué vol dir la teoria —qué descriu, quina és la realitat subjacent. I sense prediccions experimentals diferents, no hi ha manera científica convencional de resoldre el desacord.",
+          "feedbackWrong": "La frustració és que totes les interpretacions —Copenhaguen, Molts Mons, Variables Ocultes— fan les mateixes prediccions per a qualsevol experiment possible. No és que no sapiguem quina és correcta per falta d'experiments: és que els experiments no distingeixen entre elles per construcció. El desacord és sobre la realitat subjacent, no sobre les prediccions."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-04-02",
+          "style": "true-false",
+          "question": "La interpretació de Copenhague —la més ensenyada als cursos universitaris— afirma que les partícules quàntiques no tenen propietats definides quan no es mesuren.",
+          "correct": true,
+          "feedbackCorrect": "Cert, en la versió estricta. La interpretació de Copenhague sosté que preguntar «quin és l'spin de l'electró abans de mesurar» és una pregunta sense resposta física —no perquè no ho sabem, sinó perquè el concepte d'«spin definit sense mesura» no correspon a cap realitat. La funció d'ona és el complet de la descripció; no hi ha res darrere. Bohr va sintetitzar-ho: «No existeix un món quàntic. Hi ha només una descripció quàntica abstracta.» Aquesta postura és instrumentalment poderosa i filosòficament radical.",
+          "feedbackWrong": "La interpretació de Copenhague és explícita en aquest punt: les propietats quàntiques no existeixen independentment de la mesura. La funció d'ona no descriu una partícula que «realment» té un spin però que no coneixem — descriu tot el que hi ha per conèixer. Quan es mesura, el resultat és aleatori (amb probabilitats donades per la funció d'ona), però no hi havia una resposta preexistent. Aquesta postura és filosòficament molt radical, tot i ser la més ensenyada."
+        },
+        {
+          "type": "quote",
+          "text": "Si algú no queda escandalitzat per la mecànica quàntica, és que no l'ha entesa.",
+          "author": "Niels Bohr"
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tel-04-01",
+          "question": "Si totes les interpretacions de la mecànica quàntica fan les mateixes prediccions experimentals, és una qüestió científica o filosòfica?",
+          "options": [
+            "Científica: les prediccions experimentals idèntiques no impliquen equivalència — pot haver-hi diferències en règims no explorats",
+            "Filosòfica: si no hi ha manera de distingir-les experimentalment, la preferència per una o altra és una qüestió de gust metafísic, no de ciència",
+            "Les dues: és una qüestió filosòfica ara, però podria tornar-se científica si es troben règims o experimentos que les discriminin"
+          ],
+          "correct": 2,
+          "explanation": "La distinció entre «científic» i «filosòfic» no és tan neta com sembla. La interpretació de Molts Mons, per exemple, fa prediccions lleugerament diferents sobre la distribució de probabilitats en experiments de molt alta precisió — diferències que potser alguna vegada podran ser mesurades. La interpretació de Variables Ocultes de Bohm fa prediccions idèntiques a la mecànica quàntica estàndard, però és no-local de maneres específiques que podrien tenir conseqüències en contextos de gravetat quàntica. La decoherència ha passat de ser una interpretació a ser un fenomen mesurable que explica per qué no veiem superposicions macroscòpiques. La frontera entre «qüestió filosòfica» i «qüestió científica latent» és porosa: molts problemes que semblaven filosòfics han resultat ser físics quan s'han trobat les condicions adequades per investigar-los. El teorema de Bell (1964) va convertir la qüestió de les variables ocultes locals —que semblava filosòfica— en una qüestió experimental decidida el 1982 per Alain Aspect."
+        }
+      ]
+    },
+    {
+      "id": "tel-05",
+      "title": "El multivers: ciència, filosofia o ficció?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La paraula «multivers» apareix en contextos molt diversos i amb significats molt diferents: la interpretació de Molts Mons de la mecànica quàntica, el multivers inflacionari de la cosmologia, el paisatge de la teoria de cordes, els universos paral·lels de la ficció. Algunes d'aquestes idees sorgeixen com a conseqüències matemàtiques de teories físiques ben establertes. Altres son especulació. Distingir entre les dues no és trivial — i el debat sobre si el multivers és ciència o ficció il·lustra millor que qualsevol altra cosa els límits del mètode científic."
+        },
+        {
+          "type": "key-idea",
+          "text": "Hi ha almenys quatre tipus de multivers en física: el multivers de Nivell I (regions de l'univers fora del nostre horitzó observable), el de Nivell II (bombolles de l'univers inflacionari amb constants físiques diferents), el de Nivell III (branques de Molts Mons), i el de Nivell IV (universos amb matemàtiques diferents). El físic Max Tegmark els ha catalogat. La qüestió és quins d'ells, si n'hi ha algun, fan prediccions verificables."
+        },
+        {
+          "type": "expandable",
+          "label": "El paisatge de la teoria de cordes: 10⁵⁰⁰ universos possibles",
+          "content": "La teoria de cordes no prediu un únic univers amb unes constants físiques fixes. En el seu marc, hi ha aproximadament 10⁵⁰⁰ configuracions possibles —el «paisatge»— cadascuna corresponent a un univers amb lleis físiques lleugerament o radicalment diferents. La inflació eterna podria realitzar tots aquests universos en bombolles separades. Si és així, preguntar «per qué les constants físiques del nostre univers són el que són» podria tenir la mateixa resposta que «per qué vivim a la Terra i no a Mart»: perquè en aquelles condicions concretes, éssers com nosaltres podem existir. Argument antròpic. El problema: amb 10⁵⁰⁰ universos possibles i el principi antròpic per seleccionar el que observem, la teoria sembla capaç d'explicar qualsevol conjunt de constants físiques. Una teoria que ho explica tot no prediu res."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-05-01",
+          "style": "multiple-choice",
+          "question": "Quin és el problema principal del «paisatge» de la teoria de cordes com a explicació de les constants físiques?",
+          "options": [
+            "Que prediu constants físiques que no coincideixen amb les observades",
+            "Que requereix l'existència de 10⁵⁰⁰ universos, cosa que viola la navalla d'Occam",
+            "Que combinat amb el principi antròpic, pot «explicar» qualsevol valor de les constants, sense fer cap predicció específica verificable",
+            "Que la teoria de cordes no inclou la gravetat i per tant no pot parlar de constants gravitatòries"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. Si hi ha 10⁵⁰⁰ universos amb totes les combinacions possibles de constants, i el principi antròpic selecciona els que permeten observadors, llavors qualsevol valor observat de les constants és «explicat» pel paisatge. Però una teoria que és consistent amb qualsevol resultat no fa cap predicció: no es pot refutar. Paul Steinhardt —que va contribuir al desenvolupament de la inflació— ha argumentat que aquest paisatge fa la teoria de cordes no científica en el sentit de Popper.",
+          "feedbackWrong": "El problema no és el nombre d'universos ni la violació d'Occam (en física, la parsimònia no és un criteri absolut). El problema és la predictibilitat: si tens 10⁵⁰⁰ universos amb totes les combinacions de constants i el principi antròpic per seleccionar, qualsevol conjunt de constants observades és compatible amb la teoria. Una teoria que ho explica tot no prediu res — i una teoria que no prediu res no és falsable."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-05-02",
+          "style": "true-false",
+          "question": "El multivers de Nivell I —regions de l'univers fora del nostre horitzó observable— és tan especulatiu com la interpretació de Molts Mons.",
+          "correct": false,
+          "feedbackCorrect": "Fals. El multivers de Nivell I (regions fora de l'horitzó) és gairebé inevitable si l'univers és infinit o molt gran, cosa que la inflació còsmica prediu. No requereix cap hipòtesi addicional: és simplement espai que existeix però del qual la llum no ha tingut temps d'arribar fins a nosaltres. La interpretació de Molts Mons requereix acceptar que tots els resultats possibles d'una mesura quàntica es realitzen en branques separades — una afirmació ontològica molt més radical. El Nivell I és quasi conseqüència de la cosmologia estàndard; els Molts Mons és una elecció interpretativa específica.",
+          "feedbackWrong": "Hi ha diferències importants. El multivers de Nivell I és gairebé inevitable si acceptem la inflació còsmica i un univers suficientment gran — és simplement espai que no podem observar per limitació de l'horitzó, no una hipòtesi addicional. La interpretació de Molts Mons requereix acceptar que l'equació de Schrödinger s'aplica universalment i que tots els resultats possibles es realitzen — una afirmació ontològica substantiva."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tel-05-01",
+          "question": "El principi antròpic —observem les constants físiques que observem perquè d'altres valors no permetrien la nostra existència— és una explicació científica satisfactòria?",
+          "options": [
+            "Sí: és una explicació vàlida del perquè les constants tenen els valors que observem",
+            "No: no és una explicació causal, sinó una tautologia disfressada de lògica — clar que observem constants compatibles amb la nostra existència",
+            "Parcialment: el principi antròpic és una restricció legítima però no una explicació completa; cal un mecanisme que generi la diversitat de constants sobre la qual selecciona"
+          ],
+          "correct": 2,
+          "explanation": "El principi antròpic és legítim com a restricció: entre tots els universos possibles, nosaltres necessàriament observem un que permet la nostra existència. Però com a explicació té un buit important: per funcionar com a selecció, requereix que existeixin realment molts universos amb constants diferents (el multivers). Sense aquella diversitat real, dir «estem aquí perquè les constants permeten la nostra existència» és circular — no explica per qué les constants son el que son, simplement nota que ho han de ser donada la nostra existència. L'analogia de Carter: si pregunto per qué vaig néixer en un hospital amb bona assistència sanitaria, la resposta antròpica seria «perquè si no, no hauries sobreviscut per fer la pregunta». Cert, però no explica per qué l'hospital existia. Explicació completa requeriria un mecanisme generador de diversitat (molts universos) i la selecció antròpica. Amb el mecanisme, el principi antròpic és útil. Sense ell, és tautologia."
+        }
+      ]
+    },
+    {
+      "id": "tel-06",
+      "title": "Els límits del coneixement: el que la física mai podrà dir",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hi ha una tradició en divulgació científica de presentar la ciència com una empresa que avanç inexorablement cap a la resposta de totes les preguntes — l'equació del tot, la teoria final, el moment en qué ho sabrem tot. Aquesta visió és, en el millor dels casos, ingènua. En el pitjor, és deshonesta. La física ha descobert al llarg del segle XX que hi ha límits fonamentals al que pot conèixer — no per manca d'instruments, sinó per la naturalesa mateixa de la realitat i de les teories que la descriuen."
+        },
+        {
+          "type": "key-idea",
+          "text": "Hi ha almenys tres tipus de límits fonamentals al coneixement físic: els límits observacionals (l'horitzó còsmic, les regions dins dels forats negres), els límits de principi (el principi d'incertesa de Heisenberg, la no-localitat quàntica), i els límits de consistència (el teorema de Gödel aplicat als sistemes formals, la impossibilitat de verificar la teoria completa des de dins). Reconèixer els límits no és derrotisme — és hontestat intel·lectual."
+        },
+        {
+          "type": "expandable",
+          "label": "Gödel i la física: pot la física ser completa?",
+          "content": "El 1931, Kurt Gödel va demostrar que qualsevol sistema formal suficientment potent per contenir l'aritmètica conté afirmacions que no es poden demostrar ni refutar des de dins del sistema. La física és, en un sentit, un sistema formal: un conjunt d'axiomes (lleis) i regles d'inferència (matemàtiques) del qual se'n deriven prediccions. Si les lleis de la física es poden formular com a sistema formal (cosa que és debatuda), el teorema de Gödel implicaria que hi ha veritats físiques que no es poden derivar de cap conjunt finit de lleis, per complet que sembli. La majoria de físics creuen que Gödel no s'aplica directament a la física —les teories físiques no son sistemes formals en el sentit estricte de Gödel. Però la pregunta de si una «teoria del tot» pot ser realment completa no té resposta clara."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1927",
+              "title": "Principi d'incertesa de Heisenberg",
+              "text": "No es pot conèixer simultàniament la posició i el moment d'una partícula amb precisió arbitrària. Límit fonamental, no tecnològic."
+            },
+            {
+              "year": "1931",
+              "title": "Teorema d'incompletitud de Gödel",
+              "text": "Qualsevol sistema formal consistent i prou potent conté afirmacions indecidibles. Límit als sistemes formals."
+            },
+            {
+              "year": "1964",
+              "title": "Teorema de Bell",
+              "text": "Les correlacions quàntiques no es poden explicar per variables ocultes locals. Límit a les teories deterministes locals."
+            },
+            {
+              "year": "1998",
+              "title": "Horitzó còsmic accelerat",
+              "text": "L'expansió accelerada implica que regions de l'univers creuen l'horitzó i es tornen físicament inaccessibles per sempre."
+            },
+            {
+              "year": "Futur",
+              "title": "Límits de la gravetat quàntica",
+              "text": "L'escala de Planck podria ser un límit fonamental a la resolució espaciotemporal, no un límit tecnològic."
+            }
+          ]
+        },
+        {
+          "type": "misconception",
+          "belief": "Els límits del coneixement científic són sempre tecnològics: amb instruments millors, podríem conèixer qualsevol cosa.",
+          "reality": "Alguns límits són fonamentals i independents de la tecnologia. El principi d'incertesa de Heisenberg no és un límit dels instruments actuals — és una propietat de la naturalesa quàntica de la realitat. L'horitzó còsmic no és un límit dels telescopis — és una conseqüència geomètrica de l'expansió accelerada de l'espai-temps. Millorar els instruments no permet creuar aquests límits.",
+          "why": "La ciència ha superat tants límits tecnològics —telescopis, acceleradors, detectors— que tendim a pensar que tots els límits són tecnològics. Però el principi d'incertesa i l'horitzó còsmic son d'una categoria diferent."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-06-01",
+          "style": "multiple-choice",
+          "question": "El principi d'incertesa de Heisenberg estableix que no es pot conèixer simultàniament la posició i el moment d'una partícula. Quin és el significat físic correcte d'aquesta limitació?",
+          "options": [
+            "Que els instruments de mesura pertorben la partícula en mesurar-la, introduint error",
+            "Que la partícula no té posició ni moment definits simultàniament — no és una limitació del coneixement sinó de la realitat",
+            "Que la física clàssica és incorrecta per a partícules petites",
+            "Que les partícules es mouen massa ràpid per ser mesurades amb precisió"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte — i és la interpretació que molts ensenyen malament. El principi d'incertesa no diu que «no sabem» la posició i el moment simultàniament. Diu que la partícula no els «té» simultàniament en el sentit clàssic. És una propietat de la realitat quàntica, no una limitació dels aparells de mesura. Heisenberg va formular dues versions: la relació d'incertesa fonamental (propietat de la natura) i el microscopi de Heisenberg (pertorbació per mesura). La primera és fonamental; la segona és conseqüència. La confusió entre les dues ha persistit durant dècades.",
+          "feedbackWrong": "La pertorbació per mesura és un efecte real però secundari. El principi d'incertesa és més profund: la partícula quàntica no té posició i moment definits simultàniament. No és que no els coneguem — és que no existeixen com a valors definits al mateix temps. Quan es mesura la posició, la partícula adquireix una posició definida però el moment es torna indefinit, i viceversa. És una propietat de la realitat, no dels instruments."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tel-06-02",
+          "style": "true-false",
+          "question": "Una «teoria del tot» que unifiqués totes les forces i partícules de la física respondria totes les preguntes científiques fonamentals.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Una teoria del tot, si existís, descriuria les lleis fonamentals de la física en el seu rang complet de validesa. Però no respondria per qué existeixen aquelles lleis, ni per qué l'univers té les condicions inicials que té, ni preguntes que surten del marc de la física com ara la consciència o el significat. A més, el teorema de Gödel suggereix que qualsevol sistema formal prou potent conté afirmacions indecidibles. I la ciència en conjunt —biologia, química, ciències socials— té nivells d'organització emergents que no es redueixen simplement a les lleis fonamentals de la física.",
+          "feedbackWrong": "Una teoria del tot descriuria les lleis físiques fonamentals. Però no respondria per qué existeixen aquelles lleis, per qué les condicions inicials de l'univers eren les que eren, ni preguntes emergents de nivells d'organització superiors. La física reducionista té límits: que sapiguem les lleis fonamentals no implica que puguem deduir-ne tota la biologia, la consciència o la història."
+        },
+        {
+          "type": "reflection",
+          "question": "Hem recorregut cinc mòduls sobre el que no sabem de l'univers. Quina ignorància t'ha semblat més pertorbadora? Quina t'ha semblat més alliberadora?",
+          "prompt": "La ignorància pot ser font d'angoixa o de curiositat. On t'has trobat tu en aquest recorregut?"
+        },
+        {
+          "type": "connection",
+          "moduleRef": "L'origen i el destí de l'univers",
+          "moduleEmoji": "🌌",
+          "concept": "El temps de Planck i els límits del coneixement",
+          "text": "Vam començar aquesta sèrie amb la frontera dels 10⁻⁴³ segons — el moment zero del Big Bang on les equacions fallen. Hem acabat amb els límits fonamentals del coneixement físic. El fil que connecta tots els mòduls és el mateix: la física és una empresa extraordinàriament poderosa que opera en un rang de condicions molt gran, i als marges d'aquell rang — en els forats negres, en l'escala de Planck, en el moment zero — el mapa s'acaba. No perquè el territori no existeixi, sinó perquè les nostres eines actuals no hi arriben."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tel-06-01",
+          "question": "Si la física té límits fonamentals al seu coneixement, qué implica això per al projecte científic en el seu conjunt?",
+          "options": [
+            "Que la ciència és un projecte limitat i en algun punt s'haurà d'aturar",
+            "Res: els límits fonamentals estan tan lluny de la pràctica científica quotidiana que no afecten el projecte científic",
+            "Que la ciència és un projecte asimptòtic: s'apropa indefinidament a una comprensió completa sense assolir-la mai, i en el camí produeix coneixement enormement valuós"
+          ],
+          "correct": 2,
+          "explanation": "La metàfora asimptòtica és potser la més honesta. La ciència no té un final clar on «ho sabrà tot» — l'horitzó s'allunya a mesura que avancem, i cada descobriment revela noves preguntes. Però això no és una derrota: és la condició que fa possible el progrés. Si no hi hagués preguntes obertes, no hi hauria ciència activa. Els límits fonamentals — l'horitzó còsmic, el principi d'incertesa, els zeros de les equacions en condicions extremes — no aturen el projecte científic, el defineixen. La física ha passat de Aristòtil a la mecànica quàntica en 2.500 anys, i no hi ha cap raó per pensar que els propers 2.500 no produiran revisions igualment radicals. El que sí podem dir és que cada teoria nova ha hagut de ser compatible amb el que la teoria anterior explicava bé — Newton no va eliminar Kepler, Einstein no va eliminar Newton en el seu rang. Les teories futures hauran de ser compatibles amb la mecànica quàntica i la relativitat en els seus dominis. Però el que aportaran més lluny és, per definició, el que ara no podem imaginar."
+        }
+      ]
+    }
+  ]
+}
