@@ -67,6 +67,8 @@ const DEFAULT_STATE = {
   srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }
   srStreak: 0,           // Dies consecutius de sessió de repàs
   srLastReviewDate: null, // Data de l'última sessió (YYYY-MM-DD)
+  userProfile: null,     // { sessionTime: '5'|'15'|'30', level: 'new'|'some'|'experienced' }
+  fontSize: 'medium',   // 'small' | 'medium' | 'large'
   navigationState: {
     currentModuleId: null,
     currentItineraryId: null,
@@ -90,6 +92,8 @@ function mergeWithDefaults(saved) {
     srData:               saved.srData                 || DEFAULT_STATE.srData,
     srStreak:             saved.srStreak               ?? DEFAULT_STATE.srStreak,
     srLastReviewDate:     saved.srLastReviewDate        || DEFAULT_STATE.srLastReviewDate,
+    userProfile:          saved.userProfile             ?? DEFAULT_STATE.userProfile,
+    fontSize:             saved.fontSize                ?? DEFAULT_STATE.fontSize,
     navigationState: {
       ...DEFAULT_STATE.navigationState,
       ...(saved.navigationState || {})
@@ -214,6 +218,14 @@ export function useProgress() {
     }))
   }, [update])
 
+  const setUserProfile = useCallback((profile) => {
+    update(prev => ({ ...prev, userProfile: profile }))
+  }, [update])
+
+  const setFontSize = useCallback((size) => {
+    update(prev => ({ ...prev, fontSize: size }))
+  }, [update])
+
   const updateSrStreak = useCallback(() => {
     const today = new Date().toISOString().split('T')[0]
     update(prev => {
@@ -236,6 +248,6 @@ export function useProgress() {
     addXP, completeLesson, completeModule, completeItinerary,
     unlockModule, earnBadge, setNavigationState,
     isLessonCompleted, isItineraryCompleted, isModuleUnlocked, resetAll, repeatModule,
-    updateSrData, updateSrStreak
+    updateSrData, updateSrStreak, setUserProfile, setFontSize
   }
 }

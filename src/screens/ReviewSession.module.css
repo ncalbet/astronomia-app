@@ -64,6 +64,14 @@
   font-size: var(--text-xs);
   color: var(--color-text-faint);
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.quickLabel {
+  color: var(--color-success);
+  font-size: var(--text-sm);
 }
 
 /* Context del mòdul */

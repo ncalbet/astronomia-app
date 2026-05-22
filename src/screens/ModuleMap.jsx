@@ -213,6 +213,7 @@ function ModuleCard({ id, onSelect, onRepeat, loadingId, completedModules,
   const completed = completedModules.includes(id)
   const isLoading = loadingId === id
   const [confirmRepeat, setConfirmRepeat] = useState(false)
+  const minutes   = Math.round((MODULE_XP[id] || 200) / 20)
 
   const progress = useModuleProgress(id, completedLessons, isItineraryCompleted)
 
@@ -250,10 +251,15 @@ function ModuleCard({ id, onSelect, onRepeat, loadingId, completedModules,
         <div className={styles.moduleInfo}>
           <div className={styles.moduleName}>{meta.title}</div>
           <div className={styles.moduleMeta}>
-            {isLoading ? 'Carregant...'
-              : !unlocked ? 'Mòdul bloquejat'
-              : progress ? progress.label
-              : '...'}
+            <span>
+              {isLoading ? 'Carregant...'
+                : !unlocked ? 'Mòdul bloquejat'
+                : progress ? progress.label
+                : ''}
+            </span>
+            {unlocked && !isLoading && (
+              <span className={styles.readTime}>~{minutes}min</span>
+            )}
           </div>
         </div>
         {completed && !isLoading && <div className={styles.completedBadge}>✓</div>}

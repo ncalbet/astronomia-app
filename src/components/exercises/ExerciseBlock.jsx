@@ -84,17 +84,22 @@ export default function ExerciseBlock({ block, onAnswer, onSrUpdate }) {
         {options.map(({ value, label }) => {
           const isRight    = value === correctRef
           const isSelected = selected === value
+          const showCorrectIcon = showFeedback && isRight
+          const showWrongIcon   = showFeedback && isSelected && !isRight
           return (
             <button
               key={String(value)}
               className={`${styles.option}
-                ${answered && isRight ? styles.correct : ''}
-                ${answered && isSelected && !isRight ? styles.wrong : ''}`}
+                ${!showFeedback && isSelected ? styles.chosen : ''}
+                ${showCorrectIcon ? styles.correct : ''}
+                ${showWrongIcon   ? styles.wrong   : ''}`}
               onClick={() => handleAnswer(value)}
               disabled={answered}
-              aria-label={`Opció: ${label}${answered && isRight ? ' (correcta)' : answered && isSelected && !isRight ? ' (incorrecta)' : ''}`}
+              aria-label={`Opció: ${label}${showCorrectIcon ? ' (correcta)' : showWrongIcon ? ' (incorrecta)' : ''}`}
               aria-pressed={isSelected}
             >
+              {showCorrectIcon && <span className={styles.resultIcon} aria-hidden="true">✓</span>}
+              {showWrongIcon   && <span className={styles.resultIcon} aria-hidden="true">✗</span>}
               {label}
             </button>
           )
@@ -108,6 +113,12 @@ export default function ExerciseBlock({ block, onAnswer, onSrUpdate }) {
       {showFeedback && (
         <div className={`${styles.feedback} ${isCorrect(selected) ? styles.feedbackOk : styles.feedbackKo}`}>
           <XPToast amount={xpEarned} />
+          <div className={styles.feedbackStatus}>
+            <span className={styles.feedbackStatusIcon} aria-hidden="true">
+              {isCorrect(selected) ? '✓' : '✗'}
+            </span>
+            <span>{isCorrect(selected) ? 'Correcte' : 'No del tot'}</span>
+          </div>
           <p>
             {buildNarrativeFeedback(
               isCorrect(selected),
