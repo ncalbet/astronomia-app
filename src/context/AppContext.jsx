@@ -7,7 +7,7 @@
  *   - Flag de primera vegada (isFirstTime)
  */
 
-import { createContext, useContext, useState, useCallback } from 'react'
+import { createContext, useContext, useState, useCallback, useEffect } from 'react'
 import { useProgress } from '../hooks/useProgress'
 import { checkNewBadges } from '../engine/badgeEngine'
 import storage from '../storage/storageProvider'
@@ -43,6 +43,10 @@ export function AppProvider({ children }) {
   }, [progress.badges, progress.completedLessons, earnBadgeWithNotification])
 
   const clearPendingBadge = useCallback(() => setPendingBadge(null), [])
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-font-size', progress.fontSize || 'medium')
+  }, [progress.fontSize])
 
   return (
     <AppContext.Provider value={{

@@ -11,10 +11,50 @@
 
 .header { text-align: center; padding-top: var(--space-6); }
 
+.headerTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: var(--space-3);
+}
+
 .logo {
   font-size: 3rem;
-  margin-bottom: var(--space-3);
   filter: drop-shadow(0 0 20px rgba(76, 125, 255, 0.5));
+}
+
+.fontToggle {
+  position: absolute;
+  right: 0;
+  display: flex;
+  gap: 2px;
+  background: var(--color-surface-2);
+  border-radius: var(--radius-md);
+  padding: 3px;
+}
+
+.fontBtn {
+  background: none;
+  border: none;
+  color: var(--color-text-faint);
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  padding: 3px 5px;
+  line-height: 1;
+  transition: var(--transition);
+}
+
+.fontBtn:nth-child(1) { font-size: 0.65rem; }
+.fontBtn:nth-child(2) { font-size: 0.85rem; }
+.fontBtn:nth-child(3) { font-size: 1.05rem; }
+
+.fontBtn:hover { color: var(--color-text-dim); }
+
+.fontActive {
+  background: var(--color-surface);
+  color: var(--color-accent);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 
 .appName {
@@ -85,6 +125,125 @@
 }
 
 .xpHint { font-size: var(--text-xs); color: var(--color-text-faint); text-align: right; }
+
+/* Streak */
+.streakStrip {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.streakDone {
+  border-color: rgba(61, 220, 132, 0.3);
+  background: rgba(61, 220, 132, 0.05);
+}
+
+.streakPending {
+  border-color: rgba(245, 166, 35, 0.3);
+  background: rgba(245, 166, 35, 0.05);
+}
+
+.streakEmpty {
+  border-color: var(--color-border);
+  background: var(--color-surface);
+}
+
+.streakFire { font-size: var(--text-lg); line-height: 1; }
+
+.streakCount {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  color: var(--color-warning);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.streakLabel {
+  font-size: var(--text-sm);
+  color: var(--color-text-dim);
+}
+
+.streakDone .streakLabel { color: var(--color-success); }
+.streakPending .streakLabel { color: var(--color-warning); }
+
+/* Descoberta del dia */
+.discoveryCard {
+  width: 100%;
+  background: var(--color-surface);
+  border: 1px solid rgba(76, 125, 255, 0.2);
+  border-radius: var(--radius-xl);
+  padding: var(--space-4) var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.discoveryLabel {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-accent);
+}
+
+.discoveryBody {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+}
+
+.discoveryEmoji {
+  font-size: 2rem;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 2px;
+}
+
+.discoveryInfo { flex: 1; min-width: 0; }
+
+.discoveryTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+
+.discoveryDesc {
+  font-size: var(--text-xs);
+  color: var(--color-text-dim);
+  line-height: 1.5;
+  margin-bottom: var(--space-1);
+}
+
+.discoveryCount {
+  font-size: 10px;
+  color: var(--color-text-faint);
+}
+
+.discoveryBtn {
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  background: rgba(76, 125, 255, 0.1);
+  color: var(--color-accent);
+  border: 1px solid rgba(76, 125, 255, 0.25);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.discoveryBtn:hover {
+  background: rgba(76, 125, 255, 0.18);
+  border-color: var(--color-accent);
+}
 
 /* Botons */
 .actions { width: 100%; display: flex; flex-direction: column; gap: var(--space-3); }
@@ -264,6 +423,105 @@
 }
 
 .badgePopupClose:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+/* Botó sessió ràpida */
+.btnQuick {
+  background: linear-gradient(135deg, rgba(61,220,132,0.12), rgba(61,220,132,0.04));
+  color: var(--color-success);
+  border: 1px solid rgba(61, 220, 132, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+}
+.btnQuick:hover {
+  background: rgba(61,220,132,0.18);
+  border-color: var(--color-success);
+  transform: translateY(-1px);
+}
+
+/* Rutes d'aprenentatge */
+.pathsSection { width: 100%; }
+
+.pathsHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--space-3);
+}
+
+.pathsScroll {
+  display: flex;
+  gap: var(--space-3);
+  overflow-x: auto;
+  padding-bottom: var(--space-2);
+  /* oculta scrollbar visualment però manté funcionalitat */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.pathsScroll::-webkit-scrollbar { display: none; }
+
+.pathCard {
+  flex-shrink: 0;
+  width: 148px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4) var(--space-3);
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: left;
+}
+
+.pathCard:hover {
+  border-color: var(--path-accent, var(--color-accent));
+  box-shadow: 0 0 0 1px var(--path-accent, var(--color-accent));
+  transform: translateY(-2px);
+}
+
+.pathEmoji {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.pathTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  color: var(--color-text);
+  line-height: 1.3;
+}
+
+.pathProgress {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+  margin-top: auto;
+}
+
+.pathTrack {
+  flex: 1;
+  height: 3px;
+  background: var(--color-surface-2);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.pathFill {
+  height: 100%;
+  background: var(--path-accent, var(--color-accent));
+  border-radius: var(--radius-full);
+  transition: width 0.5s ease;
+}
+
+.pathCount {
+  font-size: 10px;
+  color: var(--color-text-faint);
+  white-space: nowrap;
+}
 
 /* Botó de repàs diari */
 .btnReview {

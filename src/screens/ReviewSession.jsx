@@ -8,7 +8,7 @@
  */
 
 import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
 import { MODULE_REGISTRY, loadModule } from '../data/moduleRegistry'
@@ -17,12 +17,17 @@ import ExerciseBlock from '../components/exercises/ExerciseBlock'
 import { calculateNextReview, computeQuality } from '../engine/spacedRepetitionEngine'
 import styles from './ReviewSession.module.css'
 
+const QUICK_LIMIT = 5
+
 export default function ReviewSession() {
   const navigate  = useNavigate()
+  const [searchParams] = useSearchParams()
+  const isQuick = searchParams.get('quick') === '1'
+
   const { srData, updateSrData, updateSrStreak, addXP, checkBadges } = useApp()
   const { theme } = useTheme()
 
-  const [dueBlocks, setDueBlocks]   = useState([])  // { block, moduleTitle }
+  const [dueBlocks, setDueBlocks]   = useState([])
   const [current, setCurrent]       = useState(0)
   const [loading, setLoading]       = useState(true)
   const [done, setDone]             = useState(false)
@@ -49,9 +54,9 @@ export default function ReviewSession() {
             })
           })
         })
-        // Barreja aleatòria
+        // Barreja aleatòria i límit si mode ràpid
         found.sort(() => Math.random() - 0.5)
-        setDueBlocks(found)
+        setDueBlocks(isQuick ? found.slice(0, QUICK_LIMIT) : found)
         setLoading(false)
       })
   }, [])
@@ -123,7 +128,10 @@ export default function ReviewSession() {
             style={{ width: `${(current / dueBlocks.length) * 100}%` }}
           />
         </div>
-        <span className={styles.counter}>{current + 1}/{dueBlocks.length}</span>
+        <span className={styles.counter}>
+          {isQuick && <span className={styles.quickLabel}>⚡</span>}
+          {current + 1}/{dueBlocks.length}
+        </span>
       </header>
 
       <div className={styles.context}>

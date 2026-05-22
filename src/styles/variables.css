@@ -66,3 +66,25 @@
   /* Transicions */
   --transition: 200ms ease;
 }
+
+/* Mida de text: small */
+:root[data-font-size="small"] {
+  --text-xs:   0.688rem;
+  --text-sm:   0.8rem;
+  --text-base: 0.9rem;
+  --text-lg:   1rem;
+  --text-xl:   1.2rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.9rem;
+}
+
+/* Mida de text: large */
+:root[data-font-size="large"] {
+  --text-xs:   0.813rem;
+  --text-sm:   0.969rem;
+  --text-base: 1.125rem;
+  --text-lg:   1.3rem;
+  --text-xl:   1.563rem;
+  --text-2xl:  2rem;
+  --text-3xl:  2.625rem;
+}

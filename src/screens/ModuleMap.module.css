@@ -34,6 +34,71 @@
   margin: 0;
 }
 
+/* Cerca */
+.searchRow {
+  margin-bottom: var(--space-6);
+}
+
+.searchWrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: var(--space-2) var(--space-4);
+  transition: border-color var(--transition);
+}
+
+.searchWrapper:focus-within {
+  border-color: var(--color-accent);
+}
+
+.searchIcon {
+  font-size: var(--text-sm);
+  flex-shrink: 0;
+}
+
+.searchInput {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  min-width: 0;
+}
+
+.searchInput::placeholder {
+  color: var(--color-text-faint);
+}
+
+/* Oculta el botó natiu de netejar d'alguns navegadors */
+.searchInput::-webkit-search-cancel-button { display: none; }
+
+.searchClear {
+  background: none;
+  border: none;
+  color: var(--color-text-faint);
+  font-size: var(--text-sm);
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.searchClear:hover {
+  color: var(--color-text);
+}
+
+.noResults {
+  color: var(--color-text-faint);
+  font-size: var(--text-sm);
+  text-align: center;
+  padding: var(--space-10) 0;
+}
+
 .moduleList {
   display: flex;
   flex-direction: column;
@@ -93,13 +158,6 @@
   border-color: var(--color-success);
 }
 
-/* Fila principal: emoji + info + badge */
-.cardMain {
-  display: flex;
-  align-items: center;
-  gap: var(--space-4);
-}
-
 .moduleEmoji {
   font-size: 2rem;
   flex-shrink: 0;
@@ -126,6 +184,20 @@
 .moduleMeta {
   font-size: var(--text-xs);
   color: var(--color-text-dim);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.readTime {
+  font-size: 10px;
+  color: var(--color-text-faint);
+  background: var(--color-surface-2);
+  border-radius: var(--radius-full);
+  padding: 1px var(--space-2);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .completedBadge {
@@ -250,7 +322,7 @@
 }
 .confirmNo:hover { border-color: var(--color-accent); color: var(--color-accent); }
 
-/* Canvi: card ara és div, el botó principal és cardMain */
+/* Fila principal: emoji + info + badge */
 .cardMain {
   display: flex;
   align-items: center;
