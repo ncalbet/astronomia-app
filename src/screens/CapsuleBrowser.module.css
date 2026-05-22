@@ -1,0 +1,75 @@
+.screen {
+  min-height: 100dvh;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-5) var(--space-10);
+}
+
+.header { margin-bottom: var(--space-6); }
+
+.back {
+  background: none; border: none;
+  color: var(--color-accent);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  cursor: pointer; padding: 0;
+  margin-bottom: var(--space-4); display: block;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+
+.subtitle { font-size: var(--text-sm); color: var(--color-text-dim); margin: 0; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  cursor: pointer;
+  text-align: left;
+  transition: var(--transition);
+  display: flex; flex-direction: column; gap: var(--space-2);
+}
+
+.card:hover {
+  border-color: var(--cap-color, var(--color-accent));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+}
+
+.cardTop {
+  display: flex; justify-content: space-between; align-items: center;
+}
+
+.cardEmoji { font-size: 1.6rem; line-height: 1; }
+
+.durationTag {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cardTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  color: var(--color-text);
+  line-height: 1.35;
+  flex: 1;
+}
+
+.cardArea {
+  font-size: 10px;
+  line-height: 1;
+}

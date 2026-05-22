@@ -440,6 +440,66 @@
   transform: translateY(-1px);
 }
 
+/* Càpsula del dia */
+.capsuleCard {
+  width: 100%;
+  background: linear-gradient(135deg, rgba(76,125,255,0.1), rgba(76,125,255,0.03));
+  border: 1px solid rgba(76,125,255,0.25);
+  border-radius: var(--radius-xl);
+  padding: var(--space-4) var(--space-5);
+  display: flex; flex-direction: column; gap: var(--space-3);
+}
+
+.capsuleLabel {
+  font-size: 10px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--color-accent);
+}
+
+.capsuleBody {
+  display: flex; align-items: center; gap: var(--space-3);
+}
+
+.capsuleEmoji { font-size: 2rem; flex-shrink: 0; line-height: 1; }
+
+.capsuleInfo { flex: 1; min-width: 0; }
+
+.capsuleTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: 1.35;
+}
+
+.capsuleActions {
+  display: flex; gap: var(--space-2);
+}
+
+.capsuleBtn {
+  flex: 1;
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-accent);
+  color: white; border: none;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--text-sm); font-weight: 600;
+  cursor: pointer; transition: var(--transition);
+}
+.capsuleBtn:hover { background: #6a95ff; }
+
+.capsuleAll {
+  padding: var(--space-2) var(--space-3);
+  background: none;
+  border: 1px solid rgba(76,125,255,0.3);
+  color: var(--color-accent);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--text-xs); font-weight: 600;
+  cursor: pointer; transition: var(--transition);
+  white-space: nowrap;
+}
+.capsuleAll:hover { background: rgba(76,125,255,0.08); }
+
 /* Rutes d'aprenentatge */
 .pathsSection { width: 100%; }
 

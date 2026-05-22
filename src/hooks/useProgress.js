@@ -75,6 +75,8 @@ const DEFAULT_STATE = {
     currentLessonId: null,
     currentStep: 0,
     currentAreaId: null,
+    currentPathId: null,
+    currentCapsuleId: null,
   }
 }
 

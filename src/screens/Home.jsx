@@ -7,6 +7,7 @@ import { BADGES } from '../engine/badgeEngine'
 import { countDueToday } from '../engine/spacedRepetitionEngine'
 import { AREAS, getAreaModules } from '../data/areaRegistry'
 import { LEARNING_PATHS } from '../data/learningPaths'
+import { getDailyCapsule } from '../data/microcapsules'
 import styles from './Home.module.css'
 
 function getDailyArea(unlockedModules, completedModules) {
@@ -62,9 +63,11 @@ export default function Home() {
   const hasActiveSession = navigationState.currentModuleId !== null
 
   const pathsWithProgress = LEARNING_PATHS.map(path => {
-    const done = path.moduleIds.filter(id => completedModules.includes(id)).length
-    return { path, done, total: path.moduleIds.length }
+    const done = path.modules.filter(m => completedModules.includes(m.id)).length
+    return { path, done, total: path.modules.length }
   })
+
+  const dailyCapsule = getDailyCapsule()
 
   return (
     <div className={styles.screen}>
@@ -150,9 +153,40 @@ export default function Home() {
         </div>
       )}
 
+      {/* Càpsula del dia */}
+      {dailyCapsule && (
+        <div className={styles.capsuleCard}>
+          <div className={styles.capsuleLabel}>⚡ Càpsula del dia · {dailyCapsule.duration} min</div>
+          <div className={styles.capsuleBody}>
+            <span className={styles.capsuleEmoji}>{dailyCapsule.emoji}</span>
+            <div className={styles.capsuleInfo}>
+              <div className={styles.capsuleTitle}>{dailyCapsule.title}</div>
+            </div>
+          </div>
+          <div className={styles.capsuleActions}>
+            <button
+              className={styles.capsuleBtn}
+              onClick={() => {
+                setNavigationState({ currentCapsuleId: dailyCapsule.id })
+                navigate('/capsule')
+              }}
+            >
+              Comença →
+            </button>
+            <button
+              className={styles.capsuleAll}
+              onClick={() => navigate('/capsules')}
+            >
+              Totes les càpsules
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Itineraris d'aprenentatge */}
       <div className={styles.pathsSection}>
         <div className={styles.pathsHeader}>
-          <h3 className={styles.sectionTitle}>Rutes d'aprenentatge</h3>
+          <h3 className={styles.sectionTitle}>Itineraris</h3>
         </div>
         <div className={styles.pathsScroll}>
           {pathsWithProgress.map(({ path, done, total }) => {
@@ -163,8 +197,8 @@ export default function Home() {
                 className={styles.pathCard}
                 style={{ '--path-accent': path.accentColor }}
                 onClick={() => {
-                  setNavigationState({ currentAreaId: path.areaId })
-                  navigate('/modules')
+                  setNavigationState({ currentPathId: path.id })
+                  navigate('/path')
                 }}
               >
                 <span className={styles.pathEmoji}>{path.emoji}</span>
