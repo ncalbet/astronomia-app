@@ -1,0 +1,449 @@
+{
+  "id": "module-14-obediencia",
+  "title": "Un experiment, sis preguntes",
+  "emoji": "⚡",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "mil-01",
+      "title": "Què va passar? (El cas)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Aquest mòdul funciona diferent de qualsevol altre.\n\nTot el mòdul gira al voltant d'un sol cas: l'experiment de Stanley Milgram sobre obediència a l'autoritat, dut a terme a la Universitat Yale entre 1961 i 1963.\n\nCada lliçó fa una sola pregunta sobre el mateix cas. Primera lliçó: «Què va passar?». Segona: «Per qué va passar?». Tercera: «Qui en tenia raó?». Quarta: «Podem creure'ns les dades?». Cinquena: «Té implicacions per a tu?». Sisena: «Canviaria alguna cosa avui?».\n\nSis preguntes, un cas. Quan acabis, hauràs après psicologia social, filosofia de la ciència, ètica de la recerca, neurociència de l'obediència i política — tot a partir del mateix punt de partida.\n\nComencem pel principi: què va passar exactament."
+        },
+        {
+          "type": "key-idea",
+          "text": "Milgram va demostrar que el 65% d'adults ordinaris administrarien descàrregues elèctriques potencialment letals a una persona innocent si una figura d'autoritat els ho demanava en el context d'un experiment científic aparentment legítim."
+        },
+        {
+          "type": "expandable",
+          "label": "El protocol complet: el que la majoria de la gent no sap de l'experiment",
+          "content": "L'experiment de Milgram té molts detalls que la versió divulgativa simplifica:\n\n**Els participants**: eren homes adults (18-50 anys) recrutats per anunci al diari de New Haven, Connecticut. Cobraven 4,5 dòlars per participar (valor significatiu el 1961). Eren comptables, enginyers, obrers, venedors — no estudiants universitaris.\n\n**El disseny**: al laboratori hi havia dues persones: el «professor» (participant real) i l'«alumne» (actor). Un sorteig rigged assignava sempre el participant real al rol de professor. L'alumne era lligat a una cadira en una altra sala, amb elèctrodes visibles al canell.\n\n**El mecanisme**: el professor llegia parelles de paraules. Quan l'alumne s'equivocava, el professor havia d'aplicar una descàrrega que augmentava 15 volts cada vegada, des de 15 fins a 450 volts. Les etiquetes anaven de «Lleu» a «Perill: Shock Sever XXX».\n\n**Les respostes de l'alumne**: estaven pregravades i seguien un guió: a 75 volts, gemecs lleugers; a 150 volts, «Deixeu-me sortir d'aquí!»; a 180 volts, «No puc suportar el dolor!»; a 300 volts, silenci complet.\n\n**Les frases de l'investigador**: si el participant hesitava, l'investigador deia exactament (en ordre): «Si us plau, continueu» / «L'experiment requereix que continueu» / «És absolutament essencial que continueu» / «No teniu cap altra opció; heu de continuar». Si el participant continuava negant-se a la quarta frase, l'experiment s'aturava.\n\n**El resultat**: de 40 participants en la condició estàndard, 26 (65%) van arribar als 450 volts. Cap va aturar-se per sota de 300 volts."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1961",
+              "title": "Inici dels experiments (agost)",
+              "text": "Milgram comença les proves a Yale. El judici d'Adolf Eichmann a Jerusalem és aquell mateix any — la connexió no és casual."
+            },
+            {
+              "year": "1963",
+              "title": "Primera publicació dels resultats",
+              "text": "Journal of Abnormal and Social Psychology. La recepció acadèmica és polaritzada."
+            },
+            {
+              "year": "1963",
+              "title": "Diana Baumrind publica la primera crítica ètica",
+              "text": "Argumenta que Milgram va causar dany psicològic als participants sense justificació suficient."
+            },
+            {
+              "year": "1974",
+              "title": "Obedience to Authority: publicació del llibre",
+              "text": "Milgram presenta tots els resultats i la seva teoria de l'«estat agèntic». El llibre fa de l'experiment un referent cultural."
+            },
+            {
+              "year": "2009",
+              "title": "Burger replica l'experiment (versió reduïda)",
+              "text": "Arriba al 70% d'obediència fins al punt d'aturada autoritzat. Els resultats no han canviat significativament en 50 anys."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-01-01",
+          "style": "multiple-choice",
+          "question": "En l'experiment de Milgram, quan l'alumne (actor) deixava de respondre completament a partir de les 300 volts, com reaccionava la majoria de participants?",
+          "options": [
+            "Aturaven l'experiment per preocupació per l'estat de l'alumne",
+            "Continuaven però preguntaven a l'investigador si l'alumne estava bé",
+            "Tractaven el silenci com una resposta incorrecta i continuaven administrant descàrregues",
+            "Demanaven que l'investigador comprovés l'estat de l'alumne abans de continuar"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte — i és un dels detalls més pertorbadors del protocol. Quan l'alumne deixava de respondre, l'investigador indicava als participants que tractessin el silenci com una resposta incorrecta i continuessin. La majoria ho feia. El silenci que podia indicar incapacitat, desmai o mort era integrat en el protocol de l'experiment com si fos simplement una equivocació. Molts participants pregunten «està bé?» però quan l'investigador diu «continueu», la majoria continuen.",
+          "feedbackWrong": "La instrucció de l'investigador era tractar el silenci com una resposta incorrecta i continuar. La majoria dels participants ho feia, malgrat que el silenci a aquell nivell de descàrrega podia indicar incapacitació o pitjor. Alguns preguntaven per l'estat de l'alumne, però quan l'investigador deia «continueu», la majoria continuaven."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-01-02",
+          "style": "true-false",
+          "question": "En l'experiment de Milgram, els participants que s'aturaven ho feien principalment perquè creien que les descàrregues eren falses.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Les entrevistes post-experiment mostren que la majoria de participants —tant els que van continuar com els que van aturar-se— creien que les descàrregues eren reals. De fet, la credibilitat de la situació era un dels aspectes que Milgram havia dissenyat acuradament: els participants rebien una descàrrega real de 45 volts al principi per demostrar que el generador funcionava. Els que s'aturaven ho feien malgrat creure (no perquè dubtessin) en la realitat de les descàrregues.",
+          "feedbackWrong": "La majoria de participants creien que les descàrregues eren reals — tant els que van continuar com els que van aturar-se. Milgram havia dissenyat la situació per ser creïble: els participants rebien una descàrrega real de 45 volts al principi. Els que desobeïen ho feien precisament perquè creien estar causant dany real a una persona real."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mil-01-01",
+          "question": "Milgram va dissenyar l'experiment parcialment motivat pel judici d'Adolf Eichmann a Jerusalem el 1961. La pregunta que li obsessionava era: «Podrien germans ordinaris haver obeït les ordres de l'Holocaust?». Creus que el seu experiment respon aquesta pregunta?",
+          "options": [
+            "Sí: l'experiment demostra que persones ordinàries de qualsevol cultura poden obeir ordres que causen dany sota pressió d'autoritat",
+            "No: l'Holocaust implicava violència directa, deshumanització sistemàtica i un context ideològic que l'experiment de laboratori no reprodueix",
+            "Parcialment: l'experiment il·lustra un mecanisme (obediència a l'autoritat) que és rellevant per entendre l'Holocaust, però no és un model complet del fenomen"
+          ],
+          "correct": 2,
+          "explanation": "La connexió entre Milgram i l'Holocaust és intel·lectualment potent però metodològicament problemàtica. El que l'experiment demostra és que persones ordinàries poden obeir instruccions que causen dany quan una autoritat legítima els ho demana en un context estructurat. Això és rellevant per entendre com persones ordinàries participen en atrocitats. Però l'Holocaust implicava elements que l'experiment no tenia: ideologia antisemita profundament arrelada, deshumanització sistemàtica de les víctimes durant anys, pressió de grup dels iguals (no únicament de l'autoritat), amenaces reals per a qui no obeïa, i una escala temporal de mesos i anys (no minuts). Hannah Arendt va encunyar la «banalitat del mal» sobre Eichmann —però investigadors posteriors (Bettina Stangneth) han argumentat que Eichmann no era un buròcrata passiu sinó un ideòleg actiu. L'experiment de Milgram il·lumina una part del fenomen; no l'explica tot."
+        }
+      ]
+    },
+    {
+      "id": "mil-02",
+      "title": "Per qué va passar? (El mecanisme)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Ja sabem el que va passar. Ara la pregunta és: per qué?\n\nMilgram tenia la seva teoria: l'«estat agèntic». Però en cinquanta anys de debat acadèmic, han sorgit explicacions alternatives que la refuten parcialment, la complementen o la substitueixen. Aquesta lliçó presenta el debat real — no la versió simplificada."
+        },
+        {
+          "type": "key-idea",
+          "text": "Milgram va proposar que els participants entraven en un «estat agèntic»: es percebien com a instruments d'una autoritat legítima, no com a agents morals autònoms. En aquell estat, la responsabilitat es trasllada a l'autoritat i el judici moral es suspèn. Però aquesta explicació, tot i ser influent, ha estat significativament qüestionada."
+        },
+        {
+          "type": "comparison",
+          "title": "Explicacions del comportament a l'experiment de Milgram",
+          "labelA": "Teoria original de Milgram",
+          "labelB": "Teories alternatives o complementàries",
+          "items": [
+            {
+              "label": "Mecanisme principal",
+              "a": "Estat agèntic: transferència de responsabilitat a l'autoritat, suspensió del judici moral",
+              "b": "Identificació amb el projecte científic, pressió d'escalada gradual, ansietat social, variació individual en valors"
+            },
+            {
+              "label": "Rol de l'autoritat",
+              "a": "Central: la bata blanca i el context universitari legitimen les ordres",
+              "b": "Important però no suficient: molts factors situacionals redueixen o augmenten l'obediència independentment de l'autoritat"
+            },
+            {
+              "label": "Estat intern del participant",
+              "a": "Passiu: el participant segueix ordres sense deliberació moral",
+              "b": "Actiu: molts participants s'identifiquen genuïnament amb l'objectiu «científic» i prenen decisions actives de continuar"
+            },
+            {
+              "label": "Implicació per al canvi",
+              "a": "Cal reduir la jerarquia i l'autoritat per prevenir obediència destructiva",
+              "b": "Cal canviar la identificació amb objectius, enfortir el suport social i crear moments de ruptura de l'escalada"
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "L'argument de Haslam i Reicher: els participants no eren passius",
+          "content": "Alex Haslam i Stephen Reicher, investigadors de la Universitat d'Exeter, van publicar el 2017 una reinterpretació dels arxius originals de Milgram (gravacions en àudio, notes de camp, cartes) i van arribar a una conclusió pertorbadora: la teoria de l'estat agèntic és incorrecta.\n\nEls participants de Milgram, argumenten, no eren passius ni moral ment suspesos. Les transcripcions mostren participants que deliberen activament, fan preguntes, negocien, expressen preocupació —i en molts casos continuen precisament perquè creuen activament que contribuir a la ciència és important i que el dany temporal a l'alumne és justificat pel benefici del coneixement.\n\nNo obeïen cegament. Actuaven com a agents morals que havien adoptat els valors del projecte científic com a propis.\n\nAixò fa el fenomen més inquietant, no menys: el problema no és que les persones deixin de pensar moralment. És que pensen moralment però adopten marcs que justifiquen el dany. Les atrocitats no les cometen persones que han suspès el judici moral —les cometen persones que creuen tenir raons morals per fer el que fan."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-02-01",
+          "style": "multiple-choice",
+          "question": "En les condicions experimentals on l'obediència es reduïa dràsticament (fins al 10-20%), quin era el factor comú?",
+          "options": [
+            "L'investigador era una dona en lloc d'un home",
+            "L'experiment es feia fora del campus universitari de Yale",
+            "Dos altres participants (confederats) es negaven obertament a continuar davant del participant real",
+            "L'alumne era visible a la mateixa sala que el participant"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. Quan dos confederats es negaven a continuar davant del participant real, l'obediència queia al voltant del 10%. Aquella variació va ser per a Milgram una de les troballes més importants: la pressió de grup dels iguals és molt més potent que l'autoritat de l'expert per trencar l'obediència. Un sol dissidents valent que diu «jo no faré això» activa la possibilitat de resistència en d'altres. La implicació pràctica és directa: en situacions de pressió institucional, el suport social per desobeir és el factor protector més poderós.",
+          "feedbackWrong": "La condició que reduïa l'obediència de forma més dràstica era la presència de dos confederats que es negaven obertament (opció C). Aquell resultat va sorprendre Milgram: la pressió dels iguals era molt més poderosa que qualsevol canvi de context per trencar l'obediència. La visibilitat de l'alumne (opció D) sí reduïa l'obediència però no tant —al voltant del 40%. La ubicació fora de Yale (opció B) la reduïa al 47%."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-02-02",
+          "style": "detect-error",
+          "statement": "L'experiment de Milgram demostra que la causa principal de l'obediència destructiva és la jerarquia i l'autoritat: si les societats fossin més igualitàries, la gent no obeïria ordres danyoses.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació sobresimplifica les causes i la solució. Primer, l'escalada gradual és un factor independent de l'autoritat: els participants havien acceptat una primera petició innocent (15 volts) i cada pas següent era petit. La psicologia del compromís progressiu opera independentment de la jerarquia. Segon, la identificació amb el projecte (creure en la importància de la ciència) és un factor autònom. Tercer, les societats més igualitàries mostren obediència destructiva quan és als valors del col·lectiu en lloc dels de l'autoritat: les violències de massa de la Revolució Cultural xinesa o dels Kmers Rojos, sistemes formalment igualitaris, mostren obediència massiva a normes de grup. La jerarquia és un factor important però no l'únic mecanisme d'obediència destructiva."
+        },
+        {
+          "type": "misconception",
+          "belief": "L'escalada gradual de l'experiment de Milgram és un artifici de laboratori. En situacions reals, les persones reconeixerien el punt on creuarien una línia moral i s'aturaria.",
+          "reality": "L'escalada gradual és precisament el mecanisme que opera en moltes situacions reals de complicitat en danys: la corrupció que comença amb una petita irregularitat i s'incrementa gradualment, l'assetjament que comença amb comentaris i escala, la participació en injustícies institucionals que s'incorporen com a norma de forma progressiva. Cada pas és petit. Aturar-se en qualsevol punt requereix contradir la decisió del pas anterior.",
+          "why": "Creiem que reconeixeríem una «línia roja» clara perquè pensem en les línies morals com a absolutes i visibles. Però la majoria de línies morals no es creuen d'un salt — es creuen en molts passos petits, cadascun dels quals sembla una extensió raonable del pas anterior."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mil-02-01",
+          "question": "Si els participants de Milgram no estaven «moralment suspesos» sinó adoptant activament el marc de valors de la ciència per justificar el dany, quina és la implicació per a la prevenció de comportaments danyosos en organitzacions?",
+          "options": [
+            "Cal reduir la jerarquia i l'autoritat formal per eliminar la pressió d'obediència",
+            "Cal crear mecanismes que forçin la perspectiva de la víctima i trenquin la identificació exclusiva amb els objectius de l'organització",
+            "Cal seleccionar persones amb major resistència a la pressió social per als rols de decisió"
+          ],
+          "correct": 1,
+          "explanation": "Si el problema no és l'obediència passiva sinó l'adhesió activa a valors organitzatius que desplacen la consideració del dany causat, la solució no és reduir l'autoritat (que ataca un factor secundari) sinó crear mecanismes que mantinguin visible la perspectiva de les persones afectades. Alguns exemples d'aplicació pràctica: designació d'un «advocat del diable» en comitès de decisió, requeriment de considerar explícitament l'impacte sobre tercers en qualsevol decisió significativa, protocols de denuncia protegida (whistleblowing) que facin visible la perspectiva de les víctimes potencials, i rotació de rols que exposi als decisors als efectes de les seves decisions. La selecció de personalitats «resistents» (opció C) ha mostrat efectes limitats: com hem vist, la situació domina sobre la personalitat en la majoria dels casos."
+        }
+      ]
+    },
+    {
+      "id": "mil-03",
+      "title": "Qui tenia raó? (El debat ètic)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Dues lliçons parlant d'un experiment com si el fet que s'hagués dut a terme fos obvi.\n\nNo ho és.\n\nL'experiment de Milgram és un dels casos de referència en bioètica de la recerca. Va enganyar els participants, els va causar estrès psicològic mesurable i va fer servir recursos de la Universitat Yale per dur a terme un estudi que mai hauria passat un comitè ètic modern.\n\nAquesta lliçó no explica resultats. Pregunta si estava bé fer l'experiment."
+        },
+        {
+          "type": "key-idea",
+          "text": "Tota recerca sobre comportament humà enfronta una tensió fonamental: la validesa ecològica (estudiar comportament real requereix situacions reals, que sovint impliquen engany o estrès) versus el respecte per l'autonomia i el benestar dels participants. No hi ha resposta que satisfaci els dos valors simultàniament."
+        },
+        {
+          "type": "expandable",
+          "label": "Diana Baumrind i el primer atac ètic: el 1964, un any després de la publicació",
+          "content": "Diana Baumrind va publicar el 1964 al American Psychologist una crítica frontal a l'experiment de Milgram, just un any després de la primera publicació dels resultats. Baumrind argumentava:\n\n1. Els participants van experimentar estrès intens i humiliació. El debriefing posterior (informar-los que les descàrregues eren falses) no elimina el dany psicològic d'haver descobert que ets capaç d'infligir dolor a una persona innocent.\n\n2. La confiança en els psicòlegs i en la ciència és un bé comú que els investigadors no poden dilapidar per obtenir dades. Enganyar participants erosiona la confiança general en els estudis científics.\n\n3. L'argument de «el coneixement científic és prou important per justificar el malestar dels participants» és una porta oberta a qualsevol abús.\n\nMilgram va respondre llargament: el debriefing va mostrar que el 84% de participants no es penedia d'haver participat i el 74% creia que havia après alguna cosa valuosa. Un seguiment un any després no va mostrar dany psicològic persistent. I el coneixement obtingut havia canviat la comprensió d'un fenomen amb implicacions per al genocidi, la tortura institucional i l'abús de poder.\n\nEls dos arguments continuen sent vàlids. El debat no s'ha tancat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-03-01",
+          "style": "multiple-choice",
+          "question": "El principi del «consentiment informat» en recerca humana exigeix que els participants sàpiguen i acceptin lliurement el que se'ls farà. Per qué l'experiment de Milgram viola aquest principi?",
+          "options": [
+            "Perquè els participants no eren adults competents per donar consentiment vàlid",
+            "Perquè els participants creien participar en un estudi d'aprenentatge, no en un estudi sobre obediència — i el que realment passava era incompatible amb allò a que havien consentit",
+            "Perquè no van signar cap document de consentiment formal",
+            "Perquè el consentiment va ser obtingut per un anunci de diari i no per canals oficials"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El consentiment informat no és un document — és un procés. Requereix que el participant sàpiga a que es compromet. Els participants de Milgram creien participar en un estudi d'aprenentatge i memòria. La realitat (un estudi sobre la disposició a causar dolor per obediència) era radicalment diferent i incompatible amb allò a que havien consentit. L'engany no és un detall tècnic — és el cor del problema ètic: si el participant hagués sabut la veritat, hauria actuat diferent (i el fenomen estudiat no s'hauria produït). El valor científic de l'experiment depèn precisament de la violació del consentiment.",
+          "feedbackWrong": "El problema central no és formal (documents, canals) sinó substantiu: el participant no sabia a que realment estava consentint. Creia participar en un estudi d'aprenentatge. La realitat —un estudi sobre la disposició a infligir dolor per obediència— era radicalment diferent. Si el participant hagués sabut la veritat, hauria actuat diferent; i per tant el valor científic de l'experiment depèn causalment de la violació del consentiment informat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-03-02",
+          "style": "detect-error",
+          "statement": "Milgram va realitzar un debriefing complet amb tots els participants, explicant-los l'engany i que les descàrregues eren falses. Aquell debriefing elimina el dany psicològic perquè restaura la veritat i permet processar l'experiència.",
+          "isCorrect": false,
+          "feedbackExplanation": "El debriefing redueix el dany però no l'elimina. El problema psicològic principal no és l'engany sobre les descàrregues — és el descobriment que tu, una persona normal i bona, vas estar disposat a infligir dolor a una persona innocent. Saber que les descàrregues eren falses no canvia el que el participant va fer ni la informació que aquell comportament li dóna sobre ell mateix. Baumrind va argumentar que aquell descobriment —«sóc el tipus de persona que hauria continuat»— és en si un dany psicològic que el debriefing no pot reparar. El seguiment de Milgram (84% sense penediment) és rellevant però no decisiu: les persones sovint no reconeixen o reporten dany psicològic, especialment quan el reconèixer-lo implicaria admetre que van actuar malament."
+        },
+        {
+          "type": "debate",
+          "question": "Hauria de continuar fent-se recerca psicològica que requereixi engany als participants, si no hi ha alternativa metodològica i el coneixement obtingut és genuïnament important?",
+          "positionA": {
+            "label": "Sí — l'engany és acceptable sota condicions estrictes",
+            "argument": "Molts fenòmens psicològics importants (obediència, conformitat, biaix implícit, comportament en situacions d'emergència) no es poden estudiar sense algun grau d'engany: si el participant sap que l'estudien, canvia el comportament. Prohibir l'engany en recerca psicològica equivaldria a prohibir l'estudi de gran part del comportament social real. Amb un debriefing complet, consentiment retroactiu i revisió ètica estricta, l'engany és justificable."
+          },
+          "positionB": {
+            "label": "No — el consentiment informat no admet excepcions",
+            "argument": "El principi del consentiment informat no és un equilibri entre valors — és un dret. Cap persona pot ser instrumentalitzada per al benefici del coneixement sense el seu consentiment explícit. L'argument «el coneixement és massa important per prescindir de l'engany» és exactament l'argument que va justificar les experimentacions mèdiques no consentides del segle XX. El límit ha de ser absolut."
+          },
+          "reflection": "La teva resposta canviaria si l'estudi estudiés comportament que podria prevenir atrocitats futures?",
+          "context": "Els comitès ètics actuals permeten engany limitat sota condicions molt estrictes: el coneixement no pot obtenir-se d'altra manera, el risc de dany és mínim, el debriefing és complet, i els participants poden retirar les seves dades després de conèixer la veritat. L'experiment de Milgram original no compleix el tercer i el quart criteri."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mil-03-01",
+          "question": "Milgram va argumentar que el valor científic dels seus resultats justificava el malestar dels participants. Quin marc ètic és necessari per avaluar aquest tipus d'afirmació?",
+          "options": [
+            "El consecuencialisme: si el benefici total (per a tota la humanitat) supera el cost (per als participants), l'experiment és justificable",
+            "El deontologisme: certs drets individuals (autonomia, consentiment) no poden ser sacrificats per cap càlcul de benefici col·lectiu",
+            "Una perspectiva que consideri tant els drets individuals com les conseqüències, i que reconegui la tensió irresoluble entre tots dos"
+          ],
+          "correct": 2,
+          "explanation": "El cas Milgram és un exemple paradigmàtic de conflicte entre valors ètics que no es resolen amb un sol marc. El consecuencialisme (opció A) té un problema pràctic: com quantifiques el benefici del coneixement científic vs. el dany psicològic dels participants? I un problema de principi: si qualsevol dany és justificable si el benefici és prou gran, no hi ha límit a l'instrumentalització de persones. El deontologisme estricte (opció B) té un problema pràctic diferent: eliminaria categories senceres de recerca sobre comportament humà amb implicacions reals per a la prevenció del mal. La postura C —que reconeix la tensió real entre valors sense pretendre resoldre-la amb un principi únic— és la que informa els comitès ètics moderns. No hi ha una resposta que satisfaci tots els valors simultàniament. El que sí hi ha: processos de deliberació que forcen la consideració explícita de tots els valors en joc, revisió per parells independent, i criteris mínims no negociables (el debriefing, el consentiment retroactiu, la possibilitat de retirar les dades)."
+        }
+      ]
+    },
+    {
+      "id": "mil-04",
+      "title": "Podem creure'ns les dades? (La ciència de l'experiment)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Tres lliçons i encara no hem qüestionat l'evidència.\n\nAixò ha de canviar.\n\nL'experiment de Milgram és citat com a prova en milers d'articles, llibres de text i documentals. Però quan els historiadors van accedir als arxius originals de Milgram a Yale, van descobrir que la realitat de les dades era més complicada que la llegenda."
+        },
+        {
+          "type": "key-idea",
+          "text": "La credibilitat d'un experiment científic no depèn únicament del resultat. Depèn de si els participants es van comportar com el disseny experimental suposava, de si el protocol es va seguir de forma consistent, de si les dades es van analitzar sense selecció, i de si les interpretacions estan justificades per les dades — no per les hipòtesis prèvies de l'investigador."
+        },
+        {
+          "type": "expandable",
+          "label": "El que Gina Perry va trobar als arxius: el 65% que potser no és el 65%",
+          "content": "Gina Perry, periodista i psicòloga australiana, va accedir el 2012 als arxius de Milgram a la Universitat Yale i va publicar una investigació exhaustiva (Behind the Shock Machine, 2012).\n\nLes troballes van ser pertorbadores per als defensors de Milgram:\n\n**Sospites sobre la credibilitat**: les gravacions i notes de camp mostraven que molts participants expressaven dubtes sobre si les descàrregues eren reals. En almenys alguns casos, els participants van admetre després que no creien del tot que l'alumne rebés descàrregues. Si no creien que causaven dany real, el 65% d'obediència mesurava una cosa diferent del que Milgram afirmava mesurar.\n\n**Variacions no reportades del protocol**: els investigadors que administraven l'experiment van improvisar respostes als participants que anaven més lluny de les quatre frases estandarditzades. En alguns casos, els investigadors van pressionar de forma que anava més del protocol. Les variacions mai no van ser reportades sistemàticament.\n\n**Selecció de condicions publicades**: Milgram va dur a terme moltes variacions de l'experiment. Va publicar principalment les que donaven el 65% més alt. Les condicions on l'obediència era molt baixa van rebre menys atenció en la publicació.\n\nPerry no argumenta que Milgram falsifiqués dades. Argumenta que la historia neta i clara que hem après pot ser una simplificació que amaga la complexitat real de les dades."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-04-01",
+          "style": "multiple-choice",
+          "question": "Si els participants de Milgram no creien del tot que les descàrregues fossin reals, quina seria la implicació per a la validesa de les conclusions de l'experiment?",
+          "options": [
+            "Cap: obeir una autoritat en un context de laboratori és rellevant independentment de si el participant creu que el dany és real",
+            "Significativa: l'experiment mesuraria conformitat i seguiment de normes de laboratori, no disposició a causar dany real per obediència",
+            "Total: si els participants no creien en el dany, l'experiment és un frau sense valor científic"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte — i aquesta és la crítica metodològica central. Si els participants seguien les instruccions però no creien estar causant dany real, l'experiment mesura el fenomen de seguir normes de laboratori en un context de joc de rol, no la disposició a infligir dolor real per obediència a l'autoritat. Serien dos fenòmens relacionats però no idèntics. Les conclusions de Milgram sobre la capacitat humana per a la destructivitat sota autoritat depenen causalment de la premissa que els participants creien que el dany era real. Si aquella premissa és falsa o incompleta, les conclusions han de ser revisades — no necessàriament descartades, però sí matisades significativament.",
+          "feedbackWrong": "La distinció és important. Si els participants seguien les instruccions perquè no creien que el dany fos real, mesuraven el seguiment de normes en un joc de rol de laboratori — un fenomen real però diferent de la disposició a causar dany real. Les conclusions de Milgram sobre la perillosa capacitat humana per a la destructivitat depenen de la premissa que els participants creien realment en el dany. Si aquella premissa és incompleta, les conclusions s'han de matisar, tot i que no necessàriament descartar-se."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-04-02",
+          "style": "true-false",
+          "question": "El fet que l'experiment de Milgram hagi estat parcialment replicat en estudis moderns (Burger, 2009) valida completament les conclusions originals de Milgram.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La replicació de Burger valida que un percentatge elevat de participants obeeix fins al punt d'aturada autoritzat en un disseny similar al de Milgram. Però no valida necessàriament la interpretació de Milgram (l'estat agèntic, les implicacions per a l'Holocaust). La replicació confirma el resultat comportamental; no resol els debats sobre el mecanisme explicatiu ni sobre la validesa interna de l'original. A més, la versió de Burger tenia diferències importants del protocol original (s'aturava a un nivell menor, els participants sabien que podien aturar-se en qualsevol moment), de manera que no és una replicació directa.",
+          "feedbackWrong": "La replicació de Burger confirma que el fenomen comportamental (alta obediència en un context d'autoritat amb pressió gradual) és robust. Però no resol: (a) la qüestió de si els participants originals de Milgram creien en el dany real, (b) si l'explicació de l'«estat agèntic» és la correcta, ni (c) si les implicacions sobre l'Holocaust que Milgram va proposar estan justificades per les dades. La replicació del resultat no valida automàticament la interpretació."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Filosofia de la Ciència",
+          "moduleEmoji": "🔬",
+          "concept": "Crisi de replicació en psicologia social",
+          "text": "L'experiment de Milgram no és un cas aïllat de complexitat metodològica. La psicologia social ha viscut una «crisi de replicació» des de 2011: molts dels seus resultats clàssics (efecte primming, poder de la postura, ego depletion) no s'han replicat de forma consistent. El cas Milgram il·lustra per qué: disseny complex, protocol difícil de controlar, interpretació de l'investigador molt present en les conclusions."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mil-04-01",
+          "question": "Donat tot el que hem vist sobre les limitacions metodològiques de l'experiment de Milgram, hauria de continuar apareixent als llibres de text de psicologia com a prova d'obediència a l'autoritat?",
+          "options": [
+            "Sí, sense canvis: és un clàssic fonamental que segueix sent vàlid en les seves conclusions generals",
+            "Sí, però amb context complet: hauria de presentar-se amb les crítiques metodològiques i les interpretacions alternatives de forma explícita",
+            "No: si les dades originals no suporten completament les conclusions, no hauria de presentar-se com a evidència establerta"
+          ],
+          "correct": 1,
+          "explanation": "L'opció A perpetua una simplificació que la investigació acadèmica ja ha superat. L'opció C és excessivament estricta: si apliquéssim el criteri «no presentar cap estudi amb limitacions metodològiques», la majoria dels clàssics de la psicologia social haurien de desaparèixer. La postura B és l'estàndard epistèmic adequat per a la divulgació científica honesta: presentar les troballes, les limitacions i les interpretacions alternatives. Això no fa l'experiment «menys interessant» — de fet, el fa més: un cas que demostra simultàniament un fenomen real, les dificultats metodològiques d'estudiar-lo i el debat sobre com interpretar l'evidència és molt més valuós pedagògicament que un resultat net i sense context. La crisi de replicació en psicologia social ha obligat la disciplina a adoptar exactament aquesta postura: resultats amb context complet, no resultats nets sense ambigüitat."
+        }
+      ]
+    },
+    {
+      "id": "mil-05",
+      "title": "Té implicacions per a tu? (L'aplicació personal)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Quatre lliçons sobre un experiment de laboratori de fa 60 anys.\n\nAra la pregunta que és incòmoda però necessària: tot el que hem après, té alguna cosa a veure amb la teva vida real?\n\nSospitem que sí. I no de forma abstracta."
+        },
+        {
+          "type": "prediction",
+          "question": "Pensa en un moment de la teva vida (professional, familiar, social) en el qual vas fer alguna cosa que, vista en perspectiva, preferirias no haver fet — i en el qual les circumstàncies, la pressió del grup o l'autoritat van tenir un paper. Tingues aquella situació al cap mentre continues.",
+          "hint": "No cal que sigui dramàtica. Pot ser una petita complicitat, un silenci, una decisió que vas delegar a algú altre quan hauries pogut prendre tu."
+        },
+        {
+          "type": "key-idea",
+          "text": "El mecanisme de Milgram no opera únicament en laboratoris amb bates blanques. Opera en reunions d'empresa, en consells escolars, en famílies, en grups d'amics. Qualsevol situació on hi ha autoritat, escalada gradual, pressió de temps i absència de dissenters actius reprodueix parcialment les condicions de l'experiment."
+        },
+        {
+          "type": "expandable",
+          "label": "L'experiment de la presó de Stanford: quan el rol et canvia",
+          "content": "El 1971, Philip Zimbardo va dividir aleatoris estudiants universitaris en «guàrdies» i «presos» en una presó simulada al soterrani del departament de psicologia de Stanford. L'experiment havia de durar dues setmanes. Va durar sis dies.\n\nEls guàrdies van adoptar comportaments sàdics ràpidament. Els presos van entrar en crisi. Zimbardo, que havia assumit el rol de «superintendent de la presó», va trigar massa a aturar-ho — un detall que ell mateix ha admès com a indicatiu de com el rol l'havia afectat a ell.\n\nL'experiment de Stanford és, si cap, encara menys metodològicament sòlid que el de Milgram. Gina Perry va descobrir que Zimbardo i els seus ajudants van instruir activament els «guàrdies» per ser durs, cosa que no havia estat reportada. Alguns «presos» van admetre que actuaven, no que col·lapsaven de veritat.\n\nMalgrat les limitacions, il·lustra un fenomen complementari al de Milgram: no únicament obeïm l'autoritat — ens convertim en el rol que ens assignen. El «guàrdia» de laboratori adopta la lògica del guàrdia. El «director» adopta la lògica del director. Els rols precedeixen l'individu."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-05-01",
+          "style": "multiple-choice",
+          "question": "En el context professional, quin dels escenaris següents reprodueix més fidelment les condicions de l'experiment de Milgram?",
+          "options": [
+            "Un empleat que roba materials de l'empresa per ús personal",
+            "Un comptable que falsifica documents financers gradualment, a instàncies del seu director, en una empresa que presenta indicis d'irregularitats que tots ignoren",
+            "Un directiu que acomia injustament un treballador per criteris discriminatoris",
+            "Un empleat que no denuncia un company per assetjament per por a represàlies"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. L'escenari B reprodueix els elements clau de Milgram: escalada gradual (les falsificacions comencen petites), autoritat legitimada (el director), context aparentment normatiu («tothom ho sap i ningú no fa res»), i responsabilitat diluïda («no és decisió meva, jo segueixo instruccions»). Casos reals de frau corporatiu (Enron, Wirecard, Theranos) mostren exactament aquest patró: moltes persones ordinàries que van participar en passos petits d'un procés que en conjunt era il·legal i danyós.",
+          "feedbackWrong": "L'escenari B és el que més s'assembla a Milgram: falsificació gradual a instàncies d'una autoritat, en un context on tots ignoren les irregularitats (abdicació de responsabilitat col·lectiva). Els escenaris A i C impliquen decisions individuals actives sense pressió d'autoritat; l'escenari D implica omissió per por, un mecanisme diferent (autoprotecció, no obediència)."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-05-02",
+          "style": "detect-error",
+          "statement": "La millor forma de protegir-se de la dinàmica de Milgram en situacions reals és ser plenament conscient del mecanisme: saber que existeix et fa immune a ell.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació descriu el «biaix de tercer persona»: la tendència a creure que els biaixos i errors cognitius afecten els altres però no a un mateix, especialment quan es coneixen. La recerca mostra que conèixer l'experiment de Milgram no redueix de forma consistent la susceptibilitat al fenomen en situacions reals d'alta pressió. La raó és estructural: el mecanisme de Milgram opera quan el sistema cognitiu automàtic (ràpid, basat en esquemes) pren el control, i el coneixement abstracte del mecanisme rarament interfere en condicions d'alta pressió social. El que sí redueix la susceptibilitat és: tenir un pla concret d'actuació per a escenaris específics, tenir suport social previ per a la dissidència, i practicar la dissidència en situacions de baixa pressió."
+        },
+        {
+          "type": "reflection",
+          "question": "Torna a la situació que tenies al cap al principi d'aquesta lliçó. Quin dels factors que hem vist (autoritat, escalada gradual, absència de dissenters, identificació amb el projecte) estava present? I si tornessis a aquella situació ara, canviaria alguna cosa?",
+          "prompt": "Pren-te el temps que necessitis. Aquesta és la pregunta per a la qual tot el mòdul ha estat una preparació."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mil-05-01",
+          "question": "Si els factors situacionals (autoritat, escalada, pressió de grup) dominen sobre els factors de personalitat en la producció d'obediència destructiva, quin és el paper de l'educació del caràcter i la formació en valors en la prevenció d'aquells comportaments?",
+          "options": [
+            "Limitat: si la situació domina, entrenar el caràcter individual té poc efecte sobre el comportament en situacions de pressió real",
+            "Central: els valors internalitzats profundament actuen com a ancoratge que resisteix la pressió situacional",
+            "Necessari però insuficient: els valors sòlids ajuden però han d'anar acompanyats d'habilitats concretes (reconèixer l'escalada, buscar suport per dissentir, tenir plans d'actuació per a escenaris difícils)"
+          ],
+          "correct": 2,
+          "explanation": "L'opció A és el nihilisme situacionista: si la situació ho determina tot, educar el caràcter és inútil. Però el 35% de participants que van desobeir a Milgram mostra que la variació individual sí existeix — i que algun factor intern marca la diferència. L'opció B és l'optimisme del caràcter: si tens valors prou forts, resistiràs. Però la recerca sobre biaix de tercer persona mostra que les persones amb valors declarats forts sovint els violen en situacions de pressió precisament perquè confien massa en la seva capacitat de resistir. La postura C és la que millor integra l'evidència: els valors sòlids són necessaris (sense compromís moral, no hi ha resistència possible) però no suficients (el compromís moral sense habilitats concretes de dissidència sol sucumbir a la pressió situacional). El que entrena la resistència efectiva és la combinació de valors internalitzats + pràctica de dissidència en situacions de baixa pressió + xarxes de suport social per a la desobediència + reconeixement explícit dels mecanismes d'escalada."
+        }
+      ]
+    },
+    {
+      "id": "mil-06",
+      "title": "Canviaria alguna cosa avui? (El llegat)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Cinc lliçons sobre un experiment de 1961.\n\nL'última pregunta és la més difícil: els mecanismes que Milgram va documentar continuen operant avui, en el món actual, amb tota la informació i consciència que tenim?\n\nSospitem que sí. Però les formes han canviat."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'obediència a l'autoritat en el segle XXI no necessita una bata blanca ni un laboratori. Opera a través d'algoritmes que optimitzen el comportament dels usuaris, plataformes que normalitzen continguts extrems de forma gradual, sistemes burocràtics que dilueixen la responsabilitat individual i cultures organitzatives que punen la dissidència."
+        },
+        {
+          "type": "expandable",
+          "label": "Milgram digital: quan l'autoritat és un algoritme",
+          "content": "Les plataformes de xarxes socials operen amb un mecanisme d'escalada gradual que recorda Milgram: l'algoritme presenta continguts lleugerament més extrems que els que l'usuari ha consumit, buscant maximitzar l'engagement. Cada pas és petit. El resultat agregat pot ser una radicalització significativa.\n\nLa diferència amb Milgram: aquí no hi ha un investigador en bata blanca que doni ordres. L'«autoritat» és un sistema de recomanació invisible que opera optimitzant una mètrica (temps a la plataforma) sense cap agent responsable de les conseqüències.\n\nGuillem Viladot, ex-investigador de seguretat a Facebook, ha descrit internament com els sistemes de recomanació van ser advertits de les seves conseqüències radicalitzadores i es va continuar amb ells per raons comercials. La responsabilitat estava diluïda entre enginyers, gestors de producte, executius i accionistes — ningú «va decidir» radicalitzar usuaris, però el sistema ho feia.\n\nÉs Milgram sense l'investigador: l'escalada és automàtica, la responsabilitat és inexistent, i les víctimes (usuaris radicalitzats, comunitats polaritzades) estan a milers de quilòmetres i no es veuen mai."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-06-01",
+          "style": "multiple-choice",
+          "question": "En l'experiment de Milgram, la presència de dos confederats que desobeïen davant del participant real reduïa l'obediència al 10%. Quin seria l'equivalent funcional d'aquell «dissenter» en un context organitzatiu modern?",
+          "options": [
+            "Un codi ètic escrit i publicat per l'empresa",
+            "Un sistema de denúncia anònim per a irregularitats",
+            "Una persona concreta que expressa públicament dubtes o disconformitat en una reunió on hi ha pressió per conformar-se",
+            "Un comitè d'ètica extern independent"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. El que Milgram va demostrar és que la dissidència visible d'un igual trencat l'esquema d'unanimitat que fa la conformitat gairebé inevitable. Un codi ètic escrit (A) no canvia el comportament en situacions de pressió — és documentació, no acció social. Un sistema de denúncia (B) és útil però reactiu i anònim — no trenca la dinàmica grupal en el moment. Un comitè extern (D) opera a posteriori. La persona concreta que diu «jo no estic còmode amb això» en la reunió és el dissenter de Milgram: visible, present, igualitari — i el seu efecte sobre els altres és desproporcionadament gran.",
+          "feedbackWrong": "El mecanisme de Milgram és social i immediat: un igual visible que dissenteix trenca l'esquema d'unanimitat. Codis, sistemes anònims i comitès externs operen per canals i moments diferents — no trenquen la dinàmica de grup en el moment de la decisió. La persona que diu «jo no estic còmode amb això» en veu alta, a la reunió, és l'equivalent funcional del confederat de Milgram."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mil-06-02",
+          "style": "true-false",
+          "question": "Els millennials i la generació Z, que han crescut amb major consciència de biaixos cognitius, diversitat i pensament crític, mostren nivells d'obediència a l'autoritat significativament menors que les generacions anteriors.",
+          "correct": false,
+          "feedbackCorrect": "Fals, o almenys no demostrat. No hi ha dades comparatives intergeneracionals sòlides sobre obediència a l'autoritat en condicions equivalents a les de Milgram. La replicació de Burger (2009) amb participants de diverses edats no va mostrar diferències generacionals significatives. Més important: la consciència declarada de biaixos cognitius no es correlaciona de forma consistent amb la resistència real en situacions de pressió — el «biaix de tercer persona» opera igual en totes les generacions. Les formes de l'autoritat han canviat (menys reverència jeràrquica formal, però nova autoritat de l'influencer, del viral i de la tribu digital); la susceptibilitat al mecanisme no ha desaparegut.",
+          "feedbackWrong": "No hi ha evidència de menor obediència intergeneracional. La replicació de Burger (2009) no va mostrar diferències d'edat significatives. Més fonamentalment: la consciència declarada de biaixos cognitius no es transforma automàticament en resistència real en condicions de pressió social. Les formes de l'autoritat han canviat (l'influencer, la tribu digital, la validació viral) però el mecanisme no ha desaparegut."
+        },
+        {
+          "type": "debate",
+          "question": "Seixanta anys després de Milgram, la pregunta que el va motivar —com és possible que persones ordinàries participin en atrocitats?— continua sent rellevant. Ha canviat alguna cosa fonamental en la naturalesa humana o en les estructures socials que faci menys probable que es repeteixi?",
+          "positionA": {
+            "label": "Sí — les estructures de protecció han millorat",
+            "argument": "Els genocidis i atrocitats del segle XX van mobilitzar la creació d'institucions, tractats i normes internacionals (TPI, Cort Internacional de Justícia, responsabilitat de protegir) i d'una cultura global dels drets humans. La consciència pública sobre el mecanisme de l'obediència destructiva ha augmentat. Les estructures que ho fan menys probable existeixen —i no existien el 1961."
+          },
+          "positionB": {
+            "label": "No — el mecanisme és el mateix, el context ha canviat",
+            "argument": "Les atrocitats del segle XXI (Ruanda, Bòsnia, Darfur, Síria, Uyghurs) demostren que les institucions internacionals no han eliminat les condicions que produeixen la participació massiva en la violència. El mecanisme d'obediència i la disolució de responsabilitat continuen operant — ara amplificats per les xarxes socials i la polarització política."
+          },
+          "reflection": "Si poguessis fer una cosa per reduir la probabilitat que les dinàmiques de Milgram operin en el teu entorn immediat, quina seria?",
+          "context": "El llegat de Milgram no és pessimisme. És la identificació precisa d'un mecanisme —i per tant la possibilitat de dissenyar contramesures. El que Milgram va descobrir no és que els humans siguin dolents. Va descobrir les condicions que produeixen comportament destructiu en persones ordinàries. I les condicions es poden canviar."
+        },
+        {
+          "type": "reflection",
+          "question": "Sis lliçons, una sola pregunta de fons: com és possible que persones ordinàries facin coses terribles? Ara tens sis respostes parcials: l'escalada gradual, l'estat agèntic, la identificació amb el projecte, la disolució de responsabilitat, l'absència de dissenters, i la naturalesa construïda dels rols. Cap és la resposta completa. Totes juntes apunten a alguna cosa real. Amb tot això, quina part de la resposta canvia la manera com et veus a tu mateix?",
+          "prompt": "Aquí acaba el mòdul. Però la pregunta no."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mil-06-01",
+          "question": "Hem estudiat un experiment durant sis lliçons des de sis angles: el fet, el mecanisme, l'ètica, les dades, l'aplicació personal i el llegat. Creus que un sol cas pot ser una bona unitat d'aprenentatge en ciència, o l'aprenentatge per casos té limitacions estructurals que el fan inferior al aprenentatge per principis generals?",
+          "options": [
+            "Els principis generals són superiors: un cas concret és sempre una anècdota; l'aprenentatge ha de partir de generalitzacions robustes",
+            "Els casos concrets són superiors: la generalització abstracta és fàcilment oblidada; l'ancoratge en un cas específic produeix comprensió profunda i durable",
+            "Tots dos tenen valor i s'han d'usar de forma complementària: els casos concreten i ancoren els principis; els principis permeten generalitzar més enllà del cas"
+          ],
+          "correct": 2,
+          "explanation": "El debat entre aprenentatge basat en casos (case-based learning) i aprenentatge basat en principis és actiu en pedagogia des dels anys 70. L'evidència empírica suggereix que la combinació és superior a qualsevol dels dos aïlladament. Els casos ancoren el coneixement en memòria episòdica (records de situacions concretes) que és més accessible i durable que la memòria semàntica (principis abstractes). Però sense principis generals, el coneixement del cas no es transfereix: l'estudiant entén Milgram però no reconeix el mecanisme d'escalada en la seva pròpia vida. L'estructura d'aquest mòdul —un cas com a fil conductor, sis angles com a principis— intenta precisament combinar les virtuts de tots dos enfocaments. El risc del mòdul és la sobregeneralització: Milgram és il·luminador però no és «la psicologia social». Sempre cal mantenir consciència de les limitacions del cas que s'usa com a ancoratge."
+        }
+      ]
+    }
+  ]
+}

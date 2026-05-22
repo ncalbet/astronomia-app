@@ -28,6 +28,10 @@ export const AREAS = [
           'module-02-history',
           'module-09-bigbang',
           'module-10-estrelles',
+          'module-08-origen-desti-univers',
+          'module-09-materia-energia-fosques',
+          'module-10-forats-negres',
+          'module-11-mons-alla',
         ],
       },
       {
@@ -49,6 +53,8 @@ export const AREAS = [
           'module-37-electromagnetisme',
           'module-38-relativitat',
           'module-08-relativitat',
+          'module-10-caos',
+          'module-12-temps-espai-limits',
         ],
       },
       {
@@ -60,6 +66,9 @@ export const AREAS = [
           'module-08-neurociencia',
           'module-33-evolucio',
           'module-35-genetica',
+          'module-09-cos-huma',
+          'module-11-ecologia',
+          'module-13-trauma-resiliencia',
         ],
       },
       {
@@ -139,6 +148,13 @@ export const AREAS = [
           'module-XX-filosofia-llenguatge',
         ],
       },
+      {
+        label: 'Ment i Comportament',
+        modules: [
+          'module-12-ment-enganya',
+          'module-14-obediencia',
+        ],
+      },
     ],
   },
   {
@@ -210,6 +226,14 @@ export const AREAS = [
           'module-19-actors-no-estatals',
           'module-20-fronteres-drets-humans',
           'module-XX-ddhh-ordre-internacional',
+        ],
+      },
+      {
+        label: 'Diplomàcia',
+        modules: [
+          'module-XX-diplomacia-negociacio',
+          'module-XX-historia-diplomacia',
+          'module-XX-organismes-internacionals',
         ],
       },
     ],

@@ -1,0 +1,476 @@
+{
+  "id": "module-11-mons-alla",
+  "title": "Mons allà: la cerca de vida a l'univers",
+  "emoji": "🪐",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "ma-01",
+      "title": "Exoplanetes: de zero a cinc mil en trenta anys",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1992, els astrònoms Aleksander Wolszczan i Dale Frail van anunciar els primers planetes confirmats fora del sistema solar. Orbitaven un púlsar — una estrella morta que emet polsos de ràdio regulars. No era exactament el tipus de planeta que ningú esperava trobar. El 1995 va arribar el primer planeta orbitant una estrella com el Sol: 51 Pegasi b, un gegant gasós tan gran com Júpiter que orbitava la seva estrella en quatre dies. Avui tenim més de 5.500 exoplanetes confirmats. Passem de zero a cinc mil en menys d'una generació científica. I tot just comencem a llegir-los."
+        },
+        {
+          "type": "key-idea",
+          "text": "Els exoplanetes no es detecten veient-los directament — la llum de l'estrella és bilions de vegades més intensa que la del planeta al seu costat. Es detecten per efectes indirectes: la petita disminució de llum quan el planeta passa davant de l'estrella (trànsit), o el lleuger balanceig de l'estrella que el planeta indueix per gravetat (velocitat radial). Cada mètode biaixes els resultats cap a certs tipus de planetes."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1992",
+              "title": "Primers exoplanetes confirmats",
+              "text": "Wolszczan i Frail detecten planetes orbitant el púlsar PSR 1257+12. Entorn hostil: l'estrella és morta i embruta de radiació."
+            },
+            {
+              "year": "1995",
+              "title": "51 Pegasi b: el primer planeta d'una estrella normal",
+              "text": "Mayor i Queloz el detecten per velocitat radial. Un Júpiter calent a 4 dies d'òrbita. Guanyen el Nobel el 2019."
+            },
+            {
+              "year": "2009–2018",
+              "title": "Kepler: la revolució estadística",
+              "text": "El telescopi Kepler observa 150.000 estrelles simultàniament durant 9 anys. Resultat: milers de planetes confirmats i la prova que els planetes són ubiqüíts."
+            },
+            {
+              "year": "2018–actualitat",
+              "title": "TESS: el seguiment del cel sencer",
+              "text": "Telescopi Transiting Exoplanet Survey Satellite. Cobreix el cel sencer cercant trànsits en estrelles brillants pròximes — les millors candidates per a seguiment."
+            },
+            {
+              "year": "2021–actualitat",
+              "title": "James Webb: llegir atmosferes",
+              "text": "Per primera vegada, es caracteritzen atmosferes d'exoplanetes amb prou detall per buscar molècules d'interès biològic."
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "El biaix de selecció: per qué els primers exoplanetes eren tots gegants calents",
+          "content": "Els primers exoplanetes detectats per velocitat radial eren majoritàriament gegants gasosos orbitant molt a prop de la seva estrella. La raó no és que aquests planetes siguin els més comuns — és que eren els més fàcils de detectar: un planeta gran produeix un balanceig major en l'estrella, i un planeta proper fa orbites curtes que permeten veure el patró en temps raonables. La Terra trigaria 365 dies per fer una òrbita observable, i induiria un balanceig de l'ordre de 10 cm/segon — el límit de detecció dels instruments actuals. Kepler va corregir el biaix observant milers d'estrelles durant anys: va trobar que els planetes del tamany de la Terra i les super-Terres (1–2 vegades el radi de la Terra) són en realitat els més abundants. Els gegants calents són l'excepció, no la regla."
+        },
+        {
+          "type": "misconception",
+          "belief": "Perquè la Terra és l'únic planeta conegut amb vida, els planetes habitables han de ser rars.",
+          "reality": "Estimacions basades en dades de Kepler suggereixen que entre el 10% i el 40% de les estrelles de tipus solar tenen almenys un planeta en zona habitable. Amb 200.000 milions d'estrelles a la Via Làctia, el nombre de planetes potencialment habitables és de l'ordre de milers de milions. La raresa és que en coneixem un amb vida confirmada — no que els candidats siguin escassos.",
+          "why": "Fins fa poc, la Terra era l'únic exemple conegut de planeta. Ara tenim context estadístic: els planetes habitables semblen comuns. El que és rar és la vida — o almenys la vida que hem pogut detectar fins ara."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-01-01",
+          "style": "multiple-choice",
+          "question": "Per qué el mètode de trànsit (mesurar la disminució de llum quan un planeta passa davant de l'estrella) biaisa els descobriments cap a planetes grans en òrbites properes?",
+          "options": [
+            "Perquè els planetes grans reflecteixen més llum i són més visibles",
+            "Perquè un planeta gran tapa més fracció de la llum de l'estrella, i un planeta proper fa trànsits freqüents i amb alta probabilitat geomètrica de ser observats des de la Terra",
+            "Perquè els planetes en òrbites properes s'escalfen més i emeten radiació pròpia detectable",
+            "Perquè els telescopis espacials com Kepler no podien observar òrbites llargues en el temps de la missió"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Hi ha dos biaixos combinats. Primer, el de senyal: un planeta gran tapa una fracció major de la llum de l'estrella — la disminució és proporcional al quadrat del radi del planeta. Un Júpiter produeix una disminució d'~1%, una Terra d'~0,01%. Segon, el geomètric i temporal: un planeta proper té alta probabilitat de ser vist de perfil des de la Terra, i fa òrbites curtes que permeten veure múltiples trànsits en temps raonables per confirmar el descobriment.",
+          "feedbackWrong": "Hi ha dos biaixos superposats. La senyal d'un trànsit és proporcional a l'àrea del planeta — un planeta gran tapa més llum i és més fàcil de detectar. A més, un planeta proper fa òrbites en dies o setmanes (no anys), cosa que permet confirmar el trànsit veient-lo repetir múltiples vegades en temps de missió raonables. La Terra trigaria 365 dies per fer una sola òrbita."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-01-02",
+          "style": "true-false",
+          "question": "Les dades de Kepler demostren que la majoria d'estrelles no tenen planetes.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Les dades de Kepler van demostrar exactament el contrari: la majoria d'estrelles semblen tenir almenys un planeta. Les estadístiques suggereixen que hi ha de mitjana més d'un planeta per estrella a la Via Làctia. El que és menys comú és trobar una Terra (mida i zona habitable correctes) orbitant una estrella de tipus solar a la distància adequada — però fins i tot en aquest cas, les estimacions donen milers de milions de candidats a la nostra galàxia sola.",
+          "feedbackWrong": "Kepler va demostrar el contrari: els planetes són ubiqüíts. Observant 150.000 estrelles, va trobar que gairebé totes en tenien, i que hi havia de mitjana més d'un planeta per estrella. El que és menys comú és un planeta de mida terrestre en zona habitable d'una estrella de llarga vida — però fins i tot amb criteris estrictes, les estimacions donen milers de milions de candidats a la Via Làctia."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-ma-01-01",
+          "question": "Amb més de 5.500 exoplanetes confirmats i estadística sòlida, podem afirmar que la vida extraterrestre probablement existeix?",
+          "options": [
+            "Sí: amb milers de milions de planetes habitables, la probabilitat de que la vida hagi sorgit almenys una vegada és aclaparadora",
+            "No: el nombre de planetes habitables no diu res sobre la probabilitat que la vida s'origini — desconeixem completament com de probable és l'origen de la vida",
+            "Potser: tenim evidència que les condicions per a la vida són comunes, però sense conèixer la probabilitat d'origen de la vida, el nombre de planetes no és suficient per concloure"
+          ],
+          "correct": 2,
+          "explanation": "Aquí és on l'argument estadístic s'atura. L'equació de Drake —que intenta estimar el nombre de civilitzacions comunicatives— té un terme, fL, que representa la fracció de planetes habitables on sorgeix la vida. Desconeixem completament el valor d'aquest terme. Podria ser gairebé 1 (la vida sorgeix sempre que les condicions ho permeten), o podria ser 10⁻⁴⁰ (la vida és un accident estadístic tan improbable que quasi amb certesa som els únics a l'univers observable). Tenim un sol exemple de vida: la de la Terra. Amb n=1, qualsevol estimació estadística de fL és epistemològicament fràgil. Milers de milions de planetes habitables multiplicats per una probabilitat completament desconeguda pot donar qualsevol resultat. El que hem après sobre exoplanetes és que les condicions físiques per a la vida semblen comunes. El que no sabem és si les condicions físiques correctes impliquen vida, o si la vida requereix alguna cosa addicional que desconeixem."
+        }
+      ]
+    },
+    {
+      "id": "ma-02",
+      "title": "La zona habitable: molt més complicada del que semblava",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La zona habitable és la franja al voltant d'una estrella on la temperatura de la superfície d'un planeta rocós podria permetre l'existència d'aigua líquida. La definició sembla neta. El problema és que és una simplificació tan grossa que ha portat a malentendre el que busquem. Venus i la Terra estan totes dues dins de la zona habitable del Sol. Europa, la lluna de Júpiter, és molt fora de la zona habitable del Sol. Però Europa podria tenir un oceà líquid sota la superfície. I Venus és un infern de 460°C. La zona habitable és un punt de partida, no una resposta."
+        },
+        {
+          "type": "key-idea",
+          "text": "La zona habitable clàssica assumeix una atmosfera similar a la de la Terra i ignora l'efecte hivernacle, l'activitat geològica, l'existència de llunes, la rotació, els camps magnètics i l'activitat de l'estrella. Cada factor pot expandir o destruir la habitabilitat d'un planeta que «hauria» de ser habitable. I els oceans subterranis — com els de les llunes gelades del sistema solar — estenen el concepte de «vida possible» molt més lluny del Sol."
+        },
+        {
+          "type": "expandable",
+          "label": "Les llunes gelades: la vida possible sense el Sol",
+          "content": "Europa (Júpiter), Encèlad (Saturn) i Titan (Saturn) estan a distàncies molt superiors a la zona habitable del Sol. Però Europa i Encèlad tenen oceans líquids sous gel — mantinguts calents per les forces de marea de Júpiter i Saturn respectivament. Encèlad ejecta panaches d'aigua i molècules orgàniques a l'espai, que la sonda Cassini va detectar directament. Titan té llacs de metà líquid a la superfície — un solvent diferent que podria, en principi, suportar bioquímica diferent. Si la vida pot existir en oceans sense llum solar, els requisits per a la vida es tornen molt menys restrictius — i el nombre de llocs possibles a l'univers augmenta dràsticament."
+        },
+        {
+          "type": "comparison",
+          "title": "Zona habitable clàssica vs. habitabilitat real",
+          "labelA": "Zona habitable clàssica",
+          "labelB": "Habitabilitat ampliada",
+          "items": [
+            {
+              "label": "Criteri",
+              "a": "Distància a l'estrella que permet aigua líquida superficial",
+              "b": "Qualsevol lloc amb energia, solvents i elements adequats"
+            },
+            {
+              "label": "Font d'energia",
+              "a": "Exclusivament la llum de l'estrella",
+              "b": "Llum estelar, calor de marea, calor geotèrmica, radioactivitat"
+            },
+            {
+              "label": "Solvent",
+              "a": "Exclusivament aigua líquida",
+              "b": "Agua, metà, età, altres solvents polars en principi"
+            },
+            {
+              "label": "Casos del sistema solar",
+              "a": "Terra (sí), Venus (zona però infern), Mart (zona però fred i sec)",
+              "b": "Europa, Encèlad, Titan, possiblement el subsòl de Mart"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-02-01",
+          "style": "multiple-choice",
+          "question": "Per qué Encèlad, la lluna de Saturn, és un dels candidats més interessants per buscar vida al sistema solar?",
+          "options": [
+            "Perquè té una atmosfera densa d'oxigen i nitrogen",
+            "Perquè la sonda Cassini va detectar panaches d'aigua, molècules orgàniques i hidrogen molecular ejectats des del seu interior",
+            "Perquè la seva superfície és dins de la zona habitable de Saturn",
+            "Perquè té una temperatura superficial similar a la de la Terra"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Cassini va detectar que Encèlad ejecta geisers d'aigua salada, molècules orgàniques complexes i hidrogen molecular (H₂) des d'esquerdes al pol sud. L'hidrogen molecular és especialment significatiu: és consistent amb reaccions hidrotermals (roca calenta en contacte amb aigua), exactament el tipus de química que sosté ecosistemes al fons de l'oceà terrestre sense cap llum solar. No és prova de vida — però és prova que hi ha les condicions químiques i energètiques adequades.",
+          "feedbackWrong": "El que fa especial Encèlad és que Cassini va volar directament pels seus panaches i va analitzar el contingut: aigua salada, molècules orgàniques i hidrogen molecular. L'hidrogen suggereix activitat hidrotermal — reaccions entre roca calenta i aigua — el mateix tipus de química que sustenta ecosistemes profunds a la Terra sense necessitat de llum solar. Les condicions semblen favorables, tot i que no hi ha cap detecció de vida."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-02-02",
+          "style": "detect-error",
+          "statement": "Venus no és habitable perquè es troba fora de la zona habitable del Sol.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és la raó donada: Venus sí que es troba dins de la zona habitable clàssica del Sol — de fet, és el planet veí interior de la Terra. El problema de Venus no és la distància a l'estrella sinó l'efecte hivernacle desbocó: una atmosfera densa de CO₂ que eleva la temperatura superficial a 460°C, molt per sobre del que cap criteri de zona habitable implica automàticament. Venus és precisament l'exemple que la zona habitable no garanteix habitabilitat: les condicions atmosfèriques, geoquímiques i geològiques importaen tant o més que la distància."
+        },
+        {
+          "type": "misconception",
+          "belief": "Buscar vida extraterrestre vol dir buscar vida similar a la terrestre — amb ADN, proteïnes i metabolisme basat en carboni i oxigen.",
+          "reality": "La biologia terrestre utilitza carboni, aigua i un conjunt específic de molècules perquè és el que va funcionar aquí. El carboni és un candidat excel·lent per a la vida en general (per la seva versatilitat química), però altres solvents i bioquímiques alternatives no estan excloses. El problema pràctic és que no sabem buscar el que no sabem com és — els instruments actuals estan dissenyats per detectar biosignatures similars a les terrestres.",
+          "why": "Tota la biologia que coneixem és terrestre, i la nostra intuïció sobre el que és vida la construïm des d'un únic exemple. El risc és aplicar criteris massa restrictius i no reconèixer la vida si és diferent."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-ma-02-01",
+          "question": "Si trobéssim vida en les llunes gelades del sistema solar que depengués de calor de marea en lloc de llum solar, quines implicacions tindria per al nombre de llocs potencialment habitats a l'univers?",
+          "options": [
+            "Poques: les llunes gelades son igualment rares que els planetes en zona habitable",
+            "Significatives: els oceans subterranis mantinguts per calor de marea podrien ser molt més abundants que els planetes en zona habitable clàssica",
+            "Negatives: demostraria que la vida és possible sense llum solar, cosa que complicaria la cerca perquè el nombre de candidats seria inmanejable"
+          ],
+          "correct": 1,
+          "explanation": "La calor de marea no requereix una estrella propera: depèn de les interaccions gravitacionals entre cossos massius. Qualsevol sistema planetari amb llunes de mida adequada orbitant un planeta gegant podria tenir oceans subterranis, independentment de la distància a l'estrella. Això expandiria dràsticament el nombre de llocs potencialment habitables: no caldria estar en la zona habitable clàssica, sinó simplement tenir les condicions dinàmiques adequades. Alguns astrònoms han estimat que els oceans subterranis podrien ser molt més abundants que els superficials a l'escala de la galàxia. Pel que fa a la «complicació» de la tercera opció — en realitat és una oportunitat: més candidats vol dir més probabilitat que la vida existeixi en algun lloc, fins i tot si la cerca es complica logísticament."
+        }
+      ]
+    },
+    {
+      "id": "ma-03",
+      "title": "James Webb: llegir atmosferes a 40 anys llum",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El James Webb Space Telescope va ser llançat el 25 de desembre de 2021, després de 25 anys de desenvolupament i múltiples retards. El seu mirall de 6,5 metres i els seus instruments d'infraroig el fan capaç d'alguna cosa que fa deu anys semblava ciència ficció: analitzar la composició química de l'atmosfera d'un exoplaneta mentre transita la seva estrella. La llum de l'estrella passa per les vores de l'atmosfera del planeta, i cada molècula absorbeix longituds d'ona específiques. El resultat és un espectre — una empremta dactilar química — que ens diu qué hi ha a l'atmosfera. El 2023 va detectar CO₂ en un exoplaneta per primera vegada. El 2024 va trobar senyals de dimetilsulfur en K2-18b. I aquí és on les coses es posen interessants."
+        },
+        {
+          "type": "key-idea",
+          "text": "Una biosignatura és una molècula o conjunt de molècules la presència de les quals en una atmosfera planetària seria difícil d'explicar sense processos biològics. L'oxigen lliure, el metà en desequilibri amb l'oxigen, el dimetilsulfur i el protòxid de nitrogen són candidates. Cap d'elles és prova definitiva de vida — totes poden tenir orígens abiòtics. Però la combinació d'algunes d'elles, en proporcions que la química inorgànica no pot mantenir en equilibri, seria molt suggestiva."
+        },
+        {
+          "type": "expandable",
+          "label": "El cas K2-18b i el dimetilsulfur: esperança i prudència",
+          "content": "K2-18b és un exoplaneta de 8 masses terrestres que orbita en la zona habitable d'una nana M a 120 anys llum. El 2023, James Webb va detectar CO₂ i metà en la seva atmosfera — consistent amb un «món Hycean», hipotèticament cobert d'un oceà d'hidrogen sota una atmosfera rica en hidrogen. El 2024, un estudi va anunciar la possible detecció de dimetilsulfur (DMS) — una molècula produïda principalment per fitoplàncton marí a la Terra. La notícia va recórrer el món. Però la senya: el senyal de DMS estava al límit de detecció, amb una significança estadística baixa (~2 sigma, quan el convencional en física és 5 sigma). L'equip mateix va publicar amb cautela. Des de llavors, anàlisis independents han qüestionat la interpretació. El DMS podria tenir origen abiòtic en condicions d'un món Hycean. El cas K2-18b il·lustra exactament la dificultat: la detecció de biosignatures requerirà molts anys de confirmació independent i alt rigor estadístic."
+        },
+        {
+          "type": "image",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/James_Webb_Space_Telescope_reaching_L2.jpg/1200px-James_Webb_Space_Telescope_reaching_L2.jpg",
+          "alt": "Il·lustració artística del James Webb Space Telescope desplegat a l'espai, amb el seu característic mirall daurat hexagonal de 6,5 metres i el parasol de cinc capes que el protegeix de la calor del Sol.",
+          "caption": "El James Webb Space Telescope en el punt L2, a 1,5 milions de km de la Terra. Operatiu des del 2022, és l'observatori espacial més potent mai construït.",
+          "credit": "NASA / ESA / CSA — Wikimedia Commons, domini públic"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-03-01",
+          "style": "multiple-choice",
+          "question": "Com analitza el James Webb l'atmosfera d'un exoplaneta sense poder veure el planeta directament?",
+          "options": [
+            "Mesura la llum reflectida per la superfície del planeta durant la nit",
+            "Analitza l'espectre de la llum de l'estrella que travessa l'atmosfera del planeta durant un trànsit",
+            "Detecta les emissions de ràdio que l'atmosfera del planeta emet cap a l'espai",
+            "Compara la llum de l'estrella quan el planeta hi és davant amb quan és al darrere"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte — és la tècnica d'espectroscòpia de trànsit. Durant un trànsit, una petita fracció de la llum de l'estrella passa per les vores de l'atmosfera del planeta. Cada molècula absorbeix longituds d'ona específiques de l'infraroig, creant «línies d'absorció» en l'espectre. Comparant l'espectre de l'estrella sola amb el de l'estrella durant el trànsit, es pot identificar quines molècules estan presents a l'atmosfera i en quines concentracions aproximades.",
+          "feedbackWrong": "La tècnica és l'espectroscòpia de trànsit. Durant el trànsit, la llum de l'estrella passa per les vores de l'atmosfera del planeta. Les molècules de l'atmosfera absorbeixen longituds d'ona concretes de l'infraroig — cada molècula té un patró d'absorció únic, com una empremta dactilar. Comparant l'espectre amb i sense trànsit, es pot identificar la composició química de l'atmosfera."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-03-02",
+          "style": "detect-error",
+          "statement": "La detecció de dimetilsulfur en K2-18b per part del James Webb confirma que hi ha vida en aquell planeta.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és 'confirma'. La possible detecció de DMS en K2-18b (2024) estava al límit de detecció estadística (~2 sigma, molt per sota del threshold de 5 sigma), el propi equip va publicar amb cautela, i anàlisis independents han qüestionat tant la significança estadística com la interpretació biològica. A més, el DMS podria tenir origen abiòtic en les condicions d'un món Hycean. Una biosignatura plausible és molt diferent de la confirmació de vida. La confirmació requeriria múltiples deteccions independents amb alta significança estadística i exclusió de totes les explicacions abiòtiques plausibles."
+        },
+        {
+          "type": "debate",
+          "question": "Quan es detecti una biosignatura en un exoplaneta, com s'hauria de comunicar públicament?",
+          "positionA": {
+            "label": "Amb tota la cautela científica",
+            "argument": "Una biosignatura és una evidència circumstancial, no una confirmació. Anunciar «possiblement hem trobat vida» sense el rigor de la confirmació científica podria crear falses esperances i erosionar la confiança pública quan no es confirmi. La ciència ha de comunicar les seves incerteses amb la mateixa claredat que els seus descobriments."
+          },
+          "positionB": {
+            "label": "Amb claredat sobre la importància del moment",
+            "argument": "Si la ciència no comunica l'importància dels seus descobriments, ho fan altres amb menys rigor. Una possible biosignatura amb alta significança estadística és un resultat científic extraordinari que mereix ser presentat com el que és — amb incerteses, però sense minimitzar-ne la rellevància. La cautela excessiva pot fer la ciència inaccessible i irrelevant per al públic."
+          },
+          "reflection": "La NASA i l'ESA han establert protocols específics per a la comunicació de possibles deteccions de vida extraterrestre. Qui creus que hauria de controlar el missatge: els científics, les agències, els governs?",
+          "context": "El 2020, un anunci de possible fosfina a Venus —una possible biosignatura— va generar titular mundial. En mesos, l'anàlisi va ser qüestionada i parcialment retirada. El cas va generar debat intens sobre com la ciència en curs interacciona amb la comunicació pública."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-ma-03-01",
+          "question": "Si el James Webb detectés oxigen lliure i metà simultàniament en l'atmosfera d'un exoplaneta, per qué seria especialment significatiu?",
+          "options": [
+            "Perquè l'oxigen és el senyal més directe de fotosíntesi",
+            "Perquè l'oxigen i el metà reaccionen espontàniament i no poden coexistir en equilibri químic durant temps geològics sense un procés que els regeneri continuament",
+            "Perquè la combinació és idèntica a l'atmosfera terrestre i indicaria un planeta bessó de la Terra"
+          ],
+          "correct": 1,
+          "explanation": "La coexistència d'oxigen lliure (O₂) i metà (CH₄) és química i termodinàmicament inestable: reaccionen entre si a temperatura ambient amb una velocitat que esgotaria les reserves en pocs milers d'anys. Si tots dos estan presents en quantitats significatives en una atmosfera, ha d'existir algun procés que els regeneri contínuament. A la Terra, la fotosíntesi produeix O₂ i els organismes metanògens (bacteris anaerobis) produeixen CH₄. Cap procés geoquímic conegut explica la producció simultània i contínua de totes dues molècules en quantitats significatives. Això és el que fa la combinació O₂ + CH₄ una biosignatura particularment forta — no individual, sinó com a desequilibri atmosfèric que requereix explicació. Dit d'una altra manera: la termodinàmica ens diu que si totes dues hi són, alguna cosa les ha de mantenir allà activament."
+        }
+      ]
+    },
+    {
+      "id": "ma-04",
+      "title": "El silenci de Fermi: on és tothom?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1950, durant un dinar a Los Álamos, Enrico Fermi va plantejar una pregunta que sembla innocent: si l'univers té milers de milions d'anys, i si hi ha tants planetes potencialment habitables, i si alguns han de tenir civilitzacions tecnològiques, on són? En el temps que porta l'univers existint, una civilització amb tecnologia modesta podria colonitzar tota la galàxia en uns pocs milions d'anys — un instant geològic. Que no veiem cap senyal de ningú no sembla consistent amb la suposició que hi ha moltes civilitzacions tecnològiques. Alguna cosa no quadra. Però no sabem qué."
+        },
+        {
+          "type": "key-idea",
+          "text": "La paradoxa de Fermi no és una paradoxa en el sentit lògic — no és que les premisses siguin contradictoris. És una tensió: les estimacions de civilitzacions possibles i l'absència d'observació no encaixen. Les solucions possibles van des de «la vida és extremadament rara» fins a «les civilitzacions avançades no fan el que nosaltres esperem», passant per «el Gran Filtre és al davant de nosaltres»."
+        },
+        {
+          "type": "expandable",
+          "label": "L'equació de Drake: un marc per estructurar la ignorància",
+          "content": "El 1961, Frank Drake va proposar una equació que descompon la probabilitat de civilitzacions comunicatives en factors: la taxa de formació d'estrelles, la fracció amb planetes, la fracció d'aquells habitables, la fracció on sorgeix la vida, la fracció on sorgeix intel·ligència, la fracció que desenvolupa tecnologia comunicativa, i la durada de la fase comunicativa. La seva genialitat no és donar una resposta — és identificar on és la nostra ignorància. Alguns factors es coneixen bé ara (formació d'estrelles, planetes). Altres continuen completament desconeguts (fracció on sorgeix vida, durada de civilitzacions). Drake la va presentar per estructurar una conferència, no com a eina predictiva. Ha acabat sent una de les equacions més cèlebres de la ciència, no per la seva precisió sinó per la seva utilitat com a mapa d'ignoràncies."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1950",
+              "title": "Fermi formula la paradoxa en un dinar",
+              "text": "«Where is everybody?» — la pregunta que marca el camp de la intel·ligència extraterrestre."
+            },
+            {
+              "year": "1961",
+              "title": "Drake formula la seva equació a la primera conferència SETI",
+              "text": "Green Bank, West Virginia. Deu científics discuteixen la probabilitat de vida intel·ligent."
+            },
+            {
+              "year": "1977",
+              "title": "El senyal Wow!",
+              "text": "El radiotelescopi Big Ear de Ohio detecta un senyal de 72 segons consistent amb una transmissió de ràdio extraterrestre. Mai s'ha repetit ni explicat."
+            },
+            {
+              "year": "1984–actualitat",
+              "title": "SETI Institute: cerca activa sense resultat",
+              "text": "Quaranta anys de cerca sistemàtica de senyals de ràdio d'intel·ligència extraterrestre. Cap confirmació."
+            },
+            {
+              "year": "2015–2016",
+              "title": "Estrella de Tabby: la hipòtesi megaestructura",
+              "text": "KIC 8462852 mostra dimminaments de llum irregulars i profunds. Especulació sobre megaestructures. Explicació final: pols circumestelar."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-04-01",
+          "style": "multiple-choice",
+          "question": "Quin és el «Gran Filtre» en el context de la paradoxa de Fermi?",
+          "options": [
+            "La barrera tecnològica que impedeix a les civilitzacions viatjar a velocitats superiors a la de la llum",
+            "Un o diversos passos en l'evolució d'una civilització que són extremadament improbables i expliquen per qué no veiem ningú",
+            "La zona de ràdio-interferència de la Via Làctia que impedeix detectar senyals extraterrestres",
+            "El límit de distància màxima a la qual podem detectar senyals de ràdio d'una civilització"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El Gran Filtre, proposat per Robin Hanson el 1998, és la hipòtesi que en algun punt de la cadena que va de matèria inerta a civilització galáctica hi ha un o diversos passos tan improbables que gairebé cap línia evolutiva els supera. La pregunta angoixant és si el Gran Filtre és darrere nostre (l'origen de la vida és extremadament rar, i nosaltres vam tenir sort) o davant (alguna cosa destrueix les civilitzacions tecnològiques — i nosaltres encara no hem arribat a aquell punt).",
+          "feedbackWrong": "El Gran Filtre és la hipòtesi d'un o varios obstacles extremadament improbables en la cadena que porta de matèria inerta a civilització tecnològicament avançada. La pregunta clau no és només «existeix» sinó «on és»: si és darrere nostre (l'origen de la vida és rarísim), som afortunats. Si és davant (les civilitzacions avançades s'autodestrueixen), la perspectiva és inquietant."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-04-02",
+          "style": "true-false",
+          "question": "Trobar bacteris o vida simple en Mart o en les llunes gelades del sistema solar seria una gran notícia per a les perspectives de supervivència de la humanitat.",
+          "correct": false,
+          "feedbackCorrect": "Contraintuïtivament, alguns físics —com Nick Bostrom— argumenten el contrari. Si trobéssim vida a Mart, implicaria que la vida sorgeix fàcilment quan les condicions ho permeten (fL gran). Però llavors la paradoxa de Fermi es fa més aguda: per qué no veiem cap civilització avançada? La resposta seria que el Gran Filtre és davant nostre — alguna cosa deté les civilitzacions tecnològiques abans que es facin detectable. En canvi, si Mart és estèril, el Gran Filtre podria ser darrere nostre (l'origen de la vida és extremadament rar), i nosaltres hauríem superat l'obstacle principal.",
+          "feedbackWrong": "La lògica del Gran Filtre fa que la resposta sigui contraintuïtiva. Si trobéssim vida a Mart, significaria que la vida sorgeix fàcilment — cosa que fa més misteriós l'absència de civilitzacions avançades (paradoxa de Fermi). El Gran Filtre haurà de ser davant nostre. Si Mart és estèril, l'origen de la vida podria ser el Gran Filtre, i nosaltres hauríem tingut sort de superar-lo. Nick Bostrom va argumentar: «La millor notícia seria trobar Mart completament mort»."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-ma-04-01",
+          "question": "La paradoxa de Fermi té moltes solucions possibles. Quina és la que trobes menys satisfactòria i per qué?",
+          "options": [
+            "La hipòtesi del zoo: les civilitzacions avançades ens observen però no intervenen per política deliberada",
+            "La hipòtesi de la Terra rara: la combinació de factors que fa habitable la Terra és tan improbable que som els únics",
+            "La hipòtesi del Gran Filtre davant: totes les civilitzacions tecnològiques s'autodestrueixen abans de ser detectables"
+          ],
+          "correct": 0,
+          "explanation": "Aquesta és una de les poques preguntes del mòdul on no hi ha una resposta objectivament correcta — les tres hipòtesis tênen problemes seriosos. La hipòtesi del zoo requereix que totes les civilitzacions avançades (potencialment milers o milions) acordin una política consistent de no-contacte sense cap excepció en escales de temps de milions d'anys — un acord molt difícil de mantenir. La hipòtesi de la Terra rara és falsificable: si fos certa, esperaríem trobar molt poca vida simple arreu del sistema solar. La hipòtesi del Gran Filtre davant és la més inquietant perquè implica que la nostra civilització té una probabilitat molt baixa de supervivència. En el context pedagògic, la resposta 'correcta' marcada és la hipòtesi del zoo perquè és la que la majoria de físics consideren menys satisfactòria científicament —és inherentment difícil de falsificar i requereix suposar un comportament coordinat a escales impossibles de verificar. Però és una qüestió de judici, no de fet."
+        }
+      ]
+    },
+    {
+      "id": "ma-05",
+      "title": "TRAPPIST-1: set planetes, moltes preguntes",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El febrer de 2017, la NASA va anunciar el descobriment de set planetes del tamany de la Terra orbitant una única estrella nana ultrafría a 39 anys llum: TRAPPIST-1. Tres d'ells en zona habitable. L'anunci va ser portada de tots els diaris del món. Les xarxes van explotar. I els astrònoms van passar els mesos següents explicant, pacientemente, que «en zona habitable» no és el mateix que «habitable», i que 39 anys llum és molt lluny, i que hi ha moltes coses que no sabem. Però el sistema TRAPPIST-1 és genuïnament interessant — i el James Webb l'ha fet el seu objectiu principal."
+        },
+        {
+          "type": "key-idea",
+          "text": "TRAPPIST-1 és una nana M ultrafría — molt més petita, freda i de llarga vida que el Sol. Les nanes M representen el 75% de les estrelles de la Via Làctia i viuen bilions d'anys, molt més que el Sol. Si les nanes M poden tenir planetes habitables, el nombre de llocs potencials per a la vida augmenta dràsticament. Però les nanes M emeten flarades de radiació intensa que poden erosionar atmosferes, i els planetes en zona habitable estan tan a prop que probablement estan en rotació síncrona — una cara sempre al dia, l'altra sempre a la nit."
+        },
+        {
+          "type": "expandable",
+          "label": "Rotació síncrona: el problema del planeta amb una sola cara al Sol",
+          "content": "Els planetes de TRAPPIST-1 en zona habitable orbiten tan a prop de l'estrella que la marea gravitacional ha sincronitzat la seva rotació: la mateixa cara mira sempre a l'estrella, com la Lluna sempre mostra la mateixa cara a la Terra. El costat de dia tindria una temperatura extremadament alta; el de nit, una temperatura de congelació profunda. Durant anys es va pensar que això faria els planetes inhabitables. Models climàtics actuals suggereixen que una atmosfera prou densa podria redistribuir la calor i crear condicions habitables en una franja de llim entre els dos costats. És una qüestió oberta, activa i no resolta."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-05-01",
+          "style": "multiple-choice",
+          "question": "Per qué les nanes M —el tipus d'estrella més abundant de la galàxia— presenten avantatges i desavantages per a l'habitabilitat dels seus planetes?",
+          "options": [
+            "Avantatge: viuen bilions d'anys, donant temps a l'evolució. Desavantatge: emeten flarades de radiació UV i X que poden erosionar atmosferes dels planetes propers.",
+            "Avantatge: emeten molta llum infraroja. Desavantatge: els planetes han d'orbitar molt lluny i fan òrbites molt llargues.",
+            "Avantatge: formen molts planetes. Desavantatge: no tenen zona habitable.",
+            "Avantatge: la seva baixa temperatura fa els planetes propers més freds i estables. Desavantatge: no produeixen prou llum per a la fotosíntesi."
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. Les nanes M viuen bilions d'anys — molt més que el Sol, que viurà uns 10.000 milions en total. Donar molt de temps a l'evolució és un avantatge. Però per estar en zona habitable, els planetes han d'orbitar molt a prop (òrbites de dies), cosa que els exposa a flarades intenses de radiació ultraviolada i de raigs X que les nanes M emeten freqüentment, especialment quan són joves. Aquesta radiació pot erosionar l'atmosfera del planeta, llevant-li la protecció necessària per a la vida. Si el planeta pot retenir una atmosfera suficient, té molts bilions d'anys per a l'evolució. Si no pot, és inhabitable malgrat estar en zona habitable.",
+          "feedbackWrong": "Les nanes M emeten menys llum visible que el Sol, però els planetes en zona habitable hi estan molt més a prop — de manera que reben energia comparable. El gran avantatge és la longevitat: bilions d'anys per a l'evolució. El gran desavantatge és l'activitat estel·lar: les nanes M emeten flarades freqüents de radiació intensa (UV, raigs X) que poden erosionar les atmosferes dels planetes propers, on han d'estar per ser en zona habitable."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-05-02",
+          "style": "true-false",
+          "question": "El James Webb Space Telescope ha confirmat l'existència d'atmosferes en els planetes de TRAPPIST-1 en zona habitable.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Les primeres observacions del James Webb dels planetes de TRAPPIST-1 han donat resultats mixtos i sense confirmació d'atmosferes. TRAPPIST-1b i TRAPPIST-1c (els dos més propers a l'estrella) semblen no tenir atmosfera densa — o tenir-la molt prima. Els planetes en zona habitable (e, f, g) són més difícils d'observar i els resultats fins a data de tall del mòdul no han confirmat ni descartat atmosferes. La cerca continua activament.",
+          "feedbackWrong": "Les primeres dades del James Webb sobre TRAPPIST-1 han estat parcials i sense conclusions definitives. TRAPPIST-1b i 1c no semblen tenir atmosferes denses. Els planetes en zona habitable requereixen moltes més hores d'observació per obtenir senyals estadísticament significatius. La cerca continua — és un objectiu científic de màxima prioritat per a la missió."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "La matèria i l'energia fosques",
+          "moduleEmoji": "🕳️",
+          "concept": "Els límits del que podem observar",
+          "text": "Igual que la matèria fosca és coneguda pels seus efectes gravitacionals però invisible a la llum, la vida en un exoplaneta seria coneguda pels seus efectes químics en l'atmosfera però no observable directament. En tots dos casos, inferim el que no podem veure a partir d'empremtes indirectes. I en tots dos casos, la interpretació d'aquestes empremtes requereix excloure explicacions alternatives no biológiques."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-ma-05-01",
+          "question": "Si el James Webb trobés cap evidència d'atmosferes en cap dels set planetes de TRAPPIST-1, quin seria l'impacte sobre la cerca de vida en exoplanetes?",
+          "options": [
+            "Demostraria que les nanes M no poden tenir planetes habitables i caldria centrar-se en estrelles similars al Sol",
+            "Seria una dada important però limitada: TRAPPIST-1 és un únic sistema, i altres nanes M o altres tipus d'estrelles podrien tenir planetes amb atmosferes",
+            "Confirmaria la hipòtesi de la Terra rara i indicaria que la vida és probablement única a l'univers"
+          ],
+          "correct": 1,
+          "explanation": "La inducció a partir d'un únic sistema és epistemològicament fràgil. TRAPPIST-1 és una nana M de tipus específic, amb una activitat estel·lar concreta, en una posició concreta de la galàxia. Que els seus planetes no tinguin atmosferes seria un resultat científic important — indicaria que aquell tipus de sistema no és bon candidat per a la vida — però no permetria concloure res sobre totes les nanes M, ni sobre planetes de nanes G (com el Sol), ni sobre llunes gelades, ni sobre cap dels milers de sistemes que no hem estudiat. La ciència funciona per acumulació d'exemples: un contraexemple refina el model, però rarament el derroca completament. Si sistemàticament cap nana M tingués planetes amb atmosferes, llavors podríem parlar d'una tendència significativa."
+        }
+      ]
+    },
+    {
+      "id": "ma-06",
+      "title": "El que no sabem buscar — i el que mai podrem saber",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hi ha una limitació que rarament s'esmenta en els articles de divulgació sobre la cerca de vida extraterrestre: tots els nostres instruments, totes les nostres biosignatures, tots els nostres criteris d'habitabilitat, estan dissenyats per detectar vida com la que coneixem. Carboni, aigua, metà, oxigen, molècules orgàniques. Però la vida terrestre és un únic punt de dades. No sabem si és típica, si és la única possibilitat química, o si és un accident improbable d'un espai de possibilitats molt més gran. Podríem estar buscant llums en la foscor amb un detector que només veu el roig."
+        },
+        {
+          "type": "key-idea",
+          "text": "El problema de la «vida com la coneixem» és epistemològic: no tenim cap marc teòric complet de per qué la vida ha de ser basada en carboni i aigua, ni cap definició física de «vida» que no estigui construïda a partir d'exemples terrestres. Cercar vida és, en part, cercar alguna cosa que no sabem del tot definir."
+        },
+        {
+          "type": "expandable",
+          "label": "Definir la vida: el problema que no té consens",
+          "content": "La NASA defineix la vida com «un sistema químic autosostingut capaç d'evolució darwiniana». La biologia convencional la defineix per metabolisme, reproducció, resposta a l'entorn, creixement, organització cel·lular... Cap definició és universalment acceptada ni exclou tots els contraexemples. Els focs perpetuos (mantinguts per reaccions químiques autosostingudes però no vius) i els prions (que es repliquen però no metbolitzen) proven els límits de qualsevol definició. I si la vida basada en silici, o la vida en solvent diferent de l'aigua, o la vida purament informacional (si l'IA avançada pot «viure») — tot plegat fa que la pregunta «hi ha vida allà fora» tingui una resposta que depèn de la definició."
+        },
+        {
+          "type": "misconception",
+          "belief": "Si detectem una biosignatura en un exoplaneta, tindrem la confirmació de vida extraterrestre.",
+          "reality": "Una biosignatura és una evidència circumstancial que requereix excloure totes les explicacions abiòtiques alternatives. Cap molècula individual és prova suficient — fins i tot l'oxigen, considerat la biosignatura més robusta, pot produir-se per fotòlisi de l'aigua en condicions específiques. La confirmació requeriria múltiples biosignatures coherents entre si, alta significança estadística, i exclusió sistemàtica de tots els mecanismes abiòtics coneguts.",
+          "why": "El terme «biosignatura» sona definitiu. Però és una abreviació de «molècula que en el context de la Terra associem a processos biològics» — no de «prova de vida»."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-06-01",
+          "style": "multiple-choice",
+          "question": "Quin és el problema fonamental de buscar «biosignatures» en exoplanetes?",
+          "options": [
+            "Que els instruments actuals no tenen prou resolució per detectar molècules en atmosferes remotes",
+            "Que totes les biosignatures considerades es basen en la bioquímica terrestre, i la vida podria ser molt diferent a l'univers",
+            "Que les biosignatures es destrueixen per la radiació durant el viatge de la llum fins a la Terra",
+            "Que cap molècula és exclusivament biològica i totes es produeixen en processos geoquímics"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El problema fonamental és l'etnocentrisme bioquímic: dissenyem la cerca a partir de l'únic exemple de vida que coneixem. Si la vida en algun altre planeta usa un solvent diferent, una bioquímica diferent, o processos metabòlics que no produeixen les molècules que busquem, no la detectaríem. La resolució instrumental és un problema pràctic soluble amb millors telescopis. El problema de la definició és més profund i no es resol amb millors instruments.",
+          "feedbackWrong": "El problema pràctic (resolució instrumental) és real però soluble — els telescopis milloren. El problema fonamental és conceptual: tots els criteris de cerca estan construïts des de l'únic exemple de vida que coneixem, la terrestre. Si la vida pot basar-se en una bioquímica radicalment diferent, els nostres detectors no la veurien ni amb resolució perfecta."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-ma-06-02",
+          "style": "true-false",
+          "question": "Si una civilització extraterrestre avançada decidís no comunicar-se, no hi hauria cap manera de detectar la seva existència.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Una civilització tecnològicament avançada alteraria el seu entorn de maneres detectable fins i tot sense voler-ho: calor residual de processos industrials (signatures d'infraroig), megaestructures que alterarien la llum de l'estrella, transformació química de la seva atmosfera, o l'emissió de senyals no intencionals. El concepte de «tecnosignatura» s'expandeix la cerca més enllà de les comunicacions deliberades. En teoria, una civilització amb tecnologia equivalent a la nostra seria detectable per telescopis futurs per la seva contaminació lluminosa nocturna, si estigués prou a prop.",
+          "feedbackWrong": "Una civilització tecnològica avançada modifica el seu entorn de maneres potencialment detectables sense necessitat de comunicació deliberada. Les «tecnosignatures» inclouen calor residual de processos industrials, alteracions atmosfèriques, megaestructures que modifiquen la llum de l'estrella, o llum artificial nocturna. Una civilització que consumeix energia a l'escala de la seva estrella (escala de Kardashev II) seria detectable a gran distància pel seu excés d'infraroig."
+        },
+        {
+          "type": "reflection",
+          "question": "Si demà confirmessim vida microbiana en un exoplaneta, qué canviaria en com et relaciones amb la teva pròpia existència? I si confirmessim que estem completament sols a l'univers observable?",
+          "prompt": "Les dues respostes diuen coses molt diferents sobre l'univers. Pren-te un moment per imaginar-les de veritat."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-ma-06-01",
+          "question": "La cerca de vida extraterrestre és una de les preguntes científiques més importants que podem plantejar. Però «important» no implica «responible». Podria ser una pregunta que mai podem respondre definitivament?",
+          "options": [
+            "No: si la vida existeix, eventalment la detectarem amb instruments prou potents",
+            "Sí: hi ha escenaris on la vida extraterrestre podria existir però ser físicament impossible de detectar des de la Terra",
+            "Depèn de la definició de vida: algunes formes de vida extraterrestre podrien ser detectables, d'altres no, i el límit entre les dues categories és imprecís"
+          ],
+          "correct": 2,
+          "explanation": "La respondibilitat de la pregunta depèn de molts factors simultanis. Si la vida és abundant i produeix biosignatures similars a les terrestres en planetes propers, eventalment la detectarem. Si la vida és rara, o usa bioquímica molt diferent, o existeix en oceans subterranis sense contacte amb l'atmosfera, podríem no detectar-la mai des de la distància. Si la vida intel·ligent existeix però ha optat per no emetre senyals (o per emetre en formes que no reconeixem), tampoc la detectaríem. I hi ha l'horitzó cosmològic: les galàxies més llunyanes s'allunyen a velocitats superiors a la de la llum — vida que hi existeixi és físicament inaccessible per a nosaltres. La cerca de vida extraterrestre és una de les empreses científiques més importants no perquè tinguem garantia d'èxit, sinó perquè les implicacions de qualsevol resposta —sí, no, o no ho sabem— serien transformadores per a com entenem el nostre lloc a l'univers."
+        }
+      ]
+    }
+  ]
+}

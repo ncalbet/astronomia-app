@@ -1,0 +1,502 @@
+{
+  "id": "module-08-origen-desti-univers",
+  "title": "L'origen i el destí de l'univers",
+  "emoji": "🌌",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "odu-01",
+      "title": "El Big Bang: el que sabem (i el segon zero)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hi ha una pregunta que els cosmòlegs saben respondre amb una precisió extraordinària: com era l'univers fa 13.800 milions d'anys, en els seus primers instants. Tenim equacions. Tenim observacions. Tenim dades tan precises que podem descriure l'univers quan tenia un segon de vida. El problema és el segon zero. Quan arribem a l'instant inicial, les equacions deixen de funcionar. Literalment. I ningú sap del cert per què."
+        },
+        {
+          "type": "key-idea",
+          "text": "El Big Bang no és una explosió en l'espai. És l'expansió de l'espai mateix — incloent-hi el temps. Preguntar «què hi havia abans» és com preguntar «què hi ha al nord del pol nord»: la pregunta no té resposta perquè la categoria «abans» deixa d'existir."
+        },
+        {
+          "type": "misconception",
+          "belief": "El Big Bang va ser una gran explosió que va succeir en un punt concret de l'espai.",
+          "reality": "El Big Bang no va succeir en cap lloc concret. Tot l'espai —inclosa la distància entre les galàxies— era comprimit en aquell primer estat. L'expansió afecta tot l'espai alhora, no hi ha un centre ni un exterior.",
+          "why": "La paraula «explosió» evoca una bomba: un punt que s'expandeix cap a un espai buit preexistent. Però l'espai no preexistia. L'espai en si és el que s'expandeix."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "10⁻⁴³ s",
+              "title": "Temps de Planck — la frontera del coneixement",
+              "text": "Abans d'aquest instant, la física actual no pot dir res. La gravetat quàntica, que no tenim, seria necessària."
+            },
+            {
+              "year": "10⁻³⁶ s",
+              "title": "Inflació còsmica",
+              "text": "L'univers s'expandeix a una velocitat impossible d'imaginar: de subatòmic a mida de taronja en una fracció de segon."
+            },
+            {
+              "year": "3 minuts",
+              "title": "Nucleosíntesi primordial",
+              "text": "Es formen els primers nuclis atòmics: hidrogen, heli, una mica de liti. La proporció és exactament la que observem avui."
+            },
+            {
+              "year": "380.000 anys",
+              "title": "L'univers es torna transparent",
+              "text": "Els electrons es combinen amb els nuclis. La llum pot viatjar per primera vegada. Aquesta és la radiació de fons de microones que detectem avui."
+            },
+            {
+              "year": "13.800 milions d'anys",
+              "title": "Ara",
+              "text": "Tu llegeixes això en un planeta d'una estrella d'una galàxia entre dos bilions de galàxies observables."
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "La radiació de fons de microones: la foto de nadó de l'univers",
+          "content": "El 1965, Arno Penzias i Robert Wilson intentaven calibrar una antena de ràdio i no podien eliminar un soroll de fons molest. Van buscar columbes a l'antena. Van netejar els excrements. El soroll seguia. Era la radiació de fons de microones: la llum del Big Bang, refredada durant 13.800 milions d'anys fins a 2,7 graus sobre el zero absolut. Sense voler-ho, havien descobert l'eco de la creació de l'univers. Van guanyar el Nobel el 1978. Les columbes no van guanyar res."
+        },
+        {
+          "type": "prediction",
+          "question": "Si l'univers s'ha estat expandint durant 13.800 milions d'anys, l'objecte més llunyà que podem veure hauria d'estar a 13.800 milions d'anys llum. Però els astrònoms observen galàxies a 46.000 milions d'anys llum. Com és possible?",
+          "hint": "Pensa en el que passa amb l'espai mentre la llum viatja."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-01-01",
+          "style": "multiple-choice",
+          "question": "Per què podem veure galàxies a 46.000 milions d'anys llum si l'univers té 13.800 milions d'anys?",
+          "options": [
+            "Perquè la llum viatja més ràpid del que pensàvem",
+            "Perquè l'univers ja era gran quan va néixer",
+            "Perquè l'espai s'ha anat expandint mentre la llum viatjava cap a nosaltres",
+            "Perquè el temps passa diferent als extrems de l'univers"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. La llum d'aquelles galàxies va sortir fa menys de 13.800 milions d'anys, però mentre viatjava, l'espai que recorria s'anava expandint. És com caminar cap a una meta que s'allunya. La distància actual és molt major que la distància en el moment d'emissió.",
+          "feedbackWrong": "La clau és que l'espai mateix s'expandeix mentre la llum hi viatja. La galàxia estava molt més a prop quan va emetre la llum — però l'espai entre ella i nosaltres ha crescut enormement des d'aleshores. La llum ha fet tot el trajecte, però la distància actual és molt major."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-01-02",
+          "style": "true-false",
+          "question": "La física actual pot descriure amb precisió l'estat de l'univers en el moment exacte del Big Bang (t = 0).",
+          "correct": false,
+          "feedbackCorrect": "Correcte: és fals. Les equacions de la relativitat general trenquen quan apliquem condicions extremes com les del moment zero — les quantitats es fan infinites, cosa que en física sol significar que el model ha arribat al seu límit. Necessitem una teoria de la gravetat quàntica, que no tenim, per anar més enrere de 10⁻⁴³ segons.",
+          "feedbackWrong": "En realitat, la física actual no pot arribar a t = 0. Quan apliquem les equacions a condicions tan extremes, surten infinits — un senyal que el model ha fallat, no que l'univers sigui infinit. El temps de Planck (10⁻⁴³ s) és la frontera real del nostre coneixement."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-odu-01-01",
+          "question": "Si les equacions de la física «es trenquen» en el moment zero del Big Bang i donen resultats infinits, quin és el significat més probable d'aquest resultat?",
+          "options": [
+            "Que l'univers realment té propietats infinites en aquell moment",
+            "Que el model actual de la física és incomplet i necessita ser ampliat",
+            "Que el Big Bang no va passar realment i cal buscar una explicació alternativa"
+          ],
+          "correct": 1,
+          "explanation": "En física, un resultat infinit en una equació gairebé mai significa que la realitat és infinita — significa que el model ha superat el seu rang de validesa. Va passar el mateix amb la mecànica clàssica quan va arribar a l'àtom: les equacions de Newton donaven resultats absurds, no perquè l'àtom fos absurd, sinó perquè Newton no era la teoria correcta per a aquella escala. La gravetat quàntica — una teoria que unifica la relativitat general i la mecànica quàntica i que encara no existeix en forma completa — és probablement el que necessitem. El Big Bang com a fenomen és compatible amb el que observem; el punt zero és on el mapa s'acaba, no on la realitat s'acaba."
+        }
+      ]
+    },
+    {
+      "id": "odu-02",
+      "title": "Per què hi ha alguna cosa en lloc de res",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Aquí hi ha un problema que els físics prefereixen no mencionar a les festes. Si el Big Bang va crear matèria i energia en parts iguals, i si la matèria i l'antimatèria es destrueixen mútuament en contacte, l'univers hauria d'haver quedat completament buit en els seus primers instants. Cada partícula hauria trobat la seva antipartícula. Tot hauria esdevingut llum pura. I la llum sola no forma estrelles, ni planetes, ni cosmòlegs que es pregunten per qué existeixen. L'univers existeix per un error de comptabilitat còsmica. Tenim una lleugera idea de per qué. Lleugera."
+        },
+        {
+          "type": "key-idea",
+          "text": "Per cada 1.000.000.000 parells de matèria-antimatèria que es van crear al Big Bang, hi havia una partícula de matèria extra. Aquesta minúscula asimetria —una part en mil milions— és tot el que existeix. Tots els planetes, estrelles i galàxies de l'univers observable són, literalment, les restes d'un arrodoniment."
+        },
+        {
+          "type": "expandable",
+          "label": "Sakharov el 1967: les tres condicions per a un univers com el nostre",
+          "content": "Andrei Sakharov —físic soviètic i, com a hobby, dissenyador de la bomba d'hidrogen i defensor dels drets humans— va identificar el 1967 les tres condicions necessàries per explicar l'asimetria matèria-antimatèria. Primera: ha d'haver existit un procés que no conservés el nombre de baryons (partícules pesades com els protons). Segona: hi ha d'haver hagut violació de la simetria CP —és a dir, l'univers havia de tractar lleugerament diferent la matèria i l'antimatèria. Tercera: tot havia de passar fora de l'equilibri tèrmic. Sabem que les tres condicions s'han de complir. No sabem si les nostres teories actuals les satisfan en la quantitat correcta. El Model Estàndard de la física de partícules prediu una asimetria, però unes deu ordres de magnitud massa petita per explicar l'univers que tenim."
+        },
+        {
+          "type": "misconception",
+          "belief": "L'antimatèria és una invenció de la ciència ficció o quelcom molt rar que existeix en quantitats mínimes.",
+          "reality": "L'antimatèria és perfectament real i es produeix contínuament —en raigs còsmics, en hospitals amb escàners PET, i en el Gran Col·lisionador d'Hadrons. El misteri no és que existeixi, sinó per qué n'hi ha tan poca en comparació amb la matèria ordinària.",
+          "why": "La paraula «anti» sona a ficció. Però cada partícula té la seva antipartícula corresponent, igual de real. Un positró —l'antielectró— va ser descobert el 1932 en raigs còsmics naturals."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-02-01",
+          "style": "multiple-choice",
+          "question": "Si la matèria i l'antimatèria es van crear en quantitats iguals al Big Bang, i tota la matèria que veiem és el residu d'una lleugera asimetria, quina fracció de la matèria original ha «sobreviscut»?",
+          "options": [
+            "Aproximadament la meitat",
+            "Aproximadament un 10%",
+            "Aproximadament una part en mil milions",
+            "Tota: l'antimatèria es va dissipar sense destruir la matèria"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. Per cada mil milions de parells que es van anihilar, va sobreviure una sola partícula de matèria. El que ara anomenem l'univers observable —dos bilions de galàxies— és aquell residu infinitèsim. Tot el que veiem és, literalment, la part que va sobrar.",
+          "feedbackWrong": "La proporció és encara més extrema: aproximadament una part en mil milions. Per cada 1.000.000.000 de parells matèria-antimatèria que es van anihilar, va quedar una sola partícula de matèria. Tot l'univers visible és aquest residu."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-02-02",
+          "style": "detect-error",
+          "statement": "El Model Estàndard de física de partícules explica completament per qué hi ha més matèria que antimatèria a l'univers.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és «completament». El Model Estàndard prediu que hauria d'haver-hi alguna asimetria entre matèria i antimatèria —i ho fa— però la magnitud que prediu és uns deu ordres de magnitud (deu potències de deu) massa petita per explicar l'univers que observem. Hi ha d'haver algun mecanisme addicional de violació CP que encara no hem identificat. És un dels problemes oberts més importants de la física actual."
+        },
+        {
+          "type": "debate",
+          "question": "L'asimetria matèria-antimatèria és un problema físic o filosòfic?",
+          "positionA": {
+            "label": "És un problema físic pur",
+            "argument": "Hi ha una observació concreta —l'univers conté matèria i gairebé cap antimatèria— i necessitem un mecanisme físic que ho expliqui. Com qualsevol altra anomalia observacional, el camí és buscar les partícules o interaccions que falten al model. No hi ha res de filosòfic aquí: és una equació que no quadra i cal trobar el terme que hi manca."
+          },
+          "positionB": {
+            "label": "Conté un component filosòfic irreduïble",
+            "argument": "Preguntar «per qué hi ha alguna cosa en lloc de res» no és del tot una pregunta física. Fins i tot si trobem el mecanisme exacte que va crear l'asimetria, quedarà la pregunta de per qué les lleis de la física permeten —o exigeixen— aquest mecanisme. En algun punt, la física ha d'acceptar que les seves pròpies lleis existeixen i no pot explicar per qué."
+          },
+          "reflection": "Quan arriba al seu límit, la física ha de passar el relleu a la filosofia, o la filosofia és simplement física que encara no sap com es mesura?",
+          "context": "La majoria de físics treballen en la primera postura per necessitat professional. Però alguns —com Richard Feynman i, més recentment, Carlo Rovelli— han argumentat que la distinció entre física i metafísica no és tan clara com sembla quan s'arriba a les preguntes fonamentals."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-odu-02-01",
+          "question": "Alguns físics proposen que potser en alguna regió lluny de l'univers hi ha predominança d'antimatèria, i la nostra és una zona de matèria per pur atzar. Quin és el problema principal d'aquesta hipòtesi?",
+          "options": [
+            "Que l'antimatèria no pot existir en grans quantitats de forma estable",
+            "Que és una hipòtesi que per definició no es pot verificar ni refutar amb observacions",
+            "Que contradiu directament les observacions de la radiació de fons de microones"
+          ],
+          "correct": 1,
+          "explanation": "El problema principal és epistemològic: si les regions d'antimatèria estiguessin prou lluny per no interactuar amb les de matèria, no podríem observar-les de cap manera. Una hipòtesi que no fa prediccions verificables no és falsa —pot ser certa— però tampoc és ciència en el sentit popperià. A més, hi ha un problema addicional: les fronteres entre regions de matèria i antimatèria produirien anihilació i radiació gamma molt intensa que hauria de ser visible, i no ho és. La hipòtesi, doncs, tampoc es pot mantenir fàcilment en la seva forma senzilla."
+        }
+      ]
+    },
+    {
+      "id": "odu-03",
+      "title": "La inflació còsmica: la teoria que ho explica tot (massa bé)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1980, Alan Guth va tenir una idea que va resoldre tres problemes cosmològics de cop. L'univers, va proposar, va passar per un període d'expansió exponencial furiosa en els seus primers 10⁻³² segons —de mida subatòmica a mida d'un gra de sorra— abans de continuar expandint-se al ritme normal. Elegant. Potent. Verificable. El problema és que és tan flexible com model que alguns científics es pregunten si explica alguna cosa de veritat, o simplement s'adapta a qualsevol observació."
+        },
+        {
+          "type": "key-idea",
+          "text": "La inflació còsmica resol el problema de l'horitzó (per qué l'univers és tan uniforme en totes direccions), el problema de la planitud (per qué la geometria de l'univers és quasi perfectament plana) i el problema dels monopols magnètics (per qué no en veiem cap). Una teoria que resol tres problemes de cop és o un gran avanç o una teoria amb massa paràmetres lliures."
+        },
+        {
+          "type": "expandable",
+          "label": "El problema de l'horitzó: per qué la uniformitat és sospitosa",
+          "content": "Si observes la radiació de fons de microones en direccions oposades del cel, la temperatura és gairebé idèntica: 2,7255 K aquí i 2,7255 K allà, amb fluctuacions d'una part en cent mil. Però aquelles dues regions de l'univers mai han pogut estar en contacte físic —la llum no ha tingut temps de viatjar d'una a l'altra des del Big Bang. Com poden tenir la mateixa temperatura sense haver pogut intercanviar calor? La inflació ho resol: si tot l'univers era una regió subatòmica en contacte tèrmic i després es va expandir ràpidament, la uniformitat és natural. Però el problema és que la inflació es postula precisament per resoldre el problema, no per una raó independent."
+        },
+        {
+          "type": "quote",
+          "text": "La inflació és tan bona per resoldre problemes que em preocupa que pugui resoldre qualsevol problema.",
+          "author": "Paul Steinhardt, cosmòleg de Princeton i coautor original de la teoria de la inflació"
+        },
+        {
+          "type": "comparison",
+          "title": "Teoria de la inflació: punts forts i punts febles",
+          "labelA": "Arguments a favor",
+          "labelB": "Arguments en contra",
+          "items": [
+            {
+              "label": "Uniformitat",
+              "a": "Explica per qué l'univers és tan uniforme en totes direccions",
+              "b": "Va ser dissenyada específicament per explicar-ho"
+            },
+            {
+              "label": "Planitud",
+              "a": "Prediu una geometria quasi perfectament plana, confirmada",
+              "b": "El valor exacte del camp inflatònic és ajustat ad hoc"
+            },
+            {
+              "label": "Fluctuacions",
+              "a": "Prediu l'espectre de fluctuacions de temperatura, verificat",
+              "b": "Centenars de models d'inflació fan la mateixa predicció"
+            },
+            {
+              "label": "Falsabilitat",
+              "a": "Fa prediccions verificables sobre ones gravitacionals primordials",
+              "b": "L'espai de models és tan gran que es pot adaptar a quasi qualsevol resultat"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-03-01",
+          "style": "multiple-choice",
+          "question": "Quina de les observacions següents seria la prova més directa de la inflació còsmica?",
+          "options": [
+            "Trobar galàxies a distàncies superiors als 46.000 milions d'anys llum",
+            "Detectar ones gravitacionals primordials en la polarització de la radiació de fons de microones",
+            "Mesurar que l'expansió de l'univers s'accelera (ja confirmat per l'energia fosca)",
+            "Observar antimatèria en regions llunyanes de l'univers"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Correcte. La inflació hauria produït ones gravitacionals primordials —arrugues en l'espai-temps— que haurien deixat una empremta característica en la polarització de la radiació de fons de microones (el patró anomenat «modes B»). L'experiment BICEP2 el 2014 va creure haver-los detectat, però va resultar ser pols de la nostra galàxia. La recerca continua.",
+          "feedbackWrong": "La prova més directa seria detectar ones gravitacionals primordials en la polarització de la radiació de fons de microones —una signatura específica que la inflació hauria de produir i que altres teories no expliquen tan fàcilment. L'experiment BICEP2 va creure haver-ho aconseguit el 2014, però era pols intergalàctica."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-03-02",
+          "style": "true-false",
+          "question": "Existeix un únic model de la inflació còsmica, que és el que accepta la comunitat científica.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Hi ha centenars de models d'inflació que fan prediccions lleugerament diferents però totes compatibles amb les observacions actuals. Aquesta proliferació de models és precisament un dels problemes que critiquen Steinhardt i altres: quan una teoria té tants paràmetres lliures que pot explicar qualsevol resultat possible, cal preguntar-se si realment explica alguna cosa.",
+          "feedbackWrong": "En realitat hi ha centenars de models d'inflació. Tots comparteixen la idea bàsica d'una expansió exponencial ràpida, però difereixen en el mecanisme exacte, la durada, i les prediccions detallades. Que tots siguin compatibles amb les dades actuals és un problema, no una virtut."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-odu-03-01",
+          "question": "Si una teoria científica pot ser modificada per adaptar-se a qualsevol observació possible, continua sent científica?",
+          "options": [
+            "Sí, perquè el que importa és que sigui consistent amb les observacions",
+            "No, perquè la falsabilitat —la possibilitat de ser refutada— és una condició necessària de la ciència",
+            "Depèn: la falsabilitat és un ideal útil però no una condició absoluta; hi ha ciències legítimes amb teories que no es poden refutar directament"
+          ],
+          "correct": 2,
+          "explanation": "El criteri de falsabilitat de Karl Popper és poderós i útil, però en la pràctica científica la cosa és més matisada. La mecànica quàntica, la relativitat general i el model estàndard fan prediccions extremadament precises —però les teories que els van precedir tampoc no eren del tot falsables en el seu moment. La inflació es troba en una posició incòmoda: té versions que fan prediccions verificables (ones gravitacionals primordials) i versions que no en fan. La crítica de Steinhardt no és que la inflació sigui mala ciència, sinó que el seu espai de models és tan gran que les confirmacions existents no distingeixen entre centenars de versions molt diferents. La ciència no necessita que les teories siguin falsables en el moment del seu naixement —però sí que necessita un camí cap a la verificació o refutació."
+        }
+      ]
+    },
+    {
+      "id": "odu-04",
+      "title": "L'univers es pot haver creat sol?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 1983, Stephen Hawking i James Hartle van publicar un article que proposava que l'univers no necessitava cap causa inicial. En la seva proposta, si apliquem mecànica quàntica a la cosmologia, el temps es comporta diferent en escales molt petites — i la pregunta «qué hi havia abans» perd sentit de la mateixa manera que «qué hi ha al nord del pol nord». L'univers simplement és. No va ser creat. No va néixer de res. La idea és bella. La idea és problemàtica. I la idea posa nerviosos els físics, els filòsofs i, en general, tothom que hi pensa de nit."
+        },
+        {
+          "type": "key-idea",
+          "text": "La proposta Hartle-Hawking suggereix que l'univers té «frontera sense vora»: en lloc d'un inici singular, el temps evoluciona suaument cap a una dimensió espacial quan s'acosta al Big Bang. No hi ha un punt zero. No hi ha una causa. Però la teoria requereix acceptar que el temps pot tenir un comportament radicalment diferent del que coneixem."
+        },
+        {
+          "type": "expandable",
+          "label": "Mecànica quàntica i la creació de l'univers: com la incertesa canvia les regles",
+          "content": "En la mecànica quàntica, les partícules no necessiten una causa determinista per aparèixer. El «buit quàntic» no és el no-res: és un estat d'energia mínima on partícules i antipartícules apareixen i desapareixen constantment. Alexander Vilenkin el 1982 va proposar que l'univers podria haver «tunelejat» des del no-res —un fenomen similar al tunelatge quàntic pel qual les partícules travessen barreres de potencial sense tenir prou energia clàssica. El problema conceptual profund és que el tunelatge quàntic implica l'existència prèvia de lleis físiques quàntiques. Si les lleis físiques ja existien, el «no-res» no era del tot no-res."
+        },
+        {
+          "type": "prediction",
+          "question": "Si l'univers no necessita una causa, perquè existeix concretament aquest univers i no un altre de diferent? O infinits universos?",
+          "hint": "Pensa en si la pregunta «per qué aquest?» és una pregunta física o un altre tipus de pregunta."
+        },
+        {
+          "type": "quote",
+          "text": "L'univers no necessita res de fora d'ell per iniciar la creació. L'univers es crea a si mateix.",
+          "author": "Stephen Hawking, A Brief History of Time (1988)"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-04-01",
+          "style": "multiple-choice",
+          "question": "Quin és el problema conceptual principal de les teories que expliquen la creació de l'univers per tunelatge quàntic des del «no-res»?",
+          "options": [
+            "Que el tunelatge quàntic és un fenomen molt rar i improbable",
+            "Que el tunelatge quàntic requereix l'existència prèvia de lleis quàntiques, de manera que el 'no-res' ja contenia alguna cosa",
+            "Que la mecànica quàntica només funciona per a partícules molt petites, no per a universos",
+            "Que Stephen Hawking va reconèixer posteriorment que la teoria era incorrecta"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El problema filosòfic és que el tunelatge quàntic és un procés que segueix les lleis de la mecànica quàntica. Si el «no-res» ja permetia el tunelatge quàntic, les lleis de la quàntica existien d'alguna manera. Però llavors el «no-res» no era del tot buit: contenia les lleis que fan possible la física. La pregunta de l'origen es desplaça però no desapareix.",
+          "feedbackWrong": "El problema no és tècnic sinó conceptual: el tunelatge quàntic és un procés físic que segueix les lleis de la mecànica quàntica. Si el «no-res» permetia el tunelatge, les lleis de la quàntica ja existien d'alguna manera. El «no-res» contenia quelcom. La pregunta de l'origen es mou un pas enrere però no s'elimina."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-04-02",
+          "style": "detect-error",
+          "statement": "La proposta Hartle-Hawking demostra que l'univers no va tenir un inici i que per tant no necessita cap causa.",
+          "isCorrect": false,
+          "feedbackExplanation": "Hi ha dos errors. Primer, 'demostra': la proposta Hartle-Hawking és un model matemàtic que requereix acceptar una versió particular de la mecànica quàntica aplicada a l'espai-temps, no és una demostració. Segon, la conclusió filosòfica és igualment discutible: fins i tot si l'univers no té un inici temporal, continua sense estar clar per qué existeixen les lleis que el governen. Eliminar la singularitat inicial no elimina necessàriament la qüestió de la causa."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-odu-04-01",
+          "question": "Si es descobrís que l'univers «es va crear sol» seguint lleis quàntiques, això esgotaria l'explicació de la seva existència?",
+          "options": [
+            "Sí: si hi ha un mecanisme físic complet, no cal res més",
+            "No: sempre quedaria la pregunta de per qué existeixen les lleis que van permetre la creació",
+            "La pregunta no té sentit: l'existència de l'univers no necessita explicació"
+          ],
+          "correct": 1,
+          "explanation": "Aquesta és una de les preguntes on la física i la filosofia es troben de manera inevitable. Fins i tot si tenim un mecanisme físic complet per a la creació de l'univers — tunelatge quàntic, proposta Hartle-Hawking, o qualsevol altra— queda la pregunta de per qué existeixen les lleis que fan possible aquell mecanisme. Leibniz va formular la pregunta el 1714: «Per qué hi ha alguna cosa en lloc de res?». Una resposta física completa diria: «Perquè les lleis de la quàntica permeten el tunelatge». Però llavors: per qué existeixen les lleis de la quàntica? En algun punt, tota cadena d'explicació s'atura. La qüestió és si aquell final és satisfactori o simplement desplaça el misteri. La majoria de físics prefereixen deixar aquí la física i passar a altres problemes. Alguns filòsofs creuen que mai podrem arribar a una resposta final."
+        }
+      ]
+    },
+    {
+      "id": "odu-05",
+      "title": "El destí de l'univers: les maneres en qué tot pot acabar",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "L'any 1998, dos equips independents que estudiaven supernoves llunyanes van descobrir quelcom que ningú esperava: l'expansió de l'univers no s'alenteix. S'accelera. Alguna cosa —que ara anomenem energia fosca— empeny l'univers cap a fora més de pressa que la gravetat pot controlar. No sabem qué és aquesta força. Però sí que podem calcular, amb precisió inquietant, el que significa per al futur de tot."
+        },
+        {
+          "type": "key-idea",
+          "text": "El destí de l'univers depèn d'una cosa que no entenem: la naturalesa de l'energia fosca. Si el seu valor és constant, l'univers mor lentament en fred i foscor (mort tèrmica). Si augmenta amb el temps, l'expansió s'accelerarà fins a trencar àtoms (Big Rip). Si disminueix, potser l'univers col·lapsa de nou (Big Crunch). No sabem quin és."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "Ara fins a 100.000 milions d'anys",
+              "title": "Era estel·lar",
+              "text": "Les estrelles continuen formant-se i morint. La Via Làctia i Andròmeda col·lidiran en 4.500 milions d'anys, però la majoria d'estrelles sobreviuran."
+            },
+            {
+              "year": "100.000 milions – 100 bilions d'anys",
+              "title": "Era dels nans vermells",
+              "text": "Les estrelles massives han mort. Queden les nanes vermelles, lentes i frugals, que cremaran durant bilions d'anys."
+            },
+            {
+              "year": "10³⁸ anys",
+              "title": "Mort dels protons (si es produeix)",
+              "text": "Algunes teories prediquen que els protons decauen espontàniament. Si és veritat, tota la matèria ordinària desapareix. Si és fals, queden forats negres i nanes blanques fredes."
+            },
+            {
+              "year": "10⁶⁷ anys",
+              "title": "Els forats negres s'evaporen",
+              "text": "Per radiació de Hawking, tots els forats negres acaben evaporant-se. L'últim forat negre supermassius desapareixerà aquí."
+            },
+            {
+              "year": "10¹⁰⁰ anys i més",
+              "title": "Mort tèrmica",
+              "text": "L'univers és un gas ultradiluït de fotons i leptous a temperatura gairebé zero. Cap estructura. Cap procés. Cap informació útil. Equilibri termodinàmic perfecte."
+            }
+          ]
+        },
+        {
+          "type": "expandable",
+          "label": "El Big Rip: si l'energia fosca és una força que creix",
+          "content": "Si l'energia fosca no és constant sinó que augmenta amb l'expansió de l'univers (el que els físics anomenen «phantom energy» o energia fantasma), l'expansió s'accelera indefinidament fins que supera totes les forces conegudes. Primer es desfan els cúmuls de galàxies. Després les galàxies individuals. Després els sistemes solars. Llavors els planetes. Finalment, en els darrers moments, les pròpies molècules, els àtoms i els nuclis atòmics es desfan per la força expansiva de l'espai. El càlcul actual situa aquest «Big Rip» potencial en uns 22.000 milions d'anys des d'ara. Aproximadament. Si l'energia fosca és aquest tipus. Que no sabem si ho és."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-05-01",
+          "style": "multiple-choice",
+          "question": "Per qué el descobriment del 1998 de l'acceleració de l'expansió de l'univers va ser tan sorprenent?",
+          "options": [
+            "Perquè contradicià la teoria de la relativitat general d'Einstein",
+            "Perquè les teories vigents predeien que la gravetat havia de frenar o aturar l'expansió, no accelerar-la",
+            "Perquè implicava que l'univers era molt més vell del que es pensava",
+            "Perquè demostrava que les supernoves de tipus Ia no eren bones candeles estàndard"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La gravetat és una força atractiva: s'esperava que la massa de l'univers frenessin l'expansió inicial del Big Bang. La pregunta era si la frenada seria suficient per aturar l'expansió i iniciar un col·lapse (Big Crunch) o si l'univers continuaria expandint-se per sempre però cada vegada més lentament. Que l'expansió s'accelerés era una possibilitat que gairebé ningú considerava seriosament.",
+          "feedbackWrong": "La sorpresa va ser que la gravetat, que hauria d'alentir l'expansió, sembla ser superada per alguna altra cosa. Les teories vigents deien que l'expansió hauria de frenar-se. Trobar que s'accelerava implicava l'existència d'una força o energia completament desconeguda —el que ara anomenem energia fosca."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-05-02",
+          "style": "true-false",
+          "question": "Sabem amb certesa que el destí final de l'univers és la mort tèrmica (refredament progressiu fins a l'equilibri termodinàmic).",
+          "correct": false,
+          "feedbackCorrect": "Fals. La mort tèrmica és el destí més probable si l'energia fosca és una constant cosmològica (el model actual preferit), però no és certesa. Si la naturalesa de l'energia fosca canvia amb el temps, el resultat pot ser molt diferent: Big Rip, Big Crunch, o escenaris més exòtics. No coneixem prou l'energia fosca per estar segurs.",
+          "feedbackWrong": "La mort tèrmica és l'escenari més probable en el marc del model estàndard, però depèn d'assumpcions sobre l'energia fosca que no podem confirmar del tot. L'energia fosca representa el 68% de l'univers i no sabem pràcticament res de la seva naturalesa profunda — suficient per mantenir la incertesa sobre el destí final."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-odu-05-01",
+          "question": "Té sentit que la humanitat dediqui recursos científics a entendre el destí de l'univers en escalas de temps de 10¹⁰⁰ anys, quan és segur que cap ésser humà hi serà present?",
+          "options": [
+            "No: la ciència hauria de prioritzar problemes amb aplicacions pràctiques en escales de temps humanes",
+            "Sí: entendre les lleis fonamentals de la naturalesa té valor en si mateix, independentment de les aplicacions",
+            "Sí i no: l'estudi és legítim, però revela que la nostra intuïció sobre 'utilitat' és massa limitada per avaluar la ciència fonamental"
+          ],
+          "correct": 2,
+          "explanation": "La pregunta sobre l'«utilitat» de la ciència fonamental és més complexa del que sembla. L'argument contra («no hi serem allà») ignora que entendre el destí de l'univers implica entendre l'energia fosca, la termodinàmica i la gravetat quàntica — coneixements que probablement tindran aplicacions impensables. La relativitat general semblava completament inútil el 1915; avui el GPS no funcionaria sense ella. Però hi ha un argument més fort: la comprensió és valiosa per si mateixa. El criteri exclusivament pragmàtic de la ciència exclouria la matemàtica pura, la teoria de nombres i molta física teòrica — àmbits que han generat descobriments fonamentals precisament per ignorar la utilitat immediata. Al mateix temps, és legítim debatre l'assignació de recursos entre ciència fonamental i problemes urgents: no és «inútil versus útil» sinó decisions reals sobre prioritats limitades."
+        }
+      ]
+    },
+    {
+      "id": "odu-06",
+      "title": "El que no sabem que no sabem",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hi ha una cosa que fa la cosmologia diferent de quasi totes les altres ciències: treballa amb un únic exemplar. Tenim un sol univers. No podem fer experiments repetits, no podem comparar amb altres universos, no podem tenir un grup de control. Tot el que sabem de l'univers ve d'un univers. Això planteja un problema metodològic profund que rarament s'esmenta als llibres de text: com podem saber si les nostres preguntes estan ben formulades?"
+        },
+        {
+          "type": "key-idea",
+          "text": "La física coneix tres tipus d'ignorància: el que sabem que no sabem (l'energia fosca, la gravetat quàntica), el que no sabem que no sabem (tot el que encara no hem imaginat), i el que potser mai podrem saber perquè está fora del nostre horitzó observable. El tercer tipus és el que hauria de mantenir desperts els cosmòlegs."
+        },
+        {
+          "type": "expandable",
+          "label": "L'horitzó còsmic: la frontera del que podrem mai observar",
+          "content": "L'expansió accelerada de l'univers té una conseqüència inquietant: les galàxies que avui podem observar s'allunyen progressivament. Les més llunyanes s'allunyen més ràpid que la velocitat de la llum —no perquè es moguin en l'espai, sinó perquè l'espai entre nosaltres i elles s'expandeix. En uns 150.000 milions d'anys, tota galàxia excepte les del nostre grup local haurà creuat l'horitzó d'esdeveniments i ja no podrà mai enviar-nos cap senyal. Una civilització que existís en aquell moment veuuria un univers buit, amb unes poques galàxies properes, i no tindria cap evidència del Big Bang ni de les lleis cosmològiques que nosaltres coneixem. La seva cosmologia seria completament errònia, però internament consistent. Amb quina confiança podem saber que la nostra no és el cas?"
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Filosofia de la Ciència",
+          "moduleEmoji": "🔬",
+          "concept": "Els límits del mètode científic",
+          "text": "La cosmologia és un cas límit per al mètode científic: un sol exemplar, observacions irrepetibles, i un horitzó que impossibilita l'accés a part de la realitat. El que vam veure sobre com els científics distingeixen ciència de pseudociència —falsabilitat, reproducibilitat, consens per acumulació d'evidències— xoca aquí amb un problema estructural: algunes qüestions cosmològiques poden ser, per definició, irresobles."
+        },
+        {
+          "type": "misconception",
+          "belief": "La ciència avança resolent preguntes — i si treballem prou, acabarem responent-les totes.",
+          "reality": "La ciència també avança reformulant les preguntes. Algunes preguntes que semblaven fonamentals resulten estar mal plantejades. I en cosmologia, hi ha preguntes que potser no podem respondre no per manca d'eines, sinó perquè la realitat que necessitaríem observar és físicament inaccessible.",
+          "why": "El progrés científic es presenta sovint com una expansió lineal del coneixement. Però algunes de les revisions més importants han estat descobrir que les preguntes anteriors no eren les bones."
+        },
+        {
+          "type": "reflection",
+          "question": "Pensa en una cosa que saps amb seguretat sobre l'univers —alguna cosa que consideres un fet establert. Ara pregunta't: com sé que sé això? Quina és la cadena d'evidències? I on s'acaba la cadena?",
+          "prompt": "No cal escriure res. Però pren-te un moment real per seguir la cadena fins al final."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-06-01",
+          "style": "multiple-choice",
+          "question": "En uns 150.000 milions d'anys, una civilització hipotètica no podria observar cap galàxia fora del grup local. Quina seria la implicació per a la seva cosmologia?",
+          "options": [
+            "La seva cosmologia seria idèntica a la nostra perquè les lleis físiques no canvien",
+            "Podria deduir l'existència del Big Bang per altres evidències locals, com la composició dels elements",
+            "Tindria una cosmologia internament consistent però fonamentalment incompleta, sense evidència del Big Bang ni de l'expansió còsmica",
+            "No existiria cap civilització en aquell moment perquè el Sol ja haurà mort"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Correcte. La radiació de fons de microones i les galàxies llunyanes —les nostres principals evidències del Big Bang— haurien desaparegut de l'horitzó observable. Una civilització en aquell moment veuria un univers aparentment estàtic i aïllat. Podria formular lleis físiques consistents, però el seu model cosmològic estaria radicalment incomplet sense la informació que nosaltres tenim i que seria inaccessible per a ells.",
+          "feedbackWrong": "La clau és que les evidències del Big Bang —radiació de fons de microones, galàxies en recessió, la distribució observacional de galàxies— haurien desaparegut de l'horitzó observable. Tota la informació cosmològica accessible per a nosaltres seria físicament inaccessible per a ells. Podrien tenir física consistent però cosmologia incompleta sense saber-ho."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-odu-06-02",
+          "style": "detect-error",
+          "statement": "La cosmologia és una ciència com qualsevol altra: les seves teories es poden verificar o refutar amb experiments repetibles.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'error és aplicar el criteri de 'experiments repetibles' a la cosmologia. La cosmologia treballa amb un sol univers, en temps cosmològics que no podem manipular, i amb regions que poden ser físicament inaccessibles. Pot fer prediccions verificables —com la distribució de galàxies o l'espectre de la radiació de fons— però no pot repetir experiments en el sentit convencional. Això no la fa menys científica, però sí que la situa en una categoria metodològica diferent de, per exemple, la química o la biologia experimental."
+        },
+        {
+          "type": "debate",
+          "question": "És legítim que la cosmologia investigui preguntes que potser mai podrem respondre definitivament?",
+          "positionA": {
+            "label": "Sí: els límits del coneixement mereixen exploració",
+            "argument": "No saber si podrem respondre una pregunta no és raó per no intentar-ho. Moltes preguntes que semblaven irresolubles han trobat resposta quan apareixia nova tecnologia o nova teoria. A més, l'exploració dels límits del coneixement és el que permet reconèixer quan els límits canvien. Abandonar la investigació per impossibilitat teòrica hauria impedit molta física del segle XX."
+          },
+          "positionB": {
+            "label": "Cal ser honest sobre els límits del mètode",
+            "argument": "Quan una pregunta és per definició irresolubles —com el que hi havia «abans» del Big Bang o el que hi ha «fora» de l'univers observable— continuar tractant-la com a científica pot ser contraproduent. Crea l'aparença de progrés quan en realitat s'especula. La ciència necessita criteris de demarcació clars, i admetre quan una pregunta supera el seu abast és una forma d'honestedat intel·lectual."
+          },
+          "reflection": "On traçaries la línia entre especulació fèrtil i especulació estèril?",
+          "context": "La tensió és real i no té resolució fàcil. Alguns dels avenços més importants de la física —la relativitat, la quàntica, la teoria de cordes— van sorgir d'especulació sense ancoratge observacional immediat. Però d'altres especulacions han consumit dècades de treball científic sense resultat verificable. El que distingeix les dues categories és, sovint, visible només en retrospectiva."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-odu-06-01",
+          "question": "Si part de l'univers és físicament inaccessible per a nosaltres, i si les nostres lleis físiques es van deduir d'observacions fetes des d'aquest punt concret de l'espai-temps, com podem saber si les lleis que descobrim s'apliquen a tot l'univers?",
+          "options": [
+            "No podem: les nostres lleis físiques probablement només són vàlides localment",
+            "Podem: la uniformitat de les lleis és un axioma necessari de la ciència, no una conclusió que cal demostrar",
+            "Tenim evidències parcials de la uniformitat —la física que observem a galàxies llunyanes és consistent— però l'extrapolació total és una assumpció filosòfica, no una certesa científica"
+          ],
+          "correct": 2,
+          "explanation": "El «principi d'uniformitat» —la idea que les lleis de la física s'apliquen igualment a tot l'univers— és un dels supòsits fonamentals de la cosmologia. Tenim evidències sòlides en el seu favor: els espectres d'absorció de galàxies llunyanes mostren els mateixos elements i les mateixes constants que aquí, la gravetat sembla comportar-se igual a qualsevol distància que podem observar. Però «tot el que podem observar» no és «tot l'univers». Regions fora de l'horitzó observable podrien tenir constants físiques lleugerament o radicalment diferent, i no podríem saber-ho. La cosmologia treballa amb l'assumpció raonable que les lleis són universals — però és una assumpció, no una demostració. La bona notícia és que la ciència és molt bona treballant amb assumpions quan les marca clarament com a tals."
+        }
+      ]
+    }
+  ]
+}

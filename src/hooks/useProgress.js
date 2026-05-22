@@ -62,6 +62,17 @@ const DEFAULT_STATE = {
     'module-34-democracia-sistemes-politics','module-XX-sociologia',
     // Bloc: Filosofia (nous)
     'module-XX-intro-filosofia','module-XX-etica-practica','module-XX-filosofia-llenguatge',
+    // Bloc: Astronomia (nous 2)
+    'module-08-origen-desti-univers','module-09-materia-energia-fosques',
+    'module-10-forats-negres','module-11-mons-alla',
+    // Bloc: Física (nous)
+    'module-10-caos','module-12-temps-espai-limits',
+    // Bloc: Biologia (nous)
+    'module-09-cos-huma','module-11-ecologia','module-13-trauma-resiliencia',
+    // Bloc: Ment i Comportament
+    'module-12-ment-enganya','module-14-obediencia',
+    // Bloc: Diplomàcia
+    'module-XX-diplomacia-negociacio','module-XX-historia-diplomacia','module-XX-organismes-internacionals',
   ],
   badges: [],
   srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }

@@ -95,6 +95,25 @@ export const MODULE_REGISTRY = [
   { id: 'module-XX-intro-filosofia',      phase: 1, order: 77, file: () => import('./modules/module-XX-intro-filosofia.json') },
   { id: 'module-XX-etica-practica',       phase: 1, order: 78, file: () => import('./modules/module-etica-practica.json') },
   { id: 'module-XX-filosofia-llenguatge', phase: 1, order: 79, file: () => import('./modules/module-filosofia-llenguatge.json') },
+  // — Bloc: Astronomia (nous 2) —
+  { id: 'module-08-origen-desti-univers',   phase: 1, order: 80, file: () => import('./modules/module-08-origen-desti-univers.json') },
+  { id: 'module-09-materia-energia-fosques',phase: 1, order: 81, file: () => import('./modules/module-09-materia-energia-fosques.json') },
+  { id: 'module-10-forats-negres',          phase: 1, order: 82, file: () => import('./modules/module-10-forats-negres.json') },
+  { id: 'module-11-mons-alla',              phase: 1, order: 83, file: () => import('./modules/module-11-mons-alla.json') },
+  // — Bloc: Física (nous) —
+  { id: 'module-10-caos',                   phase: 1, order: 84, file: () => import('./modules/module-10-caos.json') },
+  { id: 'module-12-temps-espai-limits',     phase: 1, order: 85, file: () => import('./modules/module-12-temps-espai-limits.json') },
+  // — Bloc: Biologia (nous) —
+  { id: 'module-09-cos-huma',               phase: 1, order: 86, file: () => import('./modules/module-09-cos-huma.json') },
+  { id: 'module-11-ecologia',               phase: 1, order: 87, file: () => import('./modules/module-11-ecologia.json') },
+  { id: 'module-13-trauma-resiliencia',     phase: 1, order: 88, file: () => import('./modules/module-13-trauma-resiliencia.json') },
+  // — Bloc: Ment i Comportament —
+  { id: 'module-12-ment-enganya',           phase: 1, order: 89, file: () => import('./modules/module-12-ment-enganya.json') },
+  { id: 'module-14-obediencia',             phase: 1, order: 90, file: () => import('./modules/module-14-obediencia.json') },
+  // — Bloc: Diplomàcia —
+  { id: 'module-XX-diplomacia-negociacio',  phase: 1, order: 91, file: () => import('./modules/module-XX-diplomacia-negociacio.json') },
+  { id: 'module-XX-historia-diplomacia',    phase: 1, order: 92, file: () => import('./modules/module-XX-historia-diplomacia.json') },
+  { id: 'module-XX-organismes-internacionals', phase: 1, order: 93, file: () => import('./modules/module-XX-organismes-internacionals.json') },
 ]
 
 export async function loadModule(moduleId) {

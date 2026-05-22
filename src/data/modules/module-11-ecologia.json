@@ -1,0 +1,443 @@
+{
+  "id": "module-11-ecologia",
+  "title": "Ecologia: una conversa sense final",
+  "emoji": "🌿",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "eco-01",
+      "title": "Què és un ecosistema? (Pregunta de partida)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Abans que comenci qualsevol explicació, has de saber com funciona aquest mòdul.\n\nCada lliçó acaba amb un debat. Aquell debat no es tanca aquí — la lliçó següent comença intentant respondre la pregunta que el debat anterior va deixar oberta. El mòdul és una conversa, no una sèrie de lliçons independents.\n\nLa raó és simple: l'ecologia és una ciència on gairebé cada resposta genera una pregunta nova. On cada solució revela un dilema nou. Si no sents aquesta tensió mentre aprens, no estàs aprenent ecologia real.\n\nComencem amb la pregunta bàsica."
+        },
+        {
+          "type": "prediction",
+          "question": "Quin és l'organisme que té més impacte sobre la vida a la Terra? No l'organisme més gran, ni el més abundant, ni el més intel·ligent. L'organisme amb el màxim impacte sobre com funciona la vida al planeta.",
+          "hint": "No pensis en grandària. Pensa en funció."
+        },
+        {
+          "type": "key-idea",
+          "text": "El fitoplàncton —microorganismes fotosintètics de l'oceà— produeix entre el 50 i el 80% de l'oxigen de l'atmosfera terrestre i fixa aproximadament la meitat del carboni que la fotosíntesi global captura. Sense fitoplàncton, la vida animal a la Terra seria impossible. La majoria de persones mai n'han sentit parlar."
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué no veiem els fonaments de la vida: el biaix de la grandària",
+          "content": "El cervell humà va evolucionar per detectar amenaces i oportunitats d'escala comparable a nosaltres: animals grans, plantes comestibles, depredadors. Som radicalment mal equipats per percebre intuïtivament la importància de les coses microscòpiques.\n\nEl resultat és un biaix sistemàtic en com valorem la natura: preocupem pel lleó, no per la bacterièria nitrificant que fa possible l'agricultura. Ens commou el tiburó, no el zooplàncton que manté les xarxes alimentàries oceàniques. Conservem elefants (que ocupen molt d'espai i necessiten grans recursos) mentre destruïm les poblacions microbianes del sòl que fan possible qualsevol agricultura.\n\nEe.E.O. Wilson va encunyar el terme «biofília» per descriure la connexió humana amb la vida. Però la nostra biofília és selectiva: estimem els éssers vius que s'assemblen a nosaltres en grandària i complexitat aparent. La major part de la biodiversitat és invisible i ignorada."
+        },
+        {
+          "type": "misconception",
+          "belief": "La natura funciona com un equilibri: els ecosistemes tendeixen a un estat estable i les pertorbacions els fan tornar a aquell equilibri. La tasca de la conservació és preservar aquest equilibri natural.",
+          "reality": "El «balance of nature» és una metàfora del segle XIX que la ecologia moderna ha abandonat. Els ecosistemes no tendeixen a estats d'equilibri estables: canvien contínuament, responen a pertorbacions de formes no lineals i impredictibles, i existeixen en múltiples estats estables possibles. El model actual parla de «resiliència» (capacitat de mantenir funcions davant pertorbació) i «llindars» (punts on el sistema pot saltar a un estat radicalment diferent).",
+          "why": "La idea d'equilibri natural és intuïtivament satisfactòria i s'ajusta a la nostra percepció d'un món antic i estable. El concepte de natura com a màquina d'equilibri va ser útil per als primers conservacionistes del segle XIX perquè justificava la protecció: si la natura té un estat «natural» correcte, pertorbar-la és dolent. El problema és que és empíricament incorrecte i porta a polítiques de conservació deficients."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-01-01",
+          "style": "multiple-choice",
+          "question": "Quin procés ecològic es va descobrir que succeïa de forma inesperada quan es van reintroduir llops al Parc Nacional de Yellowstone el 1995?",
+          "options": [
+            "Els llops van eliminar els cérvols, cosa que va permetre el creixement del bosc en zones anteriorment erosionades",
+            "La presència de llops va canviar el comportament dels cérvols, que van deixar de pasturar en certes zones, cosa que va permetre la recuperació de la vegetació i va alterar el curs dels rius",
+            "Els llops van competir amb els ossos, reduint la seva població i permetent la recuperació de les zones de pesca de salmó",
+            "La reducció dels cérvols per la depredació directa va reduir les malalties transmeses per paparres, millorant la salut dels boscos"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Correcte. S'anomena «cascada tròfica per por». Els llops no van reduir prou els cérvols per la depredació directa (eren massa pocs), però van canviar radicalment el comportament dels cérvols: van deixar de pasturar en zones on podien ser atacats fàcilment (valls i ribes de rius). La vegetació d'aquestes zones es va recuperar, cosa que va estabilitzar les ribes, canviar el curs dels rius i augmentar la biodiversitat. L'efecte de la presència dels llops va ser molt major del que qualsevol ecòleg havia previst.",
+          "feedbackWrong": "La reintroducció dels llops va revelar un fenomen que els ecòlegs no havien previst plenament: la «cascada tròfica per por». Els llops eren tan pocs que la seva depredació directa no reduïa significativament la població de cérvols. Però la por als llops va canviar on i com pasturaven els cérvols: van evitar les zones de risc (valls, ribes de rius). La vegetació d'aquelles zones es va recuperar, cosa que va estabilitzar les ribes fluvials i, finalment, va canviar el comportament dels rius."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-01-02",
+          "style": "true-false",
+          "question": "La desaparició d'una espècie d'un ecosistema sempre té un impacte proporcional a la seva abundància: les espècies rares desaparèixen sense impacte significatiu.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Algunes espècies, independentment de la seva abundància, estructuren els ecosistemes d'una manera que la seva absència causa canvis desproporcionats. S'anomenen «espècies clau de volta» (keystone species). L'estrella de mar Pisaster ochraceus, eliminada d'una costa experimental pel biòleg Robert Paine el 1966, era relativament poc abundant — però la seva absència va permetre que els musclos colonitzessin tota la costa i eliminessin 15 altres espècies. Abundància i importància ecològica no es correlacionen necessàriament.",
+          "feedbackWrong": "Incorrecte. Les «espècies clau de volta» (keystone species) exerceixen un impacte sobre l'ecosistema molt superior al que suggeriria la seva abundància. L'eliminació d'una espècie poc abundant pot restructurar completament un ecosistema. L'experiment de Robert Paine el 1966 amb estrelles de mar (Pisaster) en una costa rocosa n'és l'exemple fundacional: espècie poc abundant, impacte enorme."
+        },
+        {
+          "type": "quote",
+          "text": "L'ecologia és la ciència de les connexions. Cada cosa que fem a la natura es fa a nosaltres mateixos.",
+          "author": "Barry Commoner, The Closing Circle (1971)"
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-eco-01-01",
+          "question": "Si els ecosistemes no tendeixen a equilibri sinó que existeixen en múltiples estats estables, pot la conservació de la natura tenir un objectiu fix de referència («el bosc tal com era l'any X»)?",
+          "options": [
+            "Sí — sempre hi ha un estat «natural» de referència anterior a la influència humana que cal restaurar",
+            "No — la conservació hauria de protegir els processos ecològics i la resiliència, no un estat concret del paisatge",
+            "Depèn: per a espècies amenaçades l'objectiu fix és necessari; per a ecosistemes complets no és factible"
+          ],
+          "correct": 1,
+          "explanation": "La idea de «restauració a l'estat natural previ» xoca amb diverses realitats ecològiques. Primera: quin any és el «natural»? El bosc de Catalunya abans dels romans era diferent del bosc medieval, diferent del bosc del 1800, diferent del d'ara. Tots eren «naturals». Segona: el clima ha canviat i seguirà canviant — restaurar un ecosistema al seu estat de 1950 pot ser ecològicament inútil en el clima de 2050. Tercera: hi ha espècies extingides el retorn de les quals és impossible. La perspectiva actual de conservació es concentra en mantenir la resiliència funcional: la capacitat de l'ecosistema de continuar proporcionant serveis ecològics (regulació del clima, cicle de l'aigua, pol·linització, productivitat agrícola) davant de pertorbacions, sense fixar-se en un estat de paisatge concret."
+        },
+        {
+          "type": "debate",
+          "question": "Aquesta és la pregunta que la propera lliçó intentarà respondre: si no hi ha un «estat natural» de referència per a la conservació, qui decideix com ha de ser la natura? Els científics, els governs, les comunitats locals o el mercat?",
+          "positionA": {
+            "label": "La ciència hauria de liderar",
+            "argument": "Les decisions sobre ecosistemes han de basar-se en evidència ecològica, no en preferències socials o econòmiques. Si la ciència diu que es necessita eliminar una espècie invasora o controlar una activitat humana per mantenir la resiliència, aquesta hauria de ser la decisió, independentment de les preferències locals."
+          },
+          "positionB": {
+            "label": "Les comunitats locals han de decidir",
+            "argument": "Les persones que viuen i depenen d'un ecosistema en coneixen la dinàmica local millor que cap científic extern. I seran elles qui suportaran els costos de les decisions de conservació. Les decisions imposades des de fora contra els interessos locals no es compliran i generaran conflicte."
+          },
+          "reflection": "Amb quins interessos creus que tendeix a alinear-se cadascuna de les dues posicions?",
+          "context": "La propera lliçó comença exactament aquí."
+        }
+      ]
+    },
+    {
+      "id": "eco-02",
+      "title": "Qui decideix sobre la natura? (Resposta al debat 1)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La lliçó anterior va acabar amb una pregunta: si no hi ha un «estat natural» de referència, qui decideix com ha de ser la natura?\n\nAquesta no és una pregunta abstracta. Cada parc natural, cada restricció pesquera, cada regulació agrícola és una resposta concreta a aquesta pregunta. I els conflictes que generen —agricultors contra conservacionistes, pobles contra lleis de protecció, indígenes contra parcs nacionals— mostren que la pregunta no té resposta fàcil.\n\nAquí entrarem a la política de l'ecologia."
+        },
+        {
+          "type": "key-idea",
+          "text": "La conservació de la natura és inevitablement un problema de governança, no únicament de ciència. Qui controla l'accés a un ecosistema, qui n'assumeix els costos de protecció i qui en rep els beneficis determinen si la conservació és possible o no — independentment del que digui la ciència ecològica."
+        },
+        {
+          "type": "expandable",
+          "label": "El parc nacional com a idea occidental: l'expulsió que ningú explica",
+          "content": "El primer parc nacional del món, Yellowstone, va ser creat el 1872. La seva creació va implicar l'expulsió forçada dels pobles Shoshone, Bannock i altres que hi havien viscut durant segles. Van ser presents a la «natura verge» que els parcs havien de protegir.\n\nAquest patró es va repetir a tot el món colonial. La idea de «natura sense humans» —el «wilderness» anglosaxó— era una construcció ideològica que ignorava que gairebé tots els «ecosistemes naturals» que els conservacionistes volien protegir havien estat gestionats activament per comunitats indígenes durant mil·lennis.\n\nLes sabanes africanes, els boscos amazònics, les praderies nord-americanes: totes havien estat modelades per segles de gestió humana (cremes controlades, caça selectiva, conreus itinerants). La idea que eren «natura intacta» era, en gran part, el resultat de la mort massiva de les poblacions indígenes per malalties europees dècades o segles abans de l'«exploració» europeu.\n\nL'ecologia ha hagut de revisar profundament la idea de «natura sense humans» des dels anys 90."
+        },
+        {
+          "type": "misconception",
+          "belief": "La protecció estricta de la natura —zones on els humans no poden entrar ni actuar— és la forma més eficaç de conservació de la biodiversitat.",
+          "reality": "L'evidència comparativa mostra que les àrees indígenes i comunitats locals amb drets de gestió reconeguts sovint conserven biodiversitat igual o millor que els parcs nacionals estrictament protegits. A l'Amazònia, les terres indígenes legalment reconegudes mostren nivells de desforestació consistentment inferiors als parcs nacionals limítrofes sense comunitats actives. La «protecció estricta» sense comunitats que la defensin activament és difícilment aplicable.",
+          "why": "El model de «fortalesa de conservació» sense humans és intuïtivament atractiu i es basa en la idea que les amenaces vénen dels humans. Però ignora que molts ecosistemes han coevolucionat amb la gestió humana i que la presència de comunitats amb interessos en la conservació és freqüentment el millor mecanisme d'aplicació."
+        },
+        {
+          "type": "comparison",
+          "title": "Models de conservació: protecció estricta vs. gestió comunitària",
+          "labelA": "Àrees protegides estrictament (model fortalesa)",
+          "labelB": "Territoris indígenes i gestió comunitària",
+          "items": [
+            {
+              "label": "Supòsit de base",
+              "a": "La natura ha d'estar separada dels humans per conservar-se",
+              "b": "Les comunitats que depenen d'un ecosistema tenen incentius per conservar-lo"
+            },
+            {
+              "label": "Qui gestiona",
+              "a": "Estat, organismes internacionals, ONG de conservació",
+              "b": "Comunitats locals o indígenes amb drets reconeguts"
+            },
+            {
+              "label": "Eficàcia a l'Amazònia",
+              "a": "Alta on l'aplicació estatal és forta; baixa on és feble",
+              "b": "Consistentment alta independentment de la capacitat estatal"
+            },
+            {
+              "label": "Risc principal",
+              "a": "Sense comunitats actives, difícil d'aplicar; cost social alt",
+              "b": "Vulnerable a canvis de lideratge comunitari i pressions externes"
+            },
+            {
+              "label": "Biodiversitat",
+              "a": "Alta quan funciona; ecosistema pot sobrepassar l'optimum sense gestió activa",
+              "b": "Alta i persistent; incorpora coneixement ecològic local acumulat"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-02-01",
+          "style": "multiple-choice",
+          "question": "El concepte de «serveis ecosistèmics» (pagar a les comunitats rurals per conservar boscos que proveeixen d'aigua neta o carboni als centres urbans) és un mecanisme de conservació. Quina és la crítica ecologista més sòlida a aquest enfocament?",
+          "options": [
+            "És massa car: els pagaments haurien de ser molt alts per compensar el valor real de la natura",
+            "Redueix la natura a un proveïdor de serveis per als humans i ignora el valor intrínsec dels ecosistemes independent del seu ús",
+            "No funciona: les comunitats prefereixen desenvolupament econòmic a pagaments per conservació",
+            "És injust: beneficia les comunitats riques que ja conserven i no les que necessiten incentius"
+          ],
+          "correct": 1,
+          "explanation_note": "La resposta B és la crítica filosòfica; la D és una crítica distributiva també vàlida però menys central al debat ecologista.",
+          "feedbackCorrect": "Exacte. La crítica filosòfica central és que els «serveis ecosistèmics» converteix la conservació en un problema econòmic: si l'ecosistema deixa de ser rendible (els pagaments cauen, sorgeix un ús alternatiu més lucratiu), la lògica del sistema porta a abandonar la conservació. A més, el marc implica que la natura val per al que ens és útil — ignorant qualsevol idea de valor intrínsec. L'ecologia de la deep ecology argumenta que els organismes i ecosistemes tenen valor independent de la utilitat per als humans.",
+          "feedbackWrong": "La crítica central dels ecologistes filosòfics als serveis ecosistèmics és que el marc mateix és defectuós: converteix la conservació en una transacció econòmica. Si la natura val per als serveis que presta als humans, aleshores quan deixa de ser rendible és racional destruir-la. Ignora el valor intrínsec dels ecosistemes independent del seu ús humà."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-02-02",
+          "style": "detect-error",
+          "statement": "La deforestació de l'Amazònia és principalment un problema de consciència ambiental: si els brasilers valoressin més la natura, no la destruirien.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació localitza el problema en les actituds individuals i ignora les estructures econòmiques i polítiques. La deforestació amazònica és impulsada principalment per la demanda global de soja (per alimentar ramaderia per a consum europeu, xinès i nord-americà) i carn de boví. Els agricultors brasilers que desforesten responen a incentius de mercat global, no a manca de consciència ambiental. Molts d'ells preferien mantenir el bosc però no tenien alternativa econòmica viable. La solució és estructural (canvis en la cadena de subministrament global, polítics alternatius, polítiques de sòl) no educacional."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1872",
+              "title": "Yellowstone: primer parc nacional, model de «natura sense humans»",
+              "text": "Expulsió dels pobles indígenes. El model s'exportarà a tot el món colonial."
+            },
+            {
+              "year": "1962",
+              "title": "Rachel Carson: Primavera Silenciosa",
+              "text": "Primers impactes dels pesticidés sobre ecosistemes documentats per al públic. Neix el moviment ambientalista modern."
+            },
+            {
+              "year": "1987",
+              "title": "Informe Brundtland: «Desenvolupament sostenible»",
+              "text": "Primera definició oficial: satisfer les necessitats del present sense comprometre les de les generacions futures."
+            },
+            {
+              "year": "1992",
+              "title": "Rio de Janeiro: Convenció sobre Diversitat Biològica",
+              "text": "Primer acord global de conservació de biodiversitat. Reconeix per primera vegada els drets de les comunitats indígenes."
+            },
+            {
+              "year": "2022",
+              "title": "Acord de Kunming-Montreal: 30x30",
+              "text": "196 països acorden protegir el 30% de terres i mars del planeta el 2030. El debat sobre «qui decide» continua."
+            }
+          ]
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-eco-02-01",
+          "question": "L'objectiu global «30x30» —protegir el 30% de terres i mars— es va anunciar amb gran cobertura mediàtica. Quin és el principal risc d'implementació que els ecòlegs identifiquen?",
+          "options": [
+            "El 30% és insuficient: caldria protegir el 50% per aturar la pèrdua de biodiversitat",
+            "El percentatge pot aconseguir-se protegint terres remotes o marines de poc valor per a la biodiversitat, deixant intactes els hotspots de biodiversitat sota pressió alta",
+            "Els estats no compliran els acords perquè no hi ha mecanisme d'aplicació internacional"
+          ],
+          "correct": 1,
+          "explanation": "Els crítics científics de l'objectiu 30x30 no debaten el percentatge en si sinó la qualitat i la localització de la protecció. Protegir 30% és fàcil si es protegeix tundra àrtica, deserts o altes mars oceànics — àrees de biodiversitat baixa i pressió humana mínima, que «sumen superfície» sense abordar les amenaces reals. La biodiversitat global es concentra en hotspots tropicals (Amazònia, Congo, Sud-est asiàtic, Mesoamèrica) que coincideixen precisament amb les àrees de major pressió econòmica. L'objectiu de superfície, sense garanties sobre quina superfície i com es gestiona, pot ser un èxit estadístic i un fracàs ecològic. L'opció A és un argument real d'alguns ecòlegs (E.O. Wilson defensava «Half-Earth», 50%) però no és la crítica principal a 30x30 tal com s'ha formulat. L'opció C és un risc real però és un problema d'aplicació, no d'objectiu."
+        },
+        {
+          "type": "debate",
+          "question": "Aquesta és la pregunta per a la propera lliçó: la biodiversitat s'extingeix a una velocitat sense precedents. Però cada cop que proposem solucions concretes (restriccions de pesca, limitació d'agricultura, protecció de territoris), algun grup humà en paga el cost. Com decidim qui suporta el cost de salvar la natura?",
+          "positionA": {
+            "label": "El qui contamina paga",
+            "argument": "Els qui causen la destrucció (indústries, països rics, consumidors d'alts ingressos) haurien de suportar el cost de la conservació. Les comunitats rurals pobres que viuen en biodiversitat no haurien de pagar amb la seva pobresa per un problema creat per la riquesa global."
+          },
+          "positionB": {
+            "label": "Benefici global, cost global",
+            "argument": "La biodiversitat és un bé global. El seu cost hauria de ser distribuït globalment, independentment de qui la destrueix. Compensar les comunitats locals per no destruir els seus ecosistemes és la forma més pràctica d'aconseguir conservació real, independentment de qui hagi causat el problema."
+          },
+          "reflection": "Canviaria la teva resposta si et diuen que ets resident d'un país de renda alta amb petjada ecològica gran?",
+          "context": "La propera lliçó comença aquí."
+        }
+      ]
+    },
+    {
+      "id": "eco-03",
+      "title": "Qui paga per la natura? (Resposta al debat 2)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La lliçó anterior va deixar una pregunta incòmoda: la conservació té costos reals que han de suportar persones concretes. Qui són?\n\nQuantificar-ho: la Unió Internacional per a la Conservació de la Natura estima que protegir efectivament el 30% de terres i mars del planeta costaria entre 140.000 i 300.000 milions de dòlars anuals. El finançament actual destinat a biodiversitat és d'aproximadament 10.000 milions de dòlars anuals.\n\nHi ha un buit de 130.000 a 290.000 milions de dòlars. D'on surten?"
+        },
+        {
+          "type": "key-idea",
+          "text": "Les economies globals subvencionen la destrucció de la natura en una quantitat molt superior al que gasten en la seva conservació. Estimacions recents xifren els subsidis públics amb impacte negatiu sobre biodiversitat en 1,8 bilions de dòlars anuals (subsidis a combustibles fòssils, pesca industrial, agricultura intensiva). La natura no té preu, però la seva destrucció és rentable."
+        },
+        {
+          "type": "expandable",
+          "label": "El capital natural: la idea que valora econòmicament el que no té preu de mercat",
+          "content": "El moviment del «capital natural» proposa que els serveis que els ecosistemes proporcionen (regulació climàtica, cicle de l'aigua, pol·linització, prevenció d'inundacions) es quantifiquin en termes econòmics per fer-los visibles en les decisions d'empresa i govern.\n\nRobert Costanza va publicar el 1997 una estimació del valor dels serveis ecosistèmics globals: 33 bilions de dòlars anuals, més gran que el PIB global de l'època. L'estudi va ser molt citat i molt criticat: ¿té sentit posar preu a processos dels quals depèn l'existència humana? Comprar aire no té sentit perquè sense aire no existeixes per comprar res.\n\nMalgrat les crítiques, la comptabilitat de capital natural ha guanyat terreny en l'àmbit empresarial (els estàndards TCFD i TNFD exigiran a les empreses cotitzades revelar el seu impacte i dependència de la natura) i en alguns governs (Nova Zelanda incorpora indicadors de capital natural als pressupostos).\n\nEl debat filosòfic segueix obert: quantificar el que no té preu ajuda a conservar-ho, o normalitza la idea que la natura és un actiu que es pot comprar, vendre i, eventualment, substituir?"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-03-01",
+          "style": "multiple-choice",
+          "question": "Una empresa de construcció vol drenar una zona humida per construir habitatges. La zona humida proporciona serveis de filtratge d'aigua, control d'inundacions i hàbitat per a aus migratòries. Com hauria de valorar la societat aquesta decisió?",
+          "options": [
+            "Comparant el benefici econòmic de la construcció amb el cost de reproduir artificialment els serveis de la zona humida (plantes de filtratge d'aigua, dics, etc.)",
+            "Consultant les comunitats locals que depenen de la zona humida i aplicant el principi de precaució mentre no hi hagi consens",
+            "Calculant el valor de mercat de la zona humida com a terreny i comparant-lo amb el projecte constructor",
+            "Aplicant sempre les regulacions ambientals vigents i no entrant en valoracions cas per cas"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "L'opció A és la metodologia del capital natural aplicada: substituir els serveis ecosistèmics per infraestructures artificials té un cost que normalment és molt superior al benefici de la construcció. Quan es fa el càlcul complet, moltes destruccions d'ecosistemes que semblaven econòmicament racionals resulten ser massivament irracionals. La Xina va demolir dics per restaurar zones humides al llarg del Yangtze perquè va calcular que el cost de les inundacions superat per les zones humides superava el valor agrícola de la terra guanyada.",
+          "feedbackWrong": "La metodologia del capital natural (opció A) quantifica el cost de substituir artificialment els serveis que l'ecosistema proporciona. En molts casos, quan es fa aquest càlcul, la destrucció d'ecosistemes resulta ser econòmicament irracional perquè els serveis substituïts costen molt més que el benefici de la destrucció. Les zones humides protegeixen contra inundacions d'una manera que les infraestructures artificials equivalents costen ordres de magnitud més."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-03-02",
+          "style": "true-false",
+          "question": "La transició a energies renovables (solar, eòlica) és una solució clara per a la biodiversitat perquè elimina l'impacte dels combustibles fòssils sense nous impactes ecològics.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Les energies renovables redueixen les emissions de CO₂ però no eliminen l'impacte sobre la biodiversitat — en creen de nous. Les plantes fotovoltaiques a gran escala cobreixen territori que pot ser hàbitat d'espècies. Les turbines eòliques maten ocells i ratpenats. L'extracció de minerals necessaris per a bateries (liti, cobalt, níquel) destrueix ecosistemes miners. La transició energètica necessita tenir en compte l'impacte en biodiversitat i planificar-se per minimitzar-lo — no assumir que és «verda» per defecte.",
+          "feedbackWrong": "Les renovables redueixen un impacte (CO₂) però en creen de nous. Grans plantes fotovoltaiques occupen territori. Les eòliques maten ocells i ratpenats. La mineria de liti, cobalt i níquel per a bateries té impactes ecològics significatius. La transició energètica és necessària per al clima, però no és neutral per a la biodiversitat i requereix planificació per minimitzar els nous impactes."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Economia: eines per llegir el món",
+          "moduleEmoji": "📊",
+          "concept": "Externalitats negatives i fallades de mercat",
+          "text": "La destrucció de biodiversitat és l'externalitat negativa per excel·lència: el cost de destruir un ecosistema recau sobre tothom (i sobre les generacions futures) mentre el benefici se'l queda qui el destrueix. Tota la recerca sobre com internalitzar els costos de la destrucció de natura és una aplicació directa de l'economia de les externalitats."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-eco-03-01",
+          "question": "Si els subsidis públics que danyen la biodiversitat sumen 1,8 bilions de dòlars anuals i el cost de protegir el 30% del planeta és d'uns 200 bilions anuals, quina seria la solució econòmicament més eficient?",
+          "options": [
+            "Augmentar el finançament per a conservació en 200 bilions addicionals",
+            "Eliminar o redirigir una fracció dels subsidis perjudicials i redirigir-los a conservació",
+            "Crear nous mercats de crèdits de biodiversitat per atreure capital privat"
+          ],
+          "correct": 1,
+          "explanation": "La solució B és la que molts economistes ecològics consideren la més eficient: no es tracta d'afegir despesa nova sinó de deixar de pagar per destruir. Eliminar subsidis a combustibles fòssils (estimats en 5 a 7 bilions de dòlars anuals incloent costos externalitzats), a pesca industrial destructiva i a formes d'agricultura intensiva que destrueixen biodiversitat alliberaria recursos molt superiors als necessaris per a conservació. El problema és polític, no econòmic: els subsidis perjudicials beneficien indústries amb molt de poder de lobbying. L'opció C és real i creixent (mercat de crèdits de carboni, ara mercats de crèdits de biodiversitat) però té risc de fraude i de «greenwashing» sense estàndards estrictes. L'opció A descriu el que la comunitat de conservació demana, però no on trobar els diners."
+        },
+        {
+          "type": "debate",
+          "question": "Pregunta per a la propera lliçó: estem en una sisena extinció massiva. Però a diferència de les cinc anteriors (que van ser causades per catàstrofes físiques), aquesta l'estem causant nosaltres. Tenim l'obligació moral de prevenir-la? O la natura ha de seguir el seu curs, extinctions incloses?",
+          "positionA": {
+            "label": "Sí, tenim obligació moral",
+            "argument": "Causar l'extinció d'una espècie és un dany irreversible. La capacitat de causar dany genera responsabilitat de no fer-ho. Una espècie que pot comprendre el seu impacte i pot modificar-lo té l'obligació de fer-ho."
+          },
+          "positionB": {
+            "label": "La natura no té obligacions morals",
+            "argument": "L'extinció és un procés natural constant. El 99% de les espècies que han existit s'han extingit. Que els humans en causem la majoria actual és una diferència de magnitud, no de naturalesa. Projectar obligació moral sobre un procés natural és antropocentrisme."
+          },
+          "reflection": "Quina seria la teva resposta si el risc d'extinció inclogués Homo sapiens?",
+          "context": "La propera lliçó comença aquí."
+        }
+      ]
+    },
+    {
+      "id": "eco-04",
+      "title": "La sisena extinció: tenim temps? (Resposta al debat 3)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La pregunta anterior era: tenim l'obligació moral de prevenir la sisena extinció massiva?\n\nDesprés de la primera lliçó d'ecologia, potser et sembla una pregunta filosòfica abstracta. Però per respondre-la necessites saber primer on estem realment. Perquè les xifres de la sisena extinció no es comuniquen bé — i quan les veus sense context, és difícil entendre si s'exagera o s'infravalora el problema."
+        },
+        {
+          "type": "key-idea",
+          "text": "La taxa natural d'extinció («taxa de fons») és d'aproximadament 0,1 a 1 espècie per milió per any. La taxa actual d'extinció s'estima entre 100 i 1.000 vegades superior. En perspectiva: les cinc grans extincions en massa de la història geològica van tenir taxes similars o inferiors. Estem en una extinció en massa activa."
+        },
+        {
+          "type": "misconception",
+          "belief": "L'extinció d'espècies és un problema sentimental: perdem animals bonics però l'ecosistema segueix funcionant. La natura és resilient.",
+          "reality": "La biodiversitat no és una col·lecció d'objectes bonics — és el conjunt de funcions que fan possible la vida. La pol·linització que permet l'agricultura global depèn de la diversitat d'insectes. La regulació del clima depèn de la diversitat forestal. La productivitat dels oceans depèn de la diversitat del zooplàncton. Perdre espècies és perdre funcions ecològiques — i per sobre de certs llindars, la pèrdua de funcions es retroalimenta accelerant el col·lapse."
+        },
+        {
+          "type": "expandable",
+          "label": "L'experiment dels mesocosmos: quan la biodiversitat es mesura en collites",
+          "content": "El 1994, el biòleg David Tilman va crear 147 parcel·les experimentals al Minnesota amb diferent nombre d'espècies vegetals i les va observar durant anys. El resultat va ser inequívoc: les parcel·les amb major diversitat eren més productives, més resistents a la sequera i a les plagues, i van acumular més carboni.\n\nExperiments similars en ecosistemes marins, forestals i de praderia han confirmat un principi consistent: la biodiversitat no és un luxe decoratiu dels ecosistemes —és el que els permet funcionar de forma estable i eficient.\n\nAixò té implicacions directes per a l'agricultura. Els monocultius (un sol cultiu en grans extensions) maximitzen la producció a curt termini però minimitzen la resiliència: una plaga o un canvi climàtic pot eliminar-los completament. La diversitat de cultius tradicionals, que la revolució verda va substituir per varietats d'alt rendiment uniformes, era funcional en sentit ecològic."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-04-01",
+          "style": "multiple-choice",
+          "question": "Les poblacions d'insectes voladors han disminuït un 75% en les darreres dècades a Europa Central (estudi de Krefeld, Alemanya). Quina és la principal conseqüència per als sistemes alimentaris?",
+          "options": [
+            "Reducció de la biodiversitat estètica: menys papallones i libèl·lules però sense impacte funcional",
+            "Reducció de la pol·linització: entre el 75 i el 95% dels cultius de fruites i verdures depenen de pol·linitzadors",
+            "Augment de plagues: sense insectes depredadors, les plagues agrícoles s'expandiran",
+            "Reducció de la pesca: molts peixos d'agua dolça depenen dels insectes com a font d'aliment"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "La pol·linització és la conseqüència més immediata i d'impacte major per als sistemes alimentaris. Entre el 75 i el 95% dels cultius d'aliments que consumim (fruites, verdures, llegums, fruites seques) depenen de pol·linitzadors —principalment abelles però també molts altres insectes. La producció mundial d'aliments vulnerables a la pèrdua de pol·linitzadors s'estima entre 235.000 i 577.000 milions de dòlars anuals. Les opcions C i D també són correctes però d'impacte secundari comparat amb la pol·linització.",
+          "feedbackWrong": "La pol·linització (opció B) és la funció ecològica de major impacte directe sobre els sistemes alimentaris. La major part dels cultius de fruites, verdures i llegums depèn de pol·linitzadors. Sense insectes pol·linitzadors, la producció agrícola d'aliments altament nutritius col·lapsaria o s'hauria de substituir per pol·linització manual (ja es fa en alguns conreus a la Xina, on les abelles han desaparegut localment)."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-04-02",
+          "style": "detect-error",
+          "statement": "La creació d'espècies a través d'enginyeria genètica pot compensar les extincions actuals: si creem espècies noves adaptades al clima futur, la biodiversitat total no es reduirà.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació confon diversitat quantitativa (nombre d'espècies) amb diversitat funcional (diversitat de relacions ecològiques). Una espècie enginyeritzada nova no té les relacions ecològiques que una espècie natural ha desarrollat durant mil·lennis: no és aliment per als mateixos depredadors, no dispersa les mateixes llavors, no simbiosi amb els mateixos paràsits o pol·linitzadors. La funció ecològica d'una espècie no és propietat de la seva genètica sinó de la seva xarxa de relacions amb l'ecosistema —i aquesta xarxa es construeix en escales de temps evolutiu. A més, la tecnologia actual de síntesi genètica és molt lluny de poder crear espècies funcionals des de zero."
+        },
+        {
+          "type": "debate",
+          "question": "Pregunta per a la propera lliçó: si la crisi de biodiversitat és tan severa, per qué no ocupa el centre de l'agenda política global com el canvi climàtic? Aquesta és la pregunta que intentarem respondre a la propera lliçó.",
+          "positionA": {
+            "label": "Problema de comunicació",
+            "argument": "El canvi climàtic té un indicador clar i entenedor (temperatura global, graus) que permet comunicar el progrés i la urgència. La biodiversitat no té un equivalent: l'índex de planeta viu del WWF i l'índex IUCN d'espècies amenaçades no penetren en la comunicació pública de la mateixa manera."
+          },
+          "positionB": {
+            "label": "Problema estructural: la biodiversitat no genera lobbying",
+            "argument": "El canvi climàtic va mobilitzar interessos econòmics enormes (energies renovables, vehicles elèctrics, mercat de carboni) que van crear una coalició de suport potent. La conservació de biodiversitat no genera un sector econòmic equivalent — els seus beneficiaris (futurs, difusos, no humans) no poden lobbyar."
+          },
+          "reflection": "Recorda la teva resposta mentre continues a la propera lliçó.",
+          "context": "La propera lliçó comença aquí."
+        }
+      ]
+    },
+    {
+      "id": "eco-05",
+      "title": "Per qué la biodiversitat no és al centre? (Resposta al debat 4)",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La pregunta anterior era directa: si la crisi de biodiversitat és una extinció massiva, per qué no té la mateixa urgència política que el canvi climàtic?\n\nLes dues posicions del debat anterior apuntaven a causes reals. Però hi ha una tercera raó, que és potser la més fonamental i la menys còmoda d'admetre: la manera com la nostra ment processa el risc."
+        },
+        {
+          "type": "key-idea",
+          "text": "El cervell humà va evolucionar per respondre a amenaces immediates, visibles i causades per agents clars. El canvi climàtic és difús però ha trobat un «agent» recognoscible (el CO₂, les fàbriques, els cotxes). La pèrdua de biodiversitat és encara més difusa, els seus efectes no es senten directament fins que és tard, i les causes estan distribuïdes en milions de decisions quotidianes. No és que no ens importi — és que el nostre cervell no està equipat per sentir-ho com a amenaça."
+        },
+        {
+          "type": "expandable",
+          "label": "La hipòtesi de la finestra desplaçada: per qué no sabem el que hem perdut",
+          "content": "El terme «shifting baseline syndrome» (síndrome de la base canviant) va ser encunyat pel biòleg marí Daniel Pauly el 1995. L'observació: cada generació accepta com a «normal» l'estat de la natura que va trobar en la seva infància. Si als anys 60 els mars tenien 10 vegades més peixos, els adults dels 60 tenien una base de referència diferent que els adults dels 2000, que a la seva vegada la tenien diferent que la dels 2020.\n\nEl resultat: la degradació ecològica s'acumula sense ser percebuda com a tal perquè la nostra base de comparació es desplaça amb cada generació. Les generacions actuals no perceben com a pèrdua l'absència d'ocells que els seus avis consideraven ordinaris, o la reducció de peixos que els seus pares pescaven sense dificultat.\n\nAquest mecanisme explica per qué la crisi de biodiversitat és difícil de comunicar: la referència «el que hi havia» és invisible per a les generacions que no ho van veure mai. El que sembla «natura normal» avui és el resultat acumulat de dècades de degradació."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-05-01",
+          "style": "multiple-choice",
+          "question": "Si el «shifting baseline syndrome» explica en part la manca de resposta a la crisi de biodiversitat, quina estratègia de comunicació seria la més efectiva?",
+          "options": [
+            "Comunicar els números absoluts actuals de biodiversitat (nombre d'espècies, índex de planeta viu)",
+            "Mostrar comparacions intergeneracionals: fotografies i registres de la mateixa localitat en dates molt distants",
+            "Centrar la comunicació en les conseqüències per als humans (menjar, salut, seguretat hídrica)",
+            "Augmentar l'educació ambiental a les escoles per crear bases de referència correctes en les generacions joves"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Les comparatives intergeneracionals aborden directament el mecanisme del shifting baseline: mostren la divergència entre la base de referència de la generació actual i la real. Projeccions «de la pesca del 1970 a la del 2020 al mateix lloc», mapes de cobertura forestal per dècades, registres sonors de la biodiversitat en el mateix lloc en anys distants — tots creen la discontinuïtat cognitiva que trenca la complaença generacional. La comunicació basada en números absoluts (A) no funciona bé perquè no té referència. La comunicació d'impacte humà (C) és útil però pot generar fatiga d'urgència. L'educació (D) és important però de cicle llarg.",
+          "feedbackWrong": "Les comparatives intergeneracionals (B) aborden directament el mecanisme del shifting baseline: fan visible el contrast entre l'estat «normal» actual i l'estat real anterior. Sense comparativa, els números absoluts d'espècies o índexs no generen ressonància emocional perquè no hi ha referència. La imatge de la mateixa badia el 1960 i el 2020, o el registre sonor d'un bosc en dues dates, provoca una discontinuïtat cognitiva que els números no produeixen."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-eco-05-02",
+          "style": "true-false",
+          "question": "Les accions individuals (fer vegetarianisme, no agafar avions, comprar productes ecològics) no tenen impacte real sobre la biodiversitat perquè el problema és estructural i cal canvi sistèmic, no de comportament individual.",
+          "correct": false,
+          "feedbackCorrect": "Fals com a afirmació absoluta. Les accions individuals i el canvi sistèmic no s'exclouen: es reforcen mutuament o es debiliten. Les dietes basades en plantes redueixen la demanda de carn que condueix la deforestació. El consum d'aliments de proximitat i de temporada redueix la demanda de producció agroindustrial intensiva. I les accions individuals, quan es normalitzen culturalment a escala suficient, creen condicions polítiques per al canvi sistèmic. La crítica legítima és que les campanyes de comportament individual sovint es fan servir per desviar l'atenció de responsabilitats corporatives i polítiques — però això no invalida l'impacte real de les accions individuals.",
+          "feedbackWrong": "La dicotomia «individual vs. sistèmic» és un fals dilema. Les accions individuals a escala suficient creen condicions per al canvi sistèmic. La demanda de productes d'origen vegetal, per exemple, ha transformat segments sencers del mercat alimentari en una dècada. La crítica legítima és que les campanyes de «petjada de carboni» van ser promogudes per la indústria petrolera per transferir responsabilitat als individus. Però que hi hagi interessats en exagerar el paper individual no significa que les accions individuals siguin irrellevants."
+        },
+        {
+          "type": "reflection",
+          "question": "Al llarg d'aquest mòdul hem vist que la crisi de biodiversitat és real, que les solucions existeixen, que els diners no manquen si es redirigeixen adequadament, i que la principal barrera és política i cognitiva. Amb tot això, quin és el nivell d'optimisme o pessimisme que et sembla honest sobre el futur de la biodiversitat?",
+          "prompt": "No hi ha resposta correcta. Però val la pena tenir-la."
+        },
+        {
+          "type": "debate",
+          "question": "Pregunta final del mòdul: l'ecologia com a ciència ens diu que som una espècie que destrueix els fonaments de la seva pròpia supervivència. És l'ecologia una ciència pessimista per naturalesa, o és la ciència més important que podem aprendre?",
+          "positionA": {
+            "label": "És una ciència d'advertència — i d'esperança",
+            "argument": "L'ecologia ha documentat problemes enormes però també solucions reals: la recuperació de la capa d'ozó, la tornada de l'àguila calba als EUA, la recuperació de balenes en mars protegides, la reforestació de Corea del Sud. La natura és resilient si li donem espai. L'ecologia ens diu on som i qué hem de fer — és la ciència de la possibilitat."
+          },
+          "positionB": {
+            "label": "És una ciència que confronta el límit del projecte humà",
+            "argument": "L'ecologia demostra que l'expansió indefinida de la civilització humana és impossible en un planeta finit. Que el model econòmic dominant és incompatible amb la continuïtat dels sistemes vius. Que ni la tecnologia ni la bona voluntat podran compensar els límits biofísics. Aprendre ecologia és aprendre a viure amb menys — un missatge que cap societat de masses ha après mai voluntàriament."
+          },
+          "reflection": "Quina de les dues posicions és la que necessites creure per actuar? I quina creus que és la més honesta amb les dades?",
+          "context": "No hi ha cinquena lliçó que respongui aquest debat. Aquí és on acaba el mòdul — i on comença la teva pròpia conversa."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-eco-05-01",
+          "question": "L'ecologia demostra que els humans estem causant la sisena extinció massiva. Quin és el marc ètic més adequat per respondre a aquesta realitat?",
+          "options": [
+            "L'antropocentrisme: protegim la natura perquè la necessitem nosaltres; el seu valor és instrumental al benestar humà",
+            "El biocentrisme: tots els éssers vius tenen valor intrínsec independent del seu ús per als humans; l'obligació moral s'estén a tots ells",
+            "El no hi ha una única resposta correcta: cada marc ètic captura quelcom real i la pràctica de conservació ha de poder operar dins de qualsevol d'ells"
+          ],
+          "correct": 2,
+          "explanation": "La tensió entre antropocentrisme i biocentrisme és real i productiva. L'argument pràctic per l'antropocentrisme: la majoria de decisions polítiques i econòmiques es fan en termes d'interessos humans; si volem conservació efectiva, hem de traduir el valor de la natura en termes que els actors polítics i econòmics reconeguin. L'argument per al biocentrisme: si la conservació depèn únicament de la utilitat per als humans, qualsevol espècie «inútil» per al benestar humà és sacrificable. El biòleg Peter Singer argumenta que la coherència lògica del principi d'igual consideració d'interessos hauria d'estendre's als animals que sofreixen. L'ecòleg Aldo Leopold va proposar una «ètica de la terra» (land ethic) que incloïa els ecosistemes com a subjectes morals. A la pràctica, la conservació efectiva opera amb arguments dels dos marcs simultàniament: serveis ecosistèmics i capital natural (antropocèntrics) coexisteixen amb arguments sobre la biodiversitat com a valor en si mateixa."
+        }
+      ]
+    }
+  ]
+}

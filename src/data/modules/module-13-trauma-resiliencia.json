@@ -1,0 +1,364 @@
+{
+  "id": "module-13-trauma-resiliencia",
+  "title": "Trauma i resiliència: del cos a la societat",
+  "emoji": "🌱",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "trm-01",
+      "title": "Escala 1: Què li passa al cervell",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Aquest mòdul estudia el trauma des de cinc escales diferentes: cèl·lula, individu, família, comunitat i societat. No és la mateixa informació presentada cinc vegades. És el mateix fenomen vist des de cinc nivells d'organització que interaccionen.\n\nComencem pel més petit: el que el trauma fa al cervell."
+        },
+        {
+          "type": "key-idea",
+          "text": "El trauma no és un record difícil. És una alteració físicament mesurable en l'estructura i el funcionament del cervell. Canvia el volum de l'hipocamp, l'activitat de l'amígdala, la resposta del sistema nerviós autònom i l'expressió de gens. El trauma és biologia, no debilitat."
+        },
+        {
+          "type": "misconception",
+          "belief": "El trauma psicològic és una reacció exagerada a experiències difícils. Les persones resilients superen les adversitats sense seqüeles — el trauma és un signe de feblesa o fragilitat personal.",
+          "reality": "El trastorn per estrès posttraumàtic (TEPT) implica canvis neurobiològics mesurables: reducció del volum hipocampal, hiperactivació de l'amígdala, desregulació de l'eix HPA (hipotàlem-hipòfisi-adrenal). Aquells canvis no reflecteixen la «intensitat» de l'adversitat objectiva sinó la resposta del sistema nerviós. Persones exposades a la mateixa experiència traumàtica poden tenir respostes molt diferents per raons biològiques, no de fortalesa de caràcter.",
+          "why": "La idea de feblesa es manté perquè els efectes del trauma sovint són invisibles i retardats, mentre que la resistència és socialment valorada. A més, responsabilitzar la víctima de la seva pròpia reacció allibera la societat i les institucions de responsabilitat sobre els contextos que produeixen trauma."
+        },
+        {
+          "type": "expandable",
+          "label": "L'hipocamp sota estrès: per qué el trauma distorsiona la memòria",
+          "content": "L'hipocamp és la regió cerebral clau per a la consolidació de nous records i per donar-los context temporal i espacial. En condicions normals, un record traumàtic s'emmagatzemaria com «això em va passar en un moment i lloc concret del passat».\n\nEl cortisol i l'adrenalina alliberats durant un trauma intens inhibeixen temporalment el funcionament hipocampal. El resultat: el record no es consolida correctament. No queda ancorat al temps i l'espai — queda com a fragments sensorials (sons, olors, imatges, sensacions físiques) sense narrativa temporal.\n\nAixò explica per qué les persones amb TEPT no «recorden» el trauma de la mateixa manera que recorden altres events. L'event irromp com si passés ara (flashback), no com un record del passat. El sistema nerviós autònom es reactiva de forma completa davant d'estímuls que recorden el trauma (olor, so, postura corporal) perquè el record no té marcador temporal que digui «va passar aleshores».\n\nL'EMDR (dessensibilització i reproces ament per moviment ocular) i algunes teràpies de trauma actuen precisament sobre aquest mecanisme: ajuden a reprocessar els fragments sensorials i integrar-los en una narrativa temporal completa que el sistema nerviós pugui arxivar com a «passat»."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-trm-01-01",
+          "style": "multiple-choice",
+          "question": "El sistema nerviós autònom té dues branques principals: simpàtic (activació, lluita/fugida) i parasimpàtic (calma, digestió, recuperació). En persones amb TEPT crònic, quin és el patró típic de desregulació?",
+          "options": [
+            "Hiperactivació permanent del sistema simpàtic, amb incapacitat de retornar a un estat de calma",
+            "Hipoactivació del sistema simpàtic, amb resposta reduïda a amenaces reals",
+            "Alternança impredictible entre hiperactivació (flashbacks, hipervigilància) i hipoactivació (dissociació, anestèsia emocional)",
+            "Activació equilibrada d'ambdues branques, però amb llindars d'activació molt baixos"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. El patró de TEPT no és simplement «sempre activat». Bessel van der Kolk i Stephen Porges (teoria polivagal) han descrit com el sistema nerviós traumatitzat oscil·la entre estats de hiperactivació (alarma, flashbacks, irritabilitat) i hipoactivació (adormiment emocional, dissociació, col·lapse). Ambdós estats representen respostes de supervivència: l'hiperactivació prepara per afrontar l'amenaça, la hipoactivació és un «congelació» que protegeix quan la lluita o la fugida no són possibles. El repte terapèutic és ampliar la «finestra de tolerància» entre els dos extrems.",
+          "feedbackWrong": "El patró típic de TEPT és l'alternança (opció C) entre estats de hiperactivació (flashbacks, hipervigilància, irritabilitat) i hipoactivació (dissociació, adormiment emocional, col·lapse). Tots dos són respostes de supervivència: el sistema nerviós aprèn que certes amenaces requereixen activació màxima o col·lapse protector. La teoria polivagal de Porges descriu com aquest cicle s'estableix i com les teràpies poden ampliar la «finestra de tolerància» entre els dos extrems."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-trm-01-02",
+          "style": "true-false",
+          "question": "El cervell adult traumatitzat no pot recuperar-se estructuralment: les reduccions de volum hipocampal i les alteracions de l'amígdala causades pel trauma són permanents.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La neuroplasticitat és la propietat del cervell de reorganitzar-se estructuralment en resposta a l'experiència, i opera al llarg de tota la vida. Estudis longitudinals mostren que tractaments efectius del TEPT (teràpia cognitiu-conductual focalitzada en trauma, EMDR, tractament farmacològic) s'associen a augments mesurables del volum hipocampal i a normalització de les respostes de l'amígdala. La recuperació no és automàtica ni completa en tots els casos, però és possible — i la investigació en neuroplasticitat és una de les àrees més actives de la neurociència clínica.",
+          "feedbackWrong": "El cervell adult conserva neuroplasticitat: la capacitat de reorganitzar-se estructuralment en resposta a l'experiència. Estudis amb neuroimatge mostren que tractaments efectius del TEPT produeixen canvis mesurables en el cervell: augment del volum hipocampal, normalització de l'activitat de l'amígdala. La recuperació no és garantida ni completa en tots els casos, però la permanència del dany no és l'únic resultat possible."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "1980",
+              "title": "El TEPT entra al DSM-III",
+              "text": "El trastorn per estrès posttraumàtic és reconegut formalment. Fins aleshores, els veterans de guerra amb símptomes eren classificats com a «neuròtics» o s'ignoraven."
+            },
+            {
+              "year": "1994",
+              "title": "Van der Kolk: el trauma queda al cos",
+              "text": "Bessel van der Kolk documenta les bases neurobiològiques del TEPT. «The Body Keeps the Score» (2014) portarà la idea al gran públic."
+            },
+            {
+              "year": "1998",
+              "title": "Estudi ACE: adversitat infantil i salut adulta",
+              "text": "L'estudi de les Adverse Childhood Experiences (ACEs) mostra correlació dosi-resposta entre trauma infantil i malalties cròniques adultes."
+            },
+            {
+              "year": "2012",
+              "title": "Evidència d'herència epigenètica del trauma",
+              "text": "Estudis en ratolins i humans mostren que les modificacions epigenètiques causades per l'estrès es transmeten a la descendència."
+            }
+          ]
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-trm-01-01",
+          "question": "L'estudi ACE (Adverse Childhood Experiences) va demostrar que les adversitats a la infància (abús, negligència, disfunció familiar) es correlacionen fortament amb malalties cròniques adultes (cardiopatia, càncer, diabetis). Quin és el mecanisme biològic més plausible?",
+          "options": [
+            "Conductual: les persones traumatitzades adopten estils de vida de risc (tabac, alcohol, sedentarisme) que causen les malalties",
+            "Directament biològic: l'estrès crònic infantil altera el desenvolupament del sistema neuroendocrí i immunològic, creant vulnerabilitats orgàniques que persisteixen a l'edat adulta",
+            "Tots dos mecanismes operen simultàniament i de forma additiva, amb efectes que es retroalimenten"
+          ],
+          "correct": 2,
+          "explanation": "La recerca sobre ACE mostra que els dos mecanismes operen i s'amplifiquen mútuament. El mecanisme conductual (opció A) és real: l'estrès crònic augmenta el risc de conductes addictives i sedentarisme. Però fins i tot controlant estadísticament tots els factors conductuals, la correlació entre adversitat infantil i malaltia crònica adulta persisteix, cosa que indica un mecanisme biològic directe (opció B). L'estrès crònic en períodes crítics del desenvolupament altera el sistema HPA (resposta a l'estrès), la regulació inflamatòria i la longitud dels telòmers. Aquests efectes biològics persisteixen a l'edat adulta i augmenten la vulnerabilitat a malalties que normalment s'atribueixen a estil de vida o genètica. La implicació clínica és important: tractar el trauma infantil pot tenir efectes preventius sobre malalties cròniques adults molt més amplis que els que la medicina tradicional anticipa."
+        }
+      ]
+    },
+    {
+      "id": "trm-02",
+      "title": "Escala 2: Què li passa a la persona",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "A l'escala anterior hem vist el trauma en cèl·lules, neurones i hormones. Ara pugem un nivell: la persona sencera, la seva experiència subjectiva, i el que la investigació diu sobre recuperació.\n\nLa pregunta central d'aquesta lliçó és: per qué algunes persones es recuperen del trauma i d'altres no? I el que és més important: la resposta no és el que la majoria creu."
+        },
+        {
+          "type": "key-idea",
+          "text": "La resiliència no és una qualitat fixa de la personalitat. És un procés dinàmic que depèn de recursos interns i externs que canvien al llarg del temps. Les mateixes persones que mostren resiliència davant d'un tipus d'adversitat poden no mostrar-la davant d'una altra. La resiliència es construeix; no es té o no es té."
+        },
+        {
+          "type": "misconception",
+          "belief": "Les persones resilients no pateixen. Superen les adversitats sense mostrar símptomes, sense necessitar ajuda externa i tornant ràpidament a la normalitat.",
+          "reality": "George Bonanno, el psicòleg que ha estudiat més rigorosament la resiliència, la defineix com la capacitat de mantenir un funcionament relativament estable davant de pèrdua o trauma — no l'absència de patiment. La resiliència permet funcionar, no l'anestèsia emocional. A més, la trajectòria de resiliència és una de quatre possibles (resiliència, recuperació, retard, trajectòria crònica) i la que es produeix depèn de factors que en gran part no controla l'individu.",
+          "why": "La cultura popular romantitza la resiliència com a virtut heroica individual per raons ideològiques: si la recuperació és qüestió de força de voluntat, les circumstàncies socials que produeixen trauma no necessiten ser canviades. El cost el paga l'individu."
+        },
+        {
+          "type": "expandable",
+          "label": "El creixement posttraumàtic: quan l'adversitat transforma",
+          "content": "Richard Tedeschi i Lawrence Calhoun van encunyar el terme «creixement posttraumàtic» el 1996 per descriure un fenomen real i documentat: algunes persones que han viscut events traumàtics greus reporten, temps després, canvis positius en la seva vida que atribueixen directament a l'experiència traumàtica. Canvis en la percepció de les pròpies capacitats, en les relacions personals, en les prioritats de vida, en la espiritualitat o en l'apreciació de la vida.\n\nEl creixement posttraumàtic no és el mateix que «no haver patit» ni és una justificació del trauma. Coexisteix amb el patiment. Persones que reporten creixement posttraumàtic simultàniament poden tenir símptomes de TEPT actius.\n\nEl mecanisme sembla ser la ruptura dels esquemes cognitius preexistents: el trauma destrueix les assumpcions amb les quals la persona havia organitzat el sentit de la seva vida, i la reconstrucció forçada d'aquells esquemes pot incorporar elements nous que no haurien aparegut sense la ruptura.\n\nImportant: el creixement posttraumàtic no és universal ni garantit. Presentar-lo com a resultat esperable pot crear una pressió addicional sobre les víctimes que no el viuen."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-trm-02-01",
+          "style": "multiple-choice",
+          "question": "Quin factor és el predictor més consistent de resiliència davant de trauma en la recerca longitudinal?",
+          "options": [
+            "El nivell d'intel·ligència i les capacitats cognitives de la persona",
+            "La presència d'almenys una relació de suport estable i consistent durant la infància",
+            "Les creences religioses o espirituals que donen sentit a l'experiència",
+            "La intensitat objectiva del trauma (com menys sever, major resiliència)"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La presència d'almenys una relació de suport estable —un adult de confiança durant la infància, un parella, una comunitat— és el predictor més robust de resiliència en la literatura longitudinal. L'estudi de Kauai (Emmy Werner, seguiment de 40 anys) va demostrar que nens en condicions d'alt risc que van tenir un adult de referència estable mostraven trajectòries de vida significativament millors que els que no en tenien. La resiliència és essencialment un fenomen relacional, no individual.",
+          "feedbackWrong": "El predictor més consistent és la relació de suport (opció B). L'estudi longitudinal de Kauai d'Emmy Werner, que va seguir nens en risc durant 40 anys, va identificar la presència d'un adult de referència estable com el factor protector més potent, per sobre de la intel·ligència, les creences o la intensitat del trauma. La resiliència és fonamentalment un fenomen relacional — no es desenvolupa en solitari."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-trm-02-02",
+          "style": "detect-error",
+          "statement": "El temps és el millor remei per al trauma: sense intervenció, la majoria de persones es recuperen espontàniament en el termini d'un any.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és parcial i potencialment perillosa. Bonanno i altres han documentat que efectivament la trajectòria de resiliència (recuperació natural ràpida) és la més freqüent en la població general davant de molts types de trauma. Però 'la majoria' amaga una variabilitat important: en traumes complexos, repetits, o produïts en la infància, la recuperació espontània sense intervenció és menys probable. Més important: la idea que «el temps ho cura tot» pot desincentivar la cerca d'ajuda en persones que realment la necessiten, en períodes crítics on la intervenció primerenca és més efectiva. El que la recerca mostra és que moltes persones es recuperen sense teràpia, no que la teràpia sigui innecessària per a qui no es recupera espontàniament."
+        },
+        {
+          "type": "quote",
+          "text": "La pregunta no hauria de ser «per qué aquesta persona no supera el trauma?» sinó «per qué tanta gent que ha viscut coses tan terribles funciona tan bé?»",
+          "author": "George Bonanno, psicòleg de la resiliència"
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-trm-02-01",
+          "question": "Si la resiliència depèn fortament de factors externs (relacions de suport, recursos socials, condicions econòmiques) i no únicament de factors interns (caràcter, voluntat), quines implicacions té per a les polítiques de salut mental?",
+          "options": [
+            "La salut mental és principalment una responsabilitat individual: les persones han de construir les seves pròpies xarxes de suport i desenvolupar les seves capacitats de resiliència",
+            "Les polítiques de salut mental haurien de prioritzar els entorns socials (suport familiar, comunitat, accés econòmic) per sobre dels tractaments individuals",
+            "Ambdues dimensions (individual i social) son necessàries i les polítiques haurien d'abordar les dues de forma integrada"
+          ],
+          "correct": 2,
+          "explanation": "La tensió entre les opcions A i B reflecteix un debat real en psicologia de la salut pública. L'evidència de la resiliència com a fenomen relacional (opció B) és sòlida. Però ignorar els factors individuals (opció A) seria igual d'incorrecte: les mateixes condicions socials no produeixen les mateixes trajectòries en totes les persones, i les teràpies individuals mostren efectivitat robusta. El model biopsicosocial, dominant en psicologia clínica moderna, és exactament l'opció C: reconeix que les condicions biològiques, psicològiques i socials interaccionen i que les intervencions efectives han d'abordar les tres dimensions. En la pràctica, els sistemes de salut mental tendeixen a prioritzar els tractaments individuals (més fàcils de finançar, prescriure i avaluar) sobre les intervencions estructurals (habitatge, suport comunitari, desigualtat) malgrat que l'evidència sobre l'impacte d'aquestes últimes és en alguns casos més robusta."
+        }
+      ]
+    },
+    {
+      "id": "trm-03",
+      "title": "Escala 3: Què li passa a la família",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Fins ara hem vist el trauma en el cervell i en la persona. Ara ampliem el zoom: la família.\n\nLa pregunta que guia aquesta lliçó és incòmoda però fonamental: pot el trauma d'una persona transmetre's als fills? I als nets?\n\nLa resposta que la ciència dóna és: sí. I el mecanisme és doble."
+        },
+        {
+          "type": "key-idea",
+          "text": "La transmissió intergeneracional del trauma opera per dos mecanismes independents: el psicosocial (patrons relacionals, estils de criança i comunicació apresos dels pares traumatitzats) i l'epigenètic (modificacions en l'expressió gènica causades per l'estrès que es transmeten biològicament a la descendència). Tots dos han estat documentats en humans."
+        },
+        {
+          "type": "expandable",
+          "label": "Els fills dels supervivents de l'Holocaust: el primer gran estudi de transmissió intergeneracional",
+          "content": "Rachel Yehuda, investigadora del Mount Sinai, va dedicar la seva carrera a estudiar els fills i nets de supervivents de l'Holocaust. Va descobrir que presentaven taxes d'ansietat, TEPT i resposta anormal al cortisol significativament majors que grups de control, malgrat no haver viscut cap trauma directament.\n\nLa primera explicació va ser psicosocial: pares traumatitzats creen entorns de criança alterats (hiperprotecció, silenci sobre el passat, ansietat transmesa). Però Yehuda va anar més lluny: va mesurar marcadors epigenètics i va trobar que certs gens relacionats amb la resposta a l'estrès mostraven patrons de metilació similars en supervivents i en els seus fills — patrons que diferien del grup de control.\n\nAixò suggeria transmissió biològica directa, no únicament social. L'estudi va ser molt debatut: la mida de mostra era petita i els controls metodològics tenien limitacions. Estudis posteriors en ratolins han mostrat transmissió epigenètica de respostes a l'estrès de forma molt robusta. La transmissió en humans segueix sent objecte de recerca activa.\n\nLa implicació és profunda: les conseqüències d'un trauma col·lectiu (guerra, genocidi, esclavitud) poden persistir biològicament en les generacions descendents, independentment dels factors socials."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-trm-03-01",
+          "style": "multiple-choice",
+          "question": "En sistemes familiars, el «nen parentificat» és un fill que assumeix rols i responsabilitats d'adults en resposta al funcionament alterat dels pares. Quin és el mecanisme principal pel qual el trauma parental produeix parentificació?",
+          "options": [
+            "El fill imita conscientment el comportament adult perquè admira els seus pares",
+            "El pare o mare traumatitzat, incapaç de gestionar certes funcions emocionals o pràctiques, crea un buit que el fill omple per mantenir la cohesió del sistema familiar",
+            "Els fills amb gran intel·ligència emocional detecten les necessitats dels pares i opten voluntàriament per ajudar-los",
+            "La parentificació és un fenomen cultural, no relacionat amb el trauma parental"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La parentificació no és una elecció del fill ni una estratègia conscient — és una resposta sistèmica a un buit funcional. En la teoria dels sistemes familiars (Bowen, Minuchin), la família tendeix a mantenir l'homeòstasi: quan un membre no pot complir les seves funcions, el sistema pressiona un altre membre per omplir aquell espai. Els fills, especialment els més sensibles als estats emocionals dels pares, solen ser els candidats no designats. El cost a llarg termini per al fill (dificultats per establir límits, tendència al cuidat excessiu dels altres, negligència de les pròpies necessitats) és un dels patrons intergeneracionals més ben documentats.",
+          "feedbackWrong": "La parentificació no és una elecció del fill — és una resposta al buit funcional creat quan un pare o mare no pot complir certes funcions per causa del trauma o d'altres disfuncions. La teoria dels sistemes familiars explica com la família tendeix a l'homeòstasi: si un membre no pot complir el seu rol, el sistema pressiona un altre per omplir-lo. El fill no ho «decideix»; respon a pressions sistèmiques que sovint no pot articular."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-trm-03-02",
+          "style": "true-false",
+          "question": "Els fills de pares traumatitzats que no mostren símptomes de TEPT ni dificultat en el funcionament en la infància estan protegits contra els efectes a llarg termini del trauma parental.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Estudis longitudinals mostren que alguns efectes del trauma parental sobre els fills no apareixen fins a l'edat adulta, especialment en moments de transició major (parella, fills propis, pèrdues). Patrons de funcionament que semblaven adequats en la infància (alta competència, independència precoç, gestió emocional eficient) poden revelar-se com a estratègies adaptatives que limiten el benestar en contextos adults. L'absència de símptomes a la infància no és garantia d'absència d'efectes —és, en molts casos, el resultat d'estratègies adaptatives que a llarg termini tenen un cost.",
+          "feedbackWrong": "L'absència de símptomes a la infància no garanteix protecció a llarg termini. Alguns fills de pares traumatitzats mostren un funcionament aparentment excel·lent durant la infància —alta competència, independència, gestió emocional eficient— que en realitat reflecteix estratègies adaptatives costoses (hipervigilància als estats dels altres, supressió de les pròpies necessitats) que es mantenen invisibles fins a l'edat adulta, quan les circumstàncies vitals les fan insostenibles."
+        },
+        {
+          "type": "debate",
+          "question": "Si el trauma parental pot transmetre's als fills per mecanismes tant psicosocials com epigenètics, els estats haurien de considerar el trauma de les poblacions com un problema de salut pública prioritari — igual que les epidèmies infeccioses?",
+          "positionA": {
+            "label": "Sí — el trauma col·lectiu és una emergència de salut pública",
+            "argument": "La transmissió intergeneracional del trauma multiplica el seu impacte en el temps. Un trauma massiu (guerra, esclavitud, pobresa extrema) no afecta únicament la generació que el viu — afecta les generacions descendents per mecanismes biològics i psicosocials. Ignorar el trauma com a problema de salut pública és equivalent a ignorar una epidèmia que s'autoamplia generació rere generació."
+          },
+          "positionB": {
+            "label": "No — medicalitzar el trauma social amaga les causes estructurals",
+            "argument": "Tractar el trauma col·lectiu com a problema de salut pública pot desviar l'atenció de les seves causes: la guerra, la desigualtat, el racisme estructural, la pobresa. Si el problema és «salut mental de la població» en lloc de «condicions socials que produeixen trauma», les solucions seran teràpies individuals en lloc de canvis estructurals. La medicalització del trauma social és, en cert sentit, una manera de no parlar de política."
+          },
+          "reflection": "Quina és la relació entre les dues postures? Es contradiuen o es complementen?",
+          "context": "Algunes ciutats dels EUA (San Francisco, Baltimore) han adoptat models de «trauma-informed care» a nivell institucional, integrant la perspectiva de trauma en escoles, serveis socials i salut. La recerca sobre efectivitat d'aquests models és incipient però prometedora."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-trm-03-01",
+          "question": "Si l'epigenètica demostra que les experiències d'estrès intens es poden transmetre biològicament als fills, quines implicacions té per a la noció de responsabilitat individual sobre la salut mental?",
+          "options": [
+            "Reforça la responsabilitat individual: les persones han de gestionar el seu estrès per no danyar les generacions futures",
+            "La distribueix: la salut mental de les generacions futures depèn de les condicions en les quals viuen les generacions presents, cosa que és una responsabilitat col·lectiva",
+            "L'elimina: si el trauma es transmet biològicament, les persones no poden evitar els seus efectes i per tant no n'hi ha responsabilitat"
+          ],
+          "correct": 1,
+          "explanation": "L'epigenètica intergeneracional del trauma és un dels arguments científics més potents per a una comprensió col·lectiva de la salut mental. Si les condicions en les quals viuen les persones d'avui (guerra, pobresa extrema, discriminació, violència estructural) afecten la biologia de les generacions futures, aleshores la salut mental no és un assumpte individual sinó una responsabilitat política. Les condicions socials d'avui determinen parcialment la biologia de generacions que encara no han nascut. L'opció A té una lectura legítima (reduir l'estrès personal és beneficiós per a la descendència) però individualitza un problema estructural. L'opció C és incorrecta: l'epigenètica no determina el destí, modifica probabilitats. La neuroplasticitat i les condicions de vida posteriors poden modular els efectes transmesos epigenèticament. L'evidència en humans continua sent preliminar però suficientment consistent per justificar la preocupació política."
+        }
+      ]
+    },
+    {
+      "id": "trm-04",
+      "title": "Escala 4: Què li passa a la comunitat",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hem vist el trauma en el cervell, en la persona, en la família. Ara ampliem el zoom una vegada més: la comunitat.\n\nHi ha comunitats que han viscut trauma col·lectiu —guerra, desplaçament forçat, pobresa estructural, discriminació sistemàtica— i que mostren patrons de funcionament col·lectiu que la psicologia individual no pot explicar. No és que moltes persones traumatitzades visquin juntes. És que el trauma ha alterat el teixit social mateix."
+        },
+        {
+          "type": "key-idea",
+          "text": "El trauma comunitari no és simplement la suma dels traumes individuals. Altera la confiança interpersonal, les narratives col·lectives d'identitat, les normes de solidaritat i els mecanismes de regulació emocional col·lectiva. Una comunitat traumatitzada pot mantenir aquells patrons durant generacions, independentment del que faci cadascun dels seus membres individualment."
+        },
+        {
+          "type": "expandable",
+          "label": "Buffalo Creek, 1972: quan una comunitat deixa de ser una comunitat",
+          "content": "El 26 de febrer de 1972, una presa de residus miners va col·lapsar al comtat de Logan, West Virginia, alliberant 132 milions de litres d'aigua i fang negre sobre la comunitat de Buffalo Creek. 125 persones van morir; 4.000 van perdre les seves llars.\n\nEl sociòleg Kai Erikson va entrevistar supervivents dos anys després i va documentar un fenomen que va anomenar «trauma col·lectiu»: els supervivents no només havien perdut les seves cases sinó el seu sentit de comunitat. Les cases eren llocs on les famílies s'ajudaven mútuament, on la vida col·lectiva tenia sentit. El reallotjament en cases prefabricades disperses va destruir aquells teixits relacionals.\n\nErikson va observar que la pèrdua de la comunitat produïa uns efectes diferents dels de la pèrdua individual: aïllament, desorientació i una sensació d'incompletesa que no s'explicava per la suma dels dolors individuals. La gent sabia que havia perdut alguna cosa que no era seva sola — i no tenia nom per a allò que havia perdut.\n\nBuffalo Creek va ser el primer cas documentat rigorosament de trauma comunitari. Erikson va encunyar el terme el 1976."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-trm-04-01",
+          "style": "multiple-choice",
+          "question": "En comunitats amb alta exposició a violència crònica (alguns barris urbans, zones de conflicte prolongat), quin patró de resposta psicosocial és el més ben documentat?",
+          "options": [
+            "Desensibilització i indiferència: les persones s'acostumen a la violència i perden la capacitat de resposta emocional",
+            "Solidaritat augmentada: la shared adversity enforteix els llaços comunitaris i augmenta la cooperació",
+            "Hipervigilància col·lectiva combinada amb erosió de la confiança interpersonal, fins i tot entre veïns",
+            "Augment dels comportaments prosocials com a mecanisme adaptatiu col·lectiu"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. La violència crònica produeix un patró paradoxal: hipervigilància (el sistema d'alarma sempre actiu) combinada amb erosió de la confiança interpersonal. En entorns on la violència és impredictible i pot venir d'altra gent del barri, la confiança en els veïns es redueix mentre el sistema nerviós es manté en estat d'alerta constant. Això corroeix els mecanismes de suport mutu que normalment funcionen com a factor protector — creant un cicle on la violència destrueix els recursos comunitaris que protegeixen contra els seus propis efectes.",
+          "feedbackWrong": "El patró documentat és l'opció C: hipervigilància col·lectiva combinada amb erosió de la confiança interpersonal. La violència crònica produeix un paradox: el sistema nerviós es manté en alerta constant (per supervivència) però la confiança en els altres membres de la comunitat s'erosiona (perquè la violència sovint ve de prop). Aquell cicle destrueix els recursos de suport mutu que normalment protegeixen contra els efectes del trauma — la comunitat perd exactament el que li caldria per recuperar-se."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-trm-04-02",
+          "style": "detect-error",
+          "statement": "Les comunitats indígenes que han viscut desposseïment colonial, destrucció cultural i traumatisme col·lectiu durant generacions mostren taxes majors de suïcidi, addicció i malaltia mental perquè les seves cultures tradicionals eren psicològicament fragils i poc adaptades a la modernitat.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació inverteix la causalitat de forma radicalment incorrecta. Les taxes majors de patiment mental en comunitats indígenes no reflecteixen fragilitat cultural sinó l'impacte acumulat de polítiques deliberades de destrucció cultural: prohibició de les llengües, internats forçats (separació dels fills dels pares), destrucció de pràctiques espirituals i sistemes de suport comunitari. Les investigacions mostren que les comunitats indígenes que han pogut mantenir o recuperar elements clau de la seva cultura (llengua, pràctiques tradicionals, govern propi) mostren millors indicadors de salut mental que les que han estat privades d'aquests elements. El trauma col·lectiu aquí no és inherent a la cultura — és el resultat de la seva destrucció sistemàtica."
+        },
+        {
+          "type": "connection",
+          "moduleRef": "Pau, conflicte i guerra",
+          "moduleEmoji": "🕊️",
+          "concept": "Justícia transicional i processos de reconciliació",
+          "text": "Les societats postconflicte no es recuperen únicament perquè pare les armes. El trauma col·lectiu no resolt persisteix en generacions que no van viure el conflicte i dificulta la cohesió social. La justícia transicional (comissions de veritat, reparació, memòria) pot entendre's com un procés de tractament del trauma a escala social."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-trm-04-01",
+          "question": "Una política pública vol reduir la violència en un barri urbà amb alta criminalitat. Quina intervenció té major evidència d'efectivitat a llarg termini?",
+          "options": [
+            "Augment de la presència policial i polítiques de tolerància zero",
+            "Programes de salut mental individuals per a residents afectats per trauma",
+            "Inversió en espais comunitaris, oportunitats econòmiques i serveis socials que reconstrueixin el teixit social i redueixin els factors de risc estructurals"
+          ],
+          "correct": 2,
+          "explanation": "La literatura sobre reducció de la violència urbana és una de les millor desenvolupades en criminologia i salut pública. La tolerància zero i la presència policial intensiva (opció A) han mostrat efectes a curt termini sobre alguns types de criminalitat però efectes negatius sobre la confiança comunitària, la salut mental dels residents i la cohesió social — els factors protectors que la pròpia evidència identifica com a clau per a la prevenció a llarg termini. El trauma és una causa però no l'única: la pobresa, la manca d'oportunitats i la degradació física de l'entorn operen independentment. La intervenció més consistent amb l'evidència (opció C) aborda el trauma, les oportunitats econòmiques, l'espai públic i el suport social simultàniament. El programa de Chicago READI (Rapid Employment and Development Initiative) i les intervencions d'Cure Violence mostren reduccions de violència sustingudes quan combinen atenció al trauma, mentoring i oportunitats econòmiques."
+        }
+      ]
+    },
+    {
+      "id": "trm-05",
+      "title": "Escala 5: Què li passa a la societat",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hem vist el trauma en cèl·lules, en persones, en famílies i en comunitats. Ara arribem a l'escala màxima: la societat sencera.\n\nHi ha societats que han viscut traumes col·lectius massius —guerres civils, genocidis, esclavitud, dictadures, pandèmies— i que continuen carregant el pes d'aquelles experiències generacions després, sovint sense saber-ho."
+        },
+        {
+          "type": "key-idea",
+          "text": "El trauma social no resolt es manifesta en narratives col·lectives de victimització o culpa, en polarització política, en dificultats per confiar en les institucions, i en patrons repetitius de conflicte. Les societats, com les persones, poden estar atrapades en un passat que no han processat."
+        },
+        {
+          "type": "expandable",
+          "label": "Alemanya i Japó: dos camins oposats davant del trauma de la derrota",
+          "content": "Alemanya i Japó van ser derrotats en la Segona Guerra Mundial i van afrontar la memòria dels crims comesos durant la guerra de formes radicalment oposades.\n\nAlemanya va desenvolupar, gradualment i no sense resistència, una cultura d'Erinnerungskultur (cultura de la memòria) que inclou educació obligatòria sobre l'Holocaust, reconeixement oficial de la responsabilitat, reparació econòmica a les víctimes i memorials arreu del país. El procés va trigar dècades i va ser sempre conflictiu, però ha produït una societat on les noves generacions assum eixen col·lectivament la responsabilitat d'un passat que no van viure.\n\nJapó va prendre un camí diferent. La memòria oficial dels crims de guerra (Nanjing, treballs forçats, unitat 731) ha estat contestada, minimitzada o negada en els llibres de text oficials. Les relacions amb la Xina i Corea del Sud continuen distorsionades per una memòria no resolta.\n\nLa psicologia intercultural del trauma suggereix que les diferències en les relacions actuals d'Alemanya i Japó amb els seus veïns no s'expliquen únicament per geopolítica — reflecteixen, en part, la diferència entre una societat que ha processat el seu trauma moral i una que no ho ha fet."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-trm-05-01",
+          "style": "multiple-choice",
+          "question": "El concepte de «ferida moral» (moral injury) va ser desenvolupat originalment per a veterans de guerra. Descriu el dany psicològic de:",
+          "options": [
+            "Haver vist o patit actes de violència extrema que superen la capacitat de processament del sistema nerviós",
+            "Haver perpetrat, facilitat o no impedit actes que la persona considera moralment incorrectes, especialment en contexts on les estructures d'autoritat ho demanaven",
+            "Haver sobreviscut quan d'altres van morir, amb la conseqüent culpa del supervivent",
+            "Haver perdut la fe en les institucions que havien de protegir la persona"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La ferida moral (Jonathan Shay, Jonathan Drescher) és conceptualment diferent del TEPT. No prové de la por o la impotència davant d'una amenaça (mecanisme del TEPT), sinó de la dissonància entre les pròpies creences morals i el que s'ha fet, permès o no impedit. Molts veterans que participaven en accions que ells mateixos consideraven incorrectes mostren ferida moral sense TEPT clàssic. El concepte s'aplica ara a metges que han hagut de prendre decisions de triatge en pandèmia, policies que han aplicat lleis que consideraven injustes, i funcionaris que han implementat polítiques que contravenien els seus valors.",
+          "feedbackWrong": "La ferida moral (Jonathan Shay) és diferent del TEPT. No s'origina en la por o la impotència —els mecanismes del TEPT— sinó en la dissonància entre les pròpies creences morals i les accions realitzades o permeses. La pregunta que la genera no és «sobreviuré?» sinó «com puc haver fet (o permès) això?». Aplicable a veterans, però també a metges, professionals de salut pública i funcionaris que han actuat contra els seus valors en contextos institucionals."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-trm-05-02",
+          "style": "true-false",
+          "question": "Les comissions de veritat i reconciliació (com la de Sud-àfrica post-apartheid) han demostrat ser efectivament superiors als processos penals per facilitar la recuperació psicològica de les víctimes i la reconciliació social.",
+          "correct": false,
+          "feedbackCorrect": "Fals com a afirmació general. L'evidència sobre l'efectivitat comparada de les comissions de veritat vs. processos penals per a la recuperació de les víctimes i la reconciliació social és mixed i dependent del context. Alguns estudis mostren que les víctimes que participen en comissions de veritat reporten beneficis psicosocials. Però meta-anàlisis sobre la reconciliació social post-conflict troben efectes molt variables: algunes comissions (Ruanda, Sierra Leone) han tingut resultats positius; d'altres (algunes de Llatinoamèrica) han estat percebudes com a mecanismes d'impunitat. La superioritat de cap model sobre l'altre no es pot afirmar en general — depèn del context, el disseny i l'aplicació específica.",
+          "feedbackWrong": "L'evidència comparativa entre comissions de veritat i processos penals és mixed i context-dependent. Algunes comissions de veritat han mostrat beneficis psicosocials per a les víctimes i han contribuït a la reconciliació. Però d'altres han estat percebudes com a instruments d'impunitat. Cap model ha demostrat superioritat universal — el que funciona depèn del context, el disseny, el finançament, la participació de les víctimes i la voluntat política de fer-lo complir."
+        },
+        {
+          "type": "debate",
+          "question": "Les societats que han perpretrat o beneficiat d'injustícies sistèmiques (esclavitud, colonialisme, discriminació racial) deuen alguna cosa a les generacions actuals dels grups que van ser perjudicats, fins i tot si cap membre viu va participar directament en aquelles injustícies?",
+          "positionA": {
+            "label": "Sí — les estructures persisteixen i la responsabilitat col·lectiva és real",
+            "argument": "Les injustícies sistèmiques del passat creen avantatges estructurals que persisten per a alguns grups i desavantatges que persisteixen per a d'altres, independentment de qui va fer què. Les societats hereten no únicament els beneficis del passat sinó les responsabilitats. La reparació no és sobre culpa individual sinó sobre correcció de desequilibris estructurals actuals."
+          },
+          "positionB": {
+            "label": "No — la responsabilitat moral no és hereditària",
+            "argument": "La responsabilitat moral és individual: pertanys als qui van prendre les decisions, no als seus descendents. Exigir reparació a generacions que no van participar en les injustícies crea nous conflictes i culpabilitats injustes. El que cal és combatre la discriminació present, no compensar el passat."
+          },
+          "reflection": "La teva resposta canvia si penses en compensació econòmica vs. reconeixement públic vs. canvi de polítiques estructurals actuals?",
+          "context": "El debat sobre reparació és actiu als EUA (esclavitud), Alemanya (Holocaust), Bèlgica (Congo), i Espanya i Amèrica Llatina (colonialisme). Cap país ha implementat un model de reparació complet i sostingut. Alemanya és el cas de referència de reparació parcial amb efectes documentats sobre les relacions post-conflict."
+        },
+        {
+          "type": "reflection",
+          "question": "Hem vist el trauma en cinc escales: cèl·lula, persona, família, comunitat, societat. Quin d'aquests nivells sents que és el menys visible en el debat públic sobre salut mental al teu entorn? Per qué creus que és així?",
+          "prompt": "No hi ha resposta correcta. Però val la pena pensar-hi."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-trm-05-01",
+          "question": "Si el trauma es transmet de l'individu a la família, a la comunitat i a la societat, i si les condicions socials que produeixen trauma (guerra, pobresa, discriminació) segueixen actives, pot existir alguna vegada una «societat sense trauma»?",
+          "options": [
+            "Sí — amb les polítiques adequades de prevenció de trauma i suport a la resiliència, les societats poden minimitzar el trauma col·lectiu fins a nivells no significatius",
+            "No — el trauma és inherent a la condició humana: tota vida implica pèrdua, adversitat i mort, i cap estructura social pot eliminar-los",
+            "La pregunta no és útil: més que eliminar el trauma, l'objectiu assolible és construir societats que tinguin les capacitats col·lectives per processar-lo sense que es perpetuï intergeneracionalment"
+          ],
+          "correct": 2,
+          "explanation": "L'opció A és excessivament optimista: mentre hi hagi conflicte, desigualtat extrema i adversitat, el trauma col·lectiu no pot eliminar-se. L'opció B és correcta com a diagnòstic parcial però pot ser usada per justificar la inacció: «com que el trauma és inevitable, no val la pena intentar reduir-lo». La perspectiva C és la que millor integra el que hem après en el mòdul: el problema no és l'existència de l'adversitat (inevitable) sinó la capacitat de les societats per processar-la. Les societats amb major cohesió social, institucions de confiança, espai per a la narrativa col·lectiva de les experiències difícils i recursos per al suport mutu mostren trajectòries col·lectives de recuperació més robustes. L'objectiu és la resiliència col·lectiva, no la immunitat. I la resiliència col·lectiva, com la individual, es construeix — no és un punt d'arribada sinó un procés permanent."
+        }
+      ]
+    }
+  ]
+}
