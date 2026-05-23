@@ -12,7 +12,9 @@ import styles from './Profile.module.css'
 
 const TOTAL_MODULES = MODULE_REGISTRY.length
 const TOTAL_CAPSULES = MICROCAPSULES.length
-const BADGE_LIST = Object.values(BADGES)
+
+const RARITY_ORDER = { common: 0, uncommon: 1, rare: 2, epic: 3 }
+const BADGE_LIST = Object.values(BADGES).sort((a, b) => RARITY_ORDER[a.rarity] - RARITY_ORDER[b.rarity])
 
 const RARITY_LABEL = { common: 'Comú', uncommon: 'Poc comú', rare: 'Rar', epic: 'Èpic' }
 
