@@ -10,6 +10,7 @@ export const BADGES = {
     id: 'first-lesson',
     name: 'Primera Missió',
     description: 'Has completat la teva primera lliçó',
+    hint: 'Completa qualsevol mòdul per primera vegada.',
     emoji: '🚀',
     rarity: 'common'
   },
@@ -17,6 +18,7 @@ export const BADGES = {
     id: 'dogma-challenger',
     name: 'Desafiador del Dogma',
     description: 'Has descobert per què la Terra no és el centre',
+    hint: 'Completa el mòdul La Revolució Copernicana.',
     emoji: '🔭',
     rarity: 'uncommon'
   },
@@ -24,6 +26,7 @@ export const BADGES = {
     id: 'orbit-master',
     name: 'Mestre de les Òrbites',
     description: 'Has completat el mòdul d\'òrbites sense errors',
+    hint: 'Completa el mòdul de les lleis de Kepler responent totes les preguntes correctament.',
     emoji: '🪐',
     rarity: 'rare'
   },
@@ -31,6 +34,7 @@ export const BADGES = {
     id: 'deep-thinker',
     name: 'Pensament Profund',
     description: 'Has obert el box d\'aprofundir 10 vegades',
+    hint: 'Obre el panell "Vull aprofundir" durant les lliçons. Acumula 10 obertures en total.',
     emoji: '🧠',
     rarity: 'uncommon'
   },
@@ -38,6 +42,7 @@ export const BADGES = {
     id: 'confident-scientist',
     name: 'Científic Segur',
     description: '5 respostes amb alta confiança correctes seguides',
+    hint: 'Selecciona el nivell de confiança màxim i encerta 5 preguntes consecutives.',
     emoji: '⭐',
     rarity: 'rare'
   },
@@ -45,6 +50,7 @@ export const BADGES = {
     id: 'copernicus-complete',
     name: 'Revolució Copernicana',
     description: 'Has completat el mòdul de Copèrnic',
+    hint: 'Completa íntegrament el mòdul La Revolució Copernicana.',
     emoji: '☀️',
     rarity: 'epic'
   },
@@ -52,6 +58,7 @@ export const BADGES = {
     id: 'constancia',
     name: 'Constància',
     description: 'Has fet sessió de repàs 7 dies seguits',
+    hint: 'Fes una sessió de repàs cada dia durant 7 dies consecutius. Troba els repassos pendents a la pantalla d\'inici.',
     emoji: '🔥',
     rarity: 'rare'
   },
@@ -59,6 +66,7 @@ export const BADGES = {
     id: 'first-capsule',
     name: 'Primera Càpsula',
     description: 'Has completat la teva primera micro-càpsula',
+    hint: 'Completa qualsevol micro-càpsula del catàleg (2-5 minuts cadascuna).',
     emoji: '⚡',
     rarity: 'common'
   },
@@ -66,6 +74,7 @@ export const BADGES = {
     id: 'capsule-collector',
     name: 'Col·leccionista',
     description: 'Has completat 5 micro-càpsules',
+    hint: 'Completa 5 micro-càpsules en total. Trobaràs el catàleg sencer a la pantalla d\'inici.',
     emoji: '🧪',
     rarity: 'uncommon'
   },
@@ -73,6 +82,7 @@ export const BADGES = {
     id: 'capsule-master',
     name: 'Mestre de les Càpsules',
     description: 'Has completat 10 micro-càpsules',
+    hint: 'Completa 10 micro-càpsules en total.',
     emoji: '🔬',
     rarity: 'rare'
   },
@@ -80,6 +90,7 @@ export const BADGES = {
     id: 'path-complete',
     name: 'Itinerari Completat',
     description: 'Has completat el teu primer itinerari d\'aprenentatge sencer',
+    hint: 'Completa tots els mòduls d\'un itinerari. Troba els itineraris a la pantalla d\'inici.',
     emoji: '🎓',
     rarity: 'epic'
   },

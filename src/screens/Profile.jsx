@@ -128,7 +128,10 @@ export default function Profile() {
               {RARITY_LABEL[selectedBadgeData.rarity] || selectedBadgeData.rarity}
             </div>
             {!badges.includes(selectedBadge) && (
-              <div className={styles.badgeLocked}>Encara no desbloquejada</div>
+              <div className={styles.badgeHint}>
+                <span className={styles.badgeHintLabel}>Com aconseguir-la</span>
+                {selectedBadgeData.hint}
+              </div>
             )}
             <button className={styles.badgePopupClose} onClick={() => setSelectedBadge(null)}>Tancar</button>
           </div>
