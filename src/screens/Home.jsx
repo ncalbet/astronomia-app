@@ -7,7 +7,9 @@ import { BADGES } from '../engine/badgeEngine'
 import { countDueToday } from '../engine/spacedRepetitionEngine'
 import { AREAS, getAreaModules } from '../data/areaRegistry'
 import { LEARNING_PATHS } from '../data/learningPaths'
-import { getDailyCapsule } from '../data/microcapsules'
+import { getDailyCapsule, getCapsuleById } from '../data/microcapsules'
+import { getWeekChallenges, getChallengeProgress } from '../engine/weeklyChallenge'
+import WeeklySummary from '../components/ui/WeeklySummary'
 import styles from './Home.module.css'
 
 function getDailyArea(unlockedModules, completedModules) {
@@ -42,7 +44,8 @@ export default function Home() {
   const navigate = useNavigate()
   const { xp, badges, navigationState, srData, srStreak, srLastReviewDate,
           completedModules, unlockedModules, setNavigationState,
-          fontSize, setFontSize } = useApp()
+          fontSize, setFontSize, favorites, weekStart,
+          weekXP, weekModules, weekReviews, completedCapsules } = useApp()
   const { theme } = useTheme()
   const [selectedBadge, setSelectedBadge] = useState(null)
   const dueCount = countDueToday(srData)
@@ -69,8 +72,21 @@ export default function Home() {
 
   const dailyCapsule = getDailyCapsule()
 
+  const weekChallenges = getWeekChallenges(weekStart)
+  const challengeState = { weekXP, weekModules, weekReviews, completedModules, completedCapsules }
+
+  const favoriteCapsules = (favorites || [])
+    .map(id => getCapsuleById(id))
+    .filter(Boolean)
+
+  const favoritePaths = (favorites || [])
+    .map(id => LEARNING_PATHS.find(p => p.id === id))
+    .filter(Boolean)
+
   return (
     <div className={styles.screen}>
+      <WeeklySummary />
+
       {selectedBadge && (
         <BadgeDetail badgeId={selectedBadge} onClose={() => setSelectedBadge(null)} />
       )}
@@ -78,7 +94,10 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.headerTop}>
           <div className={styles.logo}>🌌</div>
-          <div className={styles.fontToggle}>
+          <div className={styles.headerActions}>
+            <button className={styles.searchBtn} onClick={() => navigate('/search')} title="Cerca">🔍</button>
+            <button className={styles.statsBtn} onClick={() => navigate('/stats')} title="Estadístiques">📊</button>
+            <div className={styles.fontToggle}>
             {['small','medium','large'].map(size => (
               <button
                 key={size}
@@ -89,6 +108,7 @@ export default function Home() {
                 {size === 'small' ? 'A' : size === 'medium' ? 'A' : 'A'}
               </button>
             ))}
+            </div>
           </div>
         </div>
         <h1 className={styles.appName}>{theme.appName}</h1>
@@ -214,6 +234,62 @@ export default function Home() {
           })}
         </div>
       </div>
+
+      {/* Reptes setmanals */}
+      <div className={styles.challengesSection}>
+        <div className={styles.challengesHeader}>
+          <h3 className={styles.sectionTitle}>Reptes de la setmana</h3>
+        </div>
+        <div className={styles.challengesList}>
+          {weekChallenges.map(ch => {
+            const prog = getChallengeProgress(ch, challengeState)
+            const done = prog >= ch.target
+            const pct  = Math.min(100, Math.round((prog / ch.target) * 100))
+            return (
+              <div key={ch.id} className={`${styles.challenge} ${done ? styles.challengeDone : ''}`}>
+                <span className={styles.challengeEmoji}>{ch.emoji}</span>
+                <div className={styles.challengeInfo}>
+                  <div className={styles.challengeTitle}>{ch.title}</div>
+                  <div className={styles.challengeBar}>
+                    <div className={styles.challengeFill} style={{ width: `${pct}%` }} />
+                  </div>
+                </div>
+                <span className={styles.challengeCount}>{prog}/{ch.target}</span>
+                {done && <span className={styles.challengeCheck}>✓</span>}
+              </div>
+            )
+          })}
+        </div>
+      </div>
+
+      {/* Favorits */}
+      {(favoritePaths.length > 0 || favoriteCapsules.length > 0) && (
+        <div className={styles.favoritesSection}>
+          <h3 className={styles.sectionTitle}>⭐ Favorits</h3>
+          <div className={styles.favoritesList}>
+            {favoritePaths.map(p => (
+              <button
+                key={p.id}
+                className={styles.favItem}
+                onClick={() => { setNavigationState({ currentPathId: p.id }); navigate('/path') }}
+              >
+                <span className={styles.favEmoji}>{p.emoji}</span>
+                <span className={styles.favTitle}>{p.title}</span>
+              </button>
+            ))}
+            {favoriteCapsules.map(c => (
+              <button
+                key={c.id}
+                className={styles.favItem}
+                onClick={() => { setNavigationState({ currentCapsuleId: c.id }); navigate('/capsule') }}
+              >
+                <span className={styles.favEmoji}>{c.emoji}</span>
+                <span className={styles.favTitle}>{c.title}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className={styles.actions}>
         {dueCount > 5 && (
