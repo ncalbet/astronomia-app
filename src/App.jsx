@@ -16,7 +16,7 @@ import LearningPathDetail from './screens/LearningPathDetail'
 import MicroCapsulePlayer from './screens/MicroCapsulePlayer'
 import CapsuleBrowser from './screens/CapsuleBrowser'
 import GlobalSearch from './screens/GlobalSearch'
-import Stats from './screens/Stats'
+import Profile from './screens/Profile'
 import './styles/global.css'
 
 function InnerApp() {
@@ -42,7 +42,8 @@ function InnerApp() {
         <Route path="/capsule"    element={<PageTransition><MicroCapsulePlayer /></PageTransition>} />
         <Route path="/capsules"   element={<PageTransition><CapsuleBrowser /></PageTransition>} />
         <Route path="/search"     element={<PageTransition><GlobalSearch /></PageTransition>} />
-        <Route path="/stats"      element={<PageTransition><Stats /></PageTransition>} />
+        <Route path="/stats"      element={<Navigate to="/profile" replace />} />
+        <Route path="/profile"    element={<PageTransition><Profile /></PageTransition>} />
         <Route path="*"           element={<Navigate to="/" replace />} />
       </Routes>
     </>

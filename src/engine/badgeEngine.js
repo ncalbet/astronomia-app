@@ -54,7 +54,35 @@ export const BADGES = {
     description: 'Has fet sessió de repàs 7 dies seguits',
     emoji: '🔥',
     rarity: 'rare'
-  }
+  },
+  'first-capsule': {
+    id: 'first-capsule',
+    name: 'Primera Càpsula',
+    description: 'Has completat la teva primera micro-càpsula',
+    emoji: '⚡',
+    rarity: 'common'
+  },
+  'capsule-collector': {
+    id: 'capsule-collector',
+    name: 'Col·leccionista',
+    description: 'Has completat 5 micro-càpsules',
+    emoji: '🧪',
+    rarity: 'uncommon'
+  },
+  'capsule-master': {
+    id: 'capsule-master',
+    name: 'Mestre de les Càpsules',
+    description: 'Has completat 10 micro-càpsules',
+    emoji: '🔬',
+    rarity: 'rare'
+  },
+  'path-complete': {
+    id: 'path-complete',
+    name: 'Itinerari Completat',
+    description: 'Has completat el teu primer itinerari d\'aprenentatge sencer',
+    emoji: '🎓',
+    rarity: 'epic'
+  },
 }
 
 /**
@@ -88,6 +116,18 @@ export function checkNewBadges(progress, event) {
   if (event.type === 'expand_box') {
     const expandCount = (progress.expandCount || 0) + 1
     check('deep-thinker', expandCount >= 10)
+  }
+
+  if (event.type === 'capsule_done') {
+    // count is the number BEFORE this completion; check exact thresholds
+    const count = (progress.completedCapsules || []).length
+    check('first-capsule',     count === 0)
+    check('capsule-collector', count + 1 === 5)
+    check('capsule-master',    count + 1 === 10)
+  }
+
+  if (event.type === 'path_complete') {
+    check('path-complete', true)
   }
 
   return newBadges

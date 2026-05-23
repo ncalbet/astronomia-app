@@ -269,3 +269,108 @@
   color: var(--color-text-faint);
   margin-top: 2px;
 }
+
+/* Certificat modal */
+.certOverlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.75);
+  backdrop-filter: blur(6px);
+  z-index: 100;
+  display: flex; align-items: center; justify-content: center;
+  padding: var(--space-5);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.certModal {
+  position: relative;
+  width: 100%; max-width: 360px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8) var(--space-6);
+  display: flex; flex-direction: column;
+  align-items: center; gap: var(--space-3);
+  text-align: center;
+  overflow: hidden;
+  animation: slideUp 0.35s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(24px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+/* Confetti */
+.confetti {
+  position: absolute;
+  top: -8px;
+  width: var(--conf-size, 8px);
+  height: var(--conf-size, 8px);
+  border-radius: var(--conf-radius, 2px);
+  background: var(--conf-color, #4C7DFF);
+  animation: confettiFall var(--conf-duration, 1s) var(--conf-delay, 0s) ease-in both;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes confettiFall {
+  0%   { transform: translateY(0) rotate(0deg);    opacity: 1; }
+  100% { transform: translateY(300px) rotate(540deg); opacity: 0; }
+}
+
+.certGlow {
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at top, rgba(76,125,255,0.12) 0%, transparent 70%);
+  background: radial-gradient(ellipse at top, color-mix(in srgb, var(--path-accent) 20%, transparent) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.certPathEmoji { font-size: 3rem; line-height: 1; }
+
+.certIcon {
+  font-size: 2rem;
+  line-height: 1;
+  margin-top: calc(-1 * var(--space-2));
+}
+
+.certTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  color: var(--color-text);
+  margin: 0;
+}
+
+.certName {
+  font-size: var(--text-sm);
+  color: var(--color-text-dim);
+  margin: 0;
+}
+
+.certStats {
+  display: flex; align-items: center; gap: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+}
+
+.certDot { opacity: 0.4; }
+
+.certBtn {
+  margin-top: var(--space-3);
+  width: 100%;
+  padding: var(--space-4);
+  border: none;
+  border-radius: var(--radius-lg);
+  color: #0b0f1e;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.certBtn:hover { opacity: 0.88; transform: translateY(-1px); }
