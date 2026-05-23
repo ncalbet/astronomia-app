@@ -32,6 +32,17 @@ body::before {
   z-index: 0;
 }
 
+/* Mode diürn: nebulosa clara */
+html[data-color-scheme="light"] body::before {
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 10%, rgba(76,125,255,0.05) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 80%, rgba(61,220,132,0.03) 0%, transparent 60%);
+}
+
+/* Mode diürn: scrollbar adaptada */
+html[data-color-scheme="light"] ::-webkit-scrollbar-track { background: #eaeff8; }
+html[data-color-scheme="light"] ::-webkit-scrollbar-thumb { background: #c5d0e8; }
+
 #root {
   position: relative;
   z-index: 1;
