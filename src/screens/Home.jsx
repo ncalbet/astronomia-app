@@ -46,7 +46,7 @@ export default function Home() {
           completedModules, unlockedModules, setNavigationState,
           fontSize, setFontSize, favorites, weekStart,
           weekXP, weekModules, weekReviews, completedCapsules } = useApp()
-  const { theme } = useTheme()
+  const { theme, colorScheme, toggleColorScheme } = useTheme()
   const [selectedBadge, setSelectedBadge] = useState(null)
   const dueCount = countDueToday(srData)
 
@@ -96,6 +96,9 @@ export default function Home() {
           <div className={styles.logo}>🌌</div>
           <div className={styles.headerActions}>
             <button className={styles.searchBtn} onClick={() => navigate('/search')} title="Cerca">🔍</button>
+            <button className={styles.themeBtn} onClick={toggleColorScheme} title={colorScheme === 'dark' ? 'Mode diürn' : 'Mode nocturn'}>
+              {colorScheme === 'dark' ? '☀️' : '🌙'}
+            </button>
             <button className={styles.profileBtn} onClick={() => navigate('/profile')} title="El meu perfil">👤</button>
             <div className={styles.fontToggle}>
             {['small','medium','large'].map(size => (

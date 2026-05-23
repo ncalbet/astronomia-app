@@ -67,6 +67,22 @@
   --transition: 200ms ease;
 }
 
+/* ============================================
+   MODE DIÜRN
+   Sobreescriu colors de fons, text i ombres.
+   ThemeContext gestiona accent i bg/surface.
+   ============================================ */
+
+:root[data-color-scheme="light"] {
+  --color-text:       #111827;
+  --color-text-dim:   #3d4f72;
+  --color-text-faint: #6b7fa3;
+  --color-xp:         #a07000;
+  --shadow-card:      0 2px 12px rgba(0,0,0,0.08);
+  --shadow-glow:      0 0 20px rgba(76,125,255,0.2);
+  --color-accent-glow: rgba(76,125,255,0.15);
+}
+
 /* Mida de text: small */
 :root[data-font-size="small"] {
   --text-xs:   0.688rem;
