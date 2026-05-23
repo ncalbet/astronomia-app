@@ -349,6 +349,8 @@ export default function ModuleMap() {
   const { theme }  = useTheme()
   const [loadingId, setLoadingId] = useState(null)
   const [query, setQuery]         = useState('')
+  const [filter, setFilter]       = useState('all')  // 'all' | 'pending' | 'done'
+  const [sort, setSort]           = useState('default') // 'default' | 'asc' | 'desc'
 
   const area = getAreaById(navigationState.currentAreaId)
 
@@ -387,15 +389,26 @@ export default function ModuleMap() {
 
   const normalizedQuery = query.trim().toLowerCase()
 
-  const filteredTopics = area.topics.map(topic => ({
-    ...topic,
-    modules: topic.modules.filter(id => {
+  const filteredTopics = area.topics.map(topic => {
+    let modules = topic.modules.filter(id => {
       if (!registryIds.has(id)) return false
-      if (!normalizedQuery) return true
-      const title = (MODULE_META[id]?.title || id).toLowerCase()
-      return title.includes(normalizedQuery)
+      if (normalizedQuery) {
+        const title = (MODULE_META[id]?.title || id).toLowerCase()
+        if (!title.includes(normalizedQuery)) return false
+      }
+      if (filter === 'pending') return isModuleUnlocked(id) && !completedModules.includes(id)
+      if (filter === 'done')    return completedModules.includes(id)
+      return true
     })
-  })).filter(topic => topic.modules.length > 0)
+    if (sort !== 'default') {
+      modules = [...modules].sort((a, b) => {
+        const ma = MODULE_XP[a] || 200
+        const mb = MODULE_XP[b] || 200
+        return sort === 'asc' ? ma - mb : mb - ma
+      })
+    }
+    return { ...topic, modules }
+  }).filter(topic => topic.modules.length > 0)
 
   const totalVisible = filteredTopics.reduce((acc, t) => acc + t.modules.length, 0)
 
@@ -406,6 +419,28 @@ export default function ModuleMap() {
         <h1 className={styles.title}>{area.emoji} {area.label}</h1>
         <p className={styles.subtitle}>{area.description}</p>
       </header>
+
+      <div className={styles.filterBar}>
+        <div className={styles.filterChips}>
+          {[['all','Tots'],['pending','Pendents'],['done','Completats']].map(([v,l]) => (
+            <button
+              key={v}
+              className={`${styles.chip} ${filter === v ? styles.chipActive : ''}`}
+              onClick={() => setFilter(v)}
+            >{l}</button>
+          ))}
+        </div>
+        <div className={styles.sortChips}>
+          {[['default','•••'],['asc','↑min'],['desc','↓min']].map(([v,l]) => (
+            <button
+              key={v}
+              className={`${styles.chip} ${sort === v ? styles.chipActive : ''}`}
+              onClick={() => setSort(v)}
+              title={v === 'asc' ? 'Més curts primer' : v === 'desc' ? 'Més llargs primer' : 'Ordre per defecte'}
+            >{l}</button>
+          ))}
+        </div>
+      </div>
 
       <div className={styles.searchRow}>
         <div className={styles.searchWrapper}>

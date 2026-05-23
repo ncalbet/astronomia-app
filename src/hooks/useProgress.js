@@ -80,6 +80,15 @@ const DEFAULT_STATE = {
   srLastReviewDate: null, // Data de l'última sessió (YYYY-MM-DD)
   userProfile: null,     // { sessionTime: '5'|'15'|'30', level: 'new'|'some'|'experienced' }
   fontSize: 'medium',   // 'small' | 'medium' | 'large'
+  favorites: [],
+  completedCapsules: [],
+  srStreakMax: 0,
+  weekStart: null,
+  weekXP: 0,
+  weekModules: 0,
+  weekReviews: 0,
+  prevWeekSnapshot: null,
+  weekSummaryShown: true,
   navigationState: {
     currentModuleId: null,
     currentItineraryId: null,
@@ -107,6 +116,15 @@ function mergeWithDefaults(saved) {
     srLastReviewDate:     saved.srLastReviewDate        || DEFAULT_STATE.srLastReviewDate,
     userProfile:          saved.userProfile             ?? DEFAULT_STATE.userProfile,
     fontSize:             saved.fontSize                ?? DEFAULT_STATE.fontSize,
+    favorites:            saved.favorites               || DEFAULT_STATE.favorites,
+    completedCapsules:    saved.completedCapsules        || DEFAULT_STATE.completedCapsules,
+    srStreakMax:          saved.srStreakMax               ?? DEFAULT_STATE.srStreakMax,
+    weekStart:            saved.weekStart                ?? DEFAULT_STATE.weekStart,
+    weekXP:               saved.weekXP                   ?? DEFAULT_STATE.weekXP,
+    weekModules:          saved.weekModules               ?? DEFAULT_STATE.weekModules,
+    weekReviews:          saved.weekReviews               ?? DEFAULT_STATE.weekReviews,
+    prevWeekSnapshot:     saved.prevWeekSnapshot          ?? DEFAULT_STATE.prevWeekSnapshot,
+    weekSummaryShown:     saved.weekSummaryShown          ?? DEFAULT_STATE.weekSummaryShown,
     navigationState: {
       ...DEFAULT_STATE.navigationState,
       ...(saved.navigationState || {})
@@ -133,7 +151,7 @@ export function useProgress() {
     update(prev => {
       const newXP = prev.xp + amount
       const newLevel = Math.floor(newXP / 100) + 1
-      return { ...prev, xp: newXP, level: newLevel }
+      return { ...prev, xp: newXP, level: newLevel, weekXP: (prev.weekXP || 0) + amount }
     })
   }, [update])
 
@@ -151,7 +169,11 @@ export function useProgress() {
   const completeModule = useCallback((moduleId) => {
     update(prev => {
       if (prev.completedModules.includes(moduleId)) return prev
-      return { ...prev, completedModules: [...prev.completedModules, moduleId] }
+      return {
+        ...prev,
+        completedModules: [...prev.completedModules, moduleId],
+        weekModules: (prev.weekModules || 0) + 1
+      }
     })
   }, [update])
 
@@ -242,13 +264,56 @@ export function useProgress() {
   const updateSrStreak = useCallback(() => {
     const today = new Date().toISOString().split('T')[0]
     update(prev => {
-      if (prev.srLastReviewDate === today) return prev // ja fet avui
+      if (prev.srLastReviewDate === today) return prev
       const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0]
-      const newStreak = prev.srLastReviewDate === yesterday
-        ? (prev.srStreak || 0) + 1
-        : 1
-      return { ...prev, srStreak: newStreak, srLastReviewDate: today }
+      const newStreak = prev.srLastReviewDate === yesterday ? (prev.srStreak || 0) + 1 : 1
+      return {
+        ...prev,
+        srStreak: newStreak,
+        srLastReviewDate: today,
+        srStreakMax: Math.max(prev.srStreakMax || 0, newStreak),
+        weekReviews: (prev.weekReviews || 0) + 1
+      }
     })
+  }, [update])
+
+  const toggleFavorite = useCallback((id) => {
+    update(prev => ({
+      ...prev,
+      favorites: (prev.favorites || []).includes(id)
+        ? (prev.favorites || []).filter(f => f !== id)
+        : [...(prev.favorites || []), id]
+    }))
+  }, [update])
+
+  const completeCapsule = useCallback((id) => {
+    update(prev => {
+      if ((prev.completedCapsules || []).includes(id)) return prev
+      return { ...prev, completedCapsules: [...(prev.completedCapsules || []), id] }
+    })
+  }, [update])
+
+  const initWeekIfNeeded = useCallback(() => {
+    const d = new Date()
+    const day = d.getDay()
+    const diff = day === 0 ? -6 : 1 - day
+    d.setDate(d.getDate() + diff)
+    const monday = d.toISOString().split('T')[0]
+    update(prev => {
+      if (prev.weekStart === monday) return prev
+      const snapshot = prev.weekStart ? {
+        xp: prev.weekXP || 0, modules: prev.weekModules || 0,
+        reviews: prev.weekReviews || 0, weekStart: prev.weekStart
+      } : null
+      return {
+        ...prev, weekStart: monday, weekXP: 0, weekModules: 0, weekReviews: 0,
+        prevWeekSnapshot: snapshot, weekSummaryShown: snapshot ? false : true
+      }
+    })
+  }, [update])
+
+  const markWeekSummaryShown = useCallback(() => {
+    update(prev => ({ ...prev, weekSummaryShown: true }))
   }, [update])
 
   const resetAll = useCallback(() => {
@@ -261,6 +326,7 @@ export function useProgress() {
     addXP, completeLesson, completeModule, completeItinerary,
     unlockModule, earnBadge, setNavigationState,
     isLessonCompleted, isItineraryCompleted, isModuleUnlocked, resetAll, repeatModule,
-    updateSrData, updateSrStreak, setUserProfile, setFontSize
+    updateSrData, updateSrStreak, setUserProfile, setFontSize,
+    toggleFavorite, completeCapsule, initWeekIfNeeded, markWeekSummaryShown
   }
 }

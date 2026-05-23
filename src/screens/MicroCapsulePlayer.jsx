@@ -64,7 +64,7 @@ function ExerciseBlock({ block, onAnswer }) {
 
 export default function MicroCapsulePlayer() {
   const navigate = useNavigate()
-  const { navigationState, addXP, checkBadges } = useApp()
+  const { navigationState, addXP, checkBadges, completeCapsule } = useApp()
 
   const capsule = getCapsuleById(navigationState.currentCapsuleId)
 
@@ -96,6 +96,7 @@ export default function MicroCapsulePlayer() {
     if (isLast) {
       addXP(CAPSULE_XP)
       checkBadges({ type: 'capsule_done' })
+      completeCapsule(capsule.id)
       setDone(true)
     } else {
       setStep(s => s + 1)

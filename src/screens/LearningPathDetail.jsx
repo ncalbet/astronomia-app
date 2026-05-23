@@ -11,7 +11,7 @@ const DEPTH_LABEL      = { lleuger: 'Lleuger', intermedi: 'Intermedi', profund: 
 
 export default function LearningPathDetail() {
   const navigate = useNavigate()
-  const { navigationState, setNavigationState, completedModules, addXP } = useApp()
+  const { navigationState, setNavigationState, completedModules, addXP, favorites, toggleFavorite } = useApp()
   const { theme } = useTheme()
   const [loading, setLoading] = useState(null) // moduleId being loaded
 
@@ -62,6 +62,13 @@ export default function LearningPathDetail() {
     <div className={styles.screen}>
       <header className={styles.header}>
         <button className={styles.back} onClick={() => navigate('/')}>← Tornar</button>
+        <button
+          className={styles.favBtn}
+          onClick={() => toggleFavorite(path.id)}
+          title={(favorites || []).includes(path.id) ? 'Treu de favorits' : 'Afegeix a favorits'}
+        >
+          {(favorites || []).includes(path.id) ? '⭐' : '☆'}
+        </button>
       </header>
 
       {/* Hero */}

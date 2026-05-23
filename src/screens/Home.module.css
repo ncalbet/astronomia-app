@@ -24,9 +24,24 @@
   filter: drop-shadow(0 0 20px rgba(76, 125, 255, 0.5));
 }
 
-.fontToggle {
+.headerActions {
   position: absolute;
   right: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.searchBtn, .statsBtn {
+  background: none; border: none;
+  font-size: 1.1rem; cursor: pointer;
+  padding: 4px; border-radius: var(--radius-sm);
+  transition: var(--transition);
+  line-height: 1;
+}
+.searchBtn:hover, .statsBtn:hover { transform: scale(1.15); }
+
+.fontToggle {
   display: flex;
   gap: 2px;
   background: var(--color-surface-2);
@@ -581,6 +596,101 @@
   font-size: 10px;
   color: var(--color-text-faint);
   white-space: nowrap;
+}
+
+/* Reptes setmanals */
+.challengesSection { width: 100%; }
+
+.challengesHeader {
+  display: flex; align-items: center;
+  margin-bottom: var(--space-3);
+}
+
+.challengesList {
+  display: flex; flex-direction: column; gap: var(--space-2);
+}
+
+.challenge {
+  display: flex; align-items: center; gap: var(--space-3);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3) var(--space-4);
+  transition: var(--transition);
+}
+
+.challengeDone {
+  border-color: rgba(61, 220, 132, 0.35);
+  background: rgba(61, 220, 132, 0.04);
+}
+
+.challengeEmoji { font-size: 1.2rem; flex-shrink: 0; }
+
+.challengeInfo { flex: 1; min-width: 0; }
+
+.challengeTitle {
+  font-size: var(--text-xs);
+  color: var(--color-text-dim);
+  margin-bottom: 5px;
+}
+
+.challengeBar {
+  height: 4px;
+  background: var(--color-surface-2);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.challengeFill {
+  height: 100%;
+  background: var(--color-accent);
+  border-radius: var(--radius-full);
+  transition: width 0.5s ease;
+}
+
+.challengeDone .challengeFill { background: var(--color-success); }
+
+.challengeCount {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  flex-shrink: 0;
+}
+
+.challengeCheck {
+  color: var(--color-success);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  flex-shrink: 0;
+}
+
+/* Favorits */
+.favoritesSection { width: 100%; }
+
+.favoritesList {
+  display: flex; flex-direction: column; gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.favItem {
+  display: flex; align-items: center; gap: var(--space-3);
+  width: 100%;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3) var(--space-4);
+  cursor: pointer; text-align: left;
+  transition: var(--transition);
+}
+
+.favItem:hover { border-color: var(--color-accent); transform: translateX(2px); }
+
+.favEmoji { font-size: 1.2rem; flex-shrink: 0; }
+
+.favTitle {
+  font-size: var(--text-sm);
+  color: var(--color-text-dim);
+  flex: 1; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 
 /* Botó de repàs diari */

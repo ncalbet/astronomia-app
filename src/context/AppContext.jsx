@@ -48,6 +48,10 @@ export function AppProvider({ children }) {
     document.documentElement.setAttribute('data-font-size', progress.fontSize || 'medium')
   }, [progress.fontSize])
 
+  useEffect(() => {
+    progress.initWeekIfNeeded()
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
   return (
     <AppContext.Provider value={{
       ...progress,

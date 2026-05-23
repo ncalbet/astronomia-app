@@ -502,6 +502,192 @@ export const MICROCAPSULES = [
       },
     ],
   },
+  {
+    id: 'mc-relativitat-temps',
+    title: 'Per qué el temps passa més lent a l\'espai?',
+    emoji: '⏳',
+    duration: 3,
+    areaId: 'ciencies',
+    blocks: [
+      {
+        type: 'narrative',
+        text: 'Els rellotges dels satèl·lits GPS van ~38 microsegons més ràpid cada dia que els de la Terra. Sembla insignificant, però sense corregir-ho, el GPS acumularia un error de 10 km al dia. La raó és doble: la relativitat especial (velocitat fa alentir el temps) i la relativitat general (la gravetat més feble a l\'òrbita fa anar el rellotge més ràpid). Tots dos efectes s\'han de compensar de forma constant.',
+      },
+      {
+        type: 'key-idea',
+        text: 'Dilatació temporal: com més ràpid es mou un objecte (relativitat especial) o com més fort és el camp gravitacional (relativitat general), més lentament transcorre el temps per a ell respecte a un observador extern. No és una il·lusió: és física real amb conseqüències tecnològiques mesurables.',
+      },
+      {
+        type: 'exercise',
+        id: 'mc-rel-temps-q1',
+        exerciseType: 'multiple-choice',
+        question: 'Per qué els satèl·lits GPS necessiten correcció de relativitat?',
+        options: [
+          'Perquè a l\'espai no hi ha atmosfera i els senyals van més ràpid',
+          'Perquè la velocitat i la gravetat feble fan que els seus rellotges no sincronitzin amb els de terra',
+          'Perquè la temperatura a l\'òrbita afecta els circuits electrònics',
+          'Perquè la curvatura de la Terra distorsiona els senyals de ràdio',
+        ],
+        correctIndex: 1,
+        explanation: 'La relativitat especial alenteix els rellotges del satèl·lit (van ràpid: ~-7 µs/dia) i la relativitat general els accelera (gravetat feble: ~+45 µs/dia). El resultat net és +38 µs/dia, que s\'ha de compensar algorítmicament per mantenir la precisió del GPS.',
+      },
+    ],
+  },
+  {
+    id: 'mc-darwinisme-social',
+    title: 'Darwin no va dir el que creus',
+    emoji: '🦎',
+    duration: 2,
+    areaId: 'ciencies',
+    blocks: [
+      {
+        type: 'narrative',
+        text: '"Supervivència del més fort" — Darwin mai no va escriure aquesta frase. Va ser Herbert Spencer el 1864. Darwin parlava de "supervivència del més adaptat" (fittest), que significa adaptat a l\'entorn específic, no el més gran ni el més violent. Un bacteri que sobreviu a l\'antibiòtic és "el més adaptat" en aquell context. La força física és irrellevant per a la selecció natural en la majoria de casos.',
+      },
+      {
+        type: 'key-idea',
+        text: '"Fittest" en anglès victorià significava "millor ajustat". L\'adaptació pot ser qualsevol tret que incrementa la supervivència i reproducció en un ambient concret: camuflatge, velocitat, cooperació social, resistència a malalties... La selecció natural no té cap preferència per la complexitat ni per la mida.',
+      },
+      {
+        type: 'exercise',
+        id: 'mc-darwin-q1',
+        exerciseType: 'multiple-choice',
+        question: 'Qué significa realment "supervivència del més adaptat" en termes evolutius?',
+        options: [
+          'Que els individus més forts físicament sempre sobreviuen',
+          'Que els individus millor ajustats al seu ambient deixaran més descendència',
+          'Que les espècies més intel·ligents substitueixen les menys intel·ligents',
+          'Que la competència és el motor principal de l\'evolució',
+        ],
+        correctIndex: 1,
+        explanation: '"Adaptat" vol dir ajustat a l\'ambient concret. La cooperació, el camuflatge o la resistència a malalties poden ser tan "adaptatives" com la força. L\'evolució no maximitza cap atribut concret: selecciona el que funciona en el context actual.',
+      },
+    ],
+  },
+  {
+    id: 'mc-drets-humans-generacions',
+    title: 'Hi ha tres tipus de drets humans',
+    emoji: '🌍',
+    duration: 3,
+    areaId: 'relacions',
+    blocks: [
+      {
+        type: 'narrative',
+        text: 'Els drets humans s\'han classificat en tres "generacions". La primera: drets civils i polítics (llibertat d\'expressió, dret al vot, prohibició de tortura). La segona: drets econòmics i socials (educació, salut, treball). La tercera: drets col·lectius i de solidaritat (dret al desenvolupament, al medi ambient sa, a la pau). Les dues primeres estan consagrades a pactes internacionals de 1966. La tercera segueix en debat.',
+      },
+      {
+        type: 'key-idea',
+        text: 'La divisió en generacions és analítica, no jeràrquica. La Declaració de Viena (1993) va confirmar que tots els drets humans són universals, indivisibles, interdependents i interrelacionats. Un estat no pot dir que respecta la llibertat d\'expressió però ignorar el dret a l\'educació: totes les generacions s\'han de complir.',
+      },
+      {
+        type: 'exercise',
+        id: 'mc-ddhh-gen-q1',
+        exerciseType: 'multiple-choice',
+        question: 'Quin d\'aquests és un dret de "primera generació"?',
+        options: [
+          'El dret a l\'educació',
+          'El dret a un medi ambient sa',
+          'La prohibició de tortura',
+          'El dret al desenvolupament econòmic',
+        ],
+        correctIndex: 2,
+        explanation: 'La prohibició de tortura és un dret civil i polític (1a generació), inclosa a la Declaració Universal i al Pacte Internacional de Drets Civils i Polítics. L\'educació és 2a generació (drets econòmics i socials). El medi ambient i el desenvolupament són 3a generació.',
+      },
+    ],
+  },
+  {
+    id: 'mc-filosofia-platon',
+    title: 'La cova de Plató: per qué els humans vivim en l\'engany',
+    emoji: '🦉',
+    duration: 3,
+    areaId: 'pensament',
+    blocks: [
+      {
+        type: 'narrative',
+        text: 'Imagina presoners encadenats en una cova des de l\'infància, que només veuen ombres projectades a la paret per fogueres que no poden veure. Per a ells, les ombres són la realitat. Un presoner escapa, veu el sol per primer cop i retorna a la cova per alliberar els altres. Però els presoners, acostumats a les ombres, el consideren boig i es neguen a moure\'s. Aquesta és l\'al·legoria de la cova de Plató (c. 380 aC).',
+      },
+      {
+        type: 'key-idea',
+        text: 'Plató usava la cova per il·lustrar la teoria de les Idees: el món sensible (el que percebem) és com les ombres — una còpia imperfecta de la realitat autèntica (el món de les Idees). La filosofia és el procés d\'escapar de la cova: trencar les cadenes de les opinions per arribar al coneixement verdader.',
+      },
+      {
+        type: 'exercise',
+        id: 'mc-platon-q1',
+        exerciseType: 'multiple-choice',
+        question: 'Qué representen els presoners de la cova en l\'al·legoria de Plató?',
+        options: [
+          'Els filòsofs que busquen la veritat',
+          'Les persones que es guien per les opinions i les percepcions sensorials',
+          'Els tirans que controlen la societat',
+          'Els científics que estudien el món físic',
+        ],
+        correctIndex: 1,
+        explanation: 'Els presoners representen les persones ordinàries que prenen les aparences (opinions, percepcions) per la realitat. La sortida de la cova simbolitza el procés filosòfic d\'ascens cap al coneixement verdader (episteme), que culmina en la visió del Sol, que representa la Idea del Bé.',
+      },
+    ],
+  },
+  {
+    id: 'mc-keynnes',
+    title: 'Per qué l\'estat gasta en crisis (i per qué funciona)',
+    emoji: '🏦',
+    duration: 3,
+    areaId: 'societat',
+    blocks: [
+      {
+        type: 'narrative',
+        text: 'El 1936, en plena Gran Depressió, John Maynard Keynes va publicar la "Teoria General". La seva idea central era radical per a l\'època: quan l\'economia privada col·lapsa i la gent deixa de gastar, l\'estat ha de substituir la demanda privada amb despesa pública, encara que s\'endeugi. Construir carreteres, pagar sous, fins i tot contractar gent per excavar forats i tornar-los a tapiar: el que importa és mantenir l\'activitat econòmica.',
+      },
+      {
+        type: 'key-idea',
+        text: 'L\'efecte multiplicador keynesià: cada euro gastat per l\'estat genera més d\'un euro d\'activitat econòmica, perquè el treballador que el rep el gasta, i aquell comerciant el reinverteix, etc. El multiplicador pot ser >1 en recessions profundes, quan els recursos estan ociosos. Per contra, reduir la despesa pública en crisi (austeritat) pot aprofundir la recessió.',
+      },
+      {
+        type: 'exercise',
+        id: 'mc-keynes-q1',
+        exerciseType: 'multiple-choice',
+        question: 'Qué proposa Keynes durant una recessió econòmica greu?',
+        options: [
+          'Reduir la despesa pública per equilibrar el pressupost',
+          'Augmentar els impostos per finançar el deute',
+          'Que l\'estat augmenti la despesa per compensar la caiguda de la demanda privada',
+          'Deixar que el mercat es corregeixi per si sol sense intervenció',
+        ],
+        correctIndex: 2,
+        explanation: 'Keynes argumentava que en una recessió, l\'economia pot quedar atrapada en un equilibri de baixa activitat si l\'estat no intervé. La despesa pública funciona com a "estabilitzador automàtic" que manté l\'activitat fins que la confiança privada es recupera.',
+      },
+    ],
+  },
+  {
+    id: 'mc-music-beethoven',
+    title: 'Beethoven va compondre sord',
+    emoji: '🎼',
+    duration: 2,
+    areaId: 'arts',
+    blocks: [
+      {
+        type: 'narrative',
+        text: 'Als 26 anys, Ludwig van Beethoven va notar els primers símptomes de sordesa. Als 44, era completament sord. Tot i això, va compondre algunes de les seves obres més revolucionàries en aquest estat: la 5a Simfonia (la del famós "ta-ta-ta-taaaam"), la 9a Simfonia (l\'Oda a l\'Alegria) i els seus últims quartets de corda. Als assajos, posava el cap al piano per sentir les vibracions. Era capaç d\'imaginar el so sense sentir-lo.',
+      },
+      {
+        type: 'key-idea',
+        text: 'La 9a Simfonia, estrenada el 1824, va ser la primera simfonia de la història a incorporar cors i solistes vocals en el seu moviment final. El dia de l\'estrena, Beethoven estava completament sord i va estar d\'esquena al públic. Un solista va haver de girar-lo per veure l\'ovació del públic. Ningú no se l\'havia dit.',
+      },
+      {
+        type: 'exercise',
+        id: 'mc-beethoven-q1',
+        exerciseType: 'multiple-choice',
+        question: 'Quina va ser la primera simfonia de la història a incloure cors i solistes en el moviment final?',
+        options: [
+          'La 5a Simfonia de Beethoven',
+          'La 9a Simfonia de Beethoven',
+          'La 40a Simfonia de Mozart',
+          'La Simfonia dels Adéus de Haydn',
+        ],
+        correctIndex: 1,
+        explanation: 'La 9a Simfonia de Beethoven (1824), amb l\'Oda a l\'Alegria al 4t moviment, va ser la primera a integrar veus humanes en una estructura simfònica. Va obrir una nova era en la composició orquestral i va influir directament en Wagner, Brahms i tots els compositors posteriors.',
+      },
+    ],
+  },
 ]
 
 export function getDailyCapsule() {

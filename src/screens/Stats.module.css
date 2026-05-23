@@ -1,0 +1,155 @@
+.screen {
+  min-height: 100dvh;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-5) var(--space-10);
+  display: flex; flex-direction: column; gap: var(--space-4);
+}
+
+.header { }
+
+.back {
+  background: none; border: none;
+  color: var(--color-accent);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  cursor: pointer; padding: 0;
+  margin-bottom: var(--space-4); display: block;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  color: var(--color-text);
+  margin: 0;
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+
+.cardTitle {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--color-text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-4);
+}
+
+.cardRow {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.stat {
+  flex: 1;
+  min-width: 60px;
+  text-align: center;
+}
+
+.statValue {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  color: var(--color-text);
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+
+.statOf {
+  font-size: var(--text-sm);
+  color: var(--color-text-faint);
+}
+
+.statLabel {
+  font-size: 10px;
+  color: var(--color-text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.fire { font-size: var(--text-xl); }
+
+.xpBar {
+  height: 6px;
+  background: var(--color-surface-2);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  margin: var(--space-4) 0 var(--space-2);
+}
+
+.xpFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-accent), #6a95ff);
+  border-radius: var(--radius-full);
+  transition: width 0.6s ease;
+}
+
+.xpHint {
+  font-size: var(--text-xs);
+  color: var(--color-text-dim);
+  text-align: center;
+}
+
+/* Per àrea */
+.areaRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.areaRow:last-child { margin-bottom: 0; }
+
+.areaLeft {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  width: 120px;
+  flex-shrink: 0;
+}
+
+.areaEmoji { font-size: 1rem; }
+
+.areaName {
+  font-size: var(--text-xs);
+  color: var(--color-text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.areaRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.areaTrack {
+  flex: 1;
+  height: 6px;
+  background: var(--color-surface-2);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.areaFill {
+  height: 100%;
+  background: var(--area-color, var(--color-accent));
+  border-radius: var(--radius-full);
+  transition: width 0.6s ease;
+  opacity: 0.85;
+}
+
+.areaPct {
+  font-size: 10px;
+  color: var(--color-text-faint);
+  width: 32px;
+  text-align: right;
+  flex-shrink: 0;
+}
