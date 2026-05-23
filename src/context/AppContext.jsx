@@ -34,7 +34,12 @@ export function AppProvider({ children }) {
   // Comprova insígnies basant-se en un event
   const checkBadges = useCallback((event) => {
     const newBadges = checkNewBadges(
-      { badges: progress.badges, completedLessons: progress.completedLessons },
+      {
+        badges: progress.badges,
+        completedLessons: progress.completedLessons,
+        completedCapsules: progress.completedCapsules,
+        completedModules: progress.completedModules,
+      },
       event
     )
     if (newBadges.length > 0) {

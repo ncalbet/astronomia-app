@@ -96,7 +96,7 @@ export default function Home() {
           <div className={styles.logo}>🌌</div>
           <div className={styles.headerActions}>
             <button className={styles.searchBtn} onClick={() => navigate('/search')} title="Cerca">🔍</button>
-            <button className={styles.statsBtn} onClick={() => navigate('/stats')} title="Estadístiques">📊</button>
+            <button className={styles.profileBtn} onClick={() => navigate('/profile')} title="El meu perfil">👤</button>
             <div className={styles.fontToggle}>
             {['small','medium','large'].map(size => (
               <button

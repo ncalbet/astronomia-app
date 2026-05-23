@@ -1,6 +1,8 @@
 # 🌌 Acadèmia Còsmica
 
-Aplicació d'aprenentatge d'astronomia interactiva. PWA mobile-first.
+Plataforma d'aprenentatge profund mobile-first (PWA). Motor pedagògic universal: canviar de matèria = canviar el contingut JSON.
+
+**App en producció:** https://astronomia-app.vercel.app/
 
 ---
 
@@ -66,35 +68,72 @@ L'app funciona i es refresca automàticament quan fas canvis.
 
 ```
 src/
-  components/       → Components UI reutilitzables (pròxim bloc)
+  components/
+    blocks/           → Blocs de contingut reutilitzables
+    exercises/        → Exercicis interactius
+    simulations/      → Simulacions (RetrogradeSim)
+    ui/               → Components UI globals (BadgeToast, PageTransition,
+                        WeeklySummary, LessonReinforcementPanel, MicroRevealPanel)
   context/
-    AppContext.jsx  → Estat global de l'usuari
+    AppContext.jsx     → Estat global de l'usuari
+    ThemeContext.jsx   → Tema actiu (colors, textos, narrativa)
   data/
-    modules/        → Un JSON per mòdul ← AQUÍ S'AFEGEIX CONTINGUT
-    moduleRegistry.js → Registre de mòduls disponibles
+    modules/           → Un JSON per mòdul ← AQUÍ S'AFEGEIX CONTINGUT (93 mòduls)
+    moduleRegistry.js  → Registre de mòduls disponibles + cache en memòria
+    areaRegistry.js    → Àrees de coneixement i agrupació per temes
+    learningPaths.js   → Itineraris d'aprenentatge curats (10 paths)
+    microcapsules.js   → Micro-càpsules de 3 min (22 càpsules)
+    glossary.js        → Glossari de termes
   engine/
-    xpEngine.js     → Càlcul d'XP i nivells
-    badgeEngine.js  → Insígnies
-    unlockEngine.js → Desbloqueig de mòduls
+    xpEngine.js              → Càlcul d'XP i nivells
+    badgeEngine.js           → Insígnies i condicions
+    unlockEngine.js          → Desbloqueig de mòduls (ara tots oberts)
+    spacedRepetitionEngine.js → Algorisme SM-2
+    readingTimeEngine.js     → Estimació de minuts de lectura
+    weeklyChallenge.js       → Reptes setmanals deterministes
   hooks/
-    useProgress.js  → Gestió del progrés
-  screens/          → Pantalles de l'app
+    useProgress.js        → Estat persistent de l'usuari
+    useModuleProgress.js  → Progrés per mòdul (per al mapa)
+    useFirstTime.js       → Detecta primera obertura de l'app
+  screens/
+    Welcome.jsx           → Benvinguda + quiz de perfil + recomanació d'itinerari
+    Home.jsx              → Pantalla principal amb reptes, favorits i resum setmanal
+    AreaSelector.jsx      → Selecció d'àrea de coneixement
+    ModuleMap.jsx         → Mapa de mòduls amb filtre, ordre i cerca
+    ItinerarySelector.jsx → Selecció d'itinerari quan un mòdul en té més d'un
+    Lesson.jsx            → Renderitzador dinàmic de lliçons per blocs
+    Results.jsx           → Resultats al completar mòdul/itinerari
+    ReviewSession.jsx     → Sessió de repàs amb spaced repetition
+    LearningPathDetail.jsx → Detall i progrés d'un itinerari d'aprenentatge
+    MicroCapsulePlayer.jsx → Reproductor de micro-càpsules de 3 min
+    CapsuleBrowser.jsx    → Catàleg de totes les micro-càpsules
+    GlobalSearch.jsx      → Cerca global (mòduls, itineraris, càpsules)
+    Stats.jsx             → Estadístiques d'aprenentatge de l'usuari
+    Glossary.jsx          → Glossari de termes
   storage/
-    storageProvider.js → Capa d'emmagatzematge
+    storageProvider.js  → Capa d'abstracció sobre localStorage
+    dataVersion.js      → Control de versió de dades
+  themes/
+    astronomy.json     → Tema astronomia
+    philosophy.json    → Tema filosofia
+    themeRegistry.js   → Registre de temes
   styles/
-    variables.css   → Colors, fonts, espaiat ← DESIGN SYSTEM
-    global.css      → Estils base
+    variables.css      → Design system complet ← AQUÍ ES TOCA EL DISSENY
+    global.css         → Estils base
 ```
 
 ---
 
 ## ➕ Com afegir un nou mòdul
 
-1. Crea `src/data/modules/module-02-gravity.json` seguint l'estructura del mòdul 01
+1. Crea `src/data/modules/module-XX-nom.json` seguint el format de `referencia-blocs.md`
 2. Afegeix l'entrada a `src/data/moduleRegistry.js`
-3. Defineix els desbloquejos a `src/engine/unlockEngine.js`
+3. Afegeix el meta (títol, emoji, XP estimat) a `src/screens/ModuleMap.jsx` (`MODULE_META` i `MODULE_XP`)
+4. Afegeix l'id del mòdul al topic corresponent a `src/data/areaRegistry.js`
+5. Afegeix l'id a `unlockedModules` al `DEFAULT_STATE` de `src/hooks/useProgress.js`
+6. Incrementa `DATA_VERSION` a `src/storage/dataVersion.js`
 
-**Cap altre fitxer s'ha de modificar.**
+Consulta `context-projecte.md` per a detalls sobre l'arquitectura completa.
 
 ---
 

@@ -7,7 +7,19 @@ import { getUnlocksForModule } from '../engine/unlockEngine'
 import { countDueToday } from '../engine/spacedRepetitionEngine'
 import { loadModule } from '../data/moduleRegistry'
 import { downloadCertificate } from '../engine/certificateEngine'
+import { playSuccessSound } from '../engine/soundEngine'
 import styles from './Results.module.css'
+
+const CONFETTI_COLORS = ['#4C7DFF', '#6a95ff', '#3DDB84', '#FFB443', '#FF6B6B', '#C084FC', '#F59E0B']
+const CONFETTI = Array.from({ length: 28 }, (_, i) => ({
+  id: i,
+  color: CONFETTI_COLORS[i % CONFETTI_COLORS.length],
+  left: `${3 + (i * 3.5) % 94}%`,
+  duration: `${0.8 + (i * 0.05) % 0.7}s`,
+  delay: `${(i * 0.03) % 0.5}s`,
+  size: `${6 + (i * 1.4) % 8}px`,
+  radius: i % 3 === 0 ? '50%' : '2px',
+}))
 
 export default function Results() {
   const navigate = useNavigate()
@@ -31,7 +43,10 @@ export default function Results() {
       loadModule(currentModuleId).then(data => setModuleTitle(data.title || '')).catch(() => {})
     }
 
-    const t = setTimeout(() => setShown(true), 100)
+    const t = setTimeout(() => {
+      setShown(true)
+      playSuccessSound()
+    }, 100)
     return () => clearTimeout(t)
   }, [])
 
@@ -49,6 +64,25 @@ export default function Results() {
 
   return (
     <div className={`${styles.screen} ${shown ? styles.visible : ''}`}>
+      {shown && (
+        <div className={styles.confettiLayer}>
+          {CONFETTI.map(c => (
+            <div
+              key={c.id}
+              className={styles.confetti}
+              style={{
+                '--conf-color': c.color,
+                '--conf-duration': c.duration,
+                '--conf-delay': c.delay,
+                '--conf-size': c.size,
+                '--conf-radius': c.radius,
+                left: c.left,
+              }}
+            />
+          ))}
+        </div>
+      )}
+
       <div className={styles.celebration}>{isItinerary ? '🎯' : '🎉'}</div>
 
       <h1 className={styles.title}>
