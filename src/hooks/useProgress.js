@@ -78,7 +78,7 @@ const DEFAULT_STATE = {
     'module-bio-lincoln','module-bio-bolivar','module-bio-lenin',
     'module-bio-napoleon','module-bio-napoleon3','module-bio-genguis',
     'module-bio-cleopatra','module-bio-maquiavel','module-bio-gandhi',
-    'module-bio-frederic',
+    'module-bio-frederic','module-bio-voltaire',
   ],
   badges: [],
   srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }

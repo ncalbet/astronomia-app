@@ -123,6 +123,23 @@ const MODULE_META = {
   'module-XX-diplomacia-negociacio':     { title: 'Diplomàcia i Negociació Internacional',  emoji: '🤝' },
   'module-XX-historia-diplomacia':       { title: 'Història de la Diplomàcia',               emoji: '🕊️' },
   'module-XX-organismes-internacionals': { title: 'Organismes Internacionals',               emoji: '🌐' },
+  // — Bloc: Biografies —
+  'module-bio-cesar':     { title: 'Juli Cèsar: l\'home que va destruir la República',          emoji: '⚔️' },
+  'module-bio-alexandre': { title: 'Alexandre el Gran: conquerir el món als 32 anys',           emoji: '🌍' },
+  'module-bio-bismarck':  { title: 'Bismarck: l\'home que va inventar Alemanya',               emoji: '♟️' },
+  'module-bio-churchill': { title: 'Churchill: el fracassat que va salvar Europa',              emoji: '🎩' },
+  'module-bio-rasputin':  { title: 'Rasputin: el poder de l\'enigma',                          emoji: '🔮' },
+  'module-bio-lincoln':   { title: 'Lincoln: el president que va dividir per unir',            emoji: '🪓' },
+  'module-bio-bolivar':   { title: 'Bolívar: el libertador que es va quedar sense llibertat',  emoji: '⚔️' },
+  'module-bio-lenin':     { title: 'Lenin: la revolució que va devorar els seus fills',        emoji: '☭'  },
+  'module-bio-napoleon':  { title: 'Napoleon: la Revolució que es va devorar a si mateixa',   emoji: '👑' },
+  'module-bio-napoleon3': { title: 'Napoleon III: la farsa del poder heredat',                 emoji: '🎭' },
+  'module-bio-genguis':   { title: 'Genguis Khan: destrucció i connexió',                      emoji: '🏹' },
+  'module-bio-cleopatra': { title: 'Cleopatra: la dona darrera el mite',                       emoji: '🐍' },
+  'module-bio-maquiavel': { title: 'Maquiavel: el polític que va dir la veritat',             emoji: '📜' },
+  'module-bio-gandhi':    { title: 'Gandhi: la no-violència com a arma política',              emoji: '🕊️' },
+  'module-bio-frederic':  { title: 'Frederic el Gran: el filòsof que va invocar el poder',    emoji: '🎼' },
+  'module-bio-voltaire':  { title: 'Voltaire: l\'artilleria de la raó',                       emoji: '✍️' },
 }
 
 // XP estimat per mòdul (per restar en repetir)
@@ -242,6 +259,23 @@ const MODULE_XP = {
   'module-XX-diplomacia-negociacio':     240,
   'module-XX-historia-diplomacia':       420,
   'module-XX-organismes-internacionals': 420,
+  // — Bloc: Biografies —
+  'module-bio-cesar':     240,
+  'module-bio-alexandre': 240,
+  'module-bio-bismarck':  240,
+  'module-bio-churchill': 240,
+  'module-bio-rasputin':  240,
+  'module-bio-lincoln':   240,
+  'module-bio-bolivar':   240,
+  'module-bio-lenin':     240,
+  'module-bio-napoleon':  240,
+  'module-bio-napoleon3': 240,
+  'module-bio-genguis':   240,
+  'module-bio-cleopatra': 240,
+  'module-bio-maquiavel': 240,
+  'module-bio-gandhi':    240,
+  'module-bio-frederic':  240,
+  'module-bio-voltaire':  240,
 }
 
 function ModuleCard({ id, onSelect, onRepeat, loadingId, completedModules,
