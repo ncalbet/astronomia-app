@@ -114,6 +114,22 @@ export const MODULE_REGISTRY = [
   { id: 'module-XX-diplomacia-negociacio',    phase: 1, order: 91, file: () => import('./modules/module-XX-diplomacia-negociacio.json') },
   { id: 'module-XX-historia-diplomacia',      phase: 1, order: 92, file: () => import('./modules/module-XX-historia-diplomacia.json') },
   { id: 'module-XX-organismes-internacionals', phase: 1, order: 93, file: () => import('./modules/module-XX-organismes-internacionals.json') },
+  // — Bloc: Biografies —
+  { id: 'module-bio-cesar',     phase: 1, order: 94, file: () => import('./modules/module-bio-cesar.json') },
+  { id: 'module-bio-alexandre', phase: 1, order: 95, file: () => import('./modules/module-bio-alexandre.json') },
+  { id: 'module-bio-bismarck',  phase: 1, order: 96, file: () => import('./modules/module-bio-bismarck.json') },
+  { id: 'module-bio-churchill', phase: 1, order: 97, file: () => import('./modules/module-bio-churchill.json') },
+  { id: 'module-bio-rasputin',  phase: 1, order: 98, file: () => import('./modules/module-bio-rasputin.json') },
+  { id: 'module-bio-lincoln',   phase: 1, order: 99,  file: () => import('./modules/module-bio-lincoln.json') },
+  { id: 'module-bio-bolivar',   phase: 1, order: 100, file: () => import('./modules/module-bio-bolivar.json') },
+  { id: 'module-bio-lenin',     phase: 1, order: 101, file: () => import('./modules/module-bio-lenin.json') },
+  { id: 'module-bio-napoleon',  phase: 1, order: 102, file: () => import('./modules/module-bio-napoleon.json') },
+  { id: 'module-bio-napoleon3', phase: 1, order: 103, file: () => import('./modules/module-bio-napoleon3.json') },
+  { id: 'module-bio-genguis',    phase: 1, order: 104, file: () => import('./modules/module-bio-genguis.json') },
+  { id: 'module-bio-cleopatra', phase: 1, order: 105, file: () => import('./modules/module-bio-cleopatra.json') },
+  { id: 'module-bio-maquiavel', phase: 1, order: 106, file: () => import('./modules/module-bio-maquiavel.json') },
+  { id: 'module-bio-gandhi',    phase: 1, order: 107, file: () => import('./modules/module-bio-gandhi.json') },
+  { id: 'module-bio-frederic',  phase: 1, order: 108, file: () => import('./modules/module-bio-frederic.json') },
 ]
 
 export async function loadModule(moduleId) {

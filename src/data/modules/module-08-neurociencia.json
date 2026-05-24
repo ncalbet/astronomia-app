@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "module-08-neurociencia",
   "title": "Neurociència i Conducta",
   "emoji": "🧠",
@@ -31,7 +31,7 @@
             },
             {
               "type": "prediction",
-              "question": "Si et diguéssim que una persona pren decisions millors quan actua 'en fred', sense emocions, creus que és veritat o fals? Per qué?",
+              "question": "Si et diguéssim que una persona pren decisions millors quan actua 'en fred', sense emocions, creus que és veritat o fals? Per què?",
               "hint": "Pensa en situacions on actuar sense cap emoció podria ser un problema, no una avantatge."
             },
             {
@@ -117,7 +117,7 @@
             },
             {
               "type": "expandable",
-              "label": "Qué és exactament la potenciació a llarg termini (LTP)?",
+              "label": "què és exactament la potenciació a llarg termini (LTP)?",
               "content": "La LTP és el mecanisme cel·lular que fa que les connexions entre neurones es reforcin quan s'activen juntes de manera repetida. La regla popular és: 'les neurones que s'activen juntes, es connecten juntes' (Hebb, 1949). A nivell molecular: quan una neurona envia senyals repetidament a una altra, els receptors NMDA de la neurona receptora s'obren i permeten l'entrada de calci. Aquest calci activa cascades de senyalització que insereixen més receptors AMPA a la sinapsi, fent-la més sensible. Si la repetició continua, s'activa el factor CREB al nucli cel·lular, que ordena la síntesi de noves proteïnes per reforçar permanentment la connexió. Per això estudiar en sessions espaiades és més efectiu que estudiar tot seguit: cada sessió reinicia la cascada de consolidació."
             },
             {
@@ -169,7 +169,7 @@
               "style": "detect-error",
               "statement": "Els records a llarg termini s'emmagatzemen permanentment a l'hipocamp, que actua com un disc dur de la memòria.",
               "isCorrect": false,
-              "feedbackExplanation": "L'error és doble. Primer: l'hipocamp no emmagatzema els records de forma permanent — els consolida i els transfereix progressivament al còrtex cerebral durant el son i la consolidació sistèmica. Segon: la metàfora del 'disc dur' és enganyosa perquè la memòria humana és reconstructiva (cada record es reconstrueix en recuperar-lo, no es 'reprodueix') i se'n modifica en accedir-hi."
+              "feedbackExplanation": "L'error és doble. Primer: l'hipocamp no emmagatzema els records de forma permanent — els consolida i els transfereix progressivament al còrtex cerebral durant el són i la consolidació sistèmica. Segon: la metàfora del 'disc dur' és enganyosa perquè la memòria humana és reconstructiva (cada record es reconstrueix en recuperar-lo, no es 'reprodueix') i se'n modifica en accedir-hi."
             },
             {
               "type": "scientific-mode",
@@ -178,7 +178,7 @@
               "options": [
                 "Sí, el cervell té mecanismes de verificació que garanteixen la fidelitat del record",
                 "No, els records són sempre reconstruccions subjectives sense valor com a evidència",
-                "Els records son parcialment fiables: el nucli emocional és estable però els detalls es distorsionen"
+                "Els records són parcialment fiables: el nucli emocional és estable però els detalls es distorsionen"
               ],
               "correct": 2,
               "explanation": "La tercera opció captura millor l'evidència disponible. El fenomen de la 'reconsolidació' (descobert als anys 2000) mostra que recuperar un record l'obre a modificació: en tornar-lo a guardar, pot incorporar nova informació o biaix contextual. Elizabeth Loftus va demostrar que testimonis oculars incorporen detalls falsos suggerits per les preguntes dels interrogadors — i ho fan de bona fe. Però no tot és igual de vulnerable: els records amb alta càrrega emocional (traumes, moments de fort impacte) tendeixen a tenir un nucli central estable, mentre que els detalls perifèrics (roba, hora exacta, paraules precises) es distorsionen. Implicació pràctica important: els sistemes judicials que confien en la memòria dels testimonis fan servir una eina amb limitacions fonamentals, no per mala voluntat dels testimonis, sinó per la biologia de la memòria."
@@ -187,55 +187,55 @@
         },
         {
           "id": "neur-03",
-          "title": "El son i el cervell: per qué dormir és treballar",
+          "title": "El són i el cervell: per què dormir és treballar",
           "blocks": [
             {
               "type": "narrative",
-              "text": "Passem un terç de la vida inconscients. Des d'una perspectiva evolutiva, sembla absurd: ets vulnerable a depredadors, no produeixes, no te reprodueixes. Si el son fos simplement 'descansar', n'hi hauria prou amb la immobilitat. Però el cervell durant el son no descansa: consumeix gairebé la mateixa energia que en vigília. Alguna cosa molt important ha de estar passant."
+              "text": "Passem un terç de la vida inconscients. Des d'una perspectiva evolutiva, sembla absurd: ets vulnerable a depredadors, no produeixes, no te reprodueixes. Si el són fos simplement 'descansar', n'hi hauria prou amb la immobilitat. Però el cervell durant el són no descansa: consumeix gairebé la mateixa energia que en vigília. Alguna cosa molt important ha de estar passant."
             },
             {
               "type": "key-idea",
-              "text": "El son no és una pausa en la funció cerebral: és un estat actiu on el cervell consolida memòries, elimina toxines metabòliques, regula emocions i restaura la plasticitat sinàptica. Privar una persona de son és privar-la de totes aquestes funcions alhora."
+              "text": "El són no és una pausa en la funció cerebral: és un estat actiu on el cervell consolida memòries, elimina toxines metabòliques, regula emocions i restaura la plasticitat sinàptica. Privar una persona de són és privar-la de totes aquestes funcions alhora."
             },
             {
               "type": "expandable",
               "label": "El sistema glimfàtic: el cervell es renta durant el son",
-              "content": "El 2013, Maiken Nedergaard va descobrir que el cervell té un sistema de neteja que funciona principalment durant el son: el sistema glimfàtic. Durant la vigília, el metabolisme neuronal genera residus, incloses proteïnes com la beta-amiloide — l'acumulació de la qual s'associa a l'Alzheimer. Durant el son profund, les cèl·lules glials es contreuen fins a un 60%, ampliant l'espai entre cèl·lules. El líquid cefalorraquidi circula per aquest espai i arrossega les proteïnes tòxiques cap al sistema limfàtic. És literalment com un cicle de rentat nocturn. L'implicació és directa: la privació crònica de son podria accelerar l'acumulació de plaques amiloides. Estudis epidemiològics mostren que persones que dormen habitualment menys de 6 hores tenen un risc significativament major de desenvolupar Alzheimer."
+              "content": "El 2013, Maiken Nedergaard va descobrir que el cervell té un sistema de neteja que funciona principalment durant el són: el sistema glimfàtic. Durant la vigília, el metabolisme neuronal genera residus, incloses proteïnes com la beta-amiloide — l'acumulació de la qual s'associa a l'Alzheimer. Durant el són profund, les cèl·lules glials es contreuen fins a un 60%, ampliant l'espai entre cèl·lules. El líquid cefalorraquidi circula per aquest espai i arrossega les proteïnes tòxiques cap al sistema limfàtic. És literalment com un cicle de rentat nocturn. L'implicació és directa: la privació crònica de són podria accelerar l'acumulació de plaques amiloides. Estudis epidemiològics mostren que persones que dormen habitualment menys de 6 hores tenen un risc significativament major de desenvolupar Alzheimer."
             },
             {
               "type": "prediction",
-              "question": "Si el son consolida les memòries del dia, creus que és millor estudiar i anar immediatament a dormir, o estudiar i tenir unes hores de vigília entre mig?",
-              "hint": "Pensa en si la consolidació pot interferir amb nova informació que arriba entre l'estudi i el son."
+              "question": "Si el són consolida les memòries del dia, creus que és millor estudiar i anar immediatament a dormir, o estudiar i tenir unes hores de vigília entre mig?",
+              "hint": "Pensa en si la consolidació pot interferir amb nova informació que arriba entre l'estudi i el són."
             },
             {
               "type": "misconception",
               "belief": "Podem adaptar-nos a dormir poc i funcionar igual de bé si estem acostumats a no dormir.",
-              "reality": "La privació de son acumulada deteriora cognició, memòria, regulació emocional i sistema immunitari de manera objectivament mesurable. Les persones privades de son subestimen sistemàticament el seu deteriorament — perden la capacitat de percebre el propi deteriorament. No existeix adaptació fisiològica real a la privació crònica.",
-              "why": "L'adaptació subjectiva és real (un t'acostuma a sentir-se malament) però el rendiment objectiu segueix deteriorant-se. L'autoinforme no és un bon mètode per mesurar els efectes de la privació de son."
+              "reality": "La privació de són acumulada deteriora cognició, memòria, regulació emocional i sistema immunitari de manera objectivament mesurable. Les persones privades de són subestimen sistemàticament el seu deteriorament — perden la capacitat de percebre el propi deteriorament. No existeix adaptació fisiològica real a la privació crònica.",
+              "why": "L'adaptació subjectiva és real (un t'acostuma a sentir-se malament) però el rendiment objectiu segueix deteriorant-se. L'autoinforme no és un bon mètode per mesurar els efectes de la privació de són."
             },
             {
               "type": "exercise",
               "id": "ex-neur-03-01",
               "style": "multiple-choice",
-              "question": "Durant quina fase del son es produeix principalment la consolidació de la memòria declarativa (fets i episodis)?",
+              "question": "Durant quina fase del són es produeix principalment la consolidació de la memòria declarativa (fets i episodis)?",
               "options": [
-                "Son REM (moviment ràpid dels ulls)",
-                "Son d'ones lentes (fase N3, son profund)",
+                "Són REM (moviment ràpid dels ulls)",
+                "Són d'ones lentes (fase N3, són profund)",
                 "Fase N1 (adormiment)",
                 "El percentatge és igual en totes les fases"
               ],
               "correct": 1,
-              "feedbackCorrect": "Correcte. El son d'ones lentes (N3) és especialment important per a la memòria declarativa: durant aquesta fase es produeixen els 'fusos del son' i les oscil·lacions lentes que coordinen el diàleg hipocamp-còrtex per transferir records del dia a l'emmagatzematge a llarg termini. El son REM, en canvi, és especialment important per a la memòria procedimental i la regulació emocional.",
-              "feedbackWrong": "Tot i que el son REM és important per a la memòria, és el son d'ones lentes (N3, son profund) el que prioritza la consolidació de memòria declarativa (fets, episodis). Les oscil·lacions cerebrals d'aquesta fase coordinen la transferència de records des de l'hipocamp al còrtex."
+              "feedbackCorrect": "Correcte. El són d'ones lentes (N3) és especialment important per a la memòria declarativa: durant aquesta fase es produeixen els 'fusos del son' i les oscil·lacions lentes que coordinen el diàleg hipocamp-còrtex per transferir records del dia a l'emmagatzematge a llarg termini. El són REM, en canvi, és especialment important per a la memòria procedimental i la regulació emocional.",
+              "feedbackWrong": "Tot i que el són REM és important per a la memòria, és el són d'ones lentes (N3, són profund) el que prioritza la consolidació de memòria declarativa (fets, episodis). Les oscil·lacions cerebrals d'aquesta fase coordinen la transferència de records des de l'hipocamp al còrtex."
             },
             {
               "type": "exercise",
               "id": "ex-neur-03-02",
               "style": "true-false",
-              "question": "Dormir just després d'estudiar millora la retenció d'informació en comparació a tenir un període de vigília entre l'estudi i el son.",
+              "question": "Dormir just després d'estudiar millora la retenció d'informació en comparació a tenir un període de vigília entre l'estudi i el són.",
               "correct": true,
-              "feedbackCorrect": "Cert. Estudis de neurociència cognitiva mostren que la finestra de temps entre aprenentatge i son és crítica: dormir poc després de l'estudi millora la consolidació perquè el material fresc s'integra millor durant el son sense que nova informació competeixi per consolidar-se.",
-              "feedbackWrong": "És veritat. L'evidència experimental mostra que dormir poc després d'estudiar és beneficiós: el cervell processa i consolida el material recent durant el son, i la manca de nova informació competidora entre l'estudi i el son millora la retenció."
+              "feedbackCorrect": "Cert. Estudis de neurociència cognitiva mostren que la finestra de temps entre aprenentatge i són és crítica: dormir poc després de l'estudi millora la consolidació perquè el material fresc s'integra millor durant el són sense que nova informació competeixi per consolidar-se.",
+              "feedbackWrong": "És veritat. L'evidència experimental mostra que dormir poc després d'estudiar és beneficiós: el cervell processa i consolida el material recent durant el són, i la manca de nova informació competidora entre l'estudi i el són millora la retenció."
             },
             {
               "type": "debate",
@@ -295,7 +295,7 @@
             },
             {
               "type": "reflection",
-              "question": "Pensa en una situació recent on hagis experimentat estrès. Era una amenaça real al teu benestar físic, o era una amenaça social, de reputació o d'incertesa sobre el futur? Qué hauria passat si el teu cervell l'hagués processat com a 'no urgent'?",
+              "question": "Pensa en una situació recent on hagis experimentat estrès. Era una amenaça real al teu benestar físic, o era una amenaça social, de reputació o d'incertesa sobre el futur? què hauria passat si el teu cervell l'hagués processat com a 'no urgent'?",
               "prompt": "No cal que escriguis res. Però val la pena notar quina proporció del teu estrès quotidià és realment perillós per a la teva supervivència."
             },
             {
@@ -308,7 +308,7 @@
                 "L'evidència és prometedora però limitada: la meditació funciona per a alguns perfils i contextos, no és una solució universal"
               ],
               "correct": 2,
-              "explanation": "La tercera opció reflecteix l'estat real de la literatura científica. Existeixen meta-anàlisis que mostren efectes positius de la meditació mindfulness sobre l'estrès, l'ansietat i la regulació emocional, amb canvis neurals mesurables (reducció d'amígdala, augment de còrtex prefrontal). Però la qualitat metodològica de molts estudis és limitada: grups de control inadequats, efecte de demanda (participants saben que 'haurien de' millorar), i mida d'efecte modesta. A més, existeix variabilitat individual important: per a persones amb historial de trauma, la meditació pot ser contraproduent sense acompanyament. L'exercici físic, el contacte social i el son mostren efectes antiestressor comparables o superiors amb millor evidència. La conclusió prudent: la meditació és una eina útil per a moltes persones, però no és la solució universal que el mercat del mindfulness promou."
+              "explanation": "La tercera opció reflecteix l'estat real de la literatura científica. Existeixen meta-anàlisis que mostren efectes positius de la meditació mindfulness sobre l'estrès, l'ansietat i la regulació emocional, amb canvis neurals mesurables (reducció d'amígdala, augment de còrtex prefrontal). Però la qualitat metodològica de molts estudis és limitada: grups de control inadequats, efecte de demanda (participants saben que 'haurien de' millorar), i mida d'efecte modesta. A més, existeix variabilitat individual important: per a persones amb historial de trauma, la meditació pot ser contraproduent sense acompanyament. L'exercici físic, el contacte social i el són mostren efectes antiestressor comparables o superiors amb millor evidència. La conclusió prudent: la meditació és una eina útil per a moltes persones, però no és la solució universal que el mercat del mindfulness promou."
             }
           ]
         },
@@ -348,7 +348,7 @@
               "type": "exercise",
               "id": "ex-neur-05-02",
               "style": "multiple-choice",
-              "question": "Quin mecanisme neural explica millor per qué les pèrdues impacten emocionalment més que els guanys equivalents ('perdre 100€ fa més mal que guanyar 100€ fa bé')?",
+              "question": "Quin mecanisme neural explica millor per què les pèrdues impacten emocionalment més que els guanys equivalents ('perdre 100€ fa més mal que guanyar 100€ fa bé')?",
               "options": [
                 "El còrtex prefrontal avalua les pèrdues amb més temps de processament",
                 "L'amígdala respon amb major intensitat als estímuls negatius (aversiu) que als positius d'igual magnitud",
@@ -428,7 +428,7 @@
             },
             {
               "type": "reflection",
-              "question": "Si l'aprenentatge genuí canvia físicament el cervell, i el cervell cansa de mantenir connexions que no s'usen, qué implica això sobre com uses el teu temps d'atenció cada dia?",
+              "question": "Si l'aprenentatge genuí canvia físicament el cervell, i el cervell cansa de mantenir connexions que no s'usen, què implica això sobre com uses el teu temps d'atenció cada dia?",
               "prompt": "No hi ha resposta correcta. Però val la pena saber que l'atenció no és neutra — és el recurs que literalment esculpeix l'arquitectura del teu cervell."
             },
             {
@@ -468,7 +468,7 @@
             },
             {
               "type": "expandable",
-              "label": "Per qué badallem quan veiem algú badallar?",
+              "label": "Per què badallem quan veiem algú badallar?",
               "content": "El badall contagiós és un dels exemples més intrigants de la ressonància social. S'observa en humans, ximpanzés, gossos i llops. Els humans no el desenvolupen fins als 4-5 anys d'edat — la mateixa edat en que es desenvolupa la teoria de la ment (la capacitat d'atribuir estats mentals a altres). Estudis d'imatge cerebral mostren que el badall contagiós activa àrees associades a l'empatia i la teoria de la ment, no sols els circuits motors. Persones amb dèficits empàtics (cert perfil de psicopatia) mostren menys badall contagiós. Però la causalitat és incerta: és el sistema mirall el que genera empatia, o l'empatia és un procés cognitiu més complex que usa parcialment el sistema mirall? El debat neurocienfítc sobre les neurones mirall il·lustra perfectament com una descoberta emocionant pot generar hipòtesis que corren per davant de l'evidència."
             },
             {
@@ -644,7 +644,7 @@
             {
               "type": "scientific-mode",
               "id": "sci-neur-s03-01",
-              "question": "El contacte entre grups redueix el prejudici, segons la 'hipòtesi del contacte' de Gordon Allport (1954). Però no qualsevol contacte: ha de ser en igualtat d'estatus, amb cooperació i suport institucional. Qué implica això per a polítiques d'integració escolar o laboral?",
+              "question": "El contacte entre grups redueix el prejudici, segons la 'hipòtesi del contacte' de Gordon Allport (1954). Però no qualsevol contacte: ha de ser en igualtat d'estatus, amb cooperació i suport institucional. què implica això per a polítiques d'integració escolar o laboral?",
               "options": [
                 "Que el contacte per si sol (integració espacial) és suficient per reduir prejudicis si hi ha suficient exposició",
                 "Que el contacte pot reforçar prejudicis si les condicions no es compleixen — la integració mal dissenyada pot empitjorar les coses",
@@ -669,7 +669,7 @@
             },
             {
               "type": "expandable",
-              "label": "L'error de predicció: per qué la sorpresa activa el cervell més que la certesa",
+              "label": "L'error de predicció: per què la sorpresa activa el cervell més que la certesa",
               "content": "Wolfram Schultz va descobrir als anys 90 el mecanisme precís de la dopamina. Va enregistrar neurones dopaminèrgiques en macacos mentre aprenien que un senyal lluminós anunciava suc. Fases: 1) Al principi, les neurones dopaminèrgiques s'activaven en rebre el suc (recompensa inesperada). 2) Quan l'animal aprenia l'associació, les neurones es disparaven en veure la llum (anticipació), no en rebre el suc. 3) Si el suc no apareixia després de la llum, hi havia una depressió del foc dopaminèrgic (error de predicció negatiu). La dopamina codifica l''error de predicció de recompensa': la diferència entre el que s'esperava i el que passa. Les recompenses variables (ara sí, ara no, imprevisible) maximitzen l'activació perquè l'error de predicció és constant. Exactament el principi que fa addictives les màquines escurabutxaques, Instagram i els jocs de loot boxes."
             },
             {
@@ -781,7 +781,7 @@
                 "label": "Mantenir o reduir l'edat de vot",
                 "argument": "La maduresa neurobiològica és un contínuum i cap edat separa nítidament cervells madurs d'immaturs. Adults de 40 anys prenen decisions igualment irracionals per altres raons. El criteri per al vot hauria de ser la condició de ciutadà afectat per les decisions polítiques — i els joves de 16 anys ho són."
               },
-              "reflection": "La neurociència pot descriure diferències estadístiques entre grups d'edat. Però qui decideix quines diferències son rellevants per a la ciutadania? La ciència o la política?",
+              "reflection": "La neurociència pot descriure diferències estadístiques entre grups d'edat. Però qui decideix quines diferències són rellevants per a la ciutadania? La ciència o la política?",
               "context": "Austràlia, Brasil i Argentina permeten votar als 16 anys. Escòcia i Gales permeten votar als 16 en eleccions locals. Àustria als 16 en totes les eleccions. El debat neurocienfífic no ha canviat significativament aquestes decisions — els arguments polítics i democràtics han pesat més."
             },
             {
@@ -819,7 +819,7 @@
               "type": "exercise",
               "id": "ex-neur-s06-01",
               "style": "multiple-choice",
-              "question": "Qué demostra l'estudi de Meaney sobre la cura materna en rates?",
+              "question": "què demostra l'estudi de Meaney sobre la cura materna en rates?",
               "options": [
                 "Que la genètica determina completament la resposta a l'estrès, independentment de l'entorn",
                 "Que la cura materna modifica l'expressió gènica del cervell de la cria via mecanismes epigenètics",

@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "module-30-quimica-atoms",
   "title": "Dins l'Àtom: Estructura i Propietats",
   "emoji": "⚛️",
@@ -11,11 +11,11 @@
       "blocks": [
         {
           "type": "narrative",
-          "text": "El 1913, Niels Bohr va proposar que els electrons dels àtoms no podien tenir qualsevol energia — sols podien existir en nivells d'energia discrets, com els graons d'una escala. Quan un electró salta d'un nivell alt a un de baix, emet llum d'una freqüència específica. Aquesta predicció explicava per primera vegada per qué els espectres atòmics son línies nítides de colors concrets, no un arc de Sant Martí continu. Podíem veure l'estructura interna d'un àtom sense tocar-lo — simplement mirant la llum que emetia."
+          "text": "El 1913, Niels Bohr va proposar que els electrons dels àtoms no podien tenir qualsevol energia — sols podien existir en nivells d'energia discrets, com els graons d'una escala. Quan un electró salta d'un nivell alt a un de baix, emet llum d'una freqüència específica. Aquesta predicció explicava per primera vegada per què els espectres atòmics són línies nítides de colors concrets, no un arc de Sant Martí continu. Podíem veure l'estructura interna d'un àtom sense tocar-lo — simplement mirant la llum que emetia."
         },
         {
           "type": "prediction",
-          "question": "Si escalfes un gas de sodi fins que els seus àtoms emeten llum, i passes aquella llum per un prisma, veus línies brillants de colors específics en lloc d'un espectre continu. Per qué creus que el sodi emet exactament aquells colors i no d'altres?",
+          "question": "Si escalfes un gas de sodi fins que els seus àtoms emeten llum, i passes aquella llum per un prisma, veus línies brillants de colors específics en lloc d'un espectre continu. Per què creus que el sodi emet exactament aquells colors i no d'altres?",
           "hint": "Pensa en els nivells d'energia discrets de Bohr: si un electró sol pot saltar entre nivells fixos, quants colors (energies de fotons) pot emetre?"
         },
         {
@@ -30,18 +30,18 @@
         {
           "type": "misconception",
           "belief": "Els electrons 'salten' entre orbitals de forma contínua i gradual, com una pilota que puja una rampa.",
-          "reality": "Les transicions electròniques son discontinues i instantànies — no hi ha estat intermedi. Un electró és en un orbital i després és en l'altre, sense haver estat mai entre els dos. Aquesta és una de les realitats més pertorbadores de la mecànica quàntica i no té equivalent clàssic. La quantització de l'energia (que sols existeixin nivells discrets, no continus) és un dels principis fonamentals que separa el món quàntic del món macroscòpic.",
+          "reality": "Les transicions electròniques són discontinues i instantànies — no hi ha estat intermedi. Un electró és en un orbital i després és en l'altre, sense haver estat mai entre els dos. Aquesta és una de les realitats més pertorbadores de la mecànica quàntica i no té equivalent clàssic. La quantització de l'energia (que sols existeixin nivells discrets, no continus) és un dels principis fonamentals que separa el món quàntic del món macroscòpic.",
           "why": "La nostra intuïció del moviment ve del món macroscòpic, on tot és continu. Imaginar un electró 'saltant' evoca imatges de moviment continu que no corresponen a la realitat quàntica."
         },
         {
           "type": "exercise",
           "id": "ex-atm-01-01",
           "style": "multiple-choice",
-          "question": "El neó (Ne, número atòmic 10) és un gas noble que gairebé no forma compostos. El sodi (Na, número atòmic 11) és un metall molt reactiu. La diferència és d'un únic electró. Qué explica la diferència tan radical en reactivitat?",
+          "question": "El neó (Ne, número atòmic 10) és un gas noble que gairebé no forma compostos. El sodi (Na, número atòmic 11) és un metall molt reactiu. La diferència és d'un únic electró. què explica la diferència tan radical en reactivitat?",
           "options": [
-            "El sodi és un metall i els metalls sempre son més reactius que els gasos, independentment de la configuració electrònica",
+            "El sodi és un metall i els metalls sempre són més reactius que els gasos, independentment de la configuració electrònica",
             "El neó té la configuració 1s² 2s² 2p⁶ — totes les capes plenes, configuració molt estable. El sodi té 1s² 2s² 2p⁶ 3s¹ — un sol electró en una nova capa exterior, molt fàcil de cedir",
-            "El sodi té més massa atòmica que el neó, i els àtoms pesants son sempre més reactius",
+            "El sodi té més massa atòmica que el neó, i els àtoms pesants són sempre més reactius",
             "La diferència de reactivitat es deu a la temperatura de fusió diferent dels dos elements"
           ],
           "correct": 1,
@@ -60,7 +60,7 @@
             "El sodi reacciona amb l'oxigen de l'aire i la reacció d'oxidació genera llum de color groc"
           ],
           "correct": 1,
-          "feedbackCorrect": "Exacte. Quan els àtoms de sodi reben energia (calor de la flama), els seus electrons absorbeixen aquella energia i salten a nivells energètics superiors (estat excitat). Però l'estat excitat és inestable: els electrons tornen ràpidament al nivell base (estat fonamental), alliberant l'energia excedent en forma d'un fotó de llum. La llum groga del sodi correspon exactament a la diferència d'energia entre dos nivells específics del sodi (la transició 3p → 3s, amb λ ≈ 589 nm). Cada element té les seves pròpies transicions específiques — per això cada element emet colors únics i els espectres d'emissió son com empremtes digitals que permeten identificar elements fins i tot en estrelles llunyanes.",
+          "feedbackCorrect": "Exacte. Quan els àtoms de sodi reben energia (calor de la flama), els seus electrons absorbeixen aquella energia i salten a nivells energètics superiors (estat excitat). Però l'estat excitat és inestable: els electrons tornen ràpidament al nivell base (estat fonamental), alliberant l'energia excedent en forma d'un fotó de llum. La llum groga del sodi correspon exactament a la diferència d'energia entre dos nivells específics del sodi (la transició 3p → 3s, amb λ ≈ 589 nm). Cada element té les seves pròpies transicions específiques — per això cada element emet colors únics i els espectres d'emissió són com empremtes digitals que permeten identificar elements fins i tot en estrelles llunyanes.",
           "feedbackWrong": "La llum groga del sodi no és incandescència ni oxidació — és emissió atòmica. La calor excita els electrons del sodi a nivells energètics superiors. Quan tornen al nivel fonamental, emeten fotons de llum amb exactament l'energia de la diferència entre nivells. Aquesta diferència correspon a la llum groga (589 nm). Cada element té diferències d'energia úniques entre els seus nivells, per tant cada element emet colors únics — la base de l'espectroscòpia."
         },
         {
@@ -68,12 +68,12 @@
           "id": "sci-atm-01-01",
           "question": "L'espectroscòpia (l'anàlisi de la llum emesa o absorbida per les substàncies) permet identificar elements a distàncies astronòmiques. Quan mirem la llum d'una estrella llunyana, podem saber de quins elements està feta. Creus que aquest mètode és suficientment fiable per determinar la composició d'objectes que mai no podrem visitar físicament?",
           "options": [
-            "Sí, completament: les lleis de la física quàntica son universals, i les transicions electròniques del ferro en una estrella distant son idèntiques a les del ferro al laboratori",
+            "Sí, completament: les lleis de la física quàntica són universals, i les transicions electròniques del ferro en una estrella distant són idèntiques a les del ferro al laboratori",
             "No: les condicions extremes de les estrelles (temperatura, pressió, camps magnètics) podrien alterar els espectres d'una forma que no podem verificar sense accés directe",
             "Parcialment: és fiable per als elements més comuns però podria haver-hi elements desconeguts amb espectres similars als coneguts que causessin errors d'identificació"
           ],
           "correct": 0,
-          "explanation": "La posició A és la correcta i és un dels principis fonamentals de la cosmologia: les lleis de la física quàntica son universals. Les transicions entre nivells d'energia electrònics del ferro — que determinen les línies espectrals — depenen de la càrrega del nucli (26 protons) i de la massa de l'electró, que son constants arreu de l'univers. Les condicions de pressió i temperatura afecten quins estats d'excitació son possibles (per tant, quines línies son visibles) però no les energies de les transicions en si. L'observació que les línies espectrals dels elements distants son idèntiques (no aproximadament similars, sinó idèntiques) a les del laboratori és una de les proves més sòlides que les lleis físiques son realment universals. La posició B subestima la robustesa de la física quàntica. La posició C és un risc real però molt petit: les línies espectrals de cada element son prou específiques (posicions exactes en freqüència, intensitats relatives) per ser inequívoques."
+          "explanation": "La posició A és la correcta i és un dels principis fonamentals de la cosmologia: les lleis de la física quàntica són universals. Les transicions entre nivells d'energia electrònics del ferro — que determinen les línies espectrals — depenen de la càrrega del nucli (26 protons) i de la massa de l'electró, que són constants arreu de l'univers. Les condicions de pressió i temperatura afecten quins estats d'excitació són possibles (per tant, quines línies són visibles) però no les energies de les transicions en si. L'observació que les línies espectrals dels elements distants són idèntiques (no aproximadament similars, sinó idèntiques) a les del laboratori és una de les proves més sòlides que les lleis físiques són realment universals. La posició B subestima la robustesa de la física quàntica. La posició C és un risc real però molt petit: les línies espectrals de cada element són prou específiques (posicions exactes en freqüència, intensitats relatives) per ser inequívoques."
         }
       ]
     },
@@ -83,16 +83,16 @@
       "blocks": [
         {
           "type": "narrative",
-          "text": "El 1898, Marie Curie estudiava minerals de pechblenda i va descobrir que alguns emetien radiació espontàniament, sense cap font d'energia externa. Va aïllar dos nous elements — el poloni i el radi — i va encunyar el terme 'radioactivitat'. La seva descoberta va obrir una porta inesperada: dins del nucli atòmic hi havia una energia immensa que alguns àtoms alliberaven espontàniament. Va guanyar dos premis Nobel en dos camps científics distints (física i química), la primera persona a aconseguir-ho i va morir d'anèmia aplàstica causada per l'exposició continuada a la radiació que ella mateixa estudiava. Les seves llibretes de recerca son tan radioactives que es guarden en caixes de plom i cal signar una exempció de responsabilitat per consultar-les."
+          "text": "El 1898, Marie Curie estudiava minerals de pechblenda i va descobrir que alguns emetien radiació espontàniament, sense cap font d'energia externa. Va aïllar dos nous elements — el poloni i el radi — i va encunyar el terme 'radioactivitat'. La seva descoberta va obrir una porta inesperada: dins del nucli atòmic hi havia una energia immensa que alguns àtoms alliberaven espontàniament. Va guanyar dos premis Nobel en dos camps científics distints (física i química), la primera persona a aconseguir-ho i va morir d'anèmia aplàstica causada per l'exposició continuada a la radiació que ella mateixa estudiava. Les seves llibretes de recerca són tan radioactives que es guarden en caixes de plom i cal signar una exempció de responsabilitat per consultar-les."
         },
         {
           "type": "prediction",
-          "question": "Dos àtoms de carboni, un amb 6 neutrons (carboni-12) i un amb 8 neutrons (carboni-14), son el mateix element però es comporten de forma molt diferent: el C-12 és estable i el C-14 és radioactiu. Per qué creus que el nombre de neutrons afecta l'estabilitat del nucli?",
+          "question": "Dos àtoms de carboni, un amb 6 neutrons (carboni-12) i un amb 8 neutrons (carboni-14), són el mateix element però es comporten de forma molt diferent: el C-12 és estable i el C-14 és radioactiu. Per què creus que el nombre de neutrons afecta l'estabilitat del nucli?",
           "hint": "El nucli és un espai molt petit on hi ha molts protons que es repel·lixen (tots positius). Els neutrons hi ajuden d'alguna forma, però massa o massa pocs desequilibren el sistema."
         },
         {
           "type": "key-idea",
-          "text": "Els isòtops son àtoms del mateix element (mateixos protons) amb diferent nombre de neutrons. Alguns isòtops son estables, d'altres son inestables i es desintegren espontàniament emetent radiació (alpha α, beta β o gamma γ) fins a arribar a una configuració nuclear estable. Cada isòtop radioactiu té una 'semivida' característica: el temps que tarda a desintegrar-se la meitat dels seus nuclis."
+          "text": "Els isòtops són àtoms del mateix element (mateixos protons) amb diferent nombre de neutrons. Alguns isòtops són estables, d'altres són inestables i es desintegren espontàniament emetent radiació (alpha α, beta β o gamma γ) fins a arribar a una configuració nuclear estable. Cada isòtop radioactiu té una 'semivida' característica: el temps que tarda a desintegrar-se la meitat dels seus nuclis."
         },
         {
           "type": "expandable",
@@ -163,13 +163,13 @@
           "question": "L'energia nuclear de fissió produïx electricitat sense emissions directes de CO₂ i amb un factor de capacitat molt alt (funciona el 90% del temps, independentment del temps). Però genera residus radioactius de llarga durada i implica riscos d'accidents greus. En el context de la crisi climàtica, creus que s'hauria d'expandir l'energia nuclear com a part de la solució?",
           "positionA": {
             "label": "L'energia nuclear és necessària per al clima",
-            "argument": "Les renovables (solar, eòlica) son intermitents i requerixen grans quantitats de bateries o de xarxes de suport. L'energia nuclear proporciona electricitat estable i de baixes emissions les 24 hores. Txernòbil i Fukushima van causar relativament poques morts directes — menys que la contaminació de l'aire per combustibles fòssils cada any. Els nous dissenyos de reactors son molt més segurs."
+            "argument": "Les renovables (solar, eòlica) són intermitents i requerixen grans quantitats de bateries o de xarxes de suport. L'energia nuclear proporciona electricitat estable i de baixes emissions les 24 hores. Txernòbil i Fukushima van causar relativament poques morts directes — menys que la contaminació de l'aire per combustibles fòssils cada any. Els nous dissenyos de reactors són molt més segurs."
           },
           "positionB": {
-            "label": "Les renovables son suficients i menys arriscades",
-            "argument": "Les renovables s'estan desplegant molt més ràpidament i a menor cost que qualsevol nuclear nova. El problema dels residus nuclears (que cal gestionar durant milers d'anys) és un deute gegantí per a les generacions futures. I els accidents nuclears, tot i ser rars, son catastrófics i impredictibles. El camí és les renovables amb emmagatzematge, no la nuclear."
+            "label": "Les renovables són suficients i menys arriscades",
+            "argument": "Les renovables s'estan desplegant molt més ràpidament i a menor cost que qualsevol nuclear nova. El problema dels residus nuclears (que cal gestionar durant milers d'anys) és un deute gegantí per a les generacions futures. I els accidents nuclears, tot i ser rars, són catastrófics i impredictibles. El camí és les renovables amb emmagatzematge, no la nuclear."
           },
-          "reflection": "França genera el 70% de la seva electricitat amb energia nuclear i té de les emissions de CO₂ per kWh més baixes d'Europa. Alemanya ha tancat les seves nuclears i ha vist augmentar les emissions. Qué et diu l'exemple europeu sobre el debat?",
+          "reflection": "França genera el 70% de la seva electricitat amb energia nuclear i té de les emissions de CO₂ per kWh més baixes d'Europa. Alemanya ha tancat les seves nuclears i ha vist augmentar les emissions. què et diu l'exemple europeu sobre el debat?",
           "context": "El debat sobre el nuclear en el context climàtic divideix fins i tot els ecologistes: alguns (com Stewart Brand o James Lovelock) defensen la nuclear; Greenpeace i d'altres s'hi oposen fermament. L'IPCC inclou la nuclear en alguns escenaris de descarbonització."
         }
       ]
@@ -180,11 +180,11 @@
       "blocks": [
         {
           "type": "narrative",
-          "text": "El diamant i el grafit son tots dos carboni pur — exactament el mateix element amb el mateix nombre de protons, neutrons i electrons. Però el diamant és el material natural més dur conegut i no conduïx l'electricitat. El grafit és suau, lliscant, i un excel·lent conductor elèctric. La diferència entre tots dos és simplement com s'organitzen els àtoms de carboni i com es connecten entre ells. La matèria no és sols de qué estàs fet — és com estàs organitzat."
+          "text": "El diamant i el grafit són tots dos carboni pur — exactament el mateix element amb el mateix nombre de protons, neutrons i electrons. Però el diamant és el material natural més dur conegut i no conduïx l'electricitat. El grafit és suau, lliscant, i un excel·lent conductor elèctric. La diferència entre tots dos és simplement com s'organitzen els àtoms de carboni i com es connecten entre ells. La matèria no és sols de què estàs fet — és com estàs organitzat."
         },
         {
           "type": "prediction",
-          "question": "Diamant i grafit son carboni pur però tan diferents que semblaven elements distints fins al segle XVIII. Si tots dos estan fets de carboni, on és la diferència? Quin aspecte de l'organització atòmica creus que determina propietats tan extremadament diferents?",
+          "question": "Diamant i grafit són carboni pur però tan diferents que semblaven elements distints fins al segle XVIII. Si tots dos estan fets de carboni, on és la diferència? Quin aspecte de l'organització atòmica creus que determina propietats tan extremadament diferents?",
           "hint": "Pensa en com es poden connectar els àtoms de carboni en un pla (dues dimensions) vs. en una xarxa tridimensional. Com afecta la dimensionalitat de l'estructura a les propietats?"
         },
         {
@@ -193,8 +193,8 @@
         },
         {
           "type": "expandable",
-          "label": "La teoria VSEPR: per qué les molècules tenen la forma que tenen",
-          "content": "La teoria VSEPR (Repulsió de Parells d'Electrons de la Capa de València) és sorprenentment simple i sorprenentment poderosa: els parells d'electrons al voltant d'un àtom central es repel·lixen entre si i s'orienten en l'espai per maximitzar la distància entre ells. 2 parells d'electrons → geometria lineal (180°), com el CO₂. 3 parells → trigonal plana (120°), com el BF₃. 4 parells → tetraèdrica (109,5°), com el CH₄. Però si alguns parells son 'no compartits' (parells solitaris), ocupa més espai i comprimeix els angles dels parells compartits. L'H₂O té 4 parells d'electrons al voltant de l'oxigen (2 compartits amb H, 2 solitaris): hauria de ser tetraèdrica però els parells solitaris comprimeixen l'angle H-O-H fins a 104,5°, donant a la molècula d'aigua la seva forma angular característica — que és responsable del seu moment dipolar i de tots els ponts d'hidrogen que fan l'aigua tan especial."
+          "label": "La teoria VSEPR: per què les molècules tenen la forma que tenen",
+          "content": "La teoria VSEPR (Repulsió de Parells d'Electrons de la Capa de València) és sorprenentment simple i sorprenentment poderosa: els parells d'electrons al voltant d'un àtom central es repel·lixen entre si i s'orienten en l'espai per maximitzar la distància entre ells. 2 parells d'electrons → geometria lineal (180°), com el CO₂. 3 parells → trigonal plana (120°), com el BF₃. 4 parells → tetraèdrica (109,5°), com el CH₄. Però si alguns parells són 'no compartits' (parells solitaris), ocupa més espai i comprimeix els angles dels parells compartits. L'H₂O té 4 parells d'electrons al voltant de l'oxigen (2 compartits amb H, 2 solitaris): hauria de ser tetraèdrica però els parells solitaris comprimeixen l'angle H-O-H fins a 104,5°, donant a la molècula d'aigua la seva forma angular característica — que és responsable del seu moment dipolar i de tots els ponts d'hidrogen que fan l'aigua tan especial."
         },
         {
           "type": "comparison",
@@ -219,7 +219,7 @@
             },
             {
               "label": "Conductivitat elèctrica",
-              "a": "Aïllant (tots els electrons son en enllaços localitzats)",
+              "a": "Aïllant (tots els electrons són en enllaços localitzats)",
               "b": "Conductor (electrons π delocalizats lliures de moure's)"
             },
             {
@@ -233,12 +233,12 @@
           "type": "exercise",
           "id": "ex-atm-03-01",
           "style": "multiple-choice",
-          "question": "La molècula de CO₂ (diòxid de carboni) té dos dobles enllaços C=O i és lineal (angle 180°). La molècula d'H₂O té dos enllaços simples O-H i és angular (angle 104,5°). Per qué la forma és tan diferent si tots dos àtoms centrals estan units a dos àtoms exteriors?",
+          "question": "La molècula de CO₂ (diòxid de carboni) té dos dobles enllaços C=O i és lineal (angle 180°). La molècula d'H₂O té dos enllaços simples O-H i és angular (angle 104,5°). Per què la forma és tan diferent si tots dos àtoms centrals estan units a dos àtoms exteriors?",
           "options": [
             "Perquè el carboni és un element diferent de l'oxigen i cada element forma formes moleculars fixes",
             "Perquè l'oxigen de l'H₂O té dos parells d'electrons solitaris que repel·lixen els enllaços O-H i comprimen l'angle; el carboni del CO₂ no té parells solitaris i els dobles enllaços s'orienten a 180°",
-            "Perquè les molècules amb oxigen son sempre angulars i les amb carboni son sempre lineals, per regla general",
-            "Perquè l'H₂O és polar i el CO₂ no, i les molècules polars son sempre angulars"
+            "Perquè les molècules amb oxigen són sempre angulars i les amb carboni són sempre lineals, per regla general",
+            "Perquè l'H₂O és polar i el CO₂ no, i les molècules polars són sempre angulars"
           ],
           "correct": 1,
           "feedbackCorrect": "Exacte. La teoria VSEPR explica la diferència. En el CO₂: el carboni central forma 2 dobles enllaços amb 2 oxígens i no té parells solitaris. Amb sols 2 'grups' al voltant del carboni, s'orienten a 180° (lineal). En el H₂O: l'oxigen central forma 2 enllaços simples amb 2 hidrògens però té 2 parells solitaris addicionals. Amb 4 'grups' al voltant (2 enllaços + 2 parells solitaris), l'estructura base seria tetraèdrica (109,5°), però els parells solitaris ocupen més espai i comprimen l'angle H-O-H fins a 104,5°. El resultat és una molècula angular. Aquesta geometria angular és la que dóna a l'H₂O el seu dipol elèctric i la seva capacitat de formar ponts d'hidrogen.",
@@ -251,7 +251,7 @@
           "question": "Un triple enllaç N≡N (nitrogen molecular, N₂) és exactament tres vegades més fort que un simple enllaç N-N.",
           "correct": false,
           "feedbackCorrect": "Fals. Un triple enllaç és molt més fort que tres vegades un simple enllaç, i un doble enllaç és més fort que el doble d'un simple, però no de forma lineal. Més important: l'energia d'un triple enllaç N≡N és aproximadament 945 kJ/mol, molt per sobre de tres vegades l'energia d'un simple N-N (aproximadament 163 kJ/mol × 3 = 489 kJ/mol). El triple enllaç N≡N és excepcionalment fort — un dels més forts de la química. Aquesta és la raó per la qual el nitrogen molecular (N₂) és tan inert: trencar el seu triple enllaç requereix una quantitat d'energia enorme, cosa que fa que el nitrogen atmosfèric sigui molt poc reactiu en condicions normals.",
-          "feedbackWrong": "La força dels enllaços múltiples no escala de forma lineal. Un triple enllaç és significativament més fort que tres vegades un simple però no exactament el triple. El triple enllaç N≡N (945 kJ/mol) és particularment fort — molt més fort que tres vegades un N-N simple (≈489 kJ/mol). Aquesta força excepcional explica per qué el nitrogen atmosfèric (N₂) és tan inert: trencar el seu triple enllaç requereix energia enorme, cosa que va ser el gran repte que va resoldre Haber."
+          "feedbackWrong": "La força dels enllaços múltiples no escala de forma lineal. Un triple enllaç és significativament més fort que tres vegades un simple però no exactament el triple. El triple enllaç N≡N (945 kJ/mol) és particularment fort — molt més fort que tres vegades un N-N simple (≈489 kJ/mol). Aquesta força excepcional explica per què el nitrogen atmosfèric (N₂) és tan inert: trencar el seu triple enllaç requereix energia enorme, cosa que va ser el gran repte que va resoldre Haber."
         },
         {
           "type": "simulation",
@@ -265,13 +265,13 @@
           "moduleRef": "La Química de la Vida: Bioquímica Fonamental",
           "moduleEmoji": "🧬",
           "concept": "Geometria molecular i funció biològica",
-          "text": "La geometria molecular que has après aquí és fonamental per entendre la bioquímica. Les proteïnes pleguen en formes tridimensionals específiques determinades per la geometria dels seus aminoàcids. L'ADN és una doble hèlix perquè els ponts d'hidrogen entre bases (adenina-timina, guanina-citosina) sols son possibles amb certes geometries moleculars. Un medicament funciona si la seva forma molecular encaixa com una clau en el receptor proteic corresponent."
+          "text": "La geometria molecular que has après aquí és fonamental per entendre la bioquímica. Les proteïnes pleguen en formes tridimensionals específiques determinades per la geometria dels seus aminoàcids. L'ADN és una doble hèlix perquè els ponts d'hidrogen entre bases (adenina-timina, guanina-citosina) sols són possibles amb certes geometries moleculars. Un medicament funciona si la seva forma molecular encaixa com una clau en el receptor proteic corresponent."
         }
       ]
     },
     {
       "id": "atm-04",
-      "title": "Forces intermoleculars: per qué la matèria té estats",
+      "title": "Forces intermoleculars: per què la matèria té estats",
       "blocks": [
         {
           "type": "narrative",
@@ -279,17 +279,17 @@
         },
         {
           "type": "prediction",
-          "question": "L'heli bull a −269°C (4 K), pràcticament el zero absolut. L'etanol bull a 78°C. L'aigua bull a 100°C. El clorur de sodi (sal) no bull fins als 1.413°C. Qué creus que determina a quina temperatura bull una substància? Quin factor molecular fa que necessiti més o menys energia per evaporar-se?",
+          "question": "L'heli bull a −269°C (4 K), pràcticament el zero absolut. L'etanol bull a 78°C. L'aigua bull a 100°C. El clorur de sodi (sal) no bull fins als 1.413°C. què creus que determina a quina temperatura bull una substància? Quin factor molecular fa que necessiti més o menys energia per evaporar-se?",
           "hint": "Pensa en les forces entre les molècules: quant s'atrauen mútuament? Quanta energia cal per separar-les?"
         },
         {
           "type": "key-idea",
-          "text": "Les forces intermoleculars (les forces entre molècules, no dins d'elles) determinen els estats físics de la matèria i els punts de fusió i ebullició. Les principals, de menys a més fortes: forces de London (dispersió, presents en totes les molècules), forces dipol-dipol (en molècules polars), i ponts d'hidrogen (en molècules amb H unit a N, O o F). Quant més fortes son les forces intermoleculars, major és l'energia (temperatura) necessària per separar les molècules i canviar d'estat."
+          "text": "Les forces intermoleculars (les forces entre molècules, no dins d'elles) determinen els estats físics de la matèria i els punts de fusió i ebullició. Les principals, de menys a més fortes: forces de London (dispersió, presents en totes les molècules), forces dipol-dipol (en molècules polars), i ponts d'hidrogen (en molècules amb H unit a N, O o F). Quant més fortes són les forces intermoleculars, major és l'energia (temperatura) necessària per separar les molècules i canviar d'estat."
         },
         {
           "type": "expandable",
-          "label": "Les forces de London: per qué els gasos nobles es poden liquidar",
-          "content": "Els gasos nobles (He, Ne, Ar, Kr, Xe) son àtoms esfèrics amb distribució de càrrega perfectament simètrica — en principi, no hauria d'haver cap força entre ells. I tanmateix es podem liquidar: l'heli és líquid a 4 K, el xenó a −108°C. Les forces de London (o forces de dispersió) expliquen per qué. En qualsevol moment, la distribució d'electrons en un àtom o molècula pot tenir una asimetria momentània i aleatòria — un dipol instantani. Aquell dipol instantani induïx un dipol en el veí, i la interacció entre tots dos és atractiva. Les fluctuacions son aleatòries i s'anulen en promig, però l'efecte net és una atracció feble però real. Les forces de London augmenten amb la massa molecular (més electrons → fluctuacions més grans → atracció més forta). Per esto el metà (CH₄, 16 g/mol) bull a −161°C però l'octà (C₈H₁₈, 114 g/mol) bull a 126°C. Les cadenes de carboni llargues dels olis i les greixos son líquids a temperatura ambient gràcies a les forces de London acumulades al llarg de tota la cadena."
+          "label": "Les forces de London: per què els gasos nobles es poden liquidar",
+          "content": "Els gasos nobles (He, Ne, Ar, Kr, Xe) són àtoms esfèrics amb distribució de càrrega perfectament simètrica — en principi, no hauria d'haver cap força entre ells. I tanmateix es podem liquidar: l'heli és líquid a 4 K, el xenó a −108°C. Les forces de London (o forces de dispersió) expliquen per què. En qualsevol moment, la distribució d'electrons en un àtom o molècula pot tenir una asimetria momentània i aleatòria — un dipol instantani. Aquell dipol instantani induïx un dipol en el veí, i la interacció entre tots dos és atractiva. Les fluctuacions són aleatòries i s'anulen en promig, però l'efecte net és una atracció feble però real. Les forces de London augmenten amb la massa molecular (més electrons → fluctuacions més grans → atracció més forta). Per esto el metà (CH₄, 16 g/mol) bull a −161°C però l'octà (C₈H₁₈, 114 g/mol) bull a 126°C. Les cadenes de carboni llargues dels olis i les greixos són líquids a temperatura ambient gràcies a les forces de London acumulades al llarg de tota la cadena."
         },
         {
           "type": "exercise",
@@ -312,7 +312,7 @@
           "style": "detect-error",
           "statement": "El gel flota sobre l'aigua líquida perquè és més lleuger: els àtoms d'hidrogen i oxigen del gel pesen menys que els de l'aigua líquida.",
           "isCorrect": false,
-          "feedbackExplanation": "L'error és la causa. Els àtoms del gel i de l'aigua líquida son exactament els mateixos (H₂O) i pesen el mateix. El gel flota perquè és menys DENS que l'aigua líquida, no perquè els àtoms pesen menys. La raó de la menor densitat del gel és estructural: quan l'aigua es congela, les molècules s'organitzen en una xarxa cristal·lina hexagonal estabilitzada per ponts d'hidrogen que obliga cada molècula a mantenir una distància mínima de les seves veïnes. Aquesta xarxa ocupa MÉS espai que l'aigua líquida (on les molècules estan més compactes). Resultat: el gel té menys molècules per centímetre cúbic → menor densitat → flota. Aquesta propietat anòmala és fonamental per a la vida: si el gel s'enfonsés, els llacs es conglarien des del fons i la vida aquàtica no hauria pogut sobreviure a les glaciacions."
+          "feedbackExplanation": "L'error és la causa. Els àtoms del gel i de l'aigua líquida són exactament els mateixos (H₂O) i pesen el mateix. El gel flota perquè és menys DENS que l'aigua líquida, no perquè els àtoms pesen menys. La raó de la menor densitat del gel és estructural: quan l'aigua es congela, les molècules s'organitzen en una xarxa cristal·lina hexagonal estabilitzada per ponts d'hidrogen que obliga cada molècula a mantenir una distància mínima de les seves veïnes. Aquesta xarxa ocupa MÉS espai que l'aigua líquida (on les molècules estan més compactes). Resultat: el gel té menys molècules per centímetre cúbic → menor densitat → flota. Aquesta propietat anòmala és fonamental per a la vida: si el gel s'enfonsés, els llacs es conglarien des del fons i la vida aquàtica no hauria pogut sobreviure a les glaciacions."
         },
         {
           "type": "scientific-mode",
@@ -324,7 +324,7 @@
             "Els ponts d'hidrogen fan l'aigua tan densa que la superfície pot suportar el pes de qualsevol objecte si es distribuïx adequadament"
           ],
           "correct": 1,
-          "explanation": "La posició A ignora la relació directa. La posició C és incorrecta: la densitat i la tensió superficial son propietats relacionades però distintament. La posició B és la correcta: les molècules d'H₂O a l'interior del líquid estan unides per ponts d'hidrogen en totes les direccions (amunt, avall, als costats). Però les molècules de la superfície no tenen molècules a sobre — sols n'estan unides als costats i cap avall. Això crea una asimetria: les molècules de la superfície estan 'tirades' cap avall i als costats però no cap amunt, generant una tensió neta que fa que la superfície es comporti com una membrana elàstica tensa. L'escàtol de l'aigua no 'flota' — camina sobre aquesta membrana. Cada pota crea una petita deformació (visible com una depressió) però no la trenca. L'aigua pesa per als ponts d'hidrogen és tan alta que la tensió superficial resultant pot suportar el pes d'insectes (i fins i tot d'un clip de metall col·locat cuidadosament)."
+          "explanation": "La posició A ignora la relació directa. La posició C és incorrecta: la densitat i la tensió superficial són propietats relacionades però distintament. La posició B és la correcta: les molècules d'H₂O a l'interior del líquid estan unides per ponts d'hidrogen en totes les direccions (amunt, avall, als costats). Però les molècules de la superfície no tenen molècules a sobre — sols n'estan unides als costats i cap avall. Això crea una asimetria: les molècules de la superfície estan 'tirades' cap avall i als costats però no cap amunt, generant una tensió neta que fa que la superfície es comporti com una membrana elàstica tensa. L'escàtol de l'aigua no 'flota' — camina sobre aquesta membrana. Cada pota crea una petita deformació (visible com una depressió) però no la trenca. L'aigua pesa per als ponts d'hidrogen és tan alta que la tensió superficial resultant pot suportar el pes d'insectes (i fins i tot d'un clip de metall col·locat cuidadosament)."
         }
       ]
     },
@@ -338,7 +338,7 @@
         },
         {
           "type": "prediction",
-          "question": "El silici (Si) és just sota el carboni a la taula periòdica, té 4 electrons de valència com el carboni, i forma compostos similars. La ciència ficció especula amb vida basada en el silici. Per qué creus que la vida real va triar el carboni i no el silici com a base de la química de la vida?",
+          "question": "El silici (Si) és just sota el carboni a la taula periòdica, té 4 electrons de valència com el carboni, i forma compostos similars. La ciència ficció especula amb vida basada en el silici. Per què creus que la vida real va triar el carboni i no el silici com a base de la química de la vida?",
           "hint": "Pensa en les propietats dels òxids: el CO₂ és un gas soluble en aigua a temperatura ambient. El SiO₂ és... quars, un sòlid durísssim i pràcticament insoluble."
         },
         {
@@ -347,23 +347,23 @@
         },
         {
           "type": "expandable",
-          "label": "Per qué el silici no pot substituir el carboni en la vida",
-          "content": "El silici sembla un candidat raonable per a la química de la vida: com el carboni, té 4 electrons de valència i pot formar 4 enllaços. Però hi ha diferències crucials que fan el carboni insustituïble. Primera: el SiO₂ (diòxid de silici = quars) és un sòlid cristal·lí dur i insoluble en aigua. El CO₂ és un gas soluble. En un metabolisme, els productes de rebuig han de poder ser eliminats — un organisme no pot 'exhalar quars'. Segona: els compostos Si-Si son molt menys estables que els C-C. El silici forma cadenes molt més curtes i menys estables que el carboni. Tercera: els dobles i triples enllaços Si=Si i Si≡Si son molt inusuals i inestables a temperatura ambient. El carboni en forma fàcilment. Quarta: els compostos de silici reaccionen típicament amb l'aigua (hidròlisi) de forma molt més fàcil que els de carboni — difícil de gestionar en un entorn aquós com el de la vida. El carboni és l'element de la vida no per atzar o per 'preferència' evolutiva sinó perquè les seves propietats químiques (estabilitat, versatilitat, solubilitat dels productes d'oxidació) no tenen paral·lel entre els elements."
+          "label": "Per què el silici no pot substituir el carboni en la vida",
+          "content": "El silici sembla un candidat raonable per a la química de la vida: com el carboni, té 4 electrons de valència i pot formar 4 enllaços. Però hi ha diferències crucials que fan el carboni insustituïble. Primera: el SiO₂ (diòxid de silici = quars) és un sòlid cristal·lí dur i insoluble en aigua. El CO₂ és un gas soluble. En un metabolisme, els productes de rebuig han de poder ser eliminats — un organisme no pot 'exhalar quars'. Segona: els compostos Si-Si són molt menys estables que els C-C. El silici forma cadenes molt més curtes i menys estables que el carboni. Tercera: els dobles i triples enllaços Si=Si i Si≡Si són molt inusuals i inestables a temperatura ambient. El carboni en forma fàcilment. Quarta: els compostos de silici reaccionen típicament amb l'aigua (hidròlisi) de forma molt més fàcil que els de carboni — difícil de gestionar en un entorn aquós com el de la vida. El carboni és l'element de la vida no per atzar o per 'preferència' evolutiva sinó perquè les seves propietats químiques (estabilitat, versatilitat, solubilitat dels productes d'oxidació) no tenen paral·lel entre els elements."
         },
         {
           "type": "exercise",
           "id": "ex-atm-05-01",
           "style": "multiple-choice",
-          "question": "El butà (C₄H₁₀) i l'isobutà (també C₄H₁₀) son dos compostos amb la mateixa fórmula molecular però propietats físiques lleugerament diferents (el butà bull a −1°C, l'isobutà a −12°C). Qué son exactament i per qué existèixen?",
+          "question": "El butà (C₄H₁₀) i l'isobutà (també C₄H₁₀) són dos compostos amb la mateixa fórmula molecular però propietats físiques lleugerament diferents (el butà bull a −1°C, l'isobutà a −12°C). què són exactament i per què existèixen?",
           "options": [
-            "Son la mateixa substància mesurada en condicions experimentals lleugerament diferentes — no hi ha diferència real entre ells",
-            "Son isòmers: mateixa fórmula molecular però diferent estructura (el butà és una cadena lineal, l'isobutà té una ramificació) — la diferent estructura afecta les forces de London i per tant el punt d'ebullició",
-            "Son isòtops del carboni: el butà té C-12 i l'isobutà té C-13, per tant pesen diferent i bullen a temperatures ligerament diferent",
-            "Son al·lòtrops del carboni, com el diamant i el grafit, però en forma gasosa"
+            "Són la mateixa substància mesurada en condicions experimentals lleugerament diferentes — no hi ha diferència real entre ells",
+            "Són isòmers: mateixa fórmula molecular però diferent estructura (el butà és una cadena lineal, l'isobutà té una ramificació) — la diferent estructura afecta les forces de London i per tant el punt d'ebullició",
+            "Són isòtops del carboni: el butà té C-12 i l'isobutà té C-13, per tant pesen diferent i bullen a temperatures ligerament diferent",
+            "Són al·lòtrops del carboni, com el diamant i el grafit, però en forma gasosa"
           ],
           "correct": 1,
-          "feedbackCorrect": "Exacte. Son isòmers estructurals: la mateixa fórmula molecular (C₄H₁₀) però diferent connexió dels àtoms. El butà és n-butà: C-C-C-C (cadena lineal). L'isobutà és 2-metilpropà: una cadena de 3 carbonis amb un grup metil en el carboni central (forma de lletra T). La cadena lineal permet més contacte superficial entre molècules → forces de London més fortes → punt d'ebullició lleugerament major (−1°C vs. −12°C). La isomeria és una de les fonts de la diversitat extraordinària dels compostos orgànics: amb 10 àtoms de carboni ja hi ha milers d'isòmers possibles.",
-          "feedbackWrong": "Son isòmers (no isòtops ni al·lòtrops): compostos amb la mateixa fórmula molecular però diferent estructura. El butà és una cadena lineal de 4 carbonis; l'isobutà en té 3 en cadena i 1 en branca. La diferent geometria implica diferent superfície de contacte entre molècules, forces de London lleugerament diferentes i per tant punts d'ebullició lleugerament diferents."
+          "feedbackCorrect": "Exacte. són isòmers estructurals: la mateixa fórmula molecular (C₄H₁₀) però diferent connexió dels àtoms. El butà és n-butà: C-C-C-C (cadena lineal). L'isobutà és 2-metilpropà: una cadena de 3 carbonis amb un grup metil en el carboni central (forma de lletra T). La cadena lineal permet més contacte superficial entre molècules → forces de London més fortes → punt d'ebullició lleugerament major (−1°C vs. −12°C). La isomeria és una de les fonts de la diversitat extraordinària dels compostos orgànics: amb 10 àtoms de carboni ja hi ha milers d'isòmers possibles.",
+          "feedbackWrong": "Són isòmers (no isòtops ni al·lòtrops): compostos amb la mateixa fórmula molecular però diferent estructura. El butà és una cadena lineal de 4 carbonis; l'isobutà en té 3 en cadena i 1 en branca. La diferent geometria implica diferent superfície de contacte entre molècules, forces de London lleugerament diferentes i per tant punts d'ebullició lleugerament diferents."
         },
         {
           "type": "quote",
@@ -383,7 +383,7 @@
         {
           "type": "prediction",
           "question": "La ressonància magnètica nuclear (RMN) s'usa en medicina per fer imatges del cos (les MRI) i en química per identificar estructures moleculars. El principi és el mateix: els nuclis d'hidrogen (protons) en camps magnètics absorbeixen radiofreqüències específiques depenent del seu entorn químic. Com creus que pot un químic usar les freqüències d'absorció dels protons per deduir l'estructura d'una molècula desconeguda?",
-          "hint": "Si cada tipus de proton en una molècula (H en un grup -CH₃, H en -OH, H en -CHO) absorbeix a una freqüència característica diferent, qué et pot dir el patró d'absorció sobre quins grups estan presents?"
+          "hint": "Si cada tipus de proton en una molècula (H en un grup -CH₃, H en -OH, H en -CHO) absorbeix a una freqüència característica diferent, què et pot dir el patró d'absorció sobre quins grups estan presents?"
         },
         {
           "type": "key-idea",
@@ -407,16 +407,16 @@
           ],
           "correct": 2,
           "feedbackCorrect": "Exacte. Un àcid carboxílic (R-COOH) conté el grup carboxil, que és la combinació de C=O i -OH en la mateixa unitat funcional. La banda ampla a 3.200-3.500 cm⁻¹ és característica de l'O-H àcid (especialment ample per la formació de ponts d'hidrogen en àcids carboxílics) i la banda a 1.715 cm⁻¹ és característica del C=O dels àcids carboxílics. La presència simultània de les dues bandes és diagnòstica d'un àcid carboxílic. Un alcohol tindria O-H però no C=O; una cetona tindria C=O però no O-H.",
-          "feedbackWrong": "Necessites una molècula que tingui simultàniament un grup O-H i un grup C=O. L'alcohol té O-H però no C=O. La cetona té C=O però no O-H. El grup carboxílic dels àcids carboxílics (R-COOH) conté tots dos: el C=O i el O-H àcid. Tots dos senyals junts son diagnòstics d'un àcid carboxílic."
+          "feedbackWrong": "Necessites una molècula que tingui simultàniament un grup O-H i un grup C=O. L'alcohol té O-H però no C=O. La cetona té C=O però no O-H. El grup carboxílic dels àcids carboxílics (R-COOH) conté tots dos: el C=O i el O-H àcid. Tots dos senyals junts són diagnòstics d'un àcid carboxílic."
         },
         {
           "type": "exercise",
           "id": "ex-atm-06-02",
           "style": "true-false",
-          "question": "La tècnica de ressonància magnètica nuclear (RMN) usada en medicina (MRI) i la usada en química per determinar estructures moleculars son tècniques completament diferent sense cap principi físic en comú.",
+          "question": "La tècnica de ressonància magnètica nuclear (RMN) usada en medicina (MRI) i la usada en química per determinar estructures moleculars són tècniques completament diferent sense cap principi físic en comú.",
           "correct": false,
-          "feedbackCorrect": "Fals. La RMN mèdica (MRI) i la RMN química es basen exactament en el mateix principi físic: la capacitat dels nuclis de ¹H (protons) de preceptar energia de radiofreqüència quan es troben en un camp magnètic fort, a freqüències que depenen del seu entorn químic local. La diferència és l'aplicació: la RMN química analitza la posició i el nombre de senyals per determinar l'estructura d'una molècula pura. La MRI mèdica crea imatges basant-se en les diferències en la densitat de protons (majoritàriament en l'H₂O) i en el temps de relaxació dels teixits. Les màquines son físicament similars (imants superconductors, bobines de radiofreqüència); la diferència és el processament del senyal.",
-          "feedbackWrong": "La RMN mèdica (MRI) i la química es basen en el mateix principi físic: l'absorció de radiofreqüències per part dels nuclis d'¹H en camp magnètic. Les màquines son físicament similars. La diferència és el que es mesura i com s'interpreta: en química, es busquen senyals de molècules pures per deduir-ne l'estructura; en medicina, es creen imatges basades en la distribució d'H₂O als teixits."
+          "feedbackCorrect": "Fals. La RMN mèdica (MRI) i la RMN química es basen exactament en el mateix principi físic: la capacitat dels nuclis de ¹H (protons) de preceptar energia de radiofreqüència quan es troben en un camp magnètic fort, a freqüències que depenen del seu entorn químic local. La diferència és l'aplicació: la RMN química analitza la posició i el nombre de senyals per determinar l'estructura d'una molècula pura. La MRI mèdica crea imatges basant-se en les diferències en la densitat de protons (majoritàriament en l'H₂O) i en el temps de relaxació dels teixits. Les màquines són físicament similars (imants superconductors, bobines de radiofreqüència); la diferència és el processament del senyal.",
+          "feedbackWrong": "La RMN mèdica (MRI) i la química es basen en el mateix principi físic: l'absorció de radiofreqüències per part dels nuclis d'¹H en camp magnètic. Les màquines són físicament similars. La diferència és el que es mesura i com s'interpreta: en química, es busquen senyals de molècules pures per deduir-ne l'estructura; en medicina, es creen imatges basades en la distribució d'H₂O als teixits."
         },
         {
           "type": "reflection",

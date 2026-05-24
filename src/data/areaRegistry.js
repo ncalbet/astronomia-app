@@ -286,6 +286,35 @@ export const AREAS = [
       },
     ],
   },
+  {
+    id: 'biografies',
+    label: 'Biografies',
+    emoji: '👤',
+    description: 'Les vides dels personatges que van canviar el curs de la història',
+    accentColor: '#E8A44A',
+    topics: [
+      {
+        label: 'Poder i Política',
+        modules: [
+          'module-bio-cesar',
+          'module-bio-alexandre',
+          'module-bio-bismarck',
+          'module-bio-churchill',
+          'module-bio-rasputin',
+          'module-bio-lincoln',
+          'module-bio-bolivar',
+          'module-bio-lenin',
+          'module-bio-napoleon',
+          'module-bio-napoleon3',
+          'module-bio-genguis',
+          'module-bio-cleopatra',
+          'module-bio-maquiavel',
+          'module-bio-gandhi',
+          'module-bio-frederic',
+        ],
+      },
+    ],
+  },
 ]
 
 export function getAreaModules(area) {

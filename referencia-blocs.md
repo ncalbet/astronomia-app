@@ -50,7 +50,7 @@ No cal seguir aquest ordre — combina els blocs com tingui més sentit pedagòg
 
 ---
 
-## Els 14 tipus de blocs
+## Els 19 tipus de blocs
 
 ---
 
@@ -337,6 +337,149 @@ Ataca un error conceptual comú de forma expositiva. Estructura: creença erròn
 
 ---
 
+### 16. `perspective`
+El mateix fet o situació explicat des del punt de vista de 2-4 actors diferents. L'usuari commuta entre les perspectives clicant les pestanyes. No hi ha resposta correcta: l'objectiu és el multiperspectivisme.
+
+**Idoni per a:** historia, biografies, conflictes, situacions amb múltiples actors.
+
+```json
+{
+  "type": "perspective",
+  "situation": "La caiguda de Cartago, 146 aC",
+  "perspectives": [
+    {
+      "role": "Senador romà",
+      "emoji": "⚔️",
+      "text": "Cartago ha estat destruïda. Tres guerres púniques en un segle han acabat. Roma pot dormir tranquil·la. La seva prosperitat mercantil era una amenaça permanent per als interessos comercials romans."
+    },
+    {
+      "role": "Ciutadà cartaginès",
+      "emoji": "🔥",
+      "text": "La meva ciutat brûla. Tres-cents mil habitants esclaus o morts. Una civilització de cinc segles esborrada en dies. El vencedor escriu la historia: nosaltres serem els 'bàrbars'."
+    },
+    {
+      "role": "Mercader grec",
+      "emoji": "⚓",
+      "text": "L'equilibri de poder mediterrani ha canviat per sempre. Cartago freava l'expansió romana. Ara res no pot aturar Roma. Haurem d'adaptar-nos o morir com Cartago."
+    }
+  ],
+  "reflection": "Quin punt de vista et costa més comprendre — i per què creus que és així?"
+}
+```
+
+- `reflection` és opcional però molt recomanat
+- Entre 2 i 4 perspectives (màxim recomanat: 3)
+
+---
+
+### 17. `what-would-you-do`
+L'usuari es posa a la pell d'un personatge **abans** de saber el que va passar. Tria una opció, la confirma, i llavors es revela el que va succeir realment amb l'anàlisi de les conseqüències.
+
+**Idoni per a:** biografies, dilemes morals històrics, decisions de lideratge, moments de crisi.
+
+```json
+{
+  "type": "what-would-you-do",
+  "character": "Winston Churchill",
+  "emoji": "🎩",
+  "year": "26 de maig de 1940",
+  "setup": "Ets el Primer Ministre del Regne Unit fa dotze dies. Bèlgica acaba de capitular. 330.000 soldats britànics estan encerclats a Dunkerque. França col·lapsarà en setmanes. El teu gabinet de guerra et proposa explorar condicions de pau amb Hitler a través de Mussolini.",
+  "dilemma": "Acceptes negociar — potser salves l'exèrcit i evites la destrucció del país — o continues la guerra amb unes possibilitats de victòria que molts consideren inexistents?",
+  "options": [
+    { "id": "A", "text": "Nego la pau: salvo vides, evito la destrucció i potser aconsegueixo condicions acceptables" },
+    { "id": "B", "text": "Continue la guerra malgrat tot, sabent que el cost serà enorme i la victòria incerta" }
+  ],
+  "reveal": "Churchill va optar per continuar la guerra. En una reunió decisiva el 28 de maig, va sortir de la sala del gabinet i es va adreçar directament als ministres perifèrics — no al gabinet formal — per presentar-los la situació. La seva recepció entusiasta va donar a Churchill la cobertura política per resistir Halifax i Chamberlain.",
+  "analysis": "La decisió no era òbvia. Lord Halifax, Secretari d'Estat, advocava seriosament per la negociació i no era un covard ni un traïdor. Les probabilitats de supervivència britànica eren objectivament baixes. El que Churchill va calcular — correctament — és que qualsevol negociació amb Hitler des d'una posició de feblesa portaria a condicions que convertirien el Regne Unit en un estat vassall."
+}
+```
+
+- `year` és opcional però molt recomanable — situa l'usuari en el moment
+- `analysis` és opcional però aporta el valor pedagògic central
+
+---
+
+### 18. `before-after`
+Contrast visual entre l'estat d'una situació o context **abans** i **després** d'un personatge, esdeveniment o idea. Ideal per mostrar canvis estructurals de forma ràpida i clara.
+
+**Idoni per a:** impacte d'un personatge o revolució, canvis de paradigma, comparació d'èpoques.
+
+```json
+{
+  "type": "before-after",
+  "title": "Europa abans i després de Bismarck",
+  "before": {
+    "label": "Abans (1860)",
+    "points": [
+      "39 estats alemanys fragmentats (Confederació Germànica)",
+      "Prússia i Àustria rivals pel lideratge alemany",
+      "França, potència dominant del continent",
+      "Alemanya: expressió geogràfica, no estat"
+    ]
+  },
+  "after": {
+    "label": "Després (1871)",
+    "points": [
+      "II Reich: estat alemany unificat de 41 milions d'habitants",
+      "Àustria exclosa — Prússia lidera sense competidor",
+      "França humiliada, perd Alsàcia-Lorena, paga 5.000 milions de francs",
+      "Alemanya: nova potència dominant d'Europa"
+    ]
+  },
+  "insight": "El canvi no va ser gradual: Bismarck va planificar tres guerres en 7 anys (Dinamarca 1864, Àustria 1866, França 1870-71) per aconseguir el mateix resultat que un segle de diplomàcia no havia aconseguit."
+}
+```
+
+- `insight` és opcional però dona el punt de reflexió clau
+- Els `points` han de ser concrets i comparables entre les dues columnes
+
+---
+
+### 19. `primary-source`
+Fragment d'una font primària real (carta, discurs, text filosòfic, llei, manifest) amb preguntes guiades. Força la lectura directa del document original.
+
+**Idoni per a:** biografies, historia, filosofia, textos fundacionals.
+
+```json
+{
+  "type": "primary-source",
+  "label": "Discurs de Churchill al Parlament, 13 de maig de 1940",
+  "source": "Winston Churchill, primera intervenció com a Primer Ministre a la Cambra dels Comuns",
+  "text": "\"No tinc res a oferir sinó sang, esforç, llàgrimes i suor. Tenim davant nostre una prova de la mena més greu. Tenim davant nostre molts llargs mesos de lluita i sofriment. Ens pregunteu: quina és la nostra política? Respondré: fer la guerra, per mar, per terra i per aire, amb tota la força que Déu ens pugui donar.\"",
+  "questions": [
+    "Quin efecte pretén aconseguir Churchill en mencionar explícitament la sang, les llàgrimes i el sofriment — en lloc d'amagar-ho?",
+    "A qui s'adreça Churchill realment: als diputats presents, o a algú altre?",
+    "Com canviaria el discurs si Churchill hagués dit el contrari: 'Tenim un pla clar i la victòria és segura'?"
+  ]
+}
+```
+
+- `questions` és una llista — entre 2 i 4 preguntes
+- `label` i `source` poden ser el mateix o diferent
+- El `text` pot ser tan llarg com calgui — el bloc el gestiona
+
+---
+
+### 20. `analogy`
+Pont explícit entre un concepte difícil i alguna cosa familiar. La comparació és el contingut central, no un exemple dins d'una explicació.
+
+**Idoni per a:** conceptes filosòfics abstractes, estratègies polítiques, teories econòmiques, qualsevol cosa que resulti contraintuïtiva.
+
+```json
+{
+  "type": "analogy",
+  "concept": "La realpolitik de Bismarck",
+  "emoji": "♟️",
+  "analogy": "La realpolitik és com jugar al pòquer professional: no importa si tens les cartes millors, sinó si el rival creu que les tens. Bismarck va amenaçar Àustria sabent que no podia guanyar una guerra llarga, va aliar-se amb Napoleó III sabent que el traïria, i va crear aliances que es contradien entre si — tot al servei d'un objectiu fix: la unificació prussiana d'Alemanya.",
+  "bridge": "Per això la realpolitik desconcerta tant als que pensen en política en termes de valors (bo/dolent, just/injust, lleial/traïdor). Bismarck jugava en un altre tauler: el de les correlacions de forces, no el de la moralitat. I en aquell tauler, era gairebé imbatible."
+}
+```
+
+- `emoji` és opcional però ajuda a identificar el concepte ràpidament
+- `bridge` explica per què l'analogia ajuda — és el salt metacognitiu
+
+---
+
 ## Recomanacions per crear bon contingut
 
 **Sobre els exercicis:**
@@ -358,6 +501,13 @@ Ataca un error conceptual comú de forma expositiva. Estructura: creença erròn
 - Les dues postures han de ser defensables — cap ha de semblar clarament incorrecta
 - El `context` final ha de donar perspectiva sense imposar una resposta
 
+**Sobre els blocs nous (perspectives, what-would-you-do, before-after, primary-source, analogy):**
+- `perspective` necessita mínim 2 perspectives i màxim 4. Cada una ha de tenir veu pròpia — no variants de la mateixa opinió
+- `what-would-you-do` funciona millor quan la decisió real del personatge va sorprendre — si tothom hauria fet el mateix, no té gràcia
+- `before-after` és molt visualment efectiu: intenta que els punts dels dos costats siguin paral·lels (mateix àmbit, comparables)
+- `primary-source` ha de ser text real, no parafrasejat. Les preguntes han de portar a interpretar, no a resumir
+- `analogy` ha d'explicar **per què** l'analogia funciona, no només presentar-la. El camp `bridge` és clau
+
 **Estructura pedagògica recomanada per lliçó:**
 1. `narrative` — enganxa l'atenció amb una pregunta o situació
 2. `key-idea` — la idea central clara i concisa
@@ -365,6 +515,22 @@ Ataca un error conceptual comú de forma expositiva. Estructura: creença erròn
 4. `prediction` o `misconception` — activa el pensament previ
 5. `exercise` × 1-2 — valida la comprensió
 6. `scientific-mode` o `debate` — aprofundeix el raonament
+
+**Estructura recomanada per a lliçons de biografia:**
+1. `quote` — una cita del personatge per entrar en la seva veu
+2. `narrative` — context vital o moment clau
+3. `what-would-you-do` — la decisió central de la seva vida
+4. `before-after` — l'impacte del personatge al món
+5. `misconception` — el mite popular vs. la persona real
+6. `scientific-mode` — llegat: hèroe, monstre, o ningú dels dos?
+
+**Estructura recomanada per a lliçons de filosofia:**
+1. `narrative` — el problema quotidià que porta al concepte
+2. `analogy` — el pont cap al concepte abstracte
+3. `key-idea` — la definició precisa
+4. `debate` o `perspective` — les posicions en tensió
+5. `reflection` — aplicació personal
+6. `scientific-mode` — fins on arribes amb la teoria
 
 ---
 

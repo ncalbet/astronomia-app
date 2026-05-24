@@ -23,6 +23,11 @@ import ConnectionBlock from '../components/blocks/ConnectionBlock'
 import ComparisonBlock from '../components/blocks/ComparisonBlock'
 import MisconceptionBlock from '../components/blocks/MisconceptionBlock'
 import ImageBlock from '../components/blocks/ImageBlock'
+import PerspectiveBlock from '../components/blocks/PerspectiveBlock'
+import WhatWouldYouDoBlock from '../components/blocks/WhatWouldYouDoBlock'
+import BeforeAfterBlock from '../components/blocks/BeforeAfterBlock'
+import PrimarySourceBlock from '../components/blocks/PrimarySourceBlock'
+import AnalogyBlock from '../components/blocks/AnalogyBlock'
 import { estimateReadingMinutes } from '../engine/readingTimeEngine'
 import styles from './Lesson.module.css'
 
@@ -121,6 +126,11 @@ function BlockRenderer({ block, onExpand, onAnswer, onDefer, isOptional, onSrUpd
     case 'timeline':        return <TimelineBlock block={block} />
     case 'quote':           return <QuoteBlock block={block} />
     case 'image':           return <ImageBlock block={block} />
+    case 'perspective':     return <PerspectiveBlock block={block} />
+    case 'what-would-you-do': return <WhatWouldYouDoBlock block={block} />
+    case 'before-after':    return <BeforeAfterBlock block={block} />
+    case 'primary-source':  return <PrimarySourceBlock block={block} />
+    case 'analogy':         return <AnalogyBlock block={block} />
     default: return null
   }
 }

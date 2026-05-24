@@ -124,6 +124,12 @@ export default function ItinerarySelector() {
               </div>
               <h2 className={styles.cardTitle}>{itin.title}</h2>
               <p className={styles.cardDesc}>{itin.description}</p>
+              {itin.forWho && (
+                <div className={styles.forWho}>
+                  <span className={styles.forWhoLabel}>Per a qui</span>
+                  {itin.forWho}
+                </div>
+              )}
               <div className={styles.cardMeta}>{itin.style}</div>
 
               {/* Indicador de progrés per itinerari */}

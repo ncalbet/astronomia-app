@@ -1,8 +1,8 @@
-/**
+﻿/**
  * MisconceptionBlock.jsx
  *
  * Ataca un error conceptual comú de forma expositiva.
- * Comença amb "Molta gent creu que..." i explica per qué és incorrecte.
+ * Comença amb "Molta gent creu que..." i explica per què és incorrecte.
  * Diferent del detect-error (interactiu) — aquest és expositiu i directe.
  *
  * Format JSON:
@@ -10,7 +10,7 @@
  *   "type": "misconception",
  *   "belief": "La gravetat a l'espai és zero",
  *   "reality": "La gravetat a l'estació espacial...",
- *   "why": "Per qué es confon? Perquè..."  (opcional)
+ *   "why": "Per què es confon? Perquè..."  (opcional)
  * }
  */
 
@@ -35,7 +35,7 @@ export default function MisconceptionBlock({ block }) {
 
       {block.why && (
         <div className={styles.why}>
-          <div className={styles.whyLabel}>Per qué es confon?</div>
+          <div className={styles.whyLabel}>Per què es confon?</div>
           <p className={styles.whyText}>{block.why}</p>
         </div>
       )}
