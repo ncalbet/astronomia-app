@@ -45,8 +45,8 @@ export default function ComparisonBlock({ block }) {
         {block.items.map((item, i) => (
           <div key={i} className={`${styles.row} ${i % 2 === 0 ? styles.rowAlt : ''}`}>
             <div className={styles.rowLabel}>{item.label}</div>
-            <div className={styles.cellA}>{item.a}</div>
-            <div className={styles.cellB}>{item.b}</div>
+            <div className={styles.cellA} data-col={block.labelA}>{item.a}</div>
+            <div className={styles.cellB} data-col={block.labelB}>{item.b}</div>
           </div>
         ))}
       </div>
