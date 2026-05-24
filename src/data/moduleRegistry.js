@@ -130,6 +130,7 @@ export const MODULE_REGISTRY = [
   { id: 'module-bio-maquiavel', phase: 1, order: 106, file: () => import('./modules/module-bio-maquiavel.json') },
   { id: 'module-bio-gandhi',    phase: 1, order: 107, file: () => import('./modules/module-bio-gandhi.json') },
   { id: 'module-bio-frederic',  phase: 1, order: 108, file: () => import('./modules/module-bio-frederic.json') },
+  { id: 'module-bio-voltaire', phase: 1, order: 109, file: () => import('./modules/module-bio-voltaire.json') },
 ]
 
 export async function loadModule(moduleId) {

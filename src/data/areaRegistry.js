@@ -310,7 +310,7 @@ export const AREAS = [
           'module-bio-cleopatra',
           'module-bio-maquiavel',
           'module-bio-gandhi',
-          'module-bio-frederic',
+          'module-bio-frederic','module-bio-voltaire',
         ],
       },
     ],
