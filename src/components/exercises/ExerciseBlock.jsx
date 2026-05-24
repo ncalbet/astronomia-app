@@ -14,7 +14,7 @@ function buildNarrativeFeedback(correct, confidence, text, narrative) {
   const intro = correct
     ? confidence === 3 ? narrative.correctHigh : narrative.correctNormal
     : confidence === 3 ? narrative.wrongHigh   : narrative.wrongNormal
-  return `${intro} ${text}`
+  return text ? `${intro} ${text}` : intro
 }
 
 function XPToast({ amount }) {
@@ -123,7 +123,7 @@ export default function ExerciseBlock({ block, onAnswer, onSrUpdate }) {
             {buildNarrativeFeedback(
               isCorrect(selected),
               confidence,
-              isCorrect(selected) ? block.feedbackCorrect : (block.feedbackWrong || block.feedbackExplanation),
+              isCorrect(selected) ? (block.feedbackCorrect || block.feedbackExplanation) : (block.feedbackWrong || block.feedbackExplanation),
               theme.narrative
             )}
           </p>
