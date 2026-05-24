@@ -1,4 +1,4 @@
-/**
+﻿/**
  * dataVersion.js
  *
  * Control de versió de les dades guardades.
@@ -10,7 +10,7 @@
  * - Canviar el FORMAT del storage (claus, estructura)  → SÍ, incrementar.
  *
  * El reset total és l'últim recurs, no la resposta per defecte.
- * A partir de v11 les migracions son additives: s'afegeix el que falta,
+ * A partir de v11 les migracions són additives: s'afegeix el que falta,
  * mai s'esborra el progrés de l'usuari per canvis de contingut.
  */
 

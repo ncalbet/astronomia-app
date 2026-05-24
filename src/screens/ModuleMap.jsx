@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
@@ -52,7 +52,7 @@ const MODULE_META = {
   'module-23-economia-escoles':     { title: 'Liberals, Keynesians i Marxistes',                emoji: '🔄' },
   'module-24-economia-globalitzacio':{ title: 'Globalització i el Capitalisme del Segle XXI',  emoji: '🌐' },
   'module-28-piketty':              { title: 'Piketty: El Capital i la Desigualtat',            emoji: '📊' },
-  'module-26-economia-comportament':{ title: 'Per Qué No Som Racionals',                       emoji: '🎭' },
+  'module-26-economia-comportament':{ title: 'Per què No Som Racionals',                       emoji: '🎭' },
   'module-27-economia-jocs':        { title: 'Teoria de Jocs: Cooperació i Dilemes',           emoji: '♟️' },
   // — Bloc: Química —
   'module-29-quimica':            { title: 'La Química que t\'Envolta',                  emoji: '⚗️' },

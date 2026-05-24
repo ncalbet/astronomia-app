@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "module-37-electromagnetisme",
   "title": "Electromagnetisme",
   "emoji": "⚡",
@@ -18,7 +18,7 @@
           "blocks": [
             {
               "type": "narrative",
-              "text": "Quan froteges un globus amb llana i l'acosteges al teu cabell, els cabells s'aixequen. Quan poses dues carrogues elèctriques properes, es repel·leixen o s'atrauen. Quan un llamp cau durant una tempesta, descàrregues de milions de volts il·luminen el cel. Tots aquests fenòmens, de l'estàtic del cabell al llamp, son la mateixa força: l'electricitat."
+              "text": "Quan froteges un globus amb llana i l'acosteges al teu cabell, els cabells s'aixequen. Quan poses dues carrogues elèctriques properes, es repel·leixen o s'atrauen. Quan un llamp cau durant una tempesta, descàrregues de milions de volts il·luminen el cel. Tots aquests fenòmens, de l'estàtic del cabell al llamp, són la mateixa força: l'electricitat."
             },
             {
               "type": "key-idea",
@@ -46,7 +46,7 @@
                   "b": "F = k·q₁·q₂/r²"
                 },
                 {
-                  "label": "Per qué no domina",
+                  "label": "Per què no domina",
                   "a": "Domina a escala cosmològica: les masses sempre sumen",
                   "b": "La matèria és elèctricament neutra en conjunt: càrregues + i - es cancel·len"
                 }
@@ -54,8 +54,8 @@
             },
             {
               "type": "expandable",
-              "label": "Per qué la força elèctrica és 10³⁶ vegades més forta que la gravetat i tot i així no ho sembla",
-              "content": "La força elèctrica entre dos electrons és 4,2 × 10⁴² vegades major que la força gravitatòria entre ells. I tot i així, la gravetat és la força que organitza l'univers a gran escala. Per qué? Perquè la matèria ordinària és elèctricament neutra: els àtoms contenen exactament els mateixos protons positius i electrons negatius. Les forces elèctriques positives i negatives es cancel·len quasi perfectament. La gravetat no té signe negatiu: totes les masses s'atrauen i les contribucions sempre sumen. Per a objectes grans, la petitíssima força gravitatòria acumulada supera les forces elèctriques que es cancel·len."
+              "label": "Per què la força elèctrica és 10³⁶ vegades més forta que la gravetat i tot i així no ho sembla",
+              "content": "La força elèctrica entre dos electrons és 4,2 × 10⁴² vegades major que la força gravitatòria entre ells. I tot i així, la gravetat és la força que organitza l'univers a gran escala. Per què? Perquè la matèria ordinària és elèctricament neutra: els àtoms contenen exactament els mateixos protons positius i electrons negatius. Les forces elèctriques positives i negatives es cancel·len quasi perfectament. La gravetat no té signe negatiu: totes les masses s'atrauen i les contribucions sempre sumen. Per a objectes grans, la petitíssima força gravitatòria acumulada supera les forces elèctriques que es cancel·len."
             },
             {
               "type": "prediction",
@@ -74,7 +74,7 @@
                 "No canvia si les càrregues no canvien"
               ],
               "correct": 2,
-              "feedbackCorrect": "Exacte. La llei de Coulomb (F ∝ 1/r²) és una llei d'invers del quadrat. Si r es redueix a la meitat, r² es redueix a un quart, i F augmenta en un factor 4. La mateixa relació s'aplica a la gravetat. Les lleis d'invers del quadrat son comunes a la física perquè reflecteixen la dilució d'un efecte en tres dimensions espacials.",
+              "feedbackCorrect": "Exacte. La llei de Coulomb (F ∝ 1/r²) és una llei d'invers del quadrat. Si r es redueix a la meitat, r² es redueix a un quart, i F augmenta en un factor 4. La mateixa relació s'aplica a la gravetat. Les lleis d'invers del quadrat són comunes a la física perquè reflecteixen la dilució d'un efecte en tres dimensions espacials.",
               "feedbackWrong": "F ∝ 1/r². Si r es fa r/2, llavors r² es fa r²/4, i la força F és proporcional a 4/r²: es quadruplica. La relació és quadràtica, no lineal."
             },
             {
@@ -101,8 +101,8 @@
             },
             {
               "type": "expandable",
-              "label": "Per qué el concepte de camp va ser revolucionari",
-              "content": "Amb la força de Coulomb, la interacció entre dues càrregues sembla instantània a distància. Però qué passa si una càrrega es mou? La informació del seu moviment pot viatjar a la velocitat de la llum? La idea del camp resol el problema: quan una càrrega s'accelera, modifica el camp elèctric al seu voltant, i aquesta pertorbació es propaga pel camp a la velocitat de la llum. Les interaccions no son instantànies: es propaguen com ondulacions en el camp. Aquesta idea va ser la porta d'entrada de Faraday i Maxwell a les ones electromagnètiques — i és la base conceptual de tota la física de camps moderna, inclosa la relativitat general."
+              "label": "Per què el concepte de camp va ser revolucionari",
+              "content": "Amb la força de Coulomb, la interacció entre dues càrregues sembla instantània a distància. Però què passa si una càrrega es mou? La informació del seu moviment pot viatjar a la velocitat de la llum? La idea del camp resol el problema: quan una càrrega s'accelera, modifica el camp elèctric al seu voltant, i aquesta pertorbació es propaga pel camp a la velocitat de la llum. Les interaccions no són instantànies: es propaguen com ondulacions en el camp. Aquesta idea va ser la porta d'entrada de Faraday i Maxwell a les ones electromagnètiques — i és la base conceptual de tota la física de camps moderna, inclosa la relativitat general."
             },
             {
               "type": "exercise",
@@ -171,7 +171,7 @@
             {
               "type": "expandable",
               "label": "Corrent continu vs. corrent altern: la guerra de les corrents",
-              "content": "Thomas Edison va apostar per la corrent contínua (DC) per a la xarxa elèctrica. Nikola Tesla (treballant per a Westinghouse) va apostar per la corrent alterna (AC). La 'guerra de les corrents' (1880s-1890s) va ser una de les batalles tecnològiques i comercials més enceses de la historia. Tesla va guanyar: la corrent alterna permet transformar el voltatge fàcilment (transformadors), reduint les pèrdues en transmissió a llarga distància. Avui, els sistemes de distribució d'electricitat son en AC. Però els dispositius electrònics, bateries i renovables treballen en DC: el conflicte entre AC i DC és tan actual com els carregadors dels nostres telèfons."
+              "content": "Thomas Edison va apostar per la corrent contínua (DC) per a la xarxa elèctrica. Nikola Tesla (treballant per a Westinghouse) va apostar per la corrent alterna (AC). La 'guerra de les corrents' (1880s-1890s) va ser una de les batalles tecnològiques i comercials més enceses de la historia. Tesla va guanyar: la corrent alterna permet transformar el voltatge fàcilment (transformadors), reduint les pèrdues en transmissió a llarga distància. Avui, els sistemes de distribució d'electricitat són en AC. Però els dispositius electrònics, bateries i renovables treballen en DC: el conflicte entre AC i DC és tan actual com els carregadors dels nostres telèfons."
             },
             {
               "type": "connection",
@@ -188,22 +188,22 @@
           "blocks": [
             {
               "type": "narrative",
-              "text": "Durant mil·lennis, els humans van conèixer imants sense entendre-'ls. Faraday i Ampère van descobrir que el magnetisme i l'electricitat son les dues cares d'una mateixa moneda: els corrents elèctrics creen camps magnètics, i els camps magnètics exerceixen forces sobre corrents elèctrics. El 1820, Hans Christian Ørsted va demostrar-ho casualment amb una brúixola propera a un cable conduint corrent."
+              "text": "Durant mil·lennis, els humans van conèixer imants sense entendre-'ls. Faraday i Ampère van descobrir que el magnetisme i l'electricitat són les dues cares d'una mateixa moneda: els corrents elèctrics creen camps magnètics, i els camps magnètics exerceixen forces sobre corrents elèctrics. El 1820, Hans Christian Ørsted va demostrar-ho casualment amb una brúixola propera a un cable conduint corrent."
             },
             {
               "type": "key-idea",
-              "text": "Un corrent elèctric crea un camp magnètic al seu voltant (llei d'Ampère). Un camp magnètic exerceix força sobre càrregues en moviment i sobre corrents elèctrics (força de Lorentz: F = q·v×B). Els dos fenòmens son inseparables: l'electricitat genera magnetisme i el magnetisme mou les càrregues elèctriques."
+              "text": "Un corrent elèctric crea un camp magnètic al seu voltant (llei d'Ampère). Un camp magnètic exerceix força sobre càrregues en moviment i sobre corrents elèctrics (força de Lorentz: F = q·v×B). Els dos fenòmens són inseparables: l'electricitat genera magnetisme i el magnetisme mou les càrregues elèctriques."
             },
             {
               "type": "expandable",
-              "label": "Per qué tots els imants son dipols i no existeixen monopols magnètics",
-              "content": "Les càrregues elèctriques poden existir soles (monopols elèctrics: un sol electró negatiu o un protó positiu). Però els imants sempre tenen dos pols: si talles un imant per la meitat, obtens dos imants, cada un amb nord i sud. Fins avui, mai s'ha detectat un monopol magnètic. Les equacions de Maxwell descriuen un univers on no hi ha monopols magnètics (les línies de camp magnètic sempre son tancades). Però diverses teories de física d'alta energia (Gran Unificació) prediuen que els monopols magnètics haurien d'existir en quantitats molt petites des del Big Bang. La seva no-detecció és un dels misteris oberts de la cosmologia."
+              "label": "Per què tots els imants són dipols i no existeixen monopols magnètics",
+              "content": "Les càrregues elèctriques poden existir soles (monopols elèctrics: un sol electró negatiu o un protó positiu). Però els imants sempre tenen dos pols: si talles un imant per la meitat, obtens dos imants, cada un amb nord i sud. Fins avui, mai s'ha detectat un monopol magnètic. Les equacions de Maxwell descriuen un univers on no hi ha monopols magnètics (les línies de camp magnètic sempre són tancades). Però diverses teories de física d'alta energia (Gran Unificació) prediuen que els monopols magnètics haurien d'existir en quantitats molt petites des del Big Bang. La seva no-detecció és un dels misteris oberts de la cosmologia."
             },
             {
               "type": "exercise",
               "id": "ex-ele-04-01",
               "style": "multiple-choice",
-              "question": "Un electró es mou paral·lelament a un cable que condueix corrent. Qué passa?",
+              "question": "Un electró es mou paral·lelament a un cable que condueix corrent. què passa?",
               "options": [
                 "No hi ha cap força sobre l'electró perquè no hi ha camp elèctric fora del cable",
                 "El cable atrau o repel·leix l'electró per la força magnètica que crea el corrent del cable",
@@ -238,8 +238,8 @@
             },
             {
               "type": "expandable",
-              "label": "Com funciona un generador i per qué tot el nostre sistema elèctric depèn d'ell",
-              "content": "Un generador és mecanisme que rota una bobina de filferro en un camp magnètic. Mentre la bobina gira, el flux magnètic a través d'ella canvia contínuament, i la llei de Faraday fa que s'indueixi un voltatge alternant. El motor elèctric és el generador a l'inrevés: fem passar corrent per la bobina en el camp magnètic i la força de Lorentz la fa girar. Les turbines de les centrals elèctriques (de vapor, hidràuliques, eòliques) son totes generadors: el que canvia és la font d'energia que fa girar la turbina (vapor calent, caiguda d'aigua, vent). La inducció electromagnètica és el mecanisme comú a totes elles."
+              "label": "Com funciona un generador i per què tot el nostre sistema elèctric depèn d'ell",
+              "content": "Un generador és mecanisme que rota una bobina de filferro en un camp magnètic. Mentre la bobina gira, el flux magnètic a través d'ella canvia contínuament, i la llei de Faraday fa que s'indueixi un voltatge alternant. El motor elèctric és el generador a l'inrevés: fem passar corrent per la bobina en el camp magnètic i la força de Lorentz la fa girar. Les turbines de les centrals elèctriques (de vapor, hidràuliques, eòliques) són totes generadors: el que canvia és la font d'energia que fa girar la turbina (vapor calent, caiguda d'aigua, vent). La inducció electromagnètica és el mecanisme comú a totes elles."
             },
             {
               "type": "exercise",
@@ -254,7 +254,7 @@
               "type": "exercise",
               "id": "ex-ele-05-02",
               "style": "multiple-choice",
-              "question": "Per qué la càrrega inductiva dels telèfons (wireless charging) funciona sense cap cable físic?",
+              "question": "Per què la càrrega inductiva dels telèfons (wireless charging) funciona sense cap cable físic?",
               "options": [
                 "Usa ones de ràdio per transmetre energia a distància",
                 "Una bobina en el carregador crea un camp magnètic variable que indueix un corrent en una bobina del telèfon",
@@ -277,7 +277,7 @@
             },
             {
               "type": "key-idea",
-              "text": "Les ones electromagnètiques son pertorbacions acoblades dels camps elèctric i magnètic que es propaguen a la velocitat de la llum (c = 3 × 10⁸ m/s) sense necessitar cap medi. L'espectre electromagnètic inclou, de menor a major freqüència: ones de ràdio, microones, infraroig, llum visible, ultraviolat, raigs X i raigs gamma."
+              "text": "Les ones electromagnètiques són pertorbacions acoblades dels camps elèctric i magnètic que es propaguen a la velocitat de la llum (c = 3 × 10⁸ m/s) sense necessitar cap medi. L'espectre electromagnètic inclou, de menor a major freqüència: ones de ràdio, microones, infraroig, llum visible, ultraviolat, raigs X i raigs gamma."
             },
             {
               "type": "timeline",
@@ -321,7 +321,7 @@
                 "Microones (entre ràdio i infraroig)"
               ],
               "correct": 2,
-              "feedbackCorrect": "Correcte. L'energia per fotó és E = h·f (Planck), proporcional a la freqüència. Com més alta la freqüència (i menor la longitud d'ona), més energia per fotó. Els raigs gamma (d'emissions nuclears) i els raigs X (d'electrons d'alta energia) son els extrems d'alta freqüència i alta energia. Per això son ionitzants i biològicament perillosos.",
+              "feedbackCorrect": "Correcte. L'energia per fotó és E = h·f (Planck), proporcional a la freqüència. Com més alta la freqüència (i menor la longitud d'ona), més energia per fotó. Els raigs gamma (d'emissions nuclears) i els raigs X (d'electrons d'alta energia) són els extrems d'alta freqüència i alta energia. Per això són ionitzants i biològicament perillosos.",
               "feedbackWrong": "L'energia d'un fotó és E = h·f: proporcional a la freqüència. El rang de l'espectre va de ràdio (freqüència baixa, energia baixa) a raigs gamma (freqüència altíssima, energia altíssima). Els raigs gamma poden ionitzar àtoms i danyar el DNA per la seva alta energia per fotó."
             },
             {
@@ -372,7 +372,7 @@
               "options": [
                 "Que la velocitat de la llum depèn del medi on viatja",
                 "Que pertorbacions dels camps elèctric i magnètic es propaguen en el buit a una velocitat que coincideix exactament amb la velocitat de la llum mesurada — la llum és una ona electromagnètica",
-                "Que l'electricitat i el magnetisme son forces distintes que mai es poden unificar completament",
+                "Que l'electricitat i el magnetisme són forces distintes que mai es poden unificar completament",
                 "Que la càrrega elèctrica és discreta (quantitzada)"
               ],
               "correct": 1,
@@ -389,7 +389,7 @@
                 "Depèn: va tenir sort que fos correcte. Podria haver estat una fal·làcia matemàtica sense correlat físic"
               ],
               "correct": 1,
-              "explanation": "La física del segle XX ha demostrat repetidament que la consistència i la simetria matemàtica son guies poderoses cap a la veritat física. Dirac va predir l'antimatèria per raons matemàtiques (1928) i va ser confirmada el 1932. La teoria quàntica de camps, la supersimetria, la teoria de cordes: totes estan fortament guiades per criteris matemàtics. La qüestió filosòfica de per qué l'univers sembla seguir una matemàtica elegant és un misteri obert que Einstein va anomenar 'la incomprensible comprehensibilitat de l'univers'."
+              "explanation": "La física del segle XX ha demostrat repetidament que la consistència i la simetria matemàtica són guies poderoses cap a la veritat física. Dirac va predir l'antimatèria per raons matemàtiques (1928) i va ser confirmada el 1932. La teoria quàntica de camps, la supersimetria, la teoria de cordes: totes estan fortament guiades per criteris matemàtics. La qüestió filosòfica de per què l'univers sembla seguir una matemàtica elegant és un misteri obert que Einstein va anomenar 'la incomprensible comprehensibilitat de l'univers'."
             }
           ]
         },
@@ -399,11 +399,11 @@
           "blocks": [
             {
               "type": "narrative",
-              "text": "Les equacions de Maxwell predien que la llum viatja a c = 3×10⁸ m/s. Però... respecte a qué? Les ones de so viatgen respecte a l'aire. Les ones d'aigua respecte a l'aigua. La llum havia de tenir un medi — l'èter. I si hi havia èter, la velocitat de la llum hauria de canviar depenent del moviment de l'observador respecte a l'èter. En 1887, Michelson i Morley van mesurar: la velocitat de la llum és la mateixa en totes les direccions, independentment del moviment de la Terra. L'èter no existia. La física estava en crisi."
+              "text": "Les equacions de Maxwell predien que la llum viatja a c = 3×10⁸ m/s. Però... respecte a què? Les ones de so viatgen respecte a l'aire. Les ones d'aigua respecte a l'aigua. La llum havia de tenir un medi — l'èter. I si hi havia èter, la velocitat de la llum hauria de canviar depenent del moviment de l'observador respecte a l'èter. En 1887, Michelson i Morley van mesurar: la velocitat de la llum és la mateixa en totes les direccions, independentment del moviment de la Terra. L'èter no existia. La física estava en crisi."
             },
             {
               "type": "key-idea",
-              "text": "L'experiment de Michelson-Morley (1887) va mostrar que la velocitat de la llum és sempre la mateixa independentment del moviment de l'observador. Això contradiu la mecànica de Newton (on les velocitats sumen). Einstein va prendre aquest resultat com a punt de partida de la relativitat especial: la velocitat de la llum és una constant universal, i les lleis de la física son les mateixes per a tots els observadors en moviment uniforme."
+              "text": "L'experiment de Michelson-Morley (1887) va mostrar que la velocitat de la llum és sempre la mateixa independentment del moviment de l'observador. Això contradiu la mecànica de Newton (on les velocitats sumen). Einstein va prendre aquest resultat com a punt de partida de la relativitat especial: la velocitat de la llum és una constant universal, i les lleis de la física són les mateixes per a tots els observadors en moviment uniforme."
             },
             {
               "type": "exercise",
@@ -418,7 +418,7 @@
               ],
               "correct": 2,
               "feedbackCorrect": "Exacte: c. Aquesta és la conclusió sorprenent de la relativitat especial. La velocitat de la llum és una constant universal: sempre c, independentment del moviment de la font o l'observador. Amb la mecànica de Newton esperaríem 1,5c — però la relativitat diu que l'espai i el temps es comprimeixen de manera que la llum sempre es mesura a c.",
-              "feedbackWrong": "La intuïció newtoniana diria 1,5c (sumant velocitats). Però la relativitat especial estableix que la velocitat de la llum és una constant universal: sempre c per a qualsevol observador, independentment del moviment. Per a objectes que no son llum, les velocitats no sumen linealment a velocitats relativistes."
+              "feedbackWrong": "La intuïció newtoniana diria 1,5c (sumant velocitats). Però la relativitat especial estableix que la velocitat de la llum és una constant universal: sempre c per a qualsevol observador, independentment del moviment. Per a objectes que no són llum, les velocitats no sumen linealment a velocitats relativistes."
             },
             {
               "type": "expandable",
@@ -430,7 +430,7 @@
               "moduleRef": "Relativitat",
               "moduleEmoji": "🌀",
               "concept": "La relativitat especial com a solució a la crisi de Maxwell",
-              "text": "Les equacions de Maxwell i l'experiment de Michelson-Morley van crear una contradicció irresoluble dins la mecànica newtoniana. Einstein va resoldre la contradicció el 1905 amb la relativitat especial: en lloc de modificar les equacions de Maxwell, va modificar les lleis del moviment de Newton. El temps i l'espai no son absoluts: son relatius a l'observador. Les equacions de Maxwell ja eren 'correctes' — Newton era l'aproximació."
+              "text": "Les equacions de Maxwell i l'experiment de Michelson-Morley van crear una contradicció irresoluble dins la mecànica newtoniana. Einstein va resoldre la contradicció el 1905 amb la relativitat especial: en lloc de modificar les equacions de Maxwell, va modificar les lleis del moviment de Newton. El temps i l'espai no són absoluts: són relatius a l'observador. Les equacions de Maxwell ja eren 'correctes' — Newton era l'aproximació."
             }
           ]
         },
@@ -489,11 +489,11 @@
               "type": "exercise",
               "id": "ex-max-03-01",
               "style": "multiple-choice",
-              "question": "Per qué els telèfons mòbils 5G usen freqüències molt més altes (millimètriques) que els 4G? Quin és el compromís?",
+              "question": "Per què els telèfons mòbils 5G usen freqüències molt més altes (millimètriques) que els 4G? Quin és el compromís?",
               "options": [
                 "Les freqüències més altes transmeten més dades però penetren menys els obstacles (parets, pluja) i requereixen antenes molt més denses",
-                "Les freqüències més altes son menys perilloses biològicament i per tant estan regulades de manera menys estricta",
-                "Les freqüències més altes consumeixen menys energia i per tant son millors per als dispositius mòbils",
+                "Les freqüències més altes són menys perilloses biològicament i per tant estan regulades de manera menys estricta",
+                "Les freqüències més altes consumeixen menys energia i per tant són millors per als dispositius mòbils",
                 "Les freqüències millimètriques reboten millor als edificis i per tant cobreixen àrees més grans"
               ],
               "correct": 0,
@@ -504,9 +504,9 @@
               "type": "exercise",
               "id": "ex-max-03-02",
               "style": "detect-error",
-              "statement": "La radiació de microones dels forns és perillosa per als humans perquè les microones son ionitzants i danyen el DNA com els raigs X.",
+              "statement": "La radiació de microones dels forns és perillosa per als humans perquè les microones són ionitzants i danyen el DNA com els raigs X.",
               "isCorrect": false,
-              "feedbackExplanation": "Error fonamental. Les microones no son ionitzants: l'energia per fotó de les microones (freqüències de GHz) és molt menor que l'energia necessària per ionitzar àtoms o danyar directament el DNA (~10 eV). Les microones escalfen els aliments fent vibrar les molècules d'aigua per ressonància, però no trenquen enllaços químics ni ionitzen. Les radiacions ionitzants (raigs X, UV intens, gamma) sí que poden danyar el DNA. El debat real sobre les microones dels mòbils és sobre si el calor local causat per l'absorció de microones pot tenir efectes biològics — qüestió diferent."
+              "feedbackExplanation": "Error fonamental. Les microones no són ionitzants: l'energia per fotó de les microones (freqüències de GHz) és molt menor que l'energia necessària per ionitzar àtoms o danyar directament el DNA (~10 eV). Les microones escalfen els aliments fent vibrar les molècules d'aigua per ressonància, però no trenquen enllaços químics ni ionitzen. Les radiacions ionitzants (raigs X, UV intens, gamma) sí que poden danyar el DNA. El debat real sobre les microones dels mòbils és sobre si el calor local causat per l'absorció de microones pot tenir efectes biològics — qüestió diferent."
             }
           ]
         },
@@ -520,7 +520,7 @@
             },
             {
               "type": "key-idea",
-              "text": "Els semiconductors (silici, germani, arsènic de gal·li) son materials amb conductivitat intermèdia que es pot controlar amb voltatge (transistors) o llum (fotodíodes, cèl·lules solars). El transistor (1947) és l'element bàsic de tota l'electrònica digital. Un processador modern en conté més de 10.000 milions."
+              "text": "Els semiconductors (silici, germani, arsènic de gal·li) són materials amb conductivitat intermèdia que es pot controlar amb voltatge (transistors) o llum (fotodíodes, cèl·lules solars). El transistor (1947) és l'element bàsic de tota l'electrònica digital. Un processador modern en conté més de 10.000 milions."
             },
             {
               "type": "expandable",
@@ -541,7 +541,7 @@
               "question": "L'electromagnetisme ha creat la tecnologia digital que ha connectat el món i ha accelerat el progrés científic. Però també ha creat la vigilància massiva, les xarxes socials addictives i les bombes electromagnètiques. El progrés tecnològic electromanètic net ha estat positiu per a la humanitat?",
               "positionA": {
                 "label": "Net positiu",
-                "argument": "La comunicació global, l'accés universal al coneixement, la medicina moderna, la reducció de la pobresa, la coordinació científica internacional: tot depèn de la tecnologia electromagnètica. Els problemes creats (desinformació, vigilància, armes) son problemes d'ús i governança, no de la tecnologia en si."
+                "argument": "La comunicació global, l'accés universal al coneixement, la medicina moderna, la reducció de la pobresa, la coordinació científica internacional: tot depèn de la tecnologia electromagnètica. Els problemes creats (desinformació, vigilància, armes) són problemes d'ús i governança, no de la tecnologia en si."
               },
               "positionB": {
                 "label": "Ambivalent o negatiu",
@@ -562,12 +562,12 @@
             },
             {
               "type": "key-idea",
-              "text": "La relativitat especial té dos postulats: (1) les lleis de la física son les mateixes per a tots els observadors en moviment uniforme (principi de relativitat); (2) la velocitat de la llum al buit és la mateixa per a tots els observadors. Les conseqüències: dilatació del temps, contracció de la longitud, equivalència massa-energia (E = mc²)."
+              "text": "La relativitat especial té dos postulats: (1) les lleis de la física són les mateixes per a tots els observadors en moviment uniforme (principi de relativitat); (2) la velocitat de la llum al buit és la mateixa per a tots els observadors. Les conseqüències: dilatació del temps, contracció de la longitud, equivalència massa-energia (E = mc²)."
             },
             {
               "type": "expandable",
               "label": "El magnetisme és electricitat relativista",
-              "content": "Hi ha una connexió profunda entre electricitat i magnetisme que la relativitat especial revela: el magnetisme és en realitat un efecte relativista de l'electricitat. Consider un cable neutre amb corrents: els electrons es mouen i els ions de la xarxa son estàtics. Un electró extern en repòs no sent cap força (el cable és neutre). Però si es mou paral·lelament al cable, la relativitat fa que les distàncies entre les càrregues en moviment (electrons del cable) es contreguin (contracció de Lorentz), trencant la neutralitat del cable i creant una força sobre l'electró extern. Aquesta 'força magnètica' és en realitat una força elèctrica vista des d'un sistema de referència en moviment. Electricitat i magnetisme son la mateixa força, vista des de distints marcs de referència."
+              "content": "Hi ha una connexió profunda entre electricitat i magnetisme que la relativitat especial revela: el magnetisme és en realitat un efecte relativista de l'electricitat. Consider un cable neutre amb corrents: els electrons es mouen i els ions de la xarxa són estàtics. Un electró extern en repòs no sent cap força (el cable és neutre). Però si es mou paral·lelament al cable, la relativitat fa que les distàncies entre les càrregues en moviment (electrons del cable) es contreguin (contracció de Lorentz), trencant la neutralitat del cable i creant una força sobre l'electró extern. Aquesta 'força magnètica' és en realitat una força elèctrica vista des d'un sistema de referència en moviment. Electricitat i magnetisme són la mateixa força, vista des de distints marcs de referència."
             },
             {
               "type": "exercise",
@@ -582,14 +582,14 @@
               ],
               "correct": 1,
               "feedbackCorrect": "Exacte. L'efecte gravitacional (relativity general) domina: +45 μs/dia. L'efecte de velocitat (relativitat especial): -7 μs/dia. Net: +38 μs/dia — els rellotges GPS van 38 microsegons per dia més de pressa que els terrestres. Si no es corregís, el GPS acumularia ~11 km d'error per dia. Totes les correcions relativistes estan programades al software del GPS.",
-              "feedbackWrong": "Ambdós efectes son reals i mesurables. L'efecte velocitat (relativitat especial) fa els rellotges GPS anar -7 μs/dia. L'efecte gravitacional (relativity general) fa els rellotges GPS anar +45 μs/dia (gravetat menor a alta altitud). El net és +38 μs/dia — corregit al software GPS."
+              "feedbackWrong": "Ambdós efectes són reals i mesurables. L'efecte velocitat (relativitat especial) fa els rellotges GPS anar -7 μs/dia. L'efecte gravitacional (relativity general) fa els rellotges GPS anar +45 μs/dia (gravetat menor a alta altitud). El net és +38 μs/dia — corregit al software GPS."
             },
             {
               "type": "connection",
               "moduleRef": "Relativitat",
               "moduleEmoji": "🌀",
               "concept": "La relativitat especial com a conseqüència de les equacions de Maxwell",
-              "text": "Einstein no va partir de l'experiment de Michelson-Morley (tot i que en era conscient): va partir de la pregunta 'qué veuria algú que viatgés al costat d'un raig de llum?' Les equacions de Maxwell no admeten una resposta consistent dins la mecànica newtoniana. La relativitat especial és la resposta que fa les equacions de Maxwell consistents per a tots els observadors."
+              "text": "Einstein no va partir de l'experiment de Michelson-Morley (tot i que en era conscient): va partir de la pregunta 'què veuria algú que viatgés al costat d'un raig de llum?' Les equacions de Maxwell no admeten una resposta consistent dins la mecànica newtoniana. La relativitat especial és la resposta que fa les equacions de Maxwell consistents per a tots els observadors."
             }
           ]
         },
@@ -664,8 +664,8 @@
             },
             {
               "type": "reflection",
-              "question": "La QED prediu la natura amb 12 decimals de precisió. Significa que hem 'entès' completament l'electromagnetisme? Qué significaria 'entendre' una força fonamental de la natura?",
-              "prompt": "Feynman va dir: 'Si creus que entens la mecànica quàntica, és que no la has entesa.' La precisió matemàtica i la comprensió intuïtiva son coses distintes."
+              "question": "La QED prediu la natura amb 12 decimals de precisió. Significa que hem 'entès' completament l'electromagnetisme? què significaria 'entendre' una força fonamental de la natura?",
+              "prompt": "Feynman va dir: 'Si creus que entens la mecànica quàntica, és que no la has entesa.' La precisió matemàtica i la comprensió intuïtiva són coses distintes."
             }
           ]
         }

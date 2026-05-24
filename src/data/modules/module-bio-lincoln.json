@@ -1,0 +1,147 @@
+{
+  "id": "module-bio-lincoln",
+  "title": "Lincoln: el president que va dividir per unir",
+  "emoji": "🪓",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "linc-01",
+      "title": "De la cabana de troncs a la Casa Blanca",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Si pogués salvar la Unió sense alliberar cap esclau, ho faria. El que faig sobre l'esclavitud, ho faig perquè crec que ajuda a salvar la Unió.",
+          "author": "Abraham Lincoln, carta a Horace Greeley, 1862"
+        },
+        {
+          "type": "narrative",
+          "text": "Abraham Lincoln va néixer el 1809 en una cabana de troncs a Kentucky. La seva mare va morir quan tenia 9 anys. Va assistir a l'escola menys d'un any en total —era completament autodidacte, llegia a la llum del foc. Als vint anys era un jove alt i desgarbat sense estudis, diners ni contactes. Va ser botiguer fracassat, geòmetre, carter, advocat autodidacte, legislador d'Illinois i congresista. Va perdre tres eleccions importants abans de guanyar la presidència el 1860. Quan va arribar a Washington el febrer de 1861, set estats del Sud ja s'havien separat de la Unió. El que havia semblat una crisi política gestionable es convertia en una guerra."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            { "year": "1809", "title": "Neix a Kentucky", "text": "Família de grangers pobres. Cabana de troncs sense finestres al comtat de Hardin." },
+            { "year": "1818", "title": "Mor la seva mare", "text": "Nancy Lincoln mor de 'milk sickness'. Lincoln té 9 anys. El seu pare es torna a casar aviat." },
+            { "year": "1836", "title": "Llicència d'advocat", "text": "Completament autodidacte. Aprèn dret llegint Blackstone's Commentaries de prestats." },
+            { "year": "1858", "title": "Debats Lincoln-Douglas", "text": "Set debats públics sobre l'esclavitud a Illinois. El fan famós a nivell nacional, tot i perdre l'elecció al Senat." },
+            { "year": "1860", "title": "President electe", "text": "Guanya amb menys del 40% del vot popular. Set estats del Sud es separen abans de la seva investidura." },
+            { "year": "1865", "title": "Assassinat al teatre Ford", "text": "Cinc dies després de la rendició de Lee. Mor l'endemà al matí. Tenia 56 anys." }
+          ]
+        },
+        {
+          "type": "misconception",
+          "belief": "Lincoln era un abolicionista convençut que va lluitar la guerra civil per acabar amb l'esclavitud.",
+          "reality": "La prioritat absoluta de Lincoln era preservar la Unió —no abolir l'esclavitud. La seva carta a Greeley és explícita: alliberaria cap esclau o tots els esclaus, el que fes falta per salvar la Unió. La Proclamació d'Emancipació (1863) va alliberar els esclaus dels estats rebels però no els dels estats esclavistes lleials a la Unió. Era una mesura estratègica: privava el Sud de mà d'obra i feia impossible que Gran Bretanya recolzés la Confederació en una guerra que ara era obertament per l'esclavitud. En un debat de 1858 Lincoln va afirmar no creure en la igualtat política entre blancs i negres.",
+          "why": "El mite de Lincoln com a 'gran emancipador' va ser construït sobretot per la seva mort violenta i per la política de la Reconstrucció. Les seves posicions racials van evolucionar, però mai no van ser tan avançades com el relat postum. La mort al moment just va simplificar una figura complexa."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-linc-01-01",
+          "style": "multiple-choice",
+          "question": "Per quin motiu Lincoln va guanyar la presidència el 1860 tot i obtenir menys del 40% del vot popular?",
+          "options": [
+            "Perquè el vot opositor estava dividit entre tres candidats i Lincoln tenia majoria al Col·legi Electoral",
+            "Perquè el vot popular al Sud va ser suprimit sistemàticament per afavorir-lo",
+            "Perquè el sistema americà de 1860 no requeria majoria popular per guanyar",
+            "Perquè els estats del Nord tenien molt més pes al Col·legi Electoral que els del Sud"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. El Partit Demòcrata estava escindido en dues candidatures —Douglas al Nord i Breckinridge al Sud— i hi havia un quart candidat (Bell). Lincoln ni apareixia a les urnes de deu estats del Sud, però amb el vot del Nord concentrat va guanyar prou estats per tenir majoria al Col·legi Electoral. Era una victòria legítima però sense mandat popular clar, cosa que el Sud va usar per argumentar que no el representava.",
+          "feedbackWrong": "La clau era la divisió del vot opositor en tres candidatures. Lincoln va guanyar per Col·legi Electoral amb la majoria del vot del Nord, sense necessitat d'una sola papereta del Sud."
+        }
+      ]
+    },
+    {
+      "id": "linc-02",
+      "title": "La guerra civil: l'home i la crisi",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 12 d'abril de 1861, la Confederació va bombardejar Fort Sumter. Lincoln tenia davant seu una crisi sense precedents: 11 estats secessionats, un exèrcit federal de 16.000 homes front als 100.000 que el Sud podia mobilitzar, i un gabinet ple de rivals polítics que el menystenien. Durant quatre anys va prendre decisions que cap manual li havia preparat: acomiadà generals, suspengué l'habeas corpus, imposà el reclutament forçós i va gestionar la mort de 620.000 soldats americans. El 19 de novembre de 1863, a Gettysburg, va pronunciar en dos minuts un discurs de 271 paraules que redefinia el sentit de la guerra i de la nació."
+        },
+        {
+          "type": "primary-source",
+          "label": "Discurs de Gettysburg, 19 de novembre de 1863",
+          "source": "Abraham Lincoln, Gettysburg Address, 19 de novembre de 1863",
+          "text": "\"Fa vuitanta-set anys, els nostres pares van donar a llum en aquest continent una nova nació, concebuda en la llibertat i dedicada a la proposició que tots els homes són creats iguals. Ara estem immersos en una gran guerra civil, comprovant si aquella nació, o qualsevol nació tan concebuda i tan dedicada, pot perdurar en el temps. [...] El món gairebé no notarà ni recordarà el que diem aquí, però mai no podrà oblidar el que ells van fer aquí. A nosaltres, els vius, ens toca dedicar-nos a la tasca inacabada [...] que aquesta nació, sota Déu, tingui un nou naixement de llibertat.\"",
+          "questions": [
+            "Lincoln reformula el propòsit de la guerra: ja no és preservar la Unió sinó garantir 'un nou naixement de llibertat'. Quin efecte té aquest canvi de marc sobre el significat de la guerra?",
+            "El discurs dura dos minuts. L'orador anterior, Edward Everett, havia parlat dues hores. Per quin motiu el discurs curt és l'únic que sobreviu a la memòria col·lectiva?",
+            "Lincoln diu que el món 'gairebé no notarà ni recordarà' el seu discurs. Ho creia de veritat, o era retòrica?"
+          ]
+        },
+        {
+          "type": "what-would-you-do",
+          "character": "Abraham Lincoln",
+          "emoji": "🪓",
+          "year": "Novembre de 1862",
+          "setup": "El general McClellan té l'exèrcit més gran i ben equipat de la historia americana —i refusa atacar. Porta 18 mesos esperant el moment perfecte. Ha deixat escapar dues oportunitats d'aplafar la Confederació. Però és popular entre les tropes i la premsa. Si l'acomiedem i el successor perd una batalla gran, et culparan de la derrota.",
+          "dilemma": "Mantens McClellan al comandament malgrat la seva passivitat, o l'acomiedem buscant algú disposat a lluitar, arriscant el desastre si el nou general fracassa?",
+          "options": [
+            { "id": "A", "text": "Mantinc McClellan: és imperfecte però conegut i popular. No puc arriscar un canvi ara" },
+            { "id": "B", "text": "L'acomiadeu: la guerra no es guanya amb prudència infinita. Necessito algú disposat a atacar" }
+          ],
+          "reveal": "Lincoln va acomiadar McClellan al novembre de 1862 i va passar per Burnside i Hooker —tots dos desastres. El 1864 va trobar Grant: alcohòlic, brusc, impopular entre els polítics. Grant va guanyar la guerra. Quan li van dir que bevia massa, Lincoln va respondre: 'Sabeu quin whisky beu? Vull enviar-ne una bóta als altres generals.'",
+          "analysis": "El patró de Lincoln és consistent: disposició a assumir riscos polítics grans quan el judici estratègic ho requeria. Va ser criticat ferotgement per cada acomiadament. El que buscava no era el general perfecte sinó el general que lluitaria. La lliçó no és que l'impuls sempre guanya —sinó que saber quan canviar de curs, malgrat el cost polític, és una habilitat de lideratge rara."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-linc-02-01",
+          "style": "detect-error",
+          "statement": "La Proclamació d'Emancipació de Lincoln (1863) va alliberar tots els esclaus dels Estats Units, posant fi legalment a l'esclavitud a tot el país.",
+          "isCorrect": false,
+          "feedbackExplanation": "La Proclamació va alliberar —en teoria— els esclaus dels estats en rebel·lió. Però no s'aplicava als estats esclavistes lleials a la Unió (Missouri, Kentucky, Maryland, Delaware) ni als territoris del Sud ja sota control federal. Era una mesura de guerra, no una abolició universal. L'abolició total va arribar amb la 13a Esmena, ratificada el desembre de 1865 —vuit mesos després de l'assassinat de Lincoln."
+        }
+      ]
+    },
+    {
+      "id": "linc-03",
+      "title": "L'assassinat i el mite: com es construeix un heroi",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 14 d'abril de 1865, cinc dies després de la rendició de Lee, Lincoln va anar al teatre Ford de Washington. John Wilkes Booth, actor i simpatitzant confederat, li va disparar al cap des de la llotja presidencial. Lincoln va morir l'endemà al matí. La seva mort va transformar un president molt criticat —el deien 'el més gran ase dels Estats Units', la premsa del Nord l'atacava constantment i el Sud l'odiava profundament— en el màrtir de la Unió. Ningú recorda els seus errors. Tothom recorda Gettysburg."
+        },
+        {
+          "type": "key-idea",
+          "text": "Lincoln és l'exemple clàssic de com la mort violenta en el moment just transforma la memòria pública. Durant la guerra havia suspès garanties constitucionals, imposat el reclutament forçós i governat amb poders gairebé dictatorals. Mort al llindar de la victòria, va convertir-se en el símbol de la Unió i l'emancipació. El Lincoln mític és molt més simple que el Lincoln real —i precisament per això és immortal."
+        },
+        {
+          "type": "perspective",
+          "situation": "Abraham Lincoln: qui era i com hauria de ser recordat?",
+          "perspectives": [
+            {
+              "role": "Historiador tradicional americà",
+              "emoji": "🇺🇸",
+              "text": "Va salvar la Unió quan estava a punt de desintegrar-se i va abolir l'esclavitud. Que les seves mesures d'emergència fossin discutibles no ens pot fer oblidar el que va aconseguir. Era el líder adequat en el moment adequat —i ho va pagar amb la vida. Cap altre president ha afrontat un repte tan gran."
+            },
+            {
+              "role": "Historiador afroamericà",
+              "emoji": "✊",
+              "text": "Lincoln era un producte del seu electorat: homes blancs del Midwest que volien aturar l'expansió de l'esclavitud als nous territoris, no abolir-la. Les seves declaracions públiques sobre la inferioritat racial eren explícites. El mite del 'gran emancipador' ha contribuït a blanquejar la historia racial americana i a difuminar el rol dels abolicionistes negres que van pressionar fins que Lincoln no va tenir alternativa."
+            },
+            {
+              "role": "Historiador del lideratge",
+              "emoji": "📚",
+              "text": "Lincoln és un cas d'estudi excepcional en lideratge en la crisi: va aprendre a governar en temps real, va gestionar rivals incorporant-los al gabinet, va comunicar complexitat moral amb simplicitat retòrica i va canviar de posició quan calia sense semblar oportunista. El Lincoln real —incert, pragmàtic, en evolució— és més interessant que el màrtir de marbre."
+            }
+          ],
+          "reflection": "Quan un líder mor de manera violenta en el moment just, la seva mort escriu la seva biografia definitiva. Fins a quin punt la mort de Lincoln va 'crear' el Lincoln que coneixem avui?"
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-linc-03-01",
+          "question": "La majoria d'historiadors americans classifiquen Lincoln com el millor president dels EUA. Quina és la valoració més defensable?",
+          "options": [
+            "Justificada plenament: va preservar la Unió i va acabar amb l'esclavitud en les circumstàncies més difícils imaginables. Cap altre president ha afrontat un repte comparable",
+            "Exagerada: el seu llegat és en part producte de la mort al moment just. Un president que governa amb poders excepcionals i que era primordialment unionista, no abolicionista, mereix una valoració més matisada",
+            "Les dues coses alhora: va ser un líder excepcionalment hàbil en la crisi i el seu llegat ha estat mitificat per la mort. Podem reconèixer les dues coses sense que es cancel·lin mútuament"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la historiografia tradicional —defensada per Doris Kearns Goodwin i molts altres. La posició B ha guanyat força en els últims 30 anys, que han subratllat el pragmatisme racial de Lincoln i el rol decisiu dels abolicionistes negres com Frederick Douglass. La posició C és metodològicament la més honesta: Lincoln va ser realment excepcional en la crisi civil, i el seu llegat ha estat construït en part per la mort i la mitificació posterior. Mantenir les dues coses alhora és incòmode però necessari per entendre tant a Lincoln com als mecanismes de la memòria col·lectiva."
+        }
+      ]
+    }
+  ]
+}

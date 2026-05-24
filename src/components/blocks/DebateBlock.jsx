@@ -1,4 +1,4 @@
-/**
+﻿/**
  * DebateBlock.jsx
  *
  * Presenta dues postures enfrontades sobre una mateixa qüestió.
@@ -12,7 +12,7 @@
  *   "question": "És ètic...",
  *   "positionA": { "label": "A favor", "argument": "..." },
  *   "positionB": { "label": "En contra", "argument": "..." },
- *   "reflection": "Qué has tingut en compte per decidir?",
+ *   "reflection": "què has tingut en compte per decidir?",
  *   "context": "Text opcional que apareix després de decidir"
  * }
  */

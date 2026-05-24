@@ -2,7 +2,7 @@
  * learningPaths.js
  *
  * Itineraris multimodals explícits: seqüències curades de mòduls
- * en ordre pedagògic, amb context de per qué cada mòdul va aquí.
+ * en ordre pedagògic, amb context de per què cada mòdul va aquí.
  *
  * Cada mòdul inclou: id, title, emoji, note (context), minutes (estimat)
  */
@@ -22,7 +22,7 @@ export const LEARNING_PATHS = [
       { id: 'module-01-copernicus',  title: 'La Revolució de Copèrnic',          emoji: '☀️',  note: 'El primer trencament: situar el Sol al centre i desbancar 1.500 anys de geocentrisme',        minutes: 15 },
       { id: 'module-02-history',     title: 'Història de l\'Astronomia',          emoji: '🏛️', note: 'Els gegants sobre els quals Newton va pujar: de Ptolomeu a Kepler',                           minutes: 25 },
       { id: 'module-09-bigbang',     title: 'El Big Bang i l\'Origen de l\'Univers', emoji: '💥', note: 'Com l\'univers va néixer del no-res fa 13.800 milions d\'anys i com ho sabem',             minutes: 20 },
-      { id: 'module-10-estrelles',   title: 'La Vida i Mort de les Estrelles',    emoji: '⭐',  note: 'L\'interior de les estrelles: nucleosíntesi, supernobes i per qué som pols d\'estrelles',   minutes: 18 },
+      { id: 'module-10-estrelles',   title: 'La Vida i Mort de les Estrelles',    emoji: '⭐',  note: 'L\'interior de les estrelles: nucleosíntesi, supernobes i per què som pols d\'estrelles',   minutes: 18 },
       { id: 'module-08-origen-desti-univers', title: 'L\'Origen i el Destí de l\'Univers', emoji: '🌌', note: 'La gran pregunta: on va tot plegat? El Big Crunch, el Big Rip i l\'entropia final', minutes: 20 },
       { id: 'module-07-particles',   title: 'Física de Partícules',               emoji: '⚛️',  note: 'El nivell més fonamental: quarks, bosons i el Model Estàndard que ho descriu gairebé tot',  minutes: 22 },
       { id: 'module-38-relativitat', title: 'Relativitat',                        emoji: '🌀',  note: 'El gran final: com Einstein va mostrar que espai i temps no són absoluts',                   minutes: 25 },
@@ -44,7 +44,7 @@ export const LEARNING_PATHS = [
       { id: 'module-10-republic-crisis', title: 'La República que es va Suïcidar',  emoji: '🗡️', note: 'César, Pompeu i la crisi que va convertir la República en una dictadura permanent',        minutes: 20 },
       { id: 'module-11-augustus',        title: 'August: Com s\'Inventa un Règim', emoji: '🏺',  note: 'La primera transició cap al poder personal, sense trencar les formes republicanes',          minutes: 18 },
       { id: 'module-12-pax-romana',      title: 'Viure a Roma: Dins l\'Imperi',    emoji: '🏟️', note: 'La vida quotidiana en el pic de l\'Imperi: urbanisme, comerç, desigualtat i cultura',       minutes: 20 },
-      { id: 'module-13-fall',            title: 'La Llarga Caiguda: Com Mor un Imperi', emoji: '🌅', note: 'Per qué un imperi que durava 1.000 anys va col·lapsar: les causes reals i els mites',  minutes: 22 },
+      { id: 'module-13-fall',            title: 'La Llarga Caiguda: Com Mor un Imperi', emoji: '🌅', note: 'Per què un imperi que durava 1.000 anys va col·lapsar: les causes reals i els mites',  minutes: 22 },
     ],
   },
   {
@@ -58,7 +58,7 @@ export const LEARNING_PATHS = [
     accentColor: '#E8C547',
     areaId: 'historia',
     modules: [
-      { id: 'module-14-egipte',         title: 'Egipte: la Civilització dels Faraons', emoji: '𓂀', note: '3.000 anys de perspectiva global: per qué Egipte és tan excepcional en la història humana', minutes: 18 },
+      { id: 'module-14-egipte',         title: 'Egipte: la Civilització dels Faraons', emoji: '𓂀', note: '3.000 anys de perspectiva global: per què Egipte és tan excepcional en la història humana', minutes: 18 },
       { id: 'module-15-egipte-origins', title: 'El Naixement d\'Egipte',          emoji: '🌾', note: 'Com el Nil va crear un estat: unificació, escriptura i les primeres dinasties',                minutes: 15 },
       { id: 'module-16-egipte-imperi',  title: 'L\'Imperi Egipci',                emoji: '🛡️', note: 'L\'Egipte militar i imperial del Nou Regne: Tutmosis, Ramsès i les conquestes',               minutes: 16 },
       { id: 'module-17-egipte-religio', title: 'Els Déus del Nil',                emoji: '𓂀', note: 'L\'ànima de la civilització: panteó, maat, momificació i l\'obsessió per la vida eterna',     minutes: 18 },
@@ -77,7 +77,7 @@ export const LEARNING_PATHS = [
     areaId: 'ciencies',
     modules: [
       { id: 'module-08-biologia',    title: 'Biologia — Com Funciona la Vida', emoji: '🧬', note: 'El fonament: cèl·lules, metabolisme i les regles universals de tots els éssers vius',           minutes: 20 },
-      { id: 'module-09-cos-huma',    title: 'El Cos Humà no és el que Creus',  emoji: '🫀', note: 'Sorpreses del cos: per qué el nostre disseny no és tan perfecte com sembla',                   minutes: 20 },
+      { id: 'module-09-cos-huma',    title: 'El Cos Humà no és el que Creus',  emoji: '🫀', note: 'Sorpreses del cos: per què el nostre disseny no és tan perfecte com sembla',                   minutes: 20 },
       { id: 'module-33-evolucio',    title: 'Evolució i Selecció Natural',     emoji: '🦎', note: 'El motor de la vida: com la variació + la selecció generen tota la biodiversitat del planeta',   minutes: 22 },
       { id: 'module-35-genetica',    title: 'Genètica i ADN',                  emoji: '🧬', note: 'El codi de la vida: ADN, gens, herència i com es transmet la informació biològica',             minutes: 20 },
       { id: 'module-11-ecologia',    title: 'Ecologia: una Conversa sense Final', emoji: '🌿', note: 'Com els organismes s\'interconnecten: xarxes tròfiques, cicles i els límits planetaris',    minutes: 18 },
@@ -97,11 +97,11 @@ export const LEARNING_PATHS = [
     areaId: 'ciencies',
     modules: [
       { id: 'module-34-mecanica-classica',  title: 'Mecànica Clàssica',                      emoji: '⚙️', note: 'Newton i el moviment: les lleis que governen el món quotidià des de les pilotes fins als planetes', minutes: 20 },
-      { id: 'module-36-termodinamica',      title: 'Termodinàmica',                          emoji: '🔥', note: 'Calor, energia i entropia: per qué el temps sempre avança i mai es pot recuperar',                 minutes: 20 },
+      { id: 'module-36-termodinamica',      title: 'Termodinàmica',                          emoji: '🔥', note: 'Calor, energia i entropia: per què el temps sempre avança i mai es pot recuperar',                 minutes: 20 },
       { id: 'module-37-electromagnetisme',  title: 'Electromagnetisme',                      emoji: '⚡', note: 'Maxwell i la unificació: la llum és una ona electromagnètica i les forces estan connectades',       minutes: 22 },
       { id: 'module-10-caos',               title: 'El Caos: Quan la Ciència Perd el Control', emoji: '🌀', note: 'Equacions deterministes, resultats impredictibles: el caos que viu dins de la física clàssica',  minutes: 22 },
       { id: 'module-07-particles',          title: 'Física de Partícules',                   emoji: '⚛️', note: 'El límit del coneixement: quarks, bosons de Higgs i la quàntica que trenca les nostres intuïcions', minutes: 22 },
-      { id: 'module-08-relativitat',        title: 'La Relativitat General',                 emoji: '🌌', note: 'Einstein: com la massa corba l\'espai-temps i per qué la gravetat no és una força sinó geometria', minutes: 25 },
+      { id: 'module-08-relativitat',        title: 'La Relativitat General',                 emoji: '🌌', note: 'Einstein: com la massa corba l\'espai-temps i per què la gravetat no és una força sinó geometria', minutes: 25 },
       { id: 'module-12-temps-espai-limits', title: 'El Temps, l\'Espai i els Límits de la Física', emoji: '⏳', note: 'On s\'acaba la física: singularitats, el temps abans del Big Bang i el que no podem saber', minutes: 20 },
     ],
   },
@@ -116,7 +116,7 @@ export const LEARNING_PATHS = [
     accentColor: '#9B6DD6',
     areaId: 'pensament',
     modules: [
-      { id: 'module-30-introduccio-filosofia', title: 'Introducció a la Filosofia', emoji: '🦉', note: 'El punt de partida: per a qué serveix la filosofia i quines preguntes intenta respondre',     minutes: 18 },
+      { id: 'module-30-introduccio-filosofia', title: 'Introducció a la Filosofia', emoji: '🦉', note: 'El punt de partida: per a què serveix la filosofia i quines preguntes intenta respondre',     minutes: 18 },
       { id: 'module-32-logica-argumentacio',   title: 'Lògica i Argumentació',     emoji: '🧩', note: 'L\'eina fonamental: com construir arguments vàlids i detectar fal·làcies',                    minutes: 20 },
       { id: 'module-33-epistemologia',         title: 'Epistemologia',              emoji: '🔍', note: 'La pregunta profunda: com sabem el que sabem i quins límits té el coneixement humà',          minutes: 22 },
       { id: 'module-31-etica',                 title: 'Ètica',                      emoji: '⚖️', note: 'Com decidir el que és correcte: utilitarisme, deontologia i ètiques de la virtut',           minutes: 20 },
@@ -130,14 +130,14 @@ export const LEARNING_PATHS = [
     difficulty: 'introductori',
     depth: 'profund',
     durationEstimate: '~7 h',
-    description: 'Com funcionen els mercats, per qué hi ha crisis, com es redistribueix la riquesa i per qué la desigualtat no para de créixer. Economia sense dogmes.',
+    description: 'Com funcionen els mercats, per què hi ha crisis, com es redistribueix la riquesa i per què la desigualtat no para de créixer. Economia sense dogmes.',
     accentColor: '#4CAF82',
     areaId: 'societat',
     modules: [
       { id: 'module-19-economia-mon',         title: 'Economia: Les Eines per Llegir el Món', emoji: '📈', note: 'El mapa conceptual: les variables, els agents i la lògica bàsica de l\'economia',  minutes: 20 },
       { id: 'module-25-economia-micro',       title: 'Com Prenem Decisions: Preus i Mercats', emoji: '🧠', note: 'La microeconomia: oferta, demanda, elasticitat i com els mercats assignen recursos', minutes: 22 },
       { id: 'module-20-economia-macro',       title: 'Macroeconomia: Estats i Crisis',        emoji: '🏦', note: 'El gran quadre: PIB, inflació, tipus d\'interès i com els governs gestionen l\'economia', minutes: 22 },
-      { id: 'module-21-economia-desigualtat', title: 'Desigualtat: Causes i Redistribució',   emoji: '⚖️', note: 'La fractura: per qué la desigualtat creix i quins instruments existeixen per reduir-la', minutes: 20 },
+      { id: 'module-21-economia-desigualtat', title: 'Desigualtat: Causes i Redistribució',   emoji: '⚖️', note: 'La fractura: per què la desigualtat creix i quins instruments existeixen per reduir-la', minutes: 20 },
       { id: 'module-28-piketty',              title: 'Piketty: El Capital i la Desigualtat',  emoji: '📊', note: 'La tesi que va sacsejar el debat econòmic: r > g i la concentració inevitable de riquesa', minutes: 18 },
     ],
   },
@@ -152,14 +152,14 @@ export const LEARNING_PATHS = [
     accentColor: '#5B9BD5',
     areaId: 'relacions',
     modules: [
-      { id: 'module-03-peace',                             title: 'Pau, Conflicte i Guerra',                    emoji: '🕊️', note: 'El problema de fons: per qué els estats entren en guerra i com s\'han intentat prevenir', minutes: 22 },
+      { id: 'module-03-peace',                             title: 'Pau, Conflicte i Guerra',                    emoji: '🕊️', note: 'El problema de fons: per què els estats entren en guerra i com s\'han intentat prevenir', minutes: 22 },
       { id: 'module-15-fonaments-drets-humans',            title: 'Fonaments Filosòfics dels Drets Humans',    emoji: '🌍', note: 'D\'on venen els drets humans: Locke, Kant i el debat entre universalisme i relativisme',   minutes: 20 },
       { id: 'module-16-sistema-internacional-drets-humans',title: 'El Sistema Internacional dels Drets Humans',emoji: '📜', note: 'L\'arquitectura: ONU, tractats, comissions i els mecanismes de supervisió global',       minutes: 18 },
       { id: 'module-17-justicia-internacional',            title: 'Justícia Internacional',                    emoji: '⚖️', note: 'El braç llarg: el TPI, el CIJ i els tribunals que jutgen crims contra la humanitat',     minutes: 20 },
       { id: 'module-18-casos-drets-humans',                title: 'Casos que Van Canviar la Història',         emoji: '📋', note: 'La jurisprudència en acció: casos reals que van establir precedents globals',             minutes: 20 },
       { id: 'module-XX-historia-diplomacia',               title: 'Història de la Diplomàcia',                 emoji: '🕊️', note: 'De Westfàlia a Viena: com la humanitat va aprendre a negociar en lloc de guerrejar',    minutes: 30 },
       { id: 'module-XX-diplomacia-negociacio',             title: 'Diplomàcia i Negociació Internacional',     emoji: '🤝', note: 'Com funcionen les negociacions internacionals: tècniques, actors i límits de la raó',    minutes: 22 },
-      { id: 'module-XX-organismes-internacionals',         title: 'Organismes Internacionals',                 emoji: '🌐', note: 'L\'ONU, l\'OMC, el FMI i la UE: per a qué serveixen i quan fallen',                      minutes: 30 },
+      { id: 'module-XX-organismes-internacionals',         title: 'Organismes Internacionals',                 emoji: '🌐', note: 'L\'ONU, l\'OMC, el FMI i la UE: per a què serveixen i quan fallen',                      minutes: 30 },
     ],
   },
   {
@@ -187,15 +187,15 @@ export const LEARNING_PATHS = [
     difficulty: 'introductori',
     depth: 'profund',
     durationEstimate: '~7 h',
-    description: 'Com el cervell construeix la realitat, com ens enganyem a nosaltres mateixos, per qué obeïm i com el trauma marca el cos. Psicologia i neurociència aplicades.',
+    description: 'Com el cervell construeix la realitat, com ens enganyem a nosaltres mateixos, per què obeïm i com el trauma marca el cos. Psicologia i neurociència aplicades.',
     accentColor: '#C084FC',
     areaId: 'pensament',
     modules: [
       { id: 'module-08-neurociencia',      title: 'Neurociència i Conducta',          emoji: '🧠', note: 'El hardware: com les xarxes neuronals generen pensament, emoció i memòria',                   minutes: 22 },
-      { id: 'module-09-cos-huma',          title: 'El Cos Humà no és el que Creus',  emoji: '🫀', note: 'El cos com a sistema: per qué moltes de les nostres funcions no son el que semblaven',       minutes: 20 },
-      { id: 'module-12-ment-enganya',      title: 'La Ment que s\'Enganya a si Mateixa', emoji: '🪞', note: 'Biaixos cognitius, il·lusions i per qué el nostre cervell veu el que vol veure',        minutes: 20 },
+      { id: 'module-09-cos-huma',          title: 'El Cos Humà no és el que Creus',  emoji: '🫀', note: 'El cos com a sistema: per què moltes de les nostres funcions no són el que semblaven',       minutes: 20 },
+      { id: 'module-12-ment-enganya',      title: 'La Ment que s\'Enganya a si Mateixa', emoji: '🪞', note: 'Biaixos cognitius, il·lusions i per què el nostre cervell veu el que vol veure',        minutes: 20 },
       { id: 'module-14-obediencia',        title: 'Un Experiment, Sis Preguntes',    emoji: '⚡', note: 'Milgram i la xoc de l\'obediència: fins on podem arribar quan algú ens ho mana',             minutes: 20 },
-      { id: 'module-13-trauma-resiliencia',title: 'Trauma i Resiliència',            emoji: '🌱', note: 'Com el patiment es grava al cos i per qué la connexió humana és la millor medicina',         minutes: 18 },
+      { id: 'module-13-trauma-resiliencia',title: 'Trauma i Resiliència',            emoji: '🌱', note: 'Com el patiment es grava al cos i per què la connexió humana és la millor medicina',         minutes: 18 },
     ],
   },
 ]

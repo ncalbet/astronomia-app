@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { calculateLevel } from '../engine/xpEngine'
@@ -17,6 +18,8 @@ export default function Stats() {
     badges, srStreak, srStreakMax,
     weekXP, weekModules, weekReviews, weekStart
   } = useApp()
+
+  const [copied, setCopied] = useState(false)
 
   const { level, xpInLevel, xpForNext, progress } = calculateLevel(xp)
 
@@ -39,6 +42,26 @@ export default function Stats() {
     return { area, done, total: mods.length, pct: mods.length > 0 ? Math.round((done / mods.length) * 100) : 0 }
   })
 
+  const handleShare = async () => {
+    const lines = [
+      '📊 El meu progrés a Acadèmia Còsmica',
+      `Nivell ${level} · ${xp.toLocaleString('ca-ES')} XP`,
+      `${completedModules.length}/${TOTAL_MODULES} mòduls · ${completedPaths}/${LEARNING_PATHS.length} itineraris`,
+      `${(completedCapsules || []).length}/${TOTAL_CAPSULES} càpsules · ${badges.length} insígnies`,
+      srStreak > 0 ? `🔥 Streak de ${srStreak} dies` : null,
+      '—',
+      'https://astronomia-app.vercel.app',
+    ].filter(Boolean).join('\n')
+
+    if (navigator.share) {
+      try { await navigator.share({ text: lines, title: 'Acadèmia Còsmica' }) } catch {}
+    } else {
+      await navigator.clipboard.writeText(lines)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    }
+  }
+
   const weekLabel = weekStart
     ? new Date(weekStart).toLocaleDateString('ca-ES', { day: 'numeric', month: 'short' })
     : '—'
@@ -47,7 +70,12 @@ export default function Stats() {
     <div className={styles.screen}>
       <header className={styles.header}>
         <button className={styles.back} onClick={() => navigate('/')}>← Tornar</button>
-        <h1 className={styles.title}>📊 Estadístiques</h1>
+        <div className={styles.titleRow}>
+          <h1 className={styles.title}>📊 Estadístiques</h1>
+          <button className={styles.shareBtn} onClick={handleShare}>
+            {copied ? '✓ Copiat' : '↑ Compartir'}
+          </button>
+        </div>
       </header>
 
       {/* Nivell i XP */}

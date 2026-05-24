@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "module-10-estrelles",
   "title": "La vida i mort de les estrelles",
   "emoji": "⭐",
@@ -9,21 +9,21 @@
       "id": "fisica-esteltar",
       "title": "Física estel·lar",
       "icon": "⚛️",
-      "description": "Com funcionen les estrelles per dins: fusió nuclear, equilibri gravitatori i per qué brillen durant milers de milions d'anys",
+      "description": "Com funcionen les estrelles per dins: fusió nuclear, equilibri gravitatori i per què brillen durant milers de milions d'anys",
       "style": "Físic · dels principis a les conseqüències",
       "lessons": [
         {
           "id": "est-01",
-          "title": "Qué és una estrella? La batalla entre gravetat i pressió",
+          "title": "què és una estrella? La batalla entre gravetat i pressió",
           "blocks": [
             {
               "type": "narrative",
-              "text": "El Sol ha brillat durant 4.600 milions d'anys i brillarà durant 5.000 milions més. Cada segon converteix 600 milions de tones d'hidrogen en heli. I tot i això, no s'esgota ni explota. Quelcom manté l'equilibri perfecte entre la gravetat que el vol comprimir i la pressió que el vol expandir. Entendre com és possible aquest equilibri és entendre per qué existeixen les estrelles."
+              "text": "El Sol ha brillat durant 4.600 milions d'anys i brillarà durant 5.000 milions més. Cada segon converteix 600 milions de tones d'hidrogen en heli. I tot i això, no s'esgota ni explota. Quelcom manté l'equilibri perfecte entre la gravetat que el vol comprimir i la pressió que el vol expandir. Entendre com és possible aquest equilibri és entendre per què existeixen les estrelles."
             },
             {
               "type": "prediction",
-              "question": "Si la gravetat comprimeix el Sol cap al centre i la pressió del gas calent l'expulsa cap a fora, qué hauria de passar perquè l'estrella ni col·lapsi ni exploti?",
-              "hint": "Pensa en un globus: qué passa quan la pressió interior i l'exterior s'equilibren."
+              "question": "Si la gravetat comprimeix el Sol cap al centre i la pressió del gas calent l'expulsa cap a fora, què hauria de passar perquè l'estrella ni col·lapsi ni exploti?",
+              "hint": "Pensa en un globus: què passa quan la pressió interior i l'exterior s'equilibren."
             },
             {
               "type": "key-idea",
@@ -31,7 +31,7 @@
             },
             {
               "type": "expandable",
-              "label": "Per qué la compressió gravitatòria escalfa i no refreda?",
+              "label": "Per què la compressió gravitatòria escalfa i no refreda?",
               "content": "Quan un gas es comprimeix, les seves molècules col·lisionen més freqüentment i amb més energia — la temperatura puja. Això és el teorema del virial: la meitat de l'energia gravitatòria alliberada per la contracció es converteix en calor cinètica del gas. La resta s'irradia a l'exterior. Per a una estrella en formació, aquesta compressió gravitatòria és precisament el que escalfa el nucli fins a temperatures prou altes per iniciar la fusió nuclear. Un cop la fusió comença, la pressió de radiació s'afegeix a la pressió del gas i estableix l'equilibri. Sense la gravetat no hi hauria prou temperatura per a la fusió. Sense la fusió, la gravetat col·lapsaria l'estrella. Les dues forces es necessiten mútuament."
             },
             {
@@ -44,7 +44,7 @@
               "type": "exercise",
               "id": "ex-est-01-01",
               "style": "multiple-choice",
-              "question": "Qué passaria amb una estrella si la fusió nuclear al seu nucli s'aturés sobtadament?",
+              "question": "què passaria amb una estrella si la fusió nuclear al seu nucli s'aturés sobtadament?",
               "options": [
                 "Continuaria brillant indefinidament gràcies a la calor acumulada",
                 "Explotaria immediatament per la pressió interna acumulada",
@@ -92,14 +92,14 @@
             },
             {
               "type": "expandable",
-              "label": "Per qué la fusió al Sol és sorprenentment lenta — i per qué és una sort",
+              "label": "Per què la fusió al Sol és sorprenentment lenta — i per què és una sort",
               "content": "La temperatura del nucli solar (15 milions K) és en realitat insuficient per a la fusió clàssica: la barrera de Coulomb (repulsió entre protons) requeriria temperatures 100 vegades majors. La fusió solar funciona gràcies a l'efecte túnel quàntic: els protons 'travessen' la barrera energètica amb una probabilitat molt baixa. La probabilitat que dos protons específics fusionin en un instant donat és ínfima — un protó al nucli solar triga en mitjana 10 mil milions d'anys a fusionar. Però com que hi ha 10⁵⁷ protons al nucli, les reaccions totals per segon són colossals. Aquesta lentitud intrínseca és el que fa que el Sol duri 10.000 milions d'anys en lloc de consumir-se en un instant com una bomba de fusió."
             },
             {
               "type": "exercise",
               "id": "ex-est-02-01",
               "style": "multiple-choice",
-              "question": "Per qué la fusió nuclear allibera tanta energia en comparació amb les reaccions químiques?",
+              "question": "Per què la fusió nuclear allibera tanta energia en comparació amb les reaccions químiques?",
               "options": [
                 "Perquè les temperatures del nucli estel·lar són molt altes, i l'energia depèn de la temperatura",
                 "Perquè implica la conversió directa de massa en energia (E=mc²) — la massa del producte és menor que la dels reactius",
@@ -121,7 +121,7 @@
               "type": "exercise",
               "id": "ex-est-02-02",
               "style": "detect-error",
-              "statement": "La fusió nuclear al Sol és tan eficient que el combustible d'hidrogen es consumeix en uns pocs milions d'anys, cosa que explica per qué les estrelles de la mida del Sol viuen relativament poc.",
+              "statement": "La fusió nuclear al Sol és tan eficient que el combustible d'hidrogen es consumeix en uns pocs milions d'anys, cosa que explica per què les estrelles de la mida del Sol viuen relativament poc.",
               "isCorrect": false,
               "feedbackExplanation": "Hi ha dos errors. Primer, la fusió solar és sorprenentment ineficient: gràcies a la baixa probabilitat de l'efecte túnel, un protó triga en mitjana 10.000 milions d'anys a fusionar. Segon, el Sol té una vida total d'uns 10.000 milions d'anys — que és molt llarga, no curta. Les estrelles que viuen 'relativament poc' (milions d'anys en lloc de bilions) són les molt més massives que el Sol, que cremen el seu combustible a un ritme molt major. La vida d'una estrella és inversament proporcional a la seva massa al cub aproximadament."
             },
@@ -153,7 +153,7 @@
             },
             {
               "type": "expandable",
-              "label": "La paradoxa del Sol jove feble: per qué la Terra no era una bola de gel fa 4.000 milions d'anys",
+              "label": "La paradoxa del Sol jove feble: per què la Terra no era una bola de gel fa 4.000 milions d'anys",
               "content": "Fa 4.000 milions d'anys, el Sol era un 30% menys lluminós que avui. Amb tanta menys energia solar, les temperatures terrestres haurien de ser molt per sota del zero — la Terra hauria estat completament gelada. Però les evidències geològiques mostren oceans líquids ja fa 4.000 milions d'anys. Com és possible? Diverses hipòtesis intenten resoldre-ho: una atmosfera primitiva molt més rica en gasos d'efecte hivernacle (CO₂, metà), una Terra inicialment més calenta per impactes i radioactivitat, marees oceàniques majors per la Lluna més propera, o una combinació de tots aquests factors. El 'paradox del Sol jove feble' segueix sent un problema parcialment obert de la geociència i l'astrofísica."
             },
             {
@@ -229,7 +229,7 @@
             },
             {
               "type": "expandable",
-              "label": "Per qué el ferro és el límit? L'energia de lligadura nuclear",
+              "label": "Per què el ferro és el límit? L'energia de lligadura nuclear",
               "content": "L'energia de lligadura d'un nucli atòmic és l'energia necessària per separar-lo en protons i neutrons lliures — o, inversament, l'energia alliberada en formar-lo. El ferro-56 té la màxima energia de lligadura per nucleó de tots els elements: és el nucli més estable que existeix. Fusionar elements fins al ferro allibera energia (perquè el producte és més estable). Fusionar elements més pesats que el ferro absorbeix energia (perquè el producte és menys estable que els ingredients). Una estrella és una màquina que aprofita l'energia alliberada en crear nuclis cada cop més estables — fins al ferro, que és el punt d'equilibri màxim. A partir d'aquí, no hi ha més energia a extreure per fusió."
             },
             {
@@ -271,7 +271,7 @@
               "type": "exercise",
               "id": "ex-est-04-01",
               "style": "multiple-choice",
-              "question": "Per qué la fusió del ferro no pot proporcionar energia a una estrella com la fusió de l'hidrogen o l'heli?",
+              "question": "Per què la fusió del ferro no pot proporcionar energia a una estrella com la fusió de l'hidrogen o l'heli?",
               "options": [
                 "Perquè el ferro és massa pesat per fusionar-se a les temperatures estel·lars",
                 "Perquè el ferro té la màxima energia de lligadura per nucleó — fusionar-lo requeriria aportar energia en lloc d'alliberar-ne",
@@ -338,7 +338,7 @@
             },
             {
               "type": "reflection",
-              "question": "La llum que ara reps del Sol va ser generada com a radiació gamma al nucli entre 10.000 i 170.000 anys enrere — quan els humans del Paleolític pintaven les primeres coves. I els neutrins que et travessen ara mateix provenen d'una reacció de fusió de fa exactament 8 minuts. Qué et sembla aquesta escala temporal de l'energia que et manté viu?",
+              "question": "La llum que ara reps del Sol va ser generada com a radiació gamma al nucli entre 10.000 i 170.000 anys enrere — quan els humans del Paleolític pintaven les primeres coves. I els neutrins que et travessen ara mateix provenen d'una reacció de fusió de fa exactament 8 minuts. què et sembla aquesta escala temporal de l'energia que et manté viu?",
               "prompt": "No hi ha resposta correcta."
             }
           ]
@@ -357,14 +357,14 @@
             },
             {
               "type": "expandable",
-              "label": "Per qué una estrella de neutrons gira tan ràpidament? Conservació del moment angular",
+              "label": "Per què una estrella de neutrons gira tan ràpidament? Conservació del moment angular",
               "content": "Quan el nucli d'una estrella massiva col·lapsa de milers de km a ~10 km en mil·lisegons, el moment angular es conserva — igual que un patinador sobre gel que gira més ràpidament quan recull els braços. Una estrella precursora que girava un cop cada 30 dies pot col·lapsar en una estrella de neutrons que gira desenes o centenars de vegades per segon. El púlsar més ràpid conegut (PSR J1748-2446ad) gira 716 vegades per segon — la seva superfície es mou aproximadament al 15% de la velocitat de la llum. Les estrelles de neutrons també concentren el camp magnètic de la precursora: camps magnètics d'un bilió de gauss, bilions de vegades el camp magnètic terrestre."
             },
             {
               "type": "exercise",
               "id": "ex-est-06-01",
               "style": "multiple-choice",
-              "question": "Qué és un púlsar?",
+              "question": "què és un púlsar?",
               "options": [
                 "Una estrella que alterna períodes d'expansió i contracció de forma regular",
                 "Una estrella de neutrons en rotació ràpida que emet feixos de ràdio des dels pols magnètics",
@@ -392,7 +392,7 @@
             {
               "type": "scientific-mode",
               "id": "sci-est-06-01",
-              "question": "Una estrella de neutrons empaqueta la massa del Sol en una esfera de 20 km. La pressió és tan extrema que els electrons i protons es fusionen en neutrons. Qué impedeix que l'estrella de neutrons continuï col·lapsant fins a convertir-se en un forat negre?",
+              "question": "Una estrella de neutrons empaqueta la massa del Sol en una esfera de 20 km. La pressió és tan extrema que els electrons i protons es fusionen en neutrons. què impedeix que l'estrella de neutrons continuï col·lapsant fins a convertir-se en un forat negre?",
               "options": [
                 "La gravetat és menys intensa a l'interior de l'estrella de neutrons perquè la massa es distribueix esféricamente",
                 "La pressió de degeneració dels neutrons — un principi quàntic que impedeix que dos neutrons ocupin el mateix estat — resisteix el col·lapse",
@@ -433,7 +433,7 @@
               "type": "exercise",
               "id": "ex-est-v01-01",
               "style": "multiple-choice",
-              "question": "Qué inicia el col·lapse d'un núvol molecular per formar una estrella?",
+              "question": "què inicia el col·lapse d'un núvol molecular per formar una estrella?",
               "options": [
                 "La fusió nuclear que comença espontàniament al centre del núvol",
                 "Una pertorbació externa o interna que fa que la gravetat superi la pressió del gas",
@@ -518,7 +518,7 @@
               "type": "exercise",
               "id": "ex-est-v02-01",
               "style": "multiple-choice",
-              "question": "Qué és exactament una 'nebulosa planetària'? Per qué s'anomena així?",
+              "question": "què és exactament una 'nebulosa planetària'? Per què s'anomena així?",
               "options": [
                 "Un núvol de gas al voltant d'un planeta gegant com Júpiter",
                 "La nube de gas i pols de la qual es formen els sistemes planetaris",
@@ -570,7 +570,7 @@
               "type": "exercise",
               "id": "ex-est-v03-01",
               "style": "multiple-choice",
-              "question": "Per qué els detectors de neutrins van detectar el senyal de SN1987A tres hores ABANS que la llum visible de l'explosió?",
+              "question": "Per què els detectors de neutrins van detectar el senyal de SN1987A tres hores ABANS que la llum visible de l'explosió?",
               "options": [
                 "Perquè els neutrins viatgen més ràpidament que la llum",
                 "Perquè els neutrins es van generar en el col·lapse del nucli i van travessar les capes estel·lars gairebé sense interaccionar, mentre que la llum va trigar hores en travessar aquelles capes",
@@ -665,8 +665,8 @@
             },
             {
               "type": "expandable",
-              "label": "Per qué els raigs gamma de GW170817 van arribar 1,7 segons després de les ones gravitacionals?",
-              "content": "Les ones gravitacionals viatgen a la velocitat de la llum (c) en el buit — és una predicció de la relativitat general. Els fotons de raigs gamma també viatgen a c. Però van sortir 1,7 segons més tard: els raigs gamma es van emetre quan el jet relativista format en la fusió va travessar el material circumdant. Aquell retard de 1,7 s en 130 milions d'anys de viatge estableix que les ones gravitacionals viatgen a la velocitat de la llum amb una precisió de 10⁻¹⁵ — confirmant una predicció de la relativitat general amb una precisió sense precedents. También va eliminar o restringir fortament molts models de gravetat alternativa que predien velocitats lleugerament diferents per a ones gravitacionals i llum."
+              "label": "Per què els raigs gamma de GW170817 van arribar 1,7 segons després de les ones gravitacionals?",
+              "content": "Les ones gravitacionals viatgen a la velocitat de la llum (c) en el buit — és una predicció de la relativitat general. Els fotons de raigs gamma també viatgen a c. Però van sortir 1,7 segons més tard: els raigs gamma es van emetre quan el jet relativista format en la fusió va travessar el material circumdant. Aquell retard de 1,7 s en 130 milions d'anys de viatge estableix que les ones gravitacionals viatgen a la velocitat de la llum amb una precisió de 10⁻¹⁵ — confirmant una predicció de la relativitat general amb una precisió sense precedents. també va eliminar o restringir fortament molts models de gravetat alternativa que predien velocitats lleugerament diferents per a ones gravitacionals i llum."
             },
             {
               "type": "exercise",
@@ -783,14 +783,14 @@
             {
               "type": "scientific-mode",
               "id": "sci-est-v06-01",
-              "question": "La física estel·lar explica l'origen dels àtoms del teu cos, l'energia de l'ecosistema terrestre i les condicions per a la vida. Però no diu per qué hi ha vida conscient en lloc de simplement química complexa. On acaba l'explicació científica de les estrelles i comença quelcom que la ciència no pot (o no ha pogut) explicar?",
+              "question": "La física estel·lar explica l'origen dels àtoms del teu cos, l'energia de l'ecosistema terrestre i les condicions per a la vida. Però no diu per què hi ha vida conscient en lloc de simplement química complexa. On acaba l'explicació científica de les estrelles i comença quelcom que la ciència no pot (o no ha pogut) explicar?",
               "options": [
                 "La ciència pot en principi explicar tot, incloent la consciència — és sols qüestió de temps i recerca",
-                "La ciència explica el substrat material (àtoms, energia, processos) però la qüestió de per qué hi ha experiència subjectiva és un problema fonamentalment diferent",
+                "La ciència explica el substrat material (àtoms, energia, processos) però la qüestió de per què hi ha experiència subjectiva és un problema fonamentalment diferent",
                 "La consciència és una il·lusió — no hi ha res a explicar més enllà dels processos físics del cervell"
               ],
               "correct": 1,
-              "explanation": "Aquesta és una de les fronteres més profundes de la ciència i la filosofia. La física estel·lar explica d'on venen els àtoms i l'energia. La biologia explica com s'organitzen en cèl·lules, organismes i cervells. La neurociència explica mecanismes de processament d'informació. Però el 'problema dur de la consciència' (David Chalmers, 1995) assenyala que totes aquestes explicacions descriuen processos en tercera persona (mecanismes, estructures, funcions) però no expliquen per qué hi ha quelcom que és com ser tu — l'experiència subjectiva en primera persona. Que l'explicació científica del substrat sigui completa no implica que l'experiència subjectiva sigui reducible a aquell substrat sense residus. Postures (a) i (c) existeixen i tenen defensors seriosos, però la postura (b) reconeix honestament que el problema és real i obert, i que no hi ha consens."
+              "explanation": "Aquesta és una de les fronteres més profundes de la ciència i la filosofia. La física estel·lar explica d'on venen els àtoms i l'energia. La biologia explica com s'organitzen en cèl·lules, organismes i cervells. La neurociència explica mecanismes de processament d'informació. Però el 'problema dur de la consciència' (David Chalmers, 1995) assenyala que totes aquestes explicacions descriuen processos en tercera persona (mecanismes, estructures, funcions) però no expliquen per què hi ha quelcom que és com ser tu — l'experiència subjectiva en primera persona. Que l'explicació científica del substrat sigui completa no implica que l'experiència subjectiva sigui reducible a aquell substrat sense residus. Postures (a) i (c) existeixen i tenen defensors seriosos, però la postura (b) reconeix honestament que el problema és real i obert, i que no hi ha consens."
             }
           ]
         }

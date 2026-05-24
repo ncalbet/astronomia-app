@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "module-27-economia-jocs",
   "title": "Teoria de Jocs: Cooperació, Traïció i Dilemes",
   "emoji": "♟️",
@@ -7,11 +7,11 @@
   "lessons": [
     {
       "id": "joc-01",
-      "title": "Qué és la teoria de jocs i per qué canvia com penses",
+      "title": "què és la teoria de jocs i per què canvia com penses",
       "blocks": [
         {
           "type": "narrative",
-          "text": "El 1944, John von Neumann i Oskar Morgenstern van publicar 'Teoria dels Jocs i Comportament Econòmic', un llibre de 600 pàgines que va crear una nova disciplina matemàtica. La idea central era sorprenentment simple: moltes situacions de la vida humana no son simplement problemes d'optimació individual (com maximitzar el meu benefici) sinó situacions d'interacció estratègica, on el resultat del que jo faig depèn del que fa l'altre, i viceversa. Quan dos emprenedors competixen per un mercat, quan dos països negocien un tractat, quan dos conductors s'apropen a una cruïlla sense semàfor — tots estenen pensant en el que farà l'altre. La teoria de jocs és la matemàtica d'aquestes interdependències."
+          "text": "El 1944, John von Neumann i Oskar Morgenstern van publicar 'Teoria dels Jocs i Comportament Econòmic', un llibre de 600 pàgines que va crear una nova disciplina matemàtica. La idea central era sorprenentment simple: moltes situacions de la vida humana no són simplement problemes d'optimació individual (com maximitzar el meu benefici) sinó situacions d'interacció estratègica, on el resultat del que jo faig depèn del que fa l'altre, i viceversa. Quan dos emprenedors competixen per un mercat, quan dos països negocien un tractat, quan dos conductors s'apropen a una cruïlla sense semàfor — tots estenen pensant en el que farà l'altre. La teoria de jocs és la matemàtica d'aquestes interdependències."
         },
         {
           "type": "prediction",
@@ -20,7 +20,7 @@
         },
         {
           "type": "key-idea",
-          "text": "La teoria de jocs estudia com actors racionals prenen decisions en situacions d'interacció estratègica — on el resultat de cadascú depèn de les decisions de tots. Ha canviat l'economia, la biologia evolutiva, la ciència política, la filosofia moral i la diplomàcia internacional. La seva contribució principal no és trobar solucions òptimes sinó identificar per qué les situacions de conflicte generen resultats subòptims que les parts haurien preferit evitar."
+          "text": "La teoria de jocs estudia com actors racionals prenen decisions en situacions d'interacció estratègica — on el resultat de cadascú depèn de les decisions de tots. Ha canviat l'economia, la biologia evolutiva, la ciència política, la filosofia moral i la diplomàcia internacional. La seva contribució principal no és trobar solucions òptimes sinó identificar per què les situacions de conflicte generen resultats subòptims que les parts haurien preferit evitar."
         },
         {
           "type": "misconception",
@@ -31,7 +31,7 @@
         {
           "type": "expandable",
           "label": "John Nash i l'equilibri de Nash: l'home darrera 'Una ment brillant'",
-          "content": "John Forbes Nash Jr. va proposar el 1950, als 21 anys, el concepte que porta el seu nom: l'equilibri de Nash. Un equilibri de Nash és una situació on cap jugador pot millorar el seu resultat canviant unilateralment la seva estratègia, donant les estratègies dels altres. No és necessàriament el resultat millor per a tots — simplement el resultat estable des del qual ningú té incentiu individual per desviarse. Nash va demostrar que qualsevol joc finit (amb un nombre finit de jugadors i d'estratègies disponibles) té almenys un equilibri de Nash, possiblement en estratègies mixtes. La informació completa no és un requisit del teorema. El concepte va tenir un impacte revolucionari: va permetre analitzar de forma rigorosa situacions on l'optimal per a cadascú depèn del que fan els altres. Nash va guanyar el Nobel d'Economia el 1994, quaranta-quatre anys després de la seva tesi doctoral. La seva vida, marcada per la schizofrènia, va ser immortalitzada a la pel·lícula 'Una Ment Brillant' (2001). Va morir en un accident de taxi el 2015, pocs dies después de recollir el premi Abel de matemàtiques."
+          "content": "John Forbes Nash Jr. va proposar el 1950, als 21 anys, el concepte que porta el seu nom: l'equilibri de Nash. Un equilibri de Nash és una situació on cap jugador pot millorar el seu resultat canviant unilateralment la seva estratègia, donant les estratègies dels altres. No és necessàriament el resultat millor per a tots — simplement el resultat estable des del qual ningú té incentiu individual per desviarse. Nash va demostrar que qualsevol joc finit (amb un nombre finit de jugadors i d'estratègies disponibles) té almenys un equilibri de Nash, possiblement en estratègies mixtes. La informació completa no és un requisit del teorema. El concepte va tenir un impacte revolucionari: va permetre analitzar de forma rigorosa situacions on l'optimal per a cadascú depèn del que fan els altres. Nash va guanyar el Nobel d'Economia el 1994, quaranta-quatre anys després de la seva tesi doctoral. La seva vida, marcada per la schizofrènia, va ser immortalitzada a la pel·lícula 'Una Ment Brillant' (2001). Va morir en un accident de taxi el 2015, pocs dies després de recollir el premi Abel de matemàtiques."
         },
         {
           "type": "exercise",
@@ -45,7 +45,7 @@
             "Tres: tots dos acceleren (accident) és també un equilibri perquè si l'altre accelera tu no pots millorar res"
           ],
           "correct": 1,
-          "feedbackCorrect": "Exacte. Hi ha dos equilibris de Nash en estratègies pures. En (A accelera, B freu): si A sap que B frenarà, A no té incentiu per frenar (ja passa). Si B sap que A accelerarà, B no té incentiu per accelerar (risc d'accident). Cap té incentiu per desviar-se unilateralment. Igualment per a (A freu, B accelera). El problema és que la teoria de jocs no diu quin dels dos equilibris s'assolirà — tots dos son estables. La solució social: els semàfors, les normes de precedència i els senyals de trànsit son mecanismes per seleccionar quin equilibri s'activa. Les normes de trànsit son essencialment solucions al problema de la selecció d'equilibris en la circulació.",
+          "feedbackCorrect": "Exacte. Hi ha dos equilibris de Nash en estratègies pures. En (A accelera, B freu): si A sap que B frenarà, A no té incentiu per frenar (ja passa). Si B sap que A accelerarà, B no té incentiu per accelerar (risc d'accident). Cap té incentiu per desviar-se unilateralment. Igualment per a (A freu, B accelera). El problema és que la teoria de jocs no diu quin dels dos equilibris s'assolirà — tots dos són estables. La solució social: els semàfors, les normes de precedència i els senyals de trànsit són mecanismes per seleccionar quin equilibri s'activa. Les normes de trànsit són essencialment solucions al problema de la selecció d'equilibris en la circulació.",
           "feedbackWrong": "Hi ha dos equilibris de Nash en estratègies pures, no un ni cap. En qualsevol dels dos equilibris on un conductor accelera i l'altre freu, cap dels dos té incentiu per canviar unilateralment la seva estratègia. El problema és que la teoria de jocs no prediu quin dels dos s'assolirà — d'aquí la necessitat de normes de trànsit que resolen el problema de selecció d'equilibris."
         },
         {
@@ -54,29 +54,29 @@
           "style": "detect-error",
           "statement": "Un equilibri de Nash és sempre el resultat òptim per als jugadors, perquè representa el punt on cadascú ha maximitzat el seu benefici donat el comportament de l'altre.",
           "isCorrect": false,
-          "feedbackExplanation": "Un equilibri de Nash és estable però no necessàriament òptim per a cap dels jugadors ni per al conjunt. El cas del dilema del presoner és l'exemple definitiu: l'únic equilibri de Nash és que tots dos jugadors confessen (traïxen), i tots dos acaben amb 5 anys de presó. Però si tots dos cooperessin (callessin), tots dos tindrien 1 any de presó — molt millor per a tots dos. L'equilibri de Nash del dilema del presoner és el pitjor resultat possible per als jugadors! La teoria de Nash identifica resultats estables (des dels quals ningú té incentiu per desviarse unilateralment) però no garanteix que siguin eficients o òptims. Moltes de les tragedies col·lectives (el canvi climàtic, les curses armamentístiques, els oligopolis depredadors) son equilibris de Nash subòptims."
+          "feedbackExplanation": "Un equilibri de Nash és estable però no necessàriament òptim per a cap dels jugadors ni per al conjunt. El cas del dilema del presoner és l'exemple definitiu: l'únic equilibri de Nash és que tots dos jugadors confessen (traïxen), i tots dos acaben amb 5 anys de presó. Però si tots dos cooperessin (callessin), tots dos tindrien 1 any de presó — molt millor per a tots dos. L'equilibri de Nash del dilema del presoner és el pitjor resultat possible per als jugadors! La teoria de Nash identifica resultats estables (des dels quals ningú té incentiu per desviarse unilateralment) però no garanteix que siguin eficients o òptims. Moltes de les tragedies col·lectives (el canvi climàtic, les curses armamentístiques, els oligopolis depredadors) són equilibris de Nash subòptims."
         },
         {
           "type": "scientific-mode",
           "id": "sci-joc-01-01",
-          "question": "La teoria de jocs assumeix que els jugadors son racionals i coneixedors de les regles del joc i de les recompenses. Però en la vida real, les persones son parcialment irracionals (economia del comportament) i sovint no coneixen bé les estratègies i recompenses dels altres. La teoria de jocs és útil malgrat aquestes limitacions?",
+          "question": "La teoria de jocs assumeix que els jugadors són racionals i coneixedors de les regles del joc i de les recompenses. Però en la vida real, les persones són parcialment irracionals (economia del comportament) i sovint no coneixen bé les estratègies i recompenses dels altres. La teoria de jocs és útil malgrat aquestes limitacions?",
           "options": [
-            "No: sense els supòsits de racionalitat plena i informació completa, les prediccions de la teoria de jocs son inútils",
-            "Sí: la teoria de jocs identifica estructures d'incentiu i dinàmiques estratègiques que son rellevants fins i tot quan els actors no son plenament racionals, perquè els incentius estructurals guien el comportament malgrat la irracionalitat individual",
+            "No: sense els supòsits de racionalitat plena i informació completa, les prediccions de la teoria de jocs són inútils",
+            "Sí: la teoria de jocs identifica estructures d'incentiu i dinàmiques estratègiques que són rellevants fins i tot quan els actors no són plenament racionals, perquè els incentius estructurals guien el comportament malgrat la irracionalitat individual",
             "Parcialment: és útil per a jocs senzills i repetits (on els actors aprenen la racionalitat per experiència), menys útil per a jocs complexos i únics"
           ],
           "correct": 1,
-          "explanation": "La posició A és excessivament pessimista: fins i tot si els actors no son perfectament racionals, les estructures d'incentiu que la teoria de jocs identifica configuren el comportament. Un dilema del presoner continua sent un dilema del presoner si els actors son parcialment irracionals — la pressió cap a la defecció (traïció) seguix existint. La posició C té part de raó: la teoria de jocs és més predictiva en contextos repetits amb feedback (on els actors aprenen) que en situacions úniques amb incertesa alta. La posició B és la que la majoria dels teòrics de jocs aplicats defensen: la teoria de jocs és principalment un instrument conceptual — identifica quines estructures d'incentiu generen quines dinàmiques (dilemes, guerres de desgast, jocs de coordinació), cosa que és útil independentment de si els actors son perfectament racionals. L'equilibri de Nash com a predicció puntual falla en molts experimentos, però la teoria de jocs com a marc per entendre les tensions entre interès individual i col·lectiu és enormement valuosa."
+          "explanation": "La posició A és excessivament pessimista: fins i tot si els actors no són perfectament racionals, les estructures d'incentiu que la teoria de jocs identifica configuren el comportament. Un dilema del presoner continua sent un dilema del presoner si els actors són parcialment irracionals — la pressió cap a la defecció (traïció) seguix existint. La posició C té part de raó: la teoria de jocs és més predictiva en contextos repetits amb feedback (on els actors aprenen) que en situacions úniques amb incertesa alta. La posició B és la que la majoria dels teòrics de jocs aplicats defensen: la teoria de jocs és principalment un instrument conceptual — identifica quines estructures d'incentiu generen quines dinàmiques (dilemes, guerres de desgast, jocs de coordinació), cosa que és útil independentment de si els actors són perfectament racionals. L'equilibri de Nash com a predicció puntual falla en molts experimentos, però la teoria de jocs com a marc per entendre les tensions entre interès individual i col·lectiu és enormement valuosa."
         }
       ]
     },
     {
       "id": "joc-02",
-      "title": "El dilema del presoner: per qué la cooperació és tan difícil",
+      "title": "El dilema del presoner: per què la cooperació és tan difícil",
       "blocks": [
         {
           "type": "narrative",
-          "text": "Dos sospitosos son detinguts per un crim. La policia els interroga per separat i ofereix a cadascun el mateix tracte: si confesses i l'altre calla, surts lliure (i l'altre rep 10 anys). Si tots dos confesseu, tots dos rebeu 5 anys. Si tots dos calleu, tots dos rebeu 1 any per un càrrec menor. Cadascun pensa: 'Si l'altre calla, em convé confessar (surto lliure). Si l'altre confessa, em convé confessar (5 anys millor que 10). Sigui el que faci l'altre, em convé confessar.' Tots dos confessen. Tots dos reben 5 anys. Però si tots dos haguessin callat, tots dos haurien rebut 1 any. L'acció individual òptima porta al resultat col·lectiu pitjor."
+          "text": "Dos sospitosos són detinguts per un crim. La policia els interroga per separat i ofereix a cadascun el mateix tracte: si confesses i l'altre calla, surts lliure (i l'altre rep 10 anys). Si tots dos confesseu, tots dos rebeu 5 anys. Si tots dos calleu, tots dos rebeu 1 any per un càrrec menor. Cadascun pensa: 'Si l'altre calla, em convé confessar (surto lliure). Si l'altre confessa, em convé confessar (5 anys millor que 10). Sigui el que faci l'altre, em convé confessar.' Tots dos confessen. Tots dos reben 5 anys. Però si tots dos haguessin callat, tots dos haurien rebut 1 any. L'acció individual òptima porta al resultat col·lectiu pitjor."
         },
         {
           "type": "prediction",
@@ -112,14 +112,14 @@
         },
         {
           "type": "expandable",
-          "label": "La solució de Robert Axelrod: per qué la reciprocitat guanya",
-          "content": "Entre 1979 i 1980, el politòleg Robert Axelrod va organitzar dos tornejos informàtics consecutius: va convidar experts de tot el món a enviar estratègies per jugar el dilema del presoner repetit (moltes rondes). Els resultats dels dos tornejos van ser publicats al seu llibre 'L'Evolució de la Cooperació' (1984). Es va disputar un torneig de round-robin on cada estratègia jugava contra totes les altres. L'estratègia guanyadora va ser la més senzilla de totes: 'Tit-for-Tat' (ull per ull), presentada per Anatol Rapoport. Tit-for-Tat comença cooperant i en cada ronda fa el que l'altre ha fet a la ronda anterior. Si l'altre coopera, jo coopero; si trai, jo traïxo; si torna a cooperar, jo torno a cooperar. Axelrod va identificar les propietats de les estratègies exitoses: ser amable (començas cooperant), ser provocable (no deixes que et facin el pardal indefinidament), ser indulgent (perdones ràpidament) i ser clara i simple (l'altre pot aprendre fàcilment les teves regles i adaptar-se). La conclusió: la cooperació pot emergir espontàniament entre actors egoistes si la interacció és repetida i els actors son prou pacients."
+          "label": "La solució de Robert Axelrod: per què la reciprocitat guanya",
+          "content": "Entre 1979 i 1980, el politòleg Robert Axelrod va organitzar dos tornejos informàtics consecutius: va convidar experts de tot el món a enviar estratègies per jugar el dilema del presoner repetit (moltes rondes). Els resultats dels dos tornejos van ser publicats al seu llibre 'L'Evolució de la Cooperació' (1984). Es va disputar un torneig de round-robin on cada estratègia jugava contra totes les altres. L'estratègia guanyadora va ser la més senzilla de totes: 'Tit-for-Tat' (ull per ull), presentada per Anatol Rapoport. Tit-for-Tat comença cooperant i en cada ronda fa el que l'altre ha fet a la ronda anterior. Si l'altre coopera, jo coopero; si trai, jo traïxo; si torna a cooperar, jo torno a cooperar. Axelrod va identificar les propietats de les estratègies exitoses: ser amable (començas cooperant), ser provocable (no deixes que et facin el pardal indefinidament), ser indulgent (perdones ràpidament) i ser clara i simple (l'altre pot aprendre fàcilment les teves regles i adaptar-se). La conclusió: la cooperació pot emergir espontàniament entre actors egoistes si la interacció és repetida i els actors són prou pacients."
         },
         {
           "type": "exercise",
           "id": "ex-joc-02-01",
           "style": "multiple-choice",
-          "question": "El canvi climàtic és freqüentment descrit com un dilema del presoner global. Per qué és tan difícil de resoldre usant aquesta anàlisi?",
+          "question": "El canvi climàtic és freqüentment descrit com un dilema del presoner global. Per què és tan difícil de resoldre usant aquesta anàlisi?",
           "options": [
             "Perquè els científics no han convençut els polítics que el canvi climàtic és real",
             "Perquè cada país té incentiu de defectar (no reduir emissions) mentre els altres cooperen: es beneficia de la reducció global sense pagar el cost. Si tots pensen igual, ningú reduïx",
@@ -128,7 +128,7 @@
           ],
           "correct": 1,
           "feedbackCorrect": "Exacte. L'estructura del dilema del presoner climàtic és precisa: reduir emissions té un cost per al país que ho fa (transició energètica cara). Els beneficis de la reducció global (clima més estable) els rep tothom, incloent els que no han reduït. Per tant, cada país té incentiu de ser el 'free rider': deixar que els altres redueixin mentre ell continua emetent i es beneficia del clima estable que els altres han pagat. Si tots pensen igual, ningú reduïx. La diferència amb el dilema del presoner clàssic: el joc climàtic és entre 200 actors, és repetit però amb horitzons incerts, i les recompenses i costos estan molt asimètricament distribuïts entre països rics i pobres, presents i futures.",
-          "feedbackWrong": "La dificultat de cooperar en el clima és estructural, no tècnica o de falta d'informació. Cada país té incentiu de ser passatger de franc: si els altres reduïxen, ell es beneficia sense pagar el cost. Si tots pensen igual, ningú reduïx. L'estructura és un dilema del presoner multilateral — i els dilemes del presoner multilaterals son molt més difícils de resoldre que els bilaterals perquè la defecció d'un sol actor és menys visible i punible."
+          "feedbackWrong": "La dificultat de cooperar en el clima és estructural, no tècnica o de falta d'informació. Cada país té incentiu de ser passatger de franc: si els altres reduïxen, ell es beneficia sense pagar el cost. Si tots pensen igual, ningú reduïx. L'estructura és un dilema del presoner multilateral — i els dilemes del presoner multilaterals són molt més difícils de resoldre que els bilaterals perquè la defecció d'un sol actor és menys visible i punible."
         },
         {
           "type": "exercise",
@@ -141,7 +141,7 @@
         },
         {
           "type": "debate",
-          "question": "La negociació col·lectiva entre sindicats i empresaris pot modelar-se com un dilema del presoner: si els treballadors cooperen (no fan vaga), l'empresa pot maximitzar beneficis a curt termini; si l'empresa coopera (dóna bons salaris), els treballadors produïxen més i son lleials. La cooperació mútua genera el millor resultat a llarg termini — però tots dos actors tenen incentiu de defectar a curt termini. Quin mecanisme institucional creus que resol millor aquest dilema?",
+          "question": "La negociació col·lectiva entre sindicats i empresaris pot modelar-se com un dilema del presoner: si els treballadors cooperen (no fan vaga), l'empresa pot maximitzar beneficis a curt termini; si l'empresa coopera (dóna bons salaris), els treballadors produïxen més i són lleials. La cooperació mútua genera el millor resultat a llarg termini — però tots dos actors tenen incentiu de defectar a curt termini. Quin mecanisme institucional creus que resol millor aquest dilema?",
           "positionA": {
             "label": "Institucions de negociació formal",
             "argument": "La negociació col·lectiva institucionalitzada (convenis col·lectius sectorials, representació sindical legal, co-determinació) transforma el dilema d'una sola ronda en un joc repetit amb regles clares. La reciprocitat és possible quan hi ha un marc estable que facilita la comunicació, el compromís i el monitoratge. Alemanya i Escandinàvia demostren que les relacions laborals cooperatives generen productivitat alta i desigualtat baixa."
@@ -151,7 +151,7 @@
             "argument": "Les institucions rígides de negociació col·lectiva poden generar atur per als treballadors no representats pels sindicats i impedixen l'adaptació a les condicions canviants. La cooperació entre empreses i treballadors sorgeix de forma més eficient en mercats laborals flexibles on les empreses competixen per retenir talent i els treballadors per la seva reputació. La regulació interferix en el joc repetit natural."
           },
           "reflection": "El model de relacions laborals varia enormement entre països (model renà vs. anglosaxó vs. escandinau). Quin creus que genera millors resultats per als treballadors i per a la productivitat a llarg termini?",
-          "context": "El debat sobre els models de relacions laborals és central en l'economia política comparativa. Peter Hall i David Soskice ('Varieties of Capitalism') argumenten que el model coordinat (Alemanya, Escandinàvia) i el model liberal (EUA, UK) son dos equilibris estables iguals de viables però amb distribucions de guanys molt diferentes."
+          "context": "El debat sobre els models de relacions laborals és central en l'economia política comparativa. Peter Hall i David Soskice ('Varieties of Capitalism') argumenten que el model coordinat (Alemanya, Escandinàvia) i el model liberal (EUA, UK) són dos equilibris estables iguals de viables però amb distribucions de guanys molt diferentes."
         }
       ]
     },
@@ -161,16 +161,16 @@
       "blocks": [
         {
           "type": "narrative",
-          "text": "Londres, una tarda de 1960. El filòsof Thomas Schelling fa un experiment mental: si haguessis de trobar-te amb un desconegut a Nova York demà a les 12, sense poder comunicar-te prèviament ni acordar lloc ni hora — on i quan aniríes? Schelling va preguntar a moltes persones. La majoria va respondre: 'A les 12 del migdia, a la gran sala central de l'estació Grand Central'. Ningú havia acordat res. Però tothom havia après les mateixes normes de la cultura nova-yorkesa sobre 'el lloc obvi per trobar-se'. Schelling va anomenar aquesta idea 'punt focal' o 'punt de Schelling': en jocs de coordinació sense comunicació, les persones tendixen a convergir en solucions que son 'salient' per raons culturals o simbòliques."
+          "text": "Londres, una tarda de 1960. El filòsof Thomas Schelling fa un experiment mental: si haguessis de trobar-te amb un desconegut a Nova York demà a les 12, sense poder comunicar-te prèviament ni acordar lloc ni hora — on i quan aniríes? Schelling va preguntar a moltes persones. La majoria va respondre: 'A les 12 del migdia, a la gran sala central de l'estació Grand Central'. Ningú havia acordat res. Però tothom havia après les mateixes normes de la cultura nova-yorkesa sobre 'el lloc obvi per trobar-se'. Schelling va anomenar aquesta idea 'punt focal' o 'punt de Schelling': en jocs de coordinació sense comunicació, les persones tendixen a convergir en solucions que són 'salient' per raons culturals o simbòliques."
         },
         {
           "type": "key-idea",
-          "text": "Els jocs de coordinació son situacions on tots els jugadors preferixen coordinar-se però hi ha múltiples equilibris possibles i el problema és seleccionar quin. A diferència del dilema del presoner, aquí no hi ha incentiu de traïr — simplement cal arribar al mateix equilibri que l'altre. Les normes socials, les lleis i els punts focals de Schelling son mecanismes per resoldre els problemes de coordinació."
+          "text": "Els jocs de coordinació són situacions on tots els jugadors preferixen coordinar-se però hi ha múltiples equilibris possibles i el problema és seleccionar quin. A diferència del dilema del presoner, aquí no hi ha incentiu de traïr — simplement cal arribar al mateix equilibri que l'altre. Les normes socials, les lleis i els punts focals de Schelling són mecanismes per resoldre els problemes de coordinació."
         },
         {
           "type": "expandable",
-          "label": "Per qué els estàndards tecnologics son tan importants: el cas del QWERTY",
-          "content": "El teclat QWERTY va ser dissenyat el 1873 per a les primeres màquines d'escriure mecàniques, amb les tecles distribuïdes de forma que reduïa els entrebancaments de les barres metàl·liques quan es picava ràpid. Amb els ordinadors moderns, els entrebancaments son impossibles i el QWERTY no té cap avantatge tècnic. Alternatives com el Dvorak s'han demostrat més eficients per a l'escriptura ràpida. I tanmateix, el 99% dels teclats del món seguixen usant QWERTY. Per qué? Perquè és un equilibri de coordinació estable: tots els fabricants de teclats fan QWERTY perquè tots els usuaris saben QWERTY perquè tots els teclats son QWERTY. Ningú té incentiu individual de canviar si tots els altres continuen amb QWERTY. El QWERTY és un exemple de 'path dependence' (dependència del camí): un estàndard inferior pot persistir indefinidament perquè els costos de coordinació del canvi son massa alts, malgrat que tots es beneficiarien d'un millor estàndard si tots canviessin alhora."
+          "label": "Per què els estàndards tecnologics són tan importants: el cas del QWERTY",
+          "content": "El teclat QWERTY va ser dissenyat el 1873 per a les primeres màquines d'escriure mecàniques, amb les tecles distribuïdes de forma que reduïa els entrebancaments de les barres metàl·liques quan es picava ràpid. Amb els ordinadors moderns, els entrebancaments són impossibles i el QWERTY no té cap avantatge tècnic. Alternatives com el Dvorak s'han demostrat més eficients per a l'escriptura ràpida. I tanmateix, el 99% dels teclats del món seguixen usant QWERTY. Per què? Perquè és un equilibri de coordinació estable: tots els fabricants de teclats fan QWERTY perquè tots els usuaris saben QWERTY perquè tots els teclats són QWERTY. Ningú té incentiu individual de canviar si tots els altres continuen amb QWERTY. El QWERTY és un exemple de 'path dependence' (dependència del camí): un estàndard inferior pot persistir indefinidament perquè els costos de coordinació del canvi són massa alts, malgrat que tots es beneficiarien d'un millor estàndard si tots canviessin alhora."
         },
         {
           "type": "exercise",
@@ -184,8 +184,8 @@
             "Tots dos a la dreta: és l'estàndard internacional recomanat per les Nacions Unides"
           ],
           "correct": 1,
-          "feedbackCorrect": "Exacte. Aquest és l'exemple canònic de joc de coordinació amb dos equilibris de Nash. Si tots van per la dreta, cap conductor té incentiu de canviar a l'esquerra (xocaria amb el tràfic). Si tots van per l'esquerra (com al UK, Japó, Austràlia), cap conductor té incentiu de canviar a la dreta. Tots dos son equilibris estables. El problema no és la traïció (ningú vol xocar) sinó la selecció: quin dels dos equilibris triar? La solució: les convencions legals i les normes culturals que seleccionen un dels dos equilibris arbitràriament (no hi ha raó tècnica per la qual la dreta sigui millor que l'esquerra). Els canvis de convenció (com Suècia que va canviar de l'esquerra a la dreta el 1967) son possibles però requerixen una coordinació massiva simultània.",
-          "feedbackWrong": "Hi ha dos equilibris de Nash: tots per la dreta o tots per l'esquerra. En qualsevol dels dos, ningú té incentiu de canviar unilateralment (hauria un accident). El problema no és quin és millor tècnicament — tots dos son igualment vàlids. El problema és seleccionar quin dels dos adopta tothom. La solució: normes legals que arbitràriament seleccionen un dels dos equilibris (conduir per la dreta en la majoria dels països, per l'esquerra en uns pocs)."
+          "feedbackCorrect": "Exacte. Aquest és l'exemple canònic de joc de coordinació amb dos equilibris de Nash. Si tots van per la dreta, cap conductor té incentiu de canviar a l'esquerra (xocaria amb el tràfic). Si tots van per l'esquerra (com al UK, Japó, Austràlia), cap conductor té incentiu de canviar a la dreta. Tots dos són equilibris estables. El problema no és la traïció (ningú vol xocar) sinó la selecció: quin dels dos equilibris triar? La solució: les convencions legals i les normes culturals que seleccionen un dels dos equilibris arbitràriament (no hi ha raó tècnica per la qual la dreta sigui millor que l'esquerra). Els canvis de convenció (com Suècia que va canviar de l'esquerra a la dreta el 1967) són possibles però requerixen una coordinació massiva simultània.",
+          "feedbackWrong": "Hi ha dos equilibris de Nash: tots per la dreta o tots per l'esquerra. En qualsevol dels dos, ningú té incentiu de canviar unilateralment (hauria un accident). El problema no és quin és millor tècnicament — tots dos són igualment vàlids. El problema és seleccionar quin dels dos adopta tothom. La solució: normes legals que arbitràriament seleccionen un dels dos equilibris (conduir per la dreta en la majoria dels països, per l'esquerra en uns pocs)."
         },
         {
           "type": "exercise",
@@ -198,20 +198,20 @@
         {
           "type": "scientific-mode",
           "id": "sci-joc-03-01",
-          "question": "La 'path dependence' (el cas QWERTY) mostra que els mercats poden quedar atrapats en estàndards inferiors per raons de coordinació. Creus que l'Estat hauria d'intervenir per establir millors estàndards quan el mercat queda atrapat, o els mercats son capaços d'escapar dels mals equilibris per si sols?",
+          "question": "La 'path dependence' (el cas QWERTY) mostra que els mercats poden quedar atrapats en estàndards inferiors per raons de coordinació. Creus que l'Estat hauria d'intervenir per establir millors estàndards quan el mercat queda atrapat, o els mercats són capaços d'escapar dels mals equilibris per si sols?",
           "options": [
             "L'Estat hauria d'intervenir: els mercats queden atrapats en equilibris inferiors per sempre si ningú coordina el canvi, i l'Estat és l'única institució amb capacitat de coordinar la transició",
             "El mercat s'escapa sol: quan un estàndard superior arriba i el benefici del canvi és suficientment gran, les empreses innovadores troben formes de superar la path dependence. QWERTY ha persistit perquè el guany de canviar és marginal, no perquè sigui impossible canviar",
             "Depèn del domini: en estàndards de xarxa i infraestructures crítiques (internet, telecomunicacions, transport), la intervenció de l'Estat per establir estàndards comuns és valuosa; en productes de consum on la substitució és fàcil, el mercat s'adapta"
           ],
           "correct": 2,
-          "explanation": "La posició A és el cas a favor de la política industrial d'estàndards: l'Estat ha tingut un paper clau en establir estàndards de xarxa que han permès la interoperabilitat (l'internet protocol, els estàndards de telecomunicació GSM/4G/5G, els estàndards de presa elèctrica). Sense intervenció, la path dependence pot mantenir sistemes inferiors per molt de temps. La posició B captura una veritat important: la historia tecnológica mostra molts casos on els mercats sí han superat la path dependence quan el guany del canvi era suficientment gran (els CD van substituir les cassettes, els DVDs els CD, el streaming els DVD). El QWERTY persisteix perquè el guany de canviar és petit, no perquè sigui impossible. La posició C és la síntesi més útil per a la política: el que fa un estàndard 'atrapat' és la presència d'externalitats de xarxa fortes i costos de coordinació alts. En infraestructures crítiques i estàndards de xarxa (on les externalitats son enormes), la intervenció de l'Estat per establir estàndards comuns té un valor enorme i ha demostrat funcionar. En productes de consum on la substitució és relativament fàcil, el mercat generalment s'adapta sol."
+          "explanation": "La posició A és el cas a favor de la política industrial d'estàndards: l'Estat ha tingut un paper clau en establir estàndards de xarxa que han permès la interoperabilitat (l'internet protocol, els estàndards de telecomunicació GSM/4G/5G, els estàndards de presa elèctrica). Sense intervenció, la path dependence pot mantenir sistemes inferiors per molt de temps. La posició B captura una veritat important: la historia tecnológica mostra molts casos on els mercats sí han superat la path dependence quan el guany del canvi era suficientment gran (els CD van substituir les cassettes, els DVDs els CD, el streaming els DVD). El QWERTY persisteix perquè el guany de canviar és petit, no perquè sigui impossible. La posició C és la síntesi més útil per a la política: el que fa un estàndard 'atrapat' és la presència d'externalitats de xarxa fortes i costos de coordinació alts. En infraestructures crítiques i estàndards de xarxa (on les externalitats són enormes), la intervenció de l'Estat per establir estàndards comuns té un valor enorme i ha demostrat funcionar. En productes de consum on la substitució és relativament fàcil, el mercat generalment s'adapta sol."
         }
       ]
     },
     {
       "id": "joc-04",
-      "title": "Jocs repetits, reputació i per qué la cooperació emergeix",
+      "title": "Jocs repetits, reputació i per què la cooperació emergeix",
       "blocks": [
         {
           "type": "narrative",
@@ -219,7 +219,7 @@
         },
         {
           "type": "prediction",
-          "question": "La treva de Nadal del 1914 va ser una cooperació espontània entre soldats que teòricament estaven en guerra a mort. Qué la fa possible des del punt de vista de la teoria de jocs? I per qué els generals van intentar aturar-la transferint les tropes regularment?",
+          "question": "La treva de Nadal del 1914 va ser una cooperació espontània entre soldats que teòricament estaven en guerra a mort. què la fa possible des del punt de vista de la teoria de jocs? I per què els generals van intentar aturar-la transferint les tropes regularment?",
           "hint": "Pensa en les condicions necessàries per al Tit-for-Tat: identitat dels actors, certesa d'interacció futura, capacitat d'observar el comportament de l'altre."
         },
         {
@@ -243,17 +243,17 @@
             "Que les dues empreses siguin competidores en altres mercats, generant pressió recíproca per cooperar"
           ],
           "correct": 1,
-          "feedbackCorrect": "Exacte. La clau és la 'ombra del futur': la cooperació és racionalment preferible si el valor present dels beneficis futurs de la cooperació supera el guany immediat de defectar. Dues condicions son necessàries: que la taxa de descont sigui baixa (els actors valoren prou el futur, no sols el present) i que la probabilitat que la relació continuï sigui alta (si saps que no tindràs cap altre tracte amb l'altre, l'ombra del futur desapareix). Per això les empreses amb horitzons a curt termini (hedge funds que compren una empresa per vendre-la en 3 anys) tendixen a explotar els seus empleats i proveïdors: la seva taxa de descont és alta i la durada de la relació és curta. Les empreses familiars de llarg termini tendixen a tenir millors relacions amb proveïdors i empleats per exactament les raons inversions.",
-          "feedbackWrong": "La virtut moral ajuda però no és el mecanisme fonamental de la teoria de jocs. Els contractes legals son importants però sovint incomplets (no poden preveure totes les eventualitats). La raó fonamental per la qual la cooperació és racionalment preferible en relacions repetides és l'ombra del futur: si tots dos actors valoren els beneficis futurs de la cooperació i esperen continuar interactuant, la defecció present sacrifica beneficis futurs que son superiors al guany immediat de defectar."
+          "feedbackCorrect": "Exacte. La clau és la 'ombra del futur': la cooperació és racionalment preferible si el valor present dels beneficis futurs de la cooperació supera el guany immediat de defectar. Dues condicions són necessàries: que la taxa de descont sigui baixa (els actors valoren prou el futur, no sols el present) i que la probabilitat que la relació continuï sigui alta (si saps que no tindràs cap altre tracte amb l'altre, l'ombra del futur desapareix). Per això les empreses amb horitzons a curt termini (hedge funds que compren una empresa per vendre-la en 3 anys) tendixen a explotar els seus empleats i proveïdors: la seva taxa de descont és alta i la durada de la relació és curta. Les empreses familiars de llarg termini tendixen a tenir millors relacions amb proveïdors i empleats per exactament les raons inversions.",
+          "feedbackWrong": "La virtut moral ajuda però no és el mecanisme fonamental de la teoria de jocs. Els contractes legals són importants però sovint incomplets (no poden preveure totes les eventualitats). La raó fonamental per la qual la cooperació és racionalment preferible en relacions repetides és l'ombra del futur: si tots dos actors valoren els beneficis futurs de la cooperació i esperen continuar interactuant, la defecció present sacrifica beneficis futurs que són superiors al guany immediat de defectar."
         },
         {
           "type": "exercise",
           "id": "ex-joc-04-02",
           "style": "true-false",
-          "question": "En un joc repetit indefinidament, qualsevol resultat (des de la cooperació màxima fins a la defecció constant) pot ser un equilibri de Nash si els actors son prou pacients.",
+          "question": "En un joc repetit indefinidament, qualsevol resultat (des de la cooperació màxima fins a la defecció constant) pot ser un equilibri de Nash si els actors són prou pacients.",
           "correct": true,
-          "feedbackCorrect": "Cert. El 'Folk Theorem' (teorema popular) de la teoria de jocs estableix exactament això: en jocs repetits indefinidament amb actors que valoren prou el futur (taxa de descont suficientment baixa), quasi qualsevol resultat que doni a tots els actors almenys el seu payoff de minimax pot ser sostenible com a equilibri de Nash. La cooperació perfecta pot ser un equilibri, però la defecció constant també. I molts resultats intermedis. El teorema explica per qué la teoria de jocs repetits no prediu un resultat únic: hi ha una multiplicitat d'equilibris possibles. Les normes socials, les institucions i la cultura seleccionen quin d'aquests equilibris s'activa en cada context.",
-          "feedbackWrong": "Cert — i és un dels resultats més importants (i frustrants) de la teoria de jocs. El Folk Theorem diu que en jocs repetits amb actors prou pacients, quasi qualsevol resultat pot ser un equilibri. Tant la cooperació perfecta com la defecció constant com qualsevol punt intermedi. Aixó significa que la teoria de jocs repetits no prediu un resultat únic sinó una multiplicitat d'equilibris possibles — i les normes, les institucions i la cultura son els mecanismes que seleccionen quin d'ells s'activa."
+          "feedbackCorrect": "Cert. El 'Folk Theorem' (teorema popular) de la teoria de jocs estableix exactament això: en jocs repetits indefinidament amb actors que valoren prou el futur (taxa de descont suficientment baixa), quasi qualsevol resultat que doni a tots els actors almenys el seu payoff de minimax pot ser sostenible com a equilibri de Nash. La cooperació perfecta pot ser un equilibri, però la defecció constant també. I molts resultats intermedis. El teorema explica per què la teoria de jocs repetits no prediu un resultat únic: hi ha una multiplicitat d'equilibris possibles. Les normes socials, les institucions i la cultura seleccionen quin d'aquests equilibris s'activa en cada context.",
+          "feedbackWrong": "Cert — i és un dels resultats més importants (i frustrants) de la teoria de jocs. El Folk Theorem diu que en jocs repetits amb actors prou pacients, quasi qualsevol resultat pot ser un equilibri. Tant la cooperació perfecta com la defecció constant com qualsevol punt intermedi. Aixó significa que la teoria de jocs repetits no prediu un resultat únic sinó una multiplicitat d'equilibris possibles — i les normes, les institucions i la cultura són els mecanismes que seleccionen quin d'ells s'activa."
         },
         {
           "type": "debate",
@@ -281,7 +281,7 @@
         },
         {
           "type": "key-idea",
-          "text": "La teoria de jocs ha transformat la nostra comprensió de la diplomàcia, la disuasió nuclear i els conflictes internacionals: la disuasió funciona quan les amenaces son creïbles (el que Schelling va anomenar 'compromís credible'); les negociacions reexixen quan tots dos actors preferixen arribar a un acord que no arribar-ne; i les guerres s'inicien sovint per fallides d'informació o per problemes de compromís, no simplement per interesos incompatibles."
+          "text": "La teoria de jocs ha transformat la nostra comprensió de la diplomàcia, la disuasió nuclear i els conflictes internacionals: la disuasió funciona quan les amenaces són creïbles (el que Schelling va anomenar 'compromís credible'); les negociacions reexixen quan tots dos actors preferixen arribar a un acord que no arribar-ne; i les guerres s'inicien sovint per fallides d'informació o per problemes de compromís, no simplement per interesos incompatibles."
         },
         {
           "type": "expandable",
@@ -292,7 +292,7 @@
           "type": "exercise",
           "id": "ex-joc-05-01",
           "style": "multiple-choice",
-          "question": "Per qué la destrucció mútua assegurada (MAD) va ser considerada un mecanisme estabilitzador durant la Guerra Freda, malgrat basar-se en l'amenaça de destruir la civilització?",
+          "question": "Per què la destrucció mútua assegurada (MAD) va ser considerada un mecanisme estabilitzador durant la Guerra Freda, malgrat basar-se en l'amenaça de destruir la civilització?",
           "options": [
             "Perquè va fer que la guerra nuclear fos impossible tècnicament, ja que cap bàndol podia llançar míssils sense ser detectat",
             "Perquè va transformar la guerra nuclear en un joc on no atacar era l'estratègia dominant per a tots dos bàndols: la represàlia garantida feia que atacar primer fos pitjor que no atacar, eliminant l'incentiu del primer cop",
@@ -307,16 +307,16 @@
           "type": "exercise",
           "id": "ex-joc-05-02",
           "style": "detect-error",
-          "statement": "Les guerres s'inicien sempre perquè els interessos dels dos bàndols son fonamentalment incompatibles, de manera que no hi ha cap acord possible que tots dos preferissen a la guerra.",
+          "statement": "Les guerres s'inicien sempre perquè els interessos dels dos bàndols són fonamentalment incompatibles, de manera que no hi ha cap acord possible que tots dos preferissen a la guerra.",
           "isCorrect": false,
-          "feedbackExplanation": "L'argument és el que els economistes anomenen 'puzzle de la guerra': si la guerra és costosa per a tots dos bàndols, per qué no arriben a un acord que tots dos preferissen? En teoria, sempre hi ha un rang d'acords que tots dos preferirien a lluitar (donat el cost de la guerra). El puzzle és per qué sovint es lluita igualment. Les respostes de la teoria de jocs: (1) problemes d'informació — cada bàndol no sap quina és la veritable força de l'altre i sobreestima la seva pròpia; (2) problemes de compromís — si un bàndol accepta un acord ara, l'altre pot trencar-lo quan sigui més fort; (3) incentius d'élites — els líders que decidixen si anar a la guerra no son els que paguen el cost principal. La teoria de jocs moderna (James Fearon) argumenta que les guerres son gairebé sempre el resultat de fallides d'informació o de compromís, no d'incompatibilitat fonamental d'interessos."
+          "feedbackExplanation": "L'argument és el que els economistes anomenen 'puzzle de la guerra': si la guerra és costosa per a tots dos bàndols, per què no arriben a un acord que tots dos preferissen? En teoria, sempre hi ha un rang d'acords que tots dos preferirien a lluitar (donat el cost de la guerra). El puzzle és per què sovint es lluita igualment. Les respostes de la teoria de jocs: (1) problemes d'informació — cada bàndol no sap quina és la veritable força de l'altre i sobreestima la seva pròpia; (2) problemes de compromís — si un bàndol accepta un acord ara, l'altre pot trencar-lo quan sigui més fort; (3) incentius d'élites — els líders que decidixen si anar a la guerra no són els que paguen el cost principal. La teoria de jocs moderna (James Fearon) argumenta que les guerres són gairebé sempre el resultat de fallides d'informació o de compromís, no d'incompatibilitat fonamental d'interessos."
         },
         {
           "type": "debate",
-          "question": "Thomas Schelling va argumentar que les línies vermelles i els compromisos creïbles son fonamentals per a la disuasió: si un actor no compleix les seves amenaces quan son desafiades, perd credibilitat per a totes les amenaces futures. Creus que aquest principi justifica entrar en guerres per mantenir la credibilitat, fins i tot quan els interessos directes en joc son petits?",
+          "question": "Thomas Schelling va argumentar que les línies vermelles i els compromisos creïbles són fonamentals per a la disuasió: si un actor no compleix les seves amenaces quan són desafiades, perd credibilitat per a totes les amenaces futures. Creus que aquest principi justifica entrar en guerres per mantenir la credibilitat, fins i tot quan els interessos directes en joc són petits?",
           "positionA": {
             "label": "La credibilitat justifica entrar en conflictes secundaris",
-            "argument": "La reputació de complir les amenaces és un actiu estratègic global. Si els EUA abandonen un aliat sota atac, tots els altres aliats actualitzen la seva confiança en les garanties americanes. Les guerres 'secundàries' per interessos menors son en realitat guerres per la credibilitat del sistema de disuasió. Sense reputació, la disuasió col·lapsa i el cost a llarg termini és molt superior al d'entrar en el conflicte secundari."
+            "argument": "La reputació de complir les amenaces és un actiu estratègic global. Si els EUA abandonen un aliat sota atac, tots els altres aliats actualitzen la seva confiança en les garanties americanes. Les guerres 'secundàries' per interessos menors són en realitat guerres per la credibilitat del sistema de disuasió. Sense reputació, la disuasió col·lapsa i el cost a llarg termini és molt superior al d'entrar en el conflicte secundari."
           },
           "positionB": {
             "label": "La credibilitat no justifica guerres per interessos menors",
@@ -346,25 +346,25 @@
         },
         {
           "type": "connection",
-          "moduleRef": "Per Qué No Som Racionals: Economia del Comportament",
+          "moduleRef": "Per què No Som Racionals: Economia del Comportament",
           "moduleEmoji": "🎭",
           "concept": "Teoria de jocs i irracionalitat",
-          "text": "La teoria de jocs clàssica assumia agents perfectament racionals. Però l'economia del comportament ha documentat que les persones real violem sistemàticament les prediccions de la teoria en experiments com el Joc de l'Ultimàtum: rebutgem ofertes injustes malgrat que son positives. La teoria de jocs moderna incorpora preferències per la justícia i la reciprocitat per fer prediccions més realistes."
+          "text": "La teoria de jocs clàssica assumia agents perfectament racionals. Però l'economia del comportament ha documentat que les persones real violem sistemàticament les prediccions de la teoria en experiments com el Joc de l'Ultimàtum: rebutgem ofertes injustes malgrat que són positives. La teoria de jocs moderna incorpora preferències per la justícia i la reciprocitat per fer prediccions més realistes."
         },
         {
           "type": "expandable",
-          "label": "La subhasta de Vickrey: per qué revelar la veritat pot ser l'estratègia dominant",
-          "content": "William Vickrey va demostrar el 1961 que en una subhasta de segon preu (el guanyador paga el que ha ofert el segon, no el primer), la estratègia dominant per a cada participant és oferir exactament la seva valoració real del bé. Per qué? En una subhasta de primer preu (pagues el que oferes), tots els participants entren en càlculs estratègics sobre qué haurien d'oferir (menys de la valoració real per guanyar però pagar el mínim). En una subhasta de segon preu, si ofereixes la teva valoració real i guanyes, pagues el segon preu (que és menor) — no tens incentiu per oferir menys. Si ofereixes més de la valoració real, pots guanyar però pagar més del que val el bé — no tens incentiu per oferir més. Oferir la valoració real és la resposta dominant. El resultat: la subhasta de Vickrey revela automàticament les valoracions reals dels participants, permetent una assignació eficient. Les subhastes de Google Ads funcionen amb un mecanisme similar."
+          "label": "La subhasta de Vickrey: per què revelar la veritat pot ser l'estratègia dominant",
+          "content": "William Vickrey va demostrar el 1961 que en una subhasta de segon preu (el guanyador paga el que ha ofert el segon, no el primer), la estratègia dominant per a cada participant és oferir exactament la seva valoració real del bé. Per què? En una subhasta de primer preu (pagues el que oferes), tots els participants entren en càlculs estratègics sobre què haurien d'oferir (menys de la valoració real per guanyar però pagar el mínim). En una subhasta de segon preu, si ofereixes la teva valoració real i guanyes, pagues el segon preu (que és menor) — no tens incentiu per oferir menys. Si ofereixes més de la valoració real, pots guanyar però pagar més del que val el bé — no tens incentiu per oferir més. Oferir la valoració real és la resposta dominant. El resultat: la subhasta de Vickrey revela automàticament les valoracions reals dels participants, permetent una assignació eficient. Les subhastes de Google Ads funcionen amb un mecanisme similar."
         },
         {
           "type": "exercise",
           "id": "ex-joc-06-01",
           "style": "multiple-choice",
-          "question": "En el disseny de mercats, per qué es considera que els mercats on els participants revelen les seves preferències reals son superiors als que incentiven l'ocultació?",
+          "question": "En el disseny de mercats, per què es considera que els mercats on els participants revelen les seves preferències reals són superiors als que incentiven l'ocultació?",
           "options": [
             "Perquè la veritat és un valor moral superior i els mercats haurien de promoure comportaments honestos",
             "Perquè quan tots els participants revelen les seves valoracions reals, l'assignació dels recursos pot optimitzar-se per a qui els valora més, generant el màxim valor social possible",
-            "Perquè els mercats amb revelació de preferències son més fàcils d'administrar i requerixen menys regulació",
+            "Perquè els mercats amb revelació de preferències són més fàcils d'administrar i requerixen menys regulació",
             "Perquè la revelació de preferències reduïx la volatilitat dels preus i fa els mercats més estables"
           ],
           "correct": 1,
@@ -375,9 +375,9 @@
           "type": "exercise",
           "id": "ex-joc-06-02",
           "style": "detect-error",
-          "statement": "El teorema d'Arrow d'impossibilitat demostra que és impossible dissenyar un sistema de vot que sigui alhora democràtic, racional i que respecti les preferències individuals, la qual cosa significa que totes les democràcies son inherentment inconsistents.",
+          "statement": "El teorema d'Arrow d'impossibilitat demostra que és impossible dissenyar un sistema de vot que sigui alhora democràtic, racional i que respecti les preferències individuals, la qual cosa significa que totes les democràcies són inherentment inconsistents.",
           "isCorrect": false,
-          "feedbackExplanation": "L'afirmació exagera i distorsiona el teorema d'Arrow. El teorema (1951) demostra que és impossible dissenyar un sistema d'agregació de preferències individuals en una preferència social que satisfaci simultàniament cinc condicions específiques raonables (no dictadura, sobirania, unanimitat/Pareto, independència d'alternatives irrelevants, domini no restringit). Però el teorema no diu que les democràcies son 'inherentment inconsistents' ni que siguin inviables — diu que cap sistema de vot pot satisfer tots els criteris 'raonables' alhora. Les democràcies reals usen sistemes de vot que satisfan alguns d'aquests criteris i violen d'altres, de forma que el sistema funciona en la pràctica malgrat no ser 'perfecte' en un sentit formal. El teorema és un resultat matemàtic important però no és una condemna de la democràcia."
+          "feedbackExplanation": "L'afirmació exagera i distorsiona el teorema d'Arrow. El teorema (1951) demostra que és impossible dissenyar un sistema d'agregació de preferències individuals en una preferència social que satisfaci simultàniament cinc condicions específiques raonables (no dictadura, sobirania, unanimitat/Pareto, independència d'alternatives irrelevants, domini no restringit). Però el teorema no diu que les democràcies són 'inherentment inconsistents' ni que siguin inviables — diu que cap sistema de vot pot satisfer tots els criteris 'raonables' alhora. Les democràcies reals usen sistemes de vot que satisfan alguns d'aquests criteris i violen d'altres, de forma que el sistema funciona en la pràctica malgrat no ser 'perfecte' en un sentit formal. El teorema és un resultat matemàtic important però no és una condemna de la democràcia."
         },
         {
           "type": "reflection",

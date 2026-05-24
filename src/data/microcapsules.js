@@ -8,7 +8,7 @@
 export const MICROCAPSULES = [
   {
     id: 'mc-gravetat',
-    title: 'Per qué cau sempre la poma?',
+    title: 'Per què cau sempre la poma?',
     emoji: '🍎',
     duration: 2,
     areaId: 'ciencies',
@@ -70,7 +70,7 @@ export const MICROCAPSULES = [
   },
   {
     id: 'mc-inflacio',
-    title: 'Inflació: per qué puja tot de preu?',
+    title: 'Inflació: per què puja tot de preu?',
     emoji: '💸',
     duration: 3,
     areaId: 'societat',
@@ -95,7 +95,7 @@ export const MICROCAPSULES = [
           'La Comissió Europea',
         ],
         correctIndex: 1,
-        explanation: 'El BCE té com a mandato principal mantenir l\'estabilitat de preus a la zona euro, amb un objectiu d\'inflació del 2%. Puja els tipus d\'interès per frenar la inflació i els baixa per estimular l\'economia.',
+        explanation: 'El BCE té com a mandat principal mantenir l\'estabilitat de preus a la zona euro, amb un objectiu d\'inflació del 2%. Puja els tipus d\'interès per frenar la inflació i els baixa per estimular l\'economia.',
       },
     ],
   },
@@ -108,7 +108,7 @@ export const MICROCAPSULES = [
     blocks: [
       {
         type: 'narrative',
-        text: 'Un tramvia fora de control avança cap a cinc persones lligades a la via. Tu ets prop d\'una palanca: si l\'acciones, el tramvia es desvia a una altra via on hi ha una sola persona. Fas el canvi? La majoria diu que sí. Ara imagina que ets en un pont sobre la via, i pots aturar el tramvia empenyent una persona gran des del pont. Mates una per salvar cinc? La majoria diu que no. El resultat és idèntic. Per qué la diferència?',
+        text: 'Un tramvia fora de control avança cap a cinc persones lligades a la via. Tu ets prop d\'una palanca: si l\'acciones, el tramvia es desvia a una altra via on hi ha una sola persona. Fas el canvi? La majoria diu que sí. Ara imagina que ets en un pont sobre la via, i pots aturar el tramvia empenyent una persona gran des del pont. Mates una per salvar cinc? La majoria diu que no. El resultat és idèntic. Per què la diferència?',
       },
       {
         type: 'key-idea',
@@ -132,7 +132,7 @@ export const MICROCAPSULES = [
   },
   {
     id: 'mc-sol',
-    title: 'Per qué el Sol porta 5.000 milions d\'anys brillant?',
+    title: 'Per què el Sol porta 5.000 milions d\'anys brillant?',
     emoji: '☀️',
     duration: 2,
     areaId: 'ciencies',
@@ -205,7 +205,7 @@ export const MICROCAPSULES = [
       },
       {
         type: 'key-idea',
-        text: 'Una fal·làcia és un argument amb aparença de validesa però amb un error lògic o retòric. Reconèixer-les és una habilitat fonamental: et protegeix de ser manipulat en debaTs polítics, publicitat i xarxes socials, i millora la qualitat dels teus propis arguments.',
+        text: 'Una fal·làcia és un argument amb aparença de validesa però amb un error lògic o retòric. Reconèixer-les és una habilitat fonamental: et protegeix de ser manipulat en debats polítics, publicitat i xarxes socials, i millora la qualitat dels teus propis arguments.',
       },
       {
         type: 'exercise',
@@ -349,7 +349,7 @@ export const MICROCAPSULES = [
   },
   {
     id: 'mc-revolucio-francesa',
-    title: 'Per qué la Revolució Francesa ho va canviar tot',
+    title: 'Per què la Revolució Francesa ho va canviar tot',
     emoji: '🗽',
     duration: 3,
     areaId: 'historia',
@@ -397,7 +397,7 @@ export const MICROCAPSULES = [
         type: 'exercise',
         id: 'mc-forats-q1',
         exerciseType: 'multiple-choice',
-        question: 'Qué passa amb la llum quan arriba a l\'horitzó d\'esdeveniments d\'un forat negre?',
+        question: 'Què passa amb la llum quan arriba a l\'horitzó d\'esdeveniments d\'un forat negre?',
         options: [
           'Es dobla i torna enrere',
           'No pot escapar: queda atrapada per sempre',
@@ -449,7 +449,7 @@ export const MICROCAPSULES = [
     blocks: [
       {
         type: 'narrative',
-        text: 'Tot el que podem veure — estrelles, galàxies, gas, planetes — representa el 5% de l\'univers. El 27% és matèria fosca: matèria que no emet ni absorbeix llum, però que sabem que existeix perquè la seva gravetat fa girar les galàxies més ràpid del que haurien. I el 68% restant és energia fosca: una força misteriosa que accelera l\'expansió de l\'univers. No sabem qué és cap de les dues.',
+        text: 'Tot el que podem veure — estrelles, galàxies, gas, planetes — representa el 5% de l\'univers. El 27% és matèria fosca: matèria que no emet ni absorbeix llum, però que sabem que existeix perquè la seva gravetat fa girar les galàxies més ràpid del que haurien. I el 68% restant és energia fosca: una força misteriosa que accelera l\'expansió de l\'univers. No sabem què és cap de les dues.',
       },
       {
         type: 'key-idea',
@@ -467,7 +467,7 @@ export const MICROCAPSULES = [
           'El 5%',
         ],
         correctIndex: 3,
-        explanation: 'Només el 5% de l\'univers és matèria bariònica ordinària (àtoms, molècules, tot el que veiem). El 27% és matèria fosca i el 68% energia fosca. Coneixem les fraccions gràcies al fons còsmic de microones i a observacions de supernoves, però no sabem qué és físicament cap de les dues.',
+        explanation: 'Només el 5% de l\'univers és matèria bariònica ordinària (àtoms, molècules, tot el que veiem). El 27% és matèria fosca i el 68% energia fosca. Coneixem les fraccions gràcies al fons còsmic de microones i a observacions de supernoves, però no sabem què és físicament cap de les dues.',
       },
     ],
   },
@@ -504,7 +504,7 @@ export const MICROCAPSULES = [
   },
   {
     id: 'mc-relativitat-temps',
-    title: 'Per qué el temps passa més lent a l\'espai?',
+    title: 'Per què el temps passa més lent a l\'espai?',
     emoji: '⏳',
     duration: 3,
     areaId: 'ciencies',
@@ -521,7 +521,7 @@ export const MICROCAPSULES = [
         type: 'exercise',
         id: 'mc-rel-temps-q1',
         exerciseType: 'multiple-choice',
-        question: 'Per qué els satèl·lits GPS necessiten correcció de relativitat?',
+        question: 'Per què els satèl·lits GPS necessiten correcció de relativitat?',
         options: [
           'Perquè a l\'espai no hi ha atmosfera i els senyals van més ràpid',
           'Perquè la velocitat i la gravetat feble fan que els seus rellotges no sincronitzin amb els de terra',
@@ -552,7 +552,7 @@ export const MICROCAPSULES = [
         type: 'exercise',
         id: 'mc-darwin-q1',
         exerciseType: 'multiple-choice',
-        question: 'Qué significa realment "supervivència del més adaptat" en termes evolutius?',
+        question: 'Què significa realment "supervivència del més adaptat" en termes evolutius?',
         options: [
           'Que els individus més forts físicament sempre sobreviuen',
           'Que els individus millor ajustats al seu ambient deixaran més descendència',
@@ -597,7 +597,7 @@ export const MICROCAPSULES = [
   },
   {
     id: 'mc-filosofia-platon',
-    title: 'La cova de Plató: per qué els humans vivim en l\'engany',
+    title: 'La cova de Plató: per què els humans vivim en l\'engany',
     emoji: '🦉',
     duration: 3,
     areaId: 'pensament',
@@ -614,7 +614,7 @@ export const MICROCAPSULES = [
         type: 'exercise',
         id: 'mc-platon-q1',
         exerciseType: 'multiple-choice',
-        question: 'Qué representen els presoners de la cova en l\'al·legoria de Plató?',
+        question: 'Què representen els presoners de la cova en l\'al·legoria de Plató?',
         options: [
           'Els filòsofs que busquen la veritat',
           'Les persones que es guien per les opinions i les percepcions sensorials',
@@ -628,7 +628,7 @@ export const MICROCAPSULES = [
   },
   {
     id: 'mc-keynnes',
-    title: 'Per qué l\'estat gasta en crisis (i per qué funciona)',
+    title: 'Per què l\'estat gasta en crisi (i per què funciona)',
     emoji: '🏦',
     duration: 3,
     areaId: 'societat',
@@ -645,7 +645,7 @@ export const MICROCAPSULES = [
         type: 'exercise',
         id: 'mc-keynes-q1',
         exerciseType: 'multiple-choice',
-        question: 'Qué proposa Keynes durant una recessió econòmica greu?',
+        question: 'Què proposa Keynes durant una recessió econòmica greu?',
         options: [
           'Reduir la despesa pública per equilibrar el pressupost',
           'Augmentar els impostos per finançar el deute',

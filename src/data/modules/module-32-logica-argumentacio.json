@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "module-32-logica-argumentacio",
   "title": "Lògica i Argumentació",
   "emoji": "🧩",
@@ -18,11 +18,11 @@
           "blocks": [
             {
               "type": "narrative",
-              "text": "«Els polítics sempre menteixen. Aquest candidat és polític. Per tant, menteix». «Tothom que conec vota aquest partit, per tant ha de ser el millor». «Ho ha dit un premi Nobel, per tant és cert». Cada dia rebem centenars d'arguments: a les xarxes, a les notícies, en converses. Alguns son sòlids. Molts no ho son. La diferència entre acceptar-los cegament i avaluar-los críticament és una de les habilitats més valuoses que pots desenvolupar. Es diu pensament crític, i comença per entendre com funciona un argument."
+              "text": "«Els polítics sempre menteixen. Aquest candidat és polític. Per tant, menteix». «Tothom que conec vota aquest partit, per tant ha de ser el millor». «Ho ha dit un premi Nobel, per tant és cert». Cada dia rebem centenars d'arguments: a les xarxes, a les notícies, en converses. Alguns són sòlids. Molts no ho són. La diferència entre acceptar-los cegament i avaluar-los críticament és una de les habilitats més valuoses que pots desenvolupar. Es diu pensament crític, i comença per entendre com funciona un argument."
             },
             {
               "type": "key-idea",
-              "text": "Un argument és un conjunt de proposicions on unes (les premisses) pretenen donar suport a una altra (la conclusió). Avaluar un argument significa examinar si les premisses son certes i si la conclusió se'n segueix necessàriament o amb probabilitat."
+              "text": "Un argument és un conjunt de proposicions on unes (les premisses) pretenen donar suport a una altra (la conclusió). Avaluar un argument significa examinar si les premisses són certes i si la conclusió se'n segueix necessàriament o amb probabilitat."
             },
             {
               "type": "expandable",
@@ -38,31 +38,31 @@
               "type": "exercise",
               "id": "ex-log-01-01",
               "style": "multiple-choice",
-              "question": "En l'argument «Com que tots els mamífers tenen sang calenta, i els dofins son mamífers, els dofins tenen sang calenta», quina és la conclusió?",
+              "question": "En l'argument «Com que tots els mamífers tenen sang calenta, i els dofins són mamífers, els dofins tenen sang calenta», quina és la conclusió?",
               "options": [
                 "Tots els mamífers tenen sang calenta.",
-                "Els dofins son mamífers.",
+                "Els dofins són mamífers.",
                 "Els dofins tenen sang calenta.",
-                "Els animals marins son mamífers."
+                "Els animals marins són mamífers."
               ],
               "correct": 2,
-              "feedbackCorrect": "Exacte. La conclusió és la proposició que l'argument pretén demostrar: «Els dofins tenen sang calenta». Les altres dues proposicions son premisses: la premissa general (tots els mamífers tenen sang calenta) i la premissa particular (els dofins son mamífers). Juntes donen suport a la conclusió. Aquest és un exemple de sil·logisme, la forma bàsica de l'argumentació deductiva.",
-              "feedbackWrong": "La conclusió és la proposició que l'argument intenta demostrar o sostenir. En aquest cas, les dues primeres proposicions son premisses —informació que es dóna per certa— i la tercera («els dofins tenen sang calenta») és el que s'infereix a partir d'elles. Busca la proposició que les altres pretenen justificar."
+              "feedbackCorrect": "Exacte. La conclusió és la proposició que l'argument pretén demostrar: «Els dofins tenen sang calenta». Les altres dues proposicions són premisses: la premissa general (tots els mamífers tenen sang calenta) i la premissa particular (els dofins són mamífers). Juntes donen suport a la conclusió. Aquest és un exemple de sil·logisme, la forma bàsica de l'argumentació deductiva.",
+              "feedbackWrong": "La conclusió és la proposició que l'argument intenta demostrar o sostenir. En aquest cas, les dues primeres proposicions són premisses —informació que es dóna per certa— i la tercera («els dofins tenen sang calenta») és el que s'infereix a partir d'elles. Busca la proposició que les altres pretenen justificar."
             },
             {
               "type": "exercise",
               "id": "ex-log-01-02",
               "style": "true-false",
-              "question": "Un argument és vàlid si i només si les seves premisses son certes.",
+              "question": "Un argument és vàlid si i només si les seves premisses són certes.",
               "correct": false,
-              "feedbackCorrect": "Fals. La validesa i la veritat son propietats diferents. Un argument és vàlid si la conclusió se'n segueix necessàriament de les premisses —independentment de si les premisses son certes. «Tots els gats son blaus. El meu animal és un gat. Per tant, el meu animal és blau» és un argument vàlid (la conclusió se'n segueix) però no és sòlid (la primera premissa és falsa). Un argument sòlid és el que és vàlid I té premisses certes.",
-              "feedbackWrong": "La validesa lògica no depèn de si les premisses son certes, sinó de si la conclusió se'n segueix necessàriament. Un argument pot ser vàlid amb premisses falses. L'argument és sòlid quan és vàlid i les premisses son certes. Aquesta distinció és fonamental en lògica."
+              "feedbackCorrect": "Fals. La validesa i la veritat són propietats diferents. Un argument és vàlid si la conclusió se'n segueix necessàriament de les premisses —independentment de si les premisses són certes. «Tots els gats són blaus. El meu animal és un gat. Per tant, el meu animal és blau» és un argument vàlid (la conclusió se'n segueix) però no és sòlid (la primera premissa és falsa). Un argument sòlid és el que és vàlid I té premisses certes.",
+              "feedbackWrong": "La validesa lògica no depèn de si les premisses són certes, sinó de si la conclusió se'n segueix necessàriament. Un argument pot ser vàlid amb premisses falses. L'argument és sòlid quan és vàlid i les premisses són certes. Aquesta distinció és fonamental en lògica."
             },
             {
               "type": "misconception",
               "belief": "Si una conclusió és certa, l'argument que la defensa és bo.",
-              "reality": "Una conclusió certa pot seguir-se d'un argument dolent. «El sol és una estrella. Les estrelles son fetes de formatge. Per tant, el sol és fet de formatge» és un argument vàlid amb una premissa falsa. I «Molts famosos creuen en l'homeopatia, per tant funciona» té una conclusió possiblement vertadera per raons equivocades. Avaluar l'argument i avaluar la conclusió son tasques separades.",
-              "why": "Perquè intuïtivament tendim a jutjar els arguments pel resultat (si la conclusió ens sembla acceptable) i no pel procés (si les premisses son certes i la inferència és vàlida)."
+              "reality": "Una conclusió certa pot seguir-se d'un argument dolent. «El sol és una estrella. Les estrelles són fetes de formatge. Per tant, el sol és fet de formatge» és un argument vàlid amb una premissa falsa. I «Molts famosos creuen en l'homeopatia, per tant funciona» té una conclusió possiblement vertadera per raons equivocades. Avaluar l'argument i avaluar la conclusió són tasques separades.",
+              "why": "Perquè intuïtivament tendim a jutjar els arguments pel resultat (si la conclusió ens sembla acceptable) i no pel procés (si les premisses són certes i la inferència és vàlida)."
             },
             {
               "type": "scientific-mode",
@@ -74,7 +74,7 @@
                 "Depèn: pot generar escepticisme excessiu si s'aplica sense equilibri."
               ],
               "correct": 1,
-              "explanation": "El pensament crític no és escepticisme radical ni cinisme: és la capacitat de calibrar la confiança en proporció a les evidències i els arguments. Una persona amb pensament crític ben desenvolupat no dubta de tot —dubta selectivament, allà on les evidències o els arguments son febles, i confia fermament allà on son sòlids. El problema no és creure massa sinó creure malament: donar la mateixa confiança a afirmacions ben fonamentades i a rumors sense evidència. El pensament crític, paradoxalment, permet creure més fermament en el que val la pena creure, perquè has examinat les raons. L'escepticisme indiscriminat —dubtar de tot per principi— és tan poc racional com la credulitat indiscriminada."
+              "explanation": "El pensament crític no és escepticisme radical ni cinisme: és la capacitat de calibrar la confiança en proporció a les evidències i els arguments. Una persona amb pensament crític ben desenvolupat no dubta de tot —dubta selectivament, allà on les evidències o els arguments són febles, i confia fermament allà on són sòlids. El problema no és creure massa sinó creure malament: donar la mateixa confiança a afirmacions ben fonamentades i a rumors sense evidència. El pensament crític, paradoxalment, permet creure més fermament en el que val la pena creure, perquè has examinat les raons. L'escepticisme indiscriminat —dubtar de tot per principi— és tan poc racional com la credulitat indiscriminada."
             }
           ]
         },
@@ -88,7 +88,7 @@
             },
             {
               "type": "key-idea",
-              "text": "En la deducció, si les premisses son certes, la conclusió ho és necessàriament. En la inducció, les premisses donen suport probable a la conclusió, però no la garanteixen. La ciència funciona principalment per inducció; la matemàtica i la lògica, per deducció."
+              "text": "En la deducció, si les premisses són certes, la conclusió ho és necessàriament. En la inducció, les premisses donen suport probable a la conclusió, però no la garanteixen. La ciència funciona principalment per inducció; la matemàtica i la lògica, per deducció."
             },
             {
               "type": "comparison",
@@ -108,8 +108,8 @@
                 },
                 {
                   "label": "Exemple",
-                  "a": "Tots els humans son mortals. Sòcrates és humà. Per tant, Sòcrates és mortal.",
-                  "b": "He vist 1.000 cignes i tots eren blancs. Per tant, tots els cignes son blancs."
+                  "a": "Tots els humans són mortals. Sòcrates és humà. Per tant, Sòcrates és mortal.",
+                  "b": "He vist 1.000 cignes i tots eren blancs. Per tant, tots els cignes són blancs."
                 },
                 {
                   "label": "Risc",
@@ -126,7 +126,7 @@
             {
               "type": "expandable",
               "label": "El problema de la inducció: Hume i el cigne negre",
-              "content": "David Hume va plantejar el problema fonamental de la inducció: mai pots estar completament segur que la propera observació no contradigui totes les anteriors. Durant segles, els europeus havien vist milers de cignes i tots eren blancs. La conclusió inductiva semblava segura: «Tots els cignes son blancs». Fins que els exploradors van arribar a Austràlia i van trobar cignes negres. Nassim Taleb va popularitzar el concepte de «cigne negre» per designar esdeveniments improbables i d'alt impacte que invaliden extrapolacions del passat. Karl Popper va treure la conclusió radical: la ciència no avança per inducció (acumulant confirmacions) sinó per falsació (buscant refutacions). Una bona teoria científica és aquella que pot ser falsada i que resisteix els intents de falsació."
+              "content": "David Hume va plantejar el problema fonamental de la inducció: mai pots estar completament segur que la propera observació no contradigui totes les anteriors. Durant segles, els europeus havien vist milers de cignes i tots eren blancs. La conclusió inductiva semblava segura: «Tots els cignes són blancs». Fins que els exploradors van arribar a Austràlia i van trobar cignes negres. Nassim Taleb va popularitzar el concepte de «cigne negre» per designar esdeveniments improbables i d'alt impacte que invaliden extrapolacions del passat. Karl Popper va treure la conclusió radical: la ciència no avança per inducció (acumulant confirmacions) sinó per falsació (buscant refutacions). Una bona teoria científica és aquella que pot ser falsada i que resisteix els intents de falsació."
             },
             {
               "type": "exercise",
@@ -149,7 +149,7 @@
               "style": "detect-error",
               "statement": "La inducció és un mètode de raonament inferior a la deducció perquè mai no pot garantir les seves conclusions.",
               "isCorrect": false,
-              "feedbackExplanation": "L'error és valorar la inducció per un criteri que no li és propi. La deducció garanteix les conclusions perquè treballa en sistemes formals tancats; la inducció opera sobre el món real, obert i sempre susceptible de sorpreses. No és un defecte: és la naturalesa del coneixement empíric. La ciència, la medicina i la investigació funcionen per inducció i son extraordinàriament potents. La inducció és irremplaçable per aprendre del món real; la deducció ho és per demostrar relacions necessàries dins d'un sistema formal. No son jeràrquiques: son complementàries."
+              "feedbackExplanation": "L'error és valorar la inducció per un criteri que no li és propi. La deducció garanteix les conclusions perquè treballa en sistemes formals tancats; la inducció opera sobre el món real, obert i sempre susceptible de sorpreses. No és un defecte: és la naturalesa del coneixement empíric. La ciència, la medicina i la investigació funcionen per inducció i són extraordinàriament potents. La inducció és irremplaçable per aprendre del món real; la deducció ho és per demostrar relacions necessàries dins d'un sistema formal. no són jeràrquiques: són complementàries."
             },
             {
               "type": "scientific-mode",
@@ -171,11 +171,11 @@
           "blocks": [
             {
               "type": "narrative",
-              "text": "Un argument pot semblar convincent i ser completament erroni. Les fal·làcies son errors de raonament que molts arguments incorrectes cometen de manera sistemàtica. Les fal·làcies formals son errors en l'estructura lògica de l'argument: la conclusió no se'n segueix de les premisses, independentment de si les premisses son certes. Aprendre a reconèixer-les és com aprendre a detectar trucs de màgia: un cop saps com funcionen, no et poden enganyar."
+              "text": "Un argument pot semblar convincent i ser completament erroni. Les fal·làcies són errors de raonament que molts arguments incorrectes cometen de manera sistemàtica. Les fal·làcies formals són errors en l'estructura lògica de l'argument: la conclusió no se'n segueix de les premisses, independentment de si les premisses són certes. Aprendre a reconèixer-les és com aprendre a detectar trucs de màgia: un cop saps com funcionen, no et poden enganyar."
             },
             {
               "type": "key-idea",
-              "text": "Una fal·làcia formal és un error en l'estructura lògica d'un argument: la conclusió no se'n segueix necessàriament de les premisses, independentment del seu contingut. Les més comunes son l'afirmació del conseqüent, la negació de l'antecedent i la conversió il·lícita."
+              "text": "Una fal·làcia formal és un error en l'estructura lògica d'un argument: la conclusió no se'n segueix necessàriament de les premisses, independentment del seu contingut. Les més comunes són l'afirmació del conseqüent, la negació de l'antecedent i la conversió il·lícita."
             },
             {
               "type": "expandable",
@@ -201,14 +201,14 @@
               "type": "exercise",
               "id": "ex-log-03-02",
               "style": "detect-error",
-              "statement": "«Tots els gats son animals. Tots els animals son éssers vius. Per tant, tots els gats son éssers vius». Aquest argument comet una fal·làcia formal.",
+              "statement": "«Tots els gats són animals. Tots els animals són éssers vius. Per tant, tots els gats són éssers vius». Aquest argument comet una fal·làcia formal.",
               "isCorrect": false,
-              "feedbackExplanation": "L'argument és lògicament vàlid, no fal·laciós. Segueix l'estructura correcta del sil·logisme: «Tots els A son B. Tots els B son C. Per tant, tots els A son C». La conclusió se'n segueix necessàriament de les premisses. A més, les premisses son certes, de manera que l'argument és sòlid. Una fal·làcia formal seria un error en l'estructura, no en el contingut."
+              "feedbackExplanation": "L'argument és lògicament vàlid, no fal·laciós. Segueix l'estructura correcta del sil·logisme: «Tots els A són B. Tots els B són C. Per tant, tots els A són C». La conclusió se'n segueix necessàriament de les premisses. A més, les premisses són certes, de manera que l'argument és sòlid. Una fal·làcia formal seria un error en l'estructura, no en el contingut."
             },
             {
               "type": "expandable",
               "label": "Negació de l'antecedent i conversió il·lícita",
-              "content": "Negació de l'antecedent: «Si P, llavors Q. No P. Per tant, no Q». Exemple: «Si fumes, pots tenir càncer. No fumes. Per tant, no pots tenir càncer». Error: hi ha moltes causes de càncer a part del tabac. Conversió il·lícita: «Tots els A son B. Per tant, tots els B son A». Exemple: «Tots els gossos son animals. Per tant, tots els animals son gossos». Error evident: hi ha molts animals que no son gossos. En política: «Tots els terrorists son immigrants il·legals. Per tant, tots els immigrants il·legals son terroristes». Error greu i molt freqüent en discursos xenòfobs."
+              "content": "Negació de l'antecedent: «Si P, llavors Q. No P. Per tant, no Q». Exemple: «Si fumes, pots tenir càncer. No fumes. Per tant, no pots tenir càncer». Error: hi ha moltes causes de càncer a part del tabac. Conversió il·lícita: «Tots els A són B. Per tant, tots els B són A». Exemple: «Tots els gossos són animals. Per tant, tots els animals són gossos». Error evident: hi ha molts animals que no són gossos. En política: «Tots els terrorists són immigrants il·legals. Per tant, tots els immigrants il·legals són terroristes». Error greu i molt freqüent en discursos xenòfobs."
             },
             {
               "type": "reflection",
@@ -223,16 +223,16 @@
           "blocks": [
             {
               "type": "narrative",
-              "text": "Les fal·làcies informals no son errors en l'estructura lògica sinó en el contingut o el context de l'argument: premisses rellevants que s'ignoren, apel·lacions a emocions en comptes de raons, desviacions del tema. Son especialment perilloses perquè no es detecten amb anàlisi formal —requereixen conèixer el tipus d'error i reconèixer-lo en context. Son les fal·làcies que més abunden en la política, els debats públics i les xarxes socials."
+              "text": "Les fal·làcies informals no són errors en l'estructura lògica sinó en el contingut o el context de l'argument: premisses rellevants que s'ignoren, apel·lacions a emocions en comptes de raons, desviacions del tema. són especialment perilloses perquè no es detecten amb anàlisi formal —requereixen conèixer el tipus d'error i reconèixer-lo en context. són les fal·làcies que més abunden en la política, els debats públics i les xarxes socials."
             },
             {
               "type": "key-idea",
-              "text": "Les fal·làcies informals son errors en el contingut, el context o la rellevància dels arguments. Les més freqüents son l'ad hominem, l'home de palla, l'apel·lació a l'autoritat, la pendent relliscosa, l'apel·lació a la natura i la fal·làcia del tu quoque."
+              "text": "Les fal·làcies informals són errors en el contingut, el context o la rellevància dels arguments. Les més freqüents són l'ad hominem, l'home de palla, l'apel·lació a l'autoritat, la pendent relliscosa, l'apel·lació a la natura i la fal·làcia del tu quoque."
             },
             {
               "type": "expandable",
               "label": "Les set fal·làcies informals més freqüents",
-              "content": "1. Ad hominem: atacar la persona en comptes de l'argument. «No tinguis en compte el que diu sobre economia: és divorciada». 2. Home de palla (straw man): deformar la posició de l'adversari per atacar-ne una versió caricaturitzada. «Vols regular les armes? Vols deixar els ciutadans indefensos davant dels criminals». 3. Apel·lació a l'autoritat: acceptar una afirmació perquè la fa algú amb prestigi, sense examinar-ne les raons. «Ho ha dit un premi Nobel, per tant és cert». 4. Pendent relliscosa: assumir que un pas modest portarà inevitablement a conseqüències extremes. «Si permetem el matrimoni homosexual, aviat es permetrà casar-se amb animals». 5. Apel·lació a la natura: assumir que el que és natural és bo i el que és artificial és dolent. «Els antibiòtics son artificials, per tant son dolents». 6. Tu quoque: respondre a una crítica assenyalant que l'interlocutor fa el mateix. «No em parles de dieta, tu tampoc no menges bé». 7. Apel·lació a la majoria: assumir que una cosa és certa o bona perquè molta gent la creu. «Milions de persones creuen en l'astrologia; alguna cosa hi haurà»."
+              "content": "1. Ad hominem: atacar la persona en comptes de l'argument. «No tinguis en compte el que diu sobre economia: és divorciada». 2. Home de palla (straw man): deformar la posició de l'adversari per atacar-ne una versió caricaturitzada. «Vols regular les armes? Vols deixar els ciutadans indefensos davant dels criminals». 3. Apel·lació a l'autoritat: acceptar una afirmació perquè la fa algú amb prestigi, sense examinar-ne les raons. «Ho ha dit un premi Nobel, per tant és cert». 4. Pendent relliscosa: assumir que un pas modest portarà inevitablement a conseqüències extremes. «Si permetem el matrimoni homosexual, aviat es permetrà casar-se amb animals». 5. Apel·lació a la natura: assumir que el que és natural és bo i el que és artificial és dolent. «Els antibiòtics són artificials, per tant són dolents». 6. Tu quoque: respondre a una crítica assenyalant que l'interlocutor fa el mateix. «No em parles de dieta, tu tampoc no menges bé». 7. Apel·lació a la majoria: assumir que una cosa és certa o bona perquè molta gent la creu. «Milions de persones creuen en l'astrologia; alguna cosa hi haurà»."
             },
             {
               "type": "exercise",
@@ -294,11 +294,11 @@
           "blocks": [
             {
               "type": "narrative",
-              "text": "Les fal·làcies son errors que cometem quan razonem conscientment però malament. Els biaixos cognitius son quelcom diferent i més profund: errors sistemàtics en el processament de la informació que cometem sense saber-ho, que afecten tothom —inclosos els experts— i que son molt difícils d'eliminar. Daniel Kahneman, premi Nobel d'Economia, va dedicar la seva carrera a estudiar-los. El resultat: som molt pitjors raonadors del que creiem."
+              "text": "Les fal·làcies són errors que cometem quan razonem conscientment però malament. Els biaixos cognitius són quelcom diferent i més profund: errors sistemàtics en el processament de la informació que cometem sense saber-ho, que afecten tothom —inclosos els experts— i que són molt difícils d'eliminar. Daniel Kahneman, premi Nobel d'Economia, va dedicar la seva carrera a estudiar-los. El resultat: som molt pitjors raonadors del que creiem."
             },
             {
               "type": "key-idea",
-              "text": "Els biaixos cognitius son patrons sistemàtics d'error en el pensament humà que operen per sota de la consciència. No son errors d'informació sinó errors de processament: distorsionen com interpretem, recordem i jutgem la informació, independentment de la nostra intel·ligència."
+              "text": "Els biaixos cognitius són patrons sistemàtics d'error en el pensament humà que operen per sota de la consciència. no són errors d'informació sinó errors de processament: distorsionen com interpretem, recordem i jutgem la informació, independentment de la nostra intel·ligència."
             },
             {
               "type": "expandable",
@@ -322,29 +322,29 @@
                 "Biaix d'ancoratge"
               ],
               "correct": 2,
-              "feedbackCorrect": "Exacte. El biaix de disponibilitat fa que jutgem la probabilitat d'un event per la facilitat amb que en recordem exemples. Els accidents d'avió son notícia (espectaculars, moltes víctimes, molt cobertura mediàtica); els accidents de cotxe son estadísticament molt freqüents però mediàticament invisibles. El resultat és que sobrevalorem el risc d'avió i infravalorem el de cotxe, quan les dades mostren el contrari.",
-              "feedbackWrong": "El biaix de confirmació seria buscar notícies que confirmin una creença prèvia. L'efecte halo seria transferir competència d'una àrea a una altra. L'ancoratge seria donar massa pes a la primera dada rebuda. El que passa aquí és que la ment jutja la probabilitat per la vivacitat i accessibilitat dels records —accidents d'avió son memorables i mediàtics, accidents de cotxe son estadísticament invisibles. Això és el biaix de disponibilitat."
+              "feedbackCorrect": "Exacte. El biaix de disponibilitat fa que jutgem la probabilitat d'un event per la facilitat amb que en recordem exemples. Els accidents d'avió són notícia (espectaculars, moltes víctimes, molt cobertura mediàtica); els accidents de cotxe són estadísticament molt freqüents però mediàticament invisibles. El resultat és que sobrevalorem el risc d'avió i infravalorem el de cotxe, quan les dades mostren el contrari.",
+              "feedbackWrong": "El biaix de confirmació seria buscar notícies que confirmin una creença prèvia. L'efecte halo seria transferir competència d'una àrea a una altra. L'ancoratge seria donar massa pes a la primera dada rebuda. El que passa aquí és que la ment jutja la probabilitat per la vivacitat i accessibilitat dels records —accidents d'avió són memorables i mediàtics, accidents de cotxe són estadísticament invisibles. Això és el biaix de disponibilitat."
             },
             {
               "type": "exercise",
               "id": "ex-log-05-02",
               "style": "true-false",
-              "question": "Les persones més intel·ligents son menys susceptibles als biaixos cognitius.",
+              "question": "Les persones més intel·ligents són menys susceptibles als biaixos cognitius.",
               "correct": false,
-              "feedbackCorrect": "Fals, i és un dels resultats més desconcertants de la psicologia cognitiva. La intel·ligència no protegeix dels biaixos —en alguns casos, els amplifica, perquè les persones intel·ligents son millors a construir arguments per justificar el que ja creuen (racionalització post hoc). Keith Stanovich anomena «intel·ligència disfuncional» la capacitat d'usar la intel·ligència per confirmar biaixos en comptes de corregir-los. El que sí redueix els biaixos és el coneixement explícit dels biaixos, la pràctica de la metacognició i certes tècniques de presa de decisions.",
-              "feedbackWrong": "La recerca mostra que la intel·ligència no protegeix dels biaixos cognitius —i en alguns casos els amplifica. Les persones intel·ligents son millors a construir racionalizaciones sofisticades per a creences prejutjades. El que sí ajuda és conèixer els biaixos explícitament i aplicar tècniques de revisió crítica del propi raonament."
+              "feedbackCorrect": "Fals, i és un dels resultats més desconcertants de la psicologia cognitiva. La intel·ligència no protegeix dels biaixos —en alguns casos, els amplifica, perquè les persones intel·ligents són millors a construir arguments per justificar el que ja creuen (racionalització post hoc). Keith Stanovich anomena «intel·ligència disfuncional» la capacitat d'usar la intel·ligència per confirmar biaixos en comptes de corregir-los. El que sí redueix els biaixos és el coneixement explícit dels biaixos, la pràctica de la metacognició i certes tècniques de presa de decisions.",
+              "feedbackWrong": "La recerca mostra que la intel·ligència no protegeix dels biaixos cognitius —i en alguns casos els amplifica. Les persones intel·ligents són millors a construir racionalizaciones sofisticades per a creences prejutjades. El que sí ajuda és conèixer els biaixos explícitament i aplicar tècniques de revisió crítica del propi raonament."
             },
             {
               "type": "scientific-mode",
               "id": "sci-log-05-01",
-              "question": "Si els biaixos cognitius son universals i difícils d'eliminar, té sentit intentar pensar més críticament?",
+              "question": "Si els biaixos cognitius són universals i difícils d'eliminar, té sentit intentar pensar més críticament?",
               "options": [
-                "No: si els biaixos son inevitables, l'esforç de pensar críticament és en va.",
+                "No: si els biaixos són inevitables, l'esforç de pensar críticament és en va.",
                 "Sí: conèixer els biaixos permet compensar-los parcialment i dissenyar millors processos de decisió.",
                 "Depèn: és útil per a decisions importants però innecessari per a les quotidianes."
               ],
               "correct": 1,
-              "explanation": "Conèixer els biaixos no els elimina, però permet tres coses: (1) Reconèixer situacions d'alt risc on certs biaixos son especialment probables i aplicar més cautela. (2) Dissenyar processos de decisió que compensen els biaixos: en medicina, protocols estandarditzats; en justícia, procediments amb jurat anònim; en inversió, regles automàtiques que eviten decisions emocionals. (3) Construir hàbits de revisió: demanar opinions contraries, buscar evidència que refuti les nostres creences, prendre decisions importants amb temps i distància emocional. Kahneman parla de «sistemes de ralentiment»: mecanismes que forcen el sistema de pensament lent (analític) a revisar les reaccions ràpides del sistema intuïtiu. La metacognició —pensar sobre com pensem— és la principal eina disponible."
+              "explanation": "Conèixer els biaixos no els elimina, però permet tres coses: (1) Reconèixer situacions d'alt risc on certs biaixos són especialment probables i aplicar més cautela. (2) Dissenyar processos de decisió que compensen els biaixos: en medicina, protocols estandarditzats; en justícia, procediments amb jurat anònim; en inversió, regles automàtiques que eviten decisions emocionals. (3) Construir hàbits de revisió: demanar opinions contraries, buscar evidència que refuti les nostres creences, prendre decisions importants amb temps i distància emocional. Kahneman parla de «sistemes de ralentiment»: mecanismes que forcen el sistema de pensament lent (analític) a revisar les reaccions ràpides del sistema intuïtiu. La metacognició —pensar sobre com pensem— és la principal eina disponible."
             }
           ]
         },
@@ -363,7 +363,7 @@
             {
               "type": "expandable",
               "label": "Com construir un argument sòlid: cinc passos",
-              "content": "1. Clarifica la tesi: formula la teva posició de manera precisa i falsable. No «l'educació és important» sinó «invertir en educació pública fins als 16 anys redueix la desigualtat econòmica a llarg termini». 2. Identifica les premisses: quines afirmacions sostenen la teva tesi? Son certes? Tens evidència? 3. Anticipa objeccions: quins son els millors arguments en contra? Pots respondre'ls honestament? 4. Distingeix fets d'opinions: no presentes opinions com a fets ni fets com a opinions. 5. Accepta la incertesa: si no tens prou evidència per a una afirmació forta, usa lenguatge epistèmicament honest: «sembla que», «l'evidència suggereix», «és possible que»."
+              "content": "1. Clarifica la tesi: formula la teva posició de manera precisa i falsable. No «l'educació és important» sinó «invertir en educació pública fins als 16 anys redueix la desigualtat econòmica a llarg termini». 2. Identifica les premisses: quines afirmacions sostenen la teva tesi? són certes? Tens evidència? 3. Anticipa objeccions: quins són els millors arguments en contra? Pots respondre'ls honestament? 4. Distingeix fets d'opinions: no presentes opinions com a fets ni fets com a opinions. 5. Accepta la incertesa: si no tens prou evidència per a una afirmació forta, usa lenguatge epistèmicament honest: «sembla que», «l'evidència suggereix», «és possible que»."
             },
             {
               "type": "expandable",
@@ -375,7 +375,7 @@
               "moduleRef": "Ètica",
               "moduleEmoji": "⚖️",
               "concept": "Fal·làcies en el raonament moral",
-              "text": "Molts errors morals son errors lògics disfressats: «és natural, per tant és bo» (apel·lació a la natura), «sempre s'ha fet així» (apel·lació a la tradició), «tothom ho fa» (apel·lació a la majoria). Les eines d'aquest mòdul son indispensables per detectar-los en qualsevol debat ètic."
+              "text": "Molts errors morals són errors lògics disfressats: «és natural, per tant és bo» (apel·lació a la natura), «sempre s'ha fet així» (apel·lació a la tradició), «tothom ho fa» (apel·lació a la majoria). Les eines d'aquest mòdul són indispensables per detectar-los en qualsevol debat ètic."
             },
             {
               "type": "exercise",
@@ -386,7 +386,7 @@
                 "Ser amable i no criticar mai les posicions dels altres.",
                 "Interpretar l'argument de l'adversari en la seva versió més forta possible abans de criticar-lo.",
                 "Cedir sempre en un debat per evitar el conflicte.",
-                "Acceptar que totes les posicions son igualment vàlides."
+                "Acceptar que totes les posicions són igualment vàlides."
               ],
               "correct": 1,
               "feedbackCorrect": "Exacte. El principi de caritat intel·lectual és un dels pilars del pensament crític honest. Significa que antes d'atacar una posició, t'assegures que l'entens en la seva millor versió. Atacar la versió feble (home de palla) és fàcil i inútil: no aprens res i no convences ningú que entengui l'argument. Atacar la versió forta és difícil i valuós: si ho aconsegueixes, la teva posició és molt més sòlida.",
@@ -405,7 +405,7 @@
               ],
               "correct": 2,
               "feedbackCorrect": "Exacte. L'opció C reflecteix amb precisió el que l'evidència científica actual realment mostra: hi ha una associació, però la causalitat és difícil d'establir (podria ser que els adolescents deprimits usin més les xarxes, no a l'inrevés). Les opcions A i B afirmen més del que l'evidència suporta; l'opció D és tan vaga que no diu res útil. El llenguatge epistèmicament honest calibra la força de les afirmacions a la força de l'evidència.",
-              "feedbackWrong": "El llenguatge epistèmicament honest calibra la força de les afirmacions a la força de l'evidència. Afirmar causalitat sense evidència (opció A) o negar tot efecte (opció B) son iguals d'erronis. Una afirmació tan vaga com l'opció D no aporta informació útil. L'opció C és la que s'ajusta a l'estat real del coneixement científic sobre el tema."
+              "feedbackWrong": "El llenguatge epistèmicament honest calibra la força de les afirmacions a la força de l'evidència. Afirmar causalitat sense evidència (opció A) o negar tot efecte (opció B) són iguals d'erronis. Una afirmació tan vaga com l'opció D no aporta informació útil. L'opció C és la que s'ajusta a l'estat real del coneixement científic sobre el tema."
             },
             {
               "type": "debate",
@@ -419,7 +419,7 @@
                 "argument": "La psicologia i la comunicació política mostren sistemàticament que les emocions, el carisma, la repetició i les narratives simples guanyen sobre els arguments complexos. Les fake news es difonen més ràpid que les rectificacions. Ensenyar lògica és insuficient sense canviar l'ecosistema informatiu."
               },
               "reflection": "Si la persuasió guanya sobre la raó, té sentit aprendre a argumentar bé? O caldria prioritzar aprendre a persuadir?",
-              "context": "Jonathan Haidt sosté que el raonament humà és principalment post hoc: primer decidim emocionalment, després construïm arguments. Hugo Mercier i Dan Sperber proposen que la raó va evolucionar per guanyar arguments, no per trobar la veritat. Aquestes teories, si son certes, tienen implicacions profundes per a l'educació i la democràcia."
+              "context": "Jonathan Haidt sosté que el raonament humà és principalment post hoc: primer decidim emocionalment, després construïm arguments. Hugo Mercier i Dan Sperber proposen que la raó va evolucionar per guanyar arguments, no per trobar la veritat. Aquestes teories, si són certes, tienen implicacions profundes per a l'educació i la democràcia."
             },
             {
               "type": "reflection",
@@ -431,12 +431,12 @@
               "id": "sci-log-06-01",
               "question": "Si aprens bé a argumentar i a detectar fal·làcies, et tornes millor persona o simplement millor debatent?",
               "options": [
-                "Millor debatent: les habilitats lògiques son neutrals moralment.",
-                "Millor persona: el pensament crític i la honestedat intel·lectual son virtuts morals.",
+                "Millor debatent: les habilitats lògiques són neutrals moralment.",
+                "Millor persona: el pensament crític i la honestedat intel·lectual són virtuts morals.",
                 "Depèn de com uses les habilitats: poden usar-se per trobar la veritat o per guanyar arguments independentment de la veritat."
               ],
               "correct": 2,
-              "explanation": "Les habilitats lògiques son eines, i com totes les eines poden usar-se bé o malament. Un advocat brillant pot usar el pensament crític per construir arguments en defensa d'un client que sap culpable. Un publicista expert en lògica pot usar-la per construir arguments retòricament seductors però factualment buits. El que fa que el pensament crític sigui una virtut moral i no simplement una habilitat és la disposició a usar-lo en cerca de la veritat, inclús quan la veritat no ens afavoreix. Aquesta disposició —l'honestedat intel·lectual— és el que connecta la lògica amb l'ètica. No es pot ensenyar amb regles formals: és una virtut del caràcter, en el sentit aristotèlic. Per això el mòdul de Lògica i el d'Ètica son inseparables: les eines sense la disposició son perilloses; la disposició sense les eines és impotent."
+              "explanation": "Les habilitats lògiques són eines, i com totes les eines poden usar-se bé o malament. Un advocat brillant pot usar el pensament crític per construir arguments en defensa d'un client que sap culpable. Un publicista expert en lògica pot usar-la per construir arguments retòricament seductors però factualment buits. El que fa que el pensament crític sigui una virtut moral i no simplement una habilitat és la disposició a usar-lo en cerca de la veritat, inclús quan la veritat no ens afavoreix. Aquesta disposició —l'honestedat intel·lectual— és el que connecta la lògica amb l'ètica. No es pot ensenyar amb regles formals: és una virtut del caràcter, en el sentit aristotèlic. Per això el mòdul de Lògica i el d'Ètica són inseparables: les eines sense la disposició són perilloses; la disposició sense les eines és impotent."
             }
           ]
         }
@@ -478,8 +478,8 @@
                 "Ho han replicat altres investigadors?"
               ],
               "correct": 2,
-              "feedbackCorrect": "La primera pregunta és sempre sobre la qualitat de l'evidència: qui ha fet l'estudi i amb quins recursos i interessos, quants participants tenia i si hi havia un grup de control que no menjava xocolata. Sense grup de control, no pots saber si la millora de memòria és deguda a la xocolata o a altres factors. Sense conèixer el finançador, no pots avaluar conflictes d'interès. Les altres preguntes son rellevants però secundàries.",
-              "feedbackWrong": "Les preguntes sobre dosi i tipus de memòria son rellevants, però la pregunta fonamental és sobre la qualitat de l'evidència: com s'ha fet l'estudi? Tenia grup de control? Qui l'ha finançat? La indústria de l'alimentació finança molts estudis que troben efectes positius dels seus productes; sense conèixer el finançador i la metodologia, el titular no diu res fiable."
+              "feedbackCorrect": "La primera pregunta és sempre sobre la qualitat de l'evidència: qui ha fet l'estudi i amb quins recursos i interessos, quants participants tenia i si hi havia un grup de control que no menjava xocolata. Sense grup de control, no pots saber si la millora de memòria és deguda a la xocolata o a altres factors. Sense conèixer el finançador, no pots avaluar conflictes d'interès. Les altres preguntes són rellevants però secundàries.",
+              "feedbackWrong": "Les preguntes sobre dosi i tipus de memòria són rellevants, però la pregunta fonamental és sobre la qualitat de l'evidència: com s'ha fet l'estudi? Tenia grup de control? Qui l'ha finançat? La indústria de l'alimentació finança molts estudis que troben efectes positius dels seus productes; sense conèixer el finançador i la metodologia, el titular no diu res fiable."
             },
             {
               "type": "exercise",
@@ -504,7 +504,7 @@
           "blocks": [
             {
               "type": "narrative",
-              "text": "La política és el terreny on les fal·làcies, els biaixos i la retòrica emocional son més freqüents i on les conseqüències de creure arguments dolents son més greus. Cada vegada que un polític parla, un debat electoral té lloc o un partit publica un programa, hi ha arguments implícits que mereixen ser examinats. El pensament crític no és ni d'esquerres ni de dretes: és una eina que pot (i ha de) aplicar-se a totes les posicions."
+              "text": "La política és el terreny on les fal·làcies, els biaixos i la retòrica emocional són més freqüents i on les conseqüències de creure arguments dolents són més greus. Cada vegada que un polític parla, un debat electoral té lloc o un partit publica un programa, hi ha arguments implícits que mereixen ser examinats. El pensament crític no és ni d'esquerres ni de dretes: és una eina que pot (i ha de) aplicar-se a totes les posicions."
             },
             {
               "type": "key-idea",
@@ -547,14 +547,14 @@
             {
               "type": "scientific-mode",
               "id": "sci-log-a02-01",
-              "question": "Pot una persona aplicar el pensament crític de manera realment imparcial a les posicions polítiques que li son contràries, o el biaix de confirmació fa que sempre siguem millors crítics de l'adversari?",
+              "question": "Pot una persona aplicar el pensament crític de manera realment imparcial a les posicions polítiques que li són contràries, o el biaix de confirmació fa que sempre siguem millors crítics de l'adversari?",
               "options": [
                 "Sí: amb prou disciplina i eines, podem avaluar totes les posicions amb els mateixos estàndards.",
                 "No: el biaix és inevitable i la imparcialitat completa és una il·lusió.",
                 "Parcialment: el biaix és real i persistent, però la consciència d'ell i certes pràctiques permeten reduir-lo significativament."
               ],
               "correct": 2,
-              "explanation": "La recerca en psicologia política mostra que el raonament motivat —usar les habilitats cognitives per defensar posicions prèvies en lloc de trobar la veritat— és universal i difícil d'eliminar. Les persones intel·ligents i educades son, en alguns casos, més hàbils a racionalitzar les seves posicions. Però la consciència explícita d'aquest biaix, la pràctica del steelmanning (formular el millor argument contrari), l'exposició deliberada a fonts diverses i l'ús de tècniques de pre-mortem (imaginar per quines raons la teva posició podria estar equivocada) redueixen significativament el biaix. La imparcialitat absoluta pot no ser possible, però el grau de parcialitat és variable i modificable. La modèstia epistèmica —reconèixer que les teves creences politiques podrien estar equivocades— és el primer pas."
+              "explanation": "La recerca en psicologia política mostra que el raonament motivat —usar les habilitats cognitives per defensar posicions prèvies en lloc de trobar la veritat— és universal i difícil d'eliminar. Les persones intel·ligents i educades són, en alguns casos, més hàbils a racionalitzar les seves posicions. Però la consciència explícita d'aquest biaix, la pràctica del steelmanning (formular el millor argument contrari), l'exposició deliberada a fonts diverses i l'ús de tècniques de pre-mortem (imaginar per quines raons la teva posició podria estar equivocada) redueixen significativament el biaix. La imparcialitat absoluta pot no ser possible, però el grau de parcialitat és variable i modificable. La modèstia epistèmica —reconèixer que les teves creences politiques podrien estar equivocades— és el primer pas."
             }
           ]
         },
@@ -583,7 +583,7 @@
               "options": [
                 "La mitjana: és la mesura estadística estàndard.",
                 "La mediana: no és afectada pels salaris extremadament alts que eleven la mitjana.",
-                "Les dues son equivalents en aquest cas.",
+                "Les dues són equivalents en aquest cas.",
                 "Cap de les dues: caldria un altre indicador."
               ],
               "correct": 1,
@@ -597,12 +597,12 @@
               "question": "Un resultat estadísticament significatiu (p < 0,05) prova que l'efecte trobat és important i rellevant en la pràctica.",
               "correct": false,
               "feedbackCorrect": "Fals. La significació estadística (p < 0,05) només significa que és poc probable que el resultat sigui pur atzar —amb un llindar convencional del 5%. No diu res sobre la magnitud o la importància pràctica de l'efecte. Amb mostres molt grans, fins i tot efectes minúsculs i pràcticament irrellevants produeixen resultats estadísticament significatius. Per avaluar la importància pràctica cal la mida de l'efecte (effect size), que molts estudis no reporten o reporten de manera poc visible.",
-              "feedbackWrong": "La significació estadística i la rellevància pràctica son dues coses diferents. «Significatiu» en estadística significa «poc probable que sigui atzar», no «important». Un estudi amb 100.000 participants pot trobar una diferència estadísticament significativa entre dos grups que en la pràctica és irrellevant (per exemple, una diferència d'1 punt en una escala de 1.000). La mida de l'efecte és el que realment importa."
+              "feedbackWrong": "La significació estadística i la rellevància pràctica són dues coses diferents. «Significatiu» en estadística significa «poc probable que sigui atzar», no «important». Un estudi amb 100.000 participants pot trobar una diferència estadísticament significativa entre dos grups que en la pràctica és irrellevant (per exemple, una diferència d'1 punt en una escala de 1.000). La mida de l'efecte és el que realment importa."
             },
             {
               "type": "misconception",
-              "belief": "Les estadístiques son objectives i neutres: els números parlen per si sols.",
-              "reality": "Les estadístiques sempre impliquen decisions humanes: quina pregunta es fa, quina mostra s'usa, quines variables es controlen, com es presenten els resultats. Les mateixes dades, presentades de manera diferent, poden suggerir conclusions oposades. Darrell Huff, en el llibre clàssic «How to Lie with Statistics» (1954), va catalogar les principals tècniques: escales que comencen en un punt diferent de zero per amplificar diferències petites, mostres no representatives, confusió de correlació i causalitat, omissió de context. Les estadístiques son tan fiables com les decisions metodològiques que les han produït.",
+              "belief": "Les estadístiques són objectives i neutres: els números parlen per si sols.",
+              "reality": "Les estadístiques sempre impliquen decisions humanes: quina pregunta es fa, quina mostra s'usa, quines variables es controlen, com es presenten els resultats. Les mateixes dades, presentades de manera diferent, poden suggerir conclusions oposades. Darrell Huff, en el llibre clàssic «How to Lie with Statistics» (1954), va catalogar les principals tècniques: escales que comencen en un punt diferent de zero per amplificar diferències petites, mostres no representatives, confusió de correlació i causalitat, omissió de context. Les estadístiques són tan fiables com les decisions metodològiques que les han produït.",
               "why": "Perquè associem els números amb l'objectivitat i tenim una tendència psicològica a acceptar com a fets qualsevol cosa expressada en forma quantitativa."
             }
           ]
@@ -613,7 +613,7 @@
           "blocks": [
             {
               "type": "narrative",
-              "text": "Els models d'intel·ligència artificial com els assistents de xat son, en molts sentits, màquines de generar text convincent. Poden produir arguments plausibles, citar fets (de vegades inventats), adoptar qualsevol posició i adaptar el to a l'interlocutor. Son extraordinàriament útils. I poden ser extraordinàriament enganyosos si no saps com funcionen. Les habilitats de pensament crític que has après en aquest mòdul son ara més necessàries que mai."
+              "text": "Els models d'intel·ligència artificial com els assistents de xat són, en molts sentits, màquines de generar text convincent. Poden produir arguments plausibles, citar fets (de vegades inventats), adoptar qualsevol posició i adaptar el to a l'interlocutor. són extraordinàriament útils. I poden ser extraordinàriament enganyosos si no saps com funcionen. Les habilitats de pensament crític que has après en aquest mòdul són ara més necessàries que mai."
             },
             {
               "type": "key-idea",
@@ -622,7 +622,7 @@
             {
               "type": "expandable",
               "label": "Al·lucinacions de la IA: quan els models inventen fets convincents",
-              "content": "Els models de llenguatge grans son entrenats per generar text coherent i plausible. Quan no saben una resposta, de vegades generen una resposta que sona correcta però és falsa —citant estudis inexistents, atribuint cites a persones que mai no les van dir, inventant dades estadístiques. Aquest fenomen s'anomena «al·lucinació». No és mentida en sentit humà: el model no sap que menteix. És simplement el resultat d'un sistema optimitzat per la plausibilitat del text, no per la seva veracitat. Com detectar-ho: verifica sempre les cites i les dades en fonts primàries; pregunta al model per la seva font i comprova-la; desconfia especialment de dades molt específiques (dates, percentatges, noms) que sonen massa perfectes."
+              "content": "Els models de llenguatge grans són entrenats per generar text coherent i plausible. Quan no saben una resposta, de vegades generen una resposta que sona correcta però és falsa —citant estudis inexistents, atribuint cites a persones que mai no les van dir, inventant dades estadístiques. Aquest fenomen s'anomena «al·lucinació». No és mentida en sentit humà: el model no sap que menteix. És simplement el resultat d'un sistema optimitzat per la plausibilitat del text, no per la seva veracitat. Com detectar-ho: verifica sempre les cites i les dades en fonts primàries; pregunta al model per la seva font i comprova-la; desconfia especialment de dades molt específiques (dates, percentatges, noms) que sonen massa perfectes."
             },
             {
               "type": "exercise",
@@ -636,7 +636,7 @@
                 "Acceptar-la si el to és segur i professional."
               ],
               "correct": 2,
-              "feedbackCorrect": "Exacte. La fluïdesa i la seguretat del to no son indicadors de veracitat en un sistema d'IA. Els models generen text plausible, no necessàriament cert. La resposta crítica és verificar les afirmacions importants en fonts primàries —articles originals, bases de dades oficials, fonts acadèmiques— especialment si les vas a usar per prendre decisions o per comunicar-les a altres.",
+              "feedbackCorrect": "Exacte. La fluïdesa i la seguretat del to no són indicadors de veracitat en un sistema d'IA. Els models generen text plausible, no necessàriament cert. La resposta crítica és verificar les afirmacions importants en fonts primàries —articles originals, bases de dades oficials, fonts acadèmiques— especialment si les vas a usar per prendre decisions o per comunicar-les a altres.",
               "feedbackWrong": "La quantitat d'informació a la qual accedeix un model no garanteix la seva precisió en un cas concret. Els models d'IA al·lucinen regularment: generen afirmacions falses amb total confiança. El to segur i professional no és indicador de veracitat. L'única resposta adequada és la verificació independent de les afirmacions importants."
             },
             {
@@ -648,7 +648,7 @@
               },
               "positionB": {
                 "label": "Més necessari: mai com ara",
-                "argument": "La IA genera desinformació convincent a escala massiva i a cost gairebé zero. Els deepfakes, els articles generats automàticament i els bots de desinformació fan que distingir el cert del fals sigui cada vegada més difícil. Necessitem pensament crític més que mai, perquè les eines d'engany son ara infinitament més potents."
+                "argument": "La IA genera desinformació convincent a escala massiva i a cost gairebé zero. Els deepfakes, els articles generats automàticament i els bots de desinformació fan que distingir el cert del fals sigui cada vegada més difícil. Necessitem pensament crític més que mai, perquè les eines d'engany són ara infinitament més potents."
               },
               "reflection": "Si una IA et diu que un argument és fal·laciós, com saps si tens raó tu o la IA? Qui verifica el verificador?",
               "context": "El 2024, diversos laboratoris d'IA van presentar sistemes de fact-checking automatitzat. Tots mostren taxes d'error significatives i biaixos sistemàtics. El consens acadèmic és que la IA pot assistir el pensament crític humà però no substituir-lo."
@@ -658,7 +658,7 @@
               "moduleRef": "Filosofia de la Ciència",
               "moduleEmoji": "🔬",
               "concept": "El mètode científic i la falsació",
-              "text": "Les eines d'aquest mòdul —distingir correlació de causalitat, avaluar evidència, comprendre la significació estadística— son exactament les que la filosofia de la ciència estudia en profunditat. La ciència és pensament crític institucionalitzat."
+              "text": "Les eines d'aquest mòdul —distingir correlació de causalitat, avaluar evidència, comprendre la significació estadística— són exactament les que la filosofia de la ciència estudia en profunditat. La ciència és pensament crític institucionalitzat."
             },
             {
               "type": "scientific-mode",
@@ -773,7 +773,7 @@
               "moduleRef": "Ètica",
               "moduleEmoji": "⚖️",
               "concept": "La honestedat intel·lectual com a virtut moral",
-              "text": "Les cinc virtuts del pensador crític son també virtuts morals en el sentit aristotèlic: disposicions de caràcter que s'adquireixen per pràctica i que defineixen un bon agent moral. Pensar bé i viure bé no son activitats separades."
+              "text": "Les cinc virtuts del pensador crític són també virtuts morals en el sentit aristotèlic: disposicions de caràcter que s'adquireixen per pràctica i que defineixen un bon agent moral. Pensar bé i viure bé no són activitats separades."
             },
             {
               "type": "exercise",
@@ -794,12 +794,12 @@
               "id": "sci-log-a06-01",
               "question": "El pensament crític pot aplicar-se a si mateix: per quin motiu hauries de confiar en les eines que has après en aquest mòdul?",
               "options": [
-                "Perquè venen d'una tradició filosòfica i científica consolidada, per tant son fiables.",
+                "Perquè venen d'una tradició filosòfica i científica consolidada, per tant són fiables.",
                 "No cal: el pensament crític és autoevidentment bo.",
-                "Perquè resist l'aplicació de les pròpies eines: els seus arguments son examinables, les seves afirmacions son falsables i les seves conclusions son revisables."
+                "Perquè resist l'aplicació de les pròpies eines: els seus arguments són examinables, les seves afirmacions són falsables i les seves conclusions són revisables."
               ],
               "correct": 2,
-              "explanation": "Aquesta és la pregunta més important del mòdul. Una tradició de pensament que no pot ser qüestionada pels seus propis estàndards no és pensament crític: és dogma. La lògica i el pensament crític guanyen legitimitat precisament perquè poden aplicar-se a si mateixos i resistir-ho. Les seves afirmacions son falsables (podem mostrar contraexemples), els seus mètodes son transparents (pots examinar com arriben a les conclusions) i les seves conclusions son revisables (si trobes un error, el camp l'incorpora). Compara'ls amb doctrines que declaren la seva pròpia infal·libilitat: una doctrina que respon a les crítiques dient que el crític no entén o no té fe és exactament el que el pensament crític ensenya a desconfiar. L'autocrítica és el test de legitimitat d'un sistema de pensament."
+              "explanation": "Aquesta és la pregunta més important del mòdul. Una tradició de pensament que no pot ser qüestionada pels seus propis estàndards no és pensament crític: és dogma. La lògica i el pensament crític guanyen legitimitat precisament perquè poden aplicar-se a si mateixos i resistir-ho. Les seves afirmacions són falsables (podem mostrar contraexemples), els seus mètodes són transparents (pots examinar com arriben a les conclusions) i les seves conclusions són revisables (si trobes un error, el camp l'incorpora). Compara'ls amb doctrines que declaren la seva pròpia infal·libilitat: una doctrina que respon a les crítiques dient que el crític no entén o no té fe és exactament el que el pensament crític ensenya a desconfiar. L'autocrítica és el test de legitimitat d'un sistema de pensament."
             }
           ]
         }

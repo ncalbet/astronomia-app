@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ReflectionBlock.jsx
  *
  * Pregunta oberta sense resposta correcta.
@@ -8,7 +8,7 @@
  * Format JSON:
  * {
  *   "type": "reflection",
- *   "question": "Qué canviaries si...",
+ *   "question": "què canviaries si...",
  *   "prompt": "Pren un moment abans de continuar." (opcional)
  * }
  */

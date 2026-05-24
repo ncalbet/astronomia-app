@@ -73,6 +73,12 @@ const DEFAULT_STATE = {
     'module-12-ment-enganya','module-14-obediencia',
     // Bloc: Diplomàcia
     'module-XX-diplomacia-negociacio','module-XX-historia-diplomacia','module-XX-organismes-internacionals',
+    // Bloc: Biografies
+    'module-bio-cesar','module-bio-alexandre','module-bio-bismarck','module-bio-churchill','module-bio-rasputin',
+    'module-bio-lincoln','module-bio-bolivar','module-bio-lenin',
+    'module-bio-napoleon','module-bio-napoleon3','module-bio-genguis',
+    'module-bio-cleopatra','module-bio-maquiavel','module-bio-gandhi',
+    'module-bio-frederic',
   ],
   badges: [],
   srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }
