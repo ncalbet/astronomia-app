@@ -2,7 +2,7 @@
  * microcapsules.js
  *
  * Mini-lliçons de 2-5 minuts. Contingut autònom, sense prerequisits.
- * Cada càpsula: 1-2 blocs narratius + 1 idea clau + 1 exercici.
+ * Cada càpsula: 2 blocs narratius + 1 idea clau + 1 exercici (4 pàgines).
  */
 
 export const MICROCAPSULES = [
@@ -10,7 +10,7 @@ export const MICROCAPSULES = [
     id: 'mc-gravetat',
     title: 'Per què cau sempre la poma?',
     emoji: '🍎',
-    duration: 2,
+    duration: 3,
     areaId: 'ciencies',
     blocks: [
       {
@@ -18,8 +18,12 @@ export const MICROCAPSULES = [
         text: 'Quan Newton va veure caure una poma el 1666, no va descobrir la gravetat — tothom ja sabia que les coses cauen. El que va fer va ser diferent: va entendre que la força que fa caure la poma és exactament la mateixa que manté la Lluna en òrbita al voltant de la Terra. La gravetat no és un fenomen terrestre. És universal.',
       },
       {
+        type: 'narrative',
+        text: 'Einstein va anar encara més lluny el 1915: la gravetat no és una força invisible que actua a distància, sinó que és la curvatura de l\'espai-temps causada per la massa. La Terra no "estira" la Lluna: la Lluna segueix la corba de l\'espai que la massa terrestre crea al seu voltant, com una pilota que rodarà per un drap tensat. Aquesta correcció explica fenòmens que Newton no podia: el desvío de la llum per la gravetat, els GPS, i l\'existència dels forats negres.',
+      },
+      {
         type: 'key-idea',
-        text: 'Cada objecte amb massa atreu cada altre objecte amb massa. La força creix amb les masses i disminueix amb el quadrat de la distància: F = Gm₁m₂/r². Si doblem la distància, la força es redueix a una quarta part.',
+        text: 'Cada objecte amb massa atreu cada altre objecte amb massa. La força creix amb les masses i disminueix amb el quadrat de la distància: F = Gm₁m₂/r². Si doblem la distància, la força es redueix a una quarta part. Newton ho va formular; Einstein va explicar per qué: la massa corba l\'espai-temps i els cossos segueixen aquella corba.',
       },
       {
         type: 'exercise',
@@ -41,7 +45,7 @@ export const MICROCAPSULES = [
     id: 'mc-democracia',
     title: 'Qui va inventar la democràcia?',
     emoji: '🏛️',
-    duration: 2,
+    duration: 3,
     areaId: 'historia',
     blocks: [
       {
@@ -49,8 +53,12 @@ export const MICROCAPSULES = [
         text: 'La democràcia grega no era com la nostra. Atenes al segle V aC tenia uns 30.000 ciutadans amb dret a vot d\'una població total de 250.000 persones. Les dones, els esclaus i els estrangers quedaven fora. I tot i així, van inventar quelcom radical: la idea que els ciutadans podien governar-se ells mateixos, sense rei ni aristocràcia hereditària.',
       },
       {
+        type: 'narrative',
+        text: 'Per protegir la democràcia dels tirans, els atenesos van inventar l\'ostracisme: una vegada l\'any, els ciutadans podien votar per exiliar qualsevol persona durant deu anys. S\'escrivia el nom en un tros de ceràmica trencada (ostrakon). Qui rebia més de 6.000 vots, havia de marxar d\'Atenes en deu dies sense perdre els béns ni la ciutadania. Va ser usat contra generals famosos i policies. Era democràcia preventiva: treure de la circulació qui acumulava massa poder.',
+      },
+      {
         type: 'key-idea',
-        text: 'Clístenes (~508 aC) va crear la democràcia atenesa reorganitzant la ciutadania per districtes geogràfics en lloc de per clans familiars, trencant el poder de l\'aristocràcia. Demos (poble) + kratos (poder) = democràcia.',
+        text: 'Clístenes (~508 aC) va crear la democràcia atenesa reorganitzant la ciutadania per districtes geogràfics en lloc de per clans familiars, trencant el poder de l\'aristocràcia. Demos (poble) + kratos (poder) = democràcia. La democràcia grega no era representativa sinó directa: els ciutadans votaven personalment les lleis i els magistrats per sorteig, no per elecció.',
       },
       {
         type: 'exercise',
@@ -77,11 +85,15 @@ export const MICROCAPSULES = [
     blocks: [
       {
         type: 'narrative',
-        text: 'El 1923 a Alemanya, un diari costava 1 marc al matí i 2 marcs al vespre. La gent anava al mercat amb carretons plens de bitllets. La hiperinflació de Weimar és l\'exemple extrem, però la inflació no sempre és catastròfica: normalment és un augment gradual dels preus que erosiona silenciosament el poder adquisitiu.',
+        text: 'El 1923 a Alemanya, un diari costava 1 marc al matí i 2 marcs al vespre. La gent anava al mercat amb carretons plens de bitllets. Les empreses pagaven els treballadors dues vegades al dia perquè el diner perdés menys valor. La hiperinflació de Weimar és l\'exemple extrem, però la inflació no sempre és catastròfica: normalment és un augment gradual dels preus que erosiona silenciosament el poder adquisitiu.',
+      },
+      {
+        type: 'narrative',
+        text: 'Zimbabwe el 2008 va superar Weimar: la inflació va arribar a 89,7 sextillions per cent mensual. Els bitllets s\'imprimien amb denominacions de 100 bilions de dòlars zimbabuesos que no compraven gairebé res. El govern va retirar la moneda el 2009 i va adoptar el dòlar americà. La lliçó: la inflació desbocada no és un error tècnic sinó sempre una decisió política. Quan els governs financen despesa imprimint diners sense riquesa real al darrere, destrueixen la moneda.',
       },
       {
         type: 'key-idea',
-        text: 'La inflació és l\'augment generalitzat i sostingut del nivell de preus. Els bancs centrals (el BCE a Europa) intenten mantenir-la al voltant del 2%, que es considera sana. Per sobre, el poder adquisitiu es deteriora. Per sota (deflació), la gent deixa de consumir esperant preus més baixos, paralitzant l\'economia.',
+        text: 'La inflació és l\'augment generalitzat i sostingut del nivell de preus. Els bancs centrals (el BCE a Europa) intenten mantenir-la al voltant del 2%, que es considera sana. Per sobre, el poder adquisitiu es deteriora. Per sota (deflació), la gent deixa de consumir esperant preus més baixos, paralitzant l\'economia. La deflació pot ser tan destructiva com la hiperinflació.',
       },
       {
         type: 'exercise',
@@ -103,16 +115,20 @@ export const MICROCAPSULES = [
     id: 'mc-tramvia',
     title: 'El dilema del tramvia',
     emoji: '🚋',
-    duration: 3,
+    duration: 4,
     areaId: 'pensament',
     blocks: [
       {
         type: 'narrative',
-        text: 'Un tramvia fora de control avança cap a cinc persones lligades a la via. Tu ets prop d\'una palanca: si l\'acciones, el tramvia es desvia a una altra via on hi ha una sola persona. Fas el canvi? La majoria diu que sí. Ara imagina que ets en un pont sobre la via, i pots aturar el tramvia empenyent una persona gran des del pont. Mates una per salvar cinc? La majoria diu que no. El resultat és idèntic. Per què la diferència?',
+        text: 'Un tramvia fora de control avança cap a cinc persones lligades a la via. Tu ets prop d\'una palanca: si l\'acciones, el tramvia es desvia a una altra via on hi ha una sola persona. Fas el canvi? La majoria diu que sí. Ara imagina que ets en un pont sobre la via, i pots aturar el tramvia empenyent una persona gran des del pont. Mates una per salvar cinc? La majoria diu que no. El resultat aritmètic és idèntic. Per què la diferència moral?',
+      },
+      {
+        type: 'narrative',
+        text: 'La filòsofa Judith Jarvis Thomson, que va popularitzar el dilema del tramvia als anys 70, va notar que la clau és la distinció entre fer servir algú com a mitjà i redirigir un perill ja existent. Quan accionem la palanca, no usem la persona de la via lateral: és un efecte secundari. Quan empenyem la persona del pont, la convertim en instrument de salvació. El cervell humà, estudiat per neurocientífics com Joshua Greene, registra diferent emocionalment "empènyer" que "accionar": el contacte físic activa circuits d\'empatia que la palanca no activa.',
       },
       {
         type: 'key-idea',
-        text: 'El dilema exposa la tensió entre dos enfocaments ètics. L\'utilitarisme diu: fes el que maximitza el bé total (salva cinc, sempre). La deontologia kantiana diu: algunes accions (usar una persona com a mitjà) estan prohibides independentment de les conseqüències.',
+        text: 'El dilema del tramvia exposa la tensió entre dos enfocaments ètics. L\'utilitarisme diu: fes el que maximitza el bé total (salva cinc, sempre). La deontologia kantiana diu: algunes accions (usar una persona com a mitjà) estan prohibides independentment de les conseqüències. La majoria de persones apliquen els dos principis alhora però de manera inconsistent, cosa que suggereix que la moral humana no és un sistema lògic, sinó un conjunt d\'intuïcions evolutives sovint contradictòries.',
       },
       {
         type: 'exercise',
@@ -134,7 +150,7 @@ export const MICROCAPSULES = [
     id: 'mc-sol',
     title: 'Per què el Sol porta 5.000 milions d\'anys brillant?',
     emoji: '☀️',
-    duration: 2,
+    duration: 3,
     areaId: 'ciencies',
     blocks: [
       {
@@ -142,8 +158,12 @@ export const MICROCAPSULES = [
         text: 'Si el Sol cremés carbó com una central tèrmica, s\'hauria esgotat en menys de 10.000 anys. Porta brillant 4.600 milions d\'anys. La clau és que el Sol no crema res: fusiona. Al nucli, a 15 milions de graus, quatre àtoms d\'hidrogen es fonen en un àtom d\'heli, alliberant una energia descomunal. Un gram d\'hidrogen fusionat equival a 60 tones de gasoil.',
       },
       {
+        type: 'narrative',
+        text: 'D\'aquí 5.000 milions d\'anys, el Sol s\'exhaurirà l\'hidrogen del nucli. Llavors s\'expandirà fins a convertir-se en una gegant roja, engolint Mercuri, Venus i probablement la Terra. El seu radi creixerà 200 vegades. Finalment, expulsarà les capes externes formant una nebulosa planetària, i el que quedarà serà un nan blanc —un nucli fred del tamany de la Terra que s\'anirà apagant durant bilions d\'anys. El nostre Sol acabarà com una brasa lleugera en un cosmos buit.',
+      },
+      {
         type: 'key-idea',
-        text: 'La fusió nuclear transforma massa en energia (E = mc²). El Sol converteix 600 milions de tones d\'hidrogen en heli cada segon, perdent 4 milions de tones de massa pura que es converteixen en llum i calor. Li queden uns 5.000 milions d\'anys de combustible.',
+        text: 'La fusió nuclear transforma massa en energia (E = mc²). El Sol converteix 600 milions de tones d\'hidrogen en heli cada segon, perdent 4 milions de tones de massa pura que es converteixen en llum i calor. Li queden uns 5.000 milions d\'anys de combustible. L\'edat de la Terra és de 4.600 milions d\'anys: som a la meitat de la vida del Sol.',
       },
       {
         type: 'exercise',
@@ -165,16 +185,20 @@ export const MICROCAPSULES = [
     id: 'mc-cleopatra',
     title: 'Cleopatra no era egípcia',
     emoji: '👑',
-    duration: 2,
+    duration: 3,
     areaId: 'historia',
     blocks: [
       {
         type: 'narrative',
-        text: 'Cleopatra VII, l\'última faraona d\'Egipte, era grega. Pertanyia a la dinastia ptolemaica, fundada per un general d\'Alexandre el Gran el 305 aC. De fet, era la primera de la seva família que aprenia a parlar egipci. Va governar de 51 al 30 aC, i es va aliar primer amb Juli Cèsar i després amb Marc Antoni per mantenir Egipte independent. Quan Antoni va perdre la guerra civil romana, Cleopatra va morir — i amb ella, 3.000 anys de civilització faraònica.',
+        text: 'Cleopatra VII, l\'última faraona d\'Egipte, era grega. Pertanyia a la dinastia ptolemaica, fundada per un general d\'Alexandre el Gran el 305 aC. De fet, era la primera de la seva família que aprenia a parlar egipci. Va governar de 51 al 30 aC, i es va aliar primer amb Juli Cèsar i després amb Marc Antoni per mantenir Egipte independent.',
+      },
+      {
+        type: 'narrative',
+        text: 'La imatge de Cleopatra com a seductora és una invenció romana i posterior. Les fonts antigues la descriuen sobretot com una política brillant i una intel·lectual excepcional. Parlava nou idiomes —egipci, grec, etíop, hebreu, àrab, arameu, parts, mede i llatí— en una època en que cap rei ptolemaic anterior havia après l\'egipci. Era doctora en filosofia, matemàtiques i astronomia. Va ser la primera líder del seu territori en generacions que podia negociar directament amb els sacerdots egipcis sense intèrpret.',
       },
       {
         type: 'key-idea',
-        text: 'La caiguda d\'Egipte no va ser una conquesta sobtada sinó el resultat de dècades de dependència de Roma. Octavi August va annexionar Egipte com a província romana el 30 aC. Aquesta data marca el final del món antic i l\'inici de l\'hegemonia romana total al Mediterrani.',
+        text: 'La caiguda d\'Egipte no va ser una conquesta sobtada sinó el resultat de dècades de dependència de Roma. Octavi August va annexionar Egipte com a província romana el 30 aC, quan Cleopatra i Antoni van morir. Aquesta data marca el final del món hel·lenístic i l\'inici de l\'hegemonia romana total al Mediterrani. Tres mil anys de civilització faraònica van acabar en deu dies.',
       },
       {
         type: 'exercise',
@@ -188,7 +212,7 @@ export const MICROCAPSULES = [
           'Persa',
         ],
         correctIndex: 2,
-        explanation: 'La dinastia ptolemaica va ser fundada per Ptolemeu I, un dels generals macedonis d\'Alexandre el Gran. Van governar Egipte durant 275 anys, mantenint la cultura egípcia però amb una cort essencialment grega.',
+        explanation: 'La dinastia ptolemaica va ser fundada per Ptolemeu I, un dels generals macedonis d\'Alexandre el Gran. Van governar Egipte durant 275 anys mantenint la cultura egípcia, però amb una cort essencialment grega. Cleopatra VII va ser la primera de la família a aprendre egipci.',
       },
     ],
   },
@@ -196,7 +220,7 @@ export const MICROCAPSULES = [
     id: 'mc-fallacies',
     title: 'Fal·làcies: errors disfressats de raó',
     emoji: '🧩',
-    duration: 3,
+    duration: 4,
     areaId: 'pensament',
     blocks: [
       {
@@ -204,8 +228,12 @@ export const MICROCAPSULES = [
         text: '"Ets un hipòcrita, tu tampoc recicles" — atac a la persona, no a l\'argument (ad hominem). "Si permetem X, aviat permetrem Z" — salt injustificat a un extrem (pendent lliscant). "Tothom ho fa, per tant és correcte" — l\'aprovació popular no implica veritat moral (ad populum). Les fal·làcies lògiques són errors de raonament que semblen vàlids però que no resisteixen l\'anàlisi.',
       },
       {
+        type: 'narrative',
+        text: 'Algunes fal·làcies són especialment comunes en política i xarxes socials. El "whataboutisme" (tu quoque) és quan, en comptes de respondre una acusació, es pregunta "i vosaltres?": "ens critiqueu per X, però vosaltres feu Y". L\'home de palla consisteix a deformar l\'argument contrari per fer-lo semblar absurd i fàcil de refutar. L\'apel·lació a l\'autoritat usa el prestigi d\'una persona per avalar una afirmació sense proves. Reconèixer-les no et fa immune, però sí que fa els debats més honestos.',
+      },
+      {
         type: 'key-idea',
-        text: 'Una fal·làcia és un argument amb aparença de validesa però amb un error lògic o retòric. Reconèixer-les és una habilitat fonamental: et protegeix de ser manipulat en debats polítics, publicitat i xarxes socials, i millora la qualitat dels teus propis arguments.',
+        text: 'Una fal·làcia és un argument amb aparença de validesa però amb un error lògic o retòric. Reconèixer-les és una habilitat fonamental: et protegeix de ser manipulat en debats polítics, publicitat i xarxes socials, i millora la qualitat dels teus propis arguments. Les fal·làcies no sempre són intencionals: moltes vegades reflecteixen errors de pensament genuïns.',
       },
       {
         type: 'exercise',
@@ -219,7 +247,7 @@ export const MICROCAPSULES = [
           'Pendent lliscant (salt a un extrem)',
         ],
         correctIndex: 1,
-        explanation: 'El fals dilema presenta dues opcions com si fossin les úniques possibles, eliminant totes les posicions intermèdies o alternatives. En realitat, es pot no estar "amb" algú sense estar-hi "contra": hi ha neutralitat, matisos, desacord parcial...',
+        explanation: 'El fals dilema presenta dues opcions com si fossin les úniques possibles, eliminant totes les posicions intermèdies. En realitat, es pot no estar "amb" algú sense estar-hi "contra": hi ha neutralitat, matisos, desacord parcial...',
       },
     ],
   },
@@ -227,16 +255,20 @@ export const MICROCAPSULES = [
     id: 'mc-desigualtat',
     title: 'Qui té la riquesa del món?',
     emoji: '⚖️',
-    duration: 2,
+    duration: 3,
     areaId: 'societat',
     blocks: [
       {
         type: 'narrative',
-        text: 'Segons Oxfam (2024), el 1% de les persones més riques del món posseeix més riquesa que el 99% restant. Però la desigualtat no és una foto estàtica: és un procés dinàmic. L\'economista Thomas Piketty ho va mostrar amb dades de dos segles: quan la taxa de rendiment del capital supera el creixement econòmic, la riquesa es concentra inevitablement.',
+        text: 'Segons Oxfam (2024), el 1% de les persones més riques del món posseeix més riquesa que el 99% restant. Les 26 persones més riques del món acumulen tanta riquesa com els 3.800 milions de persones més pobres. Però la desigualtat no és una foto estàtica: és un procés dinàmic que s\'accelera.',
+      },
+      {
+        type: 'narrative',
+        text: 'El coeficient de Gini mesura la desigualtat d\'un país en una escala de 0 (igualtat perfecta: tothom té el mateix) a 1 (desigualtat absoluta: una sola persona ho té tot). Els països escandinaus ronden el 0,25. Els EUA estan al 0,39. Brasil i Sud-àfrica superen el 0,55. La Xina ha passat de 0,20 el 1980 a 0,47 avui: la creixement econòmic xinès ha reduït la pobresa però ha disparat la desigualtat interna.',
       },
       {
         type: 'key-idea',
-        text: 'La fórmula de Piketty: r > g. "r" és la taxa de rendiment del capital (dividends, rendes, interessos). "g" és la taxa de creixement econòmic. Quan r > g — que és la norma històrica — els qui ja tenen capital s\'enriqueixen més ràpid que els qui viuen del seu treball.',
+        text: 'La fórmula de Piketty: r > g. "r" és la taxa de rendiment del capital (dividends, rendes, interessos). "g" és la taxa de creixement econòmic. Quan r > g — que és la norma històrica — els qui ja tenen capital s\'enriqueixen més ràpid que els qui viuen del seu treball. Les guerres i la Gran Depressió van ser les úniques interrupcions importants d\'aquesta tendència al segle XX.',
       },
       {
         type: 'exercise',
@@ -266,8 +298,12 @@ export const MICROCAPSULES = [
         text: 'El malentès més comú sobre l\'evolució és creure que és una escala ascendent cap a la perfecció, amb els humans al capdamunt. Però una medusa que no ha canviat en 500 milions d\'anys és tan "evolucionada" com un humà: s\'ha adaptat perfectament al seu ambient. L\'evolució no té direcció ni objectiu. No busca la complexitat ni la intel·ligència.',
       },
       {
+        type: 'narrative',
+        text: 'Un dels exemples més sorprenents és l\'evolució convergent: la mateixa solució inventada de manera independent moltes vegades. Els ulls amb lent han aparegut almenys 40 vegades en línies evolutives completament separades: vertebrats, pop, meduses... L\'ala com a estructura de vol ha aparegut quatre vegades (insectes, pterosaures, aus, ratpenats). Això no vol dir que hi hagi un pla: vol dir que, en determinats ambients, certes solucions funcionen tan bé que l\'evolució les "redescobre" una i altra vegada per selecció natural independent.',
+      },
+      {
         type: 'key-idea',
-        text: 'La selecció natural conserva els trets que incrementen la supervivència i la reproducció en un ambient concret. Si l\'ambient canvia, el que era avantatjós pot convertir-se en un desavantatge. Els ulls de les espècies de coves han degenerat perquè veure no aporta res en la foscor. Això no és regredir: és adaptar-se.',
+        text: 'La selecció natural conserva els trets que incrementen la supervivència i la reproducció en un ambient concret. Si l\'ambient canvia, el que era avantatjós pot convertir-se en un desavantatge. Els ulls de les espècies de coves han degenerat perquè veure no aporta res en la foscor. Això no és regredir: és adaptar-se. L\'evolució és un filtre estadístic sense direcció, no una escala de progrés.',
       },
       {
         type: 'exercise',
@@ -289,16 +325,20 @@ export const MICROCAPSULES = [
     id: 'mc-drets-humans',
     title: '1948: el dia dels drets',
     emoji: '🌍',
-    duration: 2,
+    duration: 3,
     areaId: 'relacions',
     blocks: [
       {
         type: 'narrative',
-        text: 'El 10 de desembre de 1948, a París, l\'Assemblea General de la ONU va adoptar la Declaració Universal dels Drets Humans a les 3 de la matinada. Quaranta-vuit estats van votar a favor, cap en contra. Vuit es van abstenir: l\'URSS, l\'Àfrica del Sud de l\'apartheid i sis estats del bloc soviètic. La redactora principal va ser Eleanor Roosevelt. La Declaració no és un tractat vinculant — però ha inspirat centenars de lleis i tractats que sí ho són.',
+        text: 'El 10 de desembre de 1948, a París, l\'Assemblea General de la ONU va adoptar la Declaració Universal dels Drets Humans a les 3 de la matinada. Quaranta-vuit estats van votar a favor, cap en contra. Vuit es van abstenir: l\'URSS, l\'Àfrica del Sud de l\'apartheid i sis estats del bloc soviètic. La Declaració no és un tractat vinculant — però ha inspirat centenars de lleis i tractats que sí ho són.',
+      },
+      {
+        type: 'narrative',
+        text: 'La principal arquitecta de la Declaració va ser Eleanor Roosevelt, vídua del president americà Franklin D. Roosevelt. Tenia 63 anys, no tenia càrrec oficial i no representava cap govern: era delegada privada. Truman la va nomenar perquè creia que seria un paper decoratiu. En canvi, va presidir el comitè de redacció durant tres anys, va navegar les disputes entre el bloc occidental (drets civils i polítics) i el bloc soviètic (drets econòmics i socials) i va aconseguir un text de consens que cap diplomat professional havia pogut cosir.',
       },
       {
         type: 'key-idea',
-        text: 'Els drets humans es defineixen com universals (per a tothom, a tot arreu), inalienables (no es poden cedir ni treure) i indivisibles (els drets civils i els econòmics i socials estan interconnectats i es reforcen mútuament). Separar-los — acceptar els civils però no els socials — és una posició política, no una necessitat lògica.',
+        text: 'Els drets humans es defineixen com universals (per a tothom, a tot arreu), inalienables (no es poden cedir ni treure) i indivisibles (els drets civils i els econòmics i socials estan interconnectats). Separar-los — acceptar els civils però no els socials — és una posició política, no una necessitat lògica. La Declaració de 1948 no és jurídicament vinculant per si sola, però ha servit de fonament per a centenars de tractats que sí ho són.',
       },
       {
         type: 'exercise',
@@ -312,7 +352,7 @@ export const MICROCAPSULES = [
           'Un text que va ser ratificat per tots els estats membres de l\'ONU',
         ],
         correctIndex: 1,
-        explanation: 'La DUDH és una declaració (no un tractat), de manera que no és jurídicament vinculant per si sola. Però ha servit com a fonament de centenars de tractats vinculants (Pacte Internacional de Drets Civils i Polítics, Convenció contra la Tortura, etc.) i és considerada dret internacional consuetudinari.',
+        explanation: 'La DUDH és una declaració (no un tractat), de manera que no és jurídicament vinculant per si sola. Però ha servit com a fonament de centenars de tractats vinculants (Pacte de Drets Civils i Polítics, Convenció contra la Tortura, etc.) i és considerada dret internacional consuetudinari.',
       },
     ],
   },
@@ -320,7 +360,7 @@ export const MICROCAPSULES = [
     id: 'mc-big-bang-escala',
     title: 'L\'univers en perspectiva',
     emoji: '🌌',
-    duration: 2,
+    duration: 3,
     areaId: 'ciencies',
     blocks: [
       {
@@ -328,8 +368,12 @@ export const MICROCAPSULES = [
         text: 'Si la Terra fos una moneda d\'un euro, el Sol seria una bola de bàsquet a 250 metres. Plutó estaria a 10 km. L\'estrella més propera (Proxima Centauri) estaria a 65.000 km — una volta i mitja al voltant de la Terra. La Via Làctia, amb 200.000 milions d\'estrelles, tindria el diàmetre de la superfície de la Terra. I la Via Làctia és una galàxia típica d\'un univers que en conté com a mínim 2 bilions.',
       },
       {
+        type: 'narrative',
+        text: 'Carl Sagan va proposar el Calendari Còsmic: comprimir tota la història de l\'univers (13.800 milions d\'anys) en un any. En aquesta escala, el Big Bang és l\'1 de gener a mitjanit. La Terra no apareix fins al 2 de setembre. Els dinosaures arriben el 26 de desembre. Tots els humans moderns apareixem el 31 de desembre a les 23:52. Tota la història escrita — Egipte, Grècia, Roma, el Renaixement, la Revolució Industrial — succeeix en els últims 10 segons del 31 de desembre.',
+      },
+      {
         type: 'key-idea',
-        text: 'L\'univers observable té un radi de ~46.000 milions d\'anys llum. La llum, a 300.000 km/s, tarda 8 minuts a arribar del Sol. Tarda 4,2 anys de Proxima Centauri. Tarda 2,5 milions d\'anys de la galàxia d\'Andròmeda. Quan mirem el cel nocturn, estem mirant el passat.',
+        text: 'L\'univers observable té un radi de ~46.000 milions d\'anys llum. La llum, a 300.000 km/s, tarda 8 minuts a arribar del Sol; 4,2 anys de Proxima Centauri; 2,5 milions d\'anys de la galàxia d\'Andròmeda. Quan mirem el cel nocturn, estem mirant el passat. L\'estrella que veiem podria haver mort ja fa milions d\'anys.',
       },
       {
         type: 'exercise',
@@ -356,11 +400,15 @@ export const MICROCAPSULES = [
     blocks: [
       {
         type: 'narrative',
-        text: 'El 14 de juliol de 1789, la multitud de París va assaltar la Bastilla, una presó que simbolitzava l\'absolutisme reial. No hi havia gairebé presos: només set. Però el gest ho va canviar tot. En menys de quatre anys, França va abolir la monarquia, executar el rei i la reina, proclamar la República i iniciar la Declaració dels Drets de l\'Home i del Ciutadà — el text que va inspirar totes les constitucions liberals modernes.',
+        text: 'El 14 de juliol de 1789, la multitud de París va assaltar la Bastilla, una presó que simbolitzava l\'absolutisme reial. No hi havia gairebé presos: només set. Però el gest ho va canviar tot. En menys de quatre anys, França va abolir la monarquia, executar el rei i la reina, proclamar la República i redactar la Declaració dels Drets de l\'Home i del Ciutadà — el text que va inspirar totes les constitucions liberals modernes.',
+      },
+      {
+        type: 'narrative',
+        text: 'El capítol més fosc de la Revolució va ser el Terror (1793-1794): en deu mesos, el Comitè de Salvació Pública dirigit per Robespierre va enviar 17.000 persones a la guillotina i va executar 25.000 més sense judici. El lema de la Revolució — Llibertat, Igualtat, Fraternitat — coexistia amb l\'extermini dels dissidents. Al final, el Terror es va menjar els seus pares: Robespierre mateix va ser guillotinat. La Revolució demostra que les ideologies emancipadores poden derivar en terror quan es creuen en possessió de la veritat absoluta.',
       },
       {
         type: 'key-idea',
-        text: 'La Revolució Francesa (1789-1799) va introduir tres conceptes que van redefinir la política moderna: la sobirania popular (el poder emana del poble, no de Déu ni del rei), la separació de poders (executiu, legislatiu, judicial) i els drets individuals com a límit al poder de l\'estat.',
+        text: 'La Revolució Francesa (1789-1799) va introduir tres conceptes que van redefinir la política moderna: la sobirania popular (el poder emana del poble, no de Déu ni del rei), la separació de poders (executiu, legislatiu, judicial) i els drets individuals com a límit al poder de l\'estat. El seu llegat contradictori — llibertat i terror alhora — és la tensió que estructura la política occidental fins avui.',
       },
       {
         type: 'exercise',
@@ -382,7 +430,7 @@ export const MICROCAPSULES = [
     id: 'mc-forats-negres',
     title: 'Forats negres: un punt de no retorn',
     emoji: '⚫',
-    duration: 2,
+    duration: 3,
     areaId: 'ciencies',
     blocks: [
       {
@@ -390,8 +438,12 @@ export const MICROCAPSULES = [
         text: 'Un forat negre no és un forat: és una regió de l\'espai on la gravetat és tan intensa que res — ni la llum — pot escapar. L\'horitzó d\'esdeveniments és el límit invisible: si hi entres, desapareixes del nostre univers per sempre. El forat negre supermasiu al centre de la nostra galàxia, Sgr A*, pesa 4 milions de vegades el Sol. El 2019 vam fer la primera fotografia d\'un forat negre, a la galàxia M87.',
       },
       {
+        type: 'narrative',
+        text: 'Stephen Hawking va demostrar el 1974 que els forats negres no són eterns: emeten lentament radiació (la radiació de Hawking) i s\'evaporen amb el temps. La raó és quàntica: al voltant de l\'horitzó, parells de partícules i antipartícules apareixen i desapareixen constantment del buit quàntic. Quan un parell apareix just a l\'horitzó, una partícula cau dins i l\'altra escapa. El forat negre perd energia netament. Un forat negre de la massa del Sol tardaria 10⁶⁷ anys a evaporar-se. Un de petit ho faria molt més ràpid — i acabaria en una explosió.',
+      },
+      {
         type: 'key-idea',
-        text: 'L\'horitzó d\'esdeveniments és la frontera sense retorn. Radi de Schwarzschild: r = 2GM/c². Si la Terra es comprimís fins a tenir un radi de 9 mil·límetres, es convertiria en un forat negre. Per a un observador extern, el temps s\'alenteix infinitament a mesura que algú s\'hi acosta.',
+        text: 'L\'horitzó d\'esdeveniments és la frontera sense retorn. Radi de Schwarzschild: r = 2GM/c². Si la Terra es comprimís fins a tenir un radi de 9 mil·límetres, es convertiria en un forat negre. Per a un observador extern, el temps s\'alenteix infinitament a mesura que algú s\'hi acosta; per a qui cau dins, res no sembla anormal fins que és massa tard per tornar.',
       },
       {
         type: 'exercise',
@@ -421,8 +473,12 @@ export const MICROCAPSULES = [
         text: 'El 1961, Stanley Milgram va reclutar voluntaris per a un "experiment d\'aprenentatge" a la Universitat de Yale. Un actor feia de "alumne" i rebia descàrregues elèctriques (falses) cada vegada que s\'equivocava. L\'investigador demanava als voluntaris que pujessen el voltatge fins a 450 volts, marcats com "PERILL". El resultat va ser pertorbador: el 65% dels participants va arribar al voltatge màxim, tot i sentir els crits (gravats) de l\'alumne.',
       },
       {
+        type: 'narrative',
+        text: 'Milgram va explorar les variacions i va descobrir que el context ho canviava tot. Quan l\'autoritat donava les ordres per telèfon en lloc de ser a la mateixa sala, l\'obediència queia al 20%. Quan la víctima estava a la mateixa sala visible, queia al 40%. Quan dos investigadors donaven ordres contradictòries, l\'obediència s\'ensorrà: ningú no va arribar al voltatge màxim. La conclusió era clara: la presència física de l\'autoritat i l\'absència d\'alternative creïbles eren els factors decisius, no la crueltad personal dels participants.',
+      },
+      {
         type: 'key-idea',
-        text: 'L\'experiment de Milgram demostra el poder de l\'autoritat legítima sobre el comportament humà. No era que els participants fossin cruels: la majoria estaven visiblement angoixats. Però la pressió de l\'autoritat ("l\'experiment ha de continuar") era suficient per anular la consciència moral en el 65% dels casos.',
+        text: 'L\'experiment de Milgram demostra el poder de l\'autoritat legítima sobre el comportament humà. No era que els participants fossin cruels: la majoria estaven visiblement angoixats. Però la pressió de l\'autoritat ("l\'experiment ha de continuar") era suficient per anular la consciència moral en el 65% dels casos. Milgram va relacionar els resultats amb el problema filosòfic de com gent normal va poder participar en l\'Holocaust.',
       },
       {
         type: 'exercise',
@@ -444,7 +500,7 @@ export const MICROCAPSULES = [
     id: 'mc-materia-fosca',
     title: 'El 95% de l\'univers és invisible',
     emoji: '🕳️',
-    duration: 2,
+    duration: 3,
     areaId: 'ciencies',
     blocks: [
       {
@@ -452,8 +508,12 @@ export const MICROCAPSULES = [
         text: 'Tot el que podem veure — estrelles, galàxies, gas, planetes — representa el 5% de l\'univers. El 27% és matèria fosca: matèria que no emet ni absorbeix llum, però que sabem que existeix perquè la seva gravetat fa girar les galàxies més ràpid del que haurien. I el 68% restant és energia fosca: una força misteriosa que accelera l\'expansió de l\'univers. No sabem què és cap de les dues.',
       },
       {
+        type: 'narrative',
+        text: 'Per detectar la matèria fosca, els físics han construït detectors en mines a milers de metres de profunditat, allunyats de la radiació còsmica superficial. El detector LUX-ZEPLIN (LZ), a 1.500 metres sota terra a Dakota del Sud, espera que partícules hipotètiques de matèria fosca (WIMPs) xoquin rarament amb àtoms de xenon i emetin un llampec de llum. Fins ara, cap detecció confirmada. O la matèria fosca no interacciona amb la matèria normal d\'aquesta manera, o no existeix tal com la imaginem i caldrà revisar tota la física gravitacional.',
+      },
+      {
         type: 'key-idea',
-        text: 'La matèria fosca és necessària per explicar la rotació de les galàxies: els estels del marge exterior giren tan ràpid que, sense massa extra invisible, haurien de sortir volant. L\'energia fosca s\'infereix de les observacions de supernoves distants: l\'univers no sols s\'expandeix, sinó que s\'accelera. Les dues podrien ser les descobertes més importants de la física del futur.',
+        text: 'La matèria fosca és necessària per explicar la rotació de les galàxies: els estels del marge exterior giren tan ràpid que, sense massa extra invisible, haurien de sortir volant. L\'energia fosca s\'infereix de les observacions de supernoves distants: l\'univers no sols s\'expandeix, sinó que s\'accelera. El 95% de l\'univers és desconegut: és la frontera més gran de la física actual.',
       },
       {
         type: 'exercise',
@@ -475,7 +535,7 @@ export const MICROCAPSULES = [
     id: 'mc-papallona',
     title: 'La papallona que causa l\'huracà',
     emoji: '🦋',
-    duration: 2,
+    duration: 3,
     areaId: 'ciencies',
     blocks: [
       {
@@ -483,8 +543,12 @@ export const MICROCAPSULES = [
         text: 'El 1972, el meteoròleg Edward Lorenz va formular una pregunta provocadora: "El batre d\'ales d\'una papallona al Brasil provoca un tornado a Texas?" No era un argument sobre causes directes, sinó sobre sensibilitat inicial: en sistemes caòtics, diferències ínfimes en les condicions inicials produeixen resultats radicalment diferents. Lorenz ho va descobrir per accident el 1961 quan va arrodonir un número de 0.506127 a 0.506 i el model meteorològic va donar un temps completament diferent.',
       },
       {
+        type: 'narrative',
+        text: 'El caos no és desordre: té una estructura preciosa. L\'atractor de Lorenz — la representació gràfica de com evoluciona un sistema caòtic en l\'espai — té la forma d\'una papallona de dues ales. Les trajectòries del sistema mai no es repeteixen exactament, però sempre ronden les mateixes regions: el sistema és impredictible a llarg termini però no és aleatori. Aquesta geometria fractal és una de les imatges més icòniques de la física del segle XX, i apareix en meteorologia, biologia, economia i fins en el comportament de la borsa.',
+      },
+      {
         type: 'key-idea',
-        text: 'El caos no vol dir aleatòrietat. Sistemes caòtics segueixen lleis deterministes perfectament definides — però són tan sensibles a les condicions inicials que qualsevol error de mesura (per petit que sigui) fa que les prediccions divergeixin exponencialment. Per això el temps meteorològic és impredictible més de dues setmanes: no per falta de coneixement, sinó per principi.',
+        text: 'El caos no vol dir aleatòrietat. Sistemes caòtics segueixen lleis deterministes perfectament definides — però són tan sensibles a les condicions inicials que qualsevol error de mesura (per petit que sigui) fa que les prediccions divergeixin exponencialment. Per això el temps meteorològic és impredictible més de dues setmanes: no per falta de coneixement, sinó per principi matemàtic.',
       },
       {
         type: 'exercise',
@@ -498,7 +562,7 @@ export const MICROCAPSULES = [
           'Un sistema que sempre evoluciona cap al desordre',
         ],
         correctIndex: 1,
-        explanation: 'El caos és determinista: si poguessis conèixer les condicions inicials amb precisió perfecta, podries predir el futur perfectament. El problema és que qualsevol imprecisió de mesura — per petita que sigui — s\'amplifica exponencialment. Això fa les prediccions a llarg termini pràcticament impossibles, no per falta de lleis, sinó per la naturalesa de les equacions.',
+        explanation: 'El caos és determinista: si poguessis conèixer les condicions inicials amb precisió perfecta, podries predir el futur perfectament. El problema és que qualsevol imprecisió de mesura s\'amplifica exponencialment. Això fa les prediccions a llarg termini pràcticament impossibles, no per falta de lleis, sinó per la naturalesa de les equacions.',
       },
     ],
   },
@@ -514,8 +578,12 @@ export const MICROCAPSULES = [
         text: 'Els rellotges dels satèl·lits GPS van ~38 microsegons més ràpid cada dia que els de la Terra. Sembla insignificant, però sense corregir-ho, el GPS acumularia un error de 10 km al dia. La raó és doble: la relativitat especial (velocitat fa alentir el temps) i la relativitat general (la gravetat més feble a l\'òrbita fa anar el rellotge més ràpid). Tots dos efectes s\'han de compensar de forma constant.',
       },
       {
+        type: 'narrative',
+        text: 'La paradoxa dels bessons il·lustra l\'efecte de manera extrema. Si un bessó viatja en una nau a prop de la velocitat de la llum durant el que per ell semblen 10 anys, i torna a la Terra, pot descobrir que el seu germà ha envellit 40, 100 o 1.000 anys, depenent de la velocitat. No és una il·lusió ni un efecte psicològic: el bessó viatger ha viscut realment menys temps. Rellotges biològics, físics i atòmics, tots registren la mateixa diferència. El temps no és absolut: cada cos té el seu propi temps.',
+      },
+      {
         type: 'key-idea',
-        text: 'Dilatació temporal: com més ràpid es mou un objecte (relativitat especial) o com més fort és el camp gravitacional (relativitat general), més lentament transcorre el temps per a ell respecte a un observador extern. No és una il·lusió: és física real amb conseqüències tecnològiques mesurables.',
+        text: 'Dilatació temporal: com més ràpid es mou un objecte (relativitat especial) o com més fort és el camp gravitacional (relativitat general), més lentament transcorre el temps per a ell respecte a un observador extern. No és una il·lusió: és física real amb conseqüències tecnològiques mesurables. El GPS és la prova quotidiana que Einstein tenia raó.',
       },
       {
         type: 'exercise',
@@ -537,7 +605,7 @@ export const MICROCAPSULES = [
     id: 'mc-darwinisme-social',
     title: 'Darwin no va dir el que creus',
     emoji: '🦎',
-    duration: 2,
+    duration: 3,
     areaId: 'ciencies',
     blocks: [
       {
@@ -545,8 +613,12 @@ export const MICROCAPSULES = [
         text: '"Supervivència del més fort" — Darwin mai no va escriure aquesta frase. Va ser Herbert Spencer el 1864. Darwin parlava de "supervivència del més adaptat" (fittest), que significa adaptat a l\'entorn específic, no el més gran ni el més violent. Un bacteri que sobreviu a l\'antibiòtic és "el més adaptat" en aquell context. La força física és irrellevant per a la selecció natural en la majoria de casos.',
       },
       {
+        type: 'narrative',
+        text: 'El "darwinisme social" —aplicar la selecció natural a les societats humanes— va ser usat al segle XIX i XX per justificar el colonialisme (les races "inferiors" estan destinades a ser dominades), l\'eugenèsia (esterilitzar les persones "no aptes") i el laissez-faire econòmic extrem (ajudar els pobres "va contra la naturalesa"). Darwin mateix va criticar aquestes aplicacions: la cooperació i l\'empatia, va escriure, també són trets seleccionats en la nostra espècie, i les societats humanes han sobreviscut gràcies a la solidaritat tant com a la competència.',
+      },
+      {
         type: 'key-idea',
-        text: '"Fittest" en anglès victorià significava "millor ajustat". L\'adaptació pot ser qualsevol tret que incrementa la supervivència i reproducció en un ambient concret: camuflatge, velocitat, cooperació social, resistència a malalties... La selecció natural no té cap preferència per la complexitat ni per la mida.',
+        text: '"Fittest" en anglès victorià significava "millor ajustat". L\'adaptació pot ser qualsevol tret que incrementa la supervivència i reproducció en un ambient concret: camuflatge, velocitat, cooperació social, resistència a malalties. Extrapolar la selecció natural a l\'organització social humana és una fal·làcia naturalista: que alguna cosa "passi a la natura" no implica que sigui desitjable per als humans.',
       },
       {
         type: 'exercise',
@@ -560,7 +632,7 @@ export const MICROCAPSULES = [
           'Que la competència és el motor principal de l\'evolució',
         ],
         correctIndex: 1,
-        explanation: '"Adaptat" vol dir ajustat a l\'ambient concret. La cooperació, el camuflatge o la resistència a malalties poden ser tan "adaptatives" com la força. L\'evolució no maximitza cap atribut concret: selecciona el que funciona en el context actual.',
+        explanation: '"Adaptat" vol dir ajustat a l\'ambient concret. La cooperació, el camuflatge o la resistència a malalties poden ser tan "adaptatius" com la força. L\'evolució no maximitza cap atribut concret: selecciona el que funciona en el context actual.',
       },
     ],
   },
@@ -576,8 +648,12 @@ export const MICROCAPSULES = [
         text: 'Els drets humans s\'han classificat en tres "generacions". La primera: drets civils i polítics (llibertat d\'expressió, dret al vot, prohibició de tortura). La segona: drets econòmics i socials (educació, salut, treball). La tercera: drets col·lectius i de solidaritat (dret al desenvolupament, al medi ambient sa, a la pau). Les dues primeres estan consagrades a pactes internacionals de 1966. La tercera segueix en debat.',
       },
       {
+        type: 'narrative',
+        text: 'Alguns drets són tan fonamentals que no poden ser suspesos ni en estat de guerra o emergència: s\'anomenen normes de ius cogens o drets no derogables. La prohibició de la tortura, del genocidi, de l\'esclavitud i de les execucions sumàries no admeten excepcions. Els governs no poden dir "és una emergència nacional" per justificar-los. Altres drets sí que admeten restriccions temporals en emergència: el dret de reunió o el dret a la lliure circulació, per exemple, es van restringir legítimament durant la pandèmia de COVID.',
+      },
+      {
         type: 'key-idea',
-        text: 'La divisió en generacions és analítica, no jeràrquica. La Declaració de Viena (1993) va confirmar que tots els drets humans són universals, indivisibles, interdependents i interrelacionats. Un estat no pot dir que respecta la llibertat d\'expressió però ignorar el dret a l\'educació: totes les generacions s\'han de complir.',
+        text: 'La divisió en generacions és analítica, no jeràrquica. La Declaració de Viena (1993) va confirmar que tots els drets humans són universals, indivisibles, interdependents i interrelacionats. Un estat no pot dir que respecta la llibertat d\'expressió però ignorar el dret a l\'educació. I els drets no derogables no admeten cap excepció, mai, ni en guerra ni en emergència.',
       },
       {
         type: 'exercise',
@@ -604,11 +680,15 @@ export const MICROCAPSULES = [
     blocks: [
       {
         type: 'narrative',
-        text: 'Imagina presoners encadenats en una cova des de l\'infància, que només veuen ombres projectades a la paret per fogueres que no poden veure. Per a ells, les ombres són la realitat. Un presoner escapa, veu el sol per primer cop i retorna a la cova per alliberar els altres. Però els presoners, acostumats a les ombres, el consideren boig i es neguen a moure\'s. Aquesta és l\'al·legoria de la cova de Plató (c. 380 aC).',
+        text: 'Imagina presoners encadenats en una cova des de l\'infància, que només veuen ombres projectades a la paret per fogueres que no poden veure. Per a ells, les ombres són la realitat. Un presoner escapa, veu el sol per primer cop i retorna a la cova per alliberar els altres. Però els presoners, acostumats a les ombres, el consideren boig i es neguen a moure\'s. Plató diu que això és el que li va passar a Sòcrates: va intentar alliberar els atenesos de les seves il·lusions i el van condemnar a mort.',
+      },
+      {
+        type: 'narrative',
+        text: 'De la cova, Plató va derivar la seua teoria política més radical: el filòsof-rei. Si els filòsofs han vist la llum — la veritat — i la resta de la gent viu en l\'engany de les ombres, és lògic que siguin els filòsofs els qui governin, no la majoria ignorant. Plató era explícitament antidemocràtic: la democràcia, deia, és el govern dels que no saben. Quan Atenes va condemnar Sòcrates per vot popular, Plató va veure-ho com la prova definitiva que la majoria no pot governar bé.',
       },
       {
         type: 'key-idea',
-        text: 'Plató usava la cova per il·lustrar la teoria de les Idees: el món sensible (el que percebem) és com les ombres — una còpia imperfecta de la realitat autèntica (el món de les Idees). La filosofia és el procés d\'escapar de la cova: trencar les cadenes de les opinions per arribar al coneixement verdader.',
+        text: 'Plató usava la cova per il·lustrar la teoria de les Idees: el món sensible (el que percebem) és com les ombres — una còpia imperfecta de la realitat autèntica (el món de les Idees pures). La filosofia és el procés d\'escapar de la cova: trencar les cadenes de les opinions per arribar al coneixement verdader. El Sol de la cova representa la Idea del Bé: el principi suprem de la realitat.',
       },
       {
         type: 'exercise',
@@ -622,7 +702,7 @@ export const MICROCAPSULES = [
           'Els científics que estudien el món físic',
         ],
         correctIndex: 1,
-        explanation: 'Els presoners representen les persones ordinàries que prenen les aparences (opinions, percepcions) per la realitat. La sortida de la cova simbolitza el procés filosòfic d\'ascens cap al coneixement verdader (episteme), que culmina en la visió del Sol, que representa la Idea del Bé.',
+        explanation: 'Els presoners representen les persones ordinàries que prenen les aparences (opinions, percepcions) per la realitat. La sortida de la cova simbolitza el procés filosòfic d\'ascens cap al coneixement verdader (episteme), que culmina en la visió del Sol: la Idea del Bé.',
       },
     ],
   },
@@ -638,8 +718,12 @@ export const MICROCAPSULES = [
         text: 'El 1936, en plena Gran Depressió, John Maynard Keynes va publicar la "Teoria General". La seva idea central era radical per a l\'època: quan l\'economia privada col·lapsa i la gent deixa de gastar, l\'estat ha de substituir la demanda privada amb despesa pública, encara que s\'endeugi. Construir carreteres, pagar sous, fins i tot contractar gent per excavar forats i tornar-los a tapiar: el que importa és mantenir l\'activitat econòmica.',
       },
       {
+        type: 'narrative',
+        text: 'La crisi de 2008 va ser el gran test modern entre keynesianisme i austeritat. Obama va aprovar un estímul de 787.000 milions de dòlars als EUA: la recessió va ser severa però breu. El Regne Unit va fer el mateix inicialment. En canvi, Grècia i Espanya van ser forçades per la UE a aplicar austeritat severa: retallades en sanitat, pensions i salaris públics. El resultat va ser una recessió que es va duplicar i una dècada perduda. El FMI va admetre posteriorment que va subestimar el multiplicador keynesià i que l\'austeritat havia fet més mal del previst.',
+      },
+      {
         type: 'key-idea',
-        text: 'L\'efecte multiplicador keynesià: cada euro gastat per l\'estat genera més d\'un euro d\'activitat econòmica, perquè el treballador que el rep el gasta, i aquell comerciant el reinverteix, etc. El multiplicador pot ser >1 en recessions profundes, quan els recursos estan ociosos. Per contra, reduir la despesa pública en crisi (austeritat) pot aprofundir la recessió.',
+        text: 'L\'efecte multiplicador keynesià: cada euro gastat per l\'estat genera més d\'un euro d\'activitat econòmica, perquè el treballador que el rep el gasta, i aquell comerciant el reinverteix, etc. El multiplicador pot ser >1 en recessions profundes, quan els recursos estan ociosos. Per contra, retallar la despesa pública en crisi (austeritat) pot aprofundir la recessió: és la fallida de l\'analogia entre l\'economia familiar i l\'economia nacional.',
       },
       {
         type: 'exercise',
@@ -661,16 +745,20 @@ export const MICROCAPSULES = [
     id: 'mc-music-beethoven',
     title: 'Beethoven va compondre sord',
     emoji: '🎼',
-    duration: 2,
+    duration: 3,
     areaId: 'arts',
     blocks: [
       {
         type: 'narrative',
-        text: 'Als 26 anys, Ludwig van Beethoven va notar els primers símptomes de sordesa. Als 44, era completament sord. Tot i això, va compondre algunes de les seves obres més revolucionàries en aquest estat: la 5a Simfonia (la del famós "ta-ta-ta-taaaam"), la 9a Simfonia (l\'Oda a l\'Alegria) i els seus últims quartets de corda. Als assajos, posava el cap al piano per sentir les vibracions. Era capaç d\'imaginar el so sense sentir-lo.',
+        text: 'Als 26 anys, Ludwig van Beethoven va notar els primers símptomes de sordesa. Als 44, era completament sord. Tot i això, va compondre algunes de les seves obres més revolucionàries en aquest estat: la 5a Simfonia, la 9a (l\'Oda a l\'Alegria) i els seus últims quartets de corda. Als assajos, posava el cap al piano per sentir les vibracions. Era capaç d\'imaginar el so sense sentir-lo.',
+      },
+      {
+        type: 'narrative',
+        text: 'El 1802, quan Beethoven tenia 32 anys i acabava de comprendre que la sordesa seria irreversible, va escriure una carta al seus dos germans que mai no va enviar: el Testament de Heiligenstadt. Hi escrivia que havia pensat en el suïcidi, però que havia decidit continuar vivint per a la música. "Sols la virtut i l\'art em van retenir", escrivia. Va guardar la carta fins a la mort: la van trobar al calaix. La 9a Simfonia, estrenada el 1824, és en part la resposta musical a aquell moment de crisi.',
       },
       {
         type: 'key-idea',
-        text: 'La 9a Simfonia, estrenada el 1824, va ser la primera simfonia de la història a incorporar cors i solistes vocals en el seu moviment final. El dia de l\'estrena, Beethoven estava completament sord i va estar d\'esquena al públic. Un solista va haver de girar-lo per veure l\'ovació del públic. Ningú no se l\'havia dit.',
+        text: 'La 9a Simfonia, estrenada el 1824, va ser la primera simfonia de la història a incorporar cors i solistes vocals en el seu moviment final. El dia de l\'estrena, Beethoven estava completament sord i va estar d\'esquena al públic dirigint els moviments (un director de veritat dirigia darrera seu). Un solista va haver de girar-lo per veure l\'ovació. Ningú no se l\'havia dit: no podia sentir els aplaudiments.',
       },
       {
         type: 'exercise',
