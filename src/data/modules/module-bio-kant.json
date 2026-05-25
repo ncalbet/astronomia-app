@@ -1,0 +1,168 @@
+{
+  "id": "module-bio-kant",
+  "title": "Immanuel Kant: el filòsof que no va sortir mai de Königsberg",
+  "emoji": "📐",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "kant-01",
+      "title": "El rellotge de Königsberg",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Dues coses omplen el meu ànim d'admiració i reverència sempre creixents: el cel estelat sobre mi i la llei moral dins meu.",
+          "author": "Immanuel Kant"
+        },
+        {
+          "type": "narrative",
+          "text": "Immanuel Kant va néixer el 1724 a Königsberg, Prússia —la ciutat que avui es diu Kaliningrad i pertany a Rússia. No va sortir mai de la seua regió natal. Tenia una rutina tan rígida que els veïns deien que podien posar en hora el rellotge quan el veien passejar: sortia exactament a les tres i mitja de la tarda, cada dia. L'únic cop que es va endarrerir va ser quan llegia el Rousseau i no podia parar."
+        },
+        {
+          "type": "narrative",
+          "text": "Kant era fill d'un artesà guarnicionista. Va estudiar filosofia, ciències naturals, matemàtiques i astronomia a la Universitat de Königsberg. Va treballar durant deu anys com a preceptor privat per guanyar-se la vida. Als 46 anys va obtenir finalment una plaça de professor. Va publicar la seua primera obra filosòfica gran —la Crítica de la raó pura— als 57 anys. La major part del seu pensament el va escriure en la vellesa."
+        },
+        {
+          "type": "key-idea",
+          "text": "La revolució copernicana de Kant: tal com Copèrnic va moure el centre del sistema solar del Sol a la Terra, Kant va proposar moure el centre del coneixement de l'objecte al subjecte. No adaptem el coneixement al món; adaptem el món a les estructures del nostre enteniment. Espai, temps i causalitat no estan 'allà fora': els posem nosaltres."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            { "year": "1724", "text": "Neix a Königsberg, Prússia" },
+            { "year": "1770", "text": "Obté la càtedra de lògica i metafísica a Königsberg" },
+            { "year": "1781", "text": "Publica la Crítica de la raó pura (tenia 57 anys)" },
+            { "year": "1785", "text": "Publica la Fonamentació de la metafísica dels costums" },
+            { "year": "1788", "text": "Publica la Crítica de la raó pràctica" },
+            { "year": "1795", "text": "Publica La pau perpètua" },
+            { "year": "1804", "text": "Mor a Königsberg, sense haver-la abandonat mai" }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-kant-01-01",
+          "style": "multiple-choice",
+          "question": "Quina és la 'revolució copernicana' de Kant en filosofia?",
+          "options": [
+            "Va defensar el model heliocèntric contra els filòsofs escolàstics",
+            "Va situar el subjecte (la ment humana) com a centre del coneixement, en lloc de l'objecte",
+            "Va argumentar que el Sol era el centre de l'univers moral",
+            "Va demostrar que la raó humana pot conèixer l'univers infinit"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Kant va invertir la pregunta filosòfica: en lloc de 'com s'adapta la ment al món?', va preguntar 'com adapta la ment el món a les seves pròpies estructures?'. El subjecte passa al centre.",
+          "feedbackWrong": "La revolució de Kant és filosòfica: va moure el centre del coneixement de l'objecte extern a les estructures de la ment que coneix."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-kant-01-01",
+          "question": "Per quin autor va Kant trencar la seva famosa rutina de passeig puntual?",
+          "options": [
+            "Per Voltaire i el seu Càndid",
+            "Per Jean-Jacques Rousseau i l'Emili",
+            "Per David Hume i el Tractat de la naturalesa humana",
+            "Per Leibniz i la Teodicea"
+          ],
+          "correct": 1,
+          "explanation": "Kant va confessar que Rousseau l'havia commogut profundament, especialment l'Emili. L'anècdota dels veïns que posaven el rellotge en hora quan el veien passejar és real —o almenys molt divulgada— i l'excepció de Rousseau és la que s'explica a les biografies."
+        }
+      ]
+    },
+    {
+      "id": "kant-02",
+      "title": "La Crítica: com coneixem el que coneixem",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Pensaments sense contingut són buits; intuïcions sense conceptes són cegues.",
+          "author": "Immanuel Kant, Crítica de la raó pura"
+        },
+        {
+          "type": "narrative",
+          "text": "Kant deia que Hume l'havia 'despertat del somni dogmàtic'. Hume havia demostrat que no podem veure la causalitat: només veiem successió d'esdeveniments, i la ment infereix una causa. Si la causalitat no és en el món sinó en la ment, ¿en quina base es fonamenta la ciència? Kant va passar onze anys treballant en la resposta: la Crítica de la raó pura (1781)."
+        },
+        {
+          "type": "narrative",
+          "text": "La resposta de Kant: espai, temps i causalitat no estan 'al món' ni tampoc són simples hàbits mentals. Són estructures a priori de la nostra ment: condicions sense les quals no podem tenir cap experiència possible. No percebem el món tal com és en si mateix (la 'cosa en si', el noümen), sinó el món tal com el nostra ment l'organitza (el fenomen). La ciència és vàlida, però dins d'uns límits: no pot parlar de Déu, la llibertat o l'ànima, perquè aquests conceptes van més enllà de l'experiència possible."
+        },
+        {
+          "type": "key-idea",
+          "text": "Fenomen vs. noümen (Kant): El fenomen és el món tal com el percebem, estructurat per les nostres facultats mentals (espai, temps, causalitat). El noümen és la 'cosa en si', el món tal com és independentment de la nostra percepció. Kant afirma que no podem conèixer el noümen: la nostra ment sempre hi imposa la seva estructura."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-kant-02-01",
+          "style": "multiple-choice",
+          "question": "Quin problema filosòfic de Hume va provocar que Kant escrivís la Crítica de la raó pura?",
+          "options": [
+            "Hume havia argumentat que Déu no existia i Kant volia refutar-ho",
+            "Hume havia demostrat que no podem percebre directament la causalitat, posant en dubte el fonament de la ciència",
+            "Hume havia defensat l'empirisme absolut i Kant volia defensar el racionalisme pur",
+            "Hume havia argumentat que el temps era una il·lusió de la ment"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. Si la causalitat no és en el món sinó un hàbit mental, la física de Newton —basada en causes i efectes— no té fonament racional. Kant volia salvar la ciència demostrant que l'espai, el temps i la causalitat són estructures necessàries de la ment.",
+          "feedbackWrong": "El problema central era la causalitat: Hume havia mostrat que no la percebem directament, i Kant volia demostrar per què la ciència era vàlida malgrat això."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-kant-02-01",
+          "question": "Segons Kant, per quin motiu no podem conèixer 'la cosa en si' (noümen)?",
+          "options": [
+            "Perquè és massa petita per ser observada amb instruments",
+            "Perquè la nostra ment sempre imposa les seves pròpies estructures a allò que percep",
+            "Perquè la cosa en si es troba en un altre pla de l'existència",
+            "Perquè el nostre cervell no ha evolucionat prou per percebre la realitat"
+          ],
+          "correct": 1,
+          "explanation": "Per a Kant, no és una limitació tecnològica sinó estructural: la nostra ment organitza tota experiència amb les categories d'espai, temps i causalitat. No podem sortir de la nostra ment per veure el món 'nu', sense aquestes estructures."
+        }
+      ]
+    },
+    {
+      "id": "kant-03",
+      "title": "L'imperatiu categòric i la pau perpètua",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Actua només segons aquella màxima per la qual puguis voler alhora que es converteixi en llei universal.",
+          "author": "Immanuel Kant"
+        },
+        {
+          "type": "narrative",
+          "text": "Si la Crítica de la raó pura tractava el coneixement, la Crítica de la raó pràctica (1788) tractava la moral. Kant volia fonamentar l'ètica en la raó pura, sense dependre de Déu, les emocions ni les conseqüències. La seua resposta va ser l'imperatiu categòric: una acció és moralment correcta si la màxima que la guia pot ser universalitzada sense contradicció. No menteixis perquè si tothom mentís, el concepte de veritat deixaria de tenir sentit. L'imperatiu no depèn de qui ets ni de les conseqüències: és incondicional."
+        },
+        {
+          "type": "narrative",
+          "text": "El 1795, Kant va publicar La pau perpètua: un tractat on proposava una federació de repúbliques lliures com a base per a la pau duradora. Defensava que els estats republicans —on els ciutadans decideixen sobre la guerra— difícilment es declararan guerres entre si, perquè els ciutadans suporten les conseqüències. Aquesta idea —que les democràcies no es fan la guerra— és un dels fonaments de la teoria liberal de les relacions internacionals i va influir directament en el disseny de la Lliga de Nacions i, posteriorment, l'ONU."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'imperatiu categòric: una acció és moralment correcta si i només si la màxima que la guia pot convertir-se en llei universal sense contradicció. Exemple: 'Mai no mentiré' pot universalitzar-se (si tothom diu sempre la veritat, el món és coherent); 'Mentiré quan em convingui' no pot (si tothom mentís quan li convingués, el concepte de veritat i de promesa s'enfonsa)."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-kant-03-01",
+          "style": "multiple-choice",
+          "question": "Quin text de Kant va influir en el disseny d'organismes internacionals com la Lliga de Nacions o l'ONU?",
+          "options": [
+            "La Crítica de la raó pura",
+            "La Fonamentació de la metafísica dels costums",
+            "La paz perpètua",
+            "La Crítica del judici"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Correcte. A La pau perpètua (1795), Kant va proposar una federació de repúbliques com a garantia de pau duradora. Woodrow Wilson va citar Kant en dissenyar la Lliga de Nacions.",
+          "feedbackWrong": "Va ser La pau perpètua (1795), on Kant argumentava que una federació de repúbliques lliures era la base per a una pau duradora entre nacions."
+        },
+        {
+          "type": "what-would-you-do",
+          "id": "wwyd-kant-03-01",
+          "scenario": "Un amic t'amaga a casa mentre un assassí el cerca. L'assassí truca a la porta i et pregunta si el teu amic és allà. Kant deia que havies de dir la veritat sempre, fins i tot en aquest cas. La majoria de la gent intueix que hauries de mentir per salvar l'amic.",
+          "question": "Quin dilema filosòfic il·lustra aquest cas? Tens raó tu o la té Kant?",
+          "reflection": "És el dilema clàssic de l'assassí a la porta. Kant mantenia que mentir és sempre incorrecte perquè viola l'imperatiu categòric: si tothom mentís quan li convingués, cap promesa ni declaració tindria valor. Els seus crítics —com Benjamin Constant— argumentaven que una ètica que no té en compte les conseqüències és rígida fins a l'absurd. Schiller va satiritzar-ho: 'Serveixo els meus amics amb plaer, però ho faig per inclinació, de manera que em preocupa que no sigui virtuós.'"
+        }
+      ]
+    }
+  ]
+}

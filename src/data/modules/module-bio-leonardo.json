@@ -1,0 +1,181 @@
+{
+  "id": "module-bio-leonardo",
+  "title": "Leonardo da Vinci: el geni que no acabava res",
+  "emoji": "🎨",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "leo-01",
+      "title": "El bastard de Vinci: de l'obrador a la cort dels Sforza",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "La pintura és poesia que es veu i no s'escolta, i la poesia és pintura que s'escolta i no es veu.",
+          "author": "Leonardo da Vinci, Quaderns"
+        },
+        {
+          "type": "narrative",
+          "text": "Leonardo di ser Piero da Vinci va néixer el 15 d'abril del 1452 a Vinci, Toscana, fill il·legítim d'un notari, ser Piero, i d'una camperola, Caterina. La il·legitimitat va determinar el seu destí: no podia heretar el negoci del seu pare ni entrar en la majoria de les gremis intel·lectuals. Va ser adoptat per la família del pare però criat en un llindar social ambigu. Als catorze anys, el seu pare el va portar a Florència i el va col·locar en l'obrador d'Andrea del Verrocchio, el millor taller de la ciutat —potser del món. A Verrocchio's es fabricava tot: pintura, escultura, joieria, armadura, maquinària. Un dels companys de taller era Sandro Botticelli. Leonardo hi va aprendre a pintar, esculpir, treballar el metall i dissenyar mecanismes. Quan tenia uns vint anys, Verrocchio li va encomanar un àngel per a una Baptisme de Crist que estava pintant. Segons Vasari, l'àngel de Leonardo era tan superior a la resta que Verrocchio va deixar de pintar. L'anècdota pot ser llegendària, però l'àngel del cantó esquerre del quadre és, efectivament, d'una qualitat extraordinàriament diferent. El 1482, Leonardo va marxar a Milà per servir Ludovico Sforza, el Duc de Milà. Va escriure una carta presentant-se com a enginyer militar i inventor —no com a pintor. A Milà va passar divuit anys: l'època de l'Última Cena, dels grans quaderns, dels projectes impossibles."
+        },
+        {
+          "type": "key-idea",
+          "text": "Leonardo va refusar la separació entre art i ciència que la tradició acadèmica imposava. Dissecava cadàvers per pintar millor els músculs. Estudiava el flux de l'aigua per pintar millor els draps. Observava els ocells per dissenyar màquines de volar. La seva integració entre observació, experiment i representació era completament original en el seu temps —i en molts aspectes ho continua sent."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            { "year": "1452", "title": "Naix a Vinci, Toscana", "text": "Fill il·legítim de notari i camperola. La il·legitimitat li tanca les vies acadèmiques convencionals." },
+            { "year": "1466", "title": "Obrador de Verrocchio, Florència", "text": "Aprèn pintura, escultura, enginyeria. L'àngel del Baptisme de Crist impressiona el mestre." },
+            { "year": "1482", "title": "Marxa a Milà / Ludovico Sforza", "text": "S'ofereix com a enginyer militar, no com a pintor. Comença el gran període de creació." },
+            { "year": "1495-98", "title": "L'Última Cena", "text": "Pintura mural al refectori de Santa Maria delle Grazie. Tècnica experimental que comença a deteriorar-se en vida de Leonardo." },
+            { "year": "1499", "title": "Deixa Milà (invasió francesa)", "text": "Vaga per Màntua, Venècia, Florència. El 1503 comença la Gioconda. Mai la lliura." },
+            { "year": "1516", "title": "Convidat per Francesc I de França", "text": "Viu al castell d'Amboise com a hoste del rei. Porta els quaderns i la Gioconda. Mor el 1519." }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-leo-01-01",
+          "style": "multiple-choice",
+          "question": "Quan Leonardo va escriure a Ludovico Sforza per oferir-se al seu servei, com es va presentar principalment?",
+          "options": [
+            "Com el millor pintor d'Itàlia, que havia estudiat a l'obrador de Verrocchio i havia superat el seu mestre en la representació de la figura humana",
+            "Com a enginyer militar i inventor, capaç de dissenyar ponts portàtils, canons, màquines de guerra i sistemes de defensa —i també, accessòriament, com a pintor",
+            "Com a filòsof natural i científic, interessat en l'anatomia, la botànica i la mecànica, disciplines que creia que el servei a la cort li permetria practicar",
+            "Com a escultor i arquitecte especialista en monuments equestres, per a la qual cosa necessitava el suport financer d'un gran mecenes"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. La carta que Leonardo va escriure a Ludovico Sforza —conservada en un esborrany als seus quaderns— descriu deu capacitats militars i d'enginyeria (ponts portàtils, canons, vehicles blindats, sistemes de setge, tubs d'incendi) i al final, gairebé com a nota a peu de pàgina, afegeix que 'en temps de pau' pot pintar, esculpir i fer arquitectura. Era una presentació perfectament calculada per a les necessitats d'un duc que s'havia de defensar dels seus enemics. Leonardo entenia que la demanda del mercat no era la seva millor pintura sinó la seva utilitat militar.",
+          "feedbackWrong": "Leonardo es va presentar principalment com a enginyer militar, amb una llarga llista de capacitats militars. La pintura apareix gairebé com a nota a peu de pàgina al final de la carta. Era una decisió estratègica: Ludovico Sforza necessitava enginyers, no pintors."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-leo-01-01",
+          "question": "Leonardo era fill il·legítim i no podia accedir a les universitats ni a molts gremis. La seva il·legitimitat el va limitar o el va alliberar?",
+          "options": [
+            "El va limitar: sense formació universitària en llatí i filosofia, va haver de treballar en un marc conceptual menor que els humanistes universitaris de la seva època",
+            "El va alliberar: sense la càrrega de l'escolàstica medieval i l'autoritat dels textos clàssics, va poder observar la naturalesa directament i formular les seves pròpies categories",
+            "Ambdues coses: la il·legitimitat li va tancar certes vies (la filosofia universitària, el llatí com a llengua acadèmica) i li va obrir d'altres (l'obrador, la tècnica, l'observació empírica). La suma va ser un tipus de geni diferent dels humanistes contemporanis —ni millor ni pitjor, sinó radicalment diferent"
+          ],
+          "correct": 2,
+          "explanation": "La relació entre la il·legitimitat de Leonardo i la seva originalitat és un dels temes centrals de la seva biografia. La posició A (limitació) té suport: Leonardo va lamentar en els seus quaderns no conèixer el llatí, que era la llengua del saber acadèmic. Va estudiar llatí de gran i va acumular una biblioteca important, però sempre va sentir que no tenia accés a la tradició erudita dels humanistes. La posició B (alliberament) és la que defensen biògrafs com Walter Isaacson: sense l'autoritat dels textos clàssics, Leonardo va aprendre a observar directament —i en la observació directa va superar tots els seus contemporanis. La posició C és la síntesi: la il·legitimitat va crear un perfil específic, ni millor ni pitjor que el dels humanistes universitaris, sinó diferent. El resultat va ser un tipus de coneixement que combinava l'enginyeria de l'obrador amb la filosofia natural —una combinació completament nova."
+        }
+      ]
+    },
+    {
+      "id": "leo-02",
+      "title": "L'artista-científic: entre la Gioconda i l'anatomia",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Els quaderns de Leonardo son el document més extraordinari de la historia de la ciència i l'art. Se'n conserven unes 7.200 pàgines —es calcula que n'existien unes 13.000. Escrits en italià, en escriptura especular d'esquerra a dreta (que s'ha interpretat com a secret, però que probablement era simplement còmoda per a un esquerrà). Cobreixen: anatomia (va dissecar més de trenta cadàvers, els seus dibuixos anatòmics son segles per davant de qualsevol altre), botànica, geologia, òptica, hidràulica, mecànica, arquitectura, urbanisme, enginyeria militar. Els seus dibuixos de màquines voladores, tancs, grans canons, serres hidràuliques i concentradors d'energia solar anticipen invencions que trigarien segles en materialitzar-se —però la majoria no van passar del paper. Les seves obres pictòriques acabades eren sorprenentment poques: la Verge de les Roques (dues versions), L'Última Cena (mural experimental que ja es deteriorava en vida seva), la Gioconda, Santa Anna amb la Verge i el Nen, Ladà amb el Cigne, la Dama amb l'Ermini. Menys de vint quadres atribuïbles amb certesa en cinquanta anys de carrera activa. L'Última Cena va ser pintada amb una tècnica experimental (no fresc sinó tempera sobre guix) que va permettre a Leonardo retocar i modificar mentre treballava —però que va fer que comencés a deteriorar-se poc després d'acabar-la. 'La cosa més lamentable que mai hagin vist en art', va escriure un visitant cinquanta anys després. Avui es conserva com a fantasma de la seva versió original."
+        },
+        {
+          "type": "primary-source",
+          "label": "Leonardo da Vinci, Quaderns (circa 1490-1510)",
+          "source": "Leonardo da Vinci, Quaderns, diverses entrades. Edició de Jean Paul Richter, 1883.",
+          "text": "«El pintor que no dubta de si mateix avança molt poc. Quan l'obra supera el judici del que l'ha feta, és un signe de mal judici; però quan el judici supera sempre l'obra, l'artista no progressarà mai a menys que la seva ambició no el faci créixer.\n\nEl coneixement de totes les coses és possible. El que estudia la naturalesa ho fa més per amor que per guany. L'experiència és la mare de tota certesa. L'experiència no s'equivoca mai; els vostres judicis s'equivoquen en esperar d'ella el que no és en el seu poder.\n\nEls quatre poders de la naturalesa son: memòria i intel·lecte, desig i concupiscència. Les dues primeres son de la raó, les dues darreres dels sentits.»",
+          "questions": [
+            "Leonardo escriu que 'quan l'obra supera el judici del que l'ha feta, és senyal de mal judici'. Qué implica per a la relació entre l'artista i la seva obra? Pot un artista jutjar correctament la seva pròpia feina?",
+            "La frase 'l'experiència és la mare de tota certesa' es pot llegir com una declaració d'empirisme avant la lettre —dos segles abans de Locke i Hume. Fins a quin punt Leonardo era conscient de la radicalitat filosòfica de la seva posició?",
+            "Leonardo va escriure milions de paraules en els quaderns però va publicar gairebé res. Qué diu sobre la relació entre el pensament i la comunicació? Escriure per a un mateix és diferent d'escriure per als altres?"
+          ]
+        },
+        {
+          "type": "what-would-you-do",
+          "character": "Leonardo",
+          "emoji": "🎨",
+          "year": "1516",
+          "setup": "Francesc I de França t'ha convidat a viure al castell d'Amboise com a hoste del rei. Tens seixanta-quatre anys. La Gioconda, que un comerciant florentí et va encarregar el 1503 per retratar la seva dona, la portes amb tu —mai lliurada, retocada durant tretze anys. El mercader Francesco del Giocondo mai va rebre el retrat. A Amboise podries treballar lliurament i sense pressions. Però quan el rei et demana que li mostris la Gioconda, veus els seus ulls brillar: la voldria per a la col·lecció reial.",
+          "dilemma": "Lliures la Gioconda a Francesc I, cobres i tanques aquest capítol? O la conserves com sempre —dient-te que la pots millorar una mica més?",
+          "options": [
+            { "id": "A", "text": "La lliuro: és una obra mestra completa. Guardar-la per mi és egoisme disfressat de perfeccionisme" },
+            { "id": "B", "text": "La conservo: sempre hi ha alguna cosa que es pot millorar. Una obra que es pot perfeccionar no és acabada" }
+          ],
+          "reveal": "Leonardo va morir el 2 de maig del 1519 a Amboise. La Gioconda va ser trobada entre les seves pertinences. Francesc I la va adquirir de l'herència. La va penjar al seu bany. Segles més tard va acabar al Louvre.",
+          "analysis": "La Gioconda no lliurada és la metàfora perfecta de la vida de Leonardo: una obra que mai no va considerar acabada perquè la visió superava sempre l'execució. El perfeccionisme de Leonardo és llegendari però també paradoxal: era incapaç de dir 'prou' precisament perquè el seu judici era tan fi que sempre veia el que faltava. Que la seva obra inacabada —la Gioconda, els quaderns sense publicar, les escultures mai foses— sigui el que defineix el seu llegat és una de les ironies de la historia de l'art."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-leo-02-01",
+          "style": "detect-error",
+          "statement": "L'Última Cena de Leonardo, pintada al refectori de Santa Maria delle Grazie a Milà, és un fresc convencional que s'ha conservat excepcionalment bé gràcies a les tècniques de restauració modernes.",
+          "isCorrect": false,
+          "feedbackExplanation": "Incorrecte en dos aspectes. Primer, no és un fresc convencional: Leonardo va usar una tècnica experimental (tempera i vernís sobre guix sec) que li permetia retocar i modificar mentre treballava, a diferència del fresc tradicional (que s'ha d'executar ràpidament sobre guix humit). Segon, la conservació ha estat tot el contrari d'excepcional: la tècnica experimental va fer que comencés a deteriorar-se en vida de Leonardo. Visitants del segle XVI ja la descrivien com a quasi irreconeixible. Ha estat restaurada múltiples vegades, la darrera entre 1978 i 1999. El que veiem avui és una reconstrucció parcial d'una obra molt deteriorada."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-leo-02-01",
+          "question": "Els quaderns de Leonardo contenien dissenys de màquines voladores, tancs i helicòpters segles avant de la seva realització. Per qué no va construir cap d'ells?",
+          "options": [
+            "Per falta de recursos: necessitava el suport de mecenes per construir les màquines, i els mecenes prioritzaven obres d'art i arquitectura sobre experiments",
+            "Perquè les màquines eren impossibles amb els materials disponibles: el pes dels materials del segle XV feia impossibles la majoria dels seus dissenys, per genials que fossin en paper",
+            "Per la mateixa raó que no acabava els quadres: el disseny era el seu plaer, no la construcció. Passar del concepte al prototip requeria un tipus de persistència i d'enfocament que no tenia"
+          ],
+          "correct": 2,
+          "explanation": "Les tres respostes contenen elements de veritat. La posició A (falta de recursos) és parcialment certa: Leonardo treballava sota mecenatge i els seus patrons no sempre finançaven els projectes tecnològics. La posició B (limitació material) té suport tècnic: moltes de les seves màquines no haurien funcionat amb els materials del segle XV, i els enginyers que les han construït en els segles XX i XXI han hagut de modificar els dissenys. Però la posició C és probablement la més profunda: Leonardo era un pensador visual que gaudia del procés de disseny, de la resolució de problemes en paper. La construcció era una altra fase —més mundana, més repetitiva, menys satisfactòria per a una ment que sempre anava cap al proper problema. El mateix patró explica els quadres no acabats, les escultures no foses, els tractats mai publicats."
+        }
+      ]
+    },
+    {
+      "id": "leo-03",
+      "title": "El geni incomplet: per qué Leonardo no acabava res",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El paradox central de Leonardo és que és considerat el geni més gran de la historia occidental —i deixà extraordinàriament poca feina acabada. En cinquanta anys de carrera activa: menys de vint quadres atribuïbles amb certesa. Cap escultura conservada (el monument eqüestre a Francisco Sforza, en el qual va treballar disset anys, va ser fos per fer canons quan els francesos van envair Milà). Cap dels seus tractats va ser publicat en vida. Cap de les seves màquines va ser construïda. Els quaderns —el seu llegat principal— van ser dispersats entre els seus deixebles i hereus després de la seva mort, i alguns van ser perduts per sempre. Per qué? Tres explicacions complementàries. Primera: el perfeccionisme. Leonardo tenia un judici tan fi que sempre veia el que faltava en la seva pròpia obra. Cada quadre podia millorar-se. Cada disseny podia refinar-se. El criteri era impossible de satisfer. Segona: la curiositat. Una ment que és igualment capaç de pintar, dissenyar canons, estudiar anatomia, planificar ciutats i investigar el vol dels ocells és una ment que salts de problema en problema. Acabar una cosa significava deixar de pensar en el proper problema. Tercera: el mecenatge. Leonardo treballava per encàrrec. Quan el mecenes moria o el seu favor canviava, els projectes quedaven incomplets. La invasió francesa de Milà el 1499 va acabar disset anys de feina en una nit. Però les tres explicacions apunten al mateix nucli: Leonardo valorava el procés de conèixer per sobre del producte del coneixement."
+        },
+        {
+          "type": "before-after",
+          "title": "El llegat de Leonardo: dels quaderns dispersos al mite",
+          "before": {
+            "label": "Leonardo en vida i just després (1452-1600)",
+            "points": [
+              "Reconegut com a gran pintor però amb reputació de no acabar els encàrrecs",
+              "Quaderns dispersats entre deixebles i hereus. Molts perduts. Cap publicat",
+              "Les màquines i invencions desconegudes al gran públic",
+              "L'Última Cena ja molt deteriorada cinquanta anys després de ser pintada"
+            ]
+          },
+          "after": {
+            "label": "Leonardo des del Romanticisme fins avui",
+            "points": [
+              "Mite del 'geni universal' construït pels romàntics del segle XIX",
+              "Quaderns redescoberta parcialment al s. XIX i publicats al s. XX",
+              "Les màquines construïdes i provades per museus i cineastes: moltes funcionen",
+              "Gioconda al Louvre: l'obra d'art més visitada del món, icona global"
+            ]
+          },
+          "insight": "El Leonardo que coneixem és en part una construcció pòstuma: el mite del geni universal va ser construït pels biògrafs romàntics que van llegir els quaderns com un tot coherent que Leonardo mai va presentar com a tal. La dispersió dels quaderns —que sembla una tragèdia— va permetre que cada generació construís el seu propi Leonardo."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-leo-03-01",
+          "style": "multiple-choice",
+          "question": "Qué va passar amb els quaderns de Leonardo després de la seva mort?",
+          "options": [
+            "Van ser llegats a la Biblioteca Ambrosiana de Milà, que els va publicar íntegrament al segle XVI, fent que les seves idees científiques influïssin en la revolució científica del XVII",
+            "Van ser destruïts per ordre de Francesc I de França, que els considerava secrets militars que no podien caure en mans dels enemics",
+            "Van ser dispersats entre els seus deixebles i hereus, molts van ser perduts, i la seva publicació va ser fragmentària i parcial durant segles",
+            "Van ser donats al Papa Lleó X, que els va guardar als arxius vaticans on van romandre sense ser llegits fins al segle XX"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. Quan Leonardo va morir, va llegar la major part dels quaderns al seu deixeble Francesco Melzi, que els va conservar curosament. Però quan Melzi va morir, els quaderns van ser dispersats: els seus hereus els van vendre per peces, els van regalar, els van perdre. Avui els quaderns de Leonardo estan repartits en dotze institucions de cinc països: la Royal Collection a Windsor, la Biblioteca Ambrosiana de Milà (Codex Atlanticus), el Louvre, el British Museum i d'altres. Es calcula que es van perdre aproximadament la meitat dels quaderns originals.",
+          "feedbackWrong": "Els quaderns van ser dispersats entre els seus hereus i deixebles, molts van ser perduts, i la seva publicació va ser fragmentària durant segles. Avui estan repartits en dotze institucions de cinc països."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-leo-03-01",
+          "question": "El mite de Leonardo com a 'geni universal' és una construcció pòstuma dels biògrafs romàntics del segle XIX. Fins a quin punt el 'Leonardo' que coneixem és real?",
+          "options": [
+            "El mite no distorsiona gaire: les capacitats de Leonardo son documentades en els quaderns i les obres. El geni era real, independentment de com cada època l'hagi interpretat",
+            "El mite distorsiona significativament: els romàntics van seleccionar i organitzar els quaderns dispersos per crear la imatge del geni total que Leonardo mai va presentar de si mateix",
+            "La veritat és que el mite i la realitat son inseparables: el 'Leonardo' que coneixem és la intersecció entre les capacitats reals documentades i les projeccions de cada època sobre el que significa un geni. Totes les dues coses son reals"
+          ],
+          "correct": 2,
+          "explanation": "La pregunta sobre l'autenticitat del mite de Leonardo és una de les més interessants de la historia cultural. La posició A (mite fidel a la realitat) té suport: les capacitats documentades als quaderns son reals i extraordinàries. Però la posició B (distorsió) té raó en assenyalar que el 'geni total' és una construcció: Leonardo no va presentar mai els quaderns com un tot unificat, i la coherència que hi veiem és en part el producte de la selecció i organització que han fet els seus editors des del segle XIX. La posició C és la síntesi: totes les figures historiques son el producte de la intersecció entre allò que van fer realment i allò que les generacions posteriors han necessitat que fossin. El Leonardo del Renaixement, el Leonardo romàntic i el Leonardo del segle XXI (Steve Jobs com a 'Leonardo modern') son versions lleugerament diferents d'una figura real. Totes tres diuen alguna cosa sobre Leonardo —i molt sobre les èpoques que les han construït."
+        }
+      ]
+    }
+  ]
+}

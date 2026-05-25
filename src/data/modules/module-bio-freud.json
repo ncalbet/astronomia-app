@@ -1,0 +1,182 @@
+{
+  "id": "module-bio-freud",
+  "title": "Freud: el descobriment de l'inconscient",
+  "emoji": "🛋️",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "fre-01",
+      "title": "De Freiberg a Viena: la medicina i el misteri de la histèria",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "La veu de la intel·ligència és suau, però no s'atura fins que ha estat escoltada.",
+          "author": "Sigmund Freud, El futur d'una il·lusió (1927)"
+        },
+        {
+          "type": "narrative",
+          "text": "Sigismund Schlomo Freud —que va canviar el nom a Sigmund als divuit anys— va néixer el 1856 a Freiberg, Moràvia (avui República Txeca), en una família jueva de classe mitjana. El seu pare, Jakob, era comerciant de llana. Quan Freud tenia quatre anys la família es va traslladar a Viena, on Freud va viure gairebé tota la vida. Era el fill gran d'una mare que el va adorar i el va tractar com un príncep —'el meu Sigi d'or'. Va estudiar medicina a la Universitat de Viena, on va destacar en neurologia. El 1885 va obtenir una beca per estudiar a París amb Jean-Martin Charcot, el neurologue més famós del moment, que investigava la histèria: un trastorn on els pacients (gairebé sempre dones) presentaven símptomes físics reals —paràlisi, ceguesa, convulsions— sense cap causa orgànica identificable. Charcot demostrava que la hipnosi podia produir i eliminar els símptomes histèrics. Freud va tornar a Viena convençut que el sistema nerviós no era purament mecànic: la ment podia afectar el cos de maneres que la medicina no comprenia. Va col·laborar amb el metge Josef Breuer en el cas d'una pacient anomenada 'Anna O.' (en realitat Bertha Pappenheim), que presentava símptomes histèrics greus. Breuer va descobrir que quan la pacient parlava dels seus símptomes i de les seves primeres aparicions, ells desapareixien —la 'cura parlada'. Freud i Breuer van publicar els Estudis sobre la Histèria el 1895. Era el punt d'inici de la psicoanàlisi."
+        },
+        {
+          "type": "key-idea",
+          "text": "Freud va partir d'un problema mèdic concret —per qué dones (i homes) tenien símptomes físics reals sense causa orgànica?— i va arribar a una teoria de la ment que transformaria el segle XX. La seva resposta: la ment conté un vast territori inconscient, inaccessible a la consciència directa, que determina el comportament, el sofriment i la creativitat humans."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            { "year": "1856", "title": "Naix a Freiberg, Moràvia", "text": "Família jueva. Fill gran adorat per la mare. Trasllat a Viena als quatre anys." },
+            { "year": "1885-86", "title": "París amb Charcot", "text": "Estudia la histèria i la hipnosi. Convicció que la ment pot causar símptomes físics sense causa orgànica." },
+            { "year": "1895", "title": "Estudis sobre la Histèria (amb Breuer)", "text": "El cas 'Anna O.' i la 'cura parlada'. Punt d'inici de la psicoanàlisi." },
+            { "year": "1900", "title": "La interpretació dels somnis", "text": "La seva obra mestra. L'inconscient, els somnis com a via reial. Ven 351 còpies en sis anys." },
+            { "year": "1905", "title": "Tres assaigs sobre teoria sexual", "text": "El desenvolupament psicosexual, la libido, la sexualitat infantil. Escàndol." },
+            { "year": "1923", "title": "El jo i l'allò", "text": "Nova topografia de la ment: allò (id), jo (ego), superjò (superego)." },
+            { "year": "1938-39", "title": "Fugida a Londres i mort", "text": "Fuig de Viena ocupada pels nazis. Mor a Londres el setembre del 1939 d'un càncer de mandíbula." }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fre-01-01",
+          "style": "multiple-choice",
+          "question": "El cas 'Anna O.' (Bertha Pappenheim) va ser important per a la historia de la psicoanàlisi perquè:",
+          "options": [
+            "Va demostrar que la hipnosi era l'única tècnica eficaç per tractar els trastorns histèrics, cosa que va portar Freud a especialitzar-se en l'hipnoteràpia",
+            "Va revelar que parlant lliurement dels seus símptomes i dels seus orígens, la pacient els feia desaparèixer —la 'cura parlada', que va ser el precedent de l'associació lliure freudiana",
+            "Va provar que la histèria tenia una causa orgànica neurològica, cosa que va orientar Freud cap a la recerca neurobiològica en comptes de la psicològica",
+            "Va ser el primer cas en el qual Freud va identificar el complex d'Èdip, que va convertir-se en el concepte central de la seva teoria"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El cas 'Anna O.' —en realitat Bertha Pappenheim, tractada per Josef Breuer— va revelar que la pacient es recuperava dels seus símptomes histèrics quan parlava lliurement d'ells i de les seves primeres aparicions. Ella mateixa va batejar el procés 'chimney sweeping' (escombrat de xemeneia) o 'talking cure' (cura parlada). Freud va abandonar posteriorment la hipnosi i va desenvolupar l'associació lliure (dir tot el que passa pel cap sense censura) com a tècnica principal, basant-se en aquest descobriment.",
+          "feedbackWrong": "El cas 'Anna O.' va ser important perquè va revelar la 'cura parlada': la pacient es recuperava quan parlava lliurement dels seus símptomes i dels seus orígens. Ella mateixa va batejar el procés. Freud va abandonar la hipnosi i va desenvolupar l'associació lliure basant-se en aquest descobriment."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-fre-01-01",
+          "question": "Freud va treballar gairebé exclusivament amb dones de classe alta de Viena. Fins a quin punt les seves teories reflecteixen les condicions específiques d'aquelles dones en lloc de la psicologia humana universal?",
+          "options": [
+            "Les teories son universals: els mecanismes de la ment (repressió, inconscient, conflicte) son biològics i independents del context cultural i de classe",
+            "Les teories son productes del seu context: una psicologia construïda sobre dones reprimides per les normes victorianes de la burgesia vienesa no pot ser universal",
+            "La veritat és complexa: alguns mecanismes que Freud va identificar (repressió, defenses, la importància de la primera infància) han resultat parcialmente universals; d'altres (l'Èdip, l'enveja del penis) son clarament productes del seu context"
+          ],
+          "correct": 2,
+          "explanation": "La crítica al mostrari de Freud és legítima i important. Les seves pacients eren dones de classe alta de la Viena de finals del segle XIX, sotmeses a normes socials extremadament restrictives sobre la sexualitat femenina, el matrimoni i el rol social. És inevitable que les teories que va construir a partir d'aquelles experiències portin la marca d'aquell context. La crítica feminista (Juliet Mitchell, Luce Irigaray) ha assenyalat que conceptes com 'l'enveja del penis' o el 'complex de Medusa' reflecteixen prejudicis patriarcals més que realitats psicològiques. Però la posició B (teories enterament contextuals) ignora que alguns mecanismes freudians —la repressió, les defenses, la influència de la primera infància en el caràcter adult— han trobat suport en la psicologia experimental i la neurociència contemporànies, en contextos molt allunyats de la Viena victoriana."
+        }
+      ]
+    },
+    {
+      "id": "fre-02",
+      "title": "L'inconscient i el somni: el mapa de la ment",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La interpretació dels somnis, publicada el 1900, és l'obra que Freud sempre va considerar la seva millor. Va vendre 351 còpies en sis anys. Avui és un dels llibres més influents del segle XX. La tesi central: els somnis no son incoherències aleatòries del cervell dormint, sinó compliments disfressats de desitjos inconscients. Durant el son, les defenses de la censura psíquica s'afluixen i el contingut inconscient pot emergir —però sempre disfressat, deformat per l'elaboració onírica. El 'treball del somni' usa tècniques com la condensació (molts elements units en un), el desplaçament (l'element important substituït per un de secundari), la representació simbòlica i la revisió secundària. L'estructura de la ment que Freud va proposar en aquells anys: el sistema inconscient (continguts reprimits, inaccessibles a la consciència directa) i el preconscient (continguts que poden fer-se conscients). Més tard (1923) va reformular en tres instàncies: l'allò (id: els impulsos, el principi del plaer), el jo (ego: la funció mediadora, el principi de realitat) i el superjò (superego: l'autoritat interioritzada, la consciència moral). La repressió era el mecanisme central: quan un pensament, desig o record era massa angoixant, era 'empès' cap a l'inconscient —però no desapareixia, sinó que reapareixia en forma de símptomes, lapsus ('actes fallits'), somnis i comportaments que el subjecte no podia explicar racionalment."
+        },
+        {
+          "type": "primary-source",
+          "label": "Freud, La interpretació dels somnis (1900)",
+          "source": "Sigmund Freud, Die Traumdeutung, capítol VII, 'Sobre la psicologia dels processos onírics', 1900",
+          "text": "«El somni no és un fenomen somàtic sinó un fenomen psíquic. El seu valor com a compliment de desitjos pot ser demostrat per l'anàlisi. Els seus motius ocultos son reconeixibles. La seva connexió amb la vida desperta és comprensible. Moltes de les seves peculiaritats, que fins ara semblaven incomprensibles, es deixen derivar del joc de forces psíquiques. Les seves deformacions son conseqüència de la censura que la instància moral exerceix sobre els impulsos d'altres parts de la vida anímica.\n\nEl somni és la via reial cap al coneixement de l'activitat inconscient de la ment.»",
+          "questions": [
+            "Freud descriu el somni com 'la via reial cap a l'inconscient'. Per qué els somnis —i no altres fenòmens— serien el camí privilegiat?",
+            "La idea que els somnis son 'compliments disfressats de desitjos' implica que tothom té desitjos que no pot acceptar conscientment. Quines conseqüències té per a la visió de la naturalesa humana?",
+            "La neurociència moderna (Hobson, McCarley) ha demostrat que els somnis son en part producte d'activitat neuronal aleatòria durant el son REM. Invalida això la interpretació freudiana?"
+          ]
+        },
+        {
+          "type": "what-would-you-do",
+          "character": "Freud",
+          "emoji": "🛋️",
+          "year": "1900",
+          "setup": "Has escrit La interpretació dels somnis. Conté les teves teories més radicals: la sexualitat infantil, el complex d'Èdip, la idea que tots tenim desitjos inconscients que la moral no pot acceptar. Saps que serà escandalosa. El teu col·lega Josef Breuer, amb qui vas escriure els Estudis sobre la Histèria, t'aconsella que moderis les parts més provocadores —especialment les relatives a la sexualitat. Publicar-les pot destruir la teva reputació professional a Viena.",
+          "dilemma": "Publiques el text complet, amb totes les teories sobre la sexualitat i l'inconscient? O el moderes per fer-lo acceptable a l'establiment mèdic?",
+          "options": [
+            { "id": "A", "text": "Publico tot: les teories son correctes o no ho son. Suavitzar-les per guanyar acceptació és trair la ciència" },
+            { "id": "B", "text": "Modero els passatges més escandalosos: un text que ningú llegirà no canvia res. La credibilitat és necessària per tenir influència" }
+          ],
+          "reveal": "Freud va publicar el text complet. La recepció va ser freda: 351 còpies venudes en sis anys. Però no va moderar res. I quan les idees van triomfar —sobretot als Estats Units durant els anys 20-50— ho van fer amb tota la seva radicalitat. Breuer, que va recomanar la moderació, va quedar com una nota a peu de pàgina en la historia de la psicoanàlisi.",
+          "analysis": "La decisió de Freud de publicar sense compromissos és coherent amb el que va escriure tota la vida sobre la repressió: suprimir les idees inacceptables no les fa desaparèixer. Però hi havia també un element personal: Freud tenia una ambició extraordinària i una confiança en si mateix que fregava l'arrogància. Va apostar per la seva pròpia teoria contra el consell dels seus col·legues. Va guanyar la aposta a llarg termini."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fre-02-01",
+          "style": "detect-error",
+          "statement": "En la teoria freudiana, el superjò (superego) és l'instància de la ment que cerca el plaer immediat i opera seguint el 'principi del plaer', en oposició al jo (ego) que opera seguint el principi de realitat.",
+          "isCorrect": false,
+          "feedbackExplanation": "Incorrecte. En la teoria freudiana, l'instància que cerca el plaer immediat i opera seguint el 'principi del plaer' és l'allò (id) —la capa més primitiva i inconscient de la ment, on resideixen els impulsos bàsics (Eros i Tànatos). El superjò (superego) és exactament el contrari: és l'autoritat moral interioritzada —la veu dels pares, les normes socials, la consciència moral— que s'oposa als impulsos de l'allò. El jo (ego) és la instància mediadora que intenta satisfer les demandes de l'allò de forma acceptable per al superjò i adaptada a la realitat externa."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-fre-02-01",
+          "question": "Karl Popper va argumentar que la psicoanàlisi no és una ciència perquè no és falsificable: qualsevol resposta del pacient pot ser interpretada com a confirmació de la teoria. Tenia raó?",
+          "options": [
+            "Sí: la psicoanàlisi no formula prediccions que puguin ser refutades. Si el pacient accepta la interpretació, confirma la teoria; si la refusa, és 'resistència' —que també confirma la teoria. És un sistema tancat",
+            "No: la falsificabilitat de Popper és massa restrictiva. Les ciències humanes (historia, psicologia clínica) treballen amb un model d'evidència diferent de la física. Que no sigui falsificable en sentit estricte no la fa inútil",
+            "La crítica és parcialment vàlida: algunes proposicions freudianes son infalsificables (tal com ell les va formular), però d'altres —la influència de la primera infància, els mecanismes de defensa— han estat testades i parcialment confirmades per la psicologia experimental"
+          ],
+          "correct": 2,
+          "explanation": "La crítica de Popper a la psicoanàlisi és una de les més citades en filosofia de la ciència. La seva força rau en un problema real: si acceptació i refús de la interpretació son iguals evidències de la teoria, la teoria no pot ser refutada per cap observació. Però la posició A és massa simple: Popper va aplicar el criteri de falsificabilitat que havia desenvolupat per a la física, i que no s'adapta bé a les ciències humanes. La posició B és massa permissiva: 'útil' no és el mateix que 'científic', i la psicoanàlisi ha fet afirmacions empíriques que han resultat incorrectes (la teoria de la seducció, el complex d'Èdip universal). La posició C és la més justa: la psicoanàlisi com a sistema global és difícil de falsificar; però elements específics han estat investigats empíricament. La repressió, per exemple, ha trobat correlats en la neurociència (sistemes d'inhibició prefrontal). D'altres (el complex d'Èdip, l'enveja del penis) no han trobat suport experimental."
+        }
+      ]
+    },
+    {
+      "id": "fre-03",
+      "title": "El llegat de Freud: la ciència que va canviar la cultura",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Freud va construir un moviment. A partir de 1902 va organitzar reunions setmanals al seu pis del carrer Berggasse 19, primer informals, que van créixer fins a convertir-se en la Societat Psicoanalítica de Viena. Van arribar des de tota Europa: Alfred Adler, Carl Gustav Jung, Sándor Ferenczi, Otto Rank. Freud era el mestre indiscutible. Les ruptures van ser inevitables: Adler (1911) va abandonar perquè creia que Freud sobreestimava la sexualitat i subestimava el poder social; Jung (1913) perquè creia que Freud reduïa l'inconscient a la sexualitat reprimida, quan ell veia un 'inconscient col·lectiu' de símbols universals. Freud va viure les ruptures com a traïcions personals. Va fugir de Viena el 1938, a vuitanta-dos anys, quan els nazis van entrar a Àustria —i va cremar els seus papers per no deixar res per als biògrafs, va dir. Va morir a Londres el setembre del 1939, de càncer de mandíbula, poc després que esclatés la Segona Guerra Mundial. Que va sobreviure? En la psicologia acadèmica: la idea que processos inconscients influeixen en el comportament conscient (àmpliament confirmada per la neurociència modern, tot i que de forma molt diferent de Freud). Els mecanismes de defensa (Aaron Beck i la teràpia cognitiva en van incorporar molts). La importància de la primera infància. Que no va sobreviure com a ciència: la teoria de la libido, el complex d'Èdip com a universal, la teoria dels somnis com a compliment de desitjos. Però el seu llegat cultural és immens: el vocabulari freudià (inconscient, repressió, ego, complexos, lapsus, projecció) ha entrat en totes les llengües europees i transformat la manera com la gent pensa sobre si mateixa."
+        },
+        {
+          "type": "before-after",
+          "title": "Com entenem la ment: abans i després de Freud",
+          "before": {
+            "label": "Psicologia pre-freudiana (finals del s. XIX)",
+            "points": [
+              "La ment com a activitat conscient: el que no és conscient no existeix psicològicament",
+              "Els trastorns mentals com a malalties del cervell o de la voluntat moral",
+              "La histèria i la neurosi com a debilitats de caràcter o simulacions",
+              "Cap vocabulari comú per parlar de la vida interior més allà de la moral religiosa"
+            ]
+          },
+          "after": {
+            "label": "Món post-freudià",
+            "points": [
+              "L'inconscient com a camp d'investigació legítim: la neurociència cognitiva confirma processos no conscients",
+              "Els trastorns mentals com a objecte d'una disciplina terapèutica: la psicoteràpia com a professió",
+              "Vocabulari comú: ego, repressió, projecció, complex, lapsus, trauma entrats en totes les llengues",
+              "La infància com a període formatiu decisiu: base de tota la psicologia del desenvolupament"
+            ]
+          },
+          "insight": "Freud va transformar la cultura molt més que la ciència. El vocabulari freudià és ara el vocabulari comú amb el qual la gent occidental pensa i parla sobre si mateixa —independentment de si les teories específiques de Freud son correctes o no."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-fre-03-01",
+          "style": "multiple-choice",
+          "question": "Carl Gustav Jung va trencar amb Freud el 1913 principalment perquè:",
+          "options": [
+            "Jung creia que Freud reduïa l'inconscient a continguts sexuals reprimits, mentre que ell proposava un 'inconscient col·lectiu' de símbols i arquetips compartits per tota la humanitat",
+            "Jung rebutjava el mètode de l'associació lliure i proposava substituir-lo per la hipnosi i l'anàlisi dels somnis amb tècniques de suggestió directa",
+            "Jung creia que la psicoanàlisi havia d'ocupar-se exclusivament dels trastorns greus (psicosi, esquizofrènia) i no de les neurosis de persones funcionalment normals",
+            "Jung rebutjava el principi que els trastorns mentals tenien causes psicològiques, i creia que totes les malalties mentals tenien causes neurobiològiques que calia tractar farmacològicament"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. La ruptura de Jung amb Freud tenia una causa teòrica central: Jung creia que Freud reduïa tota la dinàmica de l'inconscient a la sexualitat reprimida (la libido entesa com a energia sexual), quan ell veia en l'inconscient un territori molt més vast, que incloïa un 'inconscient col·lectiu' —una capa compartida per tota la humanitat— poblat d'arquetips: patrons universals de la experiència humana (la Mare, el Guerrer, l'Ombra, l'Anima). La ruptura va ser dolorosa per a tots dos: Freud havia vist en Jung el seu successor i 'príncep hereu'.",
+          "feedbackWrong": "La ruptura de Jung amb Freud va ser principalment teòrica: Jung creia que Freud sobreestimava el paper de la sexualitat i veia en l'inconscient un territori més vast, que incloïa un 'inconscient col·lectiu' d'arquetips compartits per tota la humanitat."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-fre-03-01",
+          "question": "La neurociència moderna confirma que processos no conscients influeixen en el comportament —però d'una manera molt diferent de com Freud ho va descriure. Es pot dir que Freud tenia raó en l'essencial?",
+          "options": [
+            "Sí: Freud va identificar que la major part del processament mental és inconscient, i la neurociència ho ha confirmat. Els detalls son incorrectes però la intuïció fonamental era vàlida",
+            "No: l'inconscient de Freud (libidinal, sexual, poblat de desitjos reprimits) no s'assembla a l'inconscient cognitiu de la neurociència (processament d'informació automàtic). Son conceptes tan diferents que la 'confirmació' neurocientífica és superficial",
+            "La comparació és parcialment útil: la idea general (processos no conscients que influeixen en el comportament) és compartida; els mecanismes específics (repressió, libido, Èdip) no han trobat suport neurocientífic. Freud va encertar el patró i va errar els mecanismes"
+          ],
+          "correct": 2,
+          "explanation": "El debat sobre la relació entre Freud i la neurociència moderna és un dels més actius en la filosofia de la psicologia. La posició A (confirmació essencial) és la de 'neuropsicoanàlisi' (Mark Solms), que busca correlats neuronals dels conceptes freudians: la repressió com a inhibició prefrontal, el plaer/displaer com a sistemes de recompensa. La posició B (conceptes incompatibles) és la de la psicologia cognitiva estàndard: l'inconscient cognitiu és processar informació de forma ràpida i automàtica (reconeixement facial, conducció de cotxes), no un calderi de desitjos sexuals reprimits. La posició C és la síntesi més honesta: Freud va tenir la intuïció fonamental correcta (la major part del funcionament mental és inaccessible a la consciència directa) i va errar en els mecanismes específics (la libido com a energia mesurable, el complex d'Èdip universal). Encertar el patró general i errar els mecanismes és, en ciència, un punt de partida valuós —no una vindicació completa."
+        }
+      ]
+    }
+  ]
+}

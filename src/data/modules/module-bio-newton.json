@@ -1,0 +1,167 @@
+{
+  "id": "module-bio-newton",
+  "title": "Isaac Newton: el geni que ho sabia tot i ho amagava",
+  "emoji": "🍎",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "newton-01",
+      "title": "Woolsthorpe: la pesta i l'annus mirabilis",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Si he vist més lluny és perquè estava a les espatlles de gegants.",
+          "author": "Isaac Newton"
+        },
+        {
+          "type": "narrative",
+          "text": "Isaac Newton va néixer el 1643 a Woolsthorpe, Anglaterra, pòstum: el seu pare havia mort tres mesos abans. Era tan petit al néixer que ningú no esperava que sobrevisqués. Va créixer amb la seva àvia mentre la seva mare es tornava a casar. Era un nen solitari, obsessiu, que construïa models de molins i rellotges de sol. L'Anglaterra que el va veure créixer era la dels cavallers i els parlamentaristes, de la guerra civil i Cromwell, de l'execució de Carles I."
+        },
+        {
+          "type": "narrative",
+          "text": "El 1665, quan Newton tenia 22 anys i estudiava a Cambridge, la pesta bubònica va tancar la universitat. Va tornar a Woolsthorpe. En aquells dos anys d'aïllament rural, Newton va inventar el càlcul diferencial, va descobrir la composició de la llum blanca amb un prisme, i va formular les bases de la teoria de la gravitació universal. Quan Cambridge va reobrir, va tornar amb les idees que canviarien la ciència per sempre, però no les va publicar. Va guardar els seus quaderns durant vint anys."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'annus mirabilis de Newton (1665-1666): durant la pesta, sol a la granja familiar, Newton va fer tres dels descobriments més importants de la història de la ciència: el càlcul infinitesimal, la descomposició de la llum i la llei de la gravetat. Tenia 23 anys. No va publicar res durant dues dècades."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            { "year": "1643", "text": "Neix a Woolsthorpe, Lincolnshire" },
+            { "year": "1665-66", "text": "La pesta tanca Cambridge: annus mirabilis" },
+            { "year": "1687", "text": "Publica els Principia Mathematica" },
+            { "year": "1696", "text": "Director de la Casa de la Moneda: persegueix falsificadors" },
+            { "year": "1703", "text": "President de la Royal Society" },
+            { "year": "1727", "text": "Mor a Londres; enterrat a l'Abadia de Westminster" }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-newton-01-01",
+          "style": "multiple-choice",
+          "question": "Per quina raó Newton va trigar dues dècades a publicar els seus descobriments de 1665-66?",
+          "options": [
+            "Perquè les lleis de la gravetat eren secretes i no podien publicar-se",
+            "Perquè era extremadament introvertit i temia les crítiques",
+            "Perquè la impremta de Cambridge era massa cara",
+            "Perquè necessitava el permís del rei per publicar"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Sí. Newton era profundament introvertit i temia l'exposició pública. Odiava les disputes acadèmiques. Quan finalment va publicar els Principia, va ser gràcies a la pressió i el finançament d'Edmund Halley.",
+          "feedbackWrong": "Newton no temia cap censura oficial. El seu problema era personal: odiava les crítiques i les disputes públiques, i preferia guardar les idees per a ell."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-newton-01-01",
+          "question": "Quin fenomen es diu que va inspirar a Newton la idea de la gravetat universal?",
+          "options": [
+            "Veure caure un ocell mort d'un arbre",
+            "Observar la Lluna des de la finestra de la granja",
+            "Veure caure una poma de l'arbre al jardí de Woolsthorpe",
+            "Llegir els treballs de Galileu sobre la caiguda dels cossos"
+          ],
+          "correct": 2,
+          "explanation": "La història de la poma és parcialment certa: Newton mateix la va explicar en diverses ocasions. No és que la poma li caigués al cap, sinó que la va veure caure i es va preguntar per què la Lluna no cau de la mateixa manera. La resposta va ser: sí que cau, però cau cap a la Terra mentre es mou lateralment, creant una òrbita."
+        }
+      ]
+    },
+    {
+      "id": "newton-02",
+      "title": "Els Principia: les lleis que governen l'univers",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Em comporto com un nen que juga a la riba del mar i es diverteix trobant de tant en tant un còdol més polit o una petxina més bella, mentre l'oceà de la veritat s'estén davant meu, totalment inexplorat.",
+          "author": "Isaac Newton"
+        },
+        {
+          "type": "narrative",
+          "text": "El 1684, l'astrònom Edmund Halley va visitar Newton per consultar-li un problema sobre les òrbites planetàries. Newton li va dir que ja l'havia resolt anys enrere. Halley, estonat, el va convèncer de publicar. Va finançar-ne l'edició del seu propi butxaca. El resultat, el 1687, van ser els Philosophiae Naturalis Principia Mathematica: el llibre científic més influent de la història."
+        },
+        {
+          "type": "narrative",
+          "text": "Els Principia contenien les tres lleis del moviment —inèrcia, F=ma, acció i reacció— i la llei de la gravitació universal: dos cossos s'atrauen amb una força proporcional al producte de les seves masses i inversament proporcional al quadrat de la distància. Amb aquesta fórmula, Newton explicava per primera vegada per què els planetes orbiten el Sol, per què la Lluna no cau, per què les marees pugen i baixen. Tota la mecànica celeste quedava unificada en un sol principi matemàtic."
+        },
+        {
+          "type": "key-idea",
+          "text": "La llei de la gravitació universal de Newton: F = G·m₁·m₂/r². Qualsevol dos cossos de l'univers s'atrauen mútuament. La mateixa força que fa caure una poma és la que manté la Lluna en òrbita i els planetes voltant el Sol. Per primer cop, el cel i la Terra obeïen les mateixes lleis."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-newton-02-01",
+          "style": "multiple-choice",
+          "question": "Quin va ser el paper d'Edmund Halley en la publicació dels Principia?",
+          "options": [
+            "Va coescriure el llibre amb Newton",
+            "Va revisar els càlculs matemàtics de Newton",
+            "Va convèncer Newton de publicar i va finançar l'edició",
+            "Va ser el censor reial que va autoritzar la publicació"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. Halley va visitar Newton, el va convèncer que publiqués i va pagar ell mateix els costos d'impressió quan la Royal Society va dir que no tenia fons.",
+          "feedbackWrong": "El paper de Halley va ser el de patrocinador i impulsor. Sense ell, és molt probable que els Principia no s'haguessin publicat mai."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-newton-02-01",
+          "question": "Per què els Principia van ser tan revolucionaris en el context del segle XVII?",
+          "options": [
+            "Perquè per primera vegada la física usava matemàtiques",
+            "Perquè unificaven amb una sola fórmula el moviment terrestre i el celestial",
+            "Perquè refutaven tots els descobriments de Galileu",
+            "Perquè demostraven que la Terra no era el centre de l'univers"
+          ],
+          "correct": 1,
+          "explanation": "Abans de Newton, el cel i la terra eren regnes separats amb lleis diferents. Newton va demostrar que la mateixa llei que descriu la caiguda d'una pedra explica l'òrbita de la Lluna. Era el primer sistema físic unificat de la història."
+        }
+      ]
+    },
+    {
+      "id": "newton-03",
+      "title": "Newton fosc: alquímia, teologia i ira",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Puc calcular el moviment dels cossos celestes, però no la bogeria dels homes.",
+          "author": "Isaac Newton (atribuït)"
+        },
+        {
+          "type": "narrative",
+          "text": "El Newton que apareix als llibres de text és el científic racional, pare de la mecànica clàssica. Però Newton va dedicar més temps a l'alquímia i a la teologia que a la física. Tenia un milió de paraules escrites sobre alquímia —la recerca de transmutació dels metalls i la pedra filosofal— i milers de pàgines d'interpretació de la Bíblia, incloent-hi càlculs sobre la data del final del món. Creia que la ciència era la manera de llegir el codi secret que Déu havia escrit en la naturalesa."
+        },
+        {
+          "type": "narrative",
+          "text": "Newton també era un home d'una ira extraordinària. La seua guerra amb el filòsof alemany Gottfried Leibniz per la prioritat en la invenció del càlcul va ser brutal: va orquestrar una investigació de la Royal Society en la qual ell mateix era el jutge, va escriure la sentència final anònimament i va acusar Leibniz de plagi fins a la mort d'aquest. Tenia molt pocs amics. Mai no es va casar. Va morir verge, segons els seus biògrafs. El 1936, l'economista John Maynard Keynes va comprar els seus quaderns d'alquímia en subhasta i va escriure: 'Newton no era el primer de l'era de la raó. Era el darrer dels màgics.'"
+        },
+        {
+          "type": "key-idea",
+          "text": "Newton i l'alquímia: Newton va dedicar trenta anys a experiments alquímics, buscant la pedra filosofal i la transmutació dels metalls. No era una contradicció amb la seua ciència: ell creia que l'alquímia i la física eren dues formes d'accedir als secrets de Déu en la naturalesa. La divisió entre 'ciència' i 'màgia' que donem per feta no existia al segle XVII."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-newton-03-01",
+          "style": "detect-error",
+          "question": "Llegeix i detecta l'error: 'Newton era un científic purament racionalista que va rebutjar la religió i l'alquímia com a supersticions incompatibles amb la ciència moderna.'",
+          "options": [
+            "L'error és 'purament racionalista': Newton va dedicar dècades a l'alquímia i la teologia",
+            "L'error és 'va rebutjar la religió': Newton era ateu declarat",
+            "L'error és 'supersticions': la ciència del XVII sí que incloïa l'alquímia com a disciplina formal",
+            "No hi ha error: Newton efectivament va separar ciència i religió"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Correcte. Newton va dedicar més temps a l'alquímia i la interpretació bíblica que a la física. Per a ell, tot formava part d'un mateix projecte: desxifrar el disseny de Déu en la naturalesa.",
+          "feedbackWrong": "Newton no era racionalista en el sentit modern. Era profundament religiós i va dedicar dècades a l'alquímia. La divisió entre ciència i màgia que assumim avui no existia per a ell."
+        },
+        {
+          "type": "what-would-you-do",
+          "id": "wwyd-newton-03-01",
+          "scenario": "Ets historiador i descobreixes que el major físic de la història va dedicar la meitat de la seua vida a l'alquímia i a calcular la data del Apocalipsi. Pots publicar-ho tal com és, o presentar una versió simplificada del 'Newton científic pur' que la gent espera.",
+          "question": "Quin Newton hauries de presentar al públic? Canvia alguna cosa saber que Newton era molt diferent de la seua imatge?",
+          "reflection": "Keynes va publicar els manuscrits alquímics tal com eren. La imatge complicada de Newton ens diu que les categories modernes de 'científic' i 'mag' eren poroses fins fa poc. La ciència no va sorgir del no-res com a sistema pur de raó: va emergir d'un context on l'alquímia, l'astrologia i la teologia formaven part de la recerca del coneixement."
+        }
+      ]
+    }
+  ]
+}
