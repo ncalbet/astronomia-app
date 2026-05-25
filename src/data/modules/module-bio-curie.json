@@ -1,0 +1,170 @@
+{
+  "id": "module-bio-curie",
+  "title": "Marie Curie: dues vegades Nobel, sempre estranya",
+  "emoji": "⚗️",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "curie-01",
+      "title": "De Varsòvia a París: aprendre en la clandestinitat",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "En la vida, res no ha de ser temut, només comprès. Ara és el moment de comprendre més, perquè puguem témer menys.",
+          "author": "Marie Curie"
+        },
+        {
+          "type": "narrative",
+          "text": "Maria Sklodowska va néixer el 1867 a Varsòvia, en la Polònia ocupada per Rússia. Les dones no podien estudiar a la universitat. Ella i la seva germana Bronia van participar en la 'Universitat Volant': una xarxa clandestina de classes en pisos particulars, on estudiants i professors es desplaçaven per evitar la policia tsarista. Maria va fer un pacte amb la seva germana: primer finançaria els estudis de Bronia a París. Quan Bronia acabés, la cridarien perquè ella hi anés."
+        },
+        {
+          "type": "narrative",
+          "text": "El 1891, als 24 anys, Maria va arribar a París i es va inscriure a la Sorbona com a 'Marie'. Vivia en un garrot sense calefacció, tan pobra que de vegades s'esmorteïa d'inanició a classe. Va ser la primera dona a llicenciar-se en física a la Sorbona, i la segona en matemàtiques. Va conèixer Pierre Curie, físic com ella, amb qui es va casar el 1895. Van compartir el laboratori, les idees i la vida. Era una col·laboració d'iguals rarament vista a l'època."
+        },
+        {
+          "type": "key-idea",
+          "text": "La Universitat Volant (Polska Universytet Latajacy): xarxa clandestina d'educació a la Polònia ocupada pels russos, activa entre 1885 i 1905. Va formar centenars de dones en literatura, ciències i filosofia en condicions de secret. Marie Curie en va ser una de les alumnes més il·lustres."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            { "year": "1867", "text": "Neix a Varsòvia, Polònia ocupada" },
+            { "year": "1883-1891", "text": "Estudia clandestinament; treballa de governanta per finançar la seva germana" },
+            { "year": "1891", "text": "Arriba a París i s'inscriu a la Sorbona" },
+            { "year": "1895", "text": "Es casa amb Pierre Curie" },
+            { "year": "1898", "text": "Descobreix el poloni i el radi" },
+            { "year": "1903", "text": "Primer Nobel (Física), compartit amb Pierre i Becquerel" },
+            { "year": "1906", "text": "Pierre mor atropellat per un carruatge" },
+            { "year": "1911", "text": "Segon Nobel (Química), el primer per a una sola persona" }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-curie-01-01",
+          "style": "multiple-choice",
+          "question": "Per quina raó Marie Curie va passar anys treballant com a governanta a Polònia abans d'anar a París?",
+          "options": [
+            "Perquè volia guanyar experiència pràctica de la vida real",
+            "Perquè el govern polonès li exigia anys de servei comunitari",
+            "Per finançar els estudis de la seva germana, amb qui havia fet un pacte mutu d'ajuda",
+            "Perquè la seva família era rica però no volia pagar-li els estudis"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. Les dues germanes van acordar que primer Maria pagaria els estudis de Bronia a París, i després Bronia l'acolleria quan fos el seu torn. Un pacte de solidaritat sororista.",
+          "feedbackWrong": "Era un acord de solidaritat entre germanes: Maria pagava els estudis de Bronia primer, i quan acabés li tocaria a ella."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-curie-01-01",
+          "question": "Per què les dones de la Polònia russa del segle XIX estudien clandestinament?",
+          "options": [
+            "Perquè la religió catòlica prohibia l'educació femenina",
+            "Perquè l'autoritat russa prohibia l'educació en polonès i limitava l'accés de les dones a la universitat",
+            "Perquè les universitats poloneses eren massa cares per a les famílies",
+            "Perquè les dones preferien l'educació informal a la formal"
+          ],
+          "correct": 1,
+          "explanation": "La Polònia russa reprimia la cultura i l'educació poloneses. A més, les universitats imperials russes no acceptaven dones. La Universitat Volant era una resposta a les dues opressions alhora: la nacional i la de gènere."
+        }
+      ]
+    },
+    {
+      "id": "curie-02",
+      "title": "El radi i el poloni: descobrir la radioactivitat",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "Res en la vida s'ha de témer. Tot s'ha d'entendre.",
+          "author": "Marie Curie"
+        },
+        {
+          "type": "narrative",
+          "text": "El 1896, el físic Becquerel havia descobert que l'urani emetia raigs misteriosos sense cap font d'energia externa. Marie va decidir que la seva tesi doctoral estudiaria aquest fenomen. Va encunyar el terme 'radioactivitat'. Va descobrir que la pechblende —un mineral d'urani— emetia molts més raigs del que s'esperava amb l'urani sol. Havia de contenir un o més elements desconeguts."
+        },
+        {
+          "type": "narrative",
+          "text": "Amb Pierre, va passar quatre anys treballant en un hangar sense ventilació, manipulant tones de pechblenda residual. No tenien accés a un bon laboratori: eren massa pobres i ella era dona. Van aïllar dos elements nous: el poloni (en honor a Polònia) i el radi. El radi brillava en la foscor. Marie deia que les ampolles glowejants a les prestatgeries del dormitori eren 'les seves llumetes'. No sabia que la radiació que emetien l'estava matant lentament."
+        },
+        {
+          "type": "key-idea",
+          "text": "Radioactivitat: la propietat d'alguns àtoms d'emetre partícules o radiació espontàniament, sense necessitat d'energia externa. Marie Curie va demostrar que era una propietat de l'àtom mateix, no d'una reacció química. Això va canviar la física: implicava que els àtoms no eren indivisibles."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-curie-02-01",
+          "style": "multiple-choice",
+          "question": "Per quin motiu Marie Curie va batejar com a 'poloni' l'element que va descobrir?",
+          "options": [
+            "Perquè el van descobrir en un mineral polonès",
+            "Per retre homenatge a la seva nació d'origen, que estava sota ocupació estrangera",
+            "Perquè el símbol químic del poloni (Po) eren les inicials del seu marit Pierre Oswald",
+            "Perquè el poloni s'havia trobat per primera vegada prop de Polònia"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Correcte. Va ser un acte de reivindicació nacional: Polònia estava ocupada i dividida entre tres imperis, i Marie va voler posar el seu país al mapa de la ciència.",
+          "feedbackWrong": "Va ser un homenatge a Polònia, el seu país, que en aquell moment ni tan sols existia com a estat independent."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-curie-02-01",
+          "question": "Quin va ser l'impacte del descobriment de la radioactivitat sobre la física de l'àtom?",
+          "options": [
+            "Va confirmar que els àtoms eren partícules indivisibles i estables",
+            "Va demostrar que l'àtom tenia una estructura interna i no era indivisible",
+            "Va provar que la matèria i l'energia no estaven relacionades",
+            "Va mostrar que tots els elements eren formes de l'urani"
+          ],
+          "correct": 1,
+          "explanation": "La radioactivitat implica que l'àtom emet partícules, cosa que vol dir que té una estructura interna que es pot descompondre. Això va ser la primera evidència que l'àtom no era la partícula última i indivisible que creia la física clàssica."
+        }
+      ]
+    },
+    {
+      "id": "curie-03",
+      "title": "Dues vegades Nobel, sempre estranya",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "La meva resolució és: no témer res i comportar-me amb la dignitat que m'inspiren els descobriments que hem fet.",
+          "author": "Marie Curie"
+        },
+        {
+          "type": "narrative",
+          "text": "El 1903, Marie i Pierre Curie van compartir el Premi Nobel de Física amb Henri Becquerel. Marie va ser la primera dona a guanyar un Nobel. El comitè originalment volia excloure-la: un membre va defensar que Pierre havia fet el treball important. Va ser Pierre qui va insistir que Marie era coautora igual. El 1906, Pierre va morir atropellat per un carruatge a París. Marie va quedar devastada. La Sorbona li va oferir la càtedra de Pierre, convertint-la en la primera professora de la Sorbona."
+        },
+        {
+          "type": "narrative",
+          "text": "El 1911, va guanyar un segon Nobel, aquest cop de Química, per l'aïllament del radi pur. Era el primer Nobel concedit dues vegades a la mateixa persona. Però aquell any la premsa francesa la va atacar ferotgement: havia tingut una relació amb el físic Paul Langevin, un home casat. Els diaris la van tractar d'adúltera i 'd'estrangera destructora de famílies'. El comitè Nobel li va suggerir que no anés a rebre el premi per evitar l'escàndol. Va anar igualment. Va morir el 1934 d'anèmia aplàstica: la mateixa radioactivitat que havia descobert l'havia matat."
+        },
+        {
+          "type": "key-idea",
+          "text": "El doble estàndard de gènere en la ciència del segle XX: quan Marie Curie tenia una relació, era un escàndol; quan Einstein o Heisenberg ho feien, era una anècdota. Quan un col·lega masculí feia el mateix treball, era l'autor principal; quan ho feia Marie, era l'assistent. La seva vida és un estudi de cas sobre com el geni femení era constantment qüestionat i necessitava el doble d'evidència."
+        },
+        {
+          "type": "primary-source",
+          "id": "ps-curie-03-01",
+          "title": "Carta de Marie Curie al Comitè Nobel (1911)",
+          "text": "El premi m'ha estat atorgat a mi, com a reconeixement de mèrits científics personals. Per tant, no puc acceptar la idea que l'apreciació d'aquests mèrits pugui ser influïda per difamacions i calúmnies relatives a la meva vida privada. [...] Estic convençuda que no hi ha cap connexió entre la meva recerca científica i els fets de la meva vida privada.",
+          "question": "Quin principi defensa Marie Curie en aquesta carta i per quina raó era necessari que ho defensés?",
+          "answer": "Defensa la separació entre la vida privada i el reconeixement científic. Havia de defensar-ho perquè el comitè li havia suggerit que no assistís al lliurament per l'escàndol de la seva relació amb Langevin. Cap científic masculí hauria hagut de fer aquesta defensa en les mateixes circumstàncies."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-curie-03-01",
+          "style": "detect-error",
+          "question": "Detecta l'error: 'Marie Curie va ser la primera persona a guanyar dos Premis Nobel. El segon, el de Química el 1911, l'havia de compartir amb Pierre Curie, però com que Pierre havia mort, li'l van donar a ella sola.'",
+          "options": [
+            "L'error és 'compartir amb Pierre': el segon Nobel era exclusivament pel treball de Marie, independent del de Pierre",
+            "L'error és la data: el segon Nobel va ser el 1908, no el 1911",
+            "L'error és 'primera persona': Linus Pauling ja havia guanyat dos Nobel abans",
+            "No hi ha cap error en l'afirmació"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. El Nobel de Química de 1911 era per la feina de Marie sola: l'aïllament del radi pur, uns treballs posteriors a la mort de Pierre. No era una continuació del primer Nobel.",
+          "feedbackWrong": "El segon Nobel de Marie era per treballs propis, independents dels de Pierre, que havia mort el 1906."
+        }
+      ]
+    }
+  ]
+}

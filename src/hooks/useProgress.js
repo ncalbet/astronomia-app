@@ -79,6 +79,15 @@ const DEFAULT_STATE = {
     'module-bio-napoleon','module-bio-napoleon3','module-bio-genguis',
     'module-bio-cleopatra','module-bio-maquiavel','module-bio-gandhi',
     'module-bio-frederic','module-bio-voltaire',
+    'module-bio-catalina','module-bio-robespierre','module-bio-trotsky',
+    'module-bio-mandela','module-bio-eleanor','module-bio-olympe',
+    'module-bio-marcaureli','module-bio-cicero',
+    'module-bio-ataturk','module-bio-marx',
+    // Bloc: Biografies — Pensament i Ciència
+    'module-bio-nietzsche','module-bio-freud','module-bio-darwin','module-bio-leonardo',
+    'module-bio-einstein','module-bio-newton','module-bio-curie','module-bio-kant','module-bio-arendt','module-bio-beauvoir','module-bio-planck',
+    // Bloc: Biografies — Resistència i Drets
+    'module-bio-mlk','module-bio-luxemburg','module-bio-tubman','module-bio-gramsci','module-bio-jfk','module-bio-binladen',
   ],
   badges: [],
   srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }

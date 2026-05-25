@@ -1,0 +1,181 @@
+{
+  "id": "module-bio-darwin",
+  "title": "Darwin: l'origen de les espècies i el nostre lloc al món",
+  "emoji": "🐢",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "dar-01",
+      "title": "El naturalista del Beagle: cinc anys que van canviar la biologia",
+      "blocks": [
+        {
+          "type": "quote",
+          "text": "No és el més fort de les espècies el que sobreviu, ni el més intel·ligent, sinó el que millor respon al canvi.",
+          "author": "Atribuït a Charles Darwin (paràfrasi de L'origen de les espècies)"
+        },
+        {
+          "type": "narrative",
+          "text": "Charles Darwin va néixer el 1809 a Shrewsbury, Anglaterra, en una família de metges i naturalistes. El seu avi Erasmus Darwin ja havia especulat sobre l'evolució de les espècies. El seu pare, el metge Robert Darwin, el va enviar a estudiar medicina a Edimburg —que Darwin va odiar. Després va anar a Cambridge a estudiar teologia —que tampoc no l'apassionava, però on va conèixer el botànic John Stevens Henslow, que el va introduir en la historia natural seriosa. Quan la Marina Reial va oferir a Henslow la plaça de naturalista en el HMS Beagle, un vaixell que havia de cartografiar les costes de Sud-amèrica, Henslow la va refusar i va recomanar el seu alumne de vint-i-dos anys. El pare de Darwin s'hi va oposar —semblava una aventura de jove sense rumb. L'oncle Josiah Wedgwood II el va convèncer. El 27 de desembre del 1831, el Beagle va sortir de Devonport. Darwin no va tornar fins al 2 d'octubre del 1836. Cinc anys. Amèrica del Sud (Brasil, Uruguai, Argentina, Xile, Perú), les Illes Galápagos, Tahití, Nova Zelanda, Austràlia, Cap de Bona Esperança. Darwin va recollir, classificar i enviar a Anglaterra milers d'espècimens: insectes, roques, plantes, animals, fòssils. A les Galápagos va observar que cada illa tenia les seves pròpies varietats de pinsans i tortugues —lleugerament diferents unes de les altres, adaptades als recursos locals. No va ser una revelació immediata. Va trigar anys a entendre el que havia vist."
+        },
+        {
+          "type": "key-idea",
+          "text": "Darwin no va tenir un moment d'eureka al Beagle. La teoria de la selecció natural va ser el resultat de vint anys d'observació, criança de coloms, estudi de fòssils i de la lectura d'un economista (Malthus). El seu genius no va ser la intuïció ràpida sinó la paciència extraordinària amb l'evidència."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            { "year": "1809", "title": "Naix a Shrewsbury", "text": "Família de metges i naturalistes. Avi Erasmus Darwin ja especulava sobre l'evolució." },
+            { "year": "1831-36", "title": "Viatge del Beagle", "text": "Cinc anys circumnavegant el globe. Galápagos, Amèrica del Sud, Austràlia. Milers d'espècimens recollits." },
+            { "year": "1838", "title": "Lec Malthus. Formul·la la selecció natural.", "text": "Llegint l'Assaig sobre la població de Malthus comprèn el mecanisme: competència per recursos escassos, supervivència dels més aptes." },
+            { "year": "1842-44", "title": "Primers esborranys de la teoria", "text": "Escriu un resum de 35 pàgines (1842) i un de 230 (1844). No publica. Continua recollint evidències." },
+            { "year": "1858", "title": "Carta de Wallace", "text": "Alfred Russel Wallace li envia una carta amb la mateixa teoria. Presentació conjunta a la Societat Linneana." },
+            { "year": "1859", "title": "L'origen de les espècies", "text": "Publicat el 24 de novembre. Primera edició de 1.250 exemplars esgotada el primer dia." },
+            { "year": "1871", "title": "El descens de l'home", "text": "Aplica l'evolució als humans explícitament. Selecció sexual. Parentiu amb els primats." }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-dar-01-01",
+          "style": "multiple-choice",
+          "question": "Quin llibre va ser decisiu per a la formulació de la teoria de la selecció natural per part de Darwin?",
+          "options": [
+            "El Sistema de la Naturalesa de Linnaeus, que li va proporcionar el marc classificatori per ordenar les espècies que havia observat al Beagle",
+            "La Geologia dels Principis de Lyell, que li va demostrar que la Terra tenia milions d'anys —el temps necessari per a l'evolució gradual",
+            "L'Assaig sobre el Principi de la Població de Malthus, que li va donar la clau: si les poblacions produeixen més descendents que els que poden sobreviure, hi ha competència, i els amb avantatges sobreviuen i es reprodueixen",
+            "L'Anatomia Comparada de Cuvier, que demostrava que moltes espècies aparentment diferents compartien estructures bàsiques homòlogues"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. Darwin va llegir l'Assaig sobre el Principi de la Població de Thomas Robert Malthus el 1838 i va tenir la clau que li faltava. Malthus argumentava que les poblacions humanes creixien més ràpidament que els recursos disponibles, generant competència i misèria. Darwin va aplicar el raonament a totes les espècies: si cada organisme produeix molts més descendents que els que sobreviuran, hi ha una competència constant, i aquells amb variacions avantatjoses tindran més probabilitats de sobreviure i reproduir-se. Era el mecanisme de la selecció natural.",
+          "feedbackWrong": "El text clau va ser l'Assaig sobre el Principi de la Població de Malthus (1838). Malthus argumentava que les poblacions creixien més ràpidament que els recursos, generant competència. Darwin va aplicar el raonament a totes les espècies: els descendents avantatjosos sobreviuen més; els desavantatjosos moren. Era el mecanisme que li faltava."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-dar-01-01",
+          "question": "Darwin va observar la variació entre espècies a les Galápagos el 1835 però no va publicar la seva teoria fins al 1859 —vint-i-quatre anys després. Per qué va esperar tant?",
+          "options": [
+            "Perquè no estava segur de la teoria fins que va tenir prou evidències. Era un científic rigorós que no volia publicar prematurament",
+            "Perquè temia la reacció religiosa i social. Sabia que la teoria era explosiva i preferia esperar el moment adequat",
+            "Probablement ambdues raons: necessitava més evidències (la teoria de la herència era incompleta) i temia la reacció (la seva dona Emma era devota creient). La carta de Wallace el 1858 el va forçar a publicar"
+          ],
+          "correct": 2,
+          "explanation": "La llarga espera de Darwin per publicar és un dels gran misteris de la historia de la ciència. La versió oficial (posició A) és la del rigor científic: necessitava més evidències. Té base real: Darwin havia criat coloms durant anys per entendre la variació hereditària, havia estudiat fòssils, havia consultat criadors. Però la posició B també té suport: en les seves cartes Darwin descriu la teoria com 'confessar un assassinat' i mostra una consciència clara de les seves implicacions religioses i socials. La seva dona Emma era profundament cristiana i Darwin sabia que la teoria la pertorbaria. La posició C és la síntesi: la carta de Wallace el 1858 —que contenia la mateixa teoria formulada independentment— el va forçar a publicar. Sense aquell estímul extern, potser hauria esperat indefinidament."
+        }
+      ]
+    },
+    {
+      "id": "dar-02",
+      "title": "L'origen de les espècies: com funciona la selecció natural",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "El 24 de novembre del 1859, John Murray va publicar On the Origin of Species by Means of Natural Selection. Primera edició: 1.250 exemplars. Esgotada el primer dia. El llibre explicava la teoria de la selecció natural amb una claredat i una riquesa d'exemples sense precedents en la ciència. El mecanisme era senzill però de conseqüències enormes: (1) Tots els organismes produeixen més descendents que els que sobreviuran. (2) Hi ha variació hereditària entre individus d'una mateixa espècie. (3) Aquells individus amb variacions que els donen avantatge en el seu entorn sobreviuen i es reprodueixen més. (4) Aquelles variacions avantatjoses s'acumulen generació rere generació. El resultat, al llarg de temps geològics enormes: la diversitat de la vida. Darwin va evitar en la primera edició la paraula 'evolució' (prefereix 'descent with modification', descens amb modificació) i gairebé no va mencionar els humans. Sabia que aquella era la part explosiva: si totes les espècies compartien avantpassats comuns, els humans compartien avantpassats amb els simis. Va deixar aquella conclusió per a El descens de l'home (1871). La recepció va ser intensa: el biòleg Thomas Huxley es va convertir en el seu defensor més agressiu (l'anomenaven 'El buldoc de Darwin'). El debat d'Oxford del 1860 entre Huxley i el bisbe Wilberforce —'preferiu ser descendent d'un simi per la banda del vostre avi o la vostra àvia?'— va ser el primer gran enfrontament públic entre la ciència evolutiva i la religió."
+        },
+        {
+          "type": "primary-source",
+          "label": "Darwin, L'origen de les espècies (1859)",
+          "source": "Charles Darwin, On the Origin of Species, paràgraf final, 1859",
+          "text": "«Hi ha una grandesa en aquesta visió de la vida, amb les seves diverses potències, que han estat infundides originàriament en poques formes o en una de sola; i que, mentre aquest planeta ha girat seguint la llei fixa de la gravetat, a partir d'un inici tan simple s'han desplegat i es continuen desplegant formes sense fi, les més belles i les més meravelloses.»",
+          "questions": [
+            "Darwin tria acabar el llibre amb la paraula 'meravelloses'. Un llibre de ciència que acaba amb meravella: qué diu sobre la relació que Darwin veia entre la ciència i l'experiència estètica del món natural?",
+            "Darwin escriu 'infundides originàriament en poques formes o en una de sola'. Per qué manté l'ambigüitat sobre l'origen primer de la vida? Era prudència religiosa o incertesa científica genuïna?",
+            "Compara aquest paràgraf final amb l'estil habitual de la prosa científica actual. Qué ha canviat en la manera d'escriure ciència? Qué s'ha guanyat i qué s'ha perdut?"
+          ]
+        },
+        {
+          "type": "what-would-you-do",
+          "character": "Darwin",
+          "emoji": "🐢",
+          "year": "Juny del 1858",
+          "setup": "Portes vint anys treballant en la teoria de la selecció natural. Has omplert quaderns, criat coloms, estudiat fòssils, consultat criadors. Tens un esborrany de 230 pàgines escrit el 1844. Ara arribes al matí a la teva taula de treball i hi ha una carta de Alfred Russel Wallace, un naturalista que treballa a Borneo. Obre-la i llegeixes la seva teoria de la selecció natural —gairebé idèntica a la teva. Wallace et demana que l'enviïs a Charles Lyell si la trobes interessant.",
+          "dilemma": "Publiques immediatament la teva teoria per establir la prioritat, arriscant que sembli que l'has robada a Wallace? O cedeixes la prioritat a Wallace i publiques el teu treball complet més tard?",
+          "options": [
+            { "id": "A", "text": "Publico immediatament: tinc vint anys de feina i cartes que ho demostren. La prioritat és meva per dret" },
+            { "id": "B", "text": "Cedeixo: Wallace ha formulat la teoria de forma independent. La ciència pertany a qui la troba, no a qui la guarda" }
+          ],
+          "reveal": "Darwin va escriure a Lyell en estat de xoc: 'Totes les meves originalitats, siguin quines siguin, quedaran destruïdes.' Lyell i el botànic Joseph Hooker van organitzar una presentació conjunta a la Societat Linneana el juliol del 1858: un extracte de l'esborrany de Darwin del 1844 i la carta de Wallace, presentats simultàniament. Darwin no hi era —acabava de perdre el seu fill petit per escarlatina. L'any següent va publicar L'origen de les espècies. Wallace mai no va qüestionar la prioritat de Darwin i va quedar-se com la figura menor de la parella.",
+          "analysis": "La solució de Lyell i Hooker —presentació conjunta— va resoldre el problema de prioritat de forma elegant però no completament justa: Darwin va rebre molt més reconeixement que Wallace, en part perquè L'origen de les espècies (1859) era un argument complet i documentat, mentre que Wallace tenia només un article. La qüestió de la prioritat científica i el reconeixement és sempre complexa quan dos investigadors arriben de forma independent a la mateixa conclusió."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-dar-02-01",
+          "style": "detect-error",
+          "statement": "La frase 'supervivència del més apte' (survival of the fittest) va ser encunyada per Charles Darwin a L'origen de les espècies per descriure el mecanisme de la selecció natural.",
+          "isCorrect": false,
+          "feedbackExplanation": "Incorrecte. La frase 'supervivència del més apte' va ser encunyada pel filòsof Herbert Spencer el 1864, cinc anys després de la publicació de L'origen de les espècies. Darwin la va incorporar en edicions posteriors del seu llibre com a sinònim de 'selecció natural', però no era la seva formulació original. La confusió és important perquè Spencer va usar la frase en el context del seu 'darwinisme social' —l'aplicació de la selecció natural a les societats humanes— que Darwin rebutjava. Darwin preferia el terme 'selecció natural', que és més precís: no sobreviu el 'més apte' en un sentit absolut, sinó el que millor s'adapta a un entorn específic."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-dar-02-01",
+          "question": "La teoria de Darwin va ser formulada sense saber res de genètica (Mendel va publicar el 1866 però ningú no el va llegir fins al 1900). Com és possible que la teoria fos correcta sense conèixer el mecanisme de la herència?",
+          "options": [
+            "No era completament correcta: Darwin va assumir l'herència per combinació (barreja), que és incorrecta. La Síntesi Moderna dels anys 30-40 va reescriure la teoria combinant Darwin amb Mendel",
+            "Era correcta en l'estructura: Darwin va identificar el patró (variació hereditària + selecció) sense conèixer el mecanisme subjacent. Com Newton va describir la gravetat sense entendre la relativitat",
+            "La genètica no és necessària per a la teoria: la selecció natural funciona amb qualsevol mecanisme d'herència que preservi les variacions avantatjoses, independentment de si es tracta de gens, epigenètica o altres mecanismes"
+          ],
+          "correct": 1,
+          "explanation": "La relació entre Darwin i la genètica és un dels casos més fascinants de la historia de la ciència. La posició A té raó en assenyalar que Darwin tenia un problema real: sense conèixer la genètica mendeliana, va assumir una herència per 'barreja' (blend inheritance) que diluïria les variacions en lloc de preservar-les —el que va fer que alguns matemàtics contemporanis argumentessin que la selecció natural no podia funcionar. La Síntesi Moderna dels anys 30-40 (Fisher, Haldane, Wright, Mayr) va resoldre el problema combinant la selecció natural de Darwin amb la genètica de Mendel. La posició B és justa: Darwin va identificar correctament l'estructura del procés malgrat no conèixer el mecanisme. Com Newton va descriure la gravetat amb precisió sense entendre la relativitat general. La posició C és parcialment certa però incompleta. La conclusió: Darwin tenia raó en el que importava —el patró— i es va equivocar en el que no coneixia —el mecanisme de la herència."
+        }
+      ]
+    },
+    {
+      "id": "dar-03",
+      "title": "El món després de Darwin: evolució i les seves implicacions",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "La recepció de L'origen de les espècies va ser immediata i intensa. Thomas Huxley, que va llegir el llibre en una nit, va escriure: 'Quina estupidesa la meva de no haver-ho pensat jo!' i es va convertir en el defensor públic més agressiu de Darwin —que preferia la polèmica des de casa. Al debat d'Oxford del 1860, el bisbe Samuel Wilberforce va preguntar a Huxley si preferia ser descendent d'un simi per la banda del seu avi o la seva àvia. Huxley va respondre que preferia ser descendent d'un simi que d'un bisbe que usava la seva influència per distorsionar la veritat. L'Església catòlica i moltes esglésies protestants van condemnar la teoria. Però la recepció científica va ser ràpidament favorable: la teoria explicava massa bé la distribució geogràfica de les espècies, els registres fòssils i les homologies anatòmiques per ser ignorada. El problema greu va venir del 'darwinisme social': Herbert Spencer, Francis Galton i altres van aplicar la selecció natural a les societats humanes, argumentant que els rics eren 'els més aptes' i que ajudar els pobres 'interferia amb l'evolució'. Darwin va rebutjar explícitament aquestes aplicacions. Però el seu nom va quedar associat a ideologies que no tenia res a veure amb la seva ciència. La Síntesi Moderna dels anys 30-40 va integrar la genètica mendeliana amb la selecció natural, creant la biologia evolutiva moderna. Avui, la teoria de l'evolució per selecció natural és el marc unificador de tota la biologia —'res en biologia té sentit excepte a la llum de l'evolució', va escriure el genetista Theodosius Dobzhansky."
+        },
+        {
+          "type": "before-after",
+          "title": "La biologia: abans i després de Darwin",
+          "before": {
+            "label": "Biologia pre-darwiniana (fins al 1859)",
+            "points": [
+              "Espècies fixes i immutables: cada espècie creada per separat i inalterada des de la creació",
+              "Taxonomia sense filogènia: les espècies es classificaven per semblança però sense entendre les relacions evolutives",
+              "Paleontologia desconnectada: els fòssils eren curiositats sense connexió sistemàtica amb les espècies actuals",
+              "Anatomia comparada sense marc explicatiu: les homologies entre espècies eren observades però sense teoria que les expliqués"
+            ]
+          },
+          "after": {
+            "label": "Biologia post-darwiniana",
+            "points": [
+              "Evolució com a marc unificador: tota la biologia s'organitza al voltant de la historia evolutiva de la vida",
+              "Filogènia molecular: la comparació de seqüències d'ADN permet reconstruir l'arbre de la vida amb detall creixent",
+              "Medicina evolutiva: entendre les malalties infeccioses com a resultat de la selecció en patògens i hostes",
+              "Biologia de la conservació: entendre les espècies com a producte de la seva historia evolutiva guia la conservació"
+            ]
+          },
+          "insight": "Darwin va transformar la biologia de la mateixa manera que Copèrnic va transformar l'astronomia: va treure l'home del centre del cosmos biològic. Ja no som l'espècie creada per separat i apart de la naturalesa —som el producte del mateix procés que ha produït tots els altres éssers vius."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-dar-03-01",
+          "style": "multiple-choice",
+          "question": "El 'darwinisme social' —la idea que la selecció natural justifica les desigualtats socials i que ajudar els pobres 'interferia amb l'evolució'— va ser:",
+          "options": [
+            "Una aplicació directa i fidel de les idees de Darwin, que va defensar explícitament que la selecció natural s'aplicava a les societats humanes",
+            "Una distorsió de les idees de Darwin que ell mateix va rebutjar: Darwin creia que la simpatia i la cooperació eren trets evolutivament avantatjosos en els humans",
+            "Una teoria científica independent formulada per Herbert Spencer que Darwin va acceptar en privat, tot i que mai no la va defensar públicament per por a la controvèrsia"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Exacte. El darwinisme social és una distorsió de les idees de Darwin que ell mateix va criticar. Darwin creia que la simpatia, la cooperació i el sentit moral eren trets que la selecció natural havia afavorit en les societats humanes —precisament perquè els grups cohesius i solidaris tenien avantatges adaptatius sobre els grups individualistes. En El descens de l'home (1871) va escriure que les instàncies morals i socials eren productes de l'evolució, no obstacles. El 'darwinisme social' va ser formulat principalment per Herbert Spencer i Francis Galton, i va usar el nom de Darwin de forma oportunista.",
+          "feedbackWrong": "El darwinisme social és una distorsió que Darwin va rebutjar. En El descens de l'home va argumentar que la simpatia i la cooperació eren trets evolutivament avantatjosos. El terme va ser encunyat per Herbert Spencer, que va usar el prestigi de Darwin per donar cobertura científica a idees que Darwin no compartia."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-dar-03-01",
+          "question": "La teoria de l'evolució implica que els humans som el producte del mateix procés que ha produït totes les espècies, sense cap propòsit o direcció. Té implicacions morals o filosòfiques, o la biologia és neutral respecte als valors?",
+          "options": [
+            "Té implicacions: si la vida no té propòsit intrínsec, els valors morals son construccions humanes sense fonament objectiu. L'evolució implica un nihilisme moral",
+            "La biologia és neutral: de la descripció de com funciona la naturalesa no es deriva cap norma sobre com ha de ser. La 'fal·làcia naturalista' (el que és natural és bo) és un error lògic bàsic",
+            "Les implicacions son reals però no nihilistes: l'evolució explica l'origen dels nostres valors morals (com a productes de la selecció social) sense destruir-los. Que els valors tinguin una causa natural no els fa menys reals ni menys vinculants"
+          ],
+          "correct": 2,
+          "explanation": "La pregunta sobre les implicacions morals de l'evolució és un dels debats filosòfics més importants des del segle XIX. La posició A (nihilisme moral) és la que molts crítics religiosos de Darwin temien: si som productes d'un procés cec i sense propòsit, on trobar els fonaments de la moral? La posició B (neutralitat de la biologia) és la resposta clàssica de la filosofia analítica: la fal·làcia naturalista (David Hume, G.E. Moore) mostra que del 'és' no es deriva el 'hauria de ser'. El fet que l'agressió sigui 'natural' no la fa bona. La posició C és la més rica: l'evolució pot explicar l'origen dels nostres sentiments morals (empatia, cooperació, sentit de justícia) com a productes de la selecció social, sense que aquella explicació causal elimini la seva força normativa. Explicar per qué sentim que el dolor dels altres importa no fa que deixi d'importar-nos."
+        }
+      ]
+    }
+  ]
+}
