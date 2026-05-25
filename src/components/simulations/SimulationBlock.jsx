@@ -10,13 +10,17 @@
  *   3. Usar "simulationType": "nom-sim" al JSON del mòdul
  */
 
-import RetrogradeSim from './RetrogradeSim'
+import RetrogradeSim        from './RetrogradeSim'
+import NaturalSelectionSim  from './NaturalSelectionSim'
+import OrbitalSim           from './OrbitalSim'
+import GravityLensingSim    from './GravityLensingSim'
 import styles from './SimulationBlock.module.css'
 
 const SIM_MAP = {
-  'retrograde-motion': RetrogradeSim
-  // 'gravity-well':   GravitySim,
-  // 'orbital-speed':  OrbitalSim,
+  'retrograde-motion':   RetrogradeSim,
+  'natural-selection':   NaturalSelectionSim,
+  'orbital-speed':       OrbitalSim,
+  'gravity-lensing':     GravityLensingSim,
 }
 
 export default function SimulationBlock({ block }) {
