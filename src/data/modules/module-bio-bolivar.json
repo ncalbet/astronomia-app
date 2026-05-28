@@ -10,6 +10,18 @@
       "title": "El criollo il·lustrat: entre dos móns",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-boliv-01-01",
+          "question": "Bolívar va dir el 1826: 'Estic convençut al fons del meu cor que només un bon despot pot governar Amèrica.' Va ser una lucidesa sobre la realitat colonial, o una justificació autocràtica del seu propi poder?",
+          "options": [
+            "Era lucidesa: les noves repúbliques no tenien les institucions ni la cultura cívica per la democràcia liberal. Bolívar havia diagnosticat correctament. La seva proposta era una dictadura il·lustrada, no un capritx personal",
+            "Era autocràcia disfressada de teoria: un home que vol el poder sempre pot trobar raons per justificar-lo. La cita és la racionalització ideològica de les ambicions personals de Bolívar",
+            "Era les dues coses alhora: el diagnòstic tenia una base real (les repúbliques postcolonials eren fràgils) però la 'solució' del bon despot confonia el problema sistèmic amb la solució personal. La democràcia liberal exigeix temps i institucions, no un individu excepcional"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és defensada per molts historiadors llatinoamericans que veuen el 'despotisme il·lustrat' bolivarià com una resposta pragmàtica a la realitat colonial: una societat amb alt analfabetisme, sense tradició cívica i amb elits acostumades al paternalisme difícilment podia sostenir una democràcia liberal de cop. La posició B és la crítica liberal clàssica: els dictadors sempre troben teories per justificar el seu poder. La posició C és la que permet entendre la tragèdia de Bolívar: va diagnosticar correctament que les noves repúbliques eren fràgils, però va proposar com a solució la seva pròpia indispensabilitat, que era exactament el problema. La dependència d'un 'bon despot' no crea les institucions que fan les democràcies duradores."
+        },
+        {
           "type": "quote",
           "text": "Estic convençut al fons del meu cor que només un bon despot pot governar Amèrica.",
           "author": "Simón Bolívar, 1826"
@@ -51,6 +63,20 @@
       "title": "La guerra d'independència: alliberar mig continent",
       "blocks": [
         {
+          "type": "what-would-you-do",
+          "character": "Simón Bolívar",
+          "emoji": "⚔️",
+          "year": "1826 — Congres de Panamà",
+          "setup": "Has alliberat cinc nacions. El teu gran somni és unir-les en una sola confederació llatinoamericana —els 'Estats Units del Sud'— que pugui negociar d'igual a igual amb Europa i els EUA del Nord. Has convocat el Congrés de Panamà per fundar aquesta unió. Però els líders de cada república volen mantenir la seva sobirania. Veneçuela no vol que la governi Bogotà. El Perú desconfia de Colòmbia. Cada elit local defensa el seu territori.",
+          "dilemma": "Imposes la unió per la força —usant l'autoritat que et donen les teves victòries militars— o acceptes que cada república sigui sobirana i abandones el somni de la gran confederació?",
+          "options": [
+            { "id": "A", "text": "Imposo la unió: sense unitat som febles davant Europa. Si cal un poder fort per crear-la, l'assumeixo" },
+            { "id": "B", "text": "Accepto la sobirania de cada república: no puc imposar la llibertat per la força sense trair el que he lluitat" }
+          ],
+          "reveal": "El Congrés de Panamà va fracassar. Bolívar va intentar mantenir la Gran Colòmbia (Veneçuela, Colòmbia i Equador unides) per la força i va assumir poders dictatorials el 1828. Veneçuela es va separar el 1829. Equador, el 1830. Bolívar va renunciar a la presidència i va morir a Santa Marta el desembre de 1830, amb 47 anys, en camí cap a l'exili voluntari a Europa. Les seves últimes paraules, segons els testimonis, van ser: 'He llautat el mar.'",
+          "analysis": "El fracàs del projecte d'unitat llatinoamericana és un dels grans 'i si...' de la historia occidental. Bolívar havia vist correctament que la fragmentació faria les noves repúbliques vulnerables —i tenia raó. Però la solució que va intentar —el poder personal d'un libertador convertit en dictador— era exactament el contrari del que havia predicat. La tensió entre unitat i llibertat, entre eficàcia i legitimitat, no va saber resoldre-la."
+        },
+        {
           "type": "narrative",
           "text": "Entre 1810 i 1826, Bolívar va comandar la guerra d'independència de Veneçuela, Nova Granada (actual Colòmbia), Equador, Perú i l'Alt Perú (actual Bolívia). Va perdre dues vegades i tornar dues vegades des de l'exili. Va creuar els Andes en ple hivern amb un exèrcit de 2.000 soldats per sorprendre als espanyols a Nova Granada —una de les campanyes militars més audaces de la historia americana. Va abolir l'esclavitud als territoris alliberats per guanyar el suport de la població negra. Va prometre terres als indígenes que lluitessin amb ell. Va crear cinc repúbliques en menys de vint anys."
         },
@@ -78,27 +104,12 @@
           "insight": "La independència llatinoamericana va canviar la bandera i la classe dirigent, però no les estructures econòmiques. Les terres seguien en mans de les mateixes famílies. Els indígenes i els negres —que havien lluitat en tots dos bàndols— van guanyar poc. Bolívar ho va saber i li va coure profundament els últims anys de la seva vida."
         },
         {
-          "type": "what-would-you-do",
-          "character": "Simón Bolívar",
-          "emoji": "⚔️",
-          "year": "1826 — Congres de Panamà",
-          "setup": "Has alliberat cinc nacions. El teu gran somni és unir-les en una sola confederació llatinoamericana —els 'Estats Units del Sud'— que pugui negociar d'igual a igual amb Europa i els EUA del Nord. Has convocat el Congrés de Panamà per fundar aquesta unió. Però els líders de cada república volen mantenir la seva sobirania. Veneçuela no vol que la governi Bogotà. El Perú desconfia de Colòmbia. Cada elit local defensa el seu territori.",
-          "dilemma": "Imposes la unió per la força —usant l'autoritat que et donen les teves victòries militars— o acceptes que cada república sigui sobirana i abandones el somni de la gran confederació?",
-          "options": [
-            { "id": "A", "text": "Imposo la unió: sense unitat som febles davant Europa. Si cal un poder fort per crear-la, l'assumeixo" },
-            { "id": "B", "text": "Accepto la sobirania de cada república: no puc imposar la llibertat per la força sense trair el que he lluitat" }
-          ],
-          "reveal": "El Congrés de Panamà va fracassar. Bolívar va intentar mantenir la Gran Colòmbia (Veneçuela, Colòmbia i Equador unides) per la força i va assumir poders dictatorials el 1828. Veneçuela es va separar el 1829. Equador, el 1830. Bolívar va renunciar a la presidència i va morir a Santa Marta el desembre de 1830, amb 47 anys, en camí cap a l'exili voluntari a Europa. Les seves últimes paraules, segons els testimonis, van ser: 'He llautat el mar.'",
-          "analysis": "El fracàs del projecte d'unitat llatinoamericana és un dels grans 'i si...' de la historia occidental. Bolívar havia vist correctament que la fragmentació faria les noves repúbliques vulnerables —i tenia raó. Però la solució que va intentar —el poder personal d'un libertador convertit en dictador— era exactament el contrari del que havia predicat. La tensió entre unitat i llibertat, entre eficàcia i legitimitat, no va saber resoldre-la."
-        },
-        {
           "type": "exercise",
           "id": "ex-boliv-02-01",
-          "style": "true-false",
-          "question": "El Congrés de Panamà de 1826, convocat per Bolívar, va aconseguir crear una confederació d'estats llatinoamericans unida.",
-          "correct": false,
-          "feedbackCorrect": "Fals. El Congrés de Panamà va ser un dels grans fracassos diplomàtics de Bolívar. Només quatre repúbliques van enviar delegats; els EUA van arribar tard (un delegat va morir pel camí, l'altre va arribar quan ja havia acabat); Gran Bretanya hi va assistir com a observadora però no com a participant. Cap tractat vinculant va ser signat. La visió bolivariana d'una Amèrica llatina unida va morir a Panamà.",
-          "feedbackWrong": "El Congrés va fracassar completament. Les repúbliques preferien la seva sobirania individual a qualsevol estructura supranacional. El somni bolivarià de la gran confederació no va prosperar mai."
+          "style": "detect-error",
+          "statement": "El Congrés de Panamà de 1826, convocat per Bolívar, va aconseguir crear una confederació d'estats llatinoamericans unida, el primer pas cap als 'Estats Units del Sud' que Bolívar somniava.",
+          "isCorrect": false,
+          "feedbackExplanation": "El Congrés de Panamà va ser un dels grans fracassos diplomàtics de Bolívar. Només quatre repúbliques van enviar delegats; els EUA van arribar tard (un delegat va morir pel camí, l'altre va arribar quan ja havia acabat); Gran Bretanya hi va assistir com a observadora però no com a participant. Cap tractat vinculant va ser signat. Les repúbliques preferien la seva sobirania individual a qualsevol estructura supranacional. La visió bolivariana d'una Amèrica llatina unida va morir a Panamà."
         }
       ]
     },
@@ -106,6 +117,18 @@
       "id": "boliv-03",
       "title": "La decepció final: quan el libertador es torna dictador",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-boliv-03-01",
+          "question": "El somni bolivarià d'una Amèrica llatina unida: era una visió genial anticipada al seu temps o una utopia irrealitzable des de l'inici?",
+          "options": [
+            "Genial i anticipada: la fragmentació en 20 repúbliques va fer exactament el que Bolívar temia —les va deixar dèbils davant Europa i els EUA. Una confederació hauria canviat la geopolítica mundial",
+            "Utopia irrealitzable: les identitats locals, els interessos econòmics divergents i la manca d'institucions comunes feien impossible la unió. Bolívar no entenia la realitat de les societats que volia unir",
+            "Una visió correcta en el diagnòstic però errada en el mètode: la fragmentació era un problema real, però la solució —una confederació imposada des de dalt per un libertador— no podia funcionar sense una base social i institucional que no existia"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és defensada per historiadors com José Luis Romero: la balcanització de l'Amèrica llatina va ser un desastre geopolític que va beneficiar les potències estrangeres durant dos segles. La posició B és la crítica estructuralista: sense institucions, cultura cívica ni identitat supranacional compartida, la unió era impossible. La posició C integra les dues: Bolívar va diagnosticar correctament el problema (la fragmentació) però va proposar una solució (la seva pròpia autoritat personal) que no podia resoldre'l. El problema no era la voluntat de Bolívar sinó l'absència de les condicions socials i institucionals que fan possible qualsevol unió política durable."
+        },
         {
           "type": "narrative",
           "text": "El 1828, Bolívar va assumir poders dictatorials a la Gran Colòmbia. El 25 de setembre de 1828 va sobreviure un atemptat —la seva amant, Manuela Sáenz, el va fer escapar per una finestra. El 1829, Veneçuela, la seva pàtria, es va separar de la Gran Colòmbia. El 1830, Equador va fer el mateix. La Gran Colòmbia, el seu projecte de vida, es dissolia davant dels seus ulls. Va renunciar a la presidència el gener de 1830. Va morir el desembre del mateix any, a Santa Marta, de tuberculosi, en camí cap a un exili voluntari a Europa. Tenia 47 anys. En el seu testament va escriure que no posseïa res."
@@ -145,18 +168,6 @@
             }
           ],
           "reflection": "Bolívar va ser usat per Hugo Chávez per legitimar el seu moviment 'bolivarià'. Com és possible que el mateix personatge històric inspiri tant l'independentisme liberal del segle XIX com el populisme autoritari del segle XXI?"
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-boliv-03-01",
-          "question": "El somni bolivarià d'una Amèrica llatina unida: era una visió genial anticipada al seu temps o una utopia irrealitzable des de l'inici?",
-          "options": [
-            "Genial i anticipada: la fragmentació en 20 repúbliques va fer exactament el que Bolívar temia —les va deixar dèbils davant Europa i els EUA. Una confederació hauria canviat la geopolítica mundial",
-            "Utopia irrealitzable: les identitats locals, els interessos econòmics divergents i la manca d'institucions comunes feien impossible la unió. Bolívar no entenia la realitat de les societats que volia unir",
-            "Una visió correcta en el diagnòstic però errada en el mètode: la fragmentació era un problema real, però la solució —una confederació imposada des de dalt per un libertador— no podia funcionar sense una base social i institucional que no existia"
-          ],
-          "correct": 2,
-          "explanation": "La posició A és defensada per historiadors com José Luis Romero: la balcanització de l'Amèrica llatina va ser un desastre geopolític que va beneficiar les potències estrangeres durant dos segles. La posició B és la crítica estructuralista: sense institucions, cultura cívica ni identitat supranacional compartida, la unió era impossible. La posició C integra les dues: Bolívar va diagnosticar correctament el problema (la fragmentació) però va proposar una solució (la seva pròpia autoritat personal) que no podia resoldre'l. El problema no era la voluntat de Bolívar sinó l'absència de les condicions socials i institucionals que fan possible qualsevol unió política durable."
         }
       ]
     }

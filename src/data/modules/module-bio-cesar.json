@@ -10,6 +10,24 @@
       "title": "El jove que tothom subestimava",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-cesar-01-01",
+          "question": "Cèsar va refusar divorcia-se de Cornèlia quan Sul·la, el dictador, ho va exigir. Arriscar la vida per amor romàntic, o hi havia un càlcul polític darrere?",
+          "options": [
+            "Era amor: Cèsar estimava Cornèlia i va prioritzar el sentiment sobre la supervivència",
+            "Era càlcul pur: associar-se amb els enemics de Sul·la li donava una identitat política populista que li seria útil",
+            "Era una combinació: l'amor era real, però Cèsar va veure que la valentia pública l'ajudaria políticament — i va decidir que el risc valia la pena"
+          ],
+          "correct": 2,
+          "explanation": "Els historiadors debaten aquest moment. La posició A és possible — Cèsar sembla haver estimat Cornèlia genuïnament. La posició B és cínica però defensable: la identitat de 'jove valent que desafia el dictador' va ser un actiu polític real. La posició C és la més plausible: Cèsar era capaç de prendre decisions emocionalment honestes que coincidien amb els seus interessos. No totes les accions morals han de ser desinteressades per ser autèntiques."
+        },
+        {
+          "type": "misconception",
+          "belief": "Cèsar era un geni militar nat que va conquerir les Gàl·lies gràcies al seu talent innat per a la guerra.",
+          "reality": "Cèsar no tenia experiència militar seriosa fins als 40 anys. Va aprendre sobre la marxa, cometent errors greus al principi. El seu autèntic geni era polític: sabia motivar les tropes, guanyar-se la lleialtat dels vençuts i, sobretot, saber a qui pagar i a qui perdonar.",
+          "why": "El seu Bellum Gallicum (La Guerra de les Gàl·lies) és un relat de propaganda escrit per ell mateix en tercera persona per semblar objectiu. És una obra mestra de l'autopromoció, no una crònica neutral."
+        },
+        {
           "type": "quote",
           "text": "Preferiria ser el primer en un poblet que el segon a Roma.",
           "author": "Juli Cèsar"
@@ -33,12 +51,6 @@
           ]
         },
         {
-          "type": "misconception",
-          "belief": "Cèsar era un geni militar nat que va conquerir les Gàl·lies gràcies al seu talent innat per a la guerra.",
-          "reality": "Cèsar no tenia experiència militar seriosa fins als 40 anys. Va aprendre sobre la marxa, cometent errors greus al principi. El seu autèntic geni era polític: sabia motivar les tropes, guanyar-se la lleialtat dels vençuts i, sobretot, saber a qui pagar i a qui perdonar.",
-          "why": "El seu Bellum Gallicum (La Guerra de les Gàl·lies) és un relat de propaganda escrit per ell mateix en tercera persona per semblar objectiu. És una obra mestra de l'autopromoció, no una crònica neutral."
-        },
-        {
           "type": "exercise",
           "id": "ex-cesar-01-01",
           "style": "multiple-choice",
@@ -52,18 +64,6 @@
           "correct": 2,
           "feedbackCorrect": "Exacte. Cèsar va acumular un deute enorme — equivalent a milions d'euros actuals — pagant jocs públics, banquets i favors polítics. Era una inversió calculada: la gent que li devia favors li devia lleialtat. Cras el va rescatar financerament múltiples vegades a canvi d'influència política. L'economia de la República romana era inseparable de la política.",
           "feedbackWrong": "La família dels Julii era respectable però no rica ni poderosa. Les seves campanyes militars prèvies van ser menors. Com a Pontifex Maximus tenia prestigi religiós però no poder polític directe. El recurs clau va ser el deute estratègic: gastar molt per comprar influència."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-cesar-01-01",
-          "question": "Cèsar va refusar divorcia-se de Cornèlia quan Sul·la, el dictador, ho va exigir. Arriscar la vida per amor romàntic, o hi havia un càlcul polític darrere?",
-          "options": [
-            "Era amor: Cèsar estimava Cornèlia i va prioritzar el sentiment sobre la supervivència",
-            "Era càlcul pur: associar-se amb els enemics de Sul·la li donava una identitat política populista que li seria útil",
-            "Era una combinació: l'amor era real, però Cèsar va veure que la valentia pública l'ajudaria políticament — i va decidir que el risc valia la pena"
-          ],
-          "correct": 2,
-          "explanation": "Els historiadors debaten aquest moment. La posició A és possible — Cèsar sembla haver estimat Cornèlia genuïnament. La posició B és cínica però defensable: la identitat de 'jove valent que desafia el dictador' va ser un actiu polític real. La posició C és la més plausible: Cèsar era capaç de prendre decisions emocionalment honestes que coincidien amb els seus interessos. No totes les accions morals han de ser desinteressades per ser autèntiques."
         }
       ]
     },
@@ -71,6 +71,20 @@
       "id": "cesar-02",
       "title": "Conqueridor o genocida? Les Gàl·lies, 58-50 aC",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "character": "Juli Cèsar",
+          "emoji": "⚔️",
+          "year": "49 aC — el Rubicó",
+          "setup": "El Senat t'ha ordenat dissoldre el teu exèrcit i tornar a Roma com a ciutadà privat. Saps que si arribes desarmat, els teus enemics t'acusaran de crims de guerra a les Gàl·lies i et destruiran políticament. Pompeu, el teu antic aliat i ara rival, té legions a Hispania i Grècia. El Rubicó és el límit legal: un general romà no pot creuar-lo armat sense autorització del Senat.",
+          "dilemma": "Creues el Rubicó amb les legions — un acte de traïció oberta que inicia una guerra civil — o dissoldre l'exèrcit i tornes a Roma a afrontar el judici?",
+          "options": [
+            { "id": "A", "text": "Creuo el Rubicó: la guerra civil és l'única sortida que em garanteix la supervivència política" },
+            { "id": "B", "text": "Retorno a Roma: el Senat és l'autoritat legítima i confio en la justícia del procés" }
+          ],
+          "reveal": "Cèsar va creuar el Rubicó el gener del 49 aC amb la XIII Legió. Es diu que va dir 'alea iacta est' ('el dau és llançat'). En menys de 60 dies, Pompeu i el Senat havien fugit d'Itàlia. La guerra civil va durar quatre anys i va costar centenars de milers de vides.",
+          "analysis": "La decisió de Cèsar no era irraocional: tenia informació que el Senat planejava destruir-lo políticament i que Pompeu no estava disposat a un compromís real. La guerra civil que va iniciar va matar molta gent, però va produir la Pax Romana — un segle de relativa estabilitat. El problema és que Cèsar no podia saber això. Va apostar per la seva supervivència i va tenir raó. Però si hagués perdut, seria recordat com un traïdor que va destruir la República per ambició personal — cosa que, en certa mesura, va fer igualment."
+        },
         {
           "type": "narrative",
           "text": "En vuit anys de guerra, Cèsar va conquerir el territori que avui és França, Bèlgica i parts de Suïssa i Alemanya. Va creuar el Rin dos cops i va desembarcar a Britània. Va escriure el relat en primera persona — en tercera gramatical — en un estil llatí tan clar i elegant que els escolars l'han llegit durant 2.000 anys. El que el relat no menciona amb tanta freqüència: el número de morts. Plutarc parla d'un milió de gals morts i un altre milió esclavitzats. Estrabó menciona la destrucció completa de pobles sencers. Alguns historiadors moderns parlen de genocidi."
@@ -96,20 +110,6 @@
             }
           ],
           "reflection": "El 'Bellum Gallicum' de Cèsar és un dels textos llatins més llegits de la historia. Es llegeix en primera persona i presenta les massacres com a necessitat militar. Com afecta qui escriu la historia al que recordem?"
-        },
-        {
-          "type": "what-would-you-do",
-          "character": "Juli Cèsar",
-          "emoji": "⚔️",
-          "year": "49 aC — el Rubicó",
-          "setup": "El Senat t'ha ordenat dissoldre el teu exèrcit i tornar a Roma com a ciutadà privat. Saps que si arribes desarmat, els teus enemics t'acusaran de crims de guerra a les Gàl·lies i et destruiran políticament. Pompeu, el teu antic aliat i ara rival, té legions a Hispania i Grècia. El Rubicó és el límit legal: un general romà no pot creuar-lo armat sense autorització del Senat.",
-          "dilemma": "Creues el Rubicó amb les legions — un acte de traïció oberta que inicia una guerra civil — o dissoldre l'exèrcit i tornes a Roma a afrontar el judici?",
-          "options": [
-            { "id": "A", "text": "Creuo el Rubicó: la guerra civil és l'única sortida que em garanteix la supervivència política" },
-            { "id": "B", "text": "Retorno a Roma: el Senat és l'autoritat legítima i confio en la justícia del procés" }
-          ],
-          "reveal": "Cèsar va creuar el Rubicó el gener del 49 aC amb la XIII Legió. Es diu que va dir 'alea iacta est' ('el dau és llançat'). En menys de 60 dies, Pompeu i el Senat havien fugit d'Itàlia. La guerra civil va durar quatre anys i va costar centenars de milers de vides.",
-          "analysis": "La decisió de Cèsar no era irraocional: tenia informació que el Senat planejava destruir-lo políticament i que Pompeu no estava disposat a un compromís real. La guerra civil que va iniciar va matar molta gent, però va produir la Pax Romana — un segle de relativa estabilitat. El problema és que Cèsar no podia saber això. Va apostar per la seva supervivència i va tenir raó. Però si hagués perdut, seria recordat com un traïdor que va destruir la República per ambició personal — cosa que, en certa mesura, va fer igualment."
         },
         {
           "type": "exercise",
@@ -156,12 +156,30 @@
       "title": "Les Ides de Març: per què l'assassinen?",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-cesar-03-01",
+          "question": "Si Cèsar hagués viscut 20 anys més, Roma hauria evitat les guerres civils del període d'August i hauria tingut un futur millor?",
+          "options": [
+            "Sí: Cèsar era un estadista excepcional i hauria institucionalitzat el seu poder de forma estable sense les guerres que va causar la seva mort",
+            "No: la crisi de la República era estructural — les seves reformes no haurien resolt la contradicció fonamental entre el poder de l'exèrcit i les institucions civils",
+            "Impossible de saber: la historia contrafactual té límits, però podem dir que la mort de Cèsar va crear un buit de poder que va costar 17 anys omplir — un alt cost per una 'solució' que va portar el mateix resultat"
+          ],
+          "correct": 2,
+          "explanation": "La posició A sobreestima el geni individual: Cèsar era hàbil però havia acumulat enemics per tota la classe dirigent romana. La posició B és defensable: Ronald Syme i altres historiadors moderns veuen la caiguda de la República com inevitable donada la pressió dels exèrcits professionals. La posició C és l'més honest: no podem saber el contrafactual, però podem comparar costos. August va aconseguir el que Cèsar no va poder — un règim estable — perquè va aprendre de l'error del seu oncle adoptiu: mai no dir 'dictador', mantenir les formes republicanes i evitar les humiliacions públiques a la classe senatorial."
+        },
+        {
           "type": "narrative",
           "text": "El 15 de març del 44 aC, Juli Cèsar va ser apunyalat 23 vegades al Teatre de Pompeu, davant del Senat. Va rebre 23 punyalades perquè hi havia 23 conspiradors — cadascun havia de participar en l'acte per compartir la responsabilitat i evitar que algú es desdís. El metge que va examinar el cos va concloure que només una de les 23 ferides havia estat mortal. Cèsar era dictador perpetu de Roma. Tenia 55 anys. L'assassinen per salvar la República — i l'assassinat destruirà definitivament la República."
         },
         {
           "type": "key-idea",
           "text": "La paradoxa central de Cèsar: va ser assassinat per salvar la República, però la seva mort va causar 17 anys més de guerres civils que la van destruir definitivament. El seu hereu August va acabar sent el primer emperador — amb un poder molt superior al de Cèsar, però amb l'habilitat política de no dir-se mai 'dictador'."
+        },
+        {
+          "type": "misconception",
+          "belief": "Cèsar volia ser rei d'una monarquia hereditària i els conspiradors van salvar Roma d'una tirania.",
+          "reality": "No hi ha evidència que Cèsar volgués establir una monarquia formal. El que volia era un poder personal permanent — la dictadura perpètua. La distinció importava als romans: 'rex' (rei) era un títol maleït des de l'expulsió dels Tarquinis. Cèsar va refusar públicament la corona tres vegades. El que van 'salvar' els conspiradors va durar menys de dos anys: les guerres civils que van seguir van matar molta més gent.",
+          "why": "Shakespeare va popularitzar la figura dels conspiradors com a herois tràgics. El drama requereix que siguin nobles — i en part ho eren. Però el resultat de l'assassinat va ser el contrari del que pretenien."
         },
         {
           "type": "primary-source",
@@ -187,24 +205,6 @@
           },
           "reflection": "Pots tenir motius nobles i interessos personals alhora? El que fa un acte 'republicà' o 'oligàrquic' és la motivació o el resultat?",
           "context": "Historiadors moderns com Adrian Goldsworthy argumenten que molts conspiradors tenien motivacions genuïnament mixtes. Brut probablement era sincer. Cassi probablement no. I la majoria dels altres estaven entre els dos extrems."
-        },
-        {
-          "type": "misconception",
-          "belief": "Cèsar volia ser rei d'una monarquia hereditària i els conspiradors van salvar Roma d'una tirania.",
-          "reality": "No hi ha evidència que Cèsar volgués establir una monarquia formal. El que volia era un poder personal permanent — la dictadura perpètua. La distinció importava als romans: 'rex' (rei) era un títol maleït des de l'expulsió dels Tarquinis. Cèsar va refusar públicament la corona tres vegades. El que van 'salvar' els conspiradors va durar menys de dos anys: les guerres civils que van seguir van matar molta més gent.",
-          "why": "Shakespeare va popularitzar la figura dels conspiradors com a herois tràgics. El drama requereix que siguin nobles — i en part ho eren. Però el resultat de l'assassinat va ser el contrari del que pretenien."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-cesar-03-01",
-          "question": "Si Cèsar hagués viscut 20 anys més, Roma hauria evitat les guerres civils del període d'August i hauria tingut un futur millor?",
-          "options": [
-            "Sí: Cèsar era un estadista excepcional i hauria institucionalitzat el seu poder de forma estable sense les guerres que va causar la seva mort",
-            "No: la crisi de la República era estructural — les seves reformes no haurien resolt la contradicció fonamental entre el poder de l'exèrcit i les institucions civils",
-            "Impossible de saber: la historia contrafactual té límits, però podem dir que la mort de Cèsar va crear un buit de poder que va costar 17 anys omplir — un alt cost per una 'solució' que va portar el mateix resultat"
-          ],
-          "correct": 2,
-          "explanation": "La posició A sobreestima el geni individual: Cèsar era hàbil però havia acumulat enemics per tota la classe dirigent romana. La posició B és defensable: Ronald Syme i altres historiadors moderns veuen la caiguda de la República com inevitable donada la pressió dels exèrcits professionals. La posició C és l'més honest: no podem saber el contrafactual, però podem comparar costos. August va aconseguir el que Cèsar no va poder — un règim estable — perquè va aprendre de l'error del seu oncle adoptiu: mai no dir 'dictador', mantenir les formes republicanes i evitar les humiliacions públiques a la classe senatorial."
         }
       ]
     }

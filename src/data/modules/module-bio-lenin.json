@@ -10,6 +10,18 @@
       "title": "El professional de la revolució",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-len-01-01",
+          "question": "Lenin va teoritzar que la classe obrera necessita un 'partit d'avantguarda' de revolucionaris professionals que la guiïn perquè no pot arribar sola a la consciència revolucionària. És una teoria realista del canvi social o el germen del totalitarisme?",
+          "options": [
+            "Realista: els moviments socials sense organització disciplinada rarament arriben al poder. El sindicalisme espontani no canvia les estructures de fons. Lenin tenia raó que cal un nucli organitzat per fer una revolució",
+            "Germen del totalitarisme: si el partit pot decidir quina és la 'veritable' voluntat de la classe obrera independentment del que la classe obrera digui, no hi ha cap límit lògic que impedeixi la dictadura. La teoria porta directament a Stalin",
+            "Depèn de com s'apliqui: un nucli organitzat és necessari per a qualsevol canvi polític important. El problema de Lenin no era l'organització disciplinada sinó que va definir el partit com a portaveu de la 'voluntat real' del proletariat per sobre de les decisions democràtiques concretes. La primera part és organització; la segona és totalitarisme potencial"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és defensada per teòrics de l'organització política com Robert Michels i els mateixos marxistes ortodoxos: sense disciplina partidista, les revolucions es dissolen. La posició B és la crítica liberal clàssica des de Kautsky i Rosa Luxemburg fins a Hannah Arendt: el 'partit d'avantguarda' conté la llavor del totalitarisme perquè liquida la distinció entre la voluntat del partit i la voluntat del poble. La posició C és la més precisa: el problema no és l'organització en si mateixa, que tots els moviments necessiten, sinó la pretensió que el partit encarni la voluntat 'real' per sobre dels resultats democràtics. Quan Lenin va dissoldre l'Assemblea Constituent el 1918 perquè els bolxevics havien perdut les eleccions, va aplicar exactament aquesta lògica. Rosa Luxemburg, des de la presó, va advertir Lenin: 'Sense eleccions lliures, sense llibertat de premsa i reunió, sense lliure confrontació d'opinions, la vida es extingeix a totes les institucions públiques.'"
+        },
+        {
           "type": "quote",
           "text": "Doneu-me una organització de revolucionaris i capgiraré Rússia.",
           "author": "Vladimir Ilitx Lenin, Què cal fer?, 1902"
@@ -51,6 +63,20 @@
       "title": "1917: del tren blindat al Palau d'Hivern",
       "blocks": [
         {
+          "type": "what-would-you-do",
+          "character": "Lenin",
+          "emoji": "☭",
+          "year": "Gener de 1918",
+          "setup": "Els bolxevics han pres el poder. Per primera vegada en la historia, s'han celebrat eleccions lliures per una Assemblea Constituent. Resultat: els bolxevics n'obtenen el 24%. Els socialistes-revolucionaris (que representen els camperols) n'obtenen el 40%. Tota la vostra vida heu predicat que el poder ha de ser del poble. Ara el poble ha votat —i no us ha votat a vosaltres.",
+          "dilemma": "Acceptes el resultat electoral i cedes el poder a l'Assemblea Constituent democràticament elegida, o la dissolves i continues governant en nom del proletariat malgrat el resultat?",
+          "options": [
+            { "id": "A", "text": "Accepto el resultat: la democràcia és la democràcia. Si el poble ha votat, hem d'obeir" },
+            { "id": "B", "text": "Dissoldreu l'Assemblea: una assemblea que traeix la revolució no és democràcia real. El poder ha de ser dels soviets" }
+          ],
+          "reveal": "Lenin va dissoldre l'Assemblea Constituent el 19 de gener de 1918, un dia i mig després de la seva primera sessió. Va ser escortada fora per soldats bolxevics. Lenin va escriure que una assemblea elegida en el 'vell' sistema burgès no podia representar la 'voluntat real' del proletariat. Va ser el primer acte obertament antidemocràtic del règim bolxevic —i va establir el precedent de tot el que vindria.",
+          "analysis": "La dissolució de l'Assemblea Constituent és el moment en que el leninisme es revela com a incompatible amb la democràcia. La lògica és coherent amb la teoria del 'partit d'avantguarda': si el partit encarna la voluntat real del proletariat, els resultats electorals que contradiuen el partit han de ser falsos o irrellevants. Però aquesta lògica no té límit: qualsevol dissidència pot ser descartada com a 'falsa consciència', i el camí cap al totalitarisme és obert."
+        },
+        {
           "type": "narrative",
           "text": "El 1917 va ser l'any de les dues revolucions russes. El febrer, una onada de protestes populars va enderrocar el tsar Nicolau II i va instaurar un govern provisional liberal. Lenin, en exili a Suïssa, va rebre la notícia per telèfon. En arribar a Petrograd a l'abril, va sorprendre tothom —inclosos els seus propis correligionaris bolxevics— demanant la revolució imminent, el poder als soviets i la sortida immediata de la guerra. El govern provisional, liderat per Kerenski, va cometre l'error fatal de continuar la guerra. En un país esgotat per tres anys de desfetes, això era un suïcidi polític. La nit del 25 al 26 d'octubre (7 de novembre en el calendari gregorià), els bolxevics van prendre el Palau d'Hivern a Petrograd. Era una operació quasi incruenta —el govern provisional no tenia on recolzar-se."
         },
@@ -78,27 +104,12 @@
           "insight": "Entre les dues revolucions van passar vuit mesos. El govern provisional va caure no perquè els bolxevics fossin populars —eren minoritaris— sinó perquè va cometre l'únic error imperdonable en una Rússia exhausta: continuar la guerra. Lenin va prometre dues coses simples, 'Pau, Terra, Pa', i les va oferir quan ningú més ho feia."
         },
         {
-          "type": "what-would-you-do",
-          "character": "Lenin",
-          "emoji": "☭",
-          "year": "Gener de 1918",
-          "setup": "Els bolxevics han pres el poder. Per primera vegada en la historia, s'han celebrat eleccions lliures per una Assemblea Constituent. Resultat: els bolxevics n'obtenen el 24%. Els socialistes-revolucionaris (que representen els camperols) n'obtenen el 40%. Tota la vostra vida heu predicat que el poder ha de ser del poble. Ara el poble ha votat —i no us ha votat a vosaltres.",
-          "dilemma": "Acceptes el resultat electoral i cedes el poder a l'Assemblea Constituent democràticament elegida, o la dissolves i continues governant en nom del proletariat malgrat el resultat?",
-          "options": [
-            { "id": "A", "text": "Accepto el resultat: la democràcia és la democràcia. Si el poble ha votat, hem d'obeir" },
-            { "id": "B", "text": "Dissoldreu l'Assemblea: una assemblea que traeix la revolució no és democràcia real. El poder ha de ser dels soviets" }
-          ],
-          "reveal": "Lenin va dissoldre l'Assemblea Constituent el 19 de gener de 1918, un dia i mig després de la seva primera sessió. Va ser escortada fora per soldats bolxevics. Lenin va escriure que una assemblea elegida en el 'vell' sistema burgès no podia representar la 'voluntat real' del proletariat. Va ser el primer acte obertament antidemocràtic del règim bolxevic —i va establir el precedent de tot el que vindria.",
-          "analysis": "La dissolució de l'Assemblea Constituent és el moment en que el leninisme es revela com a incompatible amb la democràcia. La lògica és coherent amb la teoria del 'partit d'avantguarda': si el partit encarna la voluntat real del proletariat, els resultats electorals que contradiuen el partit han de ser falsos o irrellevants. Però aquesta lògica no té límit: qualsevol dissidència pot ser descartada com a 'falsa consciència', i el camí cap al totalitarisme és obert."
-        },
-        {
           "type": "exercise",
           "id": "ex-len-02-01",
-          "style": "true-false",
-          "question": "Lenin va dissoldre l'Assemblea Constituent russa de 1918 perquè els resultats electorals havien estat falsificats pels seus rivals polítics.",
-          "correct": false,
-          "feedbackCorrect": "Fals. Lenin va dissoldre l'Assemblea no perquè els resultats fossin fraudulents sinó perquè els bolxevics havien perdut —obtenint el 24% dels vots. El seu argument va ser ideològic, no procedimental: una assemblea elegida per sufragi universal 'burgès' no podia representar la veritable voluntat revolucionària del proletariat. Era una apel·lació a una legitimitat superior als resultats democràtics —la lògica que definiria el règim soviètic durant 70 anys.",
-          "feedbackWrong": "Lenin va dissoldre l'Assemblea perquè els bolxevics van perdre les eleccions, no per cap irregularitat electoral. El seu argument era que la democràcia representativa burgesa era inferior a la democràcia soviètica real."
+          "style": "detect-error",
+          "statement": "Lenin va dissoldre l'Assemblea Constituent russa de 1918 perquè els resultats electorals havien estat falsificats pels seus rivals polítics, que havien obtingut una majoria fraudulenta.",
+          "isCorrect": false,
+          "feedbackExplanation": "Lenin va dissoldre l'Assemblea no perquè els resultats fossin fraudulents sinó perquè els bolxevics havien perdut —obtenint el 24% dels vots contra el 40% dels socialistes-revolucionaris. El seu argument va ser ideològic, no procedimental: una assemblea elegida per sufragi universal 'burgès' no podia representar la veritable voluntat revolucionària del proletariat. Era una apel·lació a una legitimitat superior als resultats democràtics —la lògica que definiria el règim soviètic durant 70 anys."
         }
       ]
     },
@@ -106,6 +117,18 @@
       "id": "len-03",
       "title": "Utopia i terror: les bones intencions i el camí a l'infern",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-len-03-01",
+          "question": "Era el totalitarisme soviètic una conseqüència inevitable de la teoria leninista, o una desviació que Lenin hauria pogut evitar?",
+          "options": [
+            "Inevitable: la teoria del 'partit d'avantguarda', la dissolució de l'Assemblea Constituent i el Terror Roig eren els pilars del sistema estalinista. Stalin va amplificar, no va inventar",
+            "Evitable: la NEP de Lenin mostra flexibilitat real. Stalin va ser el producte de la guerra civil i de la seva pròpia psicologia, no la conclusió lògica del leninisme. Un líder diferent hauria pogut anar per un camí diferent",
+            "La pregunta és mal plantejada: el totalitarisme no va ser inevitable ni accidental, sinó el resultat d'una combinació de decisions concretes, estructures institucionals i circumstàncies históricament contingents que es podrien haver combinat de maneres diferents"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la tesi de Richard Pipes i els historiadors del 'totalitarisme originari': Lenin i Stalin eren la mateixa cosa en intensitat diferent. La posició B és la tesi de la 'ruptura estalinista': la NEP mostra que Lenin era capaç de pragmatisme i que Stalin va ser una contingència. La posició C és metodològicament més robusta: el totalitarisme soviètic va ser el resultat de decisions concretes (dissolució de l'Assemblea, creació de la Txeka) combinades amb circumstàncies (guerra civil, aïllament internacional) i estructures (el 'partit d'avantguarda'). Cap d'aquests factors era suficient sol; la seva combinació va crear el context en que Stalin va ser possible. Preguntar si era 'inevitable' és ignorar que la historia no té trajectòries predeterminades."
+        },
         {
           "type": "narrative",
           "text": "Entre 1918 i 1921, Rússia va patir una guerra civil devastadora: l'Exèrcit Roig bolxevic contra els 'Blancs' monàrquics, liberals i socialistes moderats, amb intervenció militar d'una dotzena de països estrangers. Lenin va respondre amb el 'comunisme de guerra': nacionalització forçosa de la indústria, requises massives de gra als camperols, Txeka (policia secreta) i Terror Roig. Es calcula que el Terror Roig va matar entre 50.000 i 200.000 persones entre 1918 i 1922. La fam de 1921-22, causada en part per les requises, va matar entre 5 i 10 milions. El 1921, Lenin va reconèixer el fracàs del comunisme de guerra i va introduir la NEP (Nova Política Econòmica): un pas enrere cap al mercat per estabilitzar l'economia. El 1922 va patir el primer d'una sèrie d'ictus. Va morir el gener de 1924."
@@ -149,18 +172,6 @@
             }
           ],
           "reflection": "Lenin va advertir en el seu testament que Stalin era massa brusc i hauria de ser substituït. El Comitè Central va ignorar l'advertència. Fins a quin punt les estructures que Lenin havia creat feien impossible actuar sobre les seves pròpies advertències?"
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-len-03-01",
-          "question": "Era el totalitarisme soviètic una conseqüència inevitable de la teoria leninista, o una desviació que Lenin hauria pogut evitar?",
-          "options": [
-            "Inevitable: la teoria del 'partit d'avantguarda', la dissolució de l'Assemblea Constituent i el Terror Roig eren els pilars del sistema estalinista. Stalin va amplificar, no va inventar",
-            "Evitable: la NEP de Lenin mostra flexibilitat real. Stalin va ser el producte de la guerra civil i de la seva pròpia psicologia, no la conclusió lògica del leninisme. Un líder diferent hauria pogut anar per un camí diferent",
-            "La pregunta és mal plantejada: el totalitarisme no va ser inevitable ni accidental, sinó el resultat d'una combinació de decisions concretes, estructures institucionals i circumstàncies històriques que es podrien haver combinat de maneres diferents"
-          ],
-          "correct": 2,
-          "explanation": "La posició A és la tesi de Richard Pipes i els historiadors del 'totalitarisme originari': Lenin i Stalin eren la mateixa cosa en intensitat diferent. La posició B és la tesi de la 'ruptura estalinista': la NEP mostra que Lenin era capaç de pragmatisme i que Stalin va ser una contingència. La posició C és metodològicament més robusta: el totalitarisme soviètic va ser el resultat de decisions concretes (dissolució de l'Assemblea, creació de la Txeka) combinades amb circumstàncies (guerra civil, aïllament internacional) i estructures (el 'partit d'avantguarda'). Cap d'aquests factors era suficient sol; la seva combinació va crear el context en que Stalin va ser possible. Preguntar si era 'inevitable' és ignorar que la historia no té trajectòries predeterminades."
         }
       ]
     }

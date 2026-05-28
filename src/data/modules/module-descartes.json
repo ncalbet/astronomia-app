@@ -1,0 +1,509 @@
+{
+  "id": "module-XX-descartes",
+  "title": "René Descartes",
+  "emoji": "🪞",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "descartes-vida-pensament",
+      "title": "El dubte que ho va fundar tot",
+      "icon": "🔍",
+      "description": "De l'estufa de Baviera al cogito — com un home sol en una habitació va canviar per sempre la manera com Occident pensa sobre la ment, la ciència i la certesa",
+      "forWho": "Vol entendre d'on venen les grans preguntes de la filosofia moderna — i per què el problema ment-cos que Descartes va plantejar encara no té resposta",
+      "style": "Biogràfic i conceptual · del context vital a la idea filosòfica",
+      "lessons": [
+
+        {
+          "id": "des-01",
+          "title": "L'home de l'estufa",
+          "blocks": [
+
+            {
+              "type": "quote",
+              "text": "Em retiro a la soledat. Encendré la meva llum interior i només reconeixeré com a vertader el que no pugui dubtar.",
+              "author": "René Descartes, Meditacions metafísiques (1641)"
+            },
+
+            {
+              "type": "narrative",
+              "text": "El 10 de novembre de 1619, un jove soldat de vint-i-tres anys acampat prop d'Ulm, a Baviera, es va tancar tot el dia en una habitació escalfada per una estufa. Fora hi havia guerra — la Guerra dels Trenta Anys just havia començat. Dins, René Descartes feia quelcom que cap general hauria comprès: pensava. No pensava en la guerra, ni en la seva carrera, ni en Déu. Pensava en el coneixement mateix. Com podem saber si alguna cosa és veritat? Hi ha alguna cosa que no es pugui posar en dubte? Aquella nit va tenir tres somnis que va interpretar com una revelació: estava destinat a refundar tot el saber humà sobre una nova base. No és el primer filòsof de la història que s'ho proposa. És el primer que ho aconsegueix — i ho aconsegueix gairebé del tot."
+            },
+
+            {
+              "type": "key-idea",
+              "text": "Descartes va proposar començar la filosofia des de zero: dubtar de tot el que es pugui dubtar i conservar només el que resisteixi el dubte absolut. Aquesta estratègia — el dubte metòdic — és el punt de partida de tota la filosofia moderna."
+            },
+
+            {
+              "type": "expandable",
+              "label": "Per què un soldat? Qui era Descartes abans de ser filòsof?",
+              "content": "Descartes va néixer el 1596 a La Haye, França. Va estudiar al col·legi jesuïta de La Flèche — un dels millors d'Europa —, on va rebre una formació escolàstica exhaustiva que el va decebre profundament: al final dels estudis, deia, l'única cosa que sabia amb certesa era que no sabia res. Després va estudiar dret a Poitiers, però mai no va exercir. Va decidir que «el gran llibre del món» era millor mestre que qualsevol universitat, i es va allistar com a soldat voluntari en diversos exèrcits europeus — no per combatre, sinó per viatjar i observar. Mai va participar en batalla. L'exèrcit era, per a ell, una beca de viatge."
+            },
+
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1596",
+                  "title": "Neix a La Haye en Touraine, França",
+                  "text": "La seva mare mor un any després de tuberculosi. Descartes hereta una salut fràgil que marcarà tota la seva vida."
+                },
+                {
+                  "year": "1606–1614",
+                  "title": "Col·legi jesuïta de La Flèche",
+                  "text": "La millor educació disponible a França — i la que el deixa profundament insatisfet amb el saber rebut."
+                },
+                {
+                  "year": "1619",
+                  "title": "La nit de l'estufa, Baviera",
+                  "text": "La visió i els tres somnis. Descartes decideix refundar el coneixement."
+                },
+                {
+                  "year": "1628",
+                  "title": "S'instal·la als Països Baixos",
+                  "text": "Busca anonimat i llibertat intel·lectual. Canvia d'adreça vint-i-quatre vegades en vint anys per no ser localitzat."
+                },
+                {
+                  "year": "1637",
+                  "title": "Publica el Discurs del mètode",
+                  "text": "El primer gran text filosòfic escrit en francès, no en llatí. Vol arribar a tothom, no sols als acadèmics."
+                },
+                {
+                  "year": "1641",
+                  "title": "Meditacions metafísiques",
+                  "text": "La seva obra filosòfica central. Publicada amb sis conjunts d'objeccions d'altres filòsofs i les respostes de Descartes."
+                },
+                {
+                  "year": "1649",
+                  "title": "Arriba a Estocolm, cridat per la reina Cristina",
+                  "text": "La reina vol classes de filosofia a les cinc del matí. L'hivern suec i el fred de l'alba maten Descartes en quatre mesos."
+                },
+                {
+                  "year": "1650",
+                  "title": "Mort a Estocolm",
+                  "text": "Pneumònia. Tenia cinquanta-tres anys. El seu crani va circular per Europa durant dos segles com a relíquia filosòfica."
+                }
+              ]
+            },
+
+            {
+              "type": "prediction",
+              "question": "Abans de continuar: si haguessis de trobar una sola cosa de la qual siguis absolutament cert — que no puguis dubtar de cap manera — quina seria? Pensa-hi un moment.",
+              "hint": "No vale dir «el meu nom» o «el lloc on visc» — imagina que podries estar equivocat fins i tot sobre això."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-des-01-01",
+              "style": "multiple-choice",
+              "question": "Per qué Descartes va escollir els Països Baixos com a lloc de residència durant vint anys?",
+              "options": [
+                "Perquè hi havia les millors universitats d'Europa en aquell moment",
+                "Perquè era el país amb major llibertat de pensament i publicació de l'època",
+                "Perquè hi vivia Spinoza, amb qui mantenia correspondència filosòfica activa",
+                "Perquè volia estudiar la medicina pràctica en els hospitals d'Amsterdam"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Els Països Baixos del segle XVII eren el lloc més lliure d'Europa per publicar i pensar. La tolerància religiosa relativa i l'absència d'una censura tan rígida com a França o Itàlia el feien el refugi ideal per a un filòsof que volia evitar el destí de Galileu — condemnat per la Inquisició el 1633, just l'any en que Descartes estava a punt de publicar el seu propi sistema del món i va decidir guardar-lo al calaix.",
+              "feedbackWrong": "La raó principal era la llibertat intel·lectual. Quan Descartes va saber que Galileu havia estat condemnat per la Inquisició el 1633 — just quan ell tenia preparat un text que defensava el sistema copernicà —, va decidir no publicar-lo. Els Països Baixos eren el lloc d'Europa on les idees heterodoxes tenien més possibilitat de circular sense persecució."
+            },
+
+            {
+              "type": "scientific-mode",
+              "id": "sci-des-01-01",
+              "question": "Descartes va decidir dubtar de tot per trobar una base sòlida per al coneixement. Però, és possible dubtar realment de tot?",
+              "options": [
+                "Sí: la ment humana és capaç de suspendre qualsevol creença si s'ho proposa amb prou rigor",
+                "No: sempre hi ha creences que assumim sense poder-les posar en dubte — el dubte total és una impossibilitat pràctica i lògica",
+                "Depèn: podem dubtar de moltes coses, però el dubte mateix pressuposa coses que no es poden dubtar — com l'existència del pensament"
+              ],
+              "correct": 2,
+              "explanation": "Aquesta és la trampa que el propi Descartes va descobrir — i que és el cor del seu sistema. Quan intentes dubtar de tot, arribes a un punt en què el dubte mateix et revela alguna cosa que no pots negar: que estàs pensant. «Penso, per tant existeixo» no és una conclusió lògica deduïda de premisses: és la constatació que el dubte radical s'autodestrueix en un punt precís. Pots dubtar de si el món exterior existeix, de si el teu cos és real, de si els teus records són fiables. Però no pots dubtar de que dubtes — perquè dubtar és una forma de pensar, i pensar requereix un pensador. Wittgenstein, segles després, ho formularia d'una altra manera: per dubtar necessites ja saber moltes coses. El dubte no és el punt de partida real de ningú — és una construcció filosòfica que revela els seus propis límits."
+            }
+
+          ]
+        },
+
+        {
+          "id": "des-02",
+          "title": "Cogito ergo sum — i el que ve després",
+          "blocks": [
+
+            {
+              "type": "quote",
+              "text": "Penso, per tant existeixo.",
+              "author": "René Descartes, Discurs del mètode (1637)"
+            },
+
+            {
+              "type": "narrative",
+              "text": "La frase més famosa de la filosofia occidental va néixer d'un experiment mental. Descartes es pregunta: hi ha alguna cosa de la qual sigui impossible dubtar? Comença a eliminar: puc dubtar dels meus sentits (em poden enganyar), puc dubtar del món exterior (potser és un somni), puc dubtar fins i tot de les matemàtiques (potser un «geni maligne» m'ha fet creure que 2+2=4 quan és fals). Però quan arriba al límit del dubte, hi ha alguna cosa que no pot eliminar: el fet que, mentre dubta, pensa. I si pensa, alguna cosa pensa. Existeix com a cosa pensant. En llatí: Cogito ergo sum. En català: «penso, per tant existeixo». Sona senzill. És devastador. Perquè de cop el punt de partida de tot el coneixement ja no és Déu, ni la tradició, ni l'autoritat d'Aristòtil: és la ment individual que es pensa a si mateixa."
+            },
+
+            {
+              "type": "key-idea",
+              "text": "El cogito és la primera veritat certa que Descartes troba després del dubte radical: no puc dubtar que existeixo com a cosa pensant. Però d'aquí en treu una conseqüència revolucionària: si l'única certesa inicial és la ment, llavors la ment i el cos són coses radicalment diferents. Sóc, essencialment, una ment — no un cos."
+            },
+
+            {
+              "type": "misconception",
+              "belief": "«Penso, per tant existeixo» és un argument lògic: la premissa «penso» implica lògicament la conclusió «existeixo».",
+              "reality": "Descartes no volia dir que «existeixo» es dedueixi lògicament de «penso» com en un silogisme. El cogito és una intuïció immediata: en l'acte mateix de dubtar, constato directament que existeixo com a cosa que pensa. No és una inferència — és una percepció. Bertrand Russell i altres van criticar que «penso» ja pressuposa «jo» — que el «jo» és l'assumpció que Descartes hauria d'haver posat en dubte. Potser el que hauria de dir és: «hi ha pensament», no «jo penso».",
+              "why": "La formulació en primera persona («jo penso») i la paraula «per tant» fan semblar que és un argument, quan Descartes insistia que és una evidència directa i indubitable — no una conclusió derivada."
+            },
+
+            {
+              "type": "analogy",
+              "concept": "El geni maligne de Descartes",
+              "emoji": "😈",
+              "analogy": "Imagina que un neurocientífic malèvol ha connectat el teu cervell a un superordinador que simula perfectament tota l'experiència sensorial. Veus, toques, sents, recordes — però tot és una simulació. El teu cos real és al laboratori, en un dipòsit de nutrients. Res del que experimentes no existeix realment. Ara: en aquest escenari, és possible saber que ets en la simulació des de dins?",
+              "bridge": "Això és exactament el «geni maligne» de Descartes — un ser poderosíssim que dedica tota la seva energia a enganyar-te. La pregunta de Descartes és: si fos cert, hi hauria alguna cosa que encara podies saber? La resposta és sí: que penses. Que ets enganyat pressuposa que existeixes per ser enganyat. La Matrix (1999) és la versió cinematogràfica d'aquest argument de Descartes — i el problema filosòfic que planteja és idèntic: com saps que no estàs en la simulació? Descartes no tenia una resposta satisfactòria. Nosaltres tampoc."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-des-02-01",
+              "style": "detect-error",
+              "statement": "Descartes arriba al cogito com a primera certesa i d'aquí en dedueix directament que el món exterior existeix.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és «directament». El camí de Descartes del cogito al món exterior és molt més llarg i problemàtic: primer ha de demostrar que Déu existeix (a través d'arguments ontològics i cosmològics), i després argumentar que un Déu perfecte no permetria que una criatura racional com ell estigués permanentment enganyada sobre l'existència del món. Molts filòsofs han criticat que aquest raonament és circular: Descartes usa la «claredat i distinció» de les seves idees per demostrar Déu, i Déu per garantir que les idees clares i distintes són fiables. El problema s'anomena el «cercle cartesià» i és un dels debats filosòfics no resolts de la modernitat."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-des-02-02",
+              "style": "multiple-choice",
+              "question": "Quin és el problema filosòfic que genera el dualisme cartesià (la separació radical entre ment i cos)?",
+              "options": [
+                "Fa impossible explicar l'evolució biològica, perquè la ment quedaria fora de la selecció natural",
+                "No pot explicar com interactuen la ment i el cos, si són substàncies radicalment diferents",
+                "Implica que els animals no poden sentir dolor, perquè no tenen ment racional",
+                "Contradiria la física de Newton, publicada poc després"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Si la ment és una substància immaterial i el cos és una substància material, com és possible que la ment mogui el cos — que un pensament produeixi un moviment físic? Descartes va proposar que la interacció es produïa a través de la glàndula pineal (al centre del cervell), però ell mateix sabia que això era una solució insatisfactòria. El problema ment-cos que va plantejar segueix sent un dels problemes filosòfics i científics més oberts del present.",
+              "feedbackWrong": "El problema central és la interacció: si ment i cos són substàncies completament diferents — una immaterial, l'altra material — és impossible explicar com es comuniquen. Com un pensament (immaterial) pot moure un braç (material)? Descartes va proposar la glàndula pineal com a pont, però la proposta és tan insatisfactòria que ell mateix no la defensava amb convicció. El problema no s'ha resolt."
+            }
+
+          ]
+        },
+
+        {
+          "id": "des-03",
+          "title": "La ment i el cos: el problema que no tenia solució",
+          "blocks": [
+
+            {
+              "type": "quote",
+              "text": "No hi ha res que m'ensenyi la naturalesa amb més evidència que que tinc un cos que es troba malament quan sento dolor.",
+              "author": "René Descartes, Meditació VI (1641)"
+            },
+
+            {
+              "type": "narrative",
+              "text": "Descartes sabia que havia creat un problema. Havia separat ment i cos en dues substàncies tan radicalment distintes que no quedava clar com podien interactuar. I l'experiència quotidiana cridava en contra seva: quan em tallo el dit, una cosa física produeix una experiència mental de dolor. Quan dec­ideixo aixecar el braç, una decisió mental produeix un moviment físic. Com? Descartes va proposa que el punt de contacte entre les dues substàncies era la glàndula pineal — una petita estructura al centre del cervell que, deia, és l'únic òrgan que no és doble (els ulls, les orelles, els pulmons venen en parella). L'explicació no convencia ningú, inclòs ell. Va morir sense resoldre el problema. Tres-cents setanta-cinc anys després, tampoc no està resolt."
+            },
+
+            {
+              "type": "key-idea",
+              "text": "El problema ment-cos és la pregunta de com l'experiència subjectiva — el dolor, el vermell que veus, la sensació de tenir una emoció — sorgeix d'un cervell que és matèria física. Descartes va ser el primer a formular-lo amb precisió. Seguim sense resposta."
+            },
+
+            {
+              "type": "expandable",
+              "label": "El «problema difícil de la consciència» — per qué la neurociència no n'és suficient",
+              "content": "El filòsof David Chalmers va distingir el 1995 entre els «problemes fàcils» i el «problema difícil» de la consciència. Els problemes fàcils (per qué el cervell processa informació, com integra les percepcions, com controla el comportament) són difícils científicament però no filosòficament: és qüestió de fer prou neurociència. El «problema difícil» és diferent: per qué tot aquest processament físic va acompanyat d'experiència subjectiva? Per qué hi ha «quelcom que fa ser tu» quan veus el vermell, en lloc de simplement un processament de longituds d'ona sense experiència interior? Cap descobriment neurocientífic sembla capaç de respondre aquesta pregunta — perquè respondre-la requeriria explicar com la matèria produeix experiència, i no tenim idea de com fer-ho. Descartes va ser el primer a veure-ho clarament."
+            },
+
+            {
+              "type": "perspective",
+              "situation": "Com explicar la relació entre ment i cos — les tres grans respostes filosòfiques",
+              "perspectives": [
+                {
+                  "role": "Dualista (Descartes)",
+                  "emoji": "🪞",
+                  "text": "Ment i cos són substàncies radicalment distintes. La ment és immaterial i pensant; el cos és material i estès. Són ontològicament independents — i per tant la ciència del cos no pot explicar mai completament la ment."
+                },
+                {
+                  "role": "Materialista (eliminativista)",
+                  "emoji": "🧠",
+                  "text": "Només existeix la matèria. La «ment», les «emocions», les «creences» són maneres de parlar imprecises que la neurociència acabarà reemplaçant per descripcions físiques precises. No hi ha res més que neurones i les seves connexions."
+                },
+                {
+                  "role": "Panpsiquista",
+                  "emoji": "✨",
+                  "text": "La consciència no és una propietat emergent de la matèria complexa — és una propietat fonamental de la realitat. Les partícules elementals ja tenen alguna forma rudimentària d'experiència. La consciència humana és una versió complexa d'alguna cosa que és omnipresent."
+                }
+              ],
+              "reflection": "Cap d'aquestes tres posicions és satisfactòria sense deixar preguntes sense resposta. Quina et sembla menys dolenta — i per qué?"
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-des-03-01",
+              "style": "true-false",
+              "question": "Descartes creia que els animals tenien ànima i podien sentir dolor de la mateixa manera que els humans.",
+              "correct": false,
+              "feedbackCorrect": "Fals. Descartes creia que els animals eren autòmats — màquines biològiques sense ànima ni experiència interior. No sentien dolor en el sentit que ho fa un humà: reaccionaven als estímuls com un rellotge reacciona a un impuls mecànic. Aquesta posició va ser molt influent i va tenir conseqüències pràctiques: durant segles va proporcionar una justificació filosòfica per a la vivissecció sense anestèsia. Avui és una de les posicions de Descartes que la biologia i l'etologia han refutat més clarament.",
+              "feedbackWrong": "Descartes sostenia que els animals eren màquines biològiques sense ànima racional i, per tant, sense experiència interior genuïna. El que sembla dolor en un animal és, per a ell, una reacció mecànica — com les politges d'un rellotge. Només els humans, per tenir ànima racional, poden tenir experiència subjectiva autèntica. Aquesta posició és avui científicament insostenible."
+            },
+
+            {
+              "type": "debate",
+              "question": "Si la neurociència acabés explicant completament com el cervell produeix tota conducta, pensament i emoció, això significaria que la «ment» no existeix com a entitat separada?",
+              "positionA": {
+                "label": "Sí: la ment és el cervell",
+                "argument": "Si podem explicar cada pensament, emoció i decisió en termes de processos neurals, no hi ha res que quedi per explicar. La «ment» és simplement una manera de parlar sobre processos cerebrals. Com «l'aigua» i «H₂O» són el mateix, «ment» i «cervell» són el mateix — descrit a nivells diferents."
+              },
+              "positionB": {
+                "label": "No: l'experiència subjectiva no és reductible",
+                "argument": "Fins i tot si saps exactament quines neurones s'activen quan veus el vermell, no saps res sobre com es «sent» veure el vermell des de dins. Explicar el mecanisme no explica l'experiència. Hi ha quelcom que fa ser tu — i cap descripció física no pot capturar-ho."
+              },
+              "reflection": "Quan dorms profundament sense somiar, hi ha «quelcom que fa ser tu»? Si la resposta és no, quan torna — i on era mentre no hi era?",
+              "context": "El debat entre fisicalisme i dualisme de propietats és un dels més actius en filosofia de la ment contemporània. Filòsofs com Daniel Dennett defensen que l'experiència subjectiva és una il·lusió producte del processament cerebral. Filòsofs com David Chalmers i Thomas Nagel argumenten que l'experiència és irreductible a descripció física."
+            },
+
+            {
+              "type": "scientific-mode",
+              "id": "sci-des-03-01",
+              "question": "Descartes va separar ment i cos per protegir l'ànima humana de la ciència mecànica. Era una trampa intel·lectual motivada per la fe — o una intuïció filosòfica genuïna?",
+              "options": [
+                "Era principalment una estratègia per evitar el conflicte amb l'Església: si la ment és immaterial, la ciència no la pot tocar",
+                "Era una intuïció filosòfica genuïna: l'experiència subjectiva sembla realment diferent de qualsevol descripció física, i Descartes va ser el primer a formular-ho rigorosament",
+                "Era les dues coses alhora: el context religiós el va empènyer a separar ment i cos, però la intuïció filosòfica que hi ha darrere és real i segueix sense resposta"
+              ],
+              "correct": 2,
+              "explanation": "La resposta honesta és la més incòmoda. Sí: Descartes tenia raons estratègiques per separar ment i cos. Quan Galileu va ser condemnat el 1633, Descartes va aprendre la lliçó: si el cos és una màquina regida per lleis mecàniques, bé — però l'ànima queda fora de la ciència i fora de la jurisdicció de la Inquisició. El dualisme era, en part, un escut. Però també és cert que el problema que va plantejar és real i irresolut. L'experiència subjectiva — el «quelcom que fa ser tu» — sembla genuïnament diferent de qualsevol descripció física que en puguem donar. Que Descartes tingués motivacions impures no invalida la intuïció. Que la intuïció sigui real no justifica que la solució (dos tipus de substàncies) sigui correcta. El llegat de Descartes és haver vist el problema amb una claredat que no ha estat superada — i haver proposat una solució que gairebé tothom rebutja."
+            }
+
+          ]
+        },
+
+        {
+          "id": "des-04",
+          "title": "Descartes i la ciència: el món com a màquina",
+          "blocks": [
+
+            {
+              "type": "quote",
+              "text": "Doneu-me matèria i moviment, i construiré el món.",
+              "author": "René Descartes, atribuït"
+            },
+
+            {
+              "type": "narrative",
+              "text": "Descartes no era sols un filòsof. Era matemàtic — va inventar la geometria analítica i el sistema de coordenades que avui porta el seu nom (cartesianes). Era físic — va proposar una teoria mecànica del moviment que anticipava moltes idees de Newton. Era fisióleg — va dissecar animals i va estudiar el funcionament del cor i els nervis. I era cosmòleg — va proposar un model del sistema solar basat en «vòrtexs» de matèria giratòria que va dominar la física europea durant dècades, fins que Newton el va substituir. La seva gran ambició era construir una física completa del món: tota la realitat material explicada per matèria i moviment, sense teleologia, sense forces ocultes, sense finalitats. El món com una màquina de rellotgeria perfecta."
+            },
+
+            {
+              "type": "key-idea",
+              "text": "Descartes va ser el fundador de la visió mecanicista de la natura: el món físic és matèria en moviment regida per lleis matemàtiques. No hi ha propòsits, ni forces vitals, ni qualitats ocultes. El que no es pot mesurar no existeix com a propietat del món — existeix sols a la ment."
+            },
+
+            {
+              "type": "expandable",
+              "label": "La geometria analítica — per qué el sistema de coordenades és filosòficament important",
+              "content": "Abans de Descartes, la geometria (figures, línies, corbes) i l'àlgebra (equacions, números) eren disciplines separades. Descartes va demostrar que qualsevol figura geomètrica es pot descriure amb una equació algebraica, i viceversa. Les «coordenades cartesianes» — l'eix x i l'eix y que apareixen en tots els gràfics matemàtics — són la seva invenció. Filosòficament, la fusió és enorme: significa que el món geomètric és traduïble a números. I si tot el món físic és geometria (extensió en l'espai), llavors el món físic és completament matematitzable. La natura no sols es pot descriure matemàticament — en el seu nivell fonamental, és matemàtica. Aquesta idea és el cor de la física moderna."
+            },
+
+            {
+              "type": "primary-source",
+              "label": "Descartes sobre el mètode (1637)",
+              "source": "René Descartes, Discurs del mètode, Quarta part",
+              "text": "\"Hi havia ja algun temps que havia notat que, pel que fa als costums, cal seguir de vegades opinions que sabem que són molt incertes, com si fossin indubtables [...] Però com que llavors jo no desitjava sinó ocupar-me a buscar la veritat, vaig pensar que havia de fer tot el contrari, i rebutjar com a absolutament fals tot allò en que pogués imaginar el menor dubte, per veure si, una vegada fet això, no quedava alguna cosa en la meva creença que fos enterament indubitable.\"",
+              "questions": [
+                "Descartes distingeix entre actuar a la vida (on cal seguir opinions incertes) i buscar la veritat (on cal dubtar de tot). Creus que aquesta distinció és sostenible — o el dubte radical acaba afectant també la vida pràctica?",
+                "Quan diu «rebutjar com a absolutament fals» tot el que es pot dubtar, utilitza el dubte com a eina metodològica, no com a convicció. Quin risc porta confondre el dubte metòdic amb el dubte real?",
+                "Qui és el «jo» que apareix tres vegades en aquest fragment — i és el mateix «jo» que Descartes acabarà posant en qüestió?"
+              ]
+            },
+
+            {
+              "type": "before-after",
+              "title": "La visió del món: abans i després de Descartes",
+              "before": {
+                "label": "Abans (visió aristotèlica i escolàstica)",
+                "points": [
+                  "La natura té propòsits: les pedres cauen perquè el seu lloc natural és a baix",
+                  "El coneixement prové de l'autoritat: Aristòtil, la Bíblia, els Pares de l'Església",
+                  "Qualitats sensorials (calor, color, sabor) pertanyen al món real",
+                  "La diferència entre éssers vius i inerts és una força vital, no una qüestió de complexitat"
+                ]
+              },
+              "after": {
+                "label": "Després (visió cartesiana i mecanicista)",
+                "points": [
+                  "La natura no té propòsits: les pedres cauen per lleis mecàniques, no per «voler» estar a baix",
+                  "El coneixement prové de la raó individual i de l'experiència controlada, no de l'autoritat",
+                  "Les qualitats sensorials existeixen sols a la ment: el món real és extensió i moviment",
+                  "Els éssers vius són màquines biològiques — molt complexes, però màquines"
+                ]
+              },
+              "insight": "El canvi cartesià no és sols filosòfic: és el canvi de paradigma que fa possible la ciència moderna. Newton, Boyle, Leibniz, i tots els científics del segle XVII treballen dins un marc que Descartes va construir — fins i tot quan el critiquen."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-des-04-01",
+              "style": "multiple-choice",
+              "question": "Quin va ser el principal error de Descartes en física, que Newton va corregir?",
+              "options": [
+                "Creia que la Terra era plana i que el Sol girava al voltant",
+                "Proposava que el moviment planetari es produïa per vòrtexs de matèria giratòria, sense forces a distància",
+                "Negava l'existència de la gravetat i creia que els planetes es movien per inèrcia pura",
+                "Afirmava que la llum era instantània i no tenia velocitat de propagació"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Descartes creia que l'espai estava ple de matèria subtil que girava en vòrtexs, i que els planetes eren arrossegats per aquests vòrtexs com fullàraca en un remolí. La teoria era atractiva perquè explicava el moviment sense recórrer a forces que actuaven a distància — cosa que a Descartes li semblava misteriosa i poc científica. Newton va demostrar matemàticament que la teoria dels vòrtexs era incompatible amb les lleis de Kepler, i va proposar la gravetat com a força que actua a distància — exactament el que Descartes volia evitar.",
+              "feedbackWrong": "L'error central de Descartes en física era la teoria dels vòrtexs: creia que l'espai era ple de matèria giratòria que arrossegava els planetes. Newton ho va desmentir matemàticament i va proposar la gravetat com a força que actua a distància. Paradoxalment, Newton va construir la física moderna sobre el marc conceptual cartesià (món mecanicista, matematitzable), corregint-ne el contingut específic."
+            }
+
+          ]
+        },
+
+        {
+          "id": "des-05",
+          "title": "Déu, engany i la sortida del laberint",
+          "blocks": [
+
+            {
+              "type": "quote",
+              "text": "La llum natural ens fa veure que l'engany depèn necessàriament d'alguna deficiència.",
+              "author": "René Descartes, Meditació IV (1641)"
+            },
+
+            {
+              "type": "narrative",
+              "text": "Descartes té un problema. Ha trobat el cogito — sap que existeix com a cosa pensant. Però tot el que sap a partir d'aquí ve de les seves idees, i les seves idees podrien ser fruit d'un geni maligne que l'enganya sistemàticament. Com surt del solipsisme? Com pot estar segur que el món exterior existeix, que les matemàtiques funcionen, que els seus records corresponen a alguna realitat? La seva solució és Déu. Descartes argumenta que entre les seves idees n'hi ha una d'especial: la idea d'un ésser perfectíssim. I una idea tan gran — d'un ésser infinitament perfecte — no pot haver sorgit d'ell, que és finit i imperfecte. Per tant, ha de tenir una causa externa: el ser perfectíssim mateix. Déu existeix. I un Déu perfecte no pot enganyar — perquè l'engany és imperfecció. Per tant, el món que percebo és real. El raonament és audaç. És circular. I ha fet escriure milers de pàgines de filosofia des de 1641 fins avui."
+            },
+
+            {
+              "type": "misconception",
+              "belief": "Descartes era ateu i la seva filosofia és una crítica de la religió disfressada de racionalisme.",
+              "reality": "Descartes era sincer en la seva fe cristiana, o almenys en el seu teisme. La seva filosofia necessita Déu estructuralment: sense Déu, no pot sortir del solipsisme del cogito. El problema és que els seus arguments per provar l'existència de Déu van ser criticats immediatament com a circulars i insuficients — fins i tot per teòlegs i filòsofs catòlics de l'època. El resultat paradoxal és que Descartes, que volia posar la filosofia al servei de la fe, va crear el marc epistemològic que Hume i Kant usarien per criticar qualsevol prova racional de l'existència de Déu.",
+              "why": "La reputació de Descartes com a revolucionari radical fa suposar que havia de ser ateu. Però el seu sistema complet — no sols el cogito, sinó la sortida del cogito — requereix Déu de manera ineludible."
+            },
+
+            {
+              "type": "what-would-you-do",
+              "character": "René Descartes",
+              "emoji": "🪞",
+              "year": "Novembre de 1633",
+              "setup": "Acabes de saber que Galileu ha estat condemnat per la Inquisició a abjurar el sistema copernicà. Tens preparat per publicar un text titulat «Le Monde» que defensa obertament que la Terra gira al voltant del Sol — la mateixa posició per la qual condemnen Galileu. El text és el resultat de quatre anys de treball. Publicar-lo podria tenir conseqüències greus: vius als Països Baixos, però ets súbdit del rei de França i la Inquisició té braços llargs.",
+              "dilemma": "Publiques el text assumint el risc — confiant que els Països Baixos et protegiran — o el guardes al calaix indefinidament, potser per sempre?",
+              "options": [
+                { "id": "A", "text": "Publico: la veritat científica no es pot callar per por, i els Països Baixos m'ofereixen prou protecció" },
+                { "id": "B", "text": "Guardo el text: no val la pena arriscar la vida i la llibertat per una publicació, i puc continuar treballant en altres coses" }
+              ],
+              "reveal": "Descartes va guardar el text al calaix. «Le Monde» no es va publicar fins al 1664, catorze anys després de la seva mort. En lloc d'això, va publicar el Discurs del mètode (1637) — un text molt més cautelós, on el copernicanisme apareix de forma indirecta. Va triar la supervivència i la prudència.",
+              "analysis": "La decisió de Descartes revela una tensió que recorre tota la seva vida: entre l'ambició radical de les seves idees i la prudència extrema de la seva conducta pública. Va canviar de domicili vint-i-quatre vegades per no ser localitzat. Publicava en llatí i en francès però rarament sota el seu nom complet. Era un revolucionari que actuava com un funcionari prudent. Alguns filòsofs interpreten que això va condicionar el seu sistema: el lloc central que dóna a Déu pot ser, en part, una assegurança intel·lectual. Altres diuen que sense la prudència de Descartes, no hi hauria hagut Descartes."
+            },
+
+            {
+              "type": "exercise",
+              "id": "ex-des-05-01",
+              "style": "detect-error",
+              "statement": "L'argument de Descartes per provar l'existència de Déu és el següent: tinc la idea d'un ésser perfecte; les idees perfectes requereixen causes perfectes; per tant, Déu —causa perfecta— existeix.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'enunciació és aproximadament correcta, però omet el problema central: l'argument és circular. Descartes usa el principi que «les idees clares i distintes» són fiables per demostrar Déu, i Déu per garantir que les idees clares i distintes són fiables. Els crítics (Arnauld, Mersenne, Gassendi) ho van veure de seguida. A més, la premissa que «una idea d'un ésser infinit requereix una causa infinita» és discutible: per qué no podria una ment finita generar la idea d'infinit per negació del finit? Hume i Kant desmuntarien sistemàticament tots els arguments cartesians per a l'existència de Déu un segle després."
+            },
+
+            {
+              "type": "scientific-mode",
+              "id": "sci-des-05-01",
+              "question": "Descartes va necessitar Déu per sortir del solipsisme del cogito. Sense Déu, el seu sistema col·lapsa en un «jo penso» sense connexió amb cap realitat exterior. Això invalida el seu projecte filosòfic?",
+              "options": [
+                "Sí: si la prova de Déu no funciona, tot el que ve després (el món real, les matemàtiques fiables, el coneixement científic) queda sense fonament",
+                "No: el projecte cartesià és vàlid independentment de la prova de Déu — la seva contribució és el mètode i el cogito, no la teologia",
+                "Parcialment: el sistema de Descartes col·lapsa si Déu no existeix, però el problema que planteja —com justificar el pas de la ment al món exterior— segueix sent real i sense solució definitiva"
+              ],
+              "correct": 2,
+              "explanation": "Aquí és on la filosofia es torna més honest sobre els seus propis límits. El sistema de Descartes, tal com ell el va construir, necessita Déu. Sense Déu, quedem tancats dins el cogito sense poder justificar cap afirmació sobre el món exterior. Kant va intentar una sortida diferent (les categories de l'enteniment estructuren l'experiència possible), però molts filòsofs argumenten que el problema que va plantejar Descartes —com passar de la ment al món— no té solució filosòfica satisfactòria. L'empirisme (Locke, Hume) el va abordar per una altra via; l'idealisme alemany (Fichte, Hegel) per una altra. El pragmatisme nord-americà (James, Dewey) va decidir que la pregunta estava malament formulada. Cap resposta ha convençut tothom. El «problema de l'escepticisme extern» —com saber que el món exterior existeix— segueix obert. El que Descartes va aconseguir és formular-lo amb una precisió que fa impossible ignorar-lo."
+            }
+
+          ]
+        },
+
+        {
+          "id": "des-06",
+          "title": "Llegat: el pare que no volem reconèixer",
+          "blocks": [
+
+            {
+              "type": "quote",
+              "text": "La lectura de tots els bons llibres és com una conversa amb les persones més honrades dels segles passats.",
+              "author": "René Descartes, Discurs del mètode (1637)"
+            },
+
+            {
+              "type": "narrative",
+              "text": "Quan Descartes va morir a Estocolm el febrer de 1650, havia passat la major part de la vida en l'anonimat deliberat, canviant de domicili, publicant amb precaució, evitant el conflicte directe amb l'Església. Vint anys després, les seves obres eren l'índex de matèries prohibides del Vaticà. Un segle més tard, els filòsofs de la Il·lustració se'n reclamaven com a antecessor directe. Dos segles més tard, Kant deia que Descartes l'havia despertat del «son dogmàtic». Tres segles i mig més tard, el problem hard de la consciència — el problema ment-cos que Descartes va plantejar — continua sense solució i és el debat central de la filosofia de la ment i de la neurociència cognitiva. Descartes és el filòsof que tothom cita, que molts critiquen, i sense el qual no es pot entendre res del que ve després."
+            },
+
+            {
+              "type": "before-after",
+              "title": "La filosofia: abans i després de Descartes",
+              "before": {
+                "label": "Abans (tradició escolàstica)",
+                "points": [
+                  "La filosofia és ancilla theologiae — servidora de la teologia",
+                  "L'autoritat (Aristòtil, els Pares de l'Església) és la font última del coneixement",
+                  "La pregunta central: com interpretem les Escriptures i la tradició?",
+                  "El subjecte individual no és el punt de partida — ho és la comunitat de fe"
+                ]
+              },
+              "after": {
+                "label": "Després (filosofia moderna)",
+                "points": [
+                  "La filosofia és independent de la teologia — pot arribar a veritats pròpies per la raó",
+                  "La raó individual és la font última del coneixement — l'autoritat s'ha de justificar davant la raó",
+                  "La pregunta central: com pot una ment individual conèixer el món?",
+                  "El subjecte pensant individual és el punt de partida de tota la filosofia"
+                ]
+              },
+              "insight": "El que Descartes va inaugurar és el gir subjectiu de la filosofia moderna: el subjecte —la ment que es pensa a si mateixa— es converteix en el centre de gravetat de tota la reflexió filosòfica. Tota la filosofia posterior, fins a Hegel i més enllà, és un intent de superar, corregir o fugir d'aquest gir — sense poder ignorar-lo."
+            },
+
+            {
+              "type": "connection",
+              "moduleRef": "Introducció a la Filosofia",
+              "moduleEmoji": "💡",
+              "concept": "L'epistemologia i la pregunta pel coneixement",
+              "text": "La pregunta «com puc saber que alguna cosa és veritat?» que Descartes fa central és el punt de partida de tota epistemologia. Locke, Hume i Kant estan tots responent a Descartes — acceptant el problema que va plantejar i rebutjant la solució que va proposar."
+            },
+
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "El mètode científic i la revolució mecanicista",
+              "text": "La visió cartesiana del món com a màquina regida per lleis matemàtiques és el marc conceptual dins el qual treballa la ciència modern. Quan Descartes diu que la natura és extensió i moviment, i que les qualitats sensorials existeixen sols a la ment, posa les bases del que Galileu havia intuït i Newton formalitzarà."
+            },
+
+            {
+              "type": "reflection",
+              "question": "Descartes va passar la vida buscant una certesa absoluta des de la qual construir tot el coneixement. Creus que és possible — o fins i tot desitjable — viure sense certeses absolutes? Qué guanyaries i qué perdries?",
+              "prompt": "No cal una resposta filosòfica elaborada. N'hi ha prou amb un moment de pensar-ho de veritat."
+            },
+
+            {
+              "type": "scientific-mode",
+              "id": "sci-des-06-01",
+              "question": "Quin és el llegat més important de Descartes per al pensament contemporani?",
+              "options": [
+                "El cogito i la certesa del subjecte pensant — la idea que la ment individual és el punt de partida inapel·lable de tot coneixement",
+                "El dualisme ment-cos — que, tot i ser indefensable en la seva forma original, va plantejar el problema de la consciència que la ciència i la filosofia segueixen sense resoldre",
+                "El mètode — la idea que el coneixement s'ha de construir des de la raó, per passos clars, dubtant de tot el que no resisteixi l'examen crític"
+              ],
+              "correct": 2,
+              "explanation": "Les tres opcions representen llegats reals de Descartes, i el debat entre elles és genuí. El cogito (opció A) és la seva contribució més famosa, però té problemes seriosos (el «cercle cartesià», la crítica de Russell sobre el «jo» pressuposat). El dualisme (opció B) és probablement la seva contribució filosòfica més duradora en el sentit que el problema que va plantejar segueix sense solució — però ningú no defensa avui la seva versió del dualisme de substàncies. El mètode (opció C) és el que ha tingut una influència pràctica més àmplia i més durable. La idea que el coneixement s'ha de construir des de la raó crítica individual, per passos verificables, dubtant de tot el que no resisteixi l'examen — és el cor de la racionalitat moderna i del mètode científic. No és exactament el mètode de cap ciència empírica concreta (que requereix experiment, no sols raó), però és l'actitud epistèmica que fa possible la ciència. En aquest sentit, Descartes és el filòsof que va inventar la postura intel·lectual de la modernitat — per bé i per mal."
+            }
+
+          ]
+        }
+
+      ]
+    }
+  ]
+}

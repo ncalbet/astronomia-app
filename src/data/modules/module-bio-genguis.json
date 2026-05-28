@@ -10,6 +10,18 @@
       "title": "Temujin: de l'esclau a l'unificador",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-geng-01-01",
+          "question": "Genguis Khan va sortir de la misèria absoluta —família abandonada, ell mateix esclavitzat de jove— per construir el major imperi contigu de la historia. Quin va ser el factor decisiu d'aquesta transformació?",
+          "options": [
+            "Les condicions de les estepes: el context de conflicte tribal permanent creava una selecció natural de líders violents. Les capacitats de Temujin eren extraordinàries, però el seu entorn va fer possible el que en qualsevol altra societat hauria estat impossible",
+            "La visió organitzativa singular: la meritocracia i la cohesió tribal forçada van ser innovacions genuïnament seves. Sense aquesta restructuració social radical, les tribus mongoles haurien continuat lluitant entre elles indefinidament i cap d'elles hauria conquerit res",
+            "La pregunta del 'factor decisiu' és massa simple: van confluir les seves capacitats personals excepcionals, unes condicions geopolítiques específiques (debilitat simultània de la Xina i Pèrsia), i una sèrie de decisions que podrien haver anat altrament. El gran lideratge és sempre la combinació de la persona i el moment"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la perspectiva estructuralista —defensada per historiadors que subratllen que les estepes produïen regularment líders militars brillants i que les condicions de la Xina i Pèrsia en aquell moment eren excepcionalment favorables a una invasió externa. La posició B és la perspectiva del lideratge transformacional, defensada per Jack Weatherford a 'Genghis Khan and the Making of the Modern World': la meritocracia era una innovació genuïna que cap altre cap de les estepes havia sistematitzat. La posició C és la metodològicament més robusta: Temujin tenia capacitats extraordinàries (resistència, memòria per a les aliances, judici estratègic), però va tenir sort en moments clau i va operar en un context geopolític que va amplificar el seu talent. El 'gran home' i les 'grans circumstàncies' es necessiten mútuament per produir resultats històrics."
+        },
+        {
           "type": "quote",
           "text": "La felicitat suprema de l'home és vèncer els enemics, perseguir-los, privar-los de les seves possessions, fer plorar els qui els estimaven i cavalcar els seus cavalls.",
           "author": "Genguis Khan, segons les Cròniques Secretes dels Mongols"
@@ -51,6 +63,20 @@
       "title": "La conquesta: velocitat, terror i administració",
       "blocks": [
         {
+          "type": "what-would-you-do",
+          "character": "Genguis Khan",
+          "emoji": "🏹",
+          "year": "1219 — davant de Samarcanda",
+          "setup": "Samarcanda és la major ciutat de l'Àsia Central: 500.000 habitants, la joia del món islàmic, plena de biblioteques, mesquites i artesans. El xah de Khwarezm ha assassinat els teus ambaixadors comercials —una ofensa imperdonable— i ha declarat la guerra. Samarcanda ofereix rendició si garanteixes la vida dels habitants. Però els teus generals argumenten que una rendició generosa anima altres ciutats a resistir; la massacre total és un missatge que rendeix ciutats sense lluita.",
+          "dilemma": "Acceptes la rendició i perdones la vida dels habitants, o fas la massacre total com a instrument de terror preventiu?",
+          "options": [
+            { "id": "A", "text": "Accepto la rendició: una ciutat que es rend sense lluita no ha de ser castigada. La generositat és també un instrument polític" },
+            { "id": "B", "text": "Massacre total: la crudeltat extrema amb els que resisteixen fa innecessàries les batalles futures. Samarcanda serà un missatge" }
+          ],
+          "reveal": "Genguis Khan va acceptar la rendició de Samarcanda però va matar o esclavitzar la majoria de la població de totes formes, excepte els artesans i els erudits —que es van endur al costat est. La matança no era inevitable ni sistemàtica: depenia de si la ciutat havia resistit, si els ambaixadors havien estat maltractats i si hi havia artesans útils. La política mongola era calculada, no salvatge sense regles.",
+          "analysis": "La política de terror mongol tenia una lògica freda: una massacre demostrada reduïa el cost de les conquestes posteriors. Ciutats que sabien el que passava a les que resistien sovint es rendien sense lluita. Genguis Khan no exterminava per plaer —exterminava per reduir el cost global de la conquesta. Que la lògica fos racional no fa les massacres menys reals. Però entendre la lògica és necessari per entendre com va ser possible."
+        },
+        {
           "type": "narrative",
           "text": "Entre 1206 i la mort de Genguis Khan el 1227, els mongols van conquerir el nord de la Xina, l'Àsia Central, la Pèrsia i el Caucas. Els seus successors van completar la Xina, van destruir Bagdad (1258, fi del Califat Abbàsida), van devastar la Rússia medieval i van arribar a les portes de Polònia i Hongria. En menys de 70 anys, l'Imperi Mongol va abraçar uns 24 milions de quilòmetres quadrats —el major imperi contigu de la historia humana. Els números de morts que els historiadors atribueixen a la conquesta oscil·len entre 20 i 40 milions de persones, en un món amb una població d'uns 400 milions. Era l'equivalents a exterminar el 5-10% de la humanitat viva."
         },
@@ -78,20 +104,6 @@
           "insight": "La Pax Mongolica —la pau relativa que el control mongol va imposar des del Pacífic fins al Mediterrani— va permetre un flux sense precedents de mercaderies, idees, tecnologies i malalties a través d'Euràsia. Marco Polo va poder viatjar a Pequín. La pesta negra va viatjar per la mateixa ruta en sentit contrari."
         },
         {
-          "type": "what-would-you-do",
-          "character": "Genguis Khan",
-          "emoji": "🏹",
-          "year": "1219 — davant de Samarcanda",
-          "setup": "Samarcanda és la major ciutat de l'Àsia Central: 500.000 habitants, la joia del món islàmic, plena de biblioteques, mesquites i artesans. El xah de Khwarezm ha assassinat els teus ambaixadors comercials —una ofensa imperdonable— i ha declarat la guerra. Samarcanda ofereix rendició si garanteixes la vida dels habitants. Però els teus generals argumenten que una rendició generosa anima altres ciutats a resistir; la massacre total és un missatge que rendeix ciutats sense lluita.",
-          "dilemma": "Acceptes la rendició i perdones la vida dels habitants, o fas la massacre total com a instrument de terror preventiu?",
-          "options": [
-            { "id": "A", "text": "Accepto la rendició: una ciutat que es rend sense lluita no ha de ser castigada. La generositat és també un instrument polític" },
-            { "id": "B", "text": "Massacre total: la crudeltat extrema amb els que resisteixen fa innecessàries les batalles futures. Samarcanda serà un missatge" }
-          ],
-          "reveal": "Genguis Khan va acceptar la rendició de Samarcanda però va matar o esclavitzar la majoria de la població de totes formes, excepte els artesans i els erudits —que es van endur al costat est. La matança no era inevitable ni sistemàtica: depenia de si la ciutat havia resistit, si els ambaixadors havien estat maltractats i si hi havia artesans útils. La política mongola era calculada, no salvatge sense regles.",
-          "analysis": "La política de terror mongol tenia una lògica freda: una massacre demostrada reduïa el cost de les conquestes posteriors. Ciutats que sabien el que passava a les que resistien sovint es rendien sense lluita. Genguis Khan no exterminava per plaer —exterminava per reduir el cost global de la conquesta. Que la lògica fos racional no fa les massacres menys reals. Però entendre la lògica és necessari per entendre com va ser possible."
-        },
-        {
           "type": "exercise",
           "id": "ex-geng-02-01",
           "style": "detect-error",
@@ -105,6 +117,18 @@
       "id": "geng-03",
       "title": "El llegat: el monstre que va connectar el món",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-geng-03-01",
+          "question": "Com hauria de la història avaluar l'impacte de Genguis Khan sobre la humanitat?",
+          "options": [
+            "Predominantment negatiu: les massacres van destruir cultures úniques i van matar entre el 5 i el 10% de la humanitat. Cap llegat positiu pot justificar o compensar aquella destrucció",
+            "Ambivalent però inclinat al positiu: la Pax Mongolica va accelerar la globalització, va difondre tecnologies clau (impremta, pólvora) d'est a oest i va crear les condicions del comerç modern. El cost humà va ser real però les conseqüències a llarg termini van ser transformadores",
+            "La pregunta del 'balanç' és metodològicament incorrecta: la historia no es compta en un balanç de positius i negatius. Podem descriure les causes i les conseqüències de la conquesta mongola, però pretendre sumar els morts i restar-hi els beneficis de la globalització és un exercici sense sentit moral"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la perspectiva de les víctimes —defensada per historiadors de la Pèrsia medieval i del món islàmic. La posició B és la perspectiva dels historiadors de la globalització com Jack Weatherford (autor del bestseller 'Genghis Khan and the Making of the Modern World'). La posició C és la més metodològicament robusta: el 'balanç' implica que podem posar en una balança unes massacres del segle XIII i uns beneficis del segle XV-XVI. Però els que van morir a Merv i Bagdad no van poder gaudir dels beneficis de la Ruta de la Seda segura. El cost i el benefici els van suportar persones completament diferents. Calcular el 'balanç net' d'un genocidi és una operació moralment qüestionable, no una avaluació historiogràfica. Podem i hauríem de descriure les dues dimensions sense pretendre que es cancel·len."
+        },
         {
           "type": "narrative",
           "text": "Genguis Khan va morir el 1227, probablement de ferides rebudes en una caiguda del cavall. Va ser enterrat en secret, en un lloc desconegut fins avui. Havia ordenat que el lloc no fos mai marcat. Els soldats que van transportar el cos van matar tothom que van trobar pel camí perquè ningú pogués revelar la ruta. El lloc de sepultura de l'home que va matar entre 20 i 40 milions de persones és un misteri perfecte. Però el seu llegat biològic és conegut: un estudi genètic del 2003 va concloure que aproximadament 16 milions d'homes al món —al voltant del 0,5% de la població masculina global— descenden directament de Genguis Khan per línia paterna."
@@ -134,18 +158,6 @@
             }
           ],
           "reflection": "Que la conquesta mongola hagi facilitat la connexió eurasiàtica és un fet documentat. Que aquella connexió hagi tingut efectes positius per a la humanitat a llarg termini, també. Justifica això les massacres? Qui té el dret de fer aquest balanç?"
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-geng-03-01",
-          "question": "Com hauria de la història avaluar l'impacte de Genguis Khan sobre la humanitat?",
-          "options": [
-            "Predominantment negatiu: les massacres van destruir cultures úniques i van matar entre el 5 i el 10% de la humanitat. Cap llegat positiu pot justificar o compensar aquella destrucció",
-            "Ambivalent però inclinat al positiu: la Pax Mongolica va accelerar la globalització, va difondre tecnologies clau (impremta, pólvora) d'est a oest i va crear les condicions del comerç modern. El cost humà va ser real però les conseqüències a llarg termini van ser transformadores",
-            "La pregunta del 'balanç' és metodològicament incorrecta: la historia no es compta en un balanç de positius i negatius. Podem descriure les causes i les conseqüències de la conquesta mongola, però pretendre sumar els morts i restar-hi els beneficis de la globalització és un exercici sense sentit moral"
-          ],
-          "correct": 2,
-          "explanation": "La posició A és la perspectiva de les víctimes —defensada per historiadors de la Pèrsia medieval i del món islàmic. La posició B és la perspectiva dels historiadors de la globalització com Jack Weatherford (autor del bestseller 'Genghis Khan and the Making of the Modern World'). La posició C és la més metodològicament robusta: el 'balanç' implica que podem posar en una balança unes massacres del segle XIII i uns beneficis del segle XV-XVI. Però els que van morir a Merv i Bagdad no van poder gaudir dels beneficis de la Ruta de la Seda segura. El cost i el benefici els van suportar persones completament diferents. Calcular el 'balanç net' d'un genocidi és una operació moralment qüestionable, no una avaluació historiogràfica. Podem i hauríem de descriure les dues dimensions sense pretendre que es cancel·len."
         }
       ]
     }

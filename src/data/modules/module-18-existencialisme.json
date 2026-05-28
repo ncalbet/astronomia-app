@@ -1,0 +1,443 @@
+{
+  "id": "module-18-existencialisme",
+  "title": "Existencialisme: viure sense respostes",
+  "emoji": "🌑",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "exi-01",
+      "title": "Per qué existeixes?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hi ha preguntes que la majoria de persones eviten amb gran cura.\n\nNo perquè siguin difícils en el sentit tècnic. Sinó perquè si t'hi poses de veritat, sense escapatòria, produeixen una sensació que els filòsofs existencialistes van anomenar «angúnia»: la vertigem de ser lliure sense raó prèvia, sense guió donat, sense propòsit garantit.\n\nAquest mòdul no resol aquelles preguntes. Les filosofies que afirmen resoldre-les —religioses, ideològiques, de mercat— ho fan pagant un preu: deixar de mirar-les directament.\n\nAquí les mirem directament. I veiem el que hi ha."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'existencialisme no és una filosofia de la desesperació. És una filosofia de la lucidesa. La seva premissa central: no hi ha essència humana prèvia a l'existència, cap propòsit donat per la naturalesa o Déu, cap guió que calgui seguir. Aquella absència no és una tragèdia que cal superar. És la condició de la llibertat real."
+        },
+        {
+          "type": "misconception",
+          "belief": "L'existencialisme és una filosofia pessimista i nihilista que diu que la vida no té sentit i que tot és igual.",
+          "reality": "L'existencialisme afirma que la vida no té sentit donat prèviament — però no que no en pugui tenir. Al contrari: és precisament perquè no hi ha sentit donat que cada persona ha de construir el seu propi. Sartre considerava aquella responsabilitat radical no com una condemnació sinó com la condició de la dignitat humana. El nihilisme diu «res no importa». L'existencialisme diu «res no importa per si sol, i per tant el que decideixes que importa és genuïnament teu».",
+          "why": "L'existencialisme va sorgir en un context de postguerra (Sartre escriu L'Ésser i el No-res el 1943, en l'ocupació nazi de París) i va adoptar un to fosc que sovint s'ha confòs amb el missatge. A més, la famosa frase de Sartre «l'existència precedeix l'essència» és tècnicament densa i es pot malinterpretar com a negació de tot valor."
+        },
+        {
+          "type": "quote",
+          "text": "L'home no és res més que el que es fa. Tal és el primer principi de l'existencialisme.",
+          "author": "Jean-Paul Sartre, L'existencialisme és un humanisme (1945)"
+        },
+        {
+          "type": "expandable",
+          "label": "L'existència precedeix l'essència: la idea que ho canvia tot",
+          "content": "Sartre va contrastar la condició humana amb la d'un objecte fabricat: un tallapis té una essència (el concepte de tallapis en la ment del fabricant) que precedeix la seva existència (el moment en que es fabrica). El fabricant sap per a qué serveix el tallapis abans que el tallapis existeixi.\n\nDurant mil·lennis, la teologia i la filosofia van tractar els humans com a tallapis divins: Déu o la Naturalesa tenia un concepte de «l'ésser humà» (la seva essència, el seu propòsit) que precedia l'existència de cada individu. La tasca humana era descobrir i realitzar aquella essència donada.\n\nSartre va invertir la relació: en el cas dels humans, l'existència precedeix l'essència. Primer existim —apareixem al món sense cap propòsit previ. Després creem la nostra essència a través de les nostres tries, accions i compromisos. No hi ha un «jo» fix que descobrir: el «jo» és allò que fas.\n\nAixò té una implicació radical: no pots dir «sóc tímid per naturalesa» i usar-ho com a excusa per no actuar. Ets tímid perquè has escollit (potser inconscientemente) actuar de forma tímida repetidament. I pots triar actuar diferent. La llibertat és total —i la responsabilitat, per tant, també."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-01-01",
+          "style": "multiple-choice",
+          "question": "Sartre diu que «estem condemnats a ser lliures». Per qué és una «condemna» i no una benedicció?",
+          "options": [
+            "Perquè la llibertat humana és limitada per la biologia, la societat i la psicologia",
+            "Perquè no podem escapar de la responsabilitat de les nostres tries: no elegir és en si una tria, i la responsabilitat de ser el que som recau completament en nosaltres",
+            "Perquè la llibertat sense guia divina porta inevitablement al caos moral i social",
+            "Perquè la llibertat existencialista és una il·lusió: en realitat els determinismes biològics i socials ens controlen"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "La «condemna» de Sartre no és un pessimisme sobre la llibertat —és un reconeixement de la seva inevitabilitat. No pots no triar: fins i tot no fer res és una tria (la d'abstenir-se). No pots delegar la responsabilitat a la naturalesa, a Déu o a la societat: per a Sartre, aquella delegació és «mala fe» (mauvaise foi) —un engany còmode que ens protegeix del pes de la responsabilitat però a cost de renunciar a la pròpia humanitat. La «condemna» és que no hi ha escapatòria de la llibertat ni de la responsabilitat que comporta.",
+          "feedbackWrong": "La «condemna» de Sartre no és un límit de la llibertat (A) ni un problema d'absència de guia (C) ni una negació de la llibertat (D). És la inevitabilitat de la responsabilitat: no pots no triar, no pots delegar la responsabilitat de qui ets a cap força externa. Aquella inevitabilitat pesa —és la «condemna». Però és també la condició de la dignitat: ser l'autor de la teva pròpia vida."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-01-02",
+          "style": "detect-error",
+          "statement": "L'existencialisme de Sartre implica que totes les tries són igualment vàlides, ja que no hi ha una essència humana ni valors objectius que les jutgin. Sartre era, per tant, un relativista moral.",
+          "isCorrect": false,
+          "feedbackExplanation": "Sartre era explícitament anti-relativista, i va dedicar esforç considerable a distingir la seva postura del relativisme. El seu argument: quan tries, tries per a tots. Cada tria que fas és implícitament una afirmació de que aquella manera d'actuar és la correcta —de que, si tots actuéssim així, el món seria millor o acceptable. Aquella dimensió universal de la tria introdueix responsabilitat moral sense necessitat de valors objectius fixos. A més, Sartre va defensar compromisos polítics molt concrets (antifeixisme, anticolonialisme, crítica del capitalisme) que no serien coherents amb un relativisme genuí. L'absència d'essència humana donada no equival a l'absència de responsabilitat moral: equival a que la responsabilitat recau completament en l'individu."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-exi-01-01",
+          "question": "Sartre diu que «l'existència precedeix l'essència» i que el «jo» és allò que construïm amb les nostres tries. La neurociència i la psicologia evolutiva mostren que molts trets de la personalitat, tendències conductuals i fins i tot valors morals tenen base genètica i es formen en la infància. Contradiu això la tesi de Sartre?",
+          "options": [
+            "Sí: si la personalitat té base genètica, l'essència precedeix l'existència en un sentit biològic que Sartre ignorava",
+            "No: Sartre parla de l'essència en sentit filosòfic (propòsit, significat, identitat construïda), no en sentit biològic. La genètica determina tendències, no qui ets",
+            "Parcialment: la neurociència limita el camp de la llibertat però no l'elimina — el marge entre les tendències biològiques i les tries reals és on opera la llibertat existencial"
+          ],
+          "correct": 2,
+          "explanation": "La tensió entre llibertat existencial i determinisme biològic és un dels problemes filosòfics més actius del segle XXI. L'opció A pren «essència» en sentit biològic, que no és el sentit de Sartre. L'opció B nega massa ràpidament la rellevància de la biologia per a la llibertat. La postura C integra les dues perspectives de forma honesta: la neurociència i la genètica mostren que les tendències, temperaments i fins i tot alguns valors morals (Jonathan Haidt) estan parcialment predeterminats. Però les tries concretes, els compromisos, el significat que donem a la nostra vida, els projectes que adoptem —tot allò que Sartre considera la «construcció del jo»— no està biològicament determinat. El marge de llibertat és real, tot i que no és tan absolut com Sartre postulava. La llibertat existencial no és tot o res: és un espai real dins d'un camp de condicionaments."
+        }
+      ]
+    },
+    {
+      "id": "exi-02",
+      "title": "Si tot acaba, per qué continuar?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Albert Camus va obrir El mite de Sísif amb una frase que va escriure el 1942, en plena Segona Guerra Mundial, mentre França estava ocupada:\n\n«No hi ha més que un problema filosòfic veritablement seriós: el suïcidi. Jutjar si la vida val o no val la pena de ser viscuda, és respondre la pregunta fonamental de la filosofia.»\n\nNo era provocació. Era la pregunta que Camus considerava que tota filosofia honest havia de respondre primer, i que la majoria evitava. Si la vida no té sentit donat, si tot acaba en la mort i l'oblit, ¿per qué no és racional rendir-se?\n\nLa seva resposta és una de les més estranyament alliberadores de tota la filosofia occidental."
+        },
+        {
+          "type": "key-idea",
+          "text": "Camus anomena «absurd» la tensió entre el desig humà de sentit i claredat i el silenci de l'univers davant d'aquell desig. L'absurd no és la manca de sentit en si —és la confrontació entre la necessitat humana de sentit i la indiferència radical de la realitat. La resposta de Camus no és suïcidi (rendir-se) ni fe (negar l'absurd) sinó rebel·lió: viure plenament tot mantenint la consciència de l'absurd."
+        },
+        {
+          "type": "expandable",
+          "label": "Sísif feliç: la imatge més desconcertant de la filosofia del segle XX",
+          "content": "En el mite grec, Sísif és condemnat pels déus a empènyer eternament una roca fins al cim d'una muntanya, des d'on sempre cau. El càstig és l'eternitat del treball inútil — la definició mateixa del turment sense propòsit.\n\nCamus pren aquesta imatge i fa una afirmació que sembla absurda fins que la penses lentament: «Cal imaginar Sísif feliç».\n\nPer qué? Perquè Sísif és conscient de la seva situació. No s'enganya sobre el seu destí. No espera que la roca es quedi al cim. No prega perquè els déus canviïn les regles. Sap exactament el que és: un home que empeny una roca que caurà.\n\nI en aquella consciència lúcida, en aquella negativa a buscar escapatòria en la il·lusió, Camus veu la victòria sobre el destí. El turment és real. Però Sísif és l'amo de la seva roca —no el seu esclau.\n\nL'argument és subtil: la rebel·lió contra l'absurd no és la seva negació (creure que la roca es quedarà al cim) sinó la seva acceptació plena combinada amb la negativa a deixar-se vèncer per ella. Viure sabent que tot acaba, sense per això deixar de viure completament.\n\nCamus va escriure El mite de Sísif mentre França s'enfonsava sota l'ocupació. Era, entre d'altres coses, una resposta filosòfica a la col·laboració: per qué continuar resistint quan la resistència sembla inútil? Perquè la rebel·lió, no el resultat, és el que defineix la dignitat."
+        },
+        {
+          "type": "quote",
+          "text": "La lluita cap a les cimes basta per omplir un cor d'home. Cal imaginar Sísif feliç.",
+          "author": "Albert Camus, El mite de Sísif (1942)"
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-02-01",
+          "style": "multiple-choice",
+          "question": "Camus distingeix tres respostes possibles a l'absurd: el suïcidi físic, el suïcidi filosòfic (la fe religiosa o ideològica) i la rebel·lió. Per qué considera el suïcidi filosòfic (la fe) una forma de rendir-se?",
+          "options": [
+            "Perquè la religió és falsa i Camus era ateu",
+            "Perquè la fe resol l'absurd negant-lo: afirma que sí hi ha un sentit superior, una raó per a tot, i per tant evita la confrontació directa amb la indiferència de l'univers",
+            "Perquè la fe porta a comportaments moralment inacceptables com les guerres de religió",
+            "Perquè la fe és una forma d'evasió personal sense conseqüències socials positives"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "Camus no condemnava la fe per raons epistemològiques (perquè la religió sigui falsa) sinó per raons filosòfiques: la fe resol l'absurd saltant per damunt d'ell. Si creus que hi ha un Déu que dóna sentit a tot, que el sofriment té una raó superior, que la mort no és el final, elimines la tensió que és l'absurd. Camus respectava aquella elecció però la considerava una escapatòria —un refús a mirar directament el que ell veia com la condició real de l'existència. La seva proposta era exactament el contrari: mantenir la consciència de l'absurd sense resoldre-la, viure plenament malgrat ella.",
+          "feedbackWrong": "La crítica de Camus a la fe no és epistemològica (no és «la religió és falsa»). És filosòfica: la fe elimina l'absurd acceptant que sí hi ha un sentit superior, una raó per a tot. Per a Camus, aquella solució és una forma de rendir-se davant de la pregunta en lloc d'enfrontar-la. La seva proposta és l'oposta: mantenir la consciència de l'absurd sense buscar escapatòria en cap resolució —ni en el suïcidi ni en la fe."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-02-02",
+          "style": "true-false",
+          "question": "La filosofia de Camus és compatible amb el compromís polític i social actiu. L'absurd no implica inacció.",
+          "correct": true,
+          "feedbackCorrect": "Cert — i és un punt central que la lectura superficial de Camus sovint passa per alt. La rebel·lió absurda de Camus no és introspecció passiva: és acció en el món malgrat la consciència de la seva limitació. Camus va ser un dels intel·lectuals francesos més comprometits políticament del segle XX: va escriure extensament sobre la justícia, contra la pena de mort, contra el colonialisme, contra el totalitarisme (tant feixista com estalinista). La seva pol·lèmica amb Sartre sobre si es podia justificar la violència revolucionària és un dels debats intel·lectuals més importants del segle passat. L'absurd no porta a la inacció — porta a una acció sense garanties, lliure de la il·lusió que el resultat sigui segur o que el sacrifici tingui un sentit garantit.",
+          "feedbackWrong": "L'absurd de Camus no porta a la inacció. Camus va ser un dels intel·lectuals més políticament compromesos del segle XX: contra el colonialisme, la pena de mort i el totalitarisme. La rebel·lió absurda és acció en el món sense la garantia que el resultat tingui sentit o que el sacrifici sigui compensat. Actuar bé malgrat saber que no hi ha garanties és, per a Camus, la forma màxima de dignitat."
+        },
+        {
+          "type": "primary-source",
+          "label": "Camus, El mite de Sísif, final",
+          "source": "Albert Camus, Le Mythe de Sisyphe (1942). Traduït del francès",
+          "text": "\"Deixo Sísif al peu de la muntanya! La seva roca sempre es trobarà. Però Sísif ensenya la fidelitat superior que nega els déus i aixeca les pedres. Ell també considera que tot va bé. Aquest univers en endavant sense amo no li sembla ni estèril ni fútil. Cada gra d'aquesta pedra, cada esquirla mineral d'aquesta muntanya plena de nit formen sola un món. La lluita mateixa cap a les cimes basta per omplir un cor d'home. Cal imaginar Sísif feliç.\"",
+          "questions": [
+            "Camus diu que Sísif «nega els déus». Quina és la forma de negar els déus que Camus proposa sense violència ni enemistat?",
+            "«Aquest univers en endavant sense amo» — per qué la manca de propietari de l'univers podria ser alliberadora en lloc de terrorífica?",
+            "Pots pensar en alguna situació de la teva vida on has continuat fent alguna cosa sabent que no tenia garantia de resultat? Era aquella continuació una forma de rebel·lió absurda?"
+          ]
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-exi-02-01",
+          "question": "La recerca psicològica sobre el «sentit de la vida» (Viktor Frankl, Martin Seligman) mostra que les persones que senten que la seva vida té sentit viuen millor, són més resilients i fins i tot viuen més. La filosofia de Camus —que el sentit no és donat sinó construït davant de l'absurd— és compatible amb aquells resultats o els contradiu?",
+          "options": [
+            "Contradiu: si la vida objectivament no té sentit, la recerca de sentit és una il·lusió terapèutica útil però filosòficament deshonesta",
+            "És compatible: Camus no nega que les persones construeixin sentit —nega que aquell sentit sigui donat per l'univers. La construcció subjectiva de sentit és exactament el que proposa",
+            "La comparació no és vàlida: Frankl i Seligman mesuren efectes psicològics, Camus fa filosofia normativa — els nivells d'anàlisi son incomparables"
+          ],
+          "correct": 1,
+          "explanation": "La postura de Camus i els resultats de la psicologia del sentit de la vida són perfectament compatibles. Frankl (logoteràpia) va argumentar, des de la seva experiència als camps de concentració nazis, que les persones que mantenien un sentit de propòsit sobrevivien millor. Seligman ha documentat que el sentit és un dels pilars del benestar. Cap d'ells afirma que el sentit ha de ser donat per l'univers o per Déu — afirmen que les persones que construeixen sentit actiu viuen millor. Aquella construcció activa de sentit és precisament el que Camus proposa amb la rebel·lió: no esperar un sentit donat, sinó crear-lo a través de l'acció, la passió i la llibertat. L'opció A crea un fals dilema entre honestedat filosòfica i utilitat psicològica. L'opció C és massa estricta en la separació de nivells: la filosofia i la psicologia es poden informar mútuament sense confondre's."
+        }
+      ]
+    },
+    {
+      "id": "exi-03",
+      "title": "Ets lliure o creus que ho ets?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Sartre diu que som totalment lliures i totalment responsables. Camus proposa viure amb consciència de l'absurd sense escapatòria.\n\nPerò hi ha una pregunta que tots dos semblen esquivar: ets realment lliure? O ets un producte de la teva classe social, el teu gènere, la teva cultura, la teva psicologia, les teves experiències d'infància?\n\nSimone de Beauvoir va ser la primera filòsofa existencialista que va prendre aquella pregunta seriosament —i la seva resposta va canviar la filosofia, el feminisme i la manera com entenem la relació entre llibertat i opressió."
+        },
+        {
+          "type": "quote",
+          "text": "No es neix dona: es fa.",
+          "author": "Simone de Beauvoir, El segon sexe (1949)"
+        },
+        {
+          "type": "key-idea",
+          "text": "De Beauvoir va mostrar que la llibertat existencial de Sartre és abstracta si no té en compte les condicions concretes en les quals s'exerceix. Una dona del segle XIX no era «lliure» de la mateixa manera que un home burgès, no perquè la seva naturalesa fos diferent, sinó perquè les estructures socials limitaven el camp real de les seves tries. La llibertat no s'exerceix en el buit —s'exerceix en situació."
+        },
+        {
+          "type": "expandable",
+          "label": "L'Altre i la mirada: per qué els altres ens defineixen sense el nostre permís",
+          "content": "Sartre va desenvolupar un concepte que De Beauvoir va reelaborar de forma més política: la mirada de l'Altre.\n\nQuan algú et mira, en el sentit de percebre't, t'objectifica parcialment: et converteix en un objecte del seu camp perceptiu, li dona un significat que tu no controles. La mirada de l'Altre és alhora necessària (necessitem ser reconeguts pels altres per construir identitat) i alienadora (els altres ens defineixen d'una manera que no podem controlar completament).\n\nDe Beauvoir va aplicar aquesta idea al gènere: «la dona» no és una categoria natural sinó una construcció social que la mirada masculina dominant ha imposat. Les dones han estat definides com a «l'Altre» —el que no és l'home, el derivat, el secundari— per una estructura de mirades socials que operen independentment de la voluntat individual.\n\nLa implicació és profunda: la llibertat individual és real però no és absoluta. Existeix dins d'un camp de forces socials, econòmiques i culturals que la condicionen. Aquelles forces no eliminen la llibertat — la situen. I la filosofia honest ha de tenir en compte aquella situació.\n\nAixò és el que distingeix De Beauvoir de Sartre: Sartre tendeix a tractar la llibertat com a absoluta i interior. De Beauvoir insisteix que la llibertat real requereix condicions materials i socials —i que canviar aquelles condicions és una tasca filosòfica i política."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-03-01",
+          "style": "multiple-choice",
+          "question": "De Beauvoir argumenta que la dona ha estat histèricament construïda com a «l'Altre» — el que no és l'home, el secundari, el definit per relació a. Quin és el problema filosòfic principal d'aquella construcció?",
+          "options": [
+            "Que és empíricament incorrecte: les dones no són secundàries sinó igualment capaces",
+            "Que nega la subjectivitat autònoma de la dona: la tracta com a objecte definit des de fora en lloc d'un subjecte que es defineix a si mateixa",
+            "Que és injust en termes de drets legals i oportunitats econòmiques",
+            "Que és culturalment variable i per tant no és una afirmació universal"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "L'opció B captura el problema filosòfic central per a De Beauvoir. No és simplement que les dones siguin tractades injustament (A i C, que són conseqüències) ni que la construcció sigui culturalment variable (D, que és una observació metodològica). El problema filosòfic fonamental és que definir la dona com a «l'Altre» li nega la subjectivitat: la tracta com a objecte del camp de l'experiència masculina en lloc d'un subjecte que s'experimenta a si mateixa. Per a De Beauvoir, recuperar la subjectivitat femenina —la capacitat de definir-se des de dins en lloc de ser definida des de fora— és la tasca central del feminisme.",
+          "feedbackWrong": "El problema filosòfic central per a De Beauvoir (opció B) és la negació de la subjectivitat: tractar la dona com a objecte definit des de la perspectiva masculina en lloc d'un subjecte que es defineix a si mateixa. Les conseqüències (injustícia, desigualtat) deriven d'aquell problema filosòfic fonamental, no a l'inrevés."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-03-02",
+          "style": "true-false",
+          "question": "De Beauvoir era deixeble de Sartre i simplement va aplicar la filosofia d'ell al context de les dones, sense aportacions filosòfiques originals pròpies.",
+          "correct": false,
+          "feedbackCorrect": "Fals — i és una de les injustícies intel·lectuals més documentades de la filosofia del segle XX. De Beauvoir va fer contribucions filosòfiques originals que van més lluny de la simple aplicació del sartrisme. La seva teoria de la situació (la llibertat s'exerceix en condicions concretes que la limiten), la seva crítica de la llibertat abstracta de Sartre, i el seu concepte de reciprocitat (la llibertat genuïna requereix la llibertat dels altres) són aportacions originals que la pròpia Sartre va incorporar a obres posteriors. La marginalització de De Beauvoir com a «la dona de Sartre» és un exemple del fenomen que ella mateixa va analitzar: la reducció de la subjectivitat femenina a referència de la masculina.",
+          "feedbackWrong": "De Beauvoir va fer contribucions filosòfiques originals. La seva crítica de la llibertat abstracta de Sartre, la teoria de la situació i el concepte de reciprocitat (la meva llibertat requereix la llibertat dels altres) van influir de retorn en el propi Sartre. Presentar-la com a simple aplicadora de la filosofia d'ell és exactament el tipus de reducció que la seva filosofia analitza i critica."
+        },
+        {
+          "type": "debate",
+          "question": "De Beauvoir argumenta que la llibertat individual és limitada per les condicions socials i que canviar aquelles condicions és una responsabilitat filosòfica i política. Però Sartre (i molts liberals) diuen que la llibertat és fonamentalment interior i que les condicions exteriors no la poden eliminar. Qui té raó?",
+          "positionA": {
+            "label": "Sartre: la llibertat és interior i inalienable",
+            "argument": "Fins i tot en les condicions de major opressió (empresonament, tortura, esclavitud), l'ésser humà conserva la llibertat de triar com respondrà a aquella situació. Frankl va demostrar-ho als camps de concentració. La llibertat interior no depèn de les condicions exteriors — és la condició de la humanitat. Confondre limitació exterior amb manca de llibertat és una confusió filosòfica que pot portar a la passivitat o a la victimització."
+          },
+          "positionB": {
+            "label": "De Beauvoir: la llibertat real requereix condicions",
+            "argument": "Una llibertat que no pot exercir-se en el món real no és llibertat — és una abstracció. Una persona que no pot votar, no pot estudiar, no pot treballar, no pot desplaçar-se sense permís, no pot controlar el seu cos, és formalment «lliure» però materialment no ho és. Afirmar la llibertat interior sense canviar les condicions que impedeixen la llibertat exterior és filosofia per a privilegiats."
+          },
+          "reflection": "Les dues postures poden ser simultàniament certes en nivells d'anàlisi diferents. Com les reconciliaries sense eliminar la tensió real entre elles?",
+          "context": "La tensió entre llibertat interior (tradició estoica i existencialista sartriana) i llibertat com a condició material (De Beauvoir, marxisme, feminisme) és un dels debats filosòfics i polítics centrals del segle XX i XXI."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-exi-03-01",
+          "question": "De Beauvoir diu que «no es neix dona: es fa». La biologia evolutiva i la psicologia del desenvolupament mostren diferències estadístiques entre sexes en certes tendències cognitives i conductuals. Contradiu això la tesi de De Beauvoir?",
+          "options": [
+            "Sí: si hi ha diferències biològiques entre sexes, part de «ser dona» ve donada per la naturalesa, no construïda socialment",
+            "No: De Beauvoir no nega la biologia — nega que la biologia determini el significat social i cultural de «ser dona», que és una construcció per damunt del substrat biològic",
+            "La pregunta és errònia: De Beauvoir parlava del gènere (construcció social) i la biologia parla del sexe (substrat físic) — comparar-los confon dos nivells d'anàlisi"
+          ],
+          "correct": 1,
+          "explanation": "De Beauvoir no era negacionista biològica: reconeixia l'existència de diferències anatòmiques i fisiològiques entre sexes. El seu argument era sobre el significat que la societat construeix sobre aquelles diferències. El fet que les dones puguin donar a llum no determina que hagin de ser les principals cuidadores dels fills, que no puguin exercir carreres professionals, que hagin de ser definides per la seva capacitat reproductiva. El salt de la biologia al significat social és una construcció — i aquella construcció és el que De Beauvoir critica. La distinció entre sexe (substrat biològic) i gènere (construcció cultural del significat) que De Beauvoir va contribuir a desenvolupar és avui un estàndard en sociologia, antropologia i estudis de gènere. Les diferències estadístiques entre sexes en tendències cognitives existeixen però no determinen el que «ser dona» ha de significar socialment."
+        }
+      ]
+    },
+    {
+      "id": "exi-04",
+      "title": "Pots ser autèntic?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "«Sigues tu mateix».\n\nÉs un dels consells més repetits de la cultura contemporània. Apareix en anuncis de roba, en discursos de graduació, en la filosofia de xarxes socials.\n\nI amaga un problema filosòfic profund que l'existencialisme va posar al centre: ¿qui ets «tu mateix»? Si el «jo» es construeix a través de les tries i els compromisos —com diu Sartre— aleshores «ser tu mateix» no és descobrir alguna cosa que ja eres. És una tasca permanent i mai acabada.\n\nI si vivim en una societat que ens forma, ens premia per conformar-nos i ens penalitza per diferir —com diu De Beauvoir— ser autèntic no és simple. Pot ser que sigui la cosa més difícil que existeix."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'autenticitat existencial no és «ser com realment ets» —perquè no hi ha un «com realment ets» fix a descobrir. És actuar des dels propis valors i compromisos genuïns, amb consciència de la llibertat i la responsabilitat que comporta, en lloc d'actuar per por al judici dels altres, per conformitat automàtica o per engany sobre la pròpia llibertat."
+        },
+        {
+          "type": "misconception",
+          "belief": "Ser autèntic és fer el que et dóna la gana, expressar el que sents sense filtre i no preocupar-te per les normes socials ni pel que pensen els altres.",
+          "reality": "L'autenticitat existencial no és impulsivitat ni narcisisme. Sartre és explícit: la llibertat autèntica inclou plena responsabilitat de les conseqüències. De Beauvoir afegeix: la meva llibertat autèntica no pot ser construïda sobre la limitació de la llibertat dels altres. L'autenticitat existencial és exigent, no permissiva: requereix enfrontar-se a la pròpia llibertat sense escapatòria, reconèixer la responsabilitat de les tries i comprometre's amb valors genuïns en lloc de rols imposats.",
+          "why": "La cultura del «self-expression» i de l'«autenticitat de marca» ha buidat el concepte existencial d'autenticitat del seu contingut filosòfic. Ser autèntic s'ha convertit en una etiqueta de consum i d'identitat personal que no requereix cap de les exigències que els existencialistes consideraven centrals."
+        },
+        {
+          "type": "expandable",
+          "label": "La mala fe (mauvaise foi): les formes en que ens mentim a nosaltres mateixos",
+          "content": "Un dels conceptes més útils de Sartre per a la vida quotidiana és la «mala fe» (mauvaise foi): l'autoengany en el qual caiem quan ens diem que no som lliures quan sí ho som, o quan ens comportem com si fóssim un objecte sense agència en lloc d'un subjecte lliure.\n\nSartre descriu dos exemples clàssics:\n\nEl cambrer de cafè que fa el seu rol amb excessiva precisió —cada gest, cada paraula perfectament calibrats per al rol de «cambrer»— fins al punt que s'ha convertit en el rol. Ha deixat de ser una persona que fa de cambrer i ha passat a ser «un cambrer». Ha renunciat a la seva transcendència (la capacitat de ser sempre més que qualsevol rol) en favor de la comoditat de l'essència fixa.\n\nLa jove que en una cita permet que el seu acompanyant li agafi la mà sense ni retirar-la ni correspondre-la, com si la seva mà no fos seva —com si ella pogués ser present sense ser responsable de la seva presència. Sap el que passa però s'ho permet «sense saber-ho».\n\nLa mala fe no és mentira als altres. És mentida a un mateix sobre la pròpia llibertat: dir-se «no tinc opció», «és que sóc així», «no en puc fer res», quan en realitat sí es pot triar però la tria fa por."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-04-01",
+          "style": "multiple-choice",
+          "question": "Quin dels exemples següents il·lustra millor la «mala fe» en el sentit de Sartre?",
+          "options": [
+            "Una persona que menteix deliberadament als seus amics sobre la seva situació econòmica",
+            "Un professional que odia la seva feina però no la deixa dient «no tinc opció, tinc una hipoteca», sense considerar seriosament les alternatives disponibles",
+            "Un estudiant que suspèn un examen per no haver estudiat prou",
+            "Una persona que no defensa les seves opinions en una discussió per por al conflicte"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "L'opció B il·lustra la mala fe sartriana: no és mentida als altres sinó autoengany sobre la pròpia llibertat. «No tinc opció» és una afirmació de mala fe si en realitat hi ha opcions (buscar una altra feina, reduir les despeses, acceptar la incertesa) que no es consideren perquè fan por. La mala fe consisteix a presentar-se a un mateix com a determinat, com a objecte sense agència, quan en realitat s'és un subjecte amb opcions. L'opció D és propera però diferent: la por al conflicte és comprensible i no necessàriament mala fe. La mala fe requereix l'element d'autoengany sobre la llibertat.",
+          "feedbackWrong": "L'opció B és la mala fe sartriana: no és mentida als altres (A) ni un error de judici (C). És autoengany sobre la pròpia llibertat: dir «no tinc opció» quan sí n'hi ha, per evitar la responsabilitat de triar. L'opció D és propera però la por al conflicte no és necessàriament mala fe —la mala fe requereix que la persona s'enganyi activament sobre la seva pròpia llibertat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-04-02",
+          "style": "detect-error",
+          "statement": "L'autenticitat existencial és possible per a tothom en qualsevol circumstància. Les condicions externes (pobresa, opressió, malaltia) no afecten la capacitat de ser autèntic perquè l'autenticitat és interior.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació segueix la línia de Sartre però és corregida per De Beauvoir. De Beauvoir va argumentar que l'autenticitat existencial requereix condicions materials mínimes: una persona que no pot satisfer necessitats bàsiques, que viu sota opressió constant, que no té accés a educació o a l'esfera pública, té el camp de les seves tries estructuralment reduït d'una manera que afecta la qualitat de la seva autenticitat possible. Aquella afirmació no nega la llibertat interior (De Beauvoir tampoc no la nega completament) però insisteix que la filosofia honest no pot ignorar les condicions materials que fan la llibertat exterior possible o impossible. L'autenticitat existencial és un ideal asimptòtic, no un estat binari: es pot practicar en més o menys grau depenent de les condicions."
+        },
+        {
+          "type": "reflection",
+          "question": "Pensa en un rol que ocupes (fill, parella, professional, amic) i en si actues des d'aquell rol de forma autèntica o des de la mala fe —és a dir, si actues des de valors genuïns o per por al judici dels altres, per costum automàtic o per evitar la responsabilitat de triar diferent.",
+          "prompt": "No hi ha resposta correcta i no cal compartir-la. Però és la pregunta que Sartre considerava que una persona honest hauria de fer-se regularment."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-exi-04-01",
+          "question": "La psicologia social mostra que la majoria de comportaments humans estan fortament determinats per normes socials, expectatives de rol i pressió de grup (Milgram, Asch, Zimbardo). És possible l'autenticitat existencial en la vida quotidiana, o és un ideal filosòfic inaplicable?",
+          "options": [
+            "És inaplicable: la pressió social és tan poderosa que l'autenticitat genuïna és impossiblement rara",
+            "És plenament aplicable: amb prou consciència i voluntat, qualsevol persona pot actuar autènticament malgrat la pressió social",
+            "És aplicable de forma parcial i gradual: la pressió social és real i poderosa, però hi ha marge d'agència que es pot ampliar amb pràctica deliberada, suport social per a la dissidència i condicions favorables"
+          ],
+          "correct": 2,
+          "explanation": "La psicologia social (Milgram, Asch, Zimbardo) mostra que la conformitat és el comportament per defecte en la majoria de situacions de pressió. Però «per defecte» no significa «inevitable». En tots els experiments hi ha participants que resisteixen. La variació individual és real. A més, la psicologia de la identitat i l'autodeterminació (Deci i Ryan) documenta que les persones amb major «autonomia percebuda» —la sensació que les seves accions provenen de valors interns en lloc de pressions externes— mostren major benestar, major persistència i, en efecte, major comportament consistent amb els seus valors. Aquella autonomia percebuda es pot cultivar: a través de la reflexió deliberada sobre els propis valors (el que els existencialistes anomenen autenticitat), del suport social de persones que comparteixen els valors (el que Milgram va mostrar que és el factor protector más potent contra la conformitat) i de condicions de vida que no facin la supervivència dependent de la conformitat total."
+        }
+      ]
+    },
+    {
+      "id": "exi-05",
+      "title": "Com viure amb l'angúnia",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hem vist que no hi ha essència donada (Sartre), que l'univers és indiferent al nostre desig de sentit (Camus), que la llibertat és condicionada per les estructures socials (De Beauvoir) i que l'autenticitat és difícil i exigent.\n\nAquest és el panorama existencialista vist des de fora. Vista des de dins, la sensació que descriu és l'«angúnia»: el vèrtex de descobrir que ets lliure, que no hi ha un guió, que les tries recauen completament en tu i que els seus efectes són reals i irreversibles.\n\nL'existencialisme no promet eliminar l'angúnia. Proposa alguna cosa diferent: relacionar-s'hi de forma madura."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'angúnia existencial no és ansietat patològica. És la resposta adequada al reconeixement de la llibertat real. Sartre la distingeix de la por (que té un objecte concret) i la descriu com la sensació que acompanya la consciència de ser el que decideix sense garanties. No desapareix; s'aprèn a viure amb ella sense fugir-ne."
+        },
+        {
+          "type": "expandable",
+          "label": "Heidegger i la mort: el projecte de vida que neix de la consciència de la finitud",
+          "content": "Martin Heidegger, el filòsof que va influir decisivament en tots tres existencialistes francesos, va proposar que la mort no és simplement un event futur que arribarà: és una estructura present de l'existència que la configura ara.\n\nSaber que morirem —i que no sabem quan— no és un fet biogràfic neutral. És la condició que fa que les tries siguin reals: si visquéssim indefinidament, podríem deixar qualsevol cosa per a més endavant, provar qualsevol camí sense compromís, desdir-nos de tot. La finitud és el que fa que les tries tinguin pes.\n\nHeidegger proposa el que anomena «ser per a la mort» (Sein-zum-Tode): no la morbositat sobre la mort sinó la consciència activa de la finitud que permet viure de forma autèntica. Quan saps que el temps és limitat, l'elecció de com el passes es torna seriosament teva.\n\nAixò connecta directament amb la recerca psicològica sobre el que l'efecte de la proximitat de la mort o de malalties terminals en les prioritats vitals de les persones. Irvin Yalom va documentar repetidament que els pacients terminals sovint descrivien un «despertar» que dissolvia preocupacions trivials i intensificava el valor del que realment importava.\n\nEls existencialistes dirien que no cal esperar la malaltia: la filosofia pot fer disponible aquella consciència ara."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-05-01",
+          "style": "multiple-choice",
+          "question": "Sartre distingeix entre l'angúnia i la por. Quina és la diferència essencial?",
+          "options": [
+            "La por és més intensa que l'angúnia",
+            "La por té un objecte concret (un perill específic); l'angúnia no té objecte —és la resposta a la llibertat mateixa, sense referent concret",
+            "L'angúnia és patològica i requereix tractament; la por és una emoció normal",
+            "La por és temporal; l'angúnia és permanent i no desapareix mai"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "La distinció sartriana és precisa: la por (peur) s'orienta cap a un perill concret i extern —la por a la caiguda, a un animal, a una persona amenaçadora. Quan el perill desapareix, la por desapareix. L'angúnia (angoisse) no té objecte concret: és la resposta a la descoberta de la pròpia llibertat, a la consciència que les tries recauen en mi sense garanties. No desapareix quan elimines un perill perquè el seu «objecte» és la llibertat mateixa. Per a Sartre, l'angúnia autèntica no és patològica —és el signe de que algú ha vist clarament la seva situació.",
+          "feedbackWrong": "La distinció clau (opció B) és estructural: la por té objecte concret (un perill), l'angúnia no. L'angúnia és la resposta a la llibertat mateixa —a la consciència que les tries recauen en mi sense suport extern. No és patològica ni temporal en el sentit de la por: és la sensació que acompanya la consciència autèntica de la condició humana."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-05-02",
+          "style": "true-false",
+          "question": "Viure autènticament, en el sentit existencialista, requereix eliminar l'angúnia i arribar a un estat d'equilibri interior estable.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Per als existencialistes, l'absència d'angúnia és un signe de mala fe —indica que la persona s'ha convençut que no és lliure, que hi ha un guió a seguir o que les decisions estan determinades per forces externes. L'angúnia és la companya permanent de la llibertat autèntica. La vida autèntica no elimina l'angúnia —aprèn a viure-hi sense fugir-ne en la mala fe o en l'evasió. Sartre descriu l'angúnia com a constitutiva de la consciència humana: una ment que no la sent és una ment que s'ha enganyat sobre la seva pròpia llibertat.",
+          "feedbackWrong": "Al contrari: per a Sartre, l'absència d'angúnia és senyal de mala fe. Si no sents mai l'angúnia de la llibertat és perquè t'has convençut que no ets lliure, que les decisions estan determinades o que hi ha un guió a seguir. L'autenticitat no elimina l'angúnia — viu amb ella sense escapatòria. L'angúnia és la companya permanent de qui ha vist clarament la seva condició."
+        },
+        {
+          "type": "analogy",
+          "concept": "L'angúnia existencial",
+          "emoji": "🎭",
+          "analogy": "L'angúnia existencial és com la sensació que té un actor quan se n'adona, a meitat d'una actuació, que el guió no el cobreix completament — que en algun punt haurà d'improvisar i que aquella improvisació és seva, no del director ni de l'autor. La sensació no és agradable. Però és el signe que l'actor és realment present, no simplement executant un programa.",
+          "bridge": "La raó per la qual l'analogia funciona és que tots dos — l'actor i la persona — viuen en la tensió entre estructura (el guió, les normes socials, els rols) i llibertat (la improvisació necessària, les tries no cobertes pel guió). L'angúnia apareix exactament al punt on l'estructura s'acaba i la llibertat comença. Qui no la sent mai no ha trobat aquell punt."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-exi-05-01",
+          "question": "La psicologia clínica diferencia entre ansietat patològica (que requereix tractament) i angoixa existencial (que pot ser una resposta saludable a preguntes reals). Com es pot distingir en la pràctica?",
+          "options": [
+            "No es pot distingir: tota angoixa intensa requereix avaluació clínica",
+            "L'angoixa existencial es resol amb filosofia; l'ansietat patològica es resol amb teràpia o medicació — les dues categories son completament separades",
+            "La distinció és clínicament rellevant però difícil: l'angoixa existencial sovint s'acompanya de funcionalitat preservada i connexió amb preguntes reals sobre sentit, mentre que l'ansietat patològica tendeix a interferir en el funcionament i a generalitzar-se independentment del contingut"
+          ],
+          "correct": 2,
+          "explanation": "La distinció entre ansietat existencial i ansietat patològica és un problema real en psicologia clínica i filosofia. Irvin Yalom, que va treballar extensament en la intersecció de la psicoteràpia existencial i la psicologia clínica, va proposar criteris pràctics: l'angoixa existencial sol mantenir la funcionalitat (la persona segueix treballant, relacionant-se, funcionant) i es vincula a preguntes concretes (la mort, la llibertat, el sentit, l'aïllament). L'ansietat patològica tendeix a interferir en el funcionament, a generalitzar-se (apareix en contextos molt variats sense vinculació clara amb continguts existencials específics) i a retroalimentar-se de forma autònom. En la pràctica clínica, la frontera no és nítida: les preguntes existencials no resoltes poden catalitzar ansietat patològica, i l'ansietat patològica pot amagar preguntes existencials no formulades. El millor tractament en molts casos combina les dues aproximacions: treball terapèutic sobre el funcionament i espai per a l'exploració del contingut existencial."
+        }
+      ]
+    },
+    {
+      "id": "exi-06",
+      "title": "Qué en fas, de tot això?",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Cinc lliçons de filosofia sense respostes.\n\nL'existència no té propòsit donat. L'univers és indiferent. La llibertat és total però condicionada. L'autenticitat és exigent. L'angúnia no desapareix.\n\nI ara qué?\n\nAquesta és la pregunta que l'existencialisme deixa oberta deliberadament. No perquè els filòsofs siguin cruels o nihilistes —sinó perquè tancar-la amb una resposta prefabricada destruiria el que el mòdul vol transmetre: que la pregunta és tuya, que la resposta ha de ser teva, i que arribar-hi per tu mateix és el que distingeix la filosofia de l'autoajuda."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'existencialisme no ofereix un sistema de vida —ofereix eines per pensar la teva. La diferència entre filosofia i ideologia és que la filosofia et deixa amb preguntes millors; la ideologia et dóna respostes acabades. Aquest mòdul ha intentat ser filosofia."
+        },
+        {
+          "type": "expandable",
+          "label": "Sartre al final: el compromís polític com a resposta a l'angúnia",
+          "content": "Sartre va viure l'existencialisme no sols com a filosofia sinó com a pràctica. La seva resposta personal a l'angúnia de la llibertat sense fonament va ser el compromís polític intens: antifeixisme, anticolonialisme, crítica al stalinisme quan molts intel·lectuals el justificaven, suport a les independències africanes.\n\nVa renunciar al Nobel de Literatura el 1964 —el primer escriptor a fer-ho— perquè acceptar-lo hauria implicat institucionalitzar-se, convertir «Sartre» en un personatge oficial en lloc d'un filòsof en lluita.\n\nAl final de la seva vida, cec i amb la salut deteriorada, va continuar treballant en una filosofia de la història i l'ètica que va deixar inacabada. Les seves notes pòstumes mostren un home que continuava lluitant amb les mateixes preguntes als 70 anys.\n\nNo va arribar a respostes definitives. Per a ell, no arribar-hi era la prova que seguia pensant."
+        },
+        {
+          "type": "comparison",
+          "title": "Les tres respostes existencialistes a l'absurd i la llibertat",
+          "labelA": "Filòsof",
+          "labelB": "Resposta a la condició humana",
+          "items": [
+            {
+              "label": "Sartre",
+              "a": "Sartre",
+              "b": "Compromís radical: triar, actuar i assumir plena responsabilitat de cada tria, sense excuses ni delegació. La llibertat és una condemna i una dignitat."
+            },
+            {
+              "label": "Camus",
+              "a": "Camus",
+              "b": "Rebel·lió lúcida: mantenir la consciència de l'absurd sense resoldre-la, viure plenament i actuar bé malgrat saber que no hi ha garanties. Sísif feliç."
+            },
+            {
+              "label": "De Beauvoir",
+              "a": "De Beauvoir",
+              "b": "Llibertat en situació: la meva llibertat requereix la llibertat dels altres. L'autenticitat individual és inseparable del compromís amb les condicions socials que fan la llibertat possible per a tothom."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-06-01",
+          "style": "multiple-choice",
+          "question": "De les tres respostes existencialistes (Sartre: compromís radical; Camus: rebel·lió lúcida; De Beauvoir: llibertat en situació), quina és la que millor aborda la pregunta «com viure sabent que tot acaba?»",
+          "options": [
+            "Sartre: l'acció i el compromís donen sentit malgrat la consciència de la fi",
+            "Camus: mantenir la consciència de la fi sense resoldre-la és la forma de viure plenament",
+            "De Beauvoir: la resposta individual a la finitud és incompleta sense considerar la dimensió social",
+            "Totes tres aporten quelcom diferent i la resposta depèn de la situació i la persona"
+          ],
+          "correct": 3,
+          "feedbackCorrect": "L'opció D és filosòficament la més honesta aquí. Cadascuna de les tres respostes captura quelcom real: Sartre, que l'acció i el compromís transformen la llibertat abstracta en vida concreta; Camus, que la lucidesa sobre la finitud és condició de la plenitud i no obstacle; De Beauvoir, que la resposta individual és insuficient si ignora les condicions que fan la llibertat possible o impossible per als altres. No hi ha una «millor resposta» universal —el que l'existencialisme ofereix és un vocabulari i unes eines per trobar la resposta pròpia. I aquella resposta pròpia és precisament el que el mòdul ha evitat donar.",
+          "feedbackWrong": "L'opció D és la més honesta: les tres respostes capturen dimensions reals de la pregunta que cap de les altres cobreix completament. Sartre, Camus i De Beauvoir no eren rivals que s'excloïen —eren pensadors que il·luminaven angles diferents de la mateixa condició. Triar una sola resposta com a «correcta» seria exactament el tipus de resolució prematura que l'existencialisme vol evitar."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-exi-06-02",
+          "style": "true-false",
+          "question": "L'existencialisme és una filosofia del segle XX que ha perdut rellevància en el context actual, on les preguntes sobre intel·ligència artificial, canvi climàtic i globalització han substituït les preguntes sobre la llibertat i el sentit individual.",
+          "correct": false,
+          "feedbackCorrect": "Fals. Les preguntes existencialistes no han perdut rellevància — han guanyat noves urgències. La intel·ligència artificial planteja directament la pregunta sartriana sobre l'essència i la consciència: una IA pot tenir consciència? Té «existència» en el sentit existencialista? El canvi climàtic planteja la pregunta camusiana sobre l'acció sense garantia de resultat i la rebel·lió malgrat la impotència possible. La globalització i les xarxes socials radicalitzen la pregunta de De Beauvoir sobre la formació del jo sota mirades socials massives. Les preguntes existencialistes no caduquen perquè son les preguntes de la condició humana —i la condició humana no caducarà mentre hi hagi humans.",
+          "feedbackWrong": "Les preguntes existencialistes son més urgents que mai. La IA planteja directament si la consciència i l'essència son produïbles mecànicament. El canvi climàtic planteja l'acció sense garantia de resultat. Les xarxes socials radicalitzen la formació del jo sota la mirada massiva dels altres. Les preguntes de Sartre, Camus i De Beauvoir no han caducat — han trobat nous contextos on son indispensables."
+        },
+        {
+          "type": "reflection",
+          "question": "De tot el que has llegit en aquest mòdul, quina idea t'ha pertorbat més? I quina creus que oblidaràs més ràpidament? La resposta a les dues preguntes juntes pot dir-te alguna cosa sobre on estàs filosòficament.",
+          "prompt": "No hi ha resposta correcta. Hi ha la teva resposta."
+        },
+        {
+          "type": "debate",
+          "question": "L'existencialisme demana responsabilitat radical per les pròpies tries. En una societat amb desigualtats estructurals enormes —on les tries de moltes persones estan radicalment limitades per la pobresa, la discriminació o la malaltia— és èticament acceptable predicar la responsabilitat individual sense canviar les estructures?",
+          "positionA": {
+            "label": "Sí: la responsabilitat individual és la base de qualsevol canvi",
+            "argument": "Les estructures socials les formen persones que trien. Canviar estructures sense canviar les persones que les mantenen és inefectiu. La responsabilitat individual és la condició necessària del canvi social — no la seva negació."
+          },
+          "positionB": {
+            "label": "No: predicar responsabilitat individual en condicions d'injustícia és ideologia",
+            "argument": "Demanar responsabilitat individual a qui no té les condicions mínimes per exercir-la de forma significativa és culpabilitzar la víctima. La filosofia que se centra en la responsabilitat individual sense abordar les condicions que la fan possible és, en el millor dels casos, incompleta, i en el pitjor, una legitimació de l'statu quo."
+          },
+          "reflection": "De Beauvoir diria que les dues postures son necessàries i inseparables. Intenta formular la seva postura amb les teves paraules.",
+          "context": "Aquell debat no s'ha resolt. Continua actiu en filosofia política, en activisme social i en psicologia clínica. L'existencialisme no el resol — l'articula amb precisió."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-exi-06-01",
+          "question": "L'existencialisme proposa que el sentit de la vida és construït per cada individu en absència d'un sentit donat. La psicologia del benestar (Seligman, Frankl) mostra que tenir sentit és crucial per al benestar. Però la neurociència mostra que el cervell construeix narratives de sentit de forma semi-automàtica, moltes vegades sense deliberació conscient. Quina implicació té per a la proposta existencialista?",
+          "options": [
+            "Invalida l'existencialisme: si el sentit es construeix automàticament, la responsabilitat i la tria conscients son il·lusions",
+            "El confirma: la construcció automàtica de sentit és exactament la «mala fe» que l'existencialisme vol superar — la filosofia demana portar aquella construcció al nivell de la consciència i la tria deliberada",
+            "No és rellevant: l'existencialisme és filosofia normativa (com hauries de viure) i la neurociència és descriptiva (com el cervell funciona) — les dues preguntes son independents"
+          ],
+          "correct": 1,
+          "explanation": "La neurociència del sentit (Michael Gazzaniga i l'«intèrpret» de l'hemisferi esquerre, Jerome Bruner sobre el pensament narratiu) mostra que el cervell construeix narratives de sentit de forma constant i semi-automàtica — no espera que la persona filosofi per donar-li coherència a l'experiència. Aquell resultat pot semblar que invalida l'existencialisme (si el sentit s'autogenera, per qué la responsabilitat conscient?). Però l'existencialisme, especialment Sartre, podria respondre: la construcció automàtica de sentit és exactament el que ell anomena «mala fe» en sentit ampli — acceptar acríticament les narratives que el cervell, la cultura i la societat produeixen sense examinar-les. La filosofia existencialista demana portar aquell procés automàtic al nivell de la consciència deliberada: no acceptar el sentit que el cervell i la cultura construeixen per defecte, sinó examinar-lo, qüestionar-lo i, si cal, construir-ne un de diferent de forma lúcida. La neurociència mostra el que fem per defecte. L'existencialisme proposa fer-ho amb intenció."
+        }
+      ]
+    }
+  ]
+}

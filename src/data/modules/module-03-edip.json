@@ -1,0 +1,455 @@
+{
+  "id": "module-03-edip",
+  "title": "Edip: la veritat que destrueix",
+  "emoji": "👁️",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "tragic",
+      "title": "El mite i la seva ombra",
+      "icon": "🎭",
+      "description": "Del mite grec a Freud: per què Edip continua parlant de nosaltres",
+      "forWho": "Vol seguir el fil del mite i descobrir, capa a capa, el que amaga sobre el destí, l'autoconeixement i el preu de la veritat",
+      "style": "Narratiu · del mite a la filosofia",
+      "lessons": [
+        {
+          "id": "edip-01",
+          "title": "L'oracle que ningú volia escoltar",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-edip-01-01",
+              "question": "Si el destí d'Edip estava escrit des d'abans del seu naixement, té sentit dir que és «culpable» del que va fer?",
+              "options": [
+                "No: si el destí era inevitable, la culpa no té sentit. Edip és una víctima, no un culpable",
+                "Sí: va matar i va cometre incest, independentment de si ho sabia. Les accions tenen conseqüències morals per si mateixes",
+                "La pregunta barreja dos problemes: la responsabilitat moral (que requereix consciència) i la contaminació ritual (que els grecs entenien diferent de la culpa moral moderna)"
+              ],
+              "correct": 2,
+              "explanation": "Els grecs clàssics no tenien la nostra noció de culpa com a estat intern que requereix intenció conscient. Tenien el concepte de miasma — contaminació ritual — que era objectiva i no depenia de la intenció. Edip es puneix a si mateix i Tebes pateix la pestilència no perquè ell «sigui dolent», sinó perquè el sagrat ha estat transgredit, vulgui o no. Freud, en canvi, llegirà el mite com una culpa inconscient universal: desitgem matar el pare i posseir la mare sense saber-ho, i la tragèdia ens diu el que hi ha al fons de la nostra psique. Sòfocles i Freud llegeixen el mateix mite però fan preguntes radicalment diferents: un pregunta sobre l'ordre còsmic; l'altre, sobre l'inconscient."
+            },
+            {
+              "type": "narrative",
+              "text": "Imagina que un oracle et diu, amb absoluta certesa, que mataràs el teu pare i et casaràs amb la teva mare. Quin seria el moviment racional? Fugir d'ells, naturalment. Posar tanta distància com sigui possible entre tu i les persones que podrien convertir-te en el monstre que l'oracle promet. Això és exactament el que fa Edip. I és exactament per aquest motiu que la profecia es compleix."
+            },
+            {
+              "type": "key-idea",
+              "text": "La tragèdia d'Edip no és que el destí sigui inevitable. És que els intents d'escapar del destí són precisament el que el fa inevitable."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "c. 429 aC",
+                  "title": "Sòfocles estrena Edip Rei",
+                  "text": "Considerada per Aristòtil la tragèdia perfecta. El públic atenès ja coneixia el mite — l'horror venia de veure com s'assemblava."
+                },
+                {
+                  "year": "c. 467 aC",
+                  "title": "Èsquil escriu Els Set contra Tebes",
+                  "text": "Versió anterior del cicle tebà. Edip és ja un personatge establert en la tradició oral grega."
+                },
+                {
+                  "year": "401 aC",
+                  "title": "Edip a Colonos (pòstum)",
+                  "text": "La darrera obra de Sòfocles, estrenada després de la seva mort. Edip, vell i cec, troba finalment la pau."
+                },
+                {
+                  "year": "1899",
+                  "title": "Freud publica La interpretació dels somnis",
+                  "text": "Freud proposa el «complex d'Edip» com a estructura universal de la psique humana. El mite salta del teatre a la clínica."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Qui era Sòfocles i per què escrivia sobre reis que patien?",
+              "content": "Sòfocles (496-406 aC) va viure gairebé cent anys i va veure Atenes passar de l'esplendor de Pèricles a la derrota humiliant davant Esparta. Era un home públic: general militar, sacerdot, i el dramaturg més premiat del seu temps. Escrivia sobre reis que cauen no com a entreteniment macabre, sinó com a advertència política. Les seves tragèdies pregunten: com és possible que una persona intel·ligent, bona i ben intencionada destrueixi tot el que estima? La resposta d'Edip és incòmoda: precisament perquè és intel·ligent, bona i ben intencionada."
+            },
+            {
+              "type": "prediction",
+              "question": "Abans de continuar: si un oracle et digués avui que cometrás una acció terrible en el futur, creus que podries evitar-la sabent-ho d'avançada? O el coneixement del futur canvia el futur — o el provoca?",
+              "hint": "No hi ha resposta correcta. Pensa en com el coneixement afecta el comportament, i si sempre ho fa de la manera que esperem."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-edip-01-01",
+              "style": "multiple-choice",
+              "question": "Laios i Iocasta, els pares biològics d'Edip, exposen el nadó al mont Citeró per matar-lo. Per quina raó?",
+              "options": [
+                "Perquè eren cruelment indiferents als fills",
+                "Perquè un oracle els havia dit que el seu fill els mataria",
+                "Perquè Tebes vivia una fam i no podien mantenir-lo",
+                "Perquè el nadó havia nascut amb deformitats que els semblaven de mal auguri"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Laios havia rebut la profecia que el seu fill el mataria. L'exposició del nadó era un intent d'escapar del destí — el mateix intent que fa Edip quan de gran, i amb el mateix resultat: la profecia s'acompleix precisament a causa dels intents d'evitar-la.",
+              "feedbackWrong": "La raó és l'oracle: Laios havia rebut la profecia que el seu fill el mataria i va intentar escapar-ne eliminant el fill. És la ironia fonamental del mite — l'acte d'evadir el destí és el que el posa en marxa."
+            }
+          ]
+        },
+        {
+          "id": "edip-02",
+          "title": "L'endevinalla de l'Esfinx: la intel·ligència que no es coneix a si mateixa",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-edip-02-01",
+              "question": "L'endevinalla de l'Esfinx pregunta «quin és l'ésser humà?» i Edip la resol. Però la tragèdia prova que no es coneixia a si mateix. Significa això que el coneixement abstracte i el coneixement propi són coses radicalment diferents?",
+              "options": [
+                "No: saber-ho en abstracte és un primer pas necessari per saber-ho d'un mateix",
+                "Sí: podem entendre perfectament la natura humana en general i ser completament cecs respecte a nosaltres mateixos",
+                "Depèn del tipus de coneixement: el cognitiu (definicions, fets) i l'existencial (qui sóc, com em moc al món) no s'impliquen mútuament"
+              ],
+              "correct": 2,
+              "explanation": "La distinció entre coneixement abstracte i coneixement propi és central en la filosofia des de Sòcrates fins a Kierkegaard. Podem dominar la teoria i fracassar en la pràctica de nosaltres mateixos. Un psicòleg que coneix perfectament els mecanismes de l'ansietat pot patir ansietat crònica sense reconèixer-la. Un filòsof que ha escrit sobre l'ego pot tenir un ego desorbitant. El coneixement 'de tercera persona' (com funciona X) i el coneixement 'de primera persona' (com funciono jo) utilitzen facultats i camins d'accés radicalment diferents. Edip n'és l'exemple literari definitiu: coneix l'ésser humà en abstracte; no es coneix a si mateix en concret."
+            },
+            {
+              "type": "misconception",
+              "belief": "Edip era un heroi tràgic perquè era dèbil o tenia un defecte moral greu.",
+              "reality": "Edip és tràgic precisament perquè és excepcional: intel·ligent, just, decidit i valent. La tragèdia grega no necessita personatges dolents — necessita personatges excel·lents posats en situacions on les seves virtuts els destrueixen.",
+              "why": "La noció moderna de «tràgic» sovint implica un error moral o una debilitat de caràcter. Aristòtil ho descrivia diferent: la hamartia (l'error tràgic) no és un vici sinó un error de judici — en el cas d'Edip, no saber qui és. Que sigui un error en un home bo és el que fa la tragèdia insoportable."
+            },
+            {
+              "type": "narrative",
+              "text": "Edip arriba a Tebes i s'hi troba una criatura monstruosa — l'Esfinx — que devora tots els viatgers que no resolen la seva endevinalla. «Quin és l'ésser que al matí camina a quatre potes, al migdia a dues, i al vespre a tres?» Edip respon sense dubtar: l'home. L'Esfinx, vençuda, es llança al buit. El jove foragita el monstre i salva la ciutat. El premi: el tron de Tebes i la mà de la reina Iocasta. La seva pròpia mare."
+            },
+            {
+              "type": "key-idea",
+              "text": "Edip és prou intel·ligent per resoldre l'endevinalla sobre la natura humana — però no prou per reconèixer la seva pròpia. La ironia tràgica és que l'home que coneix l'home no es coneix a si mateix."
+            },
+            {
+              "type": "analogy",
+              "concept": "La ironia tràgica d'Edip",
+              "emoji": "🪞",
+              "analogy": "La situació d'Edip s'assembla a un metge que diagnostica amb brillantor les malalties dels seus pacients però no veu els símptomes que ell mateix mostra. Fa les preguntes correctes, interpreta bé les proves, arriba a les conclusions exactes — en tothom excepte en ell mateix. La seva excel·lència professional coexisteix amb un punt cec absolut sobre el seu propi cos.",
+              "bridge": "L'analogia captura quelcom que la filosofia ha repetit des de Sòcrates: el coneixement objectiu i el coneixement d'un mateix no són el mateix tipus de coneixement. Podem ser experts en quelcom i analfabets en nosaltres mateixos. L'endevinalla de l'Esfinx pregunta «què és l'home?» i Edip respon correctament en abstracte. Però la tragèdia pregunta: «Saps qui ets tu?» — i aquí Edip fracassa de manera catastròfica."
+            },
+            {
+              "type": "quote",
+              "text": "Coneix-te a tu mateix.",
+              "author": "Inscripció al temple d'Apol·lo a Delfos (el mateix oracle que va condemnar Edip)"
+            },
+            {
+              "type": "expandable",
+              "label": "L'Esfinx: un monstre que fa preguntes filosòfiques",
+              "content": "L'Esfinx grega (diferent de l'egípcia, que és masculina i benèvola) és femenina, alada, i combina cos de lleó, cap de dona i cua de serp. Envia un missatge pertorbador: la bellesa i la intel·ligència poden ser mortals. La seva endevinalla no pregunta sobre física o geografia — pregunta sobre l'essència de l'ésser humà. I la resposta correcta («l'home») és alhora òbvia i profunda: òbvia perquè tothom pot dir-la, profunda perquè poques persones entenen de debò el que implica ser humà. Edip dóna la resposta correcta. El que no fa — el que no pot fer — és viure-la."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-edip-02-01",
+              "style": "detect-error",
+              "statement": "En la tragèdia de Sòfocles, Edip descobreix la veritat sobre el seu origen perquè algú li ho explica directament i sense ambigüitat.",
+              "isCorrect": false,
+              "feedbackExplanation": "Correcte: és fals. Edip descobreix la veritat a través d'una investigació que ell mateix inicia i impulsa obsessivament — contra els consells de tots els que l'estimen. Tirèsias, Iocasta, el pastor: tots intenten aturar-lo. La ironia és que Edip, el gran resoledor d'endevinalles, és l'únic que no veu el que tots els altres ja sospiten."
+            }
+          ]
+        },
+        {
+          "id": "edip-03",
+          "title": "La investigació: quan el detectiu és el culpable",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-edip-03-01",
+              "question": "Edip persegueix la veritat contra el consell de tothom que l'estima. És aquest comportament una virtut (la valentia de voler saber) o un defecte (l'obstinació de no saber escoltar)?",
+              "options": [
+                "Una virtut: la recerca de la veritat és un valor absolut, independentment de les conseqüències",
+                "Un defecte: la prudència inclou saber quan aturar-se, i Edip ignora advertències clares",
+                "Cap dels dos: és simplement la seva naturalesa — el mateix caràcter que el fa gran el fa incapaç d'aturar-se"
+              ],
+              "correct": 2,
+              "explanation": "Aristòtil descriu la hamartia d'Edip no com una maldad ni com una debilitat, sinó com un error que sorgeix de la seva naturalesa mateixa. El que fa Edip excel·lent — la tenacitat, la intel·ligència, el sentit del deure, la negativa a acceptar la ignorància — és exactament el que el fa impossible de deturar. No és un home virtuós que comet un error evitable. És un home la virtut del qual, en les circumstàncies concretes de la seva vida, el condueix irremeiablement al desastre. Aquesta és la idea tràgica per excel·lència: no que els dolents caiguin, sinó que els bons puguin ser destruïts per la seva pròpia excel·lència."
+            },
+            {
+              "type": "narrative",
+              "text": "Anys després, Tebes pateix una pestilència devastadora. L'oracle diu que la causa és un crim sense resoldre: l'assassinat del rei Laios, el predecessor d'Edip. Edip, com a bon rei, obre una investigació i jura trobar el culpable. El problema — que el públic atenès sap des del principi — és que el culpable és ell. Edip és simultàniament el detectiu, el jutge i l'assassí. L'obra de Sòfocles construeix durant dues hores el que ja saps que passarà. I és, de totes maneres, insuportable."
+            },
+            {
+              "type": "key-idea",
+              "text": "Edip Rei és la primera obra de detectius de la història occidental. La seva particularitat única: el detectiu i el criminal són la mateixa persona. La investigació és un viatge cap a la veritat sobre si mateix."
+            },
+            {
+              "type": "perspective",
+              "situation": "Edip pregunta a Tirèsias, l'endeví cec, qui va matar Laios",
+              "perspectives": [
+                {
+                  "role": "Tirèsias",
+                  "emoji": "🦯",
+                  "text": "Sé la veritat i sé que dir-la destruirà Edip. Però ell m'obliga a parlar. Quan finalment li dic que ell és l'assassí, no m'escolta — em acusa de conspirar amb Creont. La ironia és amarga: jo, que sóc cec, veig. Ell, que hi veu, és cec a la veritat sobre si mateix."
+                },
+                {
+                  "role": "Iocasta",
+                  "emoji": "👑",
+                  "text": "Intento aturar la investigació d'Edip perquè he començat a sospitar la veritat horrible. Li dic que els oracles s'equivoquen — li poso un exemple: el nostre fill, que havia de matar Laios, va morir de petit al Citeró. Però mentre parlo, les coincidències s'acumulen i comprenc que tot és real. Em retiro sense dir-li res. No puc."
+                },
+                {
+                  "role": "Edip",
+                  "emoji": "👁️",
+                  "text": "Tothom intenta aturar-me. Tirèsias m'insulta, Iocasta em suplica que ho deixi estar, el pastor tremola quan li faig preguntes. Però sóc el rei i tinc l'obligació de trobar la veritat. Un rei que no investiga un crim és un covard. La veritat, sigui la que sigui, és millor que la ignorància. Ho segueixo creient fins al final — fins que ja no puc creure-ho."
+                }
+              ],
+              "reflection": "Edip sabia, en algun nivell, el que trobaria? O la seva insistència en la investigació prova que genuïnament no ho sabia?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-edip-03-01",
+              "style": "detect-error",
+              "statement": "En Edip Rei, la tragèdia és el resultat d'una mala decisió d'Edip: hauria hagut d'escoltar Tirèsias i aturar la investigació quan encara era possible.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació conté un error de lectura important. Aturar la investigació no hauria canviat el que ja havia passat — Edip ja havia matat Laios i ja estava casat amb Iocasta. El que hauria canviat és si ho sabria o no. I aquí és on la tragèdia es complica filosòficament: és millor viure en la ignorància d'un crim passat, o saber la veritat malgrat que et destrueixi? Sòfocles no dóna una resposta clara, i és precisament aquesta ambigüitat el que fa l'obra immortal."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què el públic grec veia Edip Rei com una obra sobre el poder — no sobre el destí?",
+              "content": "Els atenesos del segle V aC vivien en una democràcia jove i fràgil que havia passat per tirans i oligarques. Quan veien Edip — un rei que creu que investiga i en realitat s'autoincrimina — no pensaven necessàriament en el destí còsmic. Pensaven en els líders que creuen que governen mentre les seves pròpies accions els destrueixen. L'obra parlava del poder polític, de com els reis perden contacte amb la realitat, de com qui hauria de veure millor sovint és el més cec. Tirèsias, l'endeví literalment cec, «veu» la veritat. Edip, el rei que governa, no la veu. El missatge polític era evident."
+            },
+            {
+              "type": "reflection",
+              "question": "Hi ha alguna veritat sobre tu mateix que prefereixes no investigar? Una cosa que sospites però no vols confirmar?",
+              "prompt": "No cal que ho escriguis. Però para un moment a pensar-hi honestament."
+            }
+          ]
+        },
+        {
+          "id": "edip-04",
+          "title": "La caiguda: quan la veritat destrueix",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-edip-04-01",
+              "question": "Edip es cega voluntàriament en descobrir la veritat. És aquest acte una forma de valentia, de covardia, o d'altra cosa?",
+              "options": [
+                "Covardia: és una fugida de la realitat que no s'accepta",
+                "Valentia: és assumir fins a les últimes conseqüències el pes d'una veritat que la majoria hauria negat",
+                "Ni una cosa ni l'altra: és un acte ritual de purificació que pertany a una lògica cultural grega diferent de les nostres categories de valentia i covardia"
+              ],
+              "correct": 2,
+              "explanation": "La lectura moderna tendeix a interpretar la ceguesa d'Edip en termes psicològics (covardia o valentia). Però els grecs tenien el concepte de miasma — contaminació ritual — i la ceguesa d'Edip pot llegir-se com un acte d'expiació que pertany a una lògica diferent de la nostra. No és una decisió emocional: és un acte que intenta restaurar un ordre còsmic trencat. Dit això, les lectures B i C no s'exclouen: Edip és un personatge prou complex per permetre les dues lectures simultàniament. Les grans obres literàries funcionen en múltiples registres: el ritual, el psicològic, el filosòfic. El que no ha de fer la interpretació és reduir Edip a una sola de les seves dimensions."
+            },
+            {
+              "type": "narrative",
+              "text": "Quan Edip finalment entén tota la veritat — que va matar el seu pare en un encreuament de camins, que la reina Iocasta és la seva mare, que els fills que ha tingut són els seus germans — Iocasta s'apenja. Edip agafa les sivelles del vestit d'ella i es clava els ulls. Quan surt de palau, cec i sagnant, no demana compassió. Demana l'exili. La seva lògica és terrible i coherent: he vist el que no havia de veure. No puc seguir mirant el món com si fos un lloc normal."
+            },
+            {
+              "type": "key-idea",
+              "text": "Edip no es cega per càstig ni per desesperació. Es cega perquè qui ha vist el que ell ha vist no pot seguir participant en el món com si no ho hagués vist. La ceguesa autoinfligida és un acte de coherència, no de bogeria."
+            },
+            {
+              "type": "what-would-you-do",
+              "character": "Edip",
+              "emoji": "👁️",
+              "year": "Moment del descobriment",
+              "setup": "Acabes de confirmar, amb tots els testimonis, que vas matar el teu pare en un encreuament de camins fa vint anys sense saber qui era. Que la dona amb qui has viscut com a rei, amb qui has tingut quatre fills, és la teva mare biològica. Que la profecia que tota la vida has intentat evitar s'ha acomplert de totes maneres. La teva esposa-mare acaba de morir. Ets al palau, al centre de Tebes, amb els teus fills i el teu cunyat Creont.",
+              "dilemma": "Amb aquest coneixement, com continues?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Accepto l'exili immediatament: no puc seguir governant Tebes ni mirant als ulls els meus fills"
+                },
+                {
+                  "id": "B",
+                  "text": "Continuo governant: la veritat del passat no canvia qui sóc com a rei ni el meu deure present envers Tebes"
+                }
+              ],
+              "reveal": "Edip s'automutilar els ulls i demana l'exili. Creont, el seu cunyat, li concedeix quedar-se a Tebes inicialment, però Edip insistirà en l'exili. A Edip a Colonos, l'obra pòstuma de Sòfocles, el veiem anys després, vell i cec, guiat per la seva filla Antígona, buscant un lloc on morir en pau.",
+              "analysis": "La decisió d'Edip de cegar-se és l'acte més discutit de tota la tragèdia grega. Alguns intèrprets la veuen com un acte de justícia autoinfligida. Altres, com un acte de coherència ontològica: si el que has vist és insuportable, la vista es converteix en un instrument de tortura. Altres encara la llegeixen políticament: un rei que ha governat amb una identitat falsa no pot seguir governant. El que és clar és que Edip no es cega per impuls emocional — hi ha una lògica, per terrible que sigui."
+            },
+            {
+              "type": "primary-source",
+              "label": "Edip Rei, Sòfocles — el moment del descobriment (vv. 1307-1312)",
+              "source": "Sòfocles, Edip Rei, traducció catalana",
+              "text": "«Ai, ai! Tot s'ha aclarit, tot és veritat. Oh llum del sol, que et vegi per darrera vegada! Jo que vaig néixer de qui no havia de néixer, que vaig viure amb qui no havia de viure, que vaig matar qui no havia de matar.»",
+              "questions": [
+                "Edip adreça les seves paraules «a la llum del sol» — sabent que aviat es cegarà. Quin efecte crea dir adéu a la llum just abans d'apagar-la voluntàriament?",
+                "Les tres frases paral·leles («néixer de qui no havia de néixer / viure amb qui no havia de viure / matar qui no havia de matar») no mencionen noms. Per què creus que Sòfocles no fa que Edip digui «el meu pare» o «la meva mare»?",
+                "Edip diu «tot s'ha aclarit» — com si la veritat fos finalment una mena d'alliberament. Pot la veritat ser alhora destructiva i alliberadora?"
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-edip-04-01",
+              "style": "multiple-choice",
+              "question": "Per quina raó Edip s'autoinfligeix la ceguesa, segons la interpretació més estesa de l'obra de Sòfocles?",
+              "options": [
+                "Com a càstig autoinfligit per la culpa que sent pels seus crims",
+                "Perquè Creont li ho exigeix com a condició per concedir-li l'exili",
+                "Com a acte de coherència: qui ha vist el que ha vist no pot seguir mirant el món com si fos normal",
+                "Per identificar-se amb Tirèsias, l'endeví cec que sí veia la veritat"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La lectura dominant no és la del càstig sinó la de la coherència: Edip no vol seguir participant en un món que ha descobert que funciona d'una manera radicalment diferent del que creia. La vista s'ha convertit en mentida — ha vist el que no podia veure. La ceguesa és, paradoxalment, l'acte més lúcid de la seva vida.",
+              "feedbackWrong": "La interpretació més rica no és la del càstig. Edip no s'aplica una pena — pren una decisió ontològica: qui ha descobert el que ell ha descobert no pot seguir mirant el món com si fos el mateix lloc d'abans. La vista que creia tenir era falsa. La ceguesa, paradoxalment, és la primera decisió plenament conscient de la seva vida."
+            }
+          ]
+        },
+        {
+          "id": "edip-05",
+          "title": "Freud llegeix Edip: el mite com a mapa de l'inconscient",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-edip-05-01",
+              "question": "Si el complex d'Edip de Freud no ha estat validat científicament de manera consistent, hauria de seguir ensenyant-se com a teoria psicològica?",
+              "options": [
+                "No: una teoria sense validació empírica no és ciència i no hauria de presentar-se com a tal",
+                "Sí: el seu impacte cultural és tan gran que cal entendre-la per comprendre el segle XX, independentment de la seva validesa científica",
+                "Cal distingir entre el complex d'Edip com a hipòtesi científica (sotmesa a validació empírica) i com a eina hermenèutica (útil per interpretar cultura, literatura i relacions); en el primer sentit, és problemàtica; en el segon, segueix sent productiva"
+              ],
+              "correct": 2,
+              "explanation": "Aquesta distinció entre ciència i hermenèutica és crucial per entendre Freud. La psicoanàlisi va néixer amb pretensions científiques que no ha pogut sostenir plenament: molts dels seus conceptes centrals (inconscient repressiu, complex d'Edip, pulsió de mort) no han estat validats amb els estàndards de la psicologia experimental contemporània. Però Freud ha tingut un impacte cultural incommensurable en la literatura, el cinema, la filosofia i la manera com les persones s'expliquen a si mateixes. Descartar Freud perquè no és ciència és com descartar Marx perquè les seves prediccions econòmiques van fallar: es pot criticar la teoria i reconèixer l'impacte cultural. El que no es pot fer és confondre els dos plans."
+            },
+            {
+              "type": "narrative",
+              "text": "El 1899, un metge vienès publica un llibre sobre el significat dels somnis. En un capítol, proposa que el mite d'Edip no és una curiositat arqueològica de la Grècia antiga — és el retrat de la vida psíquica de tot ésser humà. Sigmund Freud afirma que tots nosaltres, en algun estrat profund i inaccessible, hem desitjat matar el pare i posseir la mare. Edip no és una excepció monstruosa. És el mirall de tots."
+            },
+            {
+              "type": "key-idea",
+              "text": "El «complex d'Edip» de Freud proposa que el mite grec descriu una estructura universal de la psique: el desig inconscient vers el progenitor del sexe oposat i la rivalitat amb el progenitor del mateix sexe. Si Freud té raó, Edip no és una tragèdia sobre el destí — és un documental sobre el que hi ha al fons de tothom."
+            },
+            {
+              "type": "comparison",
+              "title": "Sòfocles vs. Freud: dos Edips",
+              "labelA": "Sòfocles (429 aC)",
+              "labelB": "Freud (1899)",
+              "items": [
+                {
+                  "label": "Pregunta central",
+                  "a": "Com és possible que un home bo provoqui tant de mal?",
+                  "b": "Quins desitjos inconscients amaguem tots?"
+                },
+                {
+                  "label": "Edip com a...",
+                  "a": "Individu excepcional atrapat per un destí còsmic",
+                  "b": "Representació universal de l'estructura psíquica humana"
+                },
+                {
+                  "label": "La culpa d'Edip",
+                  "a": "Contaminació ritual objectiva (miasma), independent de la intenció",
+                  "b": "Culpa inconscient que tots compartim però no volem reconèixer"
+                },
+                {
+                  "label": "La ceguesa com a...",
+                  "a": "Acte de coherència davant una veritat insoportable",
+                  "b": "Símbol de la repressió: no voler «veure» el que hi ha a l'inconscient"
+                },
+                {
+                  "label": "Missatge final",
+                  "a": "La veritat destrueix, però és preferible a la ignorància",
+                  "b": "La veritat reprimida destrueix des de dins; la teràpia la fa visible"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El complex d'Edip ha envellit bé?",
+              "content": "La psicologia contemporània ha qüestionat seriosament el complex d'Edip com a estructura universal. Les crítiques principals: és androcèntric (Freud va tenir moltes dificultats amb l'equivalent femení, que va anomenar «complex d'Electra»), assumeix una estructura familiar nuclear que no és universal, i no ha estat validat empíricament amb els estàndards de la psicologia científica actual. Però el llegat conceptual és enorme: la idea que els conflictes de la infància amb els progenitors modelen l'adult, que hi ha dinàmiques inconscients en les relacions familiars, que el que no es pot dir s'expressa d'altres maneres — tot això ha penetrat la cultura popular amb una força que cap estudi ha aconseguit desmantellar del tot."
+            },
+            {
+              "type": "debate",
+              "question": "La lectura freudiana d'Edip és un avenç en la comprensió del mite o una reducció que l'empobreix?",
+              "positionA": {
+                "label": "Un avenç: Freud fa el mite rellevant",
+                "argument": "Sòfocles escrivia per als atenesos del segle V aC, que compartien un univers religiós i polític molt específic. Freud universalitza el mite: fa que parli de l'estructura psíquica de qualsevol persona en qualsevol cultura. Sense Freud, Edip seria un artefacte arqueològic interessant però distant. Amb Freud, és un mirall."
+              },
+              "positionB": {
+                "label": "Una reducció: Freud aplana el mite",
+                "argument": "Sòfocles no escrivia sobre dinàmiques familiars inconscients — escrivia sobre el destí, el poder polític, els límits del coneixement humà i la relació entre els déus i els homes. Reduir tot això a una teoria sobre com els nens gestionen la rivalitat amb el pare és convertir una tragèdia còsmica en un cas clínic. Freud necessitava Edip per il·lustrar la seva teoria; no li interessava Sòfocles."
+              },
+              "reflection": "Quan una interpretació fa un text «més rellevant», sempre l'enriqueix? O de vegades el redueix precisament perquè el fa servir per a un propòsit que no era el seu?",
+              "context": "Aquesta tensió entre lectura literal i lectura simbòlica és present en tota la historia de la interpretació literària. El debat no és només sobre Edip — és sobre com llegim qualsevol text del passat: intentem entendre el que significava per als seus contemporanis, o el fem servir per entendre el nostre present?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-edip-05-01",
+              "style": "multiple-choice",
+              "question": "Quin és l'element central del «complex d'Edip» tal com el va formular Freud originalment?",
+              "options": [
+                "El temor dels fills a ser punits pel pare per les seves ambicions",
+                "El desig inconscient vers el progenitor del sexe oposat i la rivalitat amb el del mateix sexe",
+                "La tendència humana a repetir els errors dels pares sense adonar-se'n",
+                "L'atracció fatal vers les figures d'autoritat que s'assemblen als progenitors"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Freud proposa que durant el desenvolupament infantil es forma un desig inconscient vers el progenitor del sexe oposat (la mare, per al nen; el pare, per a la nena) i una rivalitat amb el progenitor del mateix sexe. Edip, que mata el pare i es casa amb la mare, representa aquest desig de manera literal i sense repressió.",
+              "feedbackWrong": "La formulació freudiana és més específica: el complex descriu el desig inconscient vers el progenitor del sexe oposat i la rivalitat amb el del mateix sexe. No és simplement por al pare ni tendència a repetir errors — és una estructura de desig i rivalitat que Freud creia universal i constitutiva de la psique."
+            }
+          ]
+        },
+        {
+          "id": "edip-06",
+          "title": "El llegat d'Edip: què significa saber qui ets",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-edip-06-01",
+              "question": "Edip hauria d'haver aturat la investigació quan Iocasta i Tirèsias l'advertiren que la veritat seria terrible?",
+              "options": [
+                "Sí: la prudència és una virtut. Quan tots els que t'estimen t'adverteixen que pares, parar és el més racional",
+                "No: un governant té l'obligació de saber la veritat, per dolorosa que sigui. La ignorància còmoda és un luxe que el poder no es pot permetre",
+                "La pregunta és mal plantejada: Edip no podia triar de debò. La seva naturalesa — la mateixa que el va fer resoldre l'endevinalla de l'Esfinx — el condemnava a perseguir la veritat fins al final"
+              ],
+              "correct": 2,
+              "explanation": "La resposta C captura el que fa Edip filosòficament interessant més enllà del debat sobre si hauria parat o no. El caràcter d'Edip — la seva intel·ligència, la seva obstinació, el seu sentit del deure, la seva incapacitat per acceptar la ignorància — és exactament el mateix caràcter que el va portar a vèncer l'Esfinx i a ser un gran rei. No és possible separar «l'Edip que resol endevinalles» de «l'Edip que s'autodestrueix investigant». Són el mateix home. Sòfocles proposa que les nostres virtuts i els nostres tràgics finals no sempre es poden separar: allò que ens fa excel·lents és, en les circumstàncies equivocades, allò que ens destrueix. Aquesta és la idea que Aristòtil anomena hamartia — no un defecte moral, sinó una manera de ser que en certes condicions es converteix en error fatal."
+            },
+            {
+              "type": "misconception",
+              "belief": "El mite d'Edip és bàsicament una historia sobre incest i parricidi — un argument escandalós pensat per impactar el públic grec.",
+              "reality": "L'incest i el parricidi no eren el punt escandalós per als grecs: eren la condició que feia possible la pregunta filosòfica central. Sòfocles no escrivia thriller. Escrivia sobre els límits del coneixement humà, la ironia del destí i el preu de la veritat. L'escàndol era el vehicle, no el missatge.",
+              "why": "Llegim el mite a través de la sensibilitat moderna, on l'incest és tabú psicològic i legal. Els grecs tenien els seus propis tabús sobre l'incest, però els mites els transgredien sovint per poder parlar d'altres coses. La tragèdia de Sòfocles és, en el fons, una obra epistemològica: sobre el coneixement, els seus límits i el seu preu."
+            },
+            {
+              "type": "narrative",
+              "text": "Edip és el primer gran personatge de la literatura occidental que es destrueix buscant la veritat sobre si mateix. No el destrueix un enemic, ni un monstre, ni un déu enfurit. El destrueix el coneixement. I tanmateix — i aquí és on el mite es torna perturbador de debò — en cap moment de l'obra Sòfocles suggereix que hauria estat millor no saber-ho. La veritat destrueix Edip. La ignorància hauria corromput Tebes."
+            },
+            {
+              "type": "key-idea",
+              "text": "El mite d'Edip formula una de les preguntes més dures de la filosofia: si la veritat sobre tu mateix et destruís, voldries saber-la igualment? La resposta d'Edip és sí. La de Sòfocles, ambigua. La nostra, pendent."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Introducció a la Filosofia",
+              "moduleEmoji": "💡",
+              "concept": "El «coneix-te a tu mateix» socràtic",
+              "text": "Sòcrates va fer de la màxima dèlfica «coneix-te a tu mateix» el centre de la filosofia. Com Edip, creia que la ignorància d'un mateix era el pitjor mal. A diferència d'Edip, Sòcrates tenia la teoria que el coneixement d'un mateix és alliberador. Edip és el contraargument: i si la veritat sobre tu mateix no és alliberadora sinó devastadora? Sòcrates i Edip fan la mateixa pregunta i troben respostes radicalment oposades."
+            },
+            {
+              "type": "before-after",
+              "title": "Edip: qui era i qui és",
+              "before": {
+                "label": "Edip al principi",
+                "points": [
+                  "Rei de Tebes, llegítimament entronitzat",
+                  "Salvador de la ciutat: va vèncer l'Esfinx",
+                  "Marit exemplar i pare de quatre fills",
+                  "Home que creu conèixer el seu origen (fill del rei de Corint)",
+                  "Convençut que ha escapat amb èxit de la profecia"
+                ]
+              },
+              "after": {
+                "label": "Edip al final",
+                "points": [
+                  "Exiliat sense tron ni pàtria",
+                  "Cec per pròpia mà",
+                  "Fill i marit de la mateixa dona, pare i germà dels mateixos fills",
+                  "Home que sap exactament qui és — i no pot suportar-ho",
+                  "Prova que la profecia es va acomplir precisament pels intents d'evitar-la"
+                ]
+              },
+              "insight": "La transformació d'Edip no és la d'un home bo que es corromp — és la d'un home que sempre va ser el que és, i que finalment ho descobreix. El que canvia no és Edip: és el seu coneixement d'ell mateix."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-edip-06-01",
+              "style": "detect-error",
+              "statement": "Sòfocles suggereix, a través del desenllaç d'Edip Rei, que hauria estat millor per a Edip no descobrir la veritat.",
+              "isCorrect": false,
+              "feedbackExplanation": "Correcte: és fals. Sòfocles no proposa que la ignorància hagués estat millor. Edip a Colonos, l'obra pòstuma, mostra Edip als anys finals — cec, exiliat, guiat per Antígona — i li concedeix finalment una mort plàcida i quasi sagrada. La veritat el va destruir com a rei, però el va completar com a home."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

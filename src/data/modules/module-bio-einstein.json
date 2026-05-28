@@ -10,13 +10,32 @@
       "title": "De Ulm a Berna: el geni invisible",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-einstein-01-01",
+          "question": "Per quin motiu és significatiu que Einstein fes les seues descobertes més importants mentre treballava a l'Oficina de Patents?",
+          "options": [
+            "Perquè demostra que els genis no necessiten universitats",
+            "Perquè tenia accés a tecnologia secreta de les patents",
+            "Perquè tenia temps lliure per pensar sense pressions acadèmiques",
+            "Perquè l'Oficina de Patents li pagava les investigacions"
+          ],
+          "correct": 2,
+          "explanation": "La feina de patents era rutinària però li deixava la ment lliure. Sense haver de competir per finançament ni publicar per fer carrera, Einstein podia seguir les preguntes que l'obsessionaven. Molts historiadors de la ciència ho assenyalen com a factor clau."
+        },
+        {
+          "type": "misconception",
+          "belief": "Einstein era un mal estudiant que va suspendre matemàtiques i no destacava a l'escola.",
+          "reality": "Einstein era excel·lent en matemàtiques i física des de molt jove. El que sí va passar: va fracassar a l'examen d'entrada de la Politècnica de Zuric perquè tenia 15 anys (dos anys per sota de l'edat mínima) i el seu francès era dolent. Al mateix examen, la seva puntuació en matemàtiques i física va ser excepcional.",
+          "why": "La història del 'mal estudiant' és una simplificació còmoda que reforça la idea que el geni pot prescindir de l'esforç. De fet, Einstein era autònom i poc convencional, però no mediocre."
+        },
+        {
           "type": "quote",
           "text": "La imaginació és més important que el coneixement.",
           "author": "Albert Einstein"
         },
         {
           "type": "narrative",
-          "text": "Albert Einstein va néixer el 1879 a Ulm, Alemanya. Era un nen curiós però lent per aprendre a parlar. Els seus professors no el consideraven especialment brillant. Va fracassar a l'examen d'entrada de l'Escola Politècnica de Zuric el 1895. Va haver de repetir. Quan finalment va llicenciar-se en física, no va aconseguir feina de professor ni d'investigador: era massa independent, massa poc convencional."
+          "text": "Albert Einstein va néixer el 1879 a Ulm, Alemanya. Era un nen curiós però lent per aprendre a parlar. Va créixer amb la seva àvia mentre la seva mare es tornava a casar. Era un nen solitari, obsessiu, que construïa models de molins i rellotges de sol. L'Anglaterra que el va veure créixer era la dels cavallers i els parlamentaristes, de la guerra civil i Cromwell, de l'execució de Carles I."
         },
         {
           "type": "narrative",
@@ -30,7 +49,7 @@
           "type": "timeline",
           "events": [
             { "year": "1879", "text": "Neix a Ulm, Alemanya" },
-            { "year": "1895", "text": "Fracassa a l'examen de la Politècnica de Zuric" },
+            { "year": "1895", "text": "Fracassa a l'examen de la Politècnica de Zuric (tenia 15 anys, dos per sota del mínim)" },
             { "year": "1902", "text": "Obté feina a l'Oficina de Patents de Berna" },
             { "year": "1905", "text": "Any miracle: publica 4 articles fonamentals" },
             { "year": "1915", "text": "Publica la teoria de la relativitat general" },
@@ -51,19 +70,6 @@
           "correct": 2,
           "feedbackCorrect": "Correcte. El Nobel de 1921 va ser per l'efecte fotoelèctric, que va demostrar que la llum es comporta com a partícula (fotó). La relativitat era massa revolucionària i controvertida per al jurat.",
           "feedbackWrong": "Sorprenentment, el Nobel no va ser per la relativitat. Va ser per l'efecte fotoelèctric, que va demostrar la naturalesa quàntica de la llum."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-einstein-01-01",
-          "question": "Per què és significatiu que Einstein fes les seues descobertes més importants mentre treballava a l'Oficina de Patents?",
-          "options": [
-            "Perquè demostra que els genis no necessiten universitats",
-            "Perquè tenia accés a tecnologia secreta de les patents",
-            "Perquè tenia temps lliure per pensar sense pressions acadèmiques",
-            "Perquè l'Oficina de Patents li pagava les investigacions"
-          ],
-          "correct": 2,
-          "explanation": "La feina de patents era rutinària però li deixava la ment lliure. Sense haver de competir per finançament ni publicar per fer carrera, Einstein podia seguir les preguntes que l'obsessionaven. Molts historiadors de la ciència ho assenyalen com a factor clau."
         }
       ]
     },
@@ -71,6 +77,11 @@
       "id": "einstein-02",
       "title": "La relativitat: el temps no és el que creus",
       "blocks": [
+        {
+          "type": "prediction",
+          "question": "Imagina que viatjes en un tren a la velocitat de la llum i encens una llanterna cap endavant. La llum de la llanterna: va el doble de ràpid que si estigués aturat? Va igual de ràpid? O va més lentament?",
+          "hint": "La resposta d'Einstein va desconcertar tots els físics del seu temps, inclòs ell mateix."
+        },
         {
           "type": "quote",
           "text": "Posa la mà en un fogó calent durant un minut i et semblarà una hora. Seu amb una noia bonica durant una hora i et semblarà un minut. Això és la relativitat.",
@@ -87,6 +98,13 @@
         {
           "type": "key-idea",
           "text": "Relativitat especial: el temps transcorre més lentament com més ràpid et mous. Relativitat general: la massa corba l'espai-temps i allò que en diem gravetat és en realitat objectes que segueixen la corba de l'espai. Les dues teories van redefinir el nostre concepte d'univers."
+        },
+        {
+          "type": "analogy",
+          "concept": "La curvatura de l'espai-temps per la gravetat",
+          "emoji": "🎾",
+          "analogy": "Imagina un llençol de goma estirat horitzontalment. Poses una bola de bowling al centre: el llençol es corba. Ara fas rolar una bola de tennis prop de la bola de bowling: la bola de tennis no és 'estirada' per cap força invisible, simplement segueix la curvatura del llençol. Això és el que fa la massa amb l'espai-temps: el corba, i els objectes segueixen la corba.",
+          "bridge": "La limitació de l'analogia: el llençol de goma s'enfonsa per la gravetat terrestre, no per la massa de la bola. La relativitat general no necessita una 'gravetat exterior': l'espai-temps es corba per si sol en presència de massa."
         },
         {
           "type": "before-after",
@@ -111,8 +129,9 @@
           "feedbackWrong": "La confirmació clau va venir de l'eclipsi solar de 1919, quan Eddington va observar la desviació de la llum tal com la teoria preveia."
         },
         {
-          "type": "scientific-mode",
-          "id": "sci-einstein-02-01",
+          "type": "exercise",
+          "id": "ex-einstein-02-02",
+          "style": "multiple-choice",
           "question": "Quin és el significat de l'equació E=mc²?",
           "options": [
             "L'energia d'un cos en moviment és proporcional a la seva massa",
@@ -121,7 +140,8 @@
             "Qualsevol cos amb massa viatja a la velocitat de la llum al quadrat"
           ],
           "correct": 1,
-          "explanation": "E=mc² diu que massa i energia són intercanviables. Una petita quantitat de massa conté una quantitat enorme d'energia (la c², velocitat de la llum al quadrat, és un número astronòmicament gran). Això explica l'energia nuclear i és la base de les estrelles."
+          "feedbackCorrect": "E=mc² diu que massa i energia són intercanviables. Una petita quantitat de massa conté una quantitat enorme d'energia (c² és un número astronòmicament gran). Això explica l'energia nuclear i és la base de com funcionen les estrelles.",
+          "feedbackWrong": "L'equació diu que massa i energia són equivalents i intercanviables, no que l'energia depengui del moviment."
         }
       ]
     },
@@ -139,12 +159,25 @@
           "text": "El 1933, quan Hitler va prendre el poder, Einstein era a Amèrica. No va tornar mai a Alemanya. El règim nazi va confiscar els seus béns, va retirar-li la ciutadania i va posar un preu al seu cap. La física 'jueva' era declarada pseudociència. Einstein va instal·lar-se a Princeton, on va viure fins a la seua mort el 1955."
         },
         {
+          "type": "what-would-you-do",
+          "id": "wwyd-einstein-03-01",
+          "scenario": "És l'agost de 1939. Ets el físic més famós del món, pacifista declarat. El teu col·lega Leo Szilárd et porta proves que Alemanya nazi treballa en una bomba atòmica. Et demana que signis una carta al president Roosevelt perquè els EUA comencin a investigar primer. Saps que signar pot iniciar un programa d'armament nuclear.",
+          "question": "Signes la carta? Quina és la responsabilitat d'un científic pacifista davant d'una amenaça totalitària?",
+          "reflection": "Einstein va signar. Va dir que si hagués sabut que Alemanya no estava tan avançada, no ho hauria fet. La paradoxa: el pacifista que va ajudar a iniciar la carrera nuclear. Anys després, la bomba va caure sobre Hiroshima. Einstein va dedicar la resta de la seua vida a combatre el que havia contribuït a crear."
+        },
+        {
           "type": "narrative",
           "text": "El 1939, el físic Leo Szilárd el va convèncer de signar una carta al president Roosevelt: els científics sabien que Alemanya intentava construir una bomba atòmica basada en la fissió nuclear, i calia que els EUA s'anticipessin. Aquella carta va contribuir a iniciar el Projecte Manhattan. La bomba va ser llançada sobre Hiroshima i Nagasaki el 1945. Einstein, que no havia participat en el Projecte Manhattan, va quedar devastat. La resta de la seua vida va ser un activista per la pau i el desarmament nuclear."
         },
         {
           "type": "key-idea",
           "text": "La paradoxa d'Einstein: el científic pacifista que va contribuir indirectament —amb la carta a Roosevelt— a l'inici del Projecte Manhattan. La seua equació E=mc² va fer possible teòricament la bomba, però ell mai no va participar en el seu disseny. Va dedicar els últims anys a combatre allò que havia ajudat a crear."
+        },
+        {
+          "type": "misconception",
+          "belief": "Einstein va dissenyar la bomba atòmica i és el 'pare de l'arma nuclear'.",
+          "reality": "Einstein no va participar en el Projecte Manhattan: les autoritats americanes no el van admetre per raons de seguretat (el consideraven un risc de seguretat per les seves idees polítiques). Va signar la carta a Roosevelt que va contribuir a iniciar el programa, però no va dissenyar res. E=mc² és rellevant teòricament però no és 'el plànol' de la bomba.",
+          "why": "L'associació Einstein-bomba ve de la seva fama, de l'equació icònica, i de la carta. Però el disseny real va ser obra de Oppenheimer, Fermi, Teller i desenes d'altres físics, sense Einstein."
         },
         {
           "type": "primary-source",
@@ -166,15 +199,8 @@
             "No hi ha cap error: Einstein sí que va treballar en la bomba"
           ],
           "correct": 0,
-          "feedbackCorrect": "Correcte. Einstein va ser exclòs del Projecte Manhattan per raons de seguretat (les autoritats americanes no el consideraven prou de confiança). La seua equació és rellevant teòricament, però no va participar en el disseny.",
+          "feedbackCorrect": "Correcte. Einstein va ser exclòs del Projecte Manhattan per raons de seguretat. La seua equació és rellevant teòricament, però no va participar en el disseny.",
           "feedbackWrong": "Einstein no va participar en el Projecte Manhattan. Va signar una carta que va contribuir a iniciar-lo, però no va dissenyar res."
-        },
-        {
-          "type": "what-would-you-do",
-          "id": "wwyd-einstein-03-01",
-          "scenario": "Ets un científic pacifista. Saps que un règim totalitari perillós pot estar construint una arma de destrucció massiva. Pots alertar el teu govern perquè s'anticipi —cosa que implica que el teu país construeixi la mateixa arma— o no fer res i esperar.",
-          "question": "Hauries signat la carta com va fer Einstein? Quina responsabilitat té un científic sobre l'ús que es fa del seu coneixement?",
-          "reflection": "Einstein va triar alertar Roosevelt. Més tard es va penedir. El dilema real és: la ciència és neutral però els científics no. El coneixement físic sobre la fissió existia independentment d'ell; la carta va accelerar el procés. La pregunta sobre la responsabilitat moral del científic pel seu descobriment és un dels debats ètics centrals del segle XX."
         }
       ]
     }

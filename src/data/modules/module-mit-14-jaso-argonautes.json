@@ -1,0 +1,410 @@
+{
+  "id": "module-mit-14-jaso-argonautes",
+  "title": "Jasó i els Argonautes: l'aventura, la traïció i Medea",
+  "emoji": "🐏",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "jaso-narracio-interpretacio",
+      "title": "Del mite a la vida",
+      "icon": "🌊",
+      "description": "De l'expedició dels Argonautes a la filosofia del lideratge, de la lleialtat i la traïció a Medea com a personatge independent",
+      "style": "Narratiu · del mite a la interpretació filosòfica i psicològica",
+      "lessons": [
+
+        {
+          "id": "jas-01",
+          "title": "El vel·lí d'or i el rei covard",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Pelias, rei d'Iolcos, havia usurpat el tron al seu germà Eson. Un oracle li havia advertit que un home amb una sandàlia perduda el destronaría. Un dia, un jove arriba a la cort amb una sola sandàlia — l'ha perduda creuant un riu ajudant una vella (que era Hera disfressada). El jove es diu Jasó i és el fill d'Eson, el rei legítim. Pelias no el mata directament. Li proposa una missió impossible: anar a buscar el vel·lí d'or a la Còlquida, a l'extrem del món conegut. Ningú no ha tornat d'allà."
+            },
+            {
+              "type": "key-idea",
+              "text": "El vel·lí d'or no és l'objectiu real de la missió: és un pretext. Pelias envia Jasó a morir d'una manera que no el fa semblar un assassí. La política de la missió impossible — enviar quelqu'un a fer el que no pot fer — és tan antiga com la mitologia i tan contemporània com ahir."
+            },
+            {
+              "type": "expandable",
+              "label": "Qué és el vel·lí d'or — i per qué tothom el vol?",
+              "content": "El vel·lí d'or és la pell del xai alat Crisòmal, un animal enviat pels déus per rescatar Frix i Hel·le, fills d'un rei beoci que fugien d'una madrastra cruel. Hel·le va caure al mar (que des d'aleshores es diu Hel·lespont). Frix va arribar a la Còlquida, va sacrificar el xai en honor de Zeus i va penjar la pell a un bosc sagrat, on la guardava un drac que mai no dormia. El vel·lí representa poder reial i legitimitat divina — qui el posseeix té el dret a governar. Pelias el vol precisament perquè sap que té el tron robat. Jasó el vol perquè és el preu del seu tron legítim. Cap dels dos no el vol per la pell en si mateixa."
+            },
+            {
+              "type": "prediction",
+              "question": "Jasó ha de reunir una tripulació per a un viatge impossible. Qui creus que reunirà — els millors guerrers disponibles, els seus amics de confiança, o els millors especialistes per a cada tasca del viatge?",
+              "hint": "Pensa en qué diferencia una expedició d'una batalla campal."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-jas-01-01",
+              "style": "multiple-choice",
+              "question": "Pelias envia Jasó a buscar el vel·lí d'or en lloc de matar-lo directament. Quin avantatge polític té aquesta estratègia?",
+              "options": [
+                "Pelias vol el vel·lí d'or i Jasó és el millor candidat per obtenir-lo",
+                "Matar Jasó directament crearia mártirs i inestabilitat política; enviar-lo a una missió impossible elimina el problema sense assumir la responsabilitat visible de la mort",
+                "Pelias creu genuïnament que Jasó pot tenir èxit i vol posar-lo a prova abans de cedir-li el tron",
+                "L'oracle ha dit que Pelias morirà si mata Jasó directament, de manera que la missió és l'única opció segura"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La missió impossible és una tecnologia política antiga i eficaç: elimina l'adversari sense assumir la responsabilitat visible de l'eliminació. Si Jasó mor en el viatge, Pelias pot dir que li va donar una oportunitat de provar el seu valor. Si Jasó torna — cosa que Pelias considera impossible — el problema s'haurà resolt sol. És una forma de violència amb plausible deniability, com dirien els analistes polítics contemporanis.",
+              "feedbackWrong": "Pelias no vol el vel·lí per si mateix ni creu que Jasó pugui tenir èxit ni tem un oracle específic sobre matar-lo directament. La lògica és política i molt més simple: enviar algú a una mort probable sense haver de matar-lo tu és una manera d'eliminar un rival mantenint les mans netes. La missió impossible és un instrument de poder, no una prova de mèrits."
+            },
+            {
+              "type": "misconception",
+              "belief": "Els Argonautes eren els millors guerrers de Grècia, reunits per a una gran batalla.",
+              "reality": "Els Argonautes eren un equip d'especialistes per a un viatge, no un exèrcit per a una batalla. La tripulació incloïa Orfeu (músic, per calmar les Sirenes i els remers), Càstor i Pòl·lux (experts en combat), Linceu (el millor ull de Grècia, per navegar), Tifis (el millor navegant disponible), i Hèracles (força bruta quan calgués). Cada membre aportava una competència específica. El viatge requeria diversitat de capacitats, no màxima concentració de força.",
+              "why": "La cultura popular representa l'aventura col·lectiva com una reunió dels millors en un sol àmbit. Però les expedicions reals — antigues i modernes — requereixen diversitat de competències. Jasó no necessitava cinquanta Hèracles. Necessitava un Hèracles, un Orfeu, un Linceu i un Tifis."
+            }
+          ]
+        },
+
+        {
+          "id": "jas-02",
+          "title": "El lideratge de Jasó",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-jas-02-01",
+              "question": "Jasó lidera un grup on tots els membres son millors que ell en alguna cosa. És això una fortalesa o una debilitat del seu lideratge?",
+              "options": [
+                "Una debilitat: un líder que no és el millor en res perd autoritat natural i depèn constantment de la bona voluntat dels qui el superen",
+                "Una fortalesa: un líder que no amenaça la competència dels seus membres pot treure el màxim de cada un d'ells sense que l'ego del lideratge distorsioni les decisions",
+                "Ni fortalesa ni debilitat en si mateixa: el que importa no és la relació de competència entre el líder i els membres sinó si el líder pot mantenir la missió orientada i la cohesió del grup sota pressió"
+              ],
+              "correct": 2,
+              "explanation": "La investigació sobre lideratge eficaç (des de les primeres estudis de Lewin als anys 30 fins a la recerca contemporània sobre equips d'alt rendiment) mostra consistentment que la superioritat tècnica del líder sobre els membres no prediu el rendiment de l'equip. El que prediu el rendiment és la capacitat del líder de crear les condicions per a la col·laboració eficaç: claredat d'objectiu, gestió dels conflictes, distribució adequada de rols, i manteniment de la cohesió sota pressió. Jasó fa algunes d'aquestes coses bé (manté la missió, gestiona les tensions entre membres molt diferents) i d'altres malament (falla en la gestió de la relació amb Medea d'una manera que destrueix tot el que ha construït). El mite de Jasó no és un elogi del lideratge — és un estudi de cas sobre les seves limitacions."
+            },
+            {
+              "type": "narrative",
+              "text": "Jasó té un problema de lideratge que el mite no amaga: la tripulació dels Argonautes és plena de persones que son millors que ell en gairebé tot. Hèracles és més fort. Orfeu és més inspirador. Linceu veu millor. Tifis navega millor. Càstor i Pòl·lux lluiten millor. Jasó no és el millor en res concret. El que té és la capacitat de mantenir aquest grup unit i orientat cap a l'objectiu. En el segle XXI anomenaríem això lideratge. Els grecs no tenien una paraula específica per a la cosa — però Homer sí que l'hauria reconegut."
+            },
+            {
+              "type": "key-idea",
+              "text": "El lideratge de Jasó no es basa en la superioritat tècnica sinó en la capacitat de mantenir la cohesió d'un grup divers sota pressió. És el lideratge del qui sap el que no sap — i sap usar el que saben els altres."
+            },
+            {
+              "type": "analogy",
+              "concept": "Jasó com a líder orquestral",
+              "emoji": "🎼",
+              "analogy": "El director d'orquestra no toca cap instrument tan bé com els músics que dirigeix. El primer violí toca millor el violí. El oboè toca millor l'oboè. El percussionista coneix la seva secció com el director mai no la coneixerà. El que fa el director és crear les condicions perquè cada músic faci el millor que pot fer en el moment correcte, en la dinàmica correcta, amb la relació amb els altres instruments que produeix música en lloc de soroll.",
+              "bridge": "Jasó no és el millor guerrer, el millor navegant ni el millor músic de la seva tripulació. El que fa és mantenir la missió orientada quan els Argonautes volen abandonar, negocia quan el combat directe fracassaria, i sap quan delegar i a qui. El seu valor no és el que pot fer — és el que pot fer possible que els altres facin el que saben fer. Quan Jasó falla — i falla, espectacularment, amb Medea — és exactament perquè abandona aquest principi i intenta usar les persones en lloc de liderar-les."
+            },
+            {
+              "type": "perspective",
+              "situation": "La tripulació dels Argonautes debat si continuar el viatge després d'una tempesta devastadora",
+              "perspectives": [
+                {
+                  "role": "Hèracles",
+                  "emoji": "💪",
+                  "text": "Continuo. Sempre. La força no negocia amb les tempestes. Si els altres volen tornar, que tornin. Jo seguiré sol si cal. El que no entenc és per qué estem discutint en lloc d'estar remant."
+                },
+                {
+                  "role": "Orfeu",
+                  "emoji": "🎵",
+                  "text": "La tempesta no és l'obstacle — la moral de la tripulació és l'obstacle. Podem sobreviure qualsevol mar exterior si el mar interior és estable. Deixeu-me cantar. No perquè la música aturi les ones sinó perquè sense cohesió no hi ha tripulació, i sense tripulació no hi ha vaixell."
+                },
+                {
+                  "role": "Jasó",
+                  "emoji": "⚓",
+                  "text": "Els dos teniu raó i els dos esteu equivocats. Hèracles, la força sola no fa el viatge — necessitem tots. Orfeu, la moral no és suficient si no anem a cap lloc. El que hem de fer és decidir si l'objectiu val el risc que queda — i decidir-ho junts, ara, amb informació clara, no amb por ni amb orgull."
+                }
+              ],
+              "reflection": "Quin dels tres tipus de resposta a la crisi — força, cohesió, o decisió informada col·lectiva — creus que és més necessari en el moment més difícil?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-jas-02-01",
+              "style": "multiple-choice",
+              "question": "Durant el viatge, Hèracles abandona l'expedició per buscar el seu escuder Hilas, que ha desaparegut. Els Argonautes debaten si esperar-lo o continuar. Jasó decideix continuar. Com s'ha d'interpretar aquesta decisió?",
+              "options": [
+                "Com una traïció a Hèracles: Jasó abandona el seu millor guerrer per conveniència",
+                "Com una decisió de lideratge difícil però correcta: la missió és l'objectiu, i esperar indefinidament posa en risc tota la tripulació per un sol membre",
+                "Com una manifestació de la gelosia de Jasó envers Hèracles, que eclipsava el seu lideratge",
+                "Com un error tàctic: Hèracles era irremplazable i la missió hauria estat més fàcil amb ell"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La decisió de Jasó és el prototip del dilema del lideratge: quan l'espera d'un membre posa en risc la missió i la resta de la tripulació, el líder ha de triar entre la lleialtat individual i la responsabilitat col·lectiva. No hi ha una resposta neta. Jasó tria la missió. Que Hèracles sigui el més poderós dels Argonautes fa la decisió més difícil, no més fàcil — precisament perquè la pèrdua és enorme. Però el lideratge no és triar quan és fàcil.",
+              "feedbackWrong": "El mite no presenta la decisió de Jasó com a traïció, gelosia ni error tàctic. La presenta com un dilema de lideratge genuí: esperar indefinidament a Hèracles posa en risc la missió i la tripulació sencera. Jasó tria la missió sobre la lleialtat individual — una decisió que molts líders han hagut de prendre i que no té una resposta moralment neta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-jas-02-02",
+              "style": "detect-error",
+              "statement": "Jasó és el líder dels Argonautes perquè és el més competent de la tripulació: té les millors habilitats de combat, navegació i estratègia del grup.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació és incorrecta. Jasó no és el líder perquè sigui el millor en cap habilitat específica — hi ha membres de la tripulació que el superen en combat (Hèracles, Càstor i Pòl·lux), navegació (Tifis), visió estratègica (Linceu) i inspiració (Orfeu). El seu lideratge es basa en una capacitat diferent: mantenir la cohesió d'un grup divers i orientat cap a l'objectiu comú. Confondre lideratge amb superioritat tècnica és un error freqüent — i el mite de Jasó és un dels primers textos que el desmenteix explícitament."
+            }
+          ]
+        },
+
+        {
+          "id": "jas-03",
+          "title": "Medea: la que ho fa possible",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La Còlquida. El vel·lí d'or és al bosc sagrat, guardat per un drac que mai no dorm. El rei Eetes no té cap intenció de donar-lo. Posa a Jasó condicions impossibles: llaurar un camp amb toros que escupen foc i sembrar-hi dents de drac d'on sorgiran guerrers armats que cal derrotar el mateix dia. Jasó no pot fer-ho sol. No pot fer-ho amb la seva tripulació. El que fa possible la missió és una persona que Jasó no ha portat: Medea, filla del rei Eetes, sacerdotessa d'Hècate, la màgica més poderosa de la seva generació. Medea s'enamora de Jasó."
+            },
+            {
+              "type": "key-idea",
+              "text": "Sense Medea, no hi ha vel·lí d'or, no hi ha retorn, no hi ha mite de Jasó. Medea no és un personatge secundari que ajuda l'heroi: és la condició de possibilitat de tot el que passa. El mite porta el nom de Jasó però les decisions que el fan possible les pren Medea."
+            },
+            {
+              "type": "primary-source",
+              "label": "Apol·loni de Rodes, Argonàutiques, Llibre III (c. 250 aC) — Medea decideix ajudar Jasó",
+              "source": "Apol·loni de Rodes, Argonàutiques, Llibre III, vv. 771-801. Traducció del grec.",
+              "text": "\"Medea va lluitar tota la nit amb els seus propis pensaments. Sabia el que feia: trair el seu pare, ajudar un estranger, abandonar la seva terra. Però Eros havia posat en ella un foc que no s'apagava. Es deia a si mateixa: 'Per qué em preocupo tant per un estranger? Que vagi on vulgui. Que el mati el meu pare.' Però llavors pensava en ell, i el foc tornava. I cap argument que es donava a si mateixa no era suficient per apagar-lo.\"",
+              "questions": [
+                "Medea sap exactament el que fa: trair el seu pare i abandonar la seva terra. Per qué Apol·loni ens la mostra deliberant en lloc de simplement actuant per amor cec?",
+                "Medea s'intenta convèncer a si mateixa de no ajudar Jasó, i falla. Qué diu aquest fracàs sobre la relació entre la raó i el desig en el mite?",
+                "Apol·loni escriu tres segles després d'Homer. Com canvia la representació de Medea respecte a la figura femenina típica de la tradició heroica anterior?"
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Qué sacrifica Medea per ajudar Jasó — i si era conscient del preu.",
+              "content": "Medea ajuda Jasó a completar les tasques impossibles del seu pare amb els seus coneixements màgics. Després mata el seu propi germà Apsirt per retardar la persecució del seu pare — talla el cos i el llença al mar perquè Eetes s'atura a recollir els fragments. Abandona la Còlquida, la seva família, la seva posició, el seu món conegut. Quan arriben a Grècia, usa la seva màgia per matar Pelias (que havia enviat Jasó a morir) bullint-lo en un calderó amb herbes que fingeix que rejovenirien però que el maten. El preu que paga Medea per ajudar Jasó és total: la família, la pàtria, les mans netes. Ho sap des del principi. Ho fa igualment."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-jas-03-01",
+              "style": "multiple-choice",
+              "question": "Medea mata el seu germà Apsirt i llença el cos al mar per retardar la persecució del seu pare. Com llegeix el mite aquest acte?",
+              "options": [
+                "Com una prova de la maldat essencial de Medea: qui és capaç de matar el seu propi germà és capaç de qualsevol cosa",
+                "Com un acte de desesperació d'algú que ha trencat tots els vincles amb la seva vida anterior i no pot tornar enrere: el punt de no retorn del seu compromís amb Jasó",
+                "Com un error tàctic que tindrà conseqüències legals i religioses: la mort d'un familiar de sang requerirà expiació",
+                "Com una demostració del poder màgic de Medea: la mort ritual d'Apsirt té un significat sacerdotal que el mite no explica completament"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La mort d'Apsirt és el punt de no retorn de Medea: qui ha matat el seu propi germà no pot tornar a casa, no pot demanar perdó, no pot fer marxa enrere. És l'acte que crema els ponts definitivament. Apol·loni i Eurípides presenten Medea com algú que sap el que fa — i ho fa igualment, perquè l'alternativa (perdre Jasó) li sembla pitjor. No és maldat essencial: és la lògica d'algú que ha apostat tot per una sola cosa i no pot permetre's perdre-la.",
+              "feedbackWrong": "El mite no presenta la mort d'Apsirt com a prova de maldat congènita, error tàctic ni ritual màgic. La presenta com el moment en que Medea crema definitivament els ponts amb la seva vida anterior. Qui ha matat el seu germà no pot tornar. L'acte no és cruel per naturalesa — és la conseqüència lògica d'algú que ha decidit que Jasó val més que tot el que tenia abans, i que actua en conseqüència fins al punt de no retorn."
+            },
+            {
+              "type": "before-after",
+              "title": "Medea: qui era i qui és quan arriba a Corint",
+              "before": {
+                "label": "Medea a la Còlquida",
+                "points": [
+                  "Filla del rei Eetes, princesa amb posició i futur assegurats",
+                  "Sacerdotessa d'Hècate, la màgica més poderosa de la seva generació",
+                  "Dona amb família, pàtria i identitat cultural definida",
+                  "Persona amb les mans netes — no ha traït ni matat ningú"
+                ]
+              },
+              "after": {
+                "label": "Medea a Corint (amb Jasó)",
+                "points": [
+                  "Estrangera sense pàtria, sense família, sense protecció legal pròpia",
+                  "Dona que ha matat el seu germà i ha ajudat a matar el rei Pelias",
+                  "Esposa d'un home que deu tot el que té a ella — i que ho sap",
+                  "Persona que depèn completament de Jasó perquè ha sacrificat tot per ell"
+                ]
+              },
+              "insight": "Medea arriba a Corint completament vulnerable precisament perquè ha fet tot el necessari per garantir l'èxit de Jasó. La seva fortalesa (la màgia, la intel·ligència, la determinació) l'ha portada a una posició de dependència total. I Jasó ho sap quan decideix abandonar-la."
+            }
+          ]
+        },
+
+        {
+          "id": "jas-04",
+          "title": "La traïció",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Jasó i Medea arriben a Corint. Tenen dos fills. Passen anys allà. Llavors el rei Creont ofereix a Jasó casar-se amb la seva filla Glauce i heretar el tron de Corint. Jasó accepta. Deixa Medea i els seus fills — sense el divorci formal que li donaria drets, sense cap protecció, sense cap pla per a ells. Quan Medea li pregunta com justifica la seva decisió, Jasó li dóna un argument que el mite no oblidaria: li diu que hauria d'estar agraïda. Que va ser ell qui va veure el seu potencial. Que viure a Grècia i tenir fills grecs és un privilegi que ella no mereixia sense ell."
+            },
+            {
+              "type": "key-idea",
+              "text": "La traïció de Jasó a Medea no és simplement infidelitat: és la negació del que Medea ha fet i del que ella és. Jasó no només l'abandona — li diu que el que va fer per ell no compta, que el que ella és no val res sense ell. És la destrucció de la identitat d'algú disfressada de gratitud."
+            },
+            {
+              "type": "primary-source",
+              "label": "Eurípides, Medea (431 aC) — Jasó justifica la traïció",
+              "source": "Eurípides, Medea, vv. 522-544. Traducció del grec.",
+              "text": "\"Jasó: En primer lloc, vius a Grècia en lloc de la terra bàrbara, i coneixes la justícia i les lleis, en lloc de la força bruta. I tots els grecs saben que ets sàvia, i tens fama. Si visquessis als confins de la terra, ningú no hauria sentit parlar de tu. Jo no desitjaria tenir or a casa ni tenir una veu més bella que Orfeu, si no fos perquè la fortuna em fa famós. Sobre els meus matrimonis — i aquí has parlat molt — et demostraré que he actuat sàviament, i amb modèstia, i per ser el millor amic teu i dels meus fills.\"",
+              "questions": [
+                "Jasó diu que Medea hauria d'estar agraïda per viure a Grècia i tenir fama. Qué assumeix sobre el valor de la cultura grega respecte a la de Medea — i qué revela aquesta assumpció?",
+                "Jasó afirma que abandonar Medea és 'ser el millor amic seu'. Com és possible que algú cregui sincerament que una traïció és un acte d'amistat?",
+                "Eurípides va escriure aquesta obra el 431 aC, a l'Atenes clàssica. Qué significa que un dramaturg atenès posi en boca d'un heroi grec un argument tan fàcilment refutable — i que el faci sonar ridícul?"
+              ]
+            },
+            {
+              "type": "debate",
+              "question": "Jasó abandona Medea per casar-se amb la filla del rei de Corint. És un traïdor o un pragmàtic que fa el que cal per assegurar el futur dels seus fills?",
+              "positionA": {
+                "label": "És un traïdor",
+                "argument": "Medea ho ha sacrificat tot per Jasó: la família, la pàtria, les mans netes. Sense ella no hi hauria vel·lí, no hi hauria retorn, no hi hauria res. Abandonar-la sense protecció legal ni econòmica, i a sobre dir-li que hauria d'estar agraïda, no és pragmatisme — és una de les traïcions més completes i calculades de la mitologia. Jasó usa Medea quan la necessita i la descarta quan ja no la necessita. Això té un nom."
+              },
+              "positionB": {
+                "label": "És un pragmàtic en un món cruel",
+                "argument": "Jasó viu en una societat on Medea, com a estrangera i dona sense família ni pàtria, no té cap futur garantit. El matrimoni amb Glauce li dóna un tron, i als seus fills una posició segura a Corint. En el món grec, la supervivència política és una responsabilitat del cap de família. Jasó fa el que els homes de la seva època feien: casa per conveniència política i justifica la decisió amb arguments que el seu context considera vàlids. El problema no és Jasó — és el sistema."
+              },
+              "reflection": "El context cultural justifica la traïció — o simplement l'explica sense excusar-la?",
+              "context": "Eurípides escriu la Medea com una crítica deliberada al tractament que la societat atenesa donava a les dones estrangeres. El públic atenès — tot masculí — que va veure la primera representació el 431 aC va donar el tercer lloc al concurs de tragèdies. Eurípides era conegut per posar a escena personatges que el seu públic trobava incòmodes. El fet que Medea fos considerada la pitjor de les tres tragèdies presentades aquell any diu alguna cosa sobre la inccomoditat que va generar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-jas-04-01",
+              "style": "multiple-choice",
+              "question": "Eurípides va escriure la Medea el 431 aC. Qué fa notable que un dramaturg atenès del segle V aC posi una dona estrangera com a protagonista i la faci moralment més complexa que l'heroi grec masculí?",
+              "options": [
+                "Res especialment notable: la tragèdia grega sovint tenia protagonistes femenines (Antígona, Electra, Clitemnestra) i Eurípides seguia una tradició establerta",
+                "Eurípides subverteix deliberadament les expectatives del seu públic: en un context on les dones estrangeres no tenien veu ni drets, fer-ne la figura moralment més interessant és un acte crític envers la seva pròpia societat",
+                "És notable perquè Eurípides era l'únic dramaturg atenès interessat en els personatges femenins — Sòfocles i Èsquil evitaven protagonistes dones",
+                "La novetat d'Eurípides és tècnica, no moral: va inventar el monòleg interior per representar el debat intern de Medea, cosa que cap dramaturg havia fet abans"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Eurípides era conegut a l'Atenes clàssica com el dramaturg que posava a escena personatges incòmodes — esclaus, dones, estrangers — amb una complexitat moral que el seu públic no esperava. Fer de Medea, una dona estrangera sense drets legals a Atenes, el personatge moralment més ric de la tragèdia, i fer que l'heroi grec Jasó surti com un egoista que racionalitza la traïció, és una crítica implícita al sistema de valors de la seva societat. Que el públic atenès li donés el tercer lloc aquell any pot llegir-se com a confirmació que la crítica va ser rebuda com a incòmoda.",
+              "feedbackWrong": "La tragèdia grega tenia protagonistes femenines, però la novetat d'Eurípides no és simplement tècnica ni és la primera vegada que apareix una protagonista dona. El que fa notable la Medea és la combinació específica: una dona estrangera sense drets, feta protagonista moralment complexa, davant d'un heroi grec que surt com a egoista racionalitzador. En el context atenès del 431 aC, aquesta inversió de les expectatives morals és un acte crític deliberat."
+            }
+          ]
+        },
+
+        {
+          "id": "jas-05",
+          "title": "Medea: la venjança i les seves lectures",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Medea decideix venjar-se. Envia a Glauce una corona i una túnica com a regal de noces — enverinadeses. Glauce i el seu pare Creont moren entre terribles dolors. I llavors Medea fa el que cap versió anterior del mite havia fet: mata els seus propis fills. No per odi als fills — els estima. Els mata per fer a Jasó el dany que ell li pot entendre: privar-lo dels hereus, destruir el futur que havia intentat construir traïnt-la. Fuig a Atenes en un carro alat. Jasó queda sol, sense esposa, sense fills, sense regne. El mite no el presenta com a castigat per la justícia: el presenta com a buit."
+            },
+            {
+              "type": "key-idea",
+              "text": "La venjança de Medea no és un acte de bogeria ni de maldat pura: és la conseqüència lògica d'algú que ha perdut tot el que tenia i que actua amb la mateixa determinació i intel·ligència que sempre ha tingut. El que ha canviat no és Medea — és la direcció en que apunta la seva capacitat."
+            },
+            {
+              "type": "misconception",
+              "belief": "Medea és un personatge de maldat excepcional: matar els propis fills és un acte que cap mare normal no podria cometre i que la situa fora de la condició humana.",
+              "reality": "Eurípides presenta a Medea el debat interior més detallat de tota la tragèdia grega sobre si matar els fills. Medea delibera, plora, canvia de decisió diverses vegades. No és un monstre que actua sense remordiment: és una persona en una situació de destrucció total que pren una decisió terribles amb plena consciència del que perd. Eurípides la situa, incòmodament, dins de la condició humana — no fora d'ella.",
+              "why": "La tendència a monstrualitzar Medea permet no fer-se la pregunta incòmoda que el mite planteja: com arriba una persona intel·ligent, capaç i estimant a un acte com aquest? La resposta no és 'perquè és un monstre' — és 'perquè Jasó ha destruït sistemàticament tot el que la feia possible com a persona, i ella respon amb l'única eina que li queda'."
+            },
+            {
+              "type": "what-would-you-do",
+              "character": "Medea",
+              "emoji": "🔥",
+              "year": "Corint, el dia de les noces de Jasó i Glauce",
+              "setup": "Jasó s'ha casat avui amb Glauce. El rei Creont t'expulsa de Corint demà amb els teus fills. No tens pàtria, no tens família, no tens protecció legal. Els teus fills seran fills d'una exiliada sense drets. Jasó t'ha dit que hauries d'estar agraïda.",
+              "dilemma": "Qué fas?",
+              "options": [
+                { "id": "A", "text": "Accepto l'exili. Marxo amb els meus fills i reconstrueixo una vida en un altre lloc. La supervivència dels fills és el que importa, no la venjança." },
+                { "id": "B", "text": "Em veng. Destrueixo el que Jasó ha construït amb la seva traïció — incloent-hi el futur que creia que tenia." }
+              ],
+              "reveal": "Medea tria la venjança. Mata Glauce i Creont amb verí, i mata els seus propis fills. Fuig en un carro alat. Jasó queda sol.",
+              "analysis": "La decisió de Medea és indefensable des de qualsevol perspectiva moral que valori la vida dels fills. Però Eurípides no la presenta com a indefensable des de la lògica interna de Medea: és la resposta d'algú a qui han tret tot, que actua amb la mateixa determinació que sempre ha tingut, ara dirigida cap a la destrucció. El que la tragèdia ens demana no és que aproven Medea — és que entenguem com s'hi ha arribat. I que preguntem qui és responsable de la cadena de decisions que ha portat fins aquí."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-jas-05-01",
+              "style": "multiple-choice",
+              "question": "Al final de la tragèdia d'Eurípides, Medea escapa en un carro alat i Jasó queda sol. Quin efecte produeix aquest final en el públic?",
+              "options": [
+                "Catarsi: el públic sent alleugeriment perquè la malvada és castigada i el bo pot reconstruir la seva vida",
+                "Justícia poètica: Medea és punida per haver matat els seus fills, ja que haurà de viure amb el que ha fet",
+                "Desconcert moral: la 'víctima' (Jasó) queda sol i buit però no és simpàtic; la 'victimària' (Medea) escapa i no és un monstre simple. El públic no sap de qui prendre el partit",
+                "Advertiment: el final mostra les conseqüències de confiar en una estrangera i serveix de lliçó sobre els perills de les aliances amb el món bàrbar"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Eurípides construeix un final deliberadament incòmode: Jasó no és simpàtic (ha traït sistemàticament la dona que ho va sacrificar tot per ell), però Medea ha matat els seus fills. El públic no pot prendre el partit de cap dels dos sense incómodes. Aquesta és la tècnica d'Eurípides: no resol els dilemes morals — els intensifica fins que el públic ha de confrontar la seva pròpia ambivalència. El desconcert és l'objectiu, no un efecte secundari.",
+              "feedbackWrong": "Eurípides no construeix un final de catarsi, justícia poètica ni advertiment moral. La seva tragèdia funciona diferent: no hi ha un culpable simple ni una víctima simple. Jasó és el traïdor que queda buit; Medea és la traïda que ha fet coses terribles. El final no dona respostes — intensifica les preguntes. El desconcert del públic és exactament l'efecte que Eurípides busca."
+            }
+          ]
+        },
+
+        {
+          "id": "jas-06",
+          "title": "Llegat: l'aventura que no acaba bé",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-jas-06-01",
+              "question": "El mite de Jasó i els Argonautes és, entre altres coses, un mite sobre el lideratge. Quin és el fracàs central de Jasó com a líder?",
+              "options": [
+                "La manca de força: Jasó depèn massa dels altres i no és capaç de completar cap tasca important sense ajuda externa",
+                "L'absència de lleialtat: Jasó usa les persones quan les necessita i les descarta quan ja no les necessita, destruint la confiança que és la base de qualsevol lideratge sostenible",
+                "La manca d'ambició: Jasó s'acontenta amb el vel·lí d'or i no construeix l'imperi que les seves capacitats haurien permès"
+              ],
+              "correct": 1,
+              "explanation": "La investigació sobre lideratge és consistent en un punt: la confiança és la variable que més prediu el rendiment a llarg termini dels equips i les organitzacions. Quan la confiança es trenca, tot el capital social construït al llarg d'una trajectòria col·lapsa ràpidament. Jasó construeix la seva missió sobre la confiança i el sacrifici d'altri — especialment de Medea, però també dels Argonautes. Completa la missió. Però llavors actua com si la confiança fos un recurs consumible i no un actiu que cal mantenir. Quan abandona Medea, no perd simplement una esposa: perd la credibilitat de ser algú en qui es pot confiar. El vaixell de la gran aventura — l'Argo, símbol del que va fer possible — l'acaba matant mentre dorm a la seva ombra. El mite és precís: el que construeixes sobre la traïció acaba caient sobre tu."
+            },
+            {
+              "type": "narrative",
+              "text": "El mite de Jasó i els Argonautes és el primer gran relat d'aventura col·lectiva de la tradició occidental. Però acaba malament. El vel·lí d'or no dona a Jasó el tron que buscava — Pelias és mort però la seva filla governa Iolcos i expulsa Jasó. El matrimoni amb Glauce li dóna un tron que perd quan Medea destrueix la família de Creont. Jasó acaba sol, sense tron, sense fills, sense Medea, vaguejant per Grècia. La tradició diu que mor quan una biga podrida de l'Argo cau sobre ell mentre dorm a la seva ombra. El vaixell de la gran aventura l'acaba matant."
+            },
+            {
+              "type": "key-idea",
+              "text": "El mite de Jasó és, entre altres coses, un avís sobre la diferència entre l'èxit de la missió i l'èxit de la vida. Jasó completa la missió impossible. Obté el vel·lí. Però les decisions que pren per obtenir-lo i per gestionar el que ve després el destrueixen. Completar la missió no és suficient."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "c. 800 aC",
+                  "title": "Primers fragments del mite",
+                  "text": "El viatge dels Argonautes apareix en referències a Homer i Hesíode. El vel·lí i la Còlquida son elements establerts. Medea és present però secundària."
+                },
+                {
+                  "year": "c. 480 aC",
+                  "title": "Píndar, Pítica IV",
+                  "text": "La primera narració extensa conservada. Píndar celebra Jasó com a heroi i tracta Medea amb admiració per les seves capacitats profètiques."
+                },
+                {
+                  "year": "431 aC",
+                  "title": "Eurípides, Medea",
+                  "text": "La transformació radical: Medea passa de personatge secundari a protagonista. La traïció de Jasó i la venjança de Medea es converteixen en el centre del mite. Tercer lloc al concurs."
+                },
+                {
+                  "year": "c. 250 aC",
+                  "title": "Apol·loni de Rodes, Argonàutiques",
+                  "text": "L'epopeia hel·lenística que narra tot el viatge. Medea és representada amb una profunditat psicològica sense precedents: el seu debat interior és un dels primers exemples de flux de consciència en la literatura occidental."
+                },
+                {
+                  "year": "1969",
+                  "title": "Pasolini, Medea (film)",
+                  "text": "Pasolini llegeix el mite com un xoc entre dues civilitzacions: la màgica i premoderna de Medea (la Còlquida) i la racional i desencantada de Jasó (Grècia). La traïció és el xoc cultural, no la traïció personal."
+                },
+                {
+                  "year": "Avui",
+                  "title": "Medea com a figura de la literatura postcolonial",
+                  "text": "Escriptores del Carib, Àfrica i Amèrica Llatina han reescrit Medea com a figura de la dona colonitzada que és usada i descartada pel poder colonial. La relació Jasó-Medea com a metàfora del colonialisme."
+                }
+              ]
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Dones que van canviar la historia",
+              "moduleEmoji": "⚡",
+              "concept": "Medea com a precursora de la figura de la dona silenciada",
+              "text": "Medea és un dels primers personatges femenins de la literatura occidental a qui se li dona veu pròpia per articular la seva situació. Eurípides escriu els seus monòlegs amb una precisió psicològica que no tornarà a aparèixer fins al segle XIX. La tradició literària posterior va usar Medea com a arquetip de la 'dona perillosa' — però la lectura contemporània veu en ella quelcom diferent: la primera articulació literària de com una societat pot destruir una persona sistemàticament i sorprendre's del resultat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-jas-06-01",
+              "style": "detect-error",
+              "statement": "La tragèdia de Jasó és que va confiar massa en Medea, una estrangera amb poders perillosos que al final el va destruir.",
+              "isCorrect": false,
+              "feedbackExplanation": "Fals. La lectura del mite com a advertiment sobre confiar en estrangers perillosos és exactament la que Eurípides subverteix. La tragèdia de Jasó no ve de confiar en Medea — ve de trair-la un cop ha obtingut el que necessitava d'ella. El que destrueix Jasó no és Medea: és la seva pròpia decisió de sacrificar la persona que ho va fer possible per un matrimoni convenient. Culpar Medea de la destrucció de Jasó és repetir l'argument que el mateix Jasó usa per justificar la traïció — i que Eurípides construeix perquè el públic el reconegui com a fals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-jas-06-02",
+              "style": "multiple-choice",
+              "question": "Pasolini va llegir el mite de Jasó i Medea com un xoc entre dues civilitzacions. Quina és la lectura contemporània que més ha expandit el significat del mite?",
+              "options": [
+                "La lectura arqueològica: el vel·lí d'or representa el comerç de pells de la mar Negra, i el mite és el record d'una ruta comercial micènica",
+                "La lectura psicoanalítica: Medea representa l'inconscient femení reprimit que quan s'allibera destrueix l'ordre patriarcal representat per Jasó",
+                "La lectura postcolonial: la relació Jasó-Medea com a metàfora del colonialisme — l'estranger que usa els recursos (màgics, humans) d'una cultura considerada 'bàrbara' i la descarta un cop obtingut el que volia",
+                "La lectura existencialista: Jasó i Medea com a exemple de la impossibilitat de la comunicació autèntica entre individus de mons radicalment diferents"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "La lectura postcolonial ha estat la més productiva en les últimes dècades: Jasó arriba a la Còlquida (territori 'bàrbar'), usa els coneixements i el sacrifici de Medea per obtenir el que vol (el vel·lí), la porta a la seva civilització (Grècia), i la descarta quan ja no la necessita — dient-li que hauria d'estar agraïda per haver estat portada al 'món civilitzat'. L'estructura és idèntica a la del colonialisme clàssic. Escriptores com Toni Morrison, Derek Walcott i Aimé Césaire han reescrit Medea des d'aquesta perspectiva.",
+              "feedbackWrong": "Les lectures arqueològica, psicoanalítica i existencialista son totes presents en la scholarship sobre el mite. Però la que ha generat més producció literària i crítica en les últimes dècades és la postcolonial: la relació Jasó-Medea com a metàfora de l'estructura del colonialisme — l'ús dels recursos d'una cultura 'bàrbara' seguida del seu descart i la justificació que el descart és en realitat un favor."
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

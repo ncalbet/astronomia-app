@@ -1,0 +1,415 @@
+{
+  "id": "module-mit-02-icar-dedal",
+  "title": "Ícar i Dèdal: els límits de l'ambició",
+  "emoji": "🪶",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "icar-narracio-interpretacio",
+      "title": "Del mite a la vida",
+      "icon": "☀️",
+      "description": "Del relat original a la seva interpretació filosòfica, psicològica i contemporània",
+      "style": "Narratiu · del mite a la interpretació",
+      "lessons": [
+
+        {
+          "id": "icar-01",
+          "title": "L'home que va construir ales",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Creta, segle XIII aC. Un home és empresonat juntament amb el seu fill al laberint que ell mateix ha construït. El seu nom és Dèdal, i és el millor artesà del món conegut. El rei Minos el va contractar per dissenyar una presó impossible d'escapar. Ara, pel seu propi bé, ha de demostrar que estava equivocat."
+            },
+            {
+              "type": "key-idea",
+              "text": "Dèdal és el primer enginyer de la mitologia grega: un home que aplica la intel·ligència tècnica per resoldre problemes impossibles. Però la seva genialitat no el protegeix de les conseqüències dels seus invents."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què Dèdal estava empresonat al seu propi laberint?",
+              "content": "Dèdal havia ajudat Pasífae, l'esposa del rei Minos, a consumar una unió prohibida amb un toro blanc enviat pels déus. D'aquesta unió va néixer el Minotaure — meitat home, meitat bou. Minos, humiliat, va ordenar a Dèdal construir el laberint per amagar la criatura. Però com que Dèdal en coneixia el secret i els passadissos, Minos el va empresonar dins. La presó perfecta té un defecte: el seu arquitecte sempre en coneix les debilitats."
+            },
+            {
+              "type": "prediction",
+              "question": "Dèdal és el millor artesà del món i ha de fugir d'una illa envoltada de mar, vigilada per naus. Quina solució creus que imaginarà — i per quin camí intentarà escapar?",
+              "hint": "Recorda que el mar i la terra estan vigilats. Queda una via lliure."
+            },
+            {
+              "type": "narrative",
+              "text": "Dèdal va observar els ocells durant setmanes. Va recollir plomes, les va ordenar de menor a major, i les va enganxar amb cera i fils fins a construir dues parelles d'ales. Va posar unes a Ícar, el seu fill, i les altres a ell mateix. Però abans de saltar al buit, li va donar una instrucció precisa: vola a mitja alçada. Si vols massa baix, la humitat del mar alourà les plomes. Si vols massa alt, la calor del sol fondrà la cera."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-icar-01-01",
+              "style": "multiple-choice",
+              "question": "Per què Dèdal insisteix que Ícar voli 'a mitja alçada' i no simplement 'tan alt com puguis'?",
+              "options": [
+                "Perquè volar massa alt esgota les forces i Ícar podria caure per cansament",
+                "Perquè la ruta de fugida passa per les zones mitges del cel, lluny de les naus",
+                "Perquè els extrems — tant el fred humit del mar com la calor del sol — destrueixen les ales, i la seguretat és en l'equilibri",
+                "Perquè els déus castiguen qui vola a la seva alçada, però no els qui volen per sota dels núvols"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. L'advertiment de Dèdal és tècnic, no moral: les ales no aguanten els extrems. La seguretat no és una virtut abstracta — és l'única opció física viable. El mite ens explica que ignorar les limitacions tècniques té conseqüències físiques.",
+              "feedbackWrong": "L'advertiment de Dèdal és tècnic: la cera es fon amb la calor del sol i les plomes s'empapen amb la humitat del mar. No és una qüestió de forces, ni de ruta, ni de càstig diví — és física. La seguretat és en l'equilibri entre dos extrems letals."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-icar-01-02",
+              "style": "detect-error",
+              "statement": "Dèdal és el protagonista moral del mite: el que actua correctament i sobreviu gràcies a la prudència.",
+              "isCorrect": true,
+              "feedbackExplanation": "Cert, i és un detall que la versió popular del mite tendeix a oblidar. Ícar és el personatge dramàtic, però Dèdal és el protagonista moral: planifica, adverteix, segueix les regles que ell mateix estableix, i escapa. La seva genialitat no és l'ambició, sinó la tècnica combinada amb l'autocontrol."
+            }
+          ]
+        },
+
+        {
+          "id": "icar-02",
+          "title": "La caiguda",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-icar-02-01",
+              "question": "Dèdal va sobreviure perquè va seguir les regles, i Ícar va morir perquè no. Però Dèdal va construir el laberint que va empresonar innocents, va ajudar Pasífae en la seva unió prohibida, i va crear les ales que van matar el seu fill. Si Ícar hagués sobreviscut, hauria estat un moment d'heroisme — o una nova causa de problemes?",
+              "options": [
+                "La supervivència d'Ícar hauria estat heroica: hauria demostrat que la prudència i la llibertat son compatibles",
+                "La supervivència d'Ícar hauria estat irrellevant moralment: el mite no és sobre ell, sinó sobre Dèdal i la responsabilitat de l'inventor",
+                "No hi ha resposta neta: el mite ens força a preguntar si la genialitat tècnica de Dèdal és virtuosa quan les seves creacions — laberint, ales — sempre acaben causant danys"
+              ],
+              "correct": 2,
+              "explanation": "El mite d'Ícar i Dèdal no és un conte moral simple. Dèdal és presentat com a prudent i hàbil, però el seu historial és profundament ambivalent: va construir una presó, va facilitar una unió monstruosa, i va dissenyar les ales que van matar el seu fill. La seva 'prudència' de volar a mitja alçada no redimeix el conjunt. Això planteja una pregunta que la Grècia clàssica feia constantment i que no ha perdut vigència: quin és el límit de la responsabilitat de qui inventa o dissenya alguna cosa? Prometeu va robar el foc i va ser encadenat. Dèdal va inventar el laberint i va volar a casa. La diferència no és la moralitat — és la sort i l'habilitat tècnica. El mite ens resisteix la comoditat d'una lliçó simple."
+            },
+            {
+              "type": "misconception",
+              "belief": "Ícar cau perquè és massa ambiciós i vol ser millor que els déus.",
+              "reality": "Ícar no vol superar els déus ni obtenir poder. Vol continuar volant, sentir la llibertat, gaudir de la sensació. La hybris d'Ícar no és ambició de domini, sinó incapacitat de detenir-se davant el plaer immediat. No és la voluntat de poder — és la incapacitat de dir 'n'hi ha prou'.",
+              "why": "La versió popular del mite simplifica Ícar com un arquetip d'ambició descontrolada. Però Ovidi i els fonts originals descriuen el moviment d'Ícar cap amunt com a delectació, com a joia — no com a recerca de poder. Això fa el mite més incòmode: no ens adverteix contra els tirans, sinó contra la nostra pròpia tendència a ignorar els límits quan ho estem passant bé."
+            },
+            {
+              "type": "narrative",
+              "text": "Van volar. Pescadors, llauradors i pastors els miraven des de baix, convençuts que eren déus. La sensació de llibertat era insuportablement bella. I aleshores Ícar va mirar amunt."
+            },
+            {
+              "type": "primary-source",
+              "label": "Ovidi, Metamorfosis, Llibre VIII (8 dC)",
+              "source": "Ovidi, Metamorfosis, traducció del llatí",
+              "text": "\"El noi va començar a delectar-se en el seu vol atrevit, va abandonar el seu guia, i, atret per un desig ardent de cel, va prendre un camí més elevat. La proximitat del sol abrasador va ablanir la cera perfumada que fixava les plomes. La cera es va fondre. Ícar va agitar els seus braços nus, però sense plomes ja no tenia res que aguantés l'aire, i la seva boca, cridant el nom del seu pare, va ser engolida per les aigües blavoses del mar.\"",
+              "questions": [
+                "Ovidi diu que Ícar va 'abandonar el seu guia'. És només una descripció física — s'allunya de Dèdal — o hi ha una altra lectura possible d'aquesta frase?",
+                "Per qué la boca de l'Ícar que crida el nom del seu pare és el darrer detall que ens dóna Ovidi? Què aporta emocionalment que no aportaria simplement descriure la caiguda?",
+                "El text descriu el desig d'Ícar com 'ardent'. És una metàfora accidental o deliberada donada la causa de la mort?"
+              ]
+            },
+            {
+              "type": "key-idea",
+              "text": "La hybris grega no és simplement 'arrogància'. És la transgressió dels límits que els déus han posat als humans — l'intent d'ocupar un espai que no et correspon. La hybris no és un defecte de caràcter: és un acte que desequilibra l'ordre del cosmos."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què els grecs inventaren la paraula 'hybris' i per a qué la feien servir realment?",
+              "content": "En el dret atenès, hybris era un terme legal, no filosòfic. Es referia a la humiliació pública deliberada d'una altra persona — violar el seu cos, exhibir-la, degradar-la davant d'altres. Era el crim del que s'excedia en el poder per plaer propi, no per necessitat. Quan els filòsofs i els poetes el van adoptar, van conservar aquest nucli: hybris no és simplement voler massa, sinó traspassar els límits d'altri —dels déus, de l'ordre natural— per satisfacció personal. Ícar no vol fer mal a ningú: però el seu desig ignora els límits que fan possible la vida."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-icar-02-01",
+              "style": "detect-error",
+              "statement": "El mite d'Ícar és un advertiment contra l'ambició excessiva: Ícar vol ser més gran del que és i els déus el castiguen per haver-se atrevit a volar tan alt.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació conté dos errors. Primer, Ícar no vol 'ser més gran' — vol continuar gaudint del vol. El seu impuls és hedonista, no ambiciós. Segon, cap déu el castiga: la cera es fon per les lleis de la física, no per intervenció divina. El mite és molt més materialista del que sembla: les conseqüències vénen de la naturalesa, no del càstig sobrenatural. Això el fa encara més rellevant."
+            }
+          ]
+        },
+
+        {
+          "id": "icar-03",
+          "title": "El pare i el fill",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "La versió popular del mite oblida Dèdal gairebé del tot. Ícar és el personatge que recordem: la caiguda, les plomes al mar, la imatge del jove que va massa amunt. Però Dèdal arriba a terra. Aterra a Sicília, entra al temple d'Apol·lo, i penja les ales com a ofrena. No vol tornar a volar mai més. Té setanta anys i acaba de veure morir el seu fill."
+            },
+            {
+              "type": "perspective",
+              "situation": "El vol de fuga des de Creta",
+              "perspectives": [
+                {
+                  "role": "Dèdal",
+                  "emoji": "🔧",
+                  "text": "He calculat cada detall: el pes de les plomes, la temperatura a les diferents alçades, la distància fins a la costa. Li he explicat tot a Ícar. Sé que és jove, però no és un nen — té edat per entendre un advertiment tècnic. Quan el veig pujar, és com veure un dels meus invents fallar davant meu. No per un error de disseny: per un error d'ús. I no puc fer res. La física no negocia."
+                },
+                {
+                  "role": "Ícar",
+                  "emoji": "☀️",
+                  "text": "El meu pare ha passat la vida calculant, mesurant, contenint-se. Ha construït coses meravelloses per a altres persones — el laberint de Minos, les ales per a nosaltres — i mai per a ell. Ara volem per primera vegada. Sento el sol als cabells i els braços. No vull que això acabi. Ja tindré temps de ser prudent quan sigui gran. Ara vull saber fins on arriben les ales."
+                },
+                {
+                  "role": "Un pescador que els veu des de baix",
+                  "emoji": "🎣",
+                  "text": "Dues siluetes al cel. Primer penso que són àguiles enormes. Després veig que baten les ales com humans. Déus, potser. O folls. L'un va molt amunt — massa. L'altre el segueix amb la mirada. I de sobte el que va amunt cau, com una pedra, directe al mar. L'altre continua volant, sol, fins que el perdo de vista. No sé si plorava. Des d'aquí no es veia."
+                }
+              ],
+              "reflection": "Des de quina perspectiva entens millor el mite — la de Dèdal, la d'Ícar, o la del testimoni extern? Què diu de tu la que tries?"
+            },
+            {
+              "type": "expandable",
+              "label": "Com pinten els artistes la caiguda d'Ícar — i qué trien no mostrar?",
+              "content": "La pintura més famosa sobre el tema és 'Paisatge amb la caiguda d'Ícar' (atribuïda a Bruegel el Vell, c. 1560). El detall inquietant: Ícar gairebé no hi apareix. Al fons del quadre, al mar, surten dues cames que s'enfonsen. El primer pla és ocupat per un llaurador que treballa, un pastor que mira el cel en una altra direcció, un vaixell que continua la seva ruta. El títol diu 'la caiguda d'Ícar' però el quadre és sobre la indiferència del món davant la catàstrofe aliena. W.H. Auden va escriure un poema famós sobre aquesta observació: 'Sobre el sofriment mai s'equivocaven els Antics Mestres'. El sofriment passsa mentre algú menja, mentre algú obre una finestra. El món no s'atura."
+            },
+            {
+              "type": "quote",
+              "text": "Sobre el sofriment mai s'equivocaven, els Antics Mestres: com bé entenien la seva posició humana; com passava mentre algú menjava o obria una finestra o simplement caminava avorrida.",
+              "author": "W. H. Auden, Musée des Beaux Arts (1938)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-icar-03-01",
+              "style": "multiple-choice",
+              "question": "Dèdal penja les ales al temple d'Apol·lo quan arriba a terra i no torna a volar mai més. Com interpretes aquest gest?",
+              "options": [
+                "És un acte de gratitud religiosa: ofereix el seu millor invent als déus per haver-lo salvat",
+                "És un acte de renúncia i dol: les ales han mort el seu fill i no les vol veure mai més",
+                "És un acte d'humilitat tècnica: reconeix que les ales eren massa perilloses per a l'ús humà i les retira de la circulació",
+                "És un acte calculat: sap que amb les ales podrien perseguir-lo, i és més segur desfer-se'n"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "La interpretació més sostinguda pels textos antics és la del dol i la renúncia. Les ales no han fallat tècnicament — han fallat humanament. Dèdal, l'home que ho calcula tot, es troba davant d'una cosa que no podia calcular: que el seu fill no seguiria les instruccions. Penjar les ales és deixar enrere l'instrument d'una pèrdua que no pot reparar.",
+              "feedbackWrong": "Els textos antics no suggereixen gratitud religiosa, ni reconeixement d'un error tècnic, ni precaució estratègica. La lectura més consistent amb el conjunt del mite és la del dol: les ales han matat el seu fill, i Dèdal no les vol tornar a tocar. L'inventor que ho construeix tot es troba davant d'una cosa que cap enginy pot arreglar."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una relació on has donat instruccions, advertiments o consells a algú que estimaves — i no els ha seguit. Com vas viure-ho: com un fracàs teu, com una decisió seva, o com les dues coses alhora?",
+              "prompt": "No cal escriure res. El mite funciona millor si el deixes ressonar una mica."
+            }
+          ]
+        },
+
+        {
+          "id": "icar-04",
+          "title": "Hybris: quan el límit es trenca",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Si Ícar hagués viscut avui, probablement apareixeria en un vídeo viral. L'home que va saltar des de massa amunt, que va conduir massa ràpid, que va invertir tot el que tenia en un actiu que tothom deia que pujaria sempre. La paraula 'hybris' ha desaparegut del vocabulari quotidià, però el patró que descriu és omnipresent."
+            },
+            {
+              "type": "analogy",
+              "concept": "La hybris com a falla d'actualització",
+              "emoji": "📈",
+              "analogy": "Imagina un inversor que ha guanyat diners en tots els mercats alcistes dels darrers deu anys. Cada vegada que ha apostat fort, ha guanyat. Cada vegada que algú l'ha advertit de ser prudent, els fets li han donat la raó a ell. Fins que no. La hybris no és creure que ets invencible des del primer dia — és no actualitzar la teva avaluació del risc quan l'èxit acumulat t'ha convençut que les regles generals no s'apliquen al teu cas concret.",
+              "bridge": "Ícar no ignora l'advertiment de Dèdal per arrogància congènita. Ho fa perquè fins aquell moment volar ha funcionat perfectament. L'experiència positiva acumulada desactiva la percepció del risc. Això és el que fan els mercats en bombolla, les guerres que 'acabaran en tres setmanes', els cigarrets que 'a mi no em faran res'. La hybris és l'error cognitiu de creure que el que ha funcionat fins ara continuarà funcionant per sempre."
+            },
+            {
+              "type": "key-idea",
+              "text": "La hybris moderna no és el pecat d'orgull dels medievals. És un error epistèmic: creure que la teva situació particular és una excepció a les regles generals que s'apliquen a tothom altre."
+            },
+            {
+              "type": "comparison",
+              "title": "Hybris clàssica vs. hybris contemporània",
+              "labelA": "Ícar (hybris clàssica)",
+              "labelB": "Patrons contemporanis equivalents",
+              "items": [
+                {
+                  "label": "Desencadenant",
+                  "a": "La sensació de volar lliurement sense conseqüències immediates",
+                  "b": "L'èxit acumulat que sembla confirmar que les regles no s'apliquen"
+                },
+                {
+                  "label": "Advertiment ignorat",
+                  "a": "Instruccions tècniques de Dèdal: vola a mitja alçada",
+                  "b": "Senyals d'alarma, experts, precedents històrics de fallades similars"
+                },
+                {
+                  "label": "Mecanisme de la caiguda",
+                  "a": "Física: la cera es fon amb la calor",
+                  "b": "Física social o econòmica: les bombolles esclaten, els sistemes col·lapsen"
+                },
+                {
+                  "label": "Qui paga les conseqüències",
+                  "a": "Ícar — però Dèdal viu amb la pèrdua",
+                  "b": "Sovint no només qui ha comès la hybris, sinó els qui depenen d'ell"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-icar-04-01",
+              "style": "multiple-choice",
+              "question": "Quin d'aquests casos s'assembla més a la hybris d'Ícar, tal com l'hem definit?",
+              "options": [
+                "Un empresari que arrisca tot el capital en un negoci nou sense experiència prèvia al sector",
+                "Un alpinista expert que decideix intentar el cim sense oxigen suplementari tot i les condicions meteorològiques adverses, perquè ho ha fet abans amb bon temps",
+                "Un estudiant que no estudia per a l'examen perquè creu que és més intel·ligent que els seus companys",
+                "Un polític que ment sistemàticament convençut que ningú no ho descobrirà"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "L'alpinista és el cas més propera a la hybris d'Ícar: no és ignorant ni necessàriament arrogant, és expert. Però l'experiència prèvia en condicions favorables li ha creat una confiança que no s'actualitza davant de les noves condicions adverses. Com Ícar, no falla per incompetència — falla perquè l'èxit acumulat ha desactivat la percepció del risc.",
+              "feedbackWrong": "La hybris que el mite descriu no és simple arrogància ni ignorància — és el patró de qui té experiència real i èxit previ, però no actualitza la seva percepció del risc quan les condicions canvien. L'alpinista expert que ignora les condicions adverses perquè 'ho ha fet abans' és el cas més proper a Ícar: no falla per incompetència, sinó per excés de confiança basat en èxits passats."
+            },
+            {
+              "type": "debate",
+              "question": "La hybris és sempre un error — o a vegades és necessari volar massa amunt per descobrir fins on pots arribar?",
+              "positionA": {
+                "label": "La hybris és sempre un error",
+                "argument": "Els límits existeixen per raons reals, no arbitràries. La cera es fon perquè el sol és calent — no perquè els déus siguin envejosos. Ignorar els límits sistèmicament no és valentia: és incapacitat d'aprendre de les condicions objectives. La prudència de Dèdal no és timidesa — és la condició de possibilitat de qualsevol èxit sostenible."
+              },
+              "positionB": {
+                "label": "Sense hybris no hi ha progrés",
+                "argument": "Tots els grans avenços de la humanitat han requerit traspassar els límits que la prudència del moment considerava infranquejables. Els que van volar per primera vegada en avions, els que van pujar als primers rascacels, els que van dissenyar la primera vacuna — tots van ignorar advertiments raonables. Si Ícar hagués sobreviscut, seríem a l'altra cara del mite."
+              },
+              "reflection": "Hi ha una diferència entre traspassar límits convencionals i ignorar límits físics. On traçaries la línia?",
+              "context": "La psicologia del risc distingeix entre 'risc calculat' (coneixes els límits i decideixes conscientment assumir-los) i 'hybris' en sentit estricte (creus que els límits no s'apliquen al teu cas). La primera pot ser necessària per al progrés. La segona és sempre un error epistèmic, independent del resultat."
+            }
+          ]
+        },
+
+        {
+          "id": "icar-05",
+          "title": "El mite en el temps",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Cada època ha llegit el mite d'Ícar de manera diferent. El Renaixement el va convertir en un símbol d'aspiració humana — l'home que gosa desafiar el cel. El Romanticisme va fer d'Ícar un heroi tràgic: preferible una mort gloriosa a una vida mediocre. El segle XX el va llegir com una advertència sobre la tecnologia descontrolada. Avui, en plena era de start-ups i disrupció, Ícar és a vegades una icona positiva. Tots llegim el mateix mite i hi veiem coses oposades. Això no és un accident."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "c. 700 aC",
+                  "title": "Primers fragments del mite",
+                  "text": "El mite apareix en fragments de poesia grega arcaica. Dèdal és el protagonista: artesà, enginyós, capaç. Ícar és secundari."
+                },
+                {
+                  "year": "c. 8 dC",
+                  "title": "Ovidi, Metamorfosis",
+                  "text": "La versió que ha arribat fins avui. Ovidi posa l'accent en la sensació de vol d'Ícar i en el dol de Dèdal. La caiguda és descrita amb precisió física i emoció lírica."
+                },
+                {
+                  "year": "c. 1560",
+                  "title": "Bruegel, 'Paisatge amb la caiguda d'Ícar'",
+                  "text": "Ícar gairebé no apareix al quadre. El món continua indiferent. La catàstrofe és un detall de fons mentre un llaurador treballa."
+                },
+                {
+                  "year": "1938",
+                  "title": "W. H. Auden, 'Musée des Beaux Arts'",
+                  "text": "El poema reflexiona sobre el quadre de Bruegel: el sofriment sempre succeeix mentre el món és ocupat en altra cosa. Ícar com a metàfora de l'indiferència col·lectiva davant el dolor aliè."
+                },
+                {
+                  "year": "Segle XXI",
+                  "title": "Ícar com a icona emprenedora",
+                  "text": "En la cultura start-up, 'vola alt' i 'fracassa ràpid' converteixen Ícar en un model. La hybris es reinterpreta com a valentia. El mite s'ha invertit: ara Dèdal és el covard i Ícar l'heroi."
+                }
+              ]
+            },
+            {
+              "type": "key-idea",
+              "text": "Un mite no té una interpretació correcta i definitiva. Cada lectura revela tant sobre el moment que llegeix com sobre el text que llegeix. El que una cultura fa d'Ícar és un diagnòstic de com aquella cultura entén el risc, el fracàs i l'ambició."
+            },
+            {
+              "type": "expandable",
+              "label": "Existeix un 'efecte Ícar' documentat en gestió empresarial?",
+              "content": "Sí. Danny Miller, professor d'estratègia empresarial, va publicar el 1990 un llibre titulat 'The Icarus Paradox' on documentava un patró consistent: les empreses que havien triomfat gràcies a una fortalesa específica (innovació, qualitat, eficiència de costos) tendien a exagerar precisament aquella fortalesa fins a l'excés, fins que es convertia en la causa del seu col·lapse. Apple va arribar a ser tan 'diferent' que va deixar de ser compatible. IBM va ser tan eficient en costos que va perdre la capacitat d'innovar. El que et porta a l'èxit, portat a l'extrem, et porta al fracàs. Dèdal hauria reconegut el patró."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-icar-05-01",
+              "style": "detect-error",
+              "statement": "El fet que cultures molt diferents (el Renaixement, el Romanticisme, la cultura start-up actual) hagin interpretat el mite d'Ícar de maneres oposades demostra que el mite no té cap significat estable i per tant és inútil com a eina de pensament.",
+              "isCorrect": false,
+              "feedbackExplanation": "Fals. La pluralitat d'interpretacions no buidà el mite de sentit — el converteix en una eina de diagnòstic. Precisament perquè el mite és prou ric per suportar lectures oposades, permet detectar com cada época gestiona la tensió entre ambició i límit. Un mite que tothom llegís de la mateixa manera seria propaganda, no literatura."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "Els paradigmes de Kuhn",
+              "text": "Thomas Kuhn va argumentar que les revolucions científiques no succeeixen quan apareix nova evidència, sinó quan la pressió acumulada fa insostenible el paradigma anterior. El científic que manté el paradigma vell fins al final és llegit, retrospectivament, com un Dèdal que vola massa baix. El que l'abandona massa aviat, com un Ícar. La ciència viu en la mateixa tensió que el mite."
+            }
+          ]
+        },
+
+        {
+          "id": "icar-06",
+          "title": "Qui ets tu: Ícar o Dèdal?",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-icar-06-01",
+              "question": "El mite acaba amb Dèdal viu i Ícar mort. Des d'un punt de vista estrictament moral, quin dels dos ha viscut millor?",
+              "options": [
+                "Dèdal: va ser prudent, va seguir les regles, va sobreviure. La prudència és una virtut i les virtuts tenen el seu premi",
+                "Ícar: va viure plenament el moment, va triar la intensitat sobre la seguretat, i va morir fent el que l'omplia. Una vida breu intensa val més que una de llarga i continguda",
+                "La pregunta no té resposta neta: depèn de quina teoria del benestar apliques, i el mite és valuós precisament perquè ens força a triar"
+              ],
+              "correct": 2,
+              "explanation": "Aquesta és una de les preguntes filosòfiques més antigues i no resoltes: és millor una vida llarga i prudent o una de breu i intensa? Els grecs tenien dos conceptes per al temps: chronos (temps cronològic, quantitatiu) i kairos (el moment oportú, qualitatiu). Ícar mor en un moment de kairos pur. Dèdal sobreviu en el chronos. La filosofia hedonista diria que Ícar va triar correctament: va maximitzar la intensitat de l'experiència. L'estoïcisme diria que Dèdal va actuar virtuosament: va controlar el que podia controlar i va acceptar el que no podia. L'existencialisme de Sartre diria que no hi ha resposta universal: cada individu tria el criteri pel qual vol ser jutjat. El mite no resol la tensió — la posa en escena perquè nosaltres la resolguem, o aprenguem a viure amb ella sense resoldre-la."
+            },
+            {
+              "type": "narrative",
+              "text": "El mite ens ofereix dos models humans perfectament construïts. Dèdal: intel·ligència tècnica, prudència, autocontrol, i una llarga llista de creacions que han danyat o destruït persones. Ícar: impuls, joia, incapacitat de detenir-se — i una mort que ha alimentat la imaginació humana durant vint-i-vuit segles. No hi ha una resposta obvia sobre qui val més la pena ser."
+            },
+            {
+              "type": "what-would-you-do",
+              "character": "Dèdal",
+              "emoji": "🔧",
+              "year": "El moment del vol",
+              "setup": "Les ales funcionen. Portes setmanes calculant-ho tot. Has explicat a Ícar exactament com funcionen i quins son els límits: ni massa baix ni massa alt. El noi t'ha escoltat — o almenys ho semblava. Ara sou a l'aire. El vent és perfecte. La fugida funciona. I veus que Ícar comença a pujar.",
+              "dilemma": "Pots cridar-li — saps que et sentirà. O pots continuar volant i confiar que recordarà l'advertiment.",
+              "options": [
+                { "id": "A", "text": "Crides amb tota la força: 'Ícar! Baixa! Les ales no aguantaran!' Arrisques que el so et delati als perseguidors." },
+                { "id": "B", "text": "No dius res. Has fet la teva feina: li has explicat els límits. Ara és la seva decisió. Un home adult — inclús jove — és responsable de les seves pròpies accions." }
+              ],
+              "reveal": "Els textos antics no especifiquen si Dèdal va cridar o no. Ovidi descriu Dèdal mirant enrere i veient les plomes al mar. El silenci del text és significatiu: no sabem si va intentar avisar-lo.",
+              "analysis": "Aquesta ambigüitat és pedagògicament central. Si Dèdal va cridar i Ícar no el va escoltar, el mite és sobre la impossibilitat de protegir algú que no vol ser protegit. Si Dèdal no va cridar, el mite és sobre els límits de la responsabilitat paterna — o sobre la resignació d'un home que sap que les seves paraules ja no arriben. La tragèdia funciona en tots dos casos."
+            },
+            {
+              "type": "before-after",
+              "title": "Dèdal: abans i després de la caiguda d'Ícar",
+              "before": {
+                "label": "Dèdal abans del vol",
+                "points": [
+                  "El millor artesà del món conegut, orgullós de la seva tècnica",
+                  "Constructor del laberint de Creta, de les ales, de mecanismes impossibles",
+                  "Pare que creu que les instruccions correctes protegeixen el fill",
+                  "Home convençut que la intel·ligència tècnica pot resoldre qualsevol problema"
+                ]
+              },
+              "after": {
+                "label": "Dèdal després de la caiguda",
+                "points": [
+                  "Penjarà les ales al temple i no tornarà a volar mai més",
+                  "Continua sent artesà, però cap text antic parla d'una gran obra posterior",
+                  "Sap que l'invent perfecte pot matar qui no sap usar-lo",
+                  "Home que ha descobert el límit de la tècnica: no pot compensar la judgement humana"
+                ]
+              },
+              "insight": "La transformació de Dèdal no és visible des de fora — cap guerra, cap regnats, cap obra monumental. És la transformació interior de qui descobreix que ser el millor en el que fa no és suficient per protegir el que estima."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-icar-06-01",
+              "style": "multiple-choice",
+              "question": "El mite d'Ícar i Dèdal s'ha llegit com una advertència sobre la tecnologia, sobre l'ambició, sobre la relació pare-fill, i sobre la hybris. Quina d'aquestes lectures creus que és la més útil per al món actual?",
+              "options": [
+                "La tecnològica: tota eina poderosa pot destruir qui no la domina completament",
+                "La psicològica: l'èxit acumulat desactiva la percepció del risc fins que és massa tard",
+                "La relacional: no pots protegir algú de les seves pròpies decisions, per molt que l'estimis",
+                "Totes tres capten una part real del mite i cap no és completa per si sola"
+              ],
+              "correct": 3,
+              "feedbackCorrect": "Exactament. Un mite amb tres lectures iguals de vàlides és un mite sobre una tensió humana genuïna i complexa. Que cap lectura sigui completa per si sola és precisament el que fa el mite útil: ens força a mantenir diverses perspectives simultànies, que és el que requereix qualsevol situació humana real.",
+              "feedbackWrong": "Cap de les tres lectures individuals és falsa — però cap és completa. Un mite que resisteix una reducció a un sol missatge és un mite sobre quelcom genuïnament complex. La tensió entre la dimensió tecnològica, la psicològica i la relacional és inseparable: en la vida real, les tres operen simultàniament."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en un moment de la teva vida en què vas ignorar un advertiment i va sortir bé. I en un altre en què el vas ignorar i va sortir malament. Qué diferencia els dos casos — la decisió, la sort, o les dues coses?",
+              "prompt": "Aquesta és la pregunta que el mite deixa oberta. No hi ha resposta correcta."
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

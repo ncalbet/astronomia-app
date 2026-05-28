@@ -1,0 +1,452 @@
+{
+  "id": "module-mit-04-sisifo",
+  "title": "Sísifo: el sentit de l'absurd",
+  "emoji": "🪨",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "sisifo-narracio-interpretacio",
+      "title": "Del mite a la vida",
+      "icon": "🔄",
+      "description": "Del relat original al pensament de Camus, del càstig diví a la pregunta sobre el sentit de qualsevol vida humana",
+      "style": "Narratiu · del mite a la interpretació filosòfica",
+      "lessons": [
+
+        {
+          "id": "sis-01",
+          "title": "El pitjor càstig dels déus",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Els grecs van imaginar molts càstigs per als mortals que havien insultat els déus. Tàntal, condemnat a passar l'eternitat envoltat d'aigua i fruita que s'allunyen quan intenta agafar-les. Prometeu, encadenat a una roca mentre una àguila li devora el fetge cada dia, que creix de nit per ser devorat de nou. Però el càstig de Sísifo és diferent. No hi ha dolor físic, no hi ha humiliació pública, no hi ha privació. Sísifo ha de pujar una roca enorme fins al cim d'una muntanya. Cada vegada que quasi hi arriba, la roca llisca i cau. I Sísifo torna a baixar. I torna a pujar."
+            },
+            {
+              "type": "prediction",
+              "question": "Abans de continuar: per qué creus que els grecs van considerar que aquest era un dels pitjors càstigs imaginables? Què té de particular que no tenen el dolor físic o la humiliació?",
+              "hint": "Pensa en el que fa el treball de Sísifo impossible de completar — i en el que significa per a un humà no poder completar res mai."
+            },
+            {
+              "type": "key-idea",
+              "text": "El càstig de Sísifo no és el dolor ni l'esforç — és la inutilitat. La roca sempre cau. El treball no s'acumula, no deixa cap empremta, no porta enlloc. És el càstig d'una acció que no pot tenir mai resultat."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué va ser condemnat Sísifo? Les versions del mite no s'acorden.",
+              "content": "Hi ha almenys tres versions del crim de Sísifo, i cap font antiga les reconcilia. La primera: va revelar als humans els secrets dels déus, especialment la ubicació d'una font d'aigua que Zeus havia amagat. La segona: va enganyar la mort — Tànatos — i la va encadenar, de manera que durant un temps ningú no podia morir a la Terra (els ferits de guerra no morien, els vells no morien, els metges es van quedar sense feina). La tercera: va enganyar els jutges dels morts i va convèncer Persèfone de deixar-lo tornar temporalment al món dels vius, i un cop allí es va negar a tornar. El que uneix les tres versions: Sísifo és condemnat per haver estat massa llest amb els déus — per haver trobat escletxes en el sistema còsmic i explotar-les. El seu crim no és la violència ni la traïció: és la intel·ligència portada fins als seus límits."
+            },
+            {
+              "type": "misconception",
+              "belief": "Sísifo és un heroi tràgic que pateix injustament un càstig desproporcionat.",
+              "reality": "En les versions originals, Sísifo és descrit com a 'el més astut dels homes' però també com un home de poca escrúpols: va trair secrets dels déus, va enganyar la mort, i va trencar el seu propi acord amb els jutges dels morts. El mite grec no el presenta com una víctima innocent. El que el fa interessant no és la seva innocència, sinó la desproporció entre la seva intel·ligència i la seva impotència davant el càstig.",
+              "why": "La cultura popular tendeix a romantitzar Sísifo com a rebel noble. Però la tradició grega és més ambivalent: Sísifo és admirat per la seva astúcia i condemnat per les mateixes raons. La seva intel·ligència és inseparable de la seva arrogància. Camus, que el rehabilita filosòficament, és conscient d'aquesta ambigüitat."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sis-01-01",
+              "style": "multiple-choice",
+              "question": "Quin element del càstig de Sísifo el fa filosòficament més interessant que, per exemple, el de Prometeu (fetge devorat cada dia)?",
+              "options": [
+                "La durada: el càstig de Sísifo és etern, mentre que el de Prometeu té un final",
+                "La inutilitat: l'esforç de Sísifo no s'acumula ni deixa cap empremta, a diferència del sofriment de Prometeu que almenys és real i té un objecte",
+                "La solitud: Sísifo pateix sense testimonis, mentre que Prometeu és visitat per personatges que reconeixen el seu sofriment",
+                "La injustícia: Prometeu va ser condemnat per ajudar els humans, mentre que Sísifo mereixia el seu càstig"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El sofriment de Prometeu, per intens que sigui, és real i té un objecte: el fetge creix i és devorat, la cosa passa. El de Sísifo és estructuralment diferent: cap esforç no s'acumula, cap avenç no es consolida, cap resultat no és possible. És el càstig de l'acció sense sentit — que és exactament el que Camus farà servir per pensar la condició humana en general.",
+              "feedbackWrong": "La durada, la solitud i la justícia són elements presents, però no el que fa el càstig de Sísifo filosòficament singular. El que el distingeix és l'estructura: l'esforç no s'acumula, el treball no deixa empremta, cap resultat és possible mai. Prometeu pateix, però el seu patiment és real i té un objecte. Sísifo treballa, però el seu treball no existeix en cap sentit acumulatiu. Aquesta és la diferència que Camus explotarà."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sis-01-02",
+              "style": "detect-error",
+              "statement": "El càstig de Sísifo és una invenció dels grecs sense paral·lel en altres tradicions culturals — cap altra mitologia ha imaginat un càstig equivalent.",
+              "isCorrect": false,
+              "feedbackExplanation": "Fals. El patró del treball sense fi que no s'acumula apareix en moltes tradicions. Les Danaïdes, a la mateixa mitologia grega, han d'omplir per sempre un pitxer sense fons. En tradicions budistes, certs tipus de karma produeixen renaixements en cicles de sofriment repetitiu. La cultura popular contemporània té el terme 'labor de Sísifo' precisament perquè el patró és universalment reconeixible — tothom ha tingut l'experiència de treballar sense que res s'acumuli."
+            }
+          ]
+        },
+
+        {
+          "id": "sis-02",
+          "title": "L'absurd segons Camus",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1942, enmig de la Segona Guerra Mundial, un escriptor algerià de vint-i-vuit anys va publicar dos textos simultàniament: una novel·la, 'L'Estranger', i un assaig filosòfic, 'El mite de Sísifo'. L'assaig comença amb una frase que des d'aleshores no ha perdut la seva capacitat de desconcertar: 'No hi ha més que un problema filosòfic vertaderament seriós: el suïcidi.' Albert Camus no estava demanant a ningú que es suïcidés. Estava preguntant per qué no ho fem."
+            },
+            {
+              "type": "key-idea",
+              "text": "L'absurd, per a Camus, no és una propietat del món ni una propietat de l'ésser humà. És la tensió entre les dues coses: el desig humà de claredat i sentit, i el silenci del món davant aquest desig. L'absurd no es pot eliminar suprimint un dels dos termes."
+            },
+            {
+              "type": "analogy",
+              "concept": "L'absurd com a tensió irresoluble",
+              "emoji": "⚡",
+              "analogy": "Imagina que truques a algú que necessites desesperadament i el telèfon sona, sona i sona, i ningú no contesta. L'absurd no és el telèfon (el món) ni la necessitat de parlar (el desig humà de sentit). L'absurd és el fet que truguis i que ningú contesti — la col·lisió entre el que necessites i el silenci que reps. Si deixes de trucar, has suprimit el desig. Si acceptes que el telèfon és decoratiu, has suprimit l'expectativa. Però si continues trucant sabent que ningú contestarà, estàs vivint l'absurd.",
+              "bridge": "Camus insisteix que l'absurd requereix els dos termes simultàniament. No es pot resoldre deixant de desitjar sentit (suïcidi filosòfic: les religions i ideologies que renuncien a la raó) ni fingint que el món ja té el sentit que busques (suïcidi físic invers: l'optimisme fals). L'única postura honesta és mantenir la tensió: continuar trucant sabent que ningú contestarà."
+            },
+            {
+              "type": "expandable",
+              "label": "Per qué Camus diu que les religions i el marxisme cometen 'suïcidi filosòfic'?",
+              "content": "Camus anomena 'salt' (saut) el moviment intel·lectual que resol l'absurd suprimint-ne un terme. Les religions fan el salt cap a Déu: davant el silenci del món, postuluen un sentit transcendent que el món no pot proporcionar per si sol. El marxisme — i en general les ideologies de la Història amb majúscula — fa un salt equivalent: postulua que el progrés històric donarà el sentit que la vida individual no té. En tots dos casos, la tensió s'elimina no resolent-la, sinó mirant cap a un altre costat. Camus no diu que les religions siguin estúpides — diu que són massa còmodes. El pensador absurd és el que es nega al salt i viu en la tensió."
+            },
+            {
+              "type": "quote",
+              "text": "Cal imaginar Sísifo feliç.",
+              "author": "Albert Camus, El mite de Sísifo (1942)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sis-02-01",
+              "style": "multiple-choice",
+              "question": "Camus diu que 'cal imaginar Sísifo feliç'. Quina d'aquestes interpretacions s'acosta més al que Camus vol dir?",
+              "options": [
+                "Sísifo és feliç perquè ha après a gaudir del moviment físic de pujar la roca, independentment del resultat",
+                "Sísifo és feliç perquè s'ha resignat al seu destí i ha deixat de resistir-lo",
+                "Sísifo és feliç perquè la roca és seva, el moment present és seu, i la consciència lúcida de la seva condició el fa superior al seu càstig",
+                "Sísifo és feliç perquè els déus no han aconseguit trencar la seva voluntat de viure"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Per a Camus, la felicitat de Sísifo no ve del plaer físic ni de la resignació — ve de la lucidesa. Sísifo sap que la roca caurà. No s'enganya. I precisament perquè no s'enganya, la roca és completament seva: el moment de pujar-la, l'esforç, la consciència de la seva situació. Els déus han intentat humiliar-lo amb la inutilitat. Sísifo respon amb la consciència plena d'aquesta inutilitat — i en això els derrota.",
+              "feedbackWrong": "La felicitat de Sísifo que Camus descriu no és hedonisme (gaudir del moviment), ni resignació (acceptar passivament), ni resistència voluntarista (no rendir-se). És lucidesa: Sísifo sap exactament on és i què fa, sense il·lusions. I en aquesta consciència plena de la seva condició, Camus veu una forma de llibertat que el càstig no pot suprimir."
+            },
+            {
+              "type": "primary-source",
+              "label": "Camus, El mite de Sísifo (1942) — el descens de Sísifo",
+              "source": "Albert Camus, Le Mythe de Sisyphe, Gallimard, 1942. Traducció del francès.",
+              "text": "\"Deixo Sísifo al peu de la muntanya. La seva roca la tornarà a trobar sempre. Però Sísifo ensenya la fidelitat superior que nega els déus i aixeca les roques. Ell també considera que tot és bé. Aquest univers en endavant sense amo no li sembla ni estèril ni fútil. Cadascun dels grans de la pedra, cadascun dels minerals d'aquesta muntanya plena de nit, forma tot sol un món. La lluita cap a les cimes és suficient per omplir un cor d'home. Cal imaginar Sísifo feliç.\"",
+              "questions": [
+                "Camus diu que Sísifo 'nega els déus' no rebel·lant-se, sinó essent feliç. Per qué la felicitat és una forma de derrota dels déus més poderosa que la ràbia?",
+                "Camus diu que 'cadascun dels grans de pedra forma tot sol un món'. Qué vol dir amb això — és una observació sobre la física, sobre la percepció, o sobre alguna altra cosa?",
+                "'La lluita cap a les cimes és suficient per omplir un cor d'home.' Camus no diu que arribar sigui suficient. Per qué la lluita i no l'arribada?"
+              ]
+            }
+          ]
+        },
+
+        {
+          "id": "sis-03",
+          "title": "Les tres respostes a l'absurd",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Davant la pregunta '¿per qué no suïcidar-se si la vida no té sentit?', els filòsofs han donat respostes molt diferents. Camus les organitza en tres grans categories — i en rebutja dues. La seva tria és la que menys confort ofereix."
+            },
+            {
+              "type": "key-idea",
+              "text": "Davant l'absurd hi ha tres postures possibles: el suïcidi físic (eliminar qui fa la pregunta), el suïcidi filosòfic (inventar-se una resposta que el món no proporciona), o la rebel·lió (mantenir la tensió sense resoldre-la). Camus defensa la tercera."
+            },
+            {
+              "type": "comparison",
+              "title": "Les tres respostes a l'absurd",
+              "labelA": "Postura",
+              "labelB": "Per qué Camus la rebutja o la accepta",
+              "items": [
+                {
+                  "label": "Suïcidi físic",
+                  "a": "Si la vida no té sentit, la solució lògica és eliminar-la",
+                  "b": "Elimina un dels dos termes de l'absurd (el subjecte que desitja sentit), però no resol la tensió — la suprimeix. És una capitulació, no una resposta."
+                },
+                {
+                  "label": "Suïcidi filosòfic",
+                  "a": "Adoptar una fe, una ideologia o una esperança que proporcioni el sentit que el món no dóna (religió, marxisme, optimisme metafísic)",
+                  "b": "Elimina l'altre terme (el silenci del món) postulant un sentit extern. És intel·lectualment deshonest: salta per sobre de l'absurd en lloc d'enfrontar-lo."
+                },
+                {
+                  "label": "Rebel·lió absurda",
+                  "a": "Mantenir la consciència de l'absurd i viure plenament malgrat — i dins — d'aquesta consciència",
+                  "b": "L'única postura que honora la tensió sense suprimir-ne cap terme. Exigeix lucidesa constant. No ofereix confort. Camus la defensa."
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Camus i Sartre van debatre sobre l'absurd — i no van estar d'acord",
+              "content": "Camus i Sartre van ser amics i interlocutors durant anys, i les seves posicions sobre l'absurd semblen properes però divergeixen en un punt crucial. Sartre creia que de l'absurd —del fet que l'existència no té sentit donat— se'n deriva la responsabilitat radical de crear sentit a través de l'acció política. Camus creia que convertir l'absurd en un fonament per a la revolució política era una forma de suïcidi filosòfic: s'usava la consciència de l'absurd com a trampolí cap a un projecte de sentit (la història, la revolució), que era exactament el salt que ell rebutjava. La seva ruptura pública el 1952, arran de 'L'home revoltat' de Camus, va ser un dels grans debats intel·lectuals del segle XX."
+            },
+            {
+              "type": "debate",
+              "question": "La rebel·lió absurda de Camus —viure plenament sense il·lusions sobre el sentit— és una postura filosòficament honesta, o és ella mateixa una il·lusió?",
+              "positionA": {
+                "label": "La rebel·lió absurda és honesta i possible",
+                "argument": "Camus descriu una postura que moltes persones practiquen sense saber-ho: treballar, estimar, crear, sense necessitar que l'univers els confirmi que té sentit. La lucidesa sobre la manca de sentit transcendent no impedeix el compromís amb les coses immediates — al contrari, les intensifica. No cal creure en la immortalitat per estimar algú."
+              },
+              "positionB": {
+                "label": "La rebel·lió absurda és ella mateixa una forma de sentit encobert",
+                "argument": "Quan Camus diu 'cal imaginar Sísifo feliç', ja ha atribuït un valor a la lucidesa, a la resistència, a la plenitud del moment present. Aquests valors no vénen del silenci del món — vénen de Camus. La 'rebel·lió' és, de fet, un sistema de valors disfressat de no-sistema. Tot pensament que diu 'viu així' ja proposa un sentit."
+              },
+              "reflection": "Hi ha una diferència entre 'trobar sentit' i 'crear sentit'? O és la mateixa cosa amb noms diferents?",
+              "context": "Aquesta tensió és genuïna i els filòsofs no l'han resolt. Els existencialistes (Sartre, Beauvoir) dirien que crear sentit és la condició humana i no és una il·lusió. Els budistes dirien que tant Camus com Sartre continuen agafats a l'ego que desitja. Els pragmatistes (James, Dewey) dirien que la pregunta sobre si el sentit és 'real' és irresoluble i per tant irrellevant."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sis-03-01",
+              "style": "detect-error",
+              "statement": "Camus defensa el suïcidi com a resposta lògica i coherent a l'absurd, ja que si la vida no té sentit, no hi ha raó per continuar vivint.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació inverteix completament la posició de Camus. 'El mite de Sísifo' comença plantejant el suïcidi com el problema filosòfic central precisament per rebutjar-lo. Camus argumenta que el suïcidi és una resposta deshonesta a l'absurd perquè elimina un dels termes de la tensió (el subjecte) en lloc d'enfrontar-la. La seva postura és exactament la contrària: cal viure plenament dins de l'absurd, sense il·lusions però sense capitulació."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sis-03-02",
+              "style": "multiple-choice",
+              "question": "Segons Camus, per qué la fe religiosa és una resposta inadequada a l'absurd?",
+              "options": [
+                "Perquè les religions són falses i no hi ha cap déu que pugui donar sentit a res",
+                "Perquè la fe requereix renunciar a la raó per acceptar un sentit que el món no proporciona — és un 'salt' que evita enfrontar la tensió en lloc de viure-la",
+                "Perquè les religions generen violència i per tant agreugen el problema del sentit en lloc de resoldre'l",
+                "Perquè la fe és una forma de suïcidi físic: qui creu en l'altra vida desprecia la vida present"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Camus no rebutja la fe per ateisme militant — la rebutja per raons epistemològiques. La fe fa el 'salt': davant el silenci del món, postula un sentit transcendent que no es pot verificar racionalment. Per a Camus, això és intel·lectualment deshonest — és mirar cap a un altre costat quan la tensió es fa insuportable, en lloc d'habitar-la. Ell la anomena 'suïcidi filosòfic'.",
+              "feedbackWrong": "Camus no rebutja les religions per afirmar que Déu no existeix, ni per les seves conseqüències socials, ni perquè la fe menysprei la vida present. El seu argument és epistemològic: la fe fa el 'salt' per sobre de l'absurd en lloc d'enfrontar-lo. Proposa un sentit transcendent que el món no pot confirmar racionalment, i en fer-ho, abandona la tensió que Camus considera la única postura honesta."
+            }
+          ]
+        },
+
+        {
+          "id": "sis-04",
+          "title": "Sísifo en el món contemporani",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-sis-04-01",
+              "question": "Camus diu que 'cal imaginar Sísifo feliç'. Però imaginar-lo feliç és realment possible — o és una exigència filosòfica que ningú no pot complir de veritat?",
+              "options": [
+                "És possible: moltes persones viuen amb plenitud sense necessitar sentit transcendent, i Camus simplement ho articula filosòficament",
+                "No és possible: la ment humana necessita narratives de progrés i acumulació per funcionar, i cap filosofia pot canviar aquesta arquitectura cognitiva",
+                "És possible en moments i impossible en d'altres: la postura absurda no és un estat estable sinó una pràctica constant que es perd i es recupera"
+              ],
+              "correct": 2,
+              "explanation": "La psicologia empírica suggereix que cap postura filosòfica és un estat estable. Les investigacions sobre benestar subjectiu mostren que els humans oscil·len constantment entre períodes de presència plena i períodes d'ansietat sobre el futur o el passat. La postura absurda de Camus —estar present sense necessitar acumulació ni sentit transcendent— s'aproxima als estats que la psicologia del flux descriu com transitoris per definició: no es poden mantenir contínuament. Però Camus potser no demana un estat permanent. 'Cal imaginar Sísifo feliç' pot llegir-se com: en el moment de baixar a recollir la roca, en aquell interval específic, la postura és possible. No com a condició crònica, sinó com a pràctica recurrent. Això la fa menys heroica que el text suggereix — i potser més real."
+            },
+            {
+              "type": "narrative",
+              "text": "Hi ha una pregunta que Camus no fa explícitament però que el seu text provoca constantment: si Sísifo és una metàfora de la condició humana, quin és el nostre equivalent de la roca? Qué fem cada dia sabent que no s'acumularà, que es tornarà a desfer, que haurem de tornar a fer-ho? I la pregunta inversa: hi ha algo que fem que sí s'acumuli — i si s'acumula, canvia alguna cosa filosòficament?"
+            },
+            {
+              "type": "key-idea",
+              "text": "La pregunta sobre Sísifo no és una pregunta sobre la mitologia. És una pregunta sobre qualsevol rutina repetitiva de qualsevol vida: el treball que es repeteix, les relacions que es mantenen amb esforç constant, el cos que cal cuidar cada dia. La roca de Sísifo no és al cim d'una muntanya mítica — és a tot arreu."
+            },
+            {
+              "type": "perspective",
+              "situation": "El moment en qué Sísifo baixa a recollir la roca — el moment entre un esforç i el següent",
+              "perspectives": [
+                {
+                  "role": "Sísifo segons Camus",
+                  "emoji": "🪨",
+                  "text": "Mentre baixo, el càstig és meu. La roca és meva. El cim és meu, també quan no hi arribo. Els déus m'han donat una cosa sense voler: tot el temps que no estic pujant és temps que és completament meu, sense obligació, sense resultat a assolir. En el descens, sóc lliure. I trio que la roca m'esperi com un problema que val la pena, no com una condemna."
+                },
+                {
+                  "role": "Sísifo existencialista (Sartre)",
+                  "emoji": "✊",
+                  "text": "La felicitat de Camus és massa individual, massa interior. Jo pujo la roca perquè en pujar-la, trio qui sóc. L'absurd no és una invitació a la contemplació — és una crida a l'acció. Si Sísifo no pot canviar el seu càstig, pot canviar com l'assumeix, i en assumir-lo d'una manera particular, crea el sentit que l'univers no li dóna. Pujar la roca és un acte polític."
+                },
+                {
+                  "role": "Sísifo des del budisme",
+                  "emoji": "🧘",
+                  "text": "Camus i Sartre continuen agafats al 'jo' que puja la roca i al 'jo' que pateix l'absurd. El problema no és que la roca caigui — el problema és creure que hi ha un 'Sísifo' que ho experimenta com a fracàs. L'absurd és una construcció del ego que vol que les coses s'acumulin. Deixa de voler que s'acumulin i l'absurd desapareix. La roca no cau: simplement és on és."
+                }
+              ],
+              "reflection": "Quina d'aquestes tres postures et sembla més honesta — i quina et sembla més practicable? Coincideixen?"
+            },
+            {
+              "type": "expandable",
+              "label": "Existeix una neurociència de l'absurd? Com gestiona el cervell la repetició sense progrés.",
+              "content": "La psicologia del flux (Csikszentmihalyi) descriu els estats d'immersió total en una activitat com a independents del resultat extern. Un cirurgià en una operació complexa, un músic en una improvisació, un matemàtic resolent un problema — tots experimenten el que Csikszentmihalyi anomena 'flux': la sensació d'estar completament presents sense que l'ego interfereixi. Curiosament, el flux no requereix que el treball 'valgui per alguna cosa' — requereix que la dificultat estigui calibrada correctament. Sísifo, si la roca fos massa lleugera, s'avorrida. Si fos impossible de moure, abandonaria. El càstig té, paradoxalment, la dificultat exacta per mantenir Sísifo present. Camus ho intuïa: 'la lluita cap a les cimes és suficient per omplir un cor d'home.'"
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Absurdisme",
+              "moduleEmoji": "🌀",
+              "concept": "La rebel·lió com a postura vital",
+              "text": "El mite de Sísifo és el text fundacional de l'absurdisme com a filosofia sistemàtica. En el mòdul d'Absurdisme s'explora com Camus desenvolupa aquesta intuïció en una proposta moral completa: de la rebel·lió davant l'absurd a la solidaritat amb els altres que també el viuen."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sis-04-01",
+              "style": "multiple-choice",
+              "question": "Una persona treballa cada dia fent el mateix — netejant una oficina que es tornarà a embrutar, cuinant àpats que es tornaran a consumir, responent correus que generaran nous correus. Aplicant Camus, quina d'aquestes actituds seria la de la 'rebel·lió absurda'?",
+              "options": [
+                "Trobar una feina amb un impacte mesurable i acumulatiu que doni la sensació de progrés real",
+                "Acceptar que la feina és sense sentit i fer-la mecànicament sense implicar-s'hi emocionalment",
+                "Estar completament present en cada acte repetitiu, sense necessitar que s'acumuli per tenir valor, sabent que tornarà a fer-ho demà",
+                "Buscar en la vida fora de la feina el sentit que la feina no pot proporcionar"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. La rebel·lió absurda de Camus no és canviar la feina (escapar de la roca), ni dissociar-se'n (resignació), ni compensar-la amb altra cosa (suïcidi filosòfic lleuger). És estar completament present en l'acte repetitiu sabent que es repetirà — i triar que la repetició és la seva pròpia raó de ser, no un obstacle per a una raó externa.",
+              "feedbackWrong": "Camus no proposa escapar de la repetició (canviar de feina), ni dissociar-se'n (fer-la mecànicament), ni compensar-la (buscar sentit en un altre lloc). La rebel·lió absurda és més radical: és estar completament present en l'acte repetitiu, sense necessitar que s'acumuli ni que apunti a res extern, sabent que demà tornarà a fer-se."
+            }
+          ]
+        },
+
+        {
+          "id": "sis-05",
+          "title": "Sísifo i nosaltres",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-sis-05-01",
+              "question": "Camus va escriure 'El mite de Sísifo' el 1942, enmig de la Segona Guerra Mundial i l'ocupació nazi de França. Creus que el context fa la seva postura filosòfica més o menys convincent?",
+              "options": [
+                "Més convincent: és fàcil defensar la rebel·lió absurda en temps de pau i confort. Que Camus la defensés en el pitjor moment del segle XX li dona una credibilitat que la filosofia de saló no té",
+                "Menys convincent: el context de guerra extrema és massa excepcional per a una filosofia que pretén descriure la condició humana en general. En circumstàncies normals, l'absurd és menys urgent",
+                "El context no hauria de canviar la validesa d'un argument filosòfic: o la postura és correcta per les seves raons intrínseques, o no ho és, independentment de quan es va formular"
+              ],
+              "correct": 0,
+              "explanation": "Aquesta pregunta toca un debat filosòfic real sobre la relació entre context i validesa. Els filòsofs analítics tendeixen a separar argument i context: un argument és vàlid o no independentment de qui el formula i quan. Però hi ha una tradició —de William James a Simone de Beauvoir— que argumenta que una filosofia es prova en les circumstàncies extremes, no en les còmodes. Camus va escriure 'El mite de Sísifo' sabent que estava sent publicat en un moment en que la pregunta '¿per qué no suïcidar-se?' no era abstracta per a molts dels seus lectors. Que la seva resposta fos 'la rebel·lió, la llibertat, la presència plena' en comptes de 'la resistència armada' o 'l'esperança en la victòria aliada' diu alguna cosa sobre la naturalesa de la seva proposta: era genuïnament filosòfica, no propagandística. I el fet que la proposta es mantingués en condicions extremes li dona una robustesa que les filosofies formulades en temps de pau no sempre tenen. La opció C és filosòficament defensable però potser massa còmoda: ignora que els arguments sempre emergen d'algú, en algun moment, i que entendre el context enriqueix (sense determinar) la lectura."
+            },
+            {
+              "type": "narrative",
+              "text": "Hi ha una cruesa en el pensament de Camus que les lectures populars solen suavitzar. Ell no diu que la vida sigui bonica malgrat l'absurd. No diu que l'amor o l'amistat 'donin sentit'. No diu que el sofriment tingui una lliçó. Diu que l'univers és indiferent, que la mort és certa, que cap esforç no és cosmicament significatiu — i que tot això és compatible amb una vida viscuda plenament i fins i tot amb alegria. Això no és optimisme. És quelcom més difícil."
+            },
+            {
+              "type": "what-would-you-do",
+              "character": "Tu mateix — en un moment de crisi de sentit",
+              "emoji": "🪞",
+              "year": "Qualsevol moment de la vida adulta",
+              "setup": "Portes anys treballant en un projecte que t'importa profundament. Ara descobreixes que el resultat final serà efímer: el que construïexis serà destruït, oblidat o substituït en un temps relativament curt. No hi ha error, no hi ha injustícia — és simplement com funciona el temps. El treball ha estat real. L'impacte ha estat real. Però no durarà.",
+              "dilemma": "Com continues — o com decideixes no continuar?",
+              "options": [
+                { "id": "A", "text": "Busco una manera de fer que el treball duri més: documentar-lo, ampliar-lo, connectar-lo a alguna cosa més gran que sobrevisqui" },
+                { "id": "B", "text": "Accepto que la durada no és el criteri correcte i continuo fent el treball perquè val la pena fer-lo ara, independentment de quan s'acabi" }
+              ],
+              "reveal": "No hi ha una resposta correcta documentada — perquè el dilema és teu, no d'un personatge històric. Però Camus diria que l'opció A és una forma de suïcidi filosòfic lleuger: buscar en la permanència el sentit que el present no pot garantir. I que l'opció B és la postura absurda: no perquè sigui fàcil, sinó perquè és honesta.",
+              "analysis": "El que fa difícil la postura de Camus no és entendre-la intel·lectualment — és practicar-la emocionalment. La ment humana té una tendència molt documentada a buscar narratives de progrés, acumulació i llegat. Camus no nega que aquesta tendència existeixi. Diu que reconèixer-la, i continuar malgrat tot, és el que significa viure de cara a l'absurd."
+            },
+            {
+              "type": "before-after",
+              "title": "Com canvia la pregunta sobre el sentit de la vida amb Camus",
+              "before": {
+                "label": "Abans de Camus (pregunta tradicional)",
+                "points": [
+                  "La vida té sentit si apunta a alguna cosa més gran que ella mateixa (Déu, la Història, el progrés)",
+                  "El sentit es troba o es descobreix — existeix independent de qui el busca",
+                  "Una vida sense sentit transcendent és una vida fallida o tràgica",
+                  "La mort és el problema principal: li treu sentit a tot el que ve abans"
+                ]
+              },
+              "after": {
+                "label": "Amb Camus (reformulació de la pregunta)",
+                "points": [
+                  "La pregunta no és 'quin és el sentit de la vida' sinó 'com es viu sense sentit donat'",
+                  "El sentit no es troba ni es crea — es viu en la tensió entre el desig i el silenci",
+                  "Una vida conscient de l'absurd i viscuda malgrat tot és la forma més alta de llibertat",
+                  "La mort confirma l'absurd però no el crea — l'absurd ja era present en cada moment repetitiu"
+                ]
+              },
+              "insight": "Camus no respon la pregunta sobre el sentit de la vida. La dissol: demostra que la pregunta estava mal formulada des del principi. Sísifo és feliç no perquè hagi trobat la resposta, sinó perquè ha après a viure amb la pregunta."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una activitat que fas regularment i que no 'porta a cap lloc' en el sentit que no s'acumula ni construeix res permanent. Com la vius — com una pèrdua de temps, com un ritual necessari, o com quelcom que té valor en si mateix?",
+              "prompt": "Camus diria que la manera com respons a aquesta pregunta diu molt sobre com t'estàs relacionant amb l'absurd de la teva pròpia vida."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sis-05-01",
+              "style": "multiple-choice",
+              "question": "Camus escriu que 'l'absurd és el pecat sense Déu'. Qué vol dir amb aquesta frase paradoxal?",
+              "options": [
+                "Que l'absurd és un concepte religiós secularitzat: la sensació de caure en el buit que les religions atribuïen al pecat original",
+                "Que l'absurd és la condició de qui viu sense fe i per tant sense cap rxa moral que el guiï",
+                "Que l'absurd és una falta que no es pot redimir perquè no hi ha cap entitat capaç de redimir-la — és una tensió permanent sense absolució possible",
+                "Que els ateus viuen en l'absurd mentre que els creients se'n salven gràcies a la fe"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. El 'pecat' en sentit religiós és una falta que pot ser perdonada — hi ha una autoritat capaç d'absoldré. L'absurd és una 'falta' estructural de l'existència —la manca de sentit— per a la qual no hi ha absolució possible perquè no hi ha cap entitat externa que pugui proporcionar-la. És una tensió permanent, no un problema amb solució. Per això Camus el compara al pecat: és igualment inevitable, igualment constitutiu de la condició humana, però sense la sortida que el pecat tenia.",
+              "feedbackWrong": "La frase de Camus no és sobre la moralitat dels ateus ni sobre la funció social de la religió. És una comparació estructural: el pecat és una tensió que pot ser resolta (a través del perdó diví); l'absurd és una tensió equivalent que no pot ser resolta perquè no hi ha cap autoritat externa capaç de fer-ho. L'absurd és 'com un pecat' però sense l'opció de la redempció."
+            }
+          ]
+        },
+
+        {
+          "id": "sis-06",
+          "title": "Llegat: el mite que no para de caure",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-sis-06-01",
+              "question": "Vint-i-vuit segles després dels grecs i vuitanta anys després de Camus, la pregunta segueix oberta. Hi ha algun progrés filosòfic real sobre el problema del sentit de la vida — o cada generació comença de zero?",
+              "options": [
+                "Hi ha progrés: tenim eines conceptuals més precises (distinció absurd/nihilisme/existencialisme), coneixem els errors del passat i no els repetim, i sabem millor quines respostes no funcionen",
+                "No hi ha progrés: cada persona que es fa la pregunta la experimenta per primera vegada, i cap marc teòric canvia l'experiència viscuda de la pregunta. La filosofia descriu però no resol",
+                "La pregunta sobre el progrés filosòfic en aquest tema és ella mateixa una pregunta absurda: exigeix un criteri extern de progrés que el tema no pot proporcionar"
+              ],
+              "correct": 2,
+              "explanation": "Aquesta és probablement la resposta més incòmoda perquè nega que la pregunta que acabem de fer sigui ben formulada. Qué significaria 'progrés' en filosofia del sentit? Si 'progrés' vol dir 'apropar-nos a la resposta correcta', necessitem saber prèviament com és la resposta correcta — i si ho sabéssim, ja no necessitaríem progressar. Si 'progrés' vol dir 'tenir millors eines per fer la pregunta', llavors sí hi ha progrés: Camus distingia l'absurd del nihilisme amb una precisió que Homer no tenia. Però millorar les eines per fer la pregunta no és el mateix que apropar-se a respondre-la. La tercera opció no és nihilisme — és meta-filosofia: reconèixer que els problemes genuïnament humans no es 'resolen' com els problemes tècnics, sinó que es replantegen, s'aprofundeixen i s'habiten amb més o menys lucidesa. Sísifo no arriba al cim. Però cada vegada que puja, la pujada és diferent."
+            },
+            {
+              "type": "narrative",
+              "text": "Pocs mites han generat tanta literatura, tanta pintura, tant cinema i tanta filosofia com el de Sísifo. I pocs han resistit tan bé la seva pròpia popularitat. La raó és simple: el mite de Sísifo no és una historia sobre algú altre. És una historia sobre qualsevol persona que s'ha preguntat per qué fa el que fa, per qué continua, per qué ho tornarà a fer demà."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "c. 800 aC",
+                  "title": "Homer, Odissea (Cant XI)",
+                  "text": "Primera referència literaria conservada. Odisseu veu Sísifo a l'inframón pujant la seva roca. No hi ha interpretació — és una imatge."
+                },
+                {
+                  "year": "c. 441 aC",
+                  "title": "Sòfocles escriu una tragèdia sobre Sísifo (perduda)",
+                  "text": "Sabem que va existir per referències d'altres autors. Sísifo era un personatge teatral — no filosòfic."
+                },
+                {
+                  "year": "1942",
+                  "title": "Camus, El mite de Sísifo",
+                  "text": "Transformació radical: Sísifo passa de ser un exemple de càstig a ser un model de vida. 'Cal imaginar Sísifo feliç' és una de les frases filosòfiques més citades del segle XX."
+                },
+                {
+                  "year": "1955",
+                  "title": "Samuel Beckett, Esperant Godot",
+                  "text": "Sense citar Sísifo, Beckett crea la seva versió escènica: dos personatges que esperen alguna cosa que no arriba, repetint els mateixos gestos i converses. L'absurd teatralitzat."
+                },
+                {
+                  "year": "Segle XXI",
+                  "title": "Sísifo en la cultura digital",
+                  "text": "El meme de Sísifo és omnipresent: el treball de les xarxes socials (publicar contingut que desapareix), la inacabable safata d'entrada del correu electrònic, el cicle de notícies que es renova infinitament. El mite ha trobat nous referents sense canviar l'estructura."
+                }
+              ]
+            },
+            {
+              "type": "key-idea",
+              "text": "El mite de Sísifo ha sobreviscut vint-i-vuit segles perquè descriu una estructura de l'experiència humana que cap canvi tecnològic, social o cultural ha eliminat: el treball que es torna a fer, la conversa que es torna a tenir, el dia que torna a començar. No és una metàfora sobre una situació excepcional. És una descripció de la condició ordinària."
+            },
+            {
+              "type": "quote",
+              "text": "La lluita cap a les cimes és suficient per omplir un cor d'home.",
+              "author": "Albert Camus, El mite de Sísifo (1942)"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sis-06-01",
+              "style": "detect-error",
+              "statement": "El pensament de Camus sobre Sísifo és fonamentalment pessimista: accepta que la vida no té sentit i proposa resignar-s'hi.",
+              "isCorrect": false,
+              "feedbackExplanation": "Fals, i és el malentès més freqüent sobre Camus. La seva postura és exactament l'oposada a la resignació. La resignació accepta passivament una situació. La rebel·lió absurda de Camus és activa: requereix consciència constant, presència plena i un rebuig explícit tant del suïcidi com del 'salt' filosòfic. Camus no diu 'accepta que la vida no té sentit' — diu 'viu plenament malgrat que no en tingui, i en aquest viure plenament troba la teva única forma de llibertat'."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-sis-06-02",
+              "style": "multiple-choice",
+              "question": "Quina connexió fa Camus explícitament entre Sísifo i la vida humana ordinària?",
+              "options": [
+                "Sísifo representa els treballadors industrials condemnats a la monotonia del treball en cadena — és una crítica econòmica",
+                "Sísifo és una metàfora dels artistes i creadors que produeixen obres que seran oblidades",
+                "L'obrer contemporani treballa cada dia de la seva vida en les mateixes tasques — i la pregunta sobre el sentit d'aquesta repetició és la mateixa que la de Sísifo",
+                "Sísifo representa la humanitat davant la mort: tots pugem la mateixa roca sabent que al final caurem"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Camus fa explícita la connexió amb el treballador que 'un dia es pregunta Per qué?'. No és una metàfora dels artistes ni dels condemnats a mort ni dels oprimits en sentit específic — és una metàfora de qualsevol persona que fa el mateix demà que avui i que avui que ahir, i que es pregunta per qué ho fa. És a dir: quasi tothom, en algun moment.",
+              "feedbackWrong": "Camus fa la connexió de manera molt específica: l'obrer que es lleva, agafa el metro, treballa, dina, torna, dorm, i l'endemà fa el mateix — i 'un dia es pregunta Per qué?'. No és una crítica econòmica, ni una metàfora dels artistes, ni una reflexió sobre la mort. És la pregunta de qualsevol vida adulta repetitiva, que és la majoria de les vides adultes."
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

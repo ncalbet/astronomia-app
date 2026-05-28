@@ -10,6 +10,25 @@
       "title": "De Varsòvia a París: aprendre en la clandestinitat",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-curie-01-01",
+          "question": "Per què les dones de la Polònia russa del segle XIX estudien clandestinament?",
+          "options": [
+            "Perquè la religió catòlica prohibia l'educació femenina",
+            "Perquè l'autoritat russa prohibia l'educació en polonès i limitava l'accés de les dones a la universitat",
+            "Perquè les universitats poloneses eren massa cares per a les famílies",
+            "Perquè les dones preferien l'educació informal a la formal"
+          ],
+          "correct": 1,
+          "explanation": "La Polònia russa reprimia la cultura i l'educació poloneses. A més, les universitats imperials russes no acceptaven dones. La Universitat Volant era una resposta a les dues opressions alhora: la nacional i la de gènere."
+        },
+        {
+          "type": "misconception",
+          "belief": "Marie Curie va poder estudiar gràcies al seu talent excepcional, que la distingia de la resta de dones de la seva època.",
+          "reality": "Curie no va ser un cas aïllat de geni que trenca barreres per força pròpia. Al darrere hi havia una xarxa col·lectiva: la Universitat Volant formava centenars de dones. El seu camí va ser possible gràcies al pacte amb la seva germana, al suport d'una comunitat de resistència i a anys de treball dur com a governanta. Individualitzar el seu èxit oculta les estructures que el van fer possible —i les que el van dificultar.",
+          "why": "El mite del geni solitari ens fa oblidar que els assoliments científics sempre depenen d'estructures socials. En el cas de les dones científiques del XIX, aquelles estructures eren sovint clandestines i invisibles."
+        },
+        {
           "type": "quote",
           "text": "En la vida, res no ha de ser temut, només comprès. Ara és el moment de comprendre més, perquè puguem témer menys.",
           "author": "Marie Curie"
@@ -53,19 +72,6 @@
           "correct": 2,
           "feedbackCorrect": "Exacte. Les dues germanes van acordar que primer Maria pagaria els estudis de Bronia a París, i després Bronia l'acolleria quan fos el seu torn. Un pacte de solidaritat sororista.",
           "feedbackWrong": "Era un acord de solidaritat entre germanes: Maria pagava els estudis de Bronia primer, i quan acabés li tocaria a ella."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-curie-01-01",
-          "question": "Per què les dones de la Polònia russa del segle XIX estudien clandestinament?",
-          "options": [
-            "Perquè la religió catòlica prohibia l'educació femenina",
-            "Perquè l'autoritat russa prohibia l'educació en polonès i limitava l'accés de les dones a la universitat",
-            "Perquè les universitats poloneses eren massa cares per a les famílies",
-            "Perquè les dones preferien l'educació informal a la formal"
-          ],
-          "correct": 1,
-          "explanation": "La Polònia russa reprimia la cultura i l'educació poloneses. A més, les universitats imperials russes no acceptaven dones. La Universitat Volant era una resposta a les dues opressions alhora: la nacional i la de gènere."
         }
       ]
     },
@@ -73,6 +79,24 @@
       "id": "curie-02",
       "title": "El radi i el poloni: descobrir la radioactivitat",
       "blocks": [
+        {
+          "type": "prediction",
+          "question": "Un mineral d'urani emet molts més raigs misteriosos del que s'esperaria si només contingués urani. Com s'explicaria aquest excés de radiació?",
+          "hint": "Marie Curie va ser la primera a formular la hipòtesi correcta, i la seva resposta va canviar la física per sempre."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-curie-02-01",
+          "question": "Quin va ser l'impacte del descobriment de la radioactivitat sobre la física de l'àtom?",
+          "options": [
+            "Va confirmar que els àtoms eren partícules indivisibles i estables",
+            "Va demostrar que l'àtom tenia una estructura interna i no era indivisible",
+            "Va provar que la matèria i l'energia no estaven relacionades",
+            "Va mostrar que tots els elements eren formes de l'urani"
+          ],
+          "correct": 1,
+          "explanation": "La radioactivitat implica que l'àtom emet partícules, cosa que vol dir que té una estructura interna que es pot descompondre. Això va ser la primera evidència que l'àtom no era la partícula última i indivisible que creia la física clàssica."
+        },
         {
           "type": "quote",
           "text": "Res en la vida s'ha de témer. Tot s'ha d'entendre.",
@@ -104,19 +128,6 @@
           "correct": 1,
           "feedbackCorrect": "Correcte. Va ser un acte de reivindicació nacional: Polònia estava ocupada i dividida entre tres imperis, i Marie va voler posar el seu país al mapa de la ciència.",
           "feedbackWrong": "Va ser un homenatge a Polònia, el seu país, que en aquell moment ni tan sols existia com a estat independent."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-curie-02-01",
-          "question": "Quin va ser l'impacte del descobriment de la radioactivitat sobre la física de l'àtom?",
-          "options": [
-            "Va confirmar que els àtoms eren partícules indivisibles i estables",
-            "Va demostrar que l'àtom tenia una estructura interna i no era indivisible",
-            "Va provar que la matèria i l'energia no estaven relacionades",
-            "Va mostrar que tots els elements eren formes de l'urani"
-          ],
-          "correct": 1,
-          "explanation": "La radioactivitat implica que l'àtom emet partícules, cosa que vol dir que té una estructura interna que es pot descompondre. Això va ser la primera evidència que l'àtom no era la partícula última i indivisible que creia la física clàssica."
         }
       ]
     },
@@ -124,6 +135,19 @@
       "id": "curie-03",
       "title": "Dues vegades Nobel, sempre estranya",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "id": "wwyd-curie-03-01",
+          "scenario": "És novembre de 1911. Acabes de rebre el segon Premi Nobel, ara de Química — la primera persona a guanyar-ne dos. Però la premsa francesa t'ataca ferotgement per una relació amb el físic Paul Langevin, un home casat. Els diaris et criden 'adúltera' i 'estrangera destructora de famílies'. El comitè Nobel et suggereix en privat que no assisteixis a la cerimònia de lliurament per evitar l'escàndol. Tens la salut deteriorada i ets l'única persona al món amb dos Nobels.",
+          "question": "Vas a Estocolm a recollir el premi, o accedeixes a la pressió i en quedeixes a casa?",
+          "reflection": "Marie Curie va anar igualment. Va pronunciar el discurs de recepció en persona. Va separar explícitament la vida privada del reconeixement científic: el premi era pels seus mèrits com a investigadora, no una recompensa al seu comportament personal. Cap científic masculí de l'època hauria hagut de prendre aquesta decisió."
+        },
+        {
+          "type": "misconception",
+          "belief": "Marie Curie va ser finalment reconeguda i acceptada per la comunitat científica francesa gràcies als seus dos Premis Nobel.",
+          "reality": "El 1911, el mateix any del seu segon Nobel, l'Acadèmia de Ciències francesa va votar si admetre-la com a membre. Va perdre per un sol vot. Va ser l'única candidatura femenina considerada durant dècades, i la derrota es va produir en part per arguments explícitament sexistes. Els Nobels no van canviar les barreres institucionals.",
+          "why": "El reconeixement simbòlic (premis, homenatges) no elimina les barreres estructurals. Curie és avui un ícone universal, però en vida va ser marginada per les mateixes institucions que ara la celebren."
+        },
         {
           "type": "quote",
           "text": "La meva resolució és: no témer res i comportar-me amb la dignitat que m'inspiren els descobriments que hem fet.",

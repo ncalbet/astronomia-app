@@ -10,6 +10,24 @@
       "title": "De la Bastilla a Ferney: forjar un arma",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-volt-01-01",
+          "question": "Voltaire mai va construir un gran sistema filosòfic com Descartes, Kant o Hegel. Va triar la sàtira, el conte filosòfic i la polèmica periodística. Fou una limitació intel·lectual o la millor decisió estratègica possible?",
+          "options": [
+            "Una limitació: sense sistema, les seves idees manquen de rigor i son fàcilment combatudes per qualsevol filòsof acadèmic",
+            "La decisió correcta per al seu moment: la sàtira arriba a públics que mai no llegiran filosofia acadèmica, i el seu enemic era el fanatisme popular, no la filosofia universitària",
+            "Ni l'un ni l'altre: la Il·lustració necessitava ambdues coses, i Voltaire i Kant van fer tasques complementàries —la sàtira per al públic, el sistema per als filòsofs"
+          ],
+          "correct": 2,
+          "explanation": "Les tres posicions capturen alguna cosa real. El rigorisme acadèmic (posició A) té raó que Voltaire és fàcilment atacable: no construeix arguments formals, no defineix termes amb precisió, i les seves contradiccions son nombroses. Però interpreta malament l'objectiu. Voltaire no volia guanyar un debat filosòfic —volia canviar la mentalitat d'un país. I per a això, Cándide era infinitament més eficaç que la Crítica de la raó pura. La posició C és la més elegant i probablement la més correcta: Voltaire i Kant van jugar papers complementaris en el mateix projecte il·lustrat. Però la posició B captura l'aposta estratègica conscient de Voltaire: va entendre que el seu enemic —el fanatisme, la superstició, l'autoritarisme eclesiàstic— vivia al carrer, no a la universitat. I al carrer, la ironia guanya als sistemes filosòfics."
+        },
+        {
+          "type": "misconception",
+          "belief": "Voltaire era ateu i volia destruir la religió.",
+          "reality": "Voltaire era deista: creia en un Déu creador de l'univers, però rebutjava completament les religions organitzades, els seus dogmes i la seva autoritat política. La seva batalla era contra 'l'infame' —el fanatisme, la superstició, la persecució religiosa— no contra la idea de Déu. La seva cèlebre frase 'Si Déu no existís, caldria inventar-lo' ho demostra: considerava que la creença en un Déu moral era socialment necessària com a ancoratge de la conducta humana. El que odiava era que les esglésies s'apropiaven d'aquella creença per justificar crims.",
+          "why": "El combat de Voltaire contra l'Església catòlica era tan intens que molts contemporanis i posteriors el van llegir com un ateisme que ell explícitament rebutjava. La confusió és comprensible: destruir l'autoritat de l'Església en el segle XVIII era tan radical que semblava ateisme als qui creien que Déu i l'Església eren inseparables."
+        },
+        {
           "type": "quote",
           "text": "Si Déu no existís, caldria inventar-lo.",
           "author": "Voltaire, Epístola a l'autor del llibre dels tres impostors (1768)"
@@ -68,12 +86,6 @@
           "text": "Voltaire va prendre una decisió estratègica conscient: no construir un gran sistema filosòfic com Descartes o Kant, sinó usar la sàtira, el conte breu i la causa celèbre com a armes de combat. La seva aposta era que el fanatisme no podia ser vençut amb arguments tècnics que cap inquisidor llegiria. Calia riure'n fins que fos ridícul, exposar-lo fins que fos vergonyós, personalitzar-lo fins que fos indefensable."
         },
         {
-          "type": "misconception",
-          "belief": "Voltaire era ateu i volia destruir la religió.",
-          "reality": "Voltaire era deista: creia en un Déu creador de l'univers, però rebutjava completament les religions organitzades, els seus dogmes i la seva autoritat política. La seva batalla era contra 'l'infame' —el fanatisme, la superstició, la persecució religiosa— no contra la idea de Déu. La seva cèlebre frase 'Si Déu no existís, caldria inventar-lo' ho demostra: considerava que la creença en un Déu moral era socialment necessària com a ancoratge de la conducta humana. El que odiava era que les esglésies s'apropiaven d'aquella creença per justificar crims.",
-          "why": "El combat de Voltaire contra l'Església catòlica era tan intens que molts contemporanis i posteriors el van llegir com un ateisme que ell explícitament rebutjava. La confusió és comprensible: destruir l'autoritat de l'Església en el segle XVIII era tan radical que semblava ateisme als qui creien que Déu i l'Església eren inseparables."
-        },
-        {
           "type": "exercise",
           "id": "ex-volt-01-01",
           "style": "multiple-choice",
@@ -87,18 +99,6 @@
           "correct": 2,
           "feedbackCorrect": "Exacte. Locke demostrava que la ment és una tabula rasa que aprèn per experiència sensorial —cap idea és innata, cap autoritat pot reclamar veritats preexistents. Newton demostrava que l'univers obeeix lleis descobertes per l'observació racional, no per la fe. Si apliques aquest doble principi a la teologia, la política i la justícia, el resultat és explosiu. Voltaire ho va exportar a França a les Lettres philosophiques (1734): si el coneixement empíric és l'únic fonament vàlid, quin valor té l'autoritat d'un papa o d'un rei que no pot justificar-se per l'experiència? El parlament de París va condemnar el llibre a ser cremat. Era la llavor de l'Encyclopédie i de tota la Il·lustració francesa.",
           "feedbackWrong": "Tots quatre aspectes apareixen a les Lettres philosophiques. Però la descoberta que va transformar l'epistemologia de Voltaire —la manera com entenia el fonament del coneixement— va ser Locke i Newton. Locke: el coneixement neix de l'experiència, no de la revelació. Newton: les lleis de la natura es descobreixen observant, no creient. Aplica't a tu mateix: si el coneixement empíric és l'únic vàlid, quin valor té l'autoritat d'un papa o d'un rei que no pot justificar-se per l'evidència?"
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-volt-01-01",
-          "question": "Voltaire mai va construir un gran sistema filosòfic com Descartes, Kant o Hegel. Va triar la sàtira, el conte filosòfic i la polèmica periodística. Fou una limitació intel·lectual o la millor decisió estratègica possible?",
-          "options": [
-            "Una limitació: sense sistema, les seves idees manquen de rigor i son fàcilment combatudes per qualsevol filòsof acadèmic",
-            "La decisió correcta per al seu moment: la sàtira arriba a públics que mai no llegiran filosofia acadèmica, i el seu enemic era el fanatisme popular, no la filosofia universitària",
-            "Ni l'un ni l'altre: la Il·lustració necessitava ambdues coses, i Voltaire i Kant van fer tasques complementàries —la sàtira per al públic, el sistema per als filòsofs"
-          ],
-          "correct": 2,
-          "explanation": "Les tres posicions capturen alguna cosa real. El rigorisme acadèmic (posició A) té raó que Voltaire és fàcilment atacable: no construeix arguments formals, no defineix termes amb precisió, i les seves contradiccions son nombroses. Però interpreta malament l'objectiu. Voltaire no volia guanyar un debat filosòfic —volia canviar la mentalitat d'un país. I per a això, Cándide era infinitament més eficaç que la Crítica de la raó pura. La posició C és la més elegant i probablement la més correcta: Voltaire i Kant van jugar papers complementaris en el mateix projecte il·lustrat. Però la posició B captura l'aposta estratègica conscient de Voltaire: va entendre que el seu enemic —el fanatisme, la superstició, l'autoritarisme eclesiàstic— vivia al carrer, no a la universitat. I al carrer, la ironia guanya als sistemes filosòfics."
         }
       ]
     },
@@ -106,15 +106,6 @@
       "id": "volt-02",
       "title": "L'afer Calas: quan un filòsof salva un innocent",
       "blocks": [
-        {
-          "type": "quote",
-          "text": "El dret de la intolerància és absurd i bàrbar; és el dret dels tigres, i és molt més horrible, perquè els tigres no esquincen sinó per menjar, mentre que nosaltres ens hem exterminat per paràgrafs.",
-          "author": "Voltaire, Tractat sobre la tolerància (1763)"
-        },
-        {
-          "type": "narrative",
-          "text": "La nit del 13 d'octubre de 1761, Marc-Antoine Calas va ser trobat mort al soterrani de la botiga familiar a Tolosa de Llenguadoc. Tenia vint-i-nou anys. El seu pare, Jean Calas, era un comerciant protestant en una ciutat ferventment catòlica. Les autoritats van decidir ràpidament que Jean havia assassinat el seu fill per impedir-li convertir-se al catolicisme. Era una acusació sense cap evidència sòlida: l'estat del cadàver era compatible tant amb suïcidi com amb homicidi, i els testimonis eren contradictoris. Però Tolosa tenia una tradició de persecució dels protestants, el jutge instructor era un fanàtic conegut, i la pressió de la multitud catòlica era immensa. Jean Calas va ser condemnat a mort. El 9 de març de 1762 va ser torturat a la roda durant dues hores —els ossos trencats un a un— i executat. Va morir proclamant la seva innocència. Voltaire, als seixanta-set anys, va saber del cas a Ferney tres setmanes després, per la premsa i per cartes de contactes. Va decidir actuar."
-        },
         {
           "type": "what-would-you-do",
           "character": "Voltaire",
@@ -128,6 +119,27 @@
           ],
           "reveal": "Voltaire va prendre el cas. Durant tres anys va coordinar des de Ferney una campanya sense precedents: va pagar detectives per reconstruir els fets, va escriure el Tractat sobre la tolerància (1763) —un text que usava el cas Calas com a epicentre del debat sobre la intolerància religiosa—, va mantenir una correspondència massiva amb pensadors, aristòcrates i ministres del rei per tot Europa. El 9 de març de 1765 —exactament tres anys després de l'execució de Calas— el Consell Reial va exonerar Jean Calas i va reparar econòmicament la família. Calas estava mort, però la condemna havia estat revocada.",
           "analysis": "Voltaire va calcular —correctament— que un cas concret i emocional era una arma filosòfica molt més poderosa que qualsevol tractat abstracte. La mort de Calas posava cara humana a l'argument abstracte sobre la intolerància. L'afer Calas va demostrar per primera vegada a la historia moderna que l'opinió pública organitzada per un intel·lectual podia forçar la revisió d'una decisió judicial. Voltaire va inventar, en cert sentit, el que avui anomenaríem campanya d'advocacia."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-volt-02-01",
+          "question": "Voltaire va portar el cas Calas fins a la victòria. Però el seu objectiu no era únicament la justícia per a una família: el cas era una arma per atacar el fanatisme religiós i construir la seva reputació com a defensor de la tolerància. Va explotar el dolor d'una família per als seus propis objectius filosòfics i de prestigi?",
+          "options": [
+            "Sí: usar el sofriment d'una família com a instrument per a objectius filosòfics i de prestigi propis és moralment problemàtic, fins i tot si el resultat va ser just",
+            "No: aconseguir justícia per als Calas i usar el cas per reformar la societat no son objectius contradictoris — el resultat va ser real i positiu per a la família i per a França",
+            "La pregunta és mal plantejada: el problema no és tenir múltiples objectius sinó si Voltaire hauria actuat igual si el cas no li hagués servit de plataforma. I no ho sabem."
+          ],
+          "correct": 2,
+          "explanation": "La posició C captura la dificultat real. La posició A aplica un estàndard de puresa moral que pocs activistes o intel·lectuals podrien superar. La posició B és massa còmoda: dona per bona qualsevol aliança entre interès personal i justícia si el resultat és positiu, sense analitzar la dinàmica interna. La posició C és la més honest: no podem saber si Voltaire hauria actuat igual en un cas igual d'injust però sense impacte filosòfic ni guany de reputació. I aquella incertesa és important. No invalida el que va aconseguir —la família Calas va ser rehabilitada, França va canviar— però ens recorda que els motius d'un activista rarament son únics. La historia del progrés moral és plena d'aliances entre interès personal i justícia objectiva. Demanar que els defensors de causes justes no tinguin cap interès propi és demanar que siguin sants."
+        },
+        {
+          "type": "quote",
+          "text": "El dret de la intolerància és absurd i bàrbar; és el dret dels tigres, i és molt més horrible, perquè els tigres no esquincen sinó per menjar, mentre que nosaltres ens hem exterminat per paràgrafs.",
+          "author": "Voltaire, Tractat sobre la tolerància (1763)"
+        },
+        {
+          "type": "narrative",
+          "text": "La nit del 13 d'octubre de 1761, Marc-Antoine Calas va ser trobat mort al soterrani de la botiga familiar a Tolosa de Llenguadoc. Tenia vint-i-nou anys. El seu pare, Jean Calas, era un comerciant protestant en una ciutat ferventment catòlica. Les autoritats van decidir ràpidament que Jean havia assassinat el seu fill per impedir-li convertir-se al catolicisme. Era una acusació sense cap evidència sòlida: l'estat del cadàver era compatible tant amb suïcidi com amb homicidi, i els testimonis eren contradictoris. Però Tolosa tenia una tradició de persecució dels protestants, el jutge instructor era un fanàtic conegut, i la pressió de la multitud catòlica era immensa. Jean Calas va ser condemnat a mort. El 9 de març de 1762 va ser torturat a la roda durant dues hores —els ossos trencats un a un— i executat. Va morir proclamant la seva innocència. Voltaire, als seixanta-set anys, va saber del cas a Ferney tres setmanes després, per la premsa i per cartes de contactes. Va decidir actuar."
         },
         {
           "type": "primary-source",
@@ -170,18 +182,6 @@
           "statement": "Voltaire va poder reconstruir el cas Calas tan eficaçment perquè coneixia la família i havia estat a Tolosa durant el judici, cosa que li va permetre accedir a testimonis i documents que el públic no podia veure.",
           "isCorrect": false,
           "feedbackExplanation": "L'afirmació és factual ment falsa en els seus punts essencials. Voltaire mai va conèixer Jean Calas ni cap membre de la família abans del cas. No va ser mai a Tolosa. Va actuar des de Ferney basant-se exclusivament en informació pública —la premsa— i en documents que va obtenir a través d'una xarxa de corresponents. Precisament per això la seva intervenció és tan notable: va construir un cas legal i filosòfic sòlid sense cap accés privilegiat. El que tenia d'especial no era informació secreta sinó la capacitat de convertir un cas local en un debat europeu sobre la tolerància, i l'autoritat intel·lectual per fer que aquell debat tingués conseqüències polítiques reals."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-volt-02-01",
-          "question": "Voltaire va portar el cas Calas fins a la victòria. Però el seu objectiu no era únicament la justícia per a una família: el cas era una arma per atacar el fanatisme religiós i construir la seva reputació com a defensor de la tolerància. Va explotar el dolor d'una família per als seus propis objectius filosòfics i de prestigi?",
-          "options": [
-            "Sí: usar el sofriment d'una família com a instrument per a objectius filosòfics i de prestigi propis és moralment problemàtic, fins i tot si el resultat va ser just",
-            "No: aconseguir justícia per als Calas i usar el cas per reformar la societat no son objectius contradictoris — el resultat va ser real i positiu per a la família i per a França",
-            "La pregunta és mal plantejada: el problema no és tenir múltiples objectius sinó si Voltaire hauria actuat igual si el cas no li hagués servit de plataforma. I no ho sabem."
-          ],
-          "correct": 2,
-          "explanation": "La posició C captura la dificultat real. La posició A aplica un estàndard de puresa moral que pocs activistes o intel·lectuals podrien superar. La posició B és massa còmoda: dona per bona qualsevol aliança entre interès personal i justícia si el resultat és positiu, sense analitzar la dinàmica interna. La posició C és la més honest: no podem saber si Voltaire hauria actuat igual en un cas igual d'injust però sense impacte filosòfic ni guany de reputació. I aquella incertesa és important. No invalida el que va aconseguir —la família Calas va ser rehabilitada, França va canviar— però ens recorda que els motius d'un activista rarament son únics. La historia del progrés moral és plena d'aliances entre interès personal i justícia objectiva. Demanar que els defensors de causes justes no tinguin cap interès propi és demanar que siguin sants."
         }
       ]
     },
@@ -189,6 +189,18 @@
       "id": "volt-03",
       "title": "Les contradiccions: el lluitador per la tolerància que no era tolerant amb tothom",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-volt-03-01",
+          "question": "Voltaire va defensar la tolerància com a principi universal i va escriure textos antisemites i racistes profundament intolerants. Aquesta contradicció...",
+          "options": [
+            "...invalida la seva filosofia: no pots ser el pare de la tolerància si no l'apliques als més vulnerables. Un pensador que no aplica el seu mètode als seus propis prejudicis és un frau intel·lectual",
+            "...és irrellevant per al valor de les seves idees: les eines intel·lectuals que va crear funcionen independentment dels errors del creador, igual que els antibòtics funcionen independentment de la moral de Fleming",
+            "...és la lliçó més important que ens ofereix: ens diu que la raó sola no és suficient, que el pensament crític necessita ser forçat constantment a mirar els seus propis punts cecs, i que el progrés moral és el procés dolorós d'aplicar els propis principis als propis privilegis"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la crítica moral —intel·lectualment satisfactòria però poc productiva, perquè descarta la possibilitat d'aprendre de figures contradictòries. La posició B és la separació pragmàtica —útil però que tendeix a ignorar com els prejudicis d'un pensador poden infiltrar-se en les seves eines fins i tot quan semblen neutrals. La posició C és la més honest i més rica. Les contradiccions de Voltaire no son accidentals: reflecteixen els límits estructurals de la Il·lustració. Quan Voltaire parlava de 'la humanitat', parlava de la humanitat europea, il·lustrada, propietària. Els jueus, els africans, les dones i els pobres quedaven fora del cercle implícit. Això no invalida el projecte il·lustrat —és el fonament de gairebé tot el que valorem en el món modern, des dels drets humans fins a la separació d'Estat i Església. Però ens diu que la raó, com qualsevol eina, pot ser usada selectivament. El progrés moral no és el triomf de la raó sobre el prejudici: és el procés lent i dolorós de forçar la raó a aplicar els seus propis criteris als seus propis punts cecs. Voltaire va ser brillant en aplicar la raó als prejudicis dels altres. No ho va ser tant en aplicar-la als seus. I aquella asimetria no és un defecte personal d'un gran home: és el defecte estructural del pensament crític en qualsevol moment de la historia, incloent-hi el nostre."
+        },
         {
           "type": "quote",
           "text": "Tots som fills de la feblesa i de l'error: perdonem-nos mútuament les nostres bogeries — heus aquí la primera llei de la natura.",
@@ -215,7 +227,7 @@
             {
               "role": "Historiador postcolonial",
               "emoji": "🌍",
-              "text": "La 'raó' de Voltaire era raó europea, masculina i propietària. Quan parlava de 'la humanitat' excloïa implícitament els africans, els indígenes americans i les dones. L'universalisme il·lustrat era un particularisme disfressat: les 'veritats universals' resultaven ser les veritats de l'Europa del segle XVIII. Voltaire no va aplicar mai el pensament crític als fonaments del seu propi privilegis —la riquesa, el color, el gènere. La Il·lustració que ell va representar va proporcionar part del marc ideològic que va justificar el colonialisme 'civilitzador' del segle XIX."
+              "text": "La 'raó' de Voltaire era raó europea, masculina i propietària. Quan parlava de 'la humanitat' excloïa implícitament els africans, els indígenes americans i les dones. L'universalisme il·lustrat era un particularisme disfressat: les 'veritats universals' resultaven ser les veritats de l'Europa del segle XVIII. Voltaire no va aplicar mai el pensament crític als fonaments del seu propi privilegi —la riquesa, el color, el gènere. La Il·lustració que ell va representar va proporcionar part del marc ideològic que va justificar el colonialisme 'civilitzador' del segle XIX."
             }
           ],
           "reflection": "Les tres perspectives son incompatibles entre si? O cadascuna captura una dimensió real de Voltaire que les altres ignoren?"
@@ -248,18 +260,6 @@
           },
           "reflection": "¿La resposta canvia si parlem d'idees abstractes (com la tolerància com a principi) versus mètodes concrets (com l'advocacia pública)? ¿Hi ha parts de Voltaire que podem prendre i parts que hem de rebutjar —i com decidim quines son quines?",
           "context": "El debat és actiu en la historiografia il·lustrada. La tendència dominant fins als anys 80 era celebrar Voltaire ignorant els seus defectes. Des de llavors, la historia postcolonial i la historia jueva han posat les contradiccions al centre. Alguns historiadors defensen que la tensió entre les dues lectures és productiva: ens força a pensar la Il·lustració com un projecte inacabat, no com un llegat hereu."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-volt-03-01",
-          "question": "Voltaire va defensar la tolerància com a principi universal i va escriure textos antisemites i racistes profundament intolerants. Aquesta contradicció...",
-          "options": [
-            "...invalida la seva filosofia: no pots ser el pare de la tolerància si no l'apliques als més vulnerables. Un pensador que no aplica el seu mètode als seus propis prejudicis és un frau intel·lectual",
-            "...és irrellevant per al valor de les seves idees: les eines intel·lectuals que va crear funcionen independentment dels errors del creador, igual que els antibòtics funcionen independentment de la moral de Fleming",
-            "...és la lliçó més important que ens ofereix: ens diu que la raó sola no és suficient, que el pensament crític necessita ser forçat constantment a mirar els seus propis punts cecs, i que el progrés moral és el procés dolorós d'aplicar els propis principis als propis privilegis"
-          ],
-          "correct": 2,
-          "explanation": "La posició A és la crítica moral —intel·lectualment satisfactòria però poc productiva, perquè descarta la possibilitat d'aprendre de figures contradictòries. La posició B és la separació pragmàtica —útil però que tendeix a ignorar com els prejudicis d'un pensador poden infiltrar-se en les seves eines fins i tot quan semblen neutrals. La posició C és la més honest i més rica. Les contradiccions de Voltaire no son accidentals: reflecteixen els límits estructurals de la Il·lustració. Quan Voltaire parlava de 'la humanitat', parlava de la humanitat europea, il·lustrada, propietària. Els jueus, els africans, les dones i els pobres quedaven fora del cercle implícit. Això no invalida el projecte il·lustrat —és el fonament de gairebé tot el que valorem en el món modern, des dels drets humans fins a la separació d'Estat i Església. Però ens diu que la raó, com qualsevol eina, pot ser usada selectivament. El progrés moral no és el triomf de la raó sobre el prejudici: és el procés lent i dolorós de forçar la raó a aplicar els seus propis criteris als seus propis punts cecs. Voltaire va ser brillant en aplicar la raó als prejudicis dels altres. No ho va ser tant en aplicar-la als seus. I aquella asimetria no és un defecte personal d'un gran home: és el defecte estructural del pensament crític en qualsevol moment de la historia, incloent-hi el nostre."
         }
       ]
     }

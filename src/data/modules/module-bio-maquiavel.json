@@ -10,6 +10,18 @@
       "title": "Florència, l'exili i El Príncep",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-maqui-01-01",
+          "question": "Quin era el propòsit real de Maquiavel quan va escriure El Príncep, i com ho saben els historiadors?",
+          "options": [
+            "Era una carta de presentació als Mèdici per recuperar un càrrec: l'evidència és la seva situació de desemparat, les cartes contemporànies i la dedicatòria de l'obra al jove Lorenzo de Mèdici",
+            "Era un projecte filosòfic independent de les circumstàncies personals: Maquiavel volia crear una nova ciència política basada en l'observació empírica dels fets, seguint el model dels naturalistes del seu temps",
+            "Era les dues coses alhora, i separar-les és un error metodològic: la situació personal va donar urgència i forma a un projecte intel·lectual que Maquiavel ja duia a dins. Les motivacions biogràfiques i filosòfiques no es contradiuen"
+          ],
+          "correct": 2,
+          "explanation": "Quentin Skinner (The Foundations of Modern Political Thought, 1978) és el gran defensor de llegir Maquiavel dins del context de la tradició humanista: El Príncep era una inversió deliberada dels 'miralls de prínceps' medievals, i la situació de l'autor li va donar l'empenta per escriure'l. Maurizio Viroli (Machiavelli's God, 2010) recorda que Maquiavel era un republicà sincer —no un cínic— i que Els Discursos sobre Titus Livi, escrit en paral·lel, mostren el seu pensament polític real. Hans Baron va mostrar que el pensament de Maquiavel no pot entendre's sense la crisi de la república florentina que va viure com a protagonista. L'historiador John Najemy (A History of Florence, 2008) integra les tres perspectives: El Príncep és el producte d'una ment filosòfica en una situació desesperada, i les dues dimensions fan el text el que és. Separar 'text autobiogràfic' de 'text filosòfic' és una distinció que els historiadors actuals consideren artificiosa."
+        },
+        {
           "type": "quote",
           "text": "Tots veuen el que sembles; pocs senten el que ets.",
           "author": "Niccolò Maquiavel, El Príncep"
@@ -55,6 +67,20 @@
       "title": "El Príncep: realisme polític sense hipocresies",
       "blocks": [
         {
+          "type": "what-would-you-do",
+          "character": "Maquiavel com a assessor",
+          "emoji": "📜",
+          "year": "1502 — Maquiavel observa Cèsar Borja a Senigallia",
+          "setup": "Ets ambaixador florentí i has assistit a un episodi revelador: Cèsar Borja ha invitat a Senigallia quatre capitans rivals que volien traïr-lo. Els ha rebut amb honors, ha sopat amb ells, i durant la nit els ha fet estrangular tots quatre. Florència es pregunta si pot confiar en Borja com a aliat. Tu has de redactar un informe per al govern florentí.",
+          "dilemma": "Descrius l'acció de Borja com a crueltat que el desqualifica com a aliat fiable, o com a decisió estratègica freda que demostra que és un líder efectiu amb qui es pot negociar perquè sap el que fa?",
+          "options": [
+            { "id": "A", "text": "Crueltat que el desqualifica: un home que mata els seus convidats durant el sopar no pot ser un aliat de confiança" },
+            { "id": "B", "text": "Decisió estratègica admirable: ha eliminat una amenaça real d'una manera decisiva. Sap governar. És un aliat worth respectar" }
+          ],
+          "reveal": "Maquiavel va escriure un informe admirat sobre l'acció de Borja a Senigallia, descrivint-la com un exemple de resolució i eficàcia política. Va incloure Cèsar Borja com un dels exemples de 'príncep nou' eficaç a El Príncep. No perquè aprovés moralment l'assassinat sinó perquè Borja havia eliminat una amenaça real de manera decisiva i sense vacil·lació. Era, des de la lògica de Maquiavel, un exemple de virtù —no virtut cristiana, sinó capacitat política.",
+          "analysis": "La distinció que fa Maquiavel entre 'virtut' (en el sentit cristià de bondat moral) i 'virtù' (en el sentit romà de capacitat, eficàcia, força) és el nucli del seu pensament. Un príncep pot tenir totes les virtuts morals i ser un governant ruïnós; pot tenir molt pocs escrúpols i ser un governant excel·lent. La pregunta de Maquiavel no és 'és bo?' sinó 'és eficaç?' —i diu que els dos criteris funcionen de manera independent."
+        },
+        {
           "type": "narrative",
           "text": "El Príncep examina una pregunta senzilla: com s'aconsegueix el poder i com es manté? La resposta de Maquiavel desconcerta perquè és honesta on la tradició política era hipòcrita. Els textos polítics anteriors —els 'miralls de prínceps' medievals— prescrivien la virtut cristiana com a fonament del bon govern. Maquiavel deia que la virtut cristiana podia ser útil o contraproduent, depenent de les circumstàncies. Que la crueltat ben usada era preferible a la bondat mal administrada. Que era millor ser temut que estimat, si no es podia ser les dues coses. Que un príncep havia de saber ser lleó i guineu alhora. Va posar per escrit el que tots els polítics exitosos ja practicaven —i per això el van condemnar."
         },
@@ -70,20 +96,6 @@
           ]
         },
         {
-          "type": "what-would-you-do",
-          "character": "Maquiavel com a assessor",
-          "emoji": "📜",
-          "year": "1502 — Maquiavel observa Cèsar Borja a Senigallia",
-          "setup": "Ets ambaixador florentí i has assistit a un episodi revelador: Cèsar Borja ha invitat a Senigallia quatre capitans rivals que volien traïr-lo. Els ha rebut amb honors, ha sopat amb ells, i durant la nit els ha fet estrangular tots quatre. Florència es pregunta si pot confiar en Borja com a aliat. Tu has de redactar un informe per al govern florentí.",
-          "dilemma": "Descrius l'acció de Borja com a crueltat que el desqualifica com a aliat fiable, o com a decisió estratègica freda que demostra que és un líder efectiu amb qui es pot negociar perquè sap el que fa?",
-          "options": [
-            { "id": "A", "text": "Crueltat que el desqualifica: un home que mata els seus convidats durant el sopar no pot ser un aliat de confiança" },
-            { "id": "B", "text": "Decisió estratègica admirable: ha eliminat una amenaça real d'una manera decisiva. Sap governar. És un aliat worth respectar" }
-          ],
-          "reveal": "Maquiavel va escriure un informe admirat sobre l'acció de Borja a Senigallia, descrivint-la com un exemple de resolució i eficàcia política. Va incloure Cèsar Borja com un dels exemples de 'príncep nou' eficaç a El Príncep. No perquè aprovés moralment l'assassinat sinó perquè Borja havia eliminat una amenaça real de manera decisiva i sense vacil·lació. Era, des de la lògica de Maquiavel, un exemple de virtù —no virtut cristiana, sinó capacitat política.",
-          "analysis": "La distinció que fa Maquiavel entre 'virtut' (en el sentit cristià de bondat moral) i 'virtù' (en el sentit romà de capacitat, eficàcia, força) és el nucli del seu pensament. Un príncep pot tenir totes les virtuts morals i ser un governant ruïnós; pot tenir molt pocs escrúpols i ser un governant excel·lent. La pregunta de Maquiavel no és 'és bo?' sinó 'és eficaç?' —i diu que els dos criteris funcionen de manera independent."
-        },
-        {
           "type": "exercise",
           "id": "ex-maqui-02-01",
           "style": "detect-error",
@@ -97,6 +109,18 @@
       "id": "maqui-03",
       "title": "El maquiavèl·lisme: la paraula que va sobreviure el llibre",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-maqui-03-01",
+          "question": "Per qué El Príncep continua sent un dels llibres polítics més llegits 500 anys després d'haver estat escrit?",
+          "options": [
+            "Perquè ofereix consells pràctics que continuen sent vàlids per a qualsevol persona que vulgui obtenir o mantenir el poder en qualsevol context",
+            "Perquè va ser el primer text a plantejar la política com una activitat autònoma amb la seva pròpia lògica, separada de la moral i la religió —una ruptura que va definir el pensament polític modern",
+            "Les dues: els consells pràctics fan el text llegible i aplicable, i la ruptura conceptual que va inaugurar fa que estudiants de ciència política el llegeixin com un text fundacional. El seu poder rau en que és les dues coses alhora: manual i manifesto"
+          ],
+          "correct": 2,
+          "explanation": "La posició A explica per qué El Príncep és popular en cursos de lideratge empresarial i llibres de divulgació: els seus consells sobre gestió del poder semblen atemporals. La posició B és la tesi dels historiadors de les idees com Quentin Skinner: Maquiavel va ser el primer a separar la política de la teologia i la moral, inaugurant el que avui anomenem ciència política. La posició C integra les dues: el que fa El Príncep tan durador és precisament que pot llegir-se com un manual pràctic I com un text filosòfic fundacional. No tots els clàssics aconsegueixen les dues coses. Shakespeare pot llegir-se com entreteniment o com literatura; Darwin com ciència popular o com revolució conceptual. Maquiavel pot llegir-se com a guia per a polítics o com el text que va inventar la política moderna com a disciplina autònoma."
+        },
         {
           "type": "narrative",
           "text": "El Príncep va ser publicat pòstumament el 1532, cinc anys després de la mort de Maquiavel. El 1559, l'Església Catòlica el va posar a l'Índex de llibres prohibits. El 1572, la nit de Sant Bartolomeu —el massacre de hugonots a França— el predicador protestant Innocent Gentillet va culpar la influència de Maquiavel de la crueltat de Caterina de Mèdici. Shakespeare va crear el personatge de l'iago a Otelo com a 'maquiavèl·lic'. En pocs anys, 'maquiavèl·lic' havia passat de ser un cognom a ser un adjectiu que significava 'astut i sense escrúpols'. Maquiavel va ser condemnat per descriure el que els governants ja feien; els governants el van condemnar per dir-ho en veu alta."
@@ -114,18 +138,6 @@
           },
           "reflection": "Napoleó, Mussolini, Hitler i Stalin van llegir tots Maquiavel. Líders democràtics com Lincoln i Roosevelt també. El problema és el text o l'ús que en fan els qui el llegeixen?",
           "context": "Filòsofs com Leo Strauss argumenten que El Príncep era una advertència disfressada als pobles sobre com actuen els tiranos —no un manual per a prínceps. Isaiah Berlin el veia com el primer pensador que va separar la moral de la política, obrint un espai de llibertat intel·lectual que va fer possible la modernitat. El debat sobre Maquiavel és, en última instància, un debat sobre si la política té una dimensió moral inherent."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-maqui-03-01",
-          "question": "Per qué El Príncep continua sent un dels llibres polítics més llegits 500 anys després d'haver estat escrit?",
-          "options": [
-            "Perquè ofereix consells pràctics que continuen sent vàlids per a qualsevol persona que vulgui obtenir o mantenir el poder en qualsevol context",
-            "Perquè va ser el primer text a plantejar la política com una activitat autònoma amb la seva pròpia lògica, separada de la moral i la religió —una ruptura que va definir el pensament polític modern",
-            "Les dues: els consells pràctics fan el text llegible i aplicable, i la ruptura conceptual que va inaugurar fa que estudiants de ciència política el llegeixin com un text fundacional. El seu poder rau en que és les dues coses alhora: manual i manifesto"
-          ],
-          "correct": 2,
-          "explanation": "La posició A explica per qué El Príncep és popular en cursos de lideratge empresarial i llibres de divulgació: els seus consells sobre gestió del poder semblen atemporals. La posició B és la tesi dels historiadors de les idees com Quentin Skinner: Maquiavel va ser el primer a separar la política de la teologia i la moral, inaugurant el que avui anomenem ciència política. La posició C integra les dues: el que fa El Príncep tan durador és precisament que pot llegir-se com un manual pràctic I com un text filosòfic fundacional. No tots els clàssics aconsegueixen les dues coses. Shakespeare pot llegir-se com entreteniment o com literatura; Darwin com ciència popular o com revolució conceptual. Maquiavel pot llegir-se com a guia per a polítics o com el text que va inventar la política moderna com a disciplina autònoma."
         }
       ]
     }

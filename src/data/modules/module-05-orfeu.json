@@ -1,0 +1,464 @@
+{
+  "id": "module-05-orfeu",
+  "title": "Orfeu i Eurídice: el preu de mirar enrere",
+  "emoji": "🎵",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "descens",
+      "title": "El descens i el retorn",
+      "icon": "🕯️",
+      "description": "Del mite grec al dol, la confiança i els límits de l'amor",
+      "forWho": "Vol seguir el fil del mite i descobrir el que diu sobre la pèrdua, el desig de recuperar el que hem perdut, i per què mirar enrere ens destrueix",
+      "style": "Narratiu · del mite a la psicologia",
+      "lessons": [
+
+        {
+          "id": "orf-01",
+          "title": "La música que movia el món",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-orf-01-01",
+              "question": "El mite diu que Orfeu convenç els déus dels morts amb música — no amb arguments, ni amb força, ni amb súplica. Significa això que l'art té un poder que la raó i la força no tenen?",
+              "options": [
+                "Sí: l'art accedeix directament a les emocions i bypassa les defenses racionals — per això és més poderós",
+                "No: és un mite. En la realitat, l'art no convenç ningú de res que no vulgui ja creure",
+                "L'art i la raó no competeixen: actuen en plans diferents. L'art mou; la raó justifica. Per canviar el que algú fa, de vegades cal moure'l abans de justificar-ho"
+              ],
+              "correct": 2,
+              "explanation": "La tensió entre art i raó com a formes de persuasió ve de lluny: Plató expulsava els poetes de la República perquè creia que l'art bypassa la raó i manipula les emocions. Aristòtil responia que les emocions no són l'enemic de la raó — en són una part. La neurociència contemporània dona suport a Aristòtil: les decisions humanes impliquen circuits emocionals de manera constitutiva, no accidental. El mite d'Orfeu captura quelcom real: la música, la poesia i l'art en general accedeixen a estats afectius que l'argument abstracte no toca. Quan Orfeu toca davant de Plutó, no li presenta un silogisme — li fa sentir el que és perdre algú. I Plutó, que és immortal i mai ha perdut ningú, entén per primera vegada el dol humà. L'art no substitueix la raó: li obre la porta."
+            },
+            {
+              "type": "narrative",
+              "text": "Hi havia una vegada un músic tan extraordinari que quan tocava la lira els arbres s'arrencaven de terra per escoltar-lo, els rius canviaven de direcció i les feres salvatges s'ajupien als seus peus. Orfeu no tenia poder polític ni força militar. Tenia música. I amb música va fer el que cap heroi no havia aconseguit abans: va convèncer els déus dels morts de deixar sortir una ànima de l'inframón."
+            },
+            {
+              "type": "key-idea",
+              "text": "Orfeu és l'únic heroi grec que no conquesta el món amb la força — el conquesta amb la bellesa. El mite pregunta: pot l'art fer el que el poder no pot? I si pot, per quant de temps?"
+            },
+            {
+              "type": "expandable",
+              "label": "Per què Orfeu és fill d'una musa — i què significa això",
+              "content": "Orfeu és fill d'Apol·lo (déu de la música i la llum) i Cal·líope (musa de la poesia èpica). La seva genealogia no és un detall decoratiu: els grecs creien que el talent artístic extrem era d'origen diví. Un home que toca millor que els déus és, literalment, fill dels déus. Però la seva herència divina el fa també vulnerable d'una manera específica: els déus senten el que els humans senten, però a una escala insuportable. Orfeu no estimarà Eurídice com un home corrent — l'estimarà amb la intensitat d'un déu. I quan la perdi, el seu dol serà proporcionalment devastador."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "c. segle VIII aC",
+                  "title": "Les primeres referències a Orfeu",
+                  "text": "Orfeu apareix en textos antics com a figura real o semidivina, fundador del moviment religiós orfisme."
+                },
+                {
+                  "year": "c. 490 aC",
+                  "title": "Píndar menciona Orfeu",
+                  "text": "El poeta lloa «el pare de cançons» que va participar en l'expedició dels Argonautes."
+                },
+                {
+                  "year": "29-19 aC",
+                  "title": "Virgili escriu les Geòrgiques (llibre IV)",
+                  "text": "La versió llatina que inclou el gir definitiu: Orfeu mira enrere i perd Eurídice per segon cop."
+                },
+                {
+                  "year": "8 dC",
+                  "title": "Ovidi, les Metamorfosis (llibre X)",
+                  "text": "La versió més influent per a la cultura occidental posterior. Orfeu, després de perdre Eurídice, rebutja totes les dones i és esquarterat per les Mènades."
+                },
+                {
+                  "year": "1607",
+                  "title": "Monteverdi estrena L'Orfeo",
+                  "text": "La primera òpera important de la historia de la música. El mite d'Orfeu inaugura un gènere sencer."
+                }
+              ]
+            },
+            {
+              "type": "prediction",
+              "question": "Abans de continuar: si poguessis recuperar algú que has perdut — una persona, una relació, una etapa de la teva vida — amb la condició de no mirar enrere fins a estar completament fora, creus que podries complir la condició?",
+              "hint": "Pensa no en el que voldries fer, sinó en el que creus que realment faries. Sovint no és el mateix."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-orf-01-01",
+              "style": "multiple-choice",
+              "question": "En la versió del mite de Virgili i Ovidi, com aconsegueix Orfeu entrar a l'inframón i arribar davant de Plutó i Prosèrpina?",
+              "options": [
+                "Enganya el gos Cèrber amb una poció soporífera, igual que Heracles",
+                "Els déus olímpics li obren el camí en agraïment als seus serveis",
+                "Toca la lira i la seva música paralitza i commou tots els éssers de l'inframón",
+                "Baixa disfressat d'ombra morta, aprofitant la foscor de l'inframón"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Orfeu no enganya ni força res: toca. La seva música és tan extraordinària que les ombres dels morts s'aturen, Tàntal oblida la seva set, Sísif s'asseu a la seva roca per escoltar, i les Erínies ploren per primera vegada. Plutó i Prosèrpina, commoguts, accepten. L'art fa el que la força no podria.",
+              "feedbackWrong": "Orfeu no usa astúcia ni força ni favors divins. Usa música. La seva lira paralitza i commou tots els éssers de l'inframón: les ombres s'aturen, Sísif s'asseu a la seva roca, les Erínies ploren. Plutó i Prosèrpina, vençuts per la bellesa, accepten la seva petició. És l'única conquesta de l'inframón feta sense violència en tota la mitologia grega."
+            }
+          ]
+        },
+
+        {
+          "id": "orf-02",
+          "title": "La condició: no miris enrere",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-orf-02-01",
+              "question": "La condició de Plutó (no mirar enrere) és una prova justa per a Orfeu, o és cruel per naturalesa — saber que és gairebé impossible de complir?",
+              "options": [
+                "Justa: Plutó ofereix una oportunitat real. Si Orfeu no pot complir-la, el problema és seu",
+                "Cruel: Plutó sap perfectament que un home que estima tant no podrà suportar la incertesa. És una trampa disfressada d'oportunitat",
+                "La dicotomia justa/cruel no aplica: la condició és una prova del que Orfeu és, no del que pot fer. I el resultat revela quelcom vertader sobre la seva naturalesa"
+              ],
+              "correct": 2,
+              "explanation": "La condició de Plutó funciona com un mirall: no revela si Orfeu és fort o dèbil, sinó qui és. Un home que pot caminar sense mirar és un home que pot contenir el seu amor dins d'una forma. Orfeu no pot — i el mite no ho presenta com un fracàs moral sinó com una revelació de naturalesa. Aquesta lectura connecta amb la tradició filosòfica que distingeix entre el que podem controlar i el que no. Els estoics dirien que Orfeu hauria d'haver acceptat la incertesa com a condició de la realitat. Però els estoics no haurien escrit l'Orfeu — haurien escrit un manual. El mite existeix precisament perquè hi ha una part de l'experiència humana que els manuals no capturen: la impossibilitat de ser el que sabem que hauríem de ser quan estimem massa."
+            },
+            {
+              "type": "misconception",
+              "belief": "Orfeu mira enrere per dubte o per covardia — no es fia prou d'Eurídice o dels déus.",
+              "reality": "Les interpretacions més riques del mite suggereixen que Orfeu mira enrere per excés d'amor, no per defecte de confiança. Porta l'angoixa de no saber si Eurídice hi és realment, si pateix, si necessita ajuda. És el gest d'algú que estima tant que no pot suportar la incertesa — no el gest d'algú que desconfia.",
+              "why": "Llegim «mirar enrere» com a debilitat perquè associem confiança amb passivitat i dubte amb acció. Però en el context del mite, mirar enrere és un acte d'amor aclaparador que es converteix en la seva pròpia destrucció."
+            },
+            {
+              "type": "narrative",
+              "text": "Plutó accepta. Eurídice pot tornar al món dels vius — amb una condició. Orfeu ha de caminar davant d'ella, sortir de l'inframón, i no mirar enrere en cap moment fins que tots dos hagin trepitjat la llum del sol. Si mira, Eurídice torna als morts per sempre. La condició sembla simple. No ho és."
+            },
+            {
+              "type": "key-idea",
+              "text": "La condició de Plutó no és un càstig arbitrari — és una prova de confiança. Orfeu ha de caminar cap endavant sense la confirmació que Eurídice el segueix. Ha de creure sense veure. El mite pregunta: pot l'amor existir sense la necessitat de control?"
+            },
+            {
+              "type": "what-would-you-do",
+              "character": "Orfeu",
+              "emoji": "🎵",
+              "year": "El camí de tornada de l'inframón",
+              "setup": "Camines en la foscor absoluta, pujant cap a la llum. Darrere teu, Eurídice hauria de seguir-te — però no la pots veure ni sentir. Les ombres de l'inframón no fan soroll. Portes minuts caminant i no tens cap confirmació que ella hi sigui. Podria haver ensopegat. Podria haver-se aturat. Podria no ser-hi des del principi. Quan gires el cap, veus el contorn de la llum del sol a pocs metres. Estàs gairebé fora.",
+              "dilemma": "Gires el cap per comprovar que Eurídice et segueix, o continues fins a la llum confiant cegament en la condició de Plutó?",
+              "options": [
+                { "id": "A", "text": "Giro: no puc arribar a la llum sense saber si ella hi és. L'amor sense confirmació no és amor — és il·lusió" },
+                { "id": "B", "text": "Continuo: vaig acceptar la condició i l'he de complir. Confiar és precisament no necessitar veure" }
+              ],
+              "reveal": "Orfeu gira el cap. En el moment en què els seus ulls troben Eurídice, ella comença a desaparèixer cap a l'inframón. Les versions del mite divergeixen sobre si Orfeu gira al final del camí o just quan queda poca distància. El resultat és el mateix: la perd per segon cop, i ara és per sempre.",
+              "analysis": "La pregunta que el mite deixa oberta és si Orfeu podia haver fet una altra cosa. No com a qüestió de voluntat, sinó de naturalesa: un músic que sent el que Orfeu sent, que estima com Orfeu estima, pot caminar cap endavant sense girar-se? O la seva pròpia intensitat emocional — la mateixa que el va fer capaç de commoure els déus dels morts — el condemna a mirar? El mite suggereix que el que ens fa capaços de grans coses és el mateix que ens fa incapaços de les petites."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-orf-02-01",
+              "style": "detect-error",
+              "statement": "En totes les versions antigues del mite, Orfeu mira enrere just quan ja és gairebé fora de l'inframón, a pocs passos de la llum.",
+              "isCorrect": false,
+              "feedbackExplanation": "Correcte: és fals. Les versions antigues no especifiquen el moment exacte de manera consistent. Virgili és deliberadament ambigu. Ovidi tampoc no precisa la distància. La indeterminació és significativa: el mite no vol dir «estava a punt d'aconseguir-ho» — vol dir que la mirada era inevitable, fos quan fos. El moment exacte és irrellevant; la impossibilitat de no mirar, no ho és."
+            },
+            {
+              "type": "expandable",
+              "label": "Hi ha versions del mite on Orfeu té èxit i recupera Eurídice?",
+              "content": "Sí. Alguns escriptors antics — entre ells Eurípides, en una obra perduda — van escriure versions en què Orfeu aconsegueix recuperar Eurídice i tornar amb ella al món dels vius. Però aquestes versions no van perdurar com a canònic. La versió de Virgili i Ovidi — la del fracàs — és la que va modelar tota la tradició occidental posterior. Això és significatiu: la cultura va triar la versió tràgica. Potser perquè la versió amb final feliç no diu res interessant. La que Orfeu fracassa diu moltíssim sobre la pèrdua, el dol i els límits de l'amor."
+            }
+          ]
+        },
+
+        {
+          "id": "orf-03",
+          "title": "El dol: quan la pèrdua es torna identitat",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-orf-03-01",
+              "question": "El dol d'Orfeu no acaba — es torna la seva identitat. Això és un fracàs psicològic (incapacitat de «superar» la pèrdua) o una forma legítima de viure amb la pèrdua?",
+              "options": [
+                "Un fracàs: el dol sà hauria de tenir un final. Un dol que no s'acaba és una patologia",
+                "Una forma legítima: algunes pèrdues no es «superen» — s'integren. Pretendre el contrari és negar la magnitud del que s'ha perdut",
+                "Cal distingir entre dol que paralitza i dol que transforma: Orfeu no para de viure ni de crear — el seu dol el canvia però no l'atura"
+              ],
+              "correct": 2,
+              "explanation": "La psicologia del dol ha evolucionat molt en les últimes dècades. El model clàssic de Kübler-Ross (negació, ira, negociació, depressió, acceptació) va ser durant anys el marc dominant — i implica que el dol té un final, una «superació». Però la recerca posterior, especialment la de George Bonanno i la de William Worden, ha complicat aquest quadre: moltes persones no segueixen les fases en ordre, moltes no arriben a una «acceptació» neta, i algunes integren la pèrdua d'una manera que les transforma sense paralitzar-les. El concepte de «creixement posttraumàtic» descriu persones que, després d'una pèrdua devastadora, es converteixen en versions més capaces i profundes d'elles mateixes — sense negar que han perdut quelcom irrecuperable. Orfeu és el model literari d'aquest procés: no supera Eurídice, però la seva música, precisament perquè ha après a perdre, adquireix una profunditat nova."
+            },
+            {
+              "type": "narrative",
+              "text": "Orfeu torna sol al món dels vius. Intenta tornar a l'inframón per tercera vegada, però Caront, el barquer, no el deixa passar. Es queda a la riba durant set dies, sense menjar, plorant. Quan finalment se n'allunya, vaga per Tràcia durant anys, evitant les dones, tocant una música que fa plorar tot el que l'escolta. El seu dol no acaba: es torna la seva identitat. Orfeu deixa de ser el músic que va baixar a l'inframón i es converteix en l'home que va perdre Eurídice."
+            },
+            {
+              "type": "key-idea",
+              "text": "El dol d'Orfeu no és una fase que passa — és una transformació. Quan la pèrdua és prou gran, no es «supera»: es converteix en part de qui ets. El mite no proposa com sortir del dol; proposa que algunes pèrdues canvien permanentment la persona que ets."
+            },
+            {
+              "type": "analogy",
+              "concept": "El dol que es torna identitat",
+              "emoji": "🪨",
+              "analogy": "El dol d'Orfeu s'assembla al que els geòlegs anomenen estratificació: quan una capa de sediment es diposita sobre el terreny i, amb el temps i la pressió, es torna roca. No desapareix ni es transforma en una altra cosa — s'integra en l'estructura del terreny. La persona que ha viscut un dol profund no és la mateixa persona sense dol, ara recuperada. És una persona nova que conté el dol com a part de la seva geologia interna.",
+              "bridge": "L'analogia captura quelcom que la psicologia del dol contemporània ha trigar a reconèixer: la idea que el dol s'«ha de superar» pressuposa que el resultat correcte és tornar a l'estat anterior. Però moltes persones que han viscut pèrdues grans descriuen una cosa diferent: no retornen al que eren, sinó que es converteixen en una versió nova que inclou la pèrdua. Orfeu no torna a ser el músic feliç que era abans d'Eurídice. Es torna el músic del dol. I potser la seva música, precisament perquè ha après a perdre, és més profunda."
+            },
+            {
+              "type": "perspective",
+              "situation": "Orfeu vaga per Tràcia després de perdre Eurídice per segon cop",
+              "perspectives": [
+                {
+                  "role": "Orfeu",
+                  "emoji": "🎵",
+                  "text": "Toco perquè és l'única cosa que queda. No per alegria — per necessitat. La música ja no és una celebració: és la forma que pren el dolor quan no sap com sortir. He après a perdre dues vegades la mateixa persona. No sé si això em fa més sage o simplement més buit."
+                },
+                {
+                  "role": "Una nimfa que l'escolta",
+                  "emoji": "🌿",
+                  "text": "La seva música és diferent d'abans. Abans ens movia perquè era bella. Ara ens mou perquè és vera. Hi ha quelcom en el seu joc que reconeixem sense haver-ho viscut — com si la seva pèrdua fos una llengua que tots entenem però que pocs han après a parlar."
+                },
+                {
+                  "role": "Caront, el barquer",
+                  "emoji": "⛵",
+                  "text": "Va venir una tercera vegada. Li vaig dir que no. Les regles existeixen per una raó: l'inframón no és un lloc d'on es torni dues vegades. La primera vegada vaig fer una excepció perquè la seva música era extraordinària. Però les excepcions que es repeteixen deixen de ser excepcions. Algunes pèrdues no es poden desfer."
+                }
+              ],
+              "reflection": "La música d'Orfeu canvia quan perd Eurídice. La teva relació amb alguna cosa que fas (escriure, cuinar, crear, cuidar) ha canviat després d'una pèrdua important?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-orf-03-01",
+              "style": "multiple-choice",
+              "question": "Després de perdre Eurídice per segon cop, Orfeu rebutja la companyia de les dones. Segons Ovidi, quin és el resultat final d'aquest rebuig?",
+              "options": [
+                "Orfeu troba la pau en la solitud i mor d'ancià tocant la seva lira",
+                "Les Mènades, furioses pel seu rebuig, l'esquarteren i llancen el seu cap al riu Hebros",
+                "Orfeu descendeix voluntàriament a l'inframón per tercera vegada i hi resta per sempre",
+                "Els déus, commoguts pel seu dol, el transformen en constel·lació"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Les Mènades — seguidores extàtiques de Dionís — l'esquarteren. El seu cap, separat del cos, continua cantant mentre el riu l'arrossega cap al mar. La imatge és potent: fins i tot mort i desmembrat, Orfeu no pot deixar de fer música. La seva identitat és indissociable de la seva veu.",
+              "feedbackWrong": "Ovidi descriu una fi violenta: les Mènades, furioses pel rebuig d'Orfeu, l'esquarteren. Però el detall que el mite conserva és que el seu cap, separat del cos, continua cantant mentre el riu l'endú. Fins i tot mort, Orfeu no pot deixar de ser músic. La mort no li treu la veu — li treu el cos."
+            },
+            {
+              "type": "expandable",
+              "label": "El cap d'Orfeu que canta: un símbol de la immortalitat de l'art",
+              "content": "La imatge del cap d'Orfeu flotant al riu mentre canta és una de les més comentades de la mitologia grega. Els intèrprets antics la llegien com una afirmació que la veu del poeta supera la mort del cos. Els romans la van associar a la immortalitat de la poesia: Virgili i Ovidi, tots dos a prop de la mort quan escrivien, podien identificar-se amb un Orfeu que continuava cantant després de morir. En el context del mite complet, és el contrapunt tràgic a la seva derrota: perd Eurídice, perd la vida, però la seva música no la pot perdre ningú."
+            }
+          ]
+        },
+
+        {
+          "id": "orf-04",
+          "title": "La confiança impossible: estimar sense controlar",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-orf-04-01",
+              "question": "El mite suggereix que mirar enrere per assegurar-se que Eurídice hi és és l'acte que fa que no hi sigui. Aplica això a les relacions humanes reals: la necessitat de control i confirmació pot destruir el que intenta preservar?",
+              "options": [
+                "No: a la vida real, la comunicació i la verificació solen enfortir les relacions, no debilitar-les",
+                "Sí: la necessitat excessiva de control és un dels principals destructors de relacions. L'ansietat d'adhesió destrueix l'autonomia de l'altre",
+                "Depèn del tipus de control: la comunicació oberta és diferent del control ansiós. El problema d'Orfeu no és que vulgui saber — és que no pot tolerar la incertesa"
+              ],
+              "correct": 2,
+              "explanation": "La psicologia del vincle afectiu (attachment theory), iniciada per John Bowlby i desenvolupada per Mary Ainsworth, descriu patrons d'adhesió que ressonen directament amb el mite. L'adhesió ansiosa — caracteritzada per la necessitat de confirmació constant, la dificultat per tolerar l'absència i l'hipersensibilitat als senyals de desconnexió — és diferent del desig legítim de proximitat. El problema d'Orfeu no és que estimi Eurídice: és que no pot tolerar la incertesa de no saber si hi és. Aquesta intolerància a la incertesa — no el amor en si — és el que el fa girar. La paradoxa que el mite captura és real: la necessitat de controlar la presència de l'altre pot expulsar-lo, de la mateixa manera que agafar massa fort una cosa delicada la trenca."
+            },
+            {
+              "type": "narrative",
+              "text": "Hi ha una lectura del mite que no tracta sobre el dol ni sobre l'art, sinó sobre una cosa més quotidiana i més difícil: la confiança. Orfeu ha d'estimar Eurídice sense poder verificar que ella hi és. Ha de caminar cap endavant sense la confirmació que el que espera existeix. Ha de resistir l'impuls de comprovar, de controlar, de saber. I no pot. La pregunta que el mite deixa sense resposta és si algú podria."
+            },
+            {
+              "type": "key-idea",
+              "text": "La condició de Plutó revela una tensió fonamental en l'amor: estimem perquè volem la presència de l'altre, però la necessitat de confirmar aquella presència pot destruir exactament el que intentem preservar. Mirar enrere per assegurar-se que Eurídice hi és és l'acte que fa que no hi sigui."
+            },
+            {
+              "type": "quote",
+              "text": "Potser tota la distància que podem crear en relació amb les persones que estimem és la salvació d'aquelles persones.",
+              "author": "Rainer Maria Rilke, Cartes a un jove poeta (1903)"
+            },
+            {
+              "type": "comparison",
+              "title": "Dues lectures de la mirada d'Orfeu",
+              "labelA": "La mirada com a defecte",
+              "labelB": "La mirada com a excés",
+              "items": [
+                {
+                  "label": "Causa",
+                  "a": "Dubte, desconfiança, por que Eurídice no el segueixi",
+                  "b": "Amor massa intens per suportar la incertesa de la seva absència"
+                },
+                {
+                  "label": "Diagnòstic",
+                  "a": "Orfeu no confia prou — en Eurídice, en els déus, en ell mateix",
+                  "b": "Orfeu estima massa per poder contenir el seu amor dins d'una forma"
+                },
+                {
+                  "label": "Lliçó implícita",
+                  "a": "Caldria haver tingut més fe i disciplina",
+                  "b": "La seva naturalesa el condemnava — no podia ser d'una altra manera"
+                },
+                {
+                  "label": "Qui fa aquesta lectura",
+                  "a": "Tradició moral: el mite és un advertiment contra la impaciència",
+                  "b": "Tradició romàntica: el mite és un retrat de l'amor absolut i els seus límits"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-orf-04-01",
+              "style": "detect-error",
+              "statement": "La condició de Plutó és una metàfora de la fe religiosa: igual que la fe exigeix creure sense veure, l'amor exigeix confiar sense confirmar. Orfeu fracassa perquè li falta fe.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'afirmació conté un error d'interpretació: la fe religiosa i la confiança en l'amor no funcionen exactament igual. La fe religiosa es dirigeix a un déu que, per definició, no pot ser verificat. La confiança d'Orfeu es dirigeix a Eurídice — una persona real que en principi podria o no seguir-lo. A més, el mite no presenta Orfeu com algú que «li falta fe» en el sentit religiós: la seva mirada no és escepticisme sobre l'existència dels déus sinó angúnia per l'absència de l'estimada. Reduir el mite a una lliçó sobre fe religiosa aplana la seva complexitat emocional i psicològica."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una relació important de la teva vida — una amistat, una parella, un familiar. Hi ha alguna cosa que fas «per cuidar-los» que en realitat serveix per tranquil·litzar-te tu, no per ajudar-los a ells?",
+              "prompt": "Pren un moment. No cal que responguis en veu alta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-orf-04-02",
+              "style": "multiple-choice",
+              "question": "Quin poeta del segle XX va reinterpretar el mite d'Orfeu com una reflexió sobre la impossibilitat de posseir l'amor — i va escriure que estimem millor quan renunciem a controlar el que estimem?",
+              "options": [
+                "T.S. Eliot, a La terra eixorca",
+                "Rainer Maria Rilke, a les Elegies de Duino i els Sonets a Orfeu",
+                "Federico García Lorca, a les seves Odes",
+                "Pablo Neruda, als Vint poemes d'amor"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Rilke va escriure els Sonets a Orfeu (1922) com una meditació sobre la pèrdua, l'art i la transformació. Per a Rilke, Orfeu representa l'artista que aprèn a deixar anar: la seva experiència de la pèrdua d'Eurídice no el destrueix sinó que el completa, convertint-lo en la veu que pot cantar el que és perible i el que és etern alhora.",
+              "feedbackWrong": "Va ser Rilke — Rainer Maria Rilke — qui va fer la reinterpretació més influent del mite al segle XX, als seus Sonets a Orfeu (1922). Per a Rilke, Orfeu és el model de l'artista que aprèn a transformar la pèrdua en cant, i que entén que l'amor profund requereix acceptar la impermanència del que s'estima."
+            }
+          ]
+        },
+
+        {
+          "id": "orf-05",
+          "title": "Orfeu com a artista: la pèrdua que fa possible la cançó",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-orf-05-01",
+              "question": "Si Orfeu hagués aconseguit recuperar Eurídice — si hagués complert la condició i sortit tots dos a la llum — seguiria sent el gran músic del mite?",
+              "options": [
+                "Sí: el seu talent era independent de la pèrdua. Hauria continuat sent el millor músic del món",
+                "No: la profunditat de la seva música neix de la pèrdua. Amb Eurídice recuperada, hauria tornat a ser un músic extraordinari però no el mateix",
+                "La pregunta no té resposta: el mite existeix precisament perquè Orfeu perd. Una versió amb final feliç seria un altre mite — no ens diria res sobre el que diu aquest"
+              ],
+              "correct": 2,
+              "explanation": "La pregunta és una trampa productiva: ens força a reconèixer que el mite no existeix per explicar-nos com seria Orfeu feliç — existeix per explicar-nos com es transforma un ésser humà (o semidiví) a través de la pèrdua. Les versions del mite en què Orfeu recupera Eurídice van ser descartades per la tradició no perquè siguin inverosímils, sinó perquè no diuen res interessant. El valor del mite resideix en la pèrdua i en el que Orfeu fa amb ella. Sense la pèrdua, no hi ha pregunta. Sense la pregunta, no hi ha mite — hi ha una anècdota amb final feliç. Això connecta amb una idea que apareix en molts grans narradors: les histories sobre la felicitat sostinguda solen ser menys reveladores que les histories sobre com les persones gestionen el que no poden tenir."
+            },
+            {
+              "type": "narrative",
+              "text": "Hi ha una paradoxa al cor del mite que poques vegades s'articula clarament: Orfeu és el músic més gran del món. I és el músic més gran del món perquè ha perdut Eurídice. Sense la pèrdua, no hi hauria la profunditat. Sense el descens a l'inframón, no hi hauria la comprensió del dolor que fa la seva música incontenible. El mite suggereix una idea incòmoda: que l'art de primera magnitud requereix una ferida de primera magnitud."
+            },
+            {
+              "type": "key-idea",
+              "text": "El mite d'Orfeu formula una de les preguntes més incòmodes sobre l'art: ¿necessita l'artista haver sofert per crear una obra que faci sofrir i consoli els altres? ¿O el sofriment és un romantisme que amaga que l'art és, en primer lloc, una qüestió de tècnica i treball?"
+            },
+            {
+              "type": "debate",
+              "question": "¿L'experiència del sofriment és necessària per crear art de profunditat autèntica?",
+              "positionA": {
+                "label": "Sí: el dolor és irreemplaçable",
+                "argument": "L'art que ens commou fins al fons parla d'experiències límit: la pèrdua, la mort, l'amor impossible, la injustícia. Un artista que no ha viscut cap d'aquestes coses pot imitar la seva forma, però no capturar la seva veritat. El públic ho nota. Hi ha una diferència entre quelcom tècnicament correcte i quelcom que sembla nascut de l'experiència real."
+              },
+              "positionB": {
+                "label": "No: el sofriment és una trampa romàntica",
+                "argument": "Mozart va compondre algunes de les obres més profundes de la historia a una edat en què no havia viscut quasi res. Bach va escriure música de dolor incontenible sense necessitar una biografia tràgica. L'art és una qüestió de tècnica, sensibilitat i treball — no de patologia personal. Romantitzar el sofriment de l'artista és confondre la persona amb l'obra, i de vegades justifica conductes destructives com si fossin necessàries per a la creació."
+              },
+              "reflection": "Pensa en una obra d'art — una cançó, un llibre, una pel·lícula — que t'hagi afectat profundament. Saps alguna cosa sobre la vida de qui la va crear? Canvia el teu judici sobre l'obra?",
+              "context": "La psicologia de la creativitat ha estudiat extensament aquesta pregunta. Les conclusions són matisades: el sofriment pot enriquir l'art quan es processa i es transforma, però la depressió clínica o el trauma sever solen reduir la productivitat creativa, no augmentar-la. La relació entre dolor i art no és directa — és mediada pel que l'artista fa amb el dolor."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Historia de la Música Clàssica",
+              "moduleEmoji": "🎼",
+              "concept": "L'Orfeo de Monteverdi i el mite com a origen de l'òpera",
+              "text": "L'any 1607, Claudio Monteverdi va estrenar L'Orfeo, considerada la primera gran òpera de la historia. No és casual que el mite d'Orfeu sigui l'origen del gènere: l'òpera neix de la pregunta si la música pot dir el que les paraules no poden. Orfeu — que convenç els déus dels morts amb música — és la resposta mítica a la pregunta artística que va fundar un gènere sencer."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-orf-05-01",
+              "style": "multiple-choice",
+              "question": "El mite d'Orfeu ha inspirat més obres d'art que gairebé qualsevol altra llegenda grega. Quina és la interpretació que millor explica per què aquest mite en concret ha tingut tanta ressonància?",
+              "options": [
+                "Perquè conté elements de suspens i aventura que el fan dramàticament efectiu",
+                "Perquè és el mite que més directament parla de la funció i el poder de l'art — i els artistes el reconeixen com a propi",
+                "Perquè la figura d'Eurídice és un arquetip universal de la dona en perill que cal rescatar",
+                "Perquè el descens a l'inframón és un viatge heroic comparable al d'Heracles o Odisseu"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Orfeu és el mite sobre l'art i l'artista per excel·lència: un creador que usa la seva creació per intentar canviar la realitat, que fracassa però continua creant, i que fins i tot mort segueix sent veu. Els artistes de totes les èpoques s'hi han identificat perquè parla de la seva experiència específica — la de crear per necessitat, la de perdre i transformar la pèrdua en cançó.",
+              "feedbackWrong": "La clau de la seva ressonància no és el suspens ni l'arquetip de la dona rescatada ni el viatge heroic — és que Orfeu és el mite sobre l'art com a forma de vida. Un creador que usa la creació per intentar canviar el que no es pot canviar, que fracassa i segueix creant, i que fins i tot mort continua sent veu. Els artistes de totes les èpoques s'hi han reconegut."
+            }
+          ]
+        },
+
+        {
+          "id": "orf-06",
+          "title": "El llegat d'Orfeu: el que no es pot recuperar",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-orf-06-01",
+              "question": "El mite d'Orfeu acaba sense recuperació d'Eurídice i sense redempció per a Orfeu. És un mite sobre la derrota — o sobre alguna cosa més?",
+              "options": [
+                "Sobre la derrota: el mite prova que alguns límits no es poden superar, per molt talent o amor que tinguis",
+                "Sobre la transformació: la pèrdua d'Eurídice és el que fa Orfeu complet com a artista i com a veu que dura més que la mort",
+                "Sobre l'ambigüitat irresoluble: el mite no resol si la pèrdua té sentit perquè és precisament la impossibilitat de resoldre-ho el que el fa veritable"
+              ],
+              "correct": 2,
+              "explanation": "Les grans obres de la tradició — el Job bíblic, el Rei Lear de Shakespeare, el Càntic dels Càntics — comparteixen amb el mite d'Orfeu una resistència a la resolució fàcil. No és que la pèrdua tingui sentit: és que la pregunta sobre si en té no té resposta definitiva, i és precisament la pressió d'aquesta pregunta sense resposta el que fa el mite viure durant mil·lennis. Un mite que digués «la pèrdua d'Eurídice va fer Orfeu millor músic — valgué la pena» seria consol barat. Un que digués «la pèrdua no serveix per a res — el món és cruel i punt» seria nihilisme. El que diu Orfeu és: la pèrdua és real, la transformació és real, el cap que canta al riu és real, i el que tu en fas depèn de tu. No hi ha moral. Hi ha la pregunta."
+            },
+            {
+              "type": "misconception",
+              "belief": "El mite d'Orfeu és una historia d'amor romàntic amb final tràgic — una mena de Romeo i Julieta de l'antiguitat.",
+              "reality": "El mite d'Orfeu és principalment una reflexió sobre l'art, el dol i els límits de l'amor — no una historia d'amor romàntic. Eurídice apareix poc en el text original; no la coneixem com a personatge. El que importa al mite no és la relació entre Orfeu i Eurídice, sinó el que Orfeu fa amb la pèrdua d'ella.",
+              "why": "La cultura romántica del segle XIX va rellegir el mite posant l'accent en la passió amorosa i el sacrifici, quan el focus dels textos antics estava en la música, la natura del dol i el poder de l'art. Eurídice és, en el mite original, menys una persona que una absència — la forma que pren tot el que no es pot recuperar."
+            },
+            {
+              "type": "narrative",
+              "text": "El cap d'Orfeu, llançat al riu Hebros per les Mènades, arriba flotant a l'illa de Lesbos. Allà, els habitants el recullen i l'enterren amb honors. Es diu que el lloc on reposa el seu cap es va convertir en un oracle — que les persones hi anaven a demanar consell i escoltaven una veu que els responia. Fins i tot mort i desmembrat, Orfeu continua sent una veu que dóna sentit al que no en té. El músic que va perdre tot el que estimava es converteix, al final, en un lloc on els vius van a buscar consol."
+            },
+            {
+              "type": "key-idea",
+              "text": "Orfeu no recupera el que ha perdut. Però la seva pèrdua es transforma en alguna cosa que dura: una veu, una tradició, un lloc de consol per als altres. El mite no promet que el dol tingui un final feliç — promet que pot tenir un sentit."
+            },
+            {
+              "type": "before-after",
+              "title": "Orfeu: el músic i la seva transformació",
+              "before": {
+                "label": "Orfeu abans de la pèrdua",
+                "points": [
+                  "Músic diví que commou la natura amb la seva lira",
+                  "Heroi dels Argonautes: la seva música guia l'expedició",
+                  "Home estimat per Eurídice, feliç al món dels vius",
+                  "Talent que neix de la seva herència divina, no de l'experiència"
+                ]
+              },
+              "after": {
+                "label": "Orfeu després de la pèrdua",
+                "points": [
+                  "Músic del dol: la seva música fa plorar perquè és vertadera, no perquè sigui bella",
+                  "Home que va al límit del possible i torna sol",
+                  "Veu que continua cantant fins i tot després de la mort",
+                  "Oracle: els vius hi van a buscar consol per les seves pròpies pèrdues"
+                ]
+              },
+              "insight": "La transformació d'Orfeu no és de la felicitat al dolor — és del talent a la veritat. Abans de perdre Eurídice, era extraordinari. Després, és necessari."
+            },
+            {
+              "type": "primary-source",
+              "label": "Virgili, Geòrgiques IV (vv. 525-527)",
+              "source": "Virgili, Geòrgiques, llibre IV — la mort d'Orfeu",
+              "text": "«El cap, separat del marbre del coll, mentre el riu l'arrossegava en mig del corrent, la veu i la llengua que refredava la mort l'anomenaven: Eurídice! Eurídice!»",
+              "questions": [
+                "Virgili descriu el cap d'Orfeu cridant «Eurídice» mentre el riu l'endú. Quin efecte crea el fet que l'última paraula que surt de la seva boca sigui un nom — el nom de l'absent?",
+                "La veu crida «Eurídice» però Eurídice no hi és i no pot respondre. Qui escolta, doncs, el crit? Quin sentit té cridar algú que no pot sentir-te?",
+                "Com interpreta aquest fragment el vers final — «la llengua que refredava la mort»: el fred és físic, però pot tenir també un altre sentit?"
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-orf-06-01",
+              "style": "detect-error",
+              "statement": "El mite d'Orfeu conclou amb la reunió d'Orfeu i Eurídice a l'inframón després de la seva mort.",
+              "isCorrect": true,
+              "feedbackExplanation": "Cert. Algunes versions del mite, especialment les d'influència òrfica, descriuen que les ànimes d'Orfeu i Eurídice es reuneixen a l'inframón després de la mort d'ell. És un final que la tradició ha preferit no emfatitzar — perquè transforma una tragèdia en una mena de consol, i el mite és més poderós sense consol fàcil."
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

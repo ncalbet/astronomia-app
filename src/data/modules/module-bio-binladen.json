@@ -10,6 +10,19 @@
       "title": "L'hereu saudita: arrels i radicalització",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-binladen-01-01",
+          "question": "Quin és el significat del concepte 'blowback' en el context de la política exterior americana i bin Laden?",
+          "options": [
+            "L'estratègia americana de finançar grups extremistes per dividir l'enemic",
+            "Les conseqüències no volgudes d'operacions secretes que acaben perjudicant el seu propi autor",
+            "La política de repressió indiscriminada que genera nous terroristes",
+            "El rebuig popular als Estats Units de les guerres d'Afganistan i Iraq"
+          ],
+          "correct": 1,
+          "explanation": "Blowback és un terme de la CIA que descriu les conseqüències adverses no previstes d'una operació secreta. En el cas d'Afganistan, els EUA van crear les condicions per al sorgiment d'Al-Qaeda en finançar i entrenar els grups islamistes que lluitaven contra l'URSS."
+        },
+        {
           "type": "quote",
           "text": "Hem declarat la guerra santa als americans perquè els americans han declarat la guerra a Déu, al seu profeta i als musulmans.",
           "author": "Osama bin Laden, declaració de 1996"
@@ -52,19 +65,6 @@
           "correct": 1,
           "feedbackCorrect": "La invasió soviètica d'Afganistan va ser el primer gran moment de mobilització. Però el trencament definitiu amb Occident i l'Aràbia Saudita va arribar el 1990-91, quan va veure tropes americanes estacionades en terra sagrada islàmica durant la Guerra del Golf.",
           "feedbackWrong": "La invasió d'Afganistan va ser el punt de partida, però el trencament definitiu amb els EUA va arribar quan les tropes americanes es van estacionar a l'Aràbia Saudita durant la Guerra del Golf de 1990-91."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-binladen-01-01",
-          "question": "Quin és el significat del concepte 'blowback' en el context de la política exterior americana i bin Laden?",
-          "options": [
-            "L'estratègia americana de finançar grups extremistes per dividir l'enemic",
-            "Les conseqüències no volgudes d'operacions secretes que acaben perjudicant el seu propi autor",
-            "La política de repressió indiscriminada que genera nous terroristes",
-            "El rebuig popular als Estats Units de les guerres d'Afganistan i Iraq"
-          ],
-          "correct": 1,
-          "explanation": "Blowback és un terme de la CIA que descriu les conseqüències adverses no previstes d'una operació secreta. En el cas d'Afganistan, els EUA van crear les condicions per al sorgiment d'Al-Qaeda en finançar i entrenar els grups islamistes que lluitaven contra l'URSS."
         }
       ]
     },
@@ -72,6 +72,19 @@
       "id": "binladen-02",
       "title": "Al-Qaeda: la ideologia del jihadisme global",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-binladen-02-01",
+          "question": "Quin teòric islamista del segle XX va influir més en la ideologia de bin Laden?",
+          "options": [
+            "L'ayatollah Khomeini i la revolució islàmica iraniana",
+            "Sayyid Qutb, teòric egipci dels Germans Musulmans",
+            "Hassan al-Banna, fundador dels Germans Musulmans",
+            "Maududi, teòric del Pakistan islamista"
+          ],
+          "correct": 1,
+          "explanation": "Sayyid Qutb (executat per Nasser el 1966) va desenvolupar la idea que les societats musulmanes contemporànies vivien en un estat de 'jahiliyya' (ignorància preislàmica) i que el jihad armat era una obligació per restaurar un ordre islàmic pur. Aquesta idea va ser fonamental per a bin Laden."
+        },
         {
           "type": "quote",
           "text": "Estimem la mort tant com vosaltres estimeu la vida.",
@@ -103,19 +116,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. Bin Laden va argumentar que atacar els governs locals era ineficient; calia atacar els EUA, que els sostenia. Portant el jihadisme a escala global i atacant el territori americà, creia que faria col·lapsar el sistema.",
           "feedbackWrong": "La gran innovació de bin Laden va ser globalitzar el jihadisme: atacar els EUA directament, en lloc de centrar-se en governs locals, perquè considerava que els EUA era el poder que sostenia tots els règims que odiava."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-binladen-02-01",
-          "question": "Quin teòric islamista del segle XX va influir més en la ideologia de bin Laden?",
-          "options": [
-            "L'ayatollah Khomeini i la revolució islàmica iraniana",
-            "Sayyid Qutb, teòric egipci dels Germans Musulmans",
-            "Hassan al-Banna, fundador dels Germans Musulmans",
-            "Maududi, teòric del Pakistan islamista"
-          ],
-          "correct": 1,
-          "explanation": "Sayyid Qutb (executat per Nasser el 1966) va desenvolupar la idea que les societats musulmanes contemporànies vivien en un estat de 'jahiliyya' (ignorància preislàmica) i que el jihad armat era una obligació per restaurar un ordre islàmic pur. Aquesta idea va ser fonamental per a bin Laden."
         }
       ]
     },
@@ -123,6 +123,13 @@
       "id": "binladen-03",
       "title": "L'11-S i les seves conseqüències: el món que va canviar",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "id": "wwyd-binladen-03-01",
+          "scenario": "Ets assessor del president americà el 12 de setembre de 2001. Has de recomanar una resposta als atacs. Tens opcions: resposta militar a Afganistan per destruir Al-Qaeda, operació policial internacional de caça dels responsables, resposta diplomàtica per aïllar els talibans, o una combinació. Saps que cada resposta tindrà conseqüències sobre les llibertats civils i la política exterior.",
+          "question": "Quina resposta hauries recomanat? Com equilibres seguretat, valors democràtics i conseqüències no previstes?",
+          "reflection": "La resposta americana post-11-S ha estat àmpliament criticada: les guerres d'Afganistan i Iraq van ser costoses en vides i diners, van generar inestabilitat i nous grups jihadistes (ISIS), i van erosionar drets civils a casa. Però la pregunta alternativa és genuïnament difícil: no respondre militarment hauria semblat debilitat i podria haver encoratjat més atacs. El dilema entre seguretat i llibertat, entre reacció contundent i escalada, no té una solució fàcil."
+        },
         {
           "type": "quote",
           "text": "Amèrica no tindrà pau fins que la pau regni a Palestina i fins que tots els exèrcits dels infidels surtin de la terra de Mahoma.",
@@ -161,13 +168,6 @@
           "correct": 2,
           "feedbackCorrect": "Exacte. L'operació Neptune Spear, el 2 de maig de 2011, va localitzar bin Laden en una mansió d'Abbottabad, al Pakistan. Les Navy SEALs el van matar en un operatiu nocturn. El president Obama va seguir l'operació en directe des de la Sala de Situació de la Casa Blanca.",
           "feedbackWrong": "Bin Laden va morir el 2 de maig de 2011 a Abbottabad (Pakistan), en un operatiu de les Navy SEALs ordenat per Obama. El seu cos va ser llançat al mar."
-        },
-        {
-          "type": "what-would-you-do",
-          "id": "wwyd-binladen-03-01",
-          "scenario": "Ets assessor del president americà el 12 de setembre de 2001. Has de recomanar una resposta als atacs. Tens opcions: resposta militar a Afganistan per destruir Al-Qaeda, operació policial internacional de caça dels responsables, resposta diplomàtica per aïllar els talibans, o una combinació. Saps que cada resposta tindrà conseqüències sobre les llibertats civils i la política exterior.",
-          "question": "Quina resposta hauries recomanat? Com equilibres seguretat, valors democràtics i conseqüències no previstes?",
-          "reflection": "La resposta americana post-11-S ha estat àmpliament criticada: les guerres d'Afganistan i Iraq van ser costoses en vides i diners, van generar inestabilitat i nous grups jihadistes (ISIS), i van erosionar drets civils a casa. Però la pregunta alternativa és genuïnament difícil: no respondre militarment hauria semblat debilitat i podria haver encoratjat més atacs. El dilema entre seguretat i llibertat, entre reacció contundent i escalada, no té una solució fàcil."
         }
       ]
     }

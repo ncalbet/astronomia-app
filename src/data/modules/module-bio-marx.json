@@ -10,6 +10,24 @@
       "title": "El jove radical: de Trier a l'exili permanent",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-mkx-01-01",
+          "question": "Marx va tenir set fills, tres dels quals van morir de petits en condicions de pobresa extrema a Londres. Engels el va finançar gairebé tota la seva vida. Com afecta la biografia personal a la lectura de la seva obra?",
+          "options": [
+            "No afecta: la validesa d'un argument no depèn de la situació personal de qui l'elabora. Les idees de Marx s'han de jutjar per la seva coherència i la seva capacitat explicativa, no per la seva vida",
+            "Afecta significativament: un home que va veure morir fills per la pobresa mentre escrivia sobre l'explotació del proletariat tenia un coneixement directe del sofriment que teoriztava. La seva obra és inseparable d'aquella experiència",
+            "La biografia és rellevant però de forma complexa: conèixer les condicions en les quals va escriure ajuda a entendre les motivacions i els límits de la seva obra, sense que aquelles condicions determinin la seva validesa"
+          ],
+          "correct": 2,
+          "explanation": "La posició A (biografia irrelevant) és la posició clàssica de la filosofia analítica: un argument és vàlid o no, independentment de qui l'elabora. Però la posició B té quelcom important: Marx no escrivia sobre l'alienació des d'un despatx confortable —escrivia des d'una casa al Soho de Londres on va veure morir fills per malalties evitables amb diners que no tenia. La seva anàlisi tenia una urgència personal que no és anecdòtica. La posició C és la més matisada: la biografia ajuda a entendre per qué Marx escrivia com escrivia (la urgència, la ira, el mesianisme), però no determina si tenia raó o no."
+        },
+        {
+          "type": "misconception",
+          "belief": "Marx era un líder revolucionari que va dirigir moviments polítics de masses i va ser una figura central de les revolucions del seu temps.",
+          "reality": "Marx era un exiliat marginal que va passar gran part de la vida a la sala de lectura del British Museum, en la pobresa. Cap de les revolucions del 1848 el va prendre seriosament com a líder. La Primera Internacional va acabar en conflicte intern. Va morir el 1883 amb onze persones al seu enterrament. Cap revolució havia triomfat en el seu nom. El seu impacte va ser pòstum i mediado pels seus intèrprets —sobretot Lenin, trenta-quatre anys després de la seva mort.",
+          "why": "La distància entre el Marx real (erudit marginal i empobrit) i el Marx mític (pare de la revolució mundial) diu molt sobre com les idees poden tenir una vida independent dels seus autors."
+        },
+        {
           "type": "quote",
           "text": "Els filòsofs han interpretat el món de diverses maneres; de lo que es tracta, però, és de transformar-lo.",
           "author": "Karl Marx, Tesi XI sobre Feuerbach (1845)"
@@ -25,12 +43,11 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1818", "title": "Naix a Trier, Prússia", "text": "Família jueva convertida al protestantisme. Pare advocat liberal. Educació clàssica." },
-            { "year": "1841-42", "title": "Joves Hegelians i periodisme", "text": "Doctorat en filosofia. Editor de la Rheinische Zeitung. Censura prussiana tanca el diari." },
-            { "year": "1843", "title": "París i Engels", "text": "Trasllat a París. Coneix Friedrich Engels. Inicien una col·laboració i amistat que durarà tota la vida." },
-            { "year": "1845", "title": "Tesis sobre Feuerbach", "text": "Onze aforismes, mai publicats per Marx, que inclouen la famosa Tesi XI: 'transformar el món'." },
-            { "year": "1848", "title": "El Manifest Comunista i les revolucions", "text": "Publicat el febrer. Les revolucions del 48 esclatem dies després. Totes fracassen." },
-            { "year": "1849-1883", "title": "Exili a Londres", "text": "Pobresa severa. Mort de fills. El Capital (vol. I, 1867). Mor el 1883 a Londres." }
+            { "year": "1818", "text": "Neix a Trier, Prússia. Família jueva convertida al protestantisme. Pare advocat liberal." },
+            { "year": "1841-42", "text": "Joves Hegelians i periodisme. Editor de la Rheinische Zeitung. Censura prussiana tanca el diari." },
+            { "year": "1843", "text": "París i Engels. Coneix Friedrich Engels. Inicien una col·laboració i amistat que durarà tota la vida." },
+            { "year": "1848", "text": "El Manifest Comunista i les revolucions. Publicat el febrer. Les revolucions del 48 esclaten dies després. Totes fracassen." },
+            { "year": "1849-1883", "text": "Exili a Londres. Pobresa severa. Mort de fills. El Capital (vol. I, 1867). Mor el 1883 amb onze persones al seu enterrament." }
           ]
         },
         {
@@ -40,25 +57,13 @@
           "question": "La idea de Marx de 'posar Hegel sobre els seus peus' significava:",
           "options": [
             "Abandonar completament la filosofia de Hegel i substituir-la per una ciència econòmica basada en dades empíriques i estadístiques",
-            "Invertir el punt de partida hegelià: on Hegel deia que les idees mouven la historia, Marx deia que les condicions materials (qui posseeix els mitjans de producció) determinen les idees",
+            "Invertir el punt de partida hegelià: on Hegel deia que les idees mouen la historia, Marx deia que les condicions materials (qui posseeix els mitjans de producció) determinen les idees",
             "Aplicar el mètode dialèctic de Hegel (tesi-antítesi-síntesi) a l'anàlisi econòmica en lloc de a l'anàlisi filosòfica",
-            "Acceptar la filosofia de Hegel en la seva totalitat però afegir-hi una dimensió pràctica: que el coneixement filosòfic havia de traduir-se en acció política concreta"
+            "Acceptar la filosofia de Hegel en la seva totalitat però afegir-hi una dimensió pràctica: que el coneixement filosòfic havia de traduir-se en acció política"
           ],
           "correct": 1,
-          "feedbackCorrect": "Exacte. Hegel creia que la Idea (l'Esperit Absolut, la Raó) era el motor de la historia: el món real és una manifestació de les idees que s'hi expressen. Marx va girar completament aquest punt de partida: les idees (filosofia, religió, moral, dret) no son el motor de la historia sinó el producte de les condicions materials. En cada època, qui posseeix els mitjans de producció (la terra en el feudalisme, el capital en el capitalisme) determina les relacions socials i, a través d'elles, les idees dominants. Com va escriure Marx: 'Les idees de la classe dominant son, en cada època, les idees dominants'.",
-          "feedbackWrong": "La fórmula de Marx era una inversió del punt de partida de Hegel: on Hegel posava les idees com a motor de la historia, Marx hi posava les condicions materials —qui controla els mitjans de producció. Va conservar el mètode dialèctic de Hegel (la historia avança per contradiccions), però va canviar el contingut: les contradiccions son econòmiques (entre classes), no filosòfiques."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-mkx-01-01",
-          "question": "Marx va tenir set fills, tres dels quals van morir de petits en condicions de pobresa extrema a Londres. Engels el va finançar gairebé tota la seva vida. Com afecta la biografia personal a la lectura de la seva obra?",
-          "options": [
-            "No afecta: la validesa d'un argument no depèn de la situació personal de qui l'elabora. Les idees de Marx s'han de jutjar per la seva coherència i la seva capacitat explicativa, no per la seva vida",
-            "Afecta significativament: un home que va veure morir fills per la pobresa mentre escrivia sobre l'explotació del proletariat tenia un coneixement directe del sofriment que teoriztava. La seva obra és inseparable d'aquella experiència",
-            "La biografia és rellevant però de forma complexa: conèixer les condicions en les quals va escriure ajuda a entendre les motivacions i els límits de la seva obra, sense que aquelles condicions determinin la seva validesa"
-          ],
-          "correct": 2,
-          "explanation": "La relació entre la biografia i l'obra en Marx és especialment rica. La posició A (que la biografia és irrelevant) és la posició clàssica de la filosofia analítica: un argument és vàlid o no ho és, independentment de qui l'elabora. Però la posició B té quelcom important: Marx no escrivia sobre l'alienació i l'explotació des d'un despatx confortable —escrivia des d'una casa al Soho de Londres on va veure morir fills per malalties evitables amb diners que no tenia. La seva anàlisi del Capital tenia una urgència personal que no és anecdòtica. La posició C és la més matisada: la biografia ajuda a entendre per qué Marx escrivia com escrivia (la urgència, la ira, el mesianisme), però no determina si tenia raó o no. El propi Marx hauria dit que la validesa d'una teoria no depèn de la situació de classe del seu autor —una posició una mica paradoxal des del seu punt de vista materialista."
+          "feedbackCorrect": "Exacte. Hegel creia que la Idea (l'Esperit Absolut) era el motor de la historia. Marx va girar completament aquest punt de partida: les idees no son el motor de la historia sinó el producte de les condicions materials. En cada època, qui posseeix els mitjans de producció determina les relacions socials i, a través d'elles, les idees dominants: 'Les idees de la classe dominant son, en cada època, les idees dominants'.",
+          "feedbackWrong": "La fórmula de Marx era una inversió del punt de partida de Hegel: on Hegel posava les idees com a motor de la historia, Marx hi posava les condicions materials —qui controla els mitjans de producció. Va conservar el mètode dialèctic però va canviar el contingut: les contradiccions son econòmiques (entre classes), no filosòfiques."
         }
       ]
     },
@@ -67,41 +72,11 @@
       "title": "El Manifest i El Capital: el diagnòstic del capitalisme",
       "blocks": [
         {
-          "type": "narrative",
-          "text": "El febrer del 1848, la Lliga dels Comunistes va publicar a Londres un petit pamflet de vint-i-tres pàgines encarregat a Marx i Engels: el Manifest del Partit Comunista. Uns dies després, les revolucions van esclatar a París, Berlín, Viena, Budapest i Milà. El Manifest começava amb una de les frases més famoses de la historia política: 'Un espectre recorre Europa: l'espectre del comunisme.' El pamflet exposava la teoria de la lluita de classes —la idea que tota la historia humana és la historia de la lluita entre classes amb interessos oposats (amos i esclaus, senyors i serfs, burgesos i proletaris)— i acabava amb la crida a la revolució: 'Que les classes dominants tremolin davant d'una revolució comunista. Els proletaris no hi han res a perdre sinó les seves cadenes. Tenen un món a guanyar. Proletaris de tots els països, uniu-vos!' Les revolucions del 48 van fracassar totes. Marx es va instal·lar a Londres, en la pobresa, i va passar els vint anys següents a la sala de lectura del Museu Britànic construint la seva obra major: Das Kapital. El primer volum va sortir el 1867. Analitzava el capitalisme des dels seus fonaments: la mercaderia (qualsevol cosa que es produeix per al mercat), el valor (determinat pel temps de treball socialment necessari per produir-la), la plusvàlua (la diferència entre el que el treballador produeix i el que cobra —la font del benefici capitalista) i l'alienació (el treballador que produeix objectes als quals no té accés i que en determinen la vida és un treballador alienat de la seva pròpia activitat). El Capital és alhora un text d'economia i de filosofia moral —una anàlisi del capitalisme i una acusació."
-        },
-        {
-          "type": "primary-source",
-          "label": "Marx i Engels, El Manifest del Partit Comunista (1848)",
-          "source": "Karl Marx i Friedrich Engels, Manifest del Partit Comunista, febrer del 1848. Extractes del capítol I.",
-          "text": "«La historia de tota la societat fins ara és la historia de les lluites de classes. Home lliure i esclau, patrici i plebeu, baró i serf, mestre gremi i oficial, en una paraula: opressor i oprimit, en oposició constant l'un a l'altre, han portat una lluita ininterrompuda, ara amagada, ara oberta; una lluita que cada vegada ha acabat o bé amb una transformació revolucionària de tota la societat, o bé amb la ruïna comuna de les classes en lluita.\n\nLa nostra època, l'època de la burgesia, es distingeix, tanmateix, per haver simplificat les contradiccions de classe. Tota la societat se separa cada vegada més en dos grans camps enemics, en dues grans classes directament oposades l'una a l'altra: la burgesia i el proletariat.»",
-          "questions": [
-            "Marx diu que 'tota la historia de la societat fins ara és la historia de les lluites de classes'. Quines objeccions es podrien plantejar a una afirmació tan general? Quins fenòmens histories no encaixen bé en aquest marc?",
-            "El Manifest va ser escrit el 1848, en plena revolució industrial. Fins a quin punt la seva anàlisi és específica d'aquell moment historic i fins a quin punt és aplicable al capitalisme del segle XXI?",
-            "El Manifest és un document polític tant com filosòfic. Com canvia la naturalesa d'un text el fet de saber que vol mobilitzar a l'acció, no només analitzar?"
-          ]
-        },
-        {
           "type": "what-would-you-do",
-          "character": "Karl Marx",
-          "emoji": "📖",
-          "year": "Març del 1848",
-          "setup": "Les revolucions han esclatat per tot Europa. A París, el rei ha abdicat. A Berlín, el rei ha cedit una constitució. A Viena, Metternich —el gran arquitecte de l'ordre conservador europeu— ha hagut de fugir. El moviment obrer alemany et demana que tornis a Colònia a dirigir el diari Neue Rheinische Zeitung i donis suport a la revolució. Però la situació és confusa: la revolució alemanya la lideren liberals burgesos, no el proletariat. Si dones suport als liberals, la revolució guanyarà però no serà la revolució socialista. Si esperes el moment del proletariat, la revolució pot fracassar i el moment es perdrà.",
-          "dilemma": "Dones suport a la revolució burgesa liberal ara, esperant que sigui el primer pas cap a la revolució proletària? O t'hi oposess perquè no és la revolució que vols, i esperes que les condicions maduren?",
-          "options": [
-            { "id": "A", "text": "Dono suport a la revolució burgesa: la democràcia liberal és un pas necessari cap al socialisme. Cal guanyar la llibertat política primer" },
-            { "id": "B", "text": "M'oposo: donar suport als burgesos és ajudar els futurs opressors del proletariat. La revolució ha de ser socialista des del primer moment o no serà res" }
-          ],
-          "reveal": "Marx va tornar a Colònia i va donar suport a la revolució burgesa liberal, editant la Neue Rheinische Zeitung fins que els prussians la van tancar. Va apostar per la transició per fases: primer la democràcia burgesa, després el socialisme. Les revolucions del 48 van fracassar totes. Marx va treure la conclusió que el proletariat havia d'organitzar-se de forma independent —no aliar-se amb la burgesia— però sense abandonar la idea de les etapes.",
-          "analysis": "La decisió de Marx el 1848 il·lustra una de les tensions centrals del marxisme: el 'possibilisme' (donar suport a avenços parcials com a passes cap al fi) versus el 'maximalisme' (res que no sigui la revolució completa). Marx va ser possibilista el 1848, però la seva teoria apuntava cap al maximalisme. Aquesta tensió va dividir el moviment socialista durant tot el segle XX: social-democràcia (reformes dins del sistema) versus leninisme (revolució total). Els dos camins invocan Marx."
-        },
-        {
-          "type": "exercise",
-          "id": "ex-mkx-02-01",
-          "style": "detect-error",
-          "statement": "Segons Marx, la plusvàlua és la diferència entre el preu de venda d'una mercaderia i el cost de les matèries primeres necessàries per produir-la.",
-          "isCorrect": false,
-          "feedbackExplanation": "Incorrecte. La plusvàlua en Marx no és la diferència entre preu de venda i cost de matèries primeres —aquesta seria simplement el marge brut en termes comptables. La plusvàlua és la diferència entre el valor que el treballador crea amb el seu treball i el salari que rep. Per exemple: si un treballador produeix en quatre hores un valor equivalent al seu salari diari, les quatre hores restants de la jornada produeixen plusvàlua que el capitalista s'apropia. És el mecanisme fonamental de l'explotació capitalista en l'anàlisi marxista: el capitalista no roba al treballador el seu salari, sinó que li paga exactament el que ha pactat —però el que ha pactat és menys que el que produeix."
+          "id": "wwyd-mkx-02-01",
+          "scenario": "Març del 1848. Les revolucions han esclatat per tot Europa. A París, el rei ha abdicat. A Berlín, el rei ha cedit una constitució. A Viena, Metternich —el gran arquitecte de l'ordre conservador europeu— ha hagut de fugir. El moviment obrer alemany et demana que tornis a Colònia a dirigir el diari Neue Rheinische Zeitung i donis suport a la revolució. Però la situació és confusa: la revolució alemanya la lideren liberals burgesos, no el proletariat. Si dones suport als liberals, la revolució guanyarà però no serà la revolució socialista. Si esperes el moment del proletariat, la revolució pot fracassar.",
+          "question": "Dones suport a la revolució burgesa liberal ara, esperant que sigui el primer pas cap a la revolució proletària? O t'hi oposess perquè no és la revolució que vols?",
+          "reflection": "Marx va tornar a Colònia i va donar suport a la revolució burgesa liberal, editant la Neue Rheinische Zeitung fins que els prussians la van tancar. Va apostar per la transició per fases: primer la democràcia burgesa, després el socialisme. Les revolucions del 48 van fracassar totes. Marx va treure la conclusió que el proletariat havia d'organitzar-se de forma independent. Aquesta tensió —possibilisme vs. maximalisme— va dividir el moviment socialista durant tot el segle XX: social-democràcia (reformes dins del sistema) versus leninisme (revolució total). Els dos camins invoquen Marx."
         },
         {
           "type": "scientific-mode",
@@ -113,7 +88,36 @@
             "Parcialment encertades: l'anàlisi de les tendències del capitalisme (crisi, concentració) ha resistit bé; però els mecanismes de correcció (estat del benestar, regulació, drets laborals) que Marx no preveia han fet que les conseqüències fossin molt menys explosives del que ell anticipava"
           ],
           "correct": 2,
-          "explanation": "L'avaluació de les prediccions de Marx és un exercici complex perquè depèn de quines prediccions es consideren. La posició A (molt encertades) té raó en les tendències: la concentració de capital que Piketty ha documentat, les crisis periòdiques i la precarització de sectors de les classes mitges son compatibles amb l'anàlisi marxista. La posició B (molt equivocades) té raó en el mecanisme: Marx va predir la revolució on hi ha hagut reformes; el capitalisme s'ha adaptat (estat del benestar, sindicats, regulació) de formes que Marx no preveia. La posició C és la síntesi més precisa: Marx va identificar tendències reals del capitalisme, però va subestimar la seva capacitat d'adaptació i va sobrestimar la inevitabilitat de la revolució. Les seves prediccions com a analista de tendències han resistit millor que les seves prediccions com a profeta revolucionari."
+          "explanation": "La posició A (molt encertades) té raó en les tendències: la concentració de capital que Piketty ha documentat, les crisis periòdiques i la precarització de sectors de les classes mitges son compatibles amb l'anàlisi marxista. La posició B (molt equivocades) té raó en el mecanisme: Marx va predir la revolució on hi ha hagut reformes; el capitalisme s'ha adaptat (estat del benestar, sindicats, regulació) de formes que Marx no preveia. La posició C és la síntesi: Marx va identificar tendències reals del capitalisme, però va subestimar la seva capacitat d'adaptació. Les seves prediccions com a analista de tendències han resistit millor que les seves prediccions com a profeta revolucionari."
+        },
+        {
+          "type": "narrative",
+          "text": "El febrer del 1848, la Lliga dels Comunistes va publicar a Londres un petit pamflet de vint-i-tres pàgines encarregat a Marx i Engels: el Manifest del Partit Comunista. Uns dies després, les revolucions van esclatar a París, Berlín, Viena, Budapest i Milà. El Manifest comenzava amb una de les frases més famoses de la historia política: 'Un espectre recorre Europa: l'espectre del comunisme.' El pamflet exposava la teoria de la lluita de classes i acabava amb la crida a la revolució: 'Proletaris de tots els països, uniu-vos!' Les revolucions del 48 van fracassar totes. Marx es va instal·lar a Londres, en la pobresa, i va passar els vint anys següents a la sala de lectura del Museu Britànic construint la seva obra major: Das Kapital. El primer volum va sortir el 1867. Analitzava el capitalisme des dels seus fonaments: la mercaderia, el valor (determinat pel temps de treball socialment necessari), la plusvàlua (la diferència entre el que el treballador produeix i el que cobra —la font del benefici capitalista) i l'alienació (el treballador que produeix objectes als quals no té accés i que en determinen la vida és un treballador alienat de la seva pròpia activitat)."
+        },
+        {
+          "type": "primary-source",
+          "label": "Marx i Engels, El Manifest del Partit Comunista (1848)",
+          "source": "Karl Marx i Friedrich Engels, Manifest del Partit Comunista, febrer del 1848. Extractes del capítol I.",
+          "text": "«La historia de tota la societat fins ara és la historia de les lluites de classes. Home lliure i esclau, patrici i plebeu, baró i serf, mestre gremi i oficial, en una paraula: opressor i oprimit, en oposició constant l'un a l'altre, han portat una lluita ininterrompuda, ara amagada, ara oberta; una lluita que cada vegada ha acabat o bé amb una transformació revolucionària de tota la societat, o bé amb la ruïna comuna de les classes en lluita.\n\nLa nostra època, l'època de la burgesia, es distingeix, tanmateix, per haver simplificat les contradiccions de classe. Tota la societat se separa cada vegada més en dos grans camps enemics, en dues grans classes directament oposades l'una a l'altra: la burgesia i el proletariat.»",
+          "questions": [
+            "Marx diu que 'tota la historia de la societat fins ara és la historia de les lluites de classes'. Quines objeccions es podrien plantejar a una afirmació tan general? Quins fenòmens histories no encaixen bé en aquest marc?",
+            "El Manifest és un document polític tant com filosòfic. Com canvia la naturalesa d'un text el fet de saber que vol mobilitzar a l'acció, no només analitzar?"
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-mkx-02-01",
+          "style": "detect-error",
+          "question": "Detecta l'error: 'Segons Marx, la plusvàlua és la diferència entre el preu de venda d'una mercaderia i el cost de les matèries primeres necessàries per produir-la.'",
+          "options": [
+            "L'error és la definició: la plusvàlua és la diferència entre el valor que el treballador crea amb el seu treball i el salari que rep, no la diferència entre preu i matèries primeres",
+            "L'error és el terme: Marx no parlava de 'plusvàlua' sinó de 'valor excedent'",
+            "L'error és l'atribució: la teoria de la plusvàlua va ser formulada per Engels, no per Marx",
+            "No hi ha cap error en l'afirmació"
+          ],
+          "correct": 0,
+          "feedbackCorrect": "Exacte. La plusvàlua en Marx no és el marge brut comptable. És la diferència entre el valor que el treballador crea amb el seu treball i el salari que rep. Si un treballador produeix en quatre hores un valor equivalent al seu salari diari, les quatre hores restants produeixen plusvàlua que el capitalista s'apropia. No és un robatori del salari acordat, sinó l'apropiació del treball no remunerat.",
+          "feedbackWrong": "La plusvàlua és la diferència entre el valor que el treballador crea i el salari que rep —no entre preu de venda i cost de matèries primeres. El capitalista no roba el salari acordat, sinó el treball no remunerat de les hores que van més enllà del valor del salari."
         }
       ]
     },
@@ -122,31 +126,40 @@
       "title": "El llegat ambivalent: Marx sense marxisme",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-mkx-03-01",
+          "question": "Els règims que es van reclamar marxistes van matar desenes de milions de persones. Porta Marx una responsabilitat moral per allò que es va fer en el seu nom?",
+          "options": [
+            "Sí: les seves idees —la dictadura del proletariat, la inevitabilitat de la revolució, la supressió de la propietat privada— contenien les llavors del totalitarisme. Les conseqüències son previsibles des de la teoria",
+            "No: cap pensador és responsable de l'ús que els poders posteriors fan de les seves idees. Els règims estalinistes i maoistes van deformar Marx tant com el van aplicar",
+            "La responsabilitat és parcial i específica: algunes idees de Marx (la dictadura del proletariat, el menyspreu per les 'llibertats formals' burgeses) van facilitar la construcció de sistemes totalitaris, mentre que altres parts de la seva obra (la crítica de l'alienació, l'anàlisi del capitalisme) son independents d'aquelles conseqüències"
+          ],
+          "correct": 2,
+          "explanation": "La posició A (responsabilitat plena) és la de pensadors com Karl Popper, que va argumentar que el pensament marxista contenia elements estructuralment totalitaris: la creença en la inevitabilitat historical, la divisió entre els que saben cap on va la historia i els que s'hi oposen, el menyspreu per les 'pseudo-llibertats' liberals. La posició B (cap responsabilitat) és la defensa del marxisme acadèmic: Stalin va trair Marx tant com el va aplicar. La posició C és la més matisada: conceptes específics de Marx —la 'dictadura del proletariat', la idea que les llibertats burgeses son una mistificació— van ser usats com a justificació per sistemes que suprimien totes les garanties individuals. Altres parts de la seva obra no contenen aquelles implicacions."
+        },
+        {
+          "type": "debate",
+          "question": "El marxisme és un diagnòstic vàlid del capitalisme o una ideologia que ha causat més mal que bé?",
+          "positionA": {
+            "label": "Diagnòstic vàlid",
+            "argument": "L'anàlisi marxista del capitalisme —la tendència a la concentració de riquesa, les crisis periòdiques, l'alienació del treball— ha resultat robusta com a eina analítica. Economistes acadèmics de tot l'espectre polític llegeixen Marx. La seva influència en la sociologia, la historia i la teoria crítica és immensa i positiva. El que es va construir en el seu nom és una altra qüestió."
+          },
+          "positionB": {
+            "label": "Ideologia perillosa",
+            "argument": "Les idees de Marx no es poden separar del llegat dels règims que van invocar: desenes de milions de morts en revolucions, famines i camps de treball. Les idees que justifiquen la supressió de les 'llibertats formals' burgeses i la 'dictadura del proletariat' no son innocents. El diagnòstic i la teràpia formen un tot."
+          },
+          "reflection": "El propi Marx, confrontat amb els seus seguidors russos cap al final de la seva vida, va dir: 'Jo no sóc marxista.' La distància entre Marx i el marxisme és real i important. La paradoxa central del seu llegat és que la seva crítica al capitalisme ha resultat més durable que qualsevol dels sistemes construïts en el seu nom —El Capital es llegeix avui als departaments d'economia de les universitats occidentals; els règims que el van invocar han desaparegut o s'han transformat en capitalismes autoritaris."
+        },
+        {
           "type": "narrative",
-          "text": "Karl Marx va morir el 14 de març del 1883 a Londres, en el seu estudi, assegut en una cadira. Engels va anunciar la seva mort en una carta: 'La humanitat és un cap més curta, i el cap més gran que coneixia.' Al seu enterrament al cementiri de Highgate van assistir onze persones. Cap revolució havia triomfat en nom seu. El Capital no estava acabat —Engels va publicar els volums II i III a partir dels manuscrits. Trenta-quatre anys després de la seva mort, Lenin va prendre el poder a Rússia invocant-lo. En el transcurs del segle XX, règims que es reclamaven marxistes van governar estats que sumaven un terç de la humanitat: la Unió Soviètica, la Xina de Mao, Cuba, Vietnam, Cambodja, la major part d'Àfrica oriental. El resultat global va ser la mort de desenes de milions de persones —en famines causades per polítiques agrícoles desastroses, en camps de treball, en purgues polítiques. Marx havia predicat que la revolució succeïria als països industrials avançats (Anglaterra, Alemanya, França). Va succeir a la Rússia semi-feudal, la Xina camperola i Cuba tropical. En cap dels contexts que ell havia analitzat. Cap dels règims que el van invocar s'assemblava al que ell havia descrit. El mateix Marx, confrontat amb els seus seguidors russos, havia dit cap al final de la seva vida: 'Jo no sóc marxista.' El seu llegat és profundament ambivalent: la crítica al capitalisme que formula és analíticament potent i continua sent llegida i debatuda. El que es va construir en el seu nom va ser, massa sovint, una tirania nova."
+          "text": "Karl Marx va morir el 14 de març del 1883 a Londres, en el seu estudi, assegut en una cadira. Engels va anunciar la seva mort en una carta: 'La humanitat és un cap més curta, i el cap més gran que coneixia.' Al seu enterrament al cementiri de Highgate van assistir onze persones. Cap revolució havia triomfat en nom seu. El Capital no estava acabat —Engels va publicar els volums II i III a partir dels manuscrits. Trenta-quatre anys després de la seva mort, Lenin va prendre el poder a Rússia invocant-lo. En el transcurs del segle XX, règims que es reclamaven marxistes van governar estats que sumaven un terç de la humanitat. El resultat global va ser la mort de desenes de milions de persones —en famines causades per polítiques agrícoles desastroses, en camps de treball, en purgues polítiques. Marx havia predicat que la revolució succeïria als països industrials avançats. Va succeir a la Rússia semi-feudal, la Xina camperola i Cuba tropical. En cap dels contexts que ell havia analitzat."
         },
         {
           "type": "before-after",
+          "id": "ba-mkx-03-01",
           "title": "La reputació de Marx: de profeta a clàssic controvertit",
-          "before": {
-            "label": "Marx en vida i al segle XIX",
-            "points": [
-              "Figura marginal de l'exili europeu. Cap govern el prenia seriosament com a amenaça real",
-              "El Capital: primer volum publicat el 1867 amb poc impacte immediat. La primera edició russa (1872) va vendre més que l'alemanya",
-              "La Primera Internacional (1864-1876): intents de coordinació del moviment obrer internacional, amb conflictes constants amb anarquistes (Bakunin)",
-              "Mort el 1883 amb onze persones al seu enterrament. Cap revolució en el seu nom havia triomfat"
-            ]
-          },
-          "after": {
-            "label": "Marx al segle XX i XXI",
-            "points": [
-              "El nom més invocat de la política del segle XX: URSS, Xina, Cuba, Vietnam, moviments de descolonització",
-              "Paradoxa: els règims marxistes van fracassar o es van transformar; l'anàlisi marxista del capitalisme segueix sent llegida a les universitats de tot el món",
-              "Piketty, Harvey, Žižek: el marxisme acadèmic floreix en el capitalisme tardà que Marx hauria reconegut",
-              "El Capital com a bestseller a Alemanya durant la crisi del 2008: 'Tenia raó en el diagnòstic, equivocat en la teràpia'"
-            ]
-          },
-          "insight": "La paradoxa central del llegat de Marx és que la seva crítica al capitalisme ha resultat més durable que qualsevol dels sistemes construïts en el seu nom. El Capital es llegeix avui als departaments d'economia de les universitats occidentals; els règims que el van invocar han desaparegut o s'han transformat en capitalismes autoritaris."
+          "before": "Marx en vida i al segle XIX: figura marginal de l'exili europeu. Cap govern el prenia seriosament com a amenaça real. El Capital (1867) amb poc impacte immediat. La Primera Internacional (1864-1876) amb conflictes constants amb anarquistes (Bakunin). Mort el 1883 amb onze persones al seu enterrament.",
+          "after": "Marx al segle XX i XXI: el nom més invocat de la política del segle XX. URSS, Xina, Cuba, Vietnam, moviments de descolonització. Paradoxa: els règims marxistes van fracassar o es van transformar; l'anàlisi marxista del capitalisme segueix sent llegida a les universitats de tot el món. El Capital com a bestseller a Alemanya durant la crisi del 2008."
         },
         {
           "type": "exercise",
@@ -160,20 +173,8 @@
             "A França el 1871, durant la Comuna de París, que Marx va saludar com el primer exemple de govern proletari de la historia"
           ],
           "correct": 2,
-          "feedbackCorrect": "Exacte. La Revolució Russa del 1917 va succeir en un país que Marx hauria considerat completament impreparada per a la revolució socialista: una economia predominantment agrària, amb un proletariat industrial petit i concentrat en unes poques ciutats, i una burgesia feble. Marx havia predit que la revolució vindria primer a Anglaterra o Alemanya —els països amb el capitalisme industrial més desenvolupat i el proletariat més nombrós i organitzat. Lenin va haver de crear una justificació teòrica específica (el 'marxisme-leninisme') per explicar per qué la revolució havia succeït on no havia de succeir.",
-          "feedbackWrong": "La primera revolució que es reclamava marxista va triomfar a Rússia el 1917 —un país que Marx hauria considerat impreparada: economia agrària, proletariat petit, burgesia feble. Marx havia predit la revolució als països industrials avançats (Anglaterra, Alemanya). El fet que succeís on no havia de succeir és una de les grans paradoxes del marxisme pràctic."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-mkx-03-01",
-          "question": "Els règims que es van reclamar marxistes van matar desenes de milions de persones. Porta Marx una responsabilitat moral per allò que es va fer en el seu nom?",
-          "options": [
-            "Sí: les seves idees —la dictadura del proletariat, la inevitabilitat de la revolució, la supressió de la propietat privada— contenien les llavors del totalitarisme. Les conseqüències son previsibles des de la teoria",
-            "No: cap pensador és responsable de l'ús que els poders posteriors fan de les seves idees. Els règims estalinistes i maoistes van deformar Marx tant com el van aplicar",
-            "La responsabilitat és parcial i específica: algunes idees de Marx (la dictadura del proletariat, el menyspreu per les 'llibertats formals' burgeses) van facilitar la construcció de sistemes totalitaris, mentre que altres parts de la seva obra (la crítica de l'alienació, l'anàlisi del capitalisme) son independents d'aquelles conseqüències"
-          ],
-          "correct": 2,
-          "explanation": "La pregunta sobre la responsabilitat de Marx per les atrocitats comeses en el seu nom és un dels grans debats de la filosofia política i moral del segle XX. La posició A (responsabilitat plena) és la de pensadors com Karl Popper, que va argumentar en 'La societat oberta i els seus enemics' que el pensament marxista contenia elements estructuralment totalitaris: la creença en la inevitabilitat historical, la divisió entre els que saben cap on va la historia i els que s'hi oposen, el menyspreu per les 'pseudo-llibertats' liberals. La posició B (cap responsabilitat) és la defensa del marxisme acadèmic: Stalin va trair Marx tant com el va aplicar; les institucions democràtiques que Marx menyspreia eren exactament el que hauria evocat el totalitarisme. La posició C és la més matisada: conceptes específics de Marx —la 'dictadura del proletariat', la idea que les llibertats burgeses son una mistificació— van ser usats com a justificació per sistemes que suprimien totes les garanties individuals. Altres parts de la seva obra no contenen aquelles implicacions. La responsabilitat és real però selectiva."
+          "feedbackCorrect": "Exacte. La Revolució Russa del 1917 va succeir en un país que Marx hauria considerat completament impreparada per a la revolució socialista: una economia predominantment agrària, amb un proletariat industrial petit. Marx havia predit que la revolució vindria primer a Anglaterra o Alemanya. Lenin va haver de crear una justificació teòrica específica (el 'marxisme-leninisme') per explicar per qué la revolució havia succeït on no havia de succeir.",
+          "feedbackWrong": "La primera revolució que es reclamava marxista va triomfar a Rússia el 1917 —un país que Marx hauria considerat impreparada: economia agrària, proletariat petit. Marx havia predit la revolució als països industrials avançats (Anglaterra, Alemanya). El fet que succeís on no havia de succeir és una de les grans paradoxes del marxisme pràctic."
         }
       ]
     }

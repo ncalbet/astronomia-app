@@ -10,6 +10,24 @@
       "title": "Del camperol siberià a la cort del tsar",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-rasp-01-01",
+          "question": "Un camperol analfabet siberià sense títol, sense exèrcit i sense riquesa pròpia arriba a la capital de l'Imperi Rus i aconsegueix influir en nomenaments ministerials. Com és possible que algú sense cap font de poder convencional tingui poder real?",
+          "options": [
+            "No és possible: el 'poder' de Rasputin era una il·lusió. En realitat, la Tsarina Alexandra prenia les decisions i Rasputin era el pretext que ella usava per justificar-les",
+            "És possible perquè el poder sempre és relacional: qui controla l'accés a qui pren les decisions té poder real, independentment de títols o exèrcits. Rasputin controlava l'oïda de la Tsarina — i això era suficient",
+            "És possible, però el seu poder era limitat i contingent: depenia completament del favor d'Alexandra. En qualsevol moment en que ella hagués perdut la confiança en ell, el seu 'poder' hauria desaparegut en hores. Era poder real però extremadament fràgil"
+          ],
+          "correct": 2,
+          "explanation": "La posició A té un punt vàlid: alguns historiadors argumenten que Alexandra usava Rasputin per justificar decisions que ja havia pres. Però la influència de Rasputin en nomenaments concrets està documentada, cosa que fa difícil reduir-lo a un pretext. La posició B és la teoria del poder informal de Max Weber: el poder és la capacitat de fer que algú faci el que tu vols, independentment del mecanisme. Rasputin tenia poder perquè influïa en qui tenia el poder formal. La posició C és la més precisa: el poder de Rasputin era genuí però profundament fràgil —i quan els nobles el van assassinar, el poder va desaparèixer immediatament. Comprendre la diferència entre poder fort (institucional) i poder feble (relacional i contingent) és clau per analitzar casos com el seu."
+        },
+        {
+          "type": "misconception",
+          "belief": "Rasputin era un charlatan que va enganyar la família imperial amb trucs i falsa mística.",
+          "reality": "L'efecte de Rasputin sobre l'hemofília d'Alexei és un dels misteris documentats de la historia moderna. Els metges imperials no podien aturar les crisis hemofíliques del nen — Rasputin sí. Una hipòtesi moderna suggereix que la seva influència hipnòtica reduïa l'ansietat del nen, reduint la pressió arterial i facilitant la coagulació. Altres apunten a l'aspirina: els metges la prescrivien (sense saber que és anticoagulant) i Rasputin potser n'evitava l'ús. En qualsevol cas, l'efecte era real i documentat. No era simplement un charlatan.",
+          "why": "La imatge de Rasputin com a charlatan ve en part dels seus enemics aristocràtics, que tenien interessos en desacreditar-lo, i en part de la natura sensacionalista de les cròniques posteriors a la seva mort."
+        },
+        {
           "type": "quote",
           "text": "Estimo la humanitat. Però no m'agrada el que fa la gent.",
           "author": "Grigori Rasputin"
@@ -21,12 +39,6 @@
         {
           "type": "key-idea",
           "text": "Rasputin no va accedir al poder per la força, la riquesa o el càrrec. Va accedir per una combinació única: la confiança d'una mare desesperada, un misteri real (els seus efectes sobre l'hemofília d'Alexei), i una capacitat extraordinària de crear fascinació personal en l'aristocràcia russa que simultàniament el trobava repugnant i irresistible."
-        },
-        {
-          "type": "misconception",
-          "belief": "Rasputin era un charlatan que va enganynada la família imperial amb trucs i falsa mística.",
-          "reality": "L'efecte de Rasputin sobre l'hemofília d'Alexei és un dels misteris documentats de la historia moderna. Els metges imperials no podien aturar les crisis hemofíliques del nen — Rasputin sí. Una hipòtesi moderna suggereix que la seva influència hipnòtica reduïa l'ansietat del nen, reduint la pressió arterial i facilitant la coagulació. Altres apunten a l'aspirina: els metges la prescrivien (sense saber que és anticoagulant) i Rasputin potser n'evitava l'ús. En qualsevol cas, l'efecte era real i documentat. No era simplement un charlatan.",
-          "why": "La imatge de Rasputin com a charlatan ve en part dels seus enemics aristocràtics, que tenien interessos en desacreditar-lo, i en part de la natura sensacionalista de les cròniques posteriors a la seva mort."
         },
         {
           "type": "exercise",
@@ -49,6 +61,20 @@
       "id": "rasp-02",
       "title": "El misteri del poder informal",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "character": "Tsar Nicolau II",
+          "emoji": "👑",
+          "year": "1916 — Petrogrado",
+          "setup": "Els teus ministres, generals i fins i tot membres de la família imperial t'han suplicat que allunyis Rasputin de la cort. Diuen que deslegitima la monarquia, que interfereix en nomenaments militars i que és un escàndol públic que debilita la Corona. La teva dona, Alexandra, creu fermament que Rasputin és l'únic que pot mantenir viu el vostre fill Alexei. Si l'exileixes, la malaltia del nen podria desestabilitzar-se. Si no l'exileixes, la noblesa i els generals perden el respecte per la família imperial.",
+          "dilemma": "Exileixes Rasputin per salvar la legitimitat de la monarquia, arriscant la salut del teu fill? O el mantens proper, assumint el cost polític?",
+          "options": [
+            { "id": "A", "text": "L'exilio: la monarquia és l'interès suprem. Cap individu pot posar-la en risc, per molt que la meva dona hi confiï" },
+            { "id": "B", "text": "El mantinc: cap estat val la vida del meu fill. Que critiquin el que vulguin" }
+          ],
+          "reveal": "Nicolau II no va exiliar Rasputin. El desembre de 1916, un grup de nobles el va assassinar sense ordre del tsar. La monarquia va caure el febrer de 1917, dos mesos i mig després. El problema de fons —una guerra perduda, una societat al límit— no era Rasputin.",
+          "analysis": "La decisió de Nicolau II mostra com la barreja entre interessos familiars íntims (la salut d'Alexei) i responsabilitats polítiques pot paralitzar un líder. El que és notable és que tant si hagués exiliat Rasputin com si no, la revolució hauria arribat: les causes eren estructurals, no personals. L'error de Nicolau II no era Rasputin sinó la incapacitat de reformar el sistema polític rus."
+        },
         {
           "type": "narrative",
           "text": "Entre 1911 i 1916, Rasputin va influir en alguns nomenaments ministerials, va intercedir en casos judicials i va condicionar decisions de la cort imperial. Però la naturalesa del seu poder era fonamentalment diferent del poder polític convencional: no tenia càrrec, no controlava recursos, no comandava tropes. El seu poder era relacional — i, per tant, opac, incontrolable i enormement amenaçador per a l'aristocràcia i el govern tsarista. Mentre el tsar era al front durant la Primera Guerra Mundial, Alexandra governava des de Petrogrado amb el consell de Rasputin. Els ministres que Rasputin desaprovava eren destituïts. Rússia perdia la guerra. I la família imperial s'identificava cada vegada més amb un camperol siberià que la noblesa considerava un monstres."
@@ -97,8 +123,20 @@
       "title": "La mort i el mite: per qué Rasputin fascina",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-rasp-03-01",
+          "question": "Per qué Rasputin fascina tant la cultura popular —pel·lícules, cançons, musicals— 100 anys després de la seva mort?",
+          "options": [
+            "Perquè va tenir un poder real enorme sobre un dels imperis més grans del món, cosa que la historia rarament permet a algú sense càrrec ni exèrcit",
+            "Perquè el misteri sobre la naturalesa del seu poder (les curacions d'Alexei) i la seva mort llegendària creen un espai narratiu que la ficció pot omplir amb facilitat",
+            "Les dues coses: el poder real que va tenir és fascinant, i el buit factual que deixa és l'espai perfecte per a la mitificació — un home real, un poder real, però amb prou ombres per projectar-hi qualsevol cosa"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és veritat però incompleta: molts homes sense càrrec han tingut poder real i no s'han convertit en mites culturals. La posició B és la clau de la mitificació: Rasputin deixa preguntes obertes (com curava l'hemofília d'Alexei? com va morir exactament?) que inviten la ficció a entrar. La posició C integra ambdues: el mite de Rasputin necessita un nucli de realitat (el poder, la mort violenta, la caiguda d'un imperi) i una zona d'ombra suficient perquè cadascú hi projecti el que vol — el místic, el seductor, el conspirador, el boig. És una combinació perfecta per a la mitificació."
+        },
+        {
           "type": "narrative",
-          "text": "La nit del 29 al 30 de desembre de 1916, el Príncep Yusupov i un grup de nobles van convidar Rasputin al palau Moika de Sant Petersburg. La versió oficial d'Yusupov, publicada en memòries, és cinematogràfica: li van donar pastissos enverinat amb cianur i vi amb cianur, i Rasputin no va morir. El van disparar i va continuar viu. El van apallissar. Finalment el van llançar al riu Neva gelat i es va ofegar. L'autòpsia oficial soviética dels anys 90 va qüestionar molts d'aquests detalls: probablement va morir d'un sol tret al cap a molt curta distància. Però la llegenda de l'home impossible de matar havia nascut."
+          "text": "La nit del 29 al 30 de desembre de 1916, el Príncep Yusupov i un grup de nobles van convidar Rasputin al palau Moika de Sant Petersburg. La versió oficial d'Yusupov, publicada en memòries, és cinematogràfica: li van donar pastissos enverinats amb cianur i vi amb cianur, i Rasputin no va morir. El van disparar i va continuar viu. El van apallissar. Finalment el van llançar al riu Neva gelat i es va ofegar. L'autòpsia oficial soviètica dels anys 90 va qüestionar molts d'aquests detalls: probablement va morir d'un sol tret al cap a molt curta distància. Però la llegenda de l'home impossible de matar havia nascut."
         },
         {
           "type": "key-idea",
@@ -117,18 +155,6 @@
           },
           "reflection": "Quan atribuïm grans canvis histórics a individus concrets (bons o dolents), en quin sentit simplifiquem el que va passar?",
           "context": "Historiadors com Orlando Figes (La Revolució Russa) argumenten que la caiguda del tsarisme tenia causes estructurals profundes. Rasputin va ser un factor que va accelerar la pèrdua de legitimitat de la família imperial, però no una causa suficient ni necessària."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-rasp-03-01",
-          "question": "Per qué Rasputin fascina tant la cultura popular —pel·lícules, cançons, musicals— 100 anys després de la seva mort?",
-          "options": [
-            "Perquè va tenir un poder real enorme sobre un dels imperis més grans del món, cosa que la historia rarament permet a algú sense càrrec ni exèrcit",
-            "Perquè el misteri sobre la naturalesa del seu poder (les curacions d'Alexei) i la seva mort llegendària creen un espai narratiu que la ficció pot omplir amb facilitat",
-            "Les dues coses: el poder real que va tenir és fascinant, i el buit factual que deixa és l'espai perfecte per a la mitificació — un home real, un poder real, però amb prou ombres per projectar-hi qualsevol cosa"
-          ],
-          "correct": 2,
-          "explanation": "La posició A és veritat però incompleta: molts homes sense càrrec han tingut poder real i no s'han convertit en mites culturals. La posició B és la clau de la mitificació: Rasputin deixa preguntes obertes (com curava l'hemofília d'Alexei? com va morir exactament?) que inviten la ficció a entrar. La posició C integra ambdues: el mite de Rasputin necessita un nucli de realitat (el poder, la mort violenta, la caiguda d'un imperi) i una zona d'ombra suficient perquè cadascú hi projecti el que vol — el místic, el seductor, el conspirador, el boig. És una combinació perfecta per a la mitificació."
         }
       ]
     }
