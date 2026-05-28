@@ -1,0 +1,315 @@
+{
+  "id": "module-XX-prometeu",
+  "title": "Prometeu: El Foc Robat",
+  "emoji": "🔥",
+  "phase": 1,
+  "unlockRequires": null,
+  "itineraries": [
+    {
+      "id": "prometeu-mite",
+      "title": "Del mite a la modernitat",
+      "icon": "🔥",
+      "description": "La llegenda de Prometeu i el que ens diu sobre el progrés, la desobediència i el preu del coneixement",
+      "style": "Narratiu · del mite antic a la reflexió contemporània",
+      "lessons": [
+        {
+          "id": "prom-01",
+          "title": "El Tità que va desafiar Zeus",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Abans que els humans tinguessin foc, vivien a les coves, tremolaven de fred, menjaven carn crua i morien joves. Els déus vivien a l'Olimp, plens de poder i de llum. Prometeu, un Tità que havia ajudat Zeus a conquerir l'Olimp, no podia suportar veure la misèria dels mortals. Va prendre una decisió que ho canviaria tot — i que li costaria una eternitat de dolor."
+            },
+            {
+              "type": "key-idea",
+              "text": "Prometeu va robar el foc als déus i el va donar als humans. Sabent perfectament el càstig que l'esperava, va triar el benestar de la humanitat per sobre de la seva pròpia supervivència. El foc no era només calor: era tota la civilització."
+            },
+            {
+              "type": "expandable",
+              "label": "Dues versions del mite: Hesíode i Èsquil",
+              "content": "Tenim dues tradicions principals del mite de Prometeu. A Hesíode (s. VIII aC, Teogonia i Treballs i Dies), Prometeu és un enganyador que desafia Zeus dues vegades: primer ocultant la millor carn en un sacrifici, després robant el foc. Zeus el castiga encadenantlo al Caucas, on una àguila li devora el fetge cada dia — que li creix de nou cada nit. A Èsquil (s. V aC, Prometeu Encadenat), el personatge és més heroic i tràgic: Prometeu sap el futur, sap quin fill destruirà Zeus, i usa aquest secret com a moneda de negociació mentre aguanta el suplici amb dignitat estoica. La diferència entre les versions revela molt sobre com cada època entenia la rebel·lió contra el poder."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "~700 aC",
+                  "title": "Hesíode escriu la Teogonia",
+                  "text": "Primera versió escrita del mite. Prometeu apareix com a Tità astut que enganya Zeus i roba el foc en una tija de fenoll buit."
+                },
+                {
+                  "year": "~460 aC",
+                  "title": "Èsquil estrena Prometeu Encadenat",
+                  "text": "La versió més famosa i filosòfica: Prometeu és heroic, profètic i desafia Zeus conscientment. És la primera d'una trilogia de la qual es conserva només aquesta obra."
+                },
+                {
+                  "year": "1818",
+                  "title": "Mary Shelley publica Frankenstein",
+                  "text": "Subtítol: 'El Prometeu Modern'. Un científic crea vida artificial i paga el preu de desafiar els límits naturals."
+                },
+                {
+                  "year": "1945",
+                  "title": "La bomba atòmica i el Prometeu nuclear",
+                  "text": "Oppenheimer i els científics del Projecte Manhattan: el foc nuclear alliberat amb plena consciència del seu poder destructiu."
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-prom-01-01",
+              "style": "multiple-choice",
+              "question": "Quin element del mite de Prometeu és el més significatiu des del punt de vista filosòfic?",
+              "options": [
+                "Que Prometeu era un Tità, no un déu olímpic",
+                "Que va robar el foc sabent perfectament el càstig etern que li esperava",
+                "Que Zeus el va perdonar finalment gràcies a la intervenció d'Hèracles",
+                "Que el foc va permetre als humans cuinar i escalfar-se millor"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El que fa de Prometeu una figura filosòfica és el coneixement previ del càstig. No va ser imprudent ni ignorant: va calcular les conseqüències i va triar igualment. Això el converteix en un símbol de la llibertat conscient, no de la rebel·lió irreflexiva.",
+              "feedbackWrong": "Els detalls genealògics (que era Tità) i les conseqüències pràctiques (cuinar, escalfar-se) no expliquen per què el mite ha durat 2.700 anys. La clau filosòfica és que Prometeu va actuar sabent el preu que pagaria — una tria conscient i calculada, no un acte impulsiu."
+            }
+          ]
+        },
+        {
+          "id": "prom-02",
+          "title": "El preu del foc",
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "Donaré als mortals el foc, que els alliberarà de la misèria i els donarà la possibilitat de qualsevol art. I faré això, malgrat que em costi patiment i dolor.",
+              "author": "Prometeu, a Prometeu Encadenat d'Èsquil (paràfrasi)"
+            },
+            {
+              "type": "narrative",
+              "text": "Zeus va condemnar Prometeu a ser encadenat a una roca al Caucas per l'eternitat. Cada dia, una àguila gegant li devorava el fetge. Cada nit, el fetge li creixia de nou. Demà, el cicle tornava a començar. No era una mort: era un suplici sense final, dissenyat precisament per a un immortal. I Prometeu ho sabia d'avançada. Quan Hermes li demana que reveli el secret que podria alliberar-lo, es nega. La seva rebel·lió és total i irreversible."
+            },
+            {
+              "type": "what-would-you-do",
+              "character": "Prometeu",
+              "emoji": "🔥",
+              "year": "En el moment anterior al robatori del foc",
+              "setup": "Ets Prometeu. Veus els humans que has ajudat a crear vivint en la misèria: sense foc, sense calor, sense cuina, sense metal·lúrgia, sense possibilitat de civilització. Saps exactament on és el foc dels déus. I saps exactament quin càstig t'espera si l'agafes: una eternitat de dolor físic, sense possibilitat de mort ni d'alliberament.",
+              "dilemma": "Robes el foc per als humans, condemnant-te a un suplici etern? O acceptes l'ordre del món tal com és, sabent que pots viure lliure però que els humans continuaran patint?",
+              "options": [
+                { "id": "A", "text": "Robo el foc. El sofriment dels humans és inacceptable i la meva llibertat no val més que la seva misèria." },
+                { "id": "B", "text": "No robo el foc. Desafiar l'ordre còsmic porta a conseqüències imprevisibles i no tinc dret a decidir sol pel futur de la humanitat." }
+              ],
+              "reveal": "Prometeu va robar el foc. En el mite d'Èsquil, ho va fer amb plena consciència del que l'esperava, i va aguantar el suplici sense renegar mai de la seva decisió. Quan Hermes li demana que reveli el secret que podria alliberar-lo, es nega. La seva rebel·lió és total i irreversible.",
+              "analysis": "La decisió de Prometeu és filosòficament incòmoda perquè no és impulsiva: és calculada. No va ser un moment de bogeria altruista — va ser una tria freda i conscient de prioritzar el bé aliè sobre el propi. I aquí sorgeix la pregunta: és això heroisme màxim, o un tipus particular d'arrogància? Qui li va donar el dret de decidir, sol, que la humanitat mereixia el foc?"
+            },
+            {
+              "type": "before-after",
+              "title": "La humanitat abans i després del foc",
+              "before": {
+                "label": "Sense foc (l'ordre de Zeus)",
+                "points": [
+                  "Alimentació crua: digestió difícil, malalties freqüents",
+                  "Cap protecció contra el fred nocturn",
+                  "Sense metal·lúrgia: no hi ha eines, armes ni construcció",
+                  "Cap cerimònia, cap ritual, cap comunitat organitzada",
+                  "Esperança de vida molt curta"
+                ]
+              },
+              "after": {
+                "label": "Amb foc (el do de Prometeu)",
+                "points": [
+                  "Cuina: aliments més segurs, nutritius i variats",
+                  "Calor: expansió humana cap a climes freds",
+                  "Metal·lúrgia: agricultura, arquitectura, armes, navegació",
+                  "Llum: activitat nocturna, ritus, comunitat i cultura",
+                  "Base material de tota civilització posterior"
+                ]
+              },
+              "insight": "Quan Hesíode diu que Prometeu va donar el foc als humans, no parla de flames: parla de tota la civilització. El foc és la metàfora del coneixement tècnic que transforma la condició humana — i que, com el foc real, pot escalfar o cremar."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-prom-02-01",
+              "style": "detect-error",
+              "statement": "El càstig de Prometeu era la mort: Zeus el va condemnar a morir de forma dolorosa per haver robat el foc.",
+              "isCorrect": false,
+              "feedbackExplanation": "Correcte que és fals. El càstig era precisament el contrari de la mort: una eternitat de suplici sense possibilitat de morir. Com a immortal, Prometeu no podia escapar del dolor a través de la mort — i Zeus ho va dissenyar així. El fetge que creixia cada nit és la imatge de la renovació permanent del sofriment, no de la fi."
+            }
+          ]
+        },
+        {
+          "id": "prom-03",
+          "title": "El foc com a símbol",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "Per als grecs, el foc no era només calor. Era la diferència entre els animals i els humans, entre la natura i la cultura, entre la supervivència i la civilització. Quan Prometeu roba el foc, no roba una cosa: roba la possibilitat de tot el que els humans seran. Però el foc també crema. I aquí és on el mite es complica."
+            },
+            {
+              "type": "analogy",
+              "concept": "El foc com a metàfora del coneixement",
+              "emoji": "🕯️",
+              "analogy": "El foc de Prometeu funciona exactament com el coneixement: il·lumina però pot cremar, escalfa però pot destruir, es pot compartir sense perdre's però és difícil de controlar una vegada encès. No pots tenir la llum sense el risc de l'incendi. No pots tenir la medicina sense la possibilitat de l'arma química. No pots tenir la física nuclear sense la bomba atòmica.",
+              "bridge": "Per això el mite de Prometeu és tan durador: no descriu un moment puntual de la mitologia grega, sinó una tensió permanent de la condició humana. Cada vegada que la humanitat aconsegueix un nou coneixement poderós, repeteix el dilema de Prometeu: el coneixement és bo per se? Qui decideix quan s'usa? I qui paga el preu si s'usa malament?"
+            },
+            {
+              "type": "key-idea",
+              "text": "El mite de Prometeu no és sobre el foc. És sobre el dilema del progrés: el coneixement que ens allibera és el mateix que ens pot destruir. La pregunta no és si hem de tenir el foc — ja el tenim — sinó qui decideix com s'usa i qui paga quan fa mal."
+            },
+            {
+              "type": "expandable",
+              "label": "Per què Pandora apareix just després de Prometeu?",
+              "content": "A Hesíode, Zeus respon al robatori del foc enviant Pandora a la humanitat — la primera dona, creada per Hefest i dotada de gràcies per tots els déus. Porta una gerra (no una caixa — 'caixa de Pandora' és una traducció tardana d'Erasme de Rotterdam) amb tots els mals del món: malaltia, enveja, guerra, vellesa. Quan l'obre, tots escapen. A dins queda només l'esperança. La lectura tradicional és que Pandora és el càstig de Zeus a la humanitat per haver rebut el foc. Però hi ha una lectura alternativa: els mals del món ja existien abans de Pandora — el que va fer no va ser crear-los, sinó alliberar-los d'on estaven amagats. I l'esperança que queda tancada... és un do o un engany? L'esperança que no es pot assolir, ¿consola o tortura?"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-prom-03-01",
+              "style": "multiple-choice",
+              "question": "En el mite grec, el foc que Prometeu roba és principalment un símbol de:",
+              "options": [
+                "La força física superior dels humans respecte als animals",
+                "El coneixement tècnic i la capacitat humana de transformar el món",
+                "La immortalitat que els humans desitgen i no poden obtenir",
+                "La ira dels déus contra la humanitat per la seva arrogància"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Per als grecs, el foc no era el que diferenciava els humans dels animals en força o intel·ligència bruta — era el que feia possible la tècnica: la cuina, la metal·lúrgia, la ceràmica, la calefacció. El foc = techne = capacitat de transformar la matèria. I tota civilització es construeix sobre aquesta capacitat.",
+              "feedbackWrong": "Els grecs no identificaven el foc amb la immortalitat ni amb la força bruta. El foc era la tècnica — la capacitat de transformar la natura per fer-la útil. Sense foc no hi ha eines; sense eines no hi ha civilització. Per això el robatori del foc equival al robatori de tota la possibilitat de cultura humana."
+            }
+          ]
+        },
+        {
+          "id": "prom-04",
+          "title": "Zeus, l'ordre i la rebel·lió",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "És fàcil llegir el mite amb Prometeu com a heroi i Zeus com a tirà. Però el mite grec no és tan simple. Zeus no castiga Prometeu per maldat: ho fa per mantenir un ordre còsmic que, des de la seva perspectiva, és necessari per a tothom. I aquí és on el mite es torna filosòficament interessant: qui tenia raó?"
+            },
+            {
+              "type": "perspective",
+              "situation": "El robatori del foc: tres punts de vista",
+              "perspectives": [
+                {
+                  "role": "Zeus",
+                  "emoji": "⚡",
+                  "text": "He establert un ordre per una raó. Els humans no estan preparats per al foc — el seu ús comportarà guerres, devastació i arrogància. He vist el futur: amb el foc vindran les armes, vindrà la hubris, vindrà la convicció que els humans poden igualar els déus. Prometeu no ha donat un do: ha donat una maledicció. I ha violat la llei còsmica que separa mortals d'immortals. Sense aquesta separació, tot l'ordre s'ensorra."
+                },
+                {
+                  "role": "Prometeu",
+                  "emoji": "🔥",
+                  "text": "Veia els humans morir de fred, de fam, de malaltia. Tenia el poder d'ajudar-los i no ho feia per obeir una regla arbitrària. Quin tipus de moral és aquella que veu el sofriment i mira cap a un altre costat per no desobeir? Zeus protegeix el seu poder, no un ordre just. I sí, el foc pot fer mal — però la ignorança i la misèria fan molt més mal. Prefereixo pagar el preu de l'ajuda que la tranquil·litat de la inacció."
+                },
+                {
+                  "role": "Un humà del futur",
+                  "emoji": "🏛️",
+                  "text": "Tenim el foc. Hem construït ciutats, curat malalties, creat art i filosofia. Però també hem cremat boscos, construït armes i destruït civilitzacions. Prometeu ens va donar la possibilitat — no la garantia. El que hem fet amb el foc és responsabilitat nostra, no seva. La pregunta que ens fa el mite no és 'hauria d'haver robat el foc?' sinó '¿Estem fent el que mereixem amb el do que vam rebre?'"
+                }
+              ],
+              "reflection": "Amb quin dels tres punts de vista t'identifies més — i quin és el que trobes més difícil de defensar?"
+            },
+            {
+              "type": "debate",
+              "question": "Tenia raó Prometeu en robar el foc, desafiant l'ordre establert per Zeus?",
+              "positionA": {
+                "label": "Sí: el bé major justifica la desobediència",
+                "argument": "Quan una norma produeix sofriment evitable i qui té el poder de canviar-ho no ho fa, la desobediència no és rebel·lió: és responsabilitat. Prometeu no va actuar per ambició sinó per compassió. I el resultat — la civilització humana — justifica el cost que va pagar ell sol."
+              },
+              "positionB": {
+                "label": "No: ningú pot decidir sol pel futur de tots",
+                "argument": "Prometeu va prendre una decisió unilateral amb conseqüències per a tota la humanitat per sempre. Qui li va donar aquest dret? La seva certesa que sabia millor que Zeus era la mateixa arrogància que critica. El progrés imposat des de dalt — fins i tot ben intencionat — no deixa als humans escollir la seva pròpia trajectòria."
+              },
+              "reflection": "¿La correcció d'una acció depèn de la intenció de qui la fa, o de les conseqüències que produeix?",
+              "context": "La filosofia moral ha debatut durant segles si els fins justifiquen els mitjans. El consequencialisme diria que Prometeu va fer bé (el resultat és positiu). La deontologia kantiana diria que va infringir una llei universal (no pots robar). La virtut aristotèlica es preguntaria si l'acte reflectia el caràcter d'una persona bona. El mite de Prometeu és un dels primers textos occidentals que planteja aquest dilema de forma explícita."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-prom-04-01",
+              "style": "detect-error",
+              "statement": "Zeus va castigar Prometeu perquè tenia enveja del seu poder i no volia que els humans prosperessin. El seu motiu era purament egoista i tirànic.",
+              "isCorrect": false,
+              "feedbackExplanation": "Aquesta lectura simplifica el mite. En Èsquil, Zeus actua per mantenir un ordre còsmic que considera necessari — la separació entre mortals i immortals. Des de la seva perspectiva, Prometeu ha trencat una llei fonamental que, si no es restaura, posa en perill tot l'ordre de l'univers. Que Zeus pugui estar equivocat sobre la necessitat d'aquest ordre és un altre tema — però el mite no el presenta com un simple envejós. El debat moral és genuí: dues concepcions de l'ordre i la justícia en conflicte."
+            }
+          ]
+        },
+        {
+          "id": "prom-05",
+          "title": "El Prometeu modern",
+          "blocks": [
+            {
+              "type": "narrative",
+              "text": "El 1818, una jove de 18 anys va publicar una novel·la amb un subtítol desconcertant: 'El Prometeu Modern'. Mary Shelley no parlava de foc ni de Titants: parlava d'un científic que creava vida artificial i pagava el preu de desafiar els límits de la natura. Des d'aleshores, cada generació ha trobat el seu Prometeu — i cada generació ha tingut motius per témer-lo i admirar-lo alhora."
+            },
+            {
+              "type": "primary-source",
+              "label": "Mary Shelley, Frankenstein (1818), capítol IV",
+              "source": "Mary Shelley, Frankenstein; or, The Modern Prometheus (domini públic, traducció pròpia)",
+              "text": "\"La vida i la mort em semblaven límits ideals que primer hauria de trencar per vessar sobre el nostre fosc món un torrent de llum. Una nova espècie em beneiria com al seu creador i origen; molts éssers feliços i excel·lents devrien la seva existència a mi. Cap pare podria reclamar la gratitud del seu fill de la manera com jo mereixeria la seva.\"",
+              "questions": [
+                "Quin paral·lelisme veus entre les paraules del Dr. Frankenstein i les motivacions de Prometeu?",
+                "Frankenstein espera gratitud dels éssers que crearà. En el mite grec, Prometeu esperava alguna cosa dels humans que va ajudar?",
+                "On és el moment exacte en aquesta cita en què el lector hauria de sentir que alguna cosa va torçar-se?"
+              ]
+            },
+            {
+              "type": "misconception",
+              "belief": "El mite de Prometeu és una celebració del progrés: l'heroi guanya contra la tirania i la humanitat millora gràcies a ell.",
+              "reality": "El mite grec original és profundament ambivalent. Prometeu és castigat per sempre. Pandora allibera tots els mals del món com a conseqüència directa del robatori del foc. I els humans, amb el foc, construiran armes i guerres tant com ciutats i arts. El mite no celebra el progrés sense reserves: planteja el seu cost inevitable i deixa oberta la pregunta de si val la pena.",
+              "why": "Les versions modernes del mite (cinema, literatura popular) tendeixen a quedar-se amb la part heroica i oblidar el suplici i l'ambivalència. El Prometeu grec original no és un triomfador: és un màrtir que paga un preu enorme per una decisió que, en el mite, no sabem amb certesa si va ser correcta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-prom-05-01",
+              "style": "multiple-choice",
+              "question": "Per qué Mary Shelley va subtitular Frankenstein com 'El Prometeu Modern'?",
+              "options": [
+                "Perquè el Dr. Frankenstein, com Prometeu, roba alguna cosa als déus per donar-la als humans",
+                "Perquè el Dr. Frankenstein, com Prometeu, traspasssa un límit fonamental i paga el preu de desafiar l'ordre natural",
+                "Perquè el Dr. Frankenstein, com Prometeu, és un heroi que acaba triomfant malgrat tots els obstacles",
+                "Perquè la novel·la és una adaptació directa del mite grec ambientada en el segle XIX"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. El paral·lelisme central no és el robatori sinó la transgressió d'un límit fonamental i el preu que es paga. Prometeu traspassa la frontera entre mortals i immortals; Frankenstein traspassa la frontera entre vida i mort. Tots dos actuen convençuts de fer el bé; tots dos desencadenen conseqüències que no controlaven; tots dos paguen un preu devastador.",
+              "feedbackWrong": "El Dr. Frankenstein no roba als déus ni és un heroi que triomfi — la novel·la acaba en tragèdia total. El paral·lelisme és més profund: és la transgressió d'un límit que semblava intocable (en un cas, el foc dels déus; en l'altre, el misteri de la vida) i les conseqüències imprevisibles d'aquesta transgressió."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia de la Ciència",
+              "moduleEmoji": "🔬",
+              "concept": "La responsabilitat del científic",
+              "text": "El dilema de Prometeu és exactament el que la filosofia de la ciència planteja sobre la responsabilitat del científic: ¿la recerca científica ha de ser lliure de qualsevol límit moral, o hi ha coneixements que no haurien de ser buscats? Popper, Kuhn i Feyerabend debatien sobre com funciona la ciència; el mite de Prometeu pregunta per a qui funciona — i qui paga quan funciona malament."
+            }
+          ]
+        },
+        {
+          "id": "prom-06",
+          "title": "Quins focs estem robant?",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-prom-06-01",
+              "question": "El mite de Prometeu suggereix que hi ha coneixements o capacitats que els humans no haurien de tenir — o que si les obtenim, paguem un preu inevitable. Creus que aquesta idea és:",
+              "options": [
+                "Fonamentalment correcta: hi ha límits que no s'haurien de traspassar, i la humanitat hauria de respectar-los de forma col·lectiva",
+                "Fonamentalment incorrecta: el coneixement en si és sempre neutral — el problema és l'ús que en fem, no el fet de tenir-lo",
+                "Parcialment certa: no hi ha coneixements prohibits per se, però cal que hi hagi processos col·lectius per decidir com, quan i qui els desenvolupa"
+              ],
+              "correct": 2,
+              "explanation": "La primera opció és atractiva però difícil de sostenir: qui decideix quins límits no s'han de traspassar? La historia mostra que les restriccions al coneixement han servit sovint per protegir el poder, no per protegir la humanitat. La segona opció és massa optimista: el coneixement no és neutral perquè el context en què es desenvolupa i s'aplica no ho és. Les armes nuclears no 'van néixer neutrales' — van néixer en un context militar específic que va determinar el seu ús des del primer dia. La tercera opció és la que més governs, científics i filòsofs de la ciència contemporanis defensen: la recerca no pot ser prohibida a priori, però ha de passar per processos de govern col·lectiu (comitès d'ètica, regulació internacional, transparència) que facin responsables els qui la practiquen dels seus efectes. El problema, i el mite de Prometeu ja ho intueix, és que aquests processos sempre van molt per darrere de la velocitat del descobriment."
+            },
+            {
+              "type": "narrative",
+              "text": "Cada generació té el seu Prometeu: el científic que descobreix alguna cosa poderosa sabent que pot fer mal. La bomba atòmica. L'edició genètica CRISPR. La intel·ligència artificial. El canvi climàtic com a conseqüència involuntària d'un segle d'industrialització. El mite de Prometeu no és un conte sobre l'antiguitat grega: és el relat que la humanitat s'explica a si mateixa cada vegada que arriba a un nou llindar de poder."
+            },
+            {
+              "type": "expandable",
+              "label": "Oppenheimer i el foc nuclear",
+              "content": "Robert Oppenheimer va dirigir el Projecte Manhattan, que va crear les primeres bombes atòmiques. Quan va veure la primera prova el juliol de 1945 al desert de Nou Mèxic, va recordar un vers del Bhagavad-Gita: 'Ara m'he convertit en la Mort, la destructora de móns.' Anys després, quan se li va preguntar si se'n pentia, va respondre: 'En aquell moment vàrem pensar que fèiem el correcte.' Com Prometeu, Oppenheimer sabia el poder del que alliberava. Com Prometeu, ho va fer igualment. I com Prometeu, va pagar un preu: el govern americà li va retirar les credencials de seguretat el 1954, acusant-lo d'haver estat poc entusiasta a construir la bomba d'hidrogen. El Prometeu modern va ser castigat, no per robar el foc, sinó per ser massa conscient del que havia fet."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en una tecnologia actual que et sembli que té el potencial de canviar la humanitat de manera irreversible — per bé o per mal. Si fossis l'investigador que la descobreix, ¿continuaries? ¿Posaries condicions? ¿Qui hauria de tenir l'última paraula?",
+              "prompt": "No hi ha resposta correcta. Pren un moment per pensar-hi abans de continuar."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

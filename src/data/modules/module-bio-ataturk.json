@@ -10,6 +10,18 @@
       "title": "El fill de Tessalònica: guerra i desfeta de l'Imperi",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-ata-01-01",
+          "question": "La victòria de Gallipoli va convertir Kemal en heroi nacional. Però Gallipoli va ser també l'escenari d'una de les campanyes militars més mortíferes de la Primera Guerra Mundial, amb centenars de milers de morts de tots dos bàndols. Com s'ha de llegir un heroi militar en context?",
+          "options": [
+            "El context no canvia el judici: un general que defensa el seu país d'una invasió estrangera és un heroi, independentment del cost en vides",
+            "El context ho canvia tot: Gallipoli va ser una carnisseria innecessària causada per la incompetència estratègica d'ambdós bàndols. No hi ha herois en una guerra mal plantejada",
+            "El heroisme militar i el judici sobre la guerra son categories separades: Kemal va fer el que un comandant ha de fer en les circumstàncies donades, i això és valorable; que la guerra en conjunt fos una tragèdia evitable és una qüestió diferent que no cancel·la ni justifica l'altra"
+          ],
+          "correct": 2,
+          "explanation": "Gallipoli és un exemple paradigmàtic de la dificultat de jutjar el heroisme militar. Per als turcs, és el moment fundacional de la nació moderna: la resistència de Kemal va salvar Istanbul i va demostrar que l'Imperi podia defensar-se. Per als australians i neozelandesos (ANZAC), és el moment fundacional de les seves identitats nacionals —però com a commemoració d'una derrota heroica, no d'una victòria. Per als historiadors militars, és un exemple de planificació estratègica desastrosa per part dels aliats (Churchill n'era el principal impulsor). La posició C permet mantenir les dues veritats: Kemal va actuar amb habilitat i decisió en les circumstàncies donades, i la guerra en conjunt va ser una tragèdia evitable. El heroisme tàctic i l'absurditat estratègica coexisteixen sense cancel·lar-se."
+        },
+        {
           "type": "quote",
           "text": "Pau al país, pau al món.",
           "author": "Mustafa Kemal Atatürk"
@@ -48,18 +60,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. El Tractat de Sèvres (1920) era un dels tractats de pau més punitius sortits de la Primera Guerra Mundial: projectava dividir Anatòlia entre una zona grega (l'Anatòlia occidental, incloent Esmirna), una armènia (al nord-est), zones d'influència francesa i italiana al sud, i un estat kurd autònom. Als turcs els quedaria un petit estat a l'interior d'Anatòlia. Va ser aquest tractat —mai ratificat perquè la guerra d'independència el va anul·lar— el que va motivar Atatürk a organitzar la resistència nacional.",
           "feedbackWrong": "El Tractat de Sèvres projectava la divisió d'Anatòlia entre zones grega, armènia, francesa, italiana i curda, deixant als turcs un petit territori interior. Era un dels tractats més punitius de la postguerra. Atatürk va refusar acceptar-lo i va organitzar la resistència armada que va acabar en el Tractat de Lausana (1923), molt més favorable per a Turquia."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-ata-01-01",
-          "question": "La victòria de Gallipoli va convertir Kemal en heroi nacional. Però Gallipoli va ser també l'escenari d'una de les campanyes militars més mortíferes de la Primera Guerra Mundial, amb centenars de milers de morts de tots dos bàndols. Com s'ha de llegir un heroi militar en context?",
-          "options": [
-            "El context no canvia el judici: un general que defensa el seu país d'una invasió estrangera és un heroi, independentment del cost en vides",
-            "El context ho canvia tot: Gallipoli va ser una carnisseria innecessària causada per la incompetència estratègica d'ambdós bàndols. No hi ha herois en una guerra mal plantejada",
-            "El heroisme militar i el judici sobre la guerra son categories separades: Kemal va fer el que un comandant ha de fer en les circumstàncies donades, i això és valorable; que la guerra en conjunt fos una tragèdia evitable és una qüestió diferent que no cancel·la ni justifica l'altra"
-          ],
-          "correct": 2,
-          "explanation": "Gallipoli és un exemple paradigmàtic de la dificultat de jutjar el heroisme militar. Per als turcs, és el moment fundacional de la nació moderna: la resistència de Kemal va salvar Istanbul i va demostrar que l'Imperi podia defensar-se. Per als australians i neozelandesos (ANZAC), és el moment fundacional de les seves identitats nacionals —però com a commemoració d'una derrota heroica, no d'una victòria. Per als historiadors militars, és un exemple de planificació estratègica desastrosa per part dels aliats (Churchill n'era el principal impulsor). La posició C permet mantenir les dues veritats: Kemal va actuar amb habilitat i decisió en les circumstàncies donades, i la guerra en conjunt va ser una tragèdia evitable. El heroisme tàctic i l'absurditat estratègica coexisteixen sense cancel·lar-se."
         }
       ]
     },
@@ -67,10 +67,6 @@
       "id": "ata-02",
       "title": "La Guerra d'Independència: Turquia contra Europa",
       "blocks": [
-        {
-          "type": "narrative",
-          "text": "El maig del 1919, l'exèrcit grec va desembarcar a Esmirna (Izmir) amb el suport dels aliats britànics i va iniciar una campanya militar cap a l'interior d'Anatòlia. Al mateix temps, Kemal —enviat teòricament pel govern otomà a dissoldre les milícies irregulars de la resistència— feia exactament el contrari: organitzava el moviment nacional turc, convocava congressos a Erzurum i Sivas, i construïa un govern alternatiu a Ankara que ignorava el sultà d'Istanbul. Durant tres anys (1919-1922), Kemal va dirigir una guerra en múltiples fronts: contra els grecs a l'oest, contra els armenis a l'est, contra les forces franceses al sud. La Gran Ofensiva de l'Agost del 1922 va ser decisiva: l'exèrcit turc va derrotar l'exèrcit grec a la Batalla del Afionkarahisar-Dumlupinar i va avançar cap a Esmirna. El setembre del 1922, les tropes turques van entrar a Esmirna. Un incendi va destruir els barris grecs i armenis de la ciutat. Centenars de milers de grecs van ser evacuats al mar. La 'Catàstrofe' —com la anomenen els grecs— va acabar amb dos mil cinc-cents anys de presència grega a les costes d'Anatòlia. El Tractat de Lausana (1923) va reconèixer les fronteres de la nova Turquia i va establir el primer gran intercanvi de poblacions forçat de la historia moderna: 1,2 milions de grecs van ser expulsats de Turquia; 400.000 musulmans van ser expulsats de Grècia. Kemal havia guanyat. El 29 d'octubre del 1923 es va proclamar la República de Turquia. Mustafa Kemal en va ser el primer president."
-        },
         {
           "type": "what-would-you-do",
           "character": "Atatürk",
@@ -84,6 +80,22 @@
           ],
           "reveal": "Atatürk va arribar a Esmirna el 9 de setembre del 1922, quan el gruix de la violència ja s'havia produït. Va establir ordre militar però no va salvar la població que moria al port. La seva responsabilitat directa en els esdeveniments és debatuda per historiadors; el que és clar és que no va fer res per aturar l'incendi ni evacuar els civils de forma organitzada. El tractat de Lausana (1923) va reconèixer la nova Turquia. L'intercanvi forçat de poblacions va ser el resultat.",
           "analysis": "Els esdeveniments d'Esmirna el setembre del 1922 son un dels episodis més debatuts de la història moderna de Turquia i Grècia. La historiografia turca tendeix a presentar-los com a conseqüència inevitable d'una guerra que Grècia havia iniciat. La historiografia grega els descriu com una catàstrofe deliberada. La majoria d'historiadors internacionals els situen en el context de la violència intercomunal que havia devastat Anatòlia durant deu anys —massacres armènies, deportacions, guerra de guerrilles—, sense exculpar ningú. Atatürk va fundar una nació que inclou en el seu origen un episodi de neteja ètnica massiva. Que aquella nació hagi estat, durant dècades, un estat laic i funcional no esborra l'origen."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-ata-02-01",
+          "question": "El Tractat de Lausana va establir l'intercanvi forçat de poblacions: 1,2 milions de grecs expulsats de Turquia, 400.000 musulmans expulsats de Grècia. Va ser una solució pragmàtica a un conflicte insoluble, o un precedent terrible de neteja ètnica legitimada internacionalment?",
+          "options": [
+            "Una solució pragmàtica: les comunitats grega i turca d'Anatòlia havien viscut deu anys de violència intercomunal. La separació va aturar la guerra i va permetre la construcció d'estats homogenis estables",
+            "Un precedent terrible: legitimava la idea que les minories son un problema que es resol expulsant-les, i va obrir la porta a les neteges ètniques del segle XX (l'expulsió de poblacions alemanyes d'Europa oriental el 1945, els Balcans dels anys 90)",
+            "Ambdues coses son certes: va resoldre un conflicte immediat i va estabilitzar la regió a curt termini, però va establir un model que va ser invocat i imitat en contextos molt més violents i menys justificables"
+          ],
+          "correct": 2,
+          "explanation": "L'intercanvi de poblacions de Lausana és un dels casos més debatuts en la historia del dret internacional i la gestió de conflictes. La posició A (pragmàtica) és la que van defensar els arquitectes del tractat, inclosos Lord Curzon i el grec Eleutherios Venizelos: la violència intercomunal havia demostrat que les dues comunitats no podien coexistir, i la separació era menys cruel que la guerra continuada. La posició B (precedent terrible) és la dels historiadors que assenyalen que Lausana va ser citat explícitament en les discussions sobre les expulsions de poblacions alemanyes el 1945 i en els processos de neteja ètnica dels Balcans. La posició C reconeix les dues veritats: va funcionar a curt termini (Grècia i Turquia van tenir dècades de pau relativa) i va establir un model legitimat internacionalment que va ser explotat posteriorment en contextos molt menys defensables."
+        },
+        {
+          "type": "narrative",
+          "text": "El maig del 1919, l'exèrcit grec va desembarcar a Esmirna (Izmir) amb el suport dels aliats britànics i va iniciar una campanya militar cap a l'interior d'Anatòlia. Al mateix temps, Kemal —enviat teòricament pel govern otomà a dissoldre les milícies irregulars de la resistència— feia exactament el contrari: organitzava el moviment nacional turc, convocava congressos a Erzurum i Sivas, i construïa un govern alternatiu a Ankara que ignorava el sultà d'Istanbul. Durant tres anys (1919-1922), Kemal va dirigir una guerra en múltiples fronts: contra els grecs a l'oest, contra els armenis a l'est, contra les forces franceses al sud. La Gran Ofensiva de l'Agost del 1922 va ser decisiva: l'exèrcit turc va derrotar l'exèrcit grec a la Batalla del Afionkarahisar-Dumlupinar i va avançar cap a Esmirna. El setembre del 1922, les tropes turques van entrar a Esmirna. Un incendi va destruir els barris grecs i armenis de la ciutat. Centenars de milers de grecs van ser evacuats al mar. La 'Catàstrofe' —com la anomenen els grecs— va acabar amb dos mil cinc-cents anys de presència grega a les costes d'Anatòlia. El Tractat de Lausana (1923) va reconèixer les fronteres de la nova Turquia i va establir el primer gran intercanvi de poblacions forçat de la historia moderna: 1,2 milions de grecs van ser expulsats de Turquia; 400.000 musulmans van ser expulsats de Grècia. Kemal havia guanyat. El 29 d'octubre del 1923 es va proclamar la República de Turquia. Mustafa Kemal en va ser el primer president."
         },
         {
           "type": "primary-source",
@@ -103,18 +115,6 @@
           "statement": "El Tractat de Lausana (1923) va ser el primer tractat de la postguerra de la Primera Guerra Mundial en el qual els aliats vencedors van obtenir condicions favorables d'un dels estats derrotats.",
           "isCorrect": false,
           "feedbackExplanation": "Incorrecte. El Tractat de Lausana va ser, al contrari, el primer —i pràcticament l'únic— cas en la postguerra de la Primera Guerra Mundial en el qual un estat derrotat va aconseguir negociar condicions molt més favorables que les inicialment imposades. El Tractat de Sèvres (1920) havia imposat condicions extremadament dures a Turquia. La guerra d'independència d'Atatürk (1919-1922) va canviar completament el balanç de forces: Turquia va derrotar l'exèrcit grec i va forçar els aliats a renegociar. El Tractat de Lausana va reconèixer les fronteres de la nova República turca en termes molt propers als que Atatürk havia demanat. Era una victòria diplomàtica inèdita per a un país que havia perdut la Primera Guerra Mundial."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-ata-02-01",
-          "question": "El Tractat de Lausana va establir l'intercanvi forçat de poblacions: 1,2 milions de grecs expulsats de Turquia, 400.000 musulmans expulsats de Grècia. Va ser una solució pragmàtica a un conflicte insoluble, o un precedent terrible de neteja ètnica legitimada internacionalment?",
-          "options": [
-            "Una solució pragmàtica: les comunitats grega i turca d'Anatòlia havien viscut deu anys de violència intercomunal. La separació va aturar la guerra i va permetre la construcció d'estats homogenis estables",
-            "Un precedent terrible: legitimava la idea que les minories son un problema que es resol expulsant-les, i va obrir la porta a les neteges ètniques del segle XX (l'expulsió de poblacions alemanyes d'Europa oriental el 1945, els Balcans dels anys 90)",
-            "Ambdues coses son certes: va resoldre un conflicte immediat i va estabilitzar la regió a curt termini, però va establir un model que va ser invocat i imitat en contextos molt més violents i menys justificables"
-          ],
-          "correct": 2,
-          "explanation": "L'intercanvi de poblacions de Lausana és un dels casos més debatuts en la historia del dret internacional i la gestió de conflictes. La posició A (pragmàtica) és la que van defensar els arquitectes del tractat, inclosos Lord Curzon i el grec Eleutherios Venizelos: la violència intercomunal havia demostrat que les dues comunitats no podien coexistir, i la separació era menys cruel que la guerra continuada. La posició B (precedent terrible) és la dels historiadors que assenyalen que Lausana va ser citat explícitament en les discussions sobre les expulsions de poblacions alemanyes el 1945 i en els processos de neteja ètnica dels Balcans. La posició C reconeix les dues veritats: va funcionar a curt termini (Grècia i Turquia van tenir dècades de pau relativa) i va establir un model legitimat internacionalment que va ser explotat posteriorment en contextos molt menys defensables."
         }
       ]
     },
@@ -122,6 +122,18 @@
       "id": "ata-03",
       "title": "La revolució cultural: construir una nació des de zero",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-ata-03-01",
+          "question": "Atatürk va imposar la modernització des de dalt, per decret, sense debat democràtic. El kemalisme va ser un programa de llibertat o una forma d'autoritarisme il·lustrat que va reemplaçar un dogmatisme religiós per un dogmatisme laic?",
+          "options": [
+            "Un programa de llibertat: va alliberar les dones del vel obligatori, va separar la llei de la religió i va donar a Turquia eines per competir en el món modern. Els resultats objectius son positius",
+            "Autoritarisme il·lustrat: va imposar per la força canvis que molts turcs no volien, va suprimir l'oposició política i religiosa, i va crear un Estat on el laïcisme era tan obligatori com abans ho havia estat la religió",
+            "Les dues descripcions son correctes: el kemalisme va fer coses valuoses (drets de les dones, laïcisme) per mètodes autoritaris (supressió de l'oposició, canvis imposats sense consens). El dilema és si els fins justifiquen els mitjans —i si una modernització sense consens és sostenible a llarg termini"
+          ],
+          "correct": 2,
+          "explanation": "El debat sobre el kemalisme és una de les qüestions centrals de la ciència política contemporània sobre modernització i democràcia. La posició A és la dels laïcistes turcs i molts observadors occidentals: les reformes van ser necessàries i els resultats (sufragi femení, codis legals moderns, alfabetització massiva) son valuosos. La posició B és la dels islamistes turcs i dels crítics liberals: el kemalisme va crear un Estat on la identitat religiosa era sospitosa i on l'exèrcit es considerava el guardià del laïcisme per sobre de la voluntat popular. La tensió entre les dues posicions ha definit la política turca del segle XX i XXI: l'ascens d'Erdoğan pot llegir-se com la revenja de la Turquia que el kemalisme va voler reformar per la força. La posició C és la síntesi honesta: el valor de les reformes i la injustícia dels mètodes son ambdues reals, i la seva combinació explica per qué el llegat d'Atatürk és tan disputat."
+        },
         {
           "type": "narrative",
           "text": "Entre el 1923 i el 1938, Mustafa Kemal Atatürk va dur a terme un dels programes de transformació social més radicals i accelerats de la historia moderna. En quinze anys va canviar l'alfabet (de l'àrab al llatí, el 1928), el sistema legal (adopció dels codis civil suís, penal italià i comercial alemany, el 1926), el vestit (la fes —el barret turc— va ser prohibit; es va imposar el barret occidental), el calendari (de l'islàmic al gregorià), el sistema de mesures (al mètric) i el dret de vot de les dones (el 1934, dos anys abans que França i vint anys abans que Suïssa). Va abolir el Califat el 1924 —el líder espiritual de tots els musulmans del món, un títol que el sultà otomà havia ostentat durant segles— i va instaurar un Estat rigorosament laic, on la religió va ser retirada de l'espai públic. Va fundar l'Alfabet Turc en sis setmanes i va sortir personalment a les places a ensenyar-lo. Va prohibir els ordes sufís i va tancar les seves llotges. Va adoptar el cognom —fins llavors no existent en la tradició turca— i va prendre el seu propi: Atatürk, 'Pare dels Turcs'. Va morir el 10 de novembre del 1938 a Istanbul, de cirrosi hepàtica, als cinquanta-set anys. Tenia Turquia profundament dividida entre els hereteus del seu laïcisme i els que volien revertir les seves reformes. Aquella tensió continua fins avui."
@@ -163,18 +175,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. Turquia va concedir el sufragi femení el 1934 —deu anys avant de França (1944), onze avant d'Itàlia (1945) i trenta-set avant de Suïssa (1971). És un dels aspectes del kemalisme que sorprèn els europeus que associen el món islàmic amb el retard en els drets de les dones. Atatürk el va presentar com un element central de la modernització: una nació moderna no podia excloure la meitat de la seva població de la vida política.",
           "feedbackWrong": "El sufragi femení a Turquia va ser el 1934 —avant de França (1944), Itàlia (1945) i Suïssa (1971). Va ser una de les reformes centrals del programa kemalista de modernització accelerada."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-ata-03-01",
-          "question": "Atatürk va imposar la modernització des de dalt, per decret, sense debat democràtic. El kemalisme va ser un programa de llibertat o una forma d'autoritarisme il·lustrat que va reemplaçar un dogmatisme religiós per un dogmatisme laic?",
-          "options": [
-            "Un programa de llibertat: va alliberar les dones del vel obligatori, va separar la llei de la religió i va donar a Turquia eines per competir en el món modern. Els resultats objectius son positius",
-            "Autoritarisme il·lustrat: va imposar per la força canvis que molts turcs no volien, va suprimir l'oposició política i religiosa, i va crear un Estat on el laïcisme era tan obligatori com abans ho havia estat la religió",
-            "Les dues descripcions son correctes: el kemalisme va fer coses valuoses (drets de les dones, laïcisme) per mètodes autoritaris (supressió de l'oposició, canvis imposats sense consens). El dilema és si els fins justifiquen els mitjans —i si una modernització sense consens és sostenible a llarg termini"
-          ],
-          "correct": 2,
-          "explanation": "El debat sobre el kemalisme és una de les qüestions centrals de la ciència política contemporània sobre modernització i democràcia. La posició A és la dels laïcistes turcs i molts observadors occidentals: les reformes van ser necessàries i els resultats (sufragi femení, codis legals moderns, alfabetització massiva) son valuosos. La posició B és la dels islamistes turcs i dels crítics liberals: el kemalisme va crear un Estat on la identitat religiosa era sospitosa i on l'exèrcit es considerava el guardià del laïcisme per sobre de la voluntat popular. La tensió entre les dues posicions ha definit la política turca del segle XX i XXI: l'ascens d'Erdoğan pot llegir-se com la revenja de la Turquia que el kemalisme va voler reformar per la força. La posició C és la síntesi honesta: el valor de les reformes i la injustícia dels mètodes son ambdues reals, i la seva combinació explica per qué el llegat d'Atatürk és tan disputat."
         }
       ]
     }

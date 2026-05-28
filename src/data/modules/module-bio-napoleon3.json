@@ -10,6 +10,18 @@
       "title": "El nebot mediocre que va enganyar tothom",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-napo3-01-01",
+          "question": "Louis-Napoleon va guanyar les eleccions de 1848 amb el 74% dels vots sense cap proposta política clara, simplement perquè s'apellava Bonaparte. Pot un nom, una llegenda o un símbol substituir completament el contingut polític en una democràcia?",
+          "options": [
+            "No: les eleccions de 1848 eren una anomalia. Els votants francesos no votaven 'el nom Bonaparte' —votaven contra el caos revolucionari i l'amenaça socialista. Qualsevol candidat d'ordre hauria pogut guanyar; Louis-Napoleon era el disponible",
+            "Sí, i és un patró recurrent: noms, símbols i llegendes funcionen com a dreceres cognitives per a votants sense informació política detallada. Marx va diagnosticar el mecanisme amb precisió: en crisi, les masses voten representació simbòlica, no programa",
+            "El cas de 1848 era específic però el mecanisme es repeteix: en moments de por, els votants busquen referències familiars i carismàtiques. Totes les democràcies combinen avaluació programàtica i confiança simbòlica —la proporció canvia en moments de crisi"
+          ],
+          "correct": 2,
+          "explanation": "La posició A té un punt vàlid: el context de 1848 (por a la revolució obrera de juny) era excepcional i qualsevol candidat d'ordre hauria tingut avantatge. Però no explicaria un 74%. La posició B és el diagnòstic de Marx, que és perspicaç però potser massa determinista: presenta les masses com a incapaces de judici polític autònom. La posició C és la síntesi: tots els vots impliquen una combinació de programa i símbols, i la proporció canvia en situacions d'alta incertesa. El cas de Louis-Napoleon és extrem però no únic: noms familiars, llegendes i marques polítiques continuen funcionant com a dreceres cognitives en democràcies contemporànies, des dels fills de presidents fins als partits amb noms d'herois nacionals."
+        },
+        {
           "type": "quote",
           "text": "Hegel observa en algun lloc que tots els grans fets i personatges de la historia mundial apareixen, per dir-ho d'alguna manera, dues vegades. Va oblidar d'afegir: la primera vegada com a tragèdia, la segona com a farsa.",
           "author": "Karl Marx, El 18 Brumari de Louis Bonaparte, 1852"
@@ -51,6 +63,20 @@
       "title": "El cop d'estat: la història es repeteix",
       "blocks": [
         {
+          "type": "what-would-you-do",
+          "character": "Louis-Napoleon Bonaparte",
+          "emoji": "🎭",
+          "year": "Novembre de 1851",
+          "setup": "La Constitució t'impedeix presentar-te a la reelecció. El Parlament t'ha bloquejat la reforma constitucional. Tens tres opcions: acceptar el final del teu mandat i marxar, intentar una reforma constitucional amb el suport popular en un referèndum, o fer un cop d'estat militar i dissoldre el Parlament. Els teus assessors militars et garanteixen la lleialtat de l'exèrcit. El risc de resistència armada sembla baix.",
+          "dilemma": "Respectes la Constitució i marxes, o dissoleu el Parlament i consolideu el poder per la força?",
+          "options": [
+            { "id": "A", "text": "Respecto la Constitució: un president que la trenca destrueix la legitimitat que necessita per governar" },
+            { "id": "B", "text": "Faig el cop: tinc el suport popular i l'exèrcit. La Constitució és un obstacle que el poble pot ratificar després en plebiscit" }
+          ],
+          "reveal": "Louis-Napoleon va fer el cop la nit del 1 al 2 de desembre de 1851. Va arrestar els líders republicans, va dissoldre el Parlament i va ocupar París. El plebiscit posterior va ratificar el cop amb un 92% de suport. Un any més tard era Emperador. El mecanisme —cop militar + plebiscit de ratificació— seria reutilitzat per dictadors del segle XX com Hitler (1933-34) i Mussolini.",
+          "analysis": "Louis-Napoleon va inventar el que els politicòlegs anomenen 'bonapartisme': el lideratge carismàtic que usa la consulta popular per legitimar el poder excepcional. La seva fórmula —força + plebiscit— va ser influent perquè semblava democràtica sense ser-ho. La distinció entre democràcia i plebiscitarisme populista és una de les qüestions centrals de la teoria política del segle XX."
+        },
+        {
           "type": "narrative",
           "text": "La Constitució de la Segona República limitava el president a un sol mandat. Louis-Napoleon volia ser reelegit, però el Parlament ho impedia. El 2 de desembre de 1851 —aniversari de la victòria d'Austerlitz i de la coronació de Napoleon I— va fer el cop d'estat. Va arrestar els diputats republicans durant la nit, va dissoldre l'Assemblea i va ocupar militarment París. La resistència va ser escassa: unes 400 persones van morir en la repressió. Un any després, va convocar un plebiscit sobre el restabliment de l'Imperi. El resultat: 7,8 milions a favor, 253.000 en contra. El 2 de desembre de 1852 es va proclamar Napoleon III, Emperador dels Francesos."
         },
@@ -66,27 +92,12 @@
           ]
         },
         {
-          "type": "what-would-you-do",
-          "character": "Louis-Napoleon Bonaparte",
-          "emoji": "🎭",
-          "year": "Novembre de 1851",
-          "setup": "La Constitució t'impedeix presentar-te a la reelecció. El Parlament t'ha bloquejat la reforma constitucional. Tens tres opcions: acceptar el final del teu mandat i marxar, intentar una reforma constitucional amb el suport popular en un referèndum, o fer un cop d'estat militar i dissoldre el Parlament. Els teus assessors militars et garanteixen la lleialtat de l'exèrcit. El risc de resistència armada sembla baix.",
-          "dilemma": "Respectes la Constitució i marxes, o dissoleu el Parlament i consolideu el poder per la força?",
-          "options": [
-            { "id": "A", "text": "Respecto la Constitució: un president que la trenca destrueix la legitimitat que necessita per governar" },
-            { "id": "B", "text": "Faig el cop: tinc el suport popular i l'exèrcit. La Constitució és un obstacle que el poble pot ratificar després en plebiscit" }
-          ],
-          "reveal": "Louis-Napoleon va fer el cop la nit del 1 al 2 de desembre de 1851. Va arrestar els líders republicans, va dissoldre el Parlament i va ocupar París. El plebiscit posterior va ratificar el cop amb un 92% de suport. Un any més tard era Emperador. El mecanisme —cop militar + plebiscit de ratificació— seria reutilitzat per dictadors del segle XX com Hitler (1933-34) i Mussolini.",
-          "analysis": "Louis-Napoleon va inventar el que els politicòlegs anomenen 'bonapartisme': el lideratge carismàtic que usa la consulta popular per legitimar el poder excepcional. La seva fórmula —força + plebiscit— va ser influent perquè semblava democràtica sense ser-ho. La distinció entre democràcia i plebiscitarisme populista és una de les qüestions centrals de la teoria política del segle XX."
-        },
-        {
           "type": "exercise",
           "id": "ex-napo3-02-01",
-          "style": "true-false",
-          "question": "El cop d'estat de Louis-Napoleon del 2 de desembre de 1851 va trobar una resistència armada significativa a París que va costar milers de vides suprimir.",
-          "correct": false,
-          "feedbackCorrect": "Fals, però amb matisos. La resistència armada va ser limitada: uns 400 morts en total, principalment en barricades de barris republicans de París i en algunes províncies. La facilitat relativa del cop va sorprendre tothom —inclòs Louis-Napoleon. La raó és que els republicans i socialistes que haurien pogut resistir estaven dividits, desarmats o directament presos la primera nit (les detencions preventives van ser el primer moviment). Victor Hugo, que va intentar organitzar la resistència, va haver de fugir disfressat cap a Brussel·les.",
-          "feedbackWrong": "La resistència va ser sorprenentment feble. Louis-Napoleon havia detingut els caps republicans la primera nit. Uns 400 morts en total —molt menys que qualsevol de les revolucions anteriors. La frase de Marx sobre 'la farsa' reflectia en part que el cop havia estat sorprenentment fàcil."
+          "style": "detect-error",
+          "statement": "El cop d'estat de Louis-Napoleon del 2 de desembre de 1851 va trobar una resistència armada significativa a París que va costar milers de vides suprimir, la qual cosa va marcar el seu règim amb una llegenda de violència des del primer dia.",
+          "isCorrect": false,
+          "feedbackExplanation": "La resistència armada va ser sorprenentment limitada: uns 400 morts en total, principalment en barricades de barris republicans de París i en algunes províncies. La facilitat relativa del cop va sorprendre tothom —inclòs Louis-Napoleon. La raó és que els republicans i socialistes que haurien pogut resistir estaven dividits, desarmats o directament presos la primera nit (les detencions preventives van ser el primer moviment). Victor Hugo, que va intentar organitzar la resistència, va haver de fugir disfressat cap a Brussel·les."
         }
       ]
     },
@@ -94,6 +105,18 @@
       "id": "napo3-03",
       "title": "El Segon Imperi: modernització i desfeta",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-napo3-03-01",
+          "question": "Per què és important estudiar Napoleon III, una figura considerada menys brillant que Napoleon I i que va acabar en una desfeta humiliant?",
+          "options": [
+            "Perquè la seva Paris modernitzada és el model urbà que totes les capitals europees van imitar, i el seu Codi Civil va continuar el de Napoleon I",
+            "Perquè el mecanisme del seu ascens —nom + populisme + plebiscit de legitimació— és el prototip del populisme autoritari modern, des de Mussolini fins als lideratges carismàtics del segle XXI",
+            "Les dues: la seva herència urbana és concreta i visible, i el model polític que va establir és el laboratori del populisme modern. Estudiar la farsa és tan important com estudiar la tragèdia"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és defensada per historiadors de l'urbanisme: la Paris d'Haussmann va ser el model de totes les remodelacions urbanes del final del segle XIX (Barcelona, Viena, Budapest). La posició B és la tesi de Marx i dels analistes del populisme: Louis-Napoleon va inventar l'equació 'lideratge carismàtic + consulta plebiscitaria' que Hitler, Mussolini i molts populistes moderns van reproduir. La posició C integra les dues: Napoleon III és important com a precedent tant en el camp de la modernització urbana com en el camp del populisme autoritari. La 'farsa' que Marx descrivia tenia conseqüències molt reals —i molt modernes."
+        },
         {
           "type": "narrative",
           "text": "El Segon Imperi de Napoleon III (1852-1870) va ser una contradicció productiva: un règim autoritari que va modernitzar França. Va encarregar al baró Haussmann la reconstrucció de París —els bulevards amples, els parcs, les xarxes de clavegueram i d'aigua corrent que convertien la capital en la primera metròpoli moderna del món. Va impulsar el ferrocarril, la indústria i el lliure comerç. Va donar el suport decisiu a la Itàlia unificada contra Àustria. Però la seva política exterior era erràtica i les seves aventures militars, costoses: Mèxic (fracàs), i finalment la guerra contra Prússia el 1870. A Sedan, Bismarck el va encerclar i capturar personalment. Napoleon III va rendir-se el 2 de setembre de 1870. L'Imperi va caure immediatament. Va morir a l'exili a Anglaterra el 1873."
@@ -134,18 +157,6 @@
           },
           "reflection": "Els règims autoritaris que modernitzen el país —Singapur, Corea del Sud als anys 70, la Xina actual— plantegen la mateixa pregunta: pot la modernització econòmica justificar la restricció de les llibertats polítiques? I qui decideix el 'balanç'?",
           "context": "Historiadors com Roger Price defensen que Napoleon III va ser un modernitzador genuí i innovador. Historiadors com Alain Plessis el veuen com un aprofitat que va tenir la sort d'heretar una França en expansió econòmica. La seva captura a Sedan el 1870 va tancar el debat en termes polítics —però el debat historiogràfic continua."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-napo3-03-01",
-          "question": "Per què és important estudiar Napoleon III, una figura considerada menys brillant que Napoleon I i que va acabar en una desfeta humiliant?",
-          "options": [
-            "Perquè la seva Paris modernitzada és el model urbà que totes les capitals europees van imitar, i el seu Codi Civil va continuar el de Napoleon I",
-            "Perquè el mecanisme del seu ascens —nom + populisme + plebiscit de legitimació— és el prototip del populisme autoritari modern, des de Mussolini fins als lideratges carismàtics del segle XXI",
-            "Les dues: la seva herència urbana és concreta i visible, i el model polític que va establir és el laboratori del populisme modern. Estudiar la farsa és tan important com estudiar la tragèdia"
-          ],
-          "correct": 2,
-          "explanation": "La posició A és defensada per historiadors de l'urbanisme: la Paris d'Haussmann va ser el model de totes les remodelacions urbanes del final del segle XIX (Barcelona, Viena, Budapest). La posició B és la tesi de Marx i dels analistes del populisme: Louis-Napoleon va inventar l'equació 'lideratge carismàtic + consulta plebiscitaria' que Hitler, Mussolini i molts populistes moderns van reproduir. La posició C integra les dues: Napoleon III és important com a precedent tant en el camp de la modernització urbana com en el camp del populisme autoritari. La 'farsa' que Marx descrivia tenia conseqüències molt reals —i molt modernes."
         }
       ]
     }

@@ -10,17 +10,36 @@
       "title": "De Boston a la Casa Blanca: carisma i poder",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-jfk-01-01",
+          "question": "Quin va ser el fracàs de política exterior més gran de Kennedy al primer any de presidència?",
+          "options": [
+            "La fallida de les negociacions de pau amb l'URSS a Viena",
+            "La invasió fallida de Cuba a Badia de Cochons",
+            "L'enviament de tropes americanes a Vietnam",
+            "El fracàs del programa espacial en la primera missió tripulada"
+          ],
+          "correct": 1,
+          "explanation": "La invasió de Badia de Cochons (abril 1961) va ser un desastre: 1.400 exiliats cubans entrenats per la CIA van intentar derrocar Castro i van ser capturats en menys de 72 hores. Kennedy va assumir la responsabilitat públicament, cosa que paradoxalment va augmentar la seva popularitat."
+        },
+        {
+          "type": "misconception",
+          "belief": "Kennedy va ser el president que va portar els drets civils als EUA i va defensar les minories des del primer dia.",
+          "reality": "Kennedy va ser inicialment molt cautelós amb els drets civils per por de perdre el vot del Sud demòcrata. Va trigar fins al juny de 1963 —sota la pressió de les marxes i les televisions mostrant la violència policial— a proposar una llei de drets civils federal. La legislació definitiva la va signar Lyndon Johnson el 1964, ja mort Kennedy.",
+          "why": "El mite Kennedy l'associa a tot el progrés social dels 60. Però la seva presidència va ser en molts aspectes conservadora i pragmàtica. La idealització pòstuma omple els 1.000 dies de mandats inexistents."
+        },
+        {
           "type": "quote",
           "text": "No preguntis el que el teu país pot fer per tu. Pregunta el que tu pots fer pel teu país.",
           "author": "John F. Kennedy, discurs d'inauguració, 1961"
         },
         {
           "type": "narrative",
-          "text": "John Fitzgerald Kennedy va néixer el 1917 a Brookline, Massachusetts, en una de les famílies catòliques irlandeses més riques i ambicioses d'Amèrica. El seu pare, Joseph Kennedy, era un home dur que havia fet fortuna en la borsa i l'alcohol durant la Prohibició, i que havia decidit que un dels seus fills seria president. JFK era el segon de nou fills. El primer, Joe Jr., havia mort en la guerra. El projecte patern va recaure sobre John."
+          "text": "John Fitzgerald Kennedy va néixer el 1917 a Brookline, Massachusetts, en una de les famílies catòliques irlandeses més riques i ambicioses d'Amèrica. El seu pare, Joseph Kennedy, havia decidit que un dels seus fills seria president. JFK era el segon de nou fills. El primer, Joe Jr., havia mort en la guerra. El projecte patern va recaure sobre John."
         },
         {
           "type": "narrative",
-          "text": "Kennedy va servir a la Marina durant la Segona Guerra Mundial: el seu torpediner PT-109 va ser enfonsat per un destructor japonès, i JFK va nedar hores en mar obert arrossegant un company ferit fins a la seguretat. Va ser un heroi de guerra real. El 1946 va ser elegit congressista, el 1952 senador, i el 1960 va guanyar la presidència contra Richard Nixon per un marge escassíssim. Tenia 43 anys: el president elegit més jove de la història americana. El primer catòlic. La seva imatge —jove, guapo, amb una esposa glamurosa— va transformar la política en espectacle mediàtic."
+          "text": "Kennedy va servir a la Marina durant la Segona Guerra Mundial: el seu torpediner PT-109 va ser enfonsat per un destructor japonès, i JFK va nedar hores en mar obert arrossegant un company ferit fins a la seguretat. Va ser un heroi de guerra real. El 1960 va guanyar la presidència contra Richard Nixon per un marge escassíssim. Tenia 43 anys: el president elegit més jove de la història americana. El primer catòlic."
         },
         {
           "type": "key-idea",
@@ -51,19 +70,6 @@
           "correct": 2,
           "feedbackCorrect": "Exacte. Kennedy apareixia bronzejat, relaxat i guapo; Nixon havia rebutjat el maquillatge i semblava pàl·lid i suorós. El contingut era similar, però la imatge va decidir la percepció.",
           "feedbackWrong": "L'element decisiu va ser visual: Kennedy transmitia confiança i carisma; Nixon semblava nerviós i malalt. Va ser una lliçó sobre el poder de la televisió en política."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-jfk-01-01",
-          "question": "Quin va ser el fracàs de política exterior més gran de Kennedy al primer any de presidència?",
-          "options": [
-            "La fallida de les negociacions de pau amb l'URSS a Viena",
-            "La invasió fallida de Cuba a Badia de Cochons",
-            "L'enviament de tropes americanes a Vietnam",
-            "El fracàs del programa espacial en la primera missió tripulada"
-          ],
-          "correct": 1,
-          "explanation": "La invasió de Badia de Cochons (abril 1961) va ser un desastre: 1.400 exiliats cubans entrenats per la CIA van intentar derrocar Castro i van ser capturats en menys de 72 hores. Kennedy va assumir la responsabilitat públicament, cosa que paradoxalment va augmentar la seva popularitat."
         }
       ]
     },
@@ -72,13 +78,20 @@
       "title": "La crisi dels míssils: tretze dies al límit",
       "blocks": [
         {
+          "type": "what-would-you-do",
+          "id": "wwyd-jfk-02-01",
+          "scenario": "És el 16 d'octubre de 1962. Un espià U-2 ha fotografiat míssils nuclears soviètics en construcció a Cuba. Com a president, tens tres opcions principals: bombardeig aeri immediat (aniquilar les bases), invasió terrestre (ocupar Cuba), o bloqueig naval (tancar el pas als vaixells soviètics i negociar). Els generals militars exigeixen l'atac. Tens 13 dies.",
+          "question": "Quina opció tries? Saps que qualsevol error pot ser la Tercera Guerra Mundial.",
+          "reflection": "Kennedy va triar el bloqueig i la via diplomàtica. Molts generals ho van considerar una feblesa. Tretze anys després es va saber que si hagués bombardejat les bases, hi havia míssils nuclears tàctics ja operatius que els soviètics podrien haver llançat. L'atac hauria iniciat la guerra nuclear."
+        },
+        {
           "type": "quote",
           "text": "No negociem per por. Però no tinguem por de negociar.",
           "author": "John F. Kennedy"
         },
         {
           "type": "narrative",
-          "text": "El 16 d'octubre de 1962, un avió espía U-2 va fotografiar míssils nuclears soviètics en construcció a Cuba. Kennedy va convocar un grup secret d'assessors —el Comitè Executiu, ExComm— per decidir la resposta. Les opcions eren: bombardeig aeri, invasió, bloqueig naval o negociació directa. Els generals militars exigien un atac. Kennedy va imposar el bloqueig i la via diplomàtica."
+          "text": "El 16 d'octubre de 1962, un avió espia U-2 va fotografiar míssils nuclears soviètics en construcció a Cuba. Kennedy va convocar un grup secret d'assessors —el Comitè Executiu, ExComm— per decidir la resposta. Les opcions eren: bombardeig aeri, invasió, bloqueig naval o negociació directa. Els generals militars exigien un atac. Kennedy va imposar el bloqueig i la via diplomàtica."
         },
         {
           "type": "narrative",
@@ -110,19 +123,6 @@
           "correct": 0,
           "feedbackCorrect": "Exacte. L'acord públic era la retirada soviètica a canvi de no invasió de Cuba. Però hi havia un acord secret: els EUA retirarien els seus míssils Jupiter de Turquia. Kennedy va exigir que es mantingués secret per no semblar que cedia davant la pressió.",
           "feedbackWrong": "Hi havia un acord secret: a més de prometre no envair Cuba, els EUA van retirar discretament els seus míssils de Turquia. Kennedy va insistir que fos secret per no semblar que cedia."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-jfk-02-01",
-          "question": "Per quin motiu el cas de Vasili Arkhipov és considerat per molts historiadors un dels moments més importants del segle XX?",
-          "options": [
-            "Perquè va ser el primer oficial soviètic a desertar als EUA durant la Guerra Freda",
-            "Perquè la seva negativa a llançar un torpedo nuclear va evitar possiblement la Tercera Guerra Mundial",
-            "Perquè va revelar als americans la posició del submarí i va permetre desactivar la crisi",
-            "Perquè va obrir negociacions directes entre Kennedy i Krushchev"
-          ],
-          "correct": 1,
-          "explanation": "El B-59 estava sense comunicació, havia estat atacat i el seu capità creia que la guerra havia esclatat. Si Arkhipov hagués dit sí al torpedo nuclear, l'URSS hauria respost i la guerra nuclear hauria esclatat. La seva negativa va ser l'acte individual que probablement va salvar la civilització."
         }
       ]
     },
@@ -130,6 +130,20 @@
       "id": "jfk-03",
       "title": "Dallas, 22 de novembre de 1963: el mite i la pregunta",
       "blocks": [
+        {
+          "type": "debate",
+          "question": "Va actuar Lee Harvey Oswald sol en l'assassinat de Kennedy, o hi va haver una conspiració?",
+          "positionA": {
+            "label": "Oswald va actuar sol (Comissió Warren)",
+            "argument": "La Comissió Warren (1964), amb accés a totes les proves i testimonis, va concloure que Oswald va actuar sol. Tres trets des de la finestra del sisè pis del Texas School Book Depository expliquen totes les ferides. Cap testimoni creïble ha confirmat mai un segon tirador."
+          },
+          "positionB": {
+            "label": "Hi va haver conspiració",
+            "argument": "El Comitè Selecte del Congrés (1979) va concloure que hi havia una 'probable conspiració'. L'assassinat d'Oswald per Ruby dos dies després va impedir el judici. Molts documents seguien classificats fins als anys 2020. La bala única que hauria fet set ferides en Kennedy i Connally defien la física."
+          },
+          "reflection": "Avui el consens acadèmic tendeix a Oswald com a autor principal, però l'opacitat dels documents de la CIA alimenta el dubte. El que és clar: mai podrem tenir certesa plena.",
+          "context": "El 2022 i 2023, l'administració Biden va desclassificar milers de documents CIA sobre l'assassinat. Cap smoking gun. La incertesa continua."
+        },
         {
           "type": "quote",
           "text": "Confieu en Déu, però fermeu el camell.",
@@ -145,7 +159,7 @@
         },
         {
           "type": "key-idea",
-          "text": "El mite vs. la realitat de Kennedy: la presidència Kennedy és sovint idealitzada. Però Kennedy va autoritzar la invasió de Badia de Cochons, va escalar la presència militar americana a Vietnam, va interceptar il·legalment comunicacions, i les seves relacions extramatrimonials (inclosa Marilyn Monroe) van ser silenciades per la premsa de l'època. El 'Camelot' era també un producte de construcció mediàtica."
+          "text": "El mite vs. la realitat de Kennedy: la presidència Kennedy és sovint idealitzada. Però Kennedy va autoritzar la invasió de Badia de Cochons, va escalar la presència militar americana a Vietnam, va interceptar il·legalment comunicacions, i les seves relacions extramatrimonials van ser silenciades per la premsa de l'època. El 'Camelot' era també un producte de construcció mediàtica."
         },
         {
           "type": "exercise",
@@ -166,8 +180,8 @@
           "type": "what-would-you-do",
           "id": "wwyd-jfk-03-01",
           "scenario": "Ets historiador i has de valorar la presidència Kennedy sabent que: va gestionar brillantment la crisi dels míssils; va iniciar l'escalada a Vietnam; va fracassar a Cuba; va prometre drets civils però no va actuar fins a la pressió; tenia una vida privada que contradeia la seua imatge pública; i va morir de manera violenta i prematura.",
-          "question": "Com avalues una presidència de 1.000 dies? La mort prematura fa que idealitzem el que podria haver estat? Quin Kennedy és el real?",
-          "reflection": "Kennedy és un cas extrem del problema biogràfic: no sabem el que hauria fet. Hauria escalat a Vietnam o retirat les tropes? Hauria aprovat la llei de drets civils abans? La mort prematura crea un buit que el mite omple. El historiador Robert Dallek argumenta que era un president en evolució, canviant les seves posicions. Theodore Sorensen diu que va ser el millor. Richard Reeves descriu la improvisació i els errors. Els tres fan servir els mateixos fets."
+          "question": "Com avalues una presidència de 1.000 dies? La mort prematura fa que idealitzem el que podria haver estat?",
+          "reflection": "Kennedy és un cas extrem del problema biogràfic: no sabem el que hauria fet. Hauria escalat a Vietnam o retirat les tropes? Hauria aprovat la llei de drets civils abans? La mort prematura crea un buit que el mite omple. El historiador Robert Dallek argumenta que era un president en evolució. Theodore Sorensen diu que va ser el millor. Richard Reeves descriu la improvisació i els errors. Els tres fan servir els mateixos fets."
         }
       ]
     }

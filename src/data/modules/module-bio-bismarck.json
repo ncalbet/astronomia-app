@@ -10,6 +10,24 @@
       "title": "El junker reaccionari que va canviar el món",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-bism-01-01",
+          "question": "Bismarck deia actuar per 'l'interès de Prússia' sense cap ideologia moral. La realpolitik —la política basada exclusivament en el poder real, sense principis morals declarats— és una filosofia política legítima o és simplement la racionalització del poder brut?",
+          "options": [
+            "Legítima: tota política opera amb interessos reals. La realpolitik és simplement honesta sobre el que la política és en realitat. La moralitat en política és decoració retòrica que amaga interessos de poder",
+            "Ilegítima: sense principis morals, la política es converteix en la llei del més fort. La realpolitik de Bismarck va crear precedents que els seus successors van usar per justificar guerres molt pitjors",
+            "La distinció és falsa: cap polític opera sense cap principi moral. Bismarck tenia valors —Prússia, ordre, estabilitat— simplement no els deia 'morals'. La realpolitik descriu una part del poder però no és una teoria completa de la política"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la de teòrics com Hans Morgenthau i la tradició realista de les relacions internacionals: la política és poder, i reconèixer-ho és més honest que disfressar-ho de moral. La posició B és la crítica liberal i kantiana: sense normes morals compartides, la política internacional es redueix a la força, i Bismarck va crear un precedent que Guillem II i Hitler van utilitzar amb resultats catastròfics. La posició C és la més precisa historiogràficament: Bismarck tenia valors profunds —l'ordre prussià, el protestantisme, l'estabilitat europea— però els presentava com a 'interès' perquè li donava flexibilitat tàctica. No era amoral: era estratègicament ambigu en les seves declaracions morals per no vincular-se a compromisos que limitessin les seves opcions."
+        },
+        {
+          "type": "misconception",
+          "belief": "Bismarck era un militar que va unificar Alemanya a través de guerres brutals i irracionals.",
+          "reality": "Bismarck era un diplomàtic civil que mai no va portar uniforme en batalla. Va usar les guerres com a instruments polítics precisos, no com a fins en si mateixos. Cada guerra va ser curta (mesos), limitada en objectius i seguida d'una pau generosa als vençuts (excepte amb França). Va dir: 'La guerra és molt seriosa per deixar-la als militars.' El seu geni era saber quan aturar-se — la qualitat que els seus successors no van tenir.",
+          "why": "La imatge de Prússia com a estat militarista agressiu ve sobretot de Guillem II i de la Primera Guerra Mundial, no de Bismarck. Bismarck va crear un sistema d'aliances precisament per evitar una gran guerra europea — el que va durar fins que el Kaiser el va acomiadar el 1890."
+        },
+        {
           "type": "quote",
           "text": "Les grans qüestions del nostre temps no es resoldran amb discursos i decisions de majoria — sinó amb ferro i sang.",
           "author": "Otto von Bismarck, discurs al Parlament prussià, 1862"
@@ -43,12 +61,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. El context és clau: Bismarck deia aquest discurs en una crisi constitucional on el parlament liberal prussià bloquejava el pressupost militar del rei Guillem I. Bismarck argumentava que el rei tenia dret a governar sense aprovació parlamentària en matèria de defensa. Era un atac al liberalisme parlamentari, no una declaració de guerra immediata.",
           "feedbackWrong": "El discurs era un argument constitucional intern, no una declaració de política exterior. Bismarck va usar la guerra com a instrument — però sempre calculat i limitat, no sistemàticament. I la unificació contra Àustria va arribar quatre anys després, no immediatament."
-        },
-        {
-          "type": "misconception",
-          "belief": "Bismarck era un militar que va unificar Alemanya a través de guerres brutals i irracionals.",
-          "reality": "Bismarck era un diplomàtic civil que mai no va portar uniforme en batalla. Va usar les guerres com a instruments polítics precisos, no com a fins en si mateixos. Cada guerra va ser curta (mesos), limitada en objectius i seguida d'una pau generosa als vençuts (excepte amb França). Va dir: 'La guerra és molt seriosa per deixar-la als militars.' El seu geni era saber quan aturar-se — la qualitat que els seus successors no van tenir.",
-          "why": "La imatge de Prússia com a estat militarista agressiu ve sobretot de Guillem II i de la Primera Guerra Mundial, no de Bismarck. Bismarck va crear un sistema d'aliances precisament per evitar una gran guerra europea — el que va durar fins que el Kaiser el va acomiadar el 1890."
         }
       ]
     },
@@ -56,6 +68,20 @@
       "id": "bism-02",
       "title": "Tres guerres, una nació: ferro i sang",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "character": "Otto von Bismarck",
+          "emoji": "♟️",
+          "year": "1866 — Sadowa, immediatament després de la victòria sobre Àustria",
+          "setup": "Acabes de guanyar la batalla decisiva de Sadowa. Àustria és derrotada. El teu rei Guillem I i els generals volen desfilar per Viena, annexionar territori austríac i humiliar l'Imperi. Les victòries militars meriten recompenses territorials — és el que s'ha fet sempre.",
+          "dilemma": "Permets la marxa a Viena i l'annexió de territoris austríacs, com volen el rei i els generals? O atures la guerra immediatament amb una pau generosa que no humiliï Àustria?",
+          "options": [
+            { "id": "A", "text": "Marxa a Viena: la victòria total consolida el poder prussià i fa impossible qualsevol revenja austríaca" },
+            { "id": "B", "text": "Pau immediata i generosa: no volem un enemic permanent, volem un Àustria que no tingui motius de revenja" }
+          ],
+          "reveal": "Bismarck va aturar la guerra immediatament. Va amenaçar de dimitir si el rei no acceptava una pau generosa. Va cedir a Àustria territoris, no va exigir indemnitzacions de guerra grans i va permetre que l'Emperador Francesc Josep mantingués la dignitat. Set anys més tard, Àustria era aliada d'Alemanya — no enemiga.",
+          "analysis": "Aquesta decisió separa Bismarck de gairebé tots els seus contemporanis militars. Ell entenia que l'objectiu no era demostrar la superioritat de Prússia sinó crear les condicions per a un Segon Reich estable. Un Àustria humiliada seria un enemic permanent. Un Àustria derrotada però no humiliada podria ser un aliat. Tenia raó. Els seus successors —que el 1919 van humiliar Alemanya a Versalles— van demostrar per contrast que la generositat de Bismarck el 1866 va ser una decisió estratègica, no una debilitat."
+        },
         {
           "type": "narrative",
           "text": "En set anys, Bismarck va orquestrar tres guerres que van canviar el mapa d'Europa. La Guerra dels Ducats (1864) contra Dinamarca — en aliança amb Àustria. La Guerra Austro-Prussiana (1866) contra Àustria — que va durar set setmanes i que ningú esperava que Prússia guanyés. I la Guerra Franco-Prussiana (1870-71) contra França, que va acabar amb la proclamació del II Reich al Palau de Versalles, en el Saló dels Miralls, a París ocupada. Cada guerra estava prevista, cadascuna va tenir un objectiu precís i cadascuna va acabar exactament quan Bismarck ho va decidir."
@@ -84,20 +110,6 @@
           "insight": "En set anys, Bismarck va aconseguir el que 50 anys de revolucions liberals i debats nacionals no havien pogut: un estat alemany unificat. Ho va fer sense seguir cap ideologia — simplement identificant el proper pas necessari i executant-lo."
         },
         {
-          "type": "what-would-you-do",
-          "character": "Otto von Bismarck",
-          "emoji": "♟️",
-          "year": "1866 — Sadowa, immediatament després de la victòria sobre Àustria",
-          "setup": "Acabes de guanyar la batalla decisiva de Sadowa. Àustria és derrotada. El teu rei Guillem I i els generals volen desfilar per Viena, annexionar territori austríac i humiliar l'Imperi. Les victòries militars meriten recompenses territorials — és el que s'ha fet sempre.",
-          "dilemma": "Permets la marxa a Viena i l'annexió de territoris austríacs, com volen el rei i els generals? O atures la guerra immediatament amb una pau generosa que no humiliï Àustria?",
-          "options": [
-            { "id": "A", "text": "Marxa a Viena: la victòria total consolida el poder prussià i fa impossible qualsevol revenja austríaca" },
-            { "id": "B", "text": "Pau immediata i generosa: no volem un enemic permanent, volem un Àustria que no tingui motius de revenja" }
-          ],
-          "reveal": "Bismarck va aturar la guerra immediatament. Va amenaçar de dimitir si el rei no acceptava una pau generosa. Va cedir a Àustria territoris, no va exigir indemnitzacions de guerra grans i va permetre que l'Emperador Francesc Josep mantingués la dignitat. Set anys més tard, Àustria era aliada d'Alemanya — no enemiga.",
-          "analysis": "Aquesta decisió separa Bismarck de gairebé tots els seus contemporanis militars. Ell entenia que l'objectiu no era demostrar la superioritat de Prússia sinó crear les condicions per a un Segon Reich estable. Un Àustria humiliada seria un enemic permanent. Un Àustria derrotada però no humiliada podria ser un aliat. Tenia raó. Els seus successors —que el 1919 van humiliar Alemanya a Versalles— van demostrar per contrast que la generositat de Bismarck el 1866 va ser una decisió estratègica, no una debilitat."
-        },
-        {
           "type": "exercise",
           "id": "ex-bism-02-01",
           "style": "detect-error",
@@ -112,12 +124,35 @@
       "title": "L'estat del benestar com a arma política",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-bism-03-01",
+          "question": "Bismarck va ser acomiadat pel Kaiser Guillem II el 1890. Sense ell, Alemanya va cap a la Primera Guerra Mundial. Bismarck havia creat un sistema que depenia massa d'un sol home?",
+          "options": [
+            "Sí: Bismarck va construir un sistema tan personalista que ningú podia substituir-lo. Va crear una estructura de poder que requeria el seu talent específic per funcionar",
+            "No: el problema va ser la incompetència de Guillem II, no el disseny del sistema. Un Kaiser diferent hauria pogut continuar la política bismarckiana",
+            "El sistema tenia defectes estructurals i Guillem II va ser incompetent: totes dues coses van contribuir al desastre, però el problema de fons era la constitució del Reich, que donava massa poder al Kaiser"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és defensada per historiadors com A.J.P. Taylor: Bismarck va crear un sistema d'aliances tan complex que depenia del seu cervell per funcionar — i quan ell va marxar, el sistema va col·lapsar en menys de deu anys. La posició B defensa Guillem II en excés: era genuïnament impulsiu i mal assessorat. La posició C integra les dues: la Constitució del Reich de 1871 donava al Kaiser un poder enorme sense els mecanismes parlamentaris que l'equilibressin. Bismarck ho havia calculat per poder-lo controlar ell, no per crear un sistema sà. Quan Guillem II va ocupar el lloc, el sistema estava preparat per a un desastre — i Guillem II va ser el detonant perfecte."
+        },
+        {
           "type": "narrative",
           "text": "El 1883, el govern de Bismarck va introduir la primera assegurança obligatòria de malaltia del món modern. El 1884, la primera assegurança d'accidents laborals. El 1889, la primera pensió de jubilació pública. Bismarck —el junker conservador, el defensor de l'ordre aristocràtic, l'enemic del socialisme— va crear els fonaments de l'estat del benestar modern. Ho va fer exactament per les raons que les fa sospitoses: no per altruisme sinó per calcul polític pur."
         },
         {
           "type": "key-idea",
           "text": "La lògica de Bismarck era simple i cínica: si l'estat prussià donava als treballadors seguretat social, aquests treballadors no tindrien cap motiu per votar als socialistes. 'Qui té una pensió és molt més conservador que qui no en té', va dir. L'estat del benestar no va néixer de la solidaritat sinó de la por de la revolució. Paradoxalment, va resultar ser una de les institucions més duradores i valuoses de la modernitat."
+        },
+        {
+          "type": "primary-source",
+          "label": "Discurs de Bismarck al Reichstag sobre les pensions, 1881",
+          "source": "Otto von Bismarck, discurs al Parlament del Reich, novembre de 1881",
+          "text": "\"Un error de l'estat és deixar que el treballador miri cap al futur amb desesperança i por. Si la por del futur és la causa principal del descontentament, cal eliminar aquella por. L'home que té assegurada la seva vellesa és molt més fàcil de governar que el qui no té res a perdre.\"",
+          "questions": [
+            "Bismarck és completament honest sobre la seva motivació: vol que els treballadors siguin 'fàcils de governar'. Canvia això el valor de la política que proposa?",
+            "Quin argument usa Bismarck per convèncer els conservadors del Reichstag, que eren reticents a gastar en polítiques socials?",
+            "Compara aquest discurs amb el que diria avui un polític que proposa ampliar l'estat del benestar. Quines diferències hi ha en el marc argumental?"
+          ]
         },
         {
           "type": "debate",
@@ -132,29 +167,6 @@
           },
           "reflection": "Una política pot ser alhora útil per a la gent i útil per a qui la fa? L'origen d'una política determina el seu valor?",
           "context": "Avui l'estat del benestar és el fonament de les democràcies europees i cap partit mainstream el qüestiona. Que el seu inventor fos un conservador aristocràtic que l'usava com a arma contra el socialisme és una de les paradoxes més fructíferes de la historia política moderna."
-        },
-        {
-          "type": "primary-source",
-          "label": "Discurs de Bismarck al Reichstag sobre les pensions, 1881",
-          "source": "Otto von Bismarck, discurs al Parlament del Reich, novembre de 1881",
-          "text": "\"Un error de l'estat és deixar que el treballador miri cap al futur amb desesperança i por. Si la por del futur és la causa principal del descontentament, cal eliminar aquella por. L'home que té assegurada la seva vellesa és molt més fàcil de governar que el qui no té res a perdre.\"",
-          "questions": [
-            "Bismarck és completament honest sobre la seva motivació: vol que els treballadors siguin 'fàcils de governar'. Canvia això el valor de la política que proposa?",
-            "Quin argument usa Bismarck per convèncer els conservadors del Reichstag, que eren reticents a gastar en polítiques socials?",
-            "Compara aquest discurs amb el que diria avui un polític que proposa ampliar l'estat del benestar. Quines diferències hi ha en el marc argumental?"
-          ]
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-bism-03-01",
-          "question": "Bismarck va ser acomiadat pel Kaiser Guillem II el 1890. Sense ell, Alemanya va cap a la Primera Guerra Mundial. Bismarck havia creat un sistema que depenia massa d'un sol home?",
-          "options": [
-            "Sí: Bismarck va construir un sistema tan personalista que ningú podia substituir-lo. Va crear una estructura de poder que requeria el seu talent específic per funcionar",
-            "No: el problema va ser la incompetència de Guillem II, no el disseny del sistema. Un Kaiser diferent hauria pogut continuar la política bismarckiana",
-            "El sistema tenia defectes estructurals i Guillem II va ser incompetent: totes dues coses van contribuir al desastre, però el problema de fons era la constitució del Reich, que donava massa poder al Kaiser"
-          ],
-          "correct": 2,
-          "explanation": "La posició A és defensada per historiadors com A.J.P. Taylor: Bismarck va crear un sistema d'aliances tan complex que depenia del seu cervell per funcionar — i quan ell va marxar, el sistema va col·lapsar en menys de deu anys. La posició B defensa Guillem II en excés: era genuïnament impulsiu i mal assessorat. La posició C integra les dues: la Constitució del Reich de 1871 donava al Kaiser un poder enorme sense els mecanismes parlamentaris que l'equilibressin. Bismarck ho havia calculat per poder-lo controlar ell, no per crear un sistema sà. Quan Guillem II va ocupar el lloc, el sistema estava preparat per a un desastre — i Guillem II va ser el detonant perfecte."
         }
       ]
     }

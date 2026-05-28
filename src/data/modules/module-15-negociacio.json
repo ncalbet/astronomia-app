@@ -1,0 +1,433 @@
+{
+  "id": "module-15-negociacio",
+  "title": "Negociació: el que ningú t'ha explicat",
+  "emoji": "🤝",
+  "phase": 1,
+  "unlockRequires": null,
+  "lessons": [
+    {
+      "id": "neg-01",
+      "title": "Tots negociem. La majoria malament.",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hi ha una idea que bloqueja més negociacions que qualsevol tàctica incorrecta: «jo no sóc del tipus de persona que negocia».\n\nÉs falsa. I és cara.\n\nNegociar no és regatear en un mercat ni signar contractes milionaris. Negociar és qualsevol situació on hi ha interessos que no coincideixen automàticament i on el resultat depèn del que dius i com ho dius. Demanar un augment de sou. Acordar qui fa quines tasques a casa. Demanar una pròrroga. Gestionar un conflicte amb un veí. Acordar el preu d'un pis. Convèncer el teu fill que estudiï.\n\nFa quantes d'aquestes coses has evitat perquè et semblava «negociar»?"
+        },
+        {
+          "type": "key-idea",
+          "text": "La negociació no és una habilitat especialitzada per a professionals. És una competència humana universal que s'activa constantment en la vida quotidiana. La diferència entre les persones que obtenen el que volen i les que no rarament és la intel·ligència o l'educació — és si estan disposades a negociar i si saben com fer-ho."
+        },
+        {
+          "type": "misconception",
+          "belief": "Negociar és incòmode i una mica deshonest. Les persones bones accepten el que els ofereixen sense regatejar.",
+          "reality": "No negociar no és generositat — és deixar diners (i condicions, i drets) sobre la taula. L'estudi de Linda Babcock i Sara Laschever sobre sous inicials va demostrar que les persones que no negocien el primer sou perden de mitjana entre 500.000 i 1.000.000 de dòlars al llarg de la carrera, perquè tots els increments posteriors es calculen sobre aquella base. La incomoditat de no negociar la pagues tu sol. La incomoditat de negociar la compartiu tots dos.",
+          "why": "En moltes cultures, especialment per a les dones, demanar directament alguna cosa per a un mateix es percep com a agressiu o egoista. Aquella norma cultural beneficia sistemàticament als qui ja estan en posicions de poder i perjudica als qui volen millorar la seva situació."
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué les dones negocien menys — i el cost real d'això",
+          "content": "Linda Babcock i Sara Laschever van publicar el 2003 «Women Don't Ask», un dels estudis més citats sobre negociació i gènere. Els resultats van ser clars: en el mercat laboral, els homes negociaven el sou inicial vuit vegades més que les dones en condicions equivalents. Les dones que no negociaven no ho feien per manca de capacitat — ho feien per anticipar conseqüències socials negatives.\n\nI no s'equivocaven completament: estudis posteriors (Bowles, Babcock, Lai) van demostrar que les dones que negocien agressivament el sou sovint reben represàlies socials que els homes en la mateixa situació no reben. El problema no és únicament individual — és estructural.\n\nLa implicació no és «les dones haurien de negociar com els homes». És que la negociació com a pràctica social té biaixos de gènere que perjudiquen sistemàticament un grup i que les tàctiques de negociació efectives per a dones sovint han de tenir en compte el context social de forma diferent que per a homes.\n\nAixò no fa la negociació menys necessària — la fa més necessària entendre bé."
+        },
+        {
+          "type": "prediction",
+          "question": "Pensa en l'última vegada que vas acceptar alguna cosa sense negociar quan podries haver-ho fet — un preu, una condició, una petició que et va incomodar, una tasca que no t'corresponia. Quant et va costar no dir res?",
+          "hint": "No cal que sigui diners. Pot ser temps, energia, qualitat de vida o respecte."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-01-01",
+          "style": "multiple-choice",
+          "question": "Un estudi va analitzar negociadors en situació de compra d'un cotxe de segona mà. Quin factor va predir millor el resultat final obtingut pel comprador?",
+          "options": [
+            "El coneixement tècnic del comprador sobre cotxes",
+            "L'experiència prèvia en negociació del comprador",
+            "Si el comprador estava disposat a abandonar la negociació i marxar sense acord",
+            "El temps que el comprador havia dedicat a preparar arguments"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Exacte. La disposició real a marxar sense acord — no la amenaça de marxar, sinó la voluntat genuïna — és el factor individual que més consistently prediu bons resultats en negociació. Per qué? Perquè canvia fonamentalment la dinàmica: qui necessita l'acord més que l'altre té menys poder de negociació. Un comprador que pot anar a mirar un altre cotxe demà negocia en condicions molt millors que un que ha de tenir el cotxe per divendres. Aquella disposició no es pot fingir de forma convincent — s'ha de tenir de veritat, cosa que requereix preparació.",
+          "feedbackWrong": "El factor predictiu més potent és la disposició real a marxar sense acord (opció C). El coneixement tècnic i la preparació d'arguments ajuden, però el poder de negociació real ve de no necessitar l'acord més que l'altra part. Un comprador amb alternatives reals negocia des d'una posició fonamentalment diferent — i l'altra part ho percep, encara que no es digui explícitament."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-01-02",
+          "style": "true-false",
+          "question": "Les persones que negocien millor solen ser les que more naturally es posen en mode competitiu i no deixen que les emocions interfereixin en la seva estratègia.",
+          "correct": false,
+          "feedbackCorrect": "Fals. La recerca sobre negociació efectiva (Harvard Negotiation Project, Adam Grant, William Ury) mostra consistentment que els millors negociadors no són els més competitius ni els que suprimeixen les emocions. Són els que millor entenen els interessos de l'altra part, els que creen valor en lloc de simplement distribuir-lo, i els que usen les emocions (pròpies i de l'altra part) com a informació. La mentalitat competitiva pura tendeix a produir acords subòptims o ruptures que deixen valor sobre la taula.",
+          "feedbackWrong": "La recerca és clara: els negociadors de major efectivitat no són els més competitius. Són els que millor entenen els interessos de l'altra part, els que creen valor on d'altres veuen un pastís fix a repartir, i els que gestionen bé les emocions (usant-les com a informació en lloc de suprimir-les). La duresa i la supressió emocional produeixen acords pitjors, no millors."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-neg-01-01",
+          "question": "Si la disposició a marxar sense acord és el factor predictiu més important en negociació, quina hauria de ser la primera cosa que fas en preparar una negociació important?",
+          "options": [
+            "Preparar arguments sòlids per justificar la teva posició",
+            "Investigar la posició i les necessitats de l'altra part per anticipar les seves objeccions",
+            "Identificar i millorar les teves alternatives si no hi ha acord — el que negociadors professionals anomenen BATNA"
+          ],
+          "correct": 2,
+          "explanation": "El BATNA (Best Alternative To a Negotiated Agreement) és el concepte central del Harvard Negotiation Project, desenvolupat per Roger Fisher i William Ury al llibre «Getting to Yes» (1981). La idea és simple però transformadora: el teu poder de negociació no ve de la teva posició ni dels teus arguments — ve de com de bona és la teva millor alternativa si no hi ha acord. Si la teva alternativa a negociar el sou és buscar feina en una altra empresa i tens una oferta concreta, negocies des d'una posició molt diferent que si no en tens cap. El primer pas de qualsevol negociació important hauria de ser millorar activament el BATNA — no preparar arguments. Arguments sense alternatives reals darrere no produeixen poder real. Investigar l'altra part (opció B) és important, però secundari: primer consolida la teva posició de sortida."
+        }
+      ]
+    },
+    {
+      "id": "neg-02",
+      "title": "La duresa no és força",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hi ha una imatge cultural del bon negociador: fred, dur, implacable. El que no cedeix. El que fa esperar. El que amenaça amb marxar. El que aconsegueix tot el que vol.\n\nAquesta imatge ven llibres. I és majoritàriament incorrecta.\n\nLa ciència de la negociació dels darrers trenta anys ha documentat sistemàticament que les tàctiques de duresa — intimidació, presió, posicions extremes defensades agressivament — produeixen resultats pitjors en negociació que les estratègies basades en comprensió dels interessos i creació de valor. No perquè siguin «menys ètiques» — sinó perquè funcionen pitjor."
+        },
+        {
+          "type": "key-idea",
+          "text": "La negociació basada en posicions («jo vull X, tu vols Y, ens trobem al mig») deixa sistemàticament valor sobre la taula. La negociació basada en interessos («per qué vols X? per qué vull jo Y? hi ha una solució que satisfaci tots dos millor que partir la diferència?») produeix acords millors per a ambdues parts — i preserva la relació."
+        },
+        {
+          "type": "expandable",
+          "label": "La taronja: el cas que explica el 80% de la negociació",
+          "content": "Una de les il·lustracions més citades al Harvard Negotiation Project és tan simple que sembla massa:\n\nDues persones volen la mateixa taronja. N'hi ha una sola. La negociació basada en posicions diu: «partem-la». Cada un obté la meitat del que volia. Sembla just.\n\nPero si preguntes per qué la volen — els seus interessos — descobreixes que una persona vol la pell per fer un pastís i l'altra vol la polpa per fer suc. Totes dues es queden amb tot el que necessitaven. No calia partir res.\n\nAquest exemple és pedagògicament simple però representa un fenomen real i sovint ocult: en la majoria de conflictes, les posicions semblen incompatibles però els interessos no ho són. El conflicte és una construcció de la forma com s'ha plantejat el problema, no una propietat de la situació.\n\nLa pregunta que transforma una negociació és: «Per qué és important per a tu obtenir X?» Sovint la resposta revela interessos que es poden satisfer d'una manera que la posició original no havia considerat."
+        },
+        {
+          "type": "misconception",
+          "belief": "En una negociació, si l'altra part obté un bon resultat, jo n'obtinc un de pitjor. La negociació és un joc de suma zero: hi ha un guanyador i un perdedor.",
+          "reality": "La majoria de negociacions de la vida real no són de suma zero. Quan les dues parts entenen els interessos subjacents de l'altra, sovint és possible crear acords on tots dos obtenen més del que obtindrien amb un simple «partir la diferència». La clau és que les persones solen valorar les coses de forma diferent: el temps, el risc, la flexibilitat, la reputació. Acords que intercanvien coses valorades diferentment generen valor per a tots dos.",
+          "why": "El model del «pastís fix» — la creença que en tota negociació hi ha una quantitat fixa de valor a repartir — és intuïtivament plausible i sovint incorrecte. Prové de la confusió entre negociació de preu (on sí hi ha suma zero) i negociació de condicions (on rarament ho és)."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-02-01",
+          "style": "multiple-choice",
+          "question": "Estàs negociant el lloguer d'un pis. El propietari demana 1.200€/mes. El teu pressupost màxim és 1.050€. La negociació sembla bloquejada. Quin enfocament té major probabilitat de desbloquejar-la?",
+          "options": [
+            "Insistir en el teu límit i esperar que el propietari cedeixi per necessitat",
+            "Oferir 1.050€ amb un contracte de 2 anys en lloc d'1, pagament avançat de 3 mesos i compromís de no fer reclamacions per reparacions menors",
+            "Buscar un altre pis i informar el propietari que tens alternatives millors",
+            "Demanar a un intermediari que negociï en el teu nom per reduir la tensió personal"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "L'opció B aplica la negociació basada en interessos: en lloc de discutir sobre el preu (posicions), explora quins interessos té el propietari darrere del preu. Un propietari sol valorar: estabilitat (contracte llarg), seguretat (mesos avançats) i comoditat (no haver de gestionar reparacions petites). Si pots oferir valor en aquelles dimensions, pots compensar una reducció de preu. La clau és entendre que el propietari no vol simplement 1.200€ — vol seguretat, estabilitat i menys problemes. L'opció C (BATNA) seria la millor si realment tens alternatives comparables — però si no les tens, és una amenaça buida.",
+          "feedbackWrong": "L'opció B és la que aplica negociació basada en interessos. El propietari no vol simplement 1.200€ — vol estabilitat, seguretat i menys gestió. Oferir valor en aquelles dimensions pot compensar una reducció de preu. Insistir en el preu (A) és negociació de posicions pura. Amenaçar amb alternatives (C) funciona si les tens de veritat i l'altra part ho creu — però si no, és contraproduent. La mediació (D) rarament millora el resultat si el problema és estructural."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-02-02",
+          "style": "detect-error",
+          "statement": "En una negociació de sou, la millor estratègia és ser molt flexible i mostrar voluntat de compromís des del principi — això crea bona voluntat i predisposa l'altra part a ser generosa.",
+          "isCorrect": false,
+          "feedbackExplanation": "La flexibilitat prematura és un dels errors més costosos en negociació de sou. Per diverses raons: primera, les concessions precoces es perceben com a indicador que la posició inicial no era seriosa — si has cedit ràpidament, per qué l'altra part hauria de creure que el nou límit és real? Segona, la reciprocitat en negociació no funciona com la reciprocitat social ordinària: una concessió no necessàriament en genera una de l'altra part, especialment en contextos de poder asimètric. Tercera, la «bona voluntat» creada per la flexibilitat prematura sovint s'evapora quan es tracta de les clàusules concretes. El que crea bona voluntat real és comprendre els interessos de l'altra part i proposar solucions que els satisfacin — no cedir en la pròpia posició."
+        },
+        {
+          "type": "comparison",
+          "title": "Negociació posicional vs. negociació basada en interessos",
+          "labelA": "Negociació posicional",
+          "labelB": "Negociació basada en interessos",
+          "items": [
+            {
+              "label": "Pregunta central",
+              "a": "Quant cedirà l'altra part?",
+              "b": "Per qué vol l'altra part el que demana?"
+            },
+            {
+              "label": "Comportament típic",
+              "a": "Posició extrema inicial, concessions graduals, presió",
+              "b": "Exploració d'interessos, generació d'opcions, criteri objectiu"
+            },
+            {
+              "label": "Resultat típic",
+              "a": "Repartiment de la diferència; valor deixat sobre la taula",
+              "b": "Acords millors per a tots dos quan hi ha interessos compatibles"
+            },
+            {
+              "label": "Impacte en la relació",
+              "a": "Deteriora o neutralitza la relació",
+              "b": "Preserva o millora la relació"
+            },
+            {
+              "label": "Quan funciona millor",
+              "a": "Transaccions puntuals sense relació futura; preu únic",
+              "b": "Relacions continuades; múltiples variables; interessos complexos"
+            }
+          ]
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-neg-02-01",
+          "question": "Si la negociació basada en interessos és generalment superior, per qué la majoria de persones continua negociant de forma posicional?",
+          "options": [
+            "Perquè la negociació posicional és culturalment dominant i la gent no ha après l'alternativa",
+            "Perquè la negociació basada en interessos requereix revelar informació (interessos reals) que pot ser usada en contra — i el risc és real",
+            "Perquè en moltes negociacions quotidianes la posicional és igualment efectiva i requereix menys esforç cognitiu"
+          ],
+          "correct": 1,
+          "explanation": "Les tres opcions contenen veritat, però la B és la limitació estructural més important i menys discutida. La negociació basada en interessos té un problema real: per trobar solucions creatives que satisfacin els interessos de tots dos, has de revelar quins són els teus interessos — i l'altra part podria usar aquella informació estratègicament. Si dius «el que realment m'importa no és el preu sinó la data d'entrega», l'altra part sap on pots cedir en el preu i on no. En contextos de confiança alta (relació de llarg termini, negociació col·laborativa declarada), el risc és baix. En contextos de baixa confiança o relació puntual, revelar interessos és arriscat. Per això la negociació basada en interessos funciona millor quan es combina amb: establir confiança primer, revelar interessos gradualment, i verificar que l'altra part opera de bona fe. No és una tàctica universal — és una estratègia que requereix les condicions adequades."
+        }
+      ]
+    },
+    {
+      "id": "neg-03",
+      "title": "El primer número que dius canvia tot",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hi ha un consell de negociació que circula en molts cursos empresarials: «no siguis el primer a posar un número sobre la taula». La idea és que qui posa el primer número es debilita.\n\nÉs incorrecte. O almenys, és molt més complicat que això.\n\nLa psicologia cognitiva ha documentat un dels fenòmens més robusts i ben replicats de tot el comportament humà en negociació: l'efecte d'ancoratge. I entendre-l bé canvia completament com has d'actuar quan arribes a la part dels números."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'ancoratge és la tendència del cervell a usar el primer número que sent com a referència per a tots els judicis posteriors, independentment de si aquell número és rellevant o raonable. En negociació, qui posa el primer número adequat en el rang correcte obté sistemàticament millors resultats que qui espera."
+        },
+        {
+          "type": "expandable",
+          "label": "L'experiment dels jutges i la ruleta: ancoratge en condicions extremes",
+          "content": "Birte Englich i Thomas Mussweiler van fer un experiment el 2006 amb jutges alemanys professionals — no estudiants, sinó jutges amb experiència real. Llegien un cas de robatori i havien de dictaminar la pena.\n\nAntes de decidir, els feien llençar un dau trucat que donava sempre 3 o sempre 9 (els jutges no sabien que estava trucat). Després els preguntaven si la pena hauria de ser major o menor que el número del dau, i finalment quina pena dictaminarien.\n\nEl resultat: els jutges que havien tret 9 van dictar penes de mitjana 8 mesos majors que els que havien tret 3. Per un número aleatori completament irrellevant.\n\nL'ancoratge no és una debilitat dels inexperts. És un mecanisme cognitiu bàsic del cervell que opera independentment de la intel·ligència o l'experiència. Jutges professionals amb anys de pràctica eren influïts per un número d'un dau que no tenia cap relació amb el cas.\n\nImplicació directa: si vas a negociar i l'altra part posa el primer número, aquell número t'afectarà encara que sàpigues que l'ancoratge existeix."
+        },
+        {
+          "type": "misconception",
+          "belief": "Si poses una primera oferta molt alta (o molt baixa), l'altra part s'enfadarà i la negociació es trencarà. És millor posar una oferta raonable des del principi per mostrar bona fe.",
+          "reality": "Les primeres ofertes extremes (però justificades) produeixen millors resultats finals en moltes negociacions. No perquè intimidin l'altra part, sinó perquè desplacen el rang de negociació. L'error no és posar una xifra alta — és posar-la sense justificació. Una primera oferta alta amb una raó clara i creïble és molt diferent d'una primera oferta alta sense fonament.",
+          "why": "La por al rebuig social és un frè poderós. Posar una primera oferta alta se sent arriscat perquè imaginem la reacció de l'altra part. Però la recerca mostra que les persones s'adapten a l'ancoratge molt més del que s'ofenen per ell, especialment quan l'ancoratge va acompanyat d'una justificació."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-03-01",
+          "style": "multiple-choice",
+          "question": "Estàs negociant el teu sou en una nova feina. El reclutador et pregunta: «Quines són les teves expectatives salarials?». Quin és l'enfocament més efectiu basat en la recerca?",
+          "options": [
+            "Donar un rang: «Entre X i Y» per mostrar flexibilitat",
+            "Demanar primer quina és la banda salarial del lloc per no descobrir les teves cartes",
+            "Donar un número concret, lleugerament per sobre del teu objectiu real, amb una justificació breu",
+            "Dir que el sou no és la teva prioritat principal i parlar primer de les condicions del projecte"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "L'opció C aplica l'ancoratge de forma correcta. Donar un número concret (no un rang) aprofita l'efecte d'ancoratge: un número específic ancora la negociació millor que un rang, perquè el rang implica que el límit inferior és acceptable. «Lleugerament per sobre del teu objectiu» et dóna marge de negociació sense ser irreal. La justificació («basant-me en la meva experiència en X i els salaris de mercat per a rols equivalents») fa que l'ancoratge sigui creïble i legítim en lloc de semblar arbitrari. L'opció B és defensiva i comunica inseguretat. L'opció A (rang) és pitjor que un número sol: el reclutador ancora al límit inferior del rang.",
+          "feedbackWrong": "L'opció C és la més efectiva per tres raons: un número concret ancora millor que un rang (el rang comunica que el límit inferior és acceptable); «lleugerament per sobre» et dóna marge real; la justificació fa l'ancoratge creïble. Donar un rang (A) és un dels errors més comuns: el reclutador ancora al número inferior. Demanar primer (B) pot ser útil en alguns contextos, però sovint comunica inseguretat i et posa en mode reactiu."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-03-02",
+          "style": "true-false",
+          "question": "Si l'altra part posa una primera oferta extrema i irraonable, la millor resposta és ignorar-la completament i posar el teu propi número com si no hagués dit res.",
+          "correct": false,
+          "feedbackCorrect": "Fals, però la pregunta revela una tensió real. Ignorar completament un ancoratge extern és molt difícil cognitiva ment — la recerca mostra que fins i tot quan sabem que un ancoratge és irrellevant, influeix en els nostres judicis. La millor resposta a una primera oferta extrema i irraonable no és ignorar-la (difícil) ni acceptar-la com a punt de referència (perillós), sinó contrarestar-la activament: posar immediatament el teu propi ancoratge amb justificació, reformulant explícitament el rang de la negociació. «Entenc que demaneu X, però el rang de mercat per a aquest tipus d'acord és Y-Z, i la meva proposta és W per les raons següents...»",
+          "feedbackWrong": "Ignorar completament un ancoratge extern és cognitivament molt difícil — la recerca mostra que influeix en els judicis fins i tot quan sabem que és irrellevant. En lloc d'ignorar, la resposta efectiva és contrarestar activament: posar el teu propi ancoratge immediatament, amb justificació, reformulant el rang de negociació de forma explícita. Deixar que el primer número quedi en l'aire sense resposta el consolida com a referència."
+        },
+        {
+          "type": "reflection",
+          "question": "Pensa en una negociació propera que tinguis (o una que hauries d'iniciar). Si haguessis de posar el primer número, quin posaries? I amb quina justificació el definiràs?",
+          "prompt": "No cal que ho comparteixis. Però tenir un número concret i una justificació preparada és el 80% de la preparació d'una negociació de sou o preu."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-neg-03-01",
+          "question": "L'ancoratge és un dels biaixos cognitius més robusts documentats. Saber que existeix redueix el seu impacte sobre tu en negociació?",
+          "options": [
+            "Sí: la consciència del biaix és el primer pas per contrarestar-lo",
+            "No: l'ancoratge opera de forma automàtica i el coneixement intel·lectual no el neutralitza",
+            "Parcialment: la consciència de l'ancoratge ajuda a identificar-lo quan ocorre i a buscar informació independent per contrarestar-lo, però no l'elimina"
+          ],
+          "correct": 2,
+          "explanation": "La recerca de Mussweiler i Enlich sobre jutges mostra que fins i tot experts amb anys d'experiència —que suposadament haurien après a ignorar informació irrellevant— eren influïts per l'ancoratge. Però la consciència no és inútil: estudis posteriors mostren que quan les persones reben instruccions explícites de «considerar per qué l'ancoratge podria ser inapropiat» i busquen activament informació contrària a l'ancoratge, el seu efecte es redueix parcialment. La clau és que la reducció de l'ancoratge no ve de la consciència passiva («sé que existeix») sinó de l'acció activa («quina informació independent tengo per establir el valor real d'aquesta cosa?»). Per això la preparació pre-negociació —investigar preus de mercat, salaris comparables, precedents— és la millor defensa contra l'ancoratge extern: et dóna una referència pròpia que competeix amb l'ancoratge de l'altra part."
+        }
+      ]
+    },
+    {
+      "id": "neg-04",
+      "title": "Les emocions no són l'enemic",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Un dels consells de negociació més repetits és: «no et prenguis res de forma personal», «separa les emocions dels fets», «mantén el cap fred».\n\nÉs un consell que es dona de bona fe. I que, seguit literalment, produeix negociadors pitjors.\n\nLes emocions en negociació no són soroll que interromp el senyal racional. Són informació. Les teves i les de l'altra part."
+        },
+        {
+          "type": "key-idea",
+          "text": "Les emocions en negociació transmeten informació sobre interessos, límits i prioritats que les paraules no diuen. Un negociador que sap llegir les emocions de l'altra part —i gestionar les pròpies— té accés a informació que el negociador «fred i racional» ignora. Suprimir les emocions no les elimina; les treu del canal visible i les deixa operar de forma invisible."
+        },
+        {
+          "type": "expandable",
+          "label": "Quan mostrar la frustració millora el resultat: l'estudi de Gerben van Kleef",
+          "content": "Gerben van Kleef, investigador de la Universitat d'Amsterdam, va estudiar l'impacte d'expressar emocions en negociació. El resultat va sorprendre el camp: en certs contextos, expressar frustració o decepció genuïna produïa millors resultats que mantenir una postura neutral.\n\nEl mecanisme: l'emoció comunica informació sobre el valor que l'altra part dóna a l'acord. Una frustració genuïna davant d'una oferta baixa comunica «aquesta oferta no és acceptable per a mi» de forma molt més creïble que la mateixa afirmació sense emoció. Fa que l'altra part reconsideri si la seva oferta estava en el rang correcte.\n\nPerò hi ha condicions: l'emoció ha de ser proporcional i congruent amb la situació. L'ira excessiva i la frustració desproporcionada produeixen l'efecte contrari (l'altra part es defensa i s'endureix). L'emoció performativa (fingida) és detectada i contraproduent.\n\nLa implicació: no es tracta de mostrar emocions de forma estratègica i calculada (allò sol semblar fals) sinó de no suprimir les emocions genuïnes proporcionals i de tenir prou consciència emocional per saber quan expressar-les és informatiu i quan és contraproduent."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-04-01",
+          "style": "multiple-choice",
+          "question": "Estàs negociant la resolució d'un conflicte amb un veí sobre soroll. Ell es mostra irritat i culpabilitzador. Quina resposta és la més efectiva psicològicament?",
+          "options": [
+            "Respondre amb la mateixa intensitat emocional per demostrar que no et deixes intimidar",
+            "Mantenir una postura completament neutral i factual, ignorant el component emocional",
+            "Reconèixer l'emoció de l'altra part («entenc que això t'ha molestat») abans de passar als fets",
+            "Demanar que es calmi abans de continuar la conversa"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "Reconèixer l'emoció de l'altra part — sense necessàriament validar la seva posició — és la tàctica que la recerca sobre desescalada de conflictes mostra com la més efectiva. Per qué? Perquè les persones en estat emocional intensificat estan parcialment «bloquejades» en aquell estat: necessiten sentir-se escoltades abans de poder processar arguments racionals. El reconeixement («entenc que estàs frustrat per la situació») no és una concessió en la posició — és una concessió emocional que obre l'espai per a la conversa racional. Les opcions A i D escalden el conflicte. L'opció B ignora el component emocional que en aquell moment és la barrera real per avançar.",
+          "feedbackWrong": "Reconèixer l'emoció de l'altra part (C) és la resposta més efectiva perquè desbloqueja el canal de comunicació. Les persones en estat emocional intens no processen arguments racionals fins que se senten escoltades. El reconeixement no és una concessió en la posició — és una acció que obre l'espai per a la negociació real. Respondre amb la mateixa intensitat (A) escala. La neutralitat freda (B) tendeix a augmentar la frustració de l'altra part. Demanar-li que es calmi (D) sovint és percebut com a condescendent."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-04-02",
+          "style": "detect-error",
+          "statement": "En negociació, l'empatia és una tàctica útil per manipular l'altra part: si fas que se senti comprès, baixarà la guàrdia i cediré més fàcilment.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació confon empatia tàctica (fingida, instrumental) amb empatia genuïna, i el resultat de les dues és molt diferent. L'empatia tàctica com a manipulació és generalment detectada: les persones som raonablement bones identificant quan algú finge escoltar-nos per obtenir alguna cosa. Quan es detecta, produeix l'efecte contrari: desconfiança i enduriment. L'empatia genuïna en negociació funciona no perquè «baixa la guàrdia» de l'altra part en el sentit d'enganyar-la, sinó perquè crea les condicions per a un intercanvi d'informació honest sobre interessos reals — que és exactament el que permet trobar solucions millors per a tots dos. La distinció importa: la manipulació emocional en negociació és un joc de curta durada que destrueix relacions i reputació."
+        },
+        {
+          "type": "quote",
+          "text": "La negociació no és un acte de combat. És un acte de descoberta conjunta.",
+          "author": "William Ury, Getting to Yes"
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-neg-04-01",
+          "question": "Si les emocions transmeten informació valuosa en negociació, per qué els manuals de negociació tradicionals insisteixen tant en suprimir-les?",
+          "options": [
+            "Perquè els manuals tradicionals reflecteixen la cultura corporativa dels anys 80, que valorava la masculinitat estoica com a ideal professional",
+            "Perquè en negociacions de gran escala o molt formalitzades, les emocions sí introdueixen risc de decisions subòptimes",
+            "Perquè hi ha una distinció important entre gestionar les emocions (no deixar que t'impulsin a decisions precipitades) i suprimir-les (no expressar-les ni llegir-les) — i els manuals confonen les dues coses"
+          ],
+          "correct": 2,
+          "explanation": "Les tres opcions contenen veritat, però la C descriu la confusió conceptual fonamental. «Mantén les emocions fora de la negociació» és un consell mal formulat d'un consell correcte: «no prenguis decisions precipitades impulsades per emocions d'alta intensitat». Gestionar les emocions (reconèixer-les, no actuar-hi impulsivament, usar-les com a informació) és una habilitat de negociació avançada. Suprimir-les (no expressar-les, ignorar les de l'altra part) deixa informació valuosa sobre la taula i sovint produeix acumulació emocional que acaba explotant de forma desproporcionada. L'opció A té base empírica (la recerca sobre lideratge mostra biaixos de gènere en la valoració de les emocions professionals) però és una causa parcial. L'opció B és parcialment certa però no justifica el consell general de supressió — fins i tot en negociacions formals, les emocions transmeten informació rellevant."
+        }
+      ]
+    },
+    {
+      "id": "neg-05",
+      "title": "Demana més del que creus que obtindràs",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Si haguessis de demanar un augment de sou ara mateix, quin número posaries sobre la taula?\n\nMoltes persones calculen el que creuen que és raonable, o el que creuen que els poden donar, i demanen aquell número. I és exactament el que no han de fer.\n\nAquesta lliçó és sobre el cost psicològic d'infravalorar-te en una negociació — i per qué és molt més gran del que imagines."
+        },
+        {
+          "type": "key-idea",
+          "text": "Demanar menys del que et mereixes no és humiltat ni estratègia — és una cessió gratuïta. La «zona d'acord possible» (ZOPA) en qualsevol negociació és el rang entre el mínim acceptable de l'una part i el màxim acceptable de l'altra. Si no saps on és el límit de l'altra part, demanar poc simplement desplaça l'acord final cap al seu extrem, sense que tu hagis obtingut cap avantatge a canvi."
+        },
+        {
+          "type": "expandable",
+          "label": "La maledicció del primer sou: per qué el que demanes avui et segueix durant una dècada",
+          "content": "Linda Babcock va documentar amb precisió el mecanisme per qual no negociar el primer sou té un impacte acumulat enorme:\n\nSuposa que dos professionals comencen la mateixa feina. L'Anna accepta l'oferta inicial de 40.000€. En Marc negocia i arriba a 43.000€. Un increment d'increment anual del 3% al llarg de 10 anys:\n\n- Any 1: diferència de 3.000€\n- Any 5: diferència acumulada de ~16.000€\n- Any 10: diferència acumulada de ~35.000€\n\nI si canvien d'empresa al cap de 5 anys, el sou de referència del qual parteixen per negociar és diferent — multiplicant la diferència.\n\nEl «cost d'oportunitat de no negociar» és real, acumulatiu i moltes vegades invisible perquè mai no es compara amb l'alternativa contrafàctica.\n\nBabcock va estimar que, al llarg d'una carrera, la diferència entre negociar i no negociar el primer sou pot ser d'entre 500.000 i 1.000.000 de dòlars en economia nord-americana. Fins i tot en economies amb menys marge de negociació salarial, la magnitud és significativa."
+        },
+        {
+          "type": "misconception",
+          "belief": "Si demanes massa, l'altra part s'ofendrà i perdràs l'oportunitat. És millor demanar una quantitat raonable per no semblar excessiu o arrogant.",
+          "reality": "La por a «demanar massa» rarament es materialitza en les formes que imaginem. La recerca mostra que les primeres ofertes altes (dins d'un rang creïble) no solen fer que l'altra part abandoni la negociació — simplement ancoren la conversa en un punt diferent. El que sí fa que l'altra part abandoni és una primera oferta percebuda com a de mala fe (un número completament irreal sense cap justificació). Un número alt amb una justificació és molt diferent d'un número alt sense justificació.",
+          "why": "El cervell sobreestima la probabilitat i la severitat de les reaccions negatives dels altres (el fenomen de «spotlight effect» o efecte focus: creiem que els altres ens presten més atenció i recorden més les nostres accions del que realment fan). Aquella sobreestimació produeix inhibició en situacions de petició."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-05-01",
+          "style": "multiple-choice",
+          "question": "Tens 5 anys d'experiència i estàs negociant un sou per a un nou lloc. El rang de mercat per al rol és 45.000-60.000€. El teu sou actual és 47.000€. Quin és l'enfocament més efectiu per a la primera oferta?",
+          "options": [
+            "Demanar 50.000€ — lleugerament per sobre del teu sou actual i en el rang de mercat",
+            "Demanar 58.000-60.000€ amb justificació basada en el teu perfil i el rang de mercat",
+            "Demanar 65.000€ per tenir molt marge de negociació",
+            "Demanar 52.000€ per semblar raonable i fàcil de tractar"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "L'opció B és la correcta. El rang de mercat és 45.000-60.000€, el que significa que demanar 58.000-60.000€ és legítim i justificable — no és una demanda irreal. Demanar al límit superior del rang de mercat amb justificació («el meu perfil encaixa amb el segment superior del rang per les raons X i Y») ancores la negociació en aquell punt, donant-te marge per acabar en 54.000-56.000€ — molt per sobre del que obtindries si comencessis per 50.000€. L'opció A (just per sobre del sou actual) és el «sou actual + una mica» que rarament optimitza la posició. L'opció C (65.000€) és fora del rang de mercat i se sentirà com a de mala fe sense una justificació molt sòlida.",
+          "feedbackWrong": "L'opció B és la millor. Si el rang de mercat és 45.000-60.000€, demanar 58.000-60.000€ és una primera oferta legítima i justificable, no una demanda irreal. Et dóna marge per acabar en 54.000-56.000€ — molt millor que partir de 50.000€ i acabar en 48.000€. La clau és la justificació: per qué mereixes el segment superior del rang (experiència específica, habilitats rellevants, demanda de mercat). Demanar just per sobre del sou actual (A) és l'error clàssic: el punt de partida equivocat."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-05-02",
+          "style": "true-false",
+          "question": "Si l'empresa no pot pagar el sou que demanes, és millor acceptar el que ofereixen i demostrar el teu valor un cop dins per negociar un augment més endavant.",
+          "correct": false,
+          "feedbackCorrect": "Fals com a estratègia general — i la investigació sobre dinàmiques de sou mostra per qué. Primera: un cop acceptes un sou baix, quedes «ancortat» a aquell punt de partida. Els increments futurs es calculen en percentatge sobre la base, el que fa molt difícil recuperar terreny. Segona: la promesa informal d'«un augment un cop demostri el meu valor» rarament es materialitza en els termes imaginats — no perquè l'empresa actuï de mala fe, sinó perquè el que «demostrar valor» vol dir és imprecís i subjectiu. Tercera: si el problema és que l'empresa no pot pagar el sou demanat, hi ha alternatives a acceptar el sou baix: negociar variables no salarials (dies de vacances, teletreball, revisió als 6 mesos, bons), o buscar alternatives que millorin el BATNA.",
+          "feedbackWrong": "L'estratègia de «demostrar valor primer» tendeix a funcionar pitjor del que sembla. El sou inicial ancora tots els increments futurs. I la promesa d'augment futur és imprecisa: quan i quant? Si l'empresa no pot pagar el sou, les alternatives no es limiten a acceptar o rebutjar — existeix la negociació de variables no salarials (flexibilitat, vacances, bons, revisió als 6 mesos) o la millora del BATNA (obtenir una altra oferta que canviï la conversa)."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-neg-05-01",
+          "question": "La recerca mostra que les persones sistemàticament infravaloren el que poden demanar. Quina és la causa cognitiva principal d'aquest patró?",
+          "options": [
+            "El biaix d'humilitat: les persones s'infravaloren respecte als seus companys per excés de modèstia cultural",
+            "L'aversió a la pèrdua: el risc percebut de perdre l'oportunitat pesa més que el benefici potencial de demanar més",
+            "El biaix de punt de referència: les persones usen el seu sou actual o l'oferta inicial com a punt de referència, en lloc del valor de mercat real del seu perfil"
+          ],
+          "correct": 1,
+          "explanation": "Totes tres causes operen, però l'aversió a la pèrdua (Kahneman i Tversky) és el mecanisme cognitiu que explica millor el patró sistemàtic. L'aversió a la pèrdua descriu com les pèrdues pesen psicològicament el doble dels guanys equivalents. En el context de la negociació salarial: el risc de «perdre» l'oferta actual si demanes massa és molt més present i dolorós psicològicament que el benefici potencial de guanyar 5.000€ més. El resultat és una asimetria: la por a la pèrdua inhibeix la demanda, independentment del càlcul racional. El biaix de punt de referència (C) és un efecte real però secundari — és una conseqüència de l'ancoratge més que una causa independent. El biaix d'humiltat (A) té component cultural real però no explica el patró en contextos on la humiltat no es valora especialment."
+        }
+      ]
+    },
+    {
+      "id": "neg-06",
+      "title": "Saber quan marxar és saber negociar",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hem après a preparar-nos, a no ser posicionals, a ancorar bé, a llegir les emocions i a demanar el que mereixem.\n\nL'última habilitat és la que molts cursos de negociació s'obliden d'ensenyar: saber quan la negociació no val la pena. Quan no has d'arribar a un acord. Quan marxar és el millor que pots fer.\n\nNegociar bé no és tancar tots els tractes. És tancar els bons tractes i no tancar els dolents."
+        },
+        {
+          "type": "key-idea",
+          "text": "El BATNA (Best Alternative To a Negotiated Agreement) no és únicament una tàctica de pressió — és el criteri que determina si has d'acceptar un acord. Si l'acord que t'ofereixen és pitjor que la teva millor alternativa, no has d'acceptar-lo. Conèixer i millorar el teu BATNA és la habilitat de negociació més important i la menys practicada."
+        },
+        {
+          "type": "expandable",
+          "label": "L'escultura de Rodin i el poder d'una alternativa real",
+          "content": "William Ury explica un cas real que il·lustra el poder transformador del BATNA:\n\nUna galerista negociava la compra d'una escultura important. El venedor demanava un preu que ella considerava excessiu. La negociació s'havia allargat setmanes i ella sentia la pressió de tancar.\n\nUry li va preguntar: «Quin és el teu BATNA si no tanques?». Ella no n'havia pensat. Ury li va dir: «Treballa el teu BATNA primer».\n\nLa galerista va contactar tres altres galeries que podien estar interessades en l'escultura com a préstec per a una exposició — no una venda, però una alternativa de valor real. Quan va tornar a la negociació, la dinàmica era completament diferent. No perquè hagués amenaçat amb marxar — sinó perquè havia deixat de necessitar l'acord de la mateixa manera. L'altra part ho va percebre sense que es digués res.\n\nL'escultura es va vendre a un preu significativament millor.\n\nEl BATNA no és una amenaça que fas servir en la negociació. És una situació que construeixes abans, per no necessitar l'acord de qualsevol forma."
+        },
+        {
+          "type": "misconception",
+          "belief": "Arribar a un acord sempre és millor que no arribar-hi. Si marxes sense acord, has perdut la negociació.",
+          "reality": "Un acord dolent és pitjor que no acord. Acceptar condicions per sota del teu BATNA et deixa en pitjor situació que no haver negociat. La pressió psicosocial de «tancar» — sentir que has fracassat si marxes sense res — fa que moltes persones acceptin acords que no haurien d'acceptar mai. La negociació no és un esport on l'objectiu és tancar: és un procés on l'objectiu és millorar la teva situació respecte a les alternatives.",
+          "why": "La pressió de «no tornar amb les mans buides» és molt real, especialment en negociacions de feina o de relació. Els costos emocionals de percebre's com a fracassat en una negociació activen l'aversió a la pèrdua i el desig de tancament cognitiu — dos biaixos que empunten cap a acceptar acords dolents."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-06-01",
+          "style": "multiple-choice",
+          "question": "Tens una oferta de feina que t'interessa però el sou és un 15% per sota del teu objectiu. T'agraden el projecte i l'equip. L'empresa diu que no pot pujar més. Quin és el primer pas del teu BATNA?",
+          "options": [
+            "Acceptar l'oferta i demanar una revisió als 6 mesos per escrit",
+            "Rebutjar l'oferta i continuar buscant",
+            "Identificar quines alternatives reals tens ara mateix i evaluar si alguna d'elles és comparable o millor",
+            "Negociar variables no salarials (dies de vacances, teletreball, formació pagada) per compensar la diferència"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "El primer pas és sempre clarificar el BATNA actual — no prendre una decisió sense saber quines alternatives tens. «Continuar buscant» (B) pot ser el BATNA correcte, però primer cal saber quant de temps portaria trobar alguna cosa comparable i si tens recursos per suportar aquell període. «Acceptar i negociar revisió» (A) és una opció si el BATNA és dolent (no tens res millor a curt termini). Negociar variables no salarials (D) és una bona estratègia paral·lela, però no resol la pregunta fonamental: és aquesta oferta millor o pitjor que les meves alternatives reals?",
+          "feedbackWrong": "El primer pas no és decidir (acceptar o rebutjar) ni negociar variables — és clarificar quines alternatives reals tens. El BATNA és el criteri de decisió: si les teves alternatives actuals (altres ofertes, tornar a buscar, quedar-te on ets) són pitjors que aquesta oferta amb el sou reduït, l'oferta és millor que el BATNA i hauries de considerar-la seriosament. Si les teves alternatives son comparables o millors, tens poder de negociació real o la llibertat de rebutjar."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-neg-06-02",
+          "style": "detect-error",
+          "statement": "Per tenir un bon BATNA cal tenir alternatives molt atractives. Si no tens ofertes de feina alternatives o opcions equivalents, no tens BATNA i no pots negociar des d'una posició de força.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació confon «tenir un bon BATNA» amb «tenir un BATNA». Tothom sempre té un BATNA — fins i tot si és «no fer res» o «continuar en la situació actual». El BATNA no és una alternativa atractiva que ja tens: és el que faries si la negociació no arriba a acord. Pot ser dolent (tornar a buscar feina des de zero en un mercat difícil) o bo (una oferta concurrent d'una altra empresa). La clau és conèixer-lo amb precisió i, quan és possible, millorar-lo activament. Fins i tot un BATNA feble és millor que no saber quin és el teu BATNA — perquè conèixer-lo t'evita acceptar condicions pitjors que les teves alternatives."
+        },
+        {
+          "type": "debate",
+          "question": "Negociar bé avantaja sistemàticament als qui ja estan en posicions de poder: els qui tenen més alternatives, més informació i menys necessitat de l'acord. És la negociació, com a pràctica, intrínsecament injusta?",
+          "positionA": {
+            "label": "Sí — la negociació reprodueix les desigualtats",
+            "argument": "Les habilitats de negociació no es distribueixen uniformement — es correlacionen amb l'educació, la classe social i l'accés a xarxes de suport. Les persones amb menys recursos tenen BATNAs més febles, menys informació sobre els valors de mercat i menys capital social per gestionar les conseqüències d'una negociació fallida. Ensenyar negociació individual sense canviar les estructures és com ensenyar natació als pobres mentre els rics tenen piscines privades."
+          },
+          "positionB": {
+            "label": "No — la negociació és una habilitat democratitzable",
+            "argument": "La negociació és una competència que es pot aprendre i que beneficia especialment als que parteixen de posicions més febles: els qui no negocien perden de forma sistemàtica davant dels qui sí ho fan. Democratitzar les habilitats de negociació — exactament el que fan els programes de formació en comunitats desfavorides — és una eina d'equitat, no de reproducció de la desigualtat."
+          },
+          "reflection": "Les dues postures poden ser simultàniament certes. Com pots reconciliar-les?",
+          "context": "Alguns programes de justícia social (empowerment de treballadors, formació sindical, clíniques de negociació per a inquilins) intenten exactament el que proposa la postura B: ensenyar negociació a qui menys l'ha après. La recerca sobre l'efectivitat d'aquests programes és incipient però prometedora."
+        },
+        {
+          "type": "reflection",
+          "question": "Pensa en la negociació que tens pendent — o la que hauràs d'afrontar aviat. Ara que has acabat el mòdul: quin és el teu BATNA? Quin número aniràs a demanar i amb quina justificació? I quina és la línia per sota de la qual marxes?",
+          "prompt": "Tenir resposta a les tres preguntes és tot el que necessites per entrar a la majoria de negociacions de la vida quotidiana."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-neg-06-01",
+          "question": "Al llarg d'aquest mòdul hem vist que la negociació efectiva requereix: conèixer el BATNA, ancorar bé, entendre interessos, gestionar emocions i demanar el que mereixes. Quina d'aquestes habilitats té major impacte si en domines una sola?",
+          "options": [
+            "Ancorar bé: el primer número determina el rang de tota la negociació",
+            "Conèixer i millorar el BATNA: sense alternatives reals, totes les altres habilitats operen en condicions de feblesa estructural",
+            "Entendre els interessos de l'altra part: la majoria d'acords mediocres es produeixen per no entendre el que l'altra part realment necessita"
+          ],
+          "correct": 1,
+          "explanation": "Totes tres habilitats són importants, però el BATNA és la base estructural de la qual depèn l'efectivitat de totes les altres. Raó: pots ancorar excel·lentment, però si necessites desesperadament l'acord, l'altra part ho detectarà i el teu ancoratge perdrà efectivitat. Pots entendre perfectament els interessos de l'altra part, però sense alternatives reals no tens el poder de dir «no» a una solució que no satisfà prou els teus. El BATNA és el que converteix les altres habilitats en poder real. Sense BATNA, ets un bon negociador en una posició feble. Amb BATNA fort, fins i tot un negociador mediocre obté resultats acceptables perquè pot marxar. La implicació pràctica: si tens poc temps per preparar una negociació important, inverteix-lo a millorar el BATNA — no a preparar arguments. Aconsegueix aquella altra oferta. Explora aquella alternativa. Parla amb aquella altra persona. El poder de negociació es construeix abans de la negociació, no durant."
+        }
+      ]
+    }
+  ]
+}

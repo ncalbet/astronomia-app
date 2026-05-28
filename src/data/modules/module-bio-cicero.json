@@ -10,6 +10,18 @@
       "title": "L'homo novus: de les províncies al Senat",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-cic-01-01",
+          "question": "Ciceró va basar tota la seva carrera en la retòrica —l'art de persuadir. En una democràcia o república, la capacitat de parlar bé és un avantatge legítim o una distorsió del procés polític?",
+          "options": [
+            "És un avantatge legítim: en un sistema on les decisions es prenen per deliberació pública, la capacitat de formular arguments clars i persuasius és exactament el que el sistema necessita",
+            "És una distorsió: la retòrica permet guanyar debats independentment de qui tingui raó. El millor orador pot derrotar el millor argument, cosa que subverteix la recerca de la veritat",
+            "Depèn de com s'usa: la retòrica que il·lumina i clarifica afavoreix el debat democràtic; la retòrica que manipula les emocions i distorsiona els fets el subverteix. Ciceró va usar ambdues"
+          ],
+          "correct": 2,
+          "explanation": "El debat sobre la retòrica en la política democràtica és tan antic com la pròpia Atenes. Plató la considerava perillosa —permet guanyar debats sense tenir raó. Aristòtil la considerava legítima —és l'art d'identificar els elements persuasius de qualsevol situació. Ciceró era el millor exemple dels dos costats: les seves Verrines i les Catilinàries son actes de clarificació extraordinària que van beneficiar la justícia i la República. Però els seus discursos Pro Milone (on va defensar un homicida confés) i alguns dels seus atacs personals son exemples de retòrica al servei de clients, no de la veritat. La paradoxa de Ciceró és que va teoritzar la retòrica com a servei a la República —i la va usar de les dues maneres."
+        },
+        {
           "type": "quote",
           "text": "O tempora, o mores!",
           "author": "Ciceró, Primera Catilinària (63 aC)"
@@ -48,18 +60,6 @@
           "correct": 2,
           "feedbackCorrect": "Exacte. En la Roma republicana, la noblesa política era hereditària: si el teu pare o avi havia estat cònsol, eres noble. Un 'homo novus' era el primer de la seva família a aconseguir un càrrec major —especialment el consolat. Era molt rar i molt difícil perquè el sistema electoral romà afavoria les famílies establertes amb xarxes de clients. Ciceró va aconseguir el consolat —el màxim càrrec— sense avantpassats senatoris, per la sola força del seu talent retòric i la seva reputació com a advocat.",
           "feedbackWrong": "Homo novus significava literalment 'home nou' en el sentit de la noblesa política: el primer de la seva família a accedir als càrrecs superiors. No tenia a veure amb l'edat ni amb l'origen geogràfic. Ciceró era d'Arpinum (no de Roma), però el que el feia 'homo novus' era que cap avantpassat seu havia estat cònsol o pretor."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-cic-01-01",
-          "question": "Ciceró va basar tota la seva carrera en la retòrica —l'art de persuadir. En una democràcia o república, la capacitat de parlar bé és un avantatge legítim o una distorsió del procés polític?",
-          "options": [
-            "És un avantatge legítim: en un sistema on les decisions es prenen per deliberació pública, la capacitat de formular arguments clars i persuasius és exactament el que el sistema necessita",
-            "És una distorsió: la retòrica permet guanyar debats independentment de qui tingui raó. El millor orador pot derrotar el millor argument, cosa que subverteix la recerca de la veritat",
-            "Depèn de com s'usa: la retòrica que il·lumina i clarifica afavoreix el debat democràtic; la retòrica que manipula les emocions i distorsiona els fets el subverteix. Ciceró va usar ambdues"
-          ],
-          "correct": 2,
-          "explanation": "El debat sobre la retòrica en la política democràtica és tan antic com la pròpia Atenes. Plató la considerava perillosa —permet guanyar debats sense tenir raó. Aristòtil la considerava legítima —és l'art d'identificar els elements persuasius de qualsevol situació. Ciceró era el millor exemple dels dos costats: les seves Verrines i les Catilinàries son actes de clarificació extraordinària que van beneficiar la justícia i la República. Però els seus discursos Pro Milone (on va defensar un homicida confés) i alguns dels seus atacs personals son exemples de retòrica al servei de clients, no de la veritat. La paradoxa de Ciceró és que va teoritzar la retòrica com a servei a la República —i la va usar de les dues maneres."
         }
       ]
     },
@@ -67,6 +67,32 @@
       "id": "cic-02",
       "title": "El cònsol i Catilina: la paraula que va salvar Roma",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "character": "Ciceró",
+          "emoji": "📜",
+          "year": "Desembre del 63 aC",
+          "setup": "Has arrestat els cinc principals conspiradors de la conjura de Catilina. Tens les seves cartes, les seves confessions davant del Senat. El Senat debat qué fer-ne. Cèsar —el polític més hàbil de Roma— ha fet un discurs brillant: executar-los sense judici és il·legal; la República no pot salvar-se violant les seves pròpies lleis. Cató ha respost exigint l'execució immediata per raons d'estat. Ets el cònsol. La decisió és teva. Si els portes a judici, el procés pot durar mesos i els seus aliats poden alliberar-los. Si els executes ara, la conspiració acaba —però has executat ciutadans romans sense judici, cosa que la llei prohibeix explícitament.",
+          "dilemma": "Executes els conspiradors immediatament sense judici, usant el senatus consultum ultimum? O insistes en un procés legal malgrat els riscos?",
+          "options": [
+            { "id": "A", "text": "Execució immediata: el perill és real i imminent. La República no sobreviurà un procés legal de mesos amb els seus enemics dins" },
+            { "id": "B", "text": "Procés legal: Cèsar té raó. Si violem la llei per salvar la República, hem destruït la República que volem salvar" }
+          ],
+          "reveal": "Ciceró va triar l'execució immediata. Els conspiradors van ser estrangulats al Tul·lià, la presó de Roma, aquella mateixa nit. El poble el va aclamar. Cinc anys després, el seu enemic Clodi Pulcre va usar aquella execució —'has matat ciutadans romans sense judici'— per aconseguir el seu exili. Ciceró va haver de marxar de Roma i va plorar tot el camí fins a Grècia. Li van confiscar les cases. Va tornar un any després, però mai va recuperar la plenitud del poder.",
+          "analysis": "L'execució dels conspiradors de Catilina és el cas clàssic del dilema entre la legalitat i la necessitat d'estat. Cèsar tenia raó en el principi: una república que viola les seves pròpies lleis per salvar-se ha perdut quelcom fonamental. Ciceró tenia raó en la urgència: la conspiració era real i el procés legal era arriscat. Però la lliçó de la seva vida és que la decisió que el va fer famós ('Pater Patriae') va ser també la que el va condemnar. El poder que va obtenir executant els conspiradors va ser el mateix que els seus enemics van usar per destruir-lo."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-cic-02-01",
+          "question": "Ciceró va executar els conspiradors de Catilina sense judici per salvar la República. Però la República va caure de totes maneres, dinou anys després. Va cometre un error que va debilitar les bases legals del sistema que volia defensar?",
+          "options": [
+            "Sí: al violar la llei per salvar-la, va demostrar que la llei era secundària a la necessitat d'estat —un precedent que Cèsar, August i tots els dictadors posteriors van explotar",
+            "No: la conspiració de Catilina era una amenaça real i immediata. Les repúbliques que no es defensen amb decisió no sobreviuen. La legalitat és un instrument, no un fi",
+            "La caiguda de la República va tenir causes molt més profundes que la decisió de Ciceró. Però el precedent que va establir —que en situació d'emergència el cònsol pot suspendre les garanties legals— va ser usat per actors posteriors per a fins molt menys defensables"
+          ],
+          "correct": 2,
+          "explanation": "La pregunta sobre si Ciceró va debilitar la República que volia salvar és un debat que dura dos mil anys. La posició A (que va establir un precedent perillós) té suport en el fet que Cèsar, el propi Ciceró en el futur i finalment August van invocar la necessitat d'estat per justificar mesures excepcionals. Però la posició B té raó en un aspecte: la conspiració de Catilina era real, els conspiradors tenien exèrcit i plans concrets, i un procés legal de mesos era genuïnament arriscat. La posició C és la més equilibrada: la decisió de Ciceró no va causar la caiguda de la República, però el precedent que va establir va ser explotat per actors amb molt menys escrúpols. La mateixa corda que va usar per salvar-se va ser la que els seus enemics van usar per penjarlo."
+        },
         {
           "type": "narrative",
           "text": "El 63 aC, l'any del consolat de Ciceró, Luci Sèrgi Catilina —patricí arruïnat, dues vegades derrotat en les eleccions consulars, endeutat fins al coll— va organitzar una conspiració per derrocar la República: assassinar els cònsols, cremar Roma, cancel·lar els deutes. Ciceró tenia informadors dins de la conspiració, inclosa Fúlvia, una dama noble que era amant d'un conspirador. Quan la conspiració va quedar prou documentada, va convocar el Senat. El 8 de novembre del 63 aC, Catilina va entrar al Senat esperant que res es sabés. Ciceró va prendre la paraula i va adreçar-se directament a ell: 'Quousque tandem abutere, Catilina, patientia nostra?' —'Fins quan, Catilina, abusaràs de la nostra paciència?' Catilina va sortir de Roma aquella mateixa nit per unir-se al seu exèrcit a Etrúria. Els conspiradors que es van quedar a Roma van cometre l'error de posar les seves instruccions per escrit. Ciceró va aconseguir les cartes, les va presentar al Senat i va arrestar els principals conspiradors. El debat al Senat sobre qué fer-ne va ser historic: Juli Cèsar va argumentar per la presó i la confiscació de béns —executar-los sense judici era il·legal i creava un precedent perillós. Cató va exigir l'execució immediata. Ciceró, cònsol, va prendre la decisió: execució. Sense judici. Amb el senatus consultum ultimum —una mesura d'emergència republicana. El poble de Roma el va aclamar com a Pater Patriae, Pare de la Pàtria. Era el zenit de la seva vida política. I la decisió que el condemnaria."
@@ -83,38 +109,12 @@
           ]
         },
         {
-          "type": "what-would-you-do",
-          "character": "Ciceró",
-          "emoji": "📜",
-          "year": "Desembre del 63 aC",
-          "setup": "Has arrestat els cinc principals conspiradors de la conjura de Catilina. Tens les seves cartes, les seves confessions davant del Senat. El Senat debat qué fer-ne. Cèsar —el polític més hàbil de Roma— ha fet un discurs brillant: executar-los sense judici és il·legal; la República no pot salvar-se violant les seves pròpies lleis. Cató ha respost exigint l'execució immediata per raons d'estat. Ets el cònsol. La decisió és teva. Si els portes a judici, el procés pot durar mesos i els seus aliats poden alliberar-los. Si els executes ara, la conspiració acaba —però has executat ciutadans romans sense judici, cosa que la llei prohibeix explícitament.",
-          "dilemma": "Executes els conspiradors immediatament sense judici, usant el senatus consultum ultimum? O insistes en un procés legal malgrat els riscos?",
-          "options": [
-            { "id": "A", "text": "Execució immediata: el perill és real i imminent. La República no sobreviurà un procés legal de mesos amb els seus enemics dins" },
-            { "id": "B", "text": "Procés legal: Cèsar té raó. Si violem la llei per salvar la República, hem destruït la República que volem salvar" }
-          ],
-          "reveal": "Ciceró va triar l'execució immediata. Els conspiradors van ser estrangulats al Tul·lià, la presó de Roma, aquella mateixa nit. El poble el va aclamar. Cinc anys després, el seu enemic Clodi Pulcre va usar aquella execució —'has matat ciutadans romans sense judici'— per aconseguir el seu exili. Ciceró va haver de marxar de Roma i va plorar tot el camí fins a Grècia. Li van confiscar les cases. Va tornar un any després, però mai va recuperar la plenitud del poder.",
-          "analysis": "L'execució dels conspiradors de Catilina és el cas clàssic del dilema entre la legalitat i la necessitat d'estat. Cèsar tenia raó en el principi: una república que viola les seves pròpies lleis per salvar-se ha perdut quelcom fonamental. Ciceró tenia raó en la urgència: la conspiració era real i el procés legal era arriscat. Però la lliçó de la seva vida és que la decisió que el va fer famós ('Pater Patriae') va ser també la que el va condemnar. El poder que va obtenir executant els conspiradors va ser el mateix que els seus enemics van usar per destruir-lo."
-        },
-        {
           "type": "exercise",
           "id": "ex-cic-02-01",
           "style": "detect-error",
           "statement": "Durant el debat al Senat sobre el destí dels conspiradors de Catilina, Juli Cèsar va defensar l'execució immediata com la resposta més contundent a la traïció, mentre que Cató argumentava per la presó i la confiscació de béns.",
           "isCorrect": false,
           "feedbackExplanation": "Les posicions estan invertides. Va ser Cèsar qui va argumentar contra l'execució immediata —no perquè simpatitzés amb els conspiradors, sinó perquè executar ciutadans romans sense judici era il·legal i creava un precedent perillós per a la República. Va proposar presó perpètua i confiscació de béns. Va ser Cató el Jove qui va exigir l'execució immediata, argumentant que el perill per a la República justificava mesures excepcionals. El discurs de Cèsar va influir inicialment en el Senat; la resposta contundent de Cató va inclinar la balança cap a l'execució, i Ciceró, cònsol, va prendre la decisió final."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-cic-02-01",
-          "question": "Ciceró va executar els conspiradors de Catilina sense judici per salvar la República. Però la República va caure de totes maneres, dinou anys després. Va cometre un error que va debilitar les bases legals del sistema que volia defensar?",
-          "options": [
-            "Sí: al violar la llei per salvar-la, va demostrar que la llei era secundària a la necessitat d'estat —un precedent que Cèsar, August i tots els dictadors posteriors van explotar",
-            "No: la conspiració de Catilina era una amenaça real i immediata. Les repúbliques que no es defensen amb decisió no sobreviuen. La legalitat és un instrument, no un fi",
-            "La caiguda de la República va tenir causes molt més profundes que la decisió de Ciceró. Però el precedent que va establir —que en situació d'emergència el cònsol pot suspendre les garanties legals— va ser usat per actors posteriors per a fins molt menys defensables"
-          ],
-          "correct": 2,
-          "explanation": "La pregunta sobre si Ciceró va debilitar la República que volia salvar és un debat que dura dos mil anys. La posició A (que va establir un precedent perillós) té suport en el fet que Cèsar, el propi Ciceró en el futur i finalment August van invocar la necessitat d'estat per justificar mesures excepcionals. Però la posició B té raó en un aspecte: la conspiració de Catilina era real, els conspiradors tenien exèrcit i plans concrets, i un procés legal de mesos era genuïnament arriscat. La posició C és la més equilibrada: la decisió de Ciceró no va causar la caiguda de la República, però el precedent que va establir va ser explotat per actors amb molt menys escrúpols. La mateixa corda que va usar per salvar-se va ser la que els seus enemics van usar per penjarlo."
         }
       ]
     },
@@ -122,6 +122,18 @@
       "id": "cic-03",
       "title": "Les Filipiques i la mort: l'últim defensor de la República",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-cic-03-01",
+          "question": "Ciceró va apostar per Octavià per destruir Antoni, amb la idea de 'usar el noi i desfar-se'n'. Va ser el major error de la seva vida o l'única opció disponible?",
+          "options": [
+            "El major error: va subestimar de forma catastròfica Octavià —un dels polítics més hàbils de la historia— i va acabar sent una peça del seu joc, no al revés",
+            "L'única opció disponible: sense una figura que pogués mobilitzar les legions cesarianes, la República no tenia cap possibilitat contra Antoni. Octavià era l'única carta jugable",
+            "Les dues coses son certes: era l'única opció disponible, i va ser un error catastròfic. Quan les opcions disponibles son totes dolentes, triar la menys dolenta és raonable —però el resultat pot ser igualment desastrós"
+          ],
+          "correct": 2,
+          "explanation": "La paradoxa de l'aposta de Ciceró per Octavià és un dels casos clàssics del dilema de 'l'únic recurs disponible'. Ciceró va avaluar correctament que sense el suport de les legions cesarianes, la República no tenia cap possibilitat. Octavià —jove, inexpert, necessitat de legitimació política— semblava l'opció menys perillosa. Ciceró va cometre l'error d'un orador: va pensar que el poder de la paraula podia dominar el poder de les legions. Octavià va usar exactament el que Ciceró li donava —legitimitat retòrica i senatorial— per consolidar el seu poder i després va cedir el nom de Ciceró a Antoni quan va costar menys que defensar-lo. La lliçó és brutal: en una guerra civil, qui controla els exèrcits controla el destí. Ciceró, que no en controlava cap, va ser una peça útil fins que va deixar de ser-ho."
+        },
         {
           "type": "narrative",
           "text": "El 15 de març del 44 aC, Gai Juli Cèsar va ser assassinat al Senat. Ciceró no havia participat en la conspiració —els assassins no se'n fiaven, probablement perquè dubtaven que fos prou decidit— però va aplaudir l'acte immediatament. Creia que la mort de Cèsar obria la porta al restabliment de la República. Es va equivocar de forma espectacular. Marc Antoni, lugartenent de Cèsar, va prendre el control dels seus papers i dels seus fons, es va presentar com el legítim successor i va maniobrar per consolidar el poder. En el buit de poder que va seguir l'assassinat, Ciceró va prendre la decisió que definiria els seus últims mesos: apostar per Octavià —el jove, inexpert i aparentment controlable nebot i hereu adoptiu de Cèsar— contra Marc Antoni. La seva lògica: usar Octavià per destruir Antoni, i llavors fer-se amb el noi. 'El jove hauria de ser elogiat, elevat... i desfet de passada', va escriure en una carta privada. Entre el setembre del 44 i l'abril del 43 aC va pronunciar les Filipiques —catorze discursos contra Marc Antoni, batejats en honor dels discursos de Demòstenes contra Filip II de Macedònia. Son obres mestres de l'invectiva política: precises, demolidores, personals. Antoni era 'un borratxo', 'un derrochador', 'un client de prostituïdes', 'un enemic de la República'. El desembre del 43 aC, Antoni, Octavià i Lèpid van formar el Segon Triumvirat i van elaborar llistes de proscripció. Antoni va exigir el nom de Ciceró. Octavià —que Ciceró havia descrit com a 'noi útil'— va cedir. Ciceró va intentar fugir en vaixell des de la seva vil·la prop de Formies. El 7 de desembre del 43 aC, els soldats d'Antoni el van atrapar en la seva llitera. Va abaixar les cortines i va estirar el coll. Li van tallar el cap i les mans —les mans que havien escrit les Filipiques— i els van exposar a la Rostra del Fòrum, el mateix lloc des d'on havia pronunciat els seus discursos. Tenia seixanta-tres anys."
@@ -163,18 +175,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. Ciceró va batejar deliberadament els seus discursos contra Marc Antoni 'Filipiques' en honor dels cèlebres discursos de Demòstenes contra Filip II de Macedònia (segle IV aC). La referència era calculada: com Demòstenes havia alertat els atenesos del perill d'un tirà estranger que destruiria la seva llibertat, Ciceró alertava els romans del perill d'Antoni. La comparació era alhora un homenatge literari i una arma retòrica: presentava Antoni com un bàrbar que amenaçava la civilització romana.",
           "feedbackWrong": "Les Filipiques devien el nom als discursos de Demòstenes contra Filip II de Macedònia. Ciceró va usar la referència de forma deliberada per equiparar Marc Antoni a un tirà que amenaçava la llibertat —com Filip havia amenaçat Atenes. Era alhora un homenatge literari al gran orador grec i una arma retòrica contra Antoni."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-cic-03-01",
-          "question": "Ciceró va apostar per Octavià per destruir Antoni, amb la idea de 'usar el noi i desfar-se'n'. Va ser el major error de la seva vida o l'única opció disponible?",
-          "options": [
-            "El major error: va subestimar de forma catastròfica Octavià —un dels polítics més hàbils de la historia— i va acabar sent una peça del seu joc, no al revés",
-            "L'única opció disponible: sense una figura que pogués mobilitzar les legions cesarianes, la República no tenia cap possibilitat contra Antoni. Octavià era l'única carta jugable",
-            "Les dues coses son certes: era l'única opció disponible, i va ser un error catastròfic. Quan les opcions disponibles son totes dolentes, triar la menys dolenta és raonable —però el resultat pot ser igualment desastrós"
-          ],
-          "correct": 2,
-          "explanation": "La paradoxa de l'aposta de Ciceró per Octavià és un dels casos clàssics del dilema de 'l'únic recurs disponible'. Ciceró va avaluar correctament que sense el suport de les legions cesarianes, la República no tenia cap possibilitat. Octavià —jove, inexpert, necessitat de legitimació política— semblava l'opció menys perillosa. Ciceró va cometre l'error d'un orador: va pensar que el poder de la paraula podia dominar el poder de les legions. Octavià va usar exactament el que Ciceró li donava —legitimitat retòrica i senatorial— per consolidar el seu poder i després va cedir el nom de Ciceró a Antoni quan va costar menys que defensar-lo. La lliçó és brutal: en una guerra civil, qui controla els exèrcits controla el destí. Ciceró, que no en controlava cap, va ser una peça útil fins que va deixar de ser-ho."
         }
       ]
     }

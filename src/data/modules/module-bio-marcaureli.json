@@ -10,6 +10,18 @@
       "title": "El príncep filòsof: de la toga a l'armadura",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-mau-01-01",
+          "question": "Marc Aureli va estudiar filosofia estoica tota la vida i va intentar aplicar-la com a emperador. El poder absolut es pot exercir filosòficament? O el poder corromp inevitablement fins al filòsof?",
+          "options": [
+            "El poder corromp inevitablement: fins i tot Marc Aureli va perseguir cristians i va nomenar Còmmode successor, decisions que contradiuen els seus principis filosòfics",
+            "Marc Aureli demostra que és possible: el seu regnat va ser notablement benigne comparatiu, les Meditacions mostren un home que lluitava genuïnament contra els seus impulsos negatius i no va usar el poder per a la seva glòria personal",
+            "La pregunta mal formulada: el poder no corromp la filosofia sinó que la posa a prova. Les Meditacions son interessants precisament perquè mostren un home en el poder que és conscient dels seus fracassos —que no pretén ser perfecte sinó que intenta millorar cada dia"
+          ],
+          "correct": 2,
+          "explanation": "El cas de Marc Aureli és el més proper que la historia ofereix a l'experiment del 'filòsof-rei' de Plató. La posició A té raó en els seus fets: Marc Aureli va permetre persecucions de cristians (tot i que no les va iniciar activament) i va cometre l'error enorme de nomenar Còmmode. La posició B sobreestima la coherència: no va ser perfecte. La posició C és la més justa: les Meditacions son interessants precisament perquè no pretenen ser el diari d'un sant sinó els apunts d'un home que falla i intenta aprendre. La frase 'Has manat avui?' és una nota a si mateix, una pregunta, no una afirmació. El valor de Marc Aureli no és que fos perfecte sinó que va intentar, de forma visible i documentada, ser millor. I en comparació amb els emperadors que el van precedir i seguir, el contrast és aclaparador."
+        },
+        {
           "type": "quote",
           "text": "Tens poder sobre la teva ment, no sobre els esdeveniments externs. Reconeix-ho i trobaràs fortalesa.",
           "author": "Marc Aureli, Meditacions"
@@ -48,18 +60,6 @@
           "correct": 2,
           "feedbackCorrect": "Exacte. Marc Aureli va prendre una decisió inèdita: compartir el poder de forma igualitària amb Luci Verus, quan ningú l'obligava a fer-ho. Luci Verus i ell havien estat adoptats junts per Antoninus Pius, però Marc tenia la posició dominant. La seva insistència en la co-regència reflectia la seva filosofia estoica: el poder no és un bé que s'acumula, és una responsabilitat que es pot compartir. Luci Verus, de caràcter molt diferent (aficionat als espectacles i als plaers), va morir el 169 dC, probablement de la Pesta Antonina.",
           "feedbackWrong": "La decisió de compartir el poder amb Luci Verus va ser voluntària i inèdita. Cap llei l'obligava. Reflectia la filosofia de Marc: el poder és una responsabilitat, no un privilegi, i no calia acumular-lo. Era un gest filosòficament coherent amb les Meditacions —però políticament inusual en un sistema on l'emperador concentrava tot el poder."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-mau-01-01",
-          "question": "Marc Aureli va estudiar filosofia estoica tota la vida i va intentar aplicar-la com a emperador. El poder absolut es pot exercir filosòficament? O el poder corromp inevitablement fins al filòsof?",
-          "options": [
-            "El poder corromp inevitablement: fins i tot Marc Aureli va perseguir cristians i va nomenar Còmmode successor, decisions que contradiuen els seus principis filosòfics",
-            "Marc Aureli demostra que és possible: el seu regnat va ser notablement benigne comparatiu, les Meditacions mostren un home que lluitava genuïnament contra els seus impulsos negatius i no va usar el poder per a la seva glòria personal",
-            "La pregunta mal formulada: el poder no corromp la filosofia sinó que la posa a prova. Les Meditacions son interessants precisament perquè mostren un home en el poder que és conscient dels seus fracassos —que no pretén ser perfecte sinó que intenta millorar cada dia"
-          ],
-          "correct": 2,
-          "explanation": "El cas de Marc Aureli és el més proper que la historia ofereix a l'experiment del 'filòsof-rei' de Plató. La posició A té raó en els seus fets: Marc Aureli va permetre persecucions de cristians (tot i que no les va iniciar activament) i va cometre l'error enorme de nomenar Còmmode. La posició B sobreestima la coherència: no va ser perfecte. La posició C és la més justa: les Meditacions son interessants precisament perquè no pretenen ser el diari d'un sant sinó els apunts d'un home que falla i intenta aprendre. La frase 'Has manat avui?' és una nota a si mateix, una pregunta, no una afirmació. El valor de Marc Aureli no és que fos perfecte sinó que va intentar, de forma visible i documentada, ser millor. I en comparació amb els emperadors que el van precedir i seguir, el contrast és aclaparador."
         }
       ]
     },
@@ -67,6 +67,32 @@
       "id": "mau-02",
       "title": "Les Meditacions: filosofar en el camp de batalla",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "character": "Marc Aureli",
+          "emoji": "🏛️",
+          "year": "175 dC",
+          "setup": "Estàs al front del Danubi, en plena campanya contra els marcomans. Arriba la notícia: el general Avidi Cassi —el teu millor comandant, el que va guanyar la guerra dels Parts— s'ha revoltat i s'ha proclamat emperador, creient que has mort. Cassi controla Egipte i Síria. L'exèrcit et demana que marxis immediatament cap a l'est a sufocar la rebel·lió. Però mentre organitzes la marxa, arriba una altra notícia: Cassi ha estat assassinat pels seus propis oficials. La rebel·lió ha acabat sola. Els seguidors de Cassi esperen el teu judici.",
+          "dilemma": "Executes els seguidors del general rebel com a advertència per a futures traïcions? O els perdones per demostrar magnanimitat i consolidar la lleialtat del exèrcit?",
+          "options": [
+            { "id": "A", "text": "Executo els principals conspiradors: la impunitat encoratja noves rebel·lions. La magnanimitat sense conseqüències és feblesa" },
+            { "id": "B", "text": "Perdono: els que van seguir Cassi ho van fer creient que jo havia mort. La lleialtat a qui creis el teu emperador no és traïció. La clemència és poder, no feblesa" }
+          ],
+          "reveal": "Marc Aureli va perdonar. Va cremar les cartes que comprometien els seguidors de Cassi sense llegir-les, per no saber a qui podia condemnar. Va decretar que cap senador seria executat durant el seu regnat. Els seus biògrafs antics ho celebren com un acte de grandesa; els analistes moderns ho discuteixen com una decisió políticament calculada que va funcionar.",
+          "analysis": "La decisió de Marc Aureli de perdonar els seguidors de Cassi és coherent amb la seva filosofia: la ira és una passió que no depèn de la raó, i la venjança és inútil (els morts no tornen). Però és també una decisió políticament intel·ligent: un emperador que executa generals en massa atemoreix l'exèrcit però perd lleialtat. La grandesa de Marc Aureli és que en ell la filosofia i la política sovint coincidien —no perquè la filosofia fos un adorn, sinó perquè havia pensat profundament en els dos àmbits."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mau-02-01",
+          "question": "L'estoïcisme de Marc Aureli diu que hem d'acceptar el que no podem controlar i centrar-nos en el que depèn de nosaltres. És aquesta filosofia una saviesa universal o una ideologia de resignació que desactiva la lluita per canviar el món?",
+          "options": [
+            "Saviesa universal: la distinció entre el que controlem i el que no és fonamental per a qualsevol acció eficaç. Sense ella, malgastem energia en allò que no podem canviar",
+            "Ideologia de resignació: acceptar 'el que no depèn de nosaltres' és una forma de legitimar l'statu quo. Els grans canvis socials han requerit refusar acceptar el que semblava inevitable",
+            "La distinció és vàlida però s'ha d'aplicar amb cura: el que 'no depèn de nosaltres' canvia amb les circumstàncies i el poder col·lectiu. L'estoïcisme és útil per a la vida interior, però no pot ser la filosofia d'un moviment social"
+          ],
+          "correct": 2,
+          "explanation": "La crítica a l'estoïcisme com a ideologia de resignació (posició B) té una base real: si Marc Aureli hagués nascut esclau en lloc d'emperador, hauria estat molt més difícil acceptar que la seva condició era 'el que no depèn d'ell'. L'estoïcisme és una filosofia que funciona millor per a aquells que ja tenen cert control sobre les seves circumstàncies bàsiques. La posició A és la defensa clàssica: la distinció entre el controlable i l'incontrolable és fonamental per a l'acció eficaç —saber on podem canviar les coses és la condició per canviar-les. La posició C és la síntesi: l'estoïcisme és una eina extraordinàriament útil per a la regulació emocional i la presa de decisions individuals, però no resol la pregunta de com canviar les estructures socials. Marc Aureli era un exemple perfecte del límit: va aplicar l'estoïcisme a si mateix amb rigor, però no va canviar fonamentalment l'estructura esclavista de l'Imperi."
+        },
         {
           "type": "narrative",
           "text": "Les Meditacions de Marc Aureli (en grec: Ta Eis Heauton, 'Coses per a mi mateix') no van ser mai escrites per ser publicades. Son apunts privats —notes que l'emperador es feia a si mateix durant les campanyes militars al Danubi, mentre gestionava la Pesta Antonina i portava el pes de l'Imperi. Escrites en grec (la llengua de la filosofia), mai en llatí. No segueixen cap ordre ni argument progressiu: son exercicis espirituals diaris, recordatoris, autocrítiques. 'Avui has dit cosa innecessària. Avui t'has enfadat per coses que no depenen de tu.' El text es va conservar gairebé per miracle: es coneix a través d'un únic manuscrit medieval. Els conceptes centrals que Marc Aureli practica: la dicotomia del control (la distinció entre el que depèn de nosaltres —les opinions, els impulsos, les decisions— i el que no depèn de nosaltres —la salut, la fama, la mort— és la clau de la serenitat estoica), la visió del cosmos (cada moment és efímer; l'emperador Alexandre el Gran i el seu muleter son iguals avui; ni un ni l'altre existeixen), el deure social (l'home és un animal polític, nascut per al servei dels altres; la virtut no és privada sinó que s'expressa en l'acció en el món) i la mort com a cosa natural (no un mal, sinó una transformació; témer la mort és irracional). El paradox de les Meditacions és que son el document d'un home enormement ocupat, amb el pes del món sobre les espatlles, que troba temps per recordar-se que ha de ser millor. No és filosofia abstracta: és filosofia aplicada en temps real."
@@ -83,38 +109,12 @@
           ]
         },
         {
-          "type": "what-would-you-do",
-          "character": "Marc Aureli",
-          "emoji": "🏛️",
-          "year": "175 dC",
-          "setup": "Estàs al front del Danubi, en plena campanya contra els marcomans. Arriba la notícia: el general Avidi Cassi —el teu millor comandant, el que va guanyar la guerra dels Parts— s'ha revoltat i s'ha proclamat emperador, creient que has mort. Cassi controla Egipte i Síria. L'exèrcit et demana que marxis immediatament cap a l'est a sufocar la rebel·lió. Però mentre organitzes la marxa, arriba una altra notícia: Cassi ha estat assassinat pels seus propis oficials. La rebel·lió ha acabat sola. Els seguidors de Cassi esperen el teu judici.",
-          "dilemma": "Executes els seguidors del general rebel com a advertència per a futures traïcions? O els perdones per demostrar magnanimitat i consolidar la lleialtat del exèrcit?",
-          "options": [
-            { "id": "A", "text": "Executo els principals conspiradors: la impunitat encoratja noves rebel·lions. La magnanimitat sense conseqüències és feblesa" },
-            { "id": "B", "text": "Perdono: els que van seguir Cassi ho van fer creient que jo havia mort. La lleialtat a qui creis el teu emperador no és traïció. La clemència és poder, no feblesa" }
-          ],
-          "reveal": "Marc Aureli va perdonar. Va cremar les cartes que comprometien els seguidors de Cassi sense llegir-les, per no saber a qui podia condemnar. Va decretar que cap senador seria executat durant el seu regnat. Els seus biògrafs antics ho celebren com un acte de grandesa; els analistes moderns ho discuteixen com una decisió políticament calculada que va funcionar.",
-          "analysis": "La decisió de Marc Aureli de perdonar els seguidors de Cassi és coherent amb la seva filosofia: la ira és una passió que no depèn de la raó, i la venjança és inútil (els morts no tornen). Però és també una decisió políticament intel·ligent: un emperador que executa generals en massa atemoreix l'exèrcit però perd lleialtat. La grandesa de Marc Aureli és que en ell la filosofia i la política sovint coincidien —no perquè la filosofia fos un adorn, sinó perquè havia pensat profundament en els dos àmbits."
-        },
-        {
           "type": "exercise",
           "id": "ex-mau-02-01",
           "style": "detect-error",
           "statement": "Marc Aureli va escriure les Meditacions en llatí, la llengua oficial de l'Imperi Romà, i les va publicar ell mateix com un manual de filosofia estoica per als funcionaris imperials.",
           "isCorrect": false,
           "feedbackExplanation": "Incorrecte en tres aspectes. Primer, les Meditacions van ser escrites en grec, no en llatí —el grec era la llengua de la filosofia i de la cultura, i Marc Aureli escrivia per a si mateix en la llengua dels filòsofs que admirava. Segon, mai van ser publicades per ell: son apunts privats, notes personals que mai va destinar a cap públic. Tercer, no son un manual per a ningú: son exercicis espirituals d'un home que intenta millorar a si mateix, no ensenyar als altres. El text es va conservar gairebé per miracle a través d'un únic manuscrit medieval."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-mau-02-01",
-          "question": "L'estoïcisme de Marc Aureli diu que hem d'acceptar el que no podem controlar i centrar-nos en el que depèn de nosaltres. És aquesta filosofia una saviesa universal o una ideologia de resignació que desactiva la lluita per canviar el món?",
-          "options": [
-            "Saviesa universal: la distinció entre el que controlem i el que no és fonamental per a qualsevol acció eficaç. Sense ella, malgastem energia en allò que no podem canviar",
-            "Ideologia de resignació: acceptar 'el que no depèn de nosaltres' és una forma de legitimar l'statu quo. Els grans canvis socials han requerit refusar acceptar el que semblava inevitable",
-            "La distinció és vàlida però s'ha d'aplicar amb cura: el que 'no depèn de nosaltres' canvia amb les circumstàncies i el poder col·lectiu. L'estoïcisme és útil per a la vida interior, però no pot ser la filosofia d'un moviment social"
-          ],
-          "correct": 2,
-          "explanation": "La crítica a l'estoïcisme com a ideologia de resignació (posició B) té una base real: si Marc Aureli hagués nascut esclau en lloc d'emperador, hauria estat molt més difícil acceptar que la seva condició era 'el que no depèn d'ell'. L'estoïcisme és una filosofia que funciona millor per a aquells que ja tenen cert control sobre les seves circumstàncies bàsiques. La posició A és la defensa clàssica: la distinció entre el controlable i l'incontrolable és fonamental per a l'acció eficaç —saber on podem canviar les coses és la condició per canviar-les. La posició C és la síntesi: l'estoïcisme és una eina extraordinàriament útil per a la regulació emocional i la presa de decisions individuals, però no resol la pregunta de com canviar les estructures socials. Marc Aureli era un exemple perfecte del límit: va aplicar l'estoïcisme a si mateix amb rigor, però no va canviar fonamentalment l'estructura esclavista de l'Imperi."
         }
       ]
     },
@@ -122,6 +122,18 @@
       "id": "mau-03",
       "title": "L'error de Còmmode i el llegat dels filòsofs",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-mau-03-01",
+          "question": "Marc Aureli creia que el deure principal és servir el bé comú, però va nomenar Còmmode successor per motius personals. Va trair la seva filosofia? O les decisions personals i polítiques mai son tan pures com la filosofia?",
+          "options": [
+            "Va trair la seva filosofia: els seus escrits defensen el bé comú per sobre dels interessos personals, i nomenar un fill inadequat per amor paternal contradiu exactament el que predicava",
+            "No va trair-la: la successió dinàstica tenia arguments polítics legítims (estabilitat, lleialtat de l'exèrcit), i la filosofia no dona respostes unívoques a decisions polítiques concretes",
+            "El cas mostra el límit de qualsevol filosofia aplicada al poder: les decisions polítiques impliquen incerteses, pressions i afectes que els principis generals no poden resoldre per si sols, i fins i tot el filòsof més rigorós decideix en condicions d'imperfecció"
+          ],
+          "correct": 2,
+          "explanation": "La tensió entre la filosofia de Marc Aureli i la seva decisió sobre Còmmode és un dels grans problemes de la seva biografia. La posició A (traïció) és atractiva perquè el propi Marc va escriure que l'amor familiar no ha de corrompre el judici. Però la posició B té arguments reals: l'estabilitat dinàstica no és un argument trivial —les guerres civils de successió havien costat milions de vides. La posició C és la més justa: cap filosofia, per rigorosa que sigui, pot prendre decisions polítiques concretes per nosaltres. Marc Aureli va aplicar el seu estoïcisme a la regulació emocional i al comportament personal. En la decisió sobre Còmmode, va pesar arguments que el seu estoïcisme no resolia clarament, i va errar. El que el fa notable és que les seves Meditacions mostren un home que era conscient que podia errar —i que intentava aprendre dels errors. Sobre Còmmode, no va aprendre prou d'hora."
+        },
         {
           "type": "narrative",
           "text": "Marc Aureli va cometre un error que ell mateix sabia que era un error: va nomenar el seu fill biològic Còmmode com a co-emperador i successor. Durant vuitanta anys, els emperadors romans havien adoptat successors elegits pel mèrit (Trajà, Adrià, Antoninus Pius, el propi Marc Aureli). Era el sistema que havia funcionat. Còmmode era el primer fill biològic que accedia al tron des de Domicià, gairebé cent anys enrere. Per qué va prendre aquesta decisió? Possiblement amor paternal. Possiblement el cansament d'un home que havia governat divuit anys enmig de guerres i plagues. Possiblement el càlcul que el poder dinàstic era més estable que l'adopció. Còmmode va ser un desastre: es creia Hèrcules reencarntat, va abandonar les guerres del Danubi per viure a Roma combatent en l'amfiteatre, va ser assassinat per una conspiració palatina el 192 dC. La seva mort va precipitar un any de guerra civil i el declivi gradual de la grandesa de l'Imperi. Marc Aureli va morir el 17 de març del 180 dC a Vindobona (l'actual Viena), al front del Danubi. Les Meditacions es van conservar per atzar a través d'una tradició manuscrita medieval. El Renaixement les va redescobrir. Avui son el text de filosofia antiga més llegit del món —un filòsof contemporani del moviment d'autoajuda científica (el 'estoïcisme modern') les cita com a manual de resiliència per a executius, atletes i militars. La paradoxa és completa: un emperador de fa dos mil anys que escrivia notes privades per no perdre el nord és ara bestseller global."
@@ -163,18 +175,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. La tradició inaugurada per Nerva i continuada per Trajà, Adrià i Antoninus Pius era l'adopció successòria: l'emperador escull el millor candidat disponible —no necessàriament el seu fill— i l'adopta. Havia funcionat durant vuitanta anys i havia produït el que Gibbon va anomenar 'el període en la historia del món en el qual la condició de la raça humana va ser més feliç i pròspera'. Marc Aureli va trencar aquesta tradició per amor paternal o per càlcul polític, i el resultat va ser Còmmode —que es creia Hèrcules, combatia en l'amfiteatre i va ser assassinat per la seva pròpia cort.",
           "feedbackWrong": "El problema central del nomenament de Còmmode era que trencava la tradició d'adopció successòria basada en el mèrit, que havia funcionat durant vuitanta anys. La successió dinàstica directa havia demostrat ser el camí de la tirannia (Calígula, Neró, Domicià); l'adopció basada en el mèrit havia produït el període àuric de l'Imperi."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-mau-03-01",
-          "question": "Marc Aureli creia que el deure principal és servir el bé comú, però va nomenar Còmmode successor per motius personals. Va trair la seva filosofia? O les decisions personals i polítiques mai son tan pures com la filosofia?",
-          "options": [
-            "Va trair la seva filosofia: els seus escrits defensen el bé comú per sobre dels interessos personals, i nomenar un fill inadequat per amor paternal contradiu exactament el que predicava",
-            "No va trair-la: la successió dinàstica tenia arguments polítics legítims (estabilitat, lleialtat de l'exèrcit), i la filosofia no dona respostes unívoques a decisions polítiques concretes",
-            "El cas mostra el límit de qualsevol filosofia aplicada al poder: les decisions polítiques impliquen incerteses, pressions i afectes que els principis generals no poden resoldre per si sols, i fins i tot el filòsof més rigorós decideix en condicions d'imperfecció"
-          ],
-          "correct": 2,
-          "explanation": "La tensió entre la filosofia de Marc Aureli i la seva decisió sobre Còmmode és un dels grans problemes de la seva biografia. La posició A (traïció) és atractiva perquè el propi Marc va escriure que l'amor familiar no ha de corrompre el judici. Però la posició B té arguments reals: l'estabilitat dinàstica no és un argument trivial —les guerres civils de successió havien costat milions de vides. La posició C és la més justa: cap filosofia, per rigorosa que sigui, pot prendre decisions polítiques concretes per nosaltres. Marc Aureli va aplicar el seu estoïcisme a la regulació emocional i al comportament personal. En la decisió sobre Còmmode, va pesar arguments que el seu estoïcisme no resolia clarament, i va errar. El que el fa notable és que les seves Meditacions mostren un home que era conscient que podia errar —i que intentava aprendre dels errors. Sobre Còmmode, no va aprendre prou d'hora."
         }
       ]
     }

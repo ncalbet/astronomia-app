@@ -10,6 +10,24 @@
       "title": "De la cabana de troncs a la Casa Blanca",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-linc-01-01",
+          "question": "Lincoln va escriure el 1862: 'Si pogués salvar la Unió sense alliberar cap esclau, ho faria.' Però va acabar abolint l'esclavitud. Era un pragmatista que va usar l'abolició com a eina política, o era un abolicionista que avançava amb cautela?",
+          "options": [
+            "Pragmatista: Lincoln mai no va ser abolicionista per convicció. Va alliberar els esclaus quan ho va necessitar per guanyar la guerra i impedir el reconeixement britànic de la Confederació. Les seves declaracions racials explícites dels debats de 1858 ho confirmen",
+            "Abolicionista en evolució: la carta a Greeley és una declaració política pública, no la seva convicció privada. Les seves accions finals —impulsar la 13a Esmena, els discursos del final de la guerra— mostren un home que havia evolucionat cap a un compromís moral genuí",
+            "La dicotomia és falsa: Lincoln era les dues coses alhora. Tenia conviccions morals sobre l'esclavitud des de jove i simultàniament era un polític calculador. El pragmatisme i la convicció no s'exclouen —i la seva grandesa estava en la capacitat de combinar-los"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és defensada per historiadors revisionistes com Lerone Bennett Jr., que van publicar 'Forced Into Glory' argumentant que Lincoln era primordialment unionista i els seus gestos abolicionistes eren instrumentals. La posició B és la tradició historiogràfica clàssica: Lincoln evoluciona moralment i la Proclamació d'Emancipació i la 13a Esmena mostren un home transformat. La posició C és la que la majoria d'historiadors actuals consideren més precisa: Lincoln no era incoherent sinó complex. Deia el que la seva audiència podia acceptar en cada moment mentre avançava cap a on volia arribar. La seva frase a Greeley era una carta pública estratègica; les seves paraules en privat a Frederick Douglass mostren un home amb conviccions morals clares. Els dos Lincolns eren reals."
+        },
+        {
+          "type": "misconception",
+          "belief": "Lincoln era un abolicionista convençut que va lluitar la guerra civil per acabar amb l'esclavitud.",
+          "reality": "La prioritat absoluta de Lincoln era preservar la Unió —no abolir l'esclavitud. La seva carta a Greeley és explícita: alliberaria cap esclau o tots els esclaus, el que fes falta per salvar la Unió. La Proclamació d'Emancipació (1863) va alliberar els esclaus dels estats rebels però no els dels estats esclavistes lleials a la Unió. Era una mesura estratègica: privava el Sud de mà d'obra i feia impossible que Gran Bretanya recolzés la Confederació en una guerra que ara era obertament per l'esclavitud. En un debat de 1858 Lincoln va afirmar no creure en la igualtat política entre blancs i negres.",
+          "why": "El mite de Lincoln com a 'gran emancipador' va ser construït sobretot per la seva mort violenta i per la política de la Reconstrucció. Les seves posicions racials van evolucionar, però mai no van ser tan avançades com el relat postum. La mort al moment just va simplificar una figura complexa."
+        },
+        {
           "type": "quote",
           "text": "Si pogués salvar la Unió sense alliberar cap esclau, ho faria. El que faig sobre l'esclavitud, ho faig perquè crec que ajuda a salvar la Unió.",
           "author": "Abraham Lincoln, carta a Horace Greeley, 1862"
@@ -28,12 +46,6 @@
             { "year": "1860", "title": "President electe", "text": "Guanya amb menys del 40% del vot popular. Set estats del Sud es separen abans de la seva investidura." },
             { "year": "1865", "title": "Assassinat al teatre Ford", "text": "Cinc dies després de la rendició de Lee. Mor l'endemà al matí. Tenia 56 anys." }
           ]
-        },
-        {
-          "type": "misconception",
-          "belief": "Lincoln era un abolicionista convençut que va lluitar la guerra civil per acabar amb l'esclavitud.",
-          "reality": "La prioritat absoluta de Lincoln era preservar la Unió —no abolir l'esclavitud. La seva carta a Greeley és explícita: alliberaria cap esclau o tots els esclaus, el que fes falta per salvar la Unió. La Proclamació d'Emancipació (1863) va alliberar els esclaus dels estats rebels però no els dels estats esclavistes lleials a la Unió. Era una mesura estratègica: privava el Sud de mà d'obra i feia impossible que Gran Bretanya recolzés la Confederació en una guerra que ara era obertament per l'esclavitud. En un debat de 1858 Lincoln va afirmar no creure en la igualtat política entre blancs i negres.",
-          "why": "El mite de Lincoln com a 'gran emancipador' va ser construït sobretot per la seva mort violenta i per la política de la Reconstrucció. Les seves posicions racials van evolucionar, però mai no van ser tan avançades com el relat postum. La mort al moment just va simplificar una figura complexa."
         },
         {
           "type": "exercise",
@@ -57,6 +69,20 @@
       "title": "La guerra civil: l'home i la crisi",
       "blocks": [
         {
+          "type": "what-would-you-do",
+          "character": "Abraham Lincoln",
+          "emoji": "🪓",
+          "year": "Novembre de 1862",
+          "setup": "El general McClellan té l'exèrcit més gran i ben equipat de la historia americana —i refusa atacar. Porta 18 mesos esperant el moment perfecte. Ha deixat escapar dues oportunitats d'aplafar la Confederació. Però és popular entre les tropes i la premsa. Si l'acomiedem i el successor perd una batalla gran, et culparan de la derrota.",
+          "dilemma": "Mantens McClellan al comandament malgrat la seva passivitat, o l'acomiedem buscant algú disposat a lluitar, arriscant el desastre si el nou general fracassa?",
+          "options": [
+            { "id": "A", "text": "Mantinc McClellan: és imperfecte però conegut i popular. No puc arriscar un canvi ara" },
+            { "id": "B", "text": "L'acomiadeu: la guerra no es guanya amb prudència infinita. Necessito algú disposat a atacar" }
+          ],
+          "reveal": "Lincoln va acomiadar McClellan al novembre de 1862 i va passar per Burnside i Hooker —tots dos desastres. El 1864 va trobar Grant: alcohòlic, brusc, impopular entre els polítics. Grant va guanyar la guerra. Quan li van dir que bevia massa, Lincoln va respondre: 'Sabeu quin whisky beu? Vull enviar-ne una bóta als altres generals.'",
+          "analysis": "El patró de Lincoln és consistent: disposició a assumir riscos polítics grans quan el judici estratègic ho requeria. Va ser criticat ferotgement per cada acomiadament. El que buscava no era el general perfecte sinó el general que lluitaria. La lliçó no és que l'impuls sempre guanya —sinó que saber quan canviar de curs, malgrat el cost polític, és una habilitat de lideratge rara."
+        },
+        {
           "type": "narrative",
           "text": "El 12 d'abril de 1861, la Confederació va bombardejar Fort Sumter. Lincoln tenia davant seu una crisi sense precedents: 11 estats secessionats, un exèrcit federal de 16.000 homes front als 100.000 que el Sud podia mobilitzar, i un gabinet ple de rivals polítics que el menystenien. Durant quatre anys va prendre decisions que cap manual li havia preparat: acomiadà generals, suspengué l'habeas corpus, imposà el reclutament forçós i va gestionar la mort de 620.000 soldats americans. El 19 de novembre de 1863, a Gettysburg, va pronunciar en dos minuts un discurs de 271 paraules que redefinia el sentit de la guerra i de la nació."
         },
@@ -72,20 +98,6 @@
           ]
         },
         {
-          "type": "what-would-you-do",
-          "character": "Abraham Lincoln",
-          "emoji": "🪓",
-          "year": "Novembre de 1862",
-          "setup": "El general McClellan té l'exèrcit més gran i ben equipat de la historia americana —i refusa atacar. Porta 18 mesos esperant el moment perfecte. Ha deixat escapar dues oportunitats d'aplafar la Confederació. Però és popular entre les tropes i la premsa. Si l'acomiedem i el successor perd una batalla gran, et culparan de la derrota.",
-          "dilemma": "Mantens McClellan al comandament malgrat la seva passivitat, o l'acomiedem buscant algú disposat a lluitar, arriscant el desastre si el nou general fracassa?",
-          "options": [
-            { "id": "A", "text": "Mantinc McClellan: és imperfecte però conegut i popular. No puc arriscar un canvi ara" },
-            { "id": "B", "text": "L'acomiadeu: la guerra no es guanya amb prudència infinita. Necessito algú disposat a atacar" }
-          ],
-          "reveal": "Lincoln va acomiadar McClellan al novembre de 1862 i va passar per Burnside i Hooker —tots dos desastres. El 1864 va trobar Grant: alcohòlic, brusc, impopular entre els polítics. Grant va guanyar la guerra. Quan li van dir que bevia massa, Lincoln va respondre: 'Sabeu quin whisky beu? Vull enviar-ne una bóta als altres generals.'",
-          "analysis": "El patró de Lincoln és consistent: disposició a assumir riscos polítics grans quan el judici estratègic ho requeria. Va ser criticat ferotgement per cada acomiadament. El que buscava no era el general perfecte sinó el general que lluitaria. La lliçó no és que l'impuls sempre guanya —sinó que saber quan canviar de curs, malgrat el cost polític, és una habilitat de lideratge rara."
-        },
-        {
           "type": "exercise",
           "id": "ex-linc-02-01",
           "style": "detect-error",
@@ -99,6 +111,18 @@
       "id": "linc-03",
       "title": "L'assassinat i el mite: com es construeix un heroi",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-linc-03-01",
+          "question": "La majoria d'historiadors americans classifiquen Lincoln com el millor president dels EUA. Quina és la valoració més defensable?",
+          "options": [
+            "Justificada plenament: va preservar la Unió i va acabar amb l'esclavitud en les circumstàncies més difícils imaginables. Cap altre president ha afrontat un repte comparable",
+            "Exagerada: el seu llegat és en part producte de la mort al moment just. Un president que governa amb poders excepcionals i que era primordialment unionista, no abolicionista, mereix una valoració més matisada",
+            "Les dues coses alhora: va ser un líder excepcionalment hàbil en la crisi i el seu llegat ha estat mitificat per la mort. Podem reconèixer les dues coses sense que es cancel·lin mútuament"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la historiografia tradicional —defensada per Doris Kearns Goodwin i molts altres. La posició B ha guanyat força en els últims 30 anys, que han subratllat el pragmatisme racial de Lincoln i el rol decisiu dels abolicionistes negres com Frederick Douglass. La posició C és metodològicament la més honesta: Lincoln va ser realment excepcional en la crisi civil, i el seu llegat ha estat construït en part per la mort i la mitificació posterior. Mantenir les dues coses alhora és incòmode però necessari per entendre tant a Lincoln com als mecanismes de la memòria col·lectiva."
+        },
         {
           "type": "narrative",
           "text": "El 14 d'abril de 1865, cinc dies després de la rendició de Lee, Lincoln va anar al teatre Ford de Washington. John Wilkes Booth, actor i simpatitzant confederat, li va disparar al cap des de la llotja presidencial. Lincoln va morir l'endemà al matí. La seva mort va transformar un president molt criticat —el deien 'el més gran ase dels Estats Units', la premsa del Nord l'atacava constantment i el Sud l'odiava profundament— en el màrtir de la Unió. Ningú recorda els seus errors. Tothom recorda Gettysburg."
@@ -128,18 +152,6 @@
             }
           ],
           "reflection": "Quan un líder mor de manera violenta en el moment just, la seva mort escriu la seva biografia definitiva. Fins a quin punt la mort de Lincoln va 'crear' el Lincoln que coneixem avui?"
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-linc-03-01",
-          "question": "La majoria d'historiadors americans classifiquen Lincoln com el millor president dels EUA. Quina és la valoració més defensable?",
-          "options": [
-            "Justificada plenament: va preservar la Unió i va acabar amb l'esclavitud en les circumstàncies més difícils imaginables. Cap altre president ha afrontat un repte comparable",
-            "Exagerada: el seu llegat és en part producte de la mort al moment just. Un president que governa amb poders excepcionals i que era primordialment unionista, no abolicionista, mereix una valoració més matisada",
-            "Les dues coses alhora: va ser un líder excepcionalment hàbil en la crisi i el seu llegat ha estat mitificat per la mort. Podem reconèixer les dues coses sense que es cancel·lin mútuament"
-          ],
-          "correct": 2,
-          "explanation": "La posició A és la historiografia tradicional —defensada per Doris Kearns Goodwin i molts altres. La posició B ha guanyat força en els últims 30 anys, que han subratllat el pragmatisme racial de Lincoln i el rol decisiu dels abolicionistes negres com Frederick Douglass. La posició C és metodològicament la més honesta: Lincoln va ser realment excepcional en la crisi civil, i el seu llegat ha estat construït en part per la mort i la mitificació posterior. Mantenir les dues coses alhora és incòmode però necessari per entendre tant a Lincoln com als mecanismes de la memòria col·lectiva."
         }
       ]
     }

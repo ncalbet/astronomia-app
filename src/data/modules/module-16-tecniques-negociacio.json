@@ -1,0 +1,435 @@
+{
+  "id": "module-16-tecniques-negociacio",
+  "title": "Eines per negociar millor",
+  "emoji": "🧰",
+  "phase": 1,
+  "unlockRequires": "module-15-negociacio",
+  "lessons": [
+    {
+      "id": "tec-01",
+      "title": "Escoltar és l'arma principal",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Chris Voss va passar vint-i-quatre anys negociant alliberaments d'ostatges per al FBI. Va negociar amb segrestadors, terroristes i criminals. Va aprendre a salvar vides en situacions on un error significava una mort.\n\nLa seva conclusió, destil·lada en el seu llibre «Never Split the Difference» (2016): la tècnica de negociació més poderosa no és parlar amb claredat, no és ancorar bé, no és conèixer els interessos de l'altra part. És escoltar d'una manera molt específica que la majoria de persones no fa mai.\n\nVoss l'anomena «escolta activa» o «empatia tàctica». Però no és el que probablement imagines quan sents aquelles paraules."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'escolta activa en negociació no és simplement prestar atenció. És un conjunt de tècniques verbals i no verbals que comuniquen a l'altra part que la seves paraules, emocions i perspectives estan sent enteses — sense necessàriament concordar amb elles. Quan les persones se senten genuïnament escoltades, comparteixen més informació, es desbloquegen emocionalment i es tornen més receptives a les solucions que proposes."
+        },
+        {
+          "type": "expandable",
+          "label": "Per qué el cervell respon diferent quan se sent escoltat: la neurociència del «ser vist»",
+          "content": "La sensació de «no ser escoltat» activa en el cervell les mateixes regions que el dolor físic moderat. No és una metàfora — és un resultat mesurable en neuroimatge. La sensació d'exclusió social o de ser ignorat activa l'escorça cingulada anterior, la mateixa zona que processa el dolor físic.\n\nA la inversa, quan algú se sent genuïnament comprès, la seva amígdala (el centre d'alarma del cervell) es desactiva parcialment. La persona passa d'un estat de defensa a un estat de major obertura cognitiva i emocional.\n\nEn negociació, això té una implicació directa: una persona que se sent escoltada literalment pensa de forma diferent. Té accés a més opcions, processa la informació de forma menys reactiva i pot considerar solucions que en mode defensiu no veia.\n\nNo escoltes per ser educat. Escoltes per canviar l'estat cognitiu de l'altra part."
+        },
+        {
+          "type": "misconception",
+          "belief": "Escoltar és passiu. En una negociació, qui parla és qui controla. Qui escolta s'adapta a l'agenda de l'altra part.",
+          "reality": "L'escolta activa és profundament activa i estratègica. Qui escolta bé obté informació sobre interessos, límits i prioritats que l'altra part no hauria dit directament. Qui parla molt, especialment qui argumenta de forma contínua, revela la seva posició sense obtenir informació de l'altra part. En negociació professional, el ratio típic dels millors negociadors és: escoltar el 70% del temps, parlar el 30%.",
+          "why": "La cultura occidental valora l'articulació verbal i la capacitat d'argument com a senyals de competència i lideratge. Qui parla amb confiança sembla en control. Qui escolta sembla submís. Aquesta associació cultural és falsa en contextos de negociació — però és tan poderosa que costa superar-la."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-01-01",
+          "style": "multiple-choice",
+          "question": "El teu company de pis vol canviar les normes de neteja que teníeu. Comença a explicar-te per qué li semblen injustes. Quina resposta aplica millor l'escolta activa?",
+          "options": [
+            "Deixar-lo acabar i després explicar el teu punt de vista sobre les normes actuals",
+            "Mentre parla, pensar en els teus arguments per tenir-los preparats quan acabi",
+            "Quan acaba, resumir en veu alta el que has entès que diu i com sembla sentir-se, i preguntar si ho has entès bé",
+            "Fer preguntes sobre les normes específiques que li semblen injustes per entendre quines vol canviar"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "L'opció C aplica dues de les tècniques centrals de l'escolta activa: el resum («el que entenc que dius és...») i la verificació («ho he entès bé?»). El resum obliga a processar realment el que l'altra part ha dit — no a esperar el torn de parla. La verificació és crucial: demostra que no assumes que has entès i crea un moment de correcció si has malentès alguna cosa. L'opció D (preguntes específiques) és bona però massa aviat — primer cal demostrar que has entès el que ha dit en conjunt, després aprofundir. L'opció B (preparar arguments mentre escolta) és l'error més comú: garanteix que no has escoltat realment.",
+          "feedbackWrong": "L'opció C aplica les tècniques clau: resumir el que has entès (obliga a processar de veritat, no a esperar el torn) i verificar si ho has entès bé (dóna espai per corregir malentesos). La opció B és l'error més comú i el que menys s'assembla a escoltar: mentre prepares arguments, literalment no estàs processant el que diu l'altra part."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-01-02",
+          "style": "detect-error",
+          "statement": "L'escolta activa funciona perquè fa que l'altra part se senti bé, cosa que la predisposa a ser generosa. És una tècnica de manipulació emocional suau que usa la reciprocitat social per obtenir concessions.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació descriu una versió instrumental i superficial de l'escolta activa que és alhora incorrecta i contraproduent. Incorrecta perquè el mecanisme real no és «fer-se sentir bé per obtenir generositat» — és obtenir informació real sobre interessos i límits que no es podria obtenir d'altra manera. Quan algú se sent genuïnament escoltat, comparteix informació que revelà quins interessos subjacents té, on té flexibilitat real i on no la té. Aquella informació és la que permet trobar solucions millors. Contraproduent perquè l'escolta instrumental — fingir escoltar per manipular — és detectada amb freqüència i produeix l'efecte contrari: desconfiança i tancament. L'escolta activa efectiva és genuïna precisament perquè la informació que genera és real, no performativa."
+        },
+        {
+          "type": "what-would-you-do",
+          "character": "Negociador d'ostatges del FBI",
+          "emoji": "📞",
+          "year": "Situació tipus documentada",
+          "setup": "Un home s'ha tancat a casa seva amb la seva filla i amenaça de fer-li mal. Porta dues hores sense respondre. Finalment agafa el telèfon. Comença a cridar que «ningú l'entén», que «tothom l'ha abandonat» i que «no hi ha sortida».",
+          "dilemma": "Tens uns segons per respondre. Quin és el teu primer moviment?",
+          "options": [
+            { "id": "A", "text": "Explicar-li calmament les conseqüències legals de les seves accions per fer-li veure la realitat" },
+            { "id": "B", "text": "Demanar-li que et parli de com se sent — reflectir que sembla que està passant per alguna cosa molt dura" }
+          ],
+          "reveal": "Els protocols del FBI i la recerca de negociació d'ostatges indiquen que l'opció B és la correcta. L'opció A (realitat i conseqüències) en un moment d'alta activació emocional tendeix a augmentar la resistència i el tancament.",
+          "analysis": "En estats d'alta activació emocional, el cervell no processa arguments racionals. Presentar conseqüències legals quan algú crida que «no hi ha sortida» confirma la seva percepció de no ser entès. El primer moviment en qualsevol negociació de crisi — i en moltes negociacions quotidianes intenses — és reduir l'activació emocional, no presentar arguments. La informació racional pot entrar després. Primer, la persona ha de sentir que estàs allà i que l'escoltes."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tec-01-01",
+          "question": "Si l'escolta activa és tan poderosa, per qué els cursos de comunicació i negociació dediquen tan poc temps a ensenyar-la en comparació amb les tècniques d'argumentació i persuasió?",
+          "options": [
+            "Perquè l'escolta activa és difícil de formalitzar en tècniques ensenyables — és més una actitud que un conjunt de passos",
+            "Perquè el mercat de la formació valora el contingut visible i demostrable: aprendre a argumentar produeix outputs mesurables; aprendre a escoltar no",
+            "Perquè les organitzacions valoren els empleats que saben convèncer, no els que saben escoltar — i la formació es dissenya per a les necessitats percebudes de les organitzacions"
+          ],
+          "correct": 1,
+          "explanation": "Totes tres raons operen, però la B descriu el mecanisme estructural que explica per qué el desequilibri persisteix. Els programes de formació en comunicació i negociació es venen i s'avaluen per la satisfacció immediata dels participants. Les tècniques d'argumentació i persuasió produeixen outputs visibles i satisfactoris: «avui he après cinc arguments per a situació X». L'escolta activa és cognitiva ment exigent, els seus beneficis son diferits (es noten en negociacions reals, no en role-plays de formació) i és difícil de practicar sense un interlocutor real disposat a ser vulnerable. El resultat és un biaix sistemàtic del mercat formatiu cap a habilitats visibles i immediates i lluny d'habilitats profundes i de resultat diferit. La raó A té cert fonament (l'escolta activa sí té components d'actitud), però Voss i altres han demostrat que es pot formalitzar en tècniques específiques i ensenyables. La raó C és real però és una conseqüència, no la causa principal."
+        }
+      ]
+    },
+    {
+      "id": "tec-02",
+      "title": "El poder del silenci",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Hi ha una situació que moltes persones reconeixeran:\n\nAcabes de fer una proposta en una negociació. L'altra part no respon immediatament. S'estableix un silenci de cinc, deu, quinze segons.\n\nLa majoria de persones no poden suportar aquell silenci. Parlen. I quan parlen, solen fer alguna cosa que els perjudica: justifiquen la proposta (comunicant inseguretat), ofereixen una concessió (sense que ningú la hagi demanat) o fan una pregunta que desvia el tema.\n\nEl silenci els ha vençut sense que l'altra part hagi dit res."
+        },
+        {
+          "type": "key-idea",
+          "text": "En negociació, el silenci és pressió. Quan fas una proposta o una pregunta i te'n cals, trasllades la responsabilitat d'omplir el silenci a l'altra part. La majoria de persones omplirà aquell silenci amb informació, concessions o justificacions que no hauries obtingut si haguessis parlat tu."
+        },
+        {
+          "type": "expandable",
+          "label": "L'estudi dels 3,5 segons: com el silenci post-proposta canvia els resultats",
+          "content": "Investigadors de la Harvard Business School van estudiar l'impacte del silenci post-proposta en negociació. Van trobar que els negociadors que, després de fer una proposta, esperaven en silenci durant una mitjana de 3,5 segons o més obtenien sistemàticament millors respostes de l'altra part que els que omplien el silenci ràpidament.\n\nEl mecanisme és doble. Primer: el silenci comunica confiança en la proposta. Qui omple immediatament el silenci communica que no confia que la proposta sigui prou bona per sostenir-se sola. Segon: el silenci activa en l'altra part el que els psicòlegs anomenen «dissonància cognitiva del buit» — la necessitat de respondre alguna cosa. I la resposta sovint conté informació valuosa sobre els seus interessos, límits o flexibilitat.\n\nVoss descriu el silenci post-proposta com «deixar que les paraules tremolin en l'aire». No és indiferència ni arrogància — és confiança."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-02-01",
+          "style": "multiple-choice",
+          "question": "Acabes de demanar un augment de sou del 12%. El teu cap diu «és molt» i para. Silenci. Quina és la millor resposta?",
+          "options": [
+            "Explicar de nou per qué creus que mereixes l'augment, amb més detalls",
+            "Preguntar «quant creus que seria raonable?» per saber el seu punt de partida",
+            "Mantenir el silenci i esperar que continui parlant",
+            "Oferir una xifra alternativa lleugerament inferior per mostrar flexibilitat"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "«És molt» seguit de silenci és una resposta deliberadament ambigua — no és un «no», no és una contraoferta, no és una justificació. L'altra part t'ha passat la pilota. Si parles tu, ets tu qui l'omple amb les teves condicions. Si cales, l'obligues a continuar. Molt sovint, el que diu la persona a continuació és informació valuosa: potser explica quin rang seria possible, potser explica les raons per les quals el 12% és difícil (que et diu on hi ha marge), o potser fa una contraoferta. Qualsevol d'aquells outcomes és millor per a tu que l'opció D (concessió no demanada) o l'A (justificació defensiva).",
+          "feedbackWrong": "«És molt» + silenci és una prova. L'altra part t'ha passat la responsabilitat d'omplir el buit. Les opcions A i D és el que fa la majoria — i ambdues perjudiquen la posició: l'A comunica inseguretat, la D cedeix sense que ningú hagi demanat res. L'opció B és millor que A i D però t'allunya del teu ancoratge inicial. L'opció C és la que maximitza la informació: el que l'altra part diu per omplir el silenci serà molt més útil que el que tu puguis dir."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-02-02",
+          "style": "true-false",
+          "question": "El silenci funciona igual de bé en negociacions per missatge de text o correu electrònic que en negociacions cara a cara.",
+          "correct": false,
+          "feedbackCorrect": "Fals. El silenci en comunicació escrita té una dinàmica molt diferent. En una conversa presencial, el silenci és físicament present i socialment incòmode — activa la necessitat de resposta de forma immediata i visceral. En escrit, un «silenci» (no respondre durant hores o dies) pot interpretar-se com a desinterès, manca de recepció del missatge o tàctica transparent. A més, la comunicació escrita elimina els senyals no verbals que fan que el silenci presencial sigui ric en informació (postura, expressió facial, respiració). En negociació per correu o missatgeria, altres tècniques —el ritme de resposta, la longitud del missatge, la precisió del llenguatge— juguen el paper que el silenci juga en persona.",
+          "feedbackWrong": "La dinàmica del silenci és molt diferent en format escrit. Presencialment, el silenci activa una incomoditat social immediata i visceral que la majoria de persones no pot sostenir. En escrit, no respondre durant hores pot interpretar-se com a desinterès o tàctica massa evident. A més, el silenci presencial va acompanyat de senyals no verbals que el fan informatiu; en escrit, aquells senyals no existeixen."
+        },
+        {
+          "type": "analogy",
+          "concept": "El silenci com a pressió en negociació",
+          "emoji": "⚖️",
+          "analogy": "El silenci en negociació funciona com la gravetat en física: no fa res visible, no empeny activament, però actua constantment sobre qualsevol objecte que no tingui suport. Quan deixes caure una proposta i no dius res, la gravetat del silenci social actua sobre l'altra persona fins que necessita dir alguna cosa per sostenir-se.",
+          "bridge": "La clau és que la gravetat no requereix que tu facis res — requereix que no facis res. El mateix passa amb el silenci: el seu poder prové precisament de la teva inacció. Quan parles per omplir el buit, elimines la gravetat i alliberes l'altra part de la pressió de respondre."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tec-02-01",
+          "question": "La intolerància al silenci en negociació és universal o varia entre cultures i personalitats?",
+          "options": [
+            "És universal: el silenci social és incòmode per a totes les persones en totes les cultures",
+            "Varia significativament: cultures amb alta tolerància al silenci (algunes cultures nòrdiques, japonesa) i persones introvertides negocien de forma diferent davant del silenci",
+            "Depèn del context: el silenci és incòmode en negociacions emocionals però neutral en negociacions transaccionals"
+          ],
+          "correct": 1,
+          "explanation": "La recerca intercultural sobre comunicació i negociació documenta variació significativa en la tolerància al silenci. En negociació de negocis japonesa, els silencis llargs (de minuts, no de segons) formen part del protocol i comuniquen consideració, no incertesa. Negociadors occidentals que no coneixen la norma cultural tendeixen a omplir aquells silencis amb concessions que els negociadors japonesos ni havien demanat. Cultures nòrdiques (finlandesa, noruega) mostren major tolerància al silenci que cultures mediterrànies o llatinoamericanes, on el silenci en conversa es percep ràpidament com a signe de conflicte o desinterès. Les diferències individuals (introversió/extraversió, nivell d'ansietat social) també modulen la resposta al silenci. Implicació pràctica: en negociació intercultural, entendre la norma cultural de l'altra part respecte al silenci és tant important com entendre el seu context de mercat."
+        }
+      ]
+    },
+    {
+      "id": "tec-03",
+      "title": "Reencadrar canvia tot",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Dos fets idèntics, presentats de dues maneres:\n\n«Aquesta carn té un 20% de greix».\n«Aquesta carn és un 80% magra».\n\nSón exactament la mateixa informació. En estudis controlats, les persones valoren molt més positivament la segona versió que la primera — i prenen decisions de compra consistentment diferents basades en una diferència de presentació sense cap diferència de contingut.\n\nAixò no és màgia ni manipulació. És el reencadrament. I en negociació, és una de les eines més potents que existeixen."
+        },
+        {
+          "type": "key-idea",
+          "text": "El reencadrament és canviar la manera com es presenta una situació, proposta o problema — sense canviar els fets — de forma que activi un marc de referència diferent en l'altra part. Els marcs de referència determinen com s'avalua la informació: la mateixa concessió es percep de forma radicalment diferent si es presenta com a «guany» o com a «pèrdua evitada»."
+        },
+        {
+          "type": "expandable",
+          "label": "Els «labels» de Voss: donar nom a les emocions de l'altra part",
+          "content": "Una de les tècniques de reencadrament més específiques de Chris Voss s'anomena «labeling» (etiquetatge emocional). Consisteix en identificar verbalment l'emoció o la perspectiva que sembla tenir l'altra part, sense jutjar-la ni concordar amb ella.\n\nExemples:\n— «Sembla que et preocupa que el canvi pugui afectar el calendari»\n— «Sembla que hi ha alguna cosa en la proposta que no t'acaba de convèncer»\n— «Sembla que aques ta decisió et posa en una posició difícil»\n\nEl «label» fa dues coses simultàniament: demostra que estàs escoltant (reduint la defensivitat de l'altra part) i enmarca explícitament la situació des del punt de vista de l'altra part, creant un espai de validació que sovint genera obertura.\n\nDetall tècnic important: els labels comencen per «sembla que» o «tinc la sensació que», no per «entenc com et sents». La diferència és subtil però important: «entenc com et sents» és una afirmació que l'altra part pot contradir («no, no ho entens»). «Sembla que» és una hipòtesi que l'altra part confirmarà o corregirà — i tots dos outcomes són útils.\n\nVoss va usar aquesta tècnica en negociacions d'ostatges durant anys. La van incorporar posteriorment en negociació comercial, mediació familiar i fins i tot en converses difícils entre parelles."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-03-01",
+          "style": "multiple-choice",
+          "question": "Estàs negociant les condicions d'un contracte amb un proveïdor. Ell diu: «No puc baixar el preu per sota de X». Quina resposta aplica millor el reencadrament?",
+          "options": [
+            "«Entenc que tens costos fixos, però les nostres opcions alternatives costen menys»",
+            "«Sembla que el preu és un límit real per a tu. Pots ajudar-me a entendre quins costos el componen?»",
+            "«Doncs haurem de buscar un altre proveïdor si no pots moure't d'aquí»",
+            "«I si paguem per avançat una part, podries ajustar el preu?»"
+          ],
+          "correct": 1,
+          "feedbackCorrect": "L'opció B combina labeling («sembla que el preu és un límit real») amb una pregunta que reencadra la conversa: en lloc de discutir sobre el preu com a número, la descompon en components (costos). Aquella descomposició sovint revela que no tots els components del preu són igualment rígids — hi pot haver eficiències logístiques, ajustos de volum, o components de marge que sí són negociables. L'opció D (pagament avançat) és una tècnica d'intercanvi de valor vàlida però és posicional i salta la fase d'exploració d'interessos. L'opció A és una amenaça de BATNA que funciona si és real però que salta l'exploració.",
+          "feedbackWrong": "L'opció B aplica dues eines: el label («sembla que el preu és un límit real») que valida la posició del proveïdor sense concordar-hi, i una pregunta que descompon el «preu» en components — reencadrant la negociació de «preu fix» a «estructura de costos». Sovint hi ha components negociables que la posició «no puc baixar de X» amaga. Explorar-los és més productiu que contrarestar directament."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-03-02",
+          "style": "detect-error",
+          "statement": "El reencadrament és una tècnica de manipulació perquè canvia la percepció de l'altra part sense canviar els fets. Un negociador ètic hauria d'evitar-lo i presentar la informació de forma neutra.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació confon reencadrament amb engany. El reencadrament no altera els fets — presenta els mateixos fets des d'una perspectiva diferent. La qüestió ètica no és si presentes els fets des d'un angle o un altre (sempre ho fas, inevitablement), sinó si aquella presentació és honesta i serveix interessos legítims. Presentar un contracte de 24 mesos com a «compromís de llarga durada» o «seguretat garantida de 2 anys» no és engany si tots dos enunciats descriuen la mateixa realitat. A més, la neutralitat absoluta en la presentació de la informació és una ficció: qualsevol presentació implica una selecció i un ordre que afecta la percepció. El reencadrament ètic és transparent en els fets i deliberat en la perspectiva. El reencadrament no ètic amaga informació rellevant o presenta dades falses."
+        },
+        {
+          "type": "perspective",
+          "situation": "Negociació d'un augment de sou",
+          "perspectives": [
+            {
+              "role": "Empleat sense reencadrament",
+              "emoji": "😰",
+              "text": "«Crec que mereixo un augment del 10%. Porto tres anys a l'empresa i he fet un bon treball.» La conversació se centra en si tres anys i bon treball «justifiquen» el 10%. El cap avalua si la demanda és «raonable»."
+            },
+            {
+              "role": "Empleat amb reencadrament",
+              "emoji": "💼",
+              "text": "«El mercat per a perfils com el meu paga entre X i Y. El meu nivell actual és un 15% per sota del rang de mercat. Voldria parlar de com ajustem això.» La conversa se centra en el gap respecte al mercat — un fet extern i objectiu, no una demanda personal."
+            }
+          ],
+          "reflection": "Quina diferència hi ha entre les dues converses en termes de poder i emocions? Quin marc fa que el cap hagi d'argumentar per no donar l'augment en lloc de l'empleat haver d'argumentar per obtenir-lo?"
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tec-03-01",
+          "question": "Kahneman i Tversky van demostrar que les persones responen de forma diferent a la mateixa informació presentada com a «guany» vs. com a «pèrdua evitada». En negociació, quin marc és generalment més efectiu per presentar una proposta?",
+          "options": [
+            "El marc de guany: «Amb aquest acord, obtindràs X»",
+            "El marc de pèrdua: «Sense aquest acord, perdràs Y»",
+            "Depèn del context i de l'interlocutor: el marc de pèrdua és més potent però pot generar resistència; el marc de guany és menys potent però crea un estat emocional positiu que facilita l'acord"
+          ],
+          "correct": 2,
+          "explanation": "La teoria de les perspectives de Kahneman i Tversky demostra que les pèrdues pesen psicològicament dues vegades més que els guanys equivalents. En principi, això suggeriria que el marc de pèrdua («sense acord, perds Y») és sempre més potent. I en termes d'activació motivacional, ho és. Però el marc de pèrdua té un cost: activa l'amígdala i pot posar l'altra part en mode defensiu, cosa que dificulta l'exploració creativa de solucions. En negociació on la relació és important o on es busca col·laboració, el marc de pèrdua pot bloquejar la conversa. En negociació transaccional o de tancament, on l'objectiu és activar la decisió, el marc de pèrdua és més efectiu. La habilitat del negociador és saber quin marc serveix millor en cada moment: el de guany quan vols crear obertura i col·laboració, el de pèrdua quan vols activar la decisió i l'altra part triga a moure's."
+        }
+      ]
+    },
+    {
+      "id": "tec-04",
+      "title": "El «no» que obre portes",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Tots els cursos de vendes i negociació ensenyen a buscar el «sí». Sonar positiu. Generar acord. Evitar el «no» com si fos el final.\n\nChris Voss va aprendre a fer exactament el contrari. En negociació d'ostatges, on un error significa una mort, va descobrir que el «sí» és sovint la resposta més perillosa que pots rebre.\n\nPerquè hi ha tres tipus de «sí»: el «sí» de compromís (el que vols), el «sí» de confirmació (un «sí» que no compromet res) i el «sí» fals (dir «sí» per acabar la conversa). I no pots saber quin has obtingut."
+        },
+        {
+          "type": "key-idea",
+          "text": "Un «no» genuí és en molts casos un millor punt de partida que un «sí» ambigú. Quan algú diu «no», diu alguna cosa real sobre els seus límits, necessitats o condicions. Un «no» és un inici de negociació disfressat. Un «sí» fals és el final d'una negociació que mai no ha tingut lloc."
+        },
+        {
+          "type": "expandable",
+          "label": "La tècnica de la pregunta orientada al «no»: per qué funciona",
+          "content": "Voss va desenvolupar una tècnica contraintuïtiva: en lloc de preguntar coses que busquen el «sí», fer preguntes que conviden al «no».\n\nExemple clàssic en vendes:\n— Pregunta orientada al «sí»: «Estàs interessat en millorar la teva eficiència?» (ningú diu no)\n— Pregunta orientada al «no»: «Hauries d'abandonar el projecte si no trobéssim una solució que s'ajusti al teu pressupost?\"\n\nO en una negociació de condicions:\n— «¿Has descartado trabajar con nosotros en este proyecto?\"\n\nQuan algú respon «no, no ho he descartat», en realitat ha afirmat el contrari: que hi ha interès. I aquell «no» és molt més real i comprometedor que un «sí» davant de «estàs interessat?».\n\nEl mecanisme psicològic és l'autonomia: dir «no» se sent com a control, com a protecció dels propis interessos. Les persones se senten menys manipulades quan diuen «no» que quan diuen «sí». Un «no» és una posició de seguretat des de la qual es pot negociar."
+        },
+        {
+          "type": "misconception",
+          "belief": "Si l'altra part diu «no» a la teva proposta, la negociació s'ha acabat o ha retrocedit significativament. Un bon negociador evita el «no» de l'altra part.",
+          "reality": "Un «no» directe conté informació: diu que alguna cosa de la proposta no funciona. Aquella informació és exactament el que necessites per reencadrar, ajustar o explorar alternatives. Un «sí» fals o ambigú no et dóna res — et deixa creient que hi ha acord quan no n'hi ha. El «no» és l'inici d'una conversa real.",
+          "why": "L'aversió al «no» prové de la seva associació amb el rebuig personal i el fracàs. En vendes i negociació, s'entrena explícitament a evitar situacions que puguin generar un «no» — cosa que produeix converses superficials que semblen positives però no porten a cap lloc real."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-04-01",
+          "style": "multiple-choice",
+          "question": "Portes tres setmanes negociant un contracte amb un client important. Ell ha sigut esquiu, no respon als correus amb claredat i en l'última reunió va dir «ho estudio». Quin missatge té major probabilitat d'obtenir una resposta real?",
+          "options": [
+            "«Qualsevol dubte que tinguis sobre la proposta, estic disponible per aclarir-lo»",
+            "«Has tingut oportunitat de revisar la proposta? Quan podríem parlar?»",
+            "«Has decidit no continuar amb aquest projecte?»",
+            "«La nostra oferta és vàlida fins a finals de mes — volem assegurar-nos que tens tota la informació per decidir»"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "L'opció C és la pregunta orientada al «no» de Voss. Si el client respon «no, no he decidit no continuar», en realitat ha confirmat que hi ha interès real — i has sortit de la zona grisa de l'esquivament. Si respon «sí, ho hem descartat», has obtingut informació real que et permet tancar, redirigir o entendre per qué. Qualsevol de les dues respostes és millor que el silenci i l'esquivament en els quals estàs atrapat. Les opcions A i B generen fàcilment un altre silenci o un altre «ho estudio». L'opció D és pressió de tancament que pot funcionar però que no resol la incertesa sobre l'interès real.",
+          "feedbackWrong": "L'opció C trenca el cicle d'esquivament: «has decidit no continuar?» obliga l'altra part a prendre posició. Si la resposta és «no» (no ho he descartat), has confirmat l'interès real. Si la resposta és «sí» (ho hem descartat), has obtingut informació real que et permet moure't. Les opcions A i B generen fàcilment un altre «ho estudio». La C usa la psicologia del «no» per forçar una resposta real."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-04-02",
+          "style": "true-false",
+          "question": "La tècnica de la pregunta orientada al «no» funciona perquè l'altra part no s'adona que és una tècnica de negociació i respon de forma espontània.",
+          "correct": false,
+          "feedbackCorrect": "Fals — i és un punt important. La tècnica no funciona perquè enganyi ningú. Funciona perquè s'ajusta a la psicologia real de com les persones processen les decisions. Dir «no» se sent genuïnament com a control i autonomia. La pregunta «has descartat X?» crea un espai de seguretat psicològica en el qual l'altra part pot respondre amb honestedat sobre el seu estat real. Fins i tot si l'altra part sap perfectament que és una tècnica, el seu efecte persisteix perquè opera sobre mecanismes cognitius bàsics, no sobre la ignorància. Les millors tècniques de negociació no necessiten que l'altra part les ignori per funcionar.",
+          "feedbackWrong": "La tècnica no depèn de l'engany. Opera sobre la psicologia real de l'autonomia i el control: dir «no» se sent genuïnament diferent que dir «sí» per a la majoria de persones, independentment de si coneixen la tècnica. Fins i tot negociadors que coneixen l'origen de la pregunta responen de forma més honesta a «has descartat X?» que a «t'interessa X?» — perquè la primera pregunta activa un marc de control personal que la segona no activa."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tec-04-01",
+          "question": "Si el «no» és tan útil en negociació, quan és realment el final de la negociació i no un punt de partida?",
+          "options": [
+            "Quan l'altra part ha dit «no» més de tres vegades — en aquell punt la posició és sòlida",
+            "Quan el «no» va acompanyat de tancament de la conversa, retirada física o comunicació explícita de que no hi ha interès en continuar",
+            "Quan el «no» és a una pregunta orientada al «no» dissenyada per obtenir compromís — en aquell cas confirma la falta d'interès"
+          ],
+          "correct": 1,
+          "explanation": "Distingir el «no» negociable del «no» definitiu és una de les habilitats més importants i difícils de la negociació. El «no» definitiu no és el que es diu —és el que s'acompanya. Els senyals que indiquen que el «no» és definitiu no formen part del contingut verbal sinó del comportament: tancament de la conversa, retirada de la relació, comunicació explícita de manca d'interès en continuar («no ens interessa per raons que no canviaran»). Un «no» dit en el context d'una negociació activa, amb contacte visual mantingut i sense tancament de canal, és gairebé sempre un «no» a la proposta específica, no a la negociació. L'opció A (contar els «no») és una heurística massa rígida: algunes negociacions requereixen molts més de tres. L'opció C conté una confusió: una pregunta orientada al «no» no confirma la falta d'interès — al contrari, la resposta «no ho he descartat» és la confirmació d'interès que es busca."
+        }
+      ]
+    },
+    {
+      "id": "tec-05",
+      "title": "Quan l'altra part té molt més poder",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Totes les tècniques anteriors assumeixen cert equilibri de poder. Però moltes de les negociacions més importants de la vida quotidiana no funcionen així.\n\nNegocies el sou amb el teu únic ocupador. Negocies el lloguer amb el propietari en una ciutat on no hi ha pisos. Negocies les condicions de treball amb un cap que pren decisions unilateralment. Negocies amb una asseguradora que té un departament legal complet i tu no tens advocat.\n\nLes tàctiques normals de negociació no funcionen en condicions de poder radicalment asimètric. Cal un enfocament diferent."
+        },
+        {
+          "type": "key-idea",
+          "text": "En negociació asimètrica, el poder real no prové de la teva posició de negociació sinó de tres factors: la qualitat del teu BATNA (el que fas si no hi ha acord), la informació que tens sobre els interessos i limitacions de l'altra part, i la legitimitat de la teva posició (estàndards objectius, precedents, normes socials o legals que fan que dir-te «no» tingui un cost per a l'altra part)."
+        },
+        {
+          "type": "expandable",
+          "label": "El principi de legitimitat: per qué «és el preu estàndard» funciona millor que «exigeixo»",
+          "content": "Roger Fisher i William Ury van identificar la «legitimitat» com un dels factors de poder de negociació més subestimats. La idea: quan la teva posició es basa en un estàndard objectiu extern (preu de mercat, precedent legal, norma sectorial, política de l'empresa), fer-te un «no» té un cost social per a l'altra part que una demanda subjectiva no genera.\n\nExemple: «Crec que mereixo més» és una opinió. «El rang de mercat per a aquest rol és X-Y, i la meva compensació actual és un 15% per sota» és un fet extern. Negar el primer és una qüestió de criteri. Negar el segon requereix explicar per qué la seva empresa no segueix el mercat.\n\nEn el context de poder asimètric, la legitimitat és especialment poderosa perquè permet plantejar la demanda com una qüestió de normes —que protegeix la relació— en lloc d'una qüestió de voluntats —que confronta directament amb el poder de l'altra part.\n\nAplicació pràctica: abans de qualsevol negociació asimètrica important (sou, condicions de treball, lloguer), inverteix temps en identificar els estàndards objectius que suportin la teva posició. Preus de mercat, precedents de l'empresa, normes legals, pràctiques sectorials. Amb aquells estàndards com a palanca, deixes de demanar «per favor» i passes a reclamar «el que és estàndard»."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-05-01",
+          "style": "multiple-choice",
+          "question": "Vius de lloguer i el propietari vol augmentar el preu un 20% en la renovació. El mercat de lloguer és molt tensionat i trobar alternativa seria difícil. Quin enfocament té major efectivitat en aquesta situació de poder asimètric?",
+          "options": [
+            "Explicar la teva situació econòmica personal per generar empatia",
+            "Amenaçar amb marxar per pressionar, malgrat que marxar seria molt difícil",
+            "Presentar dades de preus comparables del mercat per la zona i proposar un augment alineat amb aquells preus, enquadrant la conversa com una qüestió d'ajust al mercat, no de demanda personal",
+            "Acceptar i negociar millores a l'habitatge com a compensació per l'augment"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "L'opció C aplica el principi de legitimitat en un context de poder asimètric. En lloc de demanar menys (petició personal subjectiva), presents estàndards de mercat que emmarcen la proposta del propietari com a «per sobre del mercat» — un fet que requereix justificació. Un propietari raonable que vol mantenir bons inquilins pot acceptar un augment alineat amb el mercat fins i tot sense modificar la seva posició de poder. L'opció B (amenaça de marxar) és arriscada si el BATNA és feble — una amenaça buida es detecta i empitjora la posició. L'opció A (empatia personal) rarament funciona en negociació de preu: no és rellevant per als interessos del propietari.",
+          "feedbackWrong": "L'opció C usa la legitimitat com a palanca en condicions de poder asimètric. Dades de mercat transformen la negociació d'una petició personal a una qüestió d'ajust a estàndards — cosa que és molt més difícil de negar per a un propietari que vol mantenir la relació. L'opció B (amenaça de marxar) és contraproduent si el BATNA és feble: una amenaça que l'altra part percep com a buida debilita la posició."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-05-02",
+          "style": "detect-error",
+          "statement": "En negociació asimètrica, la millor estratègia és sempre construir la millor relació personal possible amb l'altra part. Si t'aprecien com a persona, seran més flexibles amb les condicions.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és parcialment certa però estratègicament incompleta i a vegades contraproduent. La relació personal pot ajudar a obtenir petites flexibilitats en condicions poc rellevants, però rarament canvia les decisions estructurals importants. Un cap que t'aprecia personalment et pot donar un dia de teletreball addicional, però probablement no et donarà un augment del 15% si no hi ha una raó estructural (mercat, rendiment, retenció). Més important: dependre de la relació personal en una negociació asimètrica crea una vulnerabilitat — si la relació es deteriora per qualsevol raó, perds la teva única palanca. Les pallaves estructurals (BATNA, legitimitat, informació) funcionen independentment de si l'altra part t'aprecia."
+        },
+        {
+          "type": "timeline",
+          "events": [
+            {
+              "year": "Pas 1",
+              "title": "Clarifica el teu BATNA real",
+              "text": "Quines alternatives tens si no hi ha acord? Sigues honest: un BATNA sobrestimat és pitjor que no tenir-ne."
+            },
+            {
+              "year": "Pas 2",
+              "title": "Identifica estàndards objectius",
+              "text": "Preus de mercat, precedents, normes legals, pràctiques del sector. Transforma la teva posició de subjectiva a basada en fets externs."
+            },
+            {
+              "year": "Pas 3",
+              "title": "Investiga els interessos i limitacions de l'altra part",
+              "text": "Fins i tot en posicions de poder, l'altra part té interessos (retenció, reputació, eficiència) i limitacions (pressupost, normes internes, precedents). Conèixer-los canvia la conversa."
+            },
+            {
+              "year": "Pas 4",
+              "title": "Planteja la conversa en termes de normes, no de voluntats",
+              "text": "«Voldria X» és una voluntat. «El mercat/precedent/norma diu Y i la meva situació actual és Z» és una qüestió de legitimitat. El primer és fàcil de negar. El segon requereix justificació."
+            }
+          ]
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tec-05-01",
+          "question": "Si una persona en posició de poder asimètric usa sistemàticament la legitimitat i els estàndards objectius per negociar, pot acabar canviant la dinàmica de poder de la relació a llarg termini?",
+          "options": [
+            "No: el poder estructural és fix i cap tàctica de negociació el canvia de forma duradora",
+            "Sí: la negociació consistent basada en legitimitat construeix reputació de professionalitat i crea un precedent que fa cada negociació futura més fàcil",
+            "Depèn: en relacions de llarga durada (feina, habitatge estable), sí pot canviar la dinàmica; en transaccions puntuals, no"
+          ],
+          "correct": 1,
+          "explanation": "La recerca sobre dinàmiques de poder en negociació mostra que el poder no és únicament estructural — és parcial ment construït per la historia d'interaccions. Una persona que consistentment negocia des de la legitimitat (dades, precedents, normes) és percebuda al llarg del temps de forma diferent que una persona que accepta sempre o que s'oposa sempre sense fonament. La reputació de «negociador de bona fe basat en fets» és un actiu de poder que s'acumula. A llarg termini, fins i tot en relacions asimètriques, la part estructural ment feble que usa la legitimitat de forma consistent pot aconseguir: que l'altra part consulti les normes abans de fer propostes unilaterals, que s'estableixi un precedent de negociació en lloc d'imposició, i que la relació es reequilibri parcialment cap a un mode més col·laboratiu. L'opció C té base però subestima l'efecte en transaccions puntuals: fins i tot en una negociació única, la legitimitat canvia la percepció de la part dominant sobre el cost de negar."
+        }
+      ]
+    },
+    {
+      "id": "tec-06",
+      "title": "Les trampes del tancament",
+      "blocks": [
+        {
+          "type": "narrative",
+          "text": "Has fet tot bé. Has preparat el BATNA, has ancorat correctament, has explorat els interessos, has gestionat les emocions. La negociació va bé.\n\nI aleshores arriba el moment del tancament. I tot el que has construït pot desfer-se en uns minuts per uns quants biaixos cognitius molt específics que s'activen exactament en aquell moment.\n\nLa fase final d'una negociació és, paradoxalment, on es perden més acords que s'havien guanyat."
+        },
+        {
+          "type": "key-idea",
+          "text": "L'escalada de compromís, la pressió de temps artificial i la tàctica del «és el màxim que puc fer» són les tres trampes cognitives més freqüents al tancament d'una negociació. Les tres exploten el desig de tancament i l'aversió a la pèrdua per fer acceptar condicions que en fred no haurien passat."
+        },
+        {
+          "type": "expandable",
+          "label": "L'escalada de compromís: per qué és tan difícil abandonar una negociació llarga",
+          "content": "L'escalada de compromís (sunk cost fallacy aplicada a decisions) és la tendència a continuar invertint en un curs d'acció perquè ja s'hi ha invertit molt, independentment de si té sentit continuar.\n\nEn negociació: quan portes tres reunions, moltes hores i energia emocional en una negociació, el cost d'abandó se sent enormement alt. Aquell sentiment empeny a acceptar condicions pitjors que no hauries acceptat al principi — perquè «marxar ara seria llençar tot el que hem fet».\n\nL'altra part sovint ho sap i ho usa: les tàctiques de «última hora» (afegir condicions noves al moment de signar, canviar termes menors just al final) funcionen precisament perquè l'escalada de compromís fa que la part en posició feble prefereixi acceptar que tornar a començar.\n\nLa defensa és conceptualment simple però emocionalment difícil: els costos passats (temps, energia, negociació feta) no haurien d'influir en la decisió de si acceptar l'acord actual. La pregunta correcta no és «quant hem invertit en arribar aquí?» sinó «és aquest acord millor que la meva millor alternativa ara?»"
+        },
+        {
+          "type": "misconception",
+          "belief": "Si una negociació ha durat molt temps i hem estat a prop de l'acord, és millor acceptar condicions lleugerament pitjors que trencar-ho tot al final. El que s'ha invertit no es pot perdre.",
+          "reality": "Els costos passats (temps, energia, negociació anterior) no haurien de determinar si acceptes un acord. L'únic criteri rellevant és si l'acord que tens davant és millor que el teu BATNA actual. Un acord lleugerament per sota de les condicions òptimes signat per escalada de compromís pot tenir un cost molt major que el cost d'abandonar la negociació i tornar-hi des d'una posició millor.",
+          "why": "L'aversió a la pèrdua fa que el cost psicològic de «perdre» el que hem invertit en la negociació pesi molt més que el benefici racional de prendre la millor decisió. A més, la por al conflicte i al rebuig social en el moment de dir «no» al final activen tancament cognitiu: acceptar és el camí de menor resistència emocional."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-06-01",
+          "style": "multiple-choice",
+          "question": "Portes dues setmanes negociant la compra d'un cotxe de segona mà. Heu acordat el preu. Just quan vas a signar, el venedor diu: «Ah, he oblidat dir-te que les rodes d'hivern no estan incloses en el preu que hem parlat». Quin és el millor enfocament?",
+          "options": [
+            "Acceptar: després de dues setmanes, la diferència del cost de les rodes no justifica trencar l'acord",
+            "Negar-se completament i marxar per donar un senyal clar que no acceptes canvis d'última hora",
+            "Parar completament, nomenar el que ha passat («el preu acordat incloïa el cotxe com estava anunciat, i les rodes eren part d'allò») i tractar el nou element com a una nova negociació separada",
+            "Acceptar però demanar una reducció equivalent del preu per compensar"
+          ],
+          "correct": 2,
+          "feedbackCorrect": "L'opció C aplica dues coses simultàniament: nomenar explícitament el que ha passat (una tàctica de canvi de darrera hora) i reformular la situació com a nova negociació, no com a concessió dins de la negociació existent. Nomenar el que ha passat sense acusació («el preu acordat incloïa el cotxe tal com estava anunciat») activa el principi de legitimitat i posa l'altra part en posició de justificar el canvi. L'opció D (acceptar i compensar) és millor que A però entra en el joc de la tàctica d'última hora acceptant implícitament que és legítim afegir elements nous al final. L'opció B és una reacció excessiva que pot trencar un acord que en fons era bo.",
+          "feedbackWrong": "L'opció C és la resposta estratègica: nomenar el que ha passat (una addició d'última hora) sense acusació, i tractar-ho com una nova negociació. Acceptar (A) recompensa la tàctica i estableix un precedent. Marxar (B) pot ser excessiu per una qüestió resoluble. Compensar (D) és millor que acceptar passivament però entra en el joc de la tàctica sense nomenar-la."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tec-06-02",
+          "style": "detect-error",
+          "statement": "La pressió de temps en negociació («l'oferta és vàlida fins avui», «tinc un altre interessat») és sempre una tàctica artificial de manipulació i mai no s'ha de tenir en compte.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és incorrecta per excés de generalització. La pressió de temps pot ser real o artificial, i confondre les dues té costos en tots dos sentits. Pressió real: un venedor que realment té un altre interessat concret, una oferta de feina amb data límit d'acceptació real, un preu de mercat que pot canviar. Pressió artificial: «l'oferta caduca avui» en una negociació on el venedor té molt poc moviment, «tinc altres interessats» sense cap base real. La clau és verificar: pots demanar evidència de l'altre interessat, preguntar si la data límit és flexible si en tens una bona raó, o investigar el moviment del mercat. Si la pressió és real, has de prendre decisions en el temps disponible. Si és artificial, sovint el venedor cedirà en la data quan vegi que no cedirà en el preu."
+        },
+        {
+          "type": "debate",
+          "question": "Les tècniques de negociació que hem vist en els dos mòduls (ancoratge, pressió del silenci, preguntes orientades al «no», gestió de l'escalada de compromís) es poden usar de forma no ètica per obtenir avantatges sobre persones menys informades. Hauria de limitar-se l'ensenyament d'aquestes tècniques?",
+          "positionA": {
+            "label": "Sí — el coneixement de tècniques de negociació augmenta la desigualtat",
+            "argument": "Les tècniques de negociació avançada les aprenen principalment les persones amb accés a formació cara (MBAs, cursos executives). Quan negocien amb persones que no coneixen les tècniques (treballadors de baixa qualificació, inquilins en mercats tensos, consumidors davant de grans empreses), aquell avantatge cognitiu amplifica les desigualtats estructurals existents. Democratitzar el coneixement sembla la solució però a la pràctica és difícil d'aconseguir."
+          },
+          "positionB": {
+            "label": "No — la solució és difondre el coneixement, no restringir-lo",
+            "argument": "Restringir l'ensenyament de tècniques de negociació no reduiria la seva aplicació per part de qui ja les sap — simplement perpetuaria el desequilibri. La solució és exactament el contrari: difondre el coneixement perquè qui negocia des de posicions estructuralment febles pugui fer-ho amb les mateixes eines. Un treballador que sap ancorar, usar el silenci i basar-se en legitimitat negocia molt millor que un que no sap fer-ho."
+          },
+          "reflection": "Les dues posicions assumeixen implícitament coses molt diferents sobre com es redistribueix el coneixement en una societat. Quina assumeix cada una?",
+          "context": "Alguns programes de justícia econòmica i empoderament de treballadors inclouen explícitament formació en tècniques de negociació. La recerca sobre el seu impacte és incipient però consistent amb la postura B."
+        },
+        {
+          "type": "reflection",
+          "question": "Repassa mentalment les sis eines dels dos mòduls: BATNA, ancoratge, negociació d'interessos, escolta activa, silenci, reencadrament, «no» estratègic, legitimitat en asimetria, i resistència al tancament precipitat. Quina d'elles canviaria més la teva propera negociació important si la practiquessis de forma deliberada?",
+          "prompt": "Triar una sola eina per practicar és molt millor que intentar aplicar-les totes alhora."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tec-06-01",
+          "question": "La recerca sobre aprenentatge de tècniques de negociació mostra que les persones solen millorar en les simulacions de laboratori però no necessàriament en negociacions reals. Per qué?",
+          "options": [
+            "Perquè les tècniques apreses en formació no es transfereixen a situacions amb càrrega emocional real",
+            "Perquè les tècniques de negociació requeriren molta pràctica repetida en situacions reals per automatitzar-se",
+            "Tots dos factors operen: l'emoció de les situacions reals inhibeix les tècniques apreses, i la pràctica deliberada en situacions reals (no en simulació) és el que consolida l'aprenentatge"
+          ],
+          "correct": 2,
+          "explanation": "La bretxa entre aprenentatge en formació i aplicació en situació real és un dels problemes més ben documentats en psicologia de l'aprenentatge aplicat a la negociació. El factor emocional (opció A) és real: quan hi ha aposta emocional real (un sou, una relació, una situació laboral), el sistema nerviós s'activa i les tècniques apreses en fred rarament estan prou automatitzades per mantenir-se. El factor de pràctica (opció B) és igualment real: l'aprenentatge de procediments complexos requereix repetició fins a la automatització. La combinació (opció C) descriu la situació real: per transferir tècniques de negociació de la formació a la vida real, cal pràctica deliberada en situacions amb càrrega emocional real — no simulacions sense aposta. La implicació pràctica: per aprendre a negociar, negocia. Petites negociacions quotidianes (una petició a un veí, un ajust amb un proveïdor, una renegociació d'un servei) practicades amb intenció deliberada construeixen l'automatisme que permet aplicar les tècniques quan l'emoció és alta."
+        }
+      ]
+    }
+  ]
+}

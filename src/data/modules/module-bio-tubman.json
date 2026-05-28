@@ -10,6 +10,18 @@
       "title": "Araminta Ross: néixer esclava al Maryland",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-tub-01-01",
+          "question": "Harriet Tubman va créixer sense educació formal, sense saber llegir ni escriure, en condicions d'esclavitud. Com es pot explicar el seu lideratge extraordinari?",
+          "options": [
+            "Per qualitats innates de carisma i intel·ligència que van florir malgrat les condicions adverses —un exemple de talent que supera les circumstàncies",
+            "Per les habilitats pràctiques que va adquirir en la seva experiència específica: conèixer el territori, entendre la natura, llegir les estrelles, anticipar el perill. L'esclavitud li havia donat, paradoxalment, les habilitats que necessitava",
+            "El lideratge de Tubman era inseparable del seu context: l'esclavitud va crear les circumstàncies en les quals les seves qualitats específiques (coratge, orientació, coneixement del territori) tenien un valor excepcional. En un context diferent, les mateixes qualitats podrien no haver tingut el mateix impacte"
+          ],
+          "correct": 2,
+          "explanation": "La pregunta sobre l'origen del lideratge de Tubman és una de les més riques de la seva biografia. La posició A (qualitats innates) és la lectura heroica clàssica: el talent excepcional supera les circumstàncies adverses. Té atractiu però és insatisfactòria perquè ignora com les circumstàncies específiques van formar les capacitats de Tubman. La posició B és més matisada: les habilitats que van fer de Tubman una conductora excepcional (conèixer el territori del Maryland, entendre els patterns del camí cap al Nord, llegir les estrelles) eren habilitats que havia adquirit precisament en les condicions de l'esclavitud —treballant a l'aire lliure, movent-se per zones rurals, observant la natura per sobreviure. La posició C integra les dues: les qualitats de Tubman eren reals, però van trobar el seu context específic —l'esclavitud, el Ferrocarril Subterrani, la urgència de la llibertat— que les va convertir en lideratge."
+        },
+        {
           "type": "quote",
           "text": "Mai vaig agafar un tren del que jo era la conductora i mai vaig descarrilar cap dels meus passatgers.",
           "author": "Harriet Tubman"
@@ -48,18 +60,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. La lesió al cap va causar a Tubman narcolèpsia —atacs sobtats de son que podien arribar en qualsevol moment, sense avís, i que duraven de minuts a hores. Per a una persona que havia de guiar grups de fugitius per territori perillós de nit, era una limitació gravíssima. Malgrat tot, Tubman va dirigir les seves tretze missions amb aquella condició. Les 'visions' que acompanyaven els atacs les interpretava com a revelacions divines sobre el camí a seguir —una interpretació que, paradoxalment, li donava confiança i autoritat entre els seus seguidors.",
           "feedbackWrong": "La lesió va causar narcolèpsia (atacs sobtats de son) i visions que Tubman interpretava com a missatges de Déu. Per a algú que havia de guiar fugitius per nit en territori perillós, era una condició gravíssima. Però Tubman va dur a terme tretze missions amb aquesta limitació."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-tub-01-01",
-          "question": "Harriet Tubman va créixer sense educació formal, sense saber llegir ni escriure, en condicions d'esclavitud. Com es pot explicar el seu lideratge extraordinari?",
-          "options": [
-            "Per qualitats innates de carisma i intel·ligència que van florir malgrat les condicions adverses —un exemple de talent que supera les circumstàncies",
-            "Per les habilitats pràctiques que va adquirir en la seva experiència específica: conèixer el territori, entendre la natura, llegir les estrelles, anticipar el perill. L'esclavitud li havia donat, paradoxalment, les habilitats que necessitava",
-            "El lideratge de Tubman era inseparable del seu context: l'esclavitud va crear les circumstàncies en les quals les seves qualitats específiques (coratge, orientació, coneixement del territori) tenien un valor excepcional. En un context diferent, les mateixes qualitats podrien no haver tingut el mateix impacte"
-          ],
-          "correct": 2,
-          "explanation": "La pregunta sobre l'origen del lideratge de Tubman és una de les més riques de la seva biografia. La posició A (qualitats innates) és la lectura heroica clàssica: el talent excepcional supera les circumstàncies adverses. Té atractiu però és insatisfactòria perquè ignora com les circumstàncies específiques van formar les capacitats de Tubman. La posició B és més matisada: les habilitats que van fer de Tubman una conductora excepcional (conèixer el territori del Maryland, entendre els patterns del camí cap al Nord, llegir les estrelles) eren habilitats que havia adquirit precisament en les condicions de l'esclavitud —treballant a l'aire lliure, movent-se per zones rurals, observant la natura per sobreviure. La posició C integra les dues: les qualitats de Tubman eren reals, però van trobar el seu context específic —l'esclavitud, el Ferrocarril Subterrani, la urgència de la llibertat— que les va convertir en lideratge."
         }
       ]
     },
@@ -67,6 +67,32 @@
       "id": "tub-02",
       "title": "El ferrocarril subterrani: fugir i tornar a buscar",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "character": "Harriet Tubman",
+          "emoji": "🌟",
+          "year": "1851",
+          "setup": "Ets a Maryland per a una de les teves missions. Has ajudat a fugir tres persones i sou a dues hores del punt de recollida cap al Nord. Un dels teus pasatgers, un home adult, diu que no pot continuar —que té por, que vol tornar. Si torna i el capturen, pot revelar sota tortura la ruta, les cases segures i tots els que han ajudat. Portaries anys en presó. Les persones que us han acollit a les cases segures serien empresonades. Tu mates sería buscada amb més intensitat.",
+          "dilemma": "Permets que el passatger torni, arriscant que tota la xarxa sigui descoberta? O l'obligues a continuar a punta de pistola?",
+          "options": [
+            { "id": "A", "text": "El deixo tornar: la llibertat no pot ser forçada. Cadascú ha de triar el seu risc" },
+            { "id": "B", "text": "L'obligues a continuar: el dret individual no pot posar en perill les vides de desenes de persones i anys de construcció de la xarxa" }
+          ],
+          "reveal": "Tubman era explícita sobre aquest escenari. Va dir que quan algú volia tornar, treia el revòlver i deia: 'Pots viure com a esclau o morir com a home lliure, però no tornaràs per revelar la nostra ruta.' Segons els seus testimonis i els dels seus pasatgers, mai va haver d'usar l'arma —però sempre era present. No va perdre mai cap pasatger.",
+          "analysis": "La decisió de Tubman és moralment complexa però estratègicament clara: la xarxa del Ferrocarril Subterrani representava la llibertat de desenes o centenars de persones futures. Permetre que un pasatger 'trontollant' tornés i delatés la xarxa podia destruir-la completament. Tubman valorava la llibertat col·lectiva per sobre de l'elecció individual en aquell moment específic. No era una posició abstracta: era el resultat d'una anàlisi de riscos brutalment pràctica."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-tub-02-01",
+          "question": "Tubman va alliberar directament unes setanta persones en tretze missions. La xifra sembla petita comparada amb el nombre total d'esclaus (quatre milions). Va ser realment significativa la seva contribució?",
+          "options": [
+            "No és significativa en termes numèrics: en un sistema de quatre milions de persones esclavitzades, setanta alliberaments no canviaven res estructural. El veritable canvi va venir de la guerra civil i de la Proclamació d'Emancipació",
+            "Sí, era significativa: no per la xifra sinó pel que demostrava. Cada fugida reeixida provava que era possible, encoratjava altres, i forçava els amos a implementar mesures de seguretat costoses",
+            "La pregunta de la significació numèrica és una manera equivocada de mesurar el valor de la resistència: Tubman no estava intentant solucionar el problema de l'esclavitud estadísticament, sinó resistir-lo moralment i ajudar persones concretes. Les dues dimensions son incomparables"
+          ],
+          "correct": 2,
+          "explanation": "La pregunta és una trampa analítica clàssica: aplicar criteris quantitatius a accions el valor de les quals és en part quantitatiu i en part qualitatiu. La posició A (no significativa numèricament) és tècnicament correcta però moralment reducionista: per a les setanta persones que Tubman va alliberar, la seva acció era absolutament significativa. La posició B (significativa per l'efecte demostratiu) afegeix una dimensió important: les fugides reeixides tenien efectes sobre la moral de les persones esclavitzades i sobre els costos del sistema esclavista per als amos. La posició C és la síntesi filosòficament més adequada: la resistència moral no es mesura exclusivament en unitats. Preguntar 'va valer la pena?' de les accions de Tubman en termes de cost-benefici és aplicar el marc del sistema que ella combatre."
+        },
         {
           "type": "narrative",
           "text": "El Ferrocarril Subterrani no era un ferrocarril i no era subterrani. Era una xarxa de cases segures, rutes i persones —blanques i negres, abolicionistes i quàquers, lliures i esclavitzades— que ajudaven les persones fugitives de l'esclavitud a arribar als estats lliures del Nord o al Canadà. Tubman va escapar a Filadèlfia el 1849. Va treballar per estalviar diners. I va tornar. El desembre del 1850 va anar a buscar la seva neboda i els fills de la neboda. Va tornar a buscar el seu germà i dos amics el 1851. Va tornar a buscar els seus pares (el seu pare estava cec i la seva mare tenia dificultats per caminar) el 1856. En total, tretze missions entre el 1850 i el 1860. S'estima que va alliberar directament unes setanta persones. Frederick Douglass li va escriure: 'No conec cap persona que hagi enfrontat voluntàriament més perills i dificultats per servir al nostre poble esclavitzat que tu.' La recompensa per la seva captura va arribar als 40.000 dòlars —equivalent a més d'un milió i mig de dòlars actuals. Els seus mètodes: viatjar de nit, usar l'Estrella Polar com a guia, sortir els dissabtes (perquè els amos no podien anunciar-se als diaris fins al dilluns), disfressar els grups com a processons fúnebres o treballadors. I el revòlver: Tubman portava sempre una pistola, no per defensar-se dels amos sinó per als membres del grup que podien trontollar. 'Morts no parlen', deia. No va perdre mai cap passatger."
@@ -83,38 +109,12 @@
           ]
         },
         {
-          "type": "what-would-you-do",
-          "character": "Harriet Tubman",
-          "emoji": "🌟",
-          "year": "1851",
-          "setup": "Ets a Maryland per a una de les teves missions. Has ajudat a fugir tres persones i sou a dues hores del punt de recollida cap al Nord. Un dels teus pasatgers, un home adult, diu que no pot continuar —que té por, que vol tornar. Si torna i el capturen, pot revelar sota tortura la ruta, les cases segures i tots els que han ajudat. Portaries anys en presó. Les persones que us han acollit a les cases segures serien empresonades. Tu mates sería buscada amb més intensitat.",
-          "dilemma": "Permets que el passatger torni, arriscant que tota la xarxa sigui descoberta? O l'obligues a continuar a punta de pistola?",
-          "options": [
-            { "id": "A", "text": "El deixo tornar: la llibertat no pot ser forçada. Cadascú ha de triar el seu risc" },
-            { "id": "B", "text": "L'obligues a continuar: el dret individual no pot posar en perill les vides de desenes de persones i anys de construcció de la xarxa" }
-          ],
-          "reveal": "Tubman era explícita sobre aquest escenari. Va dir que quan algú volia tornar, treia el revòlver i deia: 'Pots viure com a esclau o morir com a home lliure, però no tornaràs per revelar la nostra ruta.' Segons els seus testimonis i els dels seus pasatgers, mai va haver d'usar l'arma —però sempre era present. No va perdre mai cap pasatger.",
-          "analysis": "La decisió de Tubman és moralment complexa però estratègicament clara: la xarxa del Ferrocarril Subterrani representava la llibertat de desenes o centenars de persones futures. Permetre que un pasatger 'trontollant' tornés i delatés la xarxa podia destruir-la completament. Tubman valorava la llibertat col·lectiva per sobre de l'elecció individual en aquell moment específic. No era una posició abstracta: era el resultat d'una anàlisi de riscos brutalment pràctica."
-        },
-        {
           "type": "exercise",
           "id": "ex-tub-02-01",
           "style": "detect-error",
           "statement": "El 'Ferrocarril Subterrani' era una xarxa real de túnels i passadissos subterranis construïts per abolicionistes blancs per transportar en secret les persones esclavitzades fugitives des del Sud fins als estats lliures del Nord.",
           "isCorrect": false,
           "feedbackExplanation": "Incorrecte. El 'Ferrocarril Subterrani' no era ni un ferrocarril ni era subterrani. El nom era metafòric: s'usava el vocabulari ferroviari (conductors, estacions, passatgers) per descriure en clave la xarxa de cases segures, rutes i persones que ajudaven els fugitius. Les cases segures eren cases reals de simpatitzants (abolicionistes blancs, quàquers, persones negres lliures). Les rutes eren camins reals per bosc i camp, sovint seguint rius o l'Estrella Polar. No hi havia infraestructura física oculta. L'ús del vocabulari ferroviari en clave servia per parlar sobre la xarxa sense que els que escoltaven entenguessin."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-tub-02-01",
-          "question": "Tubman va alliberar directament unes setanta persones en tretze missions. La xifra sembla petita comparada amb el nombre total d'esclaus (quatre milions). Va ser realment significativa la seva contribució?",
-          "options": [
-            "No és significativa en termes numèrics: en un sistema de quatre milions de persones esclavitzades, setanta alliberaments no canviaven res estructural. El veritable canvi va venir de la guerra civil i de la Proclamació d'Emancipació",
-            "Sí, era significativa: no per la xifra sinó pel que demostrava. Cada fugida reeixida provava que era possible, encoratjava altres, i forçava els amos a implementar mesures de seguretat costoses",
-            "La pregunta de la significació numèrica és una manera equivocada de mesurar el valor de la resistència: Tubman no estava intentant solucionar el problema de l'esclavitud estadísticament, sinó resistir-lo moralment i ajudar persones concretes. Les dues dimensions son incomparables"
-          ],
-          "correct": 2,
-          "explanation": "La pregunta és una trampa analítica clàssica: aplicar criteris quantitatius a accions el valor de les quals és en part quantitatiu i en part qualitatiu. La posició A (no significativa numèricament) és tècnicament correcta però moralment reducionista: per a les setanta persones que Tubman va alliberar, la seva acció era absolutament significativa. La posició B (significativa per l'efecte demostratiu) afegeix una dimensió important: les fugides reeixides tenien efectes sobre la moral de les persones esclavitzades i sobre els costos del sistema esclavista per als amos. La posició C és la síntesi filosòficament més adequada: la resistència moral no es mesura exclusivament en unitats. Preguntar 'va valer la pena?' de les accions de Tubman en termes de cost-benefici és aplicar el marc del sistema que ella combatre."
         }
       ]
     },
@@ -122,6 +122,18 @@
       "id": "tub-03",
       "title": "Espia, sufragista, llegenda: la vida après del ferrocarril",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-tub-03-01",
+          "question": "En 2016 es va anunciar que Tubman substituiria Andrew Jackson al bitllet de 20 dòlars. El 2024, el bitllet encara no s'ha emès. Qué diu aquesta demora sobre la relació entre la commemoració oficial i la justícia real?",
+          "options": [
+            "Res de significatiu: els canvis de disseny de moneda son processos llargs, tècnics i burocràtics. La demora no té cap implicació política",
+            "Diu molt: la resistència a substituir un propietari d'esclaus (Jackson) per una dona negra que va lluitar contra l'esclavitud en el símbol màxim del poder econòmic americà reflecteix les tensions no resoltes sobre raça, gènere i historia als EUA",
+            "La pregunta és interessant però no hi ha resposta definitiva: hi ha factors tècnics reals (el disseny de bitllets és complex) i factors polítics reals (l'administració Trump va suspendre el canvi). Atribuir la demora exclusivament al racisme o exclusivament a la burocracia seria simplista"
+          ],
+          "correct": 2,
+          "explanation": "La història del bitllet de Tubman és un exemple perfecte de com els fets aparentment simples contenen múltiples capes. La posició A (purament burocràtic) ignora que l'administració Trump va suspendre explícitament el procés el 2017 com una decisió política —Steven Mnuchin, secretari del Tresor, va dir que el canvi era 'distracció'. La posició B (purament política-racial) ignora que els canvis de disseny de bitllets realment requeririen anys de treball tècnic (els bitllets actuals incorporen característiques antifalsificació complexes). La posició C és la síntesi: hi ha factors burocràtics reals i factors polítics reals, i la interacció entre els dos és el que explica la demora. Que substituir un propietari d'esclaus per una abolicionista sigui políticament controvertit als EUA del segle XXI diu alguna cosa sobre la historia no resolta del país."
+        },
         {
           "type": "narrative",
           "text": "Quan va esclatar la Guerra Civil el 1861, Harriet Tubman va oferir els seus serveis a l'Exèrcit de la Unió. Va servir a Carolina del Sud com a infermera, cuinera i espia. El juny del 1863, va guiar el coronel James Montgomery i 150 soldats negres a través dels rius de Carolina del Sud minats per mines confederades —havia obtingut la informació dels esclaus locals. El Raid del riu Combahee va destruir infraestructura confederada i va alliberar més de 700 persones esclavitzades en una sola nit. Va ser la primera dona a liderar un atac militar a la historia dels EUA. Va tornar a la vida civil sense que ningú la compensés adequadament: no va rebre paga de l'exèrcit durant trenta anys, malgrat les gestions dels seus aliats. Es va instal·lar a Auburn, Nova York, a la casa que el polític antislavista William Seward li havia venut a preu de cost. Va criar fills adoptats. Va obrir una llar per a ancians negres. I es va incorporar al moviment pel sufragi femení: va assistir a la primera reunió de la National Association of Colored Women (1896) i va parlar repetidament sobre la necessitat que les dones negres obtinguessin el dret al vot. Va morir el 10 de març del 1913, envoltada d'amics i família. Les seves últimes paraules van ser: 'Vaig a preparar un lloc per a vosaltres.' Tenia uns noranta-un anys. El 2016, el Departament del Tresor dels EUA va anunciar que la seva imatge substituiria la d'Andrew Jackson al bitllet de 20 dòlars. El bitllet encara no s'ha emès."
@@ -163,18 +175,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. El Raid del riu Combahee va ser dirigit militarment per Tubman (que havia obtingut la informació sobre les mines a través dels esclaus locals) i el coronel James Montgomery. Va alliberar 727 persones esclavitzades en una sola nit, va destruir infraestructura confederada i va ser la primera acció militar de la historia dels EUA dirigida per una dona. Tubman va rebre molt poc reconeixement en vida per aquesta acció, i no va cobrar la seva paga militar durant trenta anys.",
           "feedbackWrong": "El Raid del riu Combahee va ser la primera acció militar dirigida per una dona en la historia dels EUA, i va alliberar 727 persones esclavitzades en una sola nit. Tubman havia obtingut la informació sobre les mines a través d'esclaus locals i va guiar les tropes a través dels rius perillosos."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-tub-03-01",
-          "question": "En 2016 es va anunciar que Tubman substituiria Andrew Jackson al bitllet de 20 dòlars. El 2024, el bitllet encara no s'ha emès. Qué diu aquesta demora sobre la relació entre la commemoració oficial i la justícia real?",
-          "options": [
-            "Res de significatiu: els canvis de disseny de moneda son processos llargs, tècnics i burocràtics. La demora no té cap implicació política",
-            "Diu molt: la resistència a substituir un propietari d'esclaus (Jackson) per una dona negra que va lluitar contra l'esclavitud en el símbol màxim del poder econòmic americà reflecteix les tensions no resoltes sobre raça, gènere i historia als EUA",
-            "La pregunta és interessant però no hi ha resposta definitiva: hi ha factors tècnics reals (el disseny de bitllets és complex) i factors polítics reals (l'administració Trump va suspendre el canvi). Atribuir la demora exclusivament al racisme o exclusivament a la burocracia seria simplista"
-          ],
-          "correct": 2,
-          "explanation": "La història del bitllet de Tubman és un exemple perfecte de com els fets aparentment simples contenen múltiples capes. La posició A (purament burocràtic) ignora que l'administració Trump va suspendre explícitament el procés el 2017 com una decisió política —Steven Mnuchin, secretari del Tresor, va dir que el canvi era 'distracció'. La posició B (purament política-racial) ignora que els canvis de disseny de bitllets realment requeririen anys de treball tècnic (els bitllets actuals incorporen característiques antifalsificació complexes). La posició C és la síntesi: hi ha factors burocràtics reals i factors polítics reals, i la interacció entre els dos és el que explica la demora. Que substituir un propietari d'esclaus per una abolicionista sigui políticament controvertit als EUA del segle XXI diu alguna cosa sobre la historia no resolta del país."
         }
       ]
     }

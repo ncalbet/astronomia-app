@@ -10,6 +10,19 @@
       "title": "El sard de Ales: de la pobresa a Torí",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-gramsci-01-01",
+          "question": "Quin corrent de pensament va influir més en la formació política inicial de Gramsci?",
+          "options": [
+            "L'anarquisme de Bakunin",
+            "El marxisme i el socialisme revolucionari",
+            "El liberalisme progressista italià",
+            "El nacionalisme sard"
+          ],
+          "correct": 1,
+          "explanation": "Gramsci es va sumar al Partit Socialista Italià i va llegir Marx des de jove. Però era un marxista creatiu: criticava el determinisme econòmic i insistia en el paper de la cultura i la consciència."
+        },
+        {
           "type": "quote",
           "text": "M'odio perquè no tinc odi. Visc entre la gent i no puc estimar la humanitat en abstracte.",
           "author": "Antonio Gramsci"
@@ -50,19 +63,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. Gramsci creia que els obrers havien d'aprendre a dirigir la societat antes que la revolució triomfés, i la fàbrica era el lloc per fer-ho.",
           "feedbackWrong": "No exactament. Gramsci veia els consells no com a eina de negociació o destrucció, sinó com a escola de govern per als treballadors."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-gramsci-01-01",
-          "question": "Quin corrent de pensament va influir més en la formació política inicial de Gramsci?",
-          "options": [
-            "L'anarquisme de Bakunin",
-            "El marxisme i el socialisme revolucionari",
-            "El liberalisme progressista italià",
-            "El nacionalisme sard"
-          ],
-          "correct": 1,
-          "explanation": "Gramsci es va sumar al Partit Socialista Italià i va llegir Marx des de jove. Però era un marxista creatiu: criticava el determinisme econòmic i insistia en el paper de la cultura i la consciència."
         }
       ]
     },
@@ -70,6 +70,19 @@
       "id": "gramsci-02",
       "title": "Els Quaderns de la Presó: hegemonia i societat civil",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-gramsci-02-01",
+          "question": "Per què Gramsci escrivia de manera críptica als Quaderns?",
+          "options": [
+            "Perquè usava un codi secret acordat amb el partit comunista",
+            "Perquè volia que només els intel·lectuals acadèmics l'entenguessin",
+            "Per enganyar la censura franquista i poder publicar lliurement",
+            "Per evitar que els censors italians entenguessin el contingut polític dels textos"
+          ],
+          "correct": 3,
+          "explanation": "Les autoritats feixistes supervisaven el que escrivien els presos polítics. Gramsci usava un vocabulari indirecte —'filosofia de la praxi' en lloc de 'marxisme', per exemple— per poder desenvolupar les seues idees sense que els censors les confisquessin."
+        },
         {
           "type": "quote",
           "text": "Tots els homes són intel·lectuals, però no tots els homes tenen en la societat la funció d'intel·lectuals.",
@@ -113,19 +126,6 @@
           "text": "La supremacia d'un grup social es manifesta de dues maneres: com a 'domini' i com a 'direcció intel·lectual i moral'. Un grup social és dominant dels grups adversaris que tendeix a 'liquidar' o a sotmetre fins i tot amb la força armada, i és dirigent dels grups afins i aliats. Un grup social pot i fins i tot ha de ser 'dirigent' ja abans de conquerir el poder governamental (aquesta és una de les condicions principals per a la mateixa conquesta del poder).",
           "question": "Segons Gramsci, per què és important ser 'dirigent' (hegemònic) fins i tot abans de prendre el poder?",
           "answer": "Perquè el poder polític sense hegemonia cultural és fràgil. Si una classe ja ha guanyat el consentiment de la societat, la conquesta del poder serà més sòlida i duradora. Gramsci invertia la idea que primer calia prendre el poder i després canviar la cultura."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-gramsci-02-01",
-          "question": "Per què Gramsci escrivia de manera críptica als Quaderns?",
-          "options": [
-            "Perquè usava un codi secret acordat amb el partit comunista",
-            "Perquè volia que només els intel·lectuals acadèmics l'entenguessin",
-            "Per enganyar la censura franquista i poder publicar lliurement",
-            "Per evitar que els censors italians entenguessin el contingut polític dels textos"
-          ],
-          "correct": 3,
-          "explanation": "Les autoritats feixistes supervisaven el que escrivien els presos polítics. Gramsci usava un vocabulari indirecte —'filosofia de la praxi' en lloc de 'marxisme', per exemple— per poder desenvolupar les seues idees sense que els censors les confisquessin."
         }
       ]
     },
@@ -133,6 +133,13 @@
       "id": "gramsci-03",
       "title": "Gramsci sense gramscianisme: el llegat",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "id": "wwyd-gramsci-03-01",
+          "scenario": "Ets un activista que vol canviar la societat. Pots triar entre dues estratègies: A) Organitzar protestes massives i pressionar directament el govern. B) Crear escoles, mitjans de comunicació i espais culturals alternatius per canviar el 'sentit comú' de la gent a llarg termini.",
+          "question": "Quina estratègia s'assembla més a la proposta gramsciana, i quins avantatges i desavantatges té?",
+          "reflection": "Gramsci defensaria l'estratègia B —la 'guerra de posicions'— perquè creia que el poder real és cultural. L'avantatge és que construeix canvis més duradors; el desavantatge és que és lenta i els resultats triguen dècades. L'estratègia A és més visible però pot fracassar si no hi ha hegemonia cultural prèvia."
+        },
         {
           "type": "quote",
           "text": "El vell món s'està morint. El nou tarda a aparèixer. I en aquest clarobscur sorgeixen els monstres.",
@@ -171,13 +178,6 @@
           "correct": 0,
           "feedbackCorrect": "Exacte. Gramsci criticava el model insurreccional. Defensava una 'guerra de posicions' cultural i política, no un assalt ràpid al poder.",
           "feedbackWrong": "Revisa el concepte de 'guerra de posicions'. Gramsci s'allunyava precisament de les estratègies d'assalt ràpid al poder."
-        },
-        {
-          "type": "what-would-you-do",
-          "id": "wwyd-gramsci-03-01",
-          "scenario": "Ets un activista que vol canviar la societat. Pots triar entre dues estratègies: A) Organitzar protestes massives i pressionar directament el govern. B) Crear escoles, mitjans de comunicació i espais culturals alternatius per canviar el 'sentit comú' de la gent a llarg termini.",
-          "question": "Quina estratègia s'assembla més a la proposta gramsciana, i quins avantatges i desavantatges té?",
-          "reflection": "Gramsci defensaria l'estratègia B —la 'guerra de posicions'— perquè creia que el poder real és cultural. L'avantatge és que construeix canvis més duradors; el desavantatge és que és lenta i els resultats triguen dècades. L'estratègia A és més visible però pot fracassar si no hi ha hegemonia cultural prèvia."
         }
       ]
     }

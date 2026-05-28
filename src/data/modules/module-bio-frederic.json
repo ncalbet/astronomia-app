@@ -10,6 +10,24 @@
       "title": "El príncep i el seu botxí: un pare que va matar l'amor",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-fred-01-01",
+          "question": "Com interpreten els historiadors la relació entre el trauma de la joventut de Frederic i el seu estil polític posterior?",
+          "options": [
+            "La biografia personal és una explicació suficient: l'execució de Katte i la brutalitat paterna van crear directament la fredor emocional que Frederic va exhibir com a rei. El caràcter es forma en la infància",
+            "La biografia és irrellevant per entendre el polític: el que importa són les estructures —les exigències de la política de poder del segle XVIII— que haurien forçat qualsevol rei prussià a actuar de manera similar, independentment del caràcter personal",
+            "La biografia i les estructures s'han de llegir juntes: el trauma personal va fer Frederic excepcionalment capaç d'exercir un tipus de poder que les estructures del seu temps exigien. Un rei diferent amb el mateix rol hauria fracassat o hauria governat d'una altra manera"
+          ],
+          "correct": 2,
+          "explanation": "La historiografia sobre Frederic ha oscillat entre dues posicions. La biografia clàssica de Thomas Carlyle (History of Friedrich II of Prussia, 1858-65) heroïtzava el caràcter personal com a explicació de tot. La reacció estructuralista del segle XX —representada per historiadors com Christopher Clark (Iron Kingdom, 2006)— va subratllar les limitacions imposades per la geopolítica prussiana: qualsevol rei prussià en aquella posició havia de ser un guerrer. La síntesi actual, defensada per Tim Blanning (Frederick the Great, 2015), argumenta que el caràcter de Frederic va ser format per les seves experiències particulars però va interactuar amb unes estructures reals: un rei diferent hauria governat Prússia d'una altra manera, amb resultats potencialment molt distincts. La dicotomia 'home vs. estructures' és una simplificació: totes les figures històriques importants operen en la intersecció de totes dues dimensions."
+        },
+        {
+          "type": "misconception",
+          "belief": "Frederic el Gran era un rei il·lustrat i pacífic que governava per consens i diàleg filosòfic.",
+          "reality": "Frederic era un guerrer constant i un estrateg militar d'primera magnitud que va passar gairebé la meitat del seu regnat en guerra. Va envair Silèsia el 1740 sense cap justificació legal —simplement perquè la volia i podia. Va guanyar la Guerra dels Set Anys mantenint Prússia sola contra Àustria, França, Rússia, Suècia i Saxònia simultàniament. La tolerància religiosa, el mecenatge cultural i la correspondència amb Voltaire convivien perfectament amb el reclutament forçós, la servitud dels camperols i l'estat policial. No era una contradicció per a ell: era la gestió racional d'un estat eficient.",
+          "why": "La imatge de Frederic com a 'rei filòsof' benigne va ser en part construïda per ell mateix —va publicar les seves obres filosòfiques, va convidar pensadors a la cort i va correspondre amb els grans il·lustrats. La imatge contrastava útilment amb la brutalitat dels seus rivals. Voltaire, que va viure a Sanssouci dos anys, en va sortir desil·lusionat i va escriure sàtires ferotges del rei que havia admirat."
+        },
+        {
           "type": "quote",
           "text": "Jo sóc el primer servidor de l'estat.",
           "author": "Frederic II de Prússia"
@@ -28,12 +46,6 @@
           "emoji": "🎼",
           "analogy": "El pare de Frederic va intentar crear un soldat i va crear un filòsof-rei. És com un entrenador que obliges un atleta a entrenar tant fins al límit que desenvolupa una disciplina de ferro —però l'atleta usa aquella disciplina per excel·lir en un esport completament diferent del que el pare volia. El trauma que Frederic Guillem I va infligir al seu fill no el va destruir: el va forjar en una forma que el pare mai hauria previst.",
           "bridge": "Frederic va heretar de son pare les eines —la disciplina, el coneixement de l'administració militar i fiscal, la capacitat de treballar setze hores diàries— i les va posar al servei d'un projecte que el seu pare hauria reconegut (poder prussià) però amb instruments que l'hauria horroritzat (diplomàcia, filosofia, aliiances canviants). La realpolitik de Frederic era el producte d'una educació que volia crear un altre tipus de rei."
-        },
-        {
-          "type": "misconception",
-          "belief": "Frederic el Gran era un rei il·lustrat i pacífic que governava per consens i diàleg filosòfic.",
-          "reality": "Frederic era un guerrer constant i un estrateg militar d'primera magnitud que va passar gairebé la meitat del seu regnat en guerra. Va envair Silèsia el 1740 sense cap justificació legal —simplement perquè la volia i podia. Va guanyar la Guerra dels Set Anys mantenint Prússia sola contra Àustria, França, Rússia, Suècia i Saxònia simultàniament. La tolerància religiosa, el mecenatge cultural i la correspondència amb Voltaire convivien perfectament amb el reclutament forçós, la servitud dels camperols i l'estat policial. No era una contradicció per a ell: era la gestió racional d'un estat eficient.",
-          "why": "La imatge de Frederic com a 'rei filòsof' benigne va ser en part construïda per ell mateix —va publicar les seves obres filosòfiques, va convidar pensadors a la cort i va correspondre amb els grans il·lustrats. La imatge contrastava útilment amb la brutalitat dels seus rivals. Voltaire, que va viure a Sanssouci dos anys, en va sortir desil·lusionat i va escriure sàtires ferotges del rei que havia admirat."
         },
         {
           "type": "exercise",
@@ -56,6 +68,20 @@
       "id": "fred-02",
       "title": "Silèsia i la Guerra dels Set Anys: la realpolitik sense màscara",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "character": "Frederic II de Prússia",
+          "emoji": "🎼",
+          "year": "1757 — Batalla de Rossbach, la guerra va molt malament",
+          "setup": "Portes un any en guerra contra mitja Europa. Has perdut Berlín temporalment. Les teves finances estan al límit. L'exèrcit francès s'acosta per l'oest, el rus per l'est, l'austríac per el sud. Els teus assessors militars creuen que la situació és insostenible i suggereixen negociar la pau cedint Silèsia. Cediràs Silèsia — la província que vas envair el 1740 i que ha estat el nucli de tots els conflictes— o continues la guerra en circumstàncies quasi impossibles?",
+          "dilemma": "Negocies la pau cedint Silèsia i preserves Prússia com a estat, o continues la guerra apostant que algun factor extern canviarà la situació?",
+          "options": [
+            { "id": "A", "text": "Nego la pau: Prússia sense Silèsia segueix existint. Prússia destruïda no existeix" },
+            { "id": "B", "text": "Continue: un canvi diplomàtic —mort d'un aliat enemic, canvi de govern a París— pot canviar-ho tot. No cediré el que vaig conquistar" }
+          ],
+          "reveal": "Frederic va continuar. Va guanyar les batalles de Rossbach i Leuthen el novembre i desembre de 1757 amb maniobres militars que s'estudien als manuals encara avui. La tsarina Elisabet va morir el 1762 i el seu successor, admirador de Frederic, va retirar Rússia de la guerra. La Pau de Hubertusburg (1763) va confirmar Silèsia com a prussiana. Frederic havia apostat que la situació canviaria —i tenia raó. Però si Elisabet hagués viscut dos anys més, Prússia hauria desaparegut.",
+          "analysis": "La Guerra dels Set Anys il·lustra la tensió entre realpolitik i imprudència: Frederic va iniciar un conflicte que no podia guanyar sol i va sobreviure per una combinació de genialitat i sort. La diferència entre 'estratègia audaç' i 'joc d'atzar irresponsable' sovint la determina el resultat, no la decisió. Si Prússia hagués caigut el 1762, la historia l'hauria jutjat com un rei arrogant que va destruir el seu país per una província."
+        },
         {
           "type": "narrative",
           "text": "El 16 de desembre de 1740, cinc mesos després de ser coronat rei, Frederic va envair Silèsia —una província rica i poblada de l'Imperi Austríac. No tenia cap justificació legal. L'Emperadriu Maria Teresa acabava de pujar al tron i era, en teoria, una aliada. Frederic ho sabia. Ho va fer igualment. La seva nota interna deia: 'L'ambició, l'interès, el desig de fer parlar del meu nom, han guanyat.' Aquella invasió va desencadenar quinze anys de guerres europees i va convertir Prússia en una gran potència. El 1756, la coalició contra ell incloïa Àustria, França, Rússia, Suècia i Saxònia —pràcticament tota Europa continental. Prússia va sobreviure per una combinació de genialitat militar de Frederic, la resistència prussiana i un accident: la mort de la tsarina Elisabet I el 1762, substituïda per un admirador de Frederic que va retirar Rússia de la guerra. Els contemporanis van anomenar-ho el 'Miracle de la Casa de Brandenburg'."
@@ -84,20 +110,6 @@
           "insight": "Frederic va convertir Prússia en una gran potència no perquè tingués els recursos d'una gran potència —no els tenia— sinó perquè va usar els recursos disponibles amb una eficiència sense precedents. Va ser el primer rei europeu modern a entendre que la diplomàcia, l'exèrcit i l'economia eren instruments del mateix projecte: el poder de l'estat."
         },
         {
-          "type": "what-would-you-do",
-          "character": "Frederic II de Prússia",
-          "emoji": "🎼",
-          "year": "1757 — Batalla de Rossbach, la guerra va molt malament",
-          "setup": "Portes un any en guerra contra mitja Europa. Has perdut Berlín temporalment. Les teves finances estan al límit. L'exèrcit francès s'acosta per l'oest, el rus per l'est, l'austríac per el sud. Els teus assessors militars creuen que la situació és insostenible i suggereixen negociar la pau cedint Silèsia. Cediràs Silèsia — la província que vas envair el 1740 i que ha estat el nucli de tots els conflictes— o continues la guerra en circumstàncies quasi impossibles?",
-          "dilemma": "Negocies la pau cedint Silèsia i preserves Prússia com a estat, o continues la guerra apostant que algun factor extern canviarà la situació?",
-          "options": [
-            { "id": "A", "text": "Nego la pau: Prússia sense Silèsia segueix existint. Prússia destruïda no existeix" },
-            { "id": "B", "text": "Continue: un canvi diplomàtic —mort d'un aliat enemic, canvi de govern a París— pot canviar-ho tot. No cediré el que vaig conquistar" }
-          ],
-          "reveal": "Frederic va continuar. Va guanyar les batalles de Rossbach i Leuthen el novembre i desembre de 1757 amb maniobres militars que s'estudien als manuals encara avui. La tsarina Elisabet va morir el 1762 i el seu successor, admirador de Frederic, va retirar Rússia de la guerra. La Pau de Hubertusburg (1763) va confirmar Silèsia com a prussiana. Frederic havia apostat que la situació canviaria —i tenia raó. Però si Elisabet hagués viscut dos anys més, Prússia hauria desaparegut.",
-          "analysis": "La Guerra dels Set Anys il·lustra la tensió entre realpolitik i imprudència: Frederic va iniciar un conflicte que no podia guanyar sol i va sobreviure per una combinació de genialitat i sort. La diferència entre 'estratègia audaç' i 'joc d'atzar irresponsable' sovint la determina el resultat, no la decisió. Si Prússia hagués caigut el 1762, la historia l'hauria jutjat com un rei arrogant que va destruir el seu país per una província."
-        },
-        {
           "type": "primary-source",
           "label": "Frederic II justifica la invasió de Silèsia, 1740",
           "source": "Frederic II de Prússia, nota personal, desembre de 1740 (dels seus papers privats)",
@@ -122,6 +134,18 @@
       "id": "fred-03",
       "title": "El déspota il·lustrat: reformes, Voltaire i els límits del poder racional",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-fred-03-01",
+          "question": "La realpolitik de Frederic —poder sense principis fixos, aliiances canviants, objectius estatals per sobre de la moral— és un mètode de govern cínic o una descripció honesta de com funciona realment la política internacional?",
+          "options": [
+            "Cínic i perillós: un sistema internacional on tots els estats actuen com Frederic —sense principis morals fixos— és un sistema de guerra permanent on guanya sempre el més fort. Els principis morals en política no són ingenuïtat, són l'única alternativa al caos",
+            "Descripció honesta i necessària: els estats actuen sempre en funció dels seus interessos, independentment del que diguin. Reconèixer-ho explícitament, com Frederic, és més honest que amaguar-ho rere una retòrica de valors que mai no es compleix. La realpolitik descriu la realitat, no la prescriu",
+            "Les dues coses simultàniament: la realpolitik descriu amb precisió com funciona la política internacional la major part del temps, i alhora és un sistema amb defectes estructurals greus quan s'universalitza. L'alternativa no és la ingenuïtat moral sinó la construcció d'institucions internacionals que canviïn els incentius"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és la crítica idealista —defensada per Kant a la Pau Perpètua i pels fundadors del dret internacional modern. La posició B és la tesi dels realistes de les relacions internacionals (Morgenthau, Kissinger): els estats actuen per poder i interès, sempre, i pretendre el contrari és enganyar-se. La posició C és la síntesi que la teoria de les relacions internacionals ha construït des de la Segona Guerra Mundial: la realpolitik descriu correctament el comportament dels estats en absència d'institucions, però la creació d'institucions (ONU, OMC, UE) canvia els incentius i fa possible un comportament diferent. No és que els estats deixin de ser egoistes —és que el marc institucional fa que la cooperació sigui racionalment preferible al conflicte. Frederic hauria entès perfectament la lògica."
+        },
         {
           "type": "narrative",
           "text": "Frederic va abolir la tortura judicial a Prússia el 1740 —el primer sobirà europeu a fer-ho. Va garantir la llibertat de premsa i de culte religiós. Va reformar el sistema judicial, va impulsar l'educació primària, va drenar pantans per crear terres de conreu i va repoblar les zones devastades per la guerra amb immigrants de tota Europa. Va escriure poesia, composà música i tocà la flauta en concerts setmanals a Sanssouci. Va correspondre amb Voltaire, d'Alembert i els enciclopedistes francesos. El 1750 va convèncer Voltaire de venir a viure a Sanssouci. Dos anys i mig més tard, Voltaire va intentar abandonar la cort i Frederic el va fer arrestar breument a Frankfurt. Van continuar escrivint-se durant trenta anys, insultant-se amb acritud i respectant-se mútuament. La seva relació és el document més complet de les contradiccions de l'absolutisme il·lustrat."
@@ -161,18 +185,6 @@
           },
           "reflection": "Kant, contemporani de Frederic, va escriure: 'Raoneu tot el que vulgueu i sobre el que vulgueu, però obeïu.' Era la fórmula de Frederic. Kant la va citar com a exemple de la il·lustració sota tutela —no com a ideal, sinó com a primera etapa d'un procés que hauria de portar a l'autonomia real. Amb quin dels dos et quedes?",
           "context": "El debat sobre l'absolutisme il·lustrat té una relectura contemporània en les discussions sobre règims autoritaris que modernitzen ràpidament —Singapur, Corea del Sud als anys 70, Xina— i si el progrés econòmic sense participació política és un model sostenible o simplement una fase de transició."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-fred-03-01",
-          "question": "La realpolitik de Frederic —poder sense principis fixos, aliiances canviants, objectius estatals per sobre de la moral— és un mètode de govern cínic o una descripció honesta de com funciona realment la política internacional?",
-          "options": [
-            "Cínic i perillós: un sistema internacional on tots els estats actuen com Frederic —sense principis morals fixos— és un sistema de guerra permanent on guanya sempre el més fort. Els principis morals en política no són ingenuïtat, són l'única alternativa al caos",
-            "Descripció honesta i necessària: els estats actuen sempre en funció dels seus interessos, independentment del que diguin. Reconèixer-ho explícitament, com Frederic, és més honest que amaguar-ho rere una retòrica de valors que mai no es compleix. La realpolitik descriu la realitat, no la prescriu",
-            "Les dues coses simultàniament: la realpolitik descriu amb precisió com funciona la política internacional la major part del temps, i alhora és un sistema amb defectes estructurals greus quan s'universalitza. L'alternativa no és la ingenuïtat moral sinó la construcció d'institucions internacionals que canviïn els incentius"
-          ],
-          "correct": 2,
-          "explanation": "La posició A és la crítica idealista —defensada per Kant a la Pau Perpètua i pels fundadors del dret internacional modern. La posició B és la tesi dels realistes de les relacions internacionals (Morgenthau, Kissinger): els estats actuen per poder i interès, sempre, i pretendre el contrari és enganyar-se. La posició C és la síntesi que la teoria de les relacions internacionals ha construït des de la Segona Guerra Mundial: la realpolitik descriu correctament el comportament dels estats en absència d'institucions, però la creació d'institucions (ONU, OMC, UE) canvia els incentius i fa possible un comportament diferent. No és que els estats deixin de ser egoistes —és que el marc institucional fa que la cooperació sigui racionalment preferible al conflicte. Frederic hauria entès perfectament la lògica."
         }
       ]
     }

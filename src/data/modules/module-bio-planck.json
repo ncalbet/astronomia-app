@@ -10,6 +10,30 @@
       "title": "El físic que no volia fer una revolució",
       "blocks": [
         {
+          "type": "prediction",
+          "question": "La física clàssica prediu que un objecte calent hauria d'emetre una quantitat infinita d'energia a freqüències altes —però clarament això no passa. On deu estar el problema: en la física, en les matemàtiques, o en la nostra concepció de la matèria?",
+          "hint": "La resposta de Planck va ser tan radical que ell mateix va trigar anys a creure-la."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-planck-01-01",
+          "question": "Com descriu Planck la seva pròpia introducció del concepte de quant?",
+          "options": [
+            "Com una intuïció brillant fruit de dècades de recerca",
+            "Com un acte de desesperació davant el fracàs de tots els mètodes clàssics",
+            "Com una confirmació de les seves hipòtesis prèvies sobre discontinuïtat",
+            "Com una idea que va agafar prestada de Boltzmann"
+          ],
+          "correct": 1,
+          "explanation": "Planck va dir literalment que va ser un 'acte de desesperació'. No creia en la realitat física dels quants: els va introduir com a truc matemàtic per fer funcionar la fórmula. Que resultés ser una descripció real de la naturalesa el va sorprendre a ell mateix."
+        },
+        {
+          "type": "misconception",
+          "belief": "Planck va tenir la idea dels quants gràcies a una intuïció brillant fruit d'anys de recerca metòdica i progressiva.",
+          "reality": "El propi Planck va descriure la introducció del quant com un 'acte de desesperació': no era una idea que volgués proposar, sinó un recurs matemàtic afegit perquè res més funcionava. Durant anys va intentar eliminar-lo de la seva teoria per tornar a la física clàssica. Que resultés ser una descripció fonamental de la naturalesa el va sorprendre profundament.",
+          "why": "La imatge del científic que avança pas a pas cap a la veritat oculta la realitat: molts descobriments comencen com anomalies sense sentit que ningú vol acceptar, ni tan sols el seu autor."
+        },
+        {
           "type": "quote",
           "text": "Una nova veritat científica no triomfa convencent els seus opositors, sinó perquè aquests moren i creix una nova generació que s'hi familiaritza des del principi.",
           "author": "Max Planck"
@@ -52,19 +76,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. L'espectre del cos negre era una anomalia que la física clàssica no podia explicar sense arribar a resultats absurds (energia infinita). Planck va trobar una solució matemàtica que implicava discontinuïtat.",
           "feedbackWrong": "Va ser el problema del cos negre —l'espectre de llum d'un objecte calent— el que va forçar Planck a introduir la idea que l'energia es transmet en paquets discrets."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-planck-01-01",
-          "question": "Com descriu Planck la seva pròpia introducció del concepte de quant?",
-          "options": [
-            "Com una intuïció brillant fruit de dècades de recerca",
-            "Com un acte de desesperació davant el fracàs de tots els mètodes clàssics",
-            "Com una confirmació de les seves hipòtesis prèvies sobre discontinuïtat",
-            "Com una idea que va agafar prestada de Boltzmann"
-          ],
-          "correct": 1,
-          "explanation": "Planck va dir literalment que va ser un 'acte de desesperació'. No creia en la realitat física dels quants: els va introduir com a truc matemàtic per fer funcionar la fórmula. Que resultés ser una descripció real de la naturalesa el va sorprendre a ell mateix."
         }
       ]
     },
@@ -73,13 +84,26 @@
       "title": "El quant: la discontinuïtat del món",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-planck-02-01",
+          "question": "Per quin motiu Planck va resistir durant anys acceptar les implicacions físiques del seu propi descobriment?",
+          "options": [
+            "Perquè la física quàntica contradeia les seves creences religioses",
+            "Perquè estava intentant obtenir el crèdit del descobriment davant d'Einstein",
+            "Perquè estava profundament arrelat en la física clàssica i els quants li semblaven absurds com a realitat física",
+            "Perquè les mesures experimentals no confirmaven la seua fórmula"
+          ],
+          "correct": 2,
+          "explanation": "Planck era un físic clàssic de formació i temperament. La idea que la naturalesa fos discontinua li semblava filosòficament inacceptable. Va passar anys intentant derivar la seua fórmula sense assumir discontinuïtat, sense èxit. La paradoxa: el fundador de la física quàntica era el seu pitjor crític."
+        },
+        {
           "type": "quote",
           "text": "El quant d'acció és el element més important que he descobert en la física en tota la meva vida, però desitjaria que algú altre l'hagués descobert.",
           "author": "Max Planck"
         },
         {
           "type": "narrative",
-          "text": "La solució de Planck era matemàticament elegants però físicament pertorbadora. Per fer funcionar la fórmula del cos negre, havia d'assumir que l'energia no es podia emetre de manera contínua —com una ona d'aigua— sinó en paquets discrets, mínims, indivisibles: els quants. Cada quant tenia una energia proporcional a la freqüència de la radiació, multiplicada per una nova constant universal: h, la constant de Planck."
+          "text": "La solució de Planck era matemàticament elegant però físicament pertorbadora. Per fer funcionar la fórmula del cos negre, havia d'assumir que l'energia no es podia emetre de manera contínua —com una ona d'aigua— sinó en paquets discrets, mínims, indivisibles: els quants. Cada quant tenia una energia proporcional a la freqüència de la radiació, multiplicada per una nova constant universal: h, la constant de Planck."
         },
         {
           "type": "narrative",
@@ -110,19 +134,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. Einstein va usar la idea de Planck per explicar l'efecte fotoelèctric: la llum és realment feta de quants (fotons). Per aquest treball —no per la relativitat— va guanyar el Nobel el 1921.",
           "feedbackWrong": "Va ser Einstein el 1905 qui va afirmar que els fotons (quants de llum) eren una realitat física. Planck va ser incapaç de fer aquell pas ell mateix."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-planck-02-01",
-          "question": "Per quin motiu Planck va resistir durant anys acceptar les implicacions físiques del seu propi descobriment?",
-          "options": [
-            "Perquè la física quàntica contradeia les seves creences religioses",
-            "Perquè estava intentant obtenir el crèdit del descobriment davant d'Einstein",
-            "Perquè estava profundament arrelat en la física clàssica i els quants li semblaven absurds com a realitat física",
-            "Perquè les mesures experimentals no confirmaven la seua fórmula"
-          ],
-          "correct": 2,
-          "explanation": "Planck era un físic clàssic de formació i temperament. La idea que la naturalesa fos discontinua li semblava filosòficament inacceptable. Va passar anys intentant derivar la seua fórmula sense assumir discontinuïtat, sense èxit."
         }
       ]
     },
@@ -130,6 +141,13 @@
       "id": "planck-03",
       "title": "Planck sota el nazisme: pèrdua, resistència i legat",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "id": "wwyd-planck-03-01",
+          "scenario": "Ets el president d'una gran institució científica en un país que acaba de caure sota un règim autoritari. El règim expulsa els col·legues jueus, crema llibres i interfereix en la recerca. Pots exiliar-te i mantenir la teva integritat moral —com fan molts companys. O pots quedar-te i intentar protegir les persones i les institucions des de dins, acceptant cert grau de coexistència amb el règim.",
+          "question": "Quina estratègia tries? Quins riscos té cadascuna? Hi ha una resposta correcta?",
+          "reflection": "Planck va triar quedar-se. Va intentar intercedir per científics jueus —fins i tot va tenir una reunió amb Hitler que va acabar en una tirada histèrica. Va mantenir la presidència de la Societat Kaiser Wilhelm fins al 1937, creient que era millor tenir algú com ell dins que deixar el camp lliure als nazis. Einstein i molts altres van marxar. La historia no ha donat una veredicte clar sobre quina opció era moralment superior: depèn del que s'aconsegueixi amb cada estratègia, i de quines línies vermelles s'accepten creuar."
+        },
         {
           "type": "quote",
           "text": "He après a considerar cada dificultat de la vida com un desafiament, no com un obstacle.",
@@ -161,13 +179,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. Planck creia que abandonar els seus càrrecs significaria deixar el control de les institucions científiques en mans de nazis més radicals. Va intentar moderar el dany des de dins, amb resultats discutibles.",
           "feedbackWrong": "Planck va prendre una decisió conscient de quedar-se per intentar protegir la ciència alemanya. Va ser una elecció ètica, no una limitació."
-        },
-        {
-          "type": "what-would-you-do",
-          "id": "wwyd-planck-03-01",
-          "scenario": "Ets el director d'una institució important en un país que cau sota un règim autoritari. Pots exiliar-te i mantenir la teva integritat moral, o quedar-te i intentar protegir les persones i les institucions des de dins, acceptant cert grau de col·laboració amb el règim.",
-          "question": "Quina estratègia tries? Quins riscos té cadascuna? Hi ha una resposta correcta?",
-          "reflection": "El cas de Planck no té una resposta simple. Els qui es van quedar (com ell) van poder protegir alguns col·legues però van donar una aparença de normalitat al règim. Els qui van marxar (com Einstein) van preservar la seua integritat però van deixar el camp lliure. La història de Planck ens recorda que el mal polític no planteja sempre dilemes d'herois i col·laboradors: de vegades planteja dilemes entre males opcions."
         }
       ]
     }

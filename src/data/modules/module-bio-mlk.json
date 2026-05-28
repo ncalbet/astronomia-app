@@ -10,6 +10,24 @@
       "title": "El fill del predicador: de Atlanta al boicot dels autobusos",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-mlk-01-01",
+          "question": "La no-violència de King estava fonamentada en la fe cristiana i en Gandhi. Però Malcolm X i altres líders negres argumentaven que la no-violència era una estratègia que demanava als negres que encaixessin la violència sense respondre. Tenia raó Malcolm X?",
+          "options": [
+            "Sí: la no-violència demana que la víctima absorbeixi el cost de la violència de l'opressor. Era una càrrega moral injusta posar sobre les víctimes la responsabilitat de mantenir la pau",
+            "No: la no-violència era estratègicament brillant perquè forçava els oponents a mostrar la seva violència davant de les càmeres, guanyant la batalla de la opinió pública i la pressió política",
+            "La dicotomia és falsa: la no-violència de King no era passivitat —era confrontació activa i deliberada que acceptava el cost personal de ser atacat per aconseguir un fi polític. El debat entre King i Malcolm X era sobre estratègia en un context específic, no sobre un principi universal"
+          ],
+          "correct": 2,
+          "explanation": "El debat entre King i Malcolm X sobre la no-violència és un dels grans debats del moviment pels drets civils. La posició A (crítica de Malcolm X) té una base moral real: demanar a persones que estan sent agredides que no es defendin és demanar-los un sacrifici enorme. Malcolm X argumentava que la dignitat requeria el dret d'autodefensa. La posició B (defensa de King) és la lectura estratègica estàndard: la no-violència va funcionar als Estats Units dels anys 50-60 perquè les càmeres de televisió van mostrar la brutalitat de la policia al Sud contra manifestants pacífics, i aquelles imatges van moure la opinió pública nord americana i internacional. La posició C és la més madura: King i Malcolm X parlaven de contextos lleugerament diferents i tenien objectius lleugerament diferents. La no-violència de King era una estratègia específica per a un moviment de masses en un país democràtic amb premsa lliure —no un principi universal vàlid per a totes les situacions d'opressió."
+        },
+        {
+          "type": "misconception",
+          "belief": "Martin Luther King era un líder moderat i conciliador que mai no va qüestionar el sistema americà, sinó que simplement demanava que s'apliqués la seva pròpia Constitució.",
+          "reality": "El King de la commemoració oficial és el King del 'Tinc un somni' de 1963. Però en els seus últims anys, King va condemnar públicament el capitalisme com a sistema econòmic, va oposar-se a la guerra del Vietnam quan era políticament suïcida fer-ho, i va llançar la Poor People's Campaign demanant redistribució econòmica radical. L'FBI el va vigilar durant anys, va intentar chantatge-lo i li va enviar una carta anònima suggerint-li que es suïcidés. Cap d'aquestes dimensions és compatible amb la imatge del líder moderat i inofensiu que recull el feriado nacional americà.",
+          "why": "La commemoració oficial tendeix a seleccionar les dimensions menys pertorbadores dels seus herois. El King que deia 'el capitalisme com a sistema econòmic és difícilment compatible amb la democràcia' és menys còmode per a l'ordre establert que el King del somni american integrador."
+        },
+        {
           "type": "quote",
           "text": "La injustícia en qualsevol lloc és una amenaça a la justícia en qualsevol lloc.",
           "author": "Martin Luther King Jr., Carta des de la Presó de Birmingham (1963)"
@@ -48,18 +66,6 @@
           "correct": 1,
           "feedbackCorrect": "Exacte. King era nou a Montgomery —havia acceptat la pastoría al setembre del 1954— i no portava prou temps a la ciutat per haver-se guanyat enemics polítics entre les diverses faccions de la comunitat negra local. Aquesta novetat el feia acceptable per a grups que de cap manera haurien acceptat un líder local establert. La seva joventut, el seu doctorat i el seu talent oratòri completaven el perfil. King mateix va relatar que va acceptar el càrrec en part perquè va ser triat tan ràpidament que no va tenir temps de reflexionar sobre el que acceptava.",
           "feedbackWrong": "King va ser triat principalment perquè era nou a la ciutat i no tenia enemics polítics entre les diverses faccions de la comunitat. La novetat el feia acceptable per a grups que mai no haurien acceptat un líder local establert."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-mlk-01-01",
-          "question": "La no-violència de King estava fonamentada en la fe cristiana i en Gandhi. Però Malcolm X i altres líders negres argumentaven que la no-violència era una estratègia que demanava als negres que encaixessin la violència sense respondre. Tenia raó Malcolm X?",
-          "options": [
-            "Sí: la no-violència demana que la víctima absorbeixi el cost de la violència de l'opressor. Era una càrrega moral injusta posar sobre les víctimes la responsabilitat de mantenir la pau",
-            "No: la no-violència era estratègicament brillant perquè forçava els oponents a mostrar la seva violència davant de les càmeres, guanyant la batalla de la opinió pública i la pressió política",
-            "La dicotomia és falsa: la no-violència de King no era passivitat —era confrontació activa i deliberada que acceptava el cost personal de ser atacat per aconseguir un fi polític. El debat entre King i Malcolm X era sobre estratègia en un context específic, no sobre un principi universal"
-          ],
-          "correct": 2,
-          "explanation": "El debat entre King i Malcolm X sobre la no-violència és un dels grans debats del moviment pels drets civils. La posició A (crítica de Malcolm X) té una base moral real: demanar a persones que estan sent agredides que no es defendin és demanar-los un sacrifici enorme. Malcolm X argumentava que la dignitat requeria el dret d'autodefensa. La posició B (defensa de King) és la lectura estratègica estàndard: la no-violència va funcionar als Estats Units dels anys 50-60 perquè les càmeres de televisió van mostrar la brutalitat de la policia al Sud contra manifestants pacífics, i aquelles imatges van moure la opinió pública nord americana i internacional. La posició C és la més madura: King i Malcolm X parlaven de contextos lleugerament diferents i tenien objectius lleugerament diferents. La no-violència de King era una estratègia específica per a un moviment de masses en un país democràtic amb premsa lliure —no un principi universal vàlid per a totes les situacions d'opressió."
         }
       ]
     },
@@ -67,6 +73,32 @@
       "id": "mlk-02",
       "title": "Birmingham i el somni: el cim del moviment",
       "blocks": [
+        {
+          "type": "what-would-you-do",
+          "character": "Martin Luther King",
+          "emoji": "🎙️",
+          "year": "Abril del 1963",
+          "setup": "Estàs organitzant la campanya de Birmingham. La teva estratègia depèn de provocar una resposta violenta de la policia de Bull Connor davant les càmeres. Però les manifestacions adultes han generat poques imatges impactants —Connor ha estat relativament contingut. James Bevel, un dels teus organitzadors, proposa usar nens en les manifestacions: centenars d'escolars de Birmingham, de 6 a 18 anys, que marxarien cap al centre de la ciutat. Si Connor usa els gossos i les mànegues contra nens, les imatges seran demolidores. Però estàs posant nens en perill real.",
+          "dilemma": "Autoritzen les manifestacions de nens a Birmingham, sabent que seran atacats però que les imatges podrien canviar el país? O limites les manifestacions als adults?",
+          "options": [
+            { "id": "A", "text": "Autoritzo: la injustícia del sistema és el perill real per als nens negres, cada dia. Manifestar-se contra ella és educar-los en la dignitat" },
+            { "id": "B", "text": "No ho autoritzo: no podem posar nens deliberadament en el camí de la violència. Hi ha línies que no es poden creuar ni per aconseguir un fi just" }
+          ],
+          "reveal": "King va autoritzar les 'Children's Crusade' el 2 de maig del 1963. Més de mil nens van sortir al carrer. Bull Connor va ordenar usar mànegues d'alta pressió i gossos. Les fotografies van recórrer el món. El president Kennedy va anunciar que enviaria al Congrés la legislació que es convertiria en el Civil Rights Act. La decisió de King és considerada una de les més controvertides de la seva carrera.",
+          "analysis": "La 'Creuada dels Nens' de Birmingham és un dels casos ètics més difícils del moviment pels drets civils. King va prendre la decisió sabent exactament el que passaria. Molts dels seus aliats s'hi van oposar, inclòs el vicepresident de la NAACP. King va argumentar que els nens negres vivien cada dia sota la violència del sistema segregacionista, i que participar en la resistència era una forma d'agència, no de victimització. Les imatges van ser el punt d'inflexió que va forçar Kennedy a actuar. Que el resultat justifiqués la decisió és una qüestió que els historiadors continuen debatent."
+        },
+        {
+          "type": "scientific-mode",
+          "id": "sci-mlk-02-01",
+          "question": "La no-violència va funcionar als EUA dels anys 60 perquè hi havia una premsa lliure que difonia les imatges de la brutalitat policial. Seria aplicable en un context sense llibertat de premsa?",
+          "options": [
+            "Sí: la no-violència funciona en qualsevol context perquè forçar l'oponent a usar la violència revela la seva injustícia, independentment de si hi ha càmeres o no",
+            "No: la no-violència de King era estratègicament dependent de la democràcia americana —la premsa lliure, l'opinió pública nord-americana sensible a les imatges, la pressió política del Congrés. En un règim autoritari sense premsa lliure, la no-violència no té mecanisme de transmissió",
+            "Depèn: la no-violència pot funcionar en molts contextos però requereix una audiència que pugui respondre a la informació sobre la repressió. En un règim que controla completament la informació, el mecanisme falla; en un règim que no el controla completament, pot funcionar"
+          ],
+          "correct": 2,
+          "explanation": "La pregunta sobre l'aplicabilitat universal de la no-violència és crucial per entendre l'estratègia de King. La posició A (universal) és la posició del pacifisme filosòfic: la no-violència és moralment superior independentment del context, i la seva eficàcia a llarg termini és independent dels mecanismes específics. La posició B (dependent del context americà) és la del realisme polític: la no-violència de King funcionava perquè els EUA eren una democràcia amb premsa lliure on les imatges de brutalitat movien l'opinió pública. Gandhi a l'Índia britànica va funcionar en part perquè l'opinió pública britànica importava. En una dictadura que no rendeix comptes a cap opinió pública, el mecanisme és diferent. La posició C és la síntesi: la no-violència requereix una audiència que pugui respondre a la informació —i en el segle XXI, les xarxes socials han creat noves formes d'audiència que compliquen el model original de King."
+        },
         {
           "type": "narrative",
           "text": "El 1963 va ser l'any decisiu del moviment pels drets civils. King i la SCLC van triar Birmingham, Alabama —la ciutat més segregada d'Amèrica, on el comissari de seguretat Bull Connor usava la policia i els gossos contra qualsevol demostració negra— per a una campanya de confrontació deliberada. L'estratègia era provocar una resposta violenta per part de les autoritats davant les càmeres de televisió. Va funcionar: les imatges de gossos policials i mànegues d'incendi contra manifestants, molts d'ells nens, van recórrer el món. King va ser arrestat. A la presó va escriure en els marges d'un diari la Carta des de la Presó de Birmingham —una defensa filosòfica i teològica de la desobediència civil que és considerada una obra mestra de la prosa política nord-americana. 'Una llei injusta és un codi que una majoria numèrica o de poder obliga a una minoria a seguir però que no s'obliga a seguir a si mateixa.' El 28 d'agost del 1963, la Marxa a Washington va reunir 250.000 persones davant del Memorial de Lincoln. King va pronunciar el discurs 'Tinc un somni' —improvisant la part final, animat per la cantant Mahalia Jackson que li cridava 'digues-los el somni, Martin!' El Civil Rights Act (1964) va prohibir la discriminació racial en espais públics. El Voting Rights Act (1965) va garantir el dret al vot dels negres al Sud, que les lleis locals havien eficaçment eliminat."
@@ -83,38 +115,12 @@
           ]
         },
         {
-          "type": "what-would-you-do",
-          "character": "Martin Luther King",
-          "emoji": "🎙️",
-          "year": "Abril del 1963",
-          "setup": "Estàs organitzant la campanya de Birmingham. La teva estratègia depèn de provocar una resposta violenta de la policia de Bull Connor davant les càmeres. Però les manifestacions adultes han generat poques imatges impactants —Connor ha estat relativament contingut. James Bevel, un dels teus organitzadors, proposa usar nens en les manifestacions: centenars d'escolars de Birmingham, de 6 a 18 anys, que marxarien cap al centre de la ciutat. Si Connor usa els gossos i les mànegues contra nens, les imatges seran demolidores. Però estàs posant nens en perill real.",
-          "dilemma": "Autoritzen les manifestacions de nens a Birmingham, sabent que seran atacats però que les imatges podrien canviar el país? O limites les manifestacions als adults?",
-          "options": [
-            { "id": "A", "text": "Autoritzo: la injustícia del sistema és el perill real per als nens negres, cada dia. Manifestar-se contra ella és educar-los en la dignitat" },
-            { "id": "B", "text": "No ho autoritzo: no podem posar nens deliberadament en el camí de la violència. Hi ha línies que no es poden creuar ni per aconseguir un fi just" }
-          ],
-          "reveal": "King va autoritzar les 'Children's Crusade' el 2 de maig del 1963. Més de mil nens van sortir al carrer. Bull Connor va ordenar usar mànegues d'alta pressió i gossos. Les fotografies van recórrer el món. El president Kennedy va anunciar que enviaria al Congrés la legislació que es convertiria en el Civil Rights Act. La decisió de King és considerada una de les més controvertides de la seva carrera.",
-          "analysis": "La 'Creuada dels Nens' de Birmingham és un dels casos ètics més difícils del moviment pels drets civils. King va prendre la decisió sabent exactament el que passaria. Molts dels seus aliats s'hi van oposar, inclòs el vicepresident de la NAACP. King va argumentar que els nens negres vivien cada dia sota la violència del sistema segregacionista, i que participar en la resistència era una forma d'agència, no de victimització. Les imatges van ser el punt d'inflexió que va forçar Kennedy a actuar. Que el resultat justifiqués la decisió és una qüestió que els historiadors continuen debatent."
-        },
-        {
           "type": "exercise",
           "id": "ex-mlk-02-01",
           "style": "detect-error",
           "statement": "El discurs 'Tinc un somni' de Martin Luther King a la Marxa a Washington del 1963 va ser completament escrit i memoritzat amb antelació, i King el va pronunciar exactament tal com estava preparat.",
           "isCorrect": false,
           "feedbackExplanation": "Parcialment incorrecte. King tenia un discurs preparat, però la part més famosa —les repeticions de 'Tinc un somni'— va ser improvisada sobre la marxa. La cantant Mahalia Jackson, que coneixia King, li va cridar des del públic: 'Digues-los el somni, Martin!' King va deixar els seus apunts preparats i va improvisar la secció final basant-se en imatges que havia usat anteriorment en altres discursos. El resultat és un dels discursos polítics més famosos del segle XX. La capacitat d'improvisar davant de 250.000 persones en un moment historic és una de les demostracions més impressionants del talent de King com a predicador."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-mlk-02-01",
-          "question": "La no-violència va funcionar als EUA dels anys 60 perquè hi havia una premsa lliure que difonia les imatges de la brutalitat policial. Seria aplicable en un context sense llibertat de premsa?",
-          "options": [
-            "Sí: la no-violència funciona en qualsevol context perquè forçar l'oponent a usar la violència revela la seva injustícia, independentment de si hi ha càmeres o no",
-            "No: la no-violència de King era estratègicament dependent de la democràcia americana —la premsa lliure, l'opinió pública nord-americana sensible a les imatges, la pressió política del Congrés. En un règim autoritari sense premsa lliure, la no-violència no té mecanisme de transmissió",
-            "Depèn: la no-violència pot funcionar en molts contextos però requereix una audiència que pugui respondre a la informació sobre la repressió. En un règim que controla completament la informació, el mecanisme falla; en un règim que no el controla completament, pot funcionar"
-          ],
-          "correct": 2,
-          "explanation": "La pregunta sobre l'aplicabilitat universal de la no-violència és crucial per entendre l'estratègia de King. La posició A (universal) és la posició del pacifisme filosòfic: la no-violència és moralment superior independentment del context, i la seva eficàcia a llarg termini és independent dels mecanismes específics. La posició B (dependent del context americà) és la del realisme polític: la no-violència de King funcionava perquè els EUA eren una democràcia amb premsa lliure on les imatges de brutalitat movien l'opinió pública. Gandhi a l'Índia britànica va funcionar en part perquè l'opinió pública britànica importava. En una dictadura que no rendeix comptes a cap opinió pública, el mecanisme és diferent. La posició C és la síntesi: la no-violència requereix una audiència que pugui respondre a la informació —i en el segle XXI, les xarxes socials han creat noves formes d'audiència que compliquen el model original de King."
         }
       ]
     },
@@ -122,6 +128,18 @@
       "id": "mlk-03",
       "title": "Els últims anys: King contra la guerra i la pobresa",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-mlk-03-01",
+          "question": "El Martin Luther King que celebra la festivitat nacional americana és el del 'Tinc un somni' de 1963. Però el King dels últims anys criticava el capitalisme, s'oposava a la guerra i parlava de redistribució econòmica. S'ha sanititzat el seu llegat?",
+          "options": [
+            "Sí: la commemoració oficial ha reduït King a un heroi de la integració racial i ha amagat el King que criticava el sistema econòmic i la política exterior. La 'versió oficial' és una distorsió política",
+            "No: el King del 'Tinc un somni' representa les seves conviccions més fonamentals i perdurables. Les posicions radicals dels últims anys eren evolucions contingents, no el nucli del seu pensament",
+            "La sanitització és real però no és una conspiració: les societats tendeixen a celebrar les dimensions menys pertorbadores dels seus herois. El King radical dels últims anys és menys còmode per a l'ordre establert que el King integrador del somni —i per això és menys present en la commemoració oficial"
+          ],
+          "correct": 2,
+          "explanation": "La pregunta sobre la sanitització del llegat de King és un debat academic i polític actiu. La posició A (sanitització deliberada) és la de molts activistes i historiadors: citen les paraules de King sobre el capitalisme ('hem de preguntar-nos si el capitalisme com a sistema econòmic és compatible amb la democràcia'), la seva oposició al Vietnam i la seva Poor People's Campaign per mostrar un King molt més radical que el de la narrativa oficial. La posició B (el somni com a essència) és la lectura conservadora: el King integrador, que demanava als negres que s'integressin en l'Amèrica dels valors constitucionals, és el King 'real'. La posició C és la sociológicament més precisa: les societats seleccionen dels seus herois les dimensions que qüestionen menys l'ordre establert. El King del somni és compatible amb la narrativa americana de progrés; el King que deia que 'un home no té el dret moral de dir-li als seus fills que estimeu als seus enemics fins que no li digui als rics que comparteixin la seva riquesa' és més incòmode."
+        },
         {
           "type": "narrative",
           "text": "Després de les victòries legislatives del 1964-65, King va expandir la seva agenda —i va perdre aliats. El 4 d'abril del 1967, exactament un any abans de la seva mort, va pronunciar el discurs 'Més Enllà del Vietnam' a la Riverside Church de Nova York: una condemna pública de la guerra del Vietnam. La reacció va ser furiosa: Lyndon Johnson, que havia signat el Civil Rights Act, va trencar amb ell. El Washington Post, el New York Times i molts col·legues del moviment el van criticar: estava posant en perill la coalició que havia aconseguit els drets civils. King va respondre que no podia predicar la no-violència als guetos sense condemnar la violència del govern americà al Vietnam. Va llançar la Poor People's Campaign —una mobilització que demanava garanties econòmiques, no només drets formals. Argumentava que el Civil Rights Act havia donat als negres el dret a seure al taulell d'un restaurant però no els havia donat els diners per pagar el menjar. L'abril del 1968 va anar a Memphis, Tennessee, per donar suport a una vaga de treballadors del servei municipal de recollida d'escombraries —tots negres, mal pagats, tractats com a no-persones. El 4 d'abril del 1968, al balcó del Lorraine Motel, va ser disparat per James Earl Ray. Tenia trenta-nou anys. Els arxius de l'FBI, desclassificats dècades després, van revelar que l'agència havia seguit King durant anys, havia intentat chantatge-lo amb gravacions d'aventures amoroses, i havia enviat una carta anònima suggerint-li que es suïcidés."
@@ -163,18 +181,6 @@
           "correct": 2,
           "feedbackCorrect": "Exacte. La condemna de la guerra del Vietnam va costar a King aliats crucials. Lyndon Johnson, que havia signat el Civil Rights Act i el Voting Rights Act, va trencar les relacions amb ell. El Washington Post va escriure que King 'havia disminuït la seva utilitat al moviment'. El New York Times va publicar un editorial crític. Molts líders de la NAACP i de la Urban League van distanciar-se. King va respondre que no podia ser coherent predicant la no-violència als guetos mentre callava sobre la violència americana al Vietnam.",
           "feedbackWrong": "L'oposició a la guerra del Vietnam va costar a King aliats crucials: Lyndon Johnson, gran part de la premsa liberal i molts col·legues del moviment pels drets civils creien que barrejar les dues causes posava en perill els guanys obtinguts."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-mlk-03-01",
-          "question": "El Martin Luther King que celebra la festivitat nacional americana és el del 'Tinc un somni' de 1963. Però el King dels últims anys criticava el capitalisme, s'oposava a la guerra i parlava de redistribució econòmica. S'ha sanititzat el seu llegat?",
-          "options": [
-            "Sí: la commemoració oficial ha reduït King a un heroi de la integració racial i ha amagat el King que criticava el sistema econòmic i la política exterior. La 'versió oficial' és una distorsió política",
-            "No: el King del 'Tinc un somni' representa les seves conviccions més fonamentals i perdurables. Les posicions radicals dels últims anys eren evolucions contingents, no el nucli del seu pensament",
-            "La sanitització és real però no és una conspiració: les societats tendeixen a celebrar les dimensions menys pertorbadores dels seus herois. El King radical dels últims anys és menys còmode per a l'ordre establert que el King integrador del somni —i per això és menys present en la commemoració oficial"
-          ],
-          "correct": 2,
-          "explanation": "La pregunta sobre la sanitització del llegat de King és un debat academic i polític actiu. La posició A (sanitització deliberada) és la de molts activistes i historiadors: citen les paraules de King sobre el capitalisme ('hem de preguntar-nos si el capitalisme com a sistema econòmic és compatible amb la democràcia'), la seva oposició al Vietnam i la seva Poor People's Campaign per mostrar un King molt més radical que el de la narrativa oficial. La posició B (el somni com a essència) és la lectura conservadora: el King integrador, que demanava als negres que s'integressin en l'Amèrica dels valors constitucionals, és el King 'real'. La posició C és la sociológicament més precisa: les societats seleccionen dels seus herois les dimensions que qüestionen menys l'ordre establert. El King del somni és compatible amb la narrativa americana de progrés; el King que deia que 'un home no té el dret moral de dir-li als seus fills que estimeu als seus enemics fins que no li digui als rics que comparteixin la seva riquesa' és més incòmode."
         }
       ]
     }

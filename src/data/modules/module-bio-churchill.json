@@ -10,6 +10,24 @@
       "title": "Trenta anys de fracassos brillants",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-chur-01-01",
+          "question": "Churchill va advertir del perill de Hitler el 1933, quan pocs ho feien. El mateix home va deixar morir milions de bengalins de gana el 1943. Com s'explica que una persona sigui capaç de totes dues coses alhora?",
+          "options": [
+            "No s'explica sense incoherència: o Churchill era un heroi moral i Bengala va ser un error puntual, o era un imperialista cruel i el seu heroisme de 1940 era autointerès britànic disfressat de principis",
+            "S'explica per la ideologia: Churchill no aplicava els mateixos principis als europeus que als asiàtics. No era incoherència —era racisme sistemàtic. Salvava els uns perquè els considerava iguals; deixava morir els altres perquè no",
+            "S'explica per la complexitat humana: les persones no són coherents en tots els seus contextos. Churchill era genuïnament valent davant Hitler i genuïnament indiferent al sofriment indi. Les dues coses coexistien perquè la moralitat humana rarament és una suma algebraica consistent"
+          ],
+          "correct": 2,
+          "explanation": "La posició A exigeix coherència total com a condició de l'heroisme — un estàndard que molt poques persones históriques podrien superar. La posició B és la més defensada per la historiografia postcolonial i té evidència sòlida: Churchill va usar explícitament un marc racial per distingir entre poblacions que mereixien protecció i les que no. Les seves paraules sobre hindús ('una raça brutal amb una religió brutal') ho documenten clarament. La posició C és la que la psicologia moral contemporània tendeix a defensar: els humans compartimentem els nostres valors. Churchill podia ser heroic en el context europeu i deshumà en el context colonial sense que cap de les dues coses anul·lés l'altra — però reconèixer la complexitat no significa absoldrel."
+        },
+        {
+          "type": "misconception",
+          "belief": "Churchill sempre va oposar-se al nazisme i va ser un dels pocs que va advertir del perill d'Hitler des del principi.",
+          "reality": "Churchill va veure el perill d'Hitler amb claredat des de 1933, sí. Però la seva carrera prèvia contenia contradiccions greus: va admirar Mussolini als anys 20 ('Si jo fos italià, hauria estat feixista'), va defensar l'ús de gas contra tribus kurdes a l'Iraq ('No veig per què em preocupo sobre l'ús de gas contra pobles no civilitzats'), i la seva defensa de l'Índia britànica va causar milions de morts a la Gran Fam de Bengala de 1943. El Churchill de 1940 era un heroi genuí. El Churchill complet era molt més contradictori.",
+          "why": "La imatge de Churchill ha estat construïda sobretot per les seves pròpies memòries —sis volums, Premi Nobel de Literatura— i pel context de la postguerra. Ell va escriure la seva pròpia llegenda amb una habilitat retòrica excepcional."
+        },
+        {
           "type": "quote",
           "text": "L'èxit és anar d'un fracàs a un altre sense perdre l'entusiasme.",
           "author": "Winston Churchill"
@@ -28,12 +46,6 @@
             { "year": "1930s", "title": "Els anys del desert", "text": "Fora del govern. Escriu i pinta. Adverteix de Hitler quan ningú no l'escolta. L'anomenen alarmista i belicista." },
             { "year": "1940", "title": "Primer Ministre", "text": "Té 65 anys. La major part del seu partit no el vol. És l'últim recurs d'un país en crisi mortal." }
           ]
-        },
-        {
-          "type": "misconception",
-          "belief": "Churchill sempre va oposar-se al nazisme i va ser un dels pocs que va advertir del perill d'Hitler des del principi.",
-          "reality": "Churchill va veure el perill d'Hitler amb claredat des de 1933, sí. Però la seva carrera prèvia contenia contradiccions greus: va admirar Mussolini als anys 20 ('Si jo fos italià, hauria estat feixista'), va defensar l'ús de gas contra tribus kurdes a l'Iraq ('No veig per què em preocupo sobre l'ús de gas contra pobles no civilitzats'), i la seva defensa de l'Índia britànica va causar milions de morts a la Gran Fam de Bengala de 1943. El Churchill de 1940 era un heroi genuí. El Churchill complet era molt més contradictori.",
-          "why": "La imatge de Churchill ha estat construïda sobretot per les seves pròpies memòries —sis volums, Premi Nobel de Literatura— i pel context de la postguerra. Ell va escriure la seva pròpia llegenda amb una habilitat retòrica excepcional."
         },
         {
           "type": "exercise",
@@ -57,6 +69,20 @@
       "title": "1940: els dies que van canviar el món",
       "blocks": [
         {
+          "type": "what-would-you-do",
+          "character": "Winston Churchill",
+          "emoji": "🎩",
+          "year": "28 de maig de 1940",
+          "setup": "El Gabinet de Guerra està dividit. Halifax —un home intel·ligent i prudent— argumenta que explorar condicions de pau ara és la opció racional: Gran Bretanya sobreviuria com a estat, evitaria la destrucció i podria reconstituir-se. No és covardia: és pragmatisme. Les teves opcions militars objectives són molt dolentes.",
+          "dilemma": "Acceptes que Halifax porti a terme consultes amb Mussolini per explorar possibles termes de pau amb Hitler, o bloqueges qualsevol negociació i continues la guerra amb una probabilitat de victòria que molts experts calculen en menys del 30%?",
+          "options": [
+            { "id": "A", "text": "Permeto les consultes: és irresponsable arriscar la destrucció total quan hi ha alternatives menys catastròfiques" },
+            { "id": "B", "text": "Bloquejo qualsevol negociació: la guerra és la única opció moralment i estratègicament acceptable" }
+          ],
+          "reveal": "Churchill va bloquejar les negociacions. Va sortir del Gabinet de Guerra i es va adreçar directament als vint-i-cinc ministres de rang inferior, que no formaven part del gabinet formal. Va descriure la situació sense embellir-la i va acabar dient que preferia que cadascun d'ells 'morís lluitant' a capitular. La resposta va ser entusiasta. Va tornar al gabinet amb una cobertura política que Halifax no podia ignorar. La guerra va continuar.",
+          "analysis": "La decisió de Churchill és un dels exemples clàssics del lideratge que defineix el context en lloc d'adaptar-se a ell. El punt d'Halifax era racional: les opcions objectives eren dolentes. Churchill va apostar que les opcions subjectives —la voluntat de resistir, el suport americà potencial, els errors futurs d'Hitler— canviarien el càlcul. Va tenir raó. Però si hagués perdut, seria recordat com l'home que va dur Gran Bretanya a una guerra inútil per orgull."
+        },
+        {
           "type": "narrative",
           "text": "El 10 de maig de 1940, el dia que Churchill va prendre possessió com a Primer Ministre, Hitler va llançar l'ofensiva a l'Oest. En deu dies, els exèrcits aliats van col·lapsar. Bèlgica va capitular. França s'esfondraria en sis setmanes. 330.000 soldats britànics estaven encerclats a Dunkerque. El gabinet de guerra britànic estava dividit: Lord Halifax, el Secretari d'Estat, defensava explorar condicions de pau amb Hitler a través de Mussolini. Era una postura raonable —les opcions militars eren pèssimes— i Churchill el va haver de convèncer de no seguir-la."
         },
@@ -72,27 +98,12 @@
           ]
         },
         {
-          "type": "what-would-you-do",
-          "character": "Winston Churchill",
-          "emoji": "🎩",
-          "year": "28 de maig de 1940",
-          "setup": "El Gabinet de Guerra està dividit. Halifax —un home intel·ligent i prudent— argumenta que explorar condicions de pau ara és la opció racional: Gran Bretanya sobreviuria com a estat, evitaria la destrucció i podria reconstituir-se. No és covardia: és pragmatisme. Les teves opcions militars objectives són molt dolentes.",
-          "dilemma": "Acceptes que Halifax porti a terme consultes amb Mussolini per explorar possibles termes de pau amb Hitler, o bloqueges qualsevol negociació i continues la guerra amb una probabilitat de victòria que molts experts calculen en menys del 30%?",
-          "options": [
-            { "id": "A", "text": "Permeto les consultes: és irresponsable arriscar la destrucció total quan hi ha alternatives menys catastròfiques" },
-            { "id": "B", "text": "Bloquejo qualsevol negociació: la guerra és la única opció moralment i estratègicament acceptable" }
-          ],
-          "reveal": "Churchill va bloquejar les negociacions. Va sortir del Gabinet de Guerra i es va adreçar directament als vint-i-cinc ministres de rang inferior, que no formaven part del gabinet formal. Va descriure la situació sense embellir-la i va acabar dient que preferia que cadascun d'ells 'morís lluitant' a capitular. La resposta va ser entusiasta. Va tornar al gabinet amb una cobertura política que Halifax no podia ignorar. La guerra va continuar.",
-          "analysis": "La decisió de Churchill és un dels exemples clàssics del lideratge que defineix el context en lloc d'adaptar-se a ell. El punt d'Halifax era racional: les opcions objectives eren dolentes. Churchill va apostar que les opcions subjectives —la voluntat de resistir, el suport americà potencial, els errors futurs d'Hitler— canviarien el càlcul. Va tenir raó. Però si hagués perdut, seria recordat com l'home que va dur Gran Bretanya a una guerra inútil per orgull."
-        },
-        {
           "type": "exercise",
           "id": "ex-chur-02-01",
-          "style": "true-false",
-          "question": "La famosa frase 'No tinc res a oferir sinó sang, esforç, llàgrimes i suor' va ser pronunciada per Churchill en un discurs de ràdio dirigit al poble britànic.",
-          "correct": false,
-          "feedbackCorrect": "Fals — però és una distinció important. El discurs del 13 de maig de 1940 es va pronunciar al Parlament, no per ràdio. Churchill s'adreçava als Membres del Parlament, no al poble en general. El discurs va ser retransmès per ràdio posteriorment, però l'auditori original eren els diputats que havien de votar la seva confiança. Saber a qui s'adreçava Churchill canvia com interpretem el missatge.",
-          "feedbackWrong": "El discurs va ser al Parlament, no directament per ràdio. Churchill era un mestre en saber adaptar el to i el contingut a l'auditori concret. El discurs al Parlament era per guanyar-se els diputats —incloent els que no es fiaven d'ell— no per inspirar la nació en general."
+          "style": "detect-error",
+          "statement": "La famosa frase 'No tinc res a oferir sinó sang, esforç, llàgrimes i suor' va ser pronunciada per Churchill en un discurs de ràdio dirigit al poble britànic el 13 de maig de 1940.",
+          "isCorrect": false,
+          "feedbackExplanation": "El discurs del 13 de maig de 1940 es va pronunciar al Parlament, no per ràdio i no directament al poble. Churchill s'adreçava als Membres del Parlament, que havien de votar la seva confiança. El discurs va ser retransmès per ràdio posteriorment, però l'auditori original eren els diputats —incloent els que no se'n fiaven. Saber a qui s'adreçava Churchill canvia com interpretem el missatge: no era un discurs d'inspiració popular sinó una operació política per guanyar-se el Parlament."
         }
       ]
     },
@@ -100,6 +111,18 @@
       "id": "chur-03",
       "title": "L'heroi amb ombres: l'imperialisme de Churchill",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-chur-03-01",
+          "question": "Donat el que sabem sobre Churchill —el lideratge de 1940 i l'imperialisme brutal— com hauria de tractar-lo la memòria pública avui?",
+          "options": [
+            "Com a heroi nacional: les seves accions el 1940 van salvar milions de vides europees i el seu llegat net és positiu malgrat les ombres",
+            "Com a figura problemàtica que no mereix monuments públics: els seus crims imperials el descalifiquen com a model moral per a la societat actual",
+            "Com a figura històrica complexa: ni monument acrítico ni condemnació total, sinó un relat complet que expliqui totes les dimensions de la seva acció"
+          ],
+          "correct": 2,
+          "explanation": "La posició A és defensada per conservadors britànics i part de la historiografia tradicional anglosaxona. La posició B ha guanyat força des del moviment Black Lives Matter i les discussions sobre monuments colonials. La posició C és metodològicament més honesta però políticament incòmoda: requereix mantenir la tensió entre el reconeixement del valor genuí del lideratge de 1940 i el reconeixement del cost humà real de l'imperialisme de Churchill. No hi ha una resolució fàcil — i qualsevol relat que la pretengui probablement està simplificant alguna cosa important."
+        },
         {
           "type": "narrative",
           "text": "El 1943, una fam catastròfica va devastar Bengala (l'actual Bangladesh), matar entre dos i tres milions de persones. Les causes eren múltiples: males collites, disrupcions de la guerra, especulació. Però les decisions del govern de Churchill van agreujar enormement la crisi: va refusar desviar vaixells de gra per a l'ajuda humanitària, va exportar arròs de l'Índia cap als Aliats malgrat la fam i quan li van dir que milions de persones morien de gana va respondre preguntant per qué Gandhi no havia mort ja. Churchill no era un monstre excepcional: era un home del seu temps, amb les conviccions imperialistes del seu temps. I aquelles conviccions tenien un cost humà enorme."
@@ -125,18 +148,6 @@
             }
           ],
           "reflection": "Les nostres societats tendeixen a necessitar herois sense ombres o monstres sense redempció. Churchill fa difícil les dues coses. Com hauries de recordar-lo?"
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-chur-03-01",
-          "question": "Donat el que sabem sobre Churchill —el lideratge de 1940 i l'imperialisme brutal— com hauria de tractar-lo la memòria pública avui?",
-          "options": [
-            "Com a heroi nacional: les seves accions el 1940 van salvar milions de vides europees i el seu llegat net és positiu malgrat les ombres",
-            "Com a figura problemàtica que no mereix monuments públics: els seus crims imperials el descalifiquen com a model moral per a la societat actual",
-            "Com a figura històrica complexa: ni monument acrítico ni condemnació total, sinó un relat complet que expliqui totes les dimensions de la seva acció"
-          ],
-          "correct": 2,
-          "explanation": "La posició A és defensada per conservadors britànics i part de la historiografia tradicional anglosaxona. La posició B ha guanyat força des del moviment Black Lives Matter i les discussions sobre monuments colonials. La posició C és metodològicament més honesta però políticament incòmoda: requereix mantenir la tensió entre el reconeixement del valor genuí del lideratge de 1940 i el reconeixement del cost humà real de l'imperialisme de Churchill. No hi ha una resolució fàcil — i qualsevol relat que la pretengui probablement està simplificant alguna cosa important."
         }
       ]
     }

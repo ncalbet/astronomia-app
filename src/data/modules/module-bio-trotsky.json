@@ -10,6 +10,18 @@
       "title": "Lev Bronstein: del pogrom a la revolució",
       "blocks": [
         {
+          "type": "scientific-mode",
+          "id": "sci-tro-01-01",
+          "question": "Trotsky era un intel·lectual extraordinari i un organitzador militar genial. Era també molt arrogant, despreciava els aparatxiks i es negava a jugar les intrigues del Partit. Va contribuir a la seva pròpia derrota?",
+          "options": [
+            "No: Stalin va usar mètodes il·legítims (maniobres burocràtiques, falsificació d'actes, intimidació) que cap estratègia de Trotsky hauria pogut contrarestar",
+            "Sí: la seva incapacitat o negativa a construir aliances, mobilitzar els seus seguidors i jugar el joc de l'aparell va ser un error polític fatal i evitable",
+            "Ambdues coses: Stalin va fer trampa, però Trotsky va subestimar la importància de l'aparell burocràtic —i en un sistema on el control del Partit ho és tot, aquella subestimació va ser decisiva"
+          ],
+          "correct": 2,
+          "explanation": "La derrota de Trotsky és el cas clàssic de la tensió entre intel·ligència i poder. Era, gairebé universalment reconegut, l'intel·lectual i l'orador més brillant del moviment. Lenin el va descriure com el 'millor bolxevic'. I va perdre davant d'un home que molts consideraven mediocre. Stalin va controlar l'aparell burocràtic del Partit —secretaria general, assignació de càrrecs, control dels registres. Trotsky va desdenyar aquella feina. Però en un sistema de partit únic, qui controla l'aparell controla el Partit, i qui controla el Partit controla el poder. La brillantor de Trotsky en el debat ideològic era completament irrelevant en un joc que no es jugava en debats ideològics. Va ser el fracàs clàssic de l'intel·lectual que subestima el poder de la burocràcia."
+        },
+        {
           "type": "quote",
           "text": "No sóc marxista. El marxisme és l'eina amb la qual analitzo la realitat, no la realitat mateixa.",
           "author": "Lev Trotsky"
@@ -49,18 +61,6 @@
           "correct": 2,
           "feedbackCorrect": "Exacte. Trotsky argumentava que el capitalisme era un sistema global i que una revolució en un sol país estava estructuralment condemnada si no s'estenia. Una URSS envoltada d'estats capitalistes hostils hauria d'adaptar-se o morir. Era un argument que Stalin va usar en contra seu: 'vosaltres voleu esperar la revolució mundial; jo construeixo el socialisme aquí i ara'. L'argument de Stalin va guanyar políticament, però la historia de la URSS va acabar donant parcialment la raó a la previsió de Trotsky.",
           "feedbackWrong": "La teoria de la revolució permanent de Trotsky no era sobre la velocitat ni sobre les aliances. Era sobre la impossibilitat estructural d'una revolució estable en un sol país envoltat de capitalisme global. Argumentava que la revolució havia de continuar fins a estendre's internacionalment o seria derrotada des de fora o es degeneraria des de dins."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-tro-01-01",
-          "question": "Trotsky era un intel·lectual extraordinari i un organitzador militar genial. Era també molt arrogant, despreciava els aparatxiks i es negava a jugar les intrigues del Partit. Va contribuir a la seva pròpia derrota?",
-          "options": [
-            "No: Stalin va usar mètodes il·legítims (maniobres burocràtiques, falsificació d'actes, intimidació) que cap estratègia de Trotsky hauria pogut contrarestar",
-            "Sí: la seva incapacitat o negativa a construir aliances, mobilitzar els seus seguidors i jugar el joc de l'aparell va ser un error polític fatal i evitable",
-            "Ambdues coses: Stalin va fer trampa, però Trotsky va subestimar la importància de l'aparell burocràtic —i en un sistema on el control del Partit ho és tot, aquella subestimació va ser decisiva"
-          ],
-          "correct": 2,
-          "explanation": "La derrota de Trotsky és el cas clàssic de la tensió entre intel·ligència i poder. Era, gairebé universalment reconegut, l'intel·lectual i l'orador més brillant del moviment. Lenin el va descriure com el 'millor bolxevic'. I va perdre davant d'un home que molts consideraven mediocre. Stalin va controlar l'aparell burocràtic del Partit —secretaria general, assignació de càrrecs, control dels registres. Trotsky va desdenyar aquella feina. Però en un sistema de partit únic, qui controla l'aparell controla el Partit, i qui controla el Partit controla el poder. La brillantor de Trotsky en el debat ideològic era completament irrelevant en un joc que no es jugava en debats ideològics. Va ser el fracàs clàssic de l'intel·lectual que subestima el poder de la burocràcia."
         }
       ]
     },
@@ -68,10 +68,6 @@
       "id": "tro-02",
       "title": "Crear l'Exèrcit Roig i perdre la pau",
       "blocks": [
-        {
-          "type": "narrative",
-          "text": "El novembre de 1917, els bolxevics tenien el poder a Rússia i no tenien exèrcit. L'exèrcit tsarista s'havia desfet. Hi havia milers de guerrillers locals, faccions contradictòries i un país en anarquia. Les forces 'blanques' —tsaristes, liberals, socialistes moderats— rebien armes i suport de catorze països, incloent Gran Bretanya, França, el Japó i els Estats Units. Lenin va donar a Trotsky el càrrec de Comissari de Guerra. Trotsky va construir l'Exèrcit Roig des de zero: va reclutar dos milions i mig de soldats en dos anys, va reintroduir la disciplina —incloent les execucions de desertors—, va contractar trenta mil oficials de l'exèrcit tsarista (els 'especialistes militars') malgrat l'oposició de la majoria dels bolxevics, i va organitzar l'aprovisionament de tropes en un país en guerra civil i en fam. Va passar la guerra civil en un tren blindat que recorria els fronts. Va guanyar la guerra. Quan Lenin va emmalaltir el 1922 i va morir el 1924, Trotsky era el cap de l'Exèrcit, l'orador més brillant del Partit i, per a molts, l'hereu natural. Va perdre el poder en menys de tres anys."
-        },
         {
           "type": "what-would-you-do",
           "character": "Trotsky",
@@ -87,14 +83,6 @@
           "analysis": "La decisió de Trotsky de no mobilitzar obertament és un dels grans enigmes de la historia política del segle XX. Les seves cartes i diaris suggereixen que creia que la lluita oberta danyaria el Partit i la Revolució —que Lenin havia dit que Trotsky era l'hereu— i que el Partit faria la cosa correcta. Subestimava Stalin de forma espectacular. I potser —alguns historiadors ho suggereixen— temia el que ell mateix pogués fer si guanyava el poder absolut."
         },
         {
-          "type": "exercise",
-          "id": "ex-tro-02-01",
-          "style": "detect-error",
-          "statement": "Lenin va designar explícitament Trotsky com el seu successor en el seu testament polític, però el Comitè Central va ignorar les instruccions de Lenin.",
-          "isCorrect": false,
-          "feedbackExplanation": "L'afirmació és parcialment incorrecta. Lenin va escriure un 'Testament' polític en el qual valorava els principals candidats a la successió —i criticava tant Trotsky com Stalin. Del primer deia que era massa arrogant i massa segur de si mateix en aspectes no estrictament marxistes. De Stalin deia que era 'massa brusc' i que 'hauria de ser remogut del càrrec de Secretari General'. Lenin no va designar cap successor explícit: va descriure els defectes de tots els candidats. El Comitè Central va llegir el testament però va decidir no publicar-lo. Stalin, que controlava l'aparell, va maniobrar per suprimir-lo efectivament durant anys."
-        },
-        {
           "type": "scientific-mode",
           "id": "sci-tro-02-01",
           "question": "Trotsky va crear l'Exèrcit Roig i va guanyar la guerra civil. Stalin va usar aquell exèrcit per a les seves purgues i per envair països veïns. Trotsky porta alguna responsabilitat per l'ús posterior que Stalin va fer de l'instrument que ell va crear?",
@@ -105,6 +93,18 @@
           ],
           "correct": 2,
           "explanation": "La pregunta sobre la responsabilitat de Trotsky per l'Exèrcit Roig és un cas paradigmàtic del problema de la responsabilitat per conseqüències no previstes. Causalment, és clar: sense Trotsky no hi havia exèrcit, sense exèrcit no hi havia URSS, sense URSS no hi havia les purgues d'Stalin. Moralment, atribuir-li responsabilitat per les purgues és discutible: ell mateix va ser víctima d'aquell sistema. Però la posició C extreu la lliçó important: Trotsky va construir un exèrcit subordinat al Partit, no a cap control independent. Quan Stalin va controlar el Partit, va controlar l'exèrcit. Les institucions d'emergència —creades per necessitat genuïna— rarament s'autoeliminen quan l'emergència acaba. El que Trotsky va construir per sobreviure la guerra civil va sobreviure Trotsky i va ser usat contra ell."
+        },
+        {
+          "type": "narrative",
+          "text": "El novembre de 1917, els bolxevics tenien el poder a Rússia i no tenien exèrcit. L'exèrcit tsarista s'havia desfet. Hi havia milers de guerrillers locals, faccions contradictòries i un país en anarquia. Les forces 'blanques' —tsaristes, liberals, socialistes moderats— rebien armes i suport de catorze països, incloent Gran Bretanya, França, el Japó i els Estats Units. Lenin va donar a Trotsky el càrrec de Comissari de Guerra. Trotsky va construir l'Exèrcit Roig des de zero: va reclutar dos milions i mig de soldats en dos anys, va reintroduir la disciplina —incloent les execucions de desertors—, va contractar trenta mil oficials de l'exèrcit tsarista (els 'especialistes militars') malgrat l'oposició de la majoria dels bolxevics, i va organitzar l'aprovisionament de tropes en un país en guerra civil i en fam. Va passar la guerra civil en un tren blindat que recorria els fronts. Va guanyar la guerra. Quan Lenin va emmalaltir el 1922 i va morir el 1924, Trotsky era el cap de l'Exèrcit, l'orador més brillant del Partit i, per a molts, l'hereu natural. Va perdre el poder en menys de tres anys."
+        },
+        {
+          "type": "exercise",
+          "id": "ex-tro-02-01",
+          "style": "detect-error",
+          "statement": "Lenin va designar explícitament Trotsky com el seu successor en el seu testament polític, però el Comitè Central va ignorar les instruccions de Lenin.",
+          "isCorrect": false,
+          "feedbackExplanation": "L'afirmació és parcialment incorrecta. Lenin va escriure un 'Testament' polític en el qual valorava els principals candidats a la successió —i criticava tant Trotsky com Stalin. Del primer deia que era massa arrogant i massa segur de si mateix en aspectes no estrictament marxistes. De Stalin deia que era 'massa brusc' i que 'hauria de ser remogut del càrrec de Secretari General'. Lenin no va designar cap successor explícit: va descriure els defectes de tots els candidats. El Comitè Central va llegir el testament però va decidir no publicar-lo. Stalin, que controlava l'aparell, va maniobrar per suprimir-lo efectivament durant anys."
         }
       ]
     },
@@ -112,6 +112,18 @@
       "id": "tro-03",
       "title": "L'exili i el piolet: escriure la derrota",
       "blocks": [
+        {
+          "type": "scientific-mode",
+          "id": "sci-tro-03-01",
+          "question": "Trotsky va participar en la construcció del sistema bolxevic —incloent el Terror Roig i la supressió d'oponents. Quan Stalin el va perseguir i assassinar, era la víctima d'una injustícia, o estava rebent el que el sistema que ell havia ajudat a construir aplicava als seus oponents?",
+          "options": [
+            "Era una víctima d'injustícia: les seves crítiques a Stalin eren correctes i va ser assassinat per dir la veritat sobre el sistema",
+            "Era el producte del sistema que va ajudar a construir: havia aplicat mètodes similars als seus oponents; que ara li fossin aplicats és la lògica del sistema, no una injustícia específica",
+            "Ambdues coses son certes simultàniament: era víctima d'una injustícia real (l'assassinat polític) i alhora portava la seva quota de responsabilitat en la creació del sistema que va fer possible aquell assassinat. Les dues veritats coexisteixen sense cancel·lar-se mútuament"
+          ],
+          "correct": 2,
+          "explanation": "El cas de Trotsky és un exemple perfecte del que els historiadors anomenen la 'tragèdia dels revolucionaris': homes que van usar la violència per construir un sistema nou i que van ser destruïts per aquell sistema. La posició A és la del trotskista convençut: Trotsky tenia raó sobre Stalin i era una víctima pura. La posició B és el cinisme pur: es va tenir el que va sembrar. La posició C és la més honest: podem reconèixer que el seu assassinat va ser una injustícia real (cap sistema decent hauria assassinat un opositor en exili) i simultàniament reconèixer que va contribuir a la creació del sistema que va fer possible aquell assassinat. El Terror Roig de 1918-1921 —que Trotsky va defensar— va crear els precedents legals i culturals que Stalin va ampliar massivament. Trotsky va lamentar el que Stalin va fer; no sempre va reconèixer la seva pròpia contribució a les condicions que ho van fer possible."
+        },
         {
           "type": "narrative",
           "text": "A partir de 1929, Trotsky va viure en un exili perpetu sota amenaça constant: Turquia (1929-1933), França (1933-1935), Noruega (1935-1936) —on el govern noruec el va internar sota pressió soviètica— i finalment Mèxic (1937-1940), on Diego Rivera i Frida Kahlo el van acollir. Des de l'exili va escriure les seves obres més importants: La Revolució Traïda (1936), la seva anàlisi de per qué la URSS de Stalin havia deixat de ser un estat obrer, i la seva autobiografia Mi Vida. Va crear la Quarta Internacional per contraposar-se a la Tercera Internacional estalinista. A Moscou, els processos de Moscou (1936-1938) executaven els seus antics aliats i el presentaven com el centre d'un complot fantasmal contra la URSS. Stalin va enviar agents per matar-lo: el primer intent va fracassar (maig de 1940, assalt a la seva casa a Coyoacán). El segon va tenir èxit. El 20 d'agost de 1940, Ramón Mercader —un agent de l'NKVD que s'havia fet passar per amic i que portava mesos guanyant-se la seva confiança— li va clavar un piolet al cap. Va tardar vint-i-sis hores a morir. Tenia seixanta anys."
@@ -164,18 +176,6 @@
           "correct": 2,
           "feedbackCorrect": "Exacte. Ramón Mercader era un agent de l'NKVD (la policia secreta soviètica) d'origen català, fill d'una comunista convençuda. Va infiltrar-se en el cercle de Trotsky passant per un militant simpàtic, va guanyar la seva confiança durant mesos i el 20 d'agost de 1940 li va clavar un piolet al cap. Va ser detingut a Mèxic i va complir 20 anys de presó. En ser alliberat el 1960, va marxar a la URSS, on Stalin li havia concedit la medalla d'Or del Heroi de la Unió Soviètica.",
           "feedbackWrong": "L'assassí va ser Ramón Mercader, agent de l'NKVD (policia secreta soviètica). D'origen català, havia infiltrat el cercle de Trotsky durant mesos, guanyant-se la seva confiança com a militant. L'arma va ser un piolet de muntanya. Va ser detingut immediatament. En ser alliberat el 1960, va rebre la medalla d'Or de la Unió Soviètica que Stalin li havia concedit in absentia."
-        },
-        {
-          "type": "scientific-mode",
-          "id": "sci-tro-03-01",
-          "question": "Trotsky va participar en la construcció del sistema bolxevic —incloent el Terror Roig i la supressió d'oponents. Quan Stalin el va perseguir i assassinar, era la víctima d'una injustícia, o estava rebent el que el sistema que ell havia ajudat a construir aplicava als seus oponents?",
-          "options": [
-            "Era una víctima d'injustícia: les seves crítiques a Stalin eren correctes i va ser assassinat per dir la veritat sobre el sistema",
-            "Era el producte del sistema que va ajudar a construir: havia aplicat mètodes similars als seus oponents; que ara li fossin aplicats és la lògica del sistema, no una injustícia específica",
-            "Ambdues coses son certes simultàniament: era víctima d'una injustícia real (l'assassinat polític) i alhora portava la seva quota de responsabilitat en la creació del sistema que va fer possible aquell assassinat. Les dues veritats coexisteixen sense cancel·lar-se mútuament"
-          ],
-          "correct": 2,
-          "explanation": "El cas de Trotsky és un exemple perfecte del que els historiadors anomenen la 'tragèdia dels revolucionaris': homes que van usar la violència per construir un sistema nou i que van ser destruïts per aquell sistema. La posició A és la del trotskista convençut: Trotsky tenia raó sobre Stalin i era una víctima pura. La posició B és el cinisme pur: es va tenir el que va sembrar. La posició C és la més honest: podem reconèixer que el seu assassinat va ser una injustícia real (cap sistema decent hauria assassinat un opositor en exili) i simultàniament reconèixer que va contribuir a la creació del sistema que va fer possible aquell assassinat. El Terror Roig de 1918-1921 —que Trotsky va defensar— va crear els precedents legals i culturals que Stalin va ampliar massivament. Trotsky va lamentar el que Stalin va fer; no sempre va reconèixer la seva pròpia contribució a les condicions que ho van fer possible."
         }
       ]
     }
