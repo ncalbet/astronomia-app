@@ -1,6 +1,6 @@
 {
   "id": "module-bio-tubman",
-  "title": "Harriet Tubman: mai no vaig perdre cap passatger",
+  "title": "Harriet Tubman: la llibertat no s'espera",
   "emoji": "🌟",
   "phase": 1,
   "unlockRequires": null,
@@ -37,13 +37,41 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "~1822", "title": "Naix al Maryland", "text": "Araminta 'Minty' Ross. Data desconeguda. Família esclavitzada per Edward Brodess." },
-            { "year": "~1834", "title": "Lesió al cap", "text": "Un pes de plom llançat per un supervisor l'impacta al cap. Narcolèpsia i 'visions' per a tota la vida." },
-            { "year": "1844", "title": "Matrimoni amb John Tubman", "text": "Home lliure. Pren el seu cognom i el nom 'Harriet'. El matrimoni no la allibera —ella continua essent esclava." },
-            { "year": "1849", "title": "Fugida a Pennsylvania", "text": "Sola, de nit, seguint l'Estrella Polar cap al Nord. Arriba a Filadèlfia lliure." },
-            { "year": "1850-1860", "title": "13 missions. ~70 persones alliberades.", "text": "Torna al Maryland tretze vegades. Mai no perd cap passatger. Hi ha una recompensa de $40.000 per ella." },
-            { "year": "1862-65", "title": "Guerra Civil: espia i infermera", "text": "Serveix la Unió a Carolina del Sud. Dirigeix el Raid del riu Combahee: 700 persones alliberades en una nit." },
-            { "year": "1913", "title": "Mor a Auburn, Nova York", "text": "Tenia uns 91 anys. Les seves últimes paraules: 'Vaig a preparar un lloc per a vosaltres.'" }
+            {
+              "year": "~1822",
+              "title": "Naix al Maryland",
+              "text": "Araminta 'Minty' Ross. Data desconeguda. Família esclavitzada per Edward Brodess."
+            },
+            {
+              "year": "~1834",
+              "title": "Lesió al cap",
+              "text": "Un pes de plom llançat per un supervisor l'impacta al cap. Narcolèpsia i 'visions' per a tota la vida."
+            },
+            {
+              "year": "1844",
+              "title": "Matrimoni amb John Tubman",
+              "text": "Home lliure. Pren el seu cognom i el nom 'Harriet'. El matrimoni no la allibera —ella continua essent esclava."
+            },
+            {
+              "year": "1849",
+              "title": "Fugida a Pennsylvania",
+              "text": "Sola, de nit, seguint l'Estrella Polar cap al Nord. Arriba a Filadèlfia lliure."
+            },
+            {
+              "year": "1850-1860",
+              "title": "13 missions. ~70 persones alliberades.",
+              "text": "Torna al Maryland tretze vegades. Mai no perd cap passatger. Hi ha una recompensa de $40.000 per ella."
+            },
+            {
+              "year": "1862-65",
+              "title": "Guerra Civil: espia i infermera",
+              "text": "Serveix la Unió a Carolina del Sud. Dirigeix el Raid del riu Combahee: 700 persones alliberades en una nit."
+            },
+            {
+              "year": "1913",
+              "title": "Mor a Auburn, Nova York",
+              "text": "Tenia uns 91 anys. Les seves últimes paraules: 'Vaig a preparar un lloc per a vosaltres.'"
+            }
           ]
         },
         {
@@ -75,8 +103,14 @@
           "setup": "Ets a Maryland per a una de les teves missions. Has ajudat a fugir tres persones i sou a dues hores del punt de recollida cap al Nord. Un dels teus pasatgers, un home adult, diu que no pot continuar —que té por, que vol tornar. Si torna i el capturen, pot revelar sota tortura la ruta, les cases segures i tots els que han ajudat. Portaries anys en presó. Les persones que us han acollit a les cases segures serien empresonades. Tu mates sería buscada amb més intensitat.",
           "dilemma": "Permets que el passatger torni, arriscant que tota la xarxa sigui descoberta? O l'obligues a continuar a punta de pistola?",
           "options": [
-            { "id": "A", "text": "El deixo tornar: la llibertat no pot ser forçada. Cadascú ha de triar el seu risc" },
-            { "id": "B", "text": "L'obligues a continuar: el dret individual no pot posar en perill les vides de desenes de persones i anys de construcció de la xarxa" }
+            {
+              "id": "A",
+              "text": "El deixo tornar: la llibertat no pot ser forçada. Cadascú ha de triar el seu risc"
+            },
+            {
+              "id": "B",
+              "text": "L'obligues a continuar: el dret individual no pot posar en perill les vides de desenes de persones i anys de construcció de la xarxa"
+            }
           ],
           "reveal": "Tubman era explícita sobre aquest escenari. Va dir que quan algú volia tornar, treia el revòlver i deia: 'Pots viure com a esclau o morir com a home lliure, però no tornaràs per revelar la nostra ruta.' Segons els seus testimonis i els dels seus pasatgers, mai va haver d'usar l'arma —però sempre era present. No va perdre mai cap pasatger.",
           "analysis": "La decisió de Tubman és moralment complexa però estratègicament clara: la xarxa del Ferrocarril Subterrani representava la llibertat de desenes o centenars de persones futures. Permetre que un pasatger 'trontollant' tornés i delatés la xarxa podia destruir-la completament. Tubman valorava la llibertat col·lectiva per sobre de l'elecció individual en aquell moment específic. No era una posició abstracta: era el resultat d'una anàlisi de riscos brutalment pràctica."
@@ -178,5 +212,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 126,
+  "area": "biografies",
+  "topic": "Resistència i Drets",
+  "level": "inicial"
 }

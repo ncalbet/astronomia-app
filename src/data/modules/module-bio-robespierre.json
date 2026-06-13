@@ -39,13 +39,41 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1758", "title": "Naixement a Arras", "text": "Fill d'advocat, mare morta als set anys, pare desaparegut." },
-            { "year": "1769-1781", "title": "Col·legi Louis-le-Grand, París", "text": "Beca per als pobres. Llatí, filosofia, Rousseau." },
-            { "year": "1789", "title": "Diputat als Estats Generals", "text": "Defensa el sufragi universal i l'abolició de la pena de mort." },
-            { "year": "1792", "title": "La Guerra i la Caiguda de la Monarquia", "text": "Àustria i Prússia invadeixen. El 10 d'agost, assalt a les Tuileries." },
-            { "year": "1793", "title": "El Comitè de Salvació Pública", "text": "Entra al Comitè el juliol. Comença la dictadura del Comitè." },
-            { "year": "1793-1794", "title": "El Terror", "text": "40.000 executats. Maria Antonieta, Girondins, Hebertistes, Dantonistes." },
-            { "year": "9 Thermidor (27 juliol 1794)", "title": "El cop de Thermidor", "text": "Detingut a la Convenció pels seus propis aliats. Guillotinat l'endemà." }
+            {
+              "year": "1758",
+              "title": "Naixement a Arras",
+              "text": "Fill d'advocat, mare morta als set anys, pare desaparegut."
+            },
+            {
+              "year": "1769-1781",
+              "title": "Col·legi Louis-le-Grand, París",
+              "text": "Beca per als pobres. Llatí, filosofia, Rousseau."
+            },
+            {
+              "year": "1789",
+              "title": "Diputat als Estats Generals",
+              "text": "Defensa el sufragi universal i l'abolició de la pena de mort."
+            },
+            {
+              "year": "1792",
+              "title": "La Guerra i la Caiguda de la Monarquia",
+              "text": "Àustria i Prússia invadeixen. El 10 d'agost, assalt a les Tuileries."
+            },
+            {
+              "year": "1793",
+              "title": "El Comitè de Salvació Pública",
+              "text": "Entra al Comitè el juliol. Comença la dictadura del Comitè."
+            },
+            {
+              "year": "1793-1794",
+              "title": "El Terror",
+              "text": "40.000 executats. Maria Antonieta, Girondins, Hebertistes, Dantonistes."
+            },
+            {
+              "year": "9 Thermidor (27 juliol 1794)",
+              "title": "El cop de Thermidor",
+              "text": "Detingut a la Convenció pels seus propis aliats. Guillotinat l'endemà."
+            }
           ]
         },
         {
@@ -70,8 +98,14 @@
           "setup": "Ets Robespierre. George Danton —el gran orador de la Revolució, un dels seus fundadors, el teu aliat des de 1789— ha criticat públicament el Terror i ha demanat clemència. Milers de persones moren a la guillotina cada mes. Danton té més carisma que tu, és estimat per molts diputats, i la seva campanya per la clemència podria deslegitimar el Comitè. Però és Danton —un dels homes que va fer la Revolució possible. El teu propi assessor, Saint-Just, et proposa processar-lo.",
           "dilemma": "Proceses Danton per traïció a la Revolució, sabent que és una acusació que necessita ser exagerada? O el deixes actuar i arrisques que la campanya de clemència desmantellin el sistema de seguretat que creus indispensable?",
           "options": [
-            { "id": "A", "text": "Deixo Danton actuar: ell és la Revolució tant com jo. Podria negociar amb ell en privat" },
-            { "id": "B", "text": "El processo: cap individu, per gran que sigui, pot estar per sobre de la Revolució i del Comitè" }
+            {
+              "id": "A",
+              "text": "Deixo Danton actuar: ell és la Revolució tant com jo. Podria negociar amb ell en privat"
+            },
+            {
+              "id": "B",
+              "text": "El processo: cap individu, per gran que sigui, pot estar per sobre de la Revolució i del Comitè"
+            }
           ],
           "reveal": "Robespierre va processar Danton. El 5 d'abril de 1794, Danton —que durant el judici va fer un discurs que commovia la sala— va ser guillotinat. Els seus últims mots van ser: 'Robespierre, tu em seguiràs'. Tres mesos després, el 9 Thermidor (27 de juliol de 1794), Robespierre va ser detingut pels seus propis aliats a la Convenció. Va ser guillotinat l'endemà.",
           "analysis": "La decisió d'executar Danton va ser el punt de no retorn. Fins llavors, el Terror havia eliminat opositors evidents. Eliminar Danton enviava un missatge diferent: ningú estava fora del perill, cap historial revolucionari protegia, cap amistat comptava. Paradoxalment, l'execució de Danton va accelerar la caiguda de Robespierre: va convèncer molts diputats que eren els pròxims, i el cop de Thermidor va ser la seva resposta."
@@ -186,5 +220,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 111,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

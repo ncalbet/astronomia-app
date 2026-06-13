@@ -294,7 +294,7 @@ export default function Lesson() {
     <div className={styles.screen}>
       <header className={styles.header}>
         <button className={styles.back} onClick={handleBack}>
-          ← {currentItineraryId ? 'Itineraris' : `${theme.missionWord}s`}
+          ← {currentItineraryId ? 'Itineraris' : theme.missionWordPlural}
         </button>
         <div className={styles.progress}>
           <div className={styles.progressFill}

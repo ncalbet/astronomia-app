@@ -4,21 +4,8 @@ import { useApp } from '../context/AppContext'
 import { MODULE_REGISTRY } from '../data/moduleRegistry'
 import { LEARNING_PATHS } from '../data/learningPaths'
 import { MICROCAPSULES } from '../data/microcapsules'
-import { AREAS } from '../data/areaRegistry'
+import { getAreaForModule } from '../data/areaRegistry'
 import styles from './GlobalSearch.module.css'
-
-// Metadata bàsica per a cerca (títol + emoji per mòdul ID)
-const MODULE_META_MINI = {}
-MODULE_REGISTRY.forEach(m => {
-  // Lleguim del ModuleMap — re-exportem via data si cal, aquí usem el títol de l'ID
-  MODULE_META_MINI[m.id] = m.id.replace(/-/g, ' ')
-})
-
-// Importem l'objecte gran des de ModuleMap (no exportat, reconstruïm des de paths)
-const PATH_MODULES = {}
-LEARNING_PATHS.forEach(p => p.modules.forEach(m => {
-  PATH_MODULES[m.id] = { title: m.title, emoji: m.emoji }
-}))
 
 function highlight(text, query) {
   if (!query) return text
@@ -43,11 +30,10 @@ export default function GlobalSearch() {
   const results = useMemo(() => {
     if (!q) return { modules: [], paths: [], capsules: [] }
 
-    const modules = LEARNING_PATHS.flatMap(p => p.modules)
-      .filter((m, i, arr) => arr.findIndex(x => x.id === m.id) === i) // dedup
+    const modules = MODULE_REGISTRY
       .filter(m => m.title.toLowerCase().includes(q))
       .slice(0, 8)
-      .map(m => ({ ...m, type: 'module' }))
+      .map(m => ({ ...m, minutes: Math.round((m.xp || 200) / 20), type: 'module' }))
 
     const paths = LEARNING_PATHS
       .filter(p => p.title.toLowerCase().includes(q) || p.description.toLowerCase().includes(q))
@@ -71,7 +57,7 @@ export default function GlobalSearch() {
       setNavigationState({ currentPathId: path.id })
       navigate('/path')
     } else {
-      const area = AREAS.find(a => a.topics.some(t => t.modules.includes(moduleId)))
+      const area = getAreaForModule(moduleId)
       if (area) {
         setNavigationState({ currentAreaId: area.id })
         navigate('/modules')
@@ -113,7 +99,7 @@ export default function GlobalSearch() {
       {!q && (
         <div className={styles.empty}>
           <div className={styles.emptyEmoji}>🔍</div>
-          <p className={styles.emptyText}>Escriu per cercar entre {LEARNING_PATHS.flatMap(p=>p.modules).length} mòduls, {LEARNING_PATHS.length} itineraris i {MICROCAPSULES.length} càpsules.</p>
+          <p className={styles.emptyText}>Escriu per cercar entre {MODULE_REGISTRY.length} mòduls, {LEARNING_PATHS.length} itineraris i {MICROCAPSULES.length} càpsules.</p>
         </div>
       )}
 

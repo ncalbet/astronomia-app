@@ -70,8 +70,14 @@
           "setup": "La Constitució t'impedeix presentar-te a la reelecció. El Parlament t'ha bloquejat la reforma constitucional. Tens tres opcions: acceptar el final del teu mandat i marxar, intentar una reforma constitucional amb el suport popular en un referèndum, o fer un cop d'estat militar i dissoldre el Parlament. Els teus assessors militars et garanteixen la lleialtat de l'exèrcit. El risc de resistència armada sembla baix.",
           "dilemma": "Respectes la Constitució i marxes, o dissoleu el Parlament i consolideu el poder per la força?",
           "options": [
-            { "id": "A", "text": "Respecto la Constitució: un president que la trenca destrueix la legitimitat que necessita per governar" },
-            { "id": "B", "text": "Faig el cop: tinc el suport popular i l'exèrcit. La Constitució és un obstacle que el poble pot ratificar després en plebiscit" }
+            {
+              "id": "A",
+              "text": "Respecto la Constitució: un president que la trenca destrueix la legitimitat que necessita per governar"
+            },
+            {
+              "id": "B",
+              "text": "Faig el cop: tinc el suport popular i l'exèrcit. La Constitució és un obstacle que el poble pot ratificar després en plebiscit"
+            }
           ],
           "reveal": "Louis-Napoleon va fer el cop la nit del 1 al 2 de desembre de 1851. Va arrestar els líders republicans, va dissoldre el Parlament i va ocupar París. El plebiscit posterior va ratificar el cop amb un 92% de suport. Un any més tard era Emperador. El mecanisme —cop militar + plebiscit de ratificació— seria reutilitzat per dictadors del segle XX com Hitler (1933-34) i Mussolini.",
           "analysis": "Louis-Napoleon va inventar el que els politicòlegs anomenen 'bonapartisme': el lideratge carismàtic que usa la consulta popular per legitimar el poder excepcional. La seva fórmula —força + plebiscit— va ser influent perquè semblava democràtica sense ser-ho. La distinció entre democràcia i plebiscitarisme populista és una de les qüestions centrals de la teoria política del segle XX."
@@ -160,5 +166,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 103,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

@@ -12,7 +12,6 @@
       "description": "De l'expedició dels Argonautes a la filosofia del lideratge, de la lleialtat i la traïció a Medea com a personatge independent",
       "style": "Narratiu · del mite a la interpretació filosòfica i psicològica",
       "lessons": [
-
         {
           "id": "jas-01",
           "title": "El vel·lí d'or i el rei covard",
@@ -58,7 +57,6 @@
             }
           ]
         },
-
         {
           "id": "jas-02",
           "title": "El lideratge de Jasó",
@@ -139,7 +137,6 @@
             }
           ]
         },
-
         {
           "id": "jas-03",
           "title": "Medea: la que ho fa possible",
@@ -208,7 +205,6 @@
             }
           ]
         },
-
         {
           "id": "jas-04",
           "title": "La traïció",
@@ -263,7 +259,6 @@
             }
           ]
         },
-
         {
           "id": "jas-05",
           "title": "Medea: la venjança i les seves lectures",
@@ -290,8 +285,14 @@
               "setup": "Jasó s'ha casat avui amb Glauce. El rei Creont t'expulsa de Corint demà amb els teus fills. No tens pàtria, no tens família, no tens protecció legal. Els teus fills seran fills d'una exiliada sense drets. Jasó t'ha dit que hauries d'estar agraïda.",
               "dilemma": "Qué fas?",
               "options": [
-                { "id": "A", "text": "Accepto l'exili. Marxo amb els meus fills i reconstrueixo una vida en un altre lloc. La supervivència dels fills és el que importa, no la venjança." },
-                { "id": "B", "text": "Em veng. Destrueixo el que Jasó ha construït amb la seva traïció — incloent-hi el futur que creia que tenia." }
+                {
+                  "id": "A",
+                  "text": "Accepto l'exili. Marxo amb els meus fills i reconstrueixo una vida en un altre lloc. La supervivència dels fills és el que importa, no la venjança."
+                },
+                {
+                  "id": "B",
+                  "text": "Em veng. Destrueixo el que Jasó ha construït amb la seva traïció — incloent-hi el futur que creia que tenia."
+                }
               ],
               "reveal": "Medea tria la venjança. Mata Glauce i Creont amb verí, i mata els seus propis fills. Fuig en un carro alat. Jasó queda sol.",
               "analysis": "La decisió de Medea és indefensable des de qualsevol perspectiva moral que valori la vida dels fills. Però Eurípides no la presenta com a indefensable des de la lògica interna de Medea: és la resposta d'algú a qui han tret tot, que actua amb la mateixa determinació que sempre ha tingut, ara dirigida cap a la destrucció. El que la tragèdia ens demana no és que aproven Medea — és que entenguem com s'hi ha arribat. I que preguntem qui és responsable de la cadena de decisions que ha portat fins aquí."
@@ -313,7 +314,6 @@
             }
           ]
         },
-
         {
           "id": "jas-06",
           "title": "Llegat: l'aventura que no acaba bé",
@@ -407,8 +407,12 @@
             }
           ]
         }
-
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 214,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

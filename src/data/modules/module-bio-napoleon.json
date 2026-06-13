@@ -39,12 +39,36 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1769", "title": "Neix a Còrsega", "text": "Un any després que França compri l'illa. Família de petita noblesa corsa. Accent estranger en francès tota la vida." },
-            { "year": "1785", "title": "Tinent d'artilleria", "text": "Graduat de l'Escola Militar de París. Un dels alumnes més joves. Especialitat: matemàtiques i artilleria." },
-            { "year": "1795", "title": "El 13 Vendemiari", "text": "Dispersa una insurrecció reialista a París amb artilleria. Frase atribuïda: 'una descàrrega de metralla'. Salta a la fama." },
-            { "year": "1796-99", "title": "Campanya d'Itàlia i Egipte", "text": "Venç Àustria a Itàlia. Campanya d'Egipte (fracàs militar, però s'endú la Pedra Rosetta i centenars de científics)." },
-            { "year": "1799", "title": "El 18 Brumari", "text": "Cop d'estat. Fi de la Revolució. Napoleon, Primer Cònsol de França." },
-            { "year": "1804", "title": "Emperador", "text": "Es corona a si mateix a Notre Dame davant del Papa —agafant la corona de les mans del Pontífex." }
+            {
+              "year": "1769",
+              "title": "Neix a Còrsega",
+              "text": "Un any després que França compri l'illa. Família de petita noblesa corsa. Accent estranger en francès tota la vida."
+            },
+            {
+              "year": "1785",
+              "title": "Tinent d'artilleria",
+              "text": "Graduat de l'Escola Militar de París. Un dels alumnes més joves. Especialitat: matemàtiques i artilleria."
+            },
+            {
+              "year": "1795",
+              "title": "El 13 Vendemiari",
+              "text": "Dispersa una insurrecció reialista a París amb artilleria. Frase atribuïda: 'una descàrrega de metralla'. Salta a la fama."
+            },
+            {
+              "year": "1796-99",
+              "title": "Campanya d'Itàlia i Egipte",
+              "text": "Venç Àustria a Itàlia. Campanya d'Egipte (fracàs militar, però s'endú la Pedra Rosetta i centenars de científics)."
+            },
+            {
+              "year": "1799",
+              "title": "El 18 Brumari",
+              "text": "Cop d'estat. Fi de la Revolució. Napoleon, Primer Cònsol de França."
+            },
+            {
+              "year": "1804",
+              "title": "Emperador",
+              "text": "Es corona a si mateix a Notre Dame davant del Papa —agafant la corona de les mans del Pontífex."
+            }
           ]
         },
         {
@@ -76,8 +100,14 @@
           "setup": "Has entrat a Moscou amb 100.000 soldats. Però els russos l'han incendiada abans de retirar-se —no hi ha res per conquerir, ni subministraments ni allotjament. El tsar Alexandre I refusa negociar. L'hivern s'acosta. Els teus generals et diuen que la retirada hauria de començar ara. Però tornar sense un tractat de pau és admetre la derrota davant d'Europa.",
           "dilemma": "Esperes a Moscou fins que el tsar negociï —arriscant l'hivern rus amb un exèrcit esgotats i sense provisions— o ordens la retirada immediata, acceptant que la campanya ha fracassat?",
           "options": [
-            { "id": "A", "text": "Espero: el tsar ha de cedir. Un exèrcit de 100.000 homes a Moscou és una pressió insostenible" },
-            { "id": "B", "text": "Retiro immediatament: l'hivern rus és l'enemic real. Cal preservar l'exèrcit per lluitar un altre dia" }
+            {
+              "id": "A",
+              "text": "Espero: el tsar ha de cedir. Un exèrcit de 100.000 homes a Moscou és una pressió insostenible"
+            },
+            {
+              "id": "B",
+              "text": "Retiro immediatament: l'hivern rus és l'enemic real. Cal preservar l'exèrcit per lluitar un altre dia"
+            }
           ],
           "reveal": "Napoleon va esperar cinc setmanes a Moscou incendiada. El tsar no va cedir. Va ordenar la retirada el 19 d'octubre —massa tard. La marxa de tornada va ser un calvari: fred extrem, fam, assetjament constant dels cosacs. De 450.000 soldats que havien entrat a Rússia, menys de 100.000 van creuar la frontera vius. Dos anys més tard, Napoleon abdicava.",
           "analysis": "La campanya de Rússia és l'exemple clàssic de la hybris estratègica: subestimar el territori, el clima i la voluntat de resistir de l'enemic. Napoleon havia guanyat tantes guerres per velocitat i audàcia que no va saber reconèixer quan la situació requeria prudència. La mateixa qualitat que el va fer gran —la disposició a arriscar-ho tot— el va destruir quan les condicions van canviar."
@@ -167,5 +197,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 102,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

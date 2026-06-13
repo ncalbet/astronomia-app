@@ -76,8 +76,14 @@
           "setup": "Acabes de guanyar la batalla decisiva de Sadowa. Àustria és derrotada. El teu rei Guillem I i els generals volen desfilar per Viena, annexionar territori austríac i humiliar l'Imperi. Les victòries militars meriten recompenses territorials — és el que s'ha fet sempre.",
           "dilemma": "Permets la marxa a Viena i l'annexió de territoris austríacs, com volen el rei i els generals? O atures la guerra immediatament amb una pau generosa que no humiliï Àustria?",
           "options": [
-            { "id": "A", "text": "Marxa a Viena: la victòria total consolida el poder prussià i fa impossible qualsevol revenja austríaca" },
-            { "id": "B", "text": "Pau immediata i generosa: no volem un enemic permanent, volem un Àustria que no tingui motius de revenja" }
+            {
+              "id": "A",
+              "text": "Marxa a Viena: la victòria total consolida el poder prussià i fa impossible qualsevol revenja austríaca"
+            },
+            {
+              "id": "B",
+              "text": "Pau immediata i generosa: no volem un enemic permanent, volem un Àustria que no tingui motius de revenja"
+            }
           ],
           "reveal": "Bismarck va aturar la guerra immediatament. Va amenaçar de dimitir si el rei no acceptava una pau generosa. Va cedir a Àustria territoris, no va exigir indemnitzacions de guerra grans i va permetre que l'Emperador Francesc Josep mantingués la dignitat. Set anys més tard, Àustria era aliada d'Alemanya — no enemiga.",
           "analysis": "Aquesta decisió separa Bismarck de gairebé tots els seus contemporanis militars. Ell entenia que l'objectiu no era demostrar la superioritat de Prússia sinó crear les condicions per a un Segon Reich estable. Un Àustria humiliada seria un enemic permanent. Un Àustria derrotada però no humiliada podria ser un aliat. Tenia raó. Els seus successors —que el 1919 van humiliar Alemanya a Versalles— van demostrar per contrast que la generositat de Bismarck el 1866 va ser una decisió estratègica, no una debilitat."
@@ -170,5 +176,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 96,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

@@ -12,7 +12,6 @@
       "description": "Del relat original dels dotze treballs a la filosofia de la culpa i la redempció, de la força com a do a la força com a curs",
       "style": "Narratiu · del mite a la interpretació filosòfica i psicològica",
       "lessons": [
-
         {
           "id": "her-01",
           "title": "L'home més fort del món",
@@ -83,7 +82,6 @@
             }
           ]
         },
-
         {
           "id": "her-02",
           "title": "Els dotze treballs: estructura i sentit",
@@ -163,7 +161,6 @@
             }
           ]
         },
-
         {
           "id": "her-03",
           "title": "Culpa i expiació",
@@ -223,7 +220,6 @@
             }
           ]
         },
-
         {
           "id": "her-04",
           "title": "La força com a curs",
@@ -251,8 +247,14 @@
               "setup": "Has completat els dotze treballs. Ets lliure. Però saps el que saps sobre tu mateix: que tens accesos de ira que no pots controlar, que la teva força pot matar els qui t'envolten sense que ho vulguis, que Hera pot tornar a usar-te contra els qui estimes. Tens davant una vida sencera.",
               "dilemma": "Com vius amb el que ets?",
               "options": [
-                { "id": "A", "text": "Continuo fent grans coses — expedicions, batalles, ajudar qui ho necessita. La vida plena és l'única resposta al que he fet. El perill de fer mal és el preu de ser qui sóc." },
-                { "id": "B", "text": "Em retiro de les relacions properes. Faré el bé des de la distància, sense posar en risc ningú que m'estimi. La prudència exigeix que el que sóc no s'apropi massa al que aprecio." }
+                {
+                  "id": "A",
+                  "text": "Continuo fent grans coses — expedicions, batalles, ajudar qui ho necessita. La vida plena és l'única resposta al que he fet. El perill de fer mal és el preu de ser qui sóc."
+                },
+                {
+                  "id": "B",
+                  "text": "Em retiro de les relacions properes. Faré el bé des de la distància, sense posar en risc ningú que m'estimi. La prudència exigeix que el que sóc no s'apropi massa al que aprecio."
+                }
               ],
               "reveal": "El mite descriu Hèracles fent exactament l'opció A: continua vivint plenament, es torna a casar (amb Deianira), té fills, fa expedicions. I acaba morint per un error de Deianira, que li envia una túnica enverinada pensant que és un filtre d'amor. La vida plena porta noves tragèdies. Però el mite no suggereix que l'opció B hauria estat millor.",
               "analysis": "La decisió d'Hèracles de continuar vivint plenament és coherent amb una postura filosòfica: la vida retirada per por de fer mal no és vida — és una forma de mort preventiva. Però el preu és real: qui viu plenament amb la capacitat d'Hèracles seguirà causant dany. El mite no resol la tensió. Presenta un home que tria viure i paga el preu de la tria."
@@ -279,7 +281,6 @@
             }
           ]
         },
-
         {
           "id": "her-05",
           "title": "Redempció: es pot reparar el que no té reparació?",
@@ -352,7 +353,6 @@
             }
           ]
         },
-
         {
           "id": "her-06",
           "title": "Llegat: l'heroi que no s'assembla a cap heroi",
@@ -454,8 +454,12 @@
             }
           ]
         }
-
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 212,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

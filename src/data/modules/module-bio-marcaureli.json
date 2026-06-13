@@ -37,13 +37,41 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "121", "title": "Naix a Roma", "text": "Família aristocràtica. L'emperador Adrià el coneix i el cridava 'Verissimus'. Adoptat per Antoninus Pius com a successor." },
-            { "year": "133", "title": "Primera lectura d'Epictetus", "text": "El mestre d'estoïcisme Quint Junius Rusticus li dóna a llegir les Diatribes d'Epictetus. Moment de conversió filosòfica." },
-            { "year": "161", "title": "Emperador de Roma", "text": "Mor Antoninus Pius. Marcus assumeix el poder i insisteix en la co-regència de Luci Verus. Immediatament esclata la guerra amb els Parts." },
-            { "year": "165-180", "title": "La Pesta Antonina", "text": "L'exèrcit torna de la guerra dels Parts portant una plaga devastadora. Mor fins al 25% de la població de l'Imperi." },
-            { "year": "167-180", "title": "Les guerres marcomannes", "text": "Tribus germàniques al Danubi amenaçen l'Imperi. Marc Aureli passa la major part del seu regnat al front." },
-            { "year": "175", "title": "Revolta d'Avidi Cassi", "text": "General que es rebel·la creient que Marc Aureli ha mort. Marc perdona els seus seguidors quan Cassi és assassinat." },
-            { "year": "180", "title": "Mort a Vindobona (Viena)", "text": "Mor al front del Danubi. Les seves Meditacions, mai destinades a ser publicades, es conserven per atzar." }
+            {
+              "year": "121",
+              "title": "Naix a Roma",
+              "text": "Família aristocràtica. L'emperador Adrià el coneix i el cridava 'Verissimus'. Adoptat per Antoninus Pius com a successor."
+            },
+            {
+              "year": "133",
+              "title": "Primera lectura d'Epictetus",
+              "text": "El mestre d'estoïcisme Quint Junius Rusticus li dóna a llegir les Diatribes d'Epictetus. Moment de conversió filosòfica."
+            },
+            {
+              "year": "161",
+              "title": "Emperador de Roma",
+              "text": "Mor Antoninus Pius. Marcus assumeix el poder i insisteix en la co-regència de Luci Verus. Immediatament esclata la guerra amb els Parts."
+            },
+            {
+              "year": "165-180",
+              "title": "La Pesta Antonina",
+              "text": "L'exèrcit torna de la guerra dels Parts portant una plaga devastadora. Mor fins al 25% de la població de l'Imperi."
+            },
+            {
+              "year": "167-180",
+              "title": "Les guerres marcomannes",
+              "text": "Tribus germàniques al Danubi amenaçen l'Imperi. Marc Aureli passa la major part del seu regnat al front."
+            },
+            {
+              "year": "175",
+              "title": "Revolta d'Avidi Cassi",
+              "text": "General que es rebel·la creient que Marc Aureli ha mort. Marc perdona els seus seguidors quan Cassi és assassinat."
+            },
+            {
+              "year": "180",
+              "title": "Mort a Vindobona (Viena)",
+              "text": "Mor al front del Danubi. Les seves Meditacions, mai destinades a ser publicades, es conserven per atzar."
+            }
           ]
         },
         {
@@ -75,8 +103,14 @@
           "setup": "Estàs al front del Danubi, en plena campanya contra els marcomans. Arriba la notícia: el general Avidi Cassi —el teu millor comandant, el que va guanyar la guerra dels Parts— s'ha revoltat i s'ha proclamat emperador, creient que has mort. Cassi controla Egipte i Síria. L'exèrcit et demana que marxis immediatament cap a l'est a sufocar la rebel·lió. Però mentre organitzes la marxa, arriba una altra notícia: Cassi ha estat assassinat pels seus propis oficials. La rebel·lió ha acabat sola. Els seguidors de Cassi esperen el teu judici.",
           "dilemma": "Executes els seguidors del general rebel com a advertència per a futures traïcions? O els perdones per demostrar magnanimitat i consolidar la lleialtat del exèrcit?",
           "options": [
-            { "id": "A", "text": "Executo els principals conspiradors: la impunitat encoratja noves rebel·lions. La magnanimitat sense conseqüències és feblesa" },
-            { "id": "B", "text": "Perdono: els que van seguir Cassi ho van fer creient que jo havia mort. La lleialtat a qui creis el teu emperador no és traïció. La clemència és poder, no feblesa" }
+            {
+              "id": "A",
+              "text": "Executo els principals conspiradors: la impunitat encoratja noves rebel·lions. La magnanimitat sense conseqüències és feblesa"
+            },
+            {
+              "id": "B",
+              "text": "Perdono: els que van seguir Cassi ho van fer creient que jo havia mort. La lleialtat a qui creis el teu emperador no és traïció. La clemència és poder, no feblesa"
+            }
           ],
           "reveal": "Marc Aureli va perdonar. Va cremar les cartes que comprometien els seguidors de Cassi sense llegir-les, per no saber a qui podia condemnar. Va decretar que cap senador seria executat durant el seu regnat. Els seus biògrafs antics ho celebren com un acte de grandesa; els analistes moderns ho discuteixen com una decisió políticament calculada que va funcionar.",
           "analysis": "La decisió de Marc Aureli de perdonar els seguidors de Cassi és coherent amb la seva filosofia: la ira és una passió que no depèn de la raó, i la venjança és inútil (els morts no tornen). Però és també una decisió políticament intel·ligent: un emperador que executa generals en massa atemoreix l'exèrcit però perd lleialtat. La grandesa de Marc Aureli és que en ell la filosofia i la política sovint coincidien —no perquè la filosofia fos un adorn, sinó perquè havia pensat profundament en els dos àmbits."
@@ -178,5 +212,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 116,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

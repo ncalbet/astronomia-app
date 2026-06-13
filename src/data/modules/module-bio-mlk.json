@@ -1,6 +1,6 @@
 {
   "id": "module-bio-mlk",
-  "title": "Martin Luther King: la resistència no violenta i els seus límits",
+  "title": "Martin Luther King: el somni que va canviar Amèrica",
   "emoji": "🎙️",
   "phase": 1,
   "unlockRequires": null,
@@ -43,13 +43,41 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1929", "title": "Naix a Atlanta, Geòrgia", "text": "Família de classe mitjana negra. Pare pastor baptista. Creix en la segregació del Sud." },
-            { "year": "1955", "title": "Doctorat a Boston i pastor a Montgomery", "text": "Pastor a 25 anys. Rosa Parks i el boicot dels autobusos el col·loquen al capdavant del moviment." },
-            { "year": "1957", "title": "Fundació de la SCLC", "text": "Southern Christian Leadership Conference. Xarxa d'esglésies negres com a base organitzativa." },
-            { "year": "1963", "title": "Birmingham i Marxa a Washington", "text": "Carta des de la presó. 'Tinc un somni'. 250.000 persones. Moment de zenit del moviment." },
-            { "year": "1964", "title": "Premi Nobel de la Pau. Civil Rights Act.", "text": "Premi Nobel als 35 anys. La llei prohibeix la discriminació racial en espais públics i el treball." },
-            { "year": "1965", "title": "Selma i Voting Rights Act", "text": "Bloody Sunday al pont Edmund Pettus. La llei garanteix el dret al vot dels negres al Sud." },
-            { "year": "1968", "title": "Assassinat a Memphis", "text": "Abril de 1968. Al balcó del Lorraine Motel. Tenia trenta-nou anys." }
+            {
+              "year": "1929",
+              "title": "Naix a Atlanta, Geòrgia",
+              "text": "Família de classe mitjana negra. Pare pastor baptista. Creix en la segregació del Sud."
+            },
+            {
+              "year": "1955",
+              "title": "Doctorat a Boston i pastor a Montgomery",
+              "text": "Pastor a 25 anys. Rosa Parks i el boicot dels autobusos el col·loquen al capdavant del moviment."
+            },
+            {
+              "year": "1957",
+              "title": "Fundació de la SCLC",
+              "text": "Southern Christian Leadership Conference. Xarxa d'esglésies negres com a base organitzativa."
+            },
+            {
+              "year": "1963",
+              "title": "Birmingham i Marxa a Washington",
+              "text": "Carta des de la presó. 'Tinc un somni'. 250.000 persones. Moment de zenit del moviment."
+            },
+            {
+              "year": "1964",
+              "title": "Premi Nobel de la Pau. Civil Rights Act.",
+              "text": "Premi Nobel als 35 anys. La llei prohibeix la discriminació racial en espais públics i el treball."
+            },
+            {
+              "year": "1965",
+              "title": "Selma i Voting Rights Act",
+              "text": "Bloody Sunday al pont Edmund Pettus. La llei garanteix el dret al vot dels negres al Sud."
+            },
+            {
+              "year": "1968",
+              "title": "Assassinat a Memphis",
+              "text": "Abril de 1968. Al balcó del Lorraine Motel. Tenia trenta-nou anys."
+            }
           ]
         },
         {
@@ -81,8 +109,14 @@
           "setup": "Estàs organitzant la campanya de Birmingham. La teva estratègia depèn de provocar una resposta violenta de la policia de Bull Connor davant les càmeres. Però les manifestacions adultes han generat poques imatges impactants —Connor ha estat relativament contingut. James Bevel, un dels teus organitzadors, proposa usar nens en les manifestacions: centenars d'escolars de Birmingham, de 6 a 18 anys, que marxarien cap al centre de la ciutat. Si Connor usa els gossos i les mànegues contra nens, les imatges seran demolidores. Però estàs posant nens en perill real.",
           "dilemma": "Autoritzen les manifestacions de nens a Birmingham, sabent que seran atacats però que les imatges podrien canviar el país? O limites les manifestacions als adults?",
           "options": [
-            { "id": "A", "text": "Autoritzo: la injustícia del sistema és el perill real per als nens negres, cada dia. Manifestar-se contra ella és educar-los en la dignitat" },
-            { "id": "B", "text": "No ho autoritzo: no podem posar nens deliberadament en el camí de la violència. Hi ha línies que no es poden creuar ni per aconseguir un fi just" }
+            {
+              "id": "A",
+              "text": "Autoritzo: la injustícia del sistema és el perill real per als nens negres, cada dia. Manifestar-se contra ella és educar-los en la dignitat"
+            },
+            {
+              "id": "B",
+              "text": "No ho autoritzo: no podem posar nens deliberadament en el camí de la violència. Hi ha línies que no es poden creuar ni per aconseguir un fi just"
+            }
           ],
           "reveal": "King va autoritzar les 'Children's Crusade' el 2 de maig del 1963. Més de mil nens van sortir al carrer. Bull Connor va ordenar usar mànegues d'alta pressió i gossos. Les fotografies van recórrer el món. El president Kennedy va anunciar que enviaria al Congrés la legislació que es convertiria en el Civil Rights Act. La decisió de King és considerada una de les més controvertides de la seva carrera.",
           "analysis": "La 'Creuada dels Nens' de Birmingham és un dels casos ètics més difícils del moviment pels drets civils. King va prendre la decisió sabent exactament el que passaria. Molts dels seus aliats s'hi van oposar, inclòs el vicepresident de la NAACP. King va argumentar que els nens negres vivien cada dia sota la violència del sistema segregacionista, i que participar en la resistència era una forma d'agència, no de victimització. Les imatges van ser el punt d'inflexió que va forçar Kennedy a actuar. Que el resultat justifiqués la decisió és una qüestió que els historiadors continuen debatent."
@@ -184,5 +218,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 124,
+  "area": "biografies",
+  "topic": "Resistència i Drets",
+  "level": "inicial"
 }

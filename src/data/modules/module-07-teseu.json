@@ -13,7 +13,6 @@
       "forWho": "Vol seguir el fil del mite i descobrir el que diu sobre la por, el coratge, la identitat i les parts de nosaltres que preferim no mirar",
       "style": "Narratiu · del mite a la psicologia",
       "lessons": [
-
         {
           "id": "tes-01",
           "title": "El tribut: quan una societat accepta el que no hauria d'acceptar",
@@ -94,7 +93,6 @@
             }
           ]
         },
-
         {
           "id": "tes-02",
           "title": "El laberint: una arquitectura per a l'oblit",
@@ -174,7 +172,6 @@
             }
           ]
         },
-
         {
           "id": "tes-03",
           "title": "Ariadna i el fil: el que fa possible l'heroisme",
@@ -217,8 +214,14 @@
               "setup": "Ets la filla del rei Minos de Creta. Has vist Teseu entre els tributs atenesos i vols ajudar-lo. Però ajudar-lo significa trair el teu pare, arriscar la teva vida si et descobreixen, i abandonar Creta — la teva llar, la teva família, l'única vida que has conegut. Teseu et promet que si sobreviu, se t'emportarà a Atenes i s'hi casarà. No tens cap garantia que complirà la promesa.",
               "dilemma": "Li dones el fil i t'arrisques a perdre-ho tot, o no t'hi involucres i continues amb la teva vida a Creta?",
               "options": [
-                { "id": "A", "text": "Li dono el fil: el que fan amb els joves atenesos és injust i tinc el poder d'aturar-ho, tot i el risc" },
-                { "id": "B", "text": "No m'hi involucro: la meva lleialtat és al meu pare i al meu poble, i no puc arriscar la meva vida per un estranger" }
+                {
+                  "id": "A",
+                  "text": "Li dono el fil: el que fan amb els joves atenesos és injust i tinc el poder d'aturar-ho, tot i el risc"
+                },
+                {
+                  "id": "B",
+                  "text": "No m'hi involucro: la meva lleialtat és al meu pare i al meu poble, i no puc arriscar la meva vida per un estranger"
+                }
               ],
               "reveal": "Ariadna dona el fil a Teseu. Ell mata el Minotaure, surten tots dos de Creta, però Teseu l'abandona a l'illa de Naxos mentre dorm. Les versions del mite divergeixen: en algunes, Dionís la troba i se casa amb ella; en d'altres, mor de dol. En cap versió Teseu compleix la seva promesa.",
               "analysis": "L'abandó d'Ariadna és un dels episodis més incòmodes de la mitologia heroica grega. Teseu fa exactament el que un heroi «ha de fer» — mata el monstre, allibera Atenes — i en el camí de tornada abandona la dona que ha fet possible tot l'heroisme. El mite no castiga Teseu per aquest acte. Simplement el registra. Alguns intèrprets veuen en l'abandó la lògica freda del poder: Ariadna ha estat útil i ha deixat de ser-ho. Altres llegeixen la culpa inconscient de Teseu: l'oblit de canviar les veles és la forma que pren el seu remordiment."
@@ -243,7 +246,6 @@
             }
           ]
         },
-
         {
           "id": "tes-04",
           "title": "El Minotaure: el monstre que no va triar ser-ho",
@@ -334,7 +336,6 @@
             }
           ]
         },
-
         {
           "id": "tes-05",
           "title": "El descens al laberint: l'heroisme com a acte interior",
@@ -420,7 +421,6 @@
             }
           ]
         },
-
         {
           "id": "tes-06",
           "title": "El llegat de Teseu: l'heroi que construeix i destrueix",
@@ -460,8 +460,14 @@
               "setup": "Saps que hi ha alguna cosa en tu que evites mirar directament. Potser és una manera de tractar les persones que estimes quan estàs sota pressió. Potser és un patró que es repeteix en les teves relacions. Potser és quelcom que fas i que després racionalitzes. Saps que hi és. Fa anys que saps que hi és.",
               "dilemma": "Decideixes mirar-ho directament — o continues entenent que ja ho gestionaràs quan hi hagi millor moment?",
               "options": [
-                { "id": "A", "text": "Baixo al laberint: busco ajuda, examino el patró, decideixo mirar-ho tot i que sigui incòmode." },
-                { "id": "B", "text": "No és el moment. Quan les coses estiguin més estables, quan tingui més energia, m'hi posaré. De moment ho gestiono prou bé." }
+                {
+                  "id": "A",
+                  "text": "Baixo al laberint: busco ajuda, examino el patró, decideixo mirar-ho tot i que sigui incòmode."
+                },
+                {
+                  "id": "B",
+                  "text": "No és el moment. Quan les coses estiguin més estables, quan tingui més energia, m'hi posaré. De moment ho gestiono prou bé."
+                }
               ],
               "reveal": "No hi ha un resultat documentat — perquè el dilema és teu. Però Jung diria que l'opció B és exactament la lògica que permet que l'Ombra operi com a destí: el 'millor moment' que no arriba mai, mentre el patró continua repetint-se.",
               "analysis": "La dificultat de l'opció A no és intel·lectual — saps que és el que cal fer. La dificultat és que baixar al laberint és incòmode per definició: el que hi ha amagat és el que hem après que és inacceptable en nosaltres. El que la psicologia confirma és que el cost de no baixar-hi és generalment superior al cost de fer-ho — però que el cost de no baixar-hi es paga en el futur i de manera difusa, mentre que el cost de baixar-hi es paga ara i és immediat i concret."
@@ -517,8 +523,12 @@
             }
           ]
         }
-
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 206,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

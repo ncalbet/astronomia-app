@@ -76,8 +76,14 @@
           "setup": "Portes un any en guerra contra mitja Europa. Has perdut Berlín temporalment. Les teves finances estan al límit. L'exèrcit francès s'acosta per l'oest, el rus per l'est, l'austríac per el sud. Els teus assessors militars creuen que la situació és insostenible i suggereixen negociar la pau cedint Silèsia. Cediràs Silèsia — la província que vas envair el 1740 i que ha estat el nucli de tots els conflictes— o continues la guerra en circumstàncies quasi impossibles?",
           "dilemma": "Negocies la pau cedint Silèsia i preserves Prússia com a estat, o continues la guerra apostant que algun factor extern canviarà la situació?",
           "options": [
-            { "id": "A", "text": "Nego la pau: Prússia sense Silèsia segueix existint. Prússia destruïda no existeix" },
-            { "id": "B", "text": "Continue: un canvi diplomàtic —mort d'un aliat enemic, canvi de govern a París— pot canviar-ho tot. No cediré el que vaig conquistar" }
+            {
+              "id": "A",
+              "text": "Nego la pau: Prússia sense Silèsia segueix existint. Prússia destruïda no existeix"
+            },
+            {
+              "id": "B",
+              "text": "Continue: un canvi diplomàtic —mort d'un aliat enemic, canvi de govern a París— pot canviar-ho tot. No cediré el que vaig conquistar"
+            }
           ],
           "reveal": "Frederic va continuar. Va guanyar les batalles de Rossbach i Leuthen el novembre i desembre de 1757 amb maniobres militars que s'estudien als manuals encara avui. La tsarina Elisabet va morir el 1762 i el seu successor, admirador de Frederic, va retirar Rússia de la guerra. La Pau de Hubertusburg (1763) va confirmar Silèsia com a prussiana. Frederic havia apostat que la situació canviaria —i tenia raó. Però si Elisabet hagués viscut dos anys més, Prússia hauria desaparegut.",
           "analysis": "La Guerra dels Set Anys il·lustra la tensió entre realpolitik i imprudència: Frederic va iniciar un conflicte que no podia guanyar sol i va sobreviure per una combinació de genialitat i sort. La diferència entre 'estratègia audaç' i 'joc d'atzar irresponsable' sovint la determina el resultat, no la decisió. Si Prússia hagués caigut el 1762, la historia l'hauria jutjat com un rei arrogant que va destruir el seu país per una província."
@@ -188,5 +194,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 108,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

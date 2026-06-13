@@ -13,7 +13,6 @@
       "forWho": "Vol seguir el fil del mite i descobrir el que diu sobre com enfrontem allò que ens fa por, la diferència entre valentia i imprudència, i per què de vegades la visió directa paralitza",
       "style": "Narratiu · del mite a la psicologia i l'estratègia",
       "lessons": [
-
         {
           "id": "per-01",
           "title": "La missió impossible: mata el que ningú ha matat",
@@ -73,7 +72,6 @@
             }
           ]
         },
-
         {
           "id": "per-02",
           "title": "Els regals dels déus: les eines per a l'impossible",
@@ -137,7 +135,6 @@
             }
           ]
         },
-
         {
           "id": "per-03",
           "title": "El mirall: veure sense ser vist",
@@ -208,7 +205,6 @@
             }
           ]
         },
-
         {
           "id": "per-04",
           "title": "La por: quan mirar directament paralitza",
@@ -276,7 +272,6 @@
             }
           ]
         },
-
         {
           "id": "per-05",
           "title": "Andròmeda: l'heroi que salva i el que costa",
@@ -311,8 +306,14 @@
               "setup": "Voles sobre la costa d'Etiòpia i veus una noia encadenada a una roca. Al voltant hi ha una família reial que plora però no actua, i en l'horitzó s'acosta un monstre marí. El rei t'explica la situació: l'oracle ha dit que oferir la noia és l'única manera de salvar el regne. Ja ho han acceptat. Et demanen que segueixis el teu camí.",
               "dilemma": "Intervens per salvar Andròmeda contra la voluntat de la seva família i el mandat de l'oracle, o respectes la decisió que la comunitat ha pres per salvar-se?",
               "options": [
-                { "id": "A", "text": "Intervenc: ningú té dret a sacrificar una persona innocent, ni un oracle ni un rei" },
-                { "id": "B", "text": "No intervenc: no és la meva comunitat ni la meva decisió. La família i el poble han triat i he de respectar-ho" }
+                {
+                  "id": "A",
+                  "text": "Intervenc: ningú té dret a sacrificar una persona innocent, ni un oracle ni un rei"
+                },
+                {
+                  "id": "B",
+                  "text": "No intervenc: no és la meva comunitat ni la meva decisió. La família i el poble han triat i he de respectar-ho"
+                }
               ],
               "reveal": "Perseu intervé. Negocia amb el rei: si mata el monstre, es casa amb Andròmeda. El rei accepta. Perseu mata el monstre amb el cap de Medusa i Andròmeda és alliberada. Però el promès anterior d'Andròmeda, Fineu, considera que el tracte és injust i ataca Perseu al banquet de noces. Perseu usa el cap de Medusa per petrificar Fineu i els seus seguidors.",
               "analysis": "La intervenció de Perseu salva Andròmeda, però genera un conflicte nou: Fineu tenia drets previs sobre ella. La solució de Perseu — petrificar els oponents — és eficaç però elimina el debat en lloc de resoldre'l. El mite no presenta la intervenció com a perfecta: la salva, sí, però amb una violència que tanca el diàleg. La pregunta que el mite deixa oberta és si hi havia una manera de salvar Andròmeda que no hagués creat nous agraviats."
@@ -340,7 +341,6 @@
             }
           ]
         },
-
         {
           "id": "per-06",
           "title": "El llegat de Perseu: el mirall com a eina de coneixement",
@@ -411,8 +411,12 @@
             }
           ]
         }
-
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 211,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

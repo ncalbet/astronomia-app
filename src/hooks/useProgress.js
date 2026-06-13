@@ -13,82 +13,6 @@ const DEFAULT_STATE = {
   completedLessons: [],
   completedModules: [],
   completedItineraries: [],
-  unlockedModules: [
-    'module-01-copernicus','module-02-history','module-03-peace','module-04-philosophy',
-    'module-05-birding','module-06-chemistry','module-07-particles',
-    // Bloc: Historia Antiga
-    'module-08-grecia','module-09-roma',
-    'module-10-republic-crisis','module-11-augustus','module-12-pax-romana','module-13-fall',
-    'module-14-egipte',
-    'module-15-egipte-origins','module-16-egipte-imperi','module-17-egipte-religio','module-18-egipte-fi',
-    // Bloc: Música
-    'module-08-musica-classica','module-09-historia-rock',
-    // Bloc: Ciències i Arts
-    'module-10-neurociencia','module-12-historia-ciencia','module-13-historia-tecnologia','module-11-pintura',
-    // Bloc: Política Moderna i Drets Humans
-    'module-14-revolucio-francesa',
-    'module-15-fonaments-drets-humans','module-16-sistema-internacional-drets-humans',
-    'module-17-justicia-internacional','module-18-casos-drets-humans',
-    'module-19-actors-no-estatals','module-20-fronteres-drets-humans',
-    // Bloc: Economia
-    'module-19-economia-mon','module-22-economia-historia','module-25-economia-micro',
-    'module-20-economia-macro','module-21-economia-desigualtat',
-    'module-23-economia-escoles','module-24-economia-globalitzacio','module-28-piketty',
-    'module-26-economia-comportament','module-27-economia-jocs',
-    // Bloc: Química
-    'module-29-quimica','module-30-quimica-atoms','module-31-quimica-reaccions','module-32-quimica-vida',
-    // Bloc: Biologia
-    'module-08-biologia','module-33-evolucio','module-35-genetica',
-    // Bloc: Física
-    'module-34-mecanica-classica','module-36-termodinamica','module-37-electromagnetisme','module-38-relativitat',
-    // Bloc: Filosofia
-    'module-30-introduccio-filosofia','module-09-filosofia-politica',
-    'module-31-etica','module-32-logica-argumentacio','module-33-epistemologia',
-    // Bloc: Astronomia (nous)
-    'module-09-bigbang','module-10-estrelles',
-    // Bloc: Biologia i Física (nous)
-    'module-08-neurociencia','module-08-relativitat',
-    // Bloc: Literatura
-    'module-01-antiguitat-origens','module-02-edat-mitjana-renaixement',
-    'module-05-avantguardes','module-06-novella-segle-xx','module-08-postmodernisme',
-    // Bloc: Arquitectura
-    'module-XX-arquitectura-01','module-XX-arquitectura-02',
-    'module-XX-arquitectura-03','module-XX-arquitectura-04',
-    // Bloc: Arts i Cultura
-    'module-XX-cinema','module-30-opera',
-    // Bloc: Relacions Internacionals (nous)
-    'module-XX-ddhh-ordre-internacional','module-XX-teoria-ri',
-    // Bloc: Societat i Política
-    'module-34-democracia-sistemes-politics','module-XX-sociologia',
-    // Bloc: Filosofia (nous)
-    'module-XX-intro-filosofia','module-XX-etica-practica','module-XX-filosofia-llenguatge',
-    // Bloc: Astronomia (nous 2)
-    'module-08-origen-desti-univers','module-09-materia-energia-fosques',
-    'module-10-forats-negres','module-11-mons-alla',
-    // Bloc: Física (nous)
-    'module-10-caos','module-12-temps-espai-limits',
-    // Bloc: Biologia (nous)
-    'module-09-cos-huma','module-11-ecologia','module-13-trauma-resiliencia',
-    // Bloc: Ment i Comportament
-    'module-12-ment-enganya','module-14-obediencia',
-    // Bloc: Diplomàcia
-    'module-XX-diplomacia-negociacio','module-XX-historia-diplomacia','module-XX-organismes-internacionals',
-    // Bloc: Biografies
-    'module-bio-cesar','module-bio-alexandre','module-bio-bismarck','module-bio-churchill','module-bio-rasputin',
-    'module-bio-lincoln','module-bio-bolivar','module-bio-lenin',
-    'module-bio-napoleon','module-bio-napoleon3','module-bio-genguis',
-    'module-bio-cleopatra','module-bio-maquiavel','module-bio-gandhi',
-    'module-bio-frederic','module-bio-voltaire',
-    'module-bio-catalina','module-bio-robespierre','module-bio-trotsky',
-    'module-bio-mandela','module-bio-eleanor','module-bio-olympe',
-    'module-bio-marcaureli','module-bio-cicero',
-    'module-bio-ataturk','module-bio-marx',
-    // Bloc: Biografies — Pensament i Ciència
-    'module-bio-nietzsche','module-bio-freud','module-bio-darwin','module-bio-leonardo',
-    'module-bio-einstein','module-bio-newton','module-bio-curie','module-bio-kant','module-bio-arendt','module-bio-beauvoir','module-bio-planck',
-    // Bloc: Biografies — Resistència i Drets
-    'module-bio-mlk','module-bio-luxemburg','module-bio-tubman','module-bio-gramsci','module-bio-jfk','module-bio-binladen',
-  ],
   badges: [],
   srData: {},            // Spaced Repetition: { blockId: { interval, easeFactor, repetitions, nextReview } }
   srStreak: 0,           // Dies consecutius de sessió de repàs
@@ -124,7 +48,6 @@ function mergeWithDefaults(saved) {
     completedLessons:     saved.completedLessons     || DEFAULT_STATE.completedLessons,
     completedModules:     saved.completedModules      || DEFAULT_STATE.completedModules,
     completedItineraries: saved.completedItineraries  || DEFAULT_STATE.completedItineraries,
-    unlockedModules:      [...new Set([...DEFAULT_STATE.unlockedModules, ...(saved.unlockedModules || [])])],
     badges:               saved.badges                 || DEFAULT_STATE.badges,
     srData:               saved.srData                 || DEFAULT_STATE.srData,
     srStreak:             saved.srStreak               ?? DEFAULT_STATE.srStreak,
@@ -200,13 +123,6 @@ export function useProgress() {
     })
   }, [update])
 
-  const unlockModule = useCallback((moduleId) => {
-    update(prev => {
-      if (prev.unlockedModules.includes(moduleId)) return prev
-      return { ...prev, unlockedModules: [...prev.unlockedModules, moduleId] }
-    })
-  }, [update])
-
   const earnBadge = useCallback((badgeId) => {
     update(prev => {
       if (prev.badges.includes(badgeId)) return prev
@@ -229,9 +145,8 @@ export function useProgress() {
     (state.completedItineraries || []).includes(`${moduleId}__${itineraryId}`),
   [state.completedItineraries])
 
-  const isModuleUnlocked = useCallback((moduleId) =>
-    state.unlockedModules.includes(moduleId),
-  [state.unlockedModules])
+  // Gating suau: tot el catàleg és accessible; l'app recomana ordre, mai bloqueja
+  const isModuleUnlocked = useCallback(() => true, [])
 
 
   const repeatModule = useCallback((moduleId, xpToSubtract = 0) => {
@@ -339,7 +254,7 @@ export function useProgress() {
   return {
     ...state,
     addXP, completeLesson, completeModule, completeItinerary,
-    unlockModule, earnBadge, setNavigationState,
+    earnBadge, setNavigationState,
     isLessonCompleted, isItineraryCompleted, isModuleUnlocked, resetAll, repeatModule,
     updateSrData, updateSrStreak, setUserProfile, setFontSize,
     toggleFavorite, completeCapsule, initWeekIfNeeded, markWeekSummaryShown

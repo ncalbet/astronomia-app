@@ -69,8 +69,14 @@
           "setup": "Els teus ministres, generals i fins i tot membres de la família imperial t'han suplicat que allunyis Rasputin de la cort. Diuen que deslegitima la monarquia, que interfereix en nomenaments militars i que és un escàndol públic que debilita la Corona. La teva dona, Alexandra, creu fermament que Rasputin és l'únic que pot mantenir viu el vostre fill Alexei. Si l'exileixes, la malaltia del nen podria desestabilitzar-se. Si no l'exileixes, la noblesa i els generals perden el respecte per la família imperial.",
           "dilemma": "Exileixes Rasputin per salvar la legitimitat de la monarquia, arriscant la salut del teu fill? O el mantens proper, assumint el cost polític?",
           "options": [
-            { "id": "A", "text": "L'exilio: la monarquia és l'interès suprem. Cap individu pot posar-la en risc, per molt que la meva dona hi confiï" },
-            { "id": "B", "text": "El mantinc: cap estat val la vida del meu fill. Que critiquin el que vulguin" }
+            {
+              "id": "A",
+              "text": "L'exilio: la monarquia és l'interès suprem. Cap individu pot posar-la en risc, per molt que la meva dona hi confiï"
+            },
+            {
+              "id": "B",
+              "text": "El mantinc: cap estat val la vida del meu fill. Que critiquin el que vulguin"
+            }
           ],
           "reveal": "Nicolau II no va exiliar Rasputin. El desembre de 1916, un grup de nobles el va assassinar sense ordre del tsar. La monarquia va caure el febrer de 1917, dos mesos i mig després. El problema de fons —una guerra perduda, una societat al límit— no era Rasputin.",
           "analysis": "La decisió de Nicolau II mostra com la barreja entre interessos familiars íntims (la salut d'Alexei) i responsabilitats polítiques pot paralitzar un líder. El que és notable és que tant si hagués exiliat Rasputin com si no, la revolució hauria arribat: les causes eren estructurals, no personals. L'error de Nicolau II no era Rasputin sinó la incapacitat de reformar el sistema polític rus."
@@ -158,5 +164,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 98,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

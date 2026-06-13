@@ -6,15 +6,16 @@ import { calculateLevel } from '../engine/xpEngine'
 import { BADGES } from '../engine/badgeEngine'
 import { countDueToday } from '../engine/spacedRepetitionEngine'
 import { AREAS, getAreaModules } from '../data/areaRegistry'
+import { getModuleMeta } from '../data/moduleRegistry'
 import { LEARNING_PATHS } from '../data/learningPaths'
 import { getDailyCapsule, getCapsuleById } from '../data/microcapsules'
 import { getWeekChallenges, getChallengeProgress } from '../engine/weeklyChallenge'
 import WeeklySummary from '../components/ui/WeeklySummary'
 import styles from './Home.module.css'
 
-function getDailyArea(unlockedModules, completedModules) {
+function getDailyArea(completedModules) {
   const available = AREAS.filter(area =>
-    getAreaModules(area).some(id => unlockedModules.includes(id) && !completedModules.includes(id))
+    getAreaModules(area).some(id => !completedModules.includes(id))
   )
   if (available.length === 0) return null
   const today = new Date().toISOString().split('T')[0]
@@ -43,7 +44,7 @@ function BadgeDetail({ badgeId, onClose }) {
 export default function Home() {
   const navigate = useNavigate()
   const { xp, badges, navigationState, srData, srStreak, srLastReviewDate,
-          completedModules, unlockedModules, setNavigationState,
+          completedModules, setNavigationState,
           fontSize, setFontSize, favorites, weekStart,
           weekXP, weekModules, weekReviews, completedCapsules } = useApp()
   const { theme, colorScheme, toggleColorScheme } = useTheme()
@@ -53,9 +54,9 @@ export default function Home() {
   const today = new Date().toISOString().split('T')[0]
   const reviewedToday = srLastReviewDate === today
 
-  const discoveryArea = getDailyArea(unlockedModules, completedModules)
+  const discoveryArea = getDailyArea(completedModules)
   const discoveryCount = discoveryArea
-    ? getAreaModules(discoveryArea).filter(id => unlockedModules.includes(id) && !completedModules.includes(id)).length
+    ? getAreaModules(discoveryArea).filter(id => !completedModules.includes(id)).length
     : 0
 
   const { level, xpInLevel, xpForNext, progress } = calculateLevel(xp)
@@ -63,7 +64,15 @@ export default function Home() {
     || theme.levelTitles[String(Math.min(level, 10))]
     || theme.userRole
 
-  const hasActiveSession = navigationState.currentModuleId !== null
+  const activeModuleMeta = navigationState.currentModuleId
+    ? getModuleMeta(navigationState.currentModuleId)
+    : null
+
+  const areasProgress = AREAS.map(area => {
+    const ids = getAreaModules(area)
+    const done = ids.filter(id => completedModules.includes(id)).length
+    return { area, done, total: ids.length }
+  }).filter(a => a.total > 0)
 
   const pathsWithProgress = LEARNING_PATHS.map(path => {
     const done = path.modules.filter(m => completedModules.includes(m.id)).length
@@ -83,6 +92,11 @@ export default function Home() {
     .map(id => LEARNING_PATHS.find(p => p.id === id))
     .filter(Boolean)
 
+  const goToArea = (areaId) => {
+    setNavigationState({ currentAreaId: areaId })
+    navigate('/modules')
+  }
+
   return (
     <div className={styles.screen}>
       <WeeklySummary />
@@ -93,67 +107,113 @@ export default function Home() {
 
       <header className={styles.header}>
         <div className={styles.headerTop}>
-          <div className={styles.logo}>🌌</div>
+          <h1 className={styles.appName}>{theme.appName}</h1>
           <div className={styles.headerActions}>
-            <button className={styles.searchBtn} onClick={() => navigate('/search')} title="Cerca">🔍</button>
-            <button className={styles.themeBtn} onClick={toggleColorScheme} title={colorScheme === 'dark' ? 'Mode diürn' : 'Mode nocturn'}>
+            <button className={styles.iconBtn} onClick={() => navigate('/search')} title="Cerca">🔍</button>
+            <button className={styles.iconBtn} onClick={toggleColorScheme} title={colorScheme === 'dark' ? 'Mode diürn' : 'Mode nocturn'}>
               {colorScheme === 'dark' ? '☀️' : '🌙'}
             </button>
-            <button className={styles.profileBtn} onClick={() => navigate('/profile')} title="El meu perfil">👤</button>
+            <button className={styles.iconBtn} onClick={() => navigate('/profile')} title="El meu perfil">👤</button>
             <div className={styles.fontToggle}>
-            {['small','medium','large'].map(size => (
-              <button
-                key={size}
-                className={`${styles.fontBtn} ${fontSize === size ? styles.fontActive : ''}`}
-                onClick={() => setFontSize(size)}
-                title={size === 'small' ? 'Text petit' : size === 'large' ? 'Text gran' : 'Text normal'}
-              >
-                {size === 'small' ? 'A' : size === 'medium' ? 'A' : 'A'}
-              </button>
-            ))}
+              {['small','medium','large'].map(size => (
+                <button
+                  key={size}
+                  className={`${styles.fontBtn} ${fontSize === size ? styles.fontActive : ''}`}
+                  onClick={() => setFontSize(size)}
+                  title={size === 'small' ? 'Text petit' : size === 'large' ? 'Text gran' : 'Text normal'}
+                >
+                  A
+                </button>
+              ))}
             </div>
           </div>
         </div>
-        <h1 className={styles.appName}>{theme.appName}</h1>
-        <p className={styles.subtitle}>{theme.description}</p>
-      </header>
-
-      <div className={styles.profileCard}>
-        <div className={styles.profileTop}>
-          <div>
-            <div className={styles.levelLabel}>Nivell {level}</div>
-            <div className={styles.levelTitle}>{levelTitle}</div>
-          </div>
-          <div className={styles.xpBadge}>
-            <span className={styles.xpValue}>{xp}</span>
-            <span className={styles.xpLabel}>XP</span>
-          </div>
+        <div className={styles.headerMeta}>
+          <span className={styles.levelInline}>Nivell {level} · {levelTitle}</span>
+          <span className={styles.xpInline}>{xp} XP</span>
         </div>
         <div className={styles.xpBarTrack}>
           <div className={styles.xpBarFill} style={{ width: `${progress * 100}%` }} />
         </div>
-        <div className={styles.xpHint}>{xpInLevel} / {xpForNext} XP per al proper nivell</div>
-      </div>
+      </header>
 
-      <div className={`${styles.streakStrip} ${srStreak > 0 ? (reviewedToday ? styles.streakDone : styles.streakPending) : styles.streakEmpty}`}>
-        {srStreak > 0 ? (
+      {/* Continua on eres */}
+      {activeModuleMeta && (
+        <button className={styles.continueCard} onClick={() => navigate('/lesson')}>
+          <div className={styles.cardKicker}>Continua on eres</div>
+          <div className={styles.continueBody}>
+            <span className={styles.continueEmoji}>{activeModuleMeta.emoji}</span>
+            <span className={styles.continueTitle}>{activeModuleMeta.title}</span>
+            <span className={styles.continueArrow}>→</span>
+          </div>
+        </button>
+      )}
+
+      {/* Repàs d'avui */}
+      <div className={styles.reviewCard}>
+        <div className={styles.cardKicker}>Repàs d'avui</div>
+        {dueCount > 0 ? (
           <>
-            <span className={styles.streakFire}>🔥</span>
-            <span className={styles.streakCount}>{srStreak}</span>
-            <span className={styles.streakLabel}>
-              {reviewedToday
-                ? 'dies · Repàs completat avui'
-                : 'dies · Fes el repàs per mantenir-ho'}
-            </span>
+            <p className={styles.reviewText}>
+              Tens <strong>{dueCount}</strong> {dueCount === 1 ? 'concepte' : 'conceptes'} a punt per repassar.
+              {srStreak > 0 && !reviewedToday && ` Mantén la ratxa de ${srStreak} dies.`}
+            </p>
+            <div className={styles.reviewActions}>
+              <button className={styles.reviewBtn} onClick={() => navigate('/review')}>
+                Comença el repàs
+              </button>
+              {dueCount > 5 && (
+                <button className={styles.reviewQuick} onClick={() => navigate('/review?quick=1')}>
+                  Sessió ràpida · 5 min
+                </button>
+              )}
+            </div>
           </>
         ) : (
-          <span className={styles.streakLabel}>Comença el teu repàs diari</span>
+          <p className={styles.reviewText}>
+            {reviewedToday
+              ? `Repàs completat. ${srStreak > 0 ? `Ratxa: ${srStreak} ${srStreak === 1 ? 'dia' : 'dies'}.` : ''}`
+              : 'Res pendent per avui. Aprèn alguna cosa nova.'}
+          </p>
         )}
       </div>
 
+      {/* Progrés per àrea */}
+      <section className={styles.areasSection}>
+        <div className={styles.sectionHeader}>
+          <h2 className={styles.sectionTitle}>El teu mapa</h2>
+          <button className={styles.sectionLink} onClick={() => navigate('/areas')}>
+            Veure-ho tot →
+          </button>
+        </div>
+        <div className={styles.areaList}>
+          {areasProgress.map(({ area, done, total }) => (
+            <button
+              key={area.id}
+              className={styles.areaRow}
+              style={{ '--area-accent': area.accentColor }}
+              onClick={() => goToArea(area.id)}
+            >
+              <span className={styles.areaEmoji}>{area.emoji}</span>
+              <div className={styles.areaInfo}>
+                <div className={styles.areaName}>{area.label}</div>
+                <div className={styles.areaBar}>
+                  <div
+                    className={styles.areaFill}
+                    style={{ width: total > 0 ? `${(done / total) * 100}%` : 0 }}
+                  />
+                </div>
+              </div>
+              <span className={styles.areaCount}>{done}/{total}</span>
+            </button>
+          ))}
+        </div>
+      </section>
+
+      {/* Descoberta del dia */}
       {discoveryArea && (
-        <div className={styles.discoveryCard}>
-          <div className={styles.discoveryLabel}>Descoberta del dia</div>
+        <button className={styles.discoveryCard} onClick={() => goToArea(discoveryArea.id)}>
+          <div className={styles.cardKicker}>Descoberta del dia</div>
           <div className={styles.discoveryBody}>
             <span className={styles.discoveryEmoji}>{discoveryArea.emoji}</span>
             <div className={styles.discoveryInfo}>
@@ -163,28 +223,18 @@ export default function Home() {
                 {discoveryCount} mòdul{discoveryCount !== 1 ? 's' : ''} per explorar
               </div>
             </div>
+            <span className={styles.continueArrow}>→</span>
           </div>
-          <button
-            className={styles.discoveryBtn}
-            onClick={() => {
-              setNavigationState({ currentAreaId: discoveryArea.id })
-              navigate('/modules')
-            }}
-          >
-            Explorar →
-          </button>
-        </div>
+        </button>
       )}
 
       {/* Càpsula del dia */}
       {dailyCapsule && (
         <div className={styles.capsuleCard}>
-          <div className={styles.capsuleLabel}>⚡ Càpsula del dia · {dailyCapsule.duration} min</div>
+          <div className={styles.cardKicker}>Càpsula del dia · {dailyCapsule.duration} min</div>
           <div className={styles.capsuleBody}>
             <span className={styles.capsuleEmoji}>{dailyCapsule.emoji}</span>
-            <div className={styles.capsuleInfo}>
-              <div className={styles.capsuleTitle}>{dailyCapsule.title}</div>
-            </div>
+            <div className={styles.capsuleTitle}>{dailyCapsule.title}</div>
           </div>
           <div className={styles.capsuleActions}>
             <button
@@ -194,12 +244,9 @@ export default function Home() {
                 navigate('/capsule')
               }}
             >
-              Comença →
+              Comença
             </button>
-            <button
-              className={styles.capsuleAll}
-              onClick={() => navigate('/capsules')}
-            >
+            <button className={styles.capsuleAll} onClick={() => navigate('/capsules')}>
               Totes les càpsules
             </button>
           </div>
@@ -207,9 +254,9 @@ export default function Home() {
       )}
 
       {/* Itineraris d'aprenentatge */}
-      <div className={styles.pathsSection}>
-        <div className={styles.pathsHeader}>
-          <h3 className={styles.sectionTitle}>Itineraris</h3>
+      <section className={styles.pathsSection}>
+        <div className={styles.sectionHeader}>
+          <h2 className={styles.sectionTitle}>Itineraris</h2>
         </div>
         <div className={styles.pathsScroll}>
           {pathsWithProgress.map(({ path, done, total }) => {
@@ -236,12 +283,12 @@ export default function Home() {
             )
           })}
         </div>
-      </div>
+      </section>
 
       {/* Reptes setmanals */}
-      <div className={styles.challengesSection}>
-        <div className={styles.challengesHeader}>
-          <h3 className={styles.sectionTitle}>Reptes de la setmana</h3>
+      <section className={styles.challengesSection}>
+        <div className={styles.sectionHeader}>
+          <h2 className={styles.sectionTitle}>Reptes de la setmana</h2>
         </div>
         <div className={styles.challengesList}>
           {weekChallenges.map(ch => {
@@ -263,12 +310,14 @@ export default function Home() {
             )
           })}
         </div>
-      </div>
+      </section>
 
       {/* Favorits */}
       {(favoritePaths.length > 0 || favoriteCapsules.length > 0) && (
-        <div className={styles.favoritesSection}>
-          <h3 className={styles.sectionTitle}>⭐ Favorits</h3>
+        <section className={styles.favoritesSection}>
+          <div className={styles.sectionHeader}>
+            <h2 className={styles.sectionTitle}>Favorits</h2>
+          </div>
           <div className={styles.favoritesList}>
             {favoritePaths.map(p => (
               <button
@@ -291,50 +340,14 @@ export default function Home() {
               </button>
             ))}
           </div>
-        </div>
+        </section>
       )}
 
-      <div className={styles.actions}>
-        {dueCount > 5 && (
-          <button
-            className={`${styles.btn} ${styles.btnQuick}`}
-            onClick={() => navigate('/review?quick=1')}
-          >
-            ⚡ Sessió ràpida · ~5 min
-          </button>
-        )}
-        {dueCount > 0 && (
-          <button
-            className={`${styles.btn} ${styles.btnReview}`}
-            onClick={() => navigate('/review')}
-          >
-            🔁 Repàs diari
-            <span className={styles.reviewBadge}>{dueCount}</span>
-          </button>
-        )}
-        {hasActiveSession && (
-          <button className={`${styles.btn} ${styles.btnPrimary}`} onClick={() => navigate('/lesson')}>
-            🚀 Continua la {theme.missionWord.toLowerCase()}
-          </button>
-        )}
-        <button
-          className={`${styles.btn} ${hasActiveSession ? styles.btnGhost : styles.btnPrimary}`}
-          onClick={() => navigate('/areas')}
-        >
-          🗺️ Mapa de {theme.missionWord.toLowerCase()}s
-        </button>
-        <button
-          className={`${styles.btn} ${styles.btnGhost}`}
-          onClick={() => navigate('/glossary')}
-        >
-          📖 Glossari de termes
-        </button>
-      </div>
-
+      {/* Insígnies */}
       {badges.length > 0 && (
-        <div className={styles.badgesSection}>
-          <div className={styles.badgesHeader}>
-            <h3 className={styles.sectionTitle}>Insígnies</h3>
+        <section className={styles.badgesSection}>
+          <div className={styles.sectionHeader}>
+            <h2 className={styles.sectionTitle}>Insígnies</h2>
             <span className={styles.badgeCount}>{badges.length}</span>
           </div>
           <div className={styles.badgeList}>
@@ -354,8 +367,14 @@ export default function Home() {
               )
             })}
           </div>
-        </div>
+        </section>
       )}
+
+      <div className={styles.actions}>
+        <button className={styles.actionGhost} onClick={() => navigate('/glossary')}>
+          Glossari de termes
+        </button>
+      </div>
     </div>
   )
 }

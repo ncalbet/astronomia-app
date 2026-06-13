@@ -37,13 +37,41 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1748", "title": "Naix a Montauban, Occitània", "text": "Filla d'un carnisser (i potser d'un noble, sosté ella). Matrimoni forçat als 17 anys." },
-            { "year": "~1770", "title": "Arriba a París", "text": "Enviudada, amb un fill. Decisió extraordinàriament inusual per a una dona de la seva condició." },
-            { "year": "1784", "title": "L'Esclavitud dels Negres", "text": "Primera peça important. Censurada per la Comédie-Française per la seva denúncia de la trata d'esclaus." },
-            { "year": "1789", "title": "La Revolució francesa", "text": "Olympe participa activament en el debat polític. Pamflets, propostes de reforma, teatre." },
-            { "year": "1791", "title": "Declaració dels Drets de la Dona i de la Ciutadana", "text": "Resposta directa a la Declaració de 1789. Dedicada a Maria Antonieta. Ignorada per l'Assemblea." },
-            { "year": "1793", "title": "Arrest i judici", "text": "Arrestada per oposar-se a Robespierre i per defensar el dret de Lluís XVI a un judici just." },
-            { "year": "1793", "title": "Guillotina, 3 de novembre", "text": "Executada. Tenia 45 anys. La premsa jacobina va celebrar la seva mort: 'havia oblidat les virtuts del seu sexe'." }
+            {
+              "year": "1748",
+              "title": "Naix a Montauban, Occitània",
+              "text": "Filla d'un carnisser (i potser d'un noble, sosté ella). Matrimoni forçat als 17 anys."
+            },
+            {
+              "year": "~1770",
+              "title": "Arriba a París",
+              "text": "Enviudada, amb un fill. Decisió extraordinàriament inusual per a una dona de la seva condició."
+            },
+            {
+              "year": "1784",
+              "title": "L'Esclavitud dels Negres",
+              "text": "Primera peça important. Censurada per la Comédie-Française per la seva denúncia de la trata d'esclaus."
+            },
+            {
+              "year": "1789",
+              "title": "La Revolució francesa",
+              "text": "Olympe participa activament en el debat polític. Pamflets, propostes de reforma, teatre."
+            },
+            {
+              "year": "1791",
+              "title": "Declaració dels Drets de la Dona i de la Ciutadana",
+              "text": "Resposta directa a la Declaració de 1789. Dedicada a Maria Antonieta. Ignorada per l'Assemblea."
+            },
+            {
+              "year": "1793",
+              "title": "Arrest i judici",
+              "text": "Arrestada per oposar-se a Robespierre i per defensar el dret de Lluís XVI a un judici just."
+            },
+            {
+              "year": "1793",
+              "title": "Guillotina, 3 de novembre",
+              "text": "Executada. Tenia 45 anys. La premsa jacobina va celebrar la seva mort: 'havia oblidat les virtuts del seu sexe'."
+            }
           ]
         },
         {
@@ -75,8 +103,14 @@
           "setup": "Acabes d'escriure la Declaració dels Drets de la Dona. Alguns amics et diuen que la dedicatoria a Maria Antonieta és un error polític greu: la reina és impopular i associar-te amb ella pot fer que ningú llegeixi el teu text. Altres et diuen que els arguments son massa radicals —que hauries de demanar menys per obtenir alguna cosa. Un tercer grup et diu que hauries de presentar la Declaració de forma cooperativa amb el moviment revolucionari masculí, no com una crítica.",
           "dilemma": "Publiques la Declaració tal com és —amb la dedicatoria a la reina i tots els articles—, o la moderes per fer-la políticament acceptable?",
           "options": [
-            { "id": "A", "text": "Publico el text complet, dedicatoria inclosa: les idees son correctes o no ho son. Moderar-les per guanyar acceptació és trair-les" },
-            { "id": "B", "text": "Elimino la dedicatoria a la reina i suavitzo els articles més radicals: un text que ningú llegirà no canvia res" }
+            {
+              "id": "A",
+              "text": "Publico el text complet, dedicatoria inclosa: les idees son correctes o no ho son. Moderar-les per guanyar acceptació és trair-les"
+            },
+            {
+              "id": "B",
+              "text": "Elimino la dedicatoria a la reina i suavitzo els articles més radicals: un text que ningú llegirà no canvia res"
+            }
           ],
           "reveal": "Olympe va publicar la Declaració tal com l'havia escrit, dedicatoria a Maria Antonieta inclosa. Va ser ignorada per l'Assemblea. Va ser criticada per associar-se amb la reina. I va ser oblidada durant quasi dos-cents anys. Va ser redescobrida per historiadores feministes als anys 1970, i avui és un dels documents fundacionals del feminisme occidental.",
           "analysis": "La decisió d'Olympe de publicar sense compromissos té dues lectures. La primera és que va tenir raó: les idees completes son les que sobreviuen, no les versions diluïdes. La Declaració que avui llegim és la que va escriure, no una versió acceptable per als revolucionaris de 1791. La segona és que la seva intransigència (incloent la dedicatoria controvertida) va contribuir al seu aïllament polític i, potser, a la seva mort. No hi ha una resposta fàcil: la integritat intel·lectual i la supervivència política sovint estan en tensió."
@@ -178,5 +212,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 115,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

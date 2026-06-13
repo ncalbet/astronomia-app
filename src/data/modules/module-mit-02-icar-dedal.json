@@ -12,7 +12,6 @@
       "description": "Del relat original a la seva interpretació filosòfica, psicològica i contemporània",
       "style": "Narratiu · del mite a la interpretació",
       "lessons": [
-
         {
           "id": "icar-01",
           "title": "L'home que va construir ales",
@@ -64,7 +63,6 @@
             }
           ]
         },
-
         {
           "id": "icar-02",
           "title": "La caiguda",
@@ -123,7 +121,6 @@
             }
           ]
         },
-
         {
           "id": "icar-03",
           "title": "El pare i el fill",
@@ -186,7 +183,6 @@
             }
           ]
         },
-
         {
           "id": "icar-04",
           "title": "Hybris: quan el límit es trenca",
@@ -265,7 +261,6 @@
             }
           ]
         },
-
         {
           "id": "icar-05",
           "title": "El mite en el temps",
@@ -330,7 +325,6 @@
             }
           ]
         },
-
         {
           "id": "icar-06",
           "title": "Qui ets tu: Ícar o Dèdal?",
@@ -361,8 +355,14 @@
               "setup": "Les ales funcionen. Portes setmanes calculant-ho tot. Has explicat a Ícar exactament com funcionen i quins son els límits: ni massa baix ni massa alt. El noi t'ha escoltat — o almenys ho semblava. Ara sou a l'aire. El vent és perfecte. La fugida funciona. I veus que Ícar comença a pujar.",
               "dilemma": "Pots cridar-li — saps que et sentirà. O pots continuar volant i confiar que recordarà l'advertiment.",
               "options": [
-                { "id": "A", "text": "Crides amb tota la força: 'Ícar! Baixa! Les ales no aguantaran!' Arrisques que el so et delati als perseguidors." },
-                { "id": "B", "text": "No dius res. Has fet la teva feina: li has explicat els límits. Ara és la seva decisió. Un home adult — inclús jove — és responsable de les seves pròpies accions." }
+                {
+                  "id": "A",
+                  "text": "Crides amb tota la força: 'Ícar! Baixa! Les ales no aguantaran!' Arrisques que el so et delati als perseguidors."
+                },
+                {
+                  "id": "B",
+                  "text": "No dius res. Has fet la teva feina: li has explicat els límits. Ara és la seva decisió. Un home adult — inclús jove — és responsable de les seves pròpies accions."
+                }
               ],
               "reveal": "Els textos antics no especifiquen si Dèdal va cridar o no. Ovidi descriu Dèdal mirant enrere i veient les plomes al mar. El silenci del text és significatiu: no sabem si va intentar avisar-lo.",
               "analysis": "Aquesta ambigüitat és pedagògicament central. Si Dèdal va cridar i Ícar no el va escoltar, el mite és sobre la impossibilitat de protegir algú que no vol ser protegit. Si Dèdal no va cridar, el mite és sobre els límits de la responsabilitat paterna — o sobre la resignació d'un home que sap que les seves paraules ja no arriben. La tragèdia funciona en tots dos casos."
@@ -412,8 +412,12 @@
             }
           ]
         }
-
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 201,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

@@ -13,7 +13,6 @@
       "forWho": "Vol seguir el fil del mite i entendre el debat fonamental entre la llei de l'estat i la llei moral, amb totes les seves implicacions filosòfiques i polítiques",
       "style": "Narratiu · del mite a l'ètica i la filosofia política",
       "lessons": [
-
         {
           "id": "ant-01",
           "title": "El conflicte: dues lleis, una persona",
@@ -109,7 +108,6 @@
             }
           ]
         },
-
         {
           "id": "ant-02",
           "title": "La desobediència civil: quan és legítim trencar la llei",
@@ -205,7 +203,6 @@
             }
           ]
         },
-
         {
           "id": "ant-03",
           "title": "Creont: quan tenir raó no és suficient",
@@ -262,8 +259,14 @@
               "setup": "L'endeví Tirèsias acaba d'advertir-te: els déus estan ofesos pel cadàver insepult de Polinices, els sacrificis no funcionen, els augurs anuncien catàstrofe. El teu fill Hemó ja t'havia dit que el poble simpatitza amb Antígona. Antígona és viva, tancada en una cova. Encara pots canviar el decret. Però canviar-lo significarà que has cedit davant d'una dona que ha desobeït l'ordre públicament, i que tot Tebes ho sabrà.",
               "dilemma": "Canvies el decret i alliberes Antígona, o mantens la posició i acceptes les conseqüències que Tirèsias anuncia?",
               "options": [
-                { "id": "A", "text": "Canvio el decret: tenir raó no val la catàstrofe que Tirèsias descriu. Un bon governant sap quan cedir" },
-                { "id": "B", "text": "Mantinc el decret: cedir ara, davant de la pressió, enviaria el missatge que les lleis es poden desobeir si es pressiona prou" }
+                {
+                  "id": "A",
+                  "text": "Canvio el decret: tenir raó no val la catàstrofe que Tirèsias descriu. Un bon governant sap quan cedir"
+                },
+                {
+                  "id": "B",
+                  "text": "Mantinc el decret: cedir ara, davant de la pressió, enviaria el missatge que les lleis es poden desobeir si es pressiona prou"
+                }
               ],
               "reveal": "Creont cedeix — però massa tard. Quan arriba a la cova, Antígona s'ha penjat. El seu fill Hemó, en trobar-la morta, s'apunyala davant seu. Quan torna al palau, la seva dona Eurídice, en assabentar-se de la mort del fill, també es treu la vida. Creont queda sol, viu, amb tota la destrucció que el seu decret ha produït.",
               "analysis": "La decisió de Creont de cedir arriba exactament un moment massa tard. Sòfocles és molt precís en aquest punt: no és que Creont no pugui canviar d'opinió — és que espera fins que la pressió externa (els déus, a través de Tirèsias) supera la pressió interna (el seu orgull). Quan finalment cedeix, ha après la lliçó — però el preu ja s'ha pagat. La tragèdia de Creont no és no aprendre: és aprendre massa tard."
@@ -275,7 +278,6 @@
             }
           ]
         },
-
         {
           "id": "ant-04",
           "title": "La llei natural: hi ha lleis anteriors a l'estat?",
@@ -333,7 +335,6 @@
             }
           ]
         },
-
         {
           "id": "ant-05",
           "title": "Ismene i el silenci dels prudents",
@@ -396,7 +397,6 @@
             }
           ]
         },
-
         {
           "id": "ant-06",
           "title": "El llegat d'Antígona: dos mil cinc-cents anys de desobediència",
@@ -468,8 +468,12 @@
             }
           ]
         }
-
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 213,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

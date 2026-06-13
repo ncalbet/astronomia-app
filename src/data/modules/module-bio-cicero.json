@@ -37,13 +37,41 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "106 aC", "title": "Naix a Arpinum", "text": "Família eqüestre. El seu pare el porta a Roma per la millor educació disponible." },
-            { "year": "80 aC", "title": "Pro Roscio Amerino", "text": "Primera gran causa: defensa Sext Rosci acusant implícitament un protegit del dictador Sil·la. Victòria. Fama immediata." },
-            { "year": "70 aC", "title": "Les Verrines", "text": "Set discursos contra el governador corrupte Gaius Verres. Obra mestra de l'acusació retòrica. Verres fuig a l'exili abans d'acabar el judici." },
-            { "year": "63 aC", "title": "Cònsol. Conspiració de Catilina.", "text": "Primer homo novus cònsol en dècades. Descobre i aplasta la conspiració. Nomenat Pare de la Pàtria." },
-            { "year": "58 aC", "title": "Exili", "text": "Clodi Pulcre aconsegueix la seva condemna per haver executat els conspiradors sense judici. Exili a Grècia." },
-            { "year": "44 aC", "title": "Assassinat de Cèsar", "text": "Cicero torna a la primera línia política. Aposta per Octavià contra Marc Antoni. Comença les Filipiques." },
-            { "year": "43 aC", "title": "Mort", "text": "Proscrit pel Segon Triumvirat. Assassinat el 7 de desembre. El seu cap i les seves mans son exposats a la Rostra del Fòrum." }
+            {
+              "year": "106 aC",
+              "title": "Naix a Arpinum",
+              "text": "Família eqüestre. El seu pare el porta a Roma per la millor educació disponible."
+            },
+            {
+              "year": "80 aC",
+              "title": "Pro Roscio Amerino",
+              "text": "Primera gran causa: defensa Sext Rosci acusant implícitament un protegit del dictador Sil·la. Victòria. Fama immediata."
+            },
+            {
+              "year": "70 aC",
+              "title": "Les Verrines",
+              "text": "Set discursos contra el governador corrupte Gaius Verres. Obra mestra de l'acusació retòrica. Verres fuig a l'exili abans d'acabar el judici."
+            },
+            {
+              "year": "63 aC",
+              "title": "Cònsol. Conspiració de Catilina.",
+              "text": "Primer homo novus cònsol en dècades. Descobre i aplasta la conspiració. Nomenat Pare de la Pàtria."
+            },
+            {
+              "year": "58 aC",
+              "title": "Exili",
+              "text": "Clodi Pulcre aconsegueix la seva condemna per haver executat els conspiradors sense judici. Exili a Grècia."
+            },
+            {
+              "year": "44 aC",
+              "title": "Assassinat de Cèsar",
+              "text": "Cicero torna a la primera línia política. Aposta per Octavià contra Marc Antoni. Comença les Filipiques."
+            },
+            {
+              "year": "43 aC",
+              "title": "Mort",
+              "text": "Proscrit pel Segon Triumvirat. Assassinat el 7 de desembre. El seu cap i les seves mans son exposats a la Rostra del Fòrum."
+            }
           ]
         },
         {
@@ -75,8 +103,14 @@
           "setup": "Has arrestat els cinc principals conspiradors de la conjura de Catilina. Tens les seves cartes, les seves confessions davant del Senat. El Senat debat qué fer-ne. Cèsar —el polític més hàbil de Roma— ha fet un discurs brillant: executar-los sense judici és il·legal; la República no pot salvar-se violant les seves pròpies lleis. Cató ha respost exigint l'execució immediata per raons d'estat. Ets el cònsol. La decisió és teva. Si els portes a judici, el procés pot durar mesos i els seus aliats poden alliberar-los. Si els executes ara, la conspiració acaba —però has executat ciutadans romans sense judici, cosa que la llei prohibeix explícitament.",
           "dilemma": "Executes els conspiradors immediatament sense judici, usant el senatus consultum ultimum? O insistes en un procés legal malgrat els riscos?",
           "options": [
-            { "id": "A", "text": "Execució immediata: el perill és real i imminent. La República no sobreviurà un procés legal de mesos amb els seus enemics dins" },
-            { "id": "B", "text": "Procés legal: Cèsar té raó. Si violem la llei per salvar la República, hem destruït la República que volem salvar" }
+            {
+              "id": "A",
+              "text": "Execució immediata: el perill és real i imminent. La República no sobreviurà un procés legal de mesos amb els seus enemics dins"
+            },
+            {
+              "id": "B",
+              "text": "Procés legal: Cèsar té raó. Si violem la llei per salvar la República, hem destruït la República que volem salvar"
+            }
           ],
           "reveal": "Ciceró va triar l'execució immediata. Els conspiradors van ser estrangulats al Tul·lià, la presó de Roma, aquella mateixa nit. El poble el va aclamar. Cinc anys després, el seu enemic Clodi Pulcre va usar aquella execució —'has matat ciutadans romans sense judici'— per aconseguir el seu exili. Ciceró va haver de marxar de Roma i va plorar tot el camí fins a Grècia. Li van confiscar les cases. Va tornar un any després, però mai va recuperar la plenitud del poder.",
           "analysis": "L'execució dels conspiradors de Catilina és el cas clàssic del dilema entre la legalitat i la necessitat d'estat. Cèsar tenia raó en el principi: una república que viola les seves pròpies lleis per salvar-se ha perdut quelcom fonamental. Ciceró tenia raó en la urgència: la conspiració era real i el procés legal era arriscat. Però la lliçó de la seva vida és que la decisió que el va fer famós ('Pater Patriae') va ser també la que el va condemnar. El poder que va obtenir executant els conspiradors va ser el mateix que els seus enemics van usar per destruir-lo."
@@ -178,5 +212,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 117,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

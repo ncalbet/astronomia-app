@@ -1,6 +1,6 @@
 {
   "id": "module-bio-luxemburg",
-  "title": "Rosa Luxemburg: la llibertat és sempre la llibertat del qui pensa diferent",
+  "title": "Rosa Luxemburg: la revolució i la rosa",
   "emoji": "🌹",
   "phase": 1,
   "unlockRequires": null,
@@ -37,13 +37,41 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1871", "title": "Naix a Zamość, Polònia russa", "text": "Família jueva. Malaltia de maluc que li deixa cojera. Lectora voraç des de la infància." },
-            { "year": "1889", "title": "Fugida a Suïssa", "text": "Evita l'arrest per activisme. Universitat de Zuric. Doctorat en economia política (1897)." },
-            { "year": "1898", "title": "Arriba a Berlín. SPD.", "text": "Matrimoni pro forma per obtenir ciutadania alemanya. Entra al partit socialista més gran del món." },
-            { "year": "1899", "title": "Reforma social o revolució?", "text": "Resposta a Bernstein. El gran debat del socialisme del segle XX." },
-            { "year": "1914", "title": "Contra la guerra. Presó.", "text": "L'única líder important del SPD que s'oposa als crèdits de guerra. Empresonada." },
-            { "year": "1918", "title": "Alliberada. KPD. Insurrecció.", "text": "Surt de presó en la revolució de novembre. Funda el KPD. Aixecament espartaquista." },
-            { "year": "1919", "title": "Assassinada el 15 de gener", "text": "Capturada pels Freikorps. Colpejada i disparada. Cos llançat al canal Landwehr de Berlín." }
+            {
+              "year": "1871",
+              "title": "Naix a Zamość, Polònia russa",
+              "text": "Família jueva. Malaltia de maluc que li deixa cojera. Lectora voraç des de la infància."
+            },
+            {
+              "year": "1889",
+              "title": "Fugida a Suïssa",
+              "text": "Evita l'arrest per activisme. Universitat de Zuric. Doctorat en economia política (1897)."
+            },
+            {
+              "year": "1898",
+              "title": "Arriba a Berlín. SPD.",
+              "text": "Matrimoni pro forma per obtenir ciutadania alemanya. Entra al partit socialista més gran del món."
+            },
+            {
+              "year": "1899",
+              "title": "Reforma social o revolució?",
+              "text": "Resposta a Bernstein. El gran debat del socialisme del segle XX."
+            },
+            {
+              "year": "1914",
+              "title": "Contra la guerra. Presó.",
+              "text": "L'única líder important del SPD que s'oposa als crèdits de guerra. Empresonada."
+            },
+            {
+              "year": "1918",
+              "title": "Alliberada. KPD. Insurrecció.",
+              "text": "Surt de presó en la revolució de novembre. Funda el KPD. Aixecament espartaquista."
+            },
+            {
+              "year": "1919",
+              "title": "Assassinada el 15 de gener",
+              "text": "Capturada pels Freikorps. Colpejada i disparada. Cos llançat al canal Landwehr de Berlín."
+            }
           ]
         },
         {
@@ -75,8 +103,14 @@
           "setup": "Alemanya ha declarat la guerra a Rússia i França. El govern demana al Reichstag que aprovi els crèdits de guerra. El SPD, el teu partit, ha de votar. Karl Liebknecht i tu voleu votar en contra —la guerra és una carnisseria imperialista. Però la disciplina de partit obliga a votar com decideixi el grup parlamentari. La majoria del grup parlamentari del SPD, inclosos líders que consideres camarades, han decidit votar a favor dels crèdits: 'Defensem el país contra el tsarisme rus, que és el pitjor enemic de la classe obrera.' Si vots en contra de la disciplina de grup, pots ser expulsada del partit que has construït durant quinze anys.",
           "dilemma": "Votes a favor dels crèdits de guerra per disciplina de partit, o votes en contra i arrisques l'expulsió?",
           "options": [
-            { "id": "A", "text": "Voto a favor: la unitat del partit és essencial. Des de dins podré continuar lluitant per les posicions correctes" },
-            { "id": "B", "text": "Voto en contra: la guerra és un crim. No puc avalar-la per disciplina orgànica. Si m'expulsen, fundarem un altre partit" }
+            {
+              "id": "A",
+              "text": "Voto a favor: la unitat del partit és essencial. Des de dins podré continuar lluitant per les posicions correctes"
+            },
+            {
+              "id": "B",
+              "text": "Voto en contra: la guerra és un crim. No puc avalar-la per disciplina orgànica. Si m'expulsen, fundarem un altre partit"
+            }
           ],
           "reveal": "Luxemburg no era parlamentaria (les dones no podien ser-ho a Alemanya en aquell moment). Però Karl Liebknecht, el seu aliat, va ser l'únic diputat que va votar en contra dels crèdits de guerra al Reichstag el desembre del 1914. Luxemburg va organitzar l'oposició extraparlamentaria i va ser arrestada. Des de la presó va continuar escrivint i organitzant. La seva ruptura amb el SPD va ser total.",
           "analysis": "La decisió del SPD de votar els crèdits de guerra del 1914 va ser el moment que va trencar la Internacional Socialista i va dividir el moviment obrer europeu en dos blocs irreconciliables. Luxemburg va triar la consciència per sobre de la disciplina de partit —i va pagar el preu. La pregunta que el seu exemple planteja és quins son els límits de la lleialtat organitzativa: quan la disciplina de partit exigeix avalar una decisió que consideres un crim, qué es deu al partit i qué a la pròpia consciència?"
@@ -178,5 +212,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 125,
+  "area": "biografies",
+  "topic": "Resistència i Drets",
+  "level": "inicial"
 }

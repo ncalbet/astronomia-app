@@ -12,7 +12,6 @@
       "description": "Del viatge de retorn d'Homer a la filosofia de la identitat, de l'astúcia com a virtut a la nostàlgia com a condició humana",
       "style": "Narratiu · del mite a la interpretació filosòfica i psicològica",
       "lessons": [
-
         {
           "id": "odi-01",
           "title": "L'home que volia tornar a casa",
@@ -66,7 +65,6 @@
             }
           ]
         },
-
         {
           "id": "odi-02",
           "title": "Les temptacions del camí",
@@ -163,7 +161,6 @@
             }
           ]
         },
-
         {
           "id": "odi-03",
           "title": "La mètis: intel·ligència contra força",
@@ -259,7 +256,6 @@
             }
           ]
         },
-
         {
           "id": "odi-04",
           "title": "La nostàlgia: el dolor del retorn",
@@ -310,7 +306,6 @@
             }
           ]
         },
-
         {
           "id": "odi-05",
           "title": "El retorn i la identitat",
@@ -331,8 +326,14 @@
               "setup": "Acabes d'arribar a Ítaca disfressat de vell mendicant. El primer que trobes és el teu porquer Eumeu, que no et reconeix però et tracta amb hospitalitat. Podries revelar la teva identitat ara — seria segur, Eumeu és lleial. Però això canviaria el pla d'eliminar els pretendents.",
               "dilemma": "Et reveles a Eumeu ara, guanyant un aliat immediat i posant fi a vint anys de separació — o continues el pla i mantens la disfressa fins al moment escollit?",
               "options": [
-                { "id": "A", "text": "Em revelo. Eumeu és lleial i mereix saber que he tornat. La connexió humana val més que el pla perfecte." },
-                { "id": "B", "text": "Mantinc la disfressa. He sobreviscut vint anys gràcies a la disciplina. No canviaré el pla per impaciència emocional en l'últim moment." }
+                {
+                  "id": "A",
+                  "text": "Em revelo. Eumeu és lleial i mereix saber que he tornat. La connexió humana val més que el pla perfecte."
+                },
+                {
+                  "id": "B",
+                  "text": "Mantinc la disfressa. He sobreviscut vint anys gràcies a la disciplina. No canviaré el pla per impaciència emocional en l'últim moment."
+                }
               ],
               "reveal": "Homer descriu Odisseu revelant-se primer al seu fill Telèmac (amb llàgrimes), i molt més tard a Eumeu i al seu altre porquer Filoci — però no fins que el pla per eliminar els pretendents ja estava en marxa. Odisseu tria la disciplina sobre la connexió immediata. I Homer no ho presenta com a fred o calculador — ho presenta com la coherència d'un home que porta vint anys sent Odisseu.",
               "analysis": "La decisió d'Odisseu de mantenir la disfressa fins al final és la mateixa capacitat que el va fer sobreviure — la mètis aplicada no als enemics sinó als aliats. Però hi ha un cost: cada moment que Eumeu no sap qui és el vell mendicant que acull és un moment de connexió humana incompleta. Odisseu és mestre en sobreviure; és menys clar que sigui mestre en viure."
@@ -384,7 +385,6 @@
             }
           ]
         },
-
         {
           "id": "odi-06",
           "title": "Llegat: el viatge que no acaba",
@@ -476,8 +476,12 @@
             }
           ]
         }
-
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 210,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

@@ -12,7 +12,6 @@
       "description": "Del relat original d'Ovidi a la psicologia del narcisisme, del desig no correspost a la identitat en l'era digital",
       "style": "Narratiu · del mite a la interpretació psicològica i contemporània",
       "lessons": [
-
         {
           "id": "nar-01",
           "title": "La noia que només podia repetir",
@@ -69,7 +68,6 @@
             }
           ]
         },
-
         {
           "id": "nar-02",
           "title": "El noi que es va enamorar d'ell mateix",
@@ -149,7 +147,6 @@
             }
           ]
         },
-
         {
           "id": "nar-03",
           "title": "El narcisisme com a concepte psicològic",
@@ -205,7 +202,6 @@
             }
           ]
         },
-
         {
           "id": "nar-04",
           "title": "El mirall digital",
@@ -279,7 +275,6 @@
             }
           ]
         },
-
         {
           "id": "nar-05",
           "title": "Ser vist i veure's",
@@ -300,8 +295,14 @@
               "setup": "Algú a qui admires profundament et diu que no comparteix la teva visió del món, no troba interessant el teu treball, i prefereix no continuar la relació. No és cruel — és honest. La seva valoració sobre tu és radicalment diferent de la que tu tens de tu mateix.",
               "dilemma": "Com reacciones internament — i com decideixes actuar?",
               "options": [
-                { "id": "A", "text": "La seva valoració em fa qüestionar la meva. Em pregunto si hi ha alguna cosa en la seva perspectiva que jo no puc veure sobre mi mateix." },
-                { "id": "B", "text": "La seva valoració diu més sobre ell que sobre mi. No tothom pot apreciar el que faig, i aquest és un d'ells." }
+                {
+                  "id": "A",
+                  "text": "La seva valoració em fa qüestionar la meva. Em pregunto si hi ha alguna cosa en la seva perspectiva que jo no puc veure sobre mi mateix."
+                },
+                {
+                  "id": "B",
+                  "text": "La seva valoració diu més sobre ell que sobre mi. No tothom pot apreciar el que faig, i aquest és un d'ells."
+                }
               ],
               "reveal": "No hi ha una resposta correcta documentada — però la psicologia pot dir alguna cosa sobre les dues. L'opció A, portada a l'extrem, porta cap a Eco: la pròpia identitat desapareix en la valoració aliena. L'opció B, portada a l'extrem, porta cap a Narcís: cap valoració externa pot penetrar la imatge pròpia.",
               "analysis": "La psicologia del self (Kohut, Kernberg) descriu la salut psicològica com la capacitat de tenir en compte la perspectiva aliena sense que la pròpia identitat col·lapsi. Ni la dissolució (Eco) ni la impermeabilitat (Narcís) — sinó la capacitat de ser afectat sense ser destruït. Això no és una postura fàcil ni estable: és una pràctica constant de regulació entre els dos pols del mite."
@@ -335,7 +336,6 @@
             }
           ]
         },
-
         {
           "id": "nar-06",
           "title": "Llegat: el mite que es multiplica",
@@ -438,8 +438,12 @@
             }
           ]
         }
-
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 205,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

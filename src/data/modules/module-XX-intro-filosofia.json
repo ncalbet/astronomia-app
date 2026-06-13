@@ -1,4 +1,4 @@
-﻿{
+{
   "id": "module-XX-intro-filosofia",
   "title": "Introducció a la Filosofia",
   "emoji": "🦉",
@@ -41,10 +41,26 @@
               "labelA": "Ciència",
               "labelB": "Filosofia",
               "items": [
-                { "label": "Mètode", "a": "Observació i experiment", "b": "Argument i anàlisi conceptual" },
-                { "label": "Preguntes", "a": "Com funciona el món?", "b": "Quin sentit té el món?" },
-                { "label": "Respostes", "a": "Verificables empíricament", "b": "Justificades racionalment" },
-                { "label": "Progrés", "a": "Acumulatiu i mesurable", "b": "En espiral: torna als problemes" }
+                {
+                  "label": "Mètode",
+                  "a": "Observació i experiment",
+                  "b": "Argument i anàlisi conceptual"
+                },
+                {
+                  "label": "Preguntes",
+                  "a": "Com funciona el món?",
+                  "b": "Quin sentit té el món?"
+                },
+                {
+                  "label": "Respostes",
+                  "a": "Verificables empíricament",
+                  "b": "Justificades racionalment"
+                },
+                {
+                  "label": "Progrés",
+                  "a": "Acumulatiu i mesurable",
+                  "b": "En espiral: torna als problemes"
+                }
               ]
             },
             {
@@ -172,11 +188,31 @@
             {
               "type": "timeline",
               "events": [
-                { "year": "s. IV aC", "title": "Aristòtil: l'acció voluntària", "text": "Distingeix accions voluntàries (originades en nosaltres, amb coneixement) d'involuntàries. Base de la responsabilitat moral." },
-                { "year": "s. XVII", "title": "Spinoza: tot és necessari", "text": "Déu i la natura són el mateix. Tot el que passa és necessari. La llibertat humana és una il·lusió nascuda de la ignorància de les causes." },
-                { "year": "s. XVIII", "title": "Kant: la llibertat és un postulat moral", "text": "No podem provar el lliure albir, però hem de pressuposar-lo per donar sentit a la moralitat. Sense llibertat, cap acte no seria ni bo ni dolent." },
-                { "year": "1983", "title": "Libet: el cervell s'avança a la consciència", "text": "Experiments amb EEG suggereixen que el cervell 'decideix' moure's abans que siguem conscients de voler fer-ho. El debat científic i filosòfic s'accentua." },
-                { "year": "Avui", "title": "Compatibilisme dominant en filosofia analítica", "text": "La majoria de filòsofs actuals defensen que la llibertat és compatible amb el determinisme: ser lliure significa actuar segons els propis desitjos i raons, no estar al marge de la causalitat." }
+                {
+                  "year": "s. IV aC",
+                  "title": "Aristòtil: l'acció voluntària",
+                  "text": "Distingeix accions voluntàries (originades en nosaltres, amb coneixement) d'involuntàries. Base de la responsabilitat moral."
+                },
+                {
+                  "year": "s. XVII",
+                  "title": "Spinoza: tot és necessari",
+                  "text": "Déu i la natura són el mateix. Tot el que passa és necessari. La llibertat humana és una il·lusió nascuda de la ignorància de les causes."
+                },
+                {
+                  "year": "s. XVIII",
+                  "title": "Kant: la llibertat és un postulat moral",
+                  "text": "No podem provar el lliure albir, però hem de pressuposar-lo per donar sentit a la moralitat. Sense llibertat, cap acte no seria ni bo ni dolent."
+                },
+                {
+                  "year": "1983",
+                  "title": "Libet: el cervell s'avança a la consciència",
+                  "text": "Experiments amb EEG suggereixen que el cervell 'decideix' moure's abans que siguem conscients de voler fer-ho. El debat científic i filosòfic s'accentua."
+                },
+                {
+                  "year": "Avui",
+                  "title": "Compatibilisme dominant en filosofia analítica",
+                  "text": "La majoria de filòsofs actuals defensen que la llibertat és compatible amb el determinisme: ser lliure significa actuar segons els propis desitjos i raons, no estar al marge de la causalitat."
+                }
               ]
             },
             {
@@ -219,10 +255,26 @@
               "labelA": "Consequencialisme (Mill)",
               "labelB": "Deontologia (Kant)",
               "items": [
-                { "label": "Pregunta clau", "a": "Quins efectes tindrà?", "b": "És el tipus d'acció correcte?" },
-                { "label": "Fonament", "a": "Maximitzar el benestar", "b": "El deure i la llei moral" },
-                { "label": "Sobre mentir", "a": "Depèn: si salva vides, pot ser bo", "b": "Mai: és sempre incorrecte" },
-                { "label": "Problema", "a": "Pot justificar injustícies si el còmput és positiu", "b": "Pot ser rígid davant dilemes extrems" }
+                {
+                  "label": "Pregunta clau",
+                  "a": "Quins efectes tindrà?",
+                  "b": "És el tipus d'acció correcte?"
+                },
+                {
+                  "label": "Fonament",
+                  "a": "Maximitzar el benestar",
+                  "b": "El deure i la llei moral"
+                },
+                {
+                  "label": "Sobre mentir",
+                  "a": "Depèn: si salva vides, pot ser bo",
+                  "b": "Mai: és sempre incorrecte"
+                },
+                {
+                  "label": "Problema",
+                  "a": "Pot justificar injustícies si el còmput és positiu",
+                  "b": "Pot ser rígid davant dilemes extrems"
+                }
               ]
             },
             {
@@ -350,11 +402,31 @@
             {
               "type": "timeline",
               "events": [
-                { "year": "s. IV aC", "title": "Plató: La República", "text": "L'estat just és governat pels filòsofs-reis, els únics que coneixen el Bé. La democràcia és una forma degenerada de govern: el govern dels ignorants." },
-                { "year": "s. IV aC", "title": "Aristòtil: La Política", "text": "L'home és un 'animal polític': la polis és natural, no un artifici. El millor govern depèn del context; la politeía (democràcia moderada) és normalment el menys dolent." },
-                { "year": "1651", "title": "Hobbes: Leviatan", "text": "Sense estat, la vida és una guerra de tots contra tots. El contracte social cedeix poder absolut al sobirà a canvi de seguretat." },
-                { "year": "1762", "title": "Rousseau: El contracte social", "text": "La sobirania resideix en la voluntat general del poble. Les institucions corrompudes han d'alinear-se amb la llibertat natural." },
-                { "year": "1971", "title": "Rawls: Una teoria de la justícia", "text": "Principis justos són els que triaríem darrere d'un 'vel d'ignorància', sense saber quin lloc ocuparíem a la societat." }
+                {
+                  "year": "s. IV aC",
+                  "title": "Plató: La República",
+                  "text": "L'estat just és governat pels filòsofs-reis, els únics que coneixen el Bé. La democràcia és una forma degenerada de govern: el govern dels ignorants."
+                },
+                {
+                  "year": "s. IV aC",
+                  "title": "Aristòtil: La Política",
+                  "text": "L'home és un 'animal polític': la polis és natural, no un artifici. El millor govern depèn del context; la politeía (democràcia moderada) és normalment el menys dolent."
+                },
+                {
+                  "year": "1651",
+                  "title": "Hobbes: Leviatan",
+                  "text": "Sense estat, la vida és una guerra de tots contra tots. El contracte social cedeix poder absolut al sobirà a canvi de seguretat."
+                },
+                {
+                  "year": "1762",
+                  "title": "Rousseau: El contracte social",
+                  "text": "La sobirania resideix en la voluntat general del poble. Les institucions corrompudes han d'alinear-se amb la llibertat natural."
+                },
+                {
+                  "year": "1971",
+                  "title": "Rawls: Una teoria de la justícia",
+                  "text": "Principis justos són els que triaríem darrere d'un 'vel d'ignorància', sense saber quin lloc ocuparíem a la societat."
+                }
               ]
             },
             {
@@ -523,10 +595,26 @@
               "labelA": "Plató",
               "labelB": "Aristòtil",
               "items": [
-                { "label": "On rau la veritat", "a": "En les Idees: eternes, separades del món", "b": "En les formes dins les coses concretes" },
-                { "label": "Mètode", "a": "Raó pura, independent dels sentits", "b": "Observació + raó combinades" },
-                { "label": "Política ideal", "a": "Govern dels filòsofs-reis", "b": "La millor constitució depèn del context" },
-                { "label": "L'ànima", "a": "Immortal, empresonada al cos", "b": "Forma del cos; no sobreviu sense ell" }
+                {
+                  "label": "On rau la veritat",
+                  "a": "En les Idees: eternes, separades del món",
+                  "b": "En les formes dins les coses concretes"
+                },
+                {
+                  "label": "Mètode",
+                  "a": "Raó pura, independent dels sentits",
+                  "b": "Observació + raó combinades"
+                },
+                {
+                  "label": "Política ideal",
+                  "a": "Govern dels filòsofs-reis",
+                  "b": "La millor constitució depèn del context"
+                },
+                {
+                  "label": "L'ànima",
+                  "a": "Immortal, empresonada al cos",
+                  "b": "Forma del cos; no sobreviu sense ell"
+                }
               ]
             },
             {
@@ -659,11 +747,31 @@
             {
               "type": "timeline",
               "events": [
-                { "year": "c. 300 aC", "title": "Zenó de Cítion funda l'estoïcisme", "text": "Ensenya al Pòrtic Pintat (Stoa Poikile) d'Atenes. D'aquí el nom 'estoïcisme'." },
-                { "year": "c. 50-135 dC", "title": "Epictetus: l'esclau filòsof", "text": "Nascut esclau, va ser alliberat i va fundar una escola filosòfica. Les seves Dissertacions segueixen sent llegides com a manual de resiliència." },
-                { "year": "161-180 dC", "title": "Marc Aureli: l'emperador filòsof", "text": "Governa l'imperi romà mentre escriu les Meditacions per a ús personal. Mai no es va publicar en vida." },
-                { "year": "s. XIII", "title": "Tomàs d'Aquino sintetitza Aristòtil i el cristianisme", "text": "La Summa Theologica integra la filosofia aristotèlica a la teologia cristiana. Aristòtil es fa 'compatible' amb la fe." },
-                { "year": "1641", "title": "Descartes publica les Meditacions Metafísiques", "text": "El projecte de refundar el coneixement sobre bases indubtables marca el començament de la filosofia moderna." }
+                {
+                  "year": "c. 300 aC",
+                  "title": "Zenó de Cítion funda l'estoïcisme",
+                  "text": "Ensenya al Pòrtic Pintat (Stoa Poikile) d'Atenes. D'aquí el nom 'estoïcisme'."
+                },
+                {
+                  "year": "c. 50-135 dC",
+                  "title": "Epictetus: l'esclau filòsof",
+                  "text": "Nascut esclau, va ser alliberat i va fundar una escola filosòfica. Les seves Dissertacions segueixen sent llegides com a manual de resiliència."
+                },
+                {
+                  "year": "161-180 dC",
+                  "title": "Marc Aureli: l'emperador filòsof",
+                  "text": "Governa l'imperi romà mentre escriu les Meditacions per a ús personal. Mai no es va publicar en vida."
+                },
+                {
+                  "year": "s. XIII",
+                  "title": "Tomàs d'Aquino sintetitza Aristòtil i el cristianisme",
+                  "text": "La Summa Theologica integra la filosofia aristotèlica a la teologia cristiana. Aristòtil es fa 'compatible' amb la fe."
+                },
+                {
+                  "year": "1641",
+                  "title": "Descartes publica les Meditacions Metafísiques",
+                  "text": "El projecte de refundar el coneixement sobre bases indubtables marca el començament de la filosofia moderna."
+                }
               ]
             },
             {
@@ -782,11 +890,31 @@
               "labelA": "Kant (deontologia)",
               "labelB": "Mill (utilitarisme)",
               "items": [
-                { "label": "Fonament moral", "a": "El deure i la llei racional", "b": "Maximitzar el benestar total" },
-                { "label": "Jutja les accions per", "a": "La màxima que les guia", "b": "Les seves conseqüències" },
-                { "label": "Mentir mai és permès?", "a": "No, mai (és un deure absolut)", "b": "Sí, si evita un mal major" },
-                { "label": "Punt fort", "a": "Protegeix drets individuals", "b": "Atén el benestar real de les persones" },
-                { "label": "Punt feble", "a": "Pot ser rígid en casos extrems", "b": "Pot sacrificar individus per la majoria" }
+                {
+                  "label": "Fonament moral",
+                  "a": "El deure i la llei racional",
+                  "b": "Maximitzar el benestar total"
+                },
+                {
+                  "label": "Jutja les accions per",
+                  "a": "La màxima que les guia",
+                  "b": "Les seves conseqüències"
+                },
+                {
+                  "label": "Mentir mai és permès?",
+                  "a": "No, mai (és un deure absolut)",
+                  "b": "Sí, si evita un mal major"
+                },
+                {
+                  "label": "Punt fort",
+                  "a": "Protegeix drets individuals",
+                  "b": "Atén el benestar real de les persones"
+                },
+                {
+                  "label": "Punt feble",
+                  "a": "Pot ser rígid en casos extrems",
+                  "b": "Pot sacrificar individus per la majoria"
+                }
               ]
             },
             {
@@ -896,5 +1024,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 280,
+  "order": 77,
+  "area": "pensament",
+  "topic": "Filosofia",
+  "level": "inicial"
 }
