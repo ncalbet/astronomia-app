@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
 import { calculateLevel, getLevelTitle } from '../engine/xpEngine'
-import { getUnlocksForModule } from '../engine/unlockEngine'
 import { countDueToday } from '../engine/spacedRepetitionEngine'
 import { loadModule } from '../data/moduleRegistry'
 import { downloadCertificate } from '../engine/certificateEngine'
@@ -23,7 +22,7 @@ const CONFETTI = Array.from({ length: 28 }, (_, i) => ({
 
 export default function Results() {
   const navigate = useNavigate()
-  const { xp, navigationState, completeModule, unlockModule, setNavigationState, srData } = useApp()
+  const { xp, navigationState, completeModule, setNavigationState, srData } = useApp()
   const { theme } = useTheme()
   const dueCount = countDueToday(srData)
 
@@ -38,8 +37,6 @@ export default function Results() {
 
     if (!currentItineraryId) {
       completeModule(currentModuleId)
-      const unlocks = getUnlocksForModule(currentModuleId)
-      unlocks.forEach(id => unlockModule(id))
       loadModule(currentModuleId).then(data => setModuleTitle(data.title || '')).catch(() => {})
     }
 
@@ -135,7 +132,7 @@ export default function Results() {
 
       <div className={styles.actions}>
         <button className={styles.primaryBtn} onClick={handleGoToMap}>
-          🗺️ Mapa de {theme.missionWord.toLowerCase()}s
+          🗺️ Mapa de {theme.missionWordPlural.toLowerCase()}
         </button>
         {!isItinerary && moduleTitle && (
           <button

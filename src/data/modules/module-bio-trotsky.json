@@ -37,14 +37,46 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1879", "title": "Naix a Iànovka, Ucraïna", "text": "Fill de pagesos jueus. Infància en un ambient d'antisemitisme endemèmic." },
-            { "year": "1898-1902", "title": "Primer arrest i primera deportació", "text": "Arrestat per activitat revolucionària. Deportat a Sibèria. Primer escapament." },
-            { "year": "1905", "title": "President del Soviet de Sant Petersburg", "text": "Líder de la primera institució revolucionària russa a 26 anys. Segon arrest i deportació." },
-            { "year": "1917", "title": "Comissari de Relacions Exteriors", "text": "Torna de Nova York. S'uneix als bolxevics. Negocia la pau de Brest-Litovsk amb Alemanya." },
-            { "year": "1918-1920", "title": "Creació de l'Exèrcit Roig", "text": "Organitza l'Exèrcit Roig des de zero. Guanya la guerra civil contra les forces blanques." },
-            { "year": "1924-1927", "title": "Lluita per la successió i derrota", "text": "Mort de Lenin. Stalin, Zinoviev i Kàmenev s'alien contra ell. Expulsat del Partit (1927)." },
-            { "year": "1929", "title": "Exili definitiu", "text": "Expulsat de la URSS. Turquia, França, Noruega, Mèxic." },
-            { "year": "1940", "title": "Assassinat a Coyoacán, Mèxic", "text": "Agent de Stalin (Ramón Mercader) l'assassina amb un piolet al cap. 20 d'agost de 1940." }
+            {
+              "year": "1879",
+              "title": "Naix a Iànovka, Ucraïna",
+              "text": "Fill de pagesos jueus. Infància en un ambient d'antisemitisme endemèmic."
+            },
+            {
+              "year": "1898-1902",
+              "title": "Primer arrest i primera deportació",
+              "text": "Arrestat per activitat revolucionària. Deportat a Sibèria. Primer escapament."
+            },
+            {
+              "year": "1905",
+              "title": "President del Soviet de Sant Petersburg",
+              "text": "Líder de la primera institució revolucionària russa a 26 anys. Segon arrest i deportació."
+            },
+            {
+              "year": "1917",
+              "title": "Comissari de Relacions Exteriors",
+              "text": "Torna de Nova York. S'uneix als bolxevics. Negocia la pau de Brest-Litovsk amb Alemanya."
+            },
+            {
+              "year": "1918-1920",
+              "title": "Creació de l'Exèrcit Roig",
+              "text": "Organitza l'Exèrcit Roig des de zero. Guanya la guerra civil contra les forces blanques."
+            },
+            {
+              "year": "1924-1927",
+              "title": "Lluita per la successió i derrota",
+              "text": "Mort de Lenin. Stalin, Zinoviev i Kàmenev s'alien contra ell. Expulsat del Partit (1927)."
+            },
+            {
+              "year": "1929",
+              "title": "Exili definitiu",
+              "text": "Expulsat de la URSS. Turquia, França, Noruega, Mèxic."
+            },
+            {
+              "year": "1940",
+              "title": "Assassinat a Coyoacán, Mèxic",
+              "text": "Agent de Stalin (Ramón Mercader) l'assassina amb un piolet al cap. 20 d'agost de 1940."
+            }
           ]
         },
         {
@@ -76,8 +108,14 @@
           "setup": "Lenin acaba de morir. Estàs malalt —una febre persistent que t'ha forçat a descansar al Caucas durant setmanes clau. Stalin, Zinoviev i Kàmenev han format una 'Troika' per blocar la teva successió. Controlen les estructures del Partit, els comitès regionals i la maquinària de propaganda. Tens el suport de l'Exèrcit Roig que tu vas crear i de molts intel·lectuals del Partit. Però per usar aquell suport hauràs de convocar els teus seguidors, plantejar una lluita oberta pel poder i arriscar una fractura del Partit que podria semblar una traïció a Lenin.",
           "dilemma": "Mobilitzes obertament els teus seguidors i planteges la lluita pel poder? O confies que la teva posició ideològica i el teu historial parlen per si mateixos, i que el Partit farà el que és correcte?",
           "options": [
-            { "id": "A", "text": "Convoco els meus seguidors i organitzo la lluita oberta: si no actuo ara, Stalin consolidarà l'aparell i serà massa tard" },
-            { "id": "B", "text": "No jugo les intrigues: les meves idees i el meu historial han de parlar per si mateixos. Una lluita de poder oberta danyaria el Partit" }
+            {
+              "id": "A",
+              "text": "Convoco els meus seguidors i organitzo la lluita oberta: si no actuo ara, Stalin consolidarà l'aparell i serà massa tard"
+            },
+            {
+              "id": "B",
+              "text": "No jugo les intrigues: les meves idees i el meu historial han de parlar per si mateixos. Una lluita de poder oberta danyaria el Partit"
+            }
           ],
           "reveal": "Trotsky va triar, en part, la opció B. Va escriure, va discursejar, va publicar —però no va organitzar una facció sistemàtica ni va mobilitzar l'exèrcit. Stalin va aprofitar cada mes per consolidar el control de l'aparell. El 1927 Trotsky va ser expulsat del Partit. El 1929, expulsat de la URSS. El 1940, assassinat a Mèxic.",
           "analysis": "La decisió de Trotsky de no mobilitzar obertament és un dels grans enigmes de la historia política del segle XX. Les seves cartes i diaris suggereixen que creia que la lluita oberta danyaria el Partit i la Revolució —que Lenin havia dit que Trotsky era l'hereu— i que el Partit faria la cosa correcta. Subestimava Stalin de forma espectacular. I potser —alguns historiadors ho suggereixen— temia el que ell mateix pogués fer si guanyava el poder absolut."
@@ -179,5 +217,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 112,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

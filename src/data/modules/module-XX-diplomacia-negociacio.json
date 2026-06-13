@@ -1,4 +1,4 @@
-﻿{
+{
   "id": "module-XX-diplomacia-negociacio",
   "title": "Diplomàcia i Negociació Internacional",
   "emoji": "🤝",
@@ -16,109 +16,527 @@
           "id": "dn-01",
           "title": "Anatomia d'una negociació",
           "blocks": [
-            { "type": "narrative", "text": "El 1961, John F. Kennedy va arribar a la cimera de Viena amb Khrusxov sense la preparació adequada. Estava malalt, prenent medicació, i havia subestimat el líder soviètic. Khrusxov el va dominar completament durant dos dies de reunions. Mesos després, Khrusxov va construir el mur de Berlín i va enviar míssils a Cuba — convençut que Kennedy era feble. La manca de preparació en una negociació pot tenir conseqüències que van molt més enllà de la taula." },
-            { "type": "key-idea", "text": "Tota negociació segueix quatre fases: preparació (analitzar interessos, BATNA i alternatives), obertura (establir el to i les expectatives inicials), exploració i intercanvi (revelar interessos, fer i rebre ofertes) i tancament (arribar a l'acord o gestionar el bloqueig). Conèixer en quina fase ets i actuar en conseqüència és la competència central del negociador professional." },
-            { "type": "expandable", "label": "La preparació — per què el 70% del treball es fa abans d'asseure's a la taula", "content": "Els negociadors professionals dediquen entre el 60% i el 80% del seu temps a la preparació. Aquesta inclou: (1) Anàlisi d'interessos — els propis i els de l'altra part. Quins són els seus objectius reals? Quines pressions internes tenen? Quin és el seu BATNA? (2) Recerca de precedents — quin és el rang de resultats en negociacions similars? (3) Definició de posicions — màxima aspiració, objectiu realista i punt de retirada. (4) Preparació de la relació — conèixer la cultura, els antecedents i els estils de l'interlocutor. (5) Estratègia d'obertura — com es posicionarà la primera oferta per ancorar la negociació favorablement. La preparació inadequada és la causa més freqüent del fracàs negociador." },
-            { "type": "expandable", "label": "La zona d'acord possible (ZOPA) — entendre on és l'espai de la negociació", "content": "La ZOPA (Zone of Possible Agreement) és l'espai entre el punt de retirada de cada part — el mínim que cadascuna acceptaria. Si la ZOPA existeix, un acord és possible; si no existeix, no n'hi ha. El treball del negociador és descobrir la ZOPA real de l'altra part (que l'altra part intentarà ocultar) i moure el punt de retirada de l'altra part a través de la informació, la persuasió o la pressió. La primera oferta — l'ancoratge — és fonamental perquè fixa el punt de referència al voltant del qual es mourà la negociació." },
-            { "type": "timeline", "events": [
-              { "year": "Preparació", "title": "Anàlisi i estratègia", "text": "Definir interessos, BATNA, ZOPA estimada i estratègia d'obertura. El 70% del treball total." },
-              { "year": "Obertura", "title": "Establir el marc", "text": "Primera oferta (ancoratge), establiment de les regles del joc, construcció de la relació inicial." },
-              { "year": "Exploració", "title": "Revelar i intercanviar", "text": "Fer preguntes, revelar interessos selectivament, fer i rebre ofertes, gestionar la informació." },
-              { "year": "Tancament", "title": "Arribar a l'acord", "text": "Superar els últims obstacles, formalitzar l'acord, definir el pla d'implementació." }
-            ]},
-            { "type": "misconception", "belief": "Un bon negociador és algú que parla bé, és persuasiu i manté el control emocional en tot moment.", "reality": "Els negociadors més efectius destaquen principalment per la qualitat de les seves preguntes, la seva capacitat d'escoltar activament i la profunditat de la seva preparació. La persuasió verbal és menys important que l'anàlisi prèvia dels interessos i el disseny de solucions que satisfacin les necessitats reals de totes les parts.", "why": "Perquè la imatge popular del negociador ve del cinema i la política — figures carismàtiques que imposen la seva voluntat. La recerca sobre negociadors professionals mostra un perfil molt diferent: metòdics, curiosos i orientats a entendre l'altra part més que a impressionar-la." },
-            { "type": "exercise", "id": "ex-dn-01-01", "style": "multiple-choice", "question": "Quin és l'efecte principal de la primera oferta en una negociació, fenomen conegut com a 'efecte d'ancoratge'?", "options": ["Compromet irrevocablement el negociador que la fa, eliminant la seva flexibilitat posterior", "Estableix un punt de referència que influeix desproporcionadament en el resultat final, fins i tot quan l'altra part la rebutja", "Revela el punt de retirada real del negociador, posant-lo en desavantatge", "Obliga l'altra part a fer una contraoferta equivalent, creant equilibri en la negociació"], "correct": 1, "feedbackCorrect": "Exacte. L'ancoratge és un dels biaixos cognitius més robusts en psicologia: el primer número que apareix en una negociació exerceix una atracció gravitatòria sobre el resultat final, fins i tot quan és clarament exagerat. Per això els negociadors professionals fan ofertes d'obertura ambicioses — no esperen que siguin acceptades, sinó que fixin el punt de referència favorablement.", "feedbackWrong": "L'ancoratge no compromet ni revela el punt de retirada: és una tàctica, no una promesa. I no obliga l'altra part a res — però influeix en com percep el rang de resultats possibles. La investigació de Tversky i Kahneman va mostrar que fins i tot ancoratges clarament absurds afecten les estimacions posteriors." },
-            { "type": "exercise", "id": "ex-dn-01-02", "style": "detect-error", "statement": "En una negociació, la millor estratègia d'obertura és fer una primera oferta moderada i raonable per demostrar bona fe i fomentar la reciprocitat de l'altra part.", "isCorrect": false, "feedbackExplanation": "L'error és assumir que la moderació inicial és òptima. La recerca sobre ancoratge mostra que les primeres ofertes ambicioses — però defensables — tendeixen a produir millors resultats per a qui les fa. Una oferta moderada fixa l'ancoratge en un punt que deixa poc espai de maniobra. Una oferta ambiciosa fixa el punt de referència favorablement i deixa espai per a concessions que l'altra part percebrà com a senyals de bona voluntat. La clau és que l'oferta ambiciosa sigui defensable — que hi hagi un argument per sostenir-la." },
-            { "type": "scientific-mode", "id": "sci-dn-01-01", "question": "Les emocions en la negociació són principalment un obstacle que cal controlar, o poden ser un instrument estratègic útil?", "options": ["Són principalment un obstacle: les emocions distorsionen el judici racional i els negociadors més efectius aprenen a suprimir-les", "Són principalment un instrument: expressar frustració, entusiasme o decepció de manera calculada pot influir en les percepcions i decisions de l'altra part", "Depèn del context i el tipus d'emoció: algunes emocions expressades estratègicament poden ser útils; d'altres, especialment la ira, tendeixen a produir resultats pitjors"], "correct": 2, "explanation": "La recerca sobre emocions en la negociació ha evolucionat significativament en les últimes dècades. La visió clàssica — emocions com a obstacle — ha estat qüestionada per investigadors com Alison Wood Brooks i Adam Galinsky. L'ansietat s'associa a resultats negatius: els negociadors ansiosos fan primeres ofertes menys ambicioses i fan concessions massa ràpidament. La ira expressada pot ser útil per comunicar que una línia vermella ha estat creuada, però tendeix a endurir les posicions de l'altra part. L'entusiasme i la positivitat s'associen a major creativitat i a solucions integratives. La recerca de Brooks suggereix que reformular l'ansietat com a excitació millora el rendiment negociador. La conclusió: les emocions no s'han de suprimir sinó entendre i gestionar." }
+            {
+              "type": "narrative",
+              "text": "El 1961, John F. Kennedy va arribar a la cimera de Viena amb Khrusxov sense la preparació adequada. Estava malalt, prenent medicació, i havia subestimat el líder soviètic. Khrusxov el va dominar completament durant dos dies de reunions. Mesos després, Khrusxov va construir el mur de Berlín i va enviar míssils a Cuba — convençut que Kennedy era feble. La manca de preparació en una negociació pot tenir conseqüències que van molt més enllà de la taula."
+            },
+            {
+              "type": "key-idea",
+              "text": "Tota negociació segueix quatre fases: preparació (analitzar interessos, BATNA i alternatives), obertura (establir el to i les expectatives inicials), exploració i intercanvi (revelar interessos, fer i rebre ofertes) i tancament (arribar a l'acord o gestionar el bloqueig). Conèixer en quina fase ets i actuar en conseqüència és la competència central del negociador professional."
+            },
+            {
+              "type": "expandable",
+              "label": "La preparació — per què el 70% del treball es fa abans d'asseure's a la taula",
+              "content": "Els negociadors professionals dediquen entre el 60% i el 80% del seu temps a la preparació. Aquesta inclou: (1) Anàlisi d'interessos — els propis i els de l'altra part. Quins són els seus objectius reals? Quines pressions internes tenen? Quin és el seu BATNA? (2) Recerca de precedents — quin és el rang de resultats en negociacions similars? (3) Definició de posicions — màxima aspiració, objectiu realista i punt de retirada. (4) Preparació de la relació — conèixer la cultura, els antecedents i els estils de l'interlocutor. (5) Estratègia d'obertura — com es posicionarà la primera oferta per ancorar la negociació favorablement. La preparació inadequada és la causa més freqüent del fracàs negociador."
+            },
+            {
+              "type": "expandable",
+              "label": "La zona d'acord possible (ZOPA) — entendre on és l'espai de la negociació",
+              "content": "La ZOPA (Zone of Possible Agreement) és l'espai entre el punt de retirada de cada part — el mínim que cadascuna acceptaria. Si la ZOPA existeix, un acord és possible; si no existeix, no n'hi ha. El treball del negociador és descobrir la ZOPA real de l'altra part (que l'altra part intentarà ocultar) i moure el punt de retirada de l'altra part a través de la informació, la persuasió o la pressió. La primera oferta — l'ancoratge — és fonamental perquè fixa el punt de referència al voltant del qual es mourà la negociació."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "Preparació",
+                  "title": "Anàlisi i estratègia",
+                  "text": "Definir interessos, BATNA, ZOPA estimada i estratègia d'obertura. El 70% del treball total."
+                },
+                {
+                  "year": "Obertura",
+                  "title": "Establir el marc",
+                  "text": "Primera oferta (ancoratge), establiment de les regles del joc, construcció de la relació inicial."
+                },
+                {
+                  "year": "Exploració",
+                  "title": "Revelar i intercanviar",
+                  "text": "Fer preguntes, revelar interessos selectivament, fer i rebre ofertes, gestionar la informació."
+                },
+                {
+                  "year": "Tancament",
+                  "title": "Arribar a l'acord",
+                  "text": "Superar els últims obstacles, formalitzar l'acord, definir el pla d'implementació."
+                }
+              ]
+            },
+            {
+              "type": "misconception",
+              "belief": "Un bon negociador és algú que parla bé, és persuasiu i manté el control emocional en tot moment.",
+              "reality": "Els negociadors més efectius destaquen principalment per la qualitat de les seves preguntes, la seva capacitat d'escoltar activament i la profunditat de la seva preparació. La persuasió verbal és menys important que l'anàlisi prèvia dels interessos i el disseny de solucions que satisfacin les necessitats reals de totes les parts.",
+              "why": "Perquè la imatge popular del negociador ve del cinema i la política — figures carismàtiques que imposen la seva voluntat. La recerca sobre negociadors professionals mostra un perfil molt diferent: metòdics, curiosos i orientats a entendre l'altra part més que a impressionar-la."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-01-01",
+              "style": "multiple-choice",
+              "question": "Quin és l'efecte principal de la primera oferta en una negociació, fenomen conegut com a 'efecte d'ancoratge'?",
+              "options": [
+                "Compromet irrevocablement el negociador que la fa, eliminant la seva flexibilitat posterior",
+                "Estableix un punt de referència que influeix desproporcionadament en el resultat final, fins i tot quan l'altra part la rebutja",
+                "Revela el punt de retirada real del negociador, posant-lo en desavantatge",
+                "Obliga l'altra part a fer una contraoferta equivalent, creant equilibri en la negociació"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'ancoratge és un dels biaixos cognitius més robusts en psicologia: el primer número que apareix en una negociació exerceix una atracció gravitatòria sobre el resultat final, fins i tot quan és clarament exagerat. Per això els negociadors professionals fan ofertes d'obertura ambicioses — no esperen que siguin acceptades, sinó que fixin el punt de referència favorablement.",
+              "feedbackWrong": "L'ancoratge no compromet ni revela el punt de retirada: és una tàctica, no una promesa. I no obliga l'altra part a res — però influeix en com percep el rang de resultats possibles. La investigació de Tversky i Kahneman va mostrar que fins i tot ancoratges clarament absurds afecten les estimacions posteriors."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-01-02",
+              "style": "detect-error",
+              "statement": "En una negociació, la millor estratègia d'obertura és fer una primera oferta moderada i raonable per demostrar bona fe i fomentar la reciprocitat de l'altra part.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és assumir que la moderació inicial és òptima. La recerca sobre ancoratge mostra que les primeres ofertes ambicioses — però defensables — tendeixen a produir millors resultats per a qui les fa. Una oferta moderada fixa l'ancoratge en un punt que deixa poc espai de maniobra. Una oferta ambiciosa fixa el punt de referència favorablement i deixa espai per a concessions que l'altra part percebrà com a senyals de bona voluntat. La clau és que l'oferta ambiciosa sigui defensable — que hi hagi un argument per sostenir-la."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dn-01-01",
+              "question": "Les emocions en la negociació són principalment un obstacle que cal controlar, o poden ser un instrument estratègic útil?",
+              "options": [
+                "Són principalment un obstacle: les emocions distorsionen el judici racional i els negociadors més efectius aprenen a suprimir-les",
+                "Són principalment un instrument: expressar frustració, entusiasme o decepció de manera calculada pot influir en les percepcions i decisions de l'altra part",
+                "Depèn del context i el tipus d'emoció: algunes emocions expressades estratègicament poden ser útils; d'altres, especialment la ira, tendeixen a produir resultats pitjors"
+              ],
+              "correct": 2,
+              "explanation": "La recerca sobre emocions en la negociació ha evolucionat significativament en les últimes dècades. La visió clàssica — emocions com a obstacle — ha estat qüestionada per investigadors com Alison Wood Brooks i Adam Galinsky. L'ansietat s'associa a resultats negatius: els negociadors ansiosos fan primeres ofertes menys ambicioses i fan concessions massa ràpidament. La ira expressada pot ser útil per comunicar que una línia vermella ha estat creuada, però tendeix a endurir les posicions de l'altra part. L'entusiasme i la positivitat s'associen a major creativitat i a solucions integratives. La recerca de Brooks suggereix que reformular l'ansietat com a excitació millora el rendiment negociador. La conclusió: les emocions no s'han de suprimir sinó entendre i gestionar."
+            }
           ]
         },
         {
           "id": "dn-02",
           "title": "Poder i leverage",
           "blocks": [
-            { "type": "narrative", "text": "El 1956, Eisenhower va trucar als britànics i va dir una cosa molt senzilla: si no us retireu del canal de Suez, vendrem les nostres reserves de lliures esterlines i col·lapsarem la vostra moneda. Gran Bretanya estava endeutada fins al coll amb els EUA des de la Segona Guerra Mundial. Va necessitar menys de 24 hores per anunciar la retirada. No hi va haver cap batalla, cap ultimàtum públic, cap negociació llarga. Simplement, els EUA tenien el leverage — la capacitat de causar un dany que l'altra part no podia suportar." },
-            { "type": "key-idea", "text": "El poder en una negociació no és el poder militar o econòmic general d'un actor: és el poder relatiu en aquella negociació concreta. Un actor poderós en general pot estar en posició feble si necessita l'acord més que l'altra part. El leverage — la capacitat de millorar el propi BATNA o empitjorar el de l'altra part — és la forma més pràctica de pensar el poder negociador." },
-            { "type": "expandable", "label": "Les cinc fonts de poder en una negociació internacional", "content": "1. Poder material (militar, econòmic): la capacitat de causar o evitar danys. La font més òbvia però no sempre la més rellevant en una negociació concreta.\n2. Poder de coalició: la capacitat d'agregar aliats que amplifiquen la posició pròpia o aïllen l'adversari. En negociacions multilaterals, sovint és la font de poder més important per als actors petits.\n3. Poder d'informació: conèixer més sobre la situació, les alternatives i els interessos reals de l'altra part.\n4. Poder de legitimitat: la capacitat d'invocar normes, precedents o principis que fan la pròpia posició difícil de rebutjar públicament.\n5. Poder de compromís: paradoxalment, limitar la pròpia flexibilitat pot ser una font de poder. Si convences l'altra part que no pots cedir en un punt concret — per pressions internes, per compromisos públics previs — transfereixes a l'altra part la responsabilitat de fer la concessió." },
-            { "type": "expandable", "label": "El poder de l'actor que pot dir 'no' — per què el BATNA és la font de poder fonamental", "content": "L'insight central de la teoria del poder negociador és que el poder real d'un actor en una negociació és proporcional a la seva voluntat i capacitat de no arribar a un acord. Un estat que necessita desesperadament un acord de pau perquè la seva economia s'enfonsa estarà en posició feble davant d'un adversari que pot esperar indefinidament. D'aquí la importància estratègica de millorar el propi BATNA abans d'entrar en una negociació: diversificar les fonts d'energia abans de negociar amb un proveïdor, construir aliances alternatives abans de negociar amb una potència dominant, acumular reserves de divises abans de negociar termes de deute." },
-            { "type": "misconception", "belief": "En les negociacions internacionals, les potències militars i econòmiques grans sempre dominen les potències petites.", "reality": "La mida i el poder general no determinen el resultat negociador de manera mecànica. Vietnam va negociar la retirada americana des d'una posició de força malgrat la diferència militar abismal. Israel ha negociat condicions favorables amb potències molt més grans durant dècades. Els actors petits que organitzen coalicions eficaces, que tenen un BATNA sòlid o que posseeixen un recurs crític que l'altra part necessita poden superar actors molt més poderosos en general.", "why": "Perquè confusament equiparem poder general amb poder en una negociació concreta. El poder és sempre relacional i contextual: depèn de qui necessita més l'acord i de quines alternatives té cada part si no hi ha acord." },
-            { "type": "exercise", "id": "ex-dn-02-01", "style": "multiple-choice", "question": "Un país petit que exporta un recurs energètic crític negocia el preu amb un país gran que en depèn altament. Qui té més poder de negociació en aquesta situació concreta?", "options": ["El país gran, perquè té més capacitat militar i econòmica en termes absoluts", "El país petit, perquè controla el recurs del qual l'altre depèn i té un BATNA relativament bo si no hi ha acord", "Cap dels dos, perquè la dependència mútua crea un equilibri perfecte de poder", "Depèn del preu de mercat internacional del recurs, que és el veritable àrbitre de la negociació"], "correct": 1, "feedbackCorrect": "Exacte. Aquesta és precisament la situació que descriu el poder del petroli àrab als anys 70, o el gas rus a Europa fins al 2022. El país petit té un leverage real perquè controla un recurs del qual l'altra part depèn i tindria dificultats per substituir a curt termini. La grandesa relativa en termes absoluts és irrellevant si el BATNA del país gran és dolent.", "feedbackWrong": "El poder material general no determina el poder de negociació en una situació concreta. La dependència energètica del país gran i el control del recurs pel país petit inverteix la relació de poder esperada." },
-            { "type": "exercise", "id": "ex-dn-02-02", "style": "true-false", "question": "Millorar el propi BATNA abans d'una negociació és una estratègia que només és accessible per als actors poderosos que ja tenen moltes alternatives disponibles.", "correct": false, "feedbackCorrect": "Correcte que és fals. Millorar el BATNA és precisament la estratègia que els actors més febles han de prioritzar. Un país en desenvolupament que diversifica els seus socis comercials, un estat petit que construeix coalicions regionals — tots milloren el seu BATNA independentment de la seva posició inicial de poder. La construcció estratègica d'alternatives és accessible per a molts actors.", "feedbackWrong": "Si els actors febles no poguessin millorar el seu BATNA, la negociació seria sempre un joc en favor dels poderosos. La realitat és que la construcció estratègica d'alternatives — coalicions, diversificació de socis — és una inversió accessible per a molts actors." },
-            { "type": "debate", "question": "En una negociació, és legítim usar el poder de manera coercitiva — amenaçar amb conseqüències doloroses — per obtenir concessions?", "positionA": { "label": "Sí, la coerció és un instrument legítim", "argument": "La coerció és simplement la versió explícita del que tota negociació implica: si no arribes a un acord, hi haurà conseqüències. Fer-ho explícit no és ni més ni menys legítim que la coerció implícita. Els estats que rebutgen la coerció com a instrument renuncien a una font de leverage que els seus adversaris no dubtaran a usar." }, "positionB": { "label": "Depèn del tipus de coerció", "argument": "Hi ha una diferència entre el leverage legítim — 'si no arribes a un acord, faré servir les meves alternatives' — i la coerció il·legítima — amenaçar amb danys desproporcionats o il·legals. La primera és inherent a qualsevol negociació; la segona viola normes internacionals i destrueix la reputació de l'actor a llarg termini." }, "reflection": "Pensa en les sancions econòmiques com a instrument de coerció en una negociació. Quan et semblen legítimes i quan no? què les diferencia de l'extorsió?", "context": "El dret internacional distingeix entre mesures de pressió legítimes (sancions econòmiques, retirada d'ambaixadors, suspensió d'acords) i coerció il·legítima (amenaces d'ús de la força contra la integritat territorial d'un estat, que la Carta de l'ONU prohibeix explícitament). Però la línia entre pressió legítima i coerció il·legítima és sovint objecte de disputa política." },
-            { "type": "scientific-mode", "id": "sci-dn-02-01", "question": "El poder de coalició — agregar aliats per amplificar la pròpia posició — és sempre beneficiós per a un negociador, o pot crear complicacions que debilitin la posició negociadora?", "options": ["És sempre beneficiós: més aliats significa més poder acumulat i major pressió sobre l'adversari", "Pot ser perjudicial: gestionar una coalició requereix consens intern, que limita la flexibilitat i pot revelar divisions que l'adversari explotarà", "Depèn de la cohesió de la coalició: una coalició unida amplifica el poder; una coalició dividida pot debilitar-lo respecte a negociar sol"], "correct": 2, "explanation": "La paradoxa de les coalicions negociadores és ben documentada. La posició A capta la intuïció inicial: més actors alineats = més pressió. Però la posició B captura una realitat important: les coalicions requereixen gestió interna, cada membre té els seus propis interessos i BATNA, i l'adversari sovint intenta deliberadament dividir la coalició. La posició C és la que la recerca suporta: la cohesió interna és el factor determinant de si una coalició és un actiu o un passiu negociador. La UE com a bloc negociador en acords comercials és molt més poderosa que qualsevol estat membre individualment, però la necessitat de consens dels 27 membres la fa menys àgil." }
+            {
+              "type": "narrative",
+              "text": "El 1956, Eisenhower va trucar als britànics i va dir una cosa molt senzilla: si no us retireu del canal de Suez, vendrem les nostres reserves de lliures esterlines i col·lapsarem la vostra moneda. Gran Bretanya estava endeutada fins al coll amb els EUA des de la Segona Guerra Mundial. Va necessitar menys de 24 hores per anunciar la retirada. No hi va haver cap batalla, cap ultimàtum públic, cap negociació llarga. Simplement, els EUA tenien el leverage — la capacitat de causar un dany que l'altra part no podia suportar."
+            },
+            {
+              "type": "key-idea",
+              "text": "El poder en una negociació no és el poder militar o econòmic general d'un actor: és el poder relatiu en aquella negociació concreta. Un actor poderós en general pot estar en posició feble si necessita l'acord més que l'altra part. El leverage — la capacitat de millorar el propi BATNA o empitjorar el de l'altra part — és la forma més pràctica de pensar el poder negociador."
+            },
+            {
+              "type": "expandable",
+              "label": "Les cinc fonts de poder en una negociació internacional",
+              "content": "1. Poder material (militar, econòmic): la capacitat de causar o evitar danys. La font més òbvia però no sempre la més rellevant en una negociació concreta.\n2. Poder de coalició: la capacitat d'agregar aliats que amplifiquen la posició pròpia o aïllen l'adversari. En negociacions multilaterals, sovint és la font de poder més important per als actors petits.\n3. Poder d'informació: conèixer més sobre la situació, les alternatives i els interessos reals de l'altra part.\n4. Poder de legitimitat: la capacitat d'invocar normes, precedents o principis que fan la pròpia posició difícil de rebutjar públicament.\n5. Poder de compromís: paradoxalment, limitar la pròpia flexibilitat pot ser una font de poder. Si convences l'altra part que no pots cedir en un punt concret — per pressions internes, per compromisos públics previs — transfereixes a l'altra part la responsabilitat de fer la concessió."
+            },
+            {
+              "type": "expandable",
+              "label": "El poder de l'actor que pot dir 'no' — per què el BATNA és la font de poder fonamental",
+              "content": "L'insight central de la teoria del poder negociador és que el poder real d'un actor en una negociació és proporcional a la seva voluntat i capacitat de no arribar a un acord. Un estat que necessita desesperadament un acord de pau perquè la seva economia s'enfonsa estarà en posició feble davant d'un adversari que pot esperar indefinidament. D'aquí la importància estratègica de millorar el propi BATNA abans d'entrar en una negociació: diversificar les fonts d'energia abans de negociar amb un proveïdor, construir aliances alternatives abans de negociar amb una potència dominant, acumular reserves de divises abans de negociar termes de deute."
+            },
+            {
+              "type": "misconception",
+              "belief": "En les negociacions internacionals, les potències militars i econòmiques grans sempre dominen les potències petites.",
+              "reality": "La mida i el poder general no determinen el resultat negociador de manera mecànica. Vietnam va negociar la retirada americana des d'una posició de força malgrat la diferència militar abismal. Israel ha negociat condicions favorables amb potències molt més grans durant dècades. Els actors petits que organitzen coalicions eficaces, que tenen un BATNA sòlid o que posseeixen un recurs crític que l'altra part necessita poden superar actors molt més poderosos en general.",
+              "why": "Perquè confusament equiparem poder general amb poder en una negociació concreta. El poder és sempre relacional i contextual: depèn de qui necessita més l'acord i de quines alternatives té cada part si no hi ha acord."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-02-01",
+              "style": "multiple-choice",
+              "question": "Un país petit que exporta un recurs energètic crític negocia el preu amb un país gran que en depèn altament. Qui té més poder de negociació en aquesta situació concreta?",
+              "options": [
+                "El país gran, perquè té més capacitat militar i econòmica en termes absoluts",
+                "El país petit, perquè controla el recurs del qual l'altre depèn i té un BATNA relativament bo si no hi ha acord",
+                "Cap dels dos, perquè la dependència mútua crea un equilibri perfecte de poder",
+                "Depèn del preu de mercat internacional del recurs, que és el veritable àrbitre de la negociació"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Aquesta és precisament la situació que descriu el poder del petroli àrab als anys 70, o el gas rus a Europa fins al 2022. El país petit té un leverage real perquè controla un recurs del qual l'altra part depèn i tindria dificultats per substituir a curt termini. La grandesa relativa en termes absoluts és irrellevant si el BATNA del país gran és dolent.",
+              "feedbackWrong": "El poder material general no determina el poder de negociació en una situació concreta. La dependència energètica del país gran i el control del recurs pel país petit inverteix la relació de poder esperada."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-02-02",
+              "style": "true-false",
+              "question": "Millorar el propi BATNA abans d'una negociació és una estratègia que només és accessible per als actors poderosos que ja tenen moltes alternatives disponibles.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals. Millorar el BATNA és precisament la estratègia que els actors més febles han de prioritzar. Un país en desenvolupament que diversifica els seus socis comercials, un estat petit que construeix coalicions regionals — tots milloren el seu BATNA independentment de la seva posició inicial de poder. La construcció estratègica d'alternatives és accessible per a molts actors.",
+              "feedbackWrong": "Si els actors febles no poguessin millorar el seu BATNA, la negociació seria sempre un joc en favor dels poderosos. La realitat és que la construcció estratègica d'alternatives — coalicions, diversificació de socis — és una inversió accessible per a molts actors."
+            },
+            {
+              "type": "debate",
+              "question": "En una negociació, és legítim usar el poder de manera coercitiva — amenaçar amb conseqüències doloroses — per obtenir concessions?",
+              "positionA": {
+                "label": "Sí, la coerció és un instrument legítim",
+                "argument": "La coerció és simplement la versió explícita del que tota negociació implica: si no arribes a un acord, hi haurà conseqüències. Fer-ho explícit no és ni més ni menys legítim que la coerció implícita. Els estats que rebutgen la coerció com a instrument renuncien a una font de leverage que els seus adversaris no dubtaran a usar."
+              },
+              "positionB": {
+                "label": "Depèn del tipus de coerció",
+                "argument": "Hi ha una diferència entre el leverage legítim — 'si no arribes a un acord, faré servir les meves alternatives' — i la coerció il·legítima — amenaçar amb danys desproporcionats o il·legals. La primera és inherent a qualsevol negociació; la segona viola normes internacionals i destrueix la reputació de l'actor a llarg termini."
+              },
+              "reflection": "Pensa en les sancions econòmiques com a instrument de coerció en una negociació. Quan et semblen legítimes i quan no? què les diferencia de l'extorsió?",
+              "context": "El dret internacional distingeix entre mesures de pressió legítimes (sancions econòmiques, retirada d'ambaixadors, suspensió d'acords) i coerció il·legítima (amenaces d'ús de la força contra la integritat territorial d'un estat, que la Carta de l'ONU prohibeix explícitament). Però la línia entre pressió legítima i coerció il·legítima és sovint objecte de disputa política."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dn-02-01",
+              "question": "El poder de coalició — agregar aliats per amplificar la pròpia posició — és sempre beneficiós per a un negociador, o pot crear complicacions que debilitin la posició negociadora?",
+              "options": [
+                "És sempre beneficiós: més aliats significa més poder acumulat i major pressió sobre l'adversari",
+                "Pot ser perjudicial: gestionar una coalició requereix consens intern, que limita la flexibilitat i pot revelar divisions que l'adversari explotarà",
+                "Depèn de la cohesió de la coalició: una coalició unida amplifica el poder; una coalició dividida pot debilitar-lo respecte a negociar sol"
+              ],
+              "correct": 2,
+              "explanation": "La paradoxa de les coalicions negociadores és ben documentada. La posició A capta la intuïció inicial: més actors alineats = més pressió. Però la posició B captura una realitat important: les coalicions requereixen gestió interna, cada membre té els seus propis interessos i BATNA, i l'adversari sovint intenta deliberadament dividir la coalició. La posició C és la que la recerca suporta: la cohesió interna és el factor determinant de si una coalició és un actiu o un passiu negociador. La UE com a bloc negociador en acords comercials és molt més poderosa que qualsevol estat membre individualment, però la necessitat de consens dels 27 membres la fa menys àgil."
+            }
           ]
         },
         {
           "id": "dn-03",
           "title": "Estratègies i tàctiques",
           "blocks": [
-            { "type": "narrative", "text": "El 1978, a Camp David, Carter es va trobar davant d'un problema aparentment insoluble: Begin volia que els assentaments israelians al Sinaí quedessin sota sobirania israeliana; Sadat insistia que tots els assentaments havien de desaparèixer. Era un joc de suma zero — o una part guanyava o l'altra. Carter va canviar el marc: en lloc de preguntar 'qui controla els assentaments', va preguntar 'com pot cadascú aconseguir el que necessita realment'. La solució: sobirania egípcia total però zona desmilitaritzada sense assentaments. El pastís es va fer més gran." },
-            { "type": "key-idea", "text": "La distinció fonamental en estratègia negociadora és entre la negociació distributiva (com dividir un valor fix: el que guanya un el perd l'altre) i la negociació integrativa (com crear valor addicional que satisfaci millor els interessos de totes les parts). La negociació integrativa no sempre és possible — alguns conflictes són genuïnament de suma zero — però sovint no s'intenta perquè les parts no han explorat prou els seus interessos reals." },
-            { "type": "comparison", "title": "Negociació distributiva vs. Negociació integrativa", "labelA": "Distributiva (dividir el pastís)", "labelB": "Integrativa (ampliar el pastís)", "items": [
-              { "label": "Supòsit bàsic", "a": "Valor fix: el que guanyes tu ho perdo jo", "b": "Valor creable: podem trobar solucions que beneficiïn tots" },
-              { "label": "Informació", "a": "Ocultar els interessos reals; revelar el mínim", "b": "Compartir interessos per trobar solucions creatives" },
-              { "label": "Relació", "a": "Adversarial: l'altra part és l'obstacle", "b": "Col·laborativa: l'altra part és un soci per resoldre un problema" },
-              { "label": "Resultat típic", "a": "Compromís: cadascú obté menys del que volia", "b": "Acord integratiu: cadascú obté el que necessita realment" },
-              { "label": "Quan funciona", "a": "Quan el valor és genuïnament fix i la relació no importa", "b": "Quan hi ha múltiples temes i els interessos subjacents difereixen" }
-            ]},
-            { "type": "expandable", "label": "Les tàctiques distributives clàssiques — i com reconèixer-les i contrarestar-les", "content": "Les tàctiques distributives busquen maximitzar la quota pròpia del valor disponible:\n• Ancoratge agressiu: primera oferta molt allunyada per establir un punt de referència favorable.\n• Salami: fer concessions molt petites de manera gradual per crear la sensació de progrés sense cedir substancialment.\n• Fals ultimàtum: 'Aquesta és la nostra oferta final' per pressionar l'altra part a acceptar. Sovint no és final.\n• Autoritat limitada: 'He de consultar amb els meus superiors' per guanyar temps o per poder renegociar sense compromís.\n• Bona policia / mala policia: un negociador pren una posició extrema, l'altre sembla moderat — creant la il·lusió que l'oferta 'raonable' és una concessió." },
-            { "type": "expandable", "label": "Com crear valor en una negociació — tècniques d'integració", "content": "Crear valor en una negociació requereix revelar diferències d'interessos que permeten intercanvis mútuament beneficiosos:\n• Ampliar el pastís: afegir temes a la negociació per crear oportunitats de trade-off.\n• Intercanvi de prioritats: 'Jo cedeixo en allò que tu valors molt i que jo valoro poc; tu cedes en allò que jo valoro molt i que tu valores poc.'\n• Paquets: presentar múltiples opcions d'acord simultàniament, cadascuna amb un valor equivalent per al que les proposa.\n• Contingències: 'Si X passa, jo faré Y; si no passa, faré Z.' Útil quan les parts discrepan sobre fets incerts futurs." },
-            { "type": "exercise", "id": "ex-dn-03-01", "style": "multiple-choice", "question": "Dos estats negocien un acord comercial. L'estat A prioritza molt l'accés als mercats agrícoles de B; B prioritza molt la protecció de la seva indústria tecnològica. Quin enfocament crearà més valor per a tots dos?", "options": ["Negociar cada sector per separat, assegurant que cap part cedeix massa en cap àrea individual", "Acceptar una reducció simètrica de barreres en tots els sectors per garantir la igualtat de tracte", "Identificar que els interessos difereixen per sector i construir un acord on A obté accés agrícola mentre B manté protecció tecnològica", "Portar la disputa a l'OMC per obtenir un arbitratge neutral que determini les condicions"], "correct": 2, "feedbackCorrect": "Exacte. Quan les prioritats de les parts difereixen per sector, la negociació integrativa permet intercanvis que creen valor per a tots dos. A cedeix on B li importa (tecnologia) i B cedeix on A li importa (agricultura). El resultat final dona a cada part més del que volia que una divisió simètrica hauria produït.", "feedbackWrong": "La negociació sector per sector i la simetria per principi tendeixen a la lògica distributiva. El resultat és sovint un acord molt menys ambiciós del que seria possible si les parts compartissin les seves prioritats reals i construïssin intercanvis basats en elles." },
-            { "type": "exercise", "id": "ex-dn-03-02", "style": "detect-error", "statement": "La tàctica de 'bona policia / mala policia' és fàcilment contrarrestable un cop identificada, ja que simplement cal ignorar el 'mala policia' i negociar directament amb el 'bona policia'.", "isCorrect": false, "feedbackExplanation": "L'error és assumir que reconèixer la tàctica la neutralitza completament. Reconèixer-la ajuda — redueix l'efecte emocional de la pressió del 'mala policia' — però la tàctica segueix tenint efectes estructurals. El 'bona policia' genuïnament no pot cedir més del que el 'mala policia' li permet. La resposta més eficaç és nomenar la tàctica explícitament i proposar que es reestructuri la negociació — per exemple, insistint en parlar directament amb qui té autoritat real per prendre decisions." },
-            { "type": "scientific-mode", "id": "sci-dn-03-01", "question": "La negociació integrativa — buscar solucions que creïn valor per a totes les parts — és sempre la millor estratègia, o hi ha situacions en les quals la negociació distributiva és preferible?", "options": ["La integrativa és sempre millor: fins i tot en conflictes de suma zero, la recerca d'elements integratius produeix millors resultats a llarg termini", "Depèn de la situació: la integrativa és millor quan hi ha una relació continuada i múltiples temes; la distributiva és adequada per a transaccions úniques amb valor genuïnament fix", "La distributiva és sempre necessària: fins i tot quan es crea valor integratiu, cal la negociació distributiva per determinar com es reparteix el valor creat"], "correct": 2, "explanation": "Aquesta pregunta exposa una veritat sovint ignorada en la literatura sobre negociació integrativa: la creació de valor i la distribució de valor són dues fases de tota negociació, no alternatives mútuament excloents. La posició A és excessivament optimista: alguns conflictes són genuïnament de suma zero i forçar un marc integratiu on no existeix pot ser contraproduent. La posició B capta correctament que el context importa. Però la posició C afegeix una dimensió crucial: fins i tot quan la negociació integrativa crea valor addicional, cal una negociació distributiva per determinar com es reparteix aquell valor addicional. Les millors negociadores primer amplien el pastís (integració) i després el divideixen favorablement (distribució). La separació de les dues fases és una de les habilitats avançades del negociador professional." }
+            {
+              "type": "narrative",
+              "text": "El 1978, a Camp David, Carter es va trobar davant d'un problema aparentment insoluble: Begin volia que els assentaments israelians al Sinaí quedessin sota sobirania israeliana; Sadat insistia que tots els assentaments havien de desaparèixer. Era un joc de suma zero — o una part guanyava o l'altra. Carter va canviar el marc: en lloc de preguntar 'qui controla els assentaments', va preguntar 'com pot cadascú aconseguir el que necessita realment'. La solució: sobirania egípcia total però zona desmilitaritzada sense assentaments. El pastís es va fer més gran."
+            },
+            {
+              "type": "key-idea",
+              "text": "La distinció fonamental en estratègia negociadora és entre la negociació distributiva (com dividir un valor fix: el que guanya un el perd l'altre) i la negociació integrativa (com crear valor addicional que satisfaci millor els interessos de totes les parts). La negociació integrativa no sempre és possible — alguns conflictes són genuïnament de suma zero — però sovint no s'intenta perquè les parts no han explorat prou els seus interessos reals."
+            },
+            {
+              "type": "comparison",
+              "title": "Negociació distributiva vs. Negociació integrativa",
+              "labelA": "Distributiva (dividir el pastís)",
+              "labelB": "Integrativa (ampliar el pastís)",
+              "items": [
+                {
+                  "label": "Supòsit bàsic",
+                  "a": "Valor fix: el que guanyes tu ho perdo jo",
+                  "b": "Valor creable: podem trobar solucions que beneficiïn tots"
+                },
+                {
+                  "label": "Informació",
+                  "a": "Ocultar els interessos reals; revelar el mínim",
+                  "b": "Compartir interessos per trobar solucions creatives"
+                },
+                {
+                  "label": "Relació",
+                  "a": "Adversarial: l'altra part és l'obstacle",
+                  "b": "Col·laborativa: l'altra part és un soci per resoldre un problema"
+                },
+                {
+                  "label": "Resultat típic",
+                  "a": "Compromís: cadascú obté menys del que volia",
+                  "b": "Acord integratiu: cadascú obté el que necessita realment"
+                },
+                {
+                  "label": "Quan funciona",
+                  "a": "Quan el valor és genuïnament fix i la relació no importa",
+                  "b": "Quan hi ha múltiples temes i els interessos subjacents difereixen"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Les tàctiques distributives clàssiques — i com reconèixer-les i contrarestar-les",
+              "content": "Les tàctiques distributives busquen maximitzar la quota pròpia del valor disponible:\n• Ancoratge agressiu: primera oferta molt allunyada per establir un punt de referència favorable.\n• Salami: fer concessions molt petites de manera gradual per crear la sensació de progrés sense cedir substancialment.\n• Fals ultimàtum: 'Aquesta és la nostra oferta final' per pressionar l'altra part a acceptar. Sovint no és final.\n• Autoritat limitada: 'He de consultar amb els meus superiors' per guanyar temps o per poder renegociar sense compromís.\n• Bona policia / mala policia: un negociador pren una posició extrema, l'altre sembla moderat — creant la il·lusió que l'oferta 'raonable' és una concessió."
+            },
+            {
+              "type": "expandable",
+              "label": "Com crear valor en una negociació — tècniques d'integració",
+              "content": "Crear valor en una negociació requereix revelar diferències d'interessos que permeten intercanvis mútuament beneficiosos:\n• Ampliar el pastís: afegir temes a la negociació per crear oportunitats de trade-off.\n• Intercanvi de prioritats: 'Jo cedeixo en allò que tu valors molt i que jo valoro poc; tu cedes en allò que jo valoro molt i que tu valores poc.'\n• Paquets: presentar múltiples opcions d'acord simultàniament, cadascuna amb un valor equivalent per al que les proposa.\n• Contingències: 'Si X passa, jo faré Y; si no passa, faré Z.' Útil quan les parts discrepan sobre fets incerts futurs."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-03-01",
+              "style": "multiple-choice",
+              "question": "Dos estats negocien un acord comercial. L'estat A prioritza molt l'accés als mercats agrícoles de B; B prioritza molt la protecció de la seva indústria tecnològica. Quin enfocament crearà més valor per a tots dos?",
+              "options": [
+                "Negociar cada sector per separat, assegurant que cap part cedeix massa en cap àrea individual",
+                "Acceptar una reducció simètrica de barreres en tots els sectors per garantir la igualtat de tracte",
+                "Identificar que els interessos difereixen per sector i construir un acord on A obté accés agrícola mentre B manté protecció tecnològica",
+                "Portar la disputa a l'OMC per obtenir un arbitratge neutral que determini les condicions"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte. Quan les prioritats de les parts difereixen per sector, la negociació integrativa permet intercanvis que creen valor per a tots dos. A cedeix on B li importa (tecnologia) i B cedeix on A li importa (agricultura). El resultat final dona a cada part més del que volia que una divisió simètrica hauria produït.",
+              "feedbackWrong": "La negociació sector per sector i la simetria per principi tendeixen a la lògica distributiva. El resultat és sovint un acord molt menys ambiciós del que seria possible si les parts compartissin les seves prioritats reals i construïssin intercanvis basats en elles."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-03-02",
+              "style": "detect-error",
+              "statement": "La tàctica de 'bona policia / mala policia' és fàcilment contrarrestable un cop identificada, ja que simplement cal ignorar el 'mala policia' i negociar directament amb el 'bona policia'.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és assumir que reconèixer la tàctica la neutralitza completament. Reconèixer-la ajuda — redueix l'efecte emocional de la pressió del 'mala policia' — però la tàctica segueix tenint efectes estructurals. El 'bona policia' genuïnament no pot cedir més del que el 'mala policia' li permet. La resposta més eficaç és nomenar la tàctica explícitament i proposar que es reestructuri la negociació — per exemple, insistint en parlar directament amb qui té autoritat real per prendre decisions."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dn-03-01",
+              "question": "La negociació integrativa — buscar solucions que creïn valor per a totes les parts — és sempre la millor estratègia, o hi ha situacions en les quals la negociació distributiva és preferible?",
+              "options": [
+                "La integrativa és sempre millor: fins i tot en conflictes de suma zero, la recerca d'elements integratius produeix millors resultats a llarg termini",
+                "Depèn de la situació: la integrativa és millor quan hi ha una relació continuada i múltiples temes; la distributiva és adequada per a transaccions úniques amb valor genuïnament fix",
+                "La distributiva és sempre necessària: fins i tot quan es crea valor integratiu, cal la negociació distributiva per determinar com es reparteix el valor creat"
+              ],
+              "correct": 2,
+              "explanation": "Aquesta pregunta exposa una veritat sovint ignorada en la literatura sobre negociació integrativa: la creació de valor i la distribució de valor són dues fases de tota negociació, no alternatives mútuament excloents. La posició A és excessivament optimista: alguns conflictes són genuïnament de suma zero i forçar un marc integratiu on no existeix pot ser contraproduent. La posició B capta correctament que el context importa. Però la posició C afegeix una dimensió crucial: fins i tot quan la negociació integrativa crea valor addicional, cal una negociació distributiva per determinar com es reparteix aquell valor addicional. Les millors negociadores primer amplien el pastís (integració) i després el divideixen favorablement (distribució). La separació de les dues fases és una de les habilitats avançades del negociador professional."
+            }
           ]
         },
         {
           "id": "dn-04",
           "title": "Cultura i negociació",
           "blocks": [
-            { "type": "narrative", "text": "El 1994, una empresa americana va enviar el seu millor negociador a negociar un contracte a Japó. Va arribar dilluns, va presentar la proposta dimarts i va esperar una resposta dimecres. El dijous tenia el vol de tornada. Va tornar a casa sense acord — convençut que els japonesos no estaven interessats. Els japonesos havien passat la setmana decidint internament si era el soci adequat. Per ells, la negociació real acabava de començar." },
-            { "type": "key-idea", "text": "La cultura afecta la negociació en cinc dimensions: la comunicació (directa vs. indirecta), la relació (orientada a la tasca vs. orientada a la persona), el temps (monòcron — lineal i puntual — vs. polícron — flexible i simultani), la jerarquia (igualitarisme vs. respecte a l'autoritat) i l'actitud davant el risc i la incertesa. Cap cultura és superior com a estil negociador: cada una té avantatges i desavantatges en contextos específics." },
-            { "type": "expandable", "label": "Comunicació directa vs. indirecta — la diferència que més errors causa", "content": "Les cultures de comunicació directa (EUA, Alemanya, Israel, països escandinaus) valoren la claredat, la franquesa i l'explicitació de les posicions. Un 'no' significa 'no'; un desacord s'expressa directament. Les cultures de comunicació indirecta (Japó, Xina, molts països àrabs i llatinoamericans) valoren la preservació de la 'cara' — la reputació i la dignitat — de totes les parts. Un 'ho considerarem' pot significar 'no'; un silenci pot comunicar desacord. El conflicte entre cultures directes i indirectes és la font d'errors de comunicació més freqüent en la negociació internacional." },
-            { "type": "expandable", "label": "El temps en la negociació — per què la paciència és un actiu estratègic diferent a cada cultura", "content": "Les cultures monòcrones (la majoria de les cultures d'Europa del nord i Nord-amèrica) tracten el temps com un recurs finit i lineal: les reunions comencen a l'hora, les agendes es segueixen, les decisions es prenen en els terminis previstos. Les cultures polièdriques (molts països del Mediterrani, Amèrica Llatina, el món àrab) tracten el temps amb més flexibilitat: les relacions i el context poden justificar desviar-se de l'agenda. El xoc entre cultures temporals crea una asimetria de paciència que pot ser un actiu estratègic: un negociador d'una cultura polièdrica que negocia amb un d'una cultura monòcrana pot usar deliberadament el temps per pressionar l'altra part, que té pressa per arribar a l'acord." },
-            { "type": "misconception", "belief": "Adaptar-se a la cultura de negociació de l'altra part és sempre la millor estratègia: si negoció amb japonesos, haig d'adoptar l'estil japonès.", "reality": "L'adaptació cultural total pot ser contraproduent per dues raons. Primera, l'autenticitat importa: una imitació poc convincent de l'estil cultural de l'altra part pot semblar burlesca o manipuladora. Segona, cada part porta a la negociació les fortaleses del seu propi estil cultural. La millor estratègia és la consciència — entendre l'estil de l'altra part per evitar malentesos — combinada amb l'adaptació selectiva en els elements que creen més friccions.", "why": "Perquè la literatura sobre negociació intercultural tendeix a prescriure l'adaptació total com a solució, ignorant el cost d'autenticitat i la pèrdua de les fortaleses pròpies que comporta." },
-            { "type": "exercise", "id": "ex-dn-04-01", "style": "multiple-choice", "question": "En una negociació entre una empresa alemanya (cultura directa, monòcrana) i una empresa brasilera (cultura indirecta, polièdrica), quin malentès és més probable?", "options": ["L'empresa alemanya interpretarà l'entusiasme brasiler per la relació personal com a manca de professionalitat", "L'empresa brasilera interpretarà la claredat i la puntualitat alemanya com a senyals d'agressivitat i desconfiança", "Les dues cultures tendeixen a comunicar-se de manera tan diferent que arribar a qualsevol acord és pràcticament impossible", "L'empresa alemanya esperarà que el preu inicial brasiler sigui l'oferta final, mentre que el brasiler esperarà que sigui el punt d'inici del regateig"], "correct": 0, "feedbackCorrect": "Exacte. Les cultures orientades a les relacions (com la brasilera) dediquen temps significatiu a construir confiança personal abans de negociar el contingut. Per a una cultura orientada a la tasca (com l'alemanya), aquest temps pot semblar una pèrdua d'eficiència o una manca de seriositat professional. A l'inrevés, la directesa i la immediatesa alemanya pot semblar freda o fins i tot desrespectosa als ulls brasilers.", "feedbackWrong": "Les diferències culturals creen friccions però rarament fan impossible l'acord. I si bé l'expectativa sobre el regateig és una diferència real, no és el malentès més probable ni el més crític en aquesta combinació cultural concreta." },
-            { "type": "exercise", "id": "ex-dn-04-02", "style": "detect-error", "statement": "La globalització i la difusió de les pràctiques empresarials occidentals estan eliminant progressivament les diferències culturals en la negociació internacional, creant un estil global convergent.", "isCorrect": false, "feedbackExplanation": "L'error és assumir que la globalització elimina les diferències culturals en la negociació. La recerca de Jeanne Brett, Michele Gelfand i d'altres mostra que les diferències culturals en els estils negociadors persisteixen de manera robusta malgrat la globalització. Si bé les elits empresarials globalitzades comparteixen certes pràctiques de superfície, les diferències profundes en comunicació, relació, temps i jerarquia persisteixen. De fet, alguns estudis suggereixen que la pressió de la globalització pot reforçar la identitat cultural diferenciada com a reacció defensiva." },
-            { "type": "debate", "question": "En la negociació internacional, és legítim adaptar la presentació dels propis interessos i valors per fer-los més acceptables a la cultura de l'altra part, fins i tot si això implica ometre o suavitzar elements que podrien generar resistència?", "positionA": { "label": "Sí, és adaptació necessària", "argument": "La comunicació eficaç sempre implica adaptar el missatge al receptor. No és engany: és empatia comunicativa. Presentar els mateixos interessos reals en un format culturalment accessible no els canvia — els fa comprensibles. Un negociador que insisteix en l'estil directe nord-americà davant d'interlocutors japonesos no és honest: és ineficaç." }, "positionB": { "label": "Té límits importants", "argument": "L'adaptació cultural que oculta sistemàticament elements centrals de la posició pròpia és manipulació. Si adaptar el missatge implica crear impressions falses sobre els propis interessos o compromisos reals, l'acord resultant es basa en una comprensió distorsionada que crearà problemes en la implementació." }, "reflection": "Pensa en una situació on hauries de presentar una posició de manera molt diferent a dues audiències culturals. On posaries la línia entre adaptació legítima i distorsió enganyosa?", "context": "La distinció entre adaptació estilística (legítima) i manipulació substantiva (problemàtica) és un dels reptes pràctics més difícils de la negociació intercultural. La regla pràctica de molts professionals: adaptar com es diu, no el que es diu." },
-            { "type": "scientific-mode", "id": "sci-dn-04-01", "question": "Els equips de negociació culturalment diversos — que inclouen membres de cultures diferents — negocien millor o pitjor que els equips culturalment homogenis?", "options": ["Millor: la diversitat cultural aporta múltiples perspectives, major comprensió de l'altra part i solucions més creatives", "Pitjor: la diversitat cultural crea friccions internes de coordinació que redueixen l'eficàcia de l'equip davant de l'adversari", "Depèn de la gestió: els equips diversos ben gestionats superen als homogenis; els equips diversos mal gestionats rendeixen pitjor que tots dos"], "correct": 2, "explanation": "La recerca sobre diversitat en equips negociadors és coherent amb la recerca sobre diversitat en equips en general: la diversitat és un potencial, no una garantia. La posició A capta els beneficis potencials: un equip que inclou membres familiars amb la cultura de l'altra part pot llegir millor els senyals implícits i evitar malentesos. Però la posició B captura el cost real: els equips diversos necessiten més temps per coordinar posicions internes i poden enviar senyals inconsistents a l'adversari si els membres no estan alineats. La posició C és la que la recerca suporta: l'element determinant no és la diversitat en si sinó la qualitat de la gestió del procés de coordinació intern." }
+            {
+              "type": "narrative",
+              "text": "El 1994, una empresa americana va enviar el seu millor negociador a negociar un contracte a Japó. Va arribar dilluns, va presentar la proposta dimarts i va esperar una resposta dimecres. El dijous tenia el vol de tornada. Va tornar a casa sense acord — convençut que els japonesos no estaven interessats. Els japonesos havien passat la setmana decidint internament si era el soci adequat. Per ells, la negociació real acabava de començar."
+            },
+            {
+              "type": "key-idea",
+              "text": "La cultura afecta la negociació en cinc dimensions: la comunicació (directa vs. indirecta), la relació (orientada a la tasca vs. orientada a la persona), el temps (monòcron — lineal i puntual — vs. polícron — flexible i simultani), la jerarquia (igualitarisme vs. respecte a l'autoritat) i l'actitud davant el risc i la incertesa. Cap cultura és superior com a estil negociador: cada una té avantatges i desavantatges en contextos específics."
+            },
+            {
+              "type": "expandable",
+              "label": "Comunicació directa vs. indirecta — la diferència que més errors causa",
+              "content": "Les cultures de comunicació directa (EUA, Alemanya, Israel, països escandinaus) valoren la claredat, la franquesa i l'explicitació de les posicions. Un 'no' significa 'no'; un desacord s'expressa directament. Les cultures de comunicació indirecta (Japó, Xina, molts països àrabs i llatinoamericans) valoren la preservació de la 'cara' — la reputació i la dignitat — de totes les parts. Un 'ho considerarem' pot significar 'no'; un silenci pot comunicar desacord. El conflicte entre cultures directes i indirectes és la font d'errors de comunicació més freqüent en la negociació internacional."
+            },
+            {
+              "type": "expandable",
+              "label": "El temps en la negociació — per què la paciència és un actiu estratègic diferent a cada cultura",
+              "content": "Les cultures monòcrones (la majoria de les cultures d'Europa del nord i Nord-amèrica) tracten el temps com un recurs finit i lineal: les reunions comencen a l'hora, les agendes es segueixen, les decisions es prenen en els terminis previstos. Les cultures polièdriques (molts països del Mediterrani, Amèrica Llatina, el món àrab) tracten el temps amb més flexibilitat: les relacions i el context poden justificar desviar-se de l'agenda. El xoc entre cultures temporals crea una asimetria de paciència que pot ser un actiu estratègic: un negociador d'una cultura polièdrica que negocia amb un d'una cultura monòcrana pot usar deliberadament el temps per pressionar l'altra part, que té pressa per arribar a l'acord."
+            },
+            {
+              "type": "misconception",
+              "belief": "Adaptar-se a la cultura de negociació de l'altra part és sempre la millor estratègia: si negoció amb japonesos, haig d'adoptar l'estil japonès.",
+              "reality": "L'adaptació cultural total pot ser contraproduent per dues raons. Primera, l'autenticitat importa: una imitació poc convincent de l'estil cultural de l'altra part pot semblar burlesca o manipuladora. Segona, cada part porta a la negociació les fortaleses del seu propi estil cultural. La millor estratègia és la consciència — entendre l'estil de l'altra part per evitar malentesos — combinada amb l'adaptació selectiva en els elements que creen més friccions.",
+              "why": "Perquè la literatura sobre negociació intercultural tendeix a prescriure l'adaptació total com a solució, ignorant el cost d'autenticitat i la pèrdua de les fortaleses pròpies que comporta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-04-01",
+              "style": "multiple-choice",
+              "question": "En una negociació entre una empresa alemanya (cultura directa, monòcrana) i una empresa brasilera (cultura indirecta, polièdrica), quin malentès és més probable?",
+              "options": [
+                "L'empresa alemanya interpretarà l'entusiasme brasiler per la relació personal com a manca de professionalitat",
+                "L'empresa brasilera interpretarà la claredat i la puntualitat alemanya com a senyals d'agressivitat i desconfiança",
+                "Les dues cultures tendeixen a comunicar-se de manera tan diferent que arribar a qualsevol acord és pràcticament impossible",
+                "L'empresa alemanya esperarà que el preu inicial brasiler sigui l'oferta final, mentre que el brasiler esperarà que sigui el punt d'inici del regateig"
+              ],
+              "correct": 0,
+              "feedbackCorrect": "Exacte. Les cultures orientades a les relacions (com la brasilera) dediquen temps significatiu a construir confiança personal abans de negociar el contingut. Per a una cultura orientada a la tasca (com l'alemanya), aquest temps pot semblar una pèrdua d'eficiència o una manca de seriositat professional. A l'inrevés, la directesa i la immediatesa alemanya pot semblar freda o fins i tot desrespectosa als ulls brasilers.",
+              "feedbackWrong": "Les diferències culturals creen friccions però rarament fan impossible l'acord. I si bé l'expectativa sobre el regateig és una diferència real, no és el malentès més probable ni el més crític en aquesta combinació cultural concreta."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-04-02",
+              "style": "detect-error",
+              "statement": "La globalització i la difusió de les pràctiques empresarials occidentals estan eliminant progressivament les diferències culturals en la negociació internacional, creant un estil global convergent.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és assumir que la globalització elimina les diferències culturals en la negociació. La recerca de Jeanne Brett, Michele Gelfand i d'altres mostra que les diferències culturals en els estils negociadors persisteixen de manera robusta malgrat la globalització. Si bé les elits empresarials globalitzades comparteixen certes pràctiques de superfície, les diferències profundes en comunicació, relació, temps i jerarquia persisteixen. De fet, alguns estudis suggereixen que la pressió de la globalització pot reforçar la identitat cultural diferenciada com a reacció defensiva."
+            },
+            {
+              "type": "debate",
+              "question": "En la negociació internacional, és legítim adaptar la presentació dels propis interessos i valors per fer-los més acceptables a la cultura de l'altra part, fins i tot si això implica ometre o suavitzar elements que podrien generar resistència?",
+              "positionA": {
+                "label": "Sí, és adaptació necessària",
+                "argument": "La comunicació eficaç sempre implica adaptar el missatge al receptor. No és engany: és empatia comunicativa. Presentar els mateixos interessos reals en un format culturalment accessible no els canvia — els fa comprensibles. Un negociador que insisteix en l'estil directe nord-americà davant d'interlocutors japonesos no és honest: és ineficaç."
+              },
+              "positionB": {
+                "label": "Té límits importants",
+                "argument": "L'adaptació cultural que oculta sistemàticament elements centrals de la posició pròpia és manipulació. Si adaptar el missatge implica crear impressions falses sobre els propis interessos o compromisos reals, l'acord resultant es basa en una comprensió distorsionada que crearà problemes en la implementació."
+              },
+              "reflection": "Pensa en una situació on hauries de presentar una posició de manera molt diferent a dues audiències culturals. On posaries la línia entre adaptació legítima i distorsió enganyosa?",
+              "context": "La distinció entre adaptació estilística (legítima) i manipulació substantiva (problemàtica) és un dels reptes pràctics més difícils de la negociació intercultural. La regla pràctica de molts professionals: adaptar com es diu, no el que es diu."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dn-04-01",
+              "question": "Els equips de negociació culturalment diversos — que inclouen membres de cultures diferents — negocien millor o pitjor que els equips culturalment homogenis?",
+              "options": [
+                "Millor: la diversitat cultural aporta múltiples perspectives, major comprensió de l'altra part i solucions més creatives",
+                "Pitjor: la diversitat cultural crea friccions internes de coordinació que redueixen l'eficàcia de l'equip davant de l'adversari",
+                "Depèn de la gestió: els equips diversos ben gestionats superen als homogenis; els equips diversos mal gestionats rendeixen pitjor que tots dos"
+              ],
+              "correct": 2,
+              "explanation": "La recerca sobre diversitat en equips negociadors és coherent amb la recerca sobre diversitat en equips en general: la diversitat és un potencial, no una garantia. La posició A capta els beneficis potencials: un equip que inclou membres familiars amb la cultura de l'altra part pot llegir millor els senyals implícits i evitar malentesos. Però la posició B captura el cost real: els equips diversos necessiten més temps per coordinar posicions internes i poden enviar senyals inconsistents a l'adversari si els membres no estan alineats. La posició C és la que la recerca suporta: l'element determinant no és la diversitat en si sinó la qualitat de la gestió del procés de coordinació intern."
+            }
           ]
         },
         {
           "id": "dn-05",
           "title": "Negociació en contextos extrems",
           "blocks": [
-            { "type": "narrative", "text": "El 1980, l'FBI va establir una unitat especialitzada en negociació de crisi. Des d'aleshores, ha resolt milers de situacions de presa d'ostatges amb un índex d'èxit superior al 90%. El seu primer principi contraintuïtiu: no negociïs mai el que l'agressor demana. Primer, escolta. Sempre, primer escolta. El 1994, el negociador de les Nacions Unides Kofi Annan va negociar amb Saddam Hussein la retirada de les tropes iraquianes de Kuwait per evitar la guerra. Va fracassar. Algunes negociacions no admeten el fracàs." },
-            { "type": "key-idea", "text": "La negociació en contextos extrems — crisi, conflicte armat, presa d'ostatges, ultimàtums nuclears — difereix de la negociació ordinària en tres dimensions: el temps és comprimit i la pressió és màxima, les conseqüències del fracàs són catastròfiques, i els actors sovint no actuen de manera racional en el sentit convencional. Les tècniques específiques per a aquests contextos difereixen significativament de les tècniques estàndard." },
-            { "type": "expandable", "label": "La negociació de crisi i d'ostatges — per què escoltar és l'instrument principal", "content": "La psicologia de la negociació de crisi, desenvolupada principalment per la policia i l'FBI des dels anys 70, té un principi central que contradiu la intuïció: no comencis mai intentant resoldre el problema. Comença escoltant. Les persones en situació de crisi no estan principalment en una negociació racional sobre demandes: estan en un estat emocional extrem que necessita ser reconegut abans de poder ser gestionat. El model BCSM (Building, Calming, Stabilizing, Moving) guia el negociador: primer construir la relació i calmar l'agitació emocional, estabilitzar la situació, i finalment moure cap a la resolució. Intentar saltar directament a la resolució — 'quines són les teves demandes?' — sol accelerar la crisi en lloc de desescalar-la." },
-            { "type": "expandable", "label": "La gestió d'ultimàtums — per què els ultimàtums rarament ho són", "content": "Els ultimàtums — 'accepta les meves condicions o faré X' — semblen la negació de la negociació: no deixen espai per al compromís. Però en la pràctica diplomàtica, la majoria dels ultimàtums no són finals: són senyals d'urgència o desesperació que, si es gestionen correctament, obren una oportunitat. Les regles pràctiques per gestionar ultimàtums:\n1. No forçar la decisió immediatament: donar temps permet a la part que ha emès l'ultimàtum construir una sortida sense pèrdua de cara.\n2. Separar la persona de la posició: reconèixer la preocupació legítima darrere de l'ultimàtum sense acceptar la condició concreta.\n3. Oferir una 'sortida amb honors': reformular la situació de manera que la part que ha emès l'ultimàtum pugui recular sense perdre credibilitat davant la seva pròpia audiència." },
-            { "type": "quote", "text": "En la negociació de crisi, el silenci és or. Quan l'altra part parla, tu guanyes. Quan tu parles, perds l'oportunitat d'aprendre.", "author": "Gary Noesner, negociador de crisi de l'FBI" },
-            { "type": "exercise", "id": "ex-dn-05-01", "style": "multiple-choice", "question": "En una situació de presa d'ostatges, quin és el principal error que els negociadors inexperts solen cometre?", "options": ["Acceptar les demandes de l'agressor massa ràpidament per evitar el dany als ostatges", "Intentar resoldre el problema o les demandes concretes abans d'establir una connexió emocional i calmar l'estat emocional de l'agressor", "Implicar massa actors (policia, psicòlegs, familiars) que compliquen la negociació", "Usar massa el nom de l'agressor, que pot interpretar-se com a manipulació i generar desconfiança"], "correct": 1, "feedbackCorrect": "Exacte. L'error més comú és saltar directament a la negociació de les demandes sense haver establert primer una connexió emocional. Una persona en crisi extrema no pot processar una negociació racional fins que el seu estat emocional ha estat reconegut i parcialment calmat. Intentar negociar les demandes primer sol accelerar la crisi perquè l'agressor se sent no escoltat.", "feedbackWrong": "Acceptar les demandes massa ràpidament és un problema, però no el principal error inicial. La implicació de múltiples experts és generalment positiva si està ben coordinada. I usar el nom de l'agressor és una tècnica recomanada per personalitzar la connexió — no un error." },
-            { "type": "exercise", "id": "ex-dn-05-02", "style": "detect-error", "statement": "Davant d'un ultimàtum diplomàtic, la resposta correcta és sempre ignorar-lo per demostrar que no es cedeix a la pressió i que els ultimàtums no produeixen resultats.", "isCorrect": false, "feedbackExplanation": "L'error és prescriure una resposta única ('sempre ignorar') a una situació que requereix anàlisi contextual. Ignorar un ultimàtum pot funcionar si la part que l'ha emès no té ni la capacitat ni la voluntat real d'executar l'amenaça. Però ignorar un ultimàtum quan l'altra part té capacitat i voluntat real d'executar-lo pot forçar-la a actuar per no perdre credibilitat. La gestió correcta d'un ultimàtum analitza la credibilitat de l'amenaça, busca crear una sortida amb honors per a l'altra part, i diferencia entre la posició explícita i l'interès subjacent." },
-            { "type": "debate", "question": "En la negociació amb actors que han comès o amenacen amb cometre atrocitats (terroristes, règims que violen drets humans), és legítim negociar o fer-ho legitima els seus mètodes?", "positionA": { "label": "Cal negociar sempre que sigui possible", "argument": "La negociació no implica aprovació moral: és simplement el reconeixement que l'alternativa — la violència — és pitjor. Negar-se a negociar mai ha produït la rendició de l'adversari; sovint ha prolongat el conflicte i augmentat el cost humà. La legitimitat dels mètodes i la utilitat de la negociació són qüestions separades." }, "positionB": { "label": "Negociar pot ser contraproduent", "argument": "Negociar amb actors violents crea precedents que encoratgen la violència com a estratègia per arribar a la taula. Si els terroristes aprenen que prendre ostatges porta a negociacions, n'hi haurà més. La línia de 'no negociem amb terroristes' és un compromís de credibilitat que, si s'abandona, augmenta el risc a llarg termini." }, "reflection": "Pensa en el cas de les negociacions de pau amb les FARC a Colòmbia, que van incloure membres que havien comès crims greus. Va ser la negociació un error moral o la solució pràctica al conflicte armat més llarg d'Amèrica?", "context": "La majoria dels conflictes armats llargs acaben en negociació, no en victòria militar definitiva d'una de les parts. La recerca empírica sobre resultats de conflictes mostra que les guerres civils que acaben en negociació — fins i tot amb actors que han comès atrocitats — produeixen menys víctimes totals que les que s'allarguen fins a la derrota completa d'una de les parts." },
-            { "type": "scientific-mode", "id": "sci-dn-05-01", "question": "Les negociacions de pau en conflictes armats en curs tendeixen a tenir millors resultats si es fan mentre el conflicte continua o si s'espera a un cessament del foc primer?", "options": ["Millors resultats mentre el conflicte continua: la pressió militar crea urgència que mou les parts cap a l'acord", "Millors resultats amb cessament del foc primer: la violència activa impedeix la construcció de confiança necessària per a un acord durable", "Depèn de la simetria del conflicte: si el conflicte és simètric (cap part pot guanyar), la negociació és possible en paral·lel; si és asimètric, la part que guanya prefereix esperar"], "correct": 2, "explanation": "La recerca sobre 'moments de maduresa' per a la negociació (William Zartman) és una de les més riques en l'estudi de la resolució de conflictes. La posició A capta un element real: la pressió militar pot crear urgència i empènyer les parts cap a la taula. Els Acords de Dayton (Bòsnia 1995) van ser possibles perquè la campanya aèria de l'OTAN va alterar l'equilibri militar i va crear un 'empat mutuament dolorós'. La posició B capta una altra realitat: la violència activa genera víctimes que generen ira, que fa l'acord políticament difícil per als líders de cada part. La posició C és la que la recerca empírica suporta millor: la variable crítica no és si hi ha conflicte o cessament del foc, sinó si existeix l'empat mutuament dolorós — la percepció de totes les parts que no poden guanyar militarment i que el cost de continuar supera el benefici esperat." }
+            {
+              "type": "narrative",
+              "text": "El 1980, l'FBI va establir una unitat especialitzada en negociació de crisi. Des d'aleshores, ha resolt milers de situacions de presa d'ostatges amb un índex d'èxit superior al 90%. El seu primer principi contraintuïtiu: no negociïs mai el que l'agressor demana. Primer, escolta. Sempre, primer escolta. El 1994, el negociador de les Nacions Unides Kofi Annan va negociar amb Saddam Hussein la retirada de les tropes iraquianes de Kuwait per evitar la guerra. Va fracassar. Algunes negociacions no admeten el fracàs."
+            },
+            {
+              "type": "key-idea",
+              "text": "La negociació en contextos extrems — crisi, conflicte armat, presa d'ostatges, ultimàtums nuclears — difereix de la negociació ordinària en tres dimensions: el temps és comprimit i la pressió és màxima, les conseqüències del fracàs són catastròfiques, i els actors sovint no actuen de manera racional en el sentit convencional. Les tècniques específiques per a aquests contextos difereixen significativament de les tècniques estàndard."
+            },
+            {
+              "type": "expandable",
+              "label": "La negociació de crisi i d'ostatges — per què escoltar és l'instrument principal",
+              "content": "La psicologia de la negociació de crisi, desenvolupada principalment per la policia i l'FBI des dels anys 70, té un principi central que contradiu la intuïció: no comencis mai intentant resoldre el problema. Comença escoltant. Les persones en situació de crisi no estan principalment en una negociació racional sobre demandes: estan en un estat emocional extrem que necessita ser reconegut abans de poder ser gestionat. El model BCSM (Building, Calming, Stabilizing, Moving) guia el negociador: primer construir la relació i calmar l'agitació emocional, estabilitzar la situació, i finalment moure cap a la resolució. Intentar saltar directament a la resolució — 'quines són les teves demandes?' — sol accelerar la crisi en lloc de desescalar-la."
+            },
+            {
+              "type": "expandable",
+              "label": "La gestió d'ultimàtums — per què els ultimàtums rarament ho són",
+              "content": "Els ultimàtums — 'accepta les meves condicions o faré X' — semblen la negació de la negociació: no deixen espai per al compromís. Però en la pràctica diplomàtica, la majoria dels ultimàtums no són finals: són senyals d'urgència o desesperació que, si es gestionen correctament, obren una oportunitat. Les regles pràctiques per gestionar ultimàtums:\n1. No forçar la decisió immediatament: donar temps permet a la part que ha emès l'ultimàtum construir una sortida sense pèrdua de cara.\n2. Separar la persona de la posició: reconèixer la preocupació legítima darrere de l'ultimàtum sense acceptar la condició concreta.\n3. Oferir una 'sortida amb honors': reformular la situació de manera que la part que ha emès l'ultimàtum pugui recular sense perdre credibilitat davant la seva pròpia audiència."
+            },
+            {
+              "type": "quote",
+              "text": "En la negociació de crisi, el silenci és or. Quan l'altra part parla, tu guanyes. Quan tu parles, perds l'oportunitat d'aprendre.",
+              "author": "Gary Noesner, negociador de crisi de l'FBI"
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-05-01",
+              "style": "multiple-choice",
+              "question": "En una situació de presa d'ostatges, quin és el principal error que els negociadors inexperts solen cometre?",
+              "options": [
+                "Acceptar les demandes de l'agressor massa ràpidament per evitar el dany als ostatges",
+                "Intentar resoldre el problema o les demandes concretes abans d'establir una connexió emocional i calmar l'estat emocional de l'agressor",
+                "Implicar massa actors (policia, psicòlegs, familiars) que compliquen la negociació",
+                "Usar massa el nom de l'agressor, que pot interpretar-se com a manipulació i generar desconfiança"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'error més comú és saltar directament a la negociació de les demandes sense haver establert primer una connexió emocional. Una persona en crisi extrema no pot processar una negociació racional fins que el seu estat emocional ha estat reconegut i parcialment calmat. Intentar negociar les demandes primer sol accelerar la crisi perquè l'agressor se sent no escoltat.",
+              "feedbackWrong": "Acceptar les demandes massa ràpidament és un problema, però no el principal error inicial. La implicació de múltiples experts és generalment positiva si està ben coordinada. I usar el nom de l'agressor és una tècnica recomanada per personalitzar la connexió — no un error."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-05-02",
+              "style": "detect-error",
+              "statement": "Davant d'un ultimàtum diplomàtic, la resposta correcta és sempre ignorar-lo per demostrar que no es cedeix a la pressió i que els ultimàtums no produeixen resultats.",
+              "isCorrect": false,
+              "feedbackExplanation": "L'error és prescriure una resposta única ('sempre ignorar') a una situació que requereix anàlisi contextual. Ignorar un ultimàtum pot funcionar si la part que l'ha emès no té ni la capacitat ni la voluntat real d'executar l'amenaça. Però ignorar un ultimàtum quan l'altra part té capacitat i voluntat real d'executar-lo pot forçar-la a actuar per no perdre credibilitat. La gestió correcta d'un ultimàtum analitza la credibilitat de l'amenaça, busca crear una sortida amb honors per a l'altra part, i diferencia entre la posició explícita i l'interès subjacent."
+            },
+            {
+              "type": "debate",
+              "question": "En la negociació amb actors que han comès o amenacen amb cometre atrocitats (terroristes, règims que violen drets humans), és legítim negociar o fer-ho legitima els seus mètodes?",
+              "positionA": {
+                "label": "Cal negociar sempre que sigui possible",
+                "argument": "La negociació no implica aprovació moral: és simplement el reconeixement que l'alternativa — la violència — és pitjor. Negar-se a negociar mai ha produït la rendició de l'adversari; sovint ha prolongat el conflicte i augmentat el cost humà. La legitimitat dels mètodes i la utilitat de la negociació són qüestions separades."
+              },
+              "positionB": {
+                "label": "Negociar pot ser contraproduent",
+                "argument": "Negociar amb actors violents crea precedents que encoratgen la violència com a estratègia per arribar a la taula. Si els terroristes aprenen que prendre ostatges porta a negociacions, n'hi haurà més. La línia de 'no negociem amb terroristes' és un compromís de credibilitat que, si s'abandona, augmenta el risc a llarg termini."
+              },
+              "reflection": "Pensa en el cas de les negociacions de pau amb les FARC a Colòmbia, que van incloure membres que havien comès crims greus. Va ser la negociació un error moral o la solució pràctica al conflicte armat més llarg d'Amèrica?",
+              "context": "La majoria dels conflictes armats llargs acaben en negociació, no en victòria militar definitiva d'una de les parts. La recerca empírica sobre resultats de conflictes mostra que les guerres civils que acaben en negociació — fins i tot amb actors que han comès atrocitats — produeixen menys víctimes totals que les que s'allarguen fins a la derrota completa d'una de les parts."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dn-05-01",
+              "question": "Les negociacions de pau en conflictes armats en curs tendeixen a tenir millors resultats si es fan mentre el conflicte continua o si s'espera a un cessament del foc primer?",
+              "options": [
+                "Millors resultats mentre el conflicte continua: la pressió militar crea urgència que mou les parts cap a l'acord",
+                "Millors resultats amb cessament del foc primer: la violència activa impedeix la construcció de confiança necessària per a un acord durable",
+                "Depèn de la simetria del conflicte: si el conflicte és simètric (cap part pot guanyar), la negociació és possible en paral·lel; si és asimètric, la part que guanya prefereix esperar"
+              ],
+              "correct": 2,
+              "explanation": "La recerca sobre 'moments de maduresa' per a la negociació (William Zartman) és una de les més riques en l'estudi de la resolució de conflictes. La posició A capta un element real: la pressió militar pot crear urgència i empènyer les parts cap a la taula. Els Acords de Dayton (Bòsnia 1995) van ser possibles perquè la campanya aèria de l'OTAN va alterar l'equilibri militar i va crear un 'empat mutuament dolorós'. La posició B capta una altra realitat: la violència activa genera víctimes que generen ira, que fa l'acord políticament difícil per als líders de cada part. La posició C és la que la recerca empírica suporta millor: la variable crítica no és si hi ha conflicte o cessament del foc, sinó si existeix l'empat mutuament dolorós — la percepció de totes les parts que no poden guanyar militarment i que el cost de continuar supera el benefici esperat."
+            }
           ]
         },
         {
           "id": "dn-06",
           "title": "El moment de l'acord",
           "blocks": [
-            { "type": "narrative", "text": "El 2015, 195 estats van signar l'Acord de París sobre el clima. Va ser saludat com una fita històrica. Cinc anys després, les emissions globals seguien augmentant. El 2020, els EUA es van retirar de l'acord i el 2021 hi van tornar. El 2023, el món anava camí de superar 2,5°C d'escalfament malgrat l'acord. La signatura d'un acord internacional és un moment polític important. El que passa després — la implementació, la verificació, el seguiment, la gestió dels incompliments — és on es determina si l'acord canvia alguna cosa." },
-            { "type": "key-idea", "text": "La fase post-acord — implementació, verificació i gestió dels incompliments — és tan important com la negociació mateixa i sovint més difícil. Els acords internacionals fracassen per tres raons principals: ambigüitat deliberada en el text que cada part interpreta de manera diferent, absència de mecanismes de verificació efectius, i canvis de govern o de circumstàncies que alteren els incentius que van portar a l'acord original." },
-            { "type": "expandable", "label": "L'ambigüitat constructiva — per què els acords sovint diuen menys del que semblen", "content": "En moltes negociacions internacionals, les parts arriben a un acord en part perquè el text és deliberadament ambigu en els punts de major desacord. Aquesta 'ambigüitat constructiva' permet que cada part presenti el text als seus constituents interns com una victòria, sense que l'altra part hagi de cedir explícitament. Exemple clàssic: la Resolució 242 del Consell de Seguretat de l'ONU de 1967, que demanava la retirada israeliana de 'territoris ocupats' (en anglès, 'territories', sense article definit). Israel va interpretar que no calia retirar-se de tots els territoris; els àrabs van interpretar que sí. L'ambigüitat va permetre l'adopció unànime de la resolució — i dècades de disputes sobre el seu significat." },
-            { "type": "expandable", "label": "Mecanismes de verificació — per què els acords sense comprovació valen poc", "content": "Un acord sense mecanisme de verificació és una declaració d'intencions, no un compromís vinculant. La verificació serveix per a dues funcions: detectar els incompliments i dissuadir-los. Els mecanismes de verificació en els tractats internacionals inclouen:\n• Inspeccions in situ: equips d'inspectors que verifiquen el compliment directament (AIEA per a nuclears, OIAC per a armes químiques).\n• Vigilància per satèl·lit: tecnologies de verificació remota que redueixen la necessitat de presència física.\n• Declaracions i informes periòdics: els estats informen sobre el seu propi compliment — limitada efectivitat sense verificació independent.\n• Mecanismes de resolució de disputes: procediments per gestionar les discrepàncies sobre si hi ha incompliment.\nLa qualitat del mecanisme de verificació és un indicador de la seriositat de l'acord." },
-            { "type": "comparison", "title": "Acords amb i sense mecanismes de verificació efectius", "labelA": "Amb verificació forta", "labelB": "Amb verificació feble o absent", "items": [
-              { "label": "Exemple", "a": "Tractat INF (1987), Acords de Química (OIAC)", "b": "Acords de París sobre el clima, molts acords de drets humans" },
-              { "label": "Mecanisme", "a": "Inspeccions in situ, eliminació verificada d'armaments", "b": "Autodeclaracions, informes voluntaris, sense inspeccions" },
-              { "label": "Taxa de compliment", "a": "Alta: la detecció és probable i les conseqüències clares", "b": "Variable: depèn de la voluntat política, no de la pressió del mecanisme" },
-              { "label": "Efecte dissuasori", "a": "Fort: el cost de ser descobert és alt", "b": "Feble: l'incompliment és difícil de provar i les conseqüències incertes" }
-            ]},
-            { "type": "exercise", "id": "ex-dn-06-01", "style": "multiple-choice", "question": "Per què l'ambigüitat deliberada en el text d'un acord internacional, tot i facilitar la seva adopció, crea problemes posteriors?", "options": ["Perquè els juristes internacionals no poden interpretar textos ambigus i l'acord queda sense valor legal", "Perquè cada part interpreta l'ambigüitat de manera favorable als seus interessos, generant disputes sobre el significat real de l'acord que impedeixen la implementació", "Perquè els mitjans de comunicació interpreten l'ambigüitat com a signe que les parts no han arribat a cap acord real", "Perquè els organismes internacionals de verificació no poden aplicar acords que contenen ambigüitats"], "correct": 1, "feedbackCorrect": "Exacte. L'ambigüitat constructiva permet arribar a un acord que d'altra manera seria impossible — cadascú interpreta el text com una victòria — però crea un problema d'implementació: quan cal actuar concretament, cada part aplica la seva pròpia interpretació, generant disputes que sovint requereixen una nova negociació sobre el significat del text original.", "feedbackWrong": "Els juristes internacionals estan formats per interpretar textos ambigus. I l'ambigüitat no impedeix necessàriament la verificació tècnica. El problema central és polític: cada part usa l'ambigüitat per justificar la interpretació que li convé, generant disputes que paralitzen la implementació." },
-            { "type": "exercise", "id": "ex-dn-06-02", "style": "true-false", "question": "Un acord internacional signat per un govern obliga jurídicament els governs posteriors del mateix país, independentment dels seus canvis de política.", "correct": false, "feedbackCorrect": "Correcte que és fals, amb matisos importants. En dret internacional, els tractats ratificats obliguen els estats — no els governs — i en principi sobreviuen als canvis de govern. Però en la pràctica, els governs poden retirar-se dels tractats (com els EUA de l'Acord de París o el Tractat sobre el Canvi Climàtic de Kioto), denunciar-los o simplement deixar de complir-los sense conseqüències automàtiques.", "feedbackWrong": "Si bé els tractats ratificats obliguen formalment l'estat independentment del govern, els governs poden retirar-se'n, incomplir-los sense conseqüències automàtiques, o reinterpretar-los. La vinculació legal és real però limitada per la naturalesa voluntarista del sistema internacional." },
-            { "type": "reflection", "question": "Pensa en un acord internacional del qual hagis sentit a parlar — pot ser climàtic, comercial, de pau o de drets humans. Saps si s'implementa realment? Qui el verifica? Quines conseqüències hi ha si no es compleix?", "prompt": "La distància entre el moment de la signatura i la realitat de la implementació és on es juga realment si la diplomàcia canvia el món o és simplement un teatre." },
-            { "type": "connection", "moduleRef": "Drets Humans i Ordre Internacional", "moduleEmoji": "🏛️", "concept": "Mecanismes de verificació i compliment", "text": "La qüestió de la implementació i verificació que hem explorat en aquesta lliçó és exactament el problema central del sistema internacional de drets humans: acords signats per gairebé tots els estats, sense mecanismes de verificació efectius i amb taxes de compliment molt variables. Els reptes de la implementació no són exclusius de la diplomàcia comercial o de seguretat — travessen tota la política internacional." },
-            { "type": "scientific-mode", "id": "sci-dn-06-01", "question": "Els acords internacionals que inclouen mecanismes d'incentius positius (ajuda econòmica, accés a mercats, integració institucional) obtenen millors taxes de compliment que els que es basen principalment en sancions i amenaces?", "options": ["Sí: els incentius positius creen interessos propis al compliment que persisteixen fins i tot quan la pressió externa s'alleugereix", "No: les sancions i les amenaces són més efectives perquè el dolor de les conseqüències negatives motiva més que la promesa de beneficis futurs", "Depèn del context: els incentius positius funcionen millor per a canvis de comportament a llarg termini; les sancions funcionen millor per a canvis immediats en situacions de crisi"], "correct": 0, "explanation": "La recerca sobre compliment de tractats internacionals mostra consistentment que els acords que incorporen incentius positius obtenen taxes de compliment superiors als que es basen principalment en amenaces de sancions. La raó és estructural: els incentius positius creen interessos propis al compliment que persisteixen fins i tot quan la pressió externa s'alleugereix. Les sancions, en canvi, creen pressions que desapareixen si el mecanisme sancionador es debilita o si el règim sancionat aprèn a absorbir el cost. El cas paradigmàtic és la integració europea: la perspectiva d'adhesió a la UE va ser el mecanisme de transformació política i econòmica més eficaç de la segona meitat del segle XX. Els països candidats van implementar reformes profundes no perquè temen sancions sinó perquè valoren l'adhesió. La posició C captura un element real — les sancions poden ser més efectives per a canvis immediats — però la recerca de llarg termini sobre compliment de tractats favoreix clarament la posició A." }
+            {
+              "type": "narrative",
+              "text": "El 2015, 195 estats van signar l'Acord de París sobre el clima. Va ser saludat com una fita històrica. Cinc anys després, les emissions globals seguien augmentant. El 2020, els EUA es van retirar de l'acord i el 2021 hi van tornar. El 2023, el món anava camí de superar 2,5°C d'escalfament malgrat l'acord. La signatura d'un acord internacional és un moment polític important. El que passa després — la implementació, la verificació, el seguiment, la gestió dels incompliments — és on es determina si l'acord canvia alguna cosa."
+            },
+            {
+              "type": "key-idea",
+              "text": "La fase post-acord — implementació, verificació i gestió dels incompliments — és tan important com la negociació mateixa i sovint més difícil. Els acords internacionals fracassen per tres raons principals: ambigüitat deliberada en el text que cada part interpreta de manera diferent, absència de mecanismes de verificació efectius, i canvis de govern o de circumstàncies que alteren els incentius que van portar a l'acord original."
+            },
+            {
+              "type": "expandable",
+              "label": "L'ambigüitat constructiva — per què els acords sovint diuen menys del que semblen",
+              "content": "En moltes negociacions internacionals, les parts arriben a un acord en part perquè el text és deliberadament ambigu en els punts de major desacord. Aquesta 'ambigüitat constructiva' permet que cada part presenti el text als seus constituents interns com una victòria, sense que l'altra part hagi de cedir explícitament. Exemple clàssic: la Resolució 242 del Consell de Seguretat de l'ONU de 1967, que demanava la retirada israeliana de 'territoris ocupats' (en anglès, 'territories', sense article definit). Israel va interpretar que no calia retirar-se de tots els territoris; els àrabs van interpretar que sí. L'ambigüitat va permetre l'adopció unànime de la resolució — i dècades de disputes sobre el seu significat."
+            },
+            {
+              "type": "expandable",
+              "label": "Mecanismes de verificació — per què els acords sense comprovació valen poc",
+              "content": "Un acord sense mecanisme de verificació és una declaració d'intencions, no un compromís vinculant. La verificació serveix per a dues funcions: detectar els incompliments i dissuadir-los. Els mecanismes de verificació en els tractats internacionals inclouen:\n• Inspeccions in situ: equips d'inspectors que verifiquen el compliment directament (AIEA per a nuclears, OIAC per a armes químiques).\n• Vigilància per satèl·lit: tecnologies de verificació remota que redueixen la necessitat de presència física.\n• Declaracions i informes periòdics: els estats informen sobre el seu propi compliment — limitada efectivitat sense verificació independent.\n• Mecanismes de resolució de disputes: procediments per gestionar les discrepàncies sobre si hi ha incompliment.\nLa qualitat del mecanisme de verificació és un indicador de la seriositat de l'acord."
+            },
+            {
+              "type": "comparison",
+              "title": "Acords amb i sense mecanismes de verificació efectius",
+              "labelA": "Amb verificació forta",
+              "labelB": "Amb verificació feble o absent",
+              "items": [
+                {
+                  "label": "Exemple",
+                  "a": "Tractat INF (1987), Acords de Química (OIAC)",
+                  "b": "Acords de París sobre el clima, molts acords de drets humans"
+                },
+                {
+                  "label": "Mecanisme",
+                  "a": "Inspeccions in situ, eliminació verificada d'armaments",
+                  "b": "Autodeclaracions, informes voluntaris, sense inspeccions"
+                },
+                {
+                  "label": "Taxa de compliment",
+                  "a": "Alta: la detecció és probable i les conseqüències clares",
+                  "b": "Variable: depèn de la voluntat política, no de la pressió del mecanisme"
+                },
+                {
+                  "label": "Efecte dissuasori",
+                  "a": "Fort: el cost de ser descobert és alt",
+                  "b": "Feble: l'incompliment és difícil de provar i les conseqüències incertes"
+                }
+              ]
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-06-01",
+              "style": "multiple-choice",
+              "question": "Per què l'ambigüitat deliberada en el text d'un acord internacional, tot i facilitar la seva adopció, crea problemes posteriors?",
+              "options": [
+                "Perquè els juristes internacionals no poden interpretar textos ambigus i l'acord queda sense valor legal",
+                "Perquè cada part interpreta l'ambigüitat de manera favorable als seus interessos, generant disputes sobre el significat real de l'acord que impedeixen la implementació",
+                "Perquè els mitjans de comunicació interpreten l'ambigüitat com a signe que les parts no han arribat a cap acord real",
+                "Perquè els organismes internacionals de verificació no poden aplicar acords que contenen ambigüitats"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'ambigüitat constructiva permet arribar a un acord que d'altra manera seria impossible — cadascú interpreta el text com una victòria — però crea un problema d'implementació: quan cal actuar concretament, cada part aplica la seva pròpia interpretació, generant disputes que sovint requereixen una nova negociació sobre el significat del text original.",
+              "feedbackWrong": "Els juristes internacionals estan formats per interpretar textos ambigus. I l'ambigüitat no impedeix necessàriament la verificació tècnica. El problema central és polític: cada part usa l'ambigüitat per justificar la interpretació que li convé, generant disputes que paralitzen la implementació."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-dn-06-02",
+              "style": "true-false",
+              "question": "Un acord internacional signat per un govern obliga jurídicament els governs posteriors del mateix país, independentment dels seus canvis de política.",
+              "correct": false,
+              "feedbackCorrect": "Correcte que és fals, amb matisos importants. En dret internacional, els tractats ratificats obliguen els estats — no els governs — i en principi sobreviuen als canvis de govern. Però en la pràctica, els governs poden retirar-se dels tractats (com els EUA de l'Acord de París o el Tractat sobre el Canvi Climàtic de Kioto), denunciar-los o simplement deixar de complir-los sense conseqüències automàtiques.",
+              "feedbackWrong": "Si bé els tractats ratificats obliguen formalment l'estat independentment del govern, els governs poden retirar-se'n, incomplir-los sense conseqüències automàtiques, o reinterpretar-los. La vinculació legal és real però limitada per la naturalesa voluntarista del sistema internacional."
+            },
+            {
+              "type": "reflection",
+              "question": "Pensa en un acord internacional del qual hagis sentit a parlar — pot ser climàtic, comercial, de pau o de drets humans. Saps si s'implementa realment? Qui el verifica? Quines conseqüències hi ha si no es compleix?",
+              "prompt": "La distància entre el moment de la signatura i la realitat de la implementació és on es juga realment si la diplomàcia canvia el món o és simplement un teatre."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Drets Humans i Ordre Internacional",
+              "moduleEmoji": "🏛️",
+              "concept": "Mecanismes de verificació i compliment",
+              "text": "La qüestió de la implementació i verificació que hem explorat en aquesta lliçó és exactament el problema central del sistema internacional de drets humans: acords signats per gairebé tots els estats, sense mecanismes de verificació efectius i amb taxes de compliment molt variables. Els reptes de la implementació no són exclusius de la diplomàcia comercial o de seguretat — travessen tota la política internacional."
+            },
+            {
+              "type": "scientific-mode",
+              "id": "sci-dn-06-01",
+              "question": "Els acords internacionals que inclouen mecanismes d'incentius positius (ajuda econòmica, accés a mercats, integració institucional) obtenen millors taxes de compliment que els que es basen principalment en sancions i amenaces?",
+              "options": [
+                "Sí: els incentius positius creen interessos propis al compliment que persisteixen fins i tot quan la pressió externa s'alleugereix",
+                "No: les sancions i les amenaces són més efectives perquè el dolor de les conseqüències negatives motiva més que la promesa de beneficis futurs",
+                "Depèn del context: els incentius positius funcionen millor per a canvis de comportament a llarg termini; les sancions funcionen millor per a canvis immediats en situacions de crisi"
+              ],
+              "correct": 0,
+              "explanation": "La recerca sobre compliment de tractats internacionals mostra consistentment que els acords que incorporen incentius positius obtenen taxes de compliment superiors als que es basen principalment en amenaces de sancions. La raó és estructural: els incentius positius creen interessos propis al compliment que persisteixen fins i tot quan la pressió externa s'alleugereix. Les sancions, en canvi, creen pressions que desapareixen si el mecanisme sancionador es debilita o si el règim sancionat aprèn a absorbir el cost. El cas paradigmàtic és la integració europea: la perspectiva d'adhesió a la UE va ser el mecanisme de transformació política i econòmica més eficaç de la segona meitat del segle XX. Els països candidats van implementar reformes profundes no perquè temen sancions sinó perquè valoren l'adhesió. La posició C captura un element real — les sancions poden ser més efectives per a canvis immediats — però la recerca de llarg termini sobre compliment de tractats favoreix clarament la posició A."
+            }
           ]
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 91,
+  "area": "relacions",
+  "topic": "Diplomàcia",
+  "level": "inicial"
 }

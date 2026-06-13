@@ -12,7 +12,6 @@
       "description": "Del relat original d'Hesíode a la filosofia del mal, de la curiositat com a pecat a l'esperança com a últim recurs",
       "style": "Narratiu · del mite a la interpretació filosòfica i cultural",
       "lessons": [
-
         {
           "id": "pan-01",
           "title": "El primer càstig col·lectiu",
@@ -72,7 +71,6 @@
             }
           ]
         },
-
         {
           "id": "pan-02",
           "title": "Allò que surt de la gerra",
@@ -134,7 +132,6 @@
             }
           ]
         },
-
         {
           "id": "pan-03",
           "title": "El problema del mal",
@@ -223,7 +220,6 @@
             }
           ]
         },
-
         {
           "id": "pan-04",
           "title": "Pandora i Eva: el mite de la culpa femenina",
@@ -316,7 +312,6 @@
             }
           ]
         },
-
         {
           "id": "pan-05",
           "title": "La curiositat com a virtut i com a pecat",
@@ -344,8 +339,14 @@
               "setup": "Acabes de néixer. Tens mans, ulls, intel·ligència, curiositat. Davant teu hi ha una gerra gran, tancada. Ningú no t'ha dit el que hi ha dins — ni que no l'has d'obrir. L'únic que saps és que és allà i que és tancada.",
               "dilemma": "L'obres?",
               "options": [
-                { "id": "A", "text": "L'obro. Sóc un ésser amb sentits i intel·ligència. Un objecte davant meu és una pregunta que existeix per ser resposta." },
-                { "id": "B", "text": "No l'obro. El que no conec pot ser perillós. La prudència és una virtut quan no tens informació suficient." }
+                {
+                  "id": "A",
+                  "text": "L'obro. Sóc un ésser amb sentits i intel·ligència. Un objecte davant meu és una pregunta que existeix per ser resposta."
+                },
+                {
+                  "id": "B",
+                  "text": "No l'obro. El que no conec pot ser perillós. La prudència és una virtut quan no tens informació suficient."
+                }
               ],
               "reveal": "Pandora obre la gerra. El mite no descriu hesitació, ni por, ni deliberació moral — simplement l'obre. Hesíode diu que ho fa per 'un designi de Zeus'. Però el gest és el gest de qualsevol ésser intel·ligent davant d'un misteri.",
               "analysis": "El dilema de Pandora és el dilema de tota recerca: no saps el que trobaràs fins que mires. La ciència, l'exploració, la psicoanàlisi, la filosofia — totes comencen amb el mateix gest: obrir alguna cosa que estava tancada. El cost és que de vegades el que surt no és el que esperaves. La pregunta no és si obrir o no — és si estar disposat a viure amb el que surti. Pandora no tanca la gerra un cop oberta. El que queda al fons — l'Elpis — és potser el signe que fins i tot en el pitjor dels resultats hi ha alguna cosa que es preserva."
@@ -372,7 +373,6 @@
             }
           ]
         },
-
         {
           "id": "pan-06",
           "title": "L'esperança com a problema filosòfic",
@@ -479,8 +479,12 @@
             }
           ]
         }
-
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 208,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

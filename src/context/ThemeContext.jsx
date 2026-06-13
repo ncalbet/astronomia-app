@@ -5,10 +5,10 @@ import storage from '../storage/storageProvider'
 const ThemeContext = createContext(null)
 
 const LIGHT_BG = {
-  bg:       '#f4f7ff',
-  surface:  '#ffffff',
-  surface2: '#e8eef8',
-  border:   '#c8d4e8',
+  bg:       '#f7f6f2',
+  surface:  '#fffefb',
+  surface2: '#efede7',
+  border:   '#ddd9d0',
 }
 
 function applyThemeCSS(colors, scheme) {
@@ -83,7 +83,7 @@ export function ThemeProvider({ children }) {
     return (
       <div style={{
         minHeight: '100dvh',
-        background: colorScheme === 'light' ? '#f4f7ff' : '#0b0f1e',
+        background: colorScheme === 'light' ? '#f7f6f2' : '#13151c',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',

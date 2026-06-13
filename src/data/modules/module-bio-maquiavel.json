@@ -37,12 +37,36 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1469", "title": "Neix a Florència", "text": "Fill d'un notari. Accés a la biblioteca paterna: Titus Livi, Ciceró, els clàssics llatins." },
-            { "year": "1498-1512", "title": "Secretari de la Cancelleria", "text": "Catorze anys al servei de la República Florentina. Ambaixades a França, la cort papal i davant de Cèsar Borja." },
-            { "year": "1512", "title": "Caiguda i tortura", "text": "Retorn dels Mèdici. Arrestat, torturat, alliberat per amnistia. Exiliat a la finca de Sant'Andrea in Percussina." },
-            { "year": "1513", "title": "Escriu El Príncep", "text": "En menys de sis mesos. L'envia als Mèdici com a credencial per recuperar un càrrec. Els Mèdici l'ignoren." },
-            { "year": "1520-27", "title": "Les altres obres", "text": "Els Discursos sobre Titus Livi (el seu text republicà real), L'Art de la Guerra, les Històries Florentines." },
-            { "year": "1527", "title": "Mort", "text": "Mor als 58 anys, just quan els Mèdici tornen a caure i la República es restaura. No va viure per veure-la." }
+            {
+              "year": "1469",
+              "title": "Neix a Florència",
+              "text": "Fill d'un notari. Accés a la biblioteca paterna: Titus Livi, Ciceró, els clàssics llatins."
+            },
+            {
+              "year": "1498-1512",
+              "title": "Secretari de la Cancelleria",
+              "text": "Catorze anys al servei de la República Florentina. Ambaixades a França, la cort papal i davant de Cèsar Borja."
+            },
+            {
+              "year": "1512",
+              "title": "Caiguda i tortura",
+              "text": "Retorn dels Mèdici. Arrestat, torturat, alliberat per amnistia. Exiliat a la finca de Sant'Andrea in Percussina."
+            },
+            {
+              "year": "1513",
+              "title": "Escriu El Príncep",
+              "text": "En menys de sis mesos. L'envia als Mèdici com a credencial per recuperar un càrrec. Els Mèdici l'ignoren."
+            },
+            {
+              "year": "1520-27",
+              "title": "Les altres obres",
+              "text": "Els Discursos sobre Titus Livi (el seu text republicà real), L'Art de la Guerra, les Històries Florentines."
+            },
+            {
+              "year": "1527",
+              "title": "Mort",
+              "text": "Mor als 58 anys, just quan els Mèdici tornen a caure i la República es restaura. No va viure per veure-la."
+            }
           ]
         },
         {
@@ -74,8 +98,14 @@
           "setup": "Ets ambaixador florentí i has assistit a un episodi revelador: Cèsar Borja ha invitat a Senigallia quatre capitans rivals que volien traïr-lo. Els ha rebut amb honors, ha sopat amb ells, i durant la nit els ha fet estrangular tots quatre. Florència es pregunta si pot confiar en Borja com a aliat. Tu has de redactar un informe per al govern florentí.",
           "dilemma": "Descrius l'acció de Borja com a crueltat que el desqualifica com a aliat fiable, o com a decisió estratègica freda que demostra que és un líder efectiu amb qui es pot negociar perquè sap el que fa?",
           "options": [
-            { "id": "A", "text": "Crueltat que el desqualifica: un home que mata els seus convidats durant el sopar no pot ser un aliat de confiança" },
-            { "id": "B", "text": "Decisió estratègica admirable: ha eliminat una amenaça real d'una manera decisiva. Sap governar. És un aliat worth respectar" }
+            {
+              "id": "A",
+              "text": "Crueltat que el desqualifica: un home que mata els seus convidats durant el sopar no pot ser un aliat de confiança"
+            },
+            {
+              "id": "B",
+              "text": "Decisió estratègica admirable: ha eliminat una amenaça real d'una manera decisiva. Sap governar. És un aliat worth respectar"
+            }
           ],
           "reveal": "Maquiavel va escriure un informe admirat sobre l'acció de Borja a Senigallia, descrivint-la com un exemple de resolució i eficàcia política. Va incloure Cèsar Borja com un dels exemples de 'príncep nou' eficaç a El Príncep. No perquè aprovés moralment l'assassinat sinó perquè Borja havia eliminat una amenaça real de manera decisiva i sense vacil·lació. Era, des de la lògica de Maquiavel, un exemple de virtù —no virtut cristiana, sinó capacitat política.",
           "analysis": "La distinció que fa Maquiavel entre 'virtut' (en el sentit cristià de bondat moral) i 'virtù' (en el sentit romà de capacitat, eficàcia, força) és el nucli del seu pensament. Un príncep pot tenir totes les virtuts morals i ser un governant ruïnós; pot tenir molt pocs escrúpols i ser un governant excel·lent. La pregunta de Maquiavel no és 'és bo?' sinó 'és eficaç?' —i diu que els dos criteris funcionen de manera independent."
@@ -141,5 +171,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 106,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

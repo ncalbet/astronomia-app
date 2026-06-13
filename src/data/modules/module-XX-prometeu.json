@@ -92,8 +92,14 @@
               "setup": "Ets Prometeu. Veus els humans que has ajudat a crear vivint en la misèria: sense foc, sense calor, sense cuina, sense metal·lúrgia, sense possibilitat de civilització. Saps exactament on és el foc dels déus. I saps exactament quin càstig t'espera si l'agafes: una eternitat de dolor físic, sense possibilitat de mort ni d'alliberament.",
               "dilemma": "Robes el foc per als humans, condemnant-te a un suplici etern? O acceptes l'ordre del món tal com és, sabent que pots viure lliure però que els humans continuaran patint?",
               "options": [
-                { "id": "A", "text": "Robo el foc. El sofriment dels humans és inacceptable i la meva llibertat no val més que la seva misèria." },
-                { "id": "B", "text": "No robo el foc. Desafiar l'ordre còsmic porta a conseqüències imprevisibles i no tinc dret a decidir sol pel futur de la humanitat." }
+                {
+                  "id": "A",
+                  "text": "Robo el foc. El sofriment dels humans és inacceptable i la meva llibertat no val més que la seva misèria."
+                },
+                {
+                  "id": "B",
+                  "text": "No robo el foc. Desafiar l'ordre còsmic porta a conseqüències imprevisibles i no tinc dret a decidir sol pel futur de la humanitat."
+                }
               ],
               "reveal": "Prometeu va robar el foc. En el mite d'Èsquil, ho va fer amb plena consciència del que l'esperava, i va aguantar el suplici sense renegar mai de la seva decisió. Quan Hermes li demana que reveli el secret que podria alliberar-lo, es nega. La seva rebel·lió és total i irreversible.",
               "analysis": "La decisió de Prometeu és filosòficament incòmoda perquè no és impulsiva: és calculada. No va ser un moment de bogeria altruista — va ser una tria freda i conscient de prioritzar el bé aliè sobre el propi. I aquí sorgeix la pregunta: és això heroisme màxim, o un tipus particular d'arrogància? Qui li va donar el dret de decidir, sol, que la humanitat mereixia el foc?"
@@ -313,5 +319,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 200,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

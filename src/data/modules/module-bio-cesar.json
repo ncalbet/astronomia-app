@@ -43,11 +43,31 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "100 aC", "title": "Neix a Roma", "text": "Família patrícia però sense riquesa ni influència especial." },
-            { "year": "84 aC", "title": "Casat amb Cornèlia", "text": "La filla de Cinna, enemic del dictador Sul·la. Cèsar refusa divorcia-se'n malgrat la pressió de Sul·la — el seu primer acte de valentia pública." },
-            { "year": "69 aC", "title": "Qüestor a Hispania", "text": "Davant una estàtua d'Alexandre el Gran, plora: té 31 anys i Alexandre a la seva edat ja havia conquerit el món." },
-            { "year": "60 aC", "title": "El Primer Triumvirat", "text": "Aliança secreta amb Pompeu (el general més famós) i Cras (l'home més ric de Roma). El poder real de Roma, en tres mans." },
-            { "year": "58 aC", "title": "Procònsol de les Gàl·lies", "text": "Comença la conquesta que el farà famós — i molt ric." }
+            {
+              "year": "100 aC",
+              "title": "Neix a Roma",
+              "text": "Família patrícia però sense riquesa ni influència especial."
+            },
+            {
+              "year": "84 aC",
+              "title": "Casat amb Cornèlia",
+              "text": "La filla de Cinna, enemic del dictador Sul·la. Cèsar refusa divorcia-se'n malgrat la pressió de Sul·la — el seu primer acte de valentia pública."
+            },
+            {
+              "year": "69 aC",
+              "title": "Qüestor a Hispania",
+              "text": "Davant una estàtua d'Alexandre el Gran, plora: té 31 anys i Alexandre a la seva edat ja havia conquerit el món."
+            },
+            {
+              "year": "60 aC",
+              "title": "El Primer Triumvirat",
+              "text": "Aliança secreta amb Pompeu (el general més famós) i Cras (l'home més ric de Roma). El poder real de Roma, en tres mans."
+            },
+            {
+              "year": "58 aC",
+              "title": "Procònsol de les Gàl·lies",
+              "text": "Comença la conquesta que el farà famós — i molt ric."
+            }
           ]
         },
         {
@@ -79,8 +99,14 @@
           "setup": "El Senat t'ha ordenat dissoldre el teu exèrcit i tornar a Roma com a ciutadà privat. Saps que si arribes desarmat, els teus enemics t'acusaran de crims de guerra a les Gàl·lies i et destruiran políticament. Pompeu, el teu antic aliat i ara rival, té legions a Hispania i Grècia. El Rubicó és el límit legal: un general romà no pot creuar-lo armat sense autorització del Senat.",
           "dilemma": "Creues el Rubicó amb les legions — un acte de traïció oberta que inicia una guerra civil — o dissoldre l'exèrcit i tornes a Roma a afrontar el judici?",
           "options": [
-            { "id": "A", "text": "Creuo el Rubicó: la guerra civil és l'única sortida que em garanteix la supervivència política" },
-            { "id": "B", "text": "Retorno a Roma: el Senat és l'autoritat legítima i confio en la justícia del procés" }
+            {
+              "id": "A",
+              "text": "Creuo el Rubicó: la guerra civil és l'única sortida que em garanteix la supervivència política"
+            },
+            {
+              "id": "B",
+              "text": "Retorno a Roma: el Senat és l'autoritat legítima i confio en la justícia del procés"
+            }
           ],
           "reveal": "Cèsar va creuar el Rubicó el gener del 49 aC amb la XIII Legió. Es diu que va dir 'alea iacta est' ('el dau és llançat'). En menys de 60 dies, Pompeu i el Senat havien fugit d'Itàlia. La guerra civil va durar quatre anys i va costar centenars de milers de vides.",
           "analysis": "La decisió de Cèsar no era irraocional: tenia informació que el Senat planejava destruir-lo políticament i que Pompeu no estava disposat a un compromís real. La guerra civil que va iniciar va matar molta gent, però va produir la Pax Romana — un segle de relativa estabilitat. El problema és que Cèsar no podia saber això. Va apostar per la seva supervivència i va tenir raó. Però si hagués perdut, seria recordat com un traïdor que va destruir la República per ambició personal — cosa que, en certa mesura, va fer igualment."
@@ -208,5 +234,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 94,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

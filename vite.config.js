@@ -26,9 +26,9 @@ export default defineConfig({
       manifest: {
         name: "Acadèmia Còsmica",
         short_name: "Còsmica",
-        description: "Aprèn astronomia com un científic",
-        theme_color: "#0b0f1e",
-        background_color: "#0b0f1e",
+        description: "Aprenentatge modular i profund: ciència, història, pensament i més",
+        theme_color: "#13151c",
+        background_color: "#13151c",
         display: "standalone",
         orientation: "portrait",
         start_url: "/",

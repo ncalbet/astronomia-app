@@ -1,347 +1,20 @@
-﻿import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
-import { MODULE_REGISTRY, loadModule } from '../data/moduleRegistry'
-import { getAreaById, getAreaModules } from '../data/areaRegistry'
+import { loadModule, getModuleMeta } from '../data/moduleRegistry'
+import { getAreaById, getAreaTopics } from '../data/areaRegistry'
 import { useModuleProgress } from '../hooks/useModuleProgress'
 import styles from './ModuleMap.module.css'
 
-const MODULE_META = {
-  'module-01-copernicus':      { title: 'La Revolució de Copèrnic',            emoji: '☀️'  },
-  'module-02-history':         { title: 'Història de l\'Astronomia',           emoji: '🏛️' },
-  'module-03-peace':           { title: 'Pau, Conflicte i Guerra',             emoji: '🕊️' },
-  'module-04-philosophy':      { title: 'Filosofia de la Ciència',             emoji: '🔬' },
-  'module-05-birding':         { title: 'Introducció a l\'Ornitologia',        emoji: '🐦' },
-  'module-06-chemistry':       { title: 'Química Fonamental',                  emoji: '⚗️' },
-  'module-07-particles':       { title: 'Física de Partícules',                emoji: '⚛️' },
-  // — Bloc: Historia Antiga —
-  'module-08-grecia':          { title: 'L\'Invent dels Grecs',                emoji: '🏛️' },
-  'module-09-roma':            { title: 'Roma: l\'Imperi que va Inventar Occident', emoji: '⚔️' },
-  'module-10-republic-crisis': { title: 'La República que es va Suïcidar',    emoji: '🗡️' },
-  'module-11-augustus':        { title: 'August: Com s\'Inventa un Règim',    emoji: '🏺' },
-  'module-12-pax-romana':      { title: 'Viure a Roma: Dins l\'Imperi',       emoji: '🏟️' },
-  'module-13-fall':            { title: 'La Llarga Caiguda: Com Mor un Imperi', emoji: '🌅' },
-  'module-14-egipte':          { title: 'Egipte: la Civilització dels Faraons', emoji: '𓂀' },
-  'module-15-egipte-origins':  { title: 'El Naixement d\'Egipte',             emoji: '🌾' },
-  'module-16-egipte-imperi':   { title: 'L\'Imperi Egipci',                   emoji: '🛡️' },
-  'module-17-egipte-religio':  { title: 'Els Déus del Nil',                   emoji: '𓂀' },
-  'module-18-egipte-fi':       { title: 'La Fi dels Faraons',                 emoji: '🌊' },
-  // — Bloc: Música —
-  'module-08-musica-classica':   { title: 'Història de la Música Clàssica',  emoji: '🎼' },
-  'module-09-historia-rock':     { title: 'Història del Rock',                emoji: '🎸' },
-  // — Bloc: Ciències i Arts —
-  'module-10-neurociencia':       { title: 'Neurociència Bàsica',             emoji: '🧠' },
-  'module-12-historia-ciencia':   { title: 'Història de la Ciència',          emoji: '🔭' },
-  'module-13-historia-tecnologia':{ title: 'Història de la Tecnologia',       emoji: '⚙️' },
-  'module-11-pintura':            { title: 'Història i Llenguatge de la Pintura', emoji: '🎨' },
-  // — Bloc: Política Moderna i Drets Humans —
-  'module-14-revolucio-francesa':              { title: 'La Revolució Francesa',                    emoji: '🗽' },
-  'module-15-fonaments-drets-humans':          { title: 'Fonaments Filosòfics dels Drets Humans',   emoji: '🌍' },
-  'module-16-sistema-internacional-drets-humans': { title: 'El Sistema Internacional dels Drets Humans', emoji: '📜' },
-  'module-17-justicia-internacional':          { title: 'Justícia Internacional',                   emoji: '⚖️' },
-  'module-18-casos-drets-humans':              { title: 'Casos que Van Canviar la Història',        emoji: '📋' },
-  'module-19-actors-no-estatals':              { title: 'Drets Humans i Actors No Estatals',        emoji: '💼' },
-  'module-20-fronteres-drets-humans':          { title: 'Fronteres Actuals dels Drets Humans',      emoji: '🚨' },
-  // — Bloc: Economia —
-  'module-19-economia-mon':         { title: 'Economia: Les Eines per Llegir el Món',           emoji: '📈' },
-  'module-22-economia-historia':    { title: 'De Smith a Piketty: Les Idees Econòmiques',       emoji: '📚' },
-  'module-25-economia-micro':       { title: 'Com Prenem Decisions: Preus i Mercats',           emoji: '🧠' },
-  'module-20-economia-macro':       { title: 'Macroeconomia: Estats i Crisis',                  emoji: '🏦' },
-  'module-21-economia-desigualtat': { title: 'Desigualtat: Causes i Redistribució',             emoji: '⚖️' },
-  'module-23-economia-escoles':     { title: 'Liberals, Keynesians i Marxistes',                emoji: '🔄' },
-  'module-24-economia-globalitzacio':{ title: 'Globalització i el Capitalisme del Segle XXI',  emoji: '🌐' },
-  'module-28-piketty':              { title: 'Piketty: El Capital i la Desigualtat',            emoji: '📊' },
-  'module-26-economia-comportament':{ title: 'Per què No Som Racionals',                       emoji: '🎭' },
-  'module-27-economia-jocs':        { title: 'Teoria de Jocs: Cooperació i Dilemes',           emoji: '♟️' },
-  // — Bloc: Química —
-  'module-29-quimica':            { title: 'La Química que t\'Envolta',                  emoji: '⚗️' },
-  'module-30-quimica-atoms':      { title: 'Dins l\'Àtom: Estructura i Propietats',      emoji: '⚛️' },
-  'module-31-quimica-reaccions':  { title: 'Reaccions Químiques: Com i Per Què Passen',  emoji: '🔥' },
-  'module-32-quimica-vida':       { title: 'La Química de la Vida: Bioquímica Fonamental', emoji: '🧬' },
-  // — Bloc: Biologia —
-  'module-08-biologia':           { title: 'Biologia — Com Funciona la Vida',            emoji: '🧬' },
-  'module-33-evolucio':           { title: 'Evolució i Selecció Natural',                 emoji: '🦎' },
-  'module-35-genetica':           { title: 'Genètica i ADN',                              emoji: '🧬' },
-  // — Bloc: Física —
-  'module-34-mecanica-classica':  { title: 'Mecànica Clàssica',                          emoji: '⚙️' },
-  'module-36-termodinamica':      { title: 'Termodinàmica',                               emoji: '🔥' },
-  'module-37-electromagnetisme':  { title: 'Electromagnetisme',                           emoji: '⚡' },
-  'module-38-relativitat':        { title: 'Relativitat',                                 emoji: '🌀' },
-  // — Bloc: Filosofia —
-  'module-30-introduccio-filosofia': { title: 'Introducció a la Filosofia',              emoji: '🦉' },
-  'module-09-filosofia-politica':    { title: 'Filosofia Política',                      emoji: '⚖️' },
-  'module-31-etica':                 { title: 'Ètica',                                   emoji: '⚖️' },
-  'module-32-logica-argumentacio':   { title: 'Lògica i Argumentació',                   emoji: '🧩' },
-  'module-33-epistemologia':         { title: 'Epistemologia',                           emoji: '🔍' },
-  // — Bloc: Astronomia (nous) —
-  'module-09-bigbang':               { title: 'El Big Bang i l\'Origen de l\'Univers',   emoji: '💥' },
-  'module-10-estrelles':             { title: 'La Vida i Mort de les Estrelles',          emoji: '⭐' },
-  // — Bloc: Biologia i Física (nous) —
-  'module-08-neurociencia':          { title: 'Neurociència i Conducta',                  emoji: '🧠' },
-  'module-08-relativitat':           { title: 'La Relativitat General',                   emoji: '🌌' },
-  // — Bloc: Literatura —
-  'module-01-antiguitat-origens':         { title: 'L\'Antiguitat i els Orígens',              emoji: '📜' },
-  'module-02-edat-mitjana-renaixement':   { title: 'L\'Edat Mitjana i el Renaixement',         emoji: '🏰' },
-  'module-05-avantguardes':               { title: 'El Segle XX I: Les Avantguardes',           emoji: '💥' },
-  'module-06-novella-segle-xx':           { title: 'La Novel·la del Segle XX',                  emoji: '🧩' },
-  'module-08-postmodernisme':             { title: 'El Postmodernisme',                         emoji: '🪞' },
-  // — Bloc: Arquitectura —
-  'module-XX-arquitectura-01':   { title: 'Arquitectura 1: L\'Arquitectura de l\'Ordre',  emoji: '🏛️' },
-  'module-XX-arquitectura-02':   { title: 'Arquitectura 2: Déu, Llum i Pedra',            emoji: '⛪' },
-  'module-XX-arquitectura-03':   { title: 'Arquitectura 3: La Modernitat i la Ruptura',   emoji: '🏗️' },
-  'module-XX-arquitectura-04':   { title: 'Arquitectura 4: Per a Qui Construïm?',         emoji: '🌆' },
-  // — Bloc: Arts i Cultura —
-  'module-XX-cinema':   { title: 'Cinema: l\'Art de la Mirada',          emoji: '🎬' },
-  'module-30-opera':    { title: 'Introducció a l\'Òpera',                emoji: '🎭' },
-  // — Bloc: Relacions Internacionals (nous) —
-  'module-XX-ddhh-ordre-internacional': { title: 'Drets Humans i Ordre Internacional',        emoji: '🌍' },
-  'module-XX-teoria-ri':                { title: 'Teoria de les Relacions Internacionals',     emoji: '🌐' },
-  // — Bloc: Societat i Política —
-  'module-34-democracia-sistemes-politics': { title: 'Democràcia i Sistemes Polítics',  emoji: '🗳️' },
-  'module-XX-sociologia':                   { title: 'Sociologia: Com Funcionen les Societats', emoji: '🏙️' },
-  // — Bloc: Filosofia (nous) —
-  'module-XX-intro-filosofia':      { title: 'Introducció a la Filosofia',                   emoji: '🦉' },
-  'module-XX-etica-practica':       { title: 'Ètica Pràctica: Decisions en Casos Límit',    emoji: '⚖️' },
-  'module-XX-filosofia-llenguatge': { title: 'Filosofia del Llenguatge',                     emoji: '🗣️' },
-  // — Bloc: Astronomia (nous 2) —
-  'module-08-origen-desti-univers':   { title: 'L\'Origen i el Destí de l\'Univers',        emoji: '🌌' },
-  'module-09-materia-energia-fosques':{ title: 'La Matèria i l\'Energia Fosques',            emoji: '🕳️' },
-  'module-10-forats-negres':          { title: 'Forats Negres: el que no hi Veiem',          emoji: '⚫' },
-  'module-11-mons-alla':              { title: 'Mons Allà: la Cerca de Vida a l\'Univers',   emoji: '🪐' },
-  // — Bloc: Física (nous) —
-  'module-10-caos':               { title: 'El Caos: Quan la Ciència Perd el Control',      emoji: '🌀' },
-  'module-12-temps-espai-limits': { title: 'El Temps, l\'Espai i els Límits de la Física',  emoji: '⏳' },
-  // — Bloc: Biologia (nous) —
-  'module-09-cos-huma':           { title: 'El Cos Humà no és el que Creus',                emoji: '🫀' },
-  'module-11-ecologia':           { title: 'Ecologia: una Conversa sense Final',             emoji: '🌿' },
-  'module-13-trauma-resiliencia': { title: 'Trauma i Resiliència: del Cos a la Societat',   emoji: '🌱' },
-  // — Bloc: Ment i Comportament —
-  'module-12-ment-enganya': { title: 'La Ment que s\'Enganya a si Mateixa',                  emoji: '🪞' },
-  'module-14-obediencia':   { title: 'Un Experiment, Sis Preguntes',                         emoji: '⚡' },
-  // — Bloc: Diplomàcia —
-  'module-XX-diplomacia-negociacio':     { title: 'Diplomàcia i Negociació Internacional',  emoji: '🤝' },
-  'module-XX-historia-diplomacia':       { title: 'Història de la Diplomàcia',               emoji: '🕊️' },
-  'module-XX-organismes-internacionals': { title: 'Organismes Internacionals',               emoji: '🌐' },
-  // — Bloc: Biografies —
-  'module-bio-cesar':     { title: 'Juli Cèsar: l\'home que va destruir la República',          emoji: '⚔️' },
-  'module-bio-alexandre': { title: 'Alexandre el Gran: conquerir el món als 32 anys',           emoji: '🌍' },
-  'module-bio-bismarck':  { title: 'Bismarck: l\'home que va inventar Alemanya',               emoji: '♟️' },
-  'module-bio-churchill': { title: 'Churchill: el fracassat que va salvar Europa',              emoji: '🎩' },
-  'module-bio-rasputin':  { title: 'Rasputin: el poder de l\'enigma',                          emoji: '🔮' },
-  'module-bio-lincoln':   { title: 'Lincoln: el president que va dividir per unir',            emoji: '🪓' },
-  'module-bio-bolivar':   { title: 'Bolívar: el libertador que es va quedar sense llibertat',  emoji: '⚔️' },
-  'module-bio-lenin':     { title: 'Lenin: la revolució que va devorar els seus fills',        emoji: '☭'  },
-  'module-bio-napoleon':  { title: 'Napoleon: la Revolució que es va devorar a si mateixa',   emoji: '👑' },
-  'module-bio-napoleon3': { title: 'Napoleon III: la farsa del poder heredat',                 emoji: '🎭' },
-  'module-bio-genguis':   { title: 'Genguis Khan: destrucció i connexió',                      emoji: '🏹' },
-  'module-bio-cleopatra': { title: 'Cleopatra: la dona darrera el mite',                       emoji: '🐍' },
-  'module-bio-maquiavel': { title: 'Maquiavel: el polític que va dir la veritat',             emoji: '📜' },
-  'module-bio-gandhi':    { title: 'Gandhi: la no-violència com a arma política',              emoji: '🕊️' },
-  'module-bio-frederic':  { title: 'Frederic el Gran: el filòsof que va invocar el poder',    emoji: '🎼' },
-  'module-bio-voltaire':     { title: 'Voltaire: l\'artilleria de la raó',                       emoji: '✍️' },
-  'module-bio-catalina':     { title: 'Catalina la Gran: la princesa alemanya que va conquerir Rússia', emoji: '❄️' },
-  'module-bio-robespierre':  { title: 'Robespierre: la virtut que mata',                          emoji: '⚖️' },
-  'module-bio-trotsky':      { title: 'Trotsky: el brillant que va perdre la pau',               emoji: '✊' },
-  'module-bio-mandela':      { title: 'Nelson Mandela: 27 anys per canviar el món',               emoji: '✊' },
-  'module-bio-eleanor':      { title: 'Eleanor Roosevelt: reinventar-se per canviar el món',      emoji: '🕊️' },
-  'module-bio-olympe':       { title: 'Olympe de Gouges: els drets de la dona i la guillotina',   emoji: '⚖️' },
-  'module-bio-marcaureli':   { title: 'Marc Aureli: el filòsof que va governar el món',            emoji: '🏛️' },
-  'module-bio-cicero':       { title: 'Ciceró: la paraula contra la tirania',                      emoji: '📜' },
-  'module-bio-ataturk':      { title: 'Atatürk: construir una nació des de zero',                  emoji: '🌙' },
-  'module-bio-marx':         { title: 'Karl Marx: l\'home que volia canviar el món',               emoji: '📖' },
-  // — Pensament i Ciència —
-  'module-bio-nietzsche':    { title: 'Nietzsche: Déu ha mort i nosaltres l\'hem matat',            emoji: '⚡' },
-  'module-bio-freud':        { title: 'Freud: l\'arqueòleg de l\'inconscient',                       emoji: '🛋️' },
-  'module-bio-darwin':       { title: 'Darwin: l\'home que va canviar la nostra mirada',             emoji: '🐢' },
-  'module-bio-leonardo':     { title: 'Leonardo da Vinci: el geni sense fronteres',                  emoji: '🎨' },
-  // — Resistència i Drets —
-  'module-bio-mlk':          { title: 'Martin Luther King: el somni que va canviar Amèrica',         emoji: '🎙️' },
-  'module-bio-luxemburg':    { title: 'Rosa Luxemburg: la revolució i la rosa',                      emoji: '🌹' },
-  'module-bio-tubman':       { title: 'Harriet Tubman: la llibertat no s\'espera',                   emoji: '🌟' },
-  'module-bio-gramsci':      { title: 'Antonio Gramsci: el pensador que escrivia des de la presó',  emoji: '✏️' },
-  'module-bio-einstein':     { title: 'Albert Einstein: el temps no és el que creus',                emoji: '🌌' },
-  'module-bio-newton':       { title: 'Isaac Newton: el geni que ho sabia tot i ho amagava',         emoji: '🍎' },
-  'module-bio-curie':        { title: 'Marie Curie: dues vegades Nobel, sempre estranya',            emoji: '⚗️' },
-  'module-bio-kant':         { title: 'Immanuel Kant: el filòsof que no va sortir mai de Königsberg', emoji: '📐' },
-  'module-bio-arendt':       { title: 'Hannah Arendt: la banalitat del mal',                         emoji: '🕊️' },
-  'module-bio-beauvoir':     { title: 'Simone de Beauvoir: no es neix dona, es devient',             emoji: '📚' },
-  'module-bio-planck':       { title: 'Max Planck: el conservador que va trencar la física',          emoji: '⚛️' },
-  'module-bio-jfk':          { title: 'JFK: el mite americà i els tretze dies que van salvar el món', emoji: '🌟' },
-  'module-bio-binladen':     { title: 'Bin Laden: anatomia d\'un fanatisme',                          emoji: '⚠️' },
-}
-
-// XP estimat per mòdul (per restar en repetir)
-const MODULE_XP = {
-  'module-01-copernicus':      117,
-  'module-02-history':         384,
-  'module-03-peace':           244,
-  'module-04-philosophy':      268,
-  'module-05-birding':         238,
-  'module-06-chemistry':       420,
-  'module-07-particles':       380,
-  // — Bloc: Historia Antiga —
-  'module-08-grecia':          180,
-  'module-09-roma':            190,
-  'module-10-republic-crisis': 200,
-  'module-11-augustus':        200,
-  'module-12-pax-romana':      200,
-  'module-13-fall':            200,
-  'module-14-egipte':          180,
-  'module-15-egipte-origins':  160,
-  'module-16-egipte-imperi':   160,
-  'module-17-egipte-religio':  160,
-  'module-18-egipte-fi':       160,
-  // — Bloc: Música —
-  'module-08-musica-classica':    320,
-  'module-09-historia-rock':      340,
-  // — Bloc: Ciències i Arts —
-  'module-10-neurociencia':        360,
-  'module-12-historia-ciencia':    300,
-  'module-13-historia-tecnologia': 300,
-  'module-11-pintura':             300,
-  // — Bloc: Política Moderna i Drets Humans —
-  'module-14-revolucio-francesa':               280,
-  'module-15-fonaments-drets-humans':           260,
-  'module-16-sistema-internacional-drets-humans': 260,
-  'module-17-justicia-internacional':           260,
-  'module-18-casos-drets-humans':               260,
-  'module-19-actors-no-estatals':               260,
-  'module-20-fronteres-drets-humans':           260,
-  // — Bloc: Economia —
-  'module-19-economia-mon':          220,
-  'module-22-economia-historia':     220,
-  'module-25-economia-micro':        220,
-  'module-20-economia-macro':        240,
-  'module-21-economia-desigualtat':  240,
-  'module-23-economia-escoles':      240,
-  'module-24-economia-globalitzacio':240,
-  'module-28-piketty':               240,
-  'module-26-economia-comportament': 240,
-  'module-27-economia-jocs':         240,
-  // — Bloc: Química —
-  'module-29-quimica':            320,
-  'module-30-quimica-atoms':      300,
-  'module-31-quimica-reaccions':  300,
-  'module-32-quimica-vida':       320,
-  // — Bloc: Biologia —
-  'module-08-biologia':           300,
-  'module-33-evolucio':           300,
-  'module-35-genetica':           300,
-  // — Bloc: Física —
-  'module-34-mecanica-classica':  300,
-  'module-36-termodinamica':      300,
-  'module-37-electromagnetisme':  300,
-  'module-38-relativitat':        300,
-  // — Bloc: Filosofia —
-  'module-30-introduccio-filosofia': 280,
-  'module-09-filosofia-politica':    280,
-  'module-31-etica':                 280,
-  'module-32-logica-argumentacio':   280,
-  'module-33-epistemologia':         280,
-  // — Bloc: Astronomia (nous) —
-  'module-09-bigbang':               320,
-  'module-10-estrelles':             320,
-  // — Bloc: Biologia i Física (nous) —
-  'module-08-neurociencia':          300,
-  'module-08-relativitat':           300,
-  // — Bloc: Literatura —
-  'module-01-antiguitat-origens':         320,
-  'module-02-edat-mitjana-renaixement':   320,
-  'module-05-avantguardes':               300,
-  'module-06-novella-segle-xx':           300,
-  'module-08-postmodernisme':             300,
-  // — Bloc: Arquitectura —
-  'module-XX-arquitectura-01':  300,
-  'module-XX-arquitectura-02':  300,
-  'module-XX-arquitectura-03':  300,
-  'module-XX-arquitectura-04':  300,
-  // — Bloc: Arts i Cultura —
-  'module-XX-cinema':   300,
-  'module-30-opera':    300,
-  // — Bloc: Relacions Internacionals (nous) —
-  'module-XX-ddhh-ordre-internacional': 300,
-  'module-XX-teoria-ri':                300,
-  // — Bloc: Societat i Política —
-  'module-34-democracia-sistemes-politics': 320,
-  'module-XX-sociologia':                   300,
-  // — Bloc: Filosofia (nous) —
-  'module-XX-intro-filosofia':      280,
-  'module-XX-etica-practica':       280,
-  'module-XX-filosofia-llenguatge': 280,
-  // — Bloc: Astronomia (nous 2) —
-  'module-08-origen-desti-univers':    230,
-  'module-09-materia-energia-fosques': 230,
-  'module-10-forats-negres':           230,
-  'module-11-mons-alla':               230,
-  // — Bloc: Física (nous) —
-  'module-10-caos':               300,
-  'module-12-temps-espai-limits': 230,
-  // — Bloc: Biologia (nous) —
-  'module-09-cos-huma':           230,
-  'module-11-ecologia':           190,
-  'module-13-trauma-resiliencia': 190,
-  // — Bloc: Ment i Comportament —
-  'module-12-ment-enganya': 230,
-  'module-14-obediencia':   230,
-  // — Bloc: Diplomàcia —
-  'module-XX-diplomacia-negociacio':     240,
-  'module-XX-historia-diplomacia':       420,
-  'module-XX-organismes-internacionals': 420,
-  // — Bloc: Biografies —
-  'module-bio-cesar':     240,
-  'module-bio-alexandre': 240,
-  'module-bio-bismarck':  240,
-  'module-bio-churchill': 240,
-  'module-bio-rasputin':  240,
-  'module-bio-lincoln':   240,
-  'module-bio-bolivar':   240,
-  'module-bio-lenin':     240,
-  'module-bio-napoleon':  240,
-  'module-bio-napoleon3': 240,
-  'module-bio-genguis':   240,
-  'module-bio-cleopatra': 240,
-  'module-bio-maquiavel': 240,
-  'module-bio-gandhi':    240,
-  'module-bio-frederic':  240,
-  'module-bio-voltaire':    240,
-  'module-bio-catalina':    240,
-  'module-bio-robespierre': 240,
-  'module-bio-trotsky':     240,
-  'module-bio-mandela':     240,
-  'module-bio-eleanor':     240,
-  'module-bio-olympe':      240,
-  'module-bio-marcaureli':  240,
-  'module-bio-cicero':      240,
-  'module-bio-ataturk':     240,
-  'module-bio-marx':        240,
-  'module-bio-nietzsche':   240,
-  'module-bio-freud':       240,
-  'module-bio-darwin':      240,
-  'module-bio-leonardo':    240,
-  'module-bio-mlk':         240,
-  'module-bio-luxemburg':   240,
-  'module-bio-tubman':      240,
-  'module-bio-gramsci':     240,
-  'module-bio-einstein':    240,
-  'module-bio-newton':      240,
-  'module-bio-curie':       240,
-  'module-bio-kant':        240,
-  'module-bio-arendt':      240,
-  'module-bio-beauvoir':    240,
-  'module-bio-planck':      240,
-  'module-bio-jfk':         240,
-  'module-bio-binladen':    240,
-}
-
-function ModuleCard({ id, onSelect, onRepeat, loadingId, completedModules,
+function ModuleCard({ meta, onSelect, onRepeat, loadingId, completedModules,
                       completedLessons, isModuleUnlocked, isItineraryCompleted }) {
-  const meta      = MODULE_META[id] || { title: id, emoji: '🔒' }
+  const id        = meta.id
   const unlocked  = isModuleUnlocked(id)
   const completed = completedModules.includes(id)
   const isLoading = loadingId === id
   const [confirmRepeat, setConfirmRepeat] = useState(false)
-  const minutes   = Math.round((MODULE_XP[id] || 200) / 20)
+  const minutes   = Math.round((meta.xp || 200) / 20)
 
   const progress = useModuleProgress(id, completedLessons, isItineraryCompleted)
 
@@ -449,8 +122,6 @@ export default function ModuleMap() {
     if (!navigationState.currentAreaId) navigate('/areas', { replace: true })
   }, [])
 
-  const registryIds = new Set(MODULE_REGISTRY.map(m => m.id))
-
   const handleSelectModule = async (moduleId) => {
     if (!isModuleUnlocked(moduleId) || loadingId) return
     setLoadingId(moduleId)
@@ -471,7 +142,7 @@ export default function ModuleMap() {
   }
 
   const handleRepeat = (moduleId) => {
-    const xp = MODULE_XP[moduleId] || 0
+    const xp = getModuleMeta(moduleId)?.xp || 0
     repeatModule(moduleId, xp)
   }
 
@@ -479,23 +150,17 @@ export default function ModuleMap() {
 
   const normalizedQuery = query.trim().toLowerCase()
 
-  const filteredTopics = area.topics.map(topic => {
-    let modules = topic.modules.filter(id => {
-      if (!registryIds.has(id)) return false
-      if (normalizedQuery) {
-        const title = (MODULE_META[id]?.title || id).toLowerCase()
-        if (!title.includes(normalizedQuery)) return false
-      }
-      if (filter === 'pending') return isModuleUnlocked(id) && !completedModules.includes(id)
-      if (filter === 'done')    return completedModules.includes(id)
+  const filteredTopics = getAreaTopics(area.id).map(topic => {
+    let modules = topic.modules.filter(m => {
+      if (normalizedQuery && !m.title.toLowerCase().includes(normalizedQuery)) return false
+      if (filter === 'pending') return isModuleUnlocked(m.id) && !completedModules.includes(m.id)
+      if (filter === 'done')    return completedModules.includes(m.id)
       return true
     })
     if (sort !== 'default') {
-      modules = [...modules].sort((a, b) => {
-        const ma = MODULE_XP[a] || 200
-        const mb = MODULE_XP[b] || 200
-        return sort === 'asc' ? ma - mb : mb - ma
-      })
+      modules = [...modules].sort((a, b) =>
+        sort === 'asc' ? (a.xp || 200) - (b.xp || 200) : (b.xp || 200) - (a.xp || 200)
+      )
     }
     return { ...topic, modules }
   }).filter(topic => topic.modules.length > 0)
@@ -556,10 +221,10 @@ export default function ModuleMap() {
         {filteredTopics.map(topic => (
           <div key={topic.label} className={styles.topicSection}>
             <h2 className={styles.topicHeader}>{topic.label}</h2>
-            {topic.modules.map(id => (
+            {topic.modules.map(meta => (
               <ModuleCard
-                key={id}
-                id={id}
+                key={meta.id}
+                meta={meta}
                 onSelect={handleSelectModule}
                 onRepeat={handleRepeat}
                 loadingId={loadingId}

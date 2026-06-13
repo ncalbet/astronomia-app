@@ -39,12 +39,36 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1809", "title": "Neix a Kentucky", "text": "Família de grangers pobres. Cabana de troncs sense finestres al comtat de Hardin." },
-            { "year": "1818", "title": "Mor la seva mare", "text": "Nancy Lincoln mor de 'milk sickness'. Lincoln té 9 anys. El seu pare es torna a casar aviat." },
-            { "year": "1836", "title": "Llicència d'advocat", "text": "Completament autodidacte. Aprèn dret llegint Blackstone's Commentaries de prestats." },
-            { "year": "1858", "title": "Debats Lincoln-Douglas", "text": "Set debats públics sobre l'esclavitud a Illinois. El fan famós a nivell nacional, tot i perdre l'elecció al Senat." },
-            { "year": "1860", "title": "President electe", "text": "Guanya amb menys del 40% del vot popular. Set estats del Sud es separen abans de la seva investidura." },
-            { "year": "1865", "title": "Assassinat al teatre Ford", "text": "Cinc dies després de la rendició de Lee. Mor l'endemà al matí. Tenia 56 anys." }
+            {
+              "year": "1809",
+              "title": "Neix a Kentucky",
+              "text": "Família de grangers pobres. Cabana de troncs sense finestres al comtat de Hardin."
+            },
+            {
+              "year": "1818",
+              "title": "Mor la seva mare",
+              "text": "Nancy Lincoln mor de 'milk sickness'. Lincoln té 9 anys. El seu pare es torna a casar aviat."
+            },
+            {
+              "year": "1836",
+              "title": "Llicència d'advocat",
+              "text": "Completament autodidacte. Aprèn dret llegint Blackstone's Commentaries de prestats."
+            },
+            {
+              "year": "1858",
+              "title": "Debats Lincoln-Douglas",
+              "text": "Set debats públics sobre l'esclavitud a Illinois. El fan famós a nivell nacional, tot i perdre l'elecció al Senat."
+            },
+            {
+              "year": "1860",
+              "title": "President electe",
+              "text": "Guanya amb menys del 40% del vot popular. Set estats del Sud es separen abans de la seva investidura."
+            },
+            {
+              "year": "1865",
+              "title": "Assassinat al teatre Ford",
+              "text": "Cinc dies després de la rendició de Lee. Mor l'endemà al matí. Tenia 56 anys."
+            }
           ]
         },
         {
@@ -76,8 +100,14 @@
           "setup": "El general McClellan té l'exèrcit més gran i ben equipat de la historia americana —i refusa atacar. Porta 18 mesos esperant el moment perfecte. Ha deixat escapar dues oportunitats d'aplafar la Confederació. Però és popular entre les tropes i la premsa. Si l'acomiedem i el successor perd una batalla gran, et culparan de la derrota.",
           "dilemma": "Mantens McClellan al comandament malgrat la seva passivitat, o l'acomiedem buscant algú disposat a lluitar, arriscant el desastre si el nou general fracassa?",
           "options": [
-            { "id": "A", "text": "Mantinc McClellan: és imperfecte però conegut i popular. No puc arriscar un canvi ara" },
-            { "id": "B", "text": "L'acomiadeu: la guerra no es guanya amb prudència infinita. Necessito algú disposat a atacar" }
+            {
+              "id": "A",
+              "text": "Mantinc McClellan: és imperfecte però conegut i popular. No puc arriscar un canvi ara"
+            },
+            {
+              "id": "B",
+              "text": "L'acomiadeu: la guerra no es guanya amb prudència infinita. Necessito algú disposat a atacar"
+            }
           ],
           "reveal": "Lincoln va acomiadar McClellan al novembre de 1862 i va passar per Burnside i Hooker —tots dos desastres. El 1864 va trobar Grant: alcohòlic, brusc, impopular entre els polítics. Grant va guanyar la guerra. Quan li van dir que bevia massa, Lincoln va respondre: 'Sabeu quin whisky beu? Vull enviar-ne una bóta als altres generals.'",
           "analysis": "El patró de Lincoln és consistent: disposició a assumir riscos polítics grans quan el judici estratègic ho requeria. Va ser criticat ferotgement per cada acomiadament. El que buscava no era el general perfecte sinó el general que lluitaria. La lliçó no és que l'impuls sempre guanya —sinó que saber quan canviar de curs, malgrat el cost polític, és una habilitat de lideratge rara."
@@ -155,5 +185,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 99,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

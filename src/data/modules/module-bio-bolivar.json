@@ -70,8 +70,14 @@
           "setup": "Has alliberat cinc nacions. El teu gran somni és unir-les en una sola confederació llatinoamericana —els 'Estats Units del Sud'— que pugui negociar d'igual a igual amb Europa i els EUA del Nord. Has convocat el Congrés de Panamà per fundar aquesta unió. Però els líders de cada república volen mantenir la seva sobirania. Veneçuela no vol que la governi Bogotà. El Perú desconfia de Colòmbia. Cada elit local defensa el seu territori.",
           "dilemma": "Imposes la unió per la força —usant l'autoritat que et donen les teves victòries militars— o acceptes que cada república sigui sobirana i abandones el somni de la gran confederació?",
           "options": [
-            { "id": "A", "text": "Imposo la unió: sense unitat som febles davant Europa. Si cal un poder fort per crear-la, l'assumeixo" },
-            { "id": "B", "text": "Accepto la sobirania de cada república: no puc imposar la llibertat per la força sense trair el que he lluitat" }
+            {
+              "id": "A",
+              "text": "Imposo la unió: sense unitat som febles davant Europa. Si cal un poder fort per crear-la, l'assumeixo"
+            },
+            {
+              "id": "B",
+              "text": "Accepto la sobirania de cada república: no puc imposar la llibertat per la força sense trair el que he lluitat"
+            }
           ],
           "reveal": "El Congrés de Panamà va fracassar. Bolívar va intentar mantenir la Gran Colòmbia (Veneçuela, Colòmbia i Equador unides) per la força i va assumir poders dictatorials el 1828. Veneçuela es va separar el 1829. Equador, el 1830. Bolívar va renunciar a la presidència i va morir a Santa Marta el desembre de 1830, amb 47 anys, en camí cap a l'exili voluntari a Europa. Les seves últimes paraules, segons els testimonis, van ser: 'He llautat el mar.'",
           "analysis": "El fracàs del projecte d'unitat llatinoamericana és un dels grans 'i si...' de la historia occidental. Bolívar havia vist correctament que la fragmentació faria les noves repúbliques vulnerables —i tenia raó. Però la solució que va intentar —el poder personal d'un libertador convertit en dictador— era exactament el contrari del que havia predicat. La tensió entre unitat i llibertat, entre eficàcia i legitimitat, no va saber resoldre-la."
@@ -171,5 +177,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 100,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

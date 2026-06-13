@@ -39,12 +39,36 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1874", "title": "Neix a Blenheim Palace", "text": "Fill del Duc de Marlborough. Estudiant mediocre. S'alista a l'exèrcit en no poder entrar a Oxford." },
-            { "year": "1899-1900", "title": "Corresponsal de guerra i captura", "text": "A la Guerra dels Bòers (Sud-àfrica). El capturen i s'escapa. Torna a Anglaterra com a heroi i guanya un escó al Parlament." },
-            { "year": "1915", "title": "El desastre de Gal·lípoli", "text": "Dimiteix com a Primer Lord de l'Almirallat. Va al front a França com a comandant de batalló." },
-            { "year": "1924-29", "title": "Canceller de l'Exchequer", "text": "Torna la lliura esterlina al patró or — un error econòmic que agreuja la depressió britànica." },
-            { "year": "1930s", "title": "Els anys del desert", "text": "Fora del govern. Escriu i pinta. Adverteix de Hitler quan ningú no l'escolta. L'anomenen alarmista i belicista." },
-            { "year": "1940", "title": "Primer Ministre", "text": "Té 65 anys. La major part del seu partit no el vol. És l'últim recurs d'un país en crisi mortal." }
+            {
+              "year": "1874",
+              "title": "Neix a Blenheim Palace",
+              "text": "Fill del Duc de Marlborough. Estudiant mediocre. S'alista a l'exèrcit en no poder entrar a Oxford."
+            },
+            {
+              "year": "1899-1900",
+              "title": "Corresponsal de guerra i captura",
+              "text": "A la Guerra dels Bòers (Sud-àfrica). El capturen i s'escapa. Torna a Anglaterra com a heroi i guanya un escó al Parlament."
+            },
+            {
+              "year": "1915",
+              "title": "El desastre de Gal·lípoli",
+              "text": "Dimiteix com a Primer Lord de l'Almirallat. Va al front a França com a comandant de batalló."
+            },
+            {
+              "year": "1924-29",
+              "title": "Canceller de l'Exchequer",
+              "text": "Torna la lliura esterlina al patró or — un error econòmic que agreuja la depressió britànica."
+            },
+            {
+              "year": "1930s",
+              "title": "Els anys del desert",
+              "text": "Fora del govern. Escriu i pinta. Adverteix de Hitler quan ningú no l'escolta. L'anomenen alarmista i belicista."
+            },
+            {
+              "year": "1940",
+              "title": "Primer Ministre",
+              "text": "Té 65 anys. La major part del seu partit no el vol. És l'últim recurs d'un país en crisi mortal."
+            }
           ]
         },
         {
@@ -76,8 +100,14 @@
           "setup": "El Gabinet de Guerra està dividit. Halifax —un home intel·ligent i prudent— argumenta que explorar condicions de pau ara és la opció racional: Gran Bretanya sobreviuria com a estat, evitaria la destrucció i podria reconstituir-se. No és covardia: és pragmatisme. Les teves opcions militars objectives són molt dolentes.",
           "dilemma": "Acceptes que Halifax porti a terme consultes amb Mussolini per explorar possibles termes de pau amb Hitler, o bloqueges qualsevol negociació i continues la guerra amb una probabilitat de victòria que molts experts calculen en menys del 30%?",
           "options": [
-            { "id": "A", "text": "Permeto les consultes: és irresponsable arriscar la destrucció total quan hi ha alternatives menys catastròfiques" },
-            { "id": "B", "text": "Bloquejo qualsevol negociació: la guerra és la única opció moralment i estratègicament acceptable" }
+            {
+              "id": "A",
+              "text": "Permeto les consultes: és irresponsable arriscar la destrucció total quan hi ha alternatives menys catastròfiques"
+            },
+            {
+              "id": "B",
+              "text": "Bloquejo qualsevol negociació: la guerra és la única opció moralment i estratègicament acceptable"
+            }
           ],
           "reveal": "Churchill va bloquejar les negociacions. Va sortir del Gabinet de Guerra i es va adreçar directament als vint-i-cinc ministres de rang inferior, que no formaven part del gabinet formal. Va descriure la situació sense embellir-la i va acabar dient que preferia que cadascun d'ells 'morís lluitant' a capitular. La resposta va ser entusiasta. Va tornar al gabinet amb una cobertura política que Halifax no podia ignorar. La guerra va continuar.",
           "analysis": "La decisió de Churchill és un dels exemples clàssics del lideratge que defineix el context en lloc d'adaptar-se a ell. El punt d'Halifax era racional: les opcions objectives eren dolentes. Churchill va apostar que les opcions subjectives —la voluntat de resistir, el suport americà potencial, els errors futurs d'Hitler— canviarien el càlcul. Va tenir raó. Però si hagués perdut, seria recordat com l'home que va dur Gran Bretanya a una guerra inútil per orgull."
@@ -151,5 +181,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 97,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

@@ -13,7 +13,6 @@
       "forWho": "Vol seguir el fil del mite i entendre per què Aquil·les és el primer gran personatge de la literatura occidental — i per què la seva tria continua sent rellevant",
       "style": "Narratiu · del mite a l'ètica",
       "lessons": [
-
         {
           "id": "aqu-01",
           "title": "La profecia: triar com mors",
@@ -92,7 +91,6 @@
             }
           ]
         },
-
         {
           "id": "aqu-02",
           "title": "La ira: quan l'honor és trepitjat",
@@ -154,7 +152,6 @@
             }
           ]
         },
-
         {
           "id": "aqu-03",
           "title": "Pàtrocle: quan l'amor és més fort que la ira",
@@ -226,7 +223,6 @@
             }
           ]
         },
-
         {
           "id": "aqu-04",
           "title": "Hèctor: l'heroi que no va triar ser heroi",
@@ -314,7 +310,6 @@
             }
           ]
         },
-
         {
           "id": "aqu-05",
           "title": "La venjança i els seus límits: el cos d'Hèctor",
@@ -349,8 +344,14 @@
               "setup": "El teu fill Hèctor, el defensor de Troia, ha estat mort per Aquil·les. El seu cos és arrossegat cada dia al voltant de les muralles. Els déus et diuen que Aquil·les acceptarà un rescat. Per recuperar el cos i poder enterrar el teu fill dignament, has d'anar tu sol, de nit, al campament grec, directament a la tenda d'Aquil·les — l'home que ha matat el teu fill. Sense escorta. Portant or.",
               "dilemma": "Vas tu sol al campament enemic a suplicar a l'assassí del teu fill, o envies un ambaixador i t'estalvies la humiliació?",
               "options": [
-                { "id": "A", "text": "Hi vaig jo: el meu fill mereix que sigui el seu pare qui recuperi el seu cos, per molt que costi" },
-                { "id": "B", "text": "Envio un ambaixador: és massa perillos i humiliant per a un rei. El resultat és el mateix" }
+                {
+                  "id": "A",
+                  "text": "Hi vaig jo: el meu fill mereix que sigui el seu pare qui recuperi el seu cos, per molt que costi"
+                },
+                {
+                  "id": "B",
+                  "text": "Envio un ambaixador: és massa perillos i humiliant per a un rei. El resultat és el mateix"
+                }
               ],
               "reveal": "Príam va al campament sol, de nit, guiat pels déus. Entra a la tenda d'Aquil·les, s'agenolla als seus peus i li agafa les mans — les mans que han matat el seu fill. Li suplica que li torni el cos. Aquil·les plora. Tots dos ploren junts — per Pàtrocle, per Hèctor, per tot el que la guerra ha destruït. Aquil·les li torna el cos.",
               "analysis": "L'escena de Príam i Aquil·les és considerada per molts el cim moral de la Ilíada i un dels moments més profunds de tota la literatura grega. Dos enemics, units per el dol, es reconeixen mútuament en la seva humanitat compartida. Aquil·les, que havia estat incapaç de moderar la seva ira durant setmanes, és mogut per la valentia i el dolor d'un pare vell. La venjança deixa pas a la compassió. Homer suggereix que la humanitat compartida pot superar fins i tot l'odi de guerra — però que per arribar-hi cal que algú faci el primer gest, i que aquell gest és immensament costós."
@@ -377,7 +378,6 @@
             }
           ]
         },
-
         {
           "id": "aqu-06",
           "title": "El llegat d'Aquil·les: viure sabent que mors",
@@ -457,8 +457,12 @@
             }
           ]
         }
-
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 209,
+  "area": "historia",
+  "topic": "Mitologia Grega",
+  "level": "inicial"
 }

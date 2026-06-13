@@ -37,13 +37,41 @@
         {
           "type": "timeline",
           "events": [
-            { "year": "1881", "title": "Naix a Tessalònica", "text": "Família turca en una ciutat cosmopolita. Pare mort aviat. Opta per l'escola militar contra el desig matern." },
-            { "year": "1908", "title": "Revolució dels Joves Turcs", "text": "El Comitè d'Unió i Progrés força el sultà a restaurar la constitució. Kemal ja és una veu crítica dins del moviment." },
-            { "year": "1915-16", "title": "Gallipoli", "text": "Atura l'ofensiva aliada a la península de Gallipoli. Única gran victòria otomana de la guerra. Fama nacional." },
-            { "year": "1919", "title": "Desembarca a Samsun", "text": "Enviament oficial a dissoldre la resistència. En canvi, organitza el moviment nacional turc." },
-            { "year": "1919-22", "title": "Guerra d'Independència", "text": "Derrota les forces gregues, franceses i armènies. Negocia el Tractat de Lausana (1923)." },
-            { "year": "1923", "title": "República de Turquia", "text": "Proclamada el 29 d'octubre. Atatürk en és el primer president." },
-            { "year": "1924-38", "title": "Les reformes", "text": "Abolició del califat, alfabet llatí, laïcisme, vot femení, cognom obligatori. Mor el 1938." }
+            {
+              "year": "1881",
+              "title": "Naix a Tessalònica",
+              "text": "Família turca en una ciutat cosmopolita. Pare mort aviat. Opta per l'escola militar contra el desig matern."
+            },
+            {
+              "year": "1908",
+              "title": "Revolució dels Joves Turcs",
+              "text": "El Comitè d'Unió i Progrés força el sultà a restaurar la constitució. Kemal ja és una veu crítica dins del moviment."
+            },
+            {
+              "year": "1915-16",
+              "title": "Gallipoli",
+              "text": "Atura l'ofensiva aliada a la península de Gallipoli. Única gran victòria otomana de la guerra. Fama nacional."
+            },
+            {
+              "year": "1919",
+              "title": "Desembarca a Samsun",
+              "text": "Enviament oficial a dissoldre la resistència. En canvi, organitza el moviment nacional turc."
+            },
+            {
+              "year": "1919-22",
+              "title": "Guerra d'Independència",
+              "text": "Derrota les forces gregues, franceses i armènies. Negocia el Tractat de Lausana (1923)."
+            },
+            {
+              "year": "1923",
+              "title": "República de Turquia",
+              "text": "Proclamada el 29 d'octubre. Atatürk en és el primer president."
+            },
+            {
+              "year": "1924-38",
+              "title": "Les reformes",
+              "text": "Abolició del califat, alfabet llatí, laïcisme, vot femení, cognom obligatori. Mor el 1938."
+            }
           ]
         },
         {
@@ -75,8 +103,14 @@
           "setup": "Les tropes turques han entrat a Esmirna. La població grega i armènia —centenars de milers de persones— s'amunteguen al port, intentant pujar als vaixells britànics, francesos i americans ancorats a la badia. Hi ha un incendi que avança pels barris grecs. Les potències aliades no intervenen. Milers de persones moren o son massacrades en el caos. Com a comandant, pots ordenar protecció activa de la població civil, o concentrar-te en la consolidació militar i la negociació política.",
           "dilemma": "Ordenes protecció activa de la població grega i armènia a Esmirna, arriscant incidents amb les potències aliades i tensions dins del teu propi exèrcit? O prioritzes la consolidació militar i la negociació del tractat de pau?",
           "options": [
-            { "id": "A", "text": "Ordeno protecció activa: guanyar una guerra no justifica la violència contra civils. La nova Turquia ha de fundar-se en principis, no en venjança" },
-            { "id": "B", "text": "Prioritzo la negociació: l'objectiu és el tractat de pau i el reconeixement internacional. Intervenir en el caos de Esmirna pot costar-me tot el que he guanyat militarment" }
+            {
+              "id": "A",
+              "text": "Ordeno protecció activa: guanyar una guerra no justifica la violència contra civils. La nova Turquia ha de fundar-se en principis, no en venjança"
+            },
+            {
+              "id": "B",
+              "text": "Prioritzo la negociació: l'objectiu és el tractat de pau i el reconeixement internacional. Intervenir en el caos de Esmirna pot costar-me tot el que he guanyat militarment"
+            }
           ],
           "reveal": "Atatürk va arribar a Esmirna el 9 de setembre del 1922, quan el gruix de la violència ja s'havia produït. Va establir ordre militar però no va salvar la població que moria al port. La seva responsabilitat directa en els esdeveniments és debatuda per historiadors; el que és clar és que no va fer res per aturar l'incendi ni evacuar els civils de forma organitzada. El tractat de Lausana (1923) va reconèixer la nova Turquia. L'intercanvi forçat de poblacions va ser el resultat.",
           "analysis": "Els esdeveniments d'Esmirna el setembre del 1922 son un dels episodis més debatuts de la història moderna de Turquia i Grècia. La historiografia turca tendeix a presentar-los com a conseqüència inevitable d'una guerra que Grècia havia iniciat. La historiografia grega els descriu com una catàstrofe deliberada. La majoria d'historiadors internacionals els situen en el context de la violència intercomunal que havia devastat Anatòlia durant deu anys —massacres armènies, deportacions, guerra de guerrilles—, sense exculpar ningú. Atatürk va fundar una nació que inclou en el seu origen un episodi de neteja ètnica massiva. Que aquella nació hagi estat, durant dècades, un estat laic i funcional no esborra l'origen."
@@ -178,5 +212,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 118,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }

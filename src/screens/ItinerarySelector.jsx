@@ -84,7 +84,7 @@ export default function ItinerarySelector() {
     <div className={styles.screen}>
       <header className={styles.header}>
         <button className={styles.back} onClick={() => navigate('/modules')}>
-          ← {theme.missionWord}s
+          ← {theme.missionWordPlural}
         </button>
       </header>
 

@@ -76,8 +76,14 @@
           "setup": "Portes deu anys lluitant. Has conquistat l'Imperi Persa, Egipte i Àsia Central. Les teves tropes han marxat 20.000 quilòmetres. Ara ets a l'Índia i vols seguir cap a l'est — cap al 'final del món'. Però els teus soldats, molts d'ells amb 15 anys de servei, s'han revoltat. Refusen continuar. El teu general més lleial, Cos, t'explica que la moral és trencada: la gent vol tornar a casa.",
           "dilemma": "Continues l'avanç cap a l'est, usant la teva autoritat per obligar les tropes? O et gires i tornes — acceptant que hi ha un límit a tot?",
           "options": [
-            { "id": "A", "text": "Continue: sóc Alexandre el Gran. Cap exèrcit ha anat més lluny. Si cedeixo ara, tot perd sentit" },
-            { "id": "B", "text": "Em giro: les tropes han lluitat durant una dècada. No puc forçar-les més. L'empire que tinc ja és suficient" }
+            {
+              "id": "A",
+              "text": "Continue: sóc Alexandre el Gran. Cap exèrcit ha anat més lluny. Si cedeixo ara, tot perd sentit"
+            },
+            {
+              "id": "B",
+              "text": "Em giro: les tropes han lluitat durant una dècada. No puc forçar-les més. L'empire que tinc ja és suficient"
+            }
           ],
           "reveal": "Alexandre es va tancar a la tenda tres dies, furiós. Quan va sortir, va anunciar que es girava. Va fer sacrificis als déus que 'no eren favorables a l'avanç'. Va ordenar construir dotze altars gegants marcant el punt més oriental de la seva conquesta. Era la primera vegada que un exèrcit el forçava a aturar-se.",
           "analysis": "Alguns historiadors veuen en aquesta derrota no militar el primer senyal de la fi d'Alexandre: un home que havia fet de la conquesta el seu propòsit existencial, forçat a admetre que hi havia un límit. Va morir dos anys i mig després, a Babilònia, sense haver tornat a Macedònia. La discussió sobre si va morir de febre, de verí o simplement de depressió i excés d'alcohol continua oberta."
@@ -167,5 +173,10 @@
         }
       ]
     }
-  ]
+  ],
+  "xp": 240,
+  "order": 95,
+  "area": "biografies",
+  "topic": "Poder i Política",
+  "level": "inicial"
 }
