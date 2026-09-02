@@ -11,6 +11,7 @@
       "icon": "🏭",
       "description": "Quan el poder econòmic privat afecta els drets de les persones",
       "style": "Conceptual i pràctic · del soft law a la diligència deguda",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "emp-01",
@@ -345,6 +346,7 @@
       "icon": "✊",
       "description": "ONG, defensors dels drets humans i moviments de base: qui fa el treball real",
       "style": "Temàtic · actors, estratègies i reptes",
+      "level": "inicial",
       "lessons": [
         {
           "id": "sc-01",
@@ -607,5 +609,8 @@
   "order": 30,
   "area": "relacions",
   "topic": "Drets Humans",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-15-fonaments-drets-humans"
+  ]
 }

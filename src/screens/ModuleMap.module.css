@@ -72,6 +72,23 @@
   color: #fff;
 }
 
+/* Profunditat — només apareix quan l'àrea té més d'un nivell */
+.levelBar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.levelBarLabel {
+  font-family: var(--font-body);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-faint);
+}
+
 /* Cerca */
 .searchRow {
   margin-bottom: var(--space-6);
@@ -225,6 +242,10 @@
   align-items: center;
   gap: var(--space-2);
   flex-wrap: wrap;
+}
+
+.cardLevel {
+  flex-shrink: 0;
 }
 
 .readTime {

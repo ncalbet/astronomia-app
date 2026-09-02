@@ -11,6 +11,7 @@
       "icon": "🔌",
       "description": "Càrregues, camps, circuits, inducció i ones electromagnètiques",
       "style": "Fonamental · dels fenòmens a les lleis",
+      "level": "inicial",
       "lessons": [
         {
           "id": "ele-01",
@@ -341,6 +342,7 @@
       "icon": "🌊",
       "description": "Les equacions de Maxwell, la llum com a ona, i el camí a la relativitat",
       "style": "Conceptual · de la unificació a les implicacions profundes",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "max-01",
@@ -679,5 +681,8 @@
   ],
   "area": "ciencies",
   "topic": "Física",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-34-mecanica-classica"
+  ]
 }

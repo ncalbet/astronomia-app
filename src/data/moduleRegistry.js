@@ -41,3 +41,17 @@ export function getModuleList() {
 export function getModuleForTerm(termId) {
   return catalog.find(m => (m.glossaryTerms || []).includes(termId)) || null
 }
+
+/**
+ * Prerequisits d'un mòdul que l'usuari encara no ha completat.
+ * Gating suau: això només alimenta un avís, mai un bloqueig.
+ * Retorna metadades del catàleg, en l'ordre declarat.
+ */
+export function getMissingPrerequisites(moduleId, completedModules = []) {
+  const meta = getModuleMeta(moduleId)
+  if (!meta) return []
+  return (meta.prerequisites || [])
+    .filter(id => !completedModules.includes(id))
+    .map(getModuleMeta)
+    .filter(Boolean)
+}

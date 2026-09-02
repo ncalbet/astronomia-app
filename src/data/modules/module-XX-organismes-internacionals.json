@@ -12,6 +12,7 @@
       "icon": "🔍",
       "description": "L'arquitectura del poder internacional: per què existeixen les institucions globals, com funcionen i per què sovint fallen.",
       "style": "Analític · dels fonaments al debat actual",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "oi-01",
@@ -600,6 +601,7 @@
       "icon": "🏛️",
       "description": "Sis institucions clau analitzades en profunditat: com van néixer, com funcionen per dins i quins reptes enfronten avui.",
       "style": "Narratiu · de la creació als reptes d'avui",
+      "level": "inicial",
       "lessons": [
         {
           "id": "oi-b-01",
@@ -1048,5 +1050,8 @@
   "order": 93,
   "area": "relacions",
   "topic": "Diplomàcia",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-XX-teoria-ri"
+  ]
 }

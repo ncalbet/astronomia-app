@@ -11,6 +11,7 @@
       "icon": "⚡",
       "description": "Temps, espai, massa i energia: com Einstein va reescriure la mecànica de Newton",
       "style": "Conceptual · dels postulats a les conseqüències",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "esp-01",
@@ -261,6 +262,7 @@
       "icon": "🌌",
       "description": "Gravetat com a curvatura, forats negres, ones gravitacionals i cosmologia",
       "style": "Geomètric · de la gravetat a l'estructura de l'univers",
+      "level": "avancat",
       "lessons": [
         {
           "id": "gen-01",
@@ -539,5 +541,9 @@
   ],
   "area": "ciencies",
   "topic": "Física",
-  "level": "inicial"
+  "level": "intermedi",
+  "prerequisites": [
+    "module-34-mecanica-classica",
+    "module-37-electromagnetisme"
+  ]
 }

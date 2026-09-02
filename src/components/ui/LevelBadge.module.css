@@ -1,0 +1,36 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+  white-space: nowrap;
+}
+
+.meter {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 10px;
+}
+
+.tick {
+  width: 3px;
+  height: 4px;
+  border-radius: 1px;
+  background: var(--color-border);
+  transition: background var(--transition);
+}
+.tick:nth-child(2) { height: 7px; }
+.tick:nth-child(3) { height: 10px; }
+
+.on   { background: var(--color-text-dim); }
+/* Trams per sota del nivell d'entrada d'un abast: presents però apagats */
+.dim  { background: var(--color-border); }
+
+.label {
+  font-weight: 500;
+}

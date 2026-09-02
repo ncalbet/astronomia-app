@@ -11,6 +11,7 @@
       "icon": "🔭",
       "description": "Les grans teories per entendre per què els estats fan el que fan.",
       "style": "Conceptual · eines per llegir la realitat",
+      "level": "inicial",
       "lessons": [
         {
           "id": "ri-01",
@@ -615,6 +616,7 @@
       "icon": "🏛️",
       "description": "De Westfàlia al multipolarisme: els moments que van crear l'ordre que vivim.",
       "style": "Cronològic · de moment fundacional en moment fundacional",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "ri-b-01",
@@ -1181,5 +1183,8 @@
   ],
   "area": "relacions",
   "topic": "Teoria de les RRII",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-03-peace"
+  ]
 }

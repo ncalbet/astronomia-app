@@ -11,6 +11,7 @@
       "icon": "💭",
       "description": "Per què la gravetat de Newton era incompleta i com Einstein va reimaginar l'espai i el temps",
       "style": "Conceptual · del problema a la solució",
+      "level": "inicial",
       "lessons": [
         {
           "id": "rel-01",
@@ -445,6 +446,7 @@
       "icon": "🔭",
       "description": "Com la ciència va verificar la teoria d'Einstein i quines conseqüències impensables en van sorgir",
       "style": "Empíric · de la predicció a la confirmació",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "rel-p01",
@@ -811,5 +813,8 @@
   "order": 61,
   "area": "ciencies",
   "topic": "Física",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-34-mecanica-classica"
+  ]
 }

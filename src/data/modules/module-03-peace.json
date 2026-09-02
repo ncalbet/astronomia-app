@@ -11,6 +11,7 @@
       "icon": "🔍",
       "description": "Els conceptes fonamentals per entendre qualsevol conflicte — i per què la guerra no és mai una solució",
       "style": "Conceptual · del simple al profund",
+      "level": "inicial",
       "lessons": [
         {
           "id": "peace-01",
@@ -312,14 +313,501 @@
           ]
         }
       ]
+    },
+    {
+      "id": "llegir-conflicte",
+      "title": "Llegir un conflicte",
+      "icon": "🔍",
+      "description": "Com es construeix una interpretació d'un conflicte armat: d'on surten les dades, què compta com a explicació, quins marcs competeixen sobre un mateix cas i què decideix qui els aplica.",
+      "style": "Analític · de la descripció a la interpretació",
+      "level": "avancat",
+      "requires": [
+        "conceptual"
+      ],
+      "lessons": [
+        {
+          "id": "conf-01",
+          "title": "Comptar morts és una decisió",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-conf-01",
+              "revealAfterBlockId": "ki-conf-01",
+              "question": "Dos informes solvents donen xifres de morts d'una mateixa guerra que difereixen en un factor de sis. Què n'has de concloure?",
+              "options": [
+                "Que un dels dos manipula les dades per raons polítiques, i cal identificar quin",
+                "Que les xifres de conflictes són poc fiables en general i és millor no fer-les servir",
+                "Que probablement mesuren coses diferents, i que la discrepància és informativa: revela quines decisions metodològiques ha pres cadascun"
+              ],
+              "correct": 2,
+              "explanation": "La primera reacció —algú menteix— sol ser errònia i sempre és improductiva. Dues xifres molt diferents acostumen a ser respostes correctes a preguntes diferents: morts en combat documentades una per una, o excés de mortalitat estimat per enquesta respecte d'una línia base contrafactual. La segona reacció —no fer-ne cas— és pitjor, perquè deixa el terreny a qui vulgui afirmar el que li convingui. La feina analítica consisteix a llegir la metodologia abans que la xifra, i a preguntar-se sempre qui compta, què compta com a mort del conflicte, i què s'ha fet amb els casos dubtosos."
+            },
+            {
+              "type": "narrative",
+              "text": "El Programa de Dades sobre Conflictes d'Uppsala, que és la font que alimenta bona part de la recerca quantitativa del camp, defineix un conflicte armat com una disputa amb participació governamental que produeix almenys vint-i-cinc morts en combat en un any civil. Amb mil o més, passa a ser una guerra. Aquests llindars són raonables, estan documentats i permeten comparar. També són arbitraris: un conflicte amb vint-i-quatre morts no existeix estadísticament, i un conflicte que en fa vint-i-sis apareix i desapareix del recompte segons l'any."
+            },
+            {
+              "type": "narrative",
+              "text": "Els llindars són només la primera decisió. Després venen les altres. Compten les morts per fam provocada pel setge d'una ciutat? I les que causa el col·lapse del sistema sanitari? Una persona que mor de tuberculosi en un campament de desplaçats, hi és perquè hi va haver una guerra: és una víctima del conflicte? Segons on posis la ratlla, la mateixa guerra pot tenir quaranta mil morts o quatre-cents mil. Cap de les dues xifres és falsa. Són respostes a preguntes diferents, i la pregunta que tries no és una qüestió tècnica: determina quina mena de responsabilitat s'està atribuint i a qui."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-conf-01",
+              "text": "No existeix la xifra de morts d'una guerra. Existeixen recomptes de morts directes en combat, documentades cas per cas, que subestimen sistemàticament el cost humà; i existeixen estimacions d'excés de mortalitat, obtingudes per enquesta i comparades amb una línia base contrafactual, que capturen molt més però amb marges d'error amplis i supòsits discutibles. Citar-ne una sense dir quina és, en el millor dels casos, imprecisió; en el pitjor, un argument disfressat de dada."
+            },
+            {
+              "type": "comparison",
+              "title": "Dos mètodes, dues preguntes diferents",
+              "labelA": "Recompte de morts documentades",
+              "labelB": "Estimació d'excés de mortalitat",
+              "items": [
+                {
+                  "label": "Com es fa",
+                  "a": "Es registra cada mort a partir de fonts identificables: premsa, hospitals, morgues, informes",
+                  "b": "S'enquesten llars sobre defuncions i es compara amb la mortalitat esperada sense guerra"
+                },
+                {
+                  "label": "Què respon",
+                  "a": "Quantes morts violentes podem documentar amb nom i data?",
+                  "b": "Quantes persones han mort de més respecte d'un escenari sense conflicte?"
+                },
+                {
+                  "label": "Biaix principal",
+                  "a": "Subestima: el que no arriba a cap font no existeix, i és més al camp que a la ciutat",
+                  "b": "Incertesa estadística gran, molt sensible al mostreig i a la línia base triada"
+                },
+                {
+                  "label": "Ús polític habitual",
+                  "a": "L'invoca qui vol minimitzar la magnitud del cost humà",
+                  "b": "L'invoca qui vol maximitzar-la"
+                },
+                {
+                  "label": "Cas de manual",
+                  "a": "Iraq Body Count, basat en fonts públiques verificables",
+                  "b": "Les enquestes de mortalitat publicades a The Lancet sobre l'Iraq"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El cas de l'Iraq: la discrepància que va durar una dècada",
+              "content": "El 2006, un equip de la Universitat Johns Hopkins va publicar a The Lancet una estimació d'excés de mortalitat a l'Iraq des de la invasió de 2003 que superava les sis-centes mil persones. En aquell moment, Iraq Body Count —un projecte que documentava morts civils a partir de fonts públiques verificables— en tenia registrades poc més de cinquanta mil. La diferència era d'un ordre de magnitud.\n\nEl debat que va seguir va ser dur i, en part, tècnicament fecund: es va discutir el disseny del mostreig, l'efecte del conglomerat, la línia base de mortalitat preguerra i la possibilitat de biaix en el treball de camp. També va ser immediatament polític. L'estimació alta la van citar els crítics de la invasió; la baixa, els seus defensors. El govern britànic va qüestionar-ne la metodologia en públic mentre, segons documents interns divulgats posteriorment, els seus propis assessors científics la consideraven raonablement sòlida.\n\nLa lliçó no és quina xifra era la bona. És que la pregunta «quanta gent ha mort» no té una resposta neutral disponible, i que qui la cita tria —conscientment o no— una posició sobre què compta com a conseqüència d'una guerra."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-conf-01-01",
+              "style": "multiple-choice",
+              "question": "Un informe afirma que un conflicte «ha deixat de ser una guerra» perquè les morts en combat han baixat de mil l'any. Quina és la lectura analíticament correcta?",
+              "options": [
+                "Que la violència ha disminuït substancialment i el conflicte s'està resolent",
+                "Que ha canviat la categoria estadística, cosa que no implica per si mateixa que la violència ni el patiment hagin disminuït en la mateixa proporció",
+                "Que l'informe és erroni, perquè els conflictes no canvien de categoria",
+                "Que el conflicte ha acabat i comença la fase de construcció de pau"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Creuar un llindar és un fet sobre la classificació, no necessàriament sobre la realitat. La violència pot haver canviat de forma —de combat obert a repressió selectiva, desaparicions o violència criminal— sense disminuir el patiment total, i el recompte de morts en combat no captura res d'això. La disminució pot ser real; l'informe, però, no ho ha demostrat: només ha dit on cau el conflicte respecte d'una convenció.",
+              "feedbackWrong": "El llindar de mil morts en combat és una convenció de classificació, no una descripció del patiment. Un conflicte pot baixar-ne perquè la violència ha disminuït de veritat, o perquè ha canviat de forma: repressió selectiva, desaparicions, desplaçament forçat, violència criminal difusa. Cap d'aquests fenòmens compta com a «mort en combat». Del canvi de categoria no se'n dedueix, per si sol, res sobre la realitat."
+            },
+            {
+              "type": "reflection",
+              "question": "La dada que necessitaries i que no existeix",
+              "prompt": "Pensa en un conflicte que segueixis de prop. Quina xifra t'agradaria tenir per entendre'l millor? Ara pregunta't per què no existeix: perquè ningú l'ha buscada, perquè és tècnicament impossible de mesurar, o perquè algú té un interès actiu que no es mesuri? Les tres respostes es donen, i distingir-les és bona part de la feina analítica."
+            }
+          ]
+        },
+        {
+          "id": "conf-02",
+          "title": "Causes, condicions i pretextos",
+          "blocks": [
+            {
+              "type": "misconception",
+              "belief": "Una guerra té una causa: es pot identificar què la va provocar, i el desacord entre analistes es deu a informació incompleta.",
+              "reality": "Els conflictes armats són fenòmens sobredeterminats: hi conflueixen condicions estructurals de fons, factors que fan la violència possible, decisions concretes d'actors identificables i esdeveniments desencadenants. Cap d'aquests nivells és «la» causa. El desacord entre analistes solvents rarament ve de tenir menys dades: ve de treballar en nivells d'anàlisi diferents i de tenir criteris diferents sobre què compta com a explicació.",
+              "why": "La narració periodística necessita una causa perquè necessita un relat, i el relat necessita un principi. La demanda política és encara més forta: atribuir una causa és atribuir una responsabilitat, i per tant fixa qui ha de cedir, qui ha de pagar i qui pot ser interlocutor. Dir que una guerra té causes múltiples i entrellaçades és analíticament correcte i políticament inservible, i aquesta tensió no es resol: es gestiona."
+            },
+            {
+              "type": "narrative",
+              "text": "Kenneth Waltz va proposar el 1959 una distinció que continua estructurant el camp: els fenòmens internacionals es poden explicar en tres nivells. El primer és la naturalesa humana i les decisions individuals. El segon és l'estructura interna dels estats: el seu règim polític, la seva economia, les seves divisions socials. El tercer és el sistema internacional: la distribució de poder, l'absència d'una autoritat superior, les aliances. La proposta de Waltz no era que un nivell fos el correcte, sinó que confondre'ls produeix debats on els interlocutors no discuteixen sobre el mateix."
+            },
+            {
+              "type": "narrative",
+              "text": "A la pràctica, un mateix conflicte accepta explicacions vàlides i simultànies als tres nivells, i aquestes explicacions no competeixen: operen en escales temporals diferents. Les condicions estructurals expliquen per què una societat és vulnerable a la violència organitzada durant dècades. Les decisions d'actors expliquen per què va esclatar aquell any i no un altre. Els esdeveniments desencadenants expliquen la data. Confondre un desencadenant amb una causa —l'atemptat de Sarajevo com a explicació de la Primera Guerra Mundial— és l'error més comú i el més fàcil de detectar."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-conf-02",
+              "text": "Distingeix quatre coses que sovint es barregen. Condicions de fons: allò que fa una societat vulnerable (desigualtat horitzontal entre grups, institucions febles, dependència de rendes extractives). Factors habilitadors: allò que fa la violència possible (accés a armes, finançament, santuaris, fronteres poroses). Decisions: allò que fa la violència efectiva (l'elecció d'actors concrets de mobilitzar, escalar o reprimir). Desencadenants: allò que fixa la data. Una explicació que només toca un d'aquests nivells no és falsa; és parcial, i cal saber de quina parcialitat es tracta."
+            },
+            {
+              "type": "debate",
+              "question": "Les guerres civils s'expliquen millor per l'oportunitat econòmica o per l'agreujament polític?",
+              "context": "A partir de finals dels anys noranta, un programa de recerca quantitativa impulsat des del Banc Mundial va sostenir que les variables econòmiques predien l'esclat de guerres civils molt millor que les mesures d'agreujament identitari o polític. El debat que va obrir continua obert i ha marcat tant la recerca com el disseny de polítiques.",
+              "positionA": {
+                "label": "Oportunitat: la viabilitat explica més que l'agravi",
+                "argument": "Els agravis són pràcticament universals i les rebel·lions no ho són: si gairebé totes les societats tenen greuges profunds i només algunes tenen guerra, l'agravi no pot ser la variable que discrimina. El que discrimina és si una rebel·lió és financerament i logísticament viable — si hi ha recursos exportables per finançar-la, terreny per amagar-se, joves sense alternativa econòmica. Aquest enfocament té una virtut incòmoda: prediu raonablement bé, i no depèn de la retòrica que els actors utilitzen sobre si mateixos."
+              },
+              "positionB": {
+                "label": "Agravi: la desigualtat entre grups és la variable que compta",
+                "argument": "El resultat depèn críticament de com es mesura l'agravi. Els indicadors utilitzats en aquells estudis eren mesures de desigualtat individual i fragmentació ètnica agregada, que capturen malament el que realment mobilitza: la desigualtat horitzontal, és a dir, la que separa grups amb identitat compartida i accés diferencial al poder i als recursos. Quan es mesura així, la relació amb el conflicte reapareix amb força. A més, l'enfocament de l'oportunitat confon com es finança una guerra amb per què comença: que un moviment vengui diamants per pagar armes no diu res sobre per què hi ha gent disposada a lluitar-hi."
+              },
+              "reflection": "Fixa't en el que està realment en joc. Si la resposta és l'oportunitat, la política pública correcta és tallar finançaments i vigilar mercats de recursos. Si és l'agravi, és redistribuir poder i reformar institucions d'inclusió. Són agendes molt diferents, amb costos polítics molt diferents per a qui les ha d'aplicar. Aquesta és una de les raons per les quals el debat no s'ha tancat només amb dades: la conclusió determina qui ha de canviar."
+            },
+            {
+              "type": "expandable",
+              "label": "El problema tècnic que enverina tot el camp: l'endogeneïtat",
+              "content": "Les institucions febles causen la guerra, o la guerra debilita les institucions? Els dos sentits són plausibles i tots dos operen alhora. Quan una variable explicativa és, alhora, conseqüència del fenomen que vol explicar, la correlació observada no permet inferir direcció causal. Això no és un detall menor de la literatura sobre conflictes: és una condició estructural de gairebé totes les seves regressions.\n\nLes estratègies habituals per esquivar-ho tenen cadascuna el seu problema. Les variables instrumentals requereixen trobar alguna cosa que afecti la causa però no el resultat per cap altra via — un requisit fort que la literatura ha discutit sovint amb escepticisme (els xocs de preus de matèries primeres i les anomalies de pluviositat han estat instruments populars i molt criticats). Els dissenys de discontinuïtat requereixen llindars administratius nets que rarament existeixen en zones de conflicte. Els estudis de cas processos resolen bé la direcció causal però no permeten generalitzar.\n\nLa conseqüència pràctica és que convé desconfiar de qualsevol afirmació de la forma «X causa conflicte» presentada sense una discussió explícita d'aquest problema. La formulació honesta acostuma a ser més modesta: X està robustament associat amb conflicte, i aquestes són les raons per pensar que la relació va en aquest sentit."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-conf-02-01",
+              "style": "multiple-choice",
+              "question": "Un analista afirma: «la caiguda del preu del petroli va causar la guerra». Quina objecció metodològica és la més pertinent?",
+              "options": [
+                "Que els preus del petroli no es poden mesurar amb prou precisió",
+                "Que confon un factor que altera l'equilibri en un moment concret amb una explicació de per què aquella societat era vulnerable a la violència organitzada",
+                "Que les causes econòmiques mai expliquen conflictes armats",
+                "Que hauria de citar la font de les dades de preus"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. Un xoc de preus és plausiblement un factor precipitant: redueix la capacitat de l'estat de comprar lleialtats, altera el càlcul d'actors que ja estaven en tensió, marca el moment. Però no explica per què aquella societat tenia actors armats disposats a aprofitar-ho, mentre que altres països igualment exposats al mateix xoc no van entrar en guerra. L'objecció no és que l'economia no expliqui res: és que s'està confonent el nivell del desencadenant amb el de les condicions de fons.",
+              "feedbackWrong": "El problema no és la qualitat de les dades ni la legitimitat de les explicacions econòmiques, que són perfectament pertinents. El problema és de nivell d'anàlisi: un xoc de preus pot explicar per què va passar aquell any concret, però no per què aquella societat era vulnerable i altres societats exposades al mateix xoc no ho eren. S'està oferint un desencadenant com si fos una causa estructural."
+            }
+          ]
+        },
+        {
+          "id": "conf-03",
+          "title": "Tres marcs sobre el mateix cas",
+          "blocks": [
+            {
+              "type": "what-would-you-do",
+              "character": "Analista d'un ministeri d'exteriors europeu",
+              "emoji": "📋",
+              "year": "Primavera de 1992",
+              "setup": "Una federació multinacional s'està desintegrant. Dues repúbliques han declarat la independència, hi ha hagut combats i han començat els primers desplaçaments forçats de població. El teu ministre et demana una nota de dues pàgines que respongui una pregunta: què està passant realment aquí? De la teva resposta en dependrà si el govern defensa una intervenció, una mediació o l'abstenció.",
+              "dilemma": "Quin marc interpretatiu poses a la nota?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Un col·lapse de seguretat: en desaparèixer l'estat, cada comunitat s'arma per protegir-se i les mesures defensives d'unes són llegides com a amenaça per les altres"
+                },
+                {
+                  "id": "B",
+                  "text": "Una estratègia d'elits: dirigents polítics amenaçats per la democratització mobilitzen la por identitària per conservar el poder"
+                },
+                {
+                  "id": "C",
+                  "text": "Un ressorgiment d'odis històrics profunds que la federació havia contingut però no resolt"
+                }
+              ],
+              "reveal": "Les tres lectures es van escriure, es van publicar en revistes acadèmiques de primer nivell i van circular per cancelleries occidentals durant aquells mesos. Les dues primeres continuen sent posicions defensables i molt citades en la literatura especialitzada. La tercera va ser dominant en el debat públic i es va desacreditar acadèmicament amb força rapidesa: no explicava per què la violència va esclatar en aquell moment concret i no en dècades de convivència anterior, ni per què va tenir intensitats molt diferents en regions amb històries comparables.",
+              "analysis": "El que fa aquest exercici incòmode és que la tercera lectura —la més feble analíticament— era també la que oferia la conclusió política més còmoda per a qui no volia intervenir: si l'odi és antic i estructural, no hi ha res a fer i abstenir-se és prudència. S'ha explicat sovint que aquesta narrativa va tenir influència directa sobre la reticència inicial d'algunes capitals occidentals. Sigui quin sigui l'abast real d'aquella influència, el mecanisme és general i val la pena retenir-lo: els marcs interpretatius no només descriuen un conflicte, també distribueixen responsabilitat i defineixen quines accions són pensables."
+            },
+            {
+              "type": "narrative",
+              "text": "Un marc interpretatiu no és un biaix ni una preferència: és una decisió sobre quins mecanismes es consideren rellevants. Determina quines dades es busquen, quins actors es consideren decisius i, sobretot, quines preguntes ni tan sols s'arriben a formular. Dos analistes competents amb la mateixa informació poden arribar a conclusions incompatibles sense que cap dels dos s'equivoqui en cap fet concret."
+            },
+            {
+              "type": "perspective",
+              "situation": "Una comunitat comença a organitzar milícies d'autodefensa en un estat que s'està desintegrant",
+              "perspectives": [
+                {
+                  "role": "Lectura de seguretat",
+                  "emoji": "🛡️",
+                  "text": "Quan l'autoritat central desapareix, cap grup pot confiar que ningú el protegirà. Armar-se és racional i defensiu. El problema és que l'adversari no pot distingir armament defensiu d'ofensiu: veu una amenaça i s'arma també. Cada pas prudent d'una banda justifica el pas següent de l'altra. La violència no requereix que ningú la vulgui — només que ningú es pugui permetre confiar. La implicació política és directa: garanties externes creïbles poden trencar l'espiral, perquè el problema no és la voluntat sinó la desconfiança."
+                },
+                {
+                  "role": "Lectura d'economia política",
+                  "emoji": "♟️",
+                  "text": "Mira qui guanya. Els dirigents que promouen la mobilització identitària són sovint els que tenen més a perdre amb una obertura democràtica o amb una reforma econòmica que redistribueixi rendes. Polaritzar la població per línies ètniques desactiva les coalicions que els podrien desallotjar del poder i converteix una disputa sobre recursos en una qüestió de supervivència col·lectiva. La violència aquí no és un fracàs del sistema: és una estratègia amb beneficiaris identificables. La implicació política és molt diferent: negociar amb aquests actors pot consolidar precisament el que caldria desmuntar."
+                },
+                {
+                  "role": "Lectura constructivista",
+                  "emoji": "🗣️",
+                  "text": "Les identitats que semblen antigues i fixes s'han construït i reconstruït recentment, i el conflicte mateix les endureix. Abans de la violència, les fronteres de grup eren poroses: matrimonis mixtos, identitats múltiples, lleialtats locals per damunt de les nacionals. La guerra no expressa identitats preexistents, les fabrica — i cada acte de violència fa que la categoria a què et van assignar esdevingui el fet més important de la teva vida. La implicació és que la reversibilitat existeix, però opera en generacions i passa per la memòria, l'educació i el relat públic, no per acords entre dirigents."
+                }
+              ],
+              "reflection": "Cap de les tres lectures és falsa i cap és completa. La primera explica bé la dinàmica d'escalada però tracta els grups com a actors unitaris que no ho són. La segona identifica responsabilitats concretes però pot infravalorar la por genuïna de la població, que no és una il·lusió induïda. La tercera explica la formació d'identitats però costa que produeixi recomanacions accionables en el termini en què un mediador ha de decidir. L'analista competent no en tria una: sap quina està fent servir en cada moment i què deixa fora."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-conf-03",
+              "text": "El criteri per avaluar un marc interpretatiu no és si és cert, sinó tres coses més concretes: què explica que els altres no expliquin, quina evidència el podria refutar, i quines opcions polítiques fa visibles o invisibles. Un marc que ho explica tot sense poder ser refutat per cap observació no és una teoria potent, és una teoria buida — i acostuma a ser la que millor serveix per justificar una decisió ja presa."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-conf-03-01",
+              "style": "multiple-choice",
+              "question": "Quina és l'objecció empírica més forta contra l'explicació d'un conflicte per «odis històrics profunds»?",
+              "options": [
+                "Que és ofensiva per a les poblacions afectades",
+                "Que no explica la variació: si els odis són antics i constants, no poden explicar per què la violència esclata en un moment determinat i no en un altre, ni per què afecta unes regions i no altres comparables",
+                "Que la història no influeix en els conflictes contemporanis",
+                "Que no hi ha prou registres històrics per verificar-la"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte, i el criteri és general: una variable constant no pot explicar un resultat variable. Si l'hostilitat entre dos grups fa segles que existeix, no pot ser l'explicació de per què hi ha guerra el 1992 i no el 1972. Les memòries històriques són reals i sí que hi tenen un paper — com a repertori simbòlic disponible que actors concrets poden activar o desactivar. Però aleshores l'explicació ha passat a ser qui l'activa i per què, que és una explicació diferent.",
+              "feedbackWrong": "L'objecció decisiva és metodològica, no moral: una constant no pot explicar una variació. Si l'hostilitat és antiga i permanent, no pot explicar per què la violència esclata en un any concret i no en dècades de convivència anterior, ni per què és intensa en unes regions i mínima en altres amb història comparable. La memòria històrica és real, però funciona com a recurs simbòlic que algú activa — i llavors l'explicació és aquesta activació."
+            },
+            {
+              "type": "reflection",
+              "question": "El teu marc per defecte",
+              "prompt": "Torna a un conflicte que coneguis bé i pregunta't quin dels tres marcs uses espontàniament quan te l'expliques a tu mateix. Ara força't a escriure la millor versió possible d'un dels altres dos: no una caricatura, sinó l'argument tal com el defensaria algú intel·ligent. Si el resultat et sembla més fort del que esperaves, has trobat un punt cec. Si et sembla obviament dèbil, val la pena comprovar si has escrit la millor versió o només la que et convenia."
+            }
+          ]
+        },
+        {
+          "id": "conf-04",
+          "title": "El dilema del mediador",
+          "blocks": [
+            {
+              "type": "what-would-you-do",
+              "character": "Cap d'un equip de mediació",
+              "emoji": "🕊️",
+              "year": "Any quinzè d'un conflicte armat intern",
+              "setup": "Portes catorze mesos de contactes discrets. El grup armat accepta seure a la taula amb dues condicions: que les converses es facin fora del país amb un estat garant, i que els seus dirigents rebin garanties que no seran detinguts durant el procés. El govern hi accedeix a contracor. Les organitzacions de víctimes s'assabenten de la segona condició i emeten un comunicat dur: dieu que negocieu la pau i el primer que feu és protegir els responsables.",
+              "dilemma": "Acceptes la condició de les garanties?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sí: sense garanties no hi ha taula, i sense taula la guerra continua. La prioritat és aturar la violència ara"
+                },
+                {
+                  "id": "B",
+                  "text": "No: un procés que comença suspenent la justícia neix il·legítim i no aguantarà l'escrutini públic ni el pas del temps"
+                }
+              ],
+              "reveal": "En la pràctica dels processos reals, gairebé sempre s'accepta alguna versió de la primera opció, i gairebé sempre es paga el preu de la segona. La forma habitual de sortir-se'n és desplaçar la qüestió en el temps: garanties de seguretat durant el procés, i un règim de justícia transicional negociat com a part de l'acord final. Això no dissol el problema, el converteix en el capítol més disputat de la negociació — i sovint en el que decideix si l'acord és ratificat.",
+              "analysis": "El cas colombià il·lustra el cost amb precisió. L'acord amb les FARC de 2016 incloïa un sistema de justícia transicional amb penes alternatives per a qui confessés i reparés. Sotmès a plebiscit el 2 d'octubre de 2016, va ser rebutjat per un marge estretíssim, i el tractament de la justícia va ser un dels arguments centrals de la campanya del no. L'acord es va renegociar amb modificacions i es va aprovar per via parlamentària semanes després. La seqüència mostra les dues cares alhora: sense aquelles concessions probablement no hi hauria hagut acord, i amb elles l'acord va perdre la legitimació popular directa que buscava. No hi ha una opció sense cost; hi ha una elecció sobre quin cost s'assumeix i qui el paga."
+            },
+            {
+              "type": "narrative",
+              "text": "La imparcialitat del mediador és el principi més citat del camp i el més difícil de sostenir. Un mediador estrictament imparcial no té res a oferir ni res a retirar: la seva capacitat d'influir depèn justament de tenir recursos —reconeixement, diners, seguretat, accés— que pot concedir o negar. Però tot recurs que pot concedir el converteix en part interessada. Els processos amb més capacitat de pressió acostumen a ser aquells on el mediador és un actor poderós amb interessos propis, i això és alhora la seva força i el seu problema de legitimitat."
+            },
+            {
+              "type": "narrative",
+              "text": "Hi ha un segon dilema, més incòmode encara. Seure a la taula amb un actor armat li reconeix una condició política que abans no tenia. Aquest reconeixement és exactament el que sovint busca, i pot ser un incentiu perquè altres grups facin servir la violència per obtenir-lo. Però negar-lo indefinidament garanteix que la guerra continuï. Cada procés de pau ha de decidir aquesta qüestió, i la decisió no admet una regla general: depèn de si l'actor té control territorial i capacitat de complir el que signi, cosa que és una avaluació empírica i no un principi moral."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-conf-04",
+              "text": "La mediació no és un exercici de bona voluntat entre les parts: és una operació sobre incentius en un context de desconfiança extrema. Les tres preguntes operatives són sempre les mateixes. Qui té capacitat real de complir el que signi i de fer-ho complir als seus? Qui perd amb l'acord i què pot fer per sabotejar-lo? I què fa creïble el compromís de les parts un cop hagin desarmat i siguin vulnerables?"
+            },
+            {
+              "type": "comparison",
+              "title": "Dues escoles sobre quan intervenir",
+              "labelA": "Esperar la maduresa del conflicte",
+              "labelB": "Intervenir aviat",
+              "items": [
+                {
+                  "label": "Premissa",
+                  "a": "Les parts només negocien seriosament quan perceben un empat que els fa mal i no veuen sortida militar",
+                  "b": "Com més s'allarga la violència, més s'endureixen les posicions i més costa qualsevol acord"
+                },
+                {
+                  "label": "Què implica",
+                  "a": "Preparar-se i esperar el moment; una mediació prematura crema el capital i desacredita el mediador",
+                  "b": "Actuar sobre les condicions abans que la violència generi les seves pròpies dinàmiques"
+                },
+                {
+                  "label": "Punt feble",
+                  "a": "«Encara no és madur» és una racionalització perfecta de la inacció, i el cost de l'espera el paguen les víctimes",
+                  "b": "Sense percepció d'empat, els actors utilitzen la negociació per guanyar temps i rearmar-se"
+                },
+                {
+                  "label": "Com es reconeix a la pràctica",
+                  "a": "S'invoca sovint per justificar decisions ja preses per altres motius",
+                  "b": "Es defensa millor quan hi ha garants amb capacitat de sostenir l'acord en el temps"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Els espòilers: els qui perden amb la pau",
+              "content": "Tot acord de pau crea perdedors, i alguns tenen capacitat de destruir-lo. La literatura els anomena espòilers i en distingeix tipus segons els seus objectius: n'hi ha de limitats, que volen més del que l'acord els dona i es poden acomodar amb concessions; n'hi ha de totals, que rebutgen el marc sencer i amb els quals no hi ha acomodació possible; i n'hi ha d'oportunistes, que ajusten la posició segons el que veuen que poden obtenir.\n\nLa distinció importa perquè les respostes correctes són incompatibles entre elles. Amb un espòiler limitat, la resposta és inclusió i concessions. Amb un espòiler total, la inclusió és exactament l'error: li dona temps, recursos i legitimitat per continuar. I el diagnòstic s'ha de fer amb informació incompleta, sota pressió temporal, i sobre actors que tenen tot l'interès a semblar el que no són.\n\nHi ha un problema addicional que la categoria amaga. Els espòilers no sempre són grups armats: poden ser sectors del propi govern, forces de seguretat que perden pressupost i impunitat, o economies de guerra amb milers de persones que en depenen. Aquests darrers rarament apareixen a les llistes d'actors del procés, i sovint són els més decisius."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-conf-04-01",
+              "style": "multiple-choice",
+              "question": "Segons la literatura sobre compromisos creïbles, quin és l'obstacle central perquè un grup armat accepti desarmar-se?",
+              "options": [
+                "Que no vol la pau realment: la violència li reporta beneficis que no vol perdre",
+                "Que un cop desarmat queda a mercè de l'altra part, i res no garanteix que aquesta compleixi el pactat quan ja no hi hagi res que l'hi obligui",
+                "Que els seus combatents no acceptarien l'ordre de desarmar",
+                "Que el desarmament és tècnicament difícil de verificar"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. És un problema de compromís creïble, no de voluntat. Encara que les dues parts prefereixin sincerament la pau a la guerra, el desarmament les col·loca en una situació asimètrica: qui entrega les armes perd la seva única garantia. Si l'altra part pot incomplir sense conseqüències, el pacte no és creïble i el càlcul racional és no desarmar-se. D'aquí ve la centralitat de les garanties de tercers amb capacitat real de sanció: no substitueixen la confiança, la fan innecessària.",
+              "feedbackWrong": "La qüestió no és de voluntat ni de logística: és estructural. Encara que totes dues parts vulguin sincerament la pau, la que desarma primer queda vulnerable i sense cap manera de fer complir l'acord si l'altra decideix incomplir-lo. Aquest és el problema del compromís creïble. Explica per què els acords amb garanties externes robustes sobreviuen molt millor que els que confien en la bona fe de les parts."
+            },
+            {
+              "type": "reflection",
+              "question": "El cost de seure a la taula",
+              "prompt": "Un mediador que exclou els actors amb capacitat de violència signa un acord que no aguantarà. Un que els inclou legitima qui ha fet servir la violència per arribar-hi. Aquesta tensió no té solució teòrica: es decideix cas per cas, amb informació incompleta, i qui decideix haurà de conviure amb la decisió. Si haguessis de fixar-te un criteri propi abans d'entrar en una situació així, quin seria — i quina evidència et faria abandonar-lo?"
+            }
+          ]
+        },
+        {
+          "id": "conf-05",
+          "title": "Acords que aguanten i acords que no",
+          "blocks": [
+            {
+              "type": "misconception",
+              "belief": "Aproximadament la meitat dels acords de pau fracassen i el conflicte recomença en menys de deu anys. És una de les dades més establertes del camp.",
+              "reality": "La xifra prové d'estudis de principis dels anys dos mil que van tenir un impacte enorme sobre el disseny de polítiques, i va ser qüestionada seriosament pocs anys després. Les revisions van mostrar que el resultat depenia molt de com es codificaven els casos: què compta com a «mateix conflicte» quan reapareix amb actors parcialment diferents, i què compta com a «final» quan la violència mai s'atura del tot. Amb codificacions més restrictives, la taxa de recurrència baixa substancialment.",
+              "why": "Les xifres rodones i alarmants viatgen millor que les seves matisacions. Aquella dada va ser especialment útil per a un argument concret —cal invertir més i durant més temps en construcció de pau postconflicte— i qui la citava tenia poc incentiu a revisar-la. És un exemple net de com una estimació es converteix en fet establert per repetició, i val la pena retenir-lo perquè el mecanisme és freqüent en aquest camp: la dada que millor serveix un argument és la que menys escrutini rep de qui l'utilitza."
+            },
+            {
+              "type": "narrative",
+              "text": "Malgrat les incerteses de mesura, hi ha regularitats que aguanten raonablement bé l'escrutini. La més sòlida és la que ja apuntava la lliçó anterior: els acords amb garanties de tercers amb capacitat real de sanció sobreviuen molt millor que els que descansen en la bona fe. No perquè generin confiança, sinó perquè la fan innecessària: canvien el càlcul de qui es plantegi incomplir."
+            },
+            {
+              "type": "narrative",
+              "text": "La segona regularitat és més incòmoda. Els acords que reparteixen poder entre les parts —quotes al govern, a l'exèrcit, a l'administració— aturen la violència amb més freqüència que els que no ho fan. I alhora tendeixen a congelar les divisions que van produir el conflicte, convertint la identitat de grup en la moneda permanent de la política. Es guanya el curt termini a canvi d'hipotecar el llarg. La discussió sobre si aquest bescanvi val la pena porta trenta anys oberta i no s'ha tancat, entre altres raons perquè els dos costats tenen casos empírics forts."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-conf-05",
+              "text": "Un acord de pau no és un document: és un conjunt de mecanismes que han de fer que a cada part li surti més a compte complir que incomplir, cada dia, durant anys. Les clàusules que importen no són les declaracions de principis sinó les que responen tres preguntes: qui verifica, què passa si algú incompleix, i de què viuran els combatents desmobilitzats el mes que ve. Els acords fracassen molt més sovint per la tercera que per les dues primeres."
+            },
+            {
+              "type": "comparison",
+              "title": "Repartir poder: el bescanvi central",
+              "labelA": "A favor",
+              "labelB": "En contra",
+              "items": [
+                {
+                  "label": "Efecte immediat",
+                  "a": "Dona a cada grup garanties que no serà exclòs, i això redueix l'incentiu a tornar a les armes",
+                  "b": "Recompensa la mobilització violenta amb accés institucional permanent"
+                },
+                {
+                  "label": "Efecte a llarg termini",
+                  "a": "Amb el temps, la cooperació institucional pot erosionar la desconfiança",
+                  "b": "Institucionalitza la divisió: la identitat de grup esdevé el fonament de la política i no es pot abandonar"
+                },
+                {
+                  "label": "Qui hi surt perdent",
+                  "a": "Els espòilers totals, que perden l'argument que el sistema els exclou",
+                  "b": "Qui no encaixa en cap de les categories reconegudes, que queda fora del repartiment"
+                },
+                {
+                  "label": "Evidència",
+                  "a": "Casos de violència aturada durant dècades gràcies a mecanismes de repartiment",
+                  "b": "Casos de bloqueig institucional crònic i identitats congelades en els mateixos sistemes"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El problema que menys atenció rep: de què viuen els desmobilitzats",
+              "content": "Els programes de desarmament, desmobilització i reintegració són la part menys glamurosa dels processos de pau i, amb tota probabilitat, la que més determina si aguanten. La lògica és senzilla i sovint es tracta com un tràmit: milers de persones, majoritàriament joves, amb formació militar, sense qualificació laboral, amb xarxes socials construïdes dins d'una estructura armada, i sovint estigmatitzades a les comunitats on tornen.\n\nSi al cap de sis mesos no tenen ingressos, la reincorporació a alguna estructura armada —la mateixa, una de dissident, o una organització criminal que no té res a veure amb el conflicte original— deixa de ser una decisió ideològica i passa a ser la sortida disponible. Els casos on això ha passat són nombrosos i el patró és reconeixible: la violència reapareix amb un vestit diferent i s'acaba comptabilitzant com a criminalitat comuna, cosa que la treu de les estadístiques de conflicte i, per tant, dels indicadors amb què s'avalua l'èxit del procés.\n\nHi ha una asimetria de finançament que agreuja el problema. Els fons per a la fase de negociació i signatura arriben amb visibilitat política; els fons per al cinquè any de reintegració competeixen amb crisis més recents i més mediàtiques. El resultat és previsible i sistemàtic: es finança bé el que es veu i malament el que decideix."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-conf-05-01",
+              "style": "multiple-choice",
+              "question": "Quin indicador diries que prediu millor la supervivència d'un acord de pau als cinc anys?",
+              "options": [
+                "La longitud i el detall del text de l'acord",
+                "El nombre d'estats que li donen suport diplomàtic públic",
+                "L'existència de garanties de tercers amb capacitat de sanció i de mecanismes de verificació amb accés real al terreny",
+                "El prestigi internacional dels signants"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Correcte. El que sosté un acord no és la qualitat de la seva redacció ni el suport declaratiu, sinó l'existència d'algú amb capacitat i voluntat de fer costós l'incompliment, i d'un mecanisme que detecti l'incompliment a temps. És el mateix problema del compromís creïble, vist des del costat de la solució: no cal que les parts es refiïn l'una de l'altra si totes dues saben que trencar el pacte té un preu real.",
+              "feedbackWrong": "Els textos detallats, el suport diplomàtic i el prestigi dels signants són visibles i acostumen a dominar la cobertura, però no canvien el càlcul de cap actor sobre el terreny. El que sí que el canvia és que hi hagi algú amb capacitat real de sanció si algú incompleix, i un mecanisme de verificació que ho detecti a temps. És la resposta al problema del compromís creïble."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Justícia Internacional",
+              "moduleEmoji": "⚖️",
+              "concept": "Pau i justícia: complementàries o en tensió",
+              "text": "Aquesta lliçó ha tractat els acords des del criteri de la seva durada. Hi ha un segon criteri que sovint hi entra en tensió: si l'acord fa justícia a les víctimes. Un procés pot ser estable i profundament injust, i pot ser just i inestable. Els mecanismes de justícia transicional són l'intent de no haver de triar — i el debat sobre si ho aconsegueixen és una de les fronteres més actives del camp."
+            }
+          ]
+        },
+        {
+          "id": "conf-06",
+          "title": "Qui escriu la pau",
+          "blocks": [
+            {
+              "type": "misconception",
+              "belief": "La construcció de pau és una tasca tècnica: hi ha bones pràctiques acumulades, i el problema és que sovint no s'apliquen bé o falten recursos.",
+              "reality": "Bona part d'aquelles «bones pràctiques» comparteixen un model polític concret i discutible: eleccions ràpides, obertura de mercats, reforma institucional segons plantilles importades. La crítica acadèmica de les dues últimes dècades ha documentat que aquesta seqüència ha produït resultats pobres i, en diversos casos, ha reactivat la violència en comptes de contenir-la.",
+              "why": "Presentar decisions polítiques com a solucions tècniques és una operació que serveix a qui les pren: retira la qüestió del terreny on es podria discutir. Quan un donant diu que finança «enfortiment institucional», està triant quines institucions, amb quin disseny i a favor de quins actors — però ho diu en un llenguatge que fa la tria semblar una qüestió d'eficàcia. Reconèixer aquesta operació és una de les competències més transferibles d'aquest camp: funciona igual en cooperació al desenvolupament, en política econòmica i en reforma administrativa."
+            },
+            {
+              "type": "narrative",
+              "text": "La crítica més influent d'aquest model va arribar amb l'argument que la seqüència habitual estava invertida: obrir la competència política i econòmica en societats acabades de sortir d'una guerra, sense institucions capaces de gestionar el conflicte que aquesta competència genera, és previsiblement desestabilitzador. Unes eleccions ràpides poden convertir-se en un cens de lleialtats de guerra i legitimar precisament els actors que van organitzar la violència. La proposta —construir institucions abans de liberalitzar— no és menys intervencionista, i això no és una objecció menor."
+            },
+            {
+              "type": "narrative",
+              "text": "La segona línia crítica va més enllà i qüestiona la posició de qui intervé. Els processos de pau els dissenyen actors externs amb recursos, els avaluen investigadors amb accés a publicació internacional, i els executen organitzacions que responen davant de donants, no davant de les poblacions afectades. Els actors locals hi apareixen com a beneficiaris o com a obstacles, poques vegades com a autors. Aquesta crítica ha guanyat terreny i ha generat un vocabulari propi —apropiació local, pau des de baix— que, previsiblement, ja ha estat absorbit pel llenguatge institucional dels mateixos organismes que criticava."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-conf-06",
+              "text": "Qui defineix què és la pau, defineix qui ha de canviar. Si la pau és l'absència de violència armada, el problema són els qui empunyen armes i la solució és desarmar-los. Si la pau inclou l'absència de violència estructural —desigualtat, exclusió, dominació institucionalitzada—, aleshores els actors que sostenen aquelles estructures també formen part del problema, i molts d'ells són precisament els qui financen i dissenyen els processos. La definició no és un preàmbul conceptual: és la primera decisió política del procés."
+            },
+            {
+              "type": "primary-source",
+              "label": "Un fragment habitual en la comunicació de programes de construcció de pau",
+              "source": "Text tipus, compost a partir de formulacions freqüents en documents de programa i notes de premsa d'organismes internacionals",
+              "text": "«El programa reforçarà la capacitat de les institucions nacionals per gestionar el conflicte de manera pacífica, promovent el diàleg inclusiu entre les parts interessades i creant un entorn propici per a la reconciliació i el desenvolupament sostenible.»",
+              "questions": [
+                "Cada substantiu d'aquest paràgraf amaga una decisió. Quines institucions es reforcen, i quines no? Qui compta com a «part interessada» i qui queda fora d'aquesta categoria?",
+                "«Gestionar el conflicte de manera pacífica» pressuposa que el conflicte s'ha de gestionar, no resoldre. Quina diferència hi ha, i a qui beneficia cadascuna de les dues opcions?",
+                "El text no té subjecte responsable: el programa reforça, promou i crea. Qui ha decidit tot això, i davant de qui respon si surt malament?",
+                "Prova de reescriure la frase nomenant actors concrets i decisions concretes. Què es fa visible que abans no ho era?"
+              ]
+            },
+            {
+              "type": "debate",
+              "question": "Un analista extern pot dir alguna cosa útil sobre un conflicte que no ha viscut?",
+              "context": "És la pregunta de fons de tota aquesta lliçó, i afecta directament qui està fent aquest itinerari.",
+              "positionA": {
+                "label": "Sí, i la distància és part del valor",
+                "argument": "La comparació sistemàtica entre casos permet veure patrons que des de dins són invisibles, precisament perquè des de dins cada conflicte se sent únic. La distància redueix la implicació en les faccions locals i permet fer preguntes que ningú de dins pot formular sense pagar-ne un cost social. Negar-ho porta a una posició insostenible: que només qui ha patit un fenomen pot analitzar-lo, cosa que invalidaria bona part de les ciències socials i, de fet, deixaria els afectats sense cap eina comparativa."
+              },
+              "positionB": {
+                "label": "Amb precaucions severes, i menys sovint del que es fa",
+                "argument": "L'analista extern treballa amb fonts seleccionades, sovint en un idioma que no és el del conflicte, i respon a incentius professionals —publicar, assessorar, obtenir finançament— que no coincideixen amb els interessos de les poblacions afectades. El coneixement local no és una dada més a incorporar: és una manera diferent d'entendre què està passant, i sistemàticament apareix com a matèria primera que altres interpreten. La qüestió no és si l'externalitat invalida l'anàlisi, sinó qui té autoritat per dir què va passar — i aquesta autoritat es distribueix de manera molt desigual."
+              },
+              "reflection": "Aquest debat no es tanca perquè les dues posicions són parcialment correctes i apunten a coses diferents: la primera, a la utilitat epistèmica de la comparació; la segona, a la distribució desigual de l'autoritat per interpretar. La posició operativa raonable és fer les dues coses alhora: mantenir el valor de la comparació sistemàtica i, simultàniament, ser explícit sobre quines fonts s'han fet servir, quines s'han deixat fora i per quina raó."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-conf-06-01",
+              "style": "multiple-choice",
+              "question": "Per què la distinció entre pau negativa i pau positiva és una decisió política i no només conceptual?",
+              "options": [
+                "Perquè la pau positiva és un objectiu més ambiciós i, per tant, més difícil de finançar",
+                "Perquè cada definició determina quins actors formen part del problema i, en conseqüència, qui ha de canviar perquè hi hagi pau",
+                "Perquè la pau negativa és un concepte antiquat que la disciplina ha abandonat",
+                "Perquè les dues definicions donen lloc a indicadors estadístics diferents"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Si la pau és només l'absència de violència directa, el problema es limita als actors armats i el procés acaba quan callen les armes. Si inclou la violència estructural, aleshores les institucions, els repartiments de propietat i els actors internacionals que els sostenen passen a formar part del problema — inclosos, sovint, els mateixos que financen el procés. Triar definició és decidir sobre qui recau l'exigència de canviar, i per això la tria mai és neutral.",
+              "feedbackWrong": "El fons no és l'ambició de l'objectiu ni la mètrica: és a qui assenyala cada definició. La pau negativa situa el problema exclusivament en els actors armats. La pau positiva l'estén a les estructures que produeixen exclusió i dominació — i per tant als actors que les sostenen, que sovint són els mateixos que dissenyen i financen el procés de pau. La definició reparteix l'exigència de canvi, i això la fa política."
+            },
+            {
+              "type": "reflection",
+              "question": "Tornar al principi amb un altre ull",
+              "prompt": "Aquest itinerari ha anat desmuntant coses: que hi hagi una xifra de morts, que hi hagi una causa, que hi hagi un marc correcte, que la mediació sigui neutral, que les dades del camp siguin sòlides, que la pau tingui una definició. Val la pena acabar-lo amb la pregunta que fa útil tot això en comptes de paralitzant: sabent tot el que no se sap, quina és la millor decisió disponible ara? Un analista que només sap dir que és complicat no ha arribat al final del camí — hi ha deixat de caminar a la meitat."
+            }
+          ]
+        }
+      ]
     }
   ],
-  "xp": 244,
+  "xp": 488,
   "order": 3,
   "glossaryTerms": [
     "g-r2p"
   ],
   "area": "relacions",
   "topic": "Pau i Conflicte",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": []
 }

@@ -12,6 +12,7 @@
       "description": "Cada lliçó comença amb una pregunta sense resposta. Construiràs el teu raonament mentre aprens — i al final veuràs si anaves pel bon camí",
       "forWho": "Vol experimentar el procés de fer ciència, no només rebre els resultats. Tolera bé la incertesa provisional",
       "style": "Inductiu · de la pregunta a la teoria",
+      "level": "inicial",
       "lessons": [
         {
           "id": "cao-01",
@@ -397,6 +398,7 @@
       "description": "La teoria del caos explicada des dels seus fonaments conceptuals fins a les aplicacions actuals",
       "forWho": "Prefereix rebre primer el marc conceptual sòlid i després explorar les implicacions. Li incomoda no saber la resposta mentre aprèn",
       "style": "Deductiu · del concepte a l'aplicació",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "cao-c01",
@@ -602,5 +604,8 @@
   "order": 84,
   "area": "ciencies",
   "topic": "Física",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-34-mecanica-classica"
+  ]
 }

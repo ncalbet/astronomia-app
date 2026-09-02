@@ -15,6 +15,10 @@ const MODULES_DIR = join(ROOT, 'src', 'data', 'modules')
 const OUT = join(ROOT, 'src', 'data', 'catalog.json')
 
 const REQUIRED = ['id', 'title', 'emoji', 'area', 'topic', 'level', 'xp', 'order']
+const VALID_LEVELS = ['inicial', 'intermedi', 'avancat']
+
+/** Ordre numèric d'un nivell; els desconeguts cauen a 'inicial'. */
+const levelOrder = (id) => Math.max(0, VALID_LEVELS.indexOf(id)) + 1
 
 const files = readdirSync(MODULES_DIR).filter(f => f.endsWith('.json')).sort()
 const catalog = []
@@ -40,6 +44,19 @@ for (const file of files) {
     ? json.itineraries.flatMap(it => it.lessons || [])
     : (json.lessons || [])
 
+  // La profunditat viu a l'itinerari; el mòdul hereta el nivell d'entrada.
+  if (json.level !== undefined && !VALID_LEVELS.includes(json.level))
+    errors.push(`${file}: level "${json.level}" no vàlid (${VALID_LEVELS.join(' | ')})`)
+
+  for (const it of json.itineraries || [])
+    if (it.level !== undefined && !VALID_LEVELS.includes(it.level))
+      errors.push(`${file}: itinerari "${it.id}" té level "${it.level}" no vàlid`)
+
+  const itineraryLevels = (json.itineraries || [])
+    .map(it => it.level || json.level || 'inicial')
+  const levels = [...new Set(itineraryLevels.length ? itineraryLevels : [json.level || 'inicial'])]
+    .sort((a, b) => levelOrder(a) - levelOrder(b))
+
   catalog.push({
     id: json.id,
     file,
@@ -47,7 +64,9 @@ for (const file of files) {
     emoji: json.emoji,
     area: json.area,
     topic: json.topic,
-    level: json.level || 'inicial',
+    level: levels[0],
+    levels,
+    prerequisites: json.prerequisites || [],
     xp: json.xp ?? 240,
     order: json.order ?? 999,
     phase: json.phase ?? 1,
@@ -56,6 +75,12 @@ for (const file of files) {
     hasItineraries: Boolean(json.itineraries),
   })
 }
+
+// Els prerequisits han d'apuntar a mòduls que existeixen (gating suau, però honest)
+for (const m of catalog)
+  for (const pre of m.prerequisites)
+    if (!seenIds.has(pre))
+      errors.push(`${m.file}: prerequisit "${pre}" no correspon a cap mòdul`)
 
 if (errors.length) {
   console.error(`✗ Catàleg NO generat — ${errors.length} error(s):`)
