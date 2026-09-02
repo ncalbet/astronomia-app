@@ -2,9 +2,12 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
-import { loadModule, getModuleMeta } from '../data/moduleRegistry'
+import { loadModule, getModuleMeta, getMissingPrerequisites } from '../data/moduleRegistry'
 import { getAreaById, getAreaTopics } from '../data/areaRegistry'
 import { useModuleProgress } from '../hooks/useModuleProgress'
+import { LEVELS, levelOrder } from '../data/levels'
+import LevelBadge from '../components/ui/LevelBadge'
+import PrerequisiteNote from '../components/ui/PrerequisiteNote'
 import styles from './ModuleMap.module.css'
 
 function ModuleCard({ meta, onSelect, onRepeat, loadingId, completedModules,
@@ -17,6 +20,11 @@ function ModuleCard({ meta, onSelect, onRepeat, loadingId, completedModules,
   const minutes   = Math.round((meta.xp || 200) / 20)
 
   const progress = useModuleProgress(id, completedLessons, isItineraryCompleted)
+  const missingPrereqs = getMissingPrerequisites(id, completedModules)
+  const levels = meta.levels || [meta.level]
+  // Només val la pena mostrar el nivell quan aporta informació: si el mòdul
+  // va més enllà de l'inicial o si té base recomanada.
+  const showLevel = levels.length > 1 || levels[0] !== 'inicial'
 
   const showProgress = unlocked && progress && progress.total > 0
     && progress.completed > 0 && !completed
@@ -60,6 +68,10 @@ function ModuleCard({ meta, onSelect, onRepeat, loadingId, completedModules,
             </span>
             {unlocked && !isLoading && (
               <span className={styles.readTime}>~{minutes}min</span>
+            )}
+            {showLevel && <LevelBadge levels={levels} className={styles.cardLevel} />}
+            {missingPrereqs.length > 0 && (
+              <PrerequisiteNote missing={missingPrereqs} compact />
             )}
           </div>
         </div>
@@ -114,6 +126,7 @@ export default function ModuleMap() {
   const [query, setQuery]         = useState('')
   const [filter, setFilter]       = useState('all')  // 'all' | 'pending' | 'done'
   const [sort, setSort]           = useState('default') // 'default' | 'asc' | 'desc'
+  const [levelFilter, setLevelFilter] = useState('all')  // 'all' | id de nivell
 
   const area = getAreaById(navigationState.currentAreaId)
 
@@ -150,9 +163,17 @@ export default function ModuleMap() {
 
   const normalizedQuery = query.trim().toLowerCase()
 
-  const filteredTopics = getAreaTopics(area.id).map(topic => {
+  const areaTopics = getAreaTopics(area.id)
+
+  // Els nivells realment presents a l'àrea: el filtre no apareix si tot és inicial.
+  const areaLevels = [...new Set(
+    areaTopics.flatMap(t => t.modules.flatMap(m => m.levels || [m.level]))
+  )].sort((a, b) => levelOrder(a) - levelOrder(b))
+
+  const filteredTopics = areaTopics.map(topic => {
     let modules = topic.modules.filter(m => {
       if (normalizedQuery && !m.title.toLowerCase().includes(normalizedQuery)) return false
+      if (levelFilter !== 'all' && !(m.levels || [m.level]).includes(levelFilter)) return false
       if (filter === 'pending') return isModuleUnlocked(m.id) && !completedModules.includes(m.id)
       if (filter === 'done')    return completedModules.includes(m.id)
       return true
@@ -197,6 +218,26 @@ export default function ModuleMap() {
         </div>
       </div>
 
+      {areaLevels.length > 1 && (
+        <div className={styles.levelBar}>
+          <span className={styles.levelBarLabel}>Profunditat</span>
+          <div className={styles.filterChips}>
+            <button
+              className={`${styles.chip} ${levelFilter === 'all' ? styles.chipActive : ''}`}
+              onClick={() => setLevelFilter('all')}
+            >Tota</button>
+            {LEVELS.filter(l => areaLevels.includes(l.id)).map(l => (
+              <button
+                key={l.id}
+                className={`${styles.chip} ${levelFilter === l.id ? styles.chipActive : ''}`}
+                onClick={() => setLevelFilter(l.id)}
+                title={l.demands}
+              >{l.label}</button>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className={styles.searchRow}>
         <div className={styles.searchWrapper}>
           <span className={styles.searchIcon}>🔍</span>
@@ -216,7 +257,11 @@ export default function ModuleMap() {
 
       <div className={styles.moduleList}>
         {totalVisible === 0 && (
-          <p className={styles.noResults}>Cap mòdul coincideix amb "{query}"</p>
+          <p className={styles.noResults}>
+            {query
+              ? `Cap mòdul coincideix amb "${query}"`
+              : 'Cap mòdul en aquest nivell encara.'}
+          </p>
         )}
         {filteredTopics.map(topic => (
           <div key={topic.label} className={styles.topicSection}>

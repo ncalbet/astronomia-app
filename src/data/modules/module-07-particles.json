@@ -11,6 +11,7 @@
       "icon": "🔬",
       "description": "L'estructura de la matèria des dels àtoms fins als blocs més fonamentals de l'univers",
       "style": "Divulgatiu · del familiar a l'inimaginable",
+      "level": "inicial",
       "lessons": [
         {
           "id": "part-01",
@@ -333,6 +334,7 @@
       "icon": "🌌",
       "description": "Les quatre forces fonamentals de la natura i com actuen — des de l'interior del nucli fins a l'escala de l'univers",
       "style": "Divulgatiu · de lo més petit a lo més gran",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "force-01",
@@ -655,5 +657,8 @@
   ],
   "area": "ciencies",
   "topic": "Física",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-37-electromagnetisme"
+  ]
 }

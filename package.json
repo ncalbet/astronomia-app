@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "catalog": "node scripts/generate-catalog.mjs",
+    "predev": "node scripts/generate-catalog.mjs",
+    "prebuild": "node scripts/generate-catalog.mjs",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

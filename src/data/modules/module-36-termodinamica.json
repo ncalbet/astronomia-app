@@ -11,6 +11,7 @@
       "icon": "📐",
       "description": "Calor, treball, entropia i per què el temps té una sola direcció",
       "style": "Fonamental · dels conceptes a les lleis universals",
+      "level": "inicial",
       "lessons": [
         {
           "id": "ter-01",
@@ -323,6 +324,7 @@
       "icon": "🏭",
       "description": "Màquines de vapor, cicle de Carnot, eficiència i termodinàmica de la vida",
       "style": "Aplicat · de la teoria a les màquines i la civilització",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "maq-01",
@@ -638,5 +640,8 @@
   ],
   "area": "ciencies",
   "topic": "Física",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-34-mecanica-classica"
+  ]
 }

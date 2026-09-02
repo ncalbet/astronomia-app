@@ -2,8 +2,11 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useTheme } from '../context/ThemeContext'
-import { loadModule } from '../data/moduleRegistry'
+import { loadModule, getMissingPrerequisites } from '../data/moduleRegistry'
 import { useModuleProgress } from '../hooks/useModuleProgress'
+import { levelOrder, getLevel } from '../data/levels'
+import LevelBadge from '../components/ui/LevelBadge'
+import PrerequisiteNote from '../components/ui/PrerequisiteNote'
 import styles from './ItinerarySelector.module.css'
 
 /**
@@ -39,7 +42,8 @@ function ItineraryProgress({ moduleId, itineraryId, lessons, completedLessons })
 
 export default function ItinerarySelector() {
   const navigate = useNavigate()
-  const { navigationState, setNavigationState, isItineraryCompleted, completedLessons } = useApp()
+  const { navigationState, setNavigationState, isItineraryCompleted,
+          completedLessons, completedModules } = useApp()
   const { theme } = useTheme()
 
   const [moduleData, setModuleData] = useState(null)
@@ -80,6 +84,25 @@ export default function ItinerarySelector() {
   const totalLessons   = allLessons.length
   const globalPercent  = totalLessons > 0 ? Math.round((totalCompleted / totalLessons) * 100) : 0
 
+  // Els itineraris es presenten de menys a més profund, mantenint l'ordre
+  // declarat dins d'un mateix nivell.
+  const levelOf = (itin) => itin.level || moduleData.level || 'inicial'
+  const itineraries = [...moduleData.itineraries]
+    .sort((a, b) => levelOrder(levelOf(a)) - levelOrder(levelOf(b)))
+
+  // El nivell només s'anuncia quan aporta informació: si el mòdul cobreix més
+  // d'un nivell o si va més enllà de l'inicial. Altrament seria soroll.
+  const moduleLevels = [...new Set(moduleData.itineraries.map(levelOf))]
+  const showLevels = moduleLevels.length > 1 || moduleLevels[0] !== 'inicial'
+
+  const missingPrereqs = getMissingPrerequisites(currentModuleId, completedModules)
+
+  /** Itineraris del mateix mòdul que un itinerari recomana haver fet abans. */
+  const unmetRequires = (itin) => (itin.requires || [])
+    .filter(reqId => !isItineraryCompleted(currentModuleId, reqId))
+    .map(reqId => moduleData.itineraries.find(i => i.id === reqId))
+    .filter(Boolean)
+
   return (
     <div className={styles.screen}>
       <header className={styles.header}>
@@ -92,6 +115,15 @@ export default function ItinerarySelector() {
         <div className={styles.moduleEmoji}>{moduleData.emoji || '🔭'}</div>
         <h1 className={styles.title}>{moduleData.title}</h1>
         <p className={styles.subtitle}>Escull com vols explorar aquest tema</p>
+
+        <PrerequisiteNote
+          missing={missingPrereqs}
+          onOpen={(id) => {
+            setNavigationState({ currentModuleId: id, currentItineraryId: null,
+                                 currentLessonId: null, currentStep: 0 })
+            navigate('/itinerary')
+          }}
+        />
 
         {/* Progrés global del mòdul */}
         {totalCompleted > 0 && (
@@ -110,8 +142,10 @@ export default function ItinerarySelector() {
       </div>
 
       <div className={styles.itineraries}>
-        {moduleData.itineraries.map((itin) => {
+        {itineraries.map((itin) => {
           const completed = isItineraryCompleted(currentModuleId, itin.id)
+          const level     = levelOf(itin)
+          const pending   = unmetRequires(itin)
           return (
             <button
               key={itin.id}
@@ -120,7 +154,10 @@ export default function ItinerarySelector() {
             >
               <div className={styles.cardTop}>
                 <span className={styles.cardIcon}>{itin.icon}</span>
-                {completed && <span className={styles.completedBadge}>✓ Completat</span>}
+                <span className={styles.cardTopRight}>
+                  {showLevels && <LevelBadge level={level} />}
+                  {completed && <span className={styles.completedBadge}>✓ Completat</span>}
+                </span>
               </div>
               <h2 className={styles.cardTitle}>{itin.title}</h2>
               <p className={styles.cardDesc}>{itin.description}</p>
@@ -131,6 +168,16 @@ export default function ItinerarySelector() {
                 </div>
               )}
               <div className={styles.cardMeta}>{itin.style}</div>
+
+              {showLevels && (
+                <div className={styles.levelPromise}>{getLevel(level).promise}</div>
+              )}
+
+              {pending.length > 0 && (
+                <div className={styles.requiresNote}>
+                  Es recolza en «{pending.map(i => i.title).join('» i «')}». Pots entrar-hi igualment.
+                </div>
+              )}
 
               {/* Indicador de progrés per itinerari */}
               <ItineraryProgress

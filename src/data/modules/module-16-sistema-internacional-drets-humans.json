@@ -11,6 +11,7 @@
       "icon": "🏛️",
       "description": "Tractats, comitès i mecanismes de supervisió de les Nacions Unides",
       "style": "Institucional · arquitectura jurídica i mecanismes de control",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "onu-01",
@@ -319,6 +320,7 @@
       "icon": "🌐",
       "description": "Europa, Amèrica, Àfrica i el dret dels conflictes armats",
       "style": "Comparatiu · sistemes regionals i dret humanitari",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "reg-01",
@@ -622,5 +624,8 @@
   ],
   "area": "relacions",
   "topic": "Drets Humans",
-  "level": "inicial"
+  "level": "intermedi",
+  "prerequisites": [
+    "module-15-fonaments-drets-humans"
+  ]
 }

@@ -11,6 +11,7 @@
       "icon": "🔨",
       "description": "Els processos judicials que van crear jurisprudència i van canviar com entenem els crims internacionals",
       "style": "Analític · casos que van establir precedents fonamentals",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "cas-01",
@@ -303,6 +304,7 @@
       "icon": "✊",
       "description": "Sentències i processos que van transformar la comprensió dels drets en contextos nacionals i internacionals",
       "style": "Analític · casos que van canviar lleis i societats",
+      "level": "inicial",
       "lessons": [
         {
           "id": "civ-01",
@@ -544,5 +546,8 @@
   "order": 29,
   "area": "relacions",
   "topic": "Drets Humans",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-15-fonaments-drets-humans"
+  ]
 }

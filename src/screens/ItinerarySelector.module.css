@@ -94,6 +94,12 @@
   font-size: 2rem;
 }
 
+.cardTopRight {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
 .completedBadge {
   font-size: var(--text-xs);
   color: var(--color-success);
@@ -145,6 +151,22 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-top: var(--space-1);
+}
+
+.levelPromise {
+  font-family: var(--font-reading);
+  font-size: var(--text-sm);
+  font-style: italic;
+  color: var(--color-text-faint);
+  line-height: 1.5;
+}
+
+.requiresNote {
+  font-size: var(--text-xs);
+  color: var(--color-warning);
+  line-height: 1.5;
+  border-left: 2px solid var(--color-border);
+  padding-left: var(--space-3);
 }
 
 .cardCta {

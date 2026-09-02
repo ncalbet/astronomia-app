@@ -11,6 +11,7 @@
       "icon": "🎯",
       "description": "Les lleis de Newton, la gravetat, la fricció i els límits de la mecànica clàssica",
       "style": "Fonamental · dels conceptes a les lleis",
+      "level": "inicial",
       "lessons": [
         {
           "id": "for-01",
@@ -396,6 +397,7 @@
       "icon": "⚡",
       "description": "Treball, energia cinètica i potencial, conservació i moment lineal",
       "style": "Quantitatiu · dels conceptes a les lleis de conservació",
+      "level": "inicial",
       "lessons": [
         {
           "id": "ene-01",
@@ -740,11 +742,559 @@
           ]
         }
       ]
+    },
+    {
+      "id": "lagrangia",
+      "title": "El formalisme lagrangià",
+      "icon": "⚖️",
+      "description": "La mateixa mecànica reescrita des d'un sol principi: entre tots els camins possibles, el real és el que fa l'acció estacionària. D'aquí surten les lleis de conservació com a teoremes i el llenguatge de tota la física posterior.",
+      "style": "Formal · del principi variacional a les lleis de conservació",
+      "level": "avancat",
+      "requires": [
+        "energia"
+      ],
+      "lessons": [
+        {
+          "id": "lag-01",
+          "title": "El preu de Newton",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-lag-01",
+              "revealAfterBlockId": "ki-lag-01",
+              "question": "Si les lleis de Newton són correctes, per què la física del segle XVIII va dedicar dècades a construir un formalisme alternatiu?",
+              "options": [
+                "Perquè es va descobrir que les lleis de Newton fallaven en sistemes amb moltes parts, i calia substituir-les",
+                "Per raons estètiques: els matemàtics volien una formulació més elegant, sense conseqüències pràctiques",
+                "Perquè les lleis de Newton són correctes però impracticables quan hi ha lligadures, i el formalisme nou elimina justament allò que no volem calcular"
+              ],
+              "correct": 2,
+              "explanation": "Newton no s'equivoca: es fa car. Cada lligadura (un fil, una guia, un pla inclinat) introdueix forces desconegudes que has de resoldre encara que no t'interessin gens. En un pèndol, la tensió del fil no la vols saber — però amb Newton has de calcular-la per poder eliminar-la. El formalisme lagrangià parteix d'una altra pregunta i les forces de lligadura no hi apareixen mai. No és una teoria nova: és la mateixa física demanada d'una manera que costa menys de respondre."
+            },
+            {
+              "type": "narrative",
+              "text": "Agafa un pèndol: una massa penjada d'un fil rígid. Amb Newton, el procediment és mecànic i honest. Dibuixes el diagrama de forces: el pes cap avall, la tensió del fil cap al punt de suspensió. Escrius F = ma en dues components, x i y. I aleshores et trobes amb un problema incòmode: la tensió del fil és desconeguda. Depèn de la posició i de la velocitat de la massa en cada instant, i canvia contínuament. Per resoldre el moviment has de resoldre també la tensió — una quantitat que no t'interessa gens, que no apareix en cap pregunta que volguessis fer, i que existeix només perquè hi has posat un fil."
+            },
+            {
+              "type": "narrative",
+              "text": "Ara complica'l una mica. Dos pèndols encadenats. Una bola que llisca per un filferro corbat. Un cilindre que roda sense relliscar dins d'un altre cilindre. Un giroscopi. En cada cas, la mateixa història: el moviment real està confinat a un espai molt petit de possibilitats — el pèndol només pot fer una cosa, girar al voltant del seu eix — però la maquinària newtoniana t'obliga a treballar en tot l'espai tridimensional i després a eliminar-ne el que sobra a base de forces de lligadura desconegudes. Estàs pagant un cost de càlcul enorme per informació que llençaràs."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-lag-01",
+              "text": "El problema de la mecànica newtoniana no és la seva correcció, sinó la seva comptabilitat. Treballa amb vectors en l'espai on el sistema podria estar, no en l'espai on realment pot estar, i paga la diferència amb forces de lligadura que cal calcular per després descartar-les. El formalisme lagrangià fa el contrari: comença comptant els graus de llibertat reals — un, en el cas del pèndol — i no escriu mai una equació de més."
+            },
+            {
+              "type": "comparison",
+              "title": "Dues maneres de plantejar el mateix pèndol",
+              "labelA": "Newton (1687)",
+              "labelB": "Lagrange (1788)",
+              "items": [
+                {
+                  "label": "Què has d'escriure",
+                  "a": "Un diagrama de forces i F = ma per a cada component vectorial",
+                  "b": "Una sola funció escalar: L = T − V (energia cinètica menys potencial)"
+                },
+                {
+                  "label": "Les lligadures",
+                  "a": "Apareixen com a forces desconegudes que cal determinar",
+                  "b": "Desapareixen: es codifiquen en l'elecció de coordenades"
+                },
+                {
+                  "label": "Nombre d'equacions",
+                  "a": "Tantes com components vectorials (2 o 3 per partícula), més les lligadures",
+                  "b": "Tantes com graus de llibertat reals (una, en el pèndol)"
+                },
+                {
+                  "label": "Canvi de coordenades",
+                  "a": "Cal reescriure les equacions des de zero; els termes correctors s'afegeixen a mà",
+                  "b": "La forma de l'equació no canvia mai, siguin quines siguin les coordenades"
+                },
+                {
+                  "label": "Què et diu de més",
+                  "a": "Les forces internes, si les necessites",
+                  "b": "Les lleis de conservació, llegides directament de les simetries de L"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Un cas on la diferència es fa brutal: el pèndol doble",
+              "content": "Un pèndol doble són dues masses encadenades: la primera penja d'un punt fix, la segona penja de la primera. Amb Newton necessites dos diagrames de forces, dues tensions desconegudes, i quatre equacions de components acoblades amb dues equacions de lligadura. Amb Lagrange escrius l'energia cinètica i la potencial en funció de dos angles, θ₁ i θ₂ — els dos únics graus de llibertat que el sistema té — i el formalisme et lliura dues equacions del moviment sense que cap tensió hi hagi aparegut mai.\n\nAixò no fa el problema fàcil: el pèndol doble és un dels exemples de manual de sistema caòtic, i les seves equacions no tenen solució analítica tancada. Però la diferència entre «no té solució analítica» i «no puc ni escriure les equacions sense equivocar-me» és exactament el que separa un problema de recerca d'un problema impossible."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-lag-01-01",
+              "style": "multiple-choice",
+              "question": "Una bola llisca sense fricció per l'interior d'un bol hemisfèric. Quants graus de llibertat té el sistema, i quantes equacions del moviment donarà el formalisme lagrangià?",
+              "options": [
+                "Tres graus de llibertat i tres equacions: la bola es mou en l'espai tridimensional",
+                "Dos graus de llibertat i dues equacions: la superfície del bol és bidimensional",
+                "Un grau de llibertat i una equació: la bola només pot pujar i baixar",
+                "Sis graus de llibertat: tres de posició i tres de rotació"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte. La lligadura «la bola és sempre en contacte amb el bol» redueix l'espai de tres dimensions a la superfície esfèrica, que és bidimensional: calen dos angles per dir on és la bola. El formalisme lagrangià escriu exactament dues equacions, i la força normal que el bol exerceix sobre la bola no hi apareix mai.",
+              "feedbackWrong": "La clau és distingir l'espai on la bola podria estar (tres dimensions) de l'espai on realment pot estar. La lligadura de contacte la confina a una superfície esfèrica, que és bidimensional: dos angles n'hi ha prou per localitzar-la. Per tant, dos graus de llibertat i dues equacions. Si la bola rodés en comptes de lliscar, caldria comptar-hi també la rotació."
+            },
+            {
+              "type": "reflection",
+              "question": "Un formalisme que amaga informació és millor o pitjor?",
+              "prompt": "El formalisme lagrangià no calcula les forces de lligadura: les fa desaparèixer. Per a un físic teòric això és un guany net. Per a un enginyer que ha de decidir el gruix del cable d'una grua, aquella tensió que Lagrange ignora és precisament la dada que necessita. Pensa en què vol dir això: el «millor» formalisme depèn de la pregunta que fas, no de la seva elegància. Quines eines coneixes al teu camp que siguin potents justament perquè decideixen no mirar alguna cosa?"
+            }
+          ]
+        },
+        {
+          "id": "lag-02",
+          "title": "El principi de mínima acció",
+          "blocks": [
+            {
+              "type": "misconception",
+              "belief": "La natura «tria» el camí que minimitza l'acció, com si tingués un objectiu i comparés alternatives abans de decidir.",
+              "reality": "L'acció no és mínima sinó estacionària: la seva variació de primer ordre s'anul·la. En moltes trajectòries reals és un punt de sella, no un mínim. I la partícula no compara res: el principi variacional és matemàticament equivalent a les equacions diferencials locals del moviment, que descriuen instant a instant, sense cap coneixement del futur.",
+              "why": "El nom enganya, i ja enganyava al segle XVIII. Maupertuis va presentar el principi el 1744 amb un embolcall explícitament teològic: la natura és econòmica perquè el seu Creador ho és. Aquella lectura finalista va sobreviure al seu context religiós i encara circula en divulgació. Feynman hi va posar ordre quan va mostrar que, en mecànica quàntica, la partícula sí que «explora» tots els camins possibles — i el camí clàssic emergeix perquè és aquell al voltant del qual les contribucions veïnes se sumen en fase, no perquè ningú l'hagi triat."
+            },
+            {
+              "type": "narrative",
+              "text": "La idea neix fora de la mecànica. El 1662, Pierre de Fermat va proposar que la llum que va d'un punt a un altre segueix el camí que triga menys temps. D'aquell únic principi en surten la reflexió, la refracció i la llei de Snell, que fins llavors eren regles empíriques independents. Era un canvi de format profund: en comptes de descriure què fa la llum a cada punt, s'enunciava una propietat global de la trajectòria sencera i se'n deduïa el comportament local."
+            },
+            {
+              "type": "narrative",
+              "text": "Maupertuis va intentar traslladar-ho a la matèria el 1744, amb una definició d'acció confusa i una justificació teològica que li va costar una polèmica sonada. Euler, que hi havia arribat pel seu compte amb molt més rigor, va posar-hi les matemàtiques. Però qui va convertir la intuïció en un instrument de treball va ser Joseph-Louis Lagrange, amb la Mécanique analytique de 1788 — un llibre del qual presumia al pròleg d'una cosa insòlita en un tractat de mecànica: no hi ha ni un sol dibuix. Tota la física reduïda a operacions algebraiques sobre funcions."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-lag-02",
+              "text": "Defineix el lagrangià com L = T − V, la diferència entre energia cinètica i energia potencial. Per a qualsevol trajectòria imaginable entre dos punts fixos en dos instants fixos, defineix l'acció S com la integral de L al llarg d'aquella trajectòria. Aleshores: la trajectòria que el sistema segueix realment és aquella per a la qual S és estacionària, és a dir, δS = 0. Tota la mecànica clàssica cap en aquestes dues línies."
+            },
+            {
+              "type": "analogy",
+              "concept": "Acció estacionària, no mínima",
+              "emoji": "🏔️",
+              "analogy": "Imagina't buscant els punts «plans» d'una serralada: llocs on, facis un pas petit en la direcció que facis, l'altura no canvia en primera aproximació. Els cims ho són. Les valls ho són. Però també ho són els colls de muntanya — els passos entre dues valls, on el terreny baixa en una direcció i puja en la perpendicular. Un coll no és ni el punt més alt ni el més baix, i tanmateix és igual de «pla» que un cim.",
+              "bridge": "L'acció es comporta igual. La condició δS = 0 diu que la trajectòria real és un punt pla del paisatge de totes les trajectòries possibles: qualsevol desviació petita canvia l'acció només en segon ordre. Sovint és un mínim, però en trajectòries prou llargues acostuma a ser un punt de sella. Per això el nom històric — «mínima acció» — és tècnicament incorrecte, i tanmateix ha aguantat dos segles i mig."
+            },
+            {
+              "type": "quote",
+              "text": "No es trobarà cap figura en aquesta obra. Els mètodes que hi exposo no requereixen ni construccions ni raonaments geomètrics o mecànics, sinó únicament operacions algebraiques sotmeses a un curs regular i uniforme.",
+              "author": "Joseph-Louis Lagrange, pròleg de la Mécanique analytique (1788)"
+            },
+            {
+              "type": "expandable",
+              "label": "Per què L = T − V i no T + V, que sonaria més natural?",
+              "content": "És la pregunta que tothom fa i que gairebé cap manual respon bé. La resposta honesta té dues capes.\n\nLa primera és operativa: perquè funciona. Si poses L = T − V dins la maquinària variacional, en surten exactament les equacions de Newton. Amb T + V no. En aquest sentit, L = T − V és una definició triada perquè dona el resultat correcte, no una veritat deduïda d'un principi anterior.\n\nLa segona és més profunda i arriba amb la relativitat. Per a una partícula lliure relativista, l'acció resulta ser proporcional al temps propi transcorregut al llarg de la trajectòria — la lectura del rellotge que viatja amb la partícula. La trajectòria física és la que extremitza aquesta lectura. Aquí ja no hi ha cap «menys» arbitrari: la combinació ve imposada per la geometria de l'espaitemps. L = T − V és el que queda d'aquella estructura geomètrica quan les velocitats són petites comparades amb la de la llum.\n\nAixò passa sovint en física: una definició que sembla arbitrària en un nivell resulta ser forçada un nivell més avall."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-lag-02-01",
+              "style": "multiple-choice",
+              "question": "Quina de les afirmacions següents sobre el principi d'acció estacionària és correcta?",
+              "options": [
+                "És una llei física addicional, independent de les lleis de Newton, que aporta prediccions noves en mecànica clàssica",
+                "És una reformulació matemàticament equivalent a les lleis de Newton, que fa manifestes propietats que en la formulació vectorial queden amagades",
+                "És una aproximació vàlida només quan les forces són petites i les trajectòries curtes",
+                "És un principi purament estètic sense contingut predictiu, útil només com a mnemotècnia"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Per a sistemes amb forces conservatives i lligadures holònomes, el principi d'acció estacionària i les lleis de Newton són equivalents: cadascun es dedueix de l'altre. El guany no és predictiu sinó estructural — el formalisme fa visible la relació entre simetries i lleis de conservació, i sobreviu al canvi de teoria física de maneres que la formulació vectorial no.",
+              "feedbackWrong": "En mecànica clàssica no és una llei nova ni una aproximació: és una reformulació equivalent. De δS = 0 se'n dedueixen les equacions de Newton, i de Newton se'n dedueix δS = 0. El que canvia és què queda a la vista: amb l'acció, la connexió entre simetria i conservació esdevé un teorema, i el formalisme es transporta intacte a la relativitat i a la teoria quàntica de camps."
+            },
+            {
+              "type": "reflection",
+              "question": "Local o global: dues descripcions del mateix món",
+              "prompt": "Newton descriu el moviment instant a instant: donada la situació ara, això és el que passarà tot seguit. Hamilton el descriu com una propietat de la trajectòria sencera: entre tots els camins possibles de A a B, el real és aquell que fa l'acció estacionària. Les dues descripcions són equivalents i tanmateix suggereixen imatges del món radicalment diferents. Quina et sembla més «real»? I té sentit la pregunta, si cap experiment pot distingir-les?"
+            }
+          ]
+        },
+        {
+          "id": "lag-03",
+          "title": "Coordenades generalitzades i l'equació d'Euler-Lagrange",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-lag-03",
+              "revealAfterBlockId": "ki-lag-03",
+              "question": "Què vol dir exactament que l'equació d'Euler-Lagrange és «invariant sota canvis de coordenades»?",
+              "options": [
+                "Que el valor numèric de les solucions és el mateix en qualsevol sistema de coordenades",
+                "Que només és vàlida en coordenades cartesianes, i cal corregir-la en coordenades polars o esfèriques",
+                "Que la forma de l'equació és idèntica en qualsevol conjunt de coordenades que descrigui els graus de llibertat, sense termes correctors afegits a mà"
+              ],
+              "correct": 2,
+              "explanation": "El que es conserva és la forma, no els valors. En coordenades cartesianes, polars, angulars o qualsevol barreja estranya que se t'acudeixi, l'equació s'escriu exactament igual: d/dt(∂L/∂q̇) − ∂L/∂q = 0. Els valors numèrics de les solucions, evidentment, canvien amb les coordenades. La comparació justa és amb Newton: en coordenades polars, F = ma requereix afegir a mà termes centrífugs i de Coriolis que no surten de la formulació sinó de la geometria. Amb el lagrangià, aquests termes apareixen sols quan escrius T en les coordenades noves."
+            },
+            {
+              "type": "narrative",
+              "text": "Un grau de llibertat és una pregunta independent que has de respondre per saber on és el sistema. El pèndol simple en té un: l'angle. La bola dins el bol, dos. Una molècula d'aigua lliure a l'espai, nou — tres per cada àtom. Les coordenades generalitzades, que s'escriuen q₁, q₂, ..., qₙ, són simplement un conjunt de respostes a aquelles preguntes. No han de ser distàncies. Poden ser angles, àrees, fraccions, combinacions arbitràries — qualsevol cosa que, coneguda, fixi la configuració del sistema."
+            },
+            {
+              "type": "narrative",
+              "text": "Aquesta llibertat és el cor del mètode. Escollint les coordenades que segueixen la geometria del problema, les lligadures deixen d'existir com a equacions: queden absorbides en la definició mateixa de les variables. Quan dius que la posició del pèndol és θ, ja has dit que el fil no s'estira. No cal cap força de tensió per imposar-ho, perquè el llenguatge que has triat no permet ni tan sols formular la possibilitat que s'estiri."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-lag-03",
+              "text": "Per a cada coordenada generalitzada qᵢ, el moviment del sistema satisfà l'equació d'Euler-Lagrange: d/dt(∂L/∂q̇ᵢ) = ∂L/∂qᵢ. La primera derivada, ∂L/∂q̇ᵢ, s'anomena moment conjugat de qᵢ; la segona, ∂L/∂qᵢ, és la força generalitzada. Llegida així, l'equació diu el mateix que Newton: la taxa de canvi del moment és igual a la força. La diferència és que ara val per a qualsevol coordenada, i que «moment» i «força» poden ser angles i parells de torsió sense que calgui canviar res."
+            },
+            {
+              "type": "before-after",
+              "title": "El pèndol simple, resolt de dues maneres",
+              "before": {
+                "label": "Via Newton",
+                "points": [
+                  "Dibuixar el diagrama de forces: pes i tensió",
+                  "Descompondre en components x i y",
+                  "Introduir la tensió com a incògnita addicional",
+                  "Imposar la lligadura: la longitud del fil és constant",
+                  "Projectar sobre la direcció tangencial per eliminar la tensió",
+                  "Obtenir finalment θ̈ = −(g/l)·sin θ"
+                ]
+              },
+              "after": {
+                "label": "Via Lagrange",
+                "points": [
+                  "Identificar l'únic grau de llibertat: l'angle θ",
+                  "Escriure T = ½·m·l²·θ̇² i V = −m·g·l·cos θ",
+                  "Formar L = T − V",
+                  "Derivar: ∂L/∂θ̇ = m·l²·θ̇ i ∂L/∂θ = −m·g·l·sin θ",
+                  "Aplicar l'equació d'Euler-Lagrange",
+                  "Obtenir θ̈ = −(g/l)·sin θ"
+                ]
+              },
+              "insight": "El resultat és idèntic — ha de ser-ho, és la mateixa física. El que canvia és que la tensió del fil no apareix en cap moment del segon camí. En un pèndol la diferència és una comoditat; en un braç robòtic de sis articulacions, és la diferència entre un problema tractable i un que no ho és."
+            },
+            {
+              "type": "expandable",
+              "label": "D'on surt l'equació: la derivació en quatre passos",
+              "content": "1. Considera totes les trajectòries q(t) que van d'una configuració inicial fixa a una final fixa, en un temps donat. Cadascuna té una acció S = ∫L(q, q̇, t)dt.\n\n2. Pren la trajectòria real i deforma-la lleugerament: q(t) + εη(t), on η s'anul·la als dos extrems (els punts inicial i final estan fixats) i ε és petit.\n\n3. Calcula com canvia l'acció en primer ordre en ε. Apareixen dos termes: un amb ∂L/∂q·η i un altre amb ∂L/∂q̇·η̇. Integra el segon per parts. El terme de vora s'anul·la, precisament perquè η val zero als extrems.\n\n4. Queda δS = ∫[∂L/∂q − d/dt(∂L/∂q̇)]·η·dt. Perquè això sigui zero per a QUALSEVOL deformació η, el claudàtor ha de ser idènticament nul. I això és l'equació d'Euler-Lagrange.\n\nEl pas 3 és on viu tota la màgia: la integració per parts és el que converteix una condició global sobre trajectòries senceres en una equació diferencial local que es compleix a cada instant. Les dues imatges del món de la lliçó anterior queden connectades per una operació de càlcul de primer curs."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-lag-03-01",
+              "style": "multiple-choice",
+              "question": "En el lagrangià d'una partícula que es mou en un pla sota una força central, escrit en coordenades polars, l'angle φ no hi apareix enlloc: només hi apareix la seva derivada φ̇. Què se'n dedueix immediatament?",
+              "options": [
+                "Que la partícula no gira: φ és constant al llarg del moviment",
+                "Que el moment conjugat de φ es conserva — és a dir, el moment angular és constant",
+                "Que el problema no té solució i cal canviar de coordenades",
+                "Que l'energia total del sistema no es conserva"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte, i aquesta és la primera aparició d'una idea que dominarà la lliçó següent. Si ∂L/∂φ = 0, l'equació d'Euler-Lagrange es redueix a d/dt(∂L/∂φ̇) = 0: el moment conjugat de φ és constant en el temps. Aquest moment és precisament el moment angular. La segona llei de Kepler — el radi vector escombra àrees iguals en temps iguals — surt d'observar que una lletra no apareix en una fórmula.",
+              "feedbackWrong": "Compte amb no confondre «φ no apareix a L» amb «φ no canvia». Si ∂L/∂φ = 0, l'equació d'Euler-Lagrange queda d/dt(∂L/∂φ̇) = 0, que no diu que φ sigui constant sinó que el seu moment conjugat ho és. Aquest moment conjugat és el moment angular. La partícula gira perfectament; el que es conserva és una quantitat associada a la rotació."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Relativitat",
+              "moduleEmoji": "🌌",
+              "concept": "La forma de l'equació sobreviu al canvi de teoria",
+              "text": "La invariància sota canvis de coordenades no és una comoditat de càlcul: és exactament la propietat que la relativitat general necessitarà. Si les lleis de la física s'han de poder escriure igual per a qualsevol observador, incloent-hi els accelerats, cal un formalisme la forma del qual no depengui de les coordenades triades. El llenguatge variacional ja tenia aquesta propietat incorporada abans que ningú necessités la relativitat."
+            }
+          ]
+        },
+        {
+          "id": "lag-04",
+          "title": "Noether: la simetria és la llei",
+          "blocks": [
+            {
+              "type": "misconception",
+              "belief": "Les lleis de conservació són fets bruts sobre l'univers: l'energia es conserva, i punt. Són axiomes que la física assumeix perquè s'observen.",
+              "reality": "Cap llei de conservació és un axioma. Cadascuna és el teorema que correspon a una simetria contínua de l'acció. L'energia es conserva perquè les lleis de la física no canvien amb el temps. El moment lineal, perquè no canvien amb la posició. El moment angular, perquè no canvien amb l'orientació. Si una d'aquestes simetries falla, la magnitud corresponent deixa de conservar-se.",
+              "why": "Aquesta relació es va demostrar el 1918, més de dos segles després de Newton, i durant tot aquell temps la conservació de l'energia es va ensenyar com un principi fonamental. Els llibres de text van trigar dècades a reordenar l'exposició, i molts encara presenten la conservació primer i la simetria com un comentari posterior. L'ordre lògic és el contrari. Un exemple incòmode ho deixa clar: en un univers en expansió, la simetria de translació temporal no es compleix globalment — i l'energia dels fotons del fons còsmic, efectivament, no es conserva."
+            },
+            {
+              "type": "narrative",
+              "text": "Emmy Noether va arribar a Göttingen el 1915, cridada per David Hilbert i Felix Klein. La raó era concreta: Einstein acabava de publicar la relativitat general i el seu formalisme presentava un problema desconcertant. La conservació de l'energia, que en tota la física anterior era un principi robust, es comportava de manera estranya quan l'espaitemps mateix era dinàmic. Hilbert i Klein volien entendre per què, i Noether era la persona d'Europa que millor dominava la teoria d'invariants."
+            },
+            {
+              "type": "narrative",
+              "text": "No la podien contractar. Les normes de la universitat no permetien l'habilitació d'una dona, i Noether va donar classe durant anys anunciades sota el nom de Hilbert, sense sou i sense càrrec. En una reunió del claustre on es discutia el seu cas, Hilbert va deixar anar la frase que se cita des de llavors: no veia per què el sexe d'una candidata havia de ser un argument en contra de la seva admissió com a docent, perquè al capdavall el claustre no era una casa de banys. El 1918 va publicar «Invariante Variationsprobleme», un article que responia la pregunta original i, de passada, reorganitzava els fonaments de la física teòrica."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-lag-04",
+              "text": "Teorema de Noether: per a cada simetria contínua de l'acció d'un sistema, existeix una magnitud que es conserva al llarg del moviment. «Simetria contínua» vol dir una transformació que es pot fer arbitràriament petita — desplaçar-ho tot una mica, esperar una mica, girar-ho una mica — i que deixa l'acció invariant. El teorema no diu només que hi hagi correspondència: dona la recepta explícita per construir la magnitud conservada a partir de la simetria."
+            },
+            {
+              "type": "comparison",
+              "title": "El diccionari que Noether va escriure",
+              "labelA": "Si l'acció és invariant sota...",
+              "labelB": "...aleshores es conserva",
+              "items": [
+                {
+                  "label": "Temps",
+                  "a": "Translació temporal: fer l'experiment avui o d'aquí a un any dona el mateix",
+                  "b": "L'energia"
+                },
+                {
+                  "label": "Espai",
+                  "a": "Translació espacial: fer-lo aquí o dos metres més enllà dona el mateix",
+                  "b": "El moment lineal"
+                },
+                {
+                  "label": "Orientació",
+                  "a": "Rotació: fer-lo mirant al nord o a l'est dona el mateix",
+                  "b": "El moment angular"
+                },
+                {
+                  "label": "Fase quàntica",
+                  "a": "Canvi global de fase de la funció d'ona",
+                  "b": "La càrrega elèctrica"
+                },
+                {
+                  "label": "Bescanvi",
+                  "a": "Intercanviar dues partícules idèntiques",
+                  "b": "L'estadística que segueixen (bosons o fermions)"
+                }
+              ]
+            },
+            {
+              "type": "quote",
+              "text": "En el judici dels matemàtics vius més competents, la senyoreta Noether va ser el geni matemàtic creatiu més significatiu produït des que va començar l'educació superior de les dones.",
+              "author": "Albert Einstein, carta al New York Times, maig de 1935"
+            },
+            {
+              "type": "expandable",
+              "label": "Què passa quan la simetria només és aproximada",
+              "content": "El teorema té una versió gradual que és la que fa realment feina en la física moderna. Si una simetria es compleix només aproximadament, la magnitud corresponent no es conserva exactament: es conserva aproximadament, i el ritme al qual es «trenca» és proporcional a la magnitud del trencament de la simetria.\n\nAixò converteix Noether en una eina de diagnòstic. Quan els físics de partícules van observar, el 1964, que la simetria CP es violava en la desintegració dels kaons, la conclusió immediata no va ser «hem trobat una anomalia sense explicació», sinó «hi ha alguna cosa a l'acció que no és invariant sota CP, i la seva mida ha de ser aquesta». La violació de CP és, avui, un dels ingredients candidats a explicar per què l'univers conté matèria i pràcticament gens d'antimatèria.\n\nEl mateix passa amb l'energia en cosmologia: com que l'univers s'expandeix, la simetria de translació temporal no es compleix a escala global, i la conservació global de l'energia deixa de tenir el sentit senzill que té en un laboratori. No és una paradoxa ni un problema no resolt: és exactament el que Noether prediu."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-lag-04-01",
+              "style": "multiple-choice",
+              "question": "Una partícula es mou dins d'una caixa cúbica rígida. Quina magnitud NO es conserva, i per quina raó?",
+              "options": [
+                "L'energia, perquè les parets de la caixa hi fan feina en cada xoc",
+                "El moment lineal, perquè les parets trenquen la simetria de translació espacial",
+                "El moment angular, perquè la caixa és cúbica i no esfèrica",
+                "Cap: totes tres es conserven, ja que no hi ha friccions"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Correcte, i fixa't que hi ha una segona resposta defensable. Les parets trenquen la simetria de translació: desplaçar el sistema sencer no dona la mateixa física, perquè la caixa és en un lloc concret. Per tant el moment lineal no es conserva — i efectivament canvia a cada rebot. El moment angular tampoc, perquè una caixa cúbica no és invariant sota rotacions arbitràries. L'energia sí que es conserva: les parets són rígides i estàtiques, de manera que el sistema no depèn explícitament del temps.",
+              "feedbackWrong": "Aplica el diccionari de Noether directament. L'energia es conserva perquè les parets no es mouen: el sistema no depèn explícitament del temps. El moment lineal no es conserva, perquè la caixa ocupa un lloc concret i desplaçar-ho tot no dona la mateixa situació — és la simetria de translació la que està trencada, i el moment lineal el que en paga el preu. (El moment angular tampoc es conserva, per la mateixa raó aplicada a les rotacions.)"
+            },
+            {
+              "type": "reflection",
+              "question": "Una pregunta que canvia de forma",
+              "prompt": "Abans de Noether, «per què es conserva l'energia?» era una pregunta gairebé metafísica: es responia dient que era un principi fonamental de la natura. Després de Noether, es respon amb una altra pregunta: «per què les lleis de la física no canvien amb el temps?» El misteri no ha desaparegut, s'ha desplaçat — i en desplaçar-se, ha esdevingut una pregunta empírica que es pot posar a prova. Reconeixes aquest moviment en algun altre camp que coneguis, on una pregunta fonamental s'hagi convertit en una pregunta investigable en canviar de nivell?"
+            }
+          ]
+        },
+        {
+          "id": "lag-05",
+          "title": "Hamilton i l'espai de fases",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-lag-05",
+              "revealAfterBlockId": "ki-lag-05",
+              "question": "Si el formalisme hamiltonià és equivalent al lagrangià, quin sentit té construir-ne un tercer?",
+              "options": [
+                "Cap de pràctic: és una reformulació sense conseqüències, feta per completitud matemàtica",
+                "Perquè el hamiltonià és més precís i corregeix errors del lagrangià en sistemes complexos",
+                "Perquè canvia l'objecte geomètric on viu la física — de trajectòries a punts en un espai de fases — i això obre problemes que amb el lagrangià no es poden ni plantejar"
+              ],
+              "correct": 2,
+              "explanation": "No hi ha guany de precisió: les tres formulacions donen la mateixa física. El guany és de geometria. Lagrange treballa amb n coordenades i les seves derivades segones; Hamilton treballa amb 2n variables — posicions i moments — i equacions de primer ordre. Un estat del sistema passa a ser un únic punt en un espai de 2n dimensions, i la seva evolució, una corba en aquell espai. D'aquí en surt la mecànica estadística, que compta volums en l'espai de fases; la teoria del caos, que estudia com es deformen les regions; i la mecànica quàntica, on les variables conjugades de Hamilton esdevenen operadors que no commuten."
+            },
+            {
+              "type": "narrative",
+              "text": "William Rowan Hamilton va publicar la seva reformulació entre 1834 i 1835. El pas tècnic és una transformació de Legendre: en comptes de descriure el sistema amb les coordenades q i les seves velocitats q̇, es descriu amb les coordenades q i els seus moments conjugats p = ∂L/∂q̇. Sembla un canvi de variables innocent. No ho és."
+            },
+            {
+              "type": "narrative",
+              "text": "En la formulació de Lagrange, l'estat d'un sistema en un instant no queda determinat per un punt: cal el punt i la seva velocitat, que són coses de naturalesa diferent. En la de Hamilton, q i p tenen el mateix estatus i formen les 2n coordenades d'un espai únic — l'espai de fases. Un sistema físic hi és un punt. La seva història sencera, una corba. I com que les equacions són de primer ordre, per cada punt hi passa una sola corba: dues trajectòries no es poden creuar mai en l'espai de fases. El determinisme clàssic, que en Newton és una afirmació sobre equacions, aquí es converteix en una propietat geomètrica visible."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-lag-05",
+              "text": "Definint H = Σ pᵢq̇ᵢ − L, les equacions del moviment prenen una forma notablement simètrica: q̇ᵢ = ∂H/∂pᵢ i ṗᵢ = −∂H/∂qᵢ. Són les equacions canòniques de Hamilton. Per a molts sistemes habituals, H coincideix numèricament amb l'energia total, T + V — però això és una coincidència freqüent, no una definició: H és la transformada de Legendre de L, i hi ha sistemes on les dues coses no coincideixen."
+            },
+            {
+              "type": "analogy",
+              "concept": "L'espai de fases com a mapa de tots els destins possibles",
+              "emoji": "🗺️",
+              "analogy": "Pensa en un mapa on cada punt no representa un lloc sinó una situació completa: no «Barcelona», sinó «Barcelona, anant cap al nord a 80 km/h». En aquest mapa, un viatge no és una línia sobre un territori sinó una corba que travessa situacions. I hi regeix una norma estricta: per cada situació passa una única corba, perquè la situació determina completament el que ve després.",
+              "bridge": "Això és exactament l'espai de fases. La seva potència és que permet fer preguntes sobre conjunts sencers de situacions en comptes de trajectòries individuals: quin volum ocupen tots els estats compatibles amb el que sé del sistema? Com es deforma aquesta regió amb el temps? La mecànica estadística és íntegrament la resposta a la primera pregunta; la teoria del caos, a la segona."
+            },
+            {
+              "type": "comparison",
+              "title": "Tres formalismes, la mateixa física",
+              "labelA": "Lagrange",
+              "labelB": "Hamilton",
+              "items": [
+                {
+                  "label": "Variables",
+                  "a": "n coordenades q i les seves velocitats q̇",
+                  "b": "n coordenades q i n moments p, en peu d'igualtat"
+                },
+                {
+                  "label": "Equacions",
+                  "a": "n equacions de segon ordre",
+                  "b": "2n equacions de primer ordre"
+                },
+                {
+                  "label": "Objecte geomètric",
+                  "a": "Trajectòries en l'espai de configuracions",
+                  "b": "Punts i fluxos en l'espai de fases"
+                },
+                {
+                  "label": "On brilla",
+                  "a": "Plantejar i resoldre sistemes amb lligadures",
+                  "b": "Mecànica estadística, caos, i el pas a la mecànica quàntica"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "El teorema de Liouville, o per què l'entropia necessita Hamilton",
+              "content": "Joseph Liouville va demostrar el 1838 un resultat de conseqüències molt llargues: en un sistema hamiltonià, el volum d'una regió de l'espai de fases es conserva al llarg de l'evolució temporal. La regió es pot deformar tant com vulgui — estirar-se en fils finíssims, enroscar-se, omplir l'espai disponible d'una manera visualment caòtica — però el seu volum total no canvia mai.\n\nAixò té una lectura immediata sobre el coneixement. Si no saps exactament l'estat inicial d'un sistema, la teva ignorància ocupa un cert volum en l'espai de fases. Liouville diu que aquest volum no es pot reduir per pura evolució dinàmica: la informació no es crea sola. Però el volum sí que es pot deformar fins a fer-se pràcticament impossible de seguir, escampant-se per tot l'espai accessible en filaments cada cop més prims. Quan renuncies a resoldre aquells filaments i els substitueixes per una descripció gruixuda, apareix l'entropia estadística — i amb ella, la fletxa del temps.\n\nAquest és el pont conceptual entre la mecànica reversible i la termodinàmica irreversible. I només es pot construir en l'espai de fases: en el llenguatge de Lagrange, el teorema de Liouville ni tan sols es pot enunciar."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "El Caos: Quan la Ciència Perd el Control",
+              "moduleEmoji": "🌀",
+              "concept": "Els atractors estranys viuen a l'espai de fases",
+              "text": "Quan es diu que un sistema caòtic té un «atractor estrany» amb estructura fractal, s'està parlant d'un objecte que viu a l'espai de fases de Hamilton, no a l'espai físic. La sensibilitat a les condicions inicials és la descripció geomètrica del que passa a una regió d'aquest espai: es deforma exponencialment sense canviar de volum. Sense el formalisme hamiltonià, el caos es pot observar però no es pot descriure."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-lag-05-01",
+              "style": "multiple-choice",
+              "question": "Per què és rellevant que en l'espai de fases dues trajectòries no es puguin creuar mai?",
+              "options": [
+                "Perquè demostra que els sistemes físics són sempre periòdics",
+                "Perquè implica que l'estat present determina unívocament tot el futur i tot el passat del sistema",
+                "Perquè impedeix que el sistema perdi energia per fricció",
+                "Perquè garanteix que totes les trajectòries acabin al mateix punt d'equilibri"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. Si dues trajectòries es creuessin, hi hauria un punt de l'espai de fases — és a dir, un estat complet del sistema — a partir del qual el futur seria ambigu. Que no es creuin mai és la forma geomètrica del determinisme clàssic. I com que les equacions de Hamilton són reversibles en el temps, val igualment cap enrere: l'estat present determina el passat sencer.",
+              "feedbackWrong": "La clau és què significa un punt de l'espai de fases: un estat complet del sistema, posicions i moments inclosos. Si dues trajectòries diferents hi passessin, el mateix estat complet tindria dos futurs diferents, i el determinisme s'esfondraria. Que no es creuin no diu res sobre periodicitat, fricció ni equilibri: és l'expressió geomètrica que l'estat present fixa tot el futur i tot el passat."
+            }
+          ]
+        },
+        {
+          "id": "lag-06",
+          "title": "Per què això sobreviu quan Newton cau",
+          "blocks": [
+            {
+              "type": "misconception",
+              "belief": "El formalisme lagrangià és una reformulació elegant de la mecànica clàssica: una manera més còmoda de resoldre els mateixos problemes de sempre.",
+              "reality": "És el llenguatge en què s'escriu tota la física fonamental posterior. La relativitat especial i general, l'electrodinàmica, la teoria quàntica de camps i el Model Estàndard es formulen com a principis d'acció. La mecànica newtoniana, en canvi, va quedar enrere fa un segle. El que semblava una comoditat de càlcul era, de fet, l'estructura profunda.",
+              "why": "L'ordre en què s'ensenya la física convida a l'error: es presenta Lagrange com un capítol avançat de la mecànica clàssica, dins d'una assignatura sobre pèndols i politges. Difícilment es pot endevinar, des d'allà, que aquell mateix formalisme és el que sosté la descripció del bosó de Higgs. El senyal que hi hauria d'haver alertat és la generalitat: un mètode que funciona amb qualsevol coordenada i qualsevol nombre de graus de llibertat no depèn de cap hipòtesi sobre què són l'espai, el temps o les partícules — i per tant pot sobreviure quan aquelles hipòtesis canvien."
+            },
+            {
+              "type": "narrative",
+              "text": "El 1905 la mecànica newtoniana deixa de ser correcta. El 1925 deixa de ser correcta una segona vegada, per una raó diferent. En cap dels dos casos el formalisme variacional cau amb ella. La relativitat especial només demana canviar el lagrangià per un que sigui invariant sota transformacions de Lorentz; l'estructura variacional queda intacta. La relativitat general és, en la formulació que Hilbert va donar el mateix novembre de 1915, directament un principi d'acció: les equacions d'Einstein surten d'extremitzar una integral sobre la curvatura de l'espaitemps."
+            },
+            {
+              "type": "narrative",
+              "text": "El cas quàntic és encara més revelador. El 1948, Richard Feynman —desenvolupant una idea que Dirac havia insinuat el 1933— reformula la mecànica quàntica en termes d'integrals de camí: per anar d'un punt a un altre, la partícula contribueix amb tots els camins possibles, cadascun amb un pes que depèn de la seva acció. Quan les accions implicades són molt més grans que la constant de Planck, les contribucions dels camins veïns es cancel·len entre elles arreu excepte al voltant del camí d'acció estacionària. El principi clàssic de Maupertuis, que semblava una intuïció teològica del segle XVIII, resulta ser el límit macroscòpic d'un fet quàntic literal."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-lag-06",
+              "text": "El Model Estàndard de la física de partícules no s'enuncia com una llista de lleis: s'enuncia escrivint un lagrangià. Les simetries que se li imposen — les simetries gauge — determinen, via Noether, quines càrregues es conserven i quines partícules transmeten les forces. La pregunta «per què hi ha exactament aquestes forces?» s'ha convertit en «per què l'acció té exactament aquestes simetries?». No està resolta, però ara és una pregunta d'una sola peça."
+            },
+            {
+              "type": "timeline",
+              "events": [
+                {
+                  "year": "1662",
+                  "title": "Fermat: el principi del temps mínim",
+                  "text": "La llum segueix el camí que triga menys temps. Primera formulació d'una llei física com a propietat global d'una trajectòria en comptes d'una regla local."
+                },
+                {
+                  "year": "1744",
+                  "title": "Maupertuis i Euler: l'acció",
+                  "text": "Maupertuis proposa el principi de mínima acció per a la matèria, amb una justificació teològica que li costarà una polèmica llarga. Euler li dona el rigor matemàtic que li falta."
+                },
+                {
+                  "year": "1788",
+                  "title": "Lagrange: Mécanique analytique",
+                  "text": "La mecànica es converteix en una branca de l'anàlisi. Lagrange presumeix que el llibre no conté ni un sol dibuix: tota la física, reduïda a operacions algebraiques."
+                },
+                {
+                  "year": "1834",
+                  "title": "Hamilton: l'espai de fases",
+                  "text": "Posicions i moments passen a tenir el mateix estatus. Les equacions esdevenen de primer ordre i el determinisme es torna una propietat geomètrica."
+                },
+                {
+                  "year": "1915",
+                  "title": "Hilbert: l'acció d'Einstein-Hilbert",
+                  "text": "Les equacions de camp de la relativitat general es deriven d'un principi variacional sobre la curvatura de l'espaitemps."
+                },
+                {
+                  "year": "1918",
+                  "title": "Noether: simetria i conservació",
+                  "text": "«Invariante Variationsprobleme» demostra que cada simetria contínua de l'acció genera una llei de conservació. Els principis de conservació deixen de ser axiomes."
+                },
+                {
+                  "year": "1948",
+                  "title": "Feynman: la integral de camins",
+                  "text": "La mecànica quàntica es reescriu sumant sobre tots els camins possibles, cadascun pesat per la seva acció. El principi clàssic apareix com el límit macroscòpic."
+                },
+                {
+                  "year": "1954",
+                  "title": "Yang i Mills: simetries gauge",
+                  "text": "Imposar que una simetria valgui localment, punt a punt, obliga a introduir camps de força. L'estructura de les interaccions passa a deduir-se de les simetries de l'acció."
+                },
+                {
+                  "year": "2012",
+                  "title": "El Higgs, confirmat al CERN",
+                  "text": "La partícula predita per un terme concret del lagrangià del Model Estàndard, proposat el 1964, es detecta experimentalment quaranta-vuit anys després."
+                }
+              ]
+            },
+            {
+              "type": "debate",
+              "question": "El principi d'acció és una veritat profunda sobre la natura, o una eina matemàtica que funciona molt bé?",
+              "context": "Que tota la física fonamental coneguda es pugui escriure com un principi variacional és un fet notable que demana explicació. Hi ha dues lectures antigues i encara vives.",
+              "positionA": {
+                "label": "És estructura real: la natura és variacional",
+                "argument": "Que quatre teories independents entre elles —mecànica, electrodinàmica, relativitat i teoria de camps— acabin totes escrivint-se com δS = 0 no pot ser una coincidència de notació. Quan una mateixa forma matemàtica reapareix en dominis que no comparteixen ni objectes ni escales, l'explicació econòmica és que la forma correspon a alguna cosa del món. A més, el formalisme ha estat predictiu: el terme de Higgs va ser escrit al lagrangià per raons de consistència interna quaranta-vuit anys abans que ningú detectés la partícula."
+              },
+              "positionB": {
+                "label": "És una eina: reflecteix com fem física, no com és el món",
+                "argument": "Qualsevol sistema d'equacions diferencials prou regular admet una formulació variacional; que la trobem a tot arreu diu més sobre les matemàtiques que sobre la natura. I hi ha un biaix de selecció important: les teories que hem sabut construir són precisament les que es deixaven escriure així, perquè el formalisme és el que sabem manipular. Els sistemes dissipatius, que són la immensa majoria del món real, no admeten un lagrangià estàndard — i no per això són menys naturals."
+              },
+              "reflection": "Fixa't que cap de les dues posicions és refutable per experiment: totes dues prediuen exactament la mateixa física. La discussió és sobre què compta com a explicació, no sobre què passarà en un laboratori. Això la treu de la física i la posa a la filosofia de la ciència — cosa que no la fa menys seriosa, però sí que canvia quines eines hi valen."
+            },
+            {
+              "type": "expandable",
+              "label": "Els límits honestos: on el formalisme no arriba",
+              "content": "Val la pena tenir clar què queda fora, perquè és més del que la divulgació acostuma a admetre.\n\n**Sistemes dissipatius.** El formalisme estàndard assumeix forces conservatives, derivables d'un potencial. La fricció no ho és. Es pot pegar amb la funció de dissipació de Rayleigh o amb lagrangians dependents del temps, però són apedaçaments: la dissipació no encaixa de manera natural en una estructura variacional. La sortida conceptual és que la fricció no és fonamental — és el resultat d'ignorar els graus de llibertat microscòpics, que sí que són conservatius. Correcte, i tanmateix el problema pràctic continua.\n\n**Lligadures no-holònomes.** Les lligadures que es poden escriure com una relació entre coordenades (holònomes) s'absorbeixen elegantment. Les que impliquen velocitats de manera no integrable —el cas de manual és una roda que roda sense relliscar— no. Requereixen multiplicadors de Lagrange o formulacions específiques, i el tractament correcte va ser objecte de polèmica durant bona part del segle XX.\n\n**Condicions de contorn.** La derivació supposa punts inicial i final fixats. En teoria de camps això es converteix en una qüestió delicada: en relativitat general, per exemple, l'acció d'Einstein-Hilbert necessita un terme de vora addicional —el terme de Gibbons-Hawking-York— perquè el problema variacional estigui ben plantejat. Un detall tècnic que resulta ser central en termodinàmica de forats negres."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-lag-06-01",
+              "style": "multiple-choice",
+              "question": "Quina és la raó de fons per la qual el formalisme variacional va sobreviure a la relativitat i a la mecànica quàntica, mentre que la formulació newtoniana no ho va fer?",
+              "options": [
+                "Perquè és matemàticament més potent i pot resoldre equacions que Newton no podia resoldre",
+                "Perquè no pressuposa res sobre la naturalesa de l'espai, el temps o les partícules: només demana una acció i una condició d'estacionarietat",
+                "Perquè va ser formulat més tard i ja tenia en compte els efectes relativistes",
+                "Perquè les seves equacions són de primer ordre i les de Newton de segon"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La formulació newtoniana incorpora hipòtesis substantives —temps absolut, espai euclidià, forces instantànies a distància— i quan aquestes hipòtesis van caure, va caure amb elles. El principi d'acció no diu res sobre què és l'espai ni què és el temps: demana una funció L i imposa δS = 0. Aquesta buidor és precisament la seva força, perquè permet canviar completament el contingut físic sense tocar l'estructura.",
+              "feedbackWrong": "No és una qüestió de potència de càlcul ni de cronologia: Lagrange és de 1788, molt anterior a la relativitat. La clau és què pressuposa cada formulació. Newton assumeix temps absolut, espai euclidià i forces instantànies; quan la física va abandonar aquestes hipòtesis, la formulació va caure amb elles. El principi d'acció no pressuposa res d'això — només demana una acció i la condició δS = 0 — i per això va poder acollir continguts físics completament nous."
+            },
+            {
+              "type": "reflection",
+              "question": "Què has après realment en aquest itinerari",
+              "prompt": "No has après física nova: cada resultat d'aquestes sis lliçons ja era conseqüència de les lleis de Newton que coneixies. El que ha canviat és què queda a la vista. Les lleis de conservació han deixat de ser fets per esdevenir teoremes. El determinisme ha passat de ser una afirmació sobre equacions a ser una propietat geomètrica. I una pregunta com «per què hi ha aquestes forces i no unes altres» ha adquirit una forma que es pot atacar. Val la pena preguntar-se, en qualsevol camp que treballis: quan una reformulació no aporta cap dada nova, què és exactament el que aporta?"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "xp": 300,
+  "xp": 450,
   "order": 49,
   "area": "ciencies",
   "topic": "Física",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": []
 }

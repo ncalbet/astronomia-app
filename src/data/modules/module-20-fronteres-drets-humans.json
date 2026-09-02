@@ -11,6 +11,7 @@
       "icon": "💻",
       "description": "Intel·ligència artificial, vigilància digital i els nous reptes per a la dignitat humana",
       "style": "Emergent · dels algoritmes al dret a no ser vigilat",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "td-01",
@@ -281,6 +282,7 @@
       "icon": "🔍",
       "description": "Els debats filosòfics i polítics que qüestionen les bases del sistema de drets humans actual",
       "style": "Crític · repensant el sistema des de dins i des de fora",
+      "level": "avancat",
       "lessons": [
         {
           "id": "df-01",
@@ -567,5 +569,8 @@
   "order": 31,
   "area": "relacions",
   "topic": "Drets Humans",
-  "level": "inicial"
+  "level": "intermedi",
+  "prerequisites": [
+    "module-16-sistema-internacional-drets-humans"
+  ]
 }
