@@ -11,6 +11,7 @@
       "icon": "🏛️",
       "description": "Un recorregut pels problemes fonamentals del coneixement: què és saber, com justifiquem les nostres creences i fins on arriba la certesa.",
       "style": "Sistemàtic · dels problemes clàssics a les respostes contemporànies",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "epi-01",
@@ -448,6 +449,7 @@
       "icon": "🌐",
       "description": "Com s'aplica l'epistemologia als reptes del coneixement actual: la ciència, la desinformació, la intel·ligència artificial i la identitat.",
       "style": "Aplicat · dels problemes clàssics als reptes d'avui",
+      "level": "inicial",
       "lessons": [
         {
           "id": "epi-c01",
@@ -856,5 +858,8 @@
   ],
   "area": "pensament",
   "topic": "Filosofia",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-30-introduccio-filosofia"
+  ]
 }
