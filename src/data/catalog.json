@@ -71,9 +71,9 @@
     "emoji": "🔬",
     "area": "pensament",
     "topic": "Eines del Pensament",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi"
     ],
     "prerequisites": [],
     "xp": 268,
@@ -206,7 +206,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-09-roma"
+    ],
     "xp": 200,
     "order": 10,
     "phase": 2,
@@ -225,7 +227,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-10-republic-crisis"
+    ],
     "xp": 200,
     "order": 11,
     "phase": 2,
@@ -244,7 +248,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-11-augustus"
+    ],
     "xp": 200,
     "order": 12,
     "phase": 2,
@@ -265,7 +271,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-12-pax-romana"
+    ],
     "xp": 200,
     "order": 13,
     "phase": 2,
@@ -305,7 +313,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-14-egipte"
+    ],
     "xp": 160,
     "order": 15,
     "phase": 2,
@@ -324,7 +334,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-14-egipte"
+    ],
     "xp": 160,
     "order": 16,
     "phase": 2,
@@ -343,7 +355,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-14-egipte"
+    ],
     "xp": 160,
     "order": 17,
     "phase": 2,
@@ -364,7 +378,10 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-14-egipte",
+      "module-16-egipte-imperi"
+    ],
     "xp": 160,
     "order": 18,
     "phase": 2,
@@ -478,7 +495,8 @@
     "topic": "Arts Visuals",
     "level": "inicial",
     "levels": [
-      "inicial"
+      "inicial",
+      "intermedi"
     ],
     "prerequisites": [],
     "xp": 300,
@@ -497,7 +515,8 @@
     "topic": "Edat Moderna",
     "level": "inicial",
     "levels": [
-      "inicial"
+      "inicial",
+      "intermedi"
     ],
     "prerequisites": [],
     "xp": 280,
@@ -690,11 +709,13 @@
     "emoji": "🧠",
     "area": "societat",
     "topic": "Bases Econòmiques",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-19-economia-mon"
+    ],
     "xp": 220,
     "order": 34,
     "phase": 1,
@@ -712,19 +733,22 @@
     "emoji": "🏦",
     "area": "societat",
     "topic": "Macroeconomia i Desigualtat",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi",
+      "avancat"
     ],
-    "prerequisites": [],
-    "xp": 240,
+    "prerequisites": [
+      "module-19-economia-mon"
+    ],
+    "xp": 480,
     "order": 35,
     "phase": 2,
     "glossaryTerms": [
       "g-inflacio"
     ],
-    "lessonCount": 6,
-    "hasItineraries": false
+    "lessonCount": 12,
+    "hasItineraries": true
   },
   {
     "id": "module-21-economia-desigualtat",
@@ -733,11 +757,13 @@
     "emoji": "⚖️",
     "area": "societat",
     "topic": "Macroeconomia i Desigualtat",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-20-economia-macro"
+    ],
     "xp": 240,
     "order": 36,
     "phase": 2,
@@ -754,11 +780,13 @@
     "emoji": "🔄",
     "area": "societat",
     "topic": "Teoria Econòmica",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-22-economia-historia"
+    ],
     "xp": 240,
     "order": 37,
     "phase": 2,
@@ -776,11 +804,13 @@
     "emoji": "🌐",
     "area": "societat",
     "topic": "Teoria Econòmica",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-20-economia-macro"
+    ],
     "xp": 240,
     "order": 38,
     "phase": 2,
@@ -795,11 +825,13 @@
     "emoji": "📊",
     "area": "societat",
     "topic": "Macroeconomia i Desigualtat",
-    "level": "inicial",
+    "level": "avancat",
     "levels": [
-      "inicial"
+      "avancat"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-21-economia-desigualtat"
+    ],
     "xp": 240,
     "order": 39,
     "phase": 2,
@@ -814,11 +846,13 @@
     "emoji": "🎭",
     "area": "societat",
     "topic": "Teoria Econòmica",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-25-economia-micro"
+    ],
     "xp": 240,
     "order": 40,
     "phase": 2,
@@ -833,9 +867,9 @@
     "emoji": "♟️",
     "area": "pensament",
     "topic": "Eines del Pensament",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi"
     ],
     "prerequisites": [],
     "xp": 240,
@@ -1107,7 +1141,8 @@
     "topic": "Filosofia",
     "level": "inicial",
     "levels": [
-      "inicial"
+      "inicial",
+      "intermedi"
     ],
     "prerequisites": [],
     "xp": 280,
@@ -1126,7 +1161,8 @@
     "topic": "Filosofia",
     "level": "inicial",
     "levels": [
-      "inicial"
+      "inicial",
+      "intermedi"
     ],
     "prerequisites": [],
     "xp": 280,
@@ -1149,17 +1185,19 @@
     "topic": "Filosofia",
     "level": "inicial",
     "levels": [
-      "inicial"
+      "inicial",
+      "intermedi",
+      "avancat"
     ],
     "prerequisites": [],
-    "xp": 280,
+    "xp": 420,
     "order": 56,
     "phase": 1,
     "glossaryTerms": [
       "g-logica",
       "g-sofisma"
     ],
-    "lessonCount": 12,
+    "lessonCount": 18,
     "hasItineraries": true
   },
   {
@@ -1171,9 +1209,12 @@
     "topic": "Filosofia",
     "level": "inicial",
     "levels": [
-      "inicial"
+      "inicial",
+      "intermedi"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-30-introduccio-filosofia"
+    ],
     "xp": 280,
     "order": 57,
     "phase": 1,
@@ -1296,7 +1337,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-01-antiguitat-origens"
+    ],
     "xp": 320,
     "order": 63,
     "phase": 1,
@@ -1315,7 +1358,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-02-edat-mitjana-renaixement"
+    ],
     "xp": 300,
     "order": 64,
     "phase": 1,
@@ -1334,7 +1379,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-05-avantguardes"
+    ],
     "xp": 300,
     "order": 65,
     "phase": 1,
@@ -1353,7 +1400,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-06-novella-segle-xx"
+    ],
     "xp": 300,
     "order": 66,
     "phase": 1,
@@ -1391,7 +1440,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-XX-arquitectura-01"
+    ],
     "xp": 300,
     "order": 68,
     "phase": 1,
@@ -1410,7 +1461,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-XX-arquitectura-02"
+    ],
     "xp": 300,
     "order": 69,
     "phase": 1,
@@ -1429,7 +1482,9 @@
     "levels": [
       "inicial"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-XX-arquitectura-03"
+    ],
     "xp": 300,
     "order": 70,
     "phase": 1,
@@ -1446,7 +1501,8 @@
     "topic": "Cinema",
     "level": "inicial",
     "levels": [
-      "inicial"
+      "inicial",
+      "intermedi"
     ],
     "prerequisites": [],
     "xp": 300,
@@ -1465,7 +1521,8 @@
     "topic": "Música i Òpera",
     "level": "inicial",
     "levels": [
-      "inicial"
+      "inicial",
+      "intermedi"
     ],
     "prerequisites": [],
     "xp": 300,
@@ -1586,11 +1643,13 @@
     "emoji": "⚖️",
     "area": "pensament",
     "topic": "Filosofia",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-31-etica"
+    ],
     "xp": 280,
     "order": 78,
     "phase": 1,
@@ -1605,11 +1664,14 @@
     "emoji": "🗣️",
     "area": "pensament",
     "topic": "Filosofia",
-    "level": "inicial",
+    "level": "avancat",
     "levels": [
-      "inicial"
+      "avancat"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-32-logica-argumentacio",
+      "module-33-epistemologia"
+    ],
     "xp": 280,
     "order": 79,
     "phase": 1,
@@ -3026,11 +3088,13 @@
     "emoji": "🪞",
     "area": "pensament",
     "topic": "Filosofia",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-30-introduccio-filosofia"
+    ],
     "xp": 240,
     "order": 222,
     "phase": 1,
@@ -3045,11 +3109,13 @@
     "emoji": "🚬",
     "area": "pensament",
     "topic": "Filosofia",
-    "level": "inicial",
+    "level": "intermedi",
     "levels": [
-      "inicial"
+      "intermedi"
     ],
-    "prerequisites": [],
+    "prerequisites": [
+      "module-18-existencialisme"
+    ],
     "xp": 240,
     "order": 223,
     "phase": 1,

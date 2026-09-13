@@ -11,6 +11,7 @@
       "icon": "🗣️",
       "description": "El llenguatge no descriu simplement la realitat — la construeix, la manipula i la transforma. De Wittgenstein a la propaganda digital: per quina raó les paraules importen tant",
       "style": "Temàtic · de la teoria als casos concrets",
+      "level": "avancat",
       "lessons": [
         {
           "id": "fl-01",
@@ -385,5 +386,9 @@
   "order": 79,
   "area": "pensament",
   "topic": "Filosofia",
-  "level": "inicial"
+  "level": "inicial",
+  "prerequisites": [
+    "module-32-logica-argumentacio",
+    "module-33-epistemologia"
+  ]
 }

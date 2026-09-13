@@ -11,6 +11,7 @@
       "icon": "🔧",
       "description": "Un recorregut per els fonaments de la lògica i l'argumentació: com es construeixen arguments vàlids, com es detecten errors i com es raona millor.",
       "style": "Progressiu · de la lògica formal al raonament quotidià",
+      "level": "intermedi",
       "lessons": [
         {
           "id": "log-01",
@@ -448,6 +449,7 @@
       "icon": "🌐",
       "description": "Com aplicar el pensament crític a situacions concretes: notícies, debats polítics, ciència i decisions quotidianes.",
       "style": "Aplicat · de la teoria als casos reals",
+      "level": "inicial",
       "lessons": [
         {
           "id": "log-a01",
@@ -804,9 +806,503 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reconstruir-argument",
+      "title": "Reconstruir un argument",
+      "icon": "🧱",
+      "description": "La destresa central de la filosofia: agafar un text real, extreure'n l'argument en la seva versió més forta, localitzar-ne el pas feble i refutar-lo de manera que valgui la pena.",
+      "style": "Analític · del text a l'estructura, i de l'estructura a l'objecció",
+      "level": "avancat",
+      "requires": [
+        "itinerari-eines"
+      ],
+      "lessons": [
+        {
+          "id": "log-r01",
+          "title": "La caritat com a mètode, no com a cortesia",
+          "blocks": [
+            {
+              "type": "scientific-mode",
+              "id": "sci-logr-01",
+              "revealAfterBlockId": "ki-logr-01",
+              "question": "Llegeixes un text i l'argument que hi trobes és clarament dolent: té un salt lògic evident que qualsevol veuria. Què n'has de concloure?",
+              "options": [
+                "Que l'autor no pensava bé, i que has trobat l'error que invalida el text",
+                "Que el text està mal escrit i no val la pena continuar llegint-lo",
+                "Que probablement has reconstruït malament l'argument, i abans de refutar-lo has de comprovar si n'hi ha una versió millor compatible amb el que diu"
+              ],
+              "correct": 2,
+              "explanation": "Quan un argument que ha sobreviscut segles et sembla òbviament fal·laç després d'una lectura, la hipòtesi més probable no és que tothom abans que tu fos poc atent: és que la teva reconstrucció ha perdut alguna cosa. Això no vol dir que els textos canònics no continguin errors —en contenen molts i alguns són greus— sinó que la teva primera lectura no és evidència suficient per afirmar-ho. La comprovació és barata: intenta escriure una versió de l'argument que no tingui aquell salt i que segueixi sent compatible amb el text. Si no en trobes cap, l'objecció s'aguanta i ara és molt més forta. Si en trobes una, acabes de descobrir què deia realment."
+            },
+            {
+              "type": "narrative",
+              "text": "El principi de caritat és una regla d'interpretació, no una norma d'educació. Diu que, davant de diverses lectures possibles d'un text, has de treballar amb la que el faci sortir millor parat: la més coherent, la que atribueixi menys errors evidents, la que tingui més possibilitats de ser certa. No et demana que hi estiguis d'acord ni que en dissimulis els defectes. Et demana que el defecte que finalment denunciïs sigui del text i no de la teva lectura."
+            },
+            {
+              "type": "narrative",
+              "text": "La raó per fer-ho és estrictament egoista. Una objecció contra una versió feble d'una posició no demostra res: qui la defensi et dirà, amb raó, que això no és el que sostenia. Una objecció contra la versió més forta que has sabut construir sí que compta, perquè ja has fet tu la feina de buscar-li escapatòries. Refutar bé és car precisament perquè primer s'ha de construir bé. Per això la temptació de l'home de palla és tan persistent: dona la sensació de victòria a un preu molt baix."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-logr-01",
+              "text": "Reconstruir un argument té tres passos i cap es pot saltar. Primer, identificar la conclusió: què es vol establir exactament, i amb quin abast. Segon, identificar les premisses que hi porten, incloses les que el text no diu perquè les dona per òbvies. Tercer, comprovar si el pas de les premisses a la conclusió és vàlid. Només després d'això té sentit preguntar-se si alguna premissa és falsa. Qui comença pel final —«això és fals»— acostuma a estar discutint amb una cosa que ningú no ha afirmat."
+            },
+            {
+              "type": "comparison",
+              "title": "Dues maneres de tractar un argument aliè",
+              "labelA": "Home de palla",
+              "labelB": "Reconstrucció caritativa",
+              "items": [
+                {
+                  "label": "Què fa amb les ambigüitats",
+                  "a": "Tria la lectura que fa l'argument més fàcil d'atacar",
+                  "b": "Tria la lectura que el fa més defensable, i ho fa explícit"
+                },
+                {
+                  "label": "Què fa amb les premisses implícites",
+                  "a": "Les ignora, o n'atribueix a l'autor de més compromeses del que cal",
+                  "b": "Les explicita i les formula en la versió mínima que sostingui l'argument"
+                },
+                {
+                  "label": "Cost per a qui argumenta",
+                  "a": "Baix: es pot fer amb una lectura ràpida",
+                  "b": "Alt: obliga a entendre la posició millor que molts dels qui la defensen"
+                },
+                {
+                  "label": "Valor de la refutació resultant",
+                  "a": "Nul davant de qui coneix la posició; convincent només per a qui ja hi estava en contra",
+                  "b": "Alt: si funciona, afecta la posició real i no una caricatura"
+                },
+                {
+                  "label": "Senyal per detectar-ho",
+                  "a": "La posició atacada no la defensa ningú amb nom i cognoms",
+                  "b": "Es pot citar qui sosté exactament allò que es refuta, i on"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Un cas: «els escèptics es contradiuen a si mateixos»",
+              "content": "L'objecció és antiga i sembla demolidora. Si l'escèptic afirma que no es pot saber res, aleshores no pot saber això mateix: la seva tesi es refuta sola.\n\nCom a reconstrucció, és fluixa, i ho és perquè atribueix a l'escèptic la formulació més ingènua possible. Les tradicions escèptiques desenvolupades van veure el problema abans que ningú i el van tractar explícitament. Una resposta és formular la posició no com una tesi sinó com una pràctica: suspendre el judici davant de cada afirmació, inclosa aquesta, sense afirmar res de general. Una altra és distingir nivells: es pot sostenir que no tenim coneixement cert d'una certa classe de coses sense pretendre certesa sobre aquesta mateixa afirmació, que es presenta com la millor conclusió disponible i revisable.\n\nUn cop reconstruïda així, l'objecció de l'autocontradicció ja no funciona, i cal buscar-ne una altra —n'hi ha, i de bones, sobre si aquesta suspensió és vivible o sobre què justifica les distincions de nivell. Però ara la discussió és amb l'escepticisme, no amb una versió d'aquest que no ha defensat ningú en dos mil anys."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-logr-01-01",
+              "style": "multiple-choice",
+              "question": "Has de discutir una tesi que et sembla equivocada. Quin és el primer moviment metodològicament correcte?",
+              "options": [
+                "Buscar el contraexemple més clar que se t'acudeixi i presentar-lo",
+                "Escriure la versió més forta de la tesi que siguis capaç de construir, amb les seves premisses implícites explicitades, i comprovar que qui la defensa la reconeixeria com a seva",
+                "Identificar quins interessos té qui la defensa, perquè això explica per què la sosté",
+                "Comprovar si la tesi contradiu alguna cosa que ja saps que és certa"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. La prova de qualitat d'una reconstrucció és que l'adversari la reconegui com la seva posició, o fins i tot com una millora. Fins que no la superes, qualsevol objecció corre el risc d'anar dirigida a una altra cosa. El contraexemple i la comprovació de coherència vénen després, i són molt més potents quan la reconstrucció ja està feta.",
+              "feedbackWrong": "El problema de començar per l'objecció és que no saps encara contra què l'estàs dirigint. Si la teva reconstrucció era imprecisa, el contraexemple rebota: sempre es pot respondre «això no és el que dic». Identificar interessos, a més, no toca l'argument: un argument és bo o dolent independentment de qui el formuli i per què li convingui. La feina prèvia és construir la versió més forta i comprovar que qui la defensa hi diria que sí."
+            },
+            {
+              "type": "reflection",
+              "question": "La posició que no has reconstruït mai",
+              "prompt": "Pensa en una posició política o moral que rebutges amb seguretat. Prova d'escriure'n l'argument en tres frases, de manera que algú que la defensi les llegeixi i digui «sí, això és». Si no ho aconsegueixes, tens dues possibilitats i val la pena distingir-les: o la posició és realment indefensable, o no la coneixes prou per rebutjar-la amb la seguretat amb què ho fas."
+            }
+          ]
+        },
+        {
+          "id": "log-r02",
+          "title": "Les premisses que ningú no diu",
+          "blocks": [
+            {
+              "type": "misconception",
+              "belief": "Un argument ben escrit exposa totes les seves premisses; si n'hi ha alguna d'amagada, és perquè l'autor la vol dissimular.",
+              "reality": "Tot argument real deixa premisses sense dir, i ha de fer-ho: explicitar-ho tot és impossible, perquè cada premissa en pressuposa d'altres. El que anomenem premissa implícita no acostuma a ser un engany sinó una cosa que l'autor considerava tan òbvia que ni s'hi va fixar. Precisament per això és on solen viure els errors interessants: ningú no examina el que dona per descomptat.",
+              "why": "La sospita d'ocultació és atractiva perquè converteix un problema d'anàlisi en un problema de moral, que és més fàcil i més satisfactori. Però tractar tota premissa implícita com un truc et fa perdre el que té de valuós: que sovint és compartida per l'autor i per tu, i que en treure-la a la llum descobreixes un supòsit teu que no sabies que tenies."
+            },
+            {
+              "type": "narrative",
+              "text": "Aristòtil ja va donar nom al fenomen: un entimema és un raonament al qual li falta una peça, que l'oient reposa sol. «És mortal, perquè és humà» funciona com a argument encara que ningú no digui que tots els humans són mortals. L'omissió no és un defecte retòric; és el que fa que la conversa sigui possible. El problema comença quan la peça que reposem no és tan innocent com «tots els humans són mortals»."
+            },
+            {
+              "type": "narrative",
+              "text": "El cas més famós de premissa que falta el va assenyalar David Hume al Tractat de la naturalesa humana. Hume observa que els autors que escriuen sobre moral comencen raonant sobre com són les coses i, en un punt determinat i sense avisar, passen a afirmar com han de ser. Aquest canvi de còpula —d'«és» a «ha de ser»— no és un pas més del raonament: introdueix alguna cosa que no era a les premisses. Hume no diu que el pas sigui sempre il·legítim; diu que és un pas, que sol passar desapercebut, i que qui el fa hauria d'explicar-lo."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-logr-02",
+              "text": "Per trobar la premissa que falta, pregunta't: què hauria de ser cert, i no s'ha dit, perquè aquestes premisses portessin efectivament a aquesta conclusió? Formula-la en la versió més dèbil que faci la feina, no en la més compromesa. Si la versió mínima ja és discutible, tens una objecció sòlida. Si has d'atribuir a l'autor una versió extrema per poder-la atacar, has tornat a l'home de palla per una altra porta."
+            },
+            {
+              "type": "debate",
+              "question": "El salt d'«és» a «ha de ser» és un error lògic o una descripció incompleta?",
+              "context": "L'observació de Hume ha estructurat dos segles i mig de metaètica, però el que se n'ha de concloure exactament continua sent objecte de desacord entre filòsofs que coneixen el text igual de bé.",
+              "positionA": {
+                "label": "És una barrera real: cap conjunt de fets no implica un deure",
+                "argument": "En un argument vàlid, la conclusió no pot contenir res que no sigui a les premisses. Si totes les premisses són descriptives i la conclusió és normativa, hi ha aparegut un contingut nou, i això és exactament el que la validesa prohibeix. Del fet que una pràctica sigui antiga, natural, estesa o eficient no se'n segueix que sigui deguda: cal una premissa normativa addicional que digui que allò antic, natural, estès o eficient s'ha de fer. Aquesta premissa pot ser defensable, però s'ha de defensar, no pressuposar."
+              },
+              "positionB": {
+                "label": "És una descripció incompleta de com funcionen molts conceptes",
+                "argument": "La barrera pressuposa que els conceptes descriptius i els normatius es poden separar netament, i hi ha tota una família de conceptes on no és així. Dir d'algú que és cruel, covard o generós és alhora descriure el que fa i valorar-ho; no hi ha una descripció neutra al fons que es pugui extreure. Si aquests conceptes són legítims —i s'usen constantment, també en ciències socials—, aleshores hi ha inferències que van de com són les coses a què cal fer sense cap salt misteriós. El que Hume va detectar és real com a advertència contra passos ràpids, però no com a mur infranquejable."
+              },
+              "reflection": "Observa què està en joc per a cada banda. Si la barrera és absoluta, cap investigació empírica —biològica, psicològica, antropològica— no pot per si sola fonamentar cap conclusió moral, i l'ètica necessita una font pròpia de premisses. Si no ho és, la frontera entre descriure i valorar és porosa i el treball moral i el científic s'entrellacen molt més. Fixa't també que totes dues posicions accepten el mateix consell pràctic: quan vegis aparèixer un «ha de», atura't i busca d'on ha sortit."
+            },
+            {
+              "type": "expandable",
+              "label": "Com es caça una premissa implícita, pas a pas",
+              "content": "Prenguem un argument que es llegeix sovint: «La competència entre empreses abarateix els productes; per tant, cal desregular aquest sector».\n\nPrimer, la conclusió. No és «la competència és bona» sinó una prescripció concreta: desregular aquest sector. Fixa't que ja hem guanyat precisió: l'abast és molt més estret del que semblava.\n\nSegon, les premisses explícites. Només n'hi ha una, i és descriptiva: la competència abarateix els productes.\n\nTercer, què falta. Calen com a mínim tres peces per arribar de l'una a l'altra. Que abaratir els productes sigui desitjable, tot sopesat —és a dir, que no hi hagi altres efectes que ho compensin. Que desregular aquest sector concret augmenti efectivament la competència, cosa que és empírica i no sempre certa: hi ha mercats on desregular concentra. I que no hi hagi cap altra funció que la regulació estigui complint —seguretat, informació, externalitats— que es perdi pel camí.\n\nLes tres són defensables en molts casos. Cap de les tres no és òbvia en cap cas. I fixa't en el resultat de l'exercici: no hem refutat res. Hem convertit una consigna en tres preguntes empíriques i normatives concretes, que ja es poden discutir amb dades i amb raons. Això és tot el que fa una bona reconstrucció, i és molt."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-logr-02-01",
+              "style": "multiple-choice",
+              "question": "«Aquest comportament apareix en totes les societats conegudes; per tant, és natural i no s'hauria d'intentar canviar.» Quantes premisses implícites cal afegir com a mínim perquè l'argument sigui vàlid?",
+              "options": [
+                "Cap: la universalitat del comportament ja estableix la conclusió",
+                "Una: que el que apareix a totes les societats és natural",
+                "Com a mínim dues: que la universalitat implica naturalitat, i que allò natural no s'ha de canviar",
+                "Tres o més, però totes són evidentment certes"
+              ],
+              "correct": 2,
+              "feedbackCorrect": "Exacte, i les dues són discutibles per separat. La primera és empírica i dubtosa: un tret universal pot ser conseqüència d'una condició social compartida, no d'una naturalesa. La segona és normativa i encara més forta: moltes coses plausiblement naturals —la mortalitat infantil elevada, la violència intergrupal— les combatem sense que ningú ho consideri una objecció. Separar-les permet veure que l'argument fa dos salts, no un.",
+              "feedbackWrong": "Mira on canvia el vocabulari de la frase. Primer parla de freqüència observada («apareix a totes les societats»), després de naturalesa («és natural») i finalment de deure («no s'hauria de canviar»). Cada canvi de vocabulari necessita un pont, i cap dels dos ponts no es diu. El primer és empíric i el segon és normatiu: són premisses de tipus diferent i s'han de discutir per separat."
+            }
+          ]
+        },
+        {
+          "id": "log-r03",
+          "title": "On és el pas feble",
+          "blocks": [
+            {
+              "type": "what-would-you-do",
+              "character": "Membre d'un tribunal de tesi",
+              "emoji": "🎓",
+              "year": "Una tarda qualsevol",
+              "setup": "Estàs llegint un capítol que defensa una tesi amb la qual no estàs d'acord. L'argument central té quatre premisses i una conclusió, i està ben escrit. Hi has detectat tres coses: la segona premissa és empíricament dubtosa, el pas de la tercera a la conclusió sembla que li falti alguna cosa, i una paraula clau canvia lleugerament de sentit entre la primera premissa i la conclusió. Tens deu minuts de torn de paraula.",
+              "dilemma": "Per on ataques?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Per la premissa empíricament dubtosa: és el punt on pots aportar dades concretes"
+                },
+                {
+                  "id": "B",
+                  "text": "Pel salt inferencial: si el pas no és vàlid, la veritat de les premisses ja no importa"
+                },
+                {
+                  "id": "C",
+                  "text": "Pel canvi de sentit de la paraula clau: si hi ha equivocació, l'argument només funciona per una ambigüitat"
+                }
+              ],
+              "reveal": "Les tres objeccions són legítimes, però no tenen la mateixa força ni el mateix cost. La C, si s'aguanta, és la més destructiva i la més barata de mostrar: només cal exhibir els dos usos i demanar que se'n triï un, i aleshores l'argument o bé perd una premissa o bé perd la conclusió. La B és la següent en força: invalida l'estructura sencera sense haver de discutir cap fet. La A és la més feble de les tres com a objecció, perquè s'hi respon amb més dades, i aquest és un debat que es pot allargar indefinidament sense resoldre res.",
+              "analysis": "L'ordre no és una qüestió d'estratègia retòrica sinó de la lògica del que estàs fent. Una objecció a la forma —equivocació, invalidesa— no depèn de cap fet del món, i per tant no es pot respondre amb informació nova: només reformulant l'argument. Una objecció a una premissa depèn de com és el món, i per tant sempre es pot contestar «esperem les dades». Per això la regla pràctica és examinar primer l'estructura i només després el contingut. La temptació funciona a l'inrevés, perquè discutir fets ens sembla més substantiu que discutir formes."
+            },
+            {
+              "type": "narrative",
+              "text": "Cal tenir sempre presents dues propietats diferents. Un argument és vàlid si, essent certes les premisses, la conclusió no pot ser falsa: és una propietat de l'estructura, i no depèn de si les premisses són certes de fet. Un argument és sòlid si a més les premisses són efectivament certes. Un argument vàlid amb una premissa falsa no demostra res, i un argument invàlid amb totes les premisses certes tampoc. Són dues maneres independents de fallar, i confondre-les fa que les discussions no avancin."
+            },
+            {
+              "type": "perspective",
+              "situation": "Tens davant un argument que consideres equivocat i has de decidir com atacar-lo",
+              "perspectives": [
+                {
+                  "role": "Atacar la validesa",
+                  "emoji": "🔗",
+                  "text": "Demostres que, fins i tot acceptant totes les premisses, la conclusió no se'n segueix. És l'objecció més neta perquè no et compromet amb res: no has d'afirmar que cap premissa sigui falsa, ni aportar dades, ni defensar cap posició alternativa. La manera canònica de fer-ho és construir un argument amb la mateixa forma, premisses òbviament certes i conclusió òbviament falsa: si la forma permet això, la forma és dolenta. El límit és que en arguments informals la forma no sempre és prou explícita, i qui el defensa pot respondre que l'has formalitzat malament."
+                },
+                {
+                  "role": "Atacar una premissa",
+                  "emoji": "🧨",
+                  "text": "Acceptes l'estructura i negues un dels supòsits. És l'objecció més freqüent i la que requereix més feina, perquè has de justificar la negació: aportar un contraexemple, dades o un argument independent. Té un avantatge polèmic important: deixa l'adversari amb la càrrega de defensar aquella premissa concreta en lloc de repetir la conclusió. I té un risc: si la premissa és empírica i la discussió és sobre un fenomen complex, el debat pot no tancar-se mai i tots dos podeu quedar-vos on éreu."
+                },
+                {
+                  "role": "Atacar el significat",
+                  "emoji": "🔤",
+                  "text": "Mostres que un terme clau no vol dir el mateix a les premisses i a la conclusió. És la més infravalorada de les tres i sovint la més decisiva, perquè els arguments interessants rarament fallen per un error de manual: fallen perquè una paraula important —llibertat, igualtat, natural, just, eficient— fa de pont entre dos sentits diferents. Un cop desfet el pont, l'argument o bé és vàlid però amb una premissa que ja ningú no accepta, o bé és sobre una altra cosa. Exigeix llegir amb molta atenció i és difícil d'improvisar."
+                }
+              ]
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-logr-03",
+              "text": "Examina sempre en aquest ordre: primer el significat dels termes clau, després la validesa de l'estructura, i només al final la veritat de les premisses. La raó no és tàctica sinó econòmica: les dues primeres objeccions són decisives i no requereixen informació externa, mentre que la tercera obre una discussió empírica que pot no tenir final. A la pràctica, la majoria de desacords persistents entre persones informades no són desacords sobre fets: són desacords sobre què volen dir les paraules amb què els descrivim."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-logr-03-01",
+              "style": "multiple-choice",
+              "question": "«Les lleis de la natura no les ha promulgat ningú. Una llei sense legislador és impossible. Per tant, hi ha d'haver un legislador de la natura.» Quin és el defecte principal?",
+              "options": [
+                "La segona premissa és falsa: hi ha lleis sense legislador",
+                "«Llei» significa coses diferents a cada premissa: regularitat descriptiva a la primera, norma promulgada a la segona, i l'argument només funciona si es confonen",
+                "La conclusió no és demostrable empíricament",
+                "L'argument és vàlid i la conclusió se'n segueix correctament"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte: és una equivocació de manual. En sentit descriptiu, una llei natural és una regularitat que observem, i no necessita cap legislador per definició. En sentit normatiu, una llei és una norma promulgada per una autoritat, i llavors la segona premissa és certa però trivial. Un cop fixat un sol sentit, l'argument o bé té una premissa falsa o bé no arriba a la conclusió. La primera opció també apunta a un problema real, però és menys profunda: no explica per què l'argument sembla convincent.",
+              "feedbackWrong": "Fixa't en la paraula «llei» i compta quants sentits té dins d'aquestes tres frases. A la primera premissa significa regularitat observada: la gravitació no la va aprovar ningú. A la segona significa norma dictada per una autoritat, i en aquest sentit és gairebé una definició. L'argument avança perquè la paraula fa de pont entre els dos sentits. Quan en fixes un de sol, el pont desapareix i l'argument s'atura."
+            },
+            {
+              "type": "reflection",
+              "question": "La paraula que fa de pont",
+              "prompt": "Pensa en un debat públic que segueixis i que et sembli encallat des de fa anys. Identifica la paraula clau que fan servir totes dues bandes —llibertat, mèrit, seguretat, natural, just— i prova d'escriure la definició que en fa servir cadascuna. Si són diferents, has trobat per què no avança: no discuteixen sobre el món, discuteixen sobre què compta com a què, i aquesta discussió no es guanya amb dades."
+            }
+          ]
+        },
+        {
+          "id": "log-r04",
+          "title": "Reconstruir un text difícil: Kant",
+          "blocks": [
+            {
+              "type": "what-would-you-do",
+              "character": "Lector davant d'un text canònic",
+              "emoji": "📖",
+              "year": "1785",
+              "setup": "Tens al davant la Fonamentació de la metafísica dels costums. Kant sosté que has d'actuar només segons una màxima que puguis voler alhora que esdevingui llei universal, i il·lustra el criteri amb el cas d'algú que considera fer una promesa que no pensa complir per sortir d'un mal pas. La prosa és densa, els termes són tècnics i cada frase depèn de distincions establertes vint pàgines abans.",
+              "dilemma": "Per on comences la reconstrucció?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Per l'exemple de la promesa: és concret i d'allà pots pujar cap al principi general"
+                },
+                {
+                  "id": "B",
+                  "text": "Per la conclusió que vol establir, i després busques quines premisses hi porten"
+                },
+                {
+                  "id": "C",
+                  "text": "Pels termes tècnics: fins que no sàpigues què significa «màxima» al text, qualsevol lectura serà una projecció"
+                }
+              ],
+              "reveal": "Les tres estratègies s'apliquen realment i les tres tenen un ordre natural entre elles. La C és una condició prèvia: sense fixar el vocabulari, els altres dos camins et portaran a un argument que no és el del text. «Màxima» no vol dir norma general de conducta sinó el principi subjectiu concret sobre el qual una persona actua en una situació determinada, i tota la prova depèn d'aquesta precisió. La B dona l'estructura. La A serveix per posar a prova la reconstrucció, i és on apareixen les objeccions més interessants.",
+              "analysis": "Aquest és el motiu pel qual els textos filosòfics canònics no es poden llegir com assaigs. El seu vocabulari no és el corrent, i fer-ne servir el sentit habitual produeix una reconstrucció que sona plausible, es refuta fàcilment i no és la del text. La major part de les objeccions que un lector se li acut a Kant en primera lectura estan contestades dins la mateixa obra, no perquè Kant tingués raó sinó perquè les havia previstes. Les objeccions que han resistit —i n'hi ha— van costar dècades i les van formular lectors que primer havien fet aquesta feina."
+            },
+            {
+              "type": "narrative",
+              "text": "Reconstruïm la prova de la promesa falsa. La conclusió és que fer una promesa que no penses complir està moralment prohibit, i observa que la prohibició es vol sense excepcions: no depèn de les conseqüències ni de la situació. La màxima que s'examina no és «menteix», sinó una cosa molt més concreta: quan em trobi en dificultats, faré una promesa que no penso complir per sortir-me'n."
+            },
+            {
+              "type": "narrative",
+              "text": "El pas decisiu és el següent. No es tracta de preguntar-se què passaria si tothom ho fes, en el sentit de calcular-ne les conseqüències dolentes: aquest és el criteri utilitarista, i Kant el rebutja explícitament. Es tracta de comprovar si la màxima es pot pensar sense contradicció com a llei universal. I aquí apareix l'argument: en un món on aquesta màxima fos llei, ningú no donaria crèdit a les promeses, i la institució mateixa de prometre desapareixeria. La màxima es destrueix a si mateixa quan s'universalitza, perquè necessita que els altres creguin en les promeses per funcionar. No és que el resultat sigui indesitjable: és que la voluntat que la sosté és incoherent amb si mateixa."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-logr-04",
+              "text": "Reconstruir un text tècnic exigeix una operació prèvia que no és filosòfica sinó filològica: fixar què signifiquen els seus termes dins d'aquell text. Un cop fet això, la reconstrucció sol ser més senzilla del que semblava, i les objeccions que sobreviuen són molt més poques i molt millors. La prova que ho has fet bé és que pots enunciar l'argument amb paraules teves, sense el vocabulari tècnic, sense que perdi la força."
+            },
+            {
+              "type": "comparison",
+              "title": "Dues lectures del mateix criteri",
+              "labelA": "Lectura conseqüencialista (incorrecta)",
+              "labelB": "Lectura de la contradicció (la del text)",
+              "items": [
+                {
+                  "label": "La pregunta que fa",
+                  "a": "Què passaria, de fet, si tothom actués així? Seria pitjor el món?",
+                  "b": "Es pot concebre sense contradicció un món on aquesta màxima sigui llei universal?"
+                },
+                {
+                  "label": "De què depèn la resposta",
+                  "a": "De prediccions empíriques sobre efectes agregats",
+                  "b": "De la coherència interna de la voluntat que adopta la màxima"
+                },
+                {
+                  "label": "Per què importa la diferència",
+                  "a": "Fa el criteri sensible a les circumstàncies, i Kant el vol incondicional",
+                  "b": "Manté la prohibició independent de qualsevol càlcul de resultats"
+                },
+                {
+                  "label": "Objecció que atreu",
+                  "a": "«I si les conseqüències de mentir fossin bones?», que no toca l'argument real",
+                  "b": "«Es pot especificar la màxima fins que deixi de contradir-se?», que sí que el toca"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Les objeccions que sí que han aguantat",
+              "content": "Un cop reconstruït correctament, l'argument segueix tenint punts febles seriosos, i val la pena veure quins són perquè il·lustren què és una bona objecció.\n\nLa primera és el problema de l'especificació. La prova s'aplica a una màxima, i qui actua és qui la formula. Si la descric amb prou detall —«quan em trobi en aquesta situació molt concreta, un dimarts, amb aquestes característiques»—, la universalització deixa de generar cap contradicció, perquè el cas és massa rar per erosionar la institució de prometre. Kant necessita un criteri per fixar el nivell de descripció correcte, i no en dona cap de clar.\n\nLa segona és l'objecció del formalisme, associada a Hegel: el criteri no genera continguts morals per si sol, sinó que només comprova la coherència de continguts que ja s'han de tenir d'abans. Detecta contradiccions en màximes que pressuposen una institució existent —prometre, la propietat—, però diu molt menys sobre què s'hauria d'institucionalitzar.\n\nLa tercera és la més coneguda i la va plantejar Benjamin Constant: si un assassí et pregunta on s'amaga la seva víctima, la prohibició sense excepcions sembla obligar a dir-li la veritat. Kant va respondre-hi en un text breu de 1797 mantenint la seva posició, i aquella resposta és probablement el passatge més discutit de tota la seva ètica.\n\nCap d'aquestes tres objeccions no es pot formular sense haver entès primer l'argument. Aquesta és tota la qüestió."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-logr-04-01",
+              "style": "multiple-choice",
+              "question": "Algú objecta al criteri kantià: «I si mentir salvés una vida? Aleshores les conseqüències de mentir serien bones i la prohibició no tindria sentit». Com s'ha de valorar aquesta objecció?",
+              "options": [
+                "És decisiva: mostra que cap norma moral no pot ser absoluta",
+                "No toca l'argument reconstruït, perquè el criteri no avalua conseqüències sinó la coherència d'universalitzar la màxima; hi ha objeccions per aquesta via, però han de formular-se com a problema de coherència o d'especificació",
+                "És irrellevant, perquè els casos extrems no serveixen per discutir principis morals",
+                "És correcta però secundària, perquè Kant ja admetia excepcions en casos de força major"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte. L'objecció pressuposa que el criteri és un càlcul de resultats, que és precisament el que Kant rebutja. Per fer-li mal per aquesta via cal reformular-la: mostrar que la màxima «mentiré per salvar una vida innocent» es pot universalitzar sense contradicció, cosa que és molt plausible, i que per tant el criteri mateix permet excepcions que Kant no volia admetre. Formulada així, l'objecció és bona i toca el problema real de l'especificació. La mateixa intuïció, un cop dirigida correctament, passa de rebotar a fer mal.",
+              "feedbackWrong": "Fixa't en quin criteri suposa l'objecció. Parla de conseqüències bones i dolentes, i el criteri kantià no les avalua: pregunta si la màxima es pot pensar com a llei universal sense contradir-se. Per això l'objecció, tal com està formulada, rebota. Això no vol dir que la intuïció de fons sigui equivocada: reformulada com a problema d'especificació de la màxima —«mentiré per salvar una vida innocent» s'universalitza sense contradicció— es converteix en una de les millors objeccions disponibles. La feina consisteix a dirigir-la bé."
+            },
+            {
+              "type": "reflection",
+              "question": "El text que vas abandonar",
+              "prompt": "Recorda algun text de filosofia que vas deixar perquè et va semblar inintel·ligible o absurd. Pregunta't ara si el problema era el vocabulari: si hi havia tres o quatre termes tècnics que llegies en el sentit corrent. Provar de recuperar-lo fixant primer aquells termes és un experiment barat, i sovint canvia completament el text."
+            }
+          ]
+        },
+        {
+          "id": "log-r05",
+          "title": "Reconstruir i refutar: Rawls davant Nozick",
+          "blocks": [
+            {
+              "type": "misconception",
+              "belief": "Quan dos filòsofs de primer nivell defensen posicions oposades sobre la justícia, és perquè parteixen de valors incompatibles i el desacord és, en el fons, irresoluble.",
+              "reality": "Els desacords filosòfics més productius solen tenir una estructura molt més precisa. Sovint comparteixen premisses de partida i divergeixen en un punt identificable: una premissa intermèdia, una analogia, un criteri sobre a quin objecte s'apliquen els principis. Localitzar aquest punt és el resultat de la feina de reconstrucció, i converteix un xoc de intuïcions en una discussió que es pot tenir.",
+              "why": "Atribuir el desacord a valors últims incompatibles és còmode per a tothom: estalvia la feina de reconstrucció i permet mantenir la pròpia posició sense examinar-la. També té una aparença de tolerància que costa de qüestionar. Però sol ser empíricament fals sobre el text: qui el llegeix amb cura hi troba, gairebé sempre, un pas concret on els camins se separen."
+            },
+            {
+              "type": "narrative",
+              "text": "L'argument de Rawls a la Teoria de la justícia té una estructura reconeixible. Demana que imaginem escollir els principis que han de regir la societat des d'una posició on no sabem quin lloc hi ocuparem: ni la classe, ni el talent, ni la concepció del bé que acabarem tenint. La idea és que la ignorància força la imparcialitat, perquè no pots dissenyar regles al teu favor si no saps qui seràs. Des d'allà, sosté, s'escollirien unes llibertats bàsiques iguals i, quant a les desigualtats econòmiques, només s'acceptarien aquelles que beneficiessin els qui queden pitjor situats."
+            },
+            {
+              "type": "narrative",
+              "text": "Nozick hi respon, tres anys després, amb un argument breu i molt eficaç. Imagina una societat on la distribució de recursos és exactament la que tu consideris justa, la que vulguis. Ara suposa que molta gent decideix lliurement pagar una petita quantitat per veure jugar un esportista excepcional. Ningú no ha estat coaccionat, cadascú ha disposat del que legítimament era seu, i al final l'esportista és molt més ric que la resta: la distribució ha deixat de correspondre al patró. La conclusió de Nozick és que qualsevol principi que fixi com han de quedar repartides les coses entrarà en conflicte permanent amb les decisions lliures de la gent, i mantenir-lo exigirà interferir-hi contínuament."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-logr-05",
+              "text": "Quan dos arguments forts xoquen, busca el punt exacte de divergència en lloc de sumar raons a favor del que prefereixes. Aquí el punt és identificable: discrepen sobre a què s'apliquen els principis de justícia. Per a Nozick, a cada transacció, i per això qualsevol patró és violat contínuament. Per a Rawls, a l'estructura bàsica de la societat —constitució, sistema fiscal, dret de propietat— dins de la qual les transaccions després es fan lliurement. Amb aquesta distinció sobre la taula, la pregunta deixa de ser «llibertat o igualtat» i passa a ser una altra, molt més tractable."
+            },
+            {
+              "type": "comparison",
+              "title": "On se separen exactament",
+              "labelA": "Rawls",
+              "labelB": "Nozick",
+              "items": [
+                {
+                  "label": "Objecte dels principis",
+                  "a": "L'estructura bàsica: institucions que fixen les regles de fons del joc social",
+                  "b": "Les transaccions individuals: cada transferència és justa o injusta per si mateixa"
+                },
+                {
+                  "label": "Què fa justa una distribució",
+                  "a": "Que resulti d'institucions que s'haurien escollit imparcialment",
+                  "b": "Que hagi resultat d'adquisicions i transferències legítimes, sigui quina sigui"
+                },
+                {
+                  "label": "Paper de la fiscalitat",
+                  "a": "Part de les regles de fons; no interfereix en una distribució prèvia sinó que la constitueix",
+                  "b": "Interferència sobre drets ja adquirits, que exigeix una justificació molt exigent"
+                },
+                {
+                  "label": "Resposta a l'altre",
+                  "a": "Les transaccions lliures pressuposen un marc de drets que algú ha hagut de definir abans",
+                  "b": "El marc no pot ser èticament anterior a les persones que hi viuen i als seus drets"
+                },
+                {
+                  "label": "Pregunta que queda oberta",
+                  "a": "Quines desigualtats beneficien realment els qui estan pitjor, i qui ho determina",
+                  "b": "Què fa legítima l'adquisició inicial, quan tota cadena de transferències comença en una apropiació"
+                }
+              ]
+            },
+            {
+              "type": "expandable",
+              "label": "Per què la rèplica de Rawls no és un canvi de tema",
+              "content": "A primera vista, respondre que els principis s'apliquen a l'estructura bàsica i no a les transaccions pot semblar una escapatòria: canviar l'objecte de la discussió quan l'argument contrari fa mal.\n\nNo ho és, i la raó és que la distinció ja hi era abans de l'objecció, i té una justificació independent. L'argument és que les transaccions individuals no es poden avaluar aïlladament perquè els seus efectes s'acumulen d'una manera que cap de les parts no controla ni preveu. Cada contracte laboral pot ser voluntari i tot el conjunt pot produir una concentració de poder que ningú no va escollir. Si només avalues transaccions, aquest resultat agregat no apareix mai a l'anàlisi, tot i ser real i tot i condicionar la llibertat de les transaccions següents.\n\nHi ha, a més, un punt que Nozick concedeix i que sovint es passa per alt: la seva teoria necessita un principi d'adquisició inicial legítima, perquè tota cadena de transferències justes ha de començar en algun lloc. Si les apropiacions històriques que hi ha a l'origen de les distribucions actuals no van ser legítimes —i en la majoria de casos documentats no ho van ser—, la seva pròpia teoria exigeix una rectificació que ell mateix reconeix que seria d'abast enorme i que no desenvolupa.\n\nAixò no resol el desacord. El converteix en dues preguntes concretes: si els efectes agregats de transaccions lliures poden fer injusta una estructura, i què fer amb un títol de propietat que descendeix d'una apropiació il·legítima. Totes dues es poden discutir. «Llibertat contra igualtat» no."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-logr-05-01",
+              "style": "multiple-choice",
+              "question": "Has reconstruït dos arguments oposats i has localitzat el punt exacte on divergeixen. Què has aconseguit?",
+              "options": [
+                "Has demostrat quin dels dos té raó, perquè el punt de divergència revela l'error",
+                "Has convertit un xoc d'intuïcions en un desacord localitzat sobre una qüestió concreta, que ara es pot discutir amb arguments independents",
+                "Has demostrat que el desacord és irresoluble, perquè prové de premisses diferents",
+                "Has reduït tots dos arguments a una preferència subjectiva"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte, i no és poca cosa: és el resultat normal de la bona filosofia. Localitzar la divergència no decideix qui té raó, però transforma la discussió. En comptes de repetir consignes generals, ara es discuteix una pregunta acotada —a quin objecte s'apliquen els principis de justícia— per a la qual es poden donar raons que no depenen de quina conclusió final prefereixis. Molts desacords no es resolen; però n'hi ha que, un cop localitzats, es mouen.",
+              "feedbackWrong": "Localitzar el punt de divergència no adjudica el debat: totes dues posicions poden tenir bones raons per situar-se on se situen. Tampoc no demostra que sigui irresoluble, ni redueix res a preferències. El que fa és canviar l'objecte de la discussió: en comptes de discutir dues visions globals del món, discuteixes una pregunta concreta i acotada. Aquest canvi és exactament el que permet que un debat avanci."
+            },
+            {
+              "type": "connection",
+              "moduleRef": "Filosofia Política",
+              "moduleEmoji": "🏛️",
+              "concept": "De la reconstrucció al contingut",
+              "text": "Aquest itinerari ha tractat Rawls i Nozick com a exercici de mètode: reconstruir, localitzar la divergència, refutar bé. El contingut d'aquest debat —què és una societat justa, què legitima la propietat, quin paper té l'Estat— s'hi tracta pel seu propi valor a Filosofia Política. Val la pena fer-hi el camí invers: agafar allà les posicions ja exposades i provar de reconstruir-les tu amb el mètode d'aquest itinerari."
+            }
+          ]
+        },
+        {
+          "id": "log-r06",
+          "title": "Refutar bé",
+          "blocks": [
+            {
+              "type": "misconception",
+              "belief": "Una bona refutació és aquella que deixa l'adversari sense resposta.",
+              "reality": "Deixar algú sense resposta és un fet sobre la conversa, no sobre l'argument. Es pot aconseguir per velocitat, per domini del vocabulari tècnic, per canviar el terreny o simplement perquè l'altre no havia pensat encara en aquella objecció. Una bona refutació és una altra cosa: identifica un pas concret, mostra per què falla i indica què hauria de passar perquè l'argument es pogués reparar. La prova és que qui la rep en surt sabent més, tant si es rendeix com si no.",
+              "why": "La confusió té arrels antigues: el model públic de la discussió és el debat competitiu, on hi ha un guanyador i un públic que el proclama. En aquest format, la refutació eficaç i la refutació correcta coincideixen només per accident. Com que la major part de les discussions que veiem tenen aquest format, n'hem après els criteris sense adonar-nos."
+            },
+            {
+              "type": "narrative",
+              "text": "Hi ha tres formes canòniques de refutar i val la pena saber-les distingir. El contraexemple mostra un cas on les premisses són certes i la conclusió falsa: n'hi ha prou amb un, i per això és la més econòmica. La reducció a l'absurd accepta provisionalment la tesi de l'altre i en deriva una conseqüència que ell mateix hauria de rebutjar. I el dilema mostra que una distinció clau de l'argument admet només dues lectures, i que en una l'argument és fals i en l'altra és trivial."
+            },
+            {
+              "type": "narrative",
+              "text": "Les tres comparteixen una virtut: són constructives malgrat les aparences. El contraexemple assenyala exactament quina condició cal afegir a la premissa per salvar-la. La reducció mostra quin compromís s'ha d'abandonar. El dilema obliga a triar un sentit i a assumir-ne el cost. En els tres casos, qui rep la refutació sap què hauria de fer a continuació. Aquest és el criteri pràctic per distingir una objecció que fa avançar la discussió d'una que només la tanca."
+            },
+            {
+              "type": "key-idea",
+              "id": "ki-logr-06",
+              "text": "Una refutació és bona si compleix tres condicions: va dirigida a la versió més forta de la posició, identifica un pas concret en lloc de rebutjar el conjunt, i deixa clar què hauria de canviar perquè l'argument funcionés. La tercera és la que se salta tothom, i és la que distingeix discutir d'acumular punts. Si en acabar la teva objecció l'altre sap exactament què hauria de demostrar per respondre't, has fet bé la feina, tant si et respon com si no."
+            },
+            {
+              "type": "primary-source",
+              "label": "Un paràgraf d'opinió, del tipus que es llegeix cada dia",
+              "source": "Text tipus, compost a partir de construccions habituals en columnes d'opinió i tribunes de premsa",
+              "text": "«Sempre hem organitzat la convivència d'aquesta manera, i ha funcionat raonablement bé. Els qui ara volen canviar-ho no han demostrat que la seva alternativa sigui millor. Fins que no ho facin, el més assenyat és mantenir el que tenim: la prudència aconsella no experimentar amb el que ja funciona.»",
+              "questions": [
+                "Reconstrueix-lo primer. Quina és exactament la conclusió, i quin n'és l'abast? Quines premisses s'hi enuncien i quines s'hi donen per suposades?",
+                "«Ha funcionat raonablement bé» és el nucli de l'argument i no té subjecte. Ha funcionat bé per a qui? Quina evidència el sostindria i quina el refutaria?",
+                "Hi ha una premissa implícita sobre la càrrega de la prova: que li correspon a qui proposa el canvi. Es pot defensar, però s'ha de defensar. Quan és raonable i quan no?",
+                "L'últim argument és de prudència davant la incertesa, i és diferent dels anteriors: no diu que el que tenim sigui bo, sinó que no en sabem prou. Quina força té realment, i s'aplicaria igual si el que tenim tingués costos coneguts per a algú?"
+              ]
+            },
+            {
+              "type": "debate",
+              "question": "Cal reconstruir caritativament una posició que consideres de mala fe?",
+              "context": "El principi de caritat es defensa fàcilment entre interlocutors honestos. La pregunta difícil apareix quan tens bones raons per creure que qui argumenta no busca la veritat sinó un efecte, i que refinar-li l'argument és fer-li la feina.",
+              "positionA": {
+                "label": "Sí, sempre: la caritat és amb l'argument, no amb qui el fa",
+                "argument": "Un argument és bo o dolent independentment de les intencions de qui el formula, i les intencions gairebé mai no es coneixen amb la seguretat amb què creiem conèixer-les. Si refutes la versió feble, deixes la versió forta intacta i disponible perquè algú altre la reculli. A més, l'excepció és inestable: un cop admets que a certs interlocutors no els deus una lectura honesta, la categoria s'amplia sola fins a incloure tothom qui et molesta. La caritat protegeix la teva pròpia capacitat de pensar abans que la de ningú altre."
+              },
+              "positionB": {
+                "label": "No sempre: hi ha usos del llenguatge que no són arguments",
+                "argument": "Tractar com a argument el que funciona com una altra cosa —una consigna, una provocació calculada, una inundació de propostes que no es pensen defensar— és un error de categoria, i té un cost real: dediques temps i atenció a refinar una cosa que no busca ser refinada, i en fer-ho li dones l'estatus de posició seriosa davant de qui mira. La resposta correcta a un moviment retòric no és una reconstrucció caritativa sinó descriure què està fent. Això no és renunciar al rigor; és aplicar-lo a l'objecte correcte."
+              },
+              "reflection": "Fixa't que les dues posicions coincideixen en un punt pràctic: cap no defensa refutar l'home de palla. La discrepància és sobre quan una intervenció mereix ser tractada com un argument. I totes dues reconeixen el mateix risc en direccions oposades: una tem regalar autoritat a la mala fe, l'altra tem donar-se permís per no escoltar. Saber quin dels dos riscos tendeixes a córrer tu és més útil que decidir qui té raó en abstracte."
+            },
+            {
+              "type": "exercise",
+              "id": "ex-logr-06-01",
+              "style": "multiple-choice",
+              "question": "Quina d'aquestes intervencions és una refutació en sentit estricte?",
+              "options": [
+                "«Aquest argument l'han fet servir històricament per justificar coses terribles»",
+                "«Si aquest criteri fos correcte, hauríem de concloure també això altre, que tu mateix rebutges; per tant, o bé acceptes aquesta conseqüència o bé has d'abandonar el criteri»",
+                "«Ningú que conegui el tema de prop no defensa ja aquesta posició»",
+                "«No has tingut en compte com n'és, de complex, aquest assumpte»"
+              ],
+              "correct": 1,
+              "feedbackCorrect": "Exacte: és una reducció a l'absurd ben construïda. Accepta provisionalment el criteri de l'altre, en deriva una conseqüència que ell mateix rebutja, i li deixa oberta una sortida honesta —acceptar la conseqüència— en lloc de tancar-li la porta. Compleix les tres condicions: ataca la posició real, identifica un pas concret, i deixa clar què hauria de fer per respondre. Les altres tres parlen de la història de l'argument, del consens, o de la complexitat del tema: cap no toca cap premissa ni cap inferència.",
+              "feedbackWrong": "Comprova si la intervenció toca alguna premissa o algun pas inferencial. La primera parla de l'ús històric de l'argument, que no en determina la validesa. La tercera apel·la al consens dels experts, que és un indici raonable però no una refutació: no diu on falla. La quarta assenyala una complexitat sense dir quina premissa afecta ni com. Només una accepta el criteri de l'altre i en deriva una conseqüència que l'obliga a triar."
+            },
+            {
+              "type": "reflection",
+              "question": "La teva pròpia posició, sotmesa al mètode",
+              "prompt": "Agafa una convicció teva que consideris sòlida i aplica-li els sis passos d'aquest itinerari: enuncia'n l'argument en la versió més forta, explicita les premisses que no dius, comprova la validesa del pas a la conclusió, fixa el sentit dels termes clau, busca on divergiries de qui pensa el contrari, i intenta construir la millor objecció possible contra tu mateix. Si l'objecció que trobes et sembla fàcil de respondre, probablement no has buscat prou. Aquest exercici és l'únic de l'itinerari que no té resposta correcta i és l'únic que importa de veritat."
+            }
+          ]
+        }
+      ]
     }
   ],
-  "xp": 280,
+  "xp": 420,
   "order": 56,
   "glossaryTerms": [
     "g-logica",
