@@ -116,7 +116,7 @@ export const LEARNING_PATHS = [
     accentColor: '#9B6DD6',
     areaId: 'pensament',
     modules: [
-      { id: 'module-30-introduccio-filosofia', title: 'Introducció a la Filosofia', emoji: '🦉', note: 'El punt de partida: per a què serveix la filosofia i quines preguntes intenta respondre',     minutes: 18 },
+      { id: 'module-30-introduccio-filosofia', title: 'Els Grans Pensadors: de Sòcrates a Nietzsche', emoji: '🦉', note: 'Què és la filosofia i qui la va anar construint, de Sòcrates a Nietzsche',     minutes: 18 },
       { id: 'module-32-logica-argumentacio',   title: 'Lògica i Argumentació',     emoji: '🧩', note: 'L\'eina fonamental: com construir arguments vàlids i detectar fal·làcies',                    minutes: 20 },
       { id: 'module-33-epistemologia',         title: 'Epistemologia',              emoji: '🔍', note: 'La pregunta profunda: com sabem el que sabem i quins límits té el coneixement humà',          minutes: 22 },
       { id: 'module-31-etica',                 title: 'Ètica',                      emoji: '⚖️', note: 'Com decidir el que és correcte: utilitarisme, deontologia i ètiques de la virtut',           minutes: 20 },
